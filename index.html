@@ -1089,6 +1089,82 @@
     body { background: white; color: black; padding: 0; }
     .panel, .results-hero, .review-panel { border: 1px solid #ccc; box-shadow: none; }
   }
+
+  /* ------------------------------------------------------------- */
+  /* MOBILE RESPONSIVE OVERRIDES                                   */
+  /* ------------------------------------------------------------- */
+  @media (max-width: 768px) {
+    body { padding-bottom: 130px; }
+
+    .nav-container { padding: 10px 14px; gap: 10px; }
+    .brand-badge { font-size: 12px; padding: 3px 7px; }
+    .brand-title { font-size: 14px; }
+    .brand-sub { font-size: 11px; }
+    .header-actions { gap: 8px; }
+    .timer-box { padding: 5px 10px; font-size: 13px; }
+    .icon-btn { width: 32px; height: 32px; }
+
+    .candidate-banner {
+      margin: 12px auto 0;
+      padding: 0 14px;
+      flex-direction: column;
+      align-items: stretch;
+      gap: 10px;
+    }
+    .candidate-input-wrap { flex-wrap: wrap; }
+    .candidate-input { min-width: 0; flex: 1; width: 100%; }
+    .font-size-controls { align-self: flex-start; }
+
+    .tabs-wrapper { margin: 12px auto 0; padding: 0 14px; }
+    .tab-btn { padding: 7px 12px; font-size: 12.5px; }
+
+    .main-container { margin: 14px auto 0; padding: 0 14px; }
+    .content-grid { gap: 14px; }
+    .panel { padding: 16px; border-radius: var(--radius-lg); }
+
+    /* Let the passage panel scroll in place instead of pinning itself
+       to the viewport, which fights with the stacked mobile layout */
+    .sticky-panel {
+      position: static;
+      max-height: none;
+      overflow-y: visible;
+    }
+
+    .panel-title { font-size: 16px; }
+    .reading-text { font-size: var(--text-size, 14.5px); }
+
+    .ads-board { padding: 6px 2px 16px; gap: 18px; }
+
+    .question-card { padding: 14px; }
+    .options-group.inline { flex-direction: column; }
+    .option-label { padding: 10px 12px; }
+
+    .match-select-wrap { flex-direction: column; align-items: stretch; gap: 8px; }
+    .match-select { min-width: 0; width: 100%; }
+
+    /* Bottom action bar: stack progress + nav buttons, wrap buttons */
+    .footer-actionbar { padding: 10px 14px; }
+    .footer-content { flex-direction: column; align-items: stretch; gap: 10px; }
+    .progress-info { justify-content: center; }
+    .nav-buttons { justify-content: center; flex-wrap: wrap; }
+    .btn { padding: 9px 14px; font-size: 13px; }
+
+    .results-hero { padding: 24px 16px; }
+    .score-circle { width: 110px; height: 110px; }
+    .score-big { font-size: 26px; }
+    .teil-scores-grid { grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 10px; }
+
+    .review-panel { padding: 16px; }
+    .review-header { flex-direction: column; align-items: flex-start; }
+    .review-item { padding: 12px; gap: 10px; }
+  }
+
+  @media (max-width: 420px) {
+    .candidate-input-wrap { flex-direction: column; align-items: flex-start; gap: 6px; }
+    .nav-buttons .btn span, .nav-buttons .btn { font-size: 12.5px; }
+    .header-actions { flex-wrap: wrap; justify-content: flex-end; }
+    .score-circle { width: 96px; height: 96px; }
+  }
 </style>
 </head>
 <body>
@@ -1197,7 +1273,7 @@
       <div class="nav-buttons">
         <button class="btn btn-outline" id="prevTeilBtn">← Zurück</button>
         <button class="btn btn-outline" id="nextTeilBtn">Weiter →</button>
-        <button class="btn btn-success" id="submitBtn">Test abgeben</button>
+        <button class="btn btn-success" id="submitBtn" style="display:none;">Test abgeben</button>
       </div>
     </div>
   </footer>
@@ -1819,7 +1895,10 @@ function updateProgress() {
   document.getElementById('progressFill').style.width = `${pct}%`;
   
   document.getElementById('prevTeilBtn').disabled = activeTeil === 1;
-  document.getElementById('nextTeilBtn').textContent = activeTeil === 5 ? 'Zur Übersicht' : 'Weiter →';
+
+  const isLastTeil = activeTeil === 5;
+  document.getElementById('nextTeilBtn').style.display = isLastTeil ? 'none' : '';
+  document.getElementById('submitBtn').style.display = isLastTeil ? '' : 'none';
 }
 
 document.getElementById('prevTeilBtn').addEventListener('click', () => {
@@ -2041,4 +2120,4 @@ renderCurrentTeil();
 startTimer();
 </script>
 </body>
-</html>
+</html>
