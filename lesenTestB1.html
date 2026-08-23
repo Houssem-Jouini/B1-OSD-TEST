@@ -1,0 +1,2044 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zertifikat B1 — Lesen Prüfungssimulation</title>
+<style>
+  :root {
+    --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    --font-serif: "Georgia", "Cambria", "Times New Roman", serif;
+    --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    --font-hand: "Comic Sans MS", "Chalkboard SE", "Comic Neue", cursive, sans-serif;
+    
+    /* Light Theme */
+    --bg-app: #f1f5f9;
+    --bg-card: #ffffff;
+    --bg-card-subtle: #f8fafc;
+    --bg-input: #ffffff;
+    --border: #e2e8f0;
+    --border-hover: #cbd5e1;
+    --border-focus: #3b82f6;
+    
+    --text-main: #0f172a;
+    --text-muted: #64748b;
+    --text-subtle: #94a3b8;
+    
+    --primary: #3b82f6;
+    --primary-hover: #2563eb;
+    --primary-light: #eff6ff;
+    --primary-text: #1d4ed8;
+    
+    --success: #10b981;
+    --success-light: #ecfdf5;
+    --success-text: #047857;
+    
+    --danger: #ef4444;
+    --danger-light: #fef2f2;
+    --danger-text: #b91c1c;
+    
+    --warning: #f59e0b;
+    --warning-light: #fffbeb;
+    --warning-text: #b45309;
+
+    --radius-sm: 6px;
+    --radius-md: 10px;
+    --radius-lg: 14px;
+    --radius-xl: 20px;
+    
+    --shadow-sm: 0 1px 3px rgba(0,0,0,0.06);
+    --shadow-md: 0 4px 8px -2px rgba(0,0,0,0.08), 0 2px 4px -2px rgba(0,0,0,0.04);
+    --shadow-lg: 0 10px 20px -3px rgba(0,0,0,0.1);
+  }
+
+  [data-theme="dark"] {
+    --bg-app: #0b1120;
+    --bg-card: #131d31;
+    --bg-card-subtle: #1c2842;
+    --bg-input: #17233c;
+    --border: #233354;
+    --border-hover: #334b77;
+    
+    --text-main: #f8fafc;
+    --text-muted: #94a3b8;
+    --text-subtle: #64748b;
+    
+    --primary-light: rgba(59, 130, 246, 0.15);
+    --primary-text: #60a5fa;
+    --success-light: rgba(16, 185, 129, 0.15);
+    --success-text: #34d399;
+    --danger-light: rgba(239, 68, 68, 0.15);
+    --danger-text: #f87171;
+    --warning-light: rgba(245, 158, 11, 0.15);
+    --warning-text: #fbbf24;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: var(--bg-app);
+    color: var(--text-main);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    padding-bottom: 90px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+
+  /* Navigation & Header */
+  .navbar {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    background: var(--bg-card);
+    border-bottom: 1px solid var(--border);
+    backdrop-filter: blur(12px);
+    box-shadow: var(--shadow-sm);
+  }
+
+  .nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 12px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .brand-badge {
+    background: linear-gradient(135deg, #3b82f6, #6366f1);
+    color: white;
+    font-weight: 800;
+    font-size: 13px;
+    padding: 4px 8px;
+    border-radius: var(--radius-sm);
+    letter-spacing: 0.05em;
+  }
+  .brand-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--text-main);
+  }
+  .brand-sub {
+    font-size: 12px;
+    color: var(--text-muted);
+  }
+
+  .header-actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .timer-box {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: var(--bg-card-subtle);
+    padding: 6px 14px;
+    border-radius: var(--radius-xl);
+    border: 1px solid var(--border);
+    font-family: var(--font-mono);
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-main);
+  }
+  .timer-box.warning {
+    color: var(--danger);
+    border-color: var(--danger);
+    background: var(--danger-light);
+    animation: pulse 1s infinite alternate;
+  }
+  @keyframes pulse { from { opacity: 0.8; } to { opacity: 1; } }
+
+  .icon-btn {
+    background: transparent;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-muted);
+    cursor: pointer;
+    transition: all 0.15s ease;
+  }
+  .icon-btn:hover {
+    background: var(--bg-card-subtle);
+    color: var(--text-main);
+    border-color: var(--border-hover);
+  }
+
+  /* Candidate Banner */
+  .candidate-banner {
+    max-width: 1200px;
+    margin: 16px auto 0;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  .candidate-input-wrap {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .candidate-input-wrap label {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text-muted);
+  }
+  .candidate-input {
+    background: var(--bg-input);
+    border: 1px solid var(--border);
+    padding: 6px 12px;
+    border-radius: var(--radius-md);
+    color: var(--text-main);
+    font-size: 14px;
+    outline: none;
+    transition: border 0.15s;
+    min-width: 220px;
+  }
+  .candidate-input:focus { border-color: var(--primary); }
+
+  .font-size-controls {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    background: var(--bg-card-subtle);
+    padding: 3px;
+    border-radius: var(--radius-md);
+    border: 1px solid var(--border);
+  }
+  .font-size-btn {
+    border: none;
+    background: transparent;
+    color: var(--text-muted);
+    font-size: 12px;
+    font-weight: 600;
+    padding: 3px 8px;
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+  }
+  .font-size-btn.active {
+    background: var(--bg-card);
+    color: var(--text-main);
+    box-shadow: var(--shadow-sm);
+  }
+
+  /* Tabs Bar */
+  .tabs-wrapper {
+    max-width: 1200px;
+    margin: 16px auto 0;
+    padding: 0 20px;
+  }
+  .tabs {
+    display: flex;
+    gap: 8px;
+    border-bottom: 1px solid var(--border);
+    overflow-x: auto;
+    scrollbar-width: none;
+    padding-bottom: 8px;
+  }
+  .tabs::-webkit-scrollbar { display: none; }
+
+  .tab-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    border-radius: var(--radius-lg);
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    color: var(--text-muted);
+    font-size: 13.5px;
+    font-weight: 600;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: all 0.15s ease;
+  }
+  .tab-btn:hover {
+    background: var(--bg-card-subtle);
+    color: var(--text-main);
+  }
+  .tab-btn.active {
+    background: var(--primary);
+    color: #ffffff;
+    border-color: var(--primary);
+    box-shadow: 0 2px 8px rgba(59, 130, 246, 0.35);
+  }
+  .tab-badge {
+    font-size: 11px;
+    background: var(--bg-card-subtle);
+    color: var(--text-muted);
+    padding: 2px 7px;
+    border-radius: 12px;
+    font-weight: 700;
+  }
+  .tab-btn.active .tab-badge {
+    background: rgba(255, 255, 255, 0.25);
+    color: #ffffff;
+  }
+  .tab-btn.completed .tab-badge {
+    background: var(--success-light);
+    color: var(--success-text);
+  }
+  .tab-btn.active.completed .tab-badge {
+    background: rgba(255,255,255,0.3);
+    color: #ffffff;
+  }
+
+  /* Main Layout */
+  .main-container {
+    max-width: 1200px;
+    margin: 20px auto 0;
+    padding: 0 20px;
+  }
+
+  .content-grid {
+    display: grid;
+    grid-template-columns: 1.15fr 1fr;
+    gap: 24px;
+    align-items: start;
+  }
+  @media (max-width: 960px) {
+    .content-grid { grid-template-columns: 1fr; }
+  }
+
+  /* Card Containers */
+  .panel {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-xl);
+    padding: 24px;
+    box-shadow: var(--shadow-sm);
+  }
+
+  .sticky-panel {
+    position: sticky;
+    top: 76px;
+    max-height: calc(100vh - 170px);
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: var(--border) transparent;
+  }
+  .sticky-panel::-webkit-scrollbar { width: 6px; }
+  .sticky-panel::-webkit-scrollbar-thumb { background-color: var(--border); border-radius: 4px; }
+
+  /* Typography inside Passages */
+  .panel-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid var(--border);
+  }
+  .panel-title {
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .panel-meta-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--primary-text);
+    background: var(--primary-light);
+    padding: 4px 10px;
+    border-radius: var(--radius-xl);
+  }
+
+  .instruction-box {
+    background: var(--bg-card-subtle);
+    border-left: 4px solid var(--primary);
+    padding: 12px 16px;
+    border-radius: 0 var(--radius-md) var(--radius-md) 0;
+    font-size: 13.5px;
+    color: var(--text-muted);
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+
+  .reading-text {
+    font-size: var(--text-size, 15.5px);
+    line-height: 1.7;
+    color: var(--text-main);
+  }
+  .reading-text h3 {
+    font-size: 1.25em;
+    margin: 18px 0 6px;
+    color: var(--text-main);
+  }
+  .reading-text .article-sub {
+    font-size: 0.92em;
+    color: var(--text-muted);
+    font-style: italic;
+    margin-bottom: 14px;
+  }
+  .reading-text p {
+    margin-bottom: 14px;
+  }
+  .reading-text .article-meta-date {
+    font-size: 0.8em;
+    font-family: var(--font-mono);
+    color: var(--text-subtle);
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  .reading-text .article-source {
+    margin-top: 14px;
+    font-size: 0.85em;
+    color: var(--text-muted);
+    text-align: right;
+    font-style: italic;
+  }
+
+  /* ------------------------------------------------------------- */
+  /* TEIL 3: AUTHENTIC BOOK AD DESIGNS */
+  /* ------------------------------------------------------------- */
+  .ads-board {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    padding: 10px 4px 20px;
+  }
+
+  .ad-wrapper {
+    position: relative;
+    padding-top: 6px;
+  }
+
+  .ad-letter-tag {
+    position: absolute;
+    top: -4px;
+    z-index: 10;
+    font-family: var(--font-sans);
+    font-weight: 800;
+    font-size: 13px;
+    color: #1e293b;
+    background: #ffffff;
+    border: 1.5px solid #64748b;
+    border-radius: 4px;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.12);
+  }
+  .ad-wrapper.tag-left .ad-letter-tag { left: 8px; }
+  .ad-wrapper.tag-right .ad-letter-tag { right: 8px; }
+
+  /* Pushpin Element */
+  .pushpin {
+    position: absolute;
+    top: -6px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 14px;
+    height: 14px;
+    background: radial-gradient(circle at 40% 35%, #cbd5e1, #64748b 70%, #334155);
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3), inset 0 1px 1px #ffffff;
+    z-index: 8;
+  }
+  .pushpin::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 6px;
+    height: 6px;
+    background: #e2e8f0;
+    border-radius: 50%;
+  }
+
+  /* Base Paper Note */
+  .book-ad {
+    padding: 16px 18px;
+    border-radius: 4px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+    position: relative;
+    color: #1c2b3a;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  .book-ad:hover {
+    transform: scale(1.01) !important;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+  }
+
+  /* AD A: Red Hand-Sketched Note */
+  .ad-style-a {
+    background: #ffffff;
+    border: 2px solid #ef4444;
+    border-radius: 6px 3px 8px 4px;
+    transform: rotate(-1.2deg);
+    font-family: var(--font-sans);
+  }
+  .ad-style-a .ad-headline {
+    color: #b91c1c;
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 6px;
+  }
+
+  /* AD B: Blue Marker-Border Note */
+  .ad-style-b {
+    background: #ffffff;
+    border: 2px solid #3b82f6;
+    border-radius: 4px 8px 3px 6px;
+    transform: rotate(1.2deg);
+    font-family: var(--font-sans);
+  }
+  .ad-style-b .ad-headline {
+    color: #1d4ed8;
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 6px;
+  }
+
+  /* AD C: Yellow Post-it "Russische Literatur" */
+  .ad-style-c {
+    background: #fef08a;
+    border: 1px solid #fde047;
+    border-radius: 2px 2px 12px 2px;
+    transform: rotate(-1deg);
+    color: #332d16;
+    box-shadow: 2px 4px 10px rgba(0,0,0,0.08);
+  }
+  .ad-style-c .ad-headline-hand {
+    font-family: var(--font-hand);
+    color: #dc2626;
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+  }
+  .ad-style-c p { font-style: italic; }
+
+  /* AD D: Soft Pink Note "Paketfahrer gesucht" */
+  .ad-style-d {
+    background: #ffe4e6;
+    border: 1px solid #fecdd3;
+    border-radius: 10px;
+    transform: rotate(1.4deg);
+    color: #4c0519;
+  }
+  .ad-style-d .ad-headline {
+    font-family: var(--font-serif);
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 800;
+    color: #881337;
+    margin-bottom: 8px;
+  }
+
+  /* AD E: Cyan Rounded Flyer "Ponyhof sucht Aushilfskräfte" */
+  .ad-style-e {
+    background: #cffafe;
+    border: 1px solid #a5f3fc;
+    border-radius: 18px;
+    transform: rotate(-1deg);
+    text-align: center;
+    color: #164e63;
+  }
+  .ad-style-e .ad-headline {
+    color: #dc2626;
+    font-size: 17px;
+    font-weight: 800;
+    margin-bottom: 8px;
+  }
+
+  /* AD F: Periwinkle Internship Card */
+  .ad-style-f {
+    background: #eff6ff;
+    border: 1px solid #bfdbfe;
+    border-radius: 6px;
+    transform: rotate(0.8deg);
+    color: #1e3a8a;
+  }
+  .ad-style-f .ad-headline {
+    color: #2563eb;
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 6px;
+    line-height: 1.35;
+  }
+
+  /* AD G: Clean Translation Agency Memo */
+  .ad-style-g {
+    background: #f8fafc;
+    border: 1px solid #cbd5e1;
+    border-left: 5px solid #64748b;
+    border-radius: 4px;
+    transform: rotate(-0.8deg);
+    color: #334155;
+  }
+  .ad-style-g .ad-headline {
+    color: #0f172a;
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 6px;
+  }
+
+  /* AD H: Newspaper Classified Box "KLEINEN TEELADEN" */
+  .ad-style-h {
+    background: #fdfbf7;
+    border: 2px solid #44403c;
+    border-radius: 2px;
+    transform: rotate(0.6deg);
+    font-family: var(--font-serif);
+    color: #292524;
+    box-shadow: 2px 3px 8px rgba(0,0,0,0.07);
+  }
+  .ad-style-h .ad-sub-cap {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+  .ad-style-h .ad-headline-tea {
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+  }
+  .ad-style-h .italic-body {
+    font-style: italic;
+    font-size: 14px;
+    line-height: 1.45;
+  }
+
+  /* AD I: Computer Notdienst */
+  .ad-style-i {
+    background: #f0f9ff;
+    border: 1.5px solid #bae6fd;
+    border-radius: 8px;
+    transform: rotate(-1.1deg);
+    color: #0c4a6e;
+  }
+
+  /* AD J: Clara-Zetkin-Institut Note */
+  .ad-style-j {
+    background: #fefce8;
+    border: 1px solid #fef08a;
+    border-radius: 2px;
+    transform: rotate(1deg);
+    color: #422006;
+  }
+
+  /* Letter Cards (Teil 4) */
+  .letter-card {
+    background: var(--bg-card-subtle);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    padding: 16px;
+    margin-bottom: 16px;
+  }
+  .letter-author {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--primary-text);
+    margin-bottom: 8px;
+  }
+  .letter-body {
+    font-size: 14.5px;
+    color: var(--text-main);
+    margin-bottom: 14px;
+    line-height: 1.6;
+  }
+
+  /* Example Box */
+  .example-pill {
+    background: var(--bg-card-subtle);
+    border: 1px dashed var(--border-hover);
+    border-radius: var(--radius-md);
+    padding: 10px 14px;
+    font-size: 13px;
+    color: var(--text-muted);
+    margin-bottom: 20px;
+  }
+  .example-pill strong { color: var(--text-main); }
+
+  /* Question Items */
+  .question-list {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+  .question-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    padding: 18px;
+    transition: all 0.2s ease;
+  }
+  .question-card:hover {
+    border-color: var(--border-hover);
+    box-shadow: var(--shadow-sm);
+  }
+  .question-card.answered {
+    border-left: 4px solid var(--primary);
+  }
+  .question-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 14px;
+  }
+  .q-number {
+    background: var(--bg-card-subtle);
+    color: var(--text-main);
+    font-size: 13px;
+    font-weight: 700;
+    min-width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--border);
+    flex-shrink: 0;
+  }
+  .question-card.answered .q-number {
+    background: var(--primary-light);
+    color: var(--primary-text);
+    border-color: transparent;
+  }
+  .q-title {
+    font-size: 14.5px;
+    font-weight: 600;
+    color: var(--text-main);
+    line-height: 1.5;
+    flex-grow: 1;
+  }
+  .flag-btn {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: var(--text-subtle);
+    padding: 4px;
+    border-radius: var(--radius-sm);
+    transition: color 0.15s ease;
+  }
+  .flag-btn:hover, .flag-btn.flagged { color: var(--warning); }
+
+  /* Option Buttons */
+  .options-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .options-group.inline {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .option-label {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 14px;
+    border-radius: var(--radius-md);
+    background: var(--bg-card-subtle);
+    border: 1.5px solid transparent;
+    font-size: 14px;
+    color: var(--text-main);
+    cursor: pointer;
+    transition: all 0.15s ease;
+    user-select: none;
+  }
+  .option-label:hover {
+    background: var(--bg-app);
+    border-color: var(--border-hover);
+  }
+  .option-label.selected {
+    background: var(--primary-light);
+    border-color: var(--primary);
+    color: var(--primary-text);
+    font-weight: 600;
+  }
+  .option-label input { display: none; }
+
+  .custom-radio {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 2px solid var(--text-subtle);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    transition: all 0.15s ease;
+  }
+  .option-label.selected .custom-radio {
+    border-color: var(--primary);
+    background: var(--primary);
+  }
+  .custom-radio::after {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: white;
+    display: none;
+  }
+  .option-label.selected .custom-radio::after { display: block; }
+
+  /* Match Dropdown */
+  .match-select-wrap {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 6px;
+  }
+  .match-select {
+    appearance: none;
+    background: var(--bg-input) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%2364748b' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E") no-repeat right 12px center;
+    border: 1.5px solid var(--border);
+    padding: 9px 36px 9px 14px;
+    border-radius: var(--radius-md);
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-main);
+    cursor: pointer;
+    min-width: 190px;
+    outline: none;
+    transition: all 0.15s ease;
+  }
+  .match-select:focus { border-color: var(--primary); }
+  .match-select.filled {
+    border-color: var(--primary);
+    background-color: var(--primary-light);
+    color: var(--primary-text);
+  }
+
+  /* Bottom Sticky Action Bar */
+  .footer-actionbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: var(--bg-card);
+    border-top: 1px solid var(--border);
+    padding: 12px 20px;
+    z-index: 40;
+    box-shadow: 0 -4px 12px rgba(0,0,0,0.05);
+  }
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+  }
+  .progress-info {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .progress-track {
+    width: 140px;
+    height: 8px;
+    background: var(--bg-card-subtle);
+    border-radius: 4px;
+    overflow: hidden;
+    border: 1px solid var(--border);
+  }
+  @media (max-width: 600px) { .progress-track { display: none; } }
+  .progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #3b82f6, #10b981);
+    width: 0%;
+    transition: width 0.3s ease;
+  }
+  .progress-text {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text-muted);
+  }
+
+  .nav-buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-size: 13.5px;
+    font-weight: 600;
+    padding: 9px 18px;
+    border-radius: var(--radius-md);
+    cursor: pointer;
+    transition: all 0.15s ease;
+    border: none;
+    text-decoration: none;
+  }
+  .btn-outline {
+    background: transparent;
+    border: 1px solid var(--border);
+    color: var(--text-main);
+  }
+  .btn-outline:hover {
+    background: var(--bg-card-subtle);
+    border-color: var(--border-hover);
+  }
+  .btn-primary {
+    background: var(--primary);
+    color: #ffffff;
+    box-shadow: 0 2px 6px rgba(59, 130, 246, 0.35);
+  }
+  .btn-primary:hover {
+    background: var(--primary-hover);
+    box-shadow: 0 4px 10px rgba(59, 130, 246, 0.45);
+  }
+  .btn-success {
+    background: var(--success);
+    color: #ffffff;
+    box-shadow: 0 2px 6px rgba(16, 185, 129, 0.35);
+  }
+  .btn-success:hover { background: #059669; }
+
+  /* Results Section */
+  #resultsScreen { display: none; }
+  .results-hero {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-xl);
+    padding: 36px 24px;
+    text-align: center;
+    margin-bottom: 24px;
+    box-shadow: var(--shadow-sm);
+  }
+  .score-circle {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background: conic-gradient(var(--score-color, #10b981) calc(var(--score-pct, 0) * 1%), var(--border) 0);
+    padding: 8px;
+  }
+  .score-circle-inner {
+    width: 100%;
+    height: 100%;
+    background: var(--bg-card);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .score-big {
+    font-size: 32px;
+    font-weight: 800;
+    color: var(--text-main);
+    line-height: 1.1;
+  }
+  .score-pct {
+    font-size: 13px;
+    color: var(--text-muted);
+    font-weight: 600;
+  }
+
+  .status-tag {
+    display: inline-block;
+    padding: 6px 18px;
+    border-radius: var(--radius-xl);
+    font-weight: 800;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    margin-bottom: 12px;
+  }
+  .status-tag.pass {
+    background: var(--success-light);
+    color: var(--success-text);
+    border: 1.5px solid var(--success);
+  }
+  .status-tag.fail {
+    background: var(--danger-light);
+    color: var(--danger-text);
+    border: 1.5px solid var(--danger);
+  }
+
+  /* Teil Breakdown Cards */
+  .teil-scores-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 14px;
+    margin-bottom: 24px;
+  }
+  .teil-score-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    padding: 16px;
+    text-align: center;
+  }
+  .teil-score-card .title {
+    font-size: 13px;
+    color: var(--text-muted);
+    font-weight: 600;
+    margin-bottom: 6px;
+  }
+  .teil-score-card .val {
+    font-size: 24px;
+    font-weight: 800;
+    color: var(--text-main);
+  }
+
+  /* Review Filters & List */
+  .review-panel {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-xl);
+    padding: 24px;
+  }
+  .review-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 20px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid var(--border);
+  }
+  .filter-pills {
+    display: flex;
+    gap: 6px;
+  }
+  .filter-btn {
+    background: var(--bg-card-subtle);
+    border: 1px solid var(--border);
+    color: var(--text-muted);
+    font-size: 12.5px;
+    font-weight: 600;
+    padding: 4px 12px;
+    border-radius: var(--radius-xl);
+    cursor: pointer;
+  }
+  .filter-btn.active {
+    background: var(--text-main);
+    color: var(--bg-card);
+    border-color: var(--text-main);
+  }
+
+  .review-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    padding: 14px;
+    border-radius: var(--radius-md);
+    margin-bottom: 10px;
+    background: var(--bg-card-subtle);
+    border: 1px solid var(--border);
+  }
+  .review-item.correct { border-left: 4px solid var(--success); }
+  .review-item.incorrect { border-left: 4px solid var(--danger); }
+  
+  .review-badge {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 800;
+    flex-shrink: 0;
+  }
+  .review-item.correct .review-badge { background: var(--success); color: white; }
+  .review-item.incorrect .review-badge { background: var(--danger); color: white; }
+
+  .review-content { flex-grow: 1; }
+  .review-qtitle { font-size: 14px; font-weight: 600; margin-bottom: 4px; }
+  .review-answers { font-size: 13px; color: var(--text-muted); }
+  .review-answers strong { color: var(--text-main); }
+  .review-answers .ans-correct { color: var(--success-text); font-weight: 700; }
+  .review-answers .ans-wrong { color: var(--danger-text); font-weight: 700; text-decoration: line-through; }
+
+  @media print {
+    .navbar, .candidate-banner, .tabs-wrapper, .footer-actionbar, .font-size-controls, .filter-pills, .icon-btn { display: none !important; }
+    body { background: white; color: black; padding: 0; }
+    .panel, .results-hero, .review-panel { border: 1px solid #ccc; box-shadow: none; }
+  }
+</style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="nav-container">
+      <div class="brand">
+        <div class="brand-badge">B1</div>
+        <div>
+          <div class="brand-title">Goethe / ÖSD B1 Prüfungssimulation</div>
+          <div class="brand-sub">Modul Lesen · 5 Teile · 65 Minuten</div>
+        </div>
+      </div>
+      <div class="header-actions">
+        <div class="timer-box" id="timerBox">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          <span id="timerDisplay">65:00</span>
+          <button class="flag-btn" id="timerToggle" title="Timer Pause/Play" style="margin-left:2px;">
+            <svg id="timerIcon" width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>
+          </button>
+        </div>
+        <button class="icon-btn" id="themeToggle" title="Theme wechseln">
+          <svg id="themeIcon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Candidate details banner -->
+  <div class="candidate-banner" id="candidateBanner">
+    <div class="candidate-input-wrap">
+      <label for="friendName">Kandidat(in):</label>
+      <input type="text" id="friendName" class="candidate-input" placeholder="Vollständiger Name">
+    </div>
+    <div class="font-size-controls">
+      <button class="font-size-btn" data-size="14px">A-</button>
+      <button class="font-size-btn active" data-size="15.5px">Standard</button>
+      <button class="font-size-btn" data-size="17.5px">A+</button>
+    </div>
+  </div>
+
+  <!-- Part Navigation Tabs -->
+  <div class="tabs-wrapper" id="tabsWrapper">
+    <nav class="tabs" id="tabs"></nav>
+  </div>
+
+  <!-- Main Split Layout Area -->
+  <main class="main-container" id="testAreaContainer">
+    <div class="content-grid" id="testGrid">
+      <!-- Left: Reading Passage (Sticky) -->
+      <section class="panel sticky-panel" id="passagePanel"></section>
+      <!-- Right: Questions & Options -->
+      <section class="panel" id="questionsPanel"></section>
+    </div>
+  </main>
+
+  <!-- Results Screen -->
+  <main class="main-container" id="resultsScreen">
+    <div class="results-hero">
+      <div class="score-circle" id="scoreCircle">
+        <div class="score-circle-inner">
+          <div class="score-big" id="resTotalPts">0/30</div>
+          <div class="score-pct" id="resTotalPct">0%</div>
+        </div>
+      </div>
+      <div id="statusTag" class="status-tag pass">BESTANDEN</div>
+      <p id="candidateCongrats" style="color:var(--text-muted); font-size:15px; margin-bottom:18px;"></p>
+      <div style="display:flex; justify-content:center; gap:10px; flex-wrap:wrap;">
+        <button class="btn btn-primary" id="copyBtn">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></svg>
+          Ergebnis kopieren
+        </button>
+        <button class="btn btn-outline" onclick="window.print()">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect width="12" height="8" x="6" y="14"/></svg>
+          Drucken / PDF
+        </button>
+        <button class="btn btn-outline" id="restartBtn">Test neu starten</button>
+      </div>
+    </div>
+
+    <div class="teil-scores-grid" id="teilScoresGrid"></div>
+
+    <div class="review-panel">
+      <div class="review-header">
+        <h3 style="font-size:17px; font-weight:700;">Detaillierte Aufgabenübersicht</h3>
+        <div class="filter-pills">
+          <button class="filter-btn active" data-filter="all">Alle (30)</button>
+          <button class="filter-btn" data-filter="incorrect">Falsch</button>
+          <button class="filter-btn" data-filter="correct">Richtig</button>
+        </div>
+      </div>
+      <div id="reviewItemsList"></div>
+    </div>
+  </main>
+
+  <!-- Bottom Navigation -->
+  <footer class="footer-actionbar" id="footerBar">
+    <div class="footer-content">
+      <div class="progress-info">
+        <div class="progress-track">
+          <div class="progress-fill" id="progressFill"></div>
+        </div>
+        <span class="progress-text" id="progressTxt">0 / 30 gelöst</span>
+      </div>
+      <div class="nav-buttons">
+        <button class="btn btn-outline" id="prevTeilBtn">← Zurück</button>
+        <button class="btn btn-outline" id="nextTeilBtn">Weiter →</button>
+        <button class="btn btn-success" id="submitBtn">Test abgeben</button>
+      </div>
+    </div>
+  </footer>
+
+<script>
+/* ---------------- DATA WITH AUTHENTIC BOOK STYLES ---------------- */
+const testData = [
+{
+  id:1, title:"Teil 1", time:10,
+  instructions:"Lesen Sie den Text und die Aufgaben 1 bis 6 dazu. Wählen Sie: Sind die Aussagen Richtig oder Falsch?",
+  articles:[{
+    heading:"StefansAlltagsblog.at", sub:"Was so jeden Tag passiert …", meta:"Dienstag, 5. Juni",
+    body:[
+      "Dieser Tag fing wirklich sehr merkwürdig an: Beim Frühstück habe ich einen Unfall beobachtet! Wenn das Wetter schön ist, sitze ich morgens gern mit meinem Müsliteller auf meinem Balkon. Natürlich ist es auf meinem Balkon nicht besonders romantisch, schließlich wohne ich direkt am Sachsendamm, d. h. drei Stockwerke unter mir brausen morgens um halb neun die Autos vorbei, obwohl es eine Einbahnstraße ist. Ich kann die Autos nicht nur sehen, ich kann sie auch sehr gut hören. Heute Morgen war ich gerade fertig mit meinem Müsli, als plötzlich Bremsen kreischten, Leute schrien – und dann krachte es. Ich sah sofort hinunter auf die Straße: Ein kleiner Lieferwagen stand schräg auf der Straße, ein alter, schwarzer Mercedes war ihm hinten hineingefahren.",
+      "Der Mercedesfahrer stieg aus, ein Herr in mittleren Jahren, und ging nach vorn zur Tür des Lieferwagens. Er machte die Tür auf, aber da war niemand. Inzwischen kamen immer mehr Leute dazu, die herumstanden und redeten. Ein paar Autos fuhren über den Gehweg an den beiden Autos vorbei, aber trotzdem bildete sich schnell eine lange Autoschlange. Der Mercedesfahrer telefonierte. Dann kam aus dem Haus gegenüber ein junger Mann angerannt, in einer Art Uniform, ohne Zweifel ein Paketfahrer. Er zog auch sofort sein Handy aus der Tasche und nicht lange hörte man das Polizeiauto, das in Gegenrichtung durch die Einbahnstraße kam.",
+      "Ich bin dann zur Universität gegangen und habe nicht mehr an die ganze Sache gedacht. Erst heute Abend fiel es mir wieder ein, als ich beim Gemüsehändler an der Ecke war. Er wohnt in der Nähe und hatte alles gesehen. Ich habe ihn gefragt, ob er den Paketfahrer kennt. Ich kannte ihn nicht, aber er wusste, dass Frau Wendler im zweiten Stock ständig im Internet Sachen bestellt, und die kommen natürlich mit dem Paketlieferservice.",
+      "Der Gemüsehändler erzählte, dass die Polizei einige Leute gefragt hatte, und dass zwei junge Frauen gesagt hatten, der Mercedesfahrer habe vor dem Unfall im Auto telefoniert. Dann sagte er noch, dass das Paketauto schließlich weggefahren war, aber der alte Mercedes musste der Reparaturdienst abholen. Die ganze Geschichte hatte fast eine Stunde gedauert. Wir haben noch ein bisschen diskutiert, ob der Mercedesfahrer Schuld hatte oder nicht, wir glaubten das eigentlich beide. Der Paketfahrer hatte allerdings in zweiter Reihe geparkt, das war natürlich auch nicht richtig. Aber trotzdem: „Wer drauffährt, zahlt“, sagte der Gemüsehändler.",
+      "Danach bin ich nach Hause gegangen und morgen ist wieder ein anderer Tag."
+    ],
+    signature:"Bis bald, Stefan"
+  }],
+  example:{text:"Am Morgen hat Stefan auf seinem Balkon Kaffee getrunken.", answer:"falsch"},
+  questions:[
+    {id:1, type:"tf", text:"Die Straße unter Stefans Balkon ist morgens ziemlich laut.", answer:"richtig"},
+    {id:2, type:"tf", text:"Der Paketfahrer lieferte gerade etwas ab.", answer:"richtig"},
+    {id:3, type:"tf", text:"Stefan blieb zu Hause, um das Geschehen zu beobachten.", answer:"falsch"},
+    {id:4, type:"tf", text:"Am Abend musste Stefan noch etwas einkaufen.", answer:"richtig"},
+    {id:5, type:"tf", text:"Stefan erfährt, dass der Mercedes stark beschädigt war.", answer:"richtig"},
+    {id:6, type:"tf", text:"Stefan und sein Gesprächspartner denken, dass nur der Mercedesfahrer Fehler gemacht hat.", answer:"falsch"}
+  ]
+},
+{
+  id:2, title:"Teil 2", time:20,
+  instructions:"Lesen Sie den Text aus der Presse und die Aufgaben 7 bis 9 dazu. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  articles:[
+    {
+      heading:"Mit Granny Aupair in die Welt",
+      body:[
+        "Die Hamburger Agentur Granny Aupair schickt Frauen weltweit in Familien oder in soziale Projekte. Eine Aufenthaltsdauer ist nicht vorgeschrieben. Karin Dörner ist Witwe, 65 Jahre alt, bis vor einem Jahr war sie als Lehrerin tätig. Jetzt sitzt sie in ihrem Schlafzimmer in Neumünster auf dem Bett und überlegt, was sie alles noch nach Kambodscha fliegen soll. Der Koffer ist noch ziemlich leer, dabei muss sie doch morgen schon losfahren. Frau Dörner hat sich für sechs Monate als Au-pair-Großmutter bei einer Familie in Phnom Penh beworben. Sie soll sich um einen kleinen Jungen kümmern, der aus einer amerikanisch-deutschen Familie stammt. Der Kleine ist vier Jahre alt, die Mutter arbeitet in Kambodscha für UNICEF und befürchtet, dass er seine deutschen Sprachkenntnisse vergessen könnte, wenn er von seinem deutschen Vater so lange getrennt ist. Der Vater arbeitet nämlich im Moment in Frankfurt.",
+        "Gerade hat Frau Dörner entschieden, dass sie den Wollmantel zu Hause lassen wird, den wird sie in den nächsten Monaten nicht brauchen, das weiß sie. Sie hat sich über das Leben in Kambodscha gut informiert, über das ungewöhnlich feucht-heiße Klima, über die Geschichte und die wunderbaren Tempel, über die großen sozialen Unterschiede. Ihre Gastfamilie wohnt in einer großen 6-Zimmer-Wohnung mit Klimaanlage und Hausmädchen, was für eine kambodschanische Durchschnittsfamilie unerreichbar ist.",
+        "Frau Dörner ist sich darüber im Klaren, dass sie in sechs Monaten keine echte Verbindung zum Land finden kann, auch in der Landessprache Khmer wird sie wohl nur wenige Wörter lernen. Sie hat aber in den letzten Monaten englische und französische Sprachkurse besucht und hofft, dass sie gut vorbereitet ist für die große Reise."
+      ],
+      source:"(aus einer deutschen Zeitung)"
+    }
+  ],
+  example:{text:"Granny Aupair …", options:["ist eine Reiseagentur.","ist ein Angebot für alte Menschen.","ist ein Angebot für Frauen über 60."], answer:2},
+  questions:[
+    {id:7, type:"mcq", text:"Frau Dörner …", options:["will eine Rundreise durch Kambodscha machen.","will in einer Familie arbeiten.","will die Sprache des Landes lernen."], answer:1},
+    {id:8, type:"mcq", text:"Frau Dörner weiß, dass …", options:["sie in Phnom Penh in einer Durchschnittsfamilie leben wird.","das Wetter in Kambodscha für Europäer schwierig ist.","in der Gastfamilie niemand Deutsch spricht."], answer:1},
+    {id:9, type:"mcq", text:"Um sich vorzubereiten, hat Frau Dörner …", options:["ein Klimatraining gemacht.","einen Kurs über die Kultur im alten Kambodscha besucht.","ihre Fremdsprachenkenntnisse verbessert."], answer:2}
+  ],
+  articles2:[
+    {
+      heading:"Haben schöne Frauen mehr Erfolg im Beruf?",
+      sub:"Hübsche Schülerinnen und Schüler haben es leichter, aber bei der Bewerbung sind schöne Frauen im Nachteil. Woran liegt das?",
+      body:[
+        "Psychologen haben herausgefunden, dass wir symmetrische Gesichter mit glatter Haut und hohen Wangenknochen unbewusst mit positiven Eigenschaften verbinden. Wir glauben, dass schöne Menschen freundlich, zuverlässig und kompetent sind. Dann müsste man doch vermuten, dass solche Menschen es auf jeder Station ihres Lebens leichter haben als andere. Jetzt zeigen zwei Studien: Für die Schule ist das richtig, nicht aber im Beruf.",
+        "Die Wiener School of Education hat mit drei Klassen eines Gymnasiums untersucht, um den Einfluss der Schönheit auf die Noten nachzuweisen. Sie fanden heraus, dass attraktive Jugendliche tatsächlich um 0,5 bis 0,75 Notenpunkte besser beurteilt werden als andere Schüler mit gleichen Leistungen.",
+        "Wie ist es aber im Berufsleben: Bekommen attraktive Menschen auch die besten Arbeitsplätze?",
+        "Zwei Wissenschaftler an der Universität in Tel Aviv verschickten für ihre Studie 2500 Bewerbungen mit Fotos. Die Hälfte der Fotos zeigten schöne Männer und Frauen, die anderen gehörten zu durchschnittlichen Gesichtern. Das Resultat war erstaunlich: Gutaussehende Männer wurden doppelt so oft angefragt wie die anderen Bewerber.",
+        "Bei den Frauen war das Gegenteil der Fall. Von den schönen Frauen bekamen nur 10 % eine positive Antwort, während von den alltäglichen Damen etwa ein Drittel zur Vorstellung eingeladen wurde.",
+        "Bei der Suche nach den Gründen fanden die Wissenschaftler heraus, dass in den Personalbüros der Firmen fast ausschließlich Frauen sitzen – und die glauben offenbar, dass schöne Frauen das Betriebsklima stören."
+      ],
+      source:"(aus einer österreichischen Zeitung)"
+    }
+  ],
+  instructions2:"Lesen Sie den Text aus der Presse und die Aufgaben 10 bis 12 dazu. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  questions2:[
+    {id:10, type:"mcq", text:"Wissenschaftler haben bewiesen,", options:["dass attraktive Menschen überall leicht Erfolg haben.","dass Schönheit und gute Leistung zusammen gehören.","dass Lehrer sich vom Aussehen beeinflussen lassen."], answer:2},
+    {id:11, type:"mcq", text:"Wie wurde die Studie in Tel Aviv organisiert?", options:["Auf 50 % der Fotos waren gutaussehende Männer zu sehen.","10 % der Fotos zeigten unattraktive Personen.","50 % der Fotos zeigten ganz normale Leute mit alltäglichem Aussehen."], answer:2},
+    {id:12, type:"mcq", text:"Was fanden die Wissenschaftler heraus?", options:["Für die Firma ist es wichtig, dass neue Mitarbeiter keinen Streit verursachen.","Gutes Aussehen ist für Männer genauso wichtig wie für Frauen.","Bewerber mit durchschnittlichem Aussehen haben bessere Chancen."], answer:0}
+  ]
+},
+{
+  id:3, title:"Teil 3", time:10,
+  instructions:"Lesen Sie die Situationen 13 bis 19 und die Anzeigen A bis J aus verschiedenen deutschsprachigen Medien. Wählen Sie: Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es keine passende Anzeige, in diesem Fall wählen Sie X.",
+  adsFormatted:[
+    {
+      code:"A",
+      tagPos:"left",
+      hasPin: true,
+      cardClass:"ad-style-a",
+      html:`
+        <div class="ad-headline">Wir suchen Hilfe bei der Kinderbetreuung.</div>
+        <p style="margin-bottom:8px; font-size:13.5px;">Wer kann unsere beiden Jungs (4 und 6 Jahre) mittags von der Schule abholen und nach Hause bringen, mit ihnen essen und spielen?</p>
+        <p style="margin-bottom:8px; font-size:13.5px; font-weight:700;">Arbeitszeit: Mo – Fr, jeweils 4 Std.</p>
+        <p style="margin-bottom:8px; font-size:13.5px;">Wir wünschen uns eine liebevolle junge Frau mit einigen Deutschkenntnissen.</p>
+        <div style="font-weight:700; font-size:14px; margin-top:8px;">Tel: 0160 7659125</div>
+      `
+    },
+    {
+      code:"B",
+      tagPos:"right",
+      hasPin: true,
+      cardClass:"ad-style-b",
+      html:`
+        <div class="ad-headline">Hilfskräfte gesucht</div>
+        <p style="margin-bottom:8px; font-size:13.5px;">Studentenjob für Nachteulen und Stubenhocker: Im Postdienst werden junge Leute zum Einpacken und Sortieren von Briefsendungen gesucht.</p>
+        <p style="margin-bottom:6px; font-size:13.5px; font-weight:700;">Arbeitszeit: samstags, sonntags, nachts.</p>
+        <p style="margin-bottom:6px; font-size:13px;"><strong>Voraussetzung:</strong> sehr gute Deutschkenntnisse</p>
+        <div style="font-weight:700; font-size:13.5px; margin-top:6px;">Gute Bezahlung! Tel: 040 87995543</div>
+      `
+    },
+    {
+      code:"C",
+      tagPos:"left",
+      hasPin: false,
+      cardClass:"ad-style-c",
+      html:`
+        <div class="ad-headline-hand">RUSSISCHE LITERATUR</div>
+        <p style="font-size:13.5px; margin-bottom:8px;">für deutsche Leser aufbereiten, das ist das Ziel des Workshops „Russland schreibt“.</p>
+        <div style="font-size:13px; line-height:1.45; margin-bottom:6px;">
+          <div><strong>Ort:</strong> Russisches Kultur-Institut</div>
+          <div><strong>Zeit:</strong> Samstag und Sonntag, 3./4. Juli</div>
+          <div><strong>Beginn:</strong> Samstag, 9.00 Uhr</div>
+        </div>
+        <p style="font-size:13px; margin-bottom:6px;">Eingeladen sind vor allem Menschen mit sehr guten Russischkenntnissen.</p>
+        <div style="font-weight:700; font-size:13px; margin-top:6px;">Anmeldung und Information: 030 7798544</div>
+      `
+    },
+    {
+      code:"D",
+      tagPos:"right",
+      hasPin: false,
+      cardClass:"ad-style-d",
+      html:`
+        <div class="ad-headline">Paketfahrer gesucht</div>
+        <div style="font-weight:700; font-size:13.5px; margin-bottom:4px;">Sie:</div>
+        <div style="font-size:13.5px; line-height:1.4; margin-bottom:8px;">
+          <div>– haben einen Führerschein</div>
+          <div>– kennen die Stadt</div>
+          <div>– haben Deutschkenntnisse</div>
+        </div>
+        <div style="font-weight:700; font-size:13.5px; margin-bottom:4px;">Wir bieten:</div>
+        <div style="font-size:13.5px; line-height:1.4; margin-bottom:8px;">
+          <div>– guten Verdienst</div>
+          <div>– Arbeitszeit nach Vereinbarung</div>
+          <div>– angemessene Sozialleistungen</div>
+        </div>
+        <div style="font-weight:700; font-size:13.5px;">Tel: 0171 44876033</div>
+      `
+    },
+    {
+      code:"E",
+      tagPos:"left",
+      hasPin: false,
+      cardClass:"ad-style-e",
+      html:`
+        <div class="ad-headline">Ponyhof sucht Aushilfskräfte</div>
+        <p style="font-size:13.5px; margin-bottom:8px; line-height:1.45;">Im Juli und August sind noch Plätze bei der Gruppenbetreuung frei. Unsere Gäste sind 8 bis 14 Jahre alt und kommen jeweils für 14 Tage zu uns.</p>
+        <div style="font-size:13px; font-weight:700; margin-top:6px;">Bewerbungen an:</div>
+        <div style="font-size:13.5px; font-weight:700; text-decoration:underline;">info@ponyhof.moelln.de</div>
+      `
+    },
+    {
+      code:"F",
+      tagPos:"right",
+      hasPin: false,
+      cardClass:"ad-style-f",
+      html:`
+        <div class="ad-headline">Praktikums-Börse für den Bereich Hotel und Restaurant</div>
+        <p style="font-size:13.5px; margin-bottom:8px; line-height:1.45;">Erstklassige Hotelbetriebe in Deutschland, Österreich und der Schweiz. Praktikumsplätze für drei bis sechs Monate; auch für Anfänger mit geringen Sprachkenntnissen.</p>
+        <div style="font-size:13px; font-weight:700; margin-top:6px;">Bewerbungsformulare unter:</div>
+        <div style="font-size:13.5px; font-weight:700;">www.jobboerse.ch/hotel</div>
+      `
+    },
+    {
+      code:"G",
+      tagPos:"left",
+      hasPin: false,
+      cardClass:"ad-style-g",
+      html:`
+        <div class="ad-headline">Übersetzungsbüro <span style="font-weight:500; font-size:14px;">sucht freie Mitarbeiter.</span></div>
+        <p style="font-size:13.5px; margin-bottom:8px; line-height:1.45;">Alle europäischen Sprachen, faire Projektverträge. Wenn Sie von zu Hause arbeiten wollen und bereit sind, eine Probe-Übersetzung abzuliefern, sollten Sie sich bei uns melden:</p>
+        <div style="font-size:13.5px; font-weight:700; color:#0f172a;">paslomski-projekt@gmx.net</div>
+      `
+    },
+    {
+      code:"H",
+      tagPos:"right",
+      hasPin: false,
+      cardClass:"ad-style-h",
+      html:`
+        <div class="ad-sub-cap">400-Euro-Job im</div>
+        <div class="ad-headline-tea">KLEINEN TEELADEN</div>
+        <div class="italic-body" style="margin-bottom:8px;">Wenn Sie ein freundlicher, aufgeschlossener Mensch sind und gern im Team arbeiten, sind Sie bei uns genau richtig. Alles, was Sie wissen müssen, erklären wir Ihnen.</div>
+        <div style="font-size:12.5px; font-weight:700; margin-bottom:2px;">ARBEITSZEIT:</div>
+        <div style="font-size:13px; font-weight:700; font-style:italic; margin-bottom:6px;">DI–SA VON 10.00 BIS 14.00 UHR</div>
+        <div style="font-size:13.5px; font-weight:700;">Rufen Sie uns an: 030 86044675</div>
+      `
+    },
+    {
+      code:"I",
+      tagPos:"left",
+      hasPin: false,
+      cardClass:"ad-style-i",
+      html:`
+        <p style="font-size:13.5px; line-height:1.45; margin-bottom:8px;">Der <strong style="color:#0284c7;">Computer-Notdienst</strong> stellt gerade eine Gruppe von Fachleuten zusammen, die in festgelegten Zeiträumen auf Abruf bereitstehen.</p>
+        <div style="font-size:13px; line-height:1.4; margin-bottom:8px;">
+          <div>– Sie bestimmen, wann wir Sie einsetzen können</div>
+          <div>– Sie lösen die Probleme unserer Kunden vor Ort</div>
+          <div>– Abrechnung und Bezahlung wöchentlich</div>
+        </div>
+        <div style="font-size:13.5px; font-weight:700; color:#0369a1;">compu-service@freeline.de</div>
+      `
+    },
+    {
+      code:"J",
+      tagPos:"right",
+      hasPin: false,
+      cardClass:"ad-style-j",
+      html:`
+        <p style="font-size:13.5px; line-height:1.45; margin-bottom:8px;">Das <strong style="color:#000;">Clara-Zetkin-Institut</strong> sucht Mitarbeiter für zeitlich begrenzte Aufgaben (drei Monate): Katalogisierung und Archivierung von deutschen und fremdsprachigen Texten, Internet-Recherche, Mitarbeit in der Presseabteilung.</p>
+        <div style="font-size:13px; font-style:italic; margin-bottom:4px;">Unkostenvergütung nach Absprache</div>
+        <div style="font-size:13px; font-weight:700;">Bewerbungen an: <span style="font-weight:700;">czi@becat-uni-bb.de</span></div>
+      `
+    }
+  ],
+  example:{text:"Giulia G. möchte in den Sommerferien in Deutschland in einer Ferienanlage mit Kindern arbeiten.", answer:"E"},
+  questions:[
+    {id:13, type:"match", text:"Erdal M. lebt seit einem Jahr in Deutschland. Im Moment fährt er täglich drei Stunden den Lieferwagen einer Wäscherei. Er braucht mehr Geld.", answer:"D"},
+    {id:14, type:"match", text:"Susan S. ist Amerikanerin und studiert in Köln Journalistik. Sie sucht einen Platz als Praktikantin, der zu ihrem Studium passt.", answer:"J"},
+    {id:15, type:"match", text:"Marian B. ist seit vier Monaten in Berlin. An drei Tagen pro Woche besucht sie vormittags einen Deutschkurs. Sie möchte einen Job, der ihr Gelegenheit gibt, Deutsch zu sprechen.", answer:"A"},
+    {id:16, type:"match", text:"Ewa R. kommt aus Bulgarien. Sie spricht fließend Deutsch, Russisch und Italienisch. Sie würde gern arbeiten, aber sie lebt auf dem Land und hat ein Baby.", answer:"G"},
+    {id:17, type:"match", text:"Luella M. sucht eine Anstellung in einem Hotel in Österreich oder in der Schweiz. Sie arbeitet im Moment in einem Hamburger Hotel.", answer:"X"},
+    {id:18, type:"match", text:"Jaime L. hat Informatik studiert. Seine große Liebe ist jetzt die Rockmusik. Er spielt jeden Abend in einer Band, er möchte aber auch in seinem Beruf arbeiten.", answer:"I"},
+    {id:19, type:"match", text:"Georg N. schreibt gerade seine Examensarbeit. Er braucht unbedingt etwas Geld, aber er kann nur am Wochenende arbeiten.", answer:"B"}
+  ]
+},
+{
+  id:4, title:"Teil 4", time:15,
+  instructions:"In einer Zeitschrift lesen Sie Kommentare zu einem Artikel über die Erhöhung des Rentenalters auf 70 Jahre. Wählen Sie: Ist die Person für eine Erhöhung des Rentenalters auf 70 Jahre?",
+  example:{who:"Bernhard, 49, Gelsenkirchen", text:"Wir sollen jetzt schon bis 67 arbeiten. Für manche Menschen ist das zu lange, denn wer beim Bau oder in der Fabrik schuftet, der ist oft auch krank.", answer:"nein"},
+  letters:[
+    {id:20, who:"Wolfram, 39, Berlin", text:"Warum denkt eigentlich niemand daran, dass die Arbeitsplätze für die jungen Leute frei werden, wenn die alten Menschen keine Rente beanspruchen, sondern weiterhin ihr Gehalt von der Firma bekommen, am liebsten bis sie achtzig sind? Aber so geht es nicht: Wir brauchen in den Betrieben junge und frischen Enthusiasmus, wenn wir neue Technologien entwickeln wollen.", answer:"nein"},
+    {id:21, who:"Martin, 24, Erfurt (Deutschland)", text:"Jeder weiß, dass heute alle Menschen älter werden und länger fit bleiben. Warum sollen sie dann nicht länger arbeiten? Wer länger gearbeitet hat, hat auch größere Erfahrung, die sollten wir uns zunutze machen. Es ist unsinnig, wenn unsere gut ausgebildeten Arbeitskräfte in ihren besten Lebensjahren in Rente gehen, um sich auf Kreuzfahrtschiffen zu langweilen!", answer:"ja"},
+    {id:22, who:"Michaela, 32, Wien", text:"Ist es nicht das, was wir uns wünschen? Mit siebzig oder achtzig Jahren noch topfit im Arbeitsleben stehen, Entscheidungen treffen, verantwortlich sein – das ist wunderbar, aber es ist eine Illusion. In Wirklichkeit fangen die meisten Menschen schon mit sechzig an, ihre Leistungsfähigkeit zu verlieren: Vergesslichkeit, Unsicherheit, Entscheidungsmüdigkeit, die oft von der Unfähigkeit begleitet sind, sich neue Technologien anzueignen.", answer:"nein"},
+    {id:23, who:"Corinna, 32, Linz (Österreich)", text:"Früher waren alte Menschen für die Familie wichtig. Für manche Menschen ist jetzt schon mit 67 zu lange, denn wer beim Bau oder in der Fabrik schuftet, der ist mit vierzig Arbeitsjahren verbraucht und oft auch krank. Vielleicht möchten manche Politiker ja gern bis ins hohe Alter arbeiten, das gilt aber nicht für alle!", answer:"nein"},
+    {id:24, who:"Sybille, 19, Zug (Schweiz)", text:"Ich habe gerade erst mein Abitur gemacht; die Vorstellung zu gehen, liegt mir also noch fern. Trotzdem habe ich mit meinen Eltern darüber gesprochen: Ich glaube, man könnte das Rentenalter ruhig anheben, für alle, die Lust haben zu arbeiten. Und für diejenigen, die das nicht wollen, müsste man Möglichkeiten schaffen, vorher auszusteigen.", answer:"ja"},
+    {id:25, who:"Gloria, 54, Wolfenbüttel (Deutschland)", text:"Wenn man sich die demografische Entwicklung in Europa anschaut, dann wissen wir: Wir müssen länger arbeiten als unsere Eltern! Allerdings scheint es mir übertrieben, das Rentenalter gleich auf siebzig Jahre zu erhöhen. Das Rentenalter liegt jetzt schon bei 67; wenn wir diese Grenze um ein Jahr erhöhen, wäre das für den Staatshaushalt schon eine große Hilfe. Wenn man mehr fordert, könnte man die Arbeitnehmer in Schwierigkeiten bringen.", answer:"nein"},
+    {id:26, who:"Gilbert, 61, Heidelberg", text:"Ich denke, dass wir ein System finden müssten, das für alle Beteiligten attraktiv wäre. Die dramatische Erhöhung des Rentenalters ist sicherlich unausweichlich, sonst können unsere Kinder die Renten in Zukunft nicht mehr bezahlen. Allerdings muss man eine Grenze setzen: Siebzig Jahre finde ich ganz vernünftig. Aber es muss Möglichkeiten geben, diese Grenze zu überschreiten, nach oben ebenso wie nach unten.", answer:"ja"}
+  ]
+},
+{
+  id:5, title:"Teil 5", time:10,
+  instructions:"Lesen Sie die Aufgaben 27 bis 30 und die Hausordnung dazu. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  articles:[{
+    heading:"Wohnpark „Am See“",
+    sub:"Hausordnung für Mieter und Gäste",
+    body:[
+      "Liebe Gäste, in unserer Wohnanlage leben Menschen, die sich hier erholen wollen. Wir bitten Sie deshalb, die folgenden Regeln strikt zu beachten:",
+      "Laute Musik, Lärm und Kinderspiele im Hausflur sind grundsätzlich zu unterlassen. In der Zeit von 13.00 bis 15.00 und von 22.00 bis 8.00 Uhr soll absolute Ruhe herrschen.",
+      "Das Eingangstor ist grundsätzlich geschlossen zu halten, auf jeden Fall ab 21.00 Uhr. Der Wohnungsschlüssel darf nicht kopiert werden, da dies zur Beschädigung der Schlösser führen kann. Wenn Sie einen zweiten Wohnungsschlüssel brauchen, wenden Sie sich bitte an den Hausmeister. Der Schlüssel öffnet auch die Garage, den Fahrradkeller und den Waschraum. Mit dem Wohnungsschlüssel lässt sich auch das Eingangstor öffnen und schließen.",
+      "Das Abstellen von Kinderwagen und Fahrrädern in den Hausfluren ist verboten. In den Kellerräumen ist dafür ausreichend Platz vorhanden. Außerdem gibt es Stellplätze hinter den Garagen.",
+      "Das Halten von Hunden und anderen Haustieren in den Wohnungen ist grundsätzlich nicht gestattet. Wenn Sie Ihr Haustier mitbringen wollen, müssen Sie beim Verwalter einen schriftlichen Antrag stellen.",
+      "Die Benutzung des Waschraums während der Ruhezeiten ist nicht gestattet. Benutzen Sie die Maschinen bitte genau nach Vorschrift. Sie brauchen zum Waschen und Trocknen 50-Cent-Münzen. Nach dem Waschen müssen Sie den Waschraum sauber und trocken zurücklassen.",
+      "Die Balkons und Terrassen dürfen nicht als Abstellplatz benutzt werden. Wenn Sie große Koffer, Möbel oder andere Geräte abstellen müssen, wenden Sie sich bitte an den Hausmeister.",
+      "Die Gartenanlagen dürfen nur auf den angelegten Wegen betreten werden. Das Spielen in den Blumenrabatten ist verboten.",
+      "Die Liegestühle auf der Sonnenwiese stehen allen Mietern zur Verfügung. Das Reservieren der Liegestühle durch Handtücher ist verboten."
+    ]
+  }],
+  questions:[
+    {id:27, type:"mcq", text:"Wenn Sie Ihre Katze mitnehmen wollen, …", options:["muss sie immer in der Wohnung bleiben.","müssen Sie den Hausmeister fragen.","brauchen Sie die schriftliche Genehmigung."], answer:2},
+    {id:28, type:"mcq", text:"Fahrräder …", options:["kann man beim Hausmeister mieten.","muss man immer in den Keller tragen.","kann man auch draußen stehen lassen."], answer:2},
+    {id:29, type:"mcq", text:"Der Mieter bekommt nur den Wohnungsschlüssel, …", options:["weil die Schlösser so leicht kaputt gehen.","weil der Schlüssel überall in der Anlage passt.","weil der Eingang zur Wohnanlage immer offen ist."], answer:1},
+    {id:30, type:"mcq", text:"Man kann die Wäsche mit der Maschine waschen, …", options:["wenn man passende Geldstücke hat.","wenn der Hausmeister einverstanden ist.","wenn der Waschraum geöffnet ist."], answer:0}
+  ]
+}
+];
+
+/* ---------------- STATE ---------------- */
+let activeTeil = 1;
+const userAnswers = {};
+const flaggedQuestions = new Set();
+let reviewFilter = 'all';
+
+/* ---------------- TIMER ---------------- */
+let timeLeft = 65 * 60;
+let timerInterval = null;
+let timerRunning = true;
+
+function startTimer() {
+  if (timerInterval) clearInterval(timerInterval);
+  timerInterval = setInterval(() => {
+    if (timerRunning && timeLeft > 0) {
+      timeLeft--;
+      updateTimerDisplay();
+    }
+  }, 1000);
+}
+
+function updateTimerDisplay() {
+  const m = Math.floor(timeLeft / 60);
+  const s = timeLeft % 60;
+  const timerDisplay = document.getElementById('timerDisplay');
+  const timerBox = document.getElementById('timerBox');
+  timerDisplay.textContent = `${String(m).padStart(2,'0')}:${String(s).padStart(2,'0')}`;
+  
+  if (timeLeft <= 300) {
+    timerBox.classList.add('warning');
+  }
+}
+
+document.getElementById('timerToggle').addEventListener('click', () => {
+  timerRunning = !timerRunning;
+  const icon = document.getElementById('timerIcon');
+  if (timerRunning) {
+    icon.innerHTML = '<rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/>';
+  } else {
+    icon.innerHTML = '<polygon points="5 3 19 12 5 21 5 3"/>';
+  }
+});
+
+/* ---------------- THEME & FONT SIZE ---------------- */
+const themeToggleBtn = document.getElementById('themeToggle');
+let isDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+if (isDark) document.documentElement.setAttribute('data-theme', 'dark');
+
+themeToggleBtn.addEventListener('click', () => {
+  const cur = document.documentElement.getAttribute('data-theme');
+  const next = cur === 'dark' ? 'light' : 'dark';
+  document.documentElement.setAttribute('data-theme', next);
+});
+
+document.querySelectorAll('.font-size-btn').forEach(btn => {
+  btn.addEventListener('click', (e) => {
+    document.querySelectorAll('.font-size-btn').forEach(b => b.classList.remove('active'));
+    e.target.classList.add('active');
+    document.documentElement.style.setProperty('--text-size', e.target.dataset.size);
+  });
+});
+
+function allQuestionsOf(t) {
+  let qs = [];
+  if(t.questions) qs = qs.concat(t.questions);
+  if(t.questions2) qs = qs.concat(t.questions2);
+  if(t.letters) qs = qs.concat(t.letters.map(l => ({ id: l.id, type: 'letter', text: l.who, answer: l.answer })));
+  return qs;
+}
+
+function getTotalQuestionsCount() {
+  return testData.reduce((acc, t) => acc + allQuestionsOf(t).length, 0);
+}
+
+/* ---------------- TABS RENDERING ---------------- */
+function renderTabs() {
+  const tabsContainer = document.getElementById('tabs');
+  tabsContainer.innerHTML = '';
+  
+  testData.forEach(t => {
+    const qs = allQuestionsOf(t);
+    const answeredCount = qs.filter(q => userAnswers[q.id] !== undefined && userAnswers[q.id] !== '').length;
+    const isCompleted = answeredCount === qs.length;
+    
+    const btn = document.createElement('button');
+    btn.className = `tab-btn ${t.id === activeTeil ? 'active' : ''} ${isCompleted ? 'completed' : ''}`;
+    btn.innerHTML = `
+      <span>${t.title}</span>
+      <span class="tab-badge">${answeredCount}/${qs.length}</span>
+    `;
+    btn.onclick = () => {
+      activeTeil = t.id;
+      renderCurrentTeil();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
+    tabsContainer.appendChild(btn);
+  });
+}
+
+/* ---------------- RENDER READING PASSAGE ---------------- */
+function renderPassage(t) {
+  const passagePanel = document.getElementById('passagePanel');
+  let html = `
+    <div class="panel-header">
+      <div class="panel-title">${t.title} — Text</div>
+      <div class="panel-meta-badge">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        Zeit: ${t.time} Min.
+      </div>
+    </div>
+    <div class="instruction-box">${t.instructions}</div>
+  `;
+
+  if (t.articles) {
+    t.articles.forEach(a => {
+      html += `<div class="reading-text">`;
+      if(a.meta) html += `<div class="article-meta-date">${a.meta}</div>`;
+      html += `<h3>${a.heading}</h3>`;
+      if(a.sub) html += `<div class="article-sub">${a.sub}</div>`;
+      a.body.forEach(p => html += `<p>${p}</p>`);
+      if(a.signature) html += `<p style="font-weight:600; margin-top:12px;">${a.signature}</p>`;
+      if(a.source) html += `<div class="article-source">${a.source}</div>`;
+      html += `</div>`;
+    });
+  }
+
+  // Teil 3: Authentic Book-Styled Ads Board
+  if (t.adsFormatted) {
+    html += `<div class="ads-board">`;
+    t.adsFormatted.forEach(ad => {
+      html += `
+        <div class="ad-wrapper ${ad.tagPos === 'left' ? 'tag-left' : 'tag-right'}">
+          <div class="ad-letter-tag">${ad.code}</div>
+          ${ad.hasPin ? '<div class="pushpin"></div>' : ''}
+          <div class="book-ad ${ad.cardClass}">
+            ${ad.html}
+          </div>
+        </div>
+      `;
+    });
+    html += `</div>`;
+  }
+
+  if (t.articles2) {
+    html += `<div class="instruction-box" style="margin-top:28px;">${t.instructions2}</div>`;
+    t.articles2.forEach(a => {
+      html += `<div class="reading-text">`;
+      html += `<h3>${a.heading}</h3>`;
+      if(a.sub) html += `<div class="article-sub">${a.sub}</div>`;
+      a.body.forEach(p => html += `<p>${p}</p>`);
+      if(a.source) html += `<div class="article-source">${a.source}</div>`;
+      html += `</div>`;
+    });
+  }
+
+  passagePanel.innerHTML = html;
+}
+
+/* ---------------- RENDER QUESTIONS ---------------- */
+function renderQuestions(t) {
+  const questionsPanel = document.getElementById('questionsPanel');
+  let html = `
+    <div class="panel-header">
+      <div class="panel-title">Aufgaben</div>
+      <div class="progress-text">${allQuestionsOf(t).filter(q => userAnswers[q.id] !== undefined && userAnswers[q.id] !== '').length} von ${allQuestionsOf(t).length} beantwortet</div>
+    </div>
+  `;
+
+  if (t.example) {
+    if (t.example.options) {
+      const exLetter = ['a','b','c'][t.example.answer];
+      html += `<div class="example-pill"><strong>Beispiel:</strong> ${t.example.text} → <strong>${exLetter}) ${t.example.options[t.example.answer]}</strong></div>`;
+    } else if (t.example.who) {
+      html += `<div class="example-pill"><strong>Beispiel (${t.example.who}):</strong> „${t.example.text}“ → <strong>${t.example.answer.toUpperCase()}</strong></div>`;
+    } else if (t.id === 3) {
+      html += `<div class="example-pill"><strong>Beispiel 0:</strong> ${t.example.text} → Anzeige: <strong>${t.example.answer}</strong></div>`;
+    } else {
+      html += `<div class="example-pill"><strong>Beispiel:</strong> ${t.example.text} → <strong>${t.example.answer.toUpperCase()}</strong></div>`;
+    }
+  }
+
+  html += `<div class="question-list">`;
+
+  // Teil 1 & Teil 2 Questions
+  if (t.questions && t.id !== 3) {
+    t.questions.forEach(q => {
+      html += renderSingleQuestionCard(q);
+    });
+  }
+
+  // Teil 2 second batch
+  if (t.questions2) {
+    t.questions2.forEach(q => {
+      html += renderSingleQuestionCard(q);
+    });
+  }
+
+  // Teil 3 Match questions
+  if (t.id === 3) {
+    const codes = t.adsFormatted.map(a => a.code);
+    t.questions.forEach(q => {
+      const val = userAnswers[q.id] || '';
+      const isAnswered = val !== '';
+      const isFlagged = flaggedQuestions.has(q.id);
+      
+      let selectOpts = `<option value="">– Anzeige wählen –</option>`;
+      codes.forEach(c => {
+        selectOpts += `<option value="${c}" ${val === c ? 'selected' : ''}>Anzeige ${c}</option>`;
+      });
+      selectOpts += `<option value="X" ${val === 'X' ? 'selected' : ''}>X (Keine Anzeige passt)</option>`;
+
+      html += `
+        <div class="question-card ${isAnswered ? 'answered' : ''}">
+          <div class="question-header">
+            <span class="q-number">${q.id}</span>
+            <div class="q-title">${q.text}</div>
+            <button class="flag-btn ${isFlagged ? 'flagged' : ''}" onclick="toggleFlag(${q.id})" title="Frage vormerken">★</button>
+          </div>
+          <div class="match-select-wrap">
+            <label style="font-size:13.5px; font-weight:700; color:var(--text-muted);">Passende Anzeige:</label>
+            <select class="match-select ${isAnswered ? 'filled' : ''}" data-qid="${q.id}">
+              ${selectOpts}
+            </select>
+          </div>
+        </div>
+      `;
+    });
+  }
+
+  // Teil 4 Letters
+  if (t.letters) {
+    t.letters.forEach(l => {
+      const val = userAnswers[l.id];
+      const isAnswered = val !== undefined;
+      const isFlagged = flaggedQuestions.has(l.id);
+
+      html += `
+        <div class="question-card ${isAnswered ? 'answered' : ''}">
+          <div class="question-header">
+            <span class="q-number">${l.id}</span>
+            <div class="q-title" style="color:var(--primary-text); font-weight:700;">${l.who}</div>
+            <button class="flag-btn ${isFlagged ? 'flagged' : ''}" onclick="toggleFlag(${l.id})" title="Frage vormerken">★</button>
+          </div>
+          <div class="letter-body">„${l.text}“</div>
+          <div style="font-size:13px; color:var(--text-muted); margin-bottom:8px; font-weight:600;">Ist die Person für die Erhöhung auf 70 Jahre?</div>
+          <div class="options-group inline">
+            <label class="option-label ${val === 'ja' ? 'selected' : ''}">
+              <input type="radio" name="q${l.id}" value="ja" ${val === 'ja' ? 'checked' : ''}>
+              <span class="custom-radio"></span> Ja
+            </label>
+            <label class="option-label ${val === 'nein' ? 'selected' : ''}">
+              <input type="radio" name="q${l.id}" value="nein" ${val === 'nein' ? 'checked' : ''}>
+              <span class="custom-radio"></span> Nein
+            </label>
+          </div>
+        </div>
+      `;
+    });
+  }
+
+  html += `</div>`;
+  questionsPanel.innerHTML = html;
+
+  // Bind radio events
+  questionsPanel.querySelectorAll('input[type=radio]').forEach(inp => {
+    inp.addEventListener('change', (e) => {
+      const qid = parseInt(e.target.name.replace('q',''));
+      let v = e.target.value;
+      userAnswers[qid] = (v === 'richtig' || v === 'falsch' || v === 'ja' || v === 'nein') ? v : parseInt(v);
+      renderTabs();
+      renderQuestions(t);
+      updateProgress();
+    });
+  });
+
+  // Bind match select events
+  questionsPanel.querySelectorAll('select.match-select').forEach(sel => {
+    sel.addEventListener('change', (e) => {
+      const qid = parseInt(e.target.dataset.qid);
+      userAnswers[qid] = e.target.value;
+      renderTabs();
+      renderQuestions(t);
+      updateProgress();
+    });
+  });
+}
+
+function renderSingleQuestionCard(q) {
+  const val = userAnswers[q.id];
+  const isAnswered = val !== undefined;
+  const isFlagged = flaggedQuestions.has(q.id);
+
+  let optsHtml = '';
+  if (q.type === 'tf') {
+    optsHtml = `
+      <div class="options-group inline">
+        <label class="option-label ${val === 'richtig' ? 'selected' : ''}">
+          <input type="radio" name="q${q.id}" value="richtig" ${val === 'richtig' ? 'checked' : ''}>
+          <span class="custom-radio"></span> Richtig
+        </label>
+        <label class="option-label ${val === 'falsch' ? 'selected' : ''}">
+          <input type="radio" name="q${q.id}" value="falsch" ${val === 'falsch' ? 'checked' : ''}>
+          <span class="custom-radio"></span> Falsch
+        </label>
+      </div>
+    `;
+  } else if (q.type === 'mcq') {
+    const letters = ['a', 'b', 'c'];
+    optsHtml = `<div class="options-group">`;
+    q.options.forEach((opt, idx) => {
+      const isSel = val === idx;
+      optsHtml += `
+        <label class="option-label ${isSel ? 'selected' : ''}">
+          <input type="radio" name="q${q.id}" value="${idx}" ${isSel ? 'checked' : ''}>
+          <span class="custom-radio"></span>
+          <span><strong>${letters[idx]})</strong> ${opt}</span>
+        </label>
+      `;
+    });
+    optsHtml += `</div>`;
+  }
+
+  return `
+    <div class="question-card ${isAnswered ? 'answered' : ''}">
+      <div class="question-header">
+        <span class="q-number">${q.id}</span>
+        <div class="q-title">${q.text}</div>
+        <button class="flag-btn ${isFlagged ? 'flagged' : ''}" onclick="toggleFlag(${q.id})" title="Frage vormerken">★</button>
+      </div>
+      ${optsHtml}
+    </div>
+  `;
+}
+
+window.toggleFlag = function(qid) {
+  if (flaggedQuestions.has(qid)) flaggedQuestions.delete(qid);
+  else flaggedQuestions.add(qid);
+  const t = testData.find(x => x.id === activeTeil);
+  renderQuestions(t);
+};
+
+/* ---------------- NAVIGATION & PROGRESS ---------------- */
+function updateProgress() {
+  const total = getTotalQuestionsCount();
+  const answered = Object.values(userAnswers).filter(v => v !== undefined && v !== '').length;
+  const pct = Math.round((answered / total) * 100);
+  
+  document.getElementById('progressTxt').textContent = `${answered} von ${total} Aufgaben gelöst`;
+  document.getElementById('progressFill').style.width = `${pct}%`;
+  
+  document.getElementById('prevTeilBtn').disabled = activeTeil === 1;
+  document.getElementById('nextTeilBtn').textContent = activeTeil === 5 ? 'Zur Übersicht' : 'Weiter →';
+}
+
+document.getElementById('prevTeilBtn').addEventListener('click', () => {
+  if (activeTeil > 1) {
+    activeTeil--;
+    renderCurrentTeil();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+});
+
+document.getElementById('nextTeilBtn').addEventListener('click', () => {
+  if (activeTeil < 5) {
+    activeTeil++;
+    renderCurrentTeil();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  } else {
+    document.getElementById('submitBtn').click();
+  }
+});
+
+function renderCurrentTeil() {
+  renderTabs();
+  const t = testData.find(x => x.id === activeTeil);
+  renderPassage(t);
+  renderQuestions(t);
+  updateProgress();
+}
+
+/* ---------------- SCORING & RESULTS ---------------- */
+document.getElementById('submitBtn').addEventListener('click', () => {
+  const total = getTotalQuestionsCount();
+  const answered = Object.values(userAnswers).filter(v => v !== undefined && v !== '').length;
+  
+  if (answered < total) {
+    const unans = total - answered;
+    if (!confirm(`Sie haben noch ${unans} unbeantwortete Aufgabe(n). Möchten Sie den Test wirklich abgeben?`)) {
+      return;
+    }
+  }
+  showResults();
+});
+
+function showResults() {
+  timerRunning = false;
+  document.getElementById('tabsWrapper').style.display = 'none';
+  document.getElementById('testAreaContainer').style.display = 'none';
+  document.getElementById('footerBar').style.display = 'none';
+  document.getElementById('candidateBanner').style.display = 'none';
+  
+  const resultsScreen = document.getElementById('resultsScreen');
+  resultsScreen.style.display = 'block';
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+
+  let totalCorrect = 0;
+  const totalCount = getTotalQuestionsCount();
+  const teilScoresGrid = document.getElementById('teilScoresGrid');
+  teilScoresGrid.innerHTML = '';
+
+  const flatQuestions = [];
+
+  testData.forEach(t => {
+    let qs = [];
+    if (t.questions) qs = qs.concat(t.questions.map(q => ({ ...q, kind: q.type, teilTitle: t.title })));
+    if (t.questions2) qs = qs.concat(t.questions2.map(q => ({ ...q, kind: q.type, teilTitle: t.title })));
+    if (t.letters) qs = qs.concat(t.letters.map(l => ({ id: l.id, text: `Kommentar von ${l.who}`, answer: l.answer, kind: 'letter', teilTitle: t.title })));
+
+    let teilCorrect = 0;
+    qs.forEach(q => {
+      const userVal = userAnswers[q.id];
+      const isCorrect = userVal !== undefined && String(userVal).toLowerCase() === String(q.answer).toLowerCase();
+      if (isCorrect) teilCorrect++;
+      flatQuestions.push({ ...q, userVal, isCorrect });
+    });
+
+    totalCorrect += teilCorrect;
+
+    const card = document.createElement('div');
+    card.className = 'teil-score-card';
+    card.innerHTML = `
+      <div class="title">${t.title}</div>
+      <div class="val">${teilCorrect} <span style="font-size:14px; font-weight:500; color:var(--text-muted);">/ ${qs.length}</span></div>
+    `;
+    teilScoresGrid.appendChild(card);
+  });
+
+  const pct = Math.round((totalCorrect / totalCount) * 100);
+  const isPassed = pct >= 60;
+
+  const scoreCircle = document.getElementById('scoreCircle');
+  scoreCircle.style.setProperty('--score-pct', pct);
+  scoreCircle.style.setProperty('--score-color', isPassed ? 'var(--success)' : 'var(--danger)');
+  
+  document.getElementById('resTotalPts').textContent = `${totalCorrect}/${totalCount}`;
+  document.getElementById('resTotalPct').textContent = `${pct}%`;
+
+  const statusTag = document.getElementById('statusTag');
+  statusTag.textContent = isPassed ? 'BESTANDEN (≥ 60%)' : 'NICHT BESTANDEN (< 60%)';
+  statusTag.className = `status-tag ${isPassed ? 'pass' : 'fail'}`;
+
+  const name = document.getElementById('friendName').value.trim();
+  document.getElementById('candidateCongrats').textContent = name
+    ? `Auswertung für ${name} · ${isPassed ? 'Herzlichen Glückwunsch zu diesem B1-Ergebnis!' : 'Gute Übung – wiederholen Sie die schwierigen Abschnitte noch einmal.'}`
+    : `B1 Modul Lesen Übungsergebnis · ${isPassed ? 'Bestanden!' : 'Noch nicht bestanden.'}`;
+
+  window._allReviewQuestions = flatQuestions;
+  window._copySummary = generateTextSummary(name, totalCorrect, totalCount, pct, isPassed, flatQuestions);
+  renderReviewList(flatQuestions);
+}
+
+function renderReviewList(questions) {
+  const container = document.getElementById('reviewItemsList');
+  container.innerHTML = '';
+
+  const filtered = questions.filter(q => {
+    if (reviewFilter === 'correct') return q.isCorrect;
+    if (reviewFilter === 'incorrect') return !q.isCorrect;
+    return true;
+  });
+
+  if (filtered.length === 0) {
+    container.innerHTML = `<div style="text-align:center; padding:24px; color:var(--text-muted);">Keine Aufgaben in dieser Kategorie.</div>`;
+    return;
+  }
+
+  filtered.forEach(q => {
+    const item = document.createElement('div');
+    item.className = `review-item ${q.isCorrect ? 'correct' : 'incorrect'}`;
+    
+    const userDisplay = formatAnswerDisplay(q, q.userVal);
+    const correctDisplay = formatAnswerDisplay(q, q.answer);
+
+    item.innerHTML = `
+      <div class="review-badge">${q.isCorrect ? '✓' : '✗'}</div>
+      <div class="review-content">
+        <div class="review-qtitle">${q.id}. ${q.text} <span style="font-size:11px; font-weight:600; color:var(--text-muted); margin-left:6px;">(${q.teilTitle})</span></div>
+        <div class="review-answers">
+          Ihre Antwort: <span class="${q.isCorrect ? 'ans-correct' : 'ans-wrong'}">${userDisplay}</span>
+          ${!q.isCorrect ? ` &nbsp;·&nbsp; Richtige Lösung: <span class="ans-correct">${correctDisplay}</span>` : ''}
+        </div>
+      </div>
+    `;
+    container.appendChild(item);
+  });
+}
+
+function formatAnswerDisplay(q, val) {
+  if (val === undefined || val === '') return '– (Keine Antwort)';
+  if (q.kind === 'mcq') {
+    const letters = ['a', 'b', 'c'];
+    const idx = typeof val === 'number' ? val : parseInt(val);
+    return `${letters[idx]}) ${q.options ? q.options[idx] : ''}`;
+  }
+  if (q.kind === 'letter') return val === 'ja' ? 'Ja' : 'Nein';
+  if (val === 'richtig') return 'Richtig';
+  if (val === 'falsch') return 'Falsch';
+  if (q.kind === 'match') return val === 'X' ? 'X (Keine Anzeige passt)' : `Anzeige ${val}`;
+  return val;
+}
+
+function generateTextSummary(name, score, total, pct, pass, questions) {
+  let lines = [
+    `=== ZERTIFIKAT B1 LESEN SIMULATION ===`,
+    name ? `Kandidat(in): ${name}` : '',
+    `Ergebnis: ${score} / ${total} Punkte (${pct}%)`,
+    `Status: ${pass ? 'BESTANDEN' : 'NICHT BESTANDEN'}`,
+    `Datum: ${new Date().toLocaleDateString('de-DE')}`,
+    `--------------------------------------`
+  ].filter(Boolean);
+
+  questions.forEach(q => {
+    const userDisplay = formatAnswerDisplay(q, q.userVal);
+    const correctDisplay = formatAnswerDisplay(q, q.answer);
+    lines.push(`${q.id}. ${q.isCorrect ? '[✓]' : '[✗]'} Antwort: ${userDisplay}${!q.isCorrect ? ` (Korrekt: ${correctDisplay})` : ''}`);
+  });
+
+  return lines.join('\n');
+}
+
+// Review filters click
+document.querySelectorAll('.filter-btn').forEach(btn => {
+  btn.addEventListener('click', (e) => {
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    e.target.classList.add('active');
+    reviewFilter = e.target.dataset.filter;
+    renderReviewList(window._allReviewQuestions || []);
+  });
+});
+
+// Copy result
+document.getElementById('copyBtn').addEventListener('click', () => {
+  navigator.clipboard.writeText(window._copySummary || '').then(() => {
+    alert('Das detaillierte Prüfungsergebnis wurde in die Zwischenablage kopiert!');
+  });
+});
+
+// Restart test
+document.getElementById('restartBtn').addEventListener('click', () => {
+  if (!confirm('Möchten Sie den Test wirklich zurücksetzen? Alle Ihre Antworten werden gelöscht.')) return;
+  
+  Object.keys(userAnswers).forEach(k => delete userAnswers[k]);
+  flaggedQuestions.clear();
+  activeTeil = 1;
+  timeLeft = 65 * 60;
+  timerRunning = true;
+
+  document.getElementById('resultsScreen').style.display = 'none';
+  document.getElementById('tabsWrapper').style.display = 'block';
+  document.getElementById('testAreaContainer').style.display = 'block';
+  document.getElementById('footerBar').style.display = 'block';
+  document.getElementById('candidateBanner').style.display = 'flex';
+
+  renderCurrentTeil();
+  startTimer();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+});
+
+/* ---------------- INITIALIZATION ---------------- */
+renderCurrentTeil();
+startTimer();
+</script>
+</body>
+</html>
