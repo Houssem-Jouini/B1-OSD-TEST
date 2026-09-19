@@ -14,7 +14,7 @@ const modelTests = [
     title: "Modellsatz 1 — Goethe / ÖSD Original",
     badge: "Modellsatz 1",
     examTitle: "Goethe / ÖSD B1 Prüfungssimulation",
-    examSub: "Modul Lesen · 5 Teile · 65 Minuten · Modellsatz 1",
+    examSub: "Lesen (5 Teile) & Hören (4 Teile) · Modellsatz 1",
     timeTotal: 65,
     parts: [
       {
@@ -282,6 +282,142 @@ const modelTests = [
           { id: 28, type: "mcq", text: "Was gilt für die Wohnungsschlüssel?", options: ["Mieter können sich bei Bedarf selbst einen Schlüssel nachmachen lassen.", "Zusätzliche Schlüssel erhält man nur über den Hausmeister.", "Der Schlüssel darf nur für die Wohnungstür verwendet werden."], answer: 1 },
           { id: 29, type: "mcq", text: "Wo dürfen Fahrräder abgestellt werden?", options: ["Im Hausflur, wenn genug Platz ist.", "Nur in den Kellerräumen oder hinter den Garagen.", "Auf dem Balkon."], answer: 1 },
           { id: 30, type: "mcq", text: "Wer ein Haustier halten möchte, …", options: ["muss dies vorher schriftlich beantragen.", "darf nur kleine Hunde ohne Erlaubnis halten.", "muss monatlich eine Gebühr an den Hausmeister zahlen."], answer: 0 }
+        ]
+      },
+      {
+        id: 6,
+        title: "🎧 Hören",
+        badge: "Hören",
+        isHoren: true,
+        time: 40,
+        instructions: "Das Modul Hören besteht aus vier Teilen. Sie hören mehrere Texte und lösen Aufgaben dazu. Für jede Aufgabe gibt es nur eine richtige Lösung.",
+        audioSrc: "audio/hoeren.mp3",
+        audioFallbacks: [
+          "audio/modellsatz-1-hoeren.mp3",
+          "audio/hoeren.m4a",
+          "audio/hoeren.wav",
+          "audio/audio.mp3"
+        ],
+        audioChapters: [
+          { time: 0, label: "00:00 Einleitung" },
+          { time: 40, label: "00:40 Beispiel" },
+          { time: 122, label: "02:02 Teil 1" },
+          { time: 652, label: "10:52 Teil 2" },
+          { time: 917, label: "15:17 Teil 3" },
+          { time: 1230, label: "20:30 Teil 4" }
+        ],
+        questions: [
+          // Teil 1: 1 - 10
+          { id: "h1", num: 1, type: "tf", text: "Der Termin von Frau Stein wird verschoben.", answer: "richtig", teilPart: 1, textNum: 1 },
+          { id: "h2", num: 2, type: "mcq", text: "Frau Stein soll …", options: ["die Chipkarte mitbringen.", "zehn Euro bezahlen.", "zurückrufen."], answer: 2, teilPart: 1, textNum: 1 },
+          { id: "h3", num: 3, type: "tf", text: "Herr Thomas informiert Frau Brahms über neue Versicherungstarife.", answer: "falsch", teilPart: 1, textNum: 2 },
+          { id: "h4", num: 4, type: "mcq", text: "Herr Thomas ...", options: ["möchte, dass Frau Brahms einen neuen Vertrag abschließt.", "braucht Zeugnisse von Frau Brahms.", "ruft später noch einmal an."], answer: 1, teilPart: 1, textNum: 2 },
+          { id: "h5", num: 5, type: "tf", text: "Sie hören Veranstaltungstipps für München.", answer: "falsch", teilPart: 1, textNum: 3 },
+          { id: "h6", num: 6, type: "mcq", text: "Auf der Autobahn gibt es Stau wegen ...", options: ["einer Baustelle.", "des Berufsverkehrs.", "eines Unfalls."], answer: 2, teilPart: 1, textNum: 3 },
+          { id: "h7", num: 7, type: "tf", text: "Sie hören eine Information für eine Reisegruppe.", answer: "falsch", teilPart: 1, textNum: 4 },
+          { id: "h8", num: 8, type: "mcq", text: "Welcher Zug fällt aus? Der Zug nach …", options: ["Bern.", "Genf.", "Lausanne."], answer: 1, teilPart: 1, textNum: 4 },
+          { id: "h9", num: 9, type: "tf", text: "Das Wetter wird im Osten Deutschlands besser.", answer: "falsch", teilPart: 1, textNum: 5 },
+          { id: "h10", num: 10, type: "mcq", text: "Vorausgesagt werden ...", options: ["Gewitter an der Elbe.", "Temperaturen unter 10 Grad.", "starke Regenfälle im Westen."], answer: 0, teilPart: 1, textNum: 5 },
+
+          // Teil 2: 11 - 15
+          { id: "h11", num: 11, type: "mcq", text: "Das Museum ist ...", options: ["sehr voll.", "teilweise geschlossen.", "ziemlich leer."], answer: 2, teilPart: 2 },
+          { id: "h12", num: 12, type: "mcq", text: "Was zeigt der Museumsführer den Touristen?", options: ["alle Ausstellungen", "die Hauptausstellung", "die Sonderausstellungen"], answer: 1, teilPart: 2 },
+          { id: "h13", num: 13, type: "mcq", text: "Wo ist der Treffpunkt am Nachmittag?", options: ["am Eingang", "an der Garderobe", "im Café"], answer: 0, teilPart: 2 },
+          { id: "h14", num: 14, type: "mcq", text: "Die Ausstellung beschäftigt sich mit ...", options: ["dem Oktoberfest.", "der bayerischen Küche.", "der Geschichte Münchens."], answer: 2, teilPart: 2 },
+          { id: "h15", num: 15, type: "mcq", text: "Der Museumsführer empfiehlt den Teilnehmern einen ...", options: ["Restaurantbesuch.", "Cafébesuch.", "Biergartenbesuch."], answer: 2, teilPart: 2 },
+
+          // Teil 3: 16 - 22
+          { id: "h16", num: 16, type: "tf", text: "Bei dem Fest wurde der Geburtstag von Annas Mann gefeiert.", answer: "falsch", teilPart: 3 },
+          { id: "h17", num: 17, type: "tf", text: "Nadia ist vom Haus der Gastgeber begeistert.", answer: "richtig", teilPart: 3 },
+          { id: "h18", num: 18, type: "tf", text: "Nadia arbeitet beim Fernsehen.", answer: "falsch", teilPart: 3 },
+          { id: "h19", num: 19, type: "tf", text: "Das Essen war ausgezeichnet.", answer: "richtig", teilPart: 3 },
+          { id: "h20", num: 20, type: "tf", text: "Nadia hat zusammen mit dem Musiker gespielt.", answer: "falsch", teilPart: 3 },
+          { id: "h21", num: 21, type: "tf", text: "Nadia hat auch Jazz gespielt.", answer: "falsch", teilPart: 3 },
+          { id: "h22", num: 22, type: "tf", text: "Das Fest dauerte bis nach 12 Uhr nachts.", answer: "richtig", teilPart: 3 },
+
+          // Teil 4: 23 - 30
+          { id: "h23", num: 23, type: "speaker", text: "Kinder lernen soziales Verhalten erst ab einem bestimmten Alter.", options: ["Moderator", "Dana Schneider", "Florian Bader"], answer: 1, teilPart: 4 },
+          { id: "h24", num: 24, type: "speaker", text: "Für den Erfolg im Beruf ist es wichtig, immer zu arbeiten.", options: ["Moderator", "Dana Schneider", "Florian Bader"], answer: 2, teilPart: 4 },
+          { id: "h25", num: 25, type: "speaker", text: "Es ist möglich, Kinder zu haben und auch zu arbeiten.", options: ["Moderator", "Dana Schneider", "Florian Bader"], answer: 2, teilPart: 4 },
+          { id: "h26", num: 26, type: "speaker", text: "In der Krippe lernen Kinder andere Dinge als zu Hause.", options: ["Moderator", "Dana Schneider", "Florian Bader"], answer: 0, teilPart: 4 },
+          { id: "h27", num: 27, type: "speaker", text: "In Krippen müssen Erzieherinnen viele Kinder gleichzeitig betreuen.", options: ["Moderator", "Dana Schneider", "Florian Bader"], answer: 1, teilPart: 4 },
+          { id: "h28", num: 28, type: "speaker", text: "Kinder sollen lernen, sich auch mal alleine zu beschäftigen.", options: ["Moderator", "Dana Schneider", "Florian Bader"], answer: 2, teilPart: 4 },
+          { id: "h29", num: 29, type: "speaker", text: "Manche Kindertagesstätten haben zu wenig Geld.", options: ["Moderator", "Dana Schneider", "Florian Bader"], answer: 2, teilPart: 4 },
+          { id: "h30", num: 30, type: "speaker", text: "Auch Familien mit wenig Geld sollen Kinder haben können.", options: ["Moderator", "Dana Schneider", "Florian Bader"], answer: 1, teilPart: 4 }
+        ],
+        horenSections: [
+          {
+            partNumber: 1,
+            title: "Teil 1",
+            badge: "Aufgaben 1 – 10",
+            intro: "Sie hören nun fünf kurze Texte. Sie hören jeden Text zweimal. Zu jedem Text lösen Sie zwei Aufgaben. Wählen Sie bei jeder Aufgabe die richtige Lösung. Lesen Sie zuerst das Beispiel. Dazu haben Sie 10 Sekunden Zeit.",
+            example: {
+              ex01: { num: "01", text: "Frank schlägt Jan vor, nach Sizilien zu fliegen.", type: "tf", answer: "falsch" },
+              ex02: { num: "02", text: "Wo möchte Frank am liebsten übernachten?", type: "mcq", options: ["bei Verwandten", "im Hotel", "im Zelt"], answer: 2 }
+            },
+            texts: [
+              {
+                number: 1,
+                title: "Text 1",
+                qIds: ["h1", "h2"]
+              },
+              {
+                number: 2,
+                title: "Text 2",
+                qIds: ["h3", "h4"]
+              },
+              {
+                number: 3,
+                title: "Text 3",
+                qIds: ["h5", "h6"]
+              },
+              {
+                number: 4,
+                title: "Text 4",
+                qIds: ["h7", "h8"]
+              },
+              {
+                number: 5,
+                title: "Text 5",
+                qIds: ["h9", "h10"]
+              }
+            ]
+          },
+          {
+            partNumber: 2,
+            title: "Teil 2",
+            badge: "Aufgaben 11 – 15",
+            intro: "Sie hören nun einen Text. Sie hören den Text einmal. Dazu lösen Sie fünf Aufgaben. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c. Lesen Sie jetzt die Aufgaben 11 bis 15. Dazu haben Sie 60 Sekunden Zeit.",
+            context: "Sie nehmen an einer Führung durch das Münchner Stadtmuseum teil.",
+            qIds: ["h11", "h12", "h13", "h14", "h15"]
+          },
+          {
+            partNumber: 3,
+            title: "Teil 3",
+            badge: "Aufgaben 16 – 22",
+            intro: "Sie hören nun ein Gespräch. Sie hören das Gespräch einmal. Dazu lösen Sie sieben Aufgaben. Wählen Sie: Sind die Aussagen Richtig oder Falsch? Lesen Sie jetzt die Aufgaben 16 bis 22. Dazu haben Sie 60 Sekunden Zeit.",
+            context: "Sie sind an einer Bushaltestelle und hören, wie sich ein Mann und eine Frau über ein Fest unterhalten.",
+            qIds: ["h16", "h17", "h18", "h19", "h20", "h21", "h22"]
+          },
+          {
+            partNumber: 4,
+            title: "Teil 4",
+            badge: "Aufgaben 23 – 30",
+            intro: "Sie hören nun eine Diskussion. Sie hören die Diskussion zweimal. Dazu lösen Sie acht Aufgaben. Ordnen Sie die Aussagen zu: Wer sagt was? Lesen Sie jetzt die Aussagen 23 bis 30. Dazu haben Sie 60 Sekunden Zeit.",
+            context: "Der Moderator der Radiosendung „Diskussion am Abend“ diskutiert mit den Eltern Dana Schneider und Florian Bader zum Thema „Sollen kleine Kinder in die Kinderkrippe gehen?“.",
+            speakers: [
+              { code: "a", name: "Moderator" },
+              { code: "b", name: "Dana Schneider" },
+              { code: "c", name: "Florian Bader" }
+            ],
+            example: {
+              num: "0",
+              text: "Für kleine Kinder sind die ersten drei Jahre sehr wichtig.",
+              answerCode: "b",
+              answerSpeaker: "Dana Schneider"
+            },
+            qIds: ["h23", "h24", "h25", "h26", "h27", "h28", "h29", "h30"]
+          }
         ]
       }
     ]
