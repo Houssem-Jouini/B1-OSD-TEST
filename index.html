@@ -2,8 +2,22 @@
 <html lang="de" dir="ltr">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+<meta name="theme-color" content="#0a0f1d">
 <title>Zertifikat B1 — Prüfungssimulation (Lesen & Hören)</title>
+
+<!-- PWA Web App Manifest -->
+<link rel="manifest" href="manifest.json">
+<link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+<link rel="icon" type="image/png" sizes="64x64" href="icons/favicon.png">
+
+<!-- Apple / iOS Native Web App Tags -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="B1 Prüfung">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -365,6 +379,20 @@
     <span class="email-toast-icon">✓</span>
     <span id="emailToastMsg">Antworten übermittelt</span>
   </div>
+
+  <!-- iOS Safari Install Helper Prompt -->
+  <aside id="iosInstallPrompt" class="ios-install-prompt" style="display:none;" role="dialog" aria-label="App auf dem iPhone installieren">
+    <div class="ios-prompt-icon">
+      <img src="icons/icon-192.png" alt="B1 App" width="44" height="44">
+    </div>
+    <div class="ios-prompt-content">
+      <div class="ios-prompt-title">Als App auf dem iPhone installieren</div>
+      <div class="ios-prompt-desc">
+        Tippe unten auf <strong>Teilen</strong> <span class="ios-icon-badge"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><polyline points="16 6 12 2 8 6"/><line x1="12" y1="2" x2="12" y2="15"/></svg></span> und danach auf <strong>„Zum Home-Bildschirm“</strong> ⊞ für Vollbild ohne störende Safari-Leisten.
+      </div>
+    </div>
+    <button type="button" class="ios-prompt-close" id="closeIosPromptBtn" aria-label="Schließen">✕</button>
+  </aside>
 
 <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 <script src="testsData.js"></script>

@@ -4233,7 +4233,47 @@ function initKeyboardShortcuts() {
   }
 }
 
+/* ---------------- PWA & IOS INSTALLATION ---------------- */
+function initPwaServiceWorker() {
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('./sw.js').then((reg) => {
+        console.log('B1 Prüfung PWA ServiceWorker active:', reg.scope);
+      }).catch((err) => {
+        console.warn('ServiceWorker registration error:', err);
+      });
+    });
+  }
+}
+
+function initIosInstallPrompt() {
+  const ua = window.navigator.userAgent.toLowerCase();
+  const isIos = /iphone|ipad|ipod/.test(ua);
+  const isStandalone = window.navigator.standalone === true || window.matchMedia('(display-mode: standalone)').matches;
+  const isDismissed = localStorage.getItem('b1_ios_prompt_dismissed') === '1';
+
+  if (isIos && !isStandalone && !isDismissed) {
+    const promptEl = document.getElementById('iosInstallPrompt');
+    const closeBtn = document.getElementById('closeIosPromptBtn');
+    if (promptEl) {
+      // Gentle appearance after 2.5s
+      setTimeout(() => {
+        promptEl.style.display = 'flex';
+      }, 2500);
+
+      if (closeBtn) {
+        closeBtn.addEventListener('click', () => {
+          promptEl.style.display = 'none';
+          localStorage.setItem('b1_ios_prompt_dismissed', '1');
+        });
+      }
+    }
+  }
+}
+
 /* ---------------- INITIALIZATION ---------------- */
+initPwaServiceWorker();
+initIosInstallPrompt();
 initEmailService();
 initTheme();
 initFullscreen();
@@ -4259,3 +4299,4 @@ window.switchTeil = function(id) {
   saveSession();
   window.scrollTo({ top: 0, behavior: 'smooth' });
 };
+

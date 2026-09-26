@@ -1,0 +1,48 @@
+{
+  "name": "Zertifikat B1 Prüfungssimulation (Goethe & ÖSD)",
+  "short_name": "B1 Prüfung",
+  "description": "Prüfungssimulation für das Zertifikat B1 (Goethe-Institut & ÖSD) — Lesen & Hören mit interaktiven Erklärungen und B1-Wortschatz.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "id": "b1-exam-simulation",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0a0f1d",
+  "theme_color": "#0a0f1d",
+  "lang": "de",
+  "categories": [
+    "education",
+    "reference"
+  ],
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}

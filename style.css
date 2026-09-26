@@ -121,6 +121,9 @@
     border-bottom: 1px solid var(--border);
     backdrop-filter: blur(12px);
     box-shadow: var(--shadow-sm);
+    padding-top: env(safe-area-inset-top, 0px);
+    padding-left: env(safe-area-inset-left, 0px);
+    padding-right: env(safe-area-inset-right, 0px);
   }
 
   .nav-container {
@@ -1491,6 +1494,9 @@
     background: var(--bg-card);
     border-top: 1px solid var(--border);
     padding: 12px 20px;
+    padding-bottom: calc(12px + env(safe-area-inset-bottom, 0px));
+    padding-left: calc(20px + env(safe-area-inset-left, 0px));
+    padding-right: calc(20px + env(safe-area-inset-right, 0px));
     z-index: 40;
     box-shadow: 0 -4px 12px rgba(0,0,0,0.05);
   }
@@ -4547,6 +4553,132 @@ body.focus-reader-active .footer-actionbar {
     font-size: 19px;
   }
 }
+
+/* ------------------------------------------------------------- */
+/* PWA & iOS NATIVE APP OPTIMIZATIONS                            */
+/* ------------------------------------------------------------- */
+
+/* Native app touch behavior */
+html {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+}
+
+/* Ensure smooth inertial scrolling on iOS */
+.panel-body,
+.focus-reader-body,
+.vocab-list,
+.modal-body,
+.mistakes-list {
+  -webkit-overflow-scrolling: touch;
+}
+
+/* iOS Safari PWA Install Banner */
+.ios-install-prompt {
+  position: fixed;
+  bottom: calc(76px + env(safe-area-inset-bottom, 12px));
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(94%, 440px);
+  background: rgba(15, 23, 42, 0.95);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(59, 130, 246, 0.45);
+  box-shadow: 0 16px 40px -8px rgba(0, 0, 0, 0.7), 0 0 0 1px rgba(255, 255, 255, 0.1);
+  border-radius: 18px;
+  padding: 13px 15px;
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  z-index: 10000;
+  animation: iosPromptSlideUp 0.38s cubic-bezier(0.16, 1, 0.3, 1);
+  color: #f8fafc;
+}
+
+@keyframes iosPromptSlideUp {
+  from {
+    opacity: 0;
+    transform: translate(-50%, 28px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
+}
+
+.ios-prompt-icon {
+  flex-shrink: 0;
+  border-radius: 11px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
+  line-height: 0;
+}
+
+.ios-prompt-icon img {
+  display: block;
+  width: 44px;
+  height: 44px;
+  object-fit: cover;
+}
+
+.ios-prompt-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.ios-prompt-title {
+  font-size: 13px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 3px;
+  letter-spacing: -0.01em;
+}
+
+.ios-prompt-desc {
+  font-size: 11.5px;
+  color: #cbd5e1;
+  line-height: 1.42;
+}
+
+.ios-prompt-desc strong {
+  color: #93c5fd;
+  font-weight: 600;
+}
+
+.ios-icon-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(59, 130, 246, 0.28);
+  border: 1px solid rgba(96, 165, 250, 0.45);
+  color: #93c5fd;
+  border-radius: 5px;
+  padding: 1px 4px;
+  vertical-align: middle;
+  margin: 0 2px;
+}
+
+.ios-prompt-close {
+  background: transparent;
+  border: none;
+  color: #94a3b8;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 6px;
+  border-radius: 8px;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.15s, background 0.15s;
+  flex-shrink: 0;
+}
+
+.ios-prompt-close:hover {
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.12);
+}
+
 
 
 
