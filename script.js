@@ -859,7 +859,7 @@ function renderPassage(t) {
     const assignedMap = getTeil3Assignments(t);
     const assignedLabel = isAr ? 'في رقم' : (passageLang === 'fr' ? 'Dans n°' : 'In Nr.');
 
-    html += `<div class="ads-board">`;
+    html += `<div class="anzeigen-board">`;
     t.adsFormatted.forEach(ad => {
       const assignedQid = assignedMap[ad.code];
       const isAssigned = !!assignedQid;
@@ -867,15 +867,15 @@ function renderPassage(t) {
 
       let adContent = ad.html;
       if (trAdText) {
-        adContent = `<div class="ad-headline" style="font-size:14px; font-weight:700; margin-bottom:6px;">${isAr ? `إعلان ${ad.code}` : `Annonce ${ad.code}`}</div><div style="font-size:13.5px; line-height:1.5;">${trAdText}</div>`;
+        adContent = `<div class="anzeige-headline" style="font-size:14px; font-weight:700; margin-bottom:6px;">${isAr ? `إعلان ${ad.code}` : `Annonce ${ad.code}`}</div><div style="font-size:13.5px; line-height:1.5;">${trAdText}</div>`;
       }
 
       html += `
-        <div class="ad-wrapper ${ad.tagPos === 'left' ? 'tag-left' : 'tag-right'} ${isAssigned ? 'ad-assigned' : ''}" id="ad-card-${ad.code}">
-          <div class="ad-letter-tag">${ad.code}</div>
+        <div class="anzeige-wrapper ${ad.tagPos === 'left' ? 'tag-left' : 'tag-right'} ${isAssigned ? 'anzeige-assigned' : ''}" id="anzeige-card-${ad.code}">
+          <div class="anzeige-letter-tag">${ad.code}</div>
           ${ad.hasPin ? '<div class="pushpin"></div>' : ''}
-          ${isAssigned ? `<div class="ad-assigned-badge"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> ${assignedLabel} ${assignedQid}</div>` : ''}
-          <div class="book-ad ${ad.cardClass || ''}">
+          ${isAssigned ? `<div class="anzeige-assigned-badge"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> ${assignedLabel} ${assignedQid}</div>` : ''}
+          <div class="anzeige-item ${ad.cardClass || ''}">
             ${adContent}
           </div>
         </div>
@@ -1046,7 +1046,7 @@ window.highlightEvidence = function(qid) {
       return;
     }
 
-    const targetAd = document.getElementById('ad-card-' + q.answer);
+    const targetAd = document.getElementById('anzeige-card-' + q.answer);
     if (targetAd) {
       targetAd.classList.add('evidence-card-pulse');
       targetAd.scrollIntoView({ behavior: 'smooth', block: 'center' });
@@ -2546,7 +2546,7 @@ function enrichContainerWithVocab(container, teilId) {
   const escapeRegExp = str => str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
   const pattern = new RegExp('\\b(' + map.map(m => escapeRegExp(m.phrase)).join('|') + ')\\b', 'i');
 
-  const targets = container.querySelectorAll('.reading-text p, .reading-text li, .focus-reader-article-wrap p, .focus-reader-article-wrap li, .ad-wrapper p, .ad-wrapper div:not(.ad-letter-tag):not(.ad-assigned-badge), .letter-body');
+  const targets = container.querySelectorAll('.reading-text p, .reading-text li, .focus-reader-article-wrap p, .focus-reader-article-wrap li, .anzeige-wrapper p, .anzeige-wrapper div:not(.anzeige-letter-tag):not(.anzeige-assigned-badge), .letter-body');
 
   targets.forEach(target => {
     if (target.dataset.vocabEnriched === 'true') return;
@@ -3624,18 +3624,18 @@ function renderFocusReaderContent() {
         <h2>${isAr ? 'لوحة الإعلانات A إلى J' : (isFr ? 'Tableau des annonces A à J' : 'Anzeigentafel A bis J')}</h2>
         <p style="color:var(--text-muted); font-size:0.9em;">${t.instructions}</p>
       </div>
-      <div class="ads-board" style="grid-template-columns: 1fr;">
+      <div class="anzeigen-board" style="grid-template-columns: 1fr;">
     `;
     t.adsFormatted.forEach(ad => {
       const trAdText = trPart?.ads?.[ad.code]?.[focusReaderLang];
       let adContent = ad.html;
       if (trAdText) {
-        adContent = `<div class="ad-headline" style="font-size:16px; font-weight:800; margin-bottom:8px;">${isAr ? `إعلان ${ad.code}` : `Annonce ${ad.code}`}</div><div style="font-size:15px; line-height:1.6;">${trAdText}</div>`;
+        adContent = `<div class="anzeige-headline" style="font-size:16px; font-weight:800; margin-bottom:8px;">${isAr ? `إعلان ${ad.code}` : `Annonce ${ad.code}`}</div><div style="font-size:15px; line-height:1.6;">${trAdText}</div>`;
       }
       html += `
-        <div class="ad-wrapper tag-left" style="margin-bottom:18px;">
-          <div class="ad-letter-tag">${ad.code}</div>
-          <div class="book-ad" style="padding:22px; font-size:16px; line-height:1.65;">
+        <div class="anzeige-wrapper tag-left" style="margin-bottom:18px;">
+          <div class="anzeige-letter-tag">${ad.code}</div>
+          <div class="anzeige-item" style="padding:22px; font-size:16px; line-height:1.65;">
             ${adContent}
           </div>
         </div>

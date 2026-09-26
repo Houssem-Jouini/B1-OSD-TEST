@@ -95,9 +95,9 @@ const modelTests = [
             code: "A",
             tagPos: "left",
             hasPin: true,
-            cardClass: "ad-style-a",
+            cardClass: "anzeige-style-a",
             html: `
-              <div class="ad-headline">Wir suchen Hilfe bei der Kinderbetreuung.</div>
+              <div class="anzeige-headline">Wir suchen Hilfe bei der Kinderbetreuung.</div>
               <p style="margin-bottom:8px; font-size:13.5px;">Wer kann unsere beiden Jungs (4 und 6 Jahre) mittags von der Schule abholen und nach Hause bringen, mit ihnen essen und spielen?</p>
               <p style="margin-bottom:8px; font-size:13.5px; font-weight:700;">Arbeitszeit: Mo – Fr, jeweils 4 Std.</p>
               <p style="margin-bottom:8px; font-size:13.5px;">Wir wünschen uns eine liebevolle junge Frau mit einigen Deutschkenntnissen.</p>
@@ -108,9 +108,9 @@ const modelTests = [
             code: "B",
             tagPos: "right",
             hasPin: true,
-            cardClass: "ad-style-b",
+            cardClass: "anzeige-style-b",
             html: `
-              <div class="ad-headline">Hilfskräfte gesucht</div>
+              <div class="anzeige-headline">Hilfskräfte gesucht</div>
               <p style="margin-bottom:8px; font-size:13.5px;">Studentenjob für Nachteulen und Stubenhocker: Im Postdienst werden junge Leute zum Einpacken und Sortieren von Briefsendungen gesucht.</p>
               <p style="margin-bottom:6px; font-size:13.5px; font-weight:700;">Arbeitszeit: samstags, sonntags, nachts.</p>
               <p style="margin-bottom:6px; font-size:13px;"><strong>Voraussetzung:</strong> sehr gute Deutschkenntnisse</p>
@@ -121,9 +121,9 @@ const modelTests = [
             code: "C",
             tagPos: "left",
             hasPin: false,
-            cardClass: "ad-style-c",
+            cardClass: "anzeige-style-c",
             html: `
-              <div class="ad-headline-hand">RUSSISCHE LITERATUR</div>
+              <div class="anzeige-headline-hand">RUSSISCHE LITERATUR</div>
               <p style="font-size:13.5px; margin-bottom:8px;">für deutsche Leser aufbereiten, das ist das Ziel des Workshops „Russland schreibt“.</p>
               <div style="font-size:13px; line-height:1.45; margin-bottom:6px;">
                 <div><strong>Ort:</strong> Russisches Kultur-Institut</div>
@@ -138,9 +138,9 @@ const modelTests = [
             code: "D",
             tagPos: "right",
             hasPin: false,
-            cardClass: "ad-style-d",
+            cardClass: "anzeige-style-d",
             html: `
-              <div class="ad-headline">Paketfahrer gesucht</div>
+              <div class="anzeige-headline">Paketfahrer gesucht</div>
               <div style="font-weight:700; font-size:13.5px; margin-bottom:4px;">Sie:</div>
               <div style="font-size:13.5px; line-height:1.4; margin-bottom:8px;">
                 <div>– haben einen Führerschein</div>
@@ -160,9 +160,9 @@ const modelTests = [
             code: "E",
             tagPos: "left",
             hasPin: false,
-            cardClass: "ad-style-e",
+            cardClass: "anzeige-style-e",
             html: `
-              <div class="ad-headline">Ponyhof sucht Aushilfskräfte</div>
+              <div class="anzeige-headline">Ponyhof sucht Aushilfskräfte</div>
               <p style="font-size:13.5px; margin-bottom:8px; line-height:1.45;">Im Juli und August sind noch Plätze bei der Gruppenbetreuung frei. Unsere Gäste sind 8 bis 14 Jahre alt und kommen jeweils für 14 Tage zu uns.</p>
               <div style="font-size:13px; font-weight:700; margin-top:6px;">Bewerbungen an:</div>
               <div style="font-size:13.5px; font-weight:700; text-decoration:underline;">info@ponyhof.moelln.de</div>
@@ -172,9 +172,9 @@ const modelTests = [
             code: "F",
             tagPos: "right",
             hasPin: false,
-            cardClass: "ad-style-f",
+            cardClass: "anzeige-style-f",
             html: `
-              <div class="ad-headline">Praktikums-Börse für den Bereich Hotel und Restaurant</div>
+              <div class="anzeige-headline">Praktikums-Börse für den Bereich Hotel und Restaurant</div>
               <p style="font-size:13.5px; margin-bottom:8px; line-height:1.45;">Erstklassige Hotelbetriebe in Deutschland, Österreich und der Schweiz. Praktikumsplätze für drei bis sechs Monate; auch für Anfänger mit geringen Sprachkenntnissen.</p>
               <div style="font-size:13px; font-weight:700; margin-top:6px;">Bewerbungsformulare unter:</div>
               <div style="font-size:13.5px; font-weight:700;">www.jobboerse.ch/hotel</div>
@@ -184,9 +184,9 @@ const modelTests = [
             code: "G",
             tagPos: "left",
             hasPin: false,
-            cardClass: "ad-style-g",
+            cardClass: "anzeige-style-g",
             html: `
-              <div class="ad-headline">Übersetzungsbüro <span style="font-weight:500; font-size:14px;">sucht freie Mitarbeiter.</span></div>
+              <div class="anzeige-headline">Übersetzungsbüro <span style="font-weight:500; font-size:14px;">sucht freie Mitarbeiter.</span></div>
               <p style="font-size:13.5px; margin-bottom:8px; line-height:1.45;">Alle europäischen Sprachen, faire Projektverträge. Wenn Sie von zu Hause arbeiten wollen und bereit sind, eine Probe-Übersetzung abzuliefern, sollten Sie sich bei uns melden:</p>
               <div style="font-size:13.5px; font-weight:700; color:#0f172a;">paslomski-projekt@gmx.net</div>
             `
@@ -195,9 +195,9 @@ const modelTests = [
             code: "H",
             tagPos: "right",
             hasPin: false,
-            cardClass: "ad-style-h",
+            cardClass: "anzeige-style-h",
             html: `
-              <div class="ad-headline-tea">KLEINEN TEELADEN</div>
+              <div class="anzeige-headline-tea">KLEINEN TEELADEN</div>
               <div class="italic-body" style="margin-bottom:8px;">Wenn Sie ein freundlicher, aufgeschlossener Mensch sind und gern im Team arbeiten, sind Sie bei uns genau richtig. Alles, was Sie wissen müssen, erklären wir Ihnen.</div>
               <div style="font-size:12.5px; font-weight:700; margin-bottom:2px;">ARBEITSZEIT:</div>
               <div style="font-size:13px; font-weight:700; font-style:italic; margin-bottom:6px;">DI–SA VON 10.00 BIS 14.00 UHR</div>
@@ -208,7 +208,7 @@ const modelTests = [
             code: "I",
             tagPos: "left",
             hasPin: false,
-            cardClass: "ad-style-i",
+            cardClass: "anzeige-style-i",
             html: `
               <p style="font-size:13.5px; line-height:1.45; margin-bottom:8px;">Der <strong style="color:#0284c7;">Computer-Notdienst</strong> stellt gerade eine Gruppe von Fachleuten zusammen, die in festgelegten Zeiträumen auf Abruf bereitstehen.</p>
               <div style="font-size:13px; line-height:1.4; margin-bottom:8px;">
@@ -223,7 +223,7 @@ const modelTests = [
             code: "J",
             tagPos: "right",
             hasPin: false,
-            cardClass: "ad-style-j",
+            cardClass: "anzeige-style-j",
             html: `
               <p style="font-size:13.5px; line-height:1.45; margin-bottom:8px;">Das <strong style="color:#000;">Clara-Zetkin-Institut</strong> sucht Mitarbeiter für zeitlich begrenzte Aufgaben (drei Monate): Katalogisierung und Archivierung von deutschen und fremdsprachigen Texten, Internet-Recherche, Mitarbeit in der Presseabteilung.</p>
               <div style="font-size:13px; font-style:italic; margin-bottom:4px;">Unkostenvergütung nach Absprache</div>
@@ -517,10 +517,10 @@ const modelTests = [
             code: "A",
             tagPos: "left",
             hasPin: true,
-            cardClass: "ad-style-m2-a",
+            cardClass: "anzeige-style-m2-a",
             html: `
-              <div class="ad-kicker" style="font-size:11px; font-weight:700; color:#dc2626; letter-spacing:0.5px; text-transform:uppercase;">Im Colosseum</div>
-              <div class="ad-headline" style="font-size:15px; font-weight:800; line-height:1.25; margin-bottom:6px;">GROSSE BILLY WILDER RETROSPEKTIVE</div>
+              <div class="anzeige-kicker" style="font-size:11px; font-weight:700; color:#dc2626; letter-spacing:0.5px; text-transform:uppercase;">Im Colosseum</div>
+              <div class="anzeige-headline" style="font-size:15px; font-weight:800; line-height:1.25; margin-bottom:6px;">GROSSE BILLY WILDER RETROSPEKTIVE</div>
               <p style="font-size:13px; line-height:1.4; margin-bottom:6px;">Ab Freitag zeigen wir alle Filme des Regisseurs Billy Wilder.</p>
               <div style="font-size:12.5px; line-height:1.4; margin-bottom:6px;">
                 <div><strong>Freitag um 18.00:</strong> Eröffnungsgala und der Film „Extrablatt“ (1974).</div>
@@ -533,9 +533,9 @@ const modelTests = [
             code: "B",
             tagPos: "right",
             hasPin: true,
-            cardClass: "ad-style-m2-b",
+            cardClass: "anzeige-style-m2-b",
             html: `
-              <div class="ad-headline" style="font-size:15px; font-weight:800; color:#15803d; margin-bottom:4px;">Fröhliches Wochenende – Stadtfest in Bruchsal</div>
+              <div class="anzeige-headline" style="font-size:15px; font-weight:800; color:#15803d; margin-bottom:4px;">Fröhliches Wochenende – Stadtfest in Bruchsal</div>
               <p style="font-size:13px; line-height:1.4; margin-bottom:6px;">In der Altstadt gibt es Unterhaltung für junge und alte Besucher. Tanzbuden, Handwerkermarkt, Zauberer und Clowns tragen dazu bei, dass jeder sich wohlfühlt.</p>
               <p style="font-size:13px; font-weight:700; color:#166534; margin-bottom:4px;">Für die Kleinen ist ein besonderer Spielpark aufgebaut.</p>
               <div style="font-size:12.5px; font-weight:700; margin-top:4px;">Beginn: 12.00 Uhr · <strong>Eintritt frei.</strong></div>
@@ -546,9 +546,9 @@ const modelTests = [
             code: "C",
             tagPos: "left",
             hasPin: false,
-            cardClass: "ad-style-m2-c",
+            cardClass: "anzeige-style-m2-c",
             html: `
-              <div class="ad-headline" style="font-size:15.5px; font-weight:800; color:#7c3aed; margin-bottom:2px;">Club Nirvana: Neueröffnung!</div>
+              <div class="anzeige-headline" style="font-size:15.5px; font-weight:800; color:#7c3aed; margin-bottom:2px;">Club Nirvana: Neueröffnung!</div>
               <div style="font-size:12.5px; font-weight:700; color:#a855f7; margin-bottom:6px;">Große Eröffnungsparty, auch für neue Mitglieder</div>
               <div style="font-size:13px; line-height:1.4; margin-bottom:6px;">
                 <div>– elegantes Büffet & erlesene Weine</div>
@@ -562,9 +562,9 @@ const modelTests = [
             code: "D",
             tagPos: "right",
             hasPin: false,
-            cardClass: "ad-style-m2-d",
+            cardClass: "anzeige-style-m2-d",
             html: `
-              <div class="ad-headline" style="font-size:14.5px; font-weight:800; color:#854d0e; margin-bottom:2px;">Der Buchladen am Steintor</div>
+              <div class="anzeige-headline" style="font-size:14.5px; font-weight:800; color:#854d0e; margin-bottom:2px;">Der Buchladen am Steintor</div>
               <div style="font-size:13px; font-style:italic; font-weight:700; color:#a16207; margin-bottom:6px;">Eine ganz besondere Veranstaltung: Kaffee und Literatur</div>
               <p style="font-size:13px; margin-bottom:6px;">Der Autor Stefan Michalsky liest aus seinem neuen Werk: <strong>Das verfehlte Leben</strong></p>
               <div style="font-size:12.5px; font-weight:700;">Sonntag, 10.00 Uhr · Eintrittspreis: 8 Euro</div>
@@ -575,9 +575,9 @@ const modelTests = [
             code: "E",
             tagPos: "left",
             hasPin: false,
-            cardClass: "ad-style-m2-e",
+            cardClass: "anzeige-style-m2-e",
             html: `
-              <div class="ad-headline" style="font-size:15px; font-weight:800; color:#c2410c; margin-bottom:4px;">In der Bar „Sol latino“ ist am Samstag Party</div>
+              <div class="anzeige-headline" style="font-size:15px; font-weight:800; color:#c2410c; margin-bottom:4px;">In der Bar „Sol latino“ ist am Samstag Party</div>
               <p style="font-size:13px; margin-bottom:4px;">Live-Musik mit <strong>„Los Varaderos“</strong>. Die heißesten kubanischen Rhythmen der Stadt!</p>
               <div style="font-size:13px; line-height:1.4; margin-bottom:6px;">
                 <div><strong>Einlass ab 22.00 Uhr.</strong></div>
@@ -591,9 +591,9 @@ const modelTests = [
             code: "F",
             tagPos: "right",
             hasPin: false,
-            cardClass: "ad-style-m2-f",
+            cardClass: "anzeige-style-m2-f",
             html: `
-              <div class="ad-headline" style="font-size:15px; font-weight:800; color:#0284c7; margin-bottom:4px;">Und am Wochenende zum Bowling!</div>
+              <div class="anzeige-headline" style="font-size:15px; font-weight:800; color:#0284c7; margin-bottom:4px;">Und am Wochenende zum Bowling!</div>
               <p style="font-size:13px; line-height:1.4; margin-bottom:6px;">Verbringen Sie einen anregenden Tag mit einer Gruppe von Freunden. Jede Bowling-Bahn enthält eine eigene Service-Einheit.</p>
               <p style="font-size:13px; margin-bottom:6px;">Genug Ruhe, um sich zu unterhalten – genug Platz für den Sport. Und unser Catering-Service versorgt Sie mit köstlichen Speisen.</p>
               <div style="font-size:12.5px; font-weight:700;">Tel: 089 74489012 · info@süd-bowling.com.de</div>
@@ -603,9 +603,9 @@ const modelTests = [
             code: "G",
             tagPos: "left",
             hasPin: false,
-            cardClass: "ad-style-m2-g",
+            cardClass: "anzeige-style-m2-g",
             html: `
-              <div class="ad-headline" style="font-size:15px; font-weight:800; color:#4338ca; margin-bottom:4px;">Der musikalische Höhepunkt des Sommers!</div>
+              <div class="anzeige-headline" style="font-size:15px; font-weight:800; color:#4338ca; margin-bottom:4px;">Der musikalische Höhepunkt des Sommers!</div>
               <p style="font-size:13px; line-height:1.4; margin-bottom:6px;">Am Sa. 17.08. treten <strong>Giulia Bardini und Serge Popov</strong> im Open-Air-Konzert auf dem Domplatz auf. Vor der großartigen Kulisse des nächtlichen Doms erklingen die großen Arien der italienischen Meister.</p>
               <div style="font-size:12.5px; font-style:italic; margin-bottom:4px;">Ein Feuerwerk beschließt das diesjährige Open-Air-Festival.</div>
               <div style="font-size:12px; font-weight:700; color:#4338ca;">www.open-air-festival.am.dom.de</div>
@@ -615,9 +615,9 @@ const modelTests = [
             code: "H",
             tagPos: "right",
             hasPin: false,
-            cardClass: "ad-style-m2-h",
+            cardClass: "anzeige-style-m2-h",
             html: `
-              <div class="ad-headline" style="font-size:14.5px; font-weight:800; color:#0f172a; margin-bottom:2px;">Sonntags-Matinee im Cinema Continental</div>
+              <div class="anzeige-headline" style="font-size:14.5px; font-weight:800; color:#0f172a; margin-bottom:2px;">Sonntags-Matinee im Cinema Continental</div>
               <p style="font-size:13px; margin-bottom:4px;">Das große Historiendrama aus Frankreich: <strong>Als ich Königin war – La Reine Margaux</strong></p>
               <div style="font-size:12.5px; line-height:1.4; margin-bottom:4px;">
                 <div>Beginn: 11.00 Uhr, Kartenverkauf 30 Min. vorher (Doppelte Filmdauer)</div>
@@ -630,9 +630,9 @@ const modelTests = [
             code: "I",
             tagPos: "left",
             hasPin: false,
-            cardClass: "ad-style-m2-i",
+            cardClass: "anzeige-style-m2-i",
             html: `
-              <div class="ad-headline" style="font-size:15px; font-weight:800; color:#047857; margin-bottom:2px;">Meditation und Yoga im Südpark</div>
+              <div class="anzeige-headline" style="font-size:15px; font-weight:800; color:#047857; margin-bottom:2px;">Meditation und Yoga im Südpark</div>
               <p style="font-size:13px; line-height:1.4; margin-bottom:4px;">Zwei Tage lang treffen sich Yoga-Anhänger auf der großen Wiese im Südpark. Der berühmte Yogalehrer Madhavi Chopra lädt ein:</p>
               <div style="font-size:12.5px; line-height:1.4; margin-bottom:4px;">
                 <div>– Hatha Yoga · Meditation · Vorträge · Diskussion</div>
@@ -644,9 +644,9 @@ const modelTests = [
             code: "J",
             tagPos: "right",
             hasPin: false,
-            cardClass: "ad-style-m2-j",
+            cardClass: "anzeige-style-m2-j",
             html: `
-              <div class="ad-headline" style="font-size:15px; font-weight:800; color:#991b1b; margin-bottom:2px;">Weinfest auf dem Geisenheimer Platz</div>
+              <div class="anzeige-headline" style="font-size:15px; font-weight:800; color:#991b1b; margin-bottom:2px;">Weinfest auf dem Geisenheimer Platz</div>
               <p style="font-size:13px; line-height:1.4; margin-bottom:4px;">Zwanzig deutsche Winzer aus den besten Weinbaugebieten laden ein. Rund um den Weinbrunnen haben sie ihre Zelte aufgeschlagen:</p>
               <div style="font-size:12.5px; line-height:1.4; margin-bottom:4px;">
                 <div>– Informationen · Weinprobe · Attraktive Kaufangebote</div>
@@ -804,9 +804,9 @@ const modelTests = [
             code: "A",
             tagPos: "left",
             hasPin: true,
-            cardClass: "ad-style-m3-a",
+            cardClass: "anzeige-style-m3-a",
             html: `
-              <div class="ad-headline" style="font-size:15px; font-weight:800; color:#b45309; margin-bottom:4px;">Ganzjährige Vermietung in der Toskana</div>
+              <div class="anzeige-headline" style="font-size:15px; font-weight:800; color:#b45309; margin-bottom:4px;">Ganzjährige Vermietung in der Toskana</div>
               <p style="font-size:13px; line-height:1.4; margin-bottom:6px;">Wer träumt nicht von einem Haus in der Toskana? Hier wird Ihr Traum Wirklichkeit, in den Hügeln hinter Florenz, mit Blick auf die Weinberge.</p>
               <div style="font-size:12.5px; font-weight:700; color:#92400e;">Vertragsabschluss: mindestens sechs Monate. Tel: 040 55984023</div>
             `
@@ -815,9 +815,9 @@ const modelTests = [
             code: "B",
             tagPos: "right",
             hasPin: true,
-            cardClass: "ad-style-m3-b",
+            cardClass: "anzeige-style-m3-b",
             html: `
-              <div class="ad-headline" style="font-size:15px; font-weight:800; font-style:italic; color:#be185d; margin-bottom:4px;">Lieben Sie Mozart?</div>
+              <div class="anzeige-headline" style="font-size:15px; font-weight:800; font-style:italic; color:#be185d; margin-bottom:4px;">Lieben Sie Mozart?</div>
               <p style="font-size:13px; margin-bottom:6px;">Ferienwohnung in Salzburg, 2 Zimmer, 3 Schlafplätze, Kochnische, Bad.</p>
               <div style="font-size:12.5px; font-weight:700; color:#9d174d;">Zu vermieten während des Salzburger Musikfestivals. jwedinger@gmx.com</div>
             `
@@ -826,9 +826,9 @@ const modelTests = [
             code: "C",
             tagPos: "left",
             hasPin: false,
-            cardClass: "ad-style-m3-c",
+            cardClass: "anzeige-style-m3-c",
             html: `
-              <div class="ad-headline" style="font-size:15px; font-weight:800; color:#0284c7; margin-bottom:4px;">Ferienwohnung am Strand</div>
+              <div class="anzeige-headline" style="font-size:15px; font-weight:800; color:#0284c7; margin-bottom:4px;">Ferienwohnung am Strand</div>
               <p style="font-size:13px; line-height:1.4; margin-bottom:6px;">Blick auf die Adria, 2 Zimmer, 4 Schlafplätze, preisgünstig zu vermieten vom 22.5.–15.6., zentrale Lage an der Promenade von San Benedetto.</p>
               <div style="font-size:12.5px; font-weight:700;">Vermietung direkt vom Besitzer: smueller@libero.it</div>
             `
@@ -837,9 +837,9 @@ const modelTests = [
             code: "D",
             tagPos: "right",
             hasPin: false,
-            cardClass: "ad-style-m3-d",
+            cardClass: "anzeige-style-m3-d",
             html: `
-              <div class="ad-headline" style="font-size:14.5px; font-weight:800; color:#15803d; margin-bottom:4px;">Ferienanlage in Zug (CH) bietet ein komplexes Angebot:</div>
+              <div class="anzeige-headline" style="font-size:14.5px; font-weight:800; color:#15803d; margin-bottom:4px;">Ferienanlage in Zug (CH) bietet ein komplexes Angebot:</div>
               <p style="font-size:13px; line-height:1.4; margin-bottom:6px;">Geführte Touren im Gebirge, kulturelle Events, Kochkurse, Kindergarten, Malkurse, Museumsbesuche, Busfahrten durch die französische Schweiz und an den Bodensee.</p>
               <div style="font-size:12.5px; font-weight:700; color:#166534;">www.ferien-zug-meyer.ch</div>
             `
@@ -848,9 +848,9 @@ const modelTests = [
             code: "E",
             tagPos: "left",
             hasPin: false,
-            cardClass: "ad-style-m3-e",
+            cardClass: "anzeige-style-m3-e",
             html: `
-              <div class="ad-headline" style="font-size:14.5px; font-weight:800; color:#ea580c; margin-bottom:4px;">SEHR GÜNSTIGES ANGEBOT:</div>
+              <div class="anzeige-headline" style="font-size:14.5px; font-weight:800; color:#ea580c; margin-bottom:4px;">SEHR GÜNSTIGES ANGEBOT:</div>
               <p style="font-size:13px; line-height:1.4; margin-bottom:6px;">Ferienwohnung auf Mallorca, frei vom 13.–25.9. und vom 28.9.–10.10., Strandnähe, 2,5 Zimmer, 6 Schlafplätze.</p>
               <div style="font-size:12.5px; font-weight:700;">Tel: 089 15921675</div>
             `
@@ -859,9 +859,9 @@ const modelTests = [
             code: "F",
             tagPos: "right",
             hasPin: false,
-            cardClass: "ad-style-m3-f",
+            cardClass: "anzeige-style-m3-f",
             html: `
-              <div class="ad-headline" style="font-size:15px; font-weight:800; color:#0369a1; margin-bottom:4px;">Ostsee-Urlaub für Familien</div>
+              <div class="anzeige-headline" style="font-size:15px; font-weight:800; color:#0369a1; margin-bottom:4px;">Ostsee-Urlaub für Familien</div>
               <p style="font-size:13px; line-height:1.4; margin-bottom:6px;">Ferienwohnungen auf Usedom: 4–6 Schlafplätze, Küche und Bad, Autostellplatz, Kursangebote für Kunsthandwerk (Keramik, Malen, Filzen, Tischlern), Fahrzeit zum Strand 15 Min.</p>
               <div style="font-size:12.5px; font-weight:700; color:#0284c7;">www.kulturgut-auf-usedom.de</div>
             `
@@ -870,9 +870,9 @@ const modelTests = [
             code: "G",
             tagPos: "left",
             hasPin: false,
-            cardClass: "ad-style-m3-g",
+            cardClass: "anzeige-style-m3-g",
             html: `
-              <div class="ad-headline" style="font-size:15px; font-weight:800; color:#0f766e; margin-bottom:4px;">Ferienwohnung mit Blick auf den See</div>
+              <div class="anzeige-headline" style="font-size:15px; font-weight:800; color:#0f766e; margin-bottom:4px;">Ferienwohnung mit Blick auf den See</div>
               <p style="font-size:13px; line-height:1.4; margin-bottom:6px;">2 Zimmer, sehr elegant eingerichtet, große Küche, Bad, 2 Fahrräder, gute Lage an der Seepromenade, 10 Min. vom Zentrum Überlingen.</p>
               <div style="font-size:12.5px; font-weight:700;">Tel: 0160 658872</div>
             `
@@ -881,9 +881,9 @@ const modelTests = [
             code: "H",
             tagPos: "right",
             hasPin: false,
-            cardClass: "ad-style-m3-h",
+            cardClass: "anzeige-style-m3-h",
             html: `
-              <div class="ad-headline" style="font-size:15px; font-weight:800; color:#1e40af; margin-bottom:4px;">FERIEN AUF SYLT</div>
+              <div class="anzeige-headline" style="font-size:15px; font-weight:800; color:#1e40af; margin-bottom:4px;">FERIEN AUF SYLT</div>
               <p style="font-size:13px; line-height:1.4; margin-bottom:6px;">Das Schönste, was Ihnen die nördlichste deutsche Insel bieten kann: Ferienwohnung mit Segelboot, Vermietung nur bei Vorlage des Bootsführerscheins.</p>
               <div style="font-size:12.5px; font-weight:700;">Tel: 04859 5537</div>
             `
@@ -892,9 +892,9 @@ const modelTests = [
             code: "I",
             tagPos: "left",
             hasPin: false,
-            cardClass: "ad-style-m3-i",
+            cardClass: "anzeige-style-m3-i",
             html: `
-              <div class="ad-headline" style="font-size:14.5px; font-weight:800; color:#334155; margin-bottom:4px;">Sie haben Besseres verdient als ein Hotelzimmer!</div>
+              <div class="anzeige-headline" style="font-size:14.5px; font-weight:800; color:#334155; margin-bottom:4px;">Sie haben Besseres verdient als ein Hotelzimmer!</div>
               <p style="font-size:13px; line-height:1.4; margin-bottom:6px;">Sie wollen Berlin kennenlernen und sich trotzdem wie zu Hause fühlen? Dann gehen Sie nicht ins Hotel, sondern mieten Sie eine Wohnung in der Hauptstadt-Residenz.</p>
               <div style="font-size:12.5px; font-weight:700; color:#0f172a;">www.hauptstadt-residenz.de</div>
             `
@@ -903,9 +903,9 @@ const modelTests = [
             code: "J",
             tagPos: "right",
             hasPin: false,
-            cardClass: "ad-style-m3-j",
+            cardClass: "anzeige-style-m3-j",
             html: `
-              <div class="ad-headline" style="font-size:14.5px; font-weight:800; color:#047857; margin-bottom:4px;">Ferienanlage auf Skopolos – die griechische Inselwelt erleben!</div>
+              <div class="anzeige-headline" style="font-size:14.5px; font-weight:800; color:#047857; margin-bottom:4px;">Ferienanlage auf Skopolos – die griechische Inselwelt erleben!</div>
               <p style="font-size:13px; line-height:1.4; margin-bottom:6px;">Wunderschöne Ferienhäuschen direkt am Strand, jedes mit 2–4 Schlafplätzen. Restaurant und Strandbar, Fahrradverleih, Segel- und Tauchunterricht. Anfragen auf Englisch an:</p>
               <div style="font-size:12.5px; font-weight:700; color:#065f46;">skopolos-aris@gmx.com</div>
             `

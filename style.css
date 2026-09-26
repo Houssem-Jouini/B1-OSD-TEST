@@ -768,7 +768,7 @@
   .lang-ar .horen-ex-item, [dir="rtl"] .horen-ex-item {
     text-align: right !important;
   }
-  .lang-ar .ad-assigned-badge, [dir="rtl"] .ad-assigned-badge {
+  .lang-ar .anzeige-assigned-badge, [dir="rtl"] .anzeige-assigned-badge {
     right: auto;
     left: 12px;
   }
@@ -845,19 +845,19 @@
   /* ------------------------------------------------------------- */
   /* TEIL 3: AUTHENTIC BOOK AD DESIGNS */
   /* ------------------------------------------------------------- */
-  .ads-board {
+  .anzeigen-board {
     display: flex;
     flex-direction: column;
     gap: 22px;
     padding: 10px 4px 20px;
   }
 
-  .ad-wrapper {
+  .anzeige-wrapper {
     position: relative;
     padding-top: 6px;
   }
 
-  .ad-letter-tag {
+  .anzeige-letter-tag {
     position: absolute;
     top: -4px;
     z-index: 10;
@@ -875,8 +875,8 @@
     justify-content: center;
     box-shadow: 0 2px 4px rgba(0,0,0,0.12);
   }
-  .ad-wrapper.tag-left .ad-letter-tag { left: 8px; }
-  .ad-wrapper.tag-right .ad-letter-tag { right: 8px; }
+  .anzeige-wrapper.tag-left .anzeige-letter-tag { left: 8px; }
+  .anzeige-wrapper.tag-right .anzeige-letter-tag { right: 8px; }
 
   /* Pushpin Element */
   .pushpin {
@@ -904,7 +904,7 @@
   }
 
   /* Base Paper Note */
-  .book-ad {
+  .anzeige-item {
     padding: 16px 18px;
     border-radius: 4px;
     box-shadow: 0 3px 10px rgba(0,0,0,0.08);
@@ -912,20 +912,20 @@
     color: #1c2b3a;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
   }
-  .book-ad:hover {
+  .anzeige-item:hover {
     transform: scale(1.01) !important;
     box-shadow: 0 6px 16px rgba(0,0,0,0.12);
   }
 
   /* AD A: Red Hand-Sketched Note */
-  .ad-style-a {
+  .anzeige-style-a {
     background: #ffffff;
     border: 2px solid #ef4444;
     border-radius: 6px 3px 8px 4px;
     transform: rotate(-1.2deg);
     font-family: var(--font-sans);
   }
-  .ad-style-a .ad-headline {
+  .anzeige-style-a .anzeige-headline {
     color: #b91c1c;
     font-size: 15px;
     font-weight: 700;
@@ -933,14 +933,14 @@
   }
 
   /* AD B: Blue Marker-Border Note */
-  .ad-style-b {
+  .anzeige-style-b {
     background: #ffffff;
     border: 2px solid #3b82f6;
     border-radius: 4px 8px 3px 6px;
     transform: rotate(1.2deg);
     font-family: var(--font-sans);
   }
-  .ad-style-b .ad-headline {
+  .anzeige-style-b .anzeige-headline {
     color: #1d4ed8;
     font-size: 15px;
     font-weight: 700;
@@ -948,7 +948,7 @@
   }
 
   /* AD C: Yellow Post-it "Russische Literatur" */
-  .ad-style-c {
+  .anzeige-style-c {
     background: #fef08a;
     border: 1px solid #fde047;
     border-radius: 2px 2px 12px 2px;
@@ -956,7 +956,7 @@
     color: #332d16;
     box-shadow: 2px 4px 10px rgba(0,0,0,0.08);
   }
-  .ad-style-c .ad-headline-hand {
+  .anzeige-style-c .anzeige-headline-hand {
     font-family: var(--font-hand);
     color: #dc2626;
     font-size: 18px;
@@ -965,17 +965,17 @@
     margin-bottom: 6px;
     text-transform: uppercase;
   }
-  .ad-style-c p { font-style: italic; }
+  .anzeige-style-c p { font-style: italic; }
 
   /* AD D: Soft Pink Note "Paketfahrer gesucht" */
-  .ad-style-d {
+  .anzeige-style-d {
     background: #ffe4e6;
     border: 1px solid #fecdd3;
     border-radius: 10px;
     transform: rotate(1.4deg);
     color: #4c0519;
   }
-  .ad-style-d .ad-headline {
+  .anzeige-style-d .anzeige-headline {
     font-family: var(--font-serif);
     font-style: italic;
     font-size: 18px;
@@ -985,7 +985,7 @@
   }
 
   /* AD E: Cyan Rounded Flyer "Ponyhof sucht Aushilfskräfte" */
-  .ad-style-e {
+  .anzeige-style-e {
     background: #cffafe;
     border: 1px solid #a5f3fc;
     border-radius: 18px;
@@ -993,7 +993,7 @@
     text-align: center;
     color: #164e63;
   }
-  .ad-style-e .ad-headline {
+  .anzeige-style-e .anzeige-headline {
     color: #dc2626;
     font-size: 17px;
     font-weight: 800;
@@ -1001,14 +1001,14 @@
   }
 
   /* AD F: Periwinkle Internship Card */
-  .ad-style-f {
+  .anzeige-style-f {
     background: #eff6ff;
     border: 1px solid #bfdbfe;
     border-radius: 6px;
     transform: rotate(0.8deg);
     color: #1e3a8a;
   }
-  .ad-style-f .ad-headline {
+  .anzeige-style-f .anzeige-headline {
     color: #2563eb;
     font-size: 15px;
     font-weight: 700;
@@ -1017,7 +1017,7 @@
   }
 
   /* AD G: Clean Translation Agency Memo */
-  .ad-style-g {
+  .anzeige-style-g {
     background: #f8fafc;
     border: 1px solid #cbd5e1;
     border-left: 5px solid #64748b;
@@ -1025,7 +1025,7 @@
     transform: rotate(-0.8deg);
     color: #334155;
   }
-  .ad-style-g .ad-headline {
+  .anzeige-style-g .anzeige-headline {
     color: #0f172a;
     font-size: 15px;
     font-weight: 700;
@@ -1033,7 +1033,7 @@
   }
 
   /* AD H: Newspaper Classified Box "KLEINEN TEELADEN" */
-  .ad-style-h {
+  .anzeige-style-h {
     background: #fdfbf7;
     border: 2px solid #44403c;
     border-radius: 2px;
@@ -1042,27 +1042,27 @@
     color: #292524;
     box-shadow: 2px 3px 8px rgba(0,0,0,0.07);
   }
-  .ad-style-h .ad-sub-cap {
+  .anzeige-style-h .anzeige-sub-cap {
     font-size: 12px;
     font-weight: 700;
     letter-spacing: 0.06em;
     text-transform: uppercase;
   }
-  .ad-style-h .ad-headline-tea {
+  .anzeige-style-h .anzeige-headline-tea {
     font-size: 16px;
     font-weight: 800;
     letter-spacing: 0.1em;
     margin-bottom: 6px;
     text-transform: uppercase;
   }
-  .ad-style-h .italic-body {
+  .anzeige-style-h .italic-body {
     font-style: italic;
     font-size: 14px;
     line-height: 1.45;
   }
 
   /* AD I: Computer Notdienst */
-  .ad-style-i {
+  .anzeige-style-i {
     background: #f0f9ff;
     border: 1.5px solid #bae6fd;
     border-radius: 8px;
@@ -1071,7 +1071,7 @@
   }
 
   /* AD J: Clara-Zetkin-Institut Note */
-  .ad-style-j {
+  .anzeige-style-j {
     background: #fefce8;
     border: 1px solid #fef08a;
     border-radius: 2px;
@@ -1082,21 +1082,21 @@
   /* ------------------------------------------------------------- */
   /* MODELLSATZ 2: AD STYLES (PDF Set A - Events & Culture)        */
   /* ------------------------------------------------------------- */
-  .ad-style-m2-a {
+  .anzeige-style-m2-a {
     background: #fff5f5;
     border: 2px dashed #f87171;
     border-radius: 6px;
     color: #450a0a;
     transform: rotate(-1deg);
   }
-  .ad-style-m2-b {
+  .anzeige-style-m2-b {
     background: #f0fdf4;
     border: 2px solid #86efac;
     border-radius: 12px;
     color: #14532d;
     transform: rotate(1.2deg);
   }
-  .ad-style-m2-c {
+  .anzeige-style-m2-c {
     background: #faf5ff;
     border: 2px solid #d8b4fe;
     border-radius: 8px;
@@ -1104,7 +1104,7 @@
     box-shadow: 0 4px 12px rgba(168, 85, 247, 0.1);
     transform: rotate(-0.8deg);
   }
-  .ad-style-m2-d {
+  .anzeige-style-m2-d {
     background: #fefce8;
     border: 2px solid #fde047;
     border-radius: 4px;
@@ -1112,21 +1112,21 @@
     font-family: var(--font-serif);
     transform: rotate(0.9deg);
   }
-  .ad-style-m2-e {
+  .anzeige-style-m2-e {
     background: #fff7ed;
     border: 2px solid #fdba74;
     border-radius: 10px;
     color: #7c2d12;
     transform: rotate(-1.3deg);
   }
-  .ad-style-m2-f {
+  .anzeige-style-m2-f {
     background: #f0f9ff;
     border: 2px solid #7dd3fc;
     border-radius: 8px;
     color: #0c4a6e;
     transform: rotate(1deg);
   }
-  .ad-style-m2-g {
+  .anzeige-style-m2-g {
     background: #eef2ff;
     border: 2px solid #a5b4fc;
     border-radius: 6px;
@@ -1134,21 +1134,21 @@
     box-shadow: 2px 4px 10px rgba(99, 102, 241, 0.1);
     transform: rotate(-0.7deg);
   }
-  .ad-style-m2-h {
+  .anzeige-style-m2-h {
     background: #f8fafc;
     border: 2px solid #cbd5e1;
     border-radius: 4px;
     color: #0f172a;
     transform: rotate(0.8deg);
   }
-  .ad-style-m2-i {
+  .anzeige-style-m2-i {
     background: #ecfdf5;
     border: 2px solid #6ee7b7;
     border-radius: 10px;
     color: #064e3b;
     transform: rotate(-1deg);
   }
-  .ad-style-m2-j {
+  .anzeige-style-m2-j {
     background: #fdf2f8;
     border: 2px solid #f472b6;
     border-radius: 6px;
@@ -1159,14 +1159,14 @@
   /* ------------------------------------------------------------- */
   /* MODELLSATZ 3: AD STYLES (PDF Set B - Vacation & Housing)      */
   /* ------------------------------------------------------------- */
-  .ad-style-m3-a {
+  .anzeige-style-m3-a {
     background: #fffbeb;
     border: 2px solid #fcd34d;
     border-radius: 6px;
     color: #78350f;
     transform: rotate(-1deg);
   }
-  .ad-style-m3-b {
+  .anzeige-style-m3-b {
     background: #fdf2f8;
     border: 2px dashed #f472b6;
     border-radius: 8px;
@@ -1174,56 +1174,56 @@
     font-family: var(--font-serif);
     transform: rotate(1.2deg);
   }
-  .ad-style-m3-c {
+  .anzeige-style-m3-c {
     background: #f0f9ff;
     border: 2px solid #38bdf8;
     border-radius: 4px;
     color: #0369a1;
     transform: rotate(-0.8deg);
   }
-  .ad-style-m3-d {
+  .anzeige-style-m3-d {
     background: #f0fdf4;
     border: 2px solid #4ade80;
     border-radius: 10px;
     color: #14532d;
     transform: rotate(1deg);
   }
-  .ad-style-m3-e {
+  .anzeige-style-m3-e {
     background: #fff7ed;
     border: 2px solid #fb923c;
     border-radius: 6px;
     color: #9a3412;
     transform: rotate(-1.2deg);
   }
-  .ad-style-m3-f {
+  .anzeige-style-m3-f {
     background: #f0f9ff;
     border: 2px solid #60a5fa;
     border-radius: 8px;
     color: #1e3a8a;
     transform: rotate(0.9deg);
   }
-  .ad-style-m3-g {
+  .anzeige-style-m3-g {
     background: #f0fdfa;
     border: 2px solid #2dd4bf;
     border-radius: 6px;
     color: #134e4a;
     transform: rotate(-0.9deg);
   }
-  .ad-style-m3-h {
+  .anzeige-style-m3-h {
     background: #eff6ff;
     border: 2px solid #2563eb;
     border-radius: 4px;
     color: #1e3a8a;
     transform: rotate(1.1deg);
   }
-  .ad-style-m3-i {
+  .anzeige-style-m3-i {
     background: #f8fafc;
     border: 2px solid #94a3b8;
     border-radius: 8px;
     color: #1e293b;
     transform: rotate(-0.7deg);
   }
-  .ad-style-m3-j {
+  .anzeige-style-m3-j {
     background: #ecfdf5;
     border: 2px solid #34d399;
     border-radius: 10px;
@@ -1232,26 +1232,26 @@
   }
 
   /* Dark mode overrides for ad cards */
-  [data-theme="dark"] .ad-style-m2-a,
-  [data-theme="dark"] .ad-style-m2-b,
-  [data-theme="dark"] .ad-style-m2-c,
-  [data-theme="dark"] .ad-style-m2-d,
-  [data-theme="dark"] .ad-style-m2-e,
-  [data-theme="dark"] .ad-style-m2-f,
-  [data-theme="dark"] .ad-style-m2-g,
-  [data-theme="dark"] .ad-style-m2-h,
-  [data-theme="dark"] .ad-style-m2-i,
-  [data-theme="dark"] .ad-style-m2-j,
-  [data-theme="dark"] .ad-style-m3-a,
-  [data-theme="dark"] .ad-style-m3-b,
-  [data-theme="dark"] .ad-style-m3-c,
-  [data-theme="dark"] .ad-style-m3-d,
-  [data-theme="dark"] .ad-style-m3-e,
-  [data-theme="dark"] .ad-style-m3-f,
-  [data-theme="dark"] .ad-style-m3-g,
-  [data-theme="dark"] .ad-style-m3-h,
-  [data-theme="dark"] .ad-style-m3-i,
-  [data-theme="dark"] .ad-style-m3-j {
+  [data-theme="dark"] .anzeige-style-m2-a,
+  [data-theme="dark"] .anzeige-style-m2-b,
+  [data-theme="dark"] .anzeige-style-m2-c,
+  [data-theme="dark"] .anzeige-style-m2-d,
+  [data-theme="dark"] .anzeige-style-m2-e,
+  [data-theme="dark"] .anzeige-style-m2-f,
+  [data-theme="dark"] .anzeige-style-m2-g,
+  [data-theme="dark"] .anzeige-style-m2-h,
+  [data-theme="dark"] .anzeige-style-m2-i,
+  [data-theme="dark"] .anzeige-style-m2-j,
+  [data-theme="dark"] .anzeige-style-m3-a,
+  [data-theme="dark"] .anzeige-style-m3-b,
+  [data-theme="dark"] .anzeige-style-m3-c,
+  [data-theme="dark"] .anzeige-style-m3-d,
+  [data-theme="dark"] .anzeige-style-m3-e,
+  [data-theme="dark"] .anzeige-style-m3-f,
+  [data-theme="dark"] .anzeige-style-m3-g,
+  [data-theme="dark"] .anzeige-style-m3-h,
+  [data-theme="dark"] .anzeige-style-m3-i,
+  [data-theme="dark"] .anzeige-style-m3-j {
     background: #17233c;
     color: #f1f5f9;
   }
@@ -2041,7 +2041,7 @@
     }
 
     .reading-text { font-size: var(--text-size, 14px); line-height: 1.6; }
-    .ads-board { padding: 6px 2px 14px; gap: 14px; }
+    .anzeigen-board { padding: 6px 2px 14px; gap: 14px; }
 
     .question-card { padding: 12px; }
     .options-group.inline { flex-direction: column; }
@@ -2086,19 +2086,19 @@
   /* ------------------------------------------------------------- */
   /* TEIL 3: ASSIGNED AD TRACKER (VISUAL CROSS-OFF)               */
   /* ------------------------------------------------------------- */
-  .ad-wrapper {
+  .anzeige-wrapper {
     position: relative;
     transition: opacity 0.25s ease, transform 0.25s ease;
   }
-  .ad-wrapper.ad-assigned .book-ad {
+  .anzeige-wrapper.anzeige-assigned .anzeige-item {
     opacity: 0.72;
     border-style: dashed;
     border-color: var(--success);
   }
-  .ad-wrapper.ad-assigned:hover .book-ad {
+  .anzeige-wrapper.anzeige-assigned:hover .anzeige-item {
     opacity: 0.96;
   }
-  .ad-assigned-badge {
+  .anzeige-assigned-badge {
     position: absolute;
     top: 6px;
     right: 12px;
@@ -3592,7 +3592,7 @@ p.evidence-glow-pulse, div.evidence-glow-pulse, li.evidence-glow-pulse, article.
 }
 
 /* Ad Card Pulse for Teil 3 */
-.ad-wrapper.evidence-card-pulse {
+.anzeige-wrapper.evidence-card-pulse {
   outline: 3px solid #eab308 !important;
   outline-offset: 4px;
   box-shadow: 0 8px 24px rgba(234, 179, 8, 0.45) !important;
