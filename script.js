@@ -913,6 +913,9 @@ function getTeil3Assignments(t) {
 /* ---------------- TEIL SOLUTIONS & EXPLANATIONS ENGINE ---------------- */
 window.revealTeilSolutions = function(teilId) {
   revealedTeils.add(teilId);
+  if (typeof syncMistakesForTeil === 'function') {
+    syncMistakesForTeil(teilId);
+  }
   renderCurrentTeil();
   saveSession();
   const qp = document.getElementById('questionsPanel');
@@ -1170,6 +1173,11 @@ function renderTeilScoreBannerHtml(t, qs) {
   const nextBtnText = isAr ? 'الانتقال إلى الجزء التالي ←' : (isFr ? 'Partie suivante →' : 'Weiter zum nächsten Teil →');
 
   const hasNext = activeTeil < testData.length;
+  const wrongCount = qs.length - correctCount;
+  const mistakeBtnText = isAr
+    ? `📓 تدريب الأخطاء (${wrongCount})`
+    : (isFr ? `📓 Réviser les erreurs (${wrongCount})` : `📓 Fehler wiederholen (${wrongCount})`);
+  const mistakeBtnHtml = wrongCount > 0 ? `<button type="button" class="btn btn-sm btn-outline text-danger" onclick="openMistakesModal('drill')">${mistakeBtnText}</button>` : '';
 
   return `
     <div class="teil-score-banner">
@@ -1178,6 +1186,7 @@ function renderTeilScoreBannerHtml(t, qs) {
         <span class="teil-score-title">${title}</span>
       </div>
       <div class="teil-score-actions">
+        ${mistakeBtnHtml}
         <button type="button" class="btn btn-sm btn-outline" onclick="hideTeilSolutions(${t.id})">${hideBtnText}</button>
         ${hasNext ? `<button type="button" class="btn btn-sm btn-primary" onclick="document.getElementById('nextTeilBtn').click()">${nextBtnText}</button>` : ''}
       </div>
@@ -2326,6 +2335,973 @@ function renderHoren(t) {
   });
 }
 
+/* ==========================================================================
+   VOCABULARY & RETENTION TOOLS (Wortschatz-Helfer & Mein Fehlerheft)
+   ========================================================================== */
+
+let vocabHighlightEnabled = localStorage.getItem('b1_vocab_highlight_enabled') !== 'false';
+let currentFlashcardIndex = 0;
+let currentFlashcardsList = [];
+let currentDrillIndex = 0;
+let currentDrillList = [];
+let activeMistakesFilter = 'drill';
+let activeVocabTab = 'current';
+
+/* ---------------- 1. IN-TEXT VOCABULARY HIGHLIGHTING ---------------- */
+
+function initVocabHighlighting() {
+  const toggleBtn = document.getElementById('vocabToggleBtn');
+  if (toggleBtn) {
+    updateVocabToggleBtnState();
+    toggleBtn.addEventListener('click', () => {
+      vocabHighlightEnabled = !vocabHighlightEnabled;
+      localStorage.setItem('b1_vocab_highlight_enabled', String(vocabHighlightEnabled));
+      updateVocabToggleBtnState();
+      renderCurrentTeil();
+    });
+  }
+
+  // Close floating tooltip when clicking outside
+  document.addEventListener('click', (e) => {
+    const tooltip = document.getElementById('vocabFloatingTooltip');
+    if (!tooltip || tooltip.style.display === 'none') return;
+    if (!tooltip.contains(e.target) && !e.target.closest('.b1-vocab-term')) {
+      hideVocabTooltip();
+    }
+  });
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') hideVocabTooltip();
+  });
+}
+
+function updateVocabToggleBtnState() {
+  const toggleBtn = document.getElementById('vocabToggleBtn');
+  const label = document.getElementById('vocabToggleLabel');
+  if (!toggleBtn || !label) return;
+
+  if (vocabHighlightEnabled) {
+    toggleBtn.classList.add('active');
+    label.textContent = questionsLang === 'ar' ? 'المفردات: مفعل' : (questionsLang === 'fr' ? 'Vocabulaire : ON' : 'Wortschatz: AN');
+  } else {
+    toggleBtn.classList.remove('active');
+    label.textContent = questionsLang === 'ar' ? 'المفردات: معطل' : (questionsLang === 'fr' ? 'Vocabulaire : OFF' : 'Wortschatz: AUS');
+  }
+}
+
+function applyVocabHighlightsToCurrentTeil() {
+  if (!vocabHighlightEnabled) return;
+  const t = testData.find(x => x.id === activeTeil);
+  if (!t) return;
+
+  const passagePanel = document.getElementById('passagePanel');
+  const questionsPanel = document.getElementById('questionsPanel');
+
+  if (t.id === 4 || t.letters) {
+    if (questionsPanel) enrichContainerWithVocab(questionsPanel, 4);
+  } else {
+    if (passagePanel && passagePanel.style.display !== 'none') {
+      enrichContainerWithVocab(passagePanel, t.id);
+    }
+  }
+}
+
+function enrichContainerWithVocab(container, teilId) {
+  if (typeof b1VocabData === 'undefined' || !Array.isArray(b1VocabData)) return;
+
+  const vocabList = typeof getVocabForTeil === 'function' ? getVocabForTeil(teilId) : b1VocabData;
+  if (!vocabList || vocabList.length === 0) return;
+
+  const map = [];
+  vocabList.forEach(v => {
+    const forms = v.forms && v.forms.length > 0 ? v.forms : [v.term];
+    forms.forEach(f => {
+      map.push({ phrase: f.trim(), vocabId: v.id, len: f.trim().length });
+    });
+  });
+
+  map.sort((a, b) => b.len - a.len);
+  if (map.length === 0) return;
+
+  const escapeRegExp = str => str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const pattern = new RegExp('\\b(' + map.map(m => escapeRegExp(m.phrase)).join('|') + ')\\b', 'i');
+
+  const targets = container.querySelectorAll('.reading-text p, .reading-text li, .ad-wrapper p, .ad-wrapper div:not(.ad-letter-tag):not(.ad-assigned-badge), .letter-body');
+
+  targets.forEach(target => {
+    if (target.dataset.vocabEnriched === 'true') return;
+    target.dataset.vocabEnriched = 'true';
+
+    const walker = document.createTreeWalker(target, NodeFilter.SHOW_TEXT, null, false);
+    const textNodes = [];
+    let n;
+    while ((n = walker.nextNode())) {
+      const parent = n.parentNode;
+      if (parent && (parent.classList?.contains('b1-vocab-term') || parent.tagName === 'MARK' || parent.tagName === 'BUTTON')) {
+        continue;
+      }
+      if (n.nodeValue.trim().length > 0 && pattern.test(n.nodeValue)) {
+        textNodes.push(n);
+      }
+    }
+
+    textNodes.forEach(node => {
+      const text = node.nodeValue;
+      const frag = document.createDocumentFragment();
+      let lastIdx = 0;
+      const globalPattern = new RegExp('\\b(' + map.map(m => escapeRegExp(m.phrase)).join('|') + ')\\b', 'gi');
+      let m;
+
+      while ((m = globalPattern.exec(text)) !== null) {
+        if (m.index > lastIdx) {
+          frag.appendChild(document.createTextNode(text.substring(lastIdx, m.index)));
+        }
+        const matchedText = m[0];
+        const matchObj = map.find(item => item.phrase.toLowerCase() === matchedText.toLowerCase()) || map[0];
+
+        const span = document.createElement('span');
+        span.className = 'b1-vocab-term';
+        span.setAttribute('data-vocab-id', matchObj.vocabId);
+        span.setAttribute('tabindex', '0');
+        span.textContent = matchedText;
+
+        span.addEventListener('click', (e) => {
+          e.stopPropagation();
+          showVocabTooltip(matchObj.vocabId, span);
+        });
+        span.addEventListener('mouseenter', () => {
+          showVocabTooltip(matchObj.vocabId, span);
+        });
+
+        frag.appendChild(span);
+        lastIdx = globalPattern.lastIndex;
+      }
+
+      if (lastIdx < text.length) {
+        frag.appendChild(document.createTextNode(text.substring(lastIdx)));
+      }
+
+      if (node.parentNode) {
+        node.parentNode.replaceChild(frag, node);
+      }
+    });
+  });
+}
+
+function showVocabTooltip(vocabId, triggerEl) {
+  const v = typeof getVocabById === 'function' ? getVocabById(vocabId) : null;
+  if (!v) return;
+
+  const tooltip = document.getElementById('vocabFloatingTooltip');
+  if (!tooltip) return;
+
+  document.querySelectorAll('.b1-vocab-term.active-term').forEach(el => el.classList.remove('active-term'));
+  triggerEl.classList.add('active-term');
+
+  const isSaved = typeof isVocabSaved === 'function' ? isVocabSaved(v.id) : false;
+
+  tooltip.innerHTML = `
+    <div class="vpop-header">
+      <div class="vpop-term-group">
+        <span class="vpop-term">${v.term}</span>
+        <span class="vpop-pos">${v.pos || 'B1'}</span>
+        <button type="button" class="vpop-audio-btn" onclick="speakGermanWord('${v.term.replace(/'/g, "\\'")}')" title="Aussprache anhören">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>
+        </button>
+      </div>
+      <button type="button" class="vpop-close-btn" onclick="hideVocabTooltip()" title="Schließen">✕</button>
+    </div>
+    <div class="vpop-def-de">${v.defDe}</div>
+    <div class="vpop-trans-row">
+      <div class="vpop-trans-item">
+        <span class="vpop-trans-lang">AR:</span>
+        <span class="vpop-trans-val" dir="rtl">${v.defAr}</span>
+      </div>
+      <div class="vpop-trans-item">
+        <span class="vpop-trans-lang">FR:</span>
+        <span class="vpop-trans-val">${v.defFr}</span>
+      </div>
+    </div>
+    ${v.example ? `<div class="vpop-example">„${v.example}“</div>` : ''}
+    <div class="vpop-footer">
+      <button type="button" class="vpop-star-btn ${isSaved ? 'starred' : ''}" onclick="toggleVocabStarFromTooltip('${v.id}')">
+        <span>${isSaved ? '★ Gemerkt' : '☆ Merken'}</span>
+      </button>
+      <button type="button" class="btn btn-sm btn-outline" style="font-size:11px; padding:3px 8px;" onclick="openVocabModalWithTerm('${v.id}')">
+        Im Glossar ↗
+      </button>
+    </div>
+  `;
+
+  tooltip.style.display = 'block';
+
+  const rect = triggerEl.getBoundingClientRect();
+  const tipWidth = 300;
+  let left = rect.left + window.scrollX;
+  if (left + tipWidth > window.innerWidth - 20) {
+    left = window.innerWidth - tipWidth - 25;
+  }
+  if (left < 10) left = 10;
+
+  let top = rect.bottom + window.scrollY + 6;
+  if (rect.bottom + 230 > window.innerHeight && rect.top > 240) {
+    top = rect.top + window.scrollY - 220;
+  }
+
+  tooltip.style.left = `${left}px`;
+  tooltip.style.top = `${top}px`;
+}
+
+function hideVocabTooltip() {
+  const tooltip = document.getElementById('vocabFloatingTooltip');
+  if (tooltip) tooltip.style.display = 'none';
+  document.querySelectorAll('.b1-vocab-term.active-term').forEach(el => el.classList.remove('active-term'));
+}
+
+window.toggleVocabStarFromTooltip = function(vocabId) {
+  if (typeof toggleSaveVocab === 'function') {
+    toggleSaveVocab(vocabId);
+    const triggerEl = document.querySelector(`.b1-vocab-term[data-vocab-id="${vocabId}"]`);
+    if (triggerEl) showVocabTooltip(vocabId, triggerEl);
+    updateSavedVocabCountBadge();
+  }
+};
+
+window.openVocabModalWithTerm = function(vocabId) {
+  hideVocabTooltip();
+  openVocabModal('all');
+  setTimeout(() => {
+    const card = document.getElementById('vcard-' + vocabId);
+    if (card) {
+      card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      card.style.borderColor = '#0284c7';
+      card.style.boxShadow = '0 0 0 3px rgba(2, 132, 199, 0.3)';
+      setTimeout(() => {
+        card.style.borderColor = '';
+        card.style.boxShadow = '';
+      }, 2500);
+    }
+  }, 100);
+};
+
+/* ---------------- 2. VOCABULARY & GLOSSARY MODAL ---------------- */
+
+function initVocabModal() {
+  const modalBtn = document.getElementById('vocabModalBtn');
+  const closeBtn = document.getElementById('vocabModalCloseBtn');
+  const confirmBtn = document.getElementById('vocabConfirmClose');
+  const modal = document.getElementById('vocabModal');
+  const searchInput = document.getElementById('vocabSearchInput');
+  const clearSearch = document.getElementById('vocabSearchClear');
+
+  if (modalBtn) modalBtn.addEventListener('click', () => openVocabModal('current'));
+  if (closeBtn) closeBtn.addEventListener('click', closeVocabModal);
+  if (confirmBtn) confirmBtn.addEventListener('click', closeVocabModal);
+
+  if (modal) {
+    modal.addEventListener('click', (e) => {
+      if (e.target === modal) closeVocabModal();
+    });
+  }
+
+  const tabBtns = document.querySelectorAll('#vocabTabButtons .filter-btn');
+  tabBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      tabBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      activeVocabTab = btn.dataset.vtab;
+      renderVocabModalContent();
+    });
+  });
+
+  if (searchInput) {
+    searchInput.addEventListener('input', () => {
+      if (clearSearch) clearSearch.style.display = searchInput.value ? 'block' : 'none';
+      renderVocabModalContent();
+    });
+  }
+
+  if (clearSearch) {
+    clearSearch.addEventListener('click', () => {
+      if (searchInput) searchInput.value = '';
+      clearSearch.style.display = 'none';
+      renderVocabModalContent();
+    });
+  }
+
+  updateSavedVocabCountBadge();
+}
+
+function updateSavedVocabCountBadge() {
+  const badge = document.getElementById('savedVocabCountBadge');
+  if (!badge) return;
+  const count = typeof getSavedVocabIds === 'function' ? getSavedVocabIds().length : 0;
+  badge.textContent = count;
+}
+
+function openVocabModal(tab = 'current') {
+  const modal = document.getElementById('vocabModal');
+  if (!modal) return;
+
+  activeVocabTab = tab;
+  const tabBtns = document.querySelectorAll('#vocabTabButtons .filter-btn');
+  tabBtns.forEach(b => {
+    if (b.dataset.vtab === tab) b.classList.add('active');
+    else b.classList.remove('active');
+  });
+
+  updateSavedVocabCountBadge();
+  renderVocabModalContent();
+  modal.style.display = 'flex';
+}
+
+function closeVocabModal() {
+  const modal = document.getElementById('vocabModal');
+  if (modal) modal.style.display = 'none';
+}
+
+function renderVocabModalContent() {
+  const searchInput = document.getElementById('vocabSearchInput');
+  const query = searchInput ? searchInput.value : '';
+  const cardsGrid = document.getElementById('vocabCardsGrid');
+  const fcContainer = document.getElementById('vocabFlashcardContainer');
+  const statsText = document.getElementById('vocabStatsText');
+
+  if (!cardsGrid || !fcContainer) return;
+
+  if (activeVocabTab === 'flashcards') {
+    cardsGrid.style.display = 'none';
+    fcContainer.style.display = 'flex';
+    initFlashcardsView(query);
+    return;
+  }
+
+  cardsGrid.style.display = 'grid';
+  fcContainer.style.display = 'none';
+
+  let list = [];
+  if (typeof searchVocabList === 'function') {
+    const filterMode = activeVocabTab === 'saved' ? 'saved' : (activeVocabTab === 'current' ? 'teil' : 'all');
+    list = searchVocabList(query, filterMode, activeTeil);
+  } else if (typeof b1VocabData !== 'undefined') {
+    list = b1VocabData;
+  }
+
+  if (statsText) {
+    statsText.textContent = `${list.length} Wort/Wörter gefunden`;
+  }
+
+  if (list.length === 0) {
+    if (activeVocabTab === 'saved') {
+      cardsGrid.innerHTML = `
+        <div style="grid-column: 1 / -1; text-align:center; padding: 40px 10px; color:var(--text-muted);">
+          <div style="font-size:36px; margin-bottom:10px;">★</div>
+          <strong style="font-size:15px; color:var(--text-main);">Noch keine gemerkten Vokabeln</strong>
+          <p style="font-size:13px; margin-top:6px;">Klicke auf den Stern bei einem Wort, um es für deine persönliche Wiederholungsliste zu speichern.</p>
+        </div>
+      `;
+    } else {
+      cardsGrid.innerHTML = `
+        <div style="grid-column: 1 / -1; text-align:center; padding: 40px 10px; color:var(--text-muted);">
+          <div style="font-size:36px; margin-bottom:10px;">🔍</div>
+          <strong style="font-size:15px; color:var(--text-main);">Keine Vokabeln gefunden</strong>
+          <p style="font-size:13px; margin-top:6px;">Versuche einen anderen Suchbegriff oder wechsle zu „Alle Wörter“.</p>
+        </div>
+      `;
+    }
+    return;
+  }
+
+  cardsGrid.innerHTML = list.map(v => {
+    const isSaved = typeof isVocabSaved === 'function' ? isVocabSaved(v.id) : false;
+    const teilBadge = v.teil ? `Teil ${v.teil}` : 'Allgemein';
+    return `
+      <div class="vocab-card" id="vcard-${v.id}">
+        <div>
+          <div class="vocab-card-header">
+            <div>
+              <div class="vocab-card-term">${v.term}</div>
+              <div class="vocab-card-meta">
+                <span class="vocab-card-level">B1</span>
+                <span class="vocab-card-pos">${v.pos || ''} · ${teilBadge}</span>
+              </div>
+            </div>
+            <button type="button" class="vpop-audio-btn" onclick="speakGermanWord('${v.term.replace(/'/g, "\\'")}')" title="Aussprache anhören">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>
+            </button>
+          </div>
+          <div class="vocab-card-body" style="margin-top:8px;">
+            ${v.defDe}
+          </div>
+        </div>
+
+        <div>
+          <div class="vocab-card-trans">
+            <div style="display:flex; justify-content:space-between; align-items:baseline;">
+              <span style="font-size:10px; font-weight:800; color:var(--text-muted);">AR</span>
+              <span style="font-weight:600; text-align:right;" dir="rtl">${v.defAr}</span>
+            </div>
+            <div style="display:flex; justify-content:space-between; align-items:baseline;">
+              <span style="font-size:10px; font-weight:800; color:var(--text-muted);">FR</span>
+              <span style="font-weight:600;">${v.defFr}</span>
+            </div>
+          </div>
+          ${v.example ? `<div style="font-size:11.5px; font-style:italic; color:var(--text-muted); margin-top:6px; line-height:1.35;">„${v.example}“</div>` : ''}
+          <div class="vocab-card-actions">
+            <button type="button" class="vpop-star-btn ${isSaved ? 'starred' : ''}" onclick="toggleCardVocabStar('${v.id}')">
+              <span>${isSaved ? '★ Gemerkt' : '☆ Merken'}</span>
+            </button>
+            <span style="font-size:11px; color:var(--text-muted);">${v.tip || 'B1 Prüfungsrelevanz'}</span>
+          </div>
+        </div>
+      </div>
+    `;
+  }).join('');
+}
+
+window.toggleCardVocabStar = function(vocabId) {
+  if (typeof toggleSaveVocab === 'function') {
+    toggleSaveVocab(vocabId);
+    updateSavedVocabCountBadge();
+    renderVocabModalContent();
+  }
+};
+
+/* ---------------- FLASHCARD FLIP MODE ---------------- */
+
+function initFlashcardsView(query) {
+  if (typeof b1VocabData === 'undefined') return;
+  const filterMode = activeVocabTab === 'saved' ? 'saved' : (activeVocabTab === 'current' ? 'teil' : 'all');
+  currentFlashcardsList = typeof searchVocabList === 'function' ? searchVocabList(query, filterMode, activeTeil) : b1VocabData;
+
+  if (currentFlashcardIndex >= currentFlashcardsList.length) {
+    currentFlashcardIndex = 0;
+  }
+
+  renderSingleFlashcard();
+}
+
+function renderSingleFlashcard() {
+  const container = document.getElementById('vocabFlashcardContainer');
+  if (!container) return;
+
+  if (currentFlashcardsList.length === 0) {
+    container.innerHTML = `
+      <div style="text-align:center; padding: 40px 10px; color:var(--text-muted);">
+        <div style="font-size:36px; margin-bottom:10px;">🗂️</div>
+        <strong style="font-size:15px; color:var(--text-main);">Keine Lernkarten in dieser Auswahl</strong>
+        <p style="font-size:13px; margin-top:6px;">Wähle oben „Alle Wörter“ oder markiere Wörter mit Stern (★).</p>
+      </div>
+    `;
+    return;
+  }
+
+  const v = currentFlashcardsList[currentFlashcardIndex];
+  const isSaved = typeof isVocabSaved === 'function' ? isVocabSaved(v.id) : false;
+
+  container.innerHTML = `
+    <div class="flashcard-progress">
+      Lernkarte ${currentFlashcardIndex + 1} von ${currentFlashcardsList.length}
+    </div>
+
+    <div class="flashcard-scene" onclick="this.querySelector('.flashcard-3d').classList.toggle('flipped')">
+      <div class="flashcard-3d" id="activeFlashcard3d">
+        <!-- Front -->
+        <div class="flashcard-face flashcard-front">
+          <div style="display:flex; justify-content:space-between; width:100%;">
+            <span class="vocab-card-level">B1</span>
+            <span class="vocab-card-pos">${v.pos || ''}</span>
+          </div>
+          <div>
+            <div class="fc-term-big">${v.term}</div>
+            <button type="button" class="vpop-audio-btn" style="margin-top:6px;" onclick="event.stopPropagation(); speakGermanWord('${v.term.replace(/'/g, "\\'")}')" title="Aussprache anhören">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>
+            </button>
+          </div>
+          <div class="fc-flip-hint">↻ Klicken zum Umdrehen</div>
+        </div>
+
+        <!-- Back -->
+        <div class="flashcard-face flashcard-back">
+          <div style="font-size:14px; font-weight:700; color:var(--text-main); margin-bottom:6px;">
+            ${v.defDe}
+          </div>
+          <div class="vocab-card-trans" style="width:100%;">
+            <div style="display:flex; justify-content:space-between; align-items:baseline;">
+              <span style="font-size:10px; font-weight:800; color:var(--text-muted);">AR</span>
+              <span style="font-weight:600; text-align:right;" dir="rtl">${v.defAr}</span>
+            </div>
+            <div style="display:flex; justify-content:space-between; align-items:baseline;">
+              <span style="font-size:10px; font-weight:800; color:var(--text-muted);">FR</span>
+              <span style="font-weight:600;">${v.defFr}</span>
+            </div>
+          </div>
+          ${v.example ? `<div style="font-size:12px; font-style:italic; color:var(--text-muted); margin-top:6px;">„${v.example}“</div>` : ''}
+          <div class="fc-flip-hint">↻ Klicken zum Zurückdrehen</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="flashcard-nav-row">
+      <button type="button" class="btn btn-outline btn-sm" onclick="prevFlashcard()">← Zurück</button>
+      <button type="button" class="btn btn-sm ${isSaved ? 'btn-success' : 'btn-outline'}" onclick="markFlashcardMastered('${v.id}')">
+        ${isSaved ? '✓ Gemerkt' : '☆ Merken'}
+      </button>
+      <button type="button" class="btn btn-primary btn-sm" onclick="nextFlashcard()">Weiter →</button>
+    </div>
+  `;
+}
+
+window.nextFlashcard = function() {
+  if (currentFlashcardsList.length === 0) return;
+  currentFlashcardIndex = (currentFlashcardIndex + 1) % currentFlashcardsList.length;
+  renderSingleFlashcard();
+};
+
+window.prevFlashcard = function() {
+  if (currentFlashcardsList.length === 0) return;
+  currentFlashcardIndex = (currentFlashcardIndex - 1 + currentFlashcardsList.length) % currentFlashcardsList.length;
+  renderSingleFlashcard();
+};
+
+window.markFlashcardMastered = function(vocabId) {
+  if (typeof toggleSaveVocab === 'function') {
+    toggleSaveVocab(vocabId);
+    updateSavedVocabCountBadge();
+    renderSingleFlashcard();
+  }
+};
+
+/* ---------------- 3. PERSONALIZED MISTAKE NOTEBOOK (FEHLERHEFT) ---------------- */
+
+const MISTAKES_STORAGE_KEY = 'b1_mistakes_v1';
+
+function getRecordedMistakes() {
+  try {
+    const raw = localStorage.getItem(MISTAKES_STORAGE_KEY);
+    return raw ? JSON.parse(raw) : {};
+  } catch (e) {
+    return {};
+  }
+}
+
+function saveMistakesToStorage(mistakesMap) {
+  try {
+    localStorage.setItem(MISTAKES_STORAGE_KEY, JSON.stringify(mistakesMap));
+  } catch (e) {}
+}
+
+function recordMistake(testId, teilId, q, userAnswer, isCorrect) {
+  const mistakes = getRecordedMistakes();
+  const key = `${testId}_q${q.id}`;
+
+  if (isCorrect) {
+    if (mistakes[key]) {
+      mistakes[key].mastered = true;
+      mistakes[key].lastCorrectDate = new Date().toISOString();
+      saveMistakesToStorage(mistakes);
+      updateMistakesNavBadge();
+    }
+    return;
+  }
+
+  let opts = [];
+  if (Array.isArray(q.options)) {
+    opts = q.options.map(o => typeof o === 'string' ? o : (o.text || String(o)));
+  } else if (q.type === 'tf') {
+    opts = ['richtig', 'falsch'];
+  } else if (q.type === 'match') {
+    opts = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'X'];
+  }
+
+  mistakes[key] = {
+    key,
+    testId,
+    teilId,
+    qid: q.id,
+    questionText: q.text || `Aufgabe ${q.id}`,
+    userAnswer: String(userAnswer || ''),
+    correctAnswer: String(q.answer),
+    options: opts,
+    date: new Date().toISOString(),
+    mastered: false
+  };
+
+  saveMistakesToStorage(mistakes);
+  updateMistakesNavBadge();
+}
+
+function syncMistakesForTeil(teilId) {
+  const t = testData.find(x => x.id === teilId);
+  if (!t) return;
+  const qs = allQuestionsOf(t);
+  qs.forEach(q => {
+    const userVal = userAnswers[q.id];
+    const isCorrect = userVal !== undefined && String(userVal).toLowerCase() === String(q.answer).toLowerCase();
+    if (userVal !== undefined) {
+      recordMistake(currentTest.id, t.id, q, userVal, isCorrect);
+    }
+  });
+}
+
+function syncAllMistakes() {
+  testData.forEach(t => {
+    syncMistakesForTeil(t.id);
+  });
+}
+
+function updateMistakesNavBadge() {
+  const badge = document.getElementById('mistakesBadge');
+  if (!badge) return;
+
+  const mistakes = getRecordedMistakes();
+  const openCount = Object.values(mistakes).filter(m => !m.mastered).length;
+
+  if (openCount > 0) {
+    badge.style.display = 'inline-flex';
+    badge.textContent = openCount;
+  } else {
+    badge.style.display = 'none';
+  }
+}
+
+function initMistakesModal() {
+  const modalBtn = document.getElementById('mistakesModalBtn');
+  const closeBtn = document.getElementById('mistakesModalCloseBtn');
+  const confirmBtn = document.getElementById('mistakesConfirmClose');
+  const modal = document.getElementById('mistakesModal');
+  const clearBtn = document.getElementById('clearAllMistakesBtn');
+
+  if (modalBtn) modalBtn.addEventListener('click', () => openMistakesModal('drill'));
+  if (closeBtn) closeBtn.addEventListener('click', closeMistakesModal);
+  if (confirmBtn) confirmBtn.addEventListener('click', closeMistakesModal);
+
+  if (modal) {
+    modal.addEventListener('click', (e) => {
+      if (e.target === modal) closeMistakesModal();
+    });
+  }
+
+  if (clearBtn) {
+    clearBtn.addEventListener('click', () => {
+      if (confirm('Möchtest du dein persönliches Fehlerheft wirklich vollständig zurücksetzen?')) {
+        saveMistakesToStorage({});
+        updateMistakesNavBadge();
+        renderMistakesModalContent();
+      }
+    });
+  }
+
+  const tabBtns = document.querySelectorAll('#mistakesTabButtons .filter-btn');
+  tabBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      tabBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      activeMistakesFilter = btn.dataset.mtab;
+      renderMistakesModalContent();
+    });
+  });
+
+  updateMistakesNavBadge();
+}
+
+window.openMistakesModal = function(tab = 'drill') {
+  const modal = document.getElementById('mistakesModal');
+  if (!modal) return;
+
+  activeMistakesFilter = tab;
+  const tabBtns = document.querySelectorAll('#mistakesTabButtons .filter-btn');
+  tabBtns.forEach(b => {
+    if (b.dataset.mtab === tab) b.classList.add('active');
+    else b.classList.remove('active');
+  });
+
+  currentDrillIndex = 0;
+  renderMistakesModalContent();
+  modal.style.display = 'flex';
+};
+
+function closeMistakesModal() {
+  const modal = document.getElementById('mistakesModal');
+  if (modal) modal.style.display = 'none';
+}
+
+function renderMistakesModalContent() {
+  const body = document.getElementById('mistakesModalBody');
+  const openBadge = document.getElementById('openMistakesBadge');
+  const masteredBadge = document.getElementById('masteredMistakesBadge');
+  if (!body) return;
+
+  const mistakesMap = getRecordedMistakes();
+  const allMistakes = Object.values(mistakesMap);
+  const openMistakes = allMistakes.filter(m => !m.mastered);
+  const masteredMistakes = allMistakes.filter(m => m.mastered);
+
+  if (openBadge) openBadge.textContent = `${openMistakes.length} zu wiederholen`;
+  if (masteredBadge) masteredBadge.textContent = `${masteredMistakes.length} gemeistert`;
+
+  if (activeMistakesFilter === 'drill') {
+    renderMistakesDrillView(openMistakes);
+  } else {
+    renderMistakesListView(allMistakes);
+  }
+}
+
+/* ---------------- DRILL QUIZ MODE ---------------- */
+
+function renderMistakesDrillView(openMistakes) {
+  const body = document.getElementById('mistakesModalBody');
+  currentDrillList = openMistakes;
+
+  if (openMistakes.length === 0) {
+    body.innerHTML = `
+      <div style="text-align:center; padding: 45px 15px; color:var(--text-muted);">
+        <div style="font-size:42px; margin-bottom:12px;">🎉</div>
+        <h4 style="font-size:18px; font-weight:800; color:var(--text-main); margin-bottom:8px;">Alle Fehler gemeistert!</h4>
+        <p style="font-size:14px; max-width:440px; margin:0 auto 18px; line-height:1.5;">
+          Du hast aktuell keine offenen Fehler mehr im Fehlerheft. Großartige Leistung!
+        </p>
+        <button class="btn btn-primary" onclick="closeMistakesModal()">Weiter üben</button>
+      </div>
+    `;
+    return;
+  }
+
+  if (currentDrillIndex >= currentDrillList.length) {
+    currentDrillIndex = 0;
+  }
+
+  const m = currentDrillList[currentDrillIndex];
+  const qid = m.qid;
+  const q = findQuestionById(qid) || { id: qid, text: m.questionText, answer: m.correctAnswer, options: m.options };
+  const exp = typeof getExplanation === 'function' ? getExplanation(m.testId || currentTest.id, qid, questionsLang) : null;
+
+  let optionsHtml = '';
+  if (m.options && m.options.length > 0) {
+    optionsHtml = m.options.map((opt, oIdx) => {
+      const optVal = q.type === 'mcq' ? oIdx : opt;
+      const optLabel = typeof opt === 'string' ? opt : opt.text;
+      return `
+        <button type="button" class="drill-opt-btn" data-drill-opt="${optVal}" onclick="selectDrillOption(this, '${optVal}')">
+          <span style="font-weight:700; min-width:20px;">${String.fromCharCode(97 + oIdx)})</span>
+          <span>${optLabel}</span>
+        </button>
+      `;
+    }).join('');
+  }
+
+  body.innerHTML = `
+    <div class="mistake-drill-wrap">
+      <div class="drill-progress-info">
+        <span>Fehler ${currentDrillIndex + 1} von ${currentDrillList.length}</span>
+        <span class="mistake-teil-badge">Teil ${m.teilId || 1} · Aufgabe ${qid}</span>
+      </div>
+
+      <div class="drill-question-box">
+        <h4 style="font-size:16px; font-weight:800; color:var(--text-main); margin-bottom:8px;">
+          ${m.questionText}
+        </h4>
+        <div style="font-size:12.5px; color:#dc2626; margin-bottom:12px;">
+          Frühere falsche Eingabe: <strong>${m.userAnswer}</strong>
+        </div>
+      </div>
+
+      <div class="drill-options-list" id="drillOptionsList">
+        ${optionsHtml}
+      </div>
+
+      <div id="drillFeedbackArea" style="display:none;"></div>
+
+      <div class="drill-action-row">
+        <button type="button" class="btn btn-outline btn-sm" onclick="prevDrillQuestion()">← Vorheriger</button>
+        <button type="button" class="btn btn-primary" id="btnCheckDrillAnswer" onclick="checkDrillAnswer('${qid}', '${m.correctAnswer}')">
+          Antwort überprüfen
+        </button>
+        <button type="button" class="btn btn-outline btn-sm" onclick="nextDrillQuestion()">Nächster →</button>
+      </div>
+    </div>
+  `;
+}
+
+window.selectDrillOption = function(btnEl, optVal) {
+  document.querySelectorAll('.drill-opt-btn').forEach(b => b.classList.remove('selected'));
+  btnEl.classList.add('selected');
+  btnEl.dataset.selectedVal = optVal;
+};
+
+window.checkDrillAnswer = function(qid, correctAns) {
+  const selectedBtn = document.querySelector('.drill-opt-btn.selected');
+  if (!selectedBtn) {
+    alert('Bitte wähle eine Option aus.');
+    return;
+  }
+
+  const chosenVal = selectedBtn.dataset.drillOpt;
+  const isCorrect = String(chosenVal).toLowerCase() === String(correctAns).toLowerCase();
+  const feedbackArea = document.getElementById('drillFeedbackArea');
+  const checkBtn = document.getElementById('btnCheckDrillAnswer');
+
+  const exp = typeof getExplanation === 'function' ? getExplanation(currentTest.id, qid, questionsLang) : null;
+  const expHtml = exp ? `
+    <div style="margin-top:10px; font-size:13px; line-height:1.45; border-top:1px dashed var(--border); padding-top:8px;">
+      <strong>Didaktische Erklärung:</strong><br>
+      ${exp.whyCorrect}
+    </div>
+  ` : '';
+
+  if (isCorrect) {
+    selectedBtn.classList.add('is-correct');
+    feedbackArea.className = 'drill-feedback-box correct';
+    feedbackArea.innerHTML = `
+      <div style="font-size:14px; font-weight:800; display:flex; align-items:center; gap:6px;">
+        <span>🎉 Richtig gelöst!</span>
+      </div>
+      <p style="font-size:13px; margin:4px 0 8px;">Hervorragend! Du hast den Fehler erfolgreich korrigiert.</p>
+      ${expHtml}
+      <div style="margin-top:10px;">
+        <button type="button" class="btn btn-success btn-sm" onclick="markCurrentDrillMastered('${qid}')">
+          ✓ Als gemeistert abhaken
+        </button>
+      </div>
+    `;
+    feedbackArea.style.display = 'block';
+    if (checkBtn) checkBtn.style.display = 'none';
+  } else {
+    selectedBtn.classList.add('is-wrong');
+    feedbackArea.className = 'drill-feedback-box wrong';
+    feedbackArea.innerHTML = `
+      <div style="font-size:14px; font-weight:800; display:flex; align-items:center; gap:6px;">
+        <span>✗ Leider noch nicht richtig</span>
+      </div>
+      <p style="font-size:13px; margin:4px 0 8px;">Schau dir die didaktische Erklärung an, um den Fehler zu verstehen:</p>
+      ${expHtml}
+    `;
+    feedbackArea.style.display = 'block';
+  }
+};
+
+window.markCurrentDrillMastered = function(qid) {
+  const mistakes = getRecordedMistakes();
+  const key = `${currentTest.id}_q${qid}`;
+  if (mistakes[key]) {
+    mistakes[key].mastered = true;
+    saveMistakesToStorage(mistakes);
+    updateMistakesNavBadge();
+    nextDrillQuestion();
+  }
+};
+
+window.nextDrillQuestion = function() {
+  if (currentDrillList.length === 0) return;
+  currentDrillIndex = (currentDrillIndex + 1) % currentDrillList.length;
+  renderMistakesModalContent();
+};
+
+window.prevDrillQuestion = function() {
+  if (currentDrillList.length === 0) return;
+  currentDrillIndex = (currentDrillIndex - 1 + currentDrillList.length) % currentDrillList.length;
+  renderMistakesModalContent();
+};
+
+/* ---------------- MISTAKES LIST VIEW ---------------- */
+
+function renderMistakesListView(allMistakes) {
+  const body = document.getElementById('mistakesModalBody');
+
+  if (allMistakes.length === 0) {
+    body.innerHTML = `
+      <div style="text-align:center; padding: 45px 15px; color:var(--text-muted);">
+        <div style="font-size:42px; margin-bottom:12px;">📓</div>
+        <h4 style="font-size:18px; font-weight:800; color:var(--text-main); margin-bottom:8px;">Fehlerheft ist noch leer</h4>
+        <p style="font-size:14px; max-width:440px; margin:0 auto 18px; line-height:1.5;">
+          Sobald du im Test Aufgaben überprüfst oder abgibst, werden falsch beantwortete Aufgaben automatisch hier gesammelt.
+        </p>
+      </div>
+    `;
+    return;
+  }
+
+  body.innerHTML = allMistakes.map(m => {
+    const qid = m.qid;
+    const isMastered = !!m.mastered;
+    return `
+      <div class="mistake-card ${isMastered ? 'mastered-item' : ''}" id="mcard-${m.key}">
+        <div class="mistake-card-header">
+          <span class="mistake-teil-badge">Teil ${m.teilId || 1} · Aufgabe ${qid}</span>
+          <span class="mistake-stat-pill ${isMastered ? 'mastered' : 'open'}">
+            ${isMastered ? '✓ Gemeistert' : 'Offen'}
+          </span>
+        </div>
+
+        <div class="mistake-q-title">${m.questionText}</div>
+
+        <div class="mistake-answers-diff">
+          <div class="mistake-diff-row wrong">
+            <span>✗ Deine Eingabe:</span>
+            <strong>${m.userAnswer || 'keine'}</strong>
+          </div>
+          <div class="mistake-diff-row correct">
+            <span>✓ Richtige Lösung:</span>
+            <strong>${m.correctAnswer}</strong>
+          </div>
+        </div>
+
+        <div id="mexp-${m.key}" style="display:none; margin-bottom:10px;">
+          ${renderExplanationBoxHtml({ id: qid }, m.userAnswer, false)}
+        </div>
+
+        <div class="mistake-card-actions">
+          <button type="button" class="btn btn-sm btn-outline" onclick="toggleMistakeExplanation('${m.key}')">
+            💡 Erklärung ansehen
+          </button>
+          <div style="display:flex; gap:6px;">
+            <button type="button" class="btn btn-sm ${isMastered ? 'btn-outline' : 'btn-success'}" onclick="toggleMistakeMasteredState('${m.key}')">
+              ${isMastered ? 'Wieder öffnen' : '✓ Als gemeistert'}
+            </button>
+            <button type="button" class="btn btn-sm btn-outline text-danger" onclick="deleteSingleMistake('${m.key}')" title="Aus Fehlerheft löschen">
+              🗑️
+            </button>
+          </div>
+        </div>
+      </div>
+    `;
+  }).join('');
+}
+
+window.toggleMistakeExplanation = function(key) {
+  const el = document.getElementById(`mexp-${key}`);
+  if (el) {
+    el.style.display = el.style.display === 'none' ? 'block' : 'none';
+  }
+};
+
+window.toggleMistakeMasteredState = function(key) {
+  const mistakes = getRecordedMistakes();
+  if (mistakes[key]) {
+    mistakes[key].mastered = !mistakes[key].mastered;
+    saveMistakesToStorage(mistakes);
+    updateMistakesNavBadge();
+    renderMistakesModalContent();
+  }
+};
+
+window.deleteSingleMistake = function(key) {
+  const mistakes = getRecordedMistakes();
+  delete mistakes[key];
+  saveMistakesToStorage(mistakes);
+  updateMistakesNavBadge();
+  renderMistakesModalContent();
+};
+
+function findQuestionById(qid) {
+  for (const t of testData) {
+    const qs = allQuestionsOf(t);
+    const found = qs.find(q => String(q.id) === String(qid));
+    if (found) return found;
+  }
+  return null;
+}
+
 /* ---------------- QUESTION MATRIX MODAL (1–30 OVERVIEW) ---------------- */
 function initMatrixModal() {
   const matrixBtn = document.getElementById('matrixBtn');
@@ -2507,6 +3483,9 @@ function renderCurrentTeil() {
     renderQuestions(t);
   }
   updateProgress();
+  if (typeof applyVocabHighlightsToCurrentTeil === 'function') {
+    applyVocabHighlightsToCurrentTeil();
+  }
 }
 
 /* ---------------- SCORING & RESULTS ---------------- */
@@ -2589,6 +3568,10 @@ function showResults() {
     `;
     teilScoresGrid.appendChild(card);
   });
+
+  if (typeof syncAllMistakes === 'function') {
+    syncAllMistakes();
+  }
 
   const pct = totalCount > 0 ? Math.round((totalCorrect / totalCount) * 100) : 0;
   const isPassed = pct >= 60;
@@ -2875,6 +3858,9 @@ initFullscreen();
 initFontSizeControls();
 initHighlighter();
 initMatrixModal();
+initVocabHighlighting();
+initVocabModal();
+initMistakesModal();
 initKeyboardShortcuts();
 initTestSelector();
 loadModelTest(0);

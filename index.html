@@ -29,6 +29,17 @@
           <span>Aufgaben</span>
         </button>
 
+        <button class="nav-action-btn" id="vocabModalBtn" title="B1-Wortschatz-Helfer & Glossar">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+          <span>Wortschatz</span>
+        </button>
+
+        <button class="nav-action-btn mistakes-nav-btn" id="mistakesModalBtn" title="Mein persönliches Fehlerheft">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/><line x1="9" y1="7" x2="15" y2="7"/><line x1="9" y1="11" x2="15" y2="11"/></svg>
+          <span>Fehlerheft</span>
+          <span class="nav-badge" id="mistakesBadge" style="display:none;">0</span>
+        </button>
+
         <div class="timer-box" id="timerBox">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
           <span id="timerDisplay">65:00</span>
@@ -77,6 +88,14 @@
       <button class="hl-tool-btn" data-tool="blue" title="Blau markieren"><span class="swatch-circle blue"></span> Blau</button>
       <button class="hl-tool-btn" data-tool="eraser" title="Markierung radieren"><span class="swatch-circle eraser"></span> Radierer</button>
       <button class="hl-reset-btn" id="clearTeilHighlights" title="Alle Markierungen in diesem Teil entfernen">Löschen</button>
+    </div>
+
+    <!-- Vocab Highlighting Toggle -->
+    <div class="vocab-banner-toggle">
+      <button class="vocab-toggle-btn active" id="vocabToggleBtn" title="B1-Wortschatz im Text hervorheben (An/Aus)">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+        <span id="vocabToggleLabel">Wortschatz: AN</span>
+      </button>
     </div>
 
     <div class="font-size-controls">
@@ -186,6 +205,91 @@
     </div>
   </div>
 
+  <!-- B1 Vocabulary & Glossary Modal -->
+  <div class="modal-overlay" id="vocabModal" style="display:none;" role="dialog" aria-modal="true" aria-labelledby="vocabModalTitle">
+    <div class="modal-card modal-card-lg">
+      <div class="modal-header">
+        <div style="display:flex; align-items:center; gap:10px;">
+          <div class="modal-icon-badge" style="background:#e0f2fe; color:#0284c7;">📖</div>
+          <div>
+            <h3 id="vocabModalTitle" style="font-size:18px; font-weight:700; color:var(--text-main);">B1-Wortschatz-Helfer & Vokabelliste</h3>
+            <p style="font-size:13px; color:var(--text-muted); margin-top:2px;">Wichtige B1-Wörter, Kollokationen und Erklärungen mit Audio-Aussprache.</p>
+          </div>
+        </div>
+        <button class="icon-btn modal-close-btn" id="vocabModalCloseBtn" title="Schließen">
+          <svg width="18" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+      </div>
+
+      <!-- Controls: Search & Tabs -->
+      <div class="vocab-controls-row">
+        <div class="vocab-search-wrap">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <input type="text" id="vocabSearchInput" placeholder="Wort suchen (Deutsch, العربية, Français)..." autocomplete="off">
+          <button type="button" id="vocabSearchClear" style="display:none;" title="Suche leeren">✕</button>
+        </div>
+        <div class="filter-pills vocab-tabs" id="vocabTabButtons">
+          <button class="filter-btn active" data-vtab="current">Aktueller Teil</button>
+          <button class="filter-btn" data-vtab="all">Alle Wörter</button>
+          <button class="filter-btn" data-vtab="saved">Gemerkt (★) <span id="savedVocabCountBadge">0</span></button>
+          <button class="filter-btn highlight-pill" data-vtab="flashcards">🗂️ Lernkarten</button>
+        </div>
+      </div>
+
+      <!-- Vocab Content Body -->
+      <div class="vocab-modal-body" id="vocabModalBody">
+        <div class="vocab-cards-grid" id="vocabCardsGrid"></div>
+        <div class="flashcard-container" id="vocabFlashcardContainer" style="display:none;"></div>
+      </div>
+
+      <div class="modal-footer">
+        <div class="matrix-stats" id="vocabStatsText">0 Wörter geladen</div>
+        <button class="btn btn-primary" id="vocabConfirmClose">Schließen</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Personalized Mistake Notebook Modal -->
+  <div class="modal-overlay" id="mistakesModal" style="display:none;" role="dialog" aria-modal="true" aria-labelledby="mistakesModalTitle">
+    <div class="modal-card modal-card-lg">
+      <div class="modal-header">
+        <div style="display:flex; align-items:center; gap:10px;">
+          <div class="modal-icon-badge" style="background:#fee2e2; color:#ef4444;">📓</div>
+          <div>
+            <h3 id="mistakesModalTitle" style="font-size:18px; font-weight:700; color:var(--text-main);">Mein persönliches Fehlerheft</h3>
+            <p style="font-size:13px; color:var(--text-muted); margin-top:2px;">Wiederhole gezielt deine Fehler aus den Prüfungsteilen, bis du sie gemeistert hast.</p>
+          </div>
+        </div>
+        <button class="icon-btn modal-close-btn" id="mistakesModalCloseBtn" title="Schließen">
+          <svg width="18" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+      </div>
+
+      <!-- Mistake Stats and Mode Switcher -->
+      <div class="mistakes-toolbar">
+        <div class="mistakes-stats-banner">
+          <span class="mistake-stat-pill open" id="openMistakesBadge">0 zu wiederholen</span>
+          <span class="mistake-stat-pill mastered" id="masteredMistakesBadge">0 gemeistert</span>
+        </div>
+        <div class="filter-pills mistakes-tabs" id="mistakesTabButtons">
+          <button class="filter-btn active" data-mtab="drill">🎯 Fehler wiederholen (Drill)</button>
+          <button class="filter-btn" data-mtab="list">📋 Fehlerliste ansehen</button>
+        </div>
+      </div>
+
+      <!-- Mistake Modal Body -->
+      <div class="mistakes-modal-body" id="mistakesModalBody"></div>
+
+      <div class="modal-footer">
+        <button class="btn btn-outline btn-sm text-danger" id="clearAllMistakesBtn">Fehlerheft leeren</button>
+        <button class="btn btn-primary" id="mistakesConfirmClose">Zurück zum Test</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Floating Vocab Tooltip Popover -->
+  <div id="vocabFloatingTooltip" class="vocab-floating-popover" style="display:none;" role="tooltip"></div>
+
   <!-- Email Notification Toast -->
   <div id="emailToast" class="email-toast" style="display:none;" role="status" aria-live="polite">
     <span class="email-toast-icon">✓</span>
@@ -196,6 +300,7 @@
 <script src="testsData.js"></script>
 <script src="translationsData.js"></script>
 <script src="explanationsData.js"></script>
+<script src="vocabularyData.js"></script>
 <script src="script.js"></script>
 </body>
 </html>
