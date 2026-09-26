@@ -25,19 +25,21 @@
   <!-- Navigation Bar -->
   <header class="navbar">
     <div class="nav-container">
-      <div class="brand">
-        <div class="brand-badge" id="brandBadge">B1</div>
-        <div>
-          <div class="brand-title" id="brandTitle">Goethe / ÖSD B1 Prüfungssimulation</div>
-          <div class="brand-sub" id="brandSub">Modul Lesen & Modul Hören · Goethe / ÖSD B1</div>
+      <div class="nav-brand-group">
+        <div class="brand">
+          <div class="brand-badge" id="brandBadge">B1</div>
+          <div class="brand-text-wrap">
+            <div class="brand-title" id="brandTitle">Goethe / ÖSD B1 Prüfungssimulation</div>
+            <div class="brand-sub" id="brandSub">Modul Lesen & Modul Hören · Goethe / ÖSD B1</div>
+          </div>
         </div>
-      </div>
-      <div class="header-actions">
         <div class="test-selector-wrap">
           <label for="modelTestSelect" class="test-selector-label">Test:</label>
           <select id="modelTestSelect" class="test-selector" title="Modellsatz auswählen"></select>
         </div>
+      </div>
 
+      <div class="nav-actions-group">
         <button class="nav-action-btn" id="matrixBtn" title="Prüfungsübersicht der Aufgaben anzeigen">
           <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/></svg>
           <span>Aufgaben</span>
@@ -53,7 +55,9 @@
           <span>Fehlerheft</span>
           <span class="nav-badge" id="mistakesBadge" style="display:none;">0</span>
         </button>
+      </div>
 
+      <div class="nav-controls-group">
         <div class="timer-box" id="timerBox">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
           <span id="timerDisplay">65:00</span>
