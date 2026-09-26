@@ -235,9 +235,28 @@ function initTestSelector() {
 
 /* ---------------- LOAD / SWITCH MODEL TEST ---------------- */
 function loadModelTest(index) {
+  if (typeof index === 'string') {
+    const foundIdx = modelTests.findIndex(m => m.id === index);
+    if (foundIdx !== -1) {
+      index = foundIdx;
+    } else {
+      const parsed = parseInt(index, 10);
+      index = !isNaN(parsed) ? parsed : 0;
+    }
+  }
+  if (typeof index !== 'number' || isNaN(index) || index < 0 || index >= modelTests.length) {
+    index = 0;
+  }
+
   currentTestIndex = index;
   currentTest = modelTests[currentTestIndex];
   testData = currentTest.parts;
+
+  // Sync selector dropdown if needed
+  const selEl = document.getElementById('modelTestSelect');
+  if (selEl && selEl.value !== String(currentTestIndex)) {
+    selEl.value = currentTestIndex;
+  }
 
   // Clear answers & flags
   Object.keys(userAnswers).forEach(k => delete userAnswers[k]);
@@ -1004,7 +1023,8 @@ window.highlightEvidence = function(qid) {
 
   const isAr = questionsLang === 'ar';
   const isFr = questionsLang === 'fr';
-  const exp = typeof getExplanation === 'function' ? getExplanation(currentTest.id, qid, questionsLang) : null;
+  const testId = (currentTest && currentTest.id) || (modelTests[currentTestIndex] && modelTests[currentTestIndex].id) || 'modellsatz-1';
+  const exp = typeof getExplanation === 'function' ? getExplanation(testId, qid, questionsLang) : null;
   const quote = exp?.quote || '';
 
   // 1. TEIL 3: ADS MATCHING
@@ -1027,13 +1047,13 @@ window.highlightEvidence = function(qid) {
 
       const badge = document.createElement('div');
       badge.className = 'evidence-badge-floating';
-      badge.innerHTML = `📍 ${isAr ? `الإعلان المناسب للسؤال ${qid}` : (isFr ? `Annonce correspondante (Question ${qid})` : `Passende Anzeige für Aufgabe ${qid}`)}`;
+      badge.innerHTML = `📍 ${isAr ? `الإعلان المطابق للسؤال ${qid}` : (isFr ? `Annonce correspondante (Question ${qid})` : `Passende Anzeige für Aufgabe ${qid}`)}`;
       targetAd.prepend(badge);
 
-      setTimeout(() => {
+      window._evidenceClearTimer = setTimeout(() => {
         targetAd.classList.remove('evidence-card-pulse');
         badge.remove();
-      }, 5000);
+      }, 7000);
       return;
     }
   }
@@ -1046,8 +1066,10 @@ window.highlightEvidence = function(qid) {
       const bodyEl = card.querySelector('.letter-body');
       if (bodyEl) {
         bodyEl.classList.add('evidence-glow-pulse');
-        setTimeout(() => bodyEl.classList.remove('evidence-glow-pulse'), 5000);
+        window._evidenceClearTimer = setTimeout(() => bodyEl.classList.remove('evidence-glow-pulse'), 7000);
       }
+      const toastMsg = isAr ? `📍 تم تحديد تعليق المتحدث في السؤال ${qid}` : (isFr ? `📍 Preuve dans le commentaire de la question ${qid}` : `📍 Textstelle im Leserkommentar zu Aufgabe ${qid} markiert`);
+      showEvidenceToast(toastMsg);
       return;
     }
   }
@@ -1056,75 +1078,167 @@ window.highlightEvidence = function(qid) {
   const passagePanel = document.getElementById('passagePanel');
   if (!passagePanel) return;
 
-  if (!quote) {
-    const fallbackMsg = isAr ? `📍 تم تحديد موضع السؤال ${qid}` : (isFr ? `📍 Emplacement identifié pour la question ${qid}` : `📍 Textbereich für Aufgabe ${qid}`);
-    showEvidenceToast(fallbackMsg);
-    return;
+  // Gather candidate text elements in passage panel
+  const allElements = Array.from(passagePanel.querySelectorAll('.reading-text p, .reading-text li, .reading-text div.article-body, .reading-text h3, .reading-text h4'));
+  let candidates = allElements.filter(el => {
+    const txt = el.textContent.trim();
+    if (txt.length < 20) return false;
+    if (el.classList.contains('article-source') || el.classList.contains('article-sub')) return false;
+    return true;
+  });
+  if (candidates.length === 0) candidates = allElements;
+
+  // In Teil 2: split by article 1 (Q7-9) and article 2 (Q10-12)
+  const qNum = parseInt(qid, 10);
+  if (t.id === 2 && !isNaN(qNum)) {
+    const readingBoxes = passagePanel.querySelectorAll('.reading-text');
+    if (readingBoxes.length >= 2) {
+      const targetBox = (qNum <= 9) ? readingBoxes[0] : readingBoxes[1];
+      const boxParas = Array.from(targetBox.querySelectorAll('p, li')).filter(p => p.textContent.trim().length >= 15);
+      if (boxParas.length > 0) candidates = boxParas;
+    }
   }
 
-  // Clean quote search phrases (remove ellipsis and quotes)
-  const cleanQuote = quote.replace(/[\'\"„“]/g, '').trim();
-  const subphrases = cleanQuote.split(/\s*\.{3,}\s*/).map(s => s.trim()).filter(s => s.length >= 8);
-  if (subphrases.length === 0) subphrases.push(cleanQuote);
-
-  const paragraphs = Array.from(passagePanel.querySelectorAll('.reading-text p, .reading-text li, .reading-text div'));
   let matchedEl = null;
   let matchedText = '';
 
-  for (const phrase of subphrases) {
-    const searchPart = phrase.slice(0, 30).toLowerCase();
-    for (const p of paragraphs) {
-      if (p.textContent.toLowerCase().includes(searchPart)) {
-        matchedEl = p;
-        matchedText = phrase;
-        break;
+  // Tier 1: Search clean quote subphrases (>= 8 chars)
+  if (quote) {
+    const cleanQuote = quote.replace(/[\'\"„“»«]/g, '').trim();
+    const subphrases = cleanQuote.split(/\s*[\.\,\;\:\!\?…]{1,}\s*|\s*\.{3,}\s*/)
+      .map(s => s.trim())
+      .filter(s => s.length >= 8);
+    if (subphrases.length === 0 && cleanQuote.length >= 6) subphrases.push(cleanQuote);
+
+    for (const phrase of subphrases) {
+      const phraseLower = phrase.toLowerCase();
+      const testChunk = phraseLower.length > 35 ? phraseLower.slice(0, 35) : phraseLower;
+      for (const el of candidates) {
+        if (el.textContent.toLowerCase().includes(testChunk)) {
+          matchedEl = el;
+          matchedText = phrase;
+          break;
+        }
+      }
+      if (matchedEl) break;
+
+      // Try sliding 3-word windows
+      const words = phrase.split(/\s+/).filter(w => w.length >= 3);
+      if (words.length >= 3) {
+        for (let i = 0; i <= words.length - 3; i++) {
+          const tri = (words[i] + ' ' + words[i+1] + ' ' + words[i+2]).toLowerCase();
+          for (const el of candidates) {
+            if (el.textContent.toLowerCase().includes(tri)) {
+              matchedEl = el;
+              matchedText = tri;
+              break;
+            }
+          }
+          if (matchedEl) break;
+        }
+      }
+      if (matchedEl) break;
+    }
+  }
+
+  // Tier 2: Keyword scoring from question text & explanation if no exact quote match
+  if (!matchedEl) {
+    const qObj = (t.questions || []).concat(t.questions2 || []).find(x => String(x.id) === String(qid));
+    const searchText = ((qObj?.text || '') + ' ' + (exp?.whyCorrect || '')).toLowerCase();
+    const keywords = searchText.replace(/[^\wäöüß]/gi, ' ').split(/\s+/).filter(w => {
+      if (w.length < 5) return false;
+      return !['nicht', 'dass', 'dieser', 'diese', 'dieses', 'haben', 'wurde', 'werden', 'immer', 'kann', 'können', 'sollen', 'sollte', 'wäre', 'weil', 'wenn', 'oder', 'aber', 'auch', 'nach', 'über', 'unter', 'durch', 'richtig', 'falsch', 'option', 'aussage'].includes(w);
+    });
+
+    if (keywords.length > 0) {
+      let bestScore = 0;
+      for (const el of candidates) {
+        const elText = el.textContent.toLowerCase();
+        let score = 0;
+        for (const kw of keywords) {
+          if (elText.includes(kw)) score++;
+        }
+        if (score > bestScore) {
+          bestScore = score;
+          matchedEl = el;
+        }
       }
     }
-    if (matchedEl) break;
+  }
+
+  // Tier 3: Positional sequential heuristic fallback
+  if (!matchedEl && candidates.length > 0) {
+    if (t.id === 1 && !isNaN(qNum) && qNum >= 1 && qNum <= 6) {
+      const idx = Math.min(qNum - 1, candidates.length - 1);
+      matchedEl = candidates[idx];
+    } else if (t.id === 2 && !isNaN(qNum)) {
+      if (qNum <= 9) {
+        const idx = Math.min((qNum - 7) * 2, candidates.length - 1);
+        matchedEl = candidates[idx] || candidates[0];
+      } else {
+        const idx = Math.min((qNum - 10) * 2, candidates.length - 1);
+        matchedEl = candidates[idx] || candidates[0];
+      }
+    } else if (t.id === 5 && !isNaN(qNum) && qNum >= 27) {
+      const idx = Math.min(qNum - 27, candidates.length - 1);
+      matchedEl = candidates[idx];
+    } else {
+      matchedEl = candidates[0];
+    }
   }
 
   if (matchedEl) {
+    // Floating badge
     const badge = document.createElement('div');
     badge.className = 'evidence-badge-floating';
     badge.innerHTML = `📍 ${isAr ? `الشاهد اللغوي للسؤال ${qid}` : (isFr ? `Preuve textuelle (Question ${qid})` : `Textbeleg für Aufgabe ${qid}`)}`;
     matchedEl.parentNode.insertBefore(badge, matchedEl);
 
-    let highlighted = false;
-    if (matchedText.length >= 10) {
-      const idx = matchedEl.textContent.toLowerCase().indexOf(matchedText.slice(0, 20).toLowerCase());
-      if (idx !== -1) {
-        const actualChunk = matchedEl.textContent.substr(idx, Math.min(matchedText.length, 60));
+    // Block highlight
+    matchedEl.classList.add('evidence-glow-pulse');
+
+    // Attempt inline highlight of specific chunk if safely matched
+    let inlineMark = null;
+    if (matchedText && matchedText.length >= 8) {
+      const elText = matchedEl.textContent;
+      const cleanChunk = matchedText.slice(0, 35);
+      const startIdx = elText.toLowerCase().indexOf(cleanChunk.toLowerCase());
+      if (startIdx !== -1) {
+        const actualChunk = elText.substr(startIdx, Math.min(cleanChunk.length, 50));
         const escaped = actualChunk.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-        const reg = new RegExp(escaped, 'i');
+        const reg = new RegExp(`(${escaped})`, 'i');
         if (reg.test(matchedEl.innerHTML)) {
-          matchedEl.innerHTML = matchedEl.innerHTML.replace(reg, m => `<mark class="evidence-glow-pulse" id="activeEvidenceMark">${m}</mark>`);
-          highlighted = true;
+          matchedEl.innerHTML = matchedEl.innerHTML.replace(reg, '<mark class="evidence-glow-pulse" id="activeEvidenceMark">$1</mark>');
+          inlineMark = document.getElementById('activeEvidenceMark');
         }
       }
     }
 
-    if (!highlighted) {
-      matchedEl.classList.add('evidence-glow-pulse');
-    }
-
-    const scrollTarget = document.getElementById('activeEvidenceMark') || badge || matchedEl;
+    const scrollTarget = inlineMark || badge || matchedEl;
     scrollTarget.scrollIntoView({ behavior: 'smooth', block: 'center' });
 
-    setTimeout(() => {
+    const toastMsg = isAr ? `📍 تم تحديد الشاهد اللغوي للسؤال ${qid}` : (isFr ? `📍 Preuve textuelle pour la question ${qid} surlignée` : `📍 Textbeleg für Aufgabe ${qid} im Text hervorgehoben`);
+    showEvidenceToast(toastMsg);
+
+    clearTimeout(window._evidenceClearTimer);
+    window._evidenceClearTimer = setTimeout(() => {
       clearEvidenceHighlights();
-    }, 5000);
+    }, 7000);
   } else {
     passagePanel.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    showEvidenceToast(`📍 ${isAr ? 'تم تحديد موضع السؤال في النص' : (isFr ? 'Emplacement textuel identifié' : 'Passender Textabschnitt markiert')}`);
+    showEvidenceToast(`📍 ${isAr ? 'تم تحديد موضع السؤال في النص' : (isFr ? 'Emplacement textuel identifié' : 'Passender Textabschnitt identifiziert')}`);
   }
 };
 
 function clearEvidenceHighlights() {
+  clearTimeout(window._evidenceClearTimer);
   document.querySelectorAll('.evidence-glow-pulse').forEach(el => {
     if (el.tagName === 'MARK') {
       const parent = el.parentNode;
-      while (el.firstChild) parent.insertBefore(el.firstChild, el);
-      parent.removeChild(el);
+      if (parent) {
+        while (el.firstChild) parent.insertBefore(el.firstChild, el);
+        parent.removeChild(el);
+      }
     } else {
       el.classList.remove('evidence-glow-pulse');
     }
@@ -3865,3 +3979,14 @@ initKeyboardShortcuts();
 initTestSelector();
 loadModelTest(0);
 checkSavedSession();
+
+window.loadModelTest = loadModelTest;
+window.switchTeil = function(id) {
+  if (id !== activeTeil) {
+    sendTeilResultsEmail(activeTeil);
+  }
+  activeTeil = id;
+  renderCurrentTeil();
+  saveSession();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+};
