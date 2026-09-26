@@ -3242,5 +3242,139 @@
   border-color: var(--primary);
 }
 
+/* ==========================================================================
+   INTERACTIVE TEXT EVIDENCE PINNING (DIRECT PASSAGE HIGHLIGHTING)
+   ========================================================================== */
+
+@keyframes evidencePulse {
+  0% {
+    background-color: rgba(250, 204, 21, 0.95);
+    box-shadow: 0 0 0 0 rgba(250, 204, 21, 0.7);
+    transform: scale(1.02);
+  }
+  50% {
+    background-color: rgba(250, 204, 21, 0.75);
+    box-shadow: 0 0 0 10px rgba(250, 204, 21, 0);
+  }
+  100% {
+    background-color: rgba(250, 204, 21, 0.38);
+    box-shadow: 0 0 0 0 rgba(250, 204, 21, 0);
+    transform: scale(1);
+  }
+}
+
+.evidence-glow-pulse {
+  animation: evidencePulse 1.6s ease-in-out 3;
+  border-radius: 4px;
+  padding: 3px 6px;
+  background-color: rgba(250, 204, 21, 0.4) !important;
+  color: #1e293b !important;
+  font-weight: 700;
+  border: 1.5px solid #eab308;
+  display: inline;
+  transition: all 0.3s ease;
+  line-height: 1.6;
+}
+
+[data-theme="dark"] .evidence-glow-pulse {
+  background-color: rgba(234, 179, 8, 0.45) !important;
+  color: #fef08a !important;
+  border-color: #facc15;
+}
+
+/* Ad Card Pulse for Teil 3 */
+.ad-wrapper.evidence-card-pulse {
+  outline: 3px solid #eab308 !important;
+  outline-offset: 4px;
+  box-shadow: 0 8px 24px rgba(234, 179, 8, 0.45) !important;
+  transition: all 0.25s ease;
+}
+
+/* Floating Evidence Indicator Badge */
+.evidence-badge-floating {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: #f59e0b;
+  color: #ffffff;
+  font-size: 11.5px;
+  font-weight: 800;
+  padding: 4px 11px;
+  border-radius: 20px;
+  margin-bottom: 8px;
+  box-shadow: 0 2px 8px rgba(245, 158, 11, 0.45);
+  animation: teilRevealSlideUp 0.25s ease;
+}
+
+[data-theme="dark"] .evidence-badge-floating {
+  background: #d97706;
+}
+
+/* Quote Wrap & Pin Button in Explanation Box */
+.explanation-quote-wrap {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+}
+
+.explanation-quote {
+  cursor: pointer;
+  transition: all 0.15s ease;
+  width: 100%;
+}
+
+.explanation-quote:hover {
+  background: rgba(234, 179, 8, 0.22);
+  border-left-width: 5px;
+}
+
+[dir="rtl"] .explanation-quote:hover, .lang-ar .explanation-quote:hover {
+  border-left-width: 0;
+  border-right-width: 5px;
+}
+
+.btn-pin-evidence {
+  background: var(--bg-card);
+  border: 1.5px solid var(--primary);
+  color: var(--primary);
+  font-size: 12px;
+  font-weight: 700;
+  padding: 5px 12px;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.2s ease;
+}
+
+.btn-pin-evidence:hover {
+  background: var(--primary);
+  color: #ffffff;
+  transform: translateY(-1px);
+  box-shadow: 0 3px 10px rgba(37, 99, 235, 0.3);
+}
+
+.btn-pin-evidence svg {
+  stroke: currentColor;
+}
+
+.flag-btn.pin-evidence-header-btn {
+  color: var(--text-muted);
+  font-size: 13.5px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.15s ease;
+}
+
+.flag-btn.pin-evidence-header-btn:hover {
+  color: #f59e0b;
+  transform: scale(1.18);
+}
+
+
 
 

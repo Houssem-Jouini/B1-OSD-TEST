@@ -954,10 +954,21 @@ function renderExplanationBoxHtml(q, userVal, isCorrect) {
   const title = isAr ? 'الشرح والتعليل اللغوي' : (isFr ? 'Explication pédagogique' : 'Erklärung & Textbeleg');
   const correctHeading = isAr ? 'لماذا هذه الإجابة صحيحة؟' : (isFr ? 'Pourquoi cette réponse est correcte ?' : 'Warum ist diese Lösung richtig?');
   const wrongHeading = isAr ? 'تحليل الإجابات والخيارات الخاطئة:' : (isFr ? 'Pourquoi les autres options sont fausses :' : 'Warum sind die anderen Optionen / falsche Antworten nicht korrekt?');
+  const pinBtnLabel = isAr ? 'تحديد وإظهار الشاهد في النص' : (isFr ? 'Surligner dans le texte' : 'Im Text markieren & anzeigen');
 
   let quoteHtml = '';
   if (exp.quote) {
-    quoteHtml = `<div class="explanation-quote">„${exp.quote}“</div>`;
+    quoteHtml = `
+      <div class="explanation-quote-wrap">
+        <div class="explanation-quote" onclick="highlightEvidence('${qid}')" title="${pinBtnLabel}">
+          „${exp.quote}“
+        </div>
+        <button type="button" class="btn-pin-evidence" onclick="highlightEvidence('${qid}')">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+          <span>📍 ${pinBtnLabel}</span>
+        </button>
+      </div>
+    `;
   }
 
   return `
@@ -979,6 +990,157 @@ function renderExplanationBoxHtml(q, userVal, isCorrect) {
       </div>
     </div>
   `;
+}
+
+/* ---------------- INTERACTIVE TEXT EVIDENCE PINNING ---------------- */
+window.highlightEvidence = function(qid) {
+  clearEvidenceHighlights();
+
+  const t = testData.find(x => x.id === activeTeil);
+  if (!t) return;
+
+  const isAr = questionsLang === 'ar';
+  const isFr = questionsLang === 'fr';
+  const exp = typeof getExplanation === 'function' ? getExplanation(currentTest.id, qid, questionsLang) : null;
+  const quote = exp?.quote || '';
+
+  // 1. TEIL 3: ADS MATCHING
+  if (t.id === 3 && t.adsFormatted) {
+    const q = t.questions?.find(x => String(x.id) === String(qid));
+    if (!q) return;
+
+    if (q.answer === 'X') {
+      const msg = isAr ? '📍 لهذه الحالة: لا يوجد إعلان مناسب بين الإعلانات (الحل: X).' : (isFr ? '📍 Pour cette situation : aucune annonce ne convient (Solution : X).' : '📍 Zu dieser Situation passt keine der Anzeigen A bis J (Lösung: X).');
+      showEvidenceToast(msg);
+      const instr = document.querySelector('#passagePanel .instruction-box');
+      if (instr) instr.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      return;
+    }
+
+    const targetAd = document.getElementById('ad-card-' + q.answer);
+    if (targetAd) {
+      targetAd.classList.add('evidence-card-pulse');
+      targetAd.scrollIntoView({ behavior: 'smooth', block: 'center' });
+
+      const badge = document.createElement('div');
+      badge.className = 'evidence-badge-floating';
+      badge.innerHTML = `📍 ${isAr ? `الإعلان المناسب للسؤال ${qid}` : (isFr ? `Annonce correspondante (Question ${qid})` : `Passende Anzeige für Aufgabe ${qid}`)}`;
+      targetAd.prepend(badge);
+
+      setTimeout(() => {
+        targetAd.classList.remove('evidence-card-pulse');
+        badge.remove();
+      }, 5000);
+      return;
+    }
+  }
+
+  // 2. TEIL 4: OPINIONS / COMMENTS (Single Column View)
+  if (t.id === 4 || t.letters) {
+    const card = document.getElementById('question-card-' + qid);
+    if (card) {
+      card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      const bodyEl = card.querySelector('.letter-body');
+      if (bodyEl) {
+        bodyEl.classList.add('evidence-glow-pulse');
+        setTimeout(() => bodyEl.classList.remove('evidence-glow-pulse'), 5000);
+      }
+      return;
+    }
+  }
+
+  // 3. TEIL 1, 2, 5: READING PASSAGES ON LEFT PANEL
+  const passagePanel = document.getElementById('passagePanel');
+  if (!passagePanel) return;
+
+  if (!quote) {
+    const fallbackMsg = isAr ? `📍 تم تحديد موضع السؤال ${qid}` : (isFr ? `📍 Emplacement identifié pour la question ${qid}` : `📍 Textbereich für Aufgabe ${qid}`);
+    showEvidenceToast(fallbackMsg);
+    return;
+  }
+
+  // Clean quote search phrases (remove ellipsis and quotes)
+  const cleanQuote = quote.replace(/[\'\"„“]/g, '').trim();
+  const subphrases = cleanQuote.split(/\s*\.{3,}\s*/).map(s => s.trim()).filter(s => s.length >= 8);
+  if (subphrases.length === 0) subphrases.push(cleanQuote);
+
+  const paragraphs = Array.from(passagePanel.querySelectorAll('.reading-text p, .reading-text li, .reading-text div'));
+  let matchedEl = null;
+  let matchedText = '';
+
+  for (const phrase of subphrases) {
+    const searchPart = phrase.slice(0, 30).toLowerCase();
+    for (const p of paragraphs) {
+      if (p.textContent.toLowerCase().includes(searchPart)) {
+        matchedEl = p;
+        matchedText = phrase;
+        break;
+      }
+    }
+    if (matchedEl) break;
+  }
+
+  if (matchedEl) {
+    const badge = document.createElement('div');
+    badge.className = 'evidence-badge-floating';
+    badge.innerHTML = `📍 ${isAr ? `الشاهد اللغوي للسؤال ${qid}` : (isFr ? `Preuve textuelle (Question ${qid})` : `Textbeleg für Aufgabe ${qid}`)}`;
+    matchedEl.parentNode.insertBefore(badge, matchedEl);
+
+    let highlighted = false;
+    if (matchedText.length >= 10) {
+      const idx = matchedEl.textContent.toLowerCase().indexOf(matchedText.slice(0, 20).toLowerCase());
+      if (idx !== -1) {
+        const actualChunk = matchedEl.textContent.substr(idx, Math.min(matchedText.length, 60));
+        const escaped = actualChunk.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+        const reg = new RegExp(escaped, 'i');
+        if (reg.test(matchedEl.innerHTML)) {
+          matchedEl.innerHTML = matchedEl.innerHTML.replace(reg, m => `<mark class="evidence-glow-pulse" id="activeEvidenceMark">${m}</mark>`);
+          highlighted = true;
+        }
+      }
+    }
+
+    if (!highlighted) {
+      matchedEl.classList.add('evidence-glow-pulse');
+    }
+
+    const scrollTarget = document.getElementById('activeEvidenceMark') || badge || matchedEl;
+    scrollTarget.scrollIntoView({ behavior: 'smooth', block: 'center' });
+
+    setTimeout(() => {
+      clearEvidenceHighlights();
+    }, 5000);
+  } else {
+    passagePanel.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    showEvidenceToast(`📍 ${isAr ? 'تم تحديد موضع السؤال في النص' : (isFr ? 'Emplacement textuel identifié' : 'Passender Textabschnitt markiert')}`);
+  }
+};
+
+function clearEvidenceHighlights() {
+  document.querySelectorAll('.evidence-glow-pulse').forEach(el => {
+    if (el.tagName === 'MARK') {
+      const parent = el.parentNode;
+      while (el.firstChild) parent.insertBefore(el.firstChild, el);
+      parent.removeChild(el);
+    } else {
+      el.classList.remove('evidence-glow-pulse');
+    }
+  });
+  document.querySelectorAll('.evidence-card-pulse').forEach(el => el.classList.remove('evidence-card-pulse'));
+  document.querySelectorAll('.evidence-badge-floating').forEach(el => el.remove());
+}
+
+function showEvidenceToast(msg) {
+  const toast = document.getElementById('emailToast');
+  const toastMsg = document.getElementById('emailToastMsg');
+  if (toast && toastMsg) {
+    toastMsg.textContent = msg;
+    toast.style.display = 'flex';
+    clearTimeout(window._evidenceToastTimer);
+    window._evidenceToastTimer = setTimeout(() => {
+      toast.style.display = 'none';
+    }, 4000);
+  }
 }
 
 function renderTeilScoreBannerHtml(t, qs) {
@@ -1175,7 +1337,10 @@ function renderQuestions(t) {
           <div class="question-header">
             <span class="q-number">${q.id}</span>
             <div class="q-title">${qText} ${evalBadgeHtml}</div>
-            <button class="flag-btn ${isFlagged ? 'flagged' : ''}" onclick="toggleFlag(${q.id})" title="Frage vormerken">★</button>
+            <div style="display:flex; align-items:center; gap:4px;">
+              <button type="button" class="flag-btn pin-evidence-header-btn" onclick="highlightEvidence('${q.id}')" title="${isAr ? 'تحديد وإظهار الإعلان المطابق' : (questionsLang === 'fr' ? 'Afficher l\'annonce preuve' : 'Passende Anzeige im Text anzeigen')}">📍</button>
+              <button type="button" class="flag-btn ${isFlagged ? 'flagged' : ''}" onclick="toggleFlag(${q.id})" title="Frage vormerken">★</button>
+            </div>
           </div>
           <div class="match-select-wrap">
             <label style="font-size:13.5px; font-weight:700; color:var(--text-muted);">${matchLabel}</label>
@@ -1375,7 +1540,10 @@ function renderTeil4(t) {
               <div class="author-avatar">${initial}</div>
               <div class="author-name">${authorName} ${evalBadgeHtml}</div>
             </div>
-            <button class="flag-btn ${isFlagged ? 'flagged' : ''}" onclick="toggleFlag(${l.id})" title="Aufgabe vormerken">★</button>
+            <div style="display:flex; align-items:center; gap:4px;">
+              <button type="button" class="flag-btn pin-evidence-header-btn" onclick="highlightEvidence('${l.id}')" title="${isAr ? 'تحديد الشاهد في التعليق' : (questionsLang === 'fr' ? 'Surligner la preuve' : 'Textstelle im Kommentar markieren')}">📍</button>
+              <button type="button" class="flag-btn ${isFlagged ? 'flagged' : ''}" onclick="toggleFlag(${l.id})" title="Aufgabe vormerken">★</button>
+            </div>
           </div>
           <div class="letter-body">„${letterText}“</div>
           <div class="letter-action-row">
@@ -1530,7 +1698,10 @@ function renderSingleQuestionCard(q, trPart, isBatch2 = false, isRevealed = fals
       <div class="question-header">
         <span class="q-number">${q.id}</span>
         <div class="q-title">${qText} ${evalBadgeHtml}</div>
-        <button class="flag-btn ${isFlagged ? 'flagged' : ''}" onclick="toggleFlag(${q.id})" title="Frage vormerken">★</button>
+        <div style="display:flex; align-items:center; gap:4px;">
+          <button type="button" class="flag-btn pin-evidence-header-btn" onclick="highlightEvidence('${q.id}')" title="${isAr ? 'تحديد وإظهار الشاهد في النص' : (questionsLang === 'fr' ? 'Surligner la preuve' : 'Textbeleg im Text anzeigen')}">📍</button>
+          <button type="button" class="flag-btn ${isFlagged ? 'flagged' : ''}" onclick="toggleFlag(${q.id})" title="Frage vormerken">★</button>
+        </div>
       </div>
       ${optsHtml}
       ${isRevealed ? renderExplanationBoxHtml(q, val, isCorrect) : ''}
