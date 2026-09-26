@@ -15,6 +15,7 @@ let activeTeil = 1;
 const userAnswers = {};
 const flaggedQuestions = new Set();
 let reviewFilter = 'all';
+const revealedTeils = new Set();
 
 /* ---------------- MULTILINGUAL STATE ---------------- */
 let passageLang = localStorage.getItem('b1_passage_lang') || 'de'; // 'de' | 'ar' | 'fr'
@@ -241,6 +242,7 @@ function loadModelTest(index) {
   // Clear answers & flags
   Object.keys(userAnswers).forEach(k => delete userAnswers[k]);
   flaggedQuestions.clear();
+  revealedTeils.clear();
   sentTeileSnapshots.clear();
   Object.keys(teilTimers).forEach(k => delete teilTimers[k]);
   activeTeil = 1;
@@ -908,6 +910,145 @@ function getTeil3Assignments(t) {
   return map;
 }
 
+/* ---------------- TEIL SOLUTIONS & EXPLANATIONS ENGINE ---------------- */
+window.revealTeilSolutions = function(teilId) {
+  revealedTeils.add(teilId);
+  renderCurrentTeil();
+  saveSession();
+  const qp = document.getElementById('questionsPanel');
+  if (qp) {
+    qp.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+};
+
+window.hideTeilSolutions = function(teilId) {
+  revealedTeils.delete(teilId);
+  renderCurrentTeil();
+  saveSession();
+};
+
+window.toggleReviewExplanation = function(qid) {
+  const el = document.getElementById(`review-exp-${qid}`);
+  if (!el) return;
+  const isHidden = el.style.display === 'none';
+  el.style.display = isHidden ? 'block' : 'none';
+  const btn = el.previousElementSibling;
+  if (btn && btn.classList.contains('btn-toggle-explanation')) {
+    const span = btn.querySelector('span');
+    if (span) {
+      span.textContent = isHidden
+        ? (questionsLang === 'ar' ? 'إخفاء الشرح' : (questionsLang === 'fr' ? 'Masquer l\'explication' : 'Erklärung ausblenden'))
+        : (questionsLang === 'ar' ? 'إظهار الشرح' : (questionsLang === 'fr' ? 'Afficher l\'explication' : 'Erklärung anzeigen'));
+    }
+  }
+};
+
+function renderExplanationBoxHtml(q, userVal, isCorrect) {
+  const qid = q.id;
+  const exp = typeof getExplanation === 'function' ? getExplanation(currentTest.id, qid, questionsLang) : null;
+  if (!exp) return '';
+
+  const isAr = questionsLang === 'ar';
+  const isFr = questionsLang === 'fr';
+
+  const title = isAr ? 'الشرح والتعليل اللغوي' : (isFr ? 'Explication pédagogique' : 'Erklärung & Textbeleg');
+  const correctHeading = isAr ? 'لماذا هذه الإجابة صحيحة؟' : (isFr ? 'Pourquoi cette réponse est correcte ?' : 'Warum ist diese Lösung richtig?');
+  const wrongHeading = isAr ? 'تحليل الإجابات والخيارات الخاطئة:' : (isFr ? 'Pourquoi les autres options sont fausses :' : 'Warum sind die anderen Optionen / falsche Antworten nicht korrekt?');
+
+  let quoteHtml = '';
+  if (exp.quote) {
+    quoteHtml = `<div class="explanation-quote">„${exp.quote}“</div>`;
+  }
+
+  return `
+    <div class="question-explanation-box">
+      <div class="explanation-header">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 18h6"/><path d="M10 22h4"/><path d="M15.09 14c.18-.98.65-1.74 1.41-2.5A4.65 4.65 0 0 0 18 8 6 6 0 0 0 6 8c0 1 .23 2.23 1.5 3.5A4.61 4.61 0 0 1 8.91 14"/></svg>
+        <span>${title}</span>
+      </div>
+      ${quoteHtml}
+      <div class="explanation-section">
+        <div class="explanation-correct-row">
+          <strong>✓ ${correctHeading}</strong><br>
+          ${exp.whyCorrect}
+        </div>
+        <div class="explanation-distractor-row">
+          <strong>✗ ${wrongHeading}</strong><br>
+          ${exp.whyIncorrect}
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+function renderTeilScoreBannerHtml(t, qs) {
+  const isAr = questionsLang === 'ar';
+  const isFr = questionsLang === 'fr';
+
+  let correctCount = 0;
+  qs.forEach(q => {
+    const userVal = userAnswers[q.id];
+    if (userVal !== undefined && String(userVal).toLowerCase() === String(q.answer).toLowerCase()) {
+      correctCount++;
+    }
+  });
+
+  const pct = qs.length > 0 ? Math.round((correctCount / qs.length) * 100) : 0;
+  const isPass = pct >= 60;
+
+  const title = isAr
+    ? `نتيجة ${t.title}: ${correctCount} من ${qs.length} صحيحة (${pct}%)`
+    : (isFr ? `Résultat ${t.title} : ${correctCount} sur ${qs.length} correctes (${pct}%)` : `Ergebnis für ${t.title}: ${correctCount} von ${qs.length} richtig (${pct}%)`);
+
+  const pillText = isPass
+    ? (isAr ? 'ناجح (≥ 60%)' : (isFr ? 'RÉUSSI (≥ 60%)' : 'BESTANDEN (≥ 60%)'))
+    : (isAr ? 'بحاجة للتدريب (< 60%)' : (isFr ? 'À RÉVISER (< 60%)' : 'ÜBUNGSBEDARF (< 60%)'));
+
+  const hideBtnText = isAr ? 'إخفاء الإجابات / إعادة المحاولة' : (isFr ? 'Masquer / Réessayer' : 'Lösungen ausblenden / Wiederholen');
+  const nextBtnText = isAr ? 'الانتقال إلى الجزء التالي ←' : (isFr ? 'Partie suivante →' : 'Weiter zum nächsten Teil →');
+
+  const hasNext = activeTeil < testData.length;
+
+  return `
+    <div class="teil-score-banner">
+      <div class="teil-score-left">
+        <span class="teil-score-pill ${isPass ? 'pass' : 'fail'}">${pillText}</span>
+        <span class="teil-score-title">${title}</span>
+      </div>
+      <div class="teil-score-actions">
+        <button type="button" class="btn btn-sm btn-outline" onclick="hideTeilSolutions(${t.id})">${hideBtnText}</button>
+        ${hasNext ? `<button type="button" class="btn btn-sm btn-primary" onclick="document.getElementById('nextTeilBtn').click()">${nextBtnText}</button>` : ''}
+      </div>
+    </div>
+  `;
+}
+
+function renderTeilCompletionBannerHtml(t) {
+  const isAr = questionsLang === 'ar';
+  const isFr = questionsLang === 'fr';
+
+  const promptTitle = isAr ? 'أحسنتِ! تم إكمال جميع أسئلة هذا الجزء' : (isFr ? 'Bravo ! Toutes les questions de cette partie sont remplies' : 'Alle Aufgaben in diesem Teil ausgefüllt!');
+  const promptSub = isAr
+    ? 'هل ترغبين في التحقق من إجاباتكِ الآن وقراءة الشرح المفصل لكل سؤال لمعرفة سبب الإجابة الصحيحة والخاطئة؟'
+    : (isFr
+      ? 'Souhaitez-vous vérifier vos réponses maintenant et lire les explications détaillées pour chaque question ?'
+      : 'Möchten Sie Ihre Antworten jetzt überprüfen und die didaktischen Erklärungen zu jeder Aufgabe ansehen?');
+  const btnText = isAr ? '💡 إظهار الحلول والشرح المفصل' : (isFr ? '💡 Afficher les réponses et explications' : '💡 Lösungen & Erklärungen anzeigen');
+
+  return `
+    <div class="teil-completion-banner">
+      <div class="teil-completion-icon">🎯</div>
+      <div class="teil-completion-info">
+        <strong>${promptTitle}</strong>
+        <p>${promptSub}</p>
+      </div>
+      <button type="button" class="btn btn-primary btn-reveal-solutions" onclick="revealTeilSolutions(${t.id})">
+        ${btnText}
+      </button>
+    </div>
+  `;
+}
+
 /* ---------------- RENDER QUESTIONS (RIGHT PANEL) ---------------- */
 function renderQuestions(t) {
   const questionsPanel = document.getElementById('questionsPanel');
@@ -928,6 +1069,8 @@ function renderQuestions(t) {
 
   const qs = allQuestionsOf(t);
   const answeredCount = qs.filter(q => userAnswers[q.id] !== undefined && userAnswers[q.id] !== '').length;
+  const isTeilComplete = answeredCount === qs.length && qs.length > 0;
+  const isRevealed = revealedTeils.has(t.id);
 
   const aufgabenTitle = isAr ? 'الأسئلة' : (questionsLang === 'fr' ? 'Questions' : 'Aufgaben');
   const answeredText = isAr ? `${answeredCount} من ${qs.length} مجاب عليها` : (questionsLang === 'fr' ? `${answeredCount} sur ${qs.length} répondues` : `${answeredCount} von ${qs.length} beantwortet`);
@@ -942,6 +1085,11 @@ function renderQuestions(t) {
       <div class="progress-text">${answeredText}</div>
     </div>
   `;
+
+  // Teil score banner when revealed
+  if (isRevealed) {
+    html += renderTeilScoreBannerHtml(t, qs);
+  }
 
   // Example pill
   if (t.example) {
@@ -967,14 +1115,14 @@ function renderQuestions(t) {
   // Questions (Teile 1, 2, 5)
   if (t.questions && t.id !== 3) {
     t.questions.forEach(q => {
-      html += renderSingleQuestionCard(q, trPart);
+      html += renderSingleQuestionCard(q, trPart, false, isRevealed);
     });
   }
 
   // Teil 2 second batch
   if (t.questions2) {
     t.questions2.forEach(q => {
-      html += renderSingleQuestionCard(q, trPart, true);
+      html += renderSingleQuestionCard(q, trPart, true, isRevealed);
     });
   }
 
@@ -994,6 +1142,8 @@ function renderQuestions(t) {
       const isFlagged = flaggedQuestions.has(q.id);
       const qText = trPart?.questions?.[String(q.id)]?.[questionsLang] || q.text;
 
+      const isCorrect = isRevealed && isAnswered && String(val).toUpperCase() === String(q.answer).toUpperCase();
+
       let selectOpts = `<option value="">${selectPrompt}</option>`;
       codes.forEach(c => {
         const assignedTo = assignedMap[c];
@@ -1005,25 +1155,48 @@ function renderQuestions(t) {
       });
       selectOpts += `<option value="X" ${val === 'X' ? 'selected' : ''}>${noAdFits}</option>`;
 
+      let evalBadgeHtml = '';
+      let matchIndicatorHtml = '';
+      let evaluatedClass = '';
+
+      if (isRevealed) {
+        evaluatedClass = isCorrect ? 'evaluated-correct' : 'evaluated-wrong';
+        evalBadgeHtml = `<span class="eval-badge ${isCorrect ? 'correct' : 'wrong'}">${isCorrect ? (isAr ? '✓ صحيح (+1)' : (questionsLang === 'fr' ? '✓ Correct (+1)' : '✓ Richtig (+1)')) : (isAr ? '✗ خطأ (0)' : (questionsLang === 'fr' ? '✗ Faux (0)' : '✗ Falsch (0)'))}</span>`;
+        const correctLabel = q.answer === 'X' ? noAdFits : `${adWord} ${q.answer}`;
+        if (isCorrect) {
+          matchIndicatorHtml = `<div class="match-eval-indicator correct">✓ ${isAr ? 'إجابة صحيحة' : (questionsLang === 'fr' ? 'Bonne réponse' : 'Richtige Lösung')}</div>`;
+        } else {
+          matchIndicatorHtml = `<div class="match-eval-indicator wrong">✗ ${isAr ? `خطأ · الإعلان الصحيح هو: ${correctLabel}` : (questionsLang === 'fr' ? `Incorrect · Bonne annonce : ${correctLabel}` : `Falsch · Richtige Lösung: ${correctLabel}`)}</div>`;
+        }
+      }
+
       html += `
-        <div class="question-card ${isAnswered ? 'answered' : ''}" id="question-card-${q.id}" data-qid="${q.id}">
+        <div class="question-card ${isAnswered ? 'answered' : ''} ${evaluatedClass}" id="question-card-${q.id}" data-qid="${q.id}">
           <div class="question-header">
             <span class="q-number">${q.id}</span>
-            <div class="q-title">${qText}</div>
+            <div class="q-title">${qText} ${evalBadgeHtml}</div>
             <button class="flag-btn ${isFlagged ? 'flagged' : ''}" onclick="toggleFlag(${q.id})" title="Frage vormerken">★</button>
           </div>
           <div class="match-select-wrap">
             <label style="font-size:13.5px; font-weight:700; color:var(--text-muted);">${matchLabel}</label>
-            <select class="match-select ${isAnswered ? 'filled' : ''}" data-qid="${q.id}">
+            <select class="match-select ${isAnswered ? 'filled' : ''}" data-qid="${q.id}" ${isRevealed ? 'disabled' : ''}>
               ${selectOpts}
             </select>
+            ${matchIndicatorHtml}
           </div>
+          ${isRevealed ? renderExplanationBoxHtml(q, val, isCorrect) : ''}
         </div>
       `;
     });
   }
 
   html += `</div>`;
+
+  // If completed and not revealed -> show completion banner!
+  if (!isRevealed && isTeilComplete) {
+    html += renderTeilCompletionBannerHtml(t);
+  }
+
   questionsPanel.innerHTML = html;
 
   // Bind questions language switcher buttons
@@ -1036,31 +1209,33 @@ function renderQuestions(t) {
     });
   });
 
-  // Bind radio events
-  questionsPanel.querySelectorAll('input[type=radio]').forEach(inp => {
-    inp.addEventListener('change', (e) => {
-      const qid = parseInt(e.target.name.replace('q', ''), 10);
-      let v = e.target.value;
-      userAnswers[qid] = (v === 'richtig' || v === 'falsch' || v === 'ja' || v === 'nein') ? v : parseInt(v, 10);
-      renderTabs();
-      renderQuestions(t);
-      updateProgress();
-      saveSession();
+  // Bind radio events (only if not revealed)
+  if (!isRevealed) {
+    questionsPanel.querySelectorAll('input[type=radio]').forEach(inp => {
+      inp.addEventListener('change', (e) => {
+        const qid = parseInt(e.target.name.replace('q', ''), 10);
+        let v = e.target.value;
+        userAnswers[qid] = (v === 'richtig' || v === 'falsch' || v === 'ja' || v === 'nein') ? v : parseInt(v, 10);
+        renderTabs();
+        renderQuestions(t);
+        updateProgress();
+        saveSession();
+      });
     });
-  });
 
-  // Bind match select events
-  questionsPanel.querySelectorAll('select.match-select').forEach(sel => {
-    sel.addEventListener('change', (e) => {
-      const qid = parseInt(e.target.dataset.qid, 10);
-      userAnswers[qid] = e.target.value;
-      renderTabs();
-      renderPassage(t);
-      renderQuestions(t);
-      updateProgress();
-      saveSession();
+    // Bind match select events
+    questionsPanel.querySelectorAll('select.match-select').forEach(sel => {
+      sel.addEventListener('change', (e) => {
+        const qid = parseInt(e.target.dataset.qid, 10);
+        userAnswers[qid] = e.target.value;
+        renderTabs();
+        renderPassage(t);
+        renderQuestions(t);
+        updateProgress();
+        saveSession();
+      });
     });
-  });
+  }
 }
 
 /* ---------------- RENDER TEIL 4 (FULL-WIDTH COMFORTABLE VIEW) ---------------- */
@@ -1083,10 +1258,11 @@ function renderTeil4(t) {
 
   const qs = allQuestionsOf(t);
   const answeredCount = qs.filter(q => userAnswers[q.id] !== undefined && userAnswers[q.id] !== '').length;
+  const isTeilComplete = answeredCount === qs.length && qs.length > 0;
+  const isRevealed = revealedTeils.has(t.id);
 
   const partTitle = isAr ? 'الجزء 4 — معرفة الآراء والمواقف' : (questionsLang === 'fr' ? 'Partie 4 — Identifier les opinions' : `${t.title} — Meinungen erkennen`);
   const answeredText = isAr ? `${answeredCount} من ${qs.length} مجاب عليها` : (questionsLang === 'fr' ? `${answeredCount} sur ${qs.length} répondues` : `${answeredCount} von ${qs.length} beantwortet`);
-  const timeUnit = isAr ? 'دقيقة' : (questionsLang === 'fr' ? 'min.' : 'Min.');
 
   const promptBadge = isAr ? 'السؤال الرئيسي للجزء 4' : (questionsLang === 'fr' ? 'Question directrice' : 'Leitfrage für Teil 4');
   const promptText = trPart?.instructions?.[questionsLang] || t.instructions;
@@ -1100,6 +1276,7 @@ function renderTeil4(t) {
   const yesLabel = isAr ? 'نعم' : (questionsLang === 'fr' ? 'Oui' : 'Ja');
   const noLabel = isAr ? 'لا' : (questionsLang === 'fr' ? 'Non' : 'Nein');
   const exampleLabel = isAr ? 'مثال' : (questionsLang === 'fr' ? 'Exemple' : 'Beispiel');
+  const correctTargetLabel = isAr ? 'الإجابة الصحيحة' : (questionsLang === 'fr' ? 'Bonne réponse' : 'Richtige Lösung');
 
   let html = `
     <div class="panel-header">
@@ -1112,7 +1289,14 @@ function renderTeil4(t) {
         <div class="progress-text">${answeredText}</div>
       </div>
     </div>
-    
+  `;
+
+  // Teil score banner when revealed
+  if (isRevealed) {
+    html += renderTeilScoreBannerHtml(t, qs);
+  }
+
+  html += `
     <!-- Pinned Leitfrage for Teil 4 -->
     <div class="teil4-sticky-prompt">
       <div class="teil4-prompt-badge">${promptBadge}</div>
@@ -1147,13 +1331,49 @@ function renderTeil4(t) {
       const letterText = trLetter?.text?.[questionsLang] || l.text;
       const initial = authorName ? authorName.trim().charAt(0).toUpperCase() : 'L';
 
+      const isCorrect = isRevealed && isAnswered && String(val).toLowerCase() === String(l.answer).toLowerCase();
+
+      let evalBadgeHtml = '';
+      let evaluatedClass = '';
+      let jaClass = '';
+      let neinClass = '';
+      let jaTag = '';
+      let neinTag = '';
+
+      if (isRevealed) {
+        evaluatedClass = isCorrect ? 'evaluated-correct' : 'evaluated-wrong';
+        evalBadgeHtml = `<span class="eval-badge ${isCorrect ? 'correct' : 'wrong'}">${isCorrect ? (isAr ? '✓ صحيح (+1)' : (questionsLang === 'fr' ? '✓ Correct (+1)' : '✓ Richtig (+1)')) : (isAr ? '✗ خطأ (0)' : (questionsLang === 'fr' ? '✗ Faux (0)' : '✗ Falsch (0)'))}</span>`;
+
+        if (val === 'ja') {
+          jaClass = isCorrect ? 'selected is-selected-correct' : 'selected is-selected-wrong';
+        }
+        if (val === 'nein') {
+          neinClass = isCorrect ? 'selected is-selected-correct' : 'selected is-selected-wrong';
+        }
+
+        if (l.answer === 'ja') {
+          if (val !== 'ja') {
+            jaClass += ' is-target-correct';
+            jaTag = `<span class="correct-target-tag">✓ ${correctTargetLabel}</span>`;
+          }
+        } else if (l.answer === 'nein') {
+          if (val !== 'nein') {
+            neinClass += ' is-target-correct';
+            neinTag = `<span class="correct-target-tag">✓ ${correctTargetLabel}</span>`;
+          }
+        }
+      } else {
+        jaClass = val === 'ja' ? 'selected' : '';
+        neinClass = val === 'nein' ? 'selected' : '';
+      }
+
       html += `
-        <div class="letter-card ${isAnswered ? 'answered' : ''}" id="question-card-${l.id}" data-qid="${l.id}">
+        <div class="letter-card ${isAnswered ? 'answered' : ''} ${evaluatedClass}" id="question-card-${l.id}" data-qid="${l.id}">
           <div class="letter-card-header">
             <div class="author-info-wrap">
               <div class="q-number">${l.id}</div>
               <div class="author-avatar">${initial}</div>
-              <div class="author-name">${authorName}</div>
+              <div class="author-name">${authorName} ${evalBadgeHtml}</div>
             </div>
             <button class="flag-btn ${isFlagged ? 'flagged' : ''}" onclick="toggleFlag(${l.id})" title="Aufgabe vormerken">★</button>
           </div>
@@ -1161,22 +1381,29 @@ function renderTeil4(t) {
           <div class="letter-action-row">
             <div class="letter-prompt">${agreePrompt}</div>
             <div class="options-group inline" style="margin-top:0;">
-              <label class="option-label ${val === 'ja' ? 'selected' : ''}">
-                <input type="radio" name="q${l.id}" value="ja" ${val === 'ja' ? 'checked' : ''}>
-                <span class="custom-radio"></span> ${yesLabel}
+              <label class="option-label ${jaClass}">
+                <input type="radio" name="q${l.id}" value="ja" ${val === 'ja' ? 'checked' : ''} ${isRevealed ? 'disabled' : ''}>
+                <span class="custom-radio"></span> ${yesLabel} ${jaTag}
               </label>
-              <label class="option-label ${val === 'nein' ? 'selected' : ''}">
-                <input type="radio" name="q${l.id}" value="nein" ${val === 'nein' ? 'checked' : ''}>
-                <span class="custom-radio"></span> ${noLabel}
+              <label class="option-label ${neinClass}">
+                <input type="radio" name="q${l.id}" value="nein" ${val === 'nein' ? 'checked' : ''} ${isRevealed ? 'disabled' : ''}>
+                <span class="custom-radio"></span> ${noLabel} ${neinTag}
               </label>
             </div>
           </div>
+          ${isRevealed ? renderExplanationBoxHtml(l, val, isCorrect) : ''}
         </div>
       `;
     });
   }
 
   html += `</div>`;
+
+  // If completed and not revealed -> show completion banner!
+  if (!isRevealed && isTeilComplete) {
+    html += renderTeilCompletionBannerHtml(t);
+  }
+
   questionsPanel.innerHTML = html;
 
   // Bind language switcher for Teil 4
@@ -1189,20 +1416,22 @@ function renderTeil4(t) {
     });
   });
 
-  // Bind radio events for Teil 4
-  questionsPanel.querySelectorAll('input[type=radio]').forEach(inp => {
-    inp.addEventListener('change', (e) => {
-      const qid = parseInt(e.target.name.replace('q', ''), 10);
-      userAnswers[qid] = e.target.value;
-      renderTabs();
-      renderTeil4(t);
-      updateProgress();
-      saveSession();
+  // Bind radio events for Teil 4 (only if not revealed)
+  if (!isRevealed) {
+    questionsPanel.querySelectorAll('input[type=radio]').forEach(inp => {
+      inp.addEventListener('change', (e) => {
+        const qid = parseInt(e.target.name.replace('q', ''), 10);
+        userAnswers[qid] = e.target.value;
+        renderTabs();
+        renderTeil4(t);
+        updateProgress();
+        saveSession();
+      });
     });
-  });
+  }
 }
 
-function renderSingleQuestionCard(q, trPart, isBatch2 = false) {
+function renderSingleQuestionCard(q, trPart, isBatch2 = false, isRevealed = false) {
   const val = userAnswers[q.id];
   const isAnswered = val !== undefined;
   const isFlagged = flaggedQuestions.has(q.id);
@@ -1214,18 +1443,53 @@ function renderSingleQuestionCard(q, trPart, isBatch2 = false) {
 
   const trueLabel = isAr ? 'صحيح' : (questionsLang === 'fr' ? 'Vrai' : 'Richtig');
   const falseLabel = isAr ? 'خطأ' : (questionsLang === 'fr' ? 'Faux' : 'Falsch');
+  const correctTargetLabel = isAr ? 'الإجابة الصحيحة' : (questionsLang === 'fr' ? 'Bonne réponse' : 'Richtige Lösung');
+
+  const isCorrect = isRevealed && isAnswered && String(val).toLowerCase() === String(q.answer).toLowerCase();
+
+  let evalBadgeHtml = '';
+  let evaluatedClass = '';
+  if (isRevealed) {
+    evaluatedClass = isCorrect ? 'evaluated-correct' : 'evaluated-wrong';
+    evalBadgeHtml = `<span class="eval-badge ${isCorrect ? 'correct' : 'wrong'}">${isCorrect ? (isAr ? '✓ صحيح (+1)' : (questionsLang === 'fr' ? '✓ Correct (+1)' : '✓ Richtig (+1)')) : (isAr ? '✗ خطأ (0)' : (questionsLang === 'fr' ? '✗ Faux (0)' : '✗ Falsch (0)'))}</span>`;
+  }
 
   let optsHtml = '';
   if (q.type === 'tf') {
+    let richtigClass = '';
+    let falschClass = '';
+    let richtigTag = '';
+    let falschTag = '';
+
+    if (isRevealed) {
+      if (val === 'richtig') {
+        richtigClass = isCorrect ? 'selected is-selected-correct' : 'selected is-selected-wrong';
+      }
+      if (val === 'falsch') {
+        falschClass = isCorrect ? 'selected is-selected-correct' : 'selected is-selected-wrong';
+      }
+
+      if (q.answer === 'richtig' && val !== 'richtig') {
+        richtigClass += ' is-target-correct';
+        richtigTag = `<span class="correct-target-tag">✓ ${correctTargetLabel}</span>`;
+      } else if (q.answer === 'falsch' && val !== 'falsch') {
+        falschClass += ' is-target-correct';
+        falschTag = `<span class="correct-target-tag">✓ ${correctTargetLabel}</span>`;
+      }
+    } else {
+      richtigClass = val === 'richtig' ? 'selected' : '';
+      falschClass = val === 'falsch' ? 'selected' : '';
+    }
+
     optsHtml = `
       <div class="options-group inline">
-        <label class="option-label ${val === 'richtig' ? 'selected' : ''}">
-          <input type="radio" name="q${q.id}" value="richtig" ${val === 'richtig' ? 'checked' : ''}>
-          <span class="custom-radio"></span> ${trueLabel}
+        <label class="option-label ${richtigClass}">
+          <input type="radio" name="q${q.id}" value="richtig" ${val === 'richtig' ? 'checked' : ''} ${isRevealed ? 'disabled' : ''}>
+          <span class="custom-radio"></span> ${trueLabel} ${richtigTag}
         </label>
-        <label class="option-label ${val === 'falsch' ? 'selected' : ''}">
-          <input type="radio" name="q${q.id}" value="falsch" ${val === 'falsch' ? 'checked' : ''}>
-          <span class="custom-radio"></span> ${falseLabel}
+        <label class="option-label ${falschClass}">
+          <input type="radio" name="q${q.id}" value="falsch" ${val === 'falsch' ? 'checked' : ''} ${isRevealed ? 'disabled' : ''}>
+          <span class="custom-radio"></span> ${falseLabel} ${falschTag}
         </label>
       </div>
     `;
@@ -1234,11 +1498,27 @@ function renderSingleQuestionCard(q, trPart, isBatch2 = false) {
     optsHtml = `<div class="options-group">`;
     optionsArr.forEach((opt, idx) => {
       const isSel = val === idx;
+      let optClass = '';
+      let targetTag = '';
+
+      if (isRevealed) {
+        const isTarget = q.answer === idx;
+        if (isSel) {
+          optClass = isCorrect ? 'selected is-selected-correct' : 'selected is-selected-wrong';
+        } else if (isTarget) {
+          optClass = 'is-target-correct';
+          targetTag = `<span class="correct-target-tag">✓ ${correctTargetLabel}</span>`;
+        }
+      } else {
+        optClass = isSel ? 'selected' : '';
+      }
+
       optsHtml += `
-        <label class="option-label ${isSel ? 'selected' : ''}">
-          <input type="radio" name="q${q.id}" value="${idx}" ${isSel ? 'checked' : ''}>
+        <label class="option-label ${optClass}">
+          <input type="radio" name="q${q.id}" value="${idx}" ${isSel ? 'checked' : ''} ${isRevealed ? 'disabled' : ''}>
           <span class="custom-radio"></span>
           <span><strong>${letters[idx]})</strong> ${opt}</span>
+          ${targetTag}
         </label>
       `;
     });
@@ -1246,13 +1526,14 @@ function renderSingleQuestionCard(q, trPart, isBatch2 = false) {
   }
 
   return `
-    <div class="question-card ${isAnswered ? 'answered' : ''}" id="question-card-${q.id}" data-qid="${q.id}">
+    <div class="question-card ${isAnswered ? 'answered' : ''} ${evaluatedClass}" id="question-card-${q.id}" data-qid="${q.id}">
       <div class="question-header">
         <span class="q-number">${q.id}</span>
-        <div class="q-title">${qText}</div>
+        <div class="q-title">${qText} ${evalBadgeHtml}</div>
         <button class="flag-btn ${isFlagged ? 'flagged' : ''}" onclick="toggleFlag(${q.id})" title="Frage vormerken">★</button>
       </div>
       ${optsHtml}
+      ${isRevealed ? renderExplanationBoxHtml(q, val, isCorrect) : ''}
     </div>
   `;
 }
@@ -2166,6 +2447,10 @@ function renderReviewList(questions) {
   if (!container) return;
   container.innerHTML = '';
 
+  const isAr = questionsLang === 'ar';
+  const isFr = questionsLang === 'fr';
+  const toggleExpText = isAr ? 'إظهار الشرح' : (isFr ? 'Afficher l\'explication' : 'Erklärung anzeigen');
+
   const filtered = questions.filter(q => {
     if (reviewFilter === 'correct') return q.isCorrect;
     if (reviewFilter === 'incorrect') return !q.isCorrect;
@@ -2173,7 +2458,7 @@ function renderReviewList(questions) {
   });
 
   if (filtered.length === 0) {
-    container.innerHTML = `<div style="text-align:center; padding:24px; color:var(--text-muted);">Keine Aufgaben in dieser Kategorie.</div>`;
+    container.innerHTML = `<div style="text-align:center; padding:24px; color:var(--text-muted);">${isAr ? 'لا توجد أسئلة في هذا التصنيف.' : (isFr ? 'Aucune question dans cette catégorie.' : 'Keine Aufgaben in dieser Kategorie.')}</div>`;
     return;
   }
 
@@ -2183,14 +2468,23 @@ function renderReviewList(questions) {
 
     const userDisplay = formatAnswerDisplay(q, q.userVal);
     const correctDisplay = formatAnswerDisplay(q, q.answer);
+    const yourAnsLabel = isAr ? 'إجابتكِ:' : (isFr ? 'Votre réponse :' : 'Ihre Antwort:');
+    const correctSolLabel = isAr ? 'الحل الصحيح:' : (isFr ? 'Bonne réponse :' : 'Richtige Lösung:');
 
     item.innerHTML = `
       <div class="review-badge">${q.isCorrect ? '✓' : '✗'}</div>
       <div class="review-content">
         <div class="review-qtitle">${q.num ? `Aufgabe ${q.num}: ` : `${q.id}. `}${q.text} <span style="font-size:11px; font-weight:600; color:var(--text-muted); margin-left:6px;">(${q.teilTitle}${q.teilPart ? ` · Teil ${q.teilPart}` : ''})</span></div>
         <div class="review-answers">
-          Ihre Antwort: <span class="${q.isCorrect ? 'ans-correct' : 'ans-wrong'}">${userDisplay}</span>
-          ${!q.isCorrect ? ` &nbsp;·&nbsp; Richtige Lösung: <span class="ans-correct">${correctDisplay}</span>` : ''}
+          ${yourAnsLabel} <span class="${q.isCorrect ? 'ans-correct' : 'ans-wrong'}">${userDisplay}</span>
+          ${!q.isCorrect ? ` &nbsp;·&nbsp; ${correctSolLabel} <span class="ans-correct">${correctDisplay}</span>` : ''}
+        </div>
+        <button type="button" class="btn-toggle-explanation" onclick="toggleReviewExplanation('${q.id}')">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 18h6"/><path d="M10 22h4"/><path d="M15.09 14c.18-.98.65-1.74 1.41-2.5A4.65 4.65 0 0 0 18 8 6 6 0 0 0 6 8c0 1 .23 2.23 1.5 3.5A4.61 4.61 0 0 1 8.91 14"/></svg>
+          <span>${toggleExpText}</span>
+        </button>
+        <div id="review-exp-${q.id}" style="display:none; margin-top:8px;">
+          ${renderExplanationBoxHtml(q, q.userVal, q.isCorrect)}
         </div>
       </div>
     `;
@@ -2264,6 +2558,7 @@ document.getElementById('copyBtn').addEventListener('click', () => {
 document.getElementById('restartBtn').addEventListener('click', () => {
   if (!confirm('Möchten Sie den Test wirklich zurücksetzen? Alle Ihre Antworten werden gelöscht.')) return;
   localStorage.removeItem(SESSION_STORAGE_KEY);
+  revealedTeils.clear();
   loadModelTest(currentTestIndex);
 });
 
@@ -2279,6 +2574,7 @@ function saveSession() {
     teilTimers,
     answers: userAnswers,
     flagged: Array.from(flaggedQuestions),
+    revealedTeils: Array.from(revealedTeils),
     candidateName: document.getElementById('friendName')?.value || 'Sirin',
     savedAt: Date.now()
   };
@@ -2334,6 +2630,12 @@ function resumeSession(data) {
   flaggedQuestions.clear();
   if (data.flagged && Array.isArray(data.flagged)) {
     data.flagged.forEach(qid => flaggedQuestions.add(qid));
+  }
+
+  // Restore revealed Teils
+  revealedTeils.clear();
+  if (data.revealedTeils && Array.isArray(data.revealedTeils)) {
+    data.revealedTeils.forEach(id => revealedTeils.add(id));
   }
 
   // Restore Teil timers

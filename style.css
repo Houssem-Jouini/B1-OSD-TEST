@@ -2905,4 +2905,342 @@
   border-color: var(--primary);
 }
 
+/* ==========================================================================
+   TEIL COMPLETION BANNER, ANSWER EVALUATION & EXPLANATION BOXES
+   ========================================================================== */
+
+@keyframes teilRevealSlideUp {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    box-shadow: 0 4px 14px rgba(37, 99, 235, 0.35);
+  }
+  50% {
+    box-shadow: 0 6px 20px rgba(37, 99, 235, 0.6);
+  }
+}
+
+/* 1. Teil Completion Banner (Appears when last question is answered) */
+.teil-completion-banner {
+  margin-top: 24px;
+  padding: 22px 20px;
+  background: var(--bg-card);
+  border: 2px dashed var(--primary);
+  border-radius: var(--radius-lg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 14px;
+  box-shadow: var(--shadow-sm);
+  animation: teilRevealSlideUp 0.35s ease forwards;
+}
+
+.teil-completion-icon {
+  font-size: 32px;
+  line-height: 1;
+}
+
+.teil-completion-info strong {
+  display: block;
+  font-size: 16px;
+  color: var(--text-main);
+  margin-bottom: 4px;
+}
+
+.teil-completion-info p {
+  font-size: 13.5px;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+.btn-reveal-solutions {
+  background: var(--primary) !important;
+  color: #ffffff !important;
+  font-size: 14.5px !important;
+  font-weight: 700 !important;
+  padding: 12px 26px !important;
+  border-radius: var(--radius-md) !important;
+  border: none !important;
+  cursor: pointer !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  animation: pulseGlow 2.5s infinite ease-in-out;
+  transition: transform 0.15s ease, background 0.15s ease !important;
+}
+
+.btn-reveal-solutions:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.08);
+}
+
+/* 2. Teil Score Summary Banner (Shown after solutions are revealed) */
+.teil-score-banner {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 14px 18px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  box-shadow: var(--shadow-sm);
+  animation: teilRevealSlideUp 0.3s ease;
+}
+
+.teil-score-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.teil-score-pill {
+  font-size: 13px;
+  font-weight: 800;
+  padding: 5px 12px;
+  border-radius: 20px;
+}
+
+.teil-score-pill.pass {
+  background: var(--success-light);
+  color: var(--success-text);
+  border: 1px solid var(--success);
+}
+
+.teil-score-pill.fail {
+  background: var(--danger-light);
+  color: var(--danger-text);
+  border: 1px solid var(--danger);
+}
+
+.teil-score-title {
+  font-size: 14.5px;
+  font-weight: 700;
+  color: var(--text-main);
+}
+
+.teil-score-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+/* 3. Question Evaluation Indicators */
+.eval-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 11.5px;
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: 12px;
+  margin-left: 6px;
+  vertical-align: middle;
+}
+
+[dir="rtl"] .eval-badge, .lang-ar .eval-badge {
+  margin-left: 0;
+  margin-right: 6px;
+}
+
+.eval-badge.correct {
+  background: var(--success-light);
+  color: var(--success-text);
+  border: 1px solid var(--success);
+}
+
+.eval-badge.wrong {
+  background: var(--danger-light);
+  color: var(--danger-text);
+  border: 1px solid var(--danger);
+}
+
+.question-card.evaluated-correct {
+  border-left-color: var(--success) !important;
+}
+
+.question-card.evaluated-wrong {
+  border-left-color: var(--danger) !important;
+}
+
+[dir="rtl"] .question-card.evaluated-correct, .lang-ar .question-card.evaluated-correct {
+  border-left-color: var(--border) !important;
+  border-right-color: var(--success) !important;
+}
+
+[dir="rtl"] .question-card.evaluated-wrong, .lang-ar .question-card.evaluated-wrong {
+  border-left-color: var(--border) !important;
+  border-right-color: var(--danger) !important;
+}
+
+/* Evaluated Option Labels */
+.option-label.is-selected-correct {
+  background: var(--success-light) !important;
+  border-color: var(--success) !important;
+  color: var(--success-text) !important;
+}
+
+.option-label.is-selected-wrong {
+  background: var(--danger-light) !important;
+  border-color: var(--danger) !important;
+  color: var(--danger-text) !important;
+}
+
+.option-label.is-target-correct {
+  background: rgba(34, 197, 94, 0.12) !important;
+  border: 2px solid var(--success) !important;
+  color: var(--text-main) !important;
+  font-weight: 700 !important;
+}
+
+.correct-target-tag {
+  font-size: 11px;
+  font-weight: 700;
+  background: var(--success);
+  color: #ffffff;
+  padding: 2px 7px;
+  border-radius: 4px;
+  margin-left: 8px;
+  display: inline-block;
+}
+
+[dir="rtl"] .correct-target-tag, .lang-ar .correct-target-tag {
+  margin-left: 0;
+  margin-right: 8px;
+}
+
+/* Teil 3 Matching Evaluated Indicator */
+.match-eval-indicator {
+  margin-top: 8px;
+  padding: 6px 10px;
+  border-radius: var(--radius-sm);
+  font-size: 13px;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.match-eval-indicator.correct {
+  background: var(--success-light);
+  color: var(--success-text);
+  border: 1px solid var(--success);
+}
+
+.match-eval-indicator.wrong {
+  background: var(--danger-light);
+  color: var(--danger-text);
+  border: 1px solid var(--danger);
+}
+
+/* 4. Didactic Explanation Box */
+.question-explanation-box {
+  margin-top: 14px;
+  background: var(--bg-card-subtle);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--primary);
+  border-radius: var(--radius-md);
+  padding: 14px 16px;
+  animation: teilRevealSlideUp 0.28s ease;
+}
+
+[dir="rtl"] .question-explanation-box, .lang-ar .question-explanation-box {
+  border-left: 1px solid var(--border);
+  border-right: 4px solid var(--primary);
+}
+
+.explanation-header {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 13.5px;
+  font-weight: 700;
+  color: var(--primary);
+  margin-bottom: 8px;
+}
+
+.explanation-quote {
+  margin: 8px 0;
+  padding: 8px 12px;
+  background: rgba(234, 179, 8, 0.12);
+  border-left: 3px solid #eab308;
+  font-style: italic;
+  font-size: 13px;
+  color: var(--text-main);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  line-height: 1.5;
+}
+
+[dir="rtl"] .explanation-quote, .lang-ar .explanation-quote {
+  border-left: none;
+  border-right: 3px solid #eab308;
+  border-radius: var(--radius-sm) 0 0 var(--radius-sm);
+}
+
+.explanation-section {
+  margin-top: 8px;
+  font-size: 13px;
+  line-height: 1.55;
+}
+
+.explanation-correct-row {
+  margin-bottom: 8px;
+  color: var(--text-main);
+}
+
+.explanation-correct-row strong {
+  color: var(--success-text, #15803d);
+}
+
+[data-theme="dark"] .explanation-correct-row strong {
+  color: #4ade80;
+}
+
+.explanation-distractor-row {
+  color: var(--text-muted);
+  border-top: 1px dashed var(--border);
+  padding-top: 8px;
+  margin-top: 8px;
+}
+
+.explanation-distractor-row strong {
+  color: var(--text-main);
+}
+
+/* Button to expand explanation in Review list */
+.btn-toggle-explanation {
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  font-size: 11.5px;
+  font-weight: 600;
+  color: var(--primary);
+  padding: 4px 8px;
+  cursor: pointer;
+  margin-top: 6px;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  transition: all 0.15s ease;
+}
+
+.btn-toggle-explanation:hover {
+  background: var(--bg-card);
+  border-color: var(--primary);
+}
+
+
 
