@@ -797,7 +797,13 @@ function renderPassage(t) {
         <div class="panel-title">${t.title} — ${textLabel}</div>
         ${renderLangSwitcherHtml('passage', passageLang)}
       </div>
-      ${renderTeilTimerBadgeHtml(t, passageLang)}
+      <div style="display:flex; align-items:center; gap:8px;">
+        <button type="button" class="btn-focus-reader" onclick="openFocusReaderModal()" title="${isAr ? 'فتح نمط القراءة المكبر والمريح' : (passageLang === 'fr' ? 'Agrandir le texte en mode lecture focus' : 'Text vergrößert im Lesemodus anzeigen')}">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+          <span>${isAr ? '📖 نمط القراءة' : (passageLang === 'fr' ? '📖 Mode Lecture' : '📖 Lesemodus')}</span>
+        </button>
+        ${renderTeilTimerBadgeHtml(t, passageLang)}
+      </div>
     </div>
     <div class="instruction-box">${instructionsText}</div>
   `;
@@ -2540,7 +2546,7 @@ function enrichContainerWithVocab(container, teilId) {
   const escapeRegExp = str => str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
   const pattern = new RegExp('\\b(' + map.map(m => escapeRegExp(m.phrase)).join('|') + ')\\b', 'i');
 
-  const targets = container.querySelectorAll('.reading-text p, .reading-text li, .ad-wrapper p, .ad-wrapper div:not(.ad-letter-tag):not(.ad-assigned-badge), .letter-body');
+  const targets = container.querySelectorAll('.reading-text p, .reading-text li, .focus-reader-article-wrap p, .focus-reader-article-wrap li, .ad-wrapper p, .ad-wrapper div:not(.ad-letter-tag):not(.ad-assigned-badge), .letter-body');
 
   targets.forEach(target => {
     if (target.dataset.vocabEnriched === 'true') return;
@@ -3416,6 +3422,257 @@ function findQuestionById(qid) {
   return null;
 }
 
+/* ---------------- FOCUS READER & FULL-BLUR READING MODAL ---------------- */
+let focusReaderLang = 'de';
+let focusReaderSize = 'md';
+let focusReaderFont = 'serif';
+
+function initFocusReaderModal() {
+  const modal = document.getElementById('focusReaderModal');
+  const closeBtn = document.getElementById('focusReaderCloseBtn');
+  const doneBtn = document.getElementById('focusReaderDoneBtn');
+  const serifBtn = document.getElementById('readerFontSerifBtn');
+  const sansBtn = document.getElementById('readerFontSansBtn');
+  const bodyEl = document.getElementById('focusReaderBody');
+
+  if (closeBtn) closeBtn.addEventListener('click', closeFocusReaderModal);
+  if (doneBtn) doneBtn.addEventListener('click', closeFocusReaderModal);
+
+  if (modal) {
+    modal.addEventListener('click', (e) => {
+      if (e.target === modal) closeFocusReaderModal();
+    });
+  }
+
+  // Font size buttons (A-, Normal, A+, A++)
+  document.querySelectorAll('.reader-btn-size').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.reader-btn-size').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      focusReaderSize = btn.dataset.rsize || 'md';
+      if (bodyEl) {
+        bodyEl.classList.remove('font-size-sm', 'font-size-md', 'font-size-lg', 'font-size-xl');
+        bodyEl.classList.add(`font-size-${focusReaderSize}`);
+      }
+    });
+  });
+
+  // Font family toggles (Buchstil Serif vs Modern Sans)
+  if (serifBtn) {
+    serifBtn.addEventListener('click', () => {
+      serifBtn.classList.add('active');
+      if (sansBtn) sansBtn.classList.remove('active');
+      focusReaderFont = 'serif';
+      if (bodyEl) {
+        bodyEl.classList.remove('font-sans');
+        bodyEl.classList.add('font-serif');
+      }
+    });
+  }
+  if (sansBtn) {
+    sansBtn.addEventListener('click', () => {
+      sansBtn.classList.add('active');
+      if (serifBtn) serifBtn.classList.remove('active');
+      focusReaderFont = 'sans';
+      if (bodyEl) {
+        bodyEl.classList.remove('font-serif');
+        bodyEl.classList.add('font-sans');
+      }
+    });
+  }
+
+  // Language switcher inside reader
+  const langSwitch = document.getElementById('readerLangSwitch');
+  if (langSwitch) {
+    langSwitch.querySelectorAll('button').forEach(btn => {
+      btn.addEventListener('click', () => {
+        langSwitch.querySelectorAll('button').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        focusReaderLang = btn.dataset.rlang || 'de';
+        renderFocusReaderContent();
+      });
+    });
+  }
+}
+
+window.openFocusReaderModal = function() {
+  const modal = document.getElementById('focusReaderModal');
+  if (!modal) return;
+
+  // Sync initial language with active passage language
+  focusReaderLang = (typeof passageLang !== 'undefined' && passageLang) ? passageLang : 'de';
+  const langSwitch = document.getElementById('readerLangSwitch');
+  if (langSwitch) {
+    langSwitch.querySelectorAll('button').forEach(b => {
+      b.classList.toggle('active', b.dataset.rlang === focusReaderLang);
+    });
+  }
+
+  renderFocusReaderContent();
+
+  modal.style.display = 'flex';
+  document.body.classList.add('focus-reader-active');
+};
+
+window.closeFocusReaderModal = function() {
+  const modal = document.getElementById('focusReaderModal');
+  if (modal) modal.style.display = 'none';
+  document.body.classList.remove('focus-reader-active');
+};
+
+function renderFocusReaderContent() {
+  const inner = document.getElementById('focusReaderInner');
+  const bodyEl = document.getElementById('focusReaderBody');
+  const teilBadge = document.getElementById('focusReaderTeilBadge');
+  const testBadge = document.getElementById('focusReaderTestBadge');
+  const headingEl = document.getElementById('focusReaderHeading');
+  if (!inner) return;
+
+  const t = testData.find(x => x.id === activeTeil);
+  if (!t) return;
+
+  const isAr = focusReaderLang === 'ar';
+  const isFr = focusReaderLang === 'fr';
+
+  if (bodyEl) {
+    if (isAr) {
+      bodyEl.classList.add('lang-ar');
+      bodyEl.setAttribute('dir', 'rtl');
+    } else {
+      bodyEl.classList.remove('lang-ar');
+      bodyEl.setAttribute('dir', 'ltr');
+    }
+  }
+
+  // Update badges
+  if (teilBadge) teilBadge.textContent = t.title || `Teil ${activeTeil}`;
+  if (testBadge) testBadge.textContent = currentTest?.badge || currentTest?.title || 'B1 Modellsatz';
+  if (headingEl) {
+    headingEl.textContent = isAr ? `نمط القراءة والتركيز — ${t.title}` : (isFr ? `Mode Lecture Focus — ${t.title}` : `Lesemodus & Fokusansicht — ${t.title}`);
+  }
+
+  const trPart = typeof getTrPart === 'function' ? getTrPart(currentTest.id, t.id, focusReaderLang) : null;
+  let html = '';
+
+  // 1. STANDARD ARTICLES (Teil 1, 2, 5)
+  if (t.articles && Array.isArray(t.articles)) {
+    t.articles.forEach((a, aIdx) => {
+      const trArt = trPart?.articles?.[aIdx];
+      const heading = trArt?.heading?.[focusReaderLang] || a.heading;
+      const sub = trArt?.sub?.[focusReaderLang] || a.sub;
+      const meta = trArt?.meta?.[focusReaderLang] || a.meta;
+      const bodyParas = trArt?.body?.[focusReaderLang] || a.body;
+      const signature = trArt?.signature?.[focusReaderLang] || a.signature;
+      const source = trArt?.source?.[focusReaderLang] || a.source;
+
+      if (aIdx > 0) html += `<hr class="article-divider">`;
+
+      if (meta) html += `<div class="article-meta">${meta}</div>`;
+      if (heading) html += `<h2>${heading}</h2>`;
+      if (sub) html += `<div class="article-sub">${sub}</div>`;
+
+      if (Array.isArray(bodyParas)) {
+        bodyParas.forEach(p => {
+          html += `<p>${p}</p>`;
+        });
+      }
+
+      if (Array.isArray(a.sections)) {
+        a.sections.forEach((sec, sIdx) => {
+          const trSec = trArt?.sections?.[sIdx];
+          const secTitle = trSec?.title?.[focusReaderLang] || sec.title;
+          const secItems = trSec?.items?.[focusReaderLang] || sec.items;
+          html += `<div style="margin: 22px 0 16px;">`;
+          if (secTitle) html += `<h3 style="font-size: 1.15em; font-weight:800; margin-bottom:8px; color:var(--text-main);">${secTitle}</h3>`;
+          if (secItems) {
+            html += `<ul style="line-height:1.75; font-size:0.95em; padding-left: 20px;">`;
+            secItems.forEach(it => html += `<li style="margin-bottom:6px;">${it}</li>`);
+            html += `</ul>`;
+          }
+          html += `</div>`;
+        });
+      }
+
+      if (signature) html += `<div class="article-signature">${signature}</div>`;
+      if (source) html += `<div class="article-source">${source}</div>`;
+    });
+  }
+
+  // 2. SECOND BATCH OF ARTICLES (Teil 2: Article 2)
+  if (t.articles2 && Array.isArray(t.articles2)) {
+    html += `<hr class="article-divider">`;
+    t.articles2.forEach((a, aIdx) => {
+      const trArt2 = trPart?.articles2?.[aIdx];
+      const heading = trArt2?.heading?.[focusReaderLang] || a.heading;
+      const sub = trArt2?.sub?.[focusReaderLang] || a.sub;
+      const bodyParas = trArt2?.body?.[focusReaderLang] || a.body;
+      const source = trArt2?.source?.[focusReaderLang] || a.source;
+
+      if (heading) html += `<h2>${heading}</h2>`;
+      if (sub) html += `<div class="article-sub">${sub}</div>`;
+      if (Array.isArray(bodyParas)) {
+        bodyParas.forEach(p => html += `<p>${p}</p>`);
+      }
+      if (source) html += `<div class="article-source">${source}</div>`;
+    });
+  }
+
+  // 3. TEIL 3 ADS
+  if (t.adsFormatted) {
+    html += `
+      <div style="margin-bottom: 24px;">
+        <h2>${isAr ? 'لوحة الإعلانات A إلى J' : (isFr ? 'Tableau des annonces A à J' : 'Anzeigentafel A bis J')}</h2>
+        <p style="color:var(--text-muted); font-size:0.9em;">${t.instructions}</p>
+      </div>
+      <div class="ads-board" style="grid-template-columns: 1fr;">
+    `;
+    t.adsFormatted.forEach(ad => {
+      const trAdText = trPart?.ads?.[ad.code]?.[focusReaderLang];
+      let adContent = ad.html;
+      if (trAdText) {
+        adContent = `<div class="ad-headline" style="font-size:16px; font-weight:800; margin-bottom:8px;">${isAr ? `إعلان ${ad.code}` : `Annonce ${ad.code}`}</div><div style="font-size:15px; line-height:1.6;">${trAdText}</div>`;
+      }
+      html += `
+        <div class="ad-wrapper tag-left" style="margin-bottom:18px;">
+          <div class="ad-letter-tag">${ad.code}</div>
+          <div class="book-ad" style="padding:22px; font-size:16px; line-height:1.65;">
+            ${adContent}
+          </div>
+        </div>
+      `;
+    });
+    html += `</div>`;
+  }
+
+  // 4. TEIL 4 OPINIONS
+  if (t.letters && Array.isArray(t.letters)) {
+    html += `
+      <div style="margin-bottom: 24px;">
+        <h2>${isAr ? 'آراء القراء ومشاركاتهم' : (isFr ? 'Courrier des lecteurs & Débat' : 'Leserbriefe & Diskussionsbeiträge')}</h2>
+        <p style="color:var(--text-muted); font-size:0.95em;">${t.instructions}</p>
+      </div>
+    `;
+    t.letters.forEach(l => {
+      const trL = trPart?.letters?.find(x => x.id === l.id);
+      const who = trL?.who?.[focusReaderLang] || l.who;
+      const text = trL?.text?.[focusReaderLang] || l.text;
+      html += `
+        <div style="background:var(--bg-card-subtle); border:1px solid var(--border); border-radius:14px; padding:22px 26px; margin-bottom:18px;">
+          <div style="font-weight:800; color:var(--primary); font-size:1.05em; margin-bottom:10px;">${who} (Aufgabe ${l.id})</div>
+          <p style="margin:0; font-size:1.05em; line-height:1.8;">„${text}“</p>
+        </div>
+      `;
+    });
+  }
+
+  inner.innerHTML = html;
+
+  // Enrich with interactive B1 vocabulary tooltips
+  if (typeof enrichContainerWithVocab === 'function') {
+    enrichContainerWithVocab(inner, activeTeil);
+  }
+}
+
 /* ---------------- QUESTION MATRIX MODAL (1–30 OVERVIEW) ---------------- */
 function initMatrixModal() {
   const matrixBtn = document.getElementById('matrixBtn');
@@ -3942,6 +4199,17 @@ function initKeyboardShortcuts() {
 
     if (e.key === 'Escape') {
       closeMatrixModal();
+      if (typeof closeVocabModal === 'function') closeVocabModal();
+      if (typeof closeMistakesModal === 'function') closeMistakesModal();
+      if (typeof closeFocusReaderModal === 'function') closeFocusReaderModal();
+    }
+    if ((e.key === 'l' || e.key === 'L') && !e.altKey && !e.ctrlKey && !e.metaKey) {
+      const focusModal = document.getElementById('focusReaderModal');
+      if (focusModal && focusModal.style.display === 'flex') {
+        closeFocusReaderModal();
+      } else {
+        openFocusReaderModal();
+      }
     }
     if (e.altKey && (e.key === 'n' || e.key === 'N')) {
       e.preventDefault();
@@ -3975,6 +4243,7 @@ initMatrixModal();
 initVocabHighlighting();
 initVocabModal();
 initMistakesModal();
+initFocusReaderModal();
 initKeyboardShortcuts();
 initTestSelector();
 loadModelTest(0);
