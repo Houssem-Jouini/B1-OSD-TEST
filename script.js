@@ -916,7 +916,11 @@ function renderPassage(t) {
       e.stopPropagation();
       passageLang = btn.dataset.lang;
       localStorage.setItem('b1_passage_lang', passageLang);
+      const prevScroll = passagePanel.scrollTop;
+      const prevWin = window.scrollY;
       renderPassage(t);
+      passagePanel.scrollTop = prevScroll;
+      window.scrollTo(0, prevWin);
     });
   });
 }
@@ -1499,7 +1503,11 @@ function renderQuestions(t) {
       e.stopPropagation();
       questionsLang = btn.dataset.lang;
       localStorage.setItem('b1_questions_lang', questionsLang);
+      const prevScroll = questionsPanel.scrollTop;
+      const prevWin = window.scrollY;
       renderQuestions(t);
+      questionsPanel.scrollTop = prevScroll;
+      window.scrollTo(0, prevWin);
     });
   });
 
@@ -1510,8 +1518,12 @@ function renderQuestions(t) {
         const qid = parseInt(e.target.name.replace('q', ''), 10);
         let v = e.target.value;
         userAnswers[qid] = (v === 'richtig' || v === 'falsch' || v === 'ja' || v === 'nein') ? v : parseInt(v, 10);
+        const prevScroll = questionsPanel.scrollTop;
+        const prevWin = window.scrollY;
         renderTabs();
         renderQuestions(t);
+        questionsPanel.scrollTop = prevScroll;
+        window.scrollTo(0, prevWin);
         updateProgress();
         saveSession();
       });
@@ -1522,9 +1534,15 @@ function renderQuestions(t) {
       sel.addEventListener('change', (e) => {
         const qid = parseInt(e.target.dataset.qid, 10);
         userAnswers[qid] = e.target.value;
+        const prevPassageScroll = passagePanel ? passagePanel.scrollTop : 0;
+        const prevQuestionsScroll = questionsPanel.scrollTop;
+        const prevWin = window.scrollY;
         renderTabs();
         renderPassage(t);
         renderQuestions(t);
+        if (passagePanel) passagePanel.scrollTop = prevPassageScroll;
+        questionsPanel.scrollTop = prevQuestionsScroll;
+        window.scrollTo(0, prevWin);
         updateProgress();
         saveSession();
       });
@@ -1709,7 +1727,11 @@ function renderTeil4(t) {
       e.stopPropagation();
       questionsLang = btn.dataset.lang;
       localStorage.setItem('b1_questions_lang', questionsLang);
+      const prevScroll = questionsPanel.scrollTop;
+      const prevWin = window.scrollY;
       renderTeil4(t);
+      questionsPanel.scrollTop = prevScroll;
+      window.scrollTo(0, prevWin);
     });
   });
 
@@ -1719,8 +1741,12 @@ function renderTeil4(t) {
       inp.addEventListener('change', (e) => {
         const qid = parseInt(e.target.name.replace('q', ''), 10);
         userAnswers[qid] = e.target.value;
+        const prevScroll = questionsPanel.scrollTop;
+        const prevWin = window.scrollY;
         renderTabs();
         renderTeil4(t);
+        questionsPanel.scrollTop = prevScroll;
+        window.scrollTo(0, prevWin);
         updateProgress();
         saveSession();
       });
@@ -2450,7 +2476,11 @@ function renderHoren(t) {
       e.stopPropagation();
       questionsLang = btn.dataset.lang;
       localStorage.setItem('b1_questions_lang', questionsLang);
+      const prevScroll = panel.scrollTop;
+      const prevWin = window.scrollY;
       renderCurrentTeil();
+      panel.scrollTop = prevScroll;
+      window.scrollTo(0, prevWin);
     });
   });
 }
