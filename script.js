@@ -4271,9 +4271,57 @@ function initIosInstallPrompt() {
   }
 }
 
+let deferredAndroidInstallPrompt = null;
+function initAndroidInstallPrompt() {
+  const isStandalone = window.matchMedia('(display-mode: standalone)').matches;
+  const isDismissed = localStorage.getItem('b1_android_prompt_dismissed') === '1';
+
+  window.addEventListener('beforeinstallprompt', (e) => {
+    e.preventDefault();
+    deferredAndroidInstallPrompt = e;
+
+    if (!isStandalone && !isDismissed) {
+      const promptEl = document.getElementById('androidInstallPrompt');
+      const installBtn = document.getElementById('androidInstallBtn');
+      const closeBtn = document.getElementById('closeAndroidPromptBtn');
+
+      if (promptEl) {
+        setTimeout(() => {
+          promptEl.style.display = 'flex';
+        }, 2200);
+
+        if (installBtn) {
+          installBtn.addEventListener('click', async () => {
+            if (deferredAndroidInstallPrompt) {
+              promptEl.style.display = 'none';
+              deferredAndroidInstallPrompt.prompt();
+              await deferredAndroidInstallPrompt.userChoice;
+              deferredAndroidInstallPrompt = null;
+            }
+          });
+        }
+
+        if (closeBtn) {
+          closeBtn.addEventListener('click', () => {
+            promptEl.style.display = 'none';
+            localStorage.setItem('b1_android_prompt_dismissed', '1');
+          });
+        }
+      }
+    }
+  });
+
+  window.addEventListener('appinstalled', () => {
+    const promptEl = document.getElementById('androidInstallPrompt');
+    if (promptEl) promptEl.style.display = 'none';
+    deferredAndroidInstallPrompt = null;
+  });
+}
+
 /* ---------------- INITIALIZATION ---------------- */
 initPwaServiceWorker();
 initIosInstallPrompt();
+initAndroidInstallPrompt();
 initEmailService();
 initTheme();
 initFullscreen();
