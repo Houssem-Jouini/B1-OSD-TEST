@@ -1020,6 +1020,12 @@ function renderExplanationBoxHtml(q, userVal, isCorrect) {
           ${exp.whyIncorrect}
         </div>
       </div>
+      <div class="ai-tutor-ask-row">
+        <button type="button" class="btn-ask-ai-tutor" onclick="openAiTutorModal('${qid}')" title="Frage den interaktiven KI-Tutor zu dieser Aufgabe">
+          <span class="ai-sparkle-icon">✨</span>
+          <span>${isAr ? 'اسأل المعلم الذكي عن هذه المسألة' : (isFr ? 'Interroger le Tuteur IA sur cette question' : 'KI-Tutor zu dieser Aufgabe befragen')}</span>
+        </button>
+      </div>
     </div>
   `;
 }

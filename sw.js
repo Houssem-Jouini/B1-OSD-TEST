@@ -1,11 +1,12 @@
 // Service Worker for Zertifikat B1 Prüfungssimulation
-const CACHE_NAME = 'b1-osd-app-v1.6';
+const CACHE_NAME = 'b1-osd-app-v1.7';
 
 const STATIC_ASSETS = [
   './',
   './index.html',
   './style.css',
   './script.js',
+  './aiTutor.js',
   './testsData.js',
   './translationsData.js',
   './vocabularyData.js',

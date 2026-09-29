@@ -55,6 +55,11 @@
           <span>Fehlerheft</span>
           <span class="nav-badge" id="mistakesBadge" style="display:none;">0</span>
         </button>
+
+        <button class="nav-action-btn ai-tutor-nav-btn" id="aiTutorNavBtn" title="KI-Tutor & B1-Sprachassistent">
+          <span class="ai-sparkle-icon">✨</span>
+          <span>KI-Tutor</span>
+        </button>
       </div>
 
       <div class="nav-controls-group">
@@ -413,11 +418,90 @@
     <button type="button" class="ios-prompt-close" id="closeAndroidPromptBtn" aria-label="Schließen">✕</button>
   </aside>
 
+  <!-- AI Tutor Modal (Free B1 Language Assistant) -->
+  <div class="ai-tutor-overlay" id="aiTutorModal" style="display:none;" role="dialog" aria-modal="true" aria-labelledby="aiTutorModalTitle">
+    <div class="ai-tutor-card">
+      <!-- Header -->
+      <div class="ai-tutor-header">
+        <div class="ai-tutor-header-info">
+          <div class="ai-tutor-title-row">
+            <span class="ai-tutor-logo-sparkle">✨</span>
+            <h3 id="aiTutorModalTitle" class="ai-tutor-heading">B1 KI-Tutor</h3>
+            <span class="ai-badge-free">Kostenlos</span>
+          </div>
+          <div class="ai-tutor-sub" id="aiTutorSubtitle">Dein persönlicher B1-Prüfungscoach</div>
+        </div>
+        <div class="ai-tutor-header-actions">
+          <button type="button" class="ai-btn-icon" id="aiTutorSettingsBtn" title="API-Einstellungen / Anbieter konfigurieren">⚙️</button>
+          <button type="button" class="ai-btn-icon" id="aiTutorCloseBtn" title="Schließen (Esc)">✕</button>
+        </div>
+      </div>
+
+      <!-- Settings Panel (Collapsible) -->
+      <div class="ai-settings-panel" id="aiTutorSettingsPanel" style="display:none;">
+        <div class="ai-settings-title">⚙️ KI-Tutor Einstellungen (100% Kostenlos)</div>
+        <p class="ai-settings-desc">
+          Du kannst deinen eigenen kostenlosen API-Schlüssel hinterlegen. Er wird nur lokal in deinem Browser gespeichert.
+        </p>
+        <div class="ai-settings-field">
+          <label for="aiProviderSelect">Bevorzugter Anbieter:</label>
+          <select id="aiProviderSelect" class="ai-select">
+            <option value="gemini">Google Gemini 1.5 Flash (Empfohlen · Kostenlos)</option>
+            <option value="groq">Groq Cloud · Llama 3.3 70B (Ultraschnell · Kostenlos)</option>
+          </select>
+        </div>
+        <div class="ai-settings-field">
+          <label for="aiKeyGeminiInput">Google Gemini API Key:</label>
+          <input type="password" id="aiKeyGeminiInput" placeholder="AIzaSy..." class="ai-input" autocomplete="off">
+          <small class="ai-settings-hint">Gratis Schlüssel erstellen unter <a href="https://aistudio.google.com/app/apikey" target="_blank" rel="noopener">aistudio.google.com</a></small>
+        </div>
+        <div class="ai-settings-field">
+          <label for="aiKeyGroqInput">Groq API Key (Optional):</label>
+          <input type="password" id="aiKeyGroqInput" placeholder="gsk_..." class="ai-input" autocomplete="off">
+          <small class="ai-settings-hint">Gratis unter <a href="https://console.groq.com/keys" target="_blank" rel="noopener">console.groq.com</a></small>
+        </div>
+        <div class="ai-settings-field">
+          <label for="aiProxyInput">Eigener Cloudflare Proxy Endpoint (Optional):</label>
+          <input type="url" id="aiProxyInput" placeholder="https://mein-ai-proxy.workers.dev" class="ai-input" autocomplete="off">
+        </div>
+        <div class="ai-settings-actions">
+          <button type="button" class="btn btn-primary" id="aiSaveSettingsBtn">Speichern</button>
+          <span id="aiSettingsSaveStatus" class="ai-save-status" style="display:none;"></span>
+        </div>
+      </div>
+
+      <!-- Question Context Box (when opened from a specific question) -->
+      <div class="ai-context-card" id="aiTutorContextCard" style="display:none;"></div>
+
+      <!-- Quick Prompt Pills -->
+      <div class="ai-pills-row" id="aiTutorPillsWrap" style="display:none;">
+        <button type="button" class="ai-prompt-pill" onclick="sendAiQuickPrompt('why')">💡 Warum richtig?</button>
+        <button type="button" class="ai-prompt-pill" onclick="sendAiQuickPrompt('grammar')">📐 Grammatik erklären</button>
+        <button type="button" class="ai-prompt-pill" onclick="sendAiQuickPrompt('keywords')">🔍 Signalwörter zeigen</button>
+        <button type="button" class="ai-prompt-pill" onclick="sendAiQuickPrompt('ar')">🇸🇦 بالعربية</button>
+        <button type="button" class="ai-prompt-pill" onclick="sendAiQuickPrompt('fr')">🇫🇷 En français</button>
+        <button type="button" class="ai-prompt-pill" onclick="sendAiQuickPrompt('similar')">🎯 Ähnliche Übung</button>
+      </div>
+
+      <!-- Chat History -->
+      <div class="ai-chat-history" id="aiTutorChatHistory"></div>
+
+      <!-- Input Bar -->
+      <div class="ai-chat-input-bar">
+        <input type="text" id="aiTutorInput" class="ai-chat-input" placeholder="Frage zur Aufgabe, Grammatik oder Vokabeln eingeben..." autocomplete="off">
+        <button type="button" class="ai-chat-send-btn" id="aiTutorSendBtn" title="Senden">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
 <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 <script src="testsData.js"></script>
 <script src="translationsData.js"></script>
 <script src="explanationsData.js"></script>
 <script src="vocabularyData.js"></script>
 <script src="script.js"></script>
+<script src="aiTutor.js"></script>
 </body>
 </html>
