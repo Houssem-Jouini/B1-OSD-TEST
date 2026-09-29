@@ -28,7 +28,7 @@ let timerRunning = true;
 const teilTimers = {}; // { [partId]: { total, remaining, running, started, expiredNotified } }
 
 /* ---------------- HIGHLIGHTER STATE ---------------- */
-let activeHighlightTool = 'yellow'; // 'yellow' | 'green' | 'blue' | 'eraser'
+let activeHighlightTool = null; // null (disabled by default) | 'yellow' | 'green' | 'blue' | 'eraser'
 
 /* ---------------- LOCALSTORAGE KEYS ---------------- */
 const SESSION_STORAGE_KEY = 'b1_osd_exam_session_v1';
@@ -652,10 +652,19 @@ function initFontSizeControls() {
 function initHighlighter() {
   document.querySelectorAll('.hl-tool-btn').forEach(btn => {
     btn.addEventListener('click', (e) => {
-      document.querySelectorAll('.hl-tool-btn').forEach(b => b.classList.remove('active'));
       const target = e.currentTarget;
+      const tool = target.dataset.tool;
+
+      // If clicked tool is already active, toggle it OFF (return to normal text selection/copy mode)
+      if (activeHighlightTool === tool) {
+        activeHighlightTool = null;
+        target.classList.remove('active');
+        return;
+      }
+
+      document.querySelectorAll('.hl-tool-btn').forEach(b => b.classList.remove('active'));
       target.classList.add('active');
-      activeHighlightTool = target.dataset.tool;
+      activeHighlightTool = tool;
     });
   });
 
@@ -680,6 +689,10 @@ function initHighlighter() {
 }
 
 function handlePassageSelection() {
+  // If no highlighter tool is activated, DO NOTHING!
+  // This allows the user to select text and freely copy it (Ctrl+C, right click, etc.) without selection disappearing!
+  if (!activeHighlightTool) return;
+
   const selection = window.getSelection();
   if (!selection || selection.isCollapsed || selection.rangeCount === 0) return;
 
@@ -715,7 +728,7 @@ function handlePassageSelection() {
         const parent = mark.parentNode;
         while (mark.firstChild) parent.insertBefore(mark.firstChild, mark);
         parent.removeChild(mark);
-      } else {
+      } else if (activeHighlightTool) {
         mark.className = `hl-${activeHighlightTool}`;
       }
     });

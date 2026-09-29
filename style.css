@@ -420,9 +420,15 @@
   }
   .hl-tool-btn.active {
     background: var(--bg-card);
-    color: var(--text-main);
-    border-color: var(--border-hover);
-    box-shadow: var(--shadow-sm);
+    color: var(--primary-text);
+    border-color: var(--primary);
+    box-shadow: 0 0 0 1.5px var(--primary);
+    font-weight: 700;
+  }
+
+  #passagePanel, .passage-panel, .passage-content, .passage-body {
+    -webkit-user-select: text !important;
+    user-select: text !important;
   }
   .swatch-circle {
     width: 10px;
