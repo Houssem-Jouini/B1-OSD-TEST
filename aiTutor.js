@@ -152,7 +152,8 @@ ${context.whyIncorrect ? `- Didaktische Erklärung (Falsche Optionen): ${context
       ],
       generationConfig: {
         temperature: 0.4,
-        maxOutputTokens: 900
+        maxOutputTokens: 3000,
+        thinkingConfig: { thinkingBudget: 0 }
       }
     };
 

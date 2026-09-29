@@ -65,7 +65,8 @@ ${context.whyIncorrect ? `- Warum falsch: ${context.whyIncorrect}` : ""}
         ],
         generationConfig: {
           temperature: 0.4,
-          maxOutputTokens: 900
+          maxOutputTokens: 3000,
+          thinkingConfig: { thinkingBudget: 0 }
         }
       };
 
