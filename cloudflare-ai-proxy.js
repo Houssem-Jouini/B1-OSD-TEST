@@ -78,6 +78,18 @@ ${context.whyIncorrect ? `- Warum falsch: ${context.whyIncorrect}` : ""}
       });
 
       const data = await apiRes.json();
+
+      if (!apiRes.ok) {
+        const errorMsg = data?.error?.message || `Google Gemini Fehler (Status ${apiRes.status})`;
+        return new Response(JSON.stringify({ error: errorMsg }), {
+          status: apiRes.status,
+          headers: {
+            "Content-Type": "application/json",
+            "Access-Control-Allow-Origin": "*"
+          }
+        });
+      }
+
       const reply = data?.candidates?.[0]?.content?.parts?.[0]?.text || "Keine Antwort erhalten.";
 
       return new Response(JSON.stringify({ reply }), {

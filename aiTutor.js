@@ -13,8 +13,8 @@
   const STORAGE_KEY_PROXY = 'b1_ai_proxy_endpoint';
   const STORAGE_KEY_PROVIDER = 'b1_ai_selected_provider'; // 'gemini' | 'groq' | 'proxy'
 
-  // Default Backend Proxy Endpoint (Leave blank or set to Cloudflare Worker URL)
-  const DEFAULT_PROXY_ENDPOINT = '';
+  // Default Backend Proxy Endpoint (Cloudflare Worker)
+  const DEFAULT_PROXY_ENDPOINT = 'https://b1-ai-tutor.jhoussem856.workers.dev';
 
   let activeQuestionContext = null;
   let isGenerating = false;
@@ -231,12 +231,17 @@ ${context.quote ? `- Textzitat: „${context.quote}“` : ''}
       body: JSON.stringify(payload)
     });
 
+    const data = await res.json().catch(() => ({}));
     if (!res.ok) {
-      throw new Error(`Proxy Fehler: HTTP ${res.status}`);
+      const errMsg = data.error || `Proxy Fehler: HTTP ${res.status}`;
+      throw new Error(errMsg);
     }
 
-    const data = await res.json();
-    return data.reply || data.text || data.message || JSON.stringify(data);
+    if (data.error) {
+      throw new Error(data.error);
+    }
+
+    return data.reply || data.text || data.message || 'Keine Antwort erhalten.';
   }
 
   /* ---------------- SIMPLE MARKDOWN TO HTML ---------------- */
