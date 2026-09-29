@@ -882,5 +882,395 @@ const translationsData = {
         }
       }
     }
-  }
+  },
+  "modellsatz-4": {
+    "parts": {
+        "1": {
+            "instructions": {
+                "ar": "اقرأ النص والأسئلة من 1 إلى 6 المتعلقة به. اختر: هل العبارات صحيحة أم خاطئة؟",
+                "fr": "Lisez le texte et les questions 1 à 6 correspondantes. Choisissez : les affirmations sont-elles Vraies ou Fausses ?"
+            },
+            "articles": [
+                {
+                    "heading": {
+                        "ar": "منتدى – نحن هنا من أجلك! – حيل الإعلانات",
+                        "fr": "Forum – Nous sommes là pour toi ! – Astuces publicitaires"
+                    },
+                    "sub": {
+                        "ar": "حيل الإعلانات التجارية",
+                        "fr": "Astuces publicitaires"
+                    },
+                    "body": {
+                        "ar": [
+                            "أود أيضًا أن أشارك تجربتي مع الحيل الإعلانية. لقد كنا أنا وصديقتي مهتمين دائمًا بالتغذية المتوازنة والصحية. لهذا السبب كنا نتناول كثيرًا وعلى الإفطار رقائق الحبوب من علامة «Fit» مع الحليب أو الزبادي. وأحيانًا كنا نتناولها في العشاء أيضًا. لم تكن الإعلانات تعد فقط بنسبة عالية من الحبوب الكاملة، بل وعدت أيضًا بـ «متعة خفيفة للمحافظة على الرشاقة»، لأنها قليلة الدهون والسكر. وبكل سذاجة واطمئنان، استهلكنا المزيد من المنتج معتقدين أننا نفعل شيئًا رائعًا لصحة أجسامنا. وفوق ذلك، مذاق رقائق «Fit» لذيذ للغاية!",
+                            "لكن بعد فترة من الوقت، لاحظنا أن وزنينا قد زادا معًا! أرجعنا ذلك في البداية إلى قلة الحركة. فنحن موظفان بدوام كامل ونقضي ساعات طويلة في المكاتب. لذلك قررنا ممارسة المزيد من الرياضة في عطلات نهاية الأسبوع. ولكن ذلك لم يحقق النتيجة المرجوة على المدى الطويل؛ فقد أصبحنا أكثر لياقة بدنية، لكن لم يفقد أي منا غرامًا واحدًا.",
+                            "ثم عثرت بالصدفة على الإنترنت على موقع يتناول موضوع حيل الإعلانات. ويا للمفاجأة: كانت رقائق حبوب «Fit» التي اعتبرناها 'صحية' مثالاً بارزًا على كيفية استدراج المستهلكين للشراء عبر معلومات مضللة! علمتُ أن معظم رقائق الذرة تحتوي على كميات هائلة من السكر. وفي العلامة التجارية التي اخترناها، كانت النسبة تصل إلى 30%! أسرعتُ بإحضار عبوة «Fit» من المطبخ وقرأت بالفعل: 35 غرامًا من السكر لكل 100 غرام! وتوصية الاستهلاك اليومي: 40 غرامًا فقط!! من يشبع من هذه الكمية الضئيلة؟ لا يمكنني تمضية الصباح دون قرقرة في المعدة، لذا كنا نتناول دائمًا ضعف هذه الكمية على الأقل.",
+                            "أما بالنسبة للحبوب الكاملة، فالأمر كله خدعة. فنسبة 20% من الحبوب الكاملة بعيدة كل البعد عن أن تكون منتج حبوب كاملة حقيقيًا. ففي خبز الحبوب الكاملة على سبيل المثال، يجب أن تبلغ النسبة 90% على الأقل. فلا عجب إذن أننا اكتسبنا وزنًا إضافيًا رغم اعتقادنا أننا نأكل طعامًا خفيفًا وصحيًا. ومنذ ذلك الحين، أصبحنا نتناول شريحة من خبز الحبوب الكاملة مع السمن والجبن الطازج والمربى. وهذا يعطي سكرًا أقل بكثير لكل 100 غرام، رغم المربى! وقد بدأنا بالفعل في خسارة بعض الوزن."
+                        ],
+                        "fr": [
+                            "J'aimerais moi aussi partager mon expérience avec les pièges publicitaires. Mon amie et moi avons toujours été attentifs à une alimentation équilibrée. C'est pourquoi nous mangions souvent au petit-déjeuner des céréales de la marque « Fit » avec du lait ou du yaourt, et parfois même le soir. Non seulement le texte publicitaire promettait une forte proportion de céréales complètes, mais aussi « un plaisir léger pour la ligne », affirmant qu'elles contenaient peu de matières grasses et de sucre. Naïfs comme nous l'étions, nous en consommions d'autant plus en pensant faire du bien à notre corps. Et en plus, les céréales « Fit » sont délicieuses !",
+                            "Au bout d'un certain temps, nous avons constaté que nous avions tous les deux pris du poids. Au début, nous avons attribué cela au manque d'activité physique. Travaillant tous deux à plein temps dans un bureau, nous avons décidé de faire plus de sport le week-end. Mais cela n'a pas donné le résultat escompté : nous étions plus en forme, mais aucun de nous n'avait maigri.",
+                            "Puis je suis tombé par hasard sur Internet sur un site traitant des ruses publicitaires. Et surprise : nos fameuses céréales « saines » « Fit » y figuraient comme exemple typique de la façon dont de fausses informations incitent les consommateurs à l'achat ! J'ai découvert que la plupart des céréales contiennent beaucoup trop de sucre : 30 % pour notre marque. J'ai couru chercher le paquet dans la cuisine et j'ai lu avec stupeur : 35 g de sucre pour 100 g ! Et la portion quotidienne recommandée : 40 g !! Qui peut être rassasié avec cela ? Je ne tiendrais pas la matinée sans avoir faim. Nous en mangions toujours au moins le double.",
+                            "Et quant aux céréales complètes, c'est aussi une tromperie. 20 % de céréales complètes ne suffisent absolument pas pour un vrai produit complet (le pain complet en exige au moins 90 %). Pas étonnant que nous ayons grossi en croyant manger sainement ! Depuis, nous mangeons une tranche de pain complet avec de la margarine, du fromage frais et de la confiture : cela représente bien moins de sucre pour 100 g, malgré la confiture. Et nous avons déjà un peu maigri."
+                        ]
+                    },
+                    "signature": {
+                        "ar": "بيرند غايسنر",
+                        "fr": "Bernd Geißner"
+                    }
+                }
+            ],
+            "questions": {
+                "1": {
+                    "text": {
+                        "ar": "اعتبر بيرند رقائق «Fit» طعامًا صحيًا.",
+                        "fr": "Bernd considérait les céréales « Fit » comme saines."
+                    }
+                },
+                "2": {
+                    "text": {
+                        "ar": "على الرغم من ساعات عمل بيرند الطويلة، وجد وقتًا يوميًا لممارسة التمارين الرياضية.",
+                        "fr": "Bien que Bernd travaillât beaucoup d'heures, il trouvait quotidiennement le temps de faire des exercices de fitness."
+                    }
+                },
+                "3": {
+                    "text": {
+                        "ar": "تُصنع رقائق «Fit» حصريًا تقريبًا من السكر.",
+                        "fr": "Les céréales « Fit » sont fabriquées presque exclusivement à partir de sucre."
+                    }
+                },
+                "4": {
+                    "text": {
+                        "ar": "كل ما كُتب على عبوة «Fit» لا يحتوي سوى الأكاذيب.",
+                        "fr": "Sur le paquet « Fit », il n'y a que des mensonges."
+                    }
+                },
+                "5": {
+                    "text": {
+                        "ar": "زاد وزن بيرند لأنه كان يفرط في تناول الرقائق.",
+                        "fr": "Bernd a pris du poids parce qu'il mangeait trop de céréales."
+                    }
+                },
+                "6": {
+                    "text": {
+                        "ar": "رقائق «Fit» في الحقيقة ليست منتج حبوب كاملة فعلي.",
+                        "fr": "Les céréales « Fit » ne sont en réalité pas un vrai produit complet."
+                    }
+                }
+            }
+        },
+        "2": {
+            "instructions": {
+                "ar": "اقرأ النص الصحفي والأسئلة 7 إلى 9 المتعلقة به. اختر لكل سؤال الحل الصحيح a أو b أو c.",
+                "fr": "Lisez le texte de presse et les questions 7 à 9. Choisissez pour chaque question la bonne solution a, b ou c."
+            },
+            "questions": {
+                "7": {
+                    "text": {
+                        "ar": "يدور هذا النص حول …",
+                        "fr": "Dans ce texte, il s'agit de…"
+                    },
+                    "options": {
+                        "ar": [
+                            "المشاكل البيئية في جبال الألب.",
+                            "ركوب الدراجات في سويسرا.",
+                            "جولات ركوب الدراجات في جبال الألب."
+                        ],
+                        "fr": [
+                            "Des problèmes environnementaux dans les Alpes.",
+                            "De la pratique du vélo en Suisse.",
+                            "Des circuits à vélo dans les Alpes."
+                        ]
+                    }
+                },
+                "8": {
+                    "text": {
+                        "ar": "في الجولة الممتدة من إنسبروك إلى كورتينا دامبيتزو …",
+                        "fr": "Sur le circuit d'Innsbruck à Cortina d’Ampezzo…"
+                    },
+                    "options": {
+                        "ar": [
+                            "توجد حلويات شهية.",
+                            "يمكن للمرء مشاهدة الكثير من المعالم.",
+                            "يسافر راكبو الدراجات الجبلية بكل سرور."
+                        ],
+                        "fr": [
+                            "Il y a de bons desserts.",
+                            "On peut voir beaucoup de choses.",
+                            "Les vététistes voyagent très volontiers."
+                        ]
+                    }
+                },
+                "9": {
+                    "text": {
+                        "ar": "في الأكواخ الجبلية بحوض فانيس …",
+                        "fr": "Dans les refuges de montagne du cirque de Fanes…"
+                    },
+                    "options": {
+                        "ar": [
+                            "توجد مشروبات فقط.",
+                            "يمكن للمرء المبيت والنوم.",
+                            "يمكن للمرء تناول وجبات لذيذة."
+                        ],
+                        "fr": [
+                            "Il n'y a que des boissons.",
+                            "On peut dormir.",
+                            "On peut manger de délicieux plats."
+                        ]
+                    }
+                },
+                "10": {
+                    "text": {
+                        "ar": "يتناول هذا النص …",
+                        "fr": "Dans ce texte, il s'agit de…"
+                    },
+                    "options": {
+                        "ar": [
+                            "إمكانات عديدة للقيام برحلة.",
+                            "طريقة جديدة لاستكشاف المعالم السياحية.",
+                            "معالم أثرية نمساوية."
+                        ],
+                        "fr": [
+                            "De nombreuses façons de voyager.",
+                            "Une nouvelle façon de découvrir des sites touristiques.",
+                            "Monuments autrichiens."
+                        ]
+                    }
+                },
+                "11": {
+                    "text": {
+                        "ar": "تقوم غوغل بـ …",
+                        "fr": "Google…"
+                    },
+                    "options": {
+                        "ar": [
+                            "تمكين مستخدمي الإنترنت من الاطلاع وقراءة مخطوطات المتاحف.",
+                            "التعاون مع المكتبة الوطنية النمساوية.",
+                            "جمع الأعمال الفنية الشهيرة من المتاحف."
+                        ],
+                        "fr": [
+                            "Permet aux internautes de voir et lire des écrits issus des musées.",
+                            "Collabore avec la Bibliothèque nationale d'Autriche.",
+                            "Collectionne des œuvres célèbres de musées."
+                        ]
+                    }
+                },
+                "12": {
+                    "text": {
+                        "ar": "الرحلات البعيدة …",
+                        "fr": "Les voyages lointains…"
+                    },
+                    "options": {
+                        "ar": [
+                            "تكلف دائمًا الكثير من المال.",
+                            "يقوم بها عدد كبير من السياح.",
+                            "قد تسبب التعب والإرهاق."
+                        ],
+                        "fr": [
+                            "Coûtent toujours beaucoup d'argent.",
+                            "Sont entrepris par de nombreux touristes.",
+                            "Peuvent fatiguer."
+                        ]
+                    }
+                }
+            }
+        },
+        "3": {
+            "instructions": {
+                "ar": "اقرأ المواقف من 13 إلى 19 والإعلانات من a إلى j. اختر: أي إعلان يناسب أي موقف؟ يمكنك استخدام كل إعلان مرة واحدة فقط. إذا لم يكن هناك إعلان مناسب لموقف ما، فاختر X.",
+                "fr": "Lisez les situations 13 à 19 et les annonces a à j. Choisissez quelle annonce correspond à quelle situation. Si aucune annonce ne convient, choisissez X."
+            },
+            "questions": {
+                "13": {
+                    "text": {
+                        "ar": "يقوم الزوجان يانسن بغسيل سيارتهما بانتظام في محطة غسيل، ويبحثان دائمًا عن فرصة لفعل الخير للآخرين في الوقت نفسه.",
+                        "fr": "Le couple Jansen emmène régulièrement sa voiture au lavage et cherche à faire une bonne action pour les autres en même temps."
+                    }
+                },
+                "14": {
+                    "text": {
+                        "ar": "حصل بينو مؤخرًا على رخصة القيادة، ويرغب في تعلم المزيد عن القيادة الآمنة والموفرة للطاقة.",
+                        "fr": "Benno a obtenu son permis récemment et souhaite en apprendre davantage sur la conduite sûre et économique."
+                    }
+                },
+                "15": {
+                    "text": {
+                        "ar": "السيدة فايس لم تعد راضية عن سيارتها الكهربائية القديمة، وتريد الاطلاع على أحدث موديلات السيارات الكهربائية لمختلف الماركات.",
+                        "fr": "Mme Wyss n'est plus satisfaite de son ancienne voiture électrique et veut s'informer sur les nouveaux modèles de diverses marques."
+                    }
+                },
+                "16": {
+                    "text": {
+                        "ar": "السيد فيزر لديه صعوبة في الحركة ولذلك يذهب دائمًا بالسيارة إلى المكتب. لكن المسافة من كلوسترنوبرغ إلى مركز فيينا طويلة والوقود يزداد غلاءً.",
+                        "fr": "M. Wieser a des difficultés à marcher et se rend toujours au bureau en voiture. Mais le trajet est long et l'essence de plus en plus chère."
+                    }
+                },
+                "17": {
+                    "text": {
+                        "ar": "ميليسا حاصلة على رخصة القيادة منذ ثلاثة أشهر وتنزعج لأنها لا تستطيع حتى تغيير إطار سيارتها بنفسها.",
+                        "fr": "Melissa a son permis depuis trois mois et n'apprécie pas de ne même pas savoir changer une roue."
+                    }
+                },
+                "18": {
+                    "text": {
+                        "ar": "في آخر حادث لها، بقيت السيدة شولته يومين بدون سيارة، مما سبب لها مشاكل كثيرة في عملها كمندوبة تأمين.",
+                        "fr": "Lors de son dernier accident, Mme Schulte est restée deux jours sans voiture, ce qui a perturbé son travail d'agente d'assurance."
+                    }
+                },
+                "19": {
+                    "text": {
+                        "ar": "تعرض السيد نوفاك للأسف لحادث جديد. وفي المرة السابقة شعر بغضب شديد من ورشة التصليح ومندوبي التأمين.",
+                        "fr": "M. Nowak a hélas eu un nouvel accident. La dernière fois, il a été très contrarié par le garage et les assureurs."
+                    }
+                }
+            }
+        },
+        "4": {
+            "instructions": {
+                "ar": "اقرأ النصوص من 20 إلى 26. اختر: هل الشخص مؤيد لفرض حظر؟",
+                "fr": "Lisez les textes 20 à 26. Choisissez : la personne est-elle favorable à une interdiction ?"
+            }
+        },
+        "5": {
+            "instructions": {
+                "ar": "اقرأ النشرة الطبية المرفقة لعسل الشمر لاطلاعك عليها بسبب مرض ابن عمك الصغير. اختر الحل الصحيح a أو b أو c للأسئلة 27 إلى 30.",
+                "fr": "Informez-vous sur le sirop de miel au fenouil à l'aide de la notice pour votre petit cousin malade. Choisissez la bonne réponse a, b ou c pour les questions 27 à 30."
+            },
+            "questions": {
+                "27": {
+                    "text": {
+                        "ar": "الآثار الجانبية المحتملة:",
+                        "fr": "Effets secondaires possibles :"
+                    },
+                    "options": {
+                        "ar": [
+                            "لا يظهر عسل الشمر أي آثار جانبية.",
+                            "قد يحدث ضرر بالأسنان (تسوس).",
+                            "لدى المصابين بالحساسية تحدث تفاعلات جلدية متكررة لفترة قصيرة."
+                        ],
+                        "fr": [
+                            "Le miel au fenouil n'a aucun effet secondaire.",
+                            "Des caries dentaires peuvent survenir.",
+                            "Chez les personnes allergiques, des réactions cutanées fréquentes et brèves apparaissent."
+                        ]
+                    }
+                },
+                "28": {
+                    "text": {
+                        "ar": "يمكن للأطفال تناول عسل الشمر …",
+                        "fr": "Les enfants peuvent prendre ce sirop…"
+                    },
+                    "options": {
+                        "ar": [
+                            "على الرغم من مرارة طعمه الشديدة.",
+                            "على الرغم من احتوائه على مواد فعالة صناعية فقط.",
+                            "إذا كان عمرهم 12 شهرًا على الأقل."
+                        ],
+                        "fr": [
+                            "Même s'il a un goût très amer.",
+                            "Bien qu'il ne contienne que des substances artificielles.",
+                            "S'ils ont au moins douze mois."
+                        ]
+                    }
+                },
+                "29": {
+                    "text": {
+                        "ar": "يجب على المرء معرفة أن …",
+                        "fr": "Il faut savoir que…"
+                    },
+                    "options": {
+                        "ar": [
+                            "الشراب يظل صالحًا للاستخدام لمدة نصف عام بعد فتحه.",
+                            "الشراب يجب تدفئته قبل تناوله.",
+                            "الشراب يجب أن يبقى دائمًا في الثلاجة."
+                        ],
+                        "fr": [
+                            "Le sirop peut être utilisé pendant encore six mois après ouverture.",
+                            "Le sirop doit être réchauffé avant utilisation.",
+                            "Le sirop doit toujours rester au réfrigérateur."
+                        ]
+                    }
+                },
+                "30": {
+                    "text": {
+                        "ar": "الجرعة المعتادة …",
+                        "fr": "La posologie usuelle…"
+                    },
+                    "options": {
+                        "ar": [
+                            "يحددها الطبيب فقط.",
+                            "يمكن تناولها مع أي مشروب كان.",
+                            "تسري على الأطفال الصغار والأكبر سنًا بالتساوي."
+                        ],
+                        "fr": [
+                            "Est fixée par le médecin.",
+                            "Peut être prise avec n'importe quelle boisson.",
+                            "S'applique aux enfants plus jeunes comme plus âgés."
+                        ]
+                    }
+                }
+            }
+        },
+        "6": {
+            "instructions": {
+                "ar": "يتكون قسم الاستماع من أربعة أجزاء. ستستمع إلى عدة نصوص وتجيب عن الأسئلة المتعلقة بها.",
+                "fr": "Le module Compréhension orale se compose de quatre parties. Vous écoutez plusieurs textes et répondez aux questions."
+            },
+            "teile": {
+                "1": {
+                    "title": {
+                        "ar": "خمسة نصوص قصيرة · الأسئلة من 1 إلى 10",
+                        "fr": "Cinq courts enregistrements · Questions 1 à 10"
+                    },
+                    "desc": {
+                        "ar": "ستستمع الآن إلى خمسة نصوص قصيرة. ستستمع إلى كل نص مرتين. لكل نص ستجيب عن سؤالين.",
+                        "fr": "Vous écoutez maintenant cinq courts textes, chacun deux fois. Pour chaque texte, résolvez deux questions."
+                    }
+                },
+                "2": {
+                    "title": {
+                        "ar": "فعالية تعريفية برحلات المنطاد · الأسئلة 11 إلى 15",
+                        "fr": "Présentation des vols en montgolfière · Questions 11 à 15"
+                    },
+                    "desc": {
+                        "ar": "ستستمع إلى النص مرة واحدة فقط. أجب عن الأسئلة الخمسة باختيار a أو b أو c.",
+                        "fr": "Vous écoutez l'enregistrement une seule fois. Répondez aux cinq questions a, b ou c."
+                    },
+                    "context": {
+                        "ar": "أنت تحضر فعالية تعريفية ومعلوماتية حول رحلات المناطيد الهوائية.",
+                        "fr": "Vous assistez à une réunion d'information sur les vols en montgolfière."
+                    }
+                },
+                "3": {
+                    "title": {
+                        "ar": "حوار حول رحلة مدرسية · الأسئلة 16 إلى 22",
+                        "fr": "Discussion sur un voyage scolaire · Questions 16 à 22"
+                    },
+                    "desc": {
+                        "ar": "ستستمع إلى المحادثة مرة واحدة فقط. حدد: هل العبارات صحيحة أم خاطئة؟",
+                        "fr": "Vous écoutez la conversation une seule fois. Déterminez si les affirmations sont Vraies ou Fausses."
+                    },
+                    "context": {
+                        "ar": "أنت تقف في موقف للحافلات في فيينا وتسمع رجلاً وامرأة يتحدثان عن رحلة مدرسية.",
+                        "fr": "À un arrêt de bus viennois, vous entendez un homme et une femme parler d'une sortie de classe."
+                    }
+                },
+                "4": {
+                    "title": {
+                        "ar": "حوار إذاعي: كيف نتعامل مع الطعام؟ · الأسئلة 23 إلى 30",
+                        "fr": "Débat radiophonique : Comment gérons-nous l'alimentation ? · Questions 23 à 30"
+                    },
+                    "desc": {
+                        "ar": "ستستمع إلى النقاش مرتين. طابق كل عبارة مع قائلها: من يقول ماذا؟",
+                        "fr": "Vous écoutez le débat deux fois. Associez chaque affirmation : qui dit quoi ?"
+                    },
+                    "context": {
+                        "ar": "يناقش مقدم برنامج «MitTalk» الإذاعي مع الطالبة يوليانه شولتز (عضو بنك الطعام) والفنان لوكاس تيلمان موضوع التعامل مع الطعام وهدر الأغذية.",
+                        "fr": "Le modérateur de l'émission « MitTalk » débat avec l'étudiante Juliane Schulz (association Tafel) et l'artiste Lukas Tilmann sur le gaspillage alimentaire."
+                    }
+                }
+            }
+        }
+    }
+}
 };

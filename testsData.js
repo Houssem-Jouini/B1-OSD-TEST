@@ -967,5 +967,406 @@ const modelTests = [
         ]
       }
     ]
+  },
+
+  /* ------------------------------------------------------------------------
+     MODELLSATZ 4: HUEBER MODELLTEST 13 (ZERTIFIKAT B1 NEU)
+     Getreideflocken & Werbetricks / Velo-Abenteuer & Eine virtuelle Reise / Auto-Anzeigen / Graffiti-Verbot / Fenchelhonig-Packungsbeilage + Hören (Ballonfahrten, Klassenreise, Essen)
+     ------------------------------------------------------------------------ */
+  {
+    id: "modellsatz-4",
+    title: "Modelltest 13 — Hueber Zertifikat B1",
+    badge: "Modelltest 13",
+    examTitle: "Goethe / ÖSD B1 Prüfungssimulation — Modelltest 13",
+    examSub: "Lesen (5 Teile) & Hören (4 Teile) · Modelltest 13 (Hueber)",
+    timeTotal: 65,
+    parts: [
+      {
+        id: 1,
+        title: "Teil 1",
+        time: 10,
+        instructions: "Lesen Sie den Text und die Aufgaben 1 bis 6 dazu. Wählen Sie: Sind die Aussagen Richtig oder Falsch?",
+        articles: [{
+          heading: "Forum – Wir sind für dich da!",
+          sub: "Werbetricks",
+          body: [
+            "Ich möchte auch von meiner Erfahrung mit Werbetricks berichten. Meine Freundin und ich haben uns schon immer für eine ausgewogene Ernährungsweise interessiert. Deswegen aßen wir zum Frühstück gern und oft Getreideflocken der Marke „Fit“ mit Milch oder Joghurt. Ab und zu gab es sie bei uns sogar zu Abend. Nicht nur versprachen sie dem Werbetext zufolge einen hohen Anteil an Vollkorn, sondern auch „einen leichten Genuss für die Linie“, da wenig Fett und Zucker darin enthalten seien. Gutgläubig, wie wir nun mal waren, konsumierten wir umso mehr von dem Produkt und meinten, etwas Gutes für unseren Körper zu tun. Und außerdem schmecken die „Fit“-Flocken verdammt gut!",
+            "Nach einiger Zeit stellten wir allerdings fest, dass wir beide zugenommen hatten. Wir führten dies anfangs auf einen Mangel an Bewegung zurück. Meine Partnerin und ich sind nämlich beide voll berufstätig und verbringen viele Stunden im Büro. Wir nahmen uns also vor, an Wochenenden mehr Sport zu treiben. Doch das führte auf die Dauer nicht zum erwünschten Ergebnis. Wir waren zwar körperlich fitter, aber abgenommen hatte keiner von uns.",
+            "Da stieß ich zufällig im Internet auf eine Website zum Thema Werbetricks. Und siehe da: Unsere so „gesunden“ „Fit“-Cerealien waren dort ein Paradebeispiel dafür, wie durch falsche Informationen die Konsumenten zum Kauf eines Produkts verlockt werden. Ich erfuhr, dass die meisten Cornflakes viel zu viel Zucker enthalten. Bei der Marke unserer Wahl waren es ganze 30 %. Ich holte schnell die „Fit“-Packung aus der Küche und las tatsächlich: 35 Gramm Zucker pro 100 Gramm. Und die tägliche Verzehrsempfehlung: 40 Gramm!! Wer wird davon eigentlich satt? Ich könnte den Vormittag danach ohne Magenknurren nicht überstehen. Wir haben immer mindestens die doppelte Menge gegessen.",
+            "Und was das Vollkorn betrifft, ist auch alles Schwindel. 20 Prozent Vollkornanteil sind noch lange kein echtes Vollkornprodukt. In Vollkornbrot beispielsweise müssen mindestens 90 Prozent Vollkorn stecken. Kein Wunder also, dass wir zugenommen haben, obwohl wir dachten, uns leicht und gesund zu ernähren. Seitdem essen wir zum Frühstück eine Scheibe Vollkornbrot mit Margarine, Frischkäse und Marmelade. Das kommt auf deutlich weniger Zucker pro 100 Gramm. Trotz Marmelade. Und wir haben auch schon etwas abgenommen."
+          ],
+          signature: "Bernd Geißner"
+        }],
+        example: { text: "Bernd und seine Freundin aßen ab und zu zum Frühstück „Fit“-Flocken.", answer: "falsch" },
+        questions: [
+          { id: 1, type: "tf", text: "„Fit“-Flocken hielt Bernd für gesund.", answer: "richtig" },
+          { id: 2, type: "tf", text: "Obwohl Bernd viele Stunden arbeitete, fand er täglich Zeit für Fitness-Übungen.", answer: "falsch" },
+          { id: 3, type: "tf", text: "Die „Fit“-Flocken werden fast ausschließlich aus Zucker hergestellt.", answer: "falsch" },
+          { id: 4, type: "tf", text: "Auf der „Fit“-Packung stehen nur Lügen.", answer: "falsch" },
+          { id: 5, type: "tf", text: "Bernd nahm zu, da er zu viel von den Flocken aß.", answer: "richtig" },
+          { id: 6, type: "tf", text: "Die „Fit“-Flocken sind eigentlich kein Vollkornprodukt.", answer: "richtig" }
+        ]
+      },
+      {
+        id: 2,
+        title: "Teil 2",
+        time: 20,
+        instructions: "Lesen Sie den Text aus der Presse und die Aufgaben 7 bis 9 dazu. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+        articles: [{
+          heading: "Velo¹-Abenteuer",
+          body: [
+            "Beim Stichwort „Alpentransit“ denken die meisten an Verkehrspolitik und Staus. Nicht so die Mountainbiker. Für sie sind die Alpen eine willkommene Gelegenheit, die eigenen Grenzen auszuprobieren; eins der letzten grossen Gebiete im sonst weitgehend erschlossenen Europa. Von Wien bis Nizza sind die Alpen nicht nur eine Klima- und Wasserscheide. Abseits grosser Ballungsräume und Autobahnen geht hier alles einen etwas ruhigeren Gang. Die Alpen bieten für jeden Geschmack passende Routen, das reicht von der vier Meter breiten Schotterstrasse bis zu Feld- und Alpwegen oberhalb der Baumgrenze.",
+            "Landschaftlich wie historisch lohnen sich besonders die Dolomiten. Wer innert fünf Tagen von Innsbruck zum italienischen Skiort Cortina d’Ampezzo radelt, bekommt unterwegs eine Menge geboten. Dabei wird das unbestrittene Highlight zum Schluss serviert, quasi als Dessert mit hohem Erinnerungswert. Doch schön der Reihe nach: Zuerst fährt man oberhalb der Brenner-Autobahn und hat einen herrlichen Panoramablick, vorbei an Apfelplantagen. Das erste Highlight ist ein Bergweg an der Steilwand des Kreuzkofels entlang, direkt an der Baumgrenze mit Ausblick auf weitere Dolomitenberge. Am Ende der Tour erreicht man den Fanes-Kessel, das absolute Highlight. Dort gibt es rundum steile Bergflanken, unten einige Bergseen, gespeist von Wasserfällen, und natürlich auch Berghütten, in denen man sich bei Apfelschorle und leckerer Pasta Napoli stärken kann. Einfach unvergesslich!"
+          ],
+          source: "¹ Velo = Schweizer Standard für „Fahrrad“ (aus einer Schweizer Zeitung)"
+        }],
+        example: { text: "In den Alpen …", options: ["gibt es viele unterschiedliche Reisewege.", "sind oberhalb der Baumgrenze keine Wege.", "gibt es Essen für jeden Geschmack."], answer: 0 },
+        questions: [
+          { id: 7, type: "mcq", text: "In diesem Text geht es um …", options: ["Umweltprobleme in den Alpen.", "Velofahren in der Schweiz.", "Velo-Touren in den Alpen."], answer: 2 },
+          { id: 8, type: "mcq", text: "Auf der Tour von Innsbruck nach Cortina d’Ampezzo …", options: ["gibt es schöne Desserts.", "kann man viel sehen.", "reisen die Mountainbiker sehr gern."], answer: 1 },
+          { id: 9, type: "mcq", text: "In den Berghütten des Fanes-Kessels …", options: ["gibt es nur Getränke.", "kann man schlafen.", "kann man lecker essen."], answer: 2 }
+        ],
+        instructions2: "Lesen Sie den Text aus der Presse und die Aufgaben 10 bis 12 dazu. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+        articles2: [{
+          heading: "Eine virtuelle Reise",
+          body: [
+            "Eine Reise um die Welt, zu bedeutenden Orten, Bauwerken oder Denkmälern muss heute nicht anstrengend oder teuer sein. Waren Sie schon auf dem Schiefen Turm von Pisa? Nein. Zu viele Touristen in der Warteschlange? Zu teuer? Keine Zeit? Oder nicht mehr gut zu Fuß? Alles kein Problem. Der Digitalisierung sei Dank.",
+            "Wenn man nicht zu den Denkmälern kommt, dann kommen diese eben zu Ihnen. Eine Weltreise kann einfach am iPad oder am Computer erfolgen. Bücher, Denkmäler oder Museumsbesuche sind als virtuelle Touren im Internet verfügbar. Ein Rundgang durch den Pariser Louvre ist somit ebenso möglich wie ein Flug um die Spitze der Freiheitsstatue oder ein Rundgang durch den Grand Canyon.",
+            "Mittlerweile sind virtuelle Reisen zu Denkmälern quer durch Kontinente und rund um die Welt kein Problem mehr. Auch zahlreiche Anwendungen für Smartphone – sogenannte Apps – konservieren die Kunstschätze der Welt für die nächsten Generationen. In der Österreichischen Nationalbibliothek werden die bedeutenden Werke digitalisiert und auch Google macht seit Jahren mehr oder weniger bekannte, aber auf jeden Fall erhaltenswerte Schriften aus Museen, Bibliotheken und Büchereien der digitalen Welt zugänglich."
+          ],
+          source: "von Gregor Kucera aus der Wiener Zeitung vom 30.09.2012"
+        }],
+        questions2: [
+          { id: 10, type: "mcq", text: "In diesem Text geht es um …", options: ["viele Möglichkeiten, eine Reise zu machen.", "eine neue Art, Sehenswürdigkeiten kennenzulernen.", "österreichische Denkmäler."], answer: 1 },
+          { id: 11, type: "mcq", text: "Google …", options: ["sorgt dafür, dass Internetnutzer Schriften aus Museen sehen und lesen können.", "arbeitet mit der Österreichischen Nationalbibliothek zusammen.", "sammelt bekannte Werke aus Museen."], answer: 0 },
+          { id: 12, type: "mcq", text: "Weite Reisen …", options: ["kosten immer viel Geld.", "werden von vielen Touristen unternommen.", "können müde machen."], answer: 2 }
+        ]
+      },
+      {
+        id: 3,
+        title: "Teil 3",
+        time: 10,
+        instructions: "Lesen Sie die Situationen 13 bis 19 und die Anzeigen a bis j aus verschiedenen deutschsprachigen Medien. Wählen Sie: Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es keine passende Anzeige, in diesem Fall wählen Sie X.",
+        situationsIntro: "Die meisten Ihrer Bekannten haben ein Auto. Aber ein Auto ist nicht nur praktisch, sondern es macht auch Arbeit und manchmal hat man auch Probleme. Ihre Bekannten suchen nach Lösungen.",
+        example: { text: "Gerlinde muss nach Wien. Auf ihrem Programm stehen zahlreiche Geschäftstermine. Mit dem eigenen Auto und dauernder Parkplatzsuche schafft sie das nie.", answer: "H" },
+        adsFormatted: [
+          {
+            code: "A",
+            tagPos: "left",
+            hasPin: true,
+            cardClass: "anzeige-style-a",
+            html: `
+              <div class="anzeige-headline">Ihr Auto-Profi Hoffmann</div>
+              <div style="background:#eef6ff; border:1px solid #c2dbfe; border-radius:6px; padding:7px; margin-bottom:8px; font-size:13px; line-height:1.4;">
+                <strong>Pannenskurse für Frauen:</strong> Zusammen mit der Volkshochschule Ulm bieten wir exklusiv Pannenskurse für Frauen an. Die Anmeldung für diese Fortbildung ist kostenlos und nur über die VH Ulm möglich!<br><strong>Nächster Termin: 15. Oktober</strong>
+              </div>
+              <div style="background:#f9f9f9; border:1px solid #e0e0e0; border-radius:6px; padding:7px; font-size:12.5px; line-height:1.35; margin-bottom:6px;">
+                <strong>Wir schreiben SERVICE groß:</strong> Reparaturen, jährliche Hauptuntersuchung, Pannen- und Unfallhilfe – alles zu fairen Preisen.
+              </div>
+              <div style="font-size:12px; color:var(--text-muted); font-weight:600;">Auto-Profi Hoffmann · Lindenburgstr. 89 · 12980 Breitenau<br>Tel.: 01278 3217 · www.auto_profi_hoffmann.de</div>
+            `
+          },
+          {
+            code: "B",
+            tagPos: "right",
+            hasPin: true,
+            cardClass: "anzeige-style-b",
+            html: `
+              <div class="anzeige-headline" style="color:#b83216;">Luxus-Autowäsche nur 9,50 € <span style="font-size:13px; text-decoration:line-through; color:#777;">statt 19 €</span></div>
+              <p style="margin-bottom:8px; font-size:13.5px; font-weight:700;">Verwöhnen Sie Ihr Auto – damit Sie länger Freude daran haben!</p>
+              <p style="margin-bottom:8px; font-size:13px; line-height:1.4;">Nach 10 Autowäschen in einem <strong>CleanestCar-Autopflege-Center</strong> bekommen Sie bei uns eine Luxus-Autowäsche inkl. Wachs, Farbauffrischung und Felgenreinigung zum <strong>HALBEN PREIS</strong>.</p>
+              <div style="font-size:12px; color:var(--text-muted); margin-top:6px;">Bei allen CleanestCar-Autopflege-Center, bis zum 30.12.<br><strong>www.cleanestcar.de</strong></div>
+            `
+          },
+          {
+            code: "C",
+            tagPos: "left",
+            hasPin: false,
+            cardClass: "anzeige-style-c",
+            html: `
+              <div class="anzeige-headline" style="color:#206b3a;">Umweltbewusst fahren – zu fairen Preisen</div>
+              <p style="margin-bottom:6px; font-size:13px;"><strong>autoscout24 – Österreichs größter Automarkt</strong><br>jetzt auch in Klosterneuburg</p>
+              <p style="margin-bottom:6px; font-size:13px; line-height:1.4;">Große Auswahl an gebrauchten Elektroautos.<br><strong>Super-Sonderangebot zur Eröffnung:</strong> 10% auf alle E-Autos!</p>
+              <div style="font-size:12px; color:var(--text-muted); font-weight:600;">autoscout24 · Alpenstraße 24 · Klosterneuburg<br>www.autoscout.at · Tel.: +43(0)2243/87725</div>
+            `
+          },
+          {
+            code: "D",
+            tagPos: "right",
+            hasPin: false,
+            cardClass: "anzeige-style-d",
+            html: `
+              <div class="anzeige-headline">Autohaus Hellmer — Mobilitätsgarantie</div>
+              <p style="font-size:13px; font-weight:700; color:#185a9d; margin-bottom:6px;">bis zum 1.5. nur 89,– Euro (pro Jahr inkl. jährliche Hauptuntersuchung)</p>
+              <div style="font-size:12.5px; line-height:1.4; margin-bottom:8px;">
+                <strong>Mobilitätsgarantie – 365 Tage im Jahr, 24 Std. am Tag:</strong><br>
+                • Pannenhilfe daheim und unterwegs<br>
+                • Bergen und Abschleppen bei Unfällen<br>
+                • <strong>Ersatzwagen bis zu 3 Tagen</strong> oder Hotelübernachtung für Sie und Ihre Mitfahrer
+              </div>
+              <div style="font-size:12px; color:var(--text-muted);">Bergerstr. 17 · 78934 Saalfeld · Tel: (06510) 17 78-0<br>www.autohaus-hellmer.de · info@autohaus-hellmer.de</div>
+            `
+          },
+          {
+            code: "E",
+            tagPos: "left",
+            hasPin: true,
+            cardClass: "anzeige-style-e",
+            html: `
+              <div class="anzeige-headline" style="color:#d9534f;">Autowaschen für einen guten Zweck</div>
+              <p style="font-size:13px; margin-bottom:6px;"><strong>Na, was machen Sie so regelmäßig am Samstag?</strong><br>Ab mit dem Auto in die Waschanlage?</p>
+              <p style="font-size:13px; line-height:1.4; margin-bottom:8px;">Im April können Sie das jeden Samstag bei <strong>Car Wash Royal</strong> am Klusenweg 10 in Schwerte tun und dazu einen guten Zweck unterstützen:</p>
+              <div style="background:#fff3cd; border:1px solid #ffeeba; border-radius:5px; padding:6px; font-size:12.5px; font-weight:700; color:#856404; margin-bottom:6px;">
+                Von jeder Fahrzeugwäsche gehen 4,– € in die Spendenkasse für die Jugendfeuerwehr Schwerte!
+              </div>
+            `
+          },
+          {
+            code: "F",
+            tagPos: "right",
+            hasPin: true,
+            cardClass: "anzeige-style-f",
+            html: `
+              <div class="anzeige-headline">Jetzt neu! eckert mobil</div>
+              <p style="font-size:13px; font-weight:700; margin-bottom:4px;">Auto- und Motorrad-Service – alle gängigen Marken</p>
+              <div style="font-size:12.5px; line-height:1.4; margin-bottom:8px;">
+                <strong>Unfallinstandsetzung im eigenen Haus – Der absolute Allround-Service:</strong><br>
+                • alle Reparaturen mit Original-Ersatzteilen<br>
+                • <strong>gesamte Unfallabwicklung</strong> inkl. Fahrzeugabholung am Unfallort und <strong>Regelung aller Formalien mit der Versicherung</strong>!
+              </div>
+              <div style="font-size:12px; color:var(--text-muted); font-weight:600;">Eindhovener Str. 77 · 4175 Aachen · Tel: 02162/1020951<br>info@eckertmobil.de · www.eckertmobil.de</div>
+            `
+          },
+          {
+            code: "G",
+            tagPos: "left",
+            hasPin: false,
+            cardClass: "anzeige-style-g",
+            html: `
+              <div class="anzeige-headline" style="color:#2c3e50;">Allein ist langweilig und teuer!</div>
+              <p style="font-size:13px; line-height:1.45; margin-bottom:8px;">
+                <strong>Suche tägl. Mitfahrgelegenheit</strong> Klosterneuburg – Wien-Zentrum, Büroarbeitszeiten.<br>
+                Selbstverständlich nicht umsonst: übernehme verlässlich meinen Teil der Benzinkosten!
+              </p>
+              <div style="font-weight:700; font-size:13px; color:#185a9d;">Kontakt: Maximilian 0650-8977234</div>
+            `
+          },
+          {
+            code: "H",
+            tagPos: "right",
+            hasPin: false,
+            cardClass: "anzeige-style-h",
+            html: `
+              <div class="anzeige-headline" style="color:#0f3460;">austriamobil — Chauffeurservice</div>
+              <div style="font-size:12px; color:#555; margin-bottom:6px; font-weight:700;">verlässlich · sicher · pünktlich · komfortabel</div>
+              <p style="font-size:12.5px; line-height:1.4; margin-bottom:6px;">
+                Ob Sie privat oder geschäftlich unterwegs sind – mit uns wird Wien zum stressfreien Erlebnis, fern von öffentlichen Verkehrsmitteln und dauernder Parkplatz- oder Taxisuche.
+              </p>
+              <div style="font-size:12px; font-weight:700;">Infos & Buchung: www.austriamobil.at · Tel: +43(0)2255 77777</div>
+            `
+          },
+          {
+            code: "I",
+            tagPos: "left",
+            hasPin: true,
+            cardClass: "anzeige-style-i",
+            html: `
+              <div class="anzeige-headline" style="color:#1b5e20;">Sicher & energiesparend fahren lernen</div>
+              <p style="font-size:13px; font-weight:700; margin-bottom:4px;">FAHRSCHULE Peter Rüegg</p>
+              <p style="font-size:12.5px; line-height:1.4; margin-bottom:6px;">
+                Umweltschonend und energiesparend fahren lernen. Intensivkurse und Ferienlehrgang vom 15.07.–21.07. in Zürich.<br>
+                <span style="color:#c0392b; font-weight:800; background:#fce4e4; padding:2px 5px; border-radius:3px;">Nicht für Jungfahrer.</span>
+              </p>
+              <div style="font-size:12px; color:var(--text-muted);">Dammstrasse 45, Zürich · Tel: 079-6135691 · www.fahrschule-rueegg.ch</div>
+            `
+          },
+          {
+            code: "J",
+            tagPos: "right",
+            hasPin: false,
+            cardClass: "anzeige-style-j",
+            html: `
+              <div class="anzeige-headline" style="color:#6c3483;">Besuchen Sie den Auto Salon Genf</div>
+              <p style="font-size:13px; font-weight:700; margin-bottom:4px;">Dieses Jahr im Blickpunkt: Das E-Auto</p>
+              <div style="font-size:12.5px; line-height:1.4; margin-bottom:8px;">
+                Neue Modelle aller Automarken – neue Technologien – bessere Leistungen!<br>
+                <strong>Inklusive:</strong> 2 Wochenend-Eintrittskarten & 1 Hotelübernachtung inkl. Frühstück direkt am Messegelände ab CHF 320.
+              </div>
+              <div style="font-size:12px; color:var(--text-muted); font-weight:600;">Reiseagentur Genève · Tel: 058 451 49 32 · E-Mail: info@ch-travel.ch</div>
+            `
+          }
+        ],
+        questions: [
+          { id: 13, type: "match", text: "Ehepaar Jansen bringt sein Auto zum Waschen regelmäßig in eine Autowaschanlage. Es sucht aber immer nach Möglichkeiten, dabei auch etwas Gutes für andere zu tun.", answer: "E" },
+          { id: 14, type: "match", text: "Benno hat seit Kurzem den Führerschein, möchte aber noch mehr über sicheres und energiesparendes Fahren lernen.", answer: "X" },
+          { id: 15, type: "match", text: "Frau Wyss ist mit ihrem alten Elektro-Auto nicht mehr zufrieden und möchte sich über die neuesten E-Modelle der verschiedenen Automarken informieren.", answer: "J" },
+          { id: 16, type: "match", text: "Herr Wieser ist gehbehindert und fährt deshalb immer mit dem Auto ins Büro. Aber die Strecke von Klosterneuburg bis ins Zentrum von Wien ist lang und Benzin wird immer teurer.", answer: "G" },
+          { id: 17, type: "match", text: "Melissa hat seit drei Monaten einen Führerschein und findet es nicht gut, dass sie noch nicht einmal einen Reifen wechseln kann.", answer: "A" },
+          { id: 18, type: "match", text: "Bei ihrem letzten Unfall war Frau Schulte zwei Tage ohne Auto, was ihr bei ihrer Arbeit als Versicherungsvertreterin viele Probleme verursacht hat.", answer: "D" },
+          { id: 19, type: "match", text: "Herr Nowak hatte leider schon wieder einen Unfall. Das letzte Mal hat er sich sehr über die Werkstatt und die Versicherungsvertreter geärgert.", answer: "F" }
+        ]
+      },
+      {
+        id: 4,
+        title: "Teil 4",
+        time: 15,
+        instructions: "Lesen Sie die Texte 20 bis 26. Wählen Sie: Ist die Person für ein Verbot?",
+        topic: "In einer Zeitschrift lesen Sie Kommentare zu einem Artikel über Graffiti an den Wänden der Stadt und die Möglichkeit, dies zu verbieten.",
+        example: {
+          who: "Jakob, 16, Neuruppin",
+          text: "Ich frage mich oft, ob Graffiti Kunst ist oder nicht. Manchmal machen die Sprayer richtig schöne Bilder oder Comics, das gefällt bestimmt jedem. Jedoch einfach nur Farbe hinzuschmieren, finde ich doof. Aber wenn ich das entscheiden müsste, würde ich es doch nicht verbieten.",
+          answer: "nein"
+        },
+        letters: [
+          { id: 20, who: "Anton, 14, Wolfratshausen", text: "Meine ältere Schwester hat schon mal mit Freunden gesprayt. Die sind da am Sonntagmorgen zu einem Industriegelände gegangen. Ich war am nächsten Tag auch da, aber mir hat ihr Kunstwerk nicht gefallen, weil es nicht so gut war. Als unsere Eltern das hörten, sind sie ausgerastet. Sie waren richtig böse und haben meine Schwester auch bestraft. Aber trotzdem, ich finde so etwas allgemein sehr cool.", answer: "nein" },
+          { id: 21, who: "Ernst, 48, Heidelberg", text: "Ich mag es gern, wenn alles gepflegt und schön ist. Wenn überall Graffiti sind, sieht es unordentlich und chaotisch aus – schrecklich! Mich stört das. Wie soll man diesen Anblick nur tagein, tagaus ertragen? Kommen Sie mal zu mir, in meine Straße, und sehen Sie es sich an, dann verstehen Sie sofort, was ich meine.", answer: "ja" },
+          { id: 22, who: "Conni, 37, Regensburg", text: "Was ich zu Graffiti meine? Schwer zu sagen. Es gab ja früher schon Fassadenmalereien an großen Mietshäusern in der Stadt, aber das war nicht ganz so unruhig und natürlich hatte es jemand gegen Geld gemacht. Graffiti hat immer etwas Illegales und ich denke auch, es wäre besser, so etwas nicht zu dulden. Schließlich soll nicht jeder machen können, was er will, dann hätten wir hier ein Chaos.", answer: "ja" },
+          { id: 23, who: "Torben, 18, Luzern", text: "Die Frage erübrigt sich. Stellt euch doch mal vor, wie monoton unsere Städte wären. Mich nervt das Geordnete und übermässig Saubere. Man muss doch mal etwas anderes sehen können. Wenn ich mir Fotos von früher anschaue, bevor es Graffiti gab, finde ich die Stadt unvorstellbar langweilig und nichtssagend. So kann unsere Welt nicht sein!", answer: "nein" },
+          { id: 24, who: "Inge, 52, Bonn", text: "Ich weiß nur, dass diese Farben ungesund sind. Einmal habe ich sogar gelesen, dass man beim Sprayen eine Gesichtsmaske tragen soll, um die giftigen Dämpfe nicht einzuatmen. Das kann nicht zugelassen werden. Sogar junge Leute müssen das verstehen. Oder kann man dabei zusehen, wie sie sich ihre Gesundheit zerstören?", answer: "ja" },
+          { id: 25, who: "Gabriele, 40, Hannover", text: "Graffiti ist überall. Wir Älteren wurden nie gefragt, ob wir das wollen oder nicht. So kann doch eine Demokratie nicht funktionieren. Da haben die Lehrer und Eltern versagt. Es zeigt geradezu, dass die Erziehungsberechtigten einfach alles durchgehen lassen. Ihnen allen sollte ein Denkzettel verpasst werden. Die richtige Maßnahme wäre, streng durchzugreifen.", answer: "ja" },
+          { id: 26, who: "Mara, 22, Flensburg", text: "Kaum hat sich mal jemand etwas Aufregendes ausgedacht, schon müssen alle darüber schimpfen. Das ist immer so. Es war genauso mit Piercing, Tattoo und allen Dingen, die Jugendlichen gefallen. Haben junge Leute in unserer Gesellschaft nie etwas zu sagen, können sie sich nicht frei ausdrücken? Ich lehne eine solche Bevormundung schlichtweg ab.", answer: "nein" }
+        ]
+      },
+      {
+        id: 5,
+        title: "Teil 5",
+        time: 10,
+        instructions: "Sie informieren sich mithilfe der Packungsbeilage über den Fenchelhonig, weil Ihr kleiner Cousin krank ist. Wählen Sie bei jeder Aufgabe 27 bis 30 die richtige Lösung a, b oder c.",
+        articles: [{
+          heading: "Packungsbeilage – Gebrauchsinformation: Information für den Anwender",
+          sub: "Fenchelhonig gegen Husten und Heiserkeit · Für Kinder ab 1 Jahr",
+          meta: "Wirkstoff: 100 g Sirup enthalten 50 mg bitteres Fenchelöl",
+          body: [
+            "<strong>WAS IST FENCHELHONIG GEGEN HUSTEN UND HEISERKEIT?</strong><br>Fenchelhonig gegen Husten und Heiserkeit ist ein pflanzlicher Sirup mit angenehmem Geschmack gegen Erkältungskrankheiten der oberen Atemwege mit zähflüssigem Schleim bei Kindern.",
+            "<strong>WIE IST FENCHELHONIG GEGEN HUSTEN UND HEISERKEIT EINZUNEHMEN?</strong><br>Falls vom Arzt nicht anders verordnet, ist die übliche Dosis: Kinder ab einem Jahr bekommen 2- bis 3-mal täglich je einen Messlöffel (5 ml / 6,5 g) [entsprechend 3,25 mg Fenchelöl] Fenchelhonig gegen Husten und Heiserkeit in Wasser, Tee oder pur.",
+            "<strong>WELCHE NEBENWIRKUNGEN SIND MÖGLICH?</strong><br>Wie alle Arzneimittel kann Fenchelhonig gegen Husten und Heiserkeit Nebenwirkungen haben, die aber nicht bei jedem auftreten müssen.<br>Sehr selten können allergische Reaktionen der Haut und der Atemwege auftreten.<br>Der häufige und dauernde Gebrauch von Fenchelhonig gegen Husten und Heiserkeit kann schädlich für die Zähne sein (Karies).",
+            "<strong>HINWEISE ZUR AUFBEWAHRUNG VON FENCHELHONIG GEGEN HUSTEN UND HEISERKEIT</strong><br>• Nicht über 30°C lagern; bei höheren Temperaturen im Kühlschrank aufbewahren.<br>• Sie dürfen den Sirup nach dem auf dem Etikett angegebenen Verfallsdatum nicht mehr verwenden. Das Verfallsdatum bezieht sich auf den letzten Tag des Monats.<br>• Nach Öffnen der Flasche ist das Medikament bei Beachtung der Aufbewahrungsbedingungen 6 Monate haltbar.",
+            "<em>Wie alle Medikamente ist Fenchelhonig gegen Husten und Heiserkeit kindersicher aufzubewahren!</em>"
+          ]
+        }],
+        example: { text: "Fenchelhonig ist ein Medikament …", options: ["für Erwachsene und Jugendliche.", "gegen Erkältungskrankheiten bei Kindern ab 1 Jahr.", "nur gegen Fieber."], answer: 1 },
+        questions: [
+          { id: 27, type: "mcq", text: "Mögliche Nebenwirkungen:", options: ["Fenchelhonig zeigt keine Nebenwirkungen.", "Es kann zu Zahnschäden kommen.", "Bei Allergikern kommt es häufig für kurze Zeit zu Hautreaktionen."], answer: 1 },
+          { id: 28, type: "mcq", text: "Kinder können Fenchelhonig nehmen, …", options: ["obwohl er sehr bitter schmeckt.", "obwohl das Medikament nur künstliche Wirkstoffe enthält.", "wenn sie mindestens zwölf Monate alt sind."], answer: 2 },
+          { id: 29, type: "mcq", text: "Man muss wissen, dass …", options: ["der Sirup nach dem Öffnen noch ein halbes Jahr verwendet werden kann.", "der Sirup vor der Verwendung warm gemacht werden muss.", "dass der Sirup immer im Kühlschrank stehen muss."], answer: 0 },
+          { id: 30, type: "mcq", text: "Die übliche Dosis …", options: ["bestimmt der Arzt.", "kann man mit jedem Getränk einnehmen.", "gilt für jüngere und ältere Kinder."], answer: 2 }
+        ]
+      },
+      {
+        id: 6,
+        title: "🎧 Hören",
+        badge: "Hören",
+        isHoren: true,
+        time: 40,
+        instructions: "Das Modul Hören besteht aus vier Teilen. Sie hören mehrere Texte und lösen Aufgaben dazu. Für jede Aufgabe gibt es nur eine richtige Lösung.",
+        audioSrc: "audio/modellsatz-4-hoeren.mp3",
+        audioFallbacks: [
+          "audio/13.mp3",
+          "audio/modellsatz-13-hoeren.mp3",
+          "audio/hoeren.mp3"
+        ],
+        audioChapters: [
+          { time: 0, label: "00:00 Einleitung" },
+          { time: 25, label: "00:25 Beispiel" },
+          { time: 130, label: "02:10 Teil 1 (Texte 1–5)" },
+          { time: 729, label: "12:09 Teil 2 (Ballonfahrten)" },
+          { time: 1022, label: "17:02 Teil 3 (Klassenreise)" },
+          { time: 1288, label: "21:28 Teil 4 (Radiotalk Essen)" }
+        ],
+        questions: [
+          // Teil 1: 1 - 10
+          { id: "h1", num: 1, type: "tf", text: "Der Tipp ist für junge Leute, die studieren wollen.", answer: "falsch", teilPart: 1, textNum: 1 },
+          { id: "h2", num: 2, type: "mcq", text: "Wo kann man aktiv sein?", options: ["In einem Krankenhaus.", "In einem Altenheim.", "In einer Arztpraxis."], answer: 1, teilPart: 1, textNum: 1 },
+          { id: "h3", num: 3, type: "tf", text: "Die Polizei kennt den Täter.", answer: "falsch", teilPart: 1, textNum: 2 },
+          { id: "h4", num: 4, type: "mcq", text: "Wie geht es der Kellnerin?", options: ["Sie ist verletzt.", "Sie ist tot.", "Sie ist betrunken."], answer: 0, teilPart: 1, textNum: 2 },
+          { id: "h5", num: 5, type: "tf", text: "Die Informationen sind für Reisende, die auf dem Flughafen ankommen.", answer: "falsch", teilPart: 1, textNum: 3 },
+          { id: "h6", num: 6, type: "mcq", text: "Wer muss sich beeilen?", options: ["Die Passagiere nach Frankfurt.", "Die Passagiere nach Köln.", "Die Passagiere Siebert und Johannsen."], answer: 0, teilPart: 1, textNum: 3 },
+          { id: "h7", num: 7, type: "tf", text: "Sie hören eine Auskunft über die Bestellung von Eintrittskarten.", answer: "richtig", teilPart: 1, textNum: 4 },
+          { id: "h8", num: 8, type: "mcq", text: "Wann kann man bestellen?", options: ["Samstag und Sonntag von 7.30 Uhr bis 18.00 Uhr.", "Montag bis Sonntag von 7.30 Uhr bis 20.00 Uhr.", "Montag bis Freitag bis 20.00 Uhr."], answer: 2, teilPart: 1, textNum: 4 },
+          { id: "h9", num: 9, type: "tf", text: "Sie hören eine Werbung für Reisen.", answer: "falsch", teilPart: 1, textNum: 5 },
+          { id: "h10", num: 10, type: "mcq", text: "Alle Angebote kosten …", options: ["über 100 Euro.", "unter 100 Euro.", "98 Euro."], answer: 1, teilPart: 1, textNum: 5 },
+
+          // Teil 2: 11 - 15
+          { id: "h11", num: 11, type: "mcq", text: "Wer besucht die Informationsveranstaltung?", options: ["Wer eine Ballonfahrt gewonnen hat.", "Wer das Sportmagazin liest.", "Wer an dem Quiz teilnehmen möchte."], answer: 0, teilPart: 2 },
+          { id: "h12", num: 12, type: "mcq", text: "Die Piloten der Ballons …", options: ["kommen aus der Schweiz.", "holen die Gäste ab.", "fliegen seit über 20 Jahren."], answer: 2, teilPart: 2 },
+          { id: "h13", num: 13, type: "mcq", text: "Wie hoch kann ein Ballon steigen?", options: ["Bis zu 30 Metern.", "Bis zu 300 Metern.", "Bis zu 3000 Metern."], answer: 2, teilPart: 2 },
+          { id: "h14", num: 14, type: "mcq", text: "Die Fahrgäste sollten …", options: ["keine Höhenangst haben.", "einen Fotoapparat dabeihaben.", "vom Ballon nicht hinunterschauen."], answer: 1, teilPart: 2 },
+          { id: "h15", num: 15, type: "mcq", text: "In dem ersten Ballon, der in die Luft stieg, …", options: ["war ein König.", "waren Josef und Etienne Montgolfier.", "waren Tiere."], answer: 2, teilPart: 2 },
+
+          // Teil 3: 16 - 22
+          { id: "h16", num: 16, type: "tf", text: "Herr Brunner und die Schüler organisieren die Klassenreise gemeinsam.", answer: "richtig", teilPart: 3 },
+          { id: "h17", num: 17, type: "tf", text: "Die Klasse hat beschlossen, eine Radtour zu machen.", answer: "falsch", teilPart: 3 },
+          { id: "h18", num: 18, type: "tf", text: "Die meisten Schüler lernen nur Englisch.", answer: "falsch", teilPart: 3 },
+          { id: "h19", num: 19, type: "tf", text: "Viktoria hat es in London nicht gefallen.", answer: "falsch", teilPart: 3 },
+          { id: "h20", num: 20, type: "tf", text: "Herr Brunner war gegen eine Klassenreise nach Paris.", answer: "falsch", teilPart: 3 },
+          { id: "h21", num: 21, type: "tf", text: "Es gibt Eltern, für die eine Auslandsreise zu teuer ist.", answer: "richtig", teilPart: 3 },
+          { id: "h22", num: 22, type: "tf", text: "Die Schüler wollen, dass alle mitfahren können.", answer: "richtig", teilPart: 3 },
+
+          // Teil 4: 23 - 30
+          { id: "h23", num: 23, type: "speaker", text: "Die Reaktion anderer auf das erste Werk war eine Herausforderung.", options: ["Moderator", "Juliane Schulz", "Lukas Tilmann"], answer: 2, teilPart: 4 },
+          { id: "h24", num: 24, type: "speaker", text: "Die Objekte entstehen aus dem, was übrig bleibt.", options: ["Moderator", "Juliane Schulz", "Lukas Tilmann"], answer: 2, teilPart: 4 },
+          { id: "h25", num: 25, type: "speaker", text: "Hunger gibt es nicht nur in armen Ländern.", options: ["Moderator", "Juliane Schulz", "Lukas Tilmann"], answer: 1, teilPart: 4 },
+          { id: "h26", num: 26, type: "speaker", text: "Mit dem Essen aus Europas Müll könnte man alle hungrigen Menschen ernähren.", options: ["Moderator", "Juliane Schulz", "Lukas Tilmann"], answer: 0, teilPart: 4 },
+          { id: "h27", num: 27, type: "speaker", text: "Manche Produkte dürfen weder verkauft noch verschenkt werden.", options: ["Moderator", "Juliane Schulz", "Lukas Tilmann"], answer: 1, teilPart: 4 },
+          { id: "h28", num: 28, type: "speaker", text: "Essen auf dem Müll ist auch ein Problem für die Umwelt.", options: ["Moderator", "Juliane Schulz", "Lukas Tilmann"], answer: 0, teilPart: 4 },
+          { id: "h29", num: 29, type: "speaker", text: "Aus Protest aus dem Müll zu essen ist sinnlos.", options: ["Moderator", "Juliane Schulz", "Lukas Tilmann"], answer: 1, teilPart: 4 },
+          { id: "h30", num: 30, type: "speaker", text: "Die Kunstausstellung soll der „Tafel“ helfen.", options: ["Moderator", "Juliane Schulz", "Lukas Tilmann"], answer: 2, teilPart: 4 }
+        ],
+        horenSections: [
+          {
+            partNumber: 1,
+            title: "Teil 1",
+            badge: "Aufgaben 1 – 10",
+            intro: "Sie hören nun fünf kurze Texte. Sie hören jeden Text zweimal. Zu jedem Text lösen Sie zwei Aufgaben. Wählen Sie bei jeder Aufgabe die richtige Lösung. Lesen Sie zuerst das Beispiel. Dazu haben Sie 10 Sekunden Zeit.",
+            example: {
+              ex01: { num: "01", text: "Sie hören eine Auskunft eines Elektrogeschäfts.", type: "tf", answer: "falsch" },
+              ex02: { num: "02", text: "Wo werden die meisten Geräte repariert?", type: "mcq", options: ["In der Werkstatt.", "Beim TÜV-Kundendienst.", "Zu Hause beim Kunden."], answer: 2 }
+            },
+            texts: [
+              { number: 1, title: "Text 1", qIds: ["h1", "h2"] },
+              { number: 2, title: "Text 2", qIds: ["h3", "h4"] },
+              { number: 3, title: "Text 3", qIds: ["h5", "h6"] },
+              { number: 4, title: "Text 4", qIds: ["h7", "h8"] },
+              { number: 5, title: "Text 5", qIds: ["h9", "h10"] }
+            ]
+          },
+          {
+            partNumber: 2,
+            title: "Teil 2",
+            badge: "Aufgaben 11 – 15",
+            intro: "Sie hören nun einen Text. Sie hören den Text einmal. Dazu lösen Sie fünf Aufgaben. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c. Lesen Sie jetzt die Aufgaben 11 bis 15. Dazu haben Sie 60 Sekunden Zeit.",
+            context: "Sie nehmen an einer Informationsveranstaltung über Ballonfahrten teil.",
+            qIds: ["h11", "h12", "h13", "h14", "h15"]
+          },
+          {
+            partNumber: 3,
+            title: "Teil 3",
+            badge: "Aufgaben 16 – 22",
+            intro: "Sie hören nun ein Gespräch. Sie hören das Gespräch einmal. Dazu lösen Sie sieben Aufgaben. Wählen Sie: Sind die Aussagen richtig oder falsch? Lesen Sie jetzt die Aufgaben 16 bis 22. Dazu haben Sie 60 Sekunden Zeit.",
+            context: "Sie stehen an einer Bushaltestelle in Wien und hören, wie sich ein Mann und eine Frau über eine Klassenreise unterhalten.",
+            qIds: ["h16", "h17", "h18", "h19", "h20", "h21", "h22"]
+          },
+          {
+            partNumber: 4,
+            title: "Teil 4",
+            badge: "Aufgaben 23 – 30",
+            intro: "Sie hören nun eine Diskussion. Sie hören die Diskussion zweimal. Dazu lösen Sie acht Aufgaben. Ordnen Sie die Aussagen zu: Wer sagt was? Lesen Sie jetzt die Aussagen 23 bis 30. Dazu haben Sie 60 Sekunden Zeit.",
+            context: "Der Moderator der Radiosendung „MitTalk“ diskutiert mit den Studenten Juliane Schulz, aktivem Mitglied der Stiftung „Tafel“ und Lukas Tilmann, einem Künstler der besonderen Art, zum Thema „Wie gehen wir mit dem Essen um?“.",
+            speakers: [
+              { code: "a", name: "Moderator" },
+              { code: "b", name: "Juliane Schulz" },
+              { code: "c", name: "Lukas Tilmann" }
+            ],
+            example: {
+              num: "0",
+              text: "Die Namen der Kunstwerke sind fantasievoll.",
+              answerCode: "a",
+              answerSpeaker: "Moderator"
+            },
+            qIds: ["h23", "h24", "h25", "h26", "h27", "h28", "h29", "h30"]
+          }
+        ]
+      }
+    ]
   }
 ];

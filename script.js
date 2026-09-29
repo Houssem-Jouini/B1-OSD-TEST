@@ -1437,7 +1437,7 @@ function renderQuestions(t) {
       const isFlagged = flaggedQuestions.has(q.id);
       const qText = trPart?.questions?.[String(q.id)]?.[questionsLang] || q.text;
 
-      const isCorrect = isRevealed && isAnswered && String(val).toUpperCase() === String(q.answer).toUpperCase();
+      const isCorrect = isRevealed && isAnswered && isMatchOrTfCorrect(val, q.answer);
 
       let selectOpts = `<option value="">${selectPrompt}</option>`;
       codes.forEach(c => {
@@ -1897,15 +1897,27 @@ window.seekHorenAudio = function(seconds) {
   }
 };
 
+function isMatchOrTfCorrect(userVal, correctVal) {
+  if (userVal === undefined || userVal === null || userVal === '') return false;
+  const u = String(userVal).trim().toLowerCase();
+  const c = String(correctVal).trim().toLowerCase();
+  if (u === c) return true;
+  if ((u === '0' || u === 'x') && (c === '0' || c === 'x')) return true;
+  return false;
+}
+
 function updateChapterActiveState(currentTime) {
-  const chapterTimes = [
-    { time: 1230, idx: 5 }, // 20:30 Teil 4
-    { time: 917, idx: 4 },  // 15:17 Teil 3
-    { time: 652, idx: 3 },  // 10:52 Teil 2
-    { time: 122, idx: 2 },  // 02:02 Teil 1
-    { time: 40, idx: 1 },   // 00:40 Beispiel
-    { time: 0, idx: 0 }     // 00:00 Einleitung
-  ];
+  const t = testData.find(x => x.isHoren);
+  const chapterTimes = (t && t.audioChapters && t.audioChapters.length)
+    ? [...t.audioChapters].reverse().map((ch, revIdx) => ({ time: ch.time, idx: t.audioChapters.length - 1 - revIdx }))
+    : [
+        { time: 1230, idx: 5 }, // 20:30 Teil 4
+        { time: 917, idx: 4 },  // 15:17 Teil 3
+        { time: 652, idx: 3 },  // 10:52 Teil 2
+        { time: 122, idx: 2 },  // 02:02 Teil 1
+        { time: 40, idx: 1 },   // 00:40 Beispiel
+        { time: 0, idx: 0 }     // 00:00 Einleitung
+      ];
   const matched = chapterTimes.find(ch => currentTime >= ch.time);
   const activeIdx = matched ? matched.idx : 0;
 
@@ -2026,7 +2038,8 @@ function initHorenAudioDeck() {
       statusDot.className = 'horen-status-dot ready';
     }
     if (statusText && !audio.src.startsWith('blob:')) {
-      statusText.textContent = 'Bereit: audio/hoeren.mp3';
+      const srcName = (audio.currentSrc || audio.src || '').split('/').pop() || 'hoeren.mp3';
+      statusText.textContent = `Bereit: audio/${srcName}`;
     }
   };
 
@@ -2164,11 +2177,13 @@ function renderHorenQuestionCard(q) {
   } else if (q.type === 'speaker') {
     const letters = ['a', 'b', 'c'];
     const idxVal = typeof val === 'number' ? val : (val !== undefined && val !== '' ? parseInt(val, 10) : null);
-    let speakerNames = q.options;
-    if (isAr) {
-      speakerNames = ['منسق الحوار (Moderator)', 'دانا شنايدر (Dana Schneider)', 'فلوريان بادر (Florian Bader)'];
-    } else if (questionsLang === 'fr') {
-      speakerNames = ['Le modérateur', 'Dana Schneider', 'Florian Bader'];
+    let speakerNames = trQ?.options?.[questionsLang] || q.options;
+    if (currentTest.id === 'modellsatz-1') {
+      if (isAr) {
+        speakerNames = ['منسق الحوار (Moderator)', 'دانا شنايدر (Dana Schneider)', 'فلوريان بادر (Florian Bader)'];
+      } else if (questionsLang === 'fr') {
+        speakerNames = ['Le modérateur', 'Dana Schneider', 'Florian Bader'];
+      }
     }
     optionsHtml = `
       <div class="speaker-options-group">
@@ -2220,38 +2235,60 @@ function renderHoren(t) {
   const badgeText = isAr ? '🎧 قسم الاستماع · 40 دقيقة' : (questionsLang === 'fr' ? '🎧 MODULE COMPRÉHENSION ORALE · 40 MINUTES' : '🎧 MODUL HÖREN · 40 MINUTEN');
   const mainTitleText = isAr ? 'شهادة جوته / ÖSD B1 — فهم المسموع' : (questionsLang === 'fr' ? 'Goethe / ÖSD Certificat B1 — Compréhension orale' : 'Goethe / ÖSD Zertifikat B1 — Hörverstehen');
 
-  const t1Title = trPart?.teile?.['1']?.title?.[questionsLang] || 'Fünf kurze Texte · Aufgaben 1 bis 10';
-  const t1Desc = trPart?.teile?.['1']?.desc?.[questionsLang] || 'Sie hören nun fünf kurze Texte. Sie hören jeden Text zweimal. Zu jedem Text lösen Sie zwei Aufgaben. Wählen Sie bei jeder Aufgabe die richtige Lösung. Lesen Sie zuerst das Beispiel. Dazu haben Sie 10 Sekunden Zeit.';
+  const sec1 = t.horenSections?.[0] || {};
+  const sec2 = t.horenSections?.[1] || {};
+  const sec3 = t.horenSections?.[2] || {};
+  const sec4 = t.horenSections?.[3] || {};
 
-  const t2Title = trPart?.teile?.['2']?.title?.[questionsLang] || 'Führung durch das Münchner Stadtmuseum · Aufgaben 11 bis 15';
-  const t2Desc = trPart?.teile?.['2']?.desc?.[questionsLang] || 'Sie hören nun einen Text. Sie hören den Text einmal. Dazu lösen Sie fünf Aufgaben. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c. Lesen Sie jetzt die Aufgaben 11 bis 15. Dazu haben Sie 60 Sekunden Zeit.';
-  const t2Sit = isAr ? 'أنت تشارك في جولة إرشادية داخل متحف مدينة ميونخ.' : (questionsLang === 'fr' ? 'Vous participez à une visite guidée du musée de la ville de Munich.' : 'Sie nehmen an einer Führung durch das Münchner Stadtmuseum teil.');
+  const t1Title = trPart?.teile?.['1']?.title?.[questionsLang] || sec1.title || 'Fünf kurze Texte · Aufgaben 1 bis 10';
+  const t1Desc = trPart?.teile?.['1']?.desc?.[questionsLang] || sec1.intro || 'Sie hören nun fünf kurze Texte. Sie hören jeden Text zweimal. Zu jedem Text lösen Sie zwei Aufgaben. Wählen Sie bei jeder Aufgabe die richtige Lösung. Lesen Sie zuerst das Beispiel. Dazu haben Sie 10 Sekunden Zeit.';
 
-  const t3Title = trPart?.teile?.['3']?.title?.[questionsLang] || 'Gespräch über ein Fest · Aufgaben 16 bis 22';
-  const t3Desc = trPart?.teile?.['3']?.desc?.[questionsLang] || 'Sie hören nun ein Gespräch. Sie hören das Gespräch einmal. Dazu lösen Sie sieben Aufgaben. Wählen Sie: Sind die Aussagen Richtig oder Falsch? Lesen Sie jetzt die Aufgaben 16 bis 22. Dazu haben Sie 60 Sekunden Zeit.';
-  const t3Sit = isAr ? 'أنت في موقف للحافلات وتستمع إلى رجل وامرأة يتحدثان عن حفل.' : (questionsLang === 'fr' ? 'Vous êtes à un arrêt de bus et entendez un homme et une femme parler d\'une fête.' : 'Sie sind an einer Bushaltestelle und hören, wie sich ein Mann und eine Frau über ein Fest unterhalten.');
+  const t2Title = trPart?.teile?.['2']?.title?.[questionsLang] || (sec2.context ? `${sec2.context} · ${sec2.badge || 'Aufgaben 11 bis 15'}` : (sec2.title || 'Aufgaben 11 bis 15'));
+  const t2Desc = trPart?.teile?.['2']?.desc?.[questionsLang] || sec2.intro || 'Sie hören nun einen Text. Sie hören den Text einmal. Dazu lösen Sie fünf Aufgaben. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c. Lesen Sie jetzt die Aufgaben 11 bis 15. Dazu haben Sie 60 Sekunden Zeit.';
+  const t2Sit = trPart?.teile?.['2']?.context?.[questionsLang] || sec2.context || (isAr ? 'أنت تشارك في جولة إرشادية داخل متحف مدينة ميونخ.' : (questionsLang === 'fr' ? 'Vous participez à une visite guidée du musée de la ville de Munich.' : 'Sie nehmen an einer Führung durch das Münchner Stadtmuseum teil.'));
 
-  const t4Title = trPart?.teile?.['4']?.title?.[questionsLang] || 'Radiodiskussion: Sollen kleine Kinder in die Kinderkrippe gehen? · Aufgaben 23 bis 30';
-  const t4Desc = trPart?.teile?.['4']?.desc?.[questionsLang] || 'Sie hören nun eine Diskussion. Sie hören die Diskussion zweimal. Dazu lösen Sie acht Aufgaben. Ordnen Sie die Aussagen zu: Wer sagt was? Lesen Sie jetzt die Aussagen 23 bis 30. Dazu haben Sie 60 Sekunden Zeit.';
-  const t4Sit = isAr
+  const t3Title = trPart?.teile?.['3']?.title?.[questionsLang] || (sec3.context ? `${sec3.context} · ${sec3.badge || 'Aufgaben 16 bis 22'}` : (sec3.title || 'Aufgaben 16 bis 22'));
+  const t3Desc = trPart?.teile?.['3']?.desc?.[questionsLang] || sec3.intro || 'Sie hören nun ein Gespräch. Sie hören das Gespräch einmal. Dazu lösen Sie sieben Aufgaben. Wählen Sie: Sind die Aussagen Richtig oder Falsch? Lesen Sie jetzt die Aufgaben 16 bis 22. Dazu haben Sie 60 Sekunden Zeit.';
+  const t3Sit = trPart?.teile?.['3']?.context?.[questionsLang] || sec3.context || (isAr ? 'أنت في موقف للحافلات وتستمع إلى رجل وامرأة يتحدثان عن حفل.' : (questionsLang === 'fr' ? 'Vous êtes à un arrêt de bus et entendez un homme et une femme parler d\'une fête.' : 'Sie sind an einer Bushaltestelle und hören, wie sich ein Mann und eine Frau über ein Fest unterhalten.'));
+
+  const t4Title = trPart?.teile?.['4']?.title?.[questionsLang] || (sec4.context ? `${sec4.context} · ${sec4.badge || 'Aufgaben 23 bis 30'}` : (sec4.title || 'Aufgaben 23 bis 30'));
+  const t4Desc = trPart?.teile?.['4']?.desc?.[questionsLang] || sec4.intro || 'Sie hören nun eine Diskussion. Sie hören die Diskussion zweimal. Dazu lösen Sie acht Aufgaben. Ordnen Sie die Aussagen zu: Wer sagt was? Lesen Sie jetzt die Aussagen 23 bis 30. Dazu haben Sie 60 Sekunden Zeit.';
+  const t4Sit = trPart?.teile?.['4']?.context?.[questionsLang] || sec4.context || (isAr
     ? 'برنامج «نقاش المساء»: يناقش منسق الحوار مع الوالدين دانا شنايدر وفلوريان بادر حول موضوع: هل ينبغي للأطفال الصغار الذهاب إلى دار الحضانة؟'
     : (questionsLang === 'fr'
       ? 'Émission « Discussion du soir » : Le modérateur débat avec les parents Dana Schneider et Florian Bader sur le thème : Les jeunes enfants devraient-ils aller en crèche ?'
-      : 'Der Moderator diskutiert mit den Eltern Dana Schneider und Florian Bader zum Thema: Sollen kleine Kinder in die Kinderkrippe gehen?');
+      : 'Der Moderator diskutiert mit den Eltern Dana Schneider und Florian Bader zum Thema: Sollen kleine Kinder in die Kinderkrippe gehen?'));
 
   const exampleBadge = isAr ? 'مثال' : (questionsLang === 'fr' ? 'Exemple' : 'Beispiel');
   const richtigLabel = isAr ? 'صحيح' : (questionsLang === 'fr' ? 'Vrai' : 'Richtig');
-  const falschLabel = isAr ? 'خطأ ✓' : (questionsLang === 'fr' ? 'Faux ✓' : 'Falsch ✓');
-  const ex1Text = isAr ? 'يقترح فرانك على يان السفر إلى صقلية بالطائرة.' : (questionsLang === 'fr' ? 'Frank propose à Jan de prendre l\'avion pour la Sicile.' : 'Frank schlägt Jan vor, nach Sizilien zu fliegen.');
-  const ex2Text = isAr ? 'أين يفضل يان قضاء المبيت؟' : (questionsLang === 'fr' ? 'Où Jan préfère-t-il passer la nuit ?' : 'Wo möchte Frank am liebsten übernachten?');
-  const ex2OptA = isAr ? 'عند الأقارب' : (questionsLang === 'fr' ? 'chez des proches' : 'bei Verwandten');
-  const ex2OptB = isAr ? 'في الفندق' : (questionsLang === 'fr' ? 'à l\'hôtel' : 'im Hotel');
-  const ex2OptC = isAr ? 'في الخيمة ✓' : (questionsLang === 'fr' ? 'sous la tente ✓' : 'im Zelt ✓');
+  const falschLabel = isAr ? 'خطأ' : (questionsLang === 'fr' ? 'Faux' : 'Falsch');
 
-  const ex0Text = isAr ? 'بالنسبة للأطفال الصغار، فإن السنوات الثلاث الأولى مهمة جداً.' : (questionsLang === 'fr' ? 'Pour les jeunes enfants, les trois premières années sont très importantes.' : 'Für kleine Kinder sind die ersten drei Jahre sehr wichtig.');
-  const spkMod = isAr ? 'منسق الحوار' : (questionsLang === 'fr' ? 'Le modérateur' : 'Moderator');
-  const spkDana = isAr ? 'دانا شنايدر ✓' : (questionsLang === 'fr' ? 'Dana Schneider ✓' : 'Dana Schneider ✓');
-  const spkFlorian = isAr ? 'فلوريان بادر' : (questionsLang === 'fr' ? 'Florian Bader' : 'Florian Bader');
+  const ex01 = sec1.example?.ex01 || {
+    num: "01",
+    text: isAr ? 'يقترح فرانك على يان السفر إلى صقلية بالطائرة.' : (questionsLang === 'fr' ? 'Frank propose à Jan de prendre l\'avion pour la Sicile.' : 'Frank schlägt Jan vor, nach Sizilien zu fliegen.'),
+    type: "tf",
+    answer: "falsch"
+  };
+  const ex02 = sec1.example?.ex02 || {
+    num: "02",
+    text: isAr ? 'أين يفضل يان قضاء المبيت؟' : (questionsLang === 'fr' ? 'Où Jan préfère-t-il passer la nuit ?' : 'Wo möchte Frank am liebsten übernachten?'),
+    type: "mcq",
+    options: isAr ? ['عند الأقارب', 'في الفندق', 'في الخيمة'] : (questionsLang === 'fr' ? ['chez des proches', 'à l\'hôtel', 'sous la tente'] : ['bei Verwandten', 'im Hotel', 'im Zelt']),
+    answer: 2
+  };
+
+  const speakers = sec4.speakers || [
+    { code: "a", name: isAr ? 'منسق الحوار' : (questionsLang === 'fr' ? 'Le modérateur' : 'Moderator') },
+    { code: "b", name: isAr ? 'دانا شنايدر' : (questionsLang === 'fr' ? 'Dana Schneider' : 'Dana Schneider') },
+    { code: "c", name: isAr ? 'فلوريان بادر' : (questionsLang === 'fr' ? 'Florian Bader' : 'Florian Bader') }
+  ];
+
+  const ex0 = sec4.example || {
+    num: "0",
+    text: isAr ? 'بالنسبة للأطفال الصغار، فإن السنوات الثلاث الأولى مهمة جداً.' : (questionsLang === 'fr' ? 'Pour les jeunes enfants, les trois premières années sont très importantes.' : 'Für kleine Kinder sind die ersten drei Jahre sehr wichtig.'),
+    answerCode: "b",
+    answerSpeaker: "Dana Schneider"
+  };
 
   let html = `
     <!-- Top Audio Player Card (Sticky / Top of Page) -->
@@ -2272,7 +2309,7 @@ function renderHoren(t) {
         <div class="horen-deck-top">
           <div class="horen-deck-status">
             <span class="horen-status-dot" id="horenStatusDot"></span>
-            <span class="horen-status-text" id="horenStatusText">Audioquelle: audio/hoeren.mp3</span>
+            <span class="horen-status-text" id="horenStatusText">Audioquelle: ${t.audioSrc || 'audio/hoeren.mp3'}</span>
           </div>
           <div class="horen-file-select-wrap">
             <label for="horenAudioFile" class="horen-file-btn" title="MP3-Datei von Ihrem Computer auswählen">
@@ -2318,25 +2355,27 @@ function renderHoren(t) {
         </div>
 
         <div class="horen-jump-strip">
-          <span class="horen-jump-label">Kapitel:</span>
-          <button type="button" class="horen-ch-btn active" onclick="seekHorenAudio(0)">00:00 Einleitung</button>
-          <button type="button" class="horen-ch-btn" onclick="seekHorenAudio(40)">00:40 Beispiel</button>
-          <button type="button" class="horen-ch-btn" onclick="seekHorenAudio(122)">02:02 Teil 1 (Texte 1–5)</button>
-          <button type="button" class="horen-ch-btn" onclick="seekHorenAudio(652)">10:52 Teil 2 (Museum)</button>
-          <button type="button" class="horen-ch-btn" onclick="seekHorenAudio(917)">15:17 Teil 3 (Bushaltestelle)</button>
-          <button type="button" class="horen-ch-btn" onclick="seekHorenAudio(1230)">20:30 Teil 4 (Kinderkrippe)</button>
+          <span class="horen-jump-label">${isAr ? 'الفصول:' : 'Kapitel:'}</span>
+          ${(t.audioChapters && t.audioChapters.length ? t.audioChapters : [
+            { time: 0, label: "00:00 Einleitung" },
+            { time: 40, label: "00:40 Beispiel" },
+            { time: 122, label: "02:02 Teil 1 (Texte 1–5)" },
+            { time: 652, label: "10:52 Teil 2" },
+            { time: 917, label: "15:17 Teil 3" },
+            { time: 1230, label: "20:30 Teil 4" }
+          ]).map((ch, idx) => `
+            <button type="button" class="horen-ch-btn ${idx === 0 ? 'active' : ''}" onclick="seekHorenAudio(${ch.time})">${ch.label}</button>
+          `).join('')}
         </div>
 
         <div class="horen-deck-tip">
-          💡 <strong>Lokale MP3:</strong> Sie können Ihre Audiodatei als <code>audio/hoeren.mp3</code> im Projektordner ablegen (wird automatisch geladen) oder oben auf <em>„MP3 vom PC wählen“</em> klicken.
+          💡 <strong>Lokale MP3:</strong> Sie können Ihre Audiodatei als <code>${t.audioSrc || 'audio/hoeren.mp3'}</code> im Projektordner ablegen (wird automatisch geladen) oder oben auf <em>„MP3 vom PC wählen“</em> klicken.
         </div>
 
         <audio id="horenAudioElement" preload="metadata">
+          ${t.audioSrc ? `<source src="${t.audioSrc}" type="audio/mpeg">` : ''}
+          ${(t.audioFallbacks || []).map(f => `<source src="${f}">`).join('')}
           <source src="audio/hoeren.mp3" type="audio/mpeg">
-          <source src="audio/modellsatz-1-hoeren.mp3" type="audio/mpeg">
-          <source src="audio/hoeren.m4a" type="audio/mp4">
-          <source src="audio/hoeren.wav" type="audio/wav">
-          <source src="audio/audio.mp3" type="audio/mpeg">
         </audio>
       </div>
     </div>
@@ -2355,20 +2394,20 @@ function renderHoren(t) {
 
         <!-- Teil 1 Example Box -->
         <div class="example-box horen-example">
-          <div class="example-badge">${exampleBadge} (01 & 02)</div>
+          <div class="example-badge">${exampleBadge} (${ex01.num} & ${ex02.num})</div>
           <div class="horen-ex-item">
-            <div class="horen-ex-q"><strong>01</strong> ${ex1Text}</div>
+            <div class="horen-ex-q"><strong>${ex01.num}</strong> ${ex01.text}</div>
             <div class="horen-ex-options">
-              <span class="ex-option-pill">${richtigLabel}</span>
-              <span class="ex-option-pill selected">${falschLabel}</span>
+              <span class="ex-option-pill ${ex01.answer === 'richtig' ? 'selected' : ''}">${richtigLabel}${ex01.answer === 'richtig' ? ' ✓' : ''}</span>
+              <span class="ex-option-pill ${ex01.answer === 'falsch' ? 'selected' : ''}">${falschLabel}${ex01.answer === 'falsch' ? ' ✓' : ''}</span>
             </div>
           </div>
           <div class="horen-ex-item" style="margin-top:10px;">
-            <div class="horen-ex-q"><strong>02</strong> ${ex2Text}</div>
+            <div class="horen-ex-q"><strong>${ex02.num}</strong> ${ex02.text}</div>
             <div class="horen-ex-options">
-              <span class="ex-option-pill">a) ${ex2OptA}</span>
-              <span class="ex-option-pill">b) ${ex2OptB}</span>
-              <span class="ex-option-pill selected">c) ${ex2OptC}</span>
+              ${(ex02.options || []).map((opt, i) => `
+                <span class="ex-option-pill ${ex02.answer === i ? 'selected' : ''}">${['a', 'b', 'c'][i]}) ${opt}${ex02.answer === i ? ' ✓' : ''}</span>
+              `).join('')}
             </div>
           </div>
         </div>
@@ -2444,19 +2483,22 @@ function renderHoren(t) {
         </div>
 
         <div class="horen-speakers-legend">
-          <div class="speaker-legend-pill"><span class="speaker-code">a</span> ${spkMod}</div>
-          <div class="speaker-legend-pill"><span class="speaker-code">b</span> ${spkDana}</div>
-          <div class="speaker-legend-pill"><span class="speaker-code">c</span> ${spkFlorian}</div>
+          ${speakers.map(spk => `
+            <div class="speaker-legend-pill"><span class="speaker-code">${spk.code}</span> ${spk.name}</div>
+          `).join('')}
         </div>
 
         <div class="example-box horen-example" style="margin-top:14px;">
-          <div class="example-badge">${exampleBadge} (0)</div>
+          <div class="example-badge">${exampleBadge} (${ex0.num})</div>
           <div class="horen-ex-item">
-            <div class="horen-ex-q"><strong>0</strong> ${ex0Text}</div>
+            <div class="horen-ex-q"><strong>${ex0.num}</strong> ${ex0.text}</div>
             <div class="horen-ex-options">
-              <span class="ex-option-pill">a) ${spkMod}</span>
-              <span class="ex-option-pill selected">b) ${spkDana}</span>
-              <span class="ex-option-pill">c) ${spkFlorian}</span>
+              ${speakers.map((spk, i) => {
+                const isSelected = ex0.answerCode === spk.code || ex0.answer === i || ex0.answerSpeaker === spk.name;
+                return `
+                  <span class="ex-option-pill ${isSelected ? 'selected' : ''}">${spk.code}) ${spk.name}${isSelected ? ' ✓' : ''}</span>
+                `;
+              }).join('')}
             </div>
           </div>
         </div>
@@ -3087,7 +3129,7 @@ function syncMistakesForTeil(teilId) {
   const qs = allQuestionsOf(t);
   qs.forEach(q => {
     const userVal = userAnswers[q.id];
-    const isCorrect = userVal !== undefined && String(userVal).toLowerCase() === String(q.answer).toLowerCase();
+    const isCorrect = userVal !== undefined && isMatchOrTfCorrect(userVal, q.answer);
     if (userVal !== undefined) {
       recordMistake(currentTest.id, t.id, q, userVal, isCorrect);
     }
@@ -3936,7 +3978,7 @@ function showResults() {
     let teilCorrect = 0;
     qs.forEach(q => {
       const userVal = userAnswers[q.id];
-      const isCorrect = userVal !== undefined && String(userVal).toLowerCase() === String(q.answer).toLowerCase();
+      const isCorrect = userVal !== undefined && isMatchOrTfCorrect(userVal, q.answer);
       if (isCorrect) teilCorrect++;
       flatQuestions.push({ ...q, userVal, isCorrect });
     });
