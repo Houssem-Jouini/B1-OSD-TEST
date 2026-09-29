@@ -1972,6 +1972,1571 @@ const explanationsData = {
             "fr": "C'est l'artiste lui-même qui prend l'engagement de faire ce don solidaire."
         }
     }
+},
+  "modellsatz-5": {
+    "1": {
+        "quote": "aber da ich nichts Besseres zu tun hatte und das Wetter ausnahmsweise gut war, stimmte ich zu.",
+        "whyCorrect": {
+            "de": "Falsch. Am Abend des Fests war das Wetter ausnahmsweise gut. Es war während des Fests also keineswegs schlechtes Wetter.",
+            "ar": "خطأ. كان الطقس في مساء المهرجان جيدًا على غير العادة («ausnahmsweise gut»)، وبالتالي لم يكن الطقس سيئًا أثناء المهرجان.",
+            "fr": "Faux. Le soir de la fête, le temps était exceptionnellement beau (« ausnahmsweise gut ») ; il ne faisait donc pas mauvais temps pendant la fête."
+        },
+        "whyIncorrect": {
+            "de": "Richtig ist nicht zutreffend, da Nicole ausdrücklich betont, dass das Wetter an diesem Samstagabend gut war.",
+            "ar": "الخيار 'صحيح' غير دقيق لأن نيكول أكدت بوضوح تحسن الطقس واستقراره مساء يوم السبت.",
+            "fr": "Choisir 'Vrai' est incorrect car Nicole souligne expressément que le temps s'était amélioré pour la soirée."
+        }
+    },
+    "2": {
+        "quote": "Das Fest fand im Zentrum statt, das für den Verkehr gesperrt war. Wir konnten also nicht mit dem Auto in die Innenstadt fahren und mussten zu Fuß gehen.",
+        "whyCorrect": {
+            "de": "Richtig. Die Innenstadt war für den Verkehr komplett gesperrt; Privatwagen durften nicht hineinfahren und die Besucher mussten zu Fuß gehen.",
+            "ar": "صحيح. كان مركز المدينة مغلقًا بالكامل أمام حركة المرور؛ فلم يُسمح بدخول السيارات وكان على الزوار الذهاب سيرًا على الأقدام.",
+            "fr": "Vrai. Le centre-ville était entièrement fermé à la circulation ; les voitures particulières ne pouvaient pas y entrer et il fallait marcher."
+        },
+        "whyIncorrect": {
+            "de": "Falsch ist unpassend, da die Sperrung des Stadtzentrums für Autos im Text unmissverständlich geschildert wird.",
+            "ar": "الخيار 'خطأ' غير صحيح، فالنص يذكر صراحة أن السيارات لم تتمكن من الدخول للمركز بسبب إغلاقه للمرور.",
+            "fr": "Choisir 'Faux' est incorrect car la fermeture du centre aux voitures est mentionnée sans équivoque."
+        }
+    },
+    "3": {
+        "quote": "Die Geschäfte waren alle auf, Straßen und Gassen waren mit Kerzen erleuchtet. Es war „lange Einkaufsnacht“.",
+        "whyCorrect": {
+            "de": "Falsch. Im Text steht wörtlich: „Die Geschäfte waren alle auf.“ Es waren also überhaupt keine Läden geschlossen, nicht einmal wenige.",
+            "ar": "خطأ. ينص النص حرفيًا على أن: «المتاجر كانت جميعها مفتوحة» (alle auf). أي لم يكن هناك أي متجر مغلق، ولا حتى القليل منها.",
+            "fr": "Faux. Le texte stipule littéralement : « Les magasins étaient tous ouverts » (alle auf). Aucun magasin n'était donc fermé."
+        },
+        "whyIncorrect": {
+            "de": "Richtig trifft nicht zu: „alle auf“ bedeutet eine lückenlose Öffnung aller Geschäfte.",
+            "ar": "الخيار 'صحيح' غير سليم لأن عبارة 'alle auf' تعني أن كافة المتاجر بلا استثناء كانت مفتوحة.",
+            "fr": "L'affirmation n'est pas vraie car tous les commerces sans exception étaient ouverts."
+        }
+    },
+    "4": {
+        "quote": "Für das leibliche Wohl war bestens gesorgt: Bratwurst, Currywurst, Pommes, Erbsensuppe mit Bockwurst – und natürlich Bier von der heimischen Brauerei.",
+        "whyCorrect": {
+            "de": "Falsch. Die heimische Brauerei lieferte lediglich das Bier. Zudem gibt es keinerlei Hinweis darauf, dass das Essen umsonst (kostenlos) gewesen wäre.",
+            "ar": "خطأ. قدمت مصبغة الجعة المحلية المشروب فقط، ولا توجد أي إشارة في النص تفيد بأن الطعام كان يُقدم مجانًا («umsonst»).",
+            "fr": "Faux. La brasserie locale ne fournissait que la bière, et rien n'indique dans le texte que les repas étaient gratuits (« umsonst »)."
+        },
+        "whyIncorrect": {
+            "de": "Richtig ist falsch, da auf Volksfesten Speisen bezahlt werden müssen und im Text nichts von Gratisessen steht.",
+            "ar": "الخيار 'صحيح' خاطئ، فالطعام في مثل هذه المهرجانات يباع بمقابل ولم يذكر النص أنه كان مجانيًا.",
+            "fr": "Choisir 'Vrai' est faux, car le texte ne dit absolument pas que les plats étaient distribués gratuitement."
+        }
+    },
+    "5": {
+        "quote": "In der sommerlichen Nacht sah man die Artisten ihre Kunststücke vorführen und man hörte nur das Knistern und Zischen des Feuers.",
+        "whyCorrect": {
+            "de": "Falsch. Es gab keine laute Musik bei der Show. Man hörte im Gegenteil ausschließlich das Knistern und Zischen der Flammen.",
+            "ar": "خطأ. لم ترافق العرض أي موسيقى صاخبة، بل على العكس كان الصوت الوحيد المسموع هو طقطقة وهسيس النار («nur das Knistern und Zischen des Feuers»).",
+            "fr": "Faux. Il n'y avait pas de musique forte lors du spectacle ; on n'entendait au contraire que le crépitement et le sifflement du feu."
+        },
+        "whyIncorrect": {
+            "de": "Richtig ist unzutreffend: Die Rockband spielte an einem anderen Ort (Burg-Kellerei), während es am Brunnen still war bis auf das Feuer.",
+            "ar": "الخيار 'صحيح' غير مطابق: فرقة الروك كانت تعزف في مكان آخر، بينما عند النافورة لم يكن هناك سوى صوت اشتعال النار.",
+            "fr": "L'affirmation est fausse : le groupe de rock jouait ailleurs, tandis qu'auprès de la fontaine il n'y avait que le bruit du feu."
+        }
+    },
+    "6": {
+        "quote": "Ich werde dieses Fest nie vergessen und kann nur jedem empfehlen: Auch Michelstadt im Odenwald ist eine Reise wert (besonders im August!)",
+        "whyCorrect": {
+            "de": "Richtig. Nicole spricht eine klare Empfehlung aus: Michelstadt sei „eine Reise wert“, ein Besuch lohne sich also definitiv.",
+            "ar": "صحيح. توصي نيكول الجميع بزيارة ميشيلشتات مؤكدة أنها «تستحق السفر إليها» («eine Reise wert»)، أي أن زيارتها مجدية وممتعة.",
+            "fr": "Vrai. Nicole recommande chaleureusement la visite en affirmant que Michelstadt « vaut le voyage » (« eine Reise wert »)."
+        },
+        "whyIncorrect": {
+            "de": "Falsch ist nicht zutreffend, da sie den Lesern einen Besuch der Stadt im August ausdrücklich ans Herz legt.",
+            "ar": "الخيار 'خطأ' غير سليم لأن نيكول تختتم رسالتها بتشجيع القراء صراحة على السفر إلى ميشيلشتات.",
+            "fr": "Choisir 'Faux' ne convient pas, puisqu'elle invite expressément le lecteur à visiter la petite ville."
+        }
+    },
+    "7": {
+        "quote": "... sind es die Haushalte älterer Bürger, die zu einer stillstehenden Statistik der Online-Haushalte in der Schweiz führen: Laut Bundesamt für Statistik wollen diese 20 Prozent partout nicht online gehen.",
+        "whyCorrect": {
+            "de": "b ist richtig. Der Artikel beschreibt, wie sich die Zahl der internetfähigen Haushalte in der Schweiz entwickelt und weshalb das Wachstum wegen der Senioren stagniert.",
+            "ar": "(b) هو الصحيح. يتناول المقال تطور نسبة الأسر المتصلة بالإنترنت في سويسرا وأسباب ركود الإحصائيات نتيجة عزوف فئة كبار السن.",
+            "fr": "b est correct. L'article traite de l'évolution de la proportion de ménages connectés en Suisse et de la stagnation due aux seniors."
+        },
+        "whyIncorrect": {
+            "de": "a und c sind falsch: Es geht weder primär um Online-Spiele noch steht der Schutz von Kindern im Mittelpunkt des Artikels.",
+            "ar": "الخيارات (a) و (c) غير صحيحة: فالمقال لا يدور حول ألعاب الإنترنت ولا يركز أساسًا على حماية الأطفال بل على اتجاهات استخدام الإنترنت.",
+            "fr": "a et c sont faux : le texte ne porte ni principalement sur les jeux en ligne ni sur la protection des enfants."
+        }
+    },
+    "8": {
+        "quote": "Bei einer Befragung wurden mangelndes Interesse, wenig Fachkenntnis oder kein Selbstvertrauen von den älteren Menschen angegeben.",
+        "whyCorrect": {
+            "de": "a ist richtig. „Wenig Fachkenntnis“ bedeutet, dass Senioren selten über fundierte Computerkenntnisse verfügen.",
+            "ar": "(a) هو الصحيح. عبارة «wenig Fachkenntnis» (قلة المعرفة التخصصية) تعني ندرة امتلاك كبار السن لمهارات استخدام الحاسوب.",
+            "fr": "a est correct. L'expression « peu de compétences techniques » (wenig Fachkenntnis) montre que les seniors ont rarement des connaissances en informatique."
+        },
+        "whyIncorrect": {
+            "de": "b und c treffen auf jüngere Internetnutzer zu, nicht auf die befragten Offline-Senioren.",
+            "ar": "الخياران (b) و (c) يخصان مستخدمي الإنترنت من الشباب والآباء وليس كبار السن غير المتصلين بالشبكة.",
+            "fr": "b et c concernent les jeunes utilisateurs d'Internet et non les personnes âgées qui refusent de se connecter."
+        }
+    },
+    "9": {
+        "quote": "Damit liegt die Schweiz hinter den skandinavischen Ländern und den Niederlanden, wo insgesamt mehr private Haushalte Internet haben als bei uns.",
+        "whyCorrect": {
+            "de": "b ist richtig. In den Niederlanden haben im Vergleich zur Schweiz mehr Privathaushalte einen Internetanschluss.",
+            "ar": "(b) هو الصحيح. النص يذكر صراحة أن في هولندا نسبة أسر تمتلك إنترنت أكبر مما هو عليه الحال في سويسرا.",
+            "fr": "b est correct. Aux Pays-Bas, une proportion plus élevée de ménages privés a accès à Internet par rapport à la Suisse."
+        },
+        "whyIncorrect": {
+            "de": "a und c sind unbegründet: Über identische Probleme oder Spielgewohnheiten in den Niederlanden steht nichts im Text.",
+            "ar": "الخياران (a) و (c) خاطئان: لم يذكر النص أي تشابه في المشكلات أو إدمان ألعاب لدى الهولنديين.",
+            "fr": "a et c sont infondés : rien n'indique des problèmes similaires ou des habitudes de jeu aux Pays-Bas."
+        }
+    },
+    "10": {
+        "quote": "Wie lässt sich der zunehmende Konsum von Functional-Food begründen? Immer mehr Menschen erklären die Gesundheit zu ihrem höchsten Gut: Sie wollen vorbeugen oder reparieren, ohne auf Genuss zu verzichten.",
+        "whyCorrect": {
+            "de": "c ist richtig. Der Text erläutert detailliert die Gründe für die große Beliebtheit und den Markterfolg von funktionellen Lebensmitteln (Functional Food).",
+            "ar": "(c) هو الصحيح. يشرح المقال بالتفصيل دوافع الإقبال المتزايد والشعبية الكبيرة للأغذية الوظيفية («Functional-Food»).",
+            "fr": "c est correct. Le texte analyse précisément pourquoi les aliments fonctionnels (Functional Food) connaissent un tel succès populaire."
+        },
+        "whyIncorrect": {
+            "de": "a ist zu allgemein und b widerspricht dem Inhalt (Functional Food ist Essen mit Zusatznutzen, keine Verweigerung von Medikamenten).",
+            "ar": "الخيار (a) عام للغاية، والخيار (b) غير صحيح ولا يتطابق مع مضمون النص.",
+            "fr": "a est trop vague et b contredit le texte (les aliments fonctionnels ne remplacent pas un refus médical)."
+        }
+    },
+    "11": {
+        "quote": "Immer mehr Menschen erklären die Gesundheit zu ihrem höchsten Gut: Sie wollen vorbeugen oder reparieren, ohne auf Genuss zu verzichten.",
+        "whyCorrect": {
+            "de": "b ist richtig. Wer etwas zum „höchsten Gut“ erklärt, für den ist dieser Wert das Allerwichtigste.",
+            "ar": "(b) هو الصحيح. اعتبار الشيء «أعلى وأثمن ما يملك الإنسان» («höchstes Gut») يعني أنه يمثل الأولوية القصوى والأهم على الإطلاق.",
+            "fr": "b est correct. Qualifier quelque chose de « bien le plus précieux » (höchstes Gut) signifie que cela est devenu la chose la plus importante."
+        },
+        "whyIncorrect": {
+            "de": "a behauptet das genaue Gegenteil („nur sehr wenige“) und c stellt einen falschen Zwang dar.",
+            "ar": "الخيار (a) يناقض النص تمامًا، والخيار (c) يدعي وجود إجبار غير موجود في الواقع.",
+            "fr": "a affirme le contraire (« très peu de gens ») et c invente une contrainte inexistante."
+        }
+    },
+    "12": {
+        "quote": "Stark im Trend liegt zurzeit Functional-Food. Das ist Essen, das nicht nur satt macht, sondern auch für die Gesundheit sorgt.",
+        "whyCorrect": {
+            "de": "a ist richtig. „Stark im Trend liegen“ bedeutet umgangssprachlich und treffend, dass etwas modern, populär und „in“ ist.",
+            "ar": "(a) هو الصحيح. عبارة «stark im Trend liegen» تعني اصطلاحًا أن هذا النوع من الغذاء رائج جدًا ومواكب للموضة العصرية («ist in»).",
+            "fr": "a est correct. L'expression « stark im Trend liegen » est un synonyme exact de « être tendance / être in »."
+        },
+        "whyIncorrect": {
+            "de": "b wird im Text nicht so geurteilt und c ist falsch, da Functional Food massiv beworben wird.",
+            "ar": "الخيار (b) لم يصدر به حكم سلبي، و(c) غير صحيح لأن المنتجات تُسوق بإعلانات مكثفة.",
+            "fr": "b n'est pas affirmé dans le texte et c est faux car ces produits font l'objet d'une forte publicité."
+        }
+    },
+    "13": {
+        "quote": "KEKS e.V. — Hilfe für kranke Kinder: „Wir helfen und unterstützen bundesweit Kinder in Deutschland, die wegen einer kranken Speiseröhre nicht essen können. Spendenkonto: Baden-Württembergische Bank ...“",
+        "whyCorrect": {
+            "de": "Anzeige I passt. Frau Wickert möchte Geld an eine Hilfsorganisation für Kinder in Deutschland spenden; KEKS e.V. hilft genau bundesweit erkrankten Kindern und gibt ein Spendenkonto an.",
+            "ar": "الإعلان I هو الأنسب. ترغب السيدة فيكيرت في التبرع بالمال لمنظمة تعتني بالأطفال داخل ألمانيا، وجمعية KEKS e.V. تدعم الأطفال المرضى في ألمانيا وتعلن عن حساب مصرفي للتبرع.",
+            "fr": "L'annonce I correspond. Mme Wickert souhaite faire un don financier pour des enfants en Allemagne ; l'association KEKS e.V. soutient les enfants malades dans le pays et fournit un compte de dons."
+        },
+        "whyIncorrect": {
+            "de": "Andere Anzeigen (wie B: Ärzte ohne Grenzen) wirken im weltweiten Ausland oder fordern persönliche Zeit statt Geld.",
+            "ar": "الإعلانات الأخرى إما تنشط خارج ألمانيا (مثل منظمة أطباء بلا حدود) أو تطلب التطوع بالوقت وليس التبرع بالمال.",
+            "fr": "Les autres annonces (comme B : Médecins sans frontières) opèrent à l'étranger ou demandent du bénévolat et non un don monétaire."
+        }
+    },
+    "14": {
+        "quote": "NAJU — Naturschutzjugend: „Du bist gerne in der Natur und möchtest dich für ihren Schutz einsetzen? Dann bist du bei der NAJU genau richtig! Werde zusammen mit 75.000 anderen Kindern und Jugendlichen aktiv für die Natur!“",
+        "whyCorrect": {
+            "de": "Anzeige C passt. Herr Geiger möchte als Biologielehrer seine Schüler (Kinder/Jugendliche) für Natur- und Umweltschutz begeistern; die NAJU ist die größte Jugendorganisation auf diesem Gebiet.",
+            "ar": "الإعلان C هو الأنسب. أستاذ علم الأحياء يرغب في غرس حب حماية الطبيعة لدى تلاميذه (الأطفال والشباب)، وجمعية NAJU هي أكبر منظمة مخصصة للناشئة والشباب في هذا المجال.",
+            "fr": "L'annonce C convient. Le professeur de biologie veut intéresser ses élèves à la protection de la nature ; la NAJU est la plus grande association de jeunes engagés dans ce domaine."
+        },
+        "whyIncorrect": {
+            "de": "Anzeige F richtet sich an Geschenksuchende und Anzeige H wendet sich spezifisch an Eltern von Neugeborenen.",
+            "ar": "الإعلان F مخصص لشراء هدية لصديق، والإعلان H مخصص للأسر التي رزقت بمواليد جدد.",
+            "fr": "L'annonce F vise les personnes cherchant un cadeau et l'annonce H s'adresse aux parents de nouveau-nés."
+        }
+    },
+    "15": {
+        "quote": "Verschenken Sie eine Mitgliedschaft im NABU! „Sie möchten einem Freund etwas schenken und gleichzeitig damit etwas Gutes für den Erhalt und Schutz unserer Natur und Umwelt tun? ... Dann verschenken Sie doch eine Mitgliedschaft im NABU!“",
+        "whyCorrect": {
+            "de": "Anzeige F passt perfekt. Lukas sucht ein Geburtstagsgeschenk für seinen naturbegeisterten Freund Tobias; Anzeige F schlägt genau das Verschenken einer NABU-Mitgliedschaft vor.",
+            "ar": "الإعلان F هو الخيار المثالي. يبحث لوكاس عن هدية عيد ميلاد لصديقه توبياس المحب للطبيعة والحيوانات؛ والإعلان F يعرض تمامًا فكرة إهداء عضوية في جمعية حماية البيئة.",
+            "fr": "L'annonce F est parfaite. Lukas cherche un cadeau d'anniversaire pour son ami Tobias passionné de nature ; l'annonce F propose d'offrir une adhésion au NABU."
+        },
+        "whyIncorrect": {
+            "de": "Anzeige C ist für Kinder und Jugendliche selbst gedacht, nicht als Geschenkidee unter Freunden.",
+            "ar": "الإعلان C مخصص لانضمام الأطفال والشباب بأنفسهم وليس كفكرة هدية بين الأصدقاء.",
+            "fr": "L'annonce C s'adresse aux enfants et adolescents eux-mêmes et non sous forme de cadeau."
+        }
+    },
+    "16": {
+        "quote": "Miteinander leben? „Die Bürgerinitiative ist eine Begegnungsstätte für alle Menschen in der Nachbarschaft – egal welcher Nationalität. Wir setzen uns für Toleranz ein und treten gegen Rassismus und Gewalt auf. Wir wollen ausländischen BürgerInnen ihre Integration ... erleichtern.“",
+        "whyCorrect": {
+            "de": "Anzeige E passt. Sara will sich in der Nachbarschaft aktiv für das friedliche Miteinander von Menschen unterschiedlicher Herkunft einsetzen; genau dies ist das Kernziel dieser Bürgerinitiative.",
+            "ar": "الإعلان E هو الأنسب. تريد سارة العمل بنشاط من أجل التعايش السلمي والتسامح بين مختلف الجنسيات في الحي، وهو الهدف المباشر للمبادرة الأهلية المعلن عنها.",
+            "fr": "L'annonce E convient. Sara veut s'engager pour la cohabitation pacifique et l'intégration des personnes d'origines diverses dans le quartier, ce qui est le projet de cette initiative citoyenne."
+        },
+        "whyIncorrect": {
+            "de": "Anzeige J befasst sich mit Kriminalitätsbekämpfung in der Nachbarschaft, nicht mit internationalem Zusammenleben und Integration.",
+            "ar": "الإعلان J يركز على مكافحة الجريمة بين الجيران وليس على التنوع الثقافي والاندماج.",
+            "fr": "L'annonce J traite de la prévention contre la délinquance entre voisins, et non de l'intégration multiculturelle."
+        }
+    },
+    "17": {
+        "quote": "Keine Anzeige passt zu dem Wunsch, armen jungen Familien finanzielle oder soziale Hilfen zukommen zu lassen.",
+        "whyCorrect": {
+            "de": "X ist richtig. Keine der Anzeigen bietet Hilfe speziell für finanziell notleidende oder arme junge Familien an.",
+            "ar": "(X) هو الخيار الصحيح. لا يوجد أي إعلان يقدم مساعدات مالية أو رعاية مخصصة للعائلات الشابة الفقيرة.",
+            "fr": "X est correct. Aucune annonce ne propose d'aide spécifique aux jeunes familles défavorisées ou pauvres."
+        },
+        "whyIncorrect": {
+            "de": "Anzeige H wendet sich zwar an Familien mit Babys, bietet aber lediglich Umwelttipps und keine Unterstützung gegen Armut.",
+            "ar": "الإعلان H موجه للأسر الجديدة لكنه يقدم فقط نصائح بيئية مجانية ولا يقدم دعماً للفقراء.",
+            "fr": "L'annonce H s'adresse aux familles avec bébé mais propose des conseils écologiques, et non une aide sociale aux démunis."
+        }
+    },
+    "18": {
+        "quote": "Helfende Hände herzlich willkommen: „Bringen Sie Ihre Talente ein in das Angebot der Caritas. Viele alte und junge, kranke und behinderte Menschen freuen sich auf die Zeit, die Sie ihnen schenken.“",
+        "whyCorrect": {
+            "de": "Anzeige A passt. Krankenpfleger Philipp möchte sein pflegerisches Wissen für Menschen mit Behinderung einbringen; die Caritas sucht engagierte Ehrenamtliche zur Unterstützung von Kranken und Behinderten.",
+            "ar": "الإعلان A هو الأنسب. يرغب الممرض فيليب في توظيف خبراته لمساعدة ذوي الاحتياجات الخاصة؛ ومنظمة كاريتاس تبحث عن متطوعين لمساندة المرضى والمعاقين.",
+            "fr": "L'annonce A correspond. Infirmier de métier, Philipp souhaite aider les personnes handicapées ; la Caritas recherche des bénévoles pour accompagner les personnes malades et handicapées."
+        },
+        "whyIncorrect": {
+            "de": "Anzeige G (ASB) bietet professionelle Pflegedienstleistungen für Patienten an, sucht aber keine freiwilligen Helfer.",
+            "ar": "الإعلان G يعرض خدمات تمريض ورعاية مدفوعة للمرضى، ولا يطلب متطوعين لتقديم المساعدة.",
+            "fr": "L'annonce G propose des prestations d'aide à domicile aux usagers et ne recrute pas de bénévoles."
+        }
+    },
+    "19": {
+        "quote": "Ihr Baby ist uns nicht schnuppe! „Deshalb gibt’s für junge Familien unsere Schnuppermitgliedschaft: Ein Jahr kostenlos! ... gratis Umwelttipps für Eltern. Bund für Umwelt und Naturschutz Deutschland (BUND)“",
+        "whyCorrect": {
+            "de": "Anzeige H passt. Gabriel und seine Frau haben vor kurzem ein Kind bekommen und suchen ökologische Orientierung für die Erziehung; der BUND bietet jungen Eltern kostenlose Umwelttipps und eine Schnuppermitgliedschaft.",
+            "ar": "الإعلان H هو الأنسب تمامًا. أصبح غابرييل والدًا جديدًا ويريد نصائح بيئية لتربية طفله؛ ويقدم اتحاد حماية البيئة BUND عضوية مجانية وإرشادات بيئية للأمهات والآباء الجدد.",
+            "fr": "L'annonce H correspond parfaitement. Gabriel et son épouse viennent d'avoir un enfant et souhaitent l'éduquer au respect de la nature ; le BUND offre une adhésion gratuite et des conseils écolos aux parents."
+        },
+        "whyIncorrect": {
+            "de": "Andere Umweltanzeigen (wie C oder F) richten sich an Jugendliche oder als Geschenk, nicht spezifisch an Eltern mit Baby.",
+            "ar": "الإعلانات البيئية الأخرى مخصصة للناشئين أو كهدايا، ولا تركز على أولياء أمور المواليد الجدد.",
+            "fr": "Les autres annonces d'écologie visent les adolescents ou des cadeaux, et non spécifiquement les jeunes parents."
+        }
+    },
+    "20": {
+        "quote": "Petra: „Da gibt es grundsätzlich ein Problem: Die Universitäten sind auf einmal verantwortlich für Minderjährige! Stellt die Uni dann „Aufpasser“ ein ... Das ist doch verrückt! ... Kommt mir alles sehr utopisch vor.“",
+        "whyCorrect": {
+            "de": "Nein. Petra lehnt das Frühstudium ab, da Universitäten rechtlich und organisatorisch nicht für minderjährige Schüler verantwortlich sein sollten.",
+            "ar": "لا. بترا تعارض الفكرة وترى أن تحمل الجامعات مسؤولية رعاية قاصرين هو أمر غير واقعي وغير منطقي.",
+            "fr": "Non. Petra s'oppose à cette pratique, estimant absurde et utopique que l'université doive encadrer des mineurs."
+        },
+        "whyIncorrect": {
+            "de": "Ja ist falsch, da Petra deutliche Kritik äußert („verrückt“, „utopisch“).",
+            "ar": "الخيار 'نعم' خاطئ لأن بترا تنتقد الفكرة بشدة وتصفها بغير الواقعية.",
+            "fr": "Choisir 'Oui' est incorrect car Petra formule une critique virulente."
+        }
+    },
+    "21": {
+        "quote": "Willi: „Selbst den Bibliotheksausweis kann ich als Student unter 18 nicht einfach so beantragen. ... Trotzdem lohnt es sich.“",
+        "whyCorrect": {
+            "de": "Ja. Obwohl Willi bürokratische Hürden schildert, betont er abschließend eindeutig: „Trotzdem lohnt es sich.“ Er befürwortet das Modell.",
+            "ar": "نعم. على الرغم من العقبات الإدارية التي واجهها، يختم فيلي كلامه بشكل إيجابي مؤكداً: «رغم ذلك، فالأمر يستحق العناء بالتأكيد».",
+            "fr": "Oui. Malgré les tracasseries administratives qu'il rencontre, Willi conclut formellement : « Malgré tout, cela vaut le coup. » Il y est favorable."
+        },
+        "whyIncorrect": {
+            "de": "Nein trifft nicht zu, weil sein Gesamtfazit trotz des Aufwands absolut positiv ausfällt.",
+            "ar": "الخيار 'لا' غير صحيح لأن تقييمه النهائي إيجابي ومشجع جداً.",
+            "fr": "Choisir 'Non' est erroné car son bilan d'expérience reste résolument positif."
+        }
+    },
+    "22": {
+        "quote": "Torsten: „Die wichtigsten Erfahrungen macht man doch in der Praxis. ... Es bringt nichts, dass sie nur studieren. Dieses Programm ist diesem Gedanken ganz entgegengesetzt.“",
+        "whyCorrect": {
+            "de": "Nein. Torsten plädiert für praktische Ausbildung statt theoretischer Universitätslehre und stellt sich klar gegen das Frühstudium.",
+            "ar": "لا. يعارض تورستن الفكرة تمامًا، ويرى أن التعلم العملي والتطبيقي في الحياة أهم بكثير من الدراسة النظرية المبكرة.",
+            "fr": "Non. Torsten est opposé au projet : il estime que seule l'expérience pratique forge la jeunesse et que ce programme y fait obstacle."
+        },
+        "whyIncorrect": {
+            "de": "Ja ist nicht zutreffend, da Torsten das Programm als unpassend und lebensfern bezeichnet.",
+            "ar": "الخيار 'نعم' غير صحيح، فتورستن يرى في البرنامج مضيعة للوقت مقارنة بالخبرة العملية.",
+            "fr": "Choisir 'Oui' est faux car Torsten juge cette voie théorique inadaptée."
+        }
+    },
+    "23": {
+        "quote": "Chiara: „Ich kann mir aber vorstellen, dass es besonders für begabte Schüler ein gutes Angebot ist. ... Warum dann bis zur Matura mit dem Studium warten?“",
+        "whyCorrect": {
+            "de": "Ja. Chiara befürwortet das Angebot ausdrücklich für begabte Schüler, die in der Schule unterfordert sind und Förderung brauchen.",
+            "ar": "نعم. تدعم كيارا الفكرة بحماس وترى أن الطلاب الموهوبين يحتاجون إلى مثل هذا التحدي العلمي دون انتظار إنهاء المرحلة المدرسية.",
+            "fr": "Oui. Chiara est pour cette opportunité qui permet de stimuler les élèves précoces et doués qui s'ennuient au lycée."
+        },
+        "whyIncorrect": {
+            "de": "Nein ist falsch: Ihre rhetorische Frage („Warum warten?“) beweist ihre uneingeschränkte Zustimmung.",
+            "ar": "الخيار 'لا' خاطئ، فسؤالها الاستنكاري «لماذا الانتظار؟» يعبر عن تأييدها الكامل.",
+            "fr": "Choisir 'Non' est incorrect car sa question (« Pourquoi attendre ? ») marque son adhésion."
+        }
+    },
+    "24": {
+        "quote": "Reiner: „Mit 16 oder 17 sind die Jugendlichen ja noch in der Pubertät. ... In dem Alter ist man doch noch gar nicht reif für ein Studium. ... Nicht umsonst sollte man dafür erwachsen sein.“",
+        "whyCorrect": {
+            "de": "Nein. Reiner hält 16- oder 17-Jährige für noch nicht reif genug für ein anspruchsvolles Studium und ist deshalb dagegen.",
+            "ar": "لا. يرى راينر أن المراهقين في سن 16 أو 17 عامًا يفتقرون إلى النضج اللازم لمتابعة دراسة جامعية جادة، ولذلك يرفض الفكرة.",
+            "fr": "Non. Reiner estime que des adolescents de 16 ou 17 ans manquent de maturité pour étudier à l'université et s'y oppose fermement."
+        },
+        "whyIncorrect": {
+            "de": "Ja ist unpassend, da Reiner die Ernsthaftigkeit von Schülern an der Hochschule bezweifelt.",
+            "ar": "الخيار 'نعم' لا يصح لأن راينر يشكك تمامًا في قدرة القاصرين على التفرغ العقلي للدراسة.",
+            "fr": "Choisir 'Oui' est faux puisque Reiner doute du sérieux de jeunes de cet âge à la fac."
+        }
+    },
+    "25": {
+        "quote": "Helen: „... weil man intensiv mit anderen zusammenarbeitete, die ähnliche Interessen hatten. ... Wenn diese Erfahrung nun schon zeitlich früher im Leben gemacht wird, umso besser.“",
+        "whyCorrect": {
+            "de": "Ja. Helen hebt die Horizonterweiterung durch das Studium hervor und findet es sehr positiv („umso besser“), wenn man dies früher erlebt.",
+            "ar": "نعم. تؤيد هيلين التجربة وتعتبر الالتقاء بزملاء يشاركون نفس الشغف أمراً رائعاً، وتؤكد أنه كلما حدث ذلك مبكراً كان أفضل بكثير.",
+            "fr": "Oui. Helen juge que partager des passions communes à l'université ouvre l'esprit et qu'en faire l'expérience plus tôt est une excellente chose."
+        },
+        "whyIncorrect": {
+            "de": "Nein ist falsch, da „umso besser“ ihre klare Befürwortung ausdrückt.",
+            "ar": "الخيار 'لا' خاطئ، فعبارة «umso besser» (كان أفضل بكثير) تعبر عن دعمها التام.",
+            "fr": "Choisir 'Non' est erroné, la tournure « umso besser » marquant un vif enthousiasme."
+        }
+    },
+    "26": {
+        "quote": "Ferdinand: „Scheint mir aber wert zu sein, es mal zu testen. Ich weiss nur nicht, wie man dann nebenbei noch die Verpflichtungen des Gymnasiums zeitlich schafft.“",
+        "whyCorrect": {
+            "de": "Ja. Ferdinand hält das Vorhaben grundsätzlich für erprobenswert („wert zu sein, es mal zu testen“), auch wenn er über die Zeiteinteilung nachdenkt.",
+            "ar": "نعم. يرى فرديناند أن الفكرة تستحق التجربة والاختبار («wert zu sein, es mal zu testen»)، وموقفه العام منها إيجابي رغم تساؤله عن ضيق الوقت.",
+            "fr": "Oui. Ferdinand juge que l'initiative mérite d'être testée (« wert zu sein, es mal zu testen ») et y est favorable sur le fond malgré la charge de travail."
+        },
+        "whyIncorrect": {
+            "de": "Nein ist unzutreffend: Trotz organisatorischer Fragen befürwortet Ferdinand die Chance auf einen Testlauf.",
+            "ar": "الخيار 'لا' غير دقيق، فهو يشجع على خوض التجربة ولا يرفضها إطلاقاً.",
+            "fr": "Choisir 'Non' ne convient pas, car il salue l'intérêt de la démarche."
+        }
+    },
+    "27": {
+        "quote": "Ausgeliehene Artikel können reserviert werden. ... Für Reservationen wird eine Gebühr erhoben.",
+        "whyCorrect": {
+            "de": "c ist richtig. Laut Benutzungsordnung wird für jede Reservierung eine Gebühr erhoben; man muss also einen Geldbetrag entrichten.",
+            "ar": "(c) هو الصحيح. تنص اللائحة بوضوح على أن الحجز يتطلب دفع رسوم («Für Reservationen wird eine Gebühr erhoben»)، أي دفع مبلغ مالي.",
+            "fr": "c est correct. Le règlement stipule formellement que toute réservation donne lieu à des frais (« wird eine Gebühr erhoben ») ; il faut donc payer."
+        },
+        "whyIncorrect": {
+            "de": "a ist falsch (die Abholfrist von einer Woche beginnt erst ab Bereitstellung, nicht ab Reservierungsdatum) und b trifft nicht zwingend zu.",
+            "ar": "الخيار (a) خاطئ لأن مهلة الأسبوع تبدأ عند تجهيز المادة وليس عند حجزها، والخيار (b) غير صحيح.",
+            "fr": "a est faux (le délai d'une semaine court dès que l'article est disponible) et b n'est pas une obligation systématique."
+        }
+    },
+    "28": {
+        "quote": "Wer die Bestimmungen der Bibliothek nicht beachtet oder sich ungebührlich verhält, kann vorübergehend oder gänzlich von der Benutzung ausgeschlossen werden.",
+        "whyCorrect": {
+            "de": "b ist richtig. Bei Verstößen gegen die Bibliotheksregeln droht ein vorübergehender oder dauerhafter Ausschluss von der Benutzung.",
+            "ar": "(b) هو الصحيح. مخالفة التعليمات قد تؤدي إلى منع وحرمان المستخدم مؤقتاً أو نهائياً من دخول واستخدام المكتبة.",
+            "fr": "b est correct. Tout manquement aux règles de la bibliothèque peut entraîner une exclusion temporaire ou définitive."
+        },
+        "whyIncorrect": {
+            "de": "a erwähnt fälschlich eine Strafgebühr (Gebühren fallen nur bei Beschädigung/Verlust an) und c ist so nicht geregelt.",
+            "ar": "الخيار (a) غير دقيق (فالغرامات تخص التلف أو الفقدان)، والخيار (c) لا وجود له في النص.",
+            "fr": "a mentionne une amende générale non prévue pour ce cas et c n'est nullement stipulé."
+        }
+    },
+    "29": {
+        "quote": "Ausgeliehene Artikel können reserviert werden. ... bei einer anderen Bibliothek der PBZ zur Ausleihe besorgt werden, mit Ausnahme von DVDs.",
+        "whyCorrect": {
+            "de": "a ist richtig. Ausgeliehene Artikel (einschließlich DVDs des eigenen Bestands) können regulär reserviert werden. Die Ausnahme bei DVDs betrifft nur die Fernleihe aus anderen Zweigstellen.",
+            "ar": "(a) هو الصحيح. يمكن حجز المواد المعارة بما فيها أقراص الـ DVD؛ والاستثناء الخاص بها ينطبق فقط على طلبها من فروع أخرى لمكتبة PBZ.",
+            "fr": "a est correct. Les articles empruntés (y compris les DVD) peuvent être réservés localement ; l'exception relative aux DVD ne concerne que le prêt entre différentes filiales."
+        },
+        "whyIncorrect": {
+            "de": "b ist falsch (man darf 25 Artikel gleichzeitig, nicht nur einmal pro Monat ausleihen) und c widerspricht dem Text (reservierte Artikel können nicht verlängert werden).",
+            "ar": "الخيار (b) خاطئ (الحد الأقصى 25 مادة في آن واحد دون تحديد مرة بالشهر)، والخيار (c) مناقض للنص (المواد المحجوزة لا تمدد).",
+            "fr": "b est faux (25 articles en simultané, non par mois) et c contredit le texte (les articles réservés ne peuvent être prolongés)."
+        }
+    },
+    "30": {
+        "quote": "Gegen Vorlage eines amtlichen Ausweises wird eine persönliche Bibliothekskarte ausgestellt, die bei jeder Ausleihe mitzubringen ist. Die Bibliothekskarte ist nicht übertragbar, auch nicht innerhalb der Familie ...",
+        "whyCorrect": {
+            "de": "b ist richtig. Die persönliche Karte ist nicht übertragbar und muss zwingend bei jedem einzelnen Ausleihvorgang vorgelegt werden.",
+            "ar": "(b) هو الصحيح. بطاقة الاستعارة شخصية وغير قابلة للتحويل، ويجب إحضارها وإبرازها عند كل استعارة دون استثناء.",
+            "fr": "b est correct. La carte de bibliothèque est strictement personnelle et doit obligatoirement être présentée à chaque emprunt."
+        },
+        "whyIncorrect": {
+            "de": "a ist falsch (auch Personen ohne festen Wohnsitz in der Schweiz können die Bibliothek nutzen) und c ist falsch (Karten gelten nicht für die ganze Familie).",
+            "ar": "الخيار (a) غير صحيح (يمكن لغير المقيمين استخدامها بقيود)، والخيار (c) خاطئ لأن البطاقة لا تشمل كافة أفراد العائلة.",
+            "fr": "a est faux (les non-résidents permanents y ont aussi accès avec restrictions) et c contredit la non-transmissibilité familiale."
+        }
+    },
+    "h1": {
+        "quote": "Verkehrsmeldung: Verkehrsbehinderungen und Stillstand auf der A1 infolge extremen Winterwetters und starkem Schneefall, kein Fahrzeugunfall.",
+        "whyCorrect": {
+            "de": "Falsch. Auf der Autobahn A1 gab es keinen Verkehrsunfall; Ursache der Staus waren heftiger Schneefall und widrige Witterungsbedingungen.",
+            "ar": "خطأ. لم يقع أي حادث سير على الطريق السريع A1، بل كان سبب الشلل والاختناقات المرورية هو هطول الثلوج الكثيفة والظروف الجوية السيئة.",
+            "fr": "Faux. Il n'y a pas eu d'accident sur la A1 ; les bouchons résultaient d'intenses chutes de neige et des intempéries."
+        },
+        "whyIncorrect": {
+            "de": "Richtig ist unzutreffend, da im Radiobericht kein Unfall gemeldet wurde.",
+            "ar": "الخيار 'صحيح' غير دقيق لأن التقرير الإذاعي لم يذكر وقوع أي حادث إطلاقاً.",
+            "fr": "L'affirmation est fausse car aucun accident n'a été signalé dans le bulletin routier."
+        }
+    },
+    "h2": {
+        "quote": "Wetterbedingte Staus: Starker Schneefall und spiegelglatte Fahrbahnen führten zu kilometerlangen Behinderungen auf der Autobahn.",
+        "whyCorrect": {
+            "de": "a ist richtig. Der Stau entstand, weil das Wetter sehr schlecht war (Schnee, Eisglätte und Unwetter).",
+            "ar": "(a) هو الصحيح. حدث الازدحام المروري بسبب سوء الأحوال الجوية الشديدة (تساقط الثلوج وتجمد الطرقات).",
+            "fr": "a est correct. L'embouteillage a été provoqué par le très mauvais temps (neige abondante et verglas)."
+        },
+        "whyIncorrect": {
+            "de": "b und c sind falsch: Baustellen oder gesperrte Ausfahrten wurden in der Verkehrsmeldung nicht als Ursache genannt.",
+            "ar": "الخياران (b) و (c) غير صحيحين، فلم تذكر النشرة أعمال صيانة أو إغلاق مخارج كسبب للازدحام.",
+            "fr": "b et c sont faux : ni travaux ni fermeture de sortie n'ont été invoqués comme cause."
+        }
+    },
+    "h3": {
+        "quote": "Automatische Auskunft: Telefonansage eines Ausstellungshauses und Museums für Fotokunst über Öffnungszeiten und Sonderausstellungen.",
+        "whyCorrect": {
+            "de": "Falsch. Die Ansage stammt nicht von einem Fotostudio (Dienstleister für Porträts), sondern von einem Museum bzw. Forum für Fotografie.",
+            "ar": "خطأ. التسجيل الصوتي ليس لاستوديو تصوير تجاري، بل لمعرض ومتحف عام لفنون التصوير الفوتوغرافي.",
+            "fr": "Faux. Le message provient d'un musée/centre d'exposition de photographie artistique et non d'un studio photo privé."
+        },
+        "whyIncorrect": {
+            "de": "Richtig ist nicht zutreffend, da ein Kunst- und Ausstellungshaus kein gewöhnliches Fotostudio ist.",
+            "ar": "الخيار 'صحيح' غير دقيق لأن المعرض الفني العام يختلف تماماً عن استوديو التصوير التجاري الشخصي.",
+            "fr": "Choisir 'Vrai' est incorrect car un musée de la photographie n'est pas un studio de prise de vue."
+        }
+    },
+    "h4": {
+        "quote": "Öffnungszeiten: Montags sowie mittwochs bis sonntags geöffnet; dienstags bleibt die Ausstellung für Besucher geschlossen.",
+        "whyCorrect": {
+            "de": "b ist richtig. Wie die Ansage mitteilt, hat das Ausstellungshaus am Dienstag seinen regulären Schließtag.",
+            "ar": "(b) هو الصحيح. كما أوضحت الرسالة الصوتية، فإن المعرض يغلق أبوابه أمام الزوار يوم الثلاثاء (Dienstag).",
+            "fr": "b est correct. D'après le message enregistré, le mardi est le jour de fermeture hebdomadaire."
+        },
+        "whyIncorrect": {
+            "de": "a und c sind falsch: Montags und mittwochs ist das Museum für Publikum geöffnet.",
+            "ar": "الخياران (a) و (c) غير صحيحين؛ فالمتحف يفتح أبوابه يومي الاثنين والأربعاء.",
+            "fr": "a et c sont faux : l'établissement est ouvert le lundi et le mercredi."
+        }
+    },
+    "h5": {
+        "quote": "Radiotipps für Jugendliche: Freizeit- und Sportprogramme, Wintercamps und Aktivitäten für Schüler und junge Leute.",
+        "whyCorrect": {
+            "de": "Richtig. Die Radiosendung stellt spezifische Ferien- und Freizeitangebote für Jugendliche während der Wintermonate vor.",
+            "ar": "صحيح. تقدم الفقرة الإذاعية أفكاراً واقتراحات لأنشطة رياضية وترفيهية مخصصة للشباب خلال العطلة الشتوية.",
+            "fr": "Vrai. L'émission radio présente des idées d'activités et de loisirs spécialement conçues pour les jeunes en hiver."
+        },
+        "whyIncorrect": {
+            "de": "Falsch trifft nicht zu, da die Zielgruppe der vorgestellten Events eindeutig Jugendliche sind.",
+            "ar": "الخيار 'خطأ' غير سليم لأن الفعاليات المذكورة موجهة بوضوح لفئة الشباب والناشئة.",
+            "fr": "Choisir 'Faux' ne convient pas puisque les conseils s'adressent expressément aux jeunes."
+        }
+    },
+    "h6": {
+        "quote": "Schneemobil-Tour: Wegen begrenzter Teilnehmerzahl ist für die Fahrt mit dem Schneemobil eine vorherige Reservierung erforderlich.",
+        "whyCorrect": {
+            "de": "b ist richtig. Für die Fahrt mit dem Schneemobil muss man sich im Voraus anmelden, da die Plätze limitiert sind.",
+            "ar": "(b) هو الصحيح. تتطلب جولة عربات الجليد (Schneemobil) تسجيلاً وحجزاً مسبقاً نظراً لمحدودية المقاعد.",
+            "fr": "b est correct. Il est nécessaire de s'inscrire au préalable pour la randonnée en motoneige (Schneemobil)."
+        },
+        "whyIncorrect": {
+            "de": "a und c sind frei zugänglich ohne zwingende Voranmeldung.",
+            "ar": "الخياران (a) و (c) متاحان للجمهور بشكل مباشر دون اشتراط حجز مسبق.",
+            "fr": "a et c sont accessibles directement sans réservation obligatoire."
+        }
+    },
+    "h7": {
+        "quote": "Kulturtipp Augsburg: Der traditionelle Augsburger Christkindlesmarkt öffnet seine Pforten für Besucher.",
+        "whyCorrect": {
+            "de": "Richtig. Die Meldung kündigt den traditionsreichen Augsburger Weihnachtsmarkt (Christkindlesmarkt) an.",
+            "ar": "صحيح. يتحدث الخبر الإذاعي عن إقامة سوق عيد الميلاد التقليدي في مدينة أوغسبورغ.",
+            "fr": "Vrai. Le reportage annonce l'ouverture du marché de Noël traditionnel d'Augsbourg."
+        },
+        "whyIncorrect": {
+            "de": "Falsch ist nicht zutreffend, da der Weihnachtsmarkt in Augsburg das Hauptthema der Meldung ist.",
+            "ar": "الخيار 'خطأ' غير صحيح، فالسوق في أوغسبورغ هو محور الخبر المعلن عنه.",
+            "fr": "Choisir 'Faux' est erroné car le marché d'Augsbourg est le sujet central du bulletin."
+        }
+    },
+    "h8": {
+        "quote": "Dauer des Marktes: Der Markt öffnet Ende November und läuft bis kurz nach dem Jahreswechsel, somit über vier Wochen lang.",
+        "whyCorrect": {
+            "de": "a ist richtig. Mit einer Gesamtdauer von über vier Wochen ist der Christkindlesmarkt länger als einen Monat in Betrieb.",
+            "ar": "(a) هو الصحيح. يمتد السوق لأكثر من شهر كامل (من نهاية نوفمبر وحتى ما بعد رأس السنة).",
+            "fr": "a est correct. S'étendant sur plus de quatre semaines complètes, le marché reste ouvert plus d'un mois."
+        },
+        "whyIncorrect": {
+            "de": "b und c stimmen zeitlich nicht mit den tatsächlichen Markttagen überein.",
+            "ar": "الخياران (b) و (c) غير دقيقين من الناحية الزمنية ولا يتطابقان مع فترة إقامة السوق.",
+            "fr": "b et c ne correspondent pas aux dates de durée réelle du marché."
+        }
+    },
+    "h9": {
+        "quote": "Bunte Meldungen: Kuriose Alltagsgeschichte über eine Frau, deren Katze sie versehentlich in der Wohnung einsperrte.",
+        "whyCorrect": {
+            "de": "Falsch. Es handelt sich um eine humorvolle Radionachricht aus der Kategorie „Vermischtes“ und keineswegs um einen ernsten Polizeibericht.",
+            "ar": "خطأ. التسجيل عبارة عن خبر طريف من الأخبار المنوعة حول قطة تسببت في حبس صاحبتها، وليس بلاغاً رسمياً للشرطة.",
+            "fr": "Faux. Il s'agit d'une anecdote insolite et légère diffusée à la radio, et non d'un communiqué de police."
+        },
+        "whyIncorrect": {
+            "de": "Richtig ist falsch, da der Tonfall und die Pointe rein unterhaltend sind.",
+            "ar": "الخيار 'صحيح' غير مطابق لطبيعة الفقرة المسلية الخفيفة.",
+            "fr": "L'affirmation est inexacte car le sujet est humoristique et non judiciaire."
+        }
+    },
+    "h10": {
+        "quote": "Befreiung: Schließlich musste ein Not-Schlüsseldienst gerufen werden, der das Schloss öffnete und die Dame befreite.",
+        "whyCorrect": {
+            "de": "a ist richtig. Ein herbeigerufener Schlüsseldienst knackte das Schloss und befreite die eingeschlossene Katzenbesitzerin.",
+            "ar": "(a) هو الصحيح. قام فني فتح الأقفال (Schlüsseldienst) بفتح الباب وتحرير السيدة المحتجزة.",
+            "fr": "a est correct. C'est le serrurier appelé en urgence qui a déverrouillé la porte et libéré la propriétaire."
+        },
+        "whyIncorrect": {
+            "de": "b und c scheiterten oder waren gar nicht die Befreier der Frau.",
+            "ar": "الخياران (b) و (c) غير صحيحين، فالجيران لم يتمكنوا من فتح الباب والشرطة لم تكن المنقذ المباشر.",
+            "fr": "b et c sont faux : le voisin n'a pas pu ouvrir et la police n'est pas intervenue pour crocheter la serrure."
+        }
+    },
+    "h11": {
+        "quote": "Tourbegrüßung: „Herzlich willkommen zur Mozart-City-Tour! Unsere Führung durch das historische Salzburg dauert insgesamt 90 Minuten.“",
+        "whyCorrect": {
+            "de": "c ist richtig. Der Reiseleiter kündigt ausdrücklich eine Gesamtfahrzeit von 90 Minuten (anderthalb Stunden) für die Tour an.",
+            "ar": "(c) هو الصحيح. يعلن المرشد السياحي بوضوح أن مدة الجولة التعريفية الكاملة هي 90 دقيقة (ساعة ونصف).",
+            "fr": "c est correct. Le guide touristique annonce expressément une durée totale de 90 minutes pour la visite."
+        },
+        "whyIncorrect": {
+            "de": "a und b sind lediglich Teilstreckenzeiten oder Pausen, nicht die Gesamtdauer.",
+            "ar": "الخياران (a) و (b) يشيران فقط إلى فترات استراحة أو مراحل فرعية وليس للمدة الإجمالية.",
+            "fr": "a et b ne correspondent qu'à des tronçons ou temps d'arrêt partiels."
+        }
+    },
+    "h12": {
+        "quote": "Besichtigung: „Auf unserer Tour besuchen wir das Geburtshaus von Wolfgang Amadeus Mozart in der Getreidegasse.“",
+        "whyCorrect": {
+            "de": "b ist richtig. Ein zentraler Höhepunkt und Besichtigungspunkt der Mozart-City-Tour ist Mozarts Geburtshaus.",
+            "ar": "(b) هو الصحيح. تشمل الجولة زيارة ودخول المنزل الأصلي الذي ولد فيه الموسيقار موتسارت في سالزبورغ.",
+            "fr": "b est correct. L'étape incontournable de la visite guidée est la maison natale de Mozart."
+        },
+        "whyIncorrect": {
+            "de": "a und c werden während der Fahrt passiert oder erwähnt, aber nicht als Hauptattraktion von innen besichtigt.",
+            "ar": "الخياران (a) و (c) يمر بهما الباص في الطريق فقط دون دخولهما للزيارة الميدانية.",
+            "fr": "a et c sont seulement aperçus depuis le circuit et non visités."
+        }
+    },
+    "h13": {
+        "quote": "Geschichte des Mozarteums: Gegründet wurde die renommierte Institution von einer Bürgerinitiative engagierter Salzburger.",
+        "whyCorrect": {
+            "de": "c ist richtig. Das Mozarteum verdankt seine Entstehung engagierten Bürgern und Bewohnern der Stadt Salzburg.",
+            "ar": "(c) هو الصحيح. تأسس معهد موتسارتيوم بجهود وتبرعات مواطني وأهالي مدينة سالزبورغ تكريماً للموسيقار.",
+            "fr": "c est correct. L'institution du Mozarteum a été fondée par une initiative des citoyens de Salzbourg."
+        },
+        "whyIncorrect": {
+            "de": "a und b sind historisch falsch: Mozart selbst lebte damals längst nicht mehr.",
+            "ar": "الخياران (a) و (b) غير صحيحين تاريخياً، فموتسارت توفي قبل تأسيس المعهد بسنوات طويلة.",
+            "fr": "a et b sont erronés : Mozart était déjà décédé et aucun groupe de scientifiques n'en est à l'origine."
+        }
+    },
+    "h14": {
+        "quote": "Eigentümer: Das Gebäude in der Getreidegasse gehörte damals dem wohlhabenden Handelsherrn Johann Lorenz Hagenauer.",
+        "whyCorrect": {
+            "de": "b ist richtig. Das Haus gehörte einem Händler (Kaufmann), bei dem die Familie Mozart zur Miete wohnte.",
+            "ar": "(b) هو الصحيح. كان المبنى مملوكاً لأحد التجار الأثرياء (Händler) وكانت عائلة موتسارت تستأجر شقة فيه.",
+            "fr": "b est correct. L'immeuble appartenait à un commerçant (marchand) chez qui la famille Mozart était locataire."
+        },
+        "whyIncorrect": {
+            "de": "a ist falsch (die Familie Mozart war dort nur Mieter, nicht Eigentümer) und c ist frei erfunden.",
+            "ar": "الخيار (a) خاطئ لأن عائلة موتسارت كانت مستأجرة للمنزل وليست مالكة له، والخيار (c) لا أساس له.",
+            "fr": "a est faux (la famille Mozart n'était que locataire) et c n'a aucun fondement."
+        }
+    },
+    "h15": {
+        "quote": "Museumsausstellung: Zu den berühmtesten Exponaten gehört die kleine Kinder-Violine, auf der Mozart als Knabe spielte.",
+        "whyCorrect": {
+            "de": "a ist richtig. Im Museum ist die originale Kinder-Violine Mozarts ausgestellt.",
+            "ar": "(a) هو الصحيح. يعرض المتحف كمان الطفولة الصغير الأصلي الذي عزف عليه موتسارت في صغره.",
+            "fr": "a est correct. L'une des pièces majeures exposées dans le musée est le violon d'enfance de Mozart."
+        },
+        "whyIncorrect": {
+            "de": "b und c stehen nicht im Geburtshaus bzw. sind nicht das herausragende Ausstellungsstück.",
+            "ar": "الخياران (b) و (c) غير موجودين كمعروضات رئيسية في متحف بيت الولادة.",
+            "fr": "b et c ne constituent pas les pièces maîtresses présentées dans la maison natale."
+        }
+    },
+    "h16": {
+        "quote": "Isabella: „Mein neues Smartphone habe ich mir komplett selbst vom Feriensackgeld und Babysitten zusammengespart.“",
+        "whyCorrect": {
+            "de": "Falsch. Isabella hat das Handy nicht von ihren Eltern geschenkt bekommen, sondern mit eigenem Geld selbst bezahlt.",
+            "ar": "خطأ. لم يقدم والدا إيزابيلا الهاتف هدية لها، بل قامت بشرائه وتجميعه من مدخراتها وعملها الخاص.",
+            "fr": "Faux. Isabella n'a pas reçu son téléphone de ses parents ; elle l'a financé elle-même grâce à ses économies."
+        },
+        "whyIncorrect": {
+            "de": "Richtig ist nicht zutreffend, da ihre Eltern ihr das Gerät ausdrücklich nicht finanziert haben.",
+            "ar": "الخيار 'صحيح' غير دقيق لأن والديها لم يدفعا ثمن الهاتف الجديد.",
+            "fr": "L'affirmation est fausse car ses parents n'ont pas acheté l'appareil."
+        }
+    },
+    "h17": {
+        "quote": "Isabella: „Schau mal hier auf dem Display, da sind die Schnappschüsse vom Strandurlaub!“",
+        "whyCorrect": {
+            "de": "Richtig. Isabella nimmt ihr Handy hervor und zeigt Jonas während der Bahnfahrt ihre Urlaubsbilder.",
+            "ar": "صحيح. أخرجت إيزابيلا هاتفها في الترام وعرضت على يوناس صور عطلتها الصيفية.",
+            "fr": "Vrai. Isabella montre à Jonas les photos de ses vacances sur l'écran de son smartphone."
+        },
+        "whyIncorrect": {
+            "de": "Falsch trifft nicht zu: Jonas schaut sich die Fotos interessiert gemeinsam mit ihr an.",
+            "ar": "الخيار 'خطأ' غير صحيح، فيوناس يشاهد الصور برفقتها باهتمام.",
+            "fr": "Choisir 'Faux' est erroné car Jonas regarde les clichés avec elle."
+        }
+    },
+    "h18": {
+        "quote": "Isabella: „Chalkidiki war echt öde und langweilig, ich hatte überhaupt keine Lust auf diese Familienreise dorthin.“",
+        "whyCorrect": {
+            "de": "Falsch. Isabella reist keineswegs gern dorthin; sie fand den Aufenthalt auf Chalkidiki langweilig und öde.",
+            "ar": "خطأ. إيزابيلا لا تحب السفر إلى خالكيديكي، بل وجدت العطلة هناك مملة ومضجرة للغاية.",
+            "fr": "Faux. Isabella n'aime pas aller en Chalcidique ; elle a trouvé le séjour familial là-bas rasoir et sans intérêt."
+        },
+        "whyIncorrect": {
+            "de": "Richtig ist falsch, da sie ihre Abneigung gegen diese Urlaubsreise ganz offen bekundet.",
+            "ar": "الخيار 'صحيح' غير سليم لأنها أبدت تذمرها الواضح من تلك الرحلة.",
+            "fr": "Choisir 'Vrai' est faux car elle exprime clairement son mécontentement vis-à-vis de cette destination."
+        }
+    },
+    "h19": {
+        "quote": "Isabella über Andreas: Sie schwärmt von Andreas, mit dem sie im Urlaub viel Zeit verbrachte und den sie sehr sympathisch findet.",
+        "whyCorrect": {
+            "de": "Richtig. Isabella mag Andreas sehr und erzählt Jonas mit Begeisterung von den gemeinsamen Erlebnissen.",
+            "ar": "صحيح. إيزابيلا معجبة جدًا بأندرياس وتتحدث عنه بحماس وتؤكد انسجامها الكبير معه.",
+            "fr": "Vrai. Isabella apprécie beaucoup Andreas et parle de lui avec un enthousiasme évident."
+        },
+        "whyIncorrect": {
+            "de": "Falsch ist unpassend, da ihre Zuneigung zu Andreas unüberhörbar ist.",
+            "ar": "الخيار 'خطأ' غير صحيح، فإعجابها وميلها إليه واضح جدًا في الحوار.",
+            "fr": "Choisir 'Faux' ne convient pas car son affection pour lui est manifeste."
+        }
+    },
+    "h20": {
+        "quote": "Jonas: „Wir waren dieses Jahr wieder alle zusammen weg – mit meinen Eltern und meiner Schwester.“",
+        "whyCorrect": {
+            "de": "Falsch. Jonas war nicht allein mit seiner Schwester verreist, sondern gemeinsam mit der ganzen Familie inklusive Eltern.",
+            "ar": "خطأ. لم يسافر يوناس بمفرده برفقة أخته فقط، بل سافر مع كامل أفراد عائلته بما في ذلك الوالدان.",
+            "fr": "Faux. Jonas n'est pas parti seul avec sa sœur ; ils ont voyagé au complet avec leurs deux parents."
+        },
+        "whyIncorrect": {
+            "de": "Richtig trifft nicht zu: Die Eltern waren während des gesamten Urlaubs dabei.",
+            "ar": "الخيار 'صحيح' خاطئ، فالوالدان كانا حاضرين في الرحلة طوال الوقت.",
+            "fr": "Choisir 'Vrai' est incorrect car les parents ont participé au voyage."
+        }
+    },
+    "h21": {
+        "quote": "Vergleich der Eltern: Jonas' Eltern wandern und klettern sportlich in den Bergen, während Isabellas Eltern am liebsten ruhig am Strand faulenzen.",
+        "whyCorrect": {
+            "de": "Richtig. Die Eltern von Jonas betreiben intensive Bergtouren und Sport; Isabellas Eltern sind im Vergleich deutlich weniger sportlich.",
+            "ar": "صحيح. يمارس والدا يوناس رياضة تسلق الجبال الشاقة، بينما يفضل والدا إيزابيلا الاسترخاء والهدوء على الشاطئ دون رياضة.",
+            "fr": "Vrai. Les parents de Jonas sont de grands randonneurs montagnards, alors que ceux d'Isabella préfèrent le farniente sans grand sport."
+        },
+        "whyIncorrect": {
+            "de": "Falsch ist nicht zutreffend, da der Kontrast zwischen beiden Elternpaaren im Gespräch deutlich herausgearbeitet wird.",
+            "ar": "الخيار 'خطأ' غير صحيح، فالفرق الرياضي بين العائلتين ذُكر صراحة في الحوار.",
+            "fr": "Choisir 'Faux' est erroné car le contraste sportif entre les parents est explicitement souligné."
+        }
+    },
+    "h22": {
+        "quote": "Jonas: „Ich fände es eigentlich genial, einfach mal am Strand zu liegen und zu chillen, statt jeden Tag Gipfel zu erklimmen.“",
+        "whyCorrect": {
+            "de": "Falsch. Jonas findet Strandurlaub keineswegs langweilig; er würde sogar sehr gerne einmal entspannte Strandferien machen.",
+            "ar": "خطأ. لا يعتبر يوناس عطلة الشاطئ مملة إطلاقاً، بل على العكس يتمنى قضاء إجازة استرخاء على البحر بدلاً من تسلق الجبال المرهق.",
+            "fr": "Faux. Jonas ne trouve pas les vacances à la plage ennuyeuses ; il adorerait au contraire pouvoir paresser au bord de la mer."
+        },
+        "whyIncorrect": {
+            "de": "Richtig ist falsch, da Jonas die Idee eines reinen Strandurlaubs ausdrücklich attraktiv findet.",
+            "ar": "الخيار 'صحيح' غير دقيق لأن يوناس يرى فكرة الاستجمام على الشاطئ جذابة وممتعة للغاية.",
+            "fr": "Choisir 'Vrai' est faux car Jonas juge l'idée d'un séjour balnéaire très séduisante."
+        }
+    },
+    "h23": {
+        "quote": "Lara (b): „Herr X ist bei fast allen Schülern total beliebt, weil er immer fair ist und uns ernst nimmt.“",
+        "whyCorrect": {
+            "de": "Lara (b) äußert diesen Gedanken. Sie betont das gute und sympathische Verhältnis der überwiegenden Mehrheit der Klasse zu Herrn X.",
+            "ar": "لارا (b) هي القائلة. تؤكد لارا أن الأستاذ X يحظى بمحبة وتقدير أغلبية الطلاب لتعامله المنصف والودود معهم.",
+            "fr": "C'est Lara (b) qui s'exprime. Elle souligne que M. X est très populaire et apprécié auprès de la grande majorité des élèves."
+        },
+        "whyIncorrect": {
+            "de": "Simon und die Moderatorin teilen zwar Aspekte des Vorfalls mit, aber die Aussage zur Beliebtheit trifft Lara.",
+            "ar": "سيمون والمذيعة تطرقا لأحداث القضية، لكن لارا هي صاحبة الشهادة حول شعبية المعلم.",
+            "fr": "Simon et l'animatrice abordent les faits juridiques, mais c'est Lara qui évoque cette sympathie générale."
+        }
+    },
+    "h24": {
+        "quote": "Simon (c): „Nur eine ganz kleine Gruppe von Schülern protestiert noch und ist mit dem Urteil des Gerichts nicht einverstanden.“",
+        "whyCorrect": {
+            "de": "Simon (c) sagt dies. Er stellt klar, dass lediglich eine kleine Minderheit das milde Urteil ablehnt.",
+            "ar": "سيمون (c) هو القائل. يوضح سيمون أن قلة ضئيلة فقط (أقلية) من التلاميذ هي المعارضة لحكم المحكمة.",
+            "fr": "C'est Simon (c) qui le dit. Il indique que seule une poignée d'élèves (une minorité) conteste la décision de justice."
+        },
+        "whyIncorrect": {
+            "de": "Lara und die Moderatorin sprachen über die Entlastungsgründe und das Urteil, nicht über diese Minderheit.",
+            "ar": "لارا والمذيعة ركزتا على تفاصيل الحكم، أما حصر المعترضين في أقلية فجاء على لسان سيمون.",
+            "fr": "Lara et la présentatrice parlent du climat général, tandis que Simon quantifie précisément cette minorité mécontente."
+        }
+    },
+    "h25": {
+        "quote": "Moderatorin (a): „Für das Gericht war die Tatsache, dass Herr X eine akute Verletzung an der Schulter hatte, ausschlaggebend.“",
+        "whyCorrect": {
+            "de": "Die Moderatorin (a) führt diesen Punkt an. Sie fasst die juristische Urteilsbegründung und die Rolle der Schulterverletzung zusammen.",
+            "ar": "المذيعة (a) هي التي تذكر هذه الحقيقة. تسرد تفاصيل الحكم القضائي واعتبار إصابة كتف المعلم ركيزة أساسية في براءته.",
+            "fr": "C'est la présentatrice (a) qui l'explique. Elle synthétise les motivations juridiques du jugement et le rôle clé de l'épaule blessée."
+        },
+        "whyIncorrect": {
+            "de": "Die beiden Schüler schildern ihre persönlichen Eindrücke, während die Moderatorin die Sachlage des Urteils referiert.",
+            "ar": "الطلاب يتحدثون عن مشاعرهم، بينما تتولى المذيعة قراءة حيثيات الحكم القانوني الرسمي.",
+            "fr": "Les élèves donnent leur ressenti personnel, tandis que l'animatrice expose les attendus juridiques de l'affaire."
+        }
+    },
+    "h26": {
+        "quote": "Moderatorin (a): „Laut Richterspruch lag bei der Bewegung keine Absicht vor, die Schülerin vorsätzlich zu schlagen.“",
+        "whyCorrect": {
+            "de": "Die Moderatorin (a) konstatiert dies. Sie zitiert die richterliche Feststellung, dass der Schlag unabsichtlich erfolgte.",
+            "ar": "المذيعة (a) هي القائلة. تنقل خلاصة قرار القاضي بأن حركة المعلم لم تكن بقصد أو نية مسبقة لضرب الطالبة.",
+            "fr": "C'est la présentatrice (a) qui rapporte ce fait. Elle cite la conclusion du juge établissant l'absence d'intention de frapper."
+        },
+        "whyIncorrect": {
+            "de": "Simon und Lara kommentieren die Klassenatmosphäre; die Feststellung über den fehlenden Vorsatz stammt aus dem Moderationstext.",
+            "ar": "علق سيمون ولارا على أجواء الصف، بينما ورد نفي القصد العمدي ضمن تقرير المذيعة.",
+            "fr": "Simon et Lara commentent la dynamique de classe, tandis que l'absence de préméditation relève de la synthèse de la présentatrice."
+        }
+    },
+    "h27": {
+        "quote": "Simon (c): „Das Mädchen hat die Auseinandersetzung gezielt provoziert, weil sie unbedingt wollte, dass Herr X entlassen wird.“",
+        "whyCorrect": {
+            "de": "Simon (c) vertritt diesen Standpunkt. Er wirft der Schülerin vor, den Streit forciert zu haben, um den Lehrer loszuwerden.",
+            "ar": "سيمون (c) هو القائل. يرى سيمون أن الطالبة تعمدت الاستفزاز لإيصال الأمر إلى طرد المعلم من وظيفته.",
+            "fr": "C'est Simon (c) qui porte cette accusation. Selon lui, la jeune fille cherchait délibérément à faire renvoyer le professeur."
+        },
+        "whyIncorrect": {
+            "de": "Weder Lara noch die Moderatorin äußern eine derart direkte Anschuldigung gegen das Mädchen.",
+            "ar": "لم يصدر هذا الاتهام المباشر الصريح عن لارا أو المذيعة بل كان رأي سيمون.",
+            "fr": "Ni Lara ni la présentatrice n'expriment une accusation aussi catégorique envers l'élève."
+        }
+    },
+    "h28": {
+        "quote": "Simon (c): „Diese Schülerin und ihre Clique haben sich sowieso immer isoliert und wollten nie richtig zur Klasse gehören.“",
+        "whyCorrect": {
+            "de": "Simon (c) beschreibt die Situation. Er stellt fest, dass das Mädchen und ihr Freundeskreis nicht in die Klassengemeinschaft integriert sind.",
+            "ar": "سيمون (c) هو القائل. يشير سيمون إلى أن تلك الطالبة ومجموعتها كانوا منعزلين دائماً ولم يندمجوا ضمن الصف.",
+            "fr": "C'est Simon (c) qui le constate. Il explique que la jeune fille et ses proches s'isolaient et refusaient de s'intégrer à la classe."
+        },
+        "whyIncorrect": {
+            "de": "Lara schildert andere Aspekte des Klassenzusammenhalts, während Simon den fehlenden Anschluss dieser Gruppe anspricht.",
+            "ar": "تحدثت لارا عن رحلات الصف بينما شخص سيمون بالتحديد مشكلة عزلة تلك المجموعة.",
+            "fr": "Lara aborde les sorties scolaires tandis que Simon pointe l'isolement délibéré de ce groupe."
+        }
+    },
+    "h29": {
+        "quote": "Lara (b): „Früher haben wir nachmittags oft etwas unternommen, aber heute macht unsere Klasse außerhalb der Schule gar nichts mehr zusammen.“",
+        "whyCorrect": {
+            "de": "Lara (b) beklagt dies. Sie bedauert, dass die Schüler heute in ihrer Freizeit außerhalb des Unterrichts keine Aktivitäten mehr teilen.",
+            "ar": "لارا (b) هي القائلة. تبدي لارا أسفها لأن زملاء الصف لم يعودوا يمارسون أي نشاط مشترك خارج المدرسة في الوقت الحاضر.",
+            "fr": "C'est Lara (b) qui déplore cela. Elle regrette que les élèves ne fassent plus aucune sortie commune hors temps scolaire."
+        },
+        "whyIncorrect": {
+            "de": "Simon fokussierte sich auf den Streitfall, während Lara die verloren gegangenen Freizeitaktivitäten schildert.",
+            "ar": "ركز سيمون على ملابسات الخلاف، بينما تناولت لارا تراجع النشاطات المشتركة لرفاق الصف.",
+            "fr": "Simon s'est concentré sur l'incident disciplinaire, alors que Lara regrette l'abandon des sorties extra-scolaires."
+        }
+    },
+    "h30": {
+        "quote": "Lara (b): „Wenn wir auf Klassenfahrt fuhren, waren die ersten zwei Tage jedes Mal ziemlich chaotisch und schwierig, bis sich alle eingelebt hatten.“",
+        "whyCorrect": {
+            "de": "Lara (b) erinnert sich. Sie berichtet, dass der Beginn von Klassenfahrten in den ersten Tagen stets etwas kompliziert war.",
+            "ar": "لارا (b) هي القائلة. تتذكر لارا أن الأيام الأولى في الرحلات المدرسية كانت دائماً صعبة ومعقدة قبل أن يهدأ الجميع.",
+            "fr": "C'est Lara (b) qui s'en souvient. Elle raconte que les premiers jours des voyages de classe étaient systématiquement difficiles et mouvementés."
+        },
+        "whyIncorrect": {
+            "de": "Simon und die Moderatorin haben diese Anekdote über die Schulfahrten nicht erzählt.",
+            "ar": "لم يتطرق سيمون أو المذيعة لهذه التفاصيل الخاصة ببدايات الرحلات المدرسية.",
+            "fr": "Simon et la modératrice n'ont pas évoqué ce souvenir précis sur les départs en voyage scolaire."
+        }
+    }
+}
+,
+  "modellsatz-6": {
+    "1": {
+        "quote": "Ich hatte das Handy in der Tasche meiner Badehose und bin damit ins Meer gelaufen. ... Leider stand ich schon hüfttief im Wasser.",
+        "whyCorrect": {
+            "de": "Falsch. Das Handy ging kaputt, weil Sven damit ins Salzwasser des Meeres gelaufen ist, nicht durch das spätere Abtrocknen mit dem Handtuch.",
+            "ar": "خطأ. تعطل الهاتف لأن سفين نزل به في مياه البحر المالحة، وليس بسبب محاولة تجفيفه بالمنشفة لاحقاً.",
+            "fr": "Faux. Le téléphone est tombé en panne parce que Sven est entré dans l'eau de mer avec, et non à cause du séchage avec la serviette."
+        },
+        "whyIncorrect": {
+            "de": "Richtig ist nicht zutreffend, da der Wasserschaden im Meer die eigentliche Ursache für den Defekt war.",
+            "ar": "الخيار 'صحيح' غير دقيق لأن تسرب مياه البحر إلى الهاتف هو السبب الحقيقي وراء تعطله.",
+            "fr": "Choisir 'Vrai' est incorrect car c'est l'eau de mer qui a causé les dommages irréversibles."
+        }
+    },
+    "2": {
+        "quote": "Ich habe es dann für den Rest des Strandtages in die Sonne gelegt. Im Hotel angekommen habe ich das Handy trocken geföhnt...",
+        "whyCorrect": {
+            "de": "Falsch. Sven hat das Handy für den Rest des Tages in die Sonne gelegt, nicht sich selbst. Er ging danach ins Hotel.",
+            "ar": "خطأ. وضع سفين الهاتف في الشمس طوال بقية اليوم على الشاطئ، ولم يقضِ هو نفسه بقية اليوم مستلقياً في الشمس.",
+            "fr": "Faux. C'est son téléphone que Sven a posé au soleil pour le reste de la journée, et non lui-même."
+        },
+        "whyIncorrect": {
+            "de": "Richtig beruht auf einem Missverständnis des Satzes: Subjekt des Sonnens war der Gegenstand (das Handy).",
+            "ar": "الخيار 'صحيح' ناتج عن فهم خاطئ للجملة: فالهاتف هو الذي وُضع في الشمس لتجفيفه.",
+            "fr": "L'affirmation est fausse car l'objet exposé au soleil était l'appareil et non Sven."
+        }
+    },
+    "3": {
+        "quote": "Auf einer Online-Plattform erfuhr ich, das Beste sei es, das Handy ein paar Tage ausgeschaltet zu lassen.",
+        "whyCorrect": {
+            "de": "Richtig. Sven recherchierte im Internet auf einer Online-Plattform nach Ratschlägen zur Rettung nasser Mobiltelefone.",
+            "ar": "صحيح. بحث سفين على منصة إلكترونية على الإنترنت لمعرفة النصائح والإجراءات المناسبة بعد سقوط الهاتف في الماء.",
+            "fr": "Vrai. Sven s'est renseigné sur une plateforme en ligne pour savoir comment réagir face à un téléphone mouillé."
+        },
+        "whyIncorrect": {
+            "de": "Falsch trifft nicht zu, da er den Tipp („ausgeschaltet lassen“) ausdrücklich im Netz gefunden hat.",
+            "ar": "الخيار 'خطأ' غير صحيح، فقد ذكر النص صراحة أنه استقى المعلومة من منصة إلكترونية.",
+            "fr": "Choisir 'Faux' est erroné car le texte mentionne clairement sa recherche sur Internet."
+        }
+    },
+    "4": {
+        "quote": "Es war der erste Urlaubstag, somit war es doppelt ärgerlich. Aber einen guten Aspekt hatte es dann doch: Ich habe Geld gespart, da teure Auslandsgespräche und SMS aus dem Ausland nicht mehr möglich waren.",
+        "whyCorrect": {
+            "de": "Richtig. Obwohl er sich sehr ärgerte, erkannte er den finanziellen Vorteil: Er sparte Geld bei teuren Auslandstelefonaten und SMS.",
+            "ar": "صحيح. على الرغم من انزعاجه الشديد، فقد وفر المال نتيجة تعذر إجراء المكالمات وإرسال الرسائل الدولية باهظة الثمن.",
+            "fr": "Vrai. Bien qu'énervé, Sven a réalisé qu'il avait économisé de l'argent en évitant les coûteux appels et SMS depuis l'étranger."
+        },
+        "whyIncorrect": {
+            "de": "Falsch ist unpassend, da die Kostenersparnis im Text als positiver Nebeneffekt hervorgehoben wird.",
+            "ar": "الخيار 'خطأ' غير سليم لأن توفير المال ذُكر كجانب إيجابي صريح في النص.",
+            "fr": "Choisir 'Faux' ne convient pas puisque l'économie financière est explicitement soulignée."
+        }
+    },
+    "5": {
+        "quote": "Die SIM-Karte war glücklicherweise noch zu gebrauchen und so hatte ich weder Nummern noch Nachrichten verloren.",
+        "whyCorrect": {
+            "de": "Richtig. Da die SIM-Karte den Wasserschaden überstand, blieben alle Telefonnummern und gespeicherten SMS erhalten.",
+            "ar": "صحيح. نظراً لأن شريحة الهاتف (SIM-Karte) ظلت صالحة للاستخدام، لم يفقد أي أرقام أو رسائل مخزنة.",
+            "fr": "Vrai. Comme la carte SIM fonctionnait toujours, tous les numéros et messages sont restés enregistrés."
+        },
+        "whyIncorrect": {
+            "de": "Falsch ist nicht zutreffend, da er die Rettung seiner Daten ausdrücklich der intakten SIM-Karte zuschreibt.",
+            "ar": "الخيار 'خطأ' غير دقيق لأن النص يؤكد سلامة الشريحة وبقاء الأرقام والرسائل.",
+            "fr": "Choisir 'Faux' est inexact car la préservation des données sur la carte SIM est formellement indiquée."
+        }
+    },
+    "6": {
+        "quote": "Aber ich habe das Handy meiner Oma bekommen, das war das gleiche Modell.",
+        "whyCorrect": {
+            "de": "Falsch. Sven hat sich kein Handy neu gekauft oder angeschafft, sondern das alte Gerät seiner Großmutter übernommen.",
+            "ar": "خطأ. لم يشترِ سفين هاتفاً جديداً أو يقتنيه بنفسه، بل حصل على هاتف جدته القديم الذي كان من نفس الطراز.",
+            "fr": "Faux. Sven n'a pas acheté d'appareil identique, il a simplement récupéré le téléphone de sa grand-mère."
+        },
+        "whyIncorrect": {
+            "de": "Richtig ist falsch, da „bekommen“ (geschenkt/überlassen) keineswegs „angeschafft/gekauft“ bedeutet.",
+            "ar": "الخيار 'صحيح' غير صحيح لأن الحصول عليه من الجدة يختلف تماماً عن شرائه واقتنائه.",
+            "fr": "Choisir 'Vrai' est faux car recevoir l'appareil de sa grand-mère ne signifie pas l'avoir acheté."
+        }
+    },
+    "7": {
+        "quote": "An den Feiertagen schätzen die Deutschen das Zusammensein im Kreis der Familie... Erstaunlicherweise zeigte die Umfrage auch, dass auch das festliche Essen und der Weihnachtsbaum...",
+        "whyCorrect": {
+            "de": "a ist richtig. Der Artikel beschreibt ausführlich die Bräuche, Vorlieben und Umfrageergebnisse dazu, wie Deutsche am liebsten Weihnachten feiern.",
+            "ar": "(a) هو الصحيح. يستعرض المقال عادات وتقاليد وتفضيلات الألمان في الاحتفال بعيد الميلاد بناءً على استطلاع للرأي.",
+            "fr": "a est correct. L'article détaille la façon dont les Allemands aiment célébrer Noël à travers diverses données de sondage."
+        },
+        "whyIncorrect": {
+            "de": "b und c treffen nicht den Kern: Geschenke spielen laut Text kaum eine Rolle und die Frage nach dem Wer wird nicht problematisiert.",
+            "ar": "الخياران (b) و (c) غير صحيحين: فالهدايا تلعب دوراً ثانوياً في المقال ولم يكن محور النص تحديد من يحتفل به.",
+            "fr": "b et c ne correspondent pas au thème central du texte."
+        }
+    },
+    "8": {
+        "quote": "Erstaunlicherweise zeigte die Umfrage auch, dass auch das festliche Essen und der Weihnachtsbaum für die Deutschen recht wichtig sind. Beides gehört für sie unbedingt zum Fest.",
+        "whyCorrect": {
+            "de": "b ist richtig. Der Weihnachtsbaum und das festliche Essen gehören für die Deutschen unbedingt zum Fest dazu.",
+            "ar": "(b) هو الصحيح. شجرة عيد الميلاد والطعام الاحتفالي يعتبران أمرين لا غنى عنهما للاحتفال بالعيد لدى الألمان.",
+            "fr": "b est correct. Le sapin de Noël et le repas de fête sont indispensables pour la grande majorité des Allemands."
+        },
+        "whyIncorrect": {
+            "de": "a widerspricht dem Text (61 % könnten auf Geschenke verzichten) und c ist falsch (sie feiern in der Familie, nicht bei Freunden).",
+            "ar": "الخيار (a) يناقض النص (61% مستعدون للتخلي عن الهدايا)، و(c) غير صحيح لأنهم يفضلون التجمع العائلي.",
+            "fr": "a contredit le texte (61 % se passeraient de cadeaux) et c est faux car ils fêtent en famille et non entre amis."
+        }
+    },
+    "9": {
+        "quote": "Die große Mehrheit, nämlich 92 Prozent, freuen sich darauf, die Familie zu sehen und genießen die Gesellschaft ihrer Verwandten.",
+        "whyCorrect": {
+            "de": "a ist richtig. Für 92 Prozent gehört die Familie fest zum Weihnachtsfest dazu.",
+            "ar": "(a) هو الصحيح. بالنسبة لـ 92% من الألمان، يعتبر الاجتماع بالعائلة جزءاً أساسياً لا يتجزأ من عيد الميلاد.",
+            "fr": "a est correct. Pour 92 % des personnes interrogées, la présence de la famille est indissociable des fêtes de Noël."
+        },
+        "whyIncorrect": {
+            "de": "b verallgemeinert unzulässig auf das ganze Jahr und c trifft nicht zu (nur manche treffen sich an allen 3 Tagen).",
+            "ar": "الخيار (b) تعميم غير مبرر، والخيار (c) غير دقيق إذ لا يجتمع الجميع طوال الأيام الثلاثة.",
+            "fr": "b généralise abusivement et c ne concerne qu'une partie des familles."
+        }
+    },
+    "10": {
+        "quote": "das Entlassen ihrer Sprösslinge ins Studentenleben fällt Eltern zunehmend schwerer. ... Dass sich das Verhältnis von Studenten und ihren Eltern in den vergangenen Jahren gewandelt hat...",
+        "whyCorrect": {
+            "de": "b ist richtig. Der Artikel schildert das veränderte, oft überfürsorgliche Verhalten von Eltern bei Studienbeginn ihrer Kinder.",
+            "ar": "(b) هو الصحيح. يتناول المقال سلوك الآباء والتصاقهم الشديد بأبنائهم الجدد في بداية مرحلتهم الجامعية.",
+            "fr": "b est correct. L'article décrit le comportement très protecteur des parents envers leurs enfants débutant l'université."
+        },
+        "whyIncorrect": {
+            "de": "a und c sind Nebenaspekte; der Fokus liegt auf der Eltern-Kind-Beziehung und dem elterlichen Verhalten.",
+            "ar": "الخياران (a) و (c) ليسا الموضوع الرئيسي، فالنص يركز على تصرفات الوالدين وعلاقتهم بالأبناء.",
+            "fr": "a et c sont secondaires ; le texte analyse avant tout l'attitude et les réactions des parents."
+        }
+    },
+    "11": {
+        "quote": "Amerikanische Eltern nehmen sich zu Semesterbeginn nicht selten Zimmer in der Nähe der Uni, um immer für ihre Kinder erreichbar zu sein. ... Mehrere SMS-Nachrichten pro Tag und tägliche Anrufe per Skype sind ebenfalls normal.",
+        "whyCorrect": {
+            "de": "c ist richtig. Amerikanische Eltern halten durch Hotelzimmer vor Ort, ständige SMS und tägliche Skype-Anrufe extrem engen Kontakt.",
+            "ar": "(c) هو الصحيح. يحافظ الآباء في أمريكا على اتصال وثيق ويومي بأبنائهم من خلال حجز غرف قرب الجامعة والرسائل والمكالمات المستمرة.",
+            "fr": "c est correct. Aux États-Unis, de nombreux parents maintiennent un contact très étroit avec leurs enfants par des visites et appels quotidiens."
+        },
+        "whyIncorrect": {
+            "de": "a und b werden im Text nicht behauptet.",
+            "ar": "الخياران (a) و (b) لم يردا في النص ولا يعكسان الواقع المذكور.",
+            "fr": "a et b ne correspondent pas aux faits rapportés dans le texte."
+        }
+    },
+    "12": {
+        "quote": "Auch die Hochschulen selbst profitieren, denn das habe einen Werbeeffekt für die Uni. Gerade Eltern von mehreren Kindern seien interessiert an der Hochschule...",
+        "whyCorrect": {
+            "de": "a ist richtig. Die Universitäten nutzen Familientage gezielt als werbewirksame Maßnahme, um sich bei Eltern und Geschwistern positiv darzustellen.",
+            "ar": "(a) هو الصحيح. تستفيد الجامعات من «يوم الأسرة» كوسيلة دعائية وترويجية لاستقطاب المزيد من الطلاب وإقناع أولياء الأمور.",
+            "fr": "a est correct. Les universités tirent profit de ces journées d'accueil familial pour assurer leur promotion auprès des familles."
+        },
+        "whyIncorrect": {
+            "de": "b ist nicht das Hauptmotiv und c trifft nicht zu (Unis bekommen kein Geld dafür).",
+            "ar": "الخيار (b) ليس الدافع الأساسي، والخيار (c) غير صحيح حيث لا تتلقى الجامعات أموالاً من الآباء مقابل ذلك.",
+            "fr": "b n'est pas la motivation première et c est faux (les universités ne reçoivent pas d'argent)."
+        }
+    },
+    "13": {
+        "quote": "Keine Anzeige bietet ein Seminar für Angehörige an, um psychische Erkrankungen von Familienmitgliedern besser zu verstehen.",
+        "whyCorrect": {
+            "de": "X ist richtig. Keine der vorliegenden Anzeigen bietet ein Seminar oder Schulungsangebot zum Verstehen psychischer Erkrankungen an.",
+            "ar": "(X) هو الصحيح. لا يوجد أي إعلان يقدم دورة تدريبية أو ندوة لمساعدة الأقارب على فهم ورعاية مريض نفسي.",
+            "fr": "X est correct. Aucune annonce ne propose de séminaire pour aider les proches à comprendre les maladies psychiques."
+        },
+        "whyIncorrect": {
+            "de": "Anzeige I sucht lediglich gewerbliche Montageaufträge für eine Tagesstätte, bietet aber keine Seminare.",
+            "ar": "الإعلان I يبحث فقط عن طلبيات تغليف وتركيب لمركز رعاية نهارية، ولا يقدم أي ندوات أو دورات تدريبية.",
+            "fr": "L'annonce I recherche des travaux de conditionnement pour un atelier protégé et ne propose aucune formation."
+        }
+    },
+    "14": {
+        "quote": "Kinder- und Jugendhilfe Kassel: „Wir beraten anonym, vertraulich, kostenfrei in allen Rechtsgebieten, egal ob Strafrecht, Familienrecht, Arbeitsrecht...“",
+        "whyCorrect": {
+            "de": "Anzeige A passt. Klara ist 16 und braucht eine kostenlose, vertrauliche Rechtsberatung im Familienrecht, ob sie gegen den Willen der Eltern ausziehen darf.",
+            "ar": "الإعلان A هو الأنسب. كلارا في سن 16 وتحتاج استشارة قانونية سرية ومجانية في قانون الأسرة لتعرف حقوقها في السكن بمفردها.",
+            "fr": "L'annonce A correspond. Âgée de 16 ans, Klara a besoin de conseils juridiques gratuits en droit de la famille pour savoir si elle peut quitter le domicile."
+        },
+        "whyIncorrect": {
+            "de": "Anzeige B bietet allgemeine Erziehungsberatung, jedoch keine rechtliche Prüfung von Jugendhilferechten.",
+            "ar": "الإعلان B يقدم استشارات تربوية عامة ولا يتناول المسائل القانونية وحقوق القاصرين.",
+            "fr": "L'annonce B propose du soutien éducatif mais pas d'expertise juridique en droit familial."
+        }
+    },
+    "15": {
+        "quote": "eki Eltern-Kind-Initiative e.V. „Bürozeiten für die Elternberatung ändern sich ab 1. März: Di u. Mi: 16.00–18.00 Uhr, Gesundheitsberatung“",
+        "whyCorrect": {
+            "de": "Anzeige D passt. Herr Lenz sucht Beratung zur Diät/Ernährung seines Sohnes; Anzeige D informiert über die geänderten Bürozeiten der Gesundheitsberatung.",
+            "ar": "الإعلان D هو الأنسب. يبحث السيد لينتس عن استشارة بخصوص حمية ابنه الصحية؛ والإعلان D يوضح المواعيد الجديدة للاستشارة الصحية.",
+            "fr": "L'annonce D convient. M. Lenz cherche des conseils sur le régime diététique de son fils ; l'annonce D précise les nouveaux horaires de la permanence santé."
+        },
+        "whyIncorrect": {
+            "de": "Andere Anzeigen bieten Notdienste für Akutfälle oder reine Erziehungsberatung.",
+            "ar": "الإعلانات الأخرى مخصصة لطوارئ الأطفال أو للاستشارات التربوية العامة دون الجانب الصحي.",
+            "fr": "Les autres annonces concernent les urgences médicales ou le conseil éducatif général."
+        }
+    },
+    "16": {
+        "quote": "Kantonales Arbeitsamt Basel-Stadt: „Neu! Persönliche Beratungsgespräche für Jugendliche und Eltern zu allem, was für die erste Berufswahl wichtig ist.“",
+        "whyCorrect": {
+            "de": "Anzeige E passt. Daniel und seine Eltern suchen eine professionelle Beratung zur ersten Berufswahl nach dem Schulabschluss.",
+            "ar": "الإعلان E هو الأنسب. يبحث دانيال ووالداه عن جلسة استشارية متخصصة حول الاختيار المهني الأول بعد نيل الشهادة المدرسية.",
+            "fr": "L'annonce E correspond. Daniel et ses parents souhaitent un entretien d'orientation professionnelle en vue de son premier choix de carrière."
+        },
+        "whyIncorrect": {
+            "de": "Anzeige B ist eine allgemeine Erziehungsberatung und keine Berufsberatung des Arbeitsamtes.",
+            "ar": "الإعلان B مخصص للإرشاد التربوي وليس للتوجيه المهني واختيار الوظائف.",
+            "fr": "L'annonce B traite de conseil éducatif et non d'orientation professionnelle."
+        }
+    },
+    "17": {
+        "quote": "Gebäude · Energie · Technik GET-Messe Freiburg: „Küche: neue Technologien... Während der Messeöffnungszeiten wird eine Kinderbetreuung angeboten.“",
+        "whyCorrect": {
+            "de": "Anzeige C passt. Das Paar möchte sich über Küchen informieren und braucht wegen der kranken Babysitterin eine Kinderbetreuung vor Ort.",
+            "ar": "الإعلان C هو الأنسب. يبحث الزوجان عن مطبخ جديد وبسبب مرض جليسة الأطفال تفيدهما خدمة رعاية الأطفال المتوفرة داخل المعرض.",
+            "fr": "L'annonce C est parfaite. Le couple veut s'informer sur les cuisines et l'accueil d'enfants proposé sur le salon résout l'absence de baby-sitter."
+        },
+        "whyIncorrect": {
+            "de": "Anzeige H (Weissgerber) bietet zwar Küchen, aber keinerlei Betreuung für die Kinder.",
+            "ar": "الإعلان H يخص استوديو مطابخ فقط ولا يوفر أي خدمة لرعاية ومجالسة الأطفال أثناء التسوق.",
+            "fr": "L'annonce H propose des cuisines mais aucun service de garde d'enfants."
+        }
+    },
+    "18": {
+        "quote": "Verein Gemeinsam e.V. „Wir laden ein zur/zum Gesprächsrunde/Erfahrungsaustausch für pflegende Angehörige alter Menschen.“",
+        "whyCorrect": {
+            "de": "Anzeige J passt. Simon pflegt seine alte, kranke Mutter und sucht den Erfahrungsaustausch mit anderen pflegenden Angehörigen.",
+            "ar": "الإعلان J هو الأنسب. يعتني سيمون بوالدته المسنة المريضة ويبحث عن حلقة نقاش لتبادل الخبرات مع من يمرون بنفس التجربة.",
+            "fr": "L'annonce J correspond. Simon s'occupe de sa mère âgée et malade et recherche un groupe d'échange d'expériences entre aidants familiaux."
+        },
+        "whyIncorrect": {
+            "de": "Anzeige I bietet Handwerksaufträge, keine Gesprächsrunden für Angehörige.",
+            "ar": "الإعلان I مخصص للأعمال اليدوية ولا يقدم أي لقاءات حوارية لأسر المرضى.",
+            "fr": "L'annonce I concerne des travaux d'assemblage et non un groupe de parole."
+        }
+    },
+    "19": {
+        "quote": "St. Martins Krankenhaus Informationsabende: „1. März: Schwangerschaft, Geburt und Wochenbett; 8. März: Das gesunde Neugeborene... keine Gebühren.“",
+        "whyCorrect": {
+            "de": "Anzeige G passt. Antonia erwartet ihr erstes Baby und kann sich an diesen kostenlosen Informationsabenden praxisnah informieren.",
+            "ar": "الإعلان G هو الأنسب. تنتظر أنتونيا مولودها الأول وستستفيد من هذه الأمسيات التثقيفية المجانية حول الولادة ورعاية المولود الجديد.",
+            "fr": "L'annonce G convient. Enceinte de son premier enfant, Antonia trouvera des réponses concrètes lors de ces soirées d'information gratuites à la maternité."
+        },
+        "whyIncorrect": {
+            "de": "Anzeige D betrifft bereits geborene Kinder und Termine zur Erziehungsberatung.",
+            "ar": "الإعلان D موجه للأطفال الأكبر سناً وتعديل مواعيد العمل وليس للأمهات الحوامل الجدد.",
+            "fr": "L'annonce D s'adresse aux parents d'enfants déjà nés et aux horaires de permanence."
+        }
+    },
+    "20": {
+        "quote": "Sven: „Wenn man uns jetzt noch vom Gehsteig runterschmeißt, dann können wir nur noch auf extra Skaterbahnen fahren... Das wäre schlimm! Wo sollen wir dann noch fahren??“",
+        "whyCorrect": {
+            "de": "Nein. Sven ist Inline-Skater und strikt gegen ein Verbot auf Bürgersteigen, da er nicht wüsste, wo er sonst fahren soll.",
+            "ar": "لا. سفين متزلج ويعارض بشدة حظر المتزلجين على الأرصفة لأن ذلك سيحرمهم من مساحات التزلج المناسبة.",
+            "fr": "Non. Passionné de roller, Sven s'oppose formellement à l'interdiction qui le priverait d'endroits où patiner."
+        },
+        "whyIncorrect": {
+            "de": "Ja trifft nicht zu: Svens Ausruf („Das wäre schlimm!“) zeigt seine entschiedene Gegenposition.",
+            "ar": "الخيار 'نعم' غير صحيح، فصرخته الاحتجاجية توضح رفضه القاطع للاقتراح.",
+            "fr": "Choisir 'Oui' est faux car Sven déplore vivement cette perspective."
+        }
+    },
+    "21": {
+        "quote": "Olav: „deshalb gibt es keinen Grund, uns Skateboardfahrern diese Fahrmöglichkeit wegzunehmen.“",
+        "whyCorrect": {
+            "de": "Nein. Olav fährt vorsichtig mit dem Skateboard auf dem Gehsteig und sieht keinen Grund für ein Verbot.",
+            "ar": "لا. يتنقل أولاف بحذر بلوح التزلج على الرصيف ولا يرى أي مبرر لحرمان المتزلجين من استخدام الأرصفة.",
+            "fr": "Non. Circulant prudemment en skateboard sur le trottoir, Olav s'oppose fermement à la suppression de ce droit."
+        },
+        "whyIncorrect": {
+            "de": "Ja ist falsch, da Olav sich ausdrücklich gegen die Einschränkung ausspricht.",
+            "ar": "الخيار 'نعم' خاطئ لأن أولاف يدافع بوضوح عن حقهم في استخدام الرصيف.",
+            "fr": "Choisir 'Oui' est erroné car Olav conteste l'utilité d'une interdiction."
+        }
+    },
+    "22": {
+        "quote": "Karen: „Warum sonst machen zunehmend mehr Radfahrer auf den Gehsteigen den Fußgängern den Platz streitig? So eine Regelung würde uns Fußgängern helfen.“",
+        "whyCorrect": {
+            "de": "Ja. Karen befürwortet die Neuregelung ausdrücklich, um Fußgänger vor verdrängenden Radfahrern zu schützen.",
+            "ar": "نعم. تؤيد كارين القرار الجديد لحماية المشاة واستعادة مساحتهم الآمنة بعيداً عن مضايقات الدراجات.",
+            "fr": "Oui. Karen soutient sans réserve la nouvelle règle pour redonner la priorité et la sécurité aux piétons."
+        },
+        "whyIncorrect": {
+            "de": "Nein ist unzutreffend: Karen begrüßt das Vorhaben als willkommene Hilfe für Fußgänger.",
+            "ar": "الخيار 'لا' غير سليم لأن كارين تعتبر القانون المقترح دعماً وحماية حقيقية للمشاة.",
+            "fr": "Choisir 'Non' ne convient pas, Karen voyant dans la règle un soulagement pour les piétons."
+        }
+    },
+    "23": {
+        "quote": "Paul: „Ich meine, die vorgeschlagene Regelung ist zu streng. Nur die Velos sollten vom Trottoir verschwinden bzw. nur noch gestossen werden.“",
+        "whyCorrect": {
+            "de": "Nein. Paul hält die generelle Fußgänger-Regelung für übertrieben streng und lehnt das pauschale Verbot ab.",
+            "ar": "لا. يرى باول أن فرض الحظر الشامل وحصر الرصيف على المشاة فقط أمر صارم ومبالغ فيه، ويعارض اللائحة بصيغتها العامة.",
+            "fr": "Non. Paul estime que la règle globale est excessivement stricte et ne souscrit pas à l'interdiction générale."
+        },
+        "whyIncorrect": {
+            "de": "Ja ist falsch: Seine Aussage („die Regelung ist zu streng“) markiert seine Ablehnung.",
+            "ar": "الخيار 'نعم' خاطئ، فوصفه للقانون بأنه «صارم أكثر مما يجب» يعبر عن عدم موافقته.",
+            "fr": "Choisir 'Oui' est erroné car qualifier la règle de « trop sévère » indique son désaccord."
+        }
+    },
+    "24": {
+        "quote": "Alina: „Wenn Sie mich fragen, stimme ich der Regelung zu, weil sie meine Kinder schützt.“",
+        "whyCorrect": {
+            "de": "Ja. Als Mutter von zwei kleinen Kindern stimmt Alina der Regelung voll zu, damit ihre Kinder auf dem Gehsteig sicher sind.",
+            "ar": "نعم. كأم لطفلين صغيرين، تؤيد ألينا اللائحة تماماً لحماية أطفالها من المتزلجين وسائقي الدراجات المسرعين.",
+            "fr": "Oui. Mère de deux enfants en bas âge, Alina approuve pleinement la mesure pour assurer leur protection."
+        },
+        "whyIncorrect": {
+            "de": "Nein ist unzutreffend, da Alina wörtlich „stimme ich der Regelung zu“ erklärt.",
+            "ar": "الخيار 'لا' خاطئ، فالنص يذكر صراحة عبارتها: «أنا أوافق على هذه اللائحة».",
+            "fr": "Choisir 'Non' est contredit par sa déclaration formelle d'adhésion."
+        }
+    },
+    "25": {
+        "quote": "Jonas: „Auf die Bürgersteige sollen nur Bürger, also Fußgänger, wie das Wort schon sagt.“",
+        "whyCorrect": {
+            "de": "Ja. Nachdem Jonas von einem Skater angefahren wurde, befürwortet er mit Nachdruck Gehsteige nur für Fußgänger.",
+            "ar": "نعم. بعدما صدمه متزلج، يطالب يوناس بشدة بقصر الأرصفة على المشاة وحدهم.",
+            "fr": "Oui. Ayant lui-même été percuté par un patineur, Jonas réclame fermement que les trottoirs soient réservés aux seuls piétons."
+        },
+        "whyIncorrect": {
+            "de": "Nein ist falsch, da Jonas aus eigener schmerzhafter Betroffenheit für die Regelung plädiert.",
+            "ar": "الخيار 'لا' غير صحيح لأن تجربته المؤلمة جعلته من أشد المدافعين عن حصرية الرصيف للمشاة.",
+            "fr": "Choisir 'Non' est erroné car son témoignage appuie très clairement l'interdiction."
+        }
+    },
+    "26": {
+        "quote": "Ken: „Wenn aber alle Passanten ... aufpassen und höflich sind, brauchen wir keine neuen Regeln. Das wünsche ich mir.“",
+        "whyCorrect": {
+            "de": "Nein. Ken fordert mehr gegenseitige Rücksichtnahme und Höflichkeit statt neuer Verbote und Regeln.",
+            "ar": "لا. يرى كين أن الحل يكمن في الاحترام المتبادل واللباقة بين الجميع، ويرفض سن قوانين ولوائح إضافية جديدة.",
+            "fr": "Non. Ken en appelle à la courtoisie et au civisme mutuel et rejette l'adoption de nouvelles réglementations."
+        },
+        "whyIncorrect": {
+            "de": "Ja ist nicht zutreffend, da Ken ausdrücklich sagt: „brauchen wir keine neuen Regeln“.",
+            "ar": "الخيار 'نعم' لا يصح لأن كين قال بالحرف: «لسنا بحاجة إلى لوائح وقوانين جديدة».",
+            "fr": "Choisir 'Oui' est inexact puisqu'il affirme expressément qu'on n'a pas besoin de règles supplémentaires."
+        }
+    },
+    "27": {
+        "quote": "Alleiniges Nach-Hause-Gehen muss von den Eltern im Vorhinein mittels Unterschrift bestätigt werden.",
+        "whyCorrect": {
+            "de": "c ist richtig. Eltern können vorab per schriftlicher Unterschrift bestätigen, dass ihr Kind selbstständig nach Hause gehen darf.",
+            "ar": "(c) هو الصحيح. يمكن لأولياء الأمور الإقرار كتابياً بتوقيعهم المسبق بأن طفلهم مسموح له بالعودة بمفرده إلى المنزل.",
+            "fr": "c est correct. Les parents peuvent autoriser par écrit et à l'avance leur enfant à rentrer seul chez lui."
+        },
+        "whyIncorrect": {
+            "de": "a und b entsprechen nicht den schriftlich zu bestätigenden Sonderregelungen des Merkblatts.",
+            "ar": "الخياران (a) و (b) لا يمثلان الإقرار الكتابي الاستثنائي المذكور في اللائحة.",
+            "fr": "a et b ne correspondent pas à la dérogation écrite prévue dans le texte."
+        }
+    },
+    "28": {
+        "quote": "Pro Woche fällt eine Verpflegungspauschale in der Höhe von 45,00 € an. Dieser Beitrag wird in bar jeweils am Montag in der Früh... eingehoben.",
+        "whyCorrect": {
+            "de": "b ist richtig. Die Eltern zahlen wöchentlich eine Verpflegungspauschale von 45 € in bar für das Essen der Kinder.",
+            "ar": "(b) هو الصحيح. يدفع أولياء الأمور مبلغاً أسبوعياً محدداً قدره 45 يورو لتغطية وجبات الطعام والمشروبات.",
+            "fr": "b est correct. Les parents règlent chaque semaine un forfait repas d'un montant de 45 €."
+        },
+        "whyIncorrect": {
+            "de": "a ist falsch (Essen wird von der Uni bereitgestellt) und c ist falsch (Geld wird einmalig montags für die ganze Woche fällig).",
+            "ar": "الخيار (a) خاطئ لأن الوجبات تقدمها الجامعة، والخيار (c) غير صحيح لأن الدفع أسبوعي وليس يومياً.",
+            "fr": "a est faux (les repas sont fournis) et c est inexact (le paiement est hebdomadaire et non quotidien)."
+        }
+    },
+    "29": {
+        "quote": "Den BetreuerInnen ist es nicht gestattet, Medikamente zu verabreichen.",
+        "whyCorrect": {
+            "de": "a ist richtig. Den Betreuern ist es ausdrücklich verboten, den Kindern irgendwelche Medikamente zu verabreichen.",
+            "ar": "(a) هو الصحيح. يُمنع المشرفون منعاً باتاً من إعطاء أي أدوية للأطفال المشتركين.",
+            "fr": "a est correct. Il est formellement interdit aux encadrants d'administrer des médicaments aux enfants."
+        },
+        "whyIncorrect": {
+            "de": "b und c treffen nicht zu: Notfallmedikamente müssen die Eltern selbst mitgeben, Betreuer geben sie jedoch nicht aus.",
+            "ar": "الخياران (b) و (c) غير صحيحين، فالأدوية الطارئة يحضرها الولي مع الطفل ولا تصرفها إدارة المكتب.",
+            "fr": "b et c sont faux : le bureau ne distribue pas de médicaments et les parents doivent apporter ceux de secours."
+        }
+    },
+    "30": {
+        "quote": "Insgesamt werden für die Veranstaltungen (Workshops) bis zu max. 60 Kinder pro Woche aufgenommen.",
+        "whyCorrect": {
+            "de": "c ist richtig. Mit maximal 60 Teilnehmern pro Woche ist die Zahl der Plätze strikt begrenzt.",
+            "ar": "(c) هو الصحيح. عدد المشاركين محدود للغاية حيث لا يتجاوز الحد الأقصى 60 طفلاً أسبوعياً.",
+            "fr": "c est correct. Le nombre de places est strictement limité à 60 enfants par semaine au maximum."
+        },
+        "whyIncorrect": {
+            "de": "a ist eine Empfehlung (kein zwingender Ausschluss) und b widerspricht der Anmeldung für ganze Wochenprogramme.",
+            "ar": "الخيار (a) مجرد فئة موصى بها وليس شرطاً حصرياً، و(b) غير صحيح فالتسجيل يتم لأسبوع كامل.",
+            "fr": "a est une recommandation d'âge et b est inexact (inscription à la semaine complète)."
+        }
+    },
+    "h1": {
+        "quote": "Reiseinformation: Wichtige Durchsage und Auskünfte zu Ausweis- und Passbestimmungen für Urlaubsreisende.",
+        "whyCorrect": {
+            "de": "Richtig. Die Radiodurchsage informiert Reisende über Einreisebestimmungen und Dokumente.",
+            "ar": "صحيح. يقدم الإعلان الإذاعي معلومات وتوجيهات هامة للمسافرين بشأن وثائق السفر وجوازات السفر.",
+            "fr": "Vrai. Le message délivre des informations aux voyageurs concernant les pièces d'identité et passeports."
+        },
+        "whyIncorrect": {
+            "de": "Falsch trifft nicht zu, da die Hinweise sich direkt an Urlauber und Reisende richten.",
+            "ar": "الخيار 'خطأ' غير صحيح فالنص موجه مباشرة إلى جمهور المسافرين.",
+            "fr": "Choisir 'Faux' ne convient pas car les instructions visent expressément les vacanciers."
+        }
+    },
+    "h2": {
+        "quote": "Passgebühren: Für Kleinkinder bis zum vollendeten 2. Lebensjahr fallen keine Gebühren für den Reisepass an.",
+        "whyCorrect": {
+            "de": "a ist richtig. Kleinkinder bis zum Alter von zwei Jahren erhalten den Reisepass kostenlos.",
+            "ar": "(a) هو الصحيح. يُعفى الأطفال الرضع حتى عمر سنتين من رسوم إصدار جواز السفر.",
+            "fr": "a est correct. Les passeports sont gratuits pour les tout-petits jusqu'à l'âge de deux ans."
+        },
+        "whyIncorrect": {
+            "de": "b und c müssen ermäßigte oder reguläre Gebühren zahlen.",
+            "ar": "الخياران (b) و (c) يفرضان رسوماً مخفضة أو كاملة على الأطفال الأكبر سناً.",
+            "fr": "b et c doivent s'acquitter de droits réduits ou normaux."
+        }
+    },
+    "h3": {
+        "quote": "Sprachkurs-Angebot: Kompakt- und Gruppenkurse für Business-Englisch und berufsbezogene Kommunikation, kein Einzelunterricht.",
+        "whyCorrect": {
+            "de": "Falsch. Es handelt sich um ein Gruppenangebot für berufliches Englisch, nicht um Privatunterricht.",
+            "ar": "خطأ. الإعلان يقدم دورات جماعية للغة الإنجليزية المخصصة للأعمال، وليس دروساً خصوصية فردية.",
+            "fr": "Faux. Il s'agit d'une formation collective d'anglais professionnel et non de cours particuliers."
+        },
+        "whyIncorrect": {
+            "de": "Richtig ist nicht zutreffend, da Privatstunden im Text nicht angeboten werden.",
+            "ar": "الخيار 'صحيح' غير دقيق فالدروس الفردية الخاصة غير مشمولة في العرض.",
+            "fr": "Choisir 'Vrai' est incorrect car l'offre porte sur des sessions de groupe."
+        }
+    },
+    "h4": {
+        "quote": "Zielgruppe: Abend- und Wochenendkurse speziell für Berufstätige mit Fokus auf Verhandlungssicherheit im Job.",
+        "whyCorrect": {
+            "de": "a ist richtig. Der Kurs richtet sich zielgerichtet an Berufstätige zur Verbesserung der beruflichen Sprachkompetenz.",
+            "ar": "(a) هو الصحيح. الدورة موجهة خصيصاً للموظفين والمهنيين (Berufstätige) لتعزيز مهاراتهم في العمل.",
+            "fr": "a est correct. Ce stage linguistique est spécialement conçu pour les professionnels en activité."
+        },
+        "whyIncorrect": {
+            "de": "b und c sind nicht die primäre Zielgruppe der Business-Kurse.",
+            "ar": "الخياران (b) و (c) لا يمثلان الفئة المستهدفة من هذه الدورات التخصصية.",
+            "fr": "b et c ne sont pas les destinataires de ce programme axé sur le monde du travail."
+        }
+    },
+    "h5": {
+        "quote": "Wetterprognose: Die Temperaturen steigen in den kommenden Tagen spürbar an und bringen mildere Frühlingsluft.",
+        "whyCorrect": {
+            "de": "Richtig. Der Wetterbericht kündigt einen deutlichen Temperaturanstieg und wärmeres Wetter an.",
+            "ar": "صحيح. تشير النشرة الجوية إلى ارتفاع ملحوظ في درجات الحرارة وتحسن الطقس ليصبح أكثر دفئاً.",
+            "fr": "Vrai. Les prévisions météorologiques annoncent une hausse sensible des températures."
+        },
+        "whyIncorrect": {
+            "de": "Falsch trifft nicht zu, da die Erwärmung explizit prognostiziert wird.",
+            "ar": "الخيار 'خطأ' غير صحيح فالنشرة تؤكد قدوم كتلة هوائية دافئة.",
+            "fr": "Choisir 'Faux' est erroné car le réchauffement est clairement annoncé."
+        }
+    },
+    "h6": {
+        "quote": "Niederschlag: Während Donnerstag und Freitag sonnig und trocken bleiben, setzt am Samstag ergiebiger Regen ein.",
+        "whyCorrect": {
+            "de": "c ist richtig. Erst am Samstag schlägt das Wetter um und es beginnt zu regnen.",
+            "ar": "(c) هو الصحيح. يستقر الطقس خلال الخميس والجمعة، بينما يبدأ هطول الأمطار يوم السبت.",
+            "fr": "c est correct. La pluie n'est attendue que pour la journée de samedi."
+        },
+        "whyIncorrect": {
+            "de": "a und b bleiben laut Vorhersage heiter und trocken.",
+            "ar": "الخياران (a) و (b) يتميزان بطقس مشمس وجاف تماماً.",
+            "fr": "a et b restent ensoleillés et sans précipitations."
+        }
+    },
+    "h7": {
+        "quote": "Veranstaltungshinweis: Öffentlicher Vortrag an der Technischen Universität für interessierte Besucher.",
+        "whyCorrect": {
+            "de": "Richtig. Die Ankündigung lädt zu einem wissenschaftlichen Vortrag an der Universität ein.",
+            "ar": "صحيح. يعلن التسجيل الصوتي عن تنظيم محاضرة علمية عامة في الجامعة التقنية.",
+            "fr": "Vrai. L'annonce convie le public à une conférence universitaire."
+        },
+        "whyIncorrect": {
+            "de": "Falsch ist nicht zutreffend, da der Vortrag das zentrale Thema der Meldung ist.",
+            "ar": "الخيار 'خطأ' غير صحيح لأن المحاضرة هي موضوع الخبر المعلن عنه.",
+            "fr": "Choisir 'Faux' ne convient pas car la conférence est l'objet de l'annonce."
+        }
+    },
+    "h8": {
+        "quote": "Thema des Vortrags: Aktuelle Entwicklungen und humanoide Systeme in der modernen Robotik.",
+        "whyCorrect": {
+            "de": "c ist richtig. Der Vortrag behandelt zukunftsweisende Technologien auf dem Gebiet der Robotik.",
+            "ar": "(c) هو الصحيح. تدور المحاضرة حول أحدث التطورات والأنظمة الذكية في مجال هندسة الروبوتات (Robotik).",
+            "fr": "c est correct. La conférence porte sur les avancées récentes dans le domaine de la robotique."
+        },
+        "whyIncorrect": {
+            "de": "a und b sind allenfalls Randbereiche, nicht das Hauptthema des Referats.",
+            "ar": "الخياران (a) و (b) ليسا العنوان الأساسي للمحاضرة التي تركز بشكل محدد على الروبوتات.",
+            "fr": "a et b ne correspondent pas à la thématique centrale de l'intervention."
+        }
+    },
+    "h9": {
+        "quote": "Telefonnachricht: Dennis verabredet sich mit Claudia für einen gemeinsamen Ausflug in den Zoologischen Garten.",
+        "whyCorrect": {
+            "de": "Richtig. Dennis und Claudia planen ein Treffen am Haupteingang des Zoos.",
+            "ar": "صحيح. يخطط دينيس وكلوديا للقاء والذهاب معاً في نزهة إلى حديقة الحيوان.",
+            "fr": "Vrai. Dennis et Claudia conviennent de se retrouver pour visiter le zoo ensemble."
+        },
+        "whyIncorrect": {
+            "de": "Falsch trifft nicht zu, da die Verabredung der Hauptgrund des Telefonats ist.",
+            "ar": "الخيار 'خطأ' غير سليم لأن الموعد واللقاء هما محور الرسالة الهاتفية.",
+            "fr": "Choisir 'Faux' est erroné car le rendez-vous est au cœur de leur échange."
+        }
+    },
+    "h10": {
+        "quote": "Fahrtdauer: Dennis erklärt, dass die Anfahrt mit öffentlichen Verkehrsmitteln zum Zoo etwa 35 Minuten in Anspruch nimmt.",
+        "whyCorrect": {
+            "de": "b ist richtig. Dennis rechnet mit einer Fahrtzeit von circa 35 Minuten bis zum Zoo.",
+            "ar": "(b) هو الصحيح. يوضح دينيس أن الرحلة عبر المواصلات العامة تستغرق حوالي 35 دقيقة للوصول إلى الحديقة.",
+            "fr": "b est correct. Dennis estime qu'il lui faudra environ 35 minutes de trajet pour parvenir au zoo."
+        },
+        "whyIncorrect": {
+            "de": "a und c nennen unzutreffende Stationsanzahlen oder Umsteigezeiten.",
+            "ar": "الخياران (a) و (c) يذكران تفاصيل غير صحيحة عن عدد المحطات أو التبديل.",
+            "fr": "a et c mentionnent des informations erronées concernant les correspondances ou stations."
+        }
+    },
+    "h11": {
+        "quote": "Schiffsdaten: Unser historischer Schaufelraddampfer wurde bereits in den 1990er-Jahren, also vor 2010 umfassend modernisiert.",
+        "whyCorrect": {
+            "de": "a ist richtig. Das Schiff wurde lange vor 2010 gebaut und in Betrieb genommen.",
+            "ar": "(a) هو الصحيح. بُنيت السفينة ودخلت الخدمة قبل عام 2010 بوقت طويل.",
+            "fr": "a est correct. Le bateau à vapeur a été construit bien avant l'année 2010."
+        },
+        "whyIncorrect": {
+            "de": "b und c stimmen zeitlich nicht mit den historischen Baudaten überein.",
+            "ar": "الخياران (b) و (c) لا يتطابقان مع سنة بناء السفينة وتاريخ تدشينها.",
+            "fr": "b et c ne correspondent pas aux dates historiques de mise en service du navire."
+        }
+    },
+    "h12": {
+        "quote": "Burg Maus: Auf der berühmten Burg Maus befindet sich eine traditionsreiche Greifvogelstation mit Adlern und Falken.",
+        "whyCorrect": {
+            "de": "c ist richtig. Auf Burg Maus kann man Vögel (Greifvögel und Falken) bei Flugschauen beobachten.",
+            "ar": "(c) هو الصحيح. تشتهر قلعة ماوس بمركز لعروض وتربية الطيور الجارحة (النسور والصقور).",
+            "fr": "c est correct. Le château de Burg Maus abrite une station de rapaces où l'on peut admirer des oiseaux."
+        },
+        "whyIncorrect": {
+            "de": "a und b beruhen lediglich auf der wörtlichen Namensbedeutung von Katze und Maus, nicht auf realen Tieren vor Ort.",
+            "ar": "الخياران (a) و (b) تلاعُب بأسماء القلاع التاريخية (القط والفأر) وليست حيوانات معروضة هناك.",
+            "fr": "a et b jouent sur les dénominations historiques des châteaux et ne correspondent à aucun animal réel."
+        }
+    },
+    "h13": {
+        "quote": "Landgang: Unser planmäßiger Landgang mit Besichtigung der historischen Drosselgasse findet in Rüdesheim statt.",
+        "whyCorrect": {
+            "de": "b ist richtig. Die Passagiere gehen in Rüdesheim an Land, um die Stadt zu erkunden.",
+            "ar": "(b) هو الصحيح. ينزل الركاب إلى اليابسة لزيارة المعالم الشهيرة في مدينة رودسهايم (Rüdesheim).",
+            "fr": "b est correct. Les passagers débarquent à Rüdesheim pour une excursion à terre."
+        },
+        "whyIncorrect": {
+            "de": "a und c sind lediglich Zwischenstopps oder Aussichtspunkte ohne organisierten Landgang.",
+            "ar": "الخياران (a) و (c) مجرد محطات مرور في النهر دون نزول للركاب.",
+            "fr": "a et c ne sont que des points de passage le long du Rhin."
+        }
+    },
+    "h14": {
+        "quote": "Bordgastronomie: An unserer Schiffsbar halten wir eine reichhaltige Auswahl an verschiedenen Heiß- und Kaltgetränken für Sie bereit.",
+        "whyCorrect": {
+            "de": "b ist richtig. An der Bar werden verschiedene Getränke serviert.",
+            "ar": "(b) هو الصحيح. يوفر بار السفينة تشكيلة متنوعة من مختلف المشروبات الساخنة والباردة.",
+            "fr": "b est correct. Le bar du bord propose un vaste choix de boissons variées."
+        },
+        "whyIncorrect": {
+            "de": "a ist zu speziell eingeschränkt und c (warme Speisen) gibt es nur im Hauptrestaurant, nicht an der Bar.",
+            "ar": "الخيار (a) مقيد بنوع واحد، والخيار (c) يقدم في المطعم الرئيسي وليس في البار.",
+            "fr": "a est trop restrictif et c (plats chauds) n'est servi qu'au restaurant principal."
+        }
+    },
+    "h15": {
+        "quote": "Raucherregelung: Aus Sicherheitsgründen ist das Rauchen ausschließlich in den dafür ausgewiesenen privaten Kabinen erlaubt.",
+        "whyCorrect": {
+            "de": "c ist richtig. Das Rauchen ist an Bord nur in einer Kabine gestattet, auf den Außendecks und Innenräumen herrscht Rauchverbot.",
+            "ar": "(c) هو الصحيح. يسمح بالتدخين فقط في كبائن خاصة محددة، ويمنع تماماً في المساحات المفتوحة والأماكن العامة.",
+            "fr": "c est correct. Il est uniquement permis de fumer dans des cabines dédiées à cet usage."
+        },
+        "whyIncorrect": {
+            "de": "a und b sind rauchfreie Zonen zum Schutz aller Reisenden.",
+            "ar": "الخياران (a) و (b) مناطق خالية من التدخين لسلامة وراحة الركاب.",
+            "fr": "a et b sont des espaces non-fumeurs soumis à une interdiction stricte."
+        }
+    },
+    "h16": {
+        "quote": "Großvater im Café: „Ach, ein feines Stück Torte zum Kaffee lasse ich mir doch niemals entgehen!“",
+        "whyCorrect": {
+            "de": "Falsch. Der Großvater isst Kuchen ausgesprochen gerne und bestellt sich mit Begeisterung ein Stück.",
+            "ar": "خطأ. الجد يحب تناول الكعك والحلويات كثيراً ويطلب قطعة منها باستمتاع في المقهى.",
+            "fr": "Faux. Le grand-père adore les pâtisseries et commande une part de gâteau avec grand plaisir."
+        },
+        "whyIncorrect": {
+            "de": "Richtig ist nicht zutreffend, da seine Vorliebe für Süßes deutlich hörbar ist.",
+            "ar": "الخيار 'صحيح' غير دقيق لأن حبه للحلويات واضح من حواره.",
+            "fr": "Choisir 'Vrai' est erroné car son penchant pour les douceurs est manifeste."
+        }
+    },
+    "h17": {
+        "quote": "Großvater: „Die Aargauer Rüeblitorte kenne ich seit meiner Jugendzeit in- und auswendig, das ist ein echter Klassiker!“",
+        "whyCorrect": {
+            "de": "Falsch. Lenas Großvater kennt Rüeblitorte bestens und hat sie schon oft in seinem Leben gegessen.",
+            "ar": "خطأ. يعرف جد لينا كعكة الجزر السويسرية (Rüeblitorte) منذ شبابه وتناولها مرات عديدة.",
+            "fr": "Faux. Le grand-père de Lena connaît parfaitement le gâteau aux carottes et en a mangé souvent dans sa vie."
+        },
+        "whyIncorrect": {
+            "de": "Richtig trifft nicht zu, da er die Torte als vertrautes Schweizer Traditionsgebäck beschreibt.",
+            "ar": "الخيار 'صحيح' غير مطابق لكلامه الذي يمتدح فيه الكعكة كطبق كلاسيكي معتاد لديه.",
+            "fr": "L'affirmation est fausse car il vante ce dessert comme une recette classique bien connue de lui."
+        }
+    },
+    "h18": {
+        "quote": "Lena: „Du Opa, ich möchte unbedingt an diesem Schweizer Kochkurs teilnehmen, aber mir fehlt noch das Kursgeld dafür.“",
+        "whyCorrect": {
+            "de": "Richtig. Lena bittet ihren Opa um finanzielle Hilfe, um die Gebühren für den Kochkurs bezahlen zu können.",
+            "ar": "صحيح. تطلب لينا من جدها مساعدة مالية لتسديد رسوم التسجيل في دورة الطهي.",
+            "fr": "Vrai. Lena sollicite l'aide financière de son grand-père pour s'inscrire à un cours de cuisine."
+        },
+        "whyIncorrect": {
+            "de": "Falsch ist unpassend, da die Kursgebühr der Hauptanlass für ihre Bitte an den Großvater ist.",
+            "ar": "الخيار 'خطأ' غير صحيح لأن دفع تكاليف دورة الطبخ هو السبب المباشر لحديثها معه.",
+            "fr": "Choisir 'Faux' ne convient pas puisque la participation financière est l'objet de sa demande."
+        }
+    },
+    "h19": {
+        "quote": "Lena über die Oma: „Oma steht doch gar nicht auf Fondue oder Rösti, sie zaubert am liebsten Pasta und mediterrane Gerichte.“",
+        "whyCorrect": {
+            "de": "Falsch. Lenas Großmutter kocht lieber italienisch und mediterran statt traditioneller Schweizer Hausmannskost.",
+            "ar": "خطأ. تفضل جدة لينا تحضير الأطباق الإيطالية والمتوسطية ولا تطبخ الأكلات السويسرية التقليدية.",
+            "fr": "Faux. La grand-mère de Lena préfère cuisiner des spécialités italiennes plutôt que des plats suisses traditionnels."
+        },
+        "whyIncorrect": {
+            "de": "Richtig trifft nicht zu, da die Oma gerade keine traditionellen Gerichte der Schweiz zubereitet.",
+            "ar": "الخيار 'صحيح' مناقض للحقيقة فالجدة تتجنب الطبخ السويسري الثقيل كالفوندو والروشتي.",
+            "fr": "L'affirmation est fausse car la grand-mère privilégie la gastronomie méditerranéenne."
+        }
+    },
+    "h20": {
+        "quote": "Großvater: „Mit heimischen Zutaten der Region zu kochen schont weite Transportwege und nützt unserer Umwelt enorm.“",
+        "whyCorrect": {
+            "de": "Richtig. Die Verwendung regionaler, traditioneller Lebensmittel spart weite Transportwege und schont die Natur.",
+            "ar": "صحيح. استخدام المكونات المحلية والتقليدية يقلل من مسافات الشحن الطويلة ويحمي البيئة والمناخ.",
+            "fr": "Vrai. Cuisiner avec des produits du terroir évite les longs transports et préserve l'environnement."
+        },
+        "whyIncorrect": {
+            "de": "Falsch ist nicht zutreffend, da der ökologische Vorteil regionaler Küche im Gespräch bejaht wird.",
+            "ar": "الخيار 'خطأ' غير سليم لأن الفائدة البيئية للطعام المحلي كانت نقطة اتفاق أساسية.",
+            "fr": "Choisir 'Faux' est erroné car l'argument écologique est explicitement mis en valeur."
+        }
+    },
+    "h21": {
+        "quote": "Gesundheitsaspekt: Die ungewohnten, extrem scharfen Gewürze exotischer Küchen belasten oft den Magen hiesiger Bürger.",
+        "whyCorrect": {
+            "de": "Richtig. Scharfe und exotische Gewürze wie in der mexikanischen Küche sind für manche Schweizer schwer bekömmlich.",
+            "ar": "صحيح. التوابل الحارة والغريبة في المطبخ المكسيكي قد تكون غير صحية أو ثقيلة على معدة سكان سويسرا.",
+            "fr": "Vrai. Les épices très piquantes de la cuisine mexicaine conviennent moins bien aux estomacs suisses non habitués."
+        },
+        "whyIncorrect": {
+            "de": "Falsch trifft nicht zu, da die mangelnde Verträglichkeit scharfer Importküche betont wird.",
+            "ar": "الخيار 'خطأ' غير صحيح فالنص يشير إلى صعوبة هضم الأطباق المكسيكية الحارة للأهالي.",
+            "fr": "L'affirmation est exacte d'après les explications médicales données par le grand-père."
+        }
+    },
+    "h22": {
+        "quote": "Großvater: „Aber natürlich übernehme ich die Kurskosten sehr gerne für dich, mein Kind!“",
+        "whyCorrect": {
+            "de": "Falsch. Der Großvater kann und will ihr das Geld geben und bezahlt den Kochkurs mit Freude.",
+            "ar": "خطأ. الجد قادر على منحها المال ويسعده جداً التكفل بدفع مصاريف دورة الطبخ لحفيدته.",
+            "fr": "Faux. Le grand-père a les moyens et accepte avec grand plaisir de lui financer le cours de cuisine."
+        },
+        "whyIncorrect": {
+            "de": "Richtig ist falsch, da er ihre Bitte nicht ablehnt, sondern sofort großzügig zusagt.",
+            "ar": "الخيار 'صحيح' غير دقيق لأنه وافق على الفور وبكل سرور على منحها المبلغ المطلوب.",
+            "fr": "Choisir 'Vrai' est faux car il accède immédiatement à sa demande financière."
+        }
+    },
+    "h23": {
+        "quote": "Annette Vinke (b): „Die positive Ausstrahlung und gute Laune der Moderatoren bringt den Patienten neue Lebenskraft und ist unbezahlbar.“",
+        "whyCorrect": {
+            "de": "Annette Vinke (b) sagt dies. Sie betont, wie wertvoll die heitere Stimmung der Sprecher für die Genesung der Kranken ist.",
+            "ar": "أنيت فينكه (b) هي القائلة. تؤكد على القيمة المعنوية العالية لابتسامة ومرح المذيعين في التخفيف عن المرضى.",
+            "fr": "C'est Annette Vinke (b) qui l'affirme. Elle souligne l'effet thérapeutique et précieux de la bonne humeur des animateurs."
+        },
+        "whyIncorrect": {
+            "de": "Der Moderator und Michael sprechen über Finanzierungsmodelle und Technik, nicht über diesen emotionalen Wert.",
+            "ar": "تناول المذيع ومايكل التجهيزات التقنية والتمويل، أما الجانب المعنوي فقد طرحته أنيت.",
+            "fr": "L'animateur et Michael débattent de la technique et du budget, non de cet apport moral."
+        }
+    },
+    "h24": {
+        "quote": "Annette Vinke (b): „Traurige oder beunruhigende Nachrichten haben bei uns im Spitalradio striktes Sendeverbot.“",
+        "whyCorrect": {
+            "de": "Annette Vinke (b) erklärt dieses redaktionelle Prinzip. Negative und traurige Botschaften werden bewusst vermieden.",
+            "ar": "أنيت فينكه (b) هي القائلة. توضح سياسة المحطة في استبعاد وحظر بث أي أخبار محزنة أو مقلقة للمرضى.",
+            "fr": "C'est Annette Vinke (b) qui l'explique. Les messages tristes ou anxiogènes sont systématiquement exclus des ondes."
+        },
+        "whyIncorrect": {
+            "de": "Weder Michael noch der Moderator stellten diese programmatische Regel des Krankenhaussenders auf.",
+            "ar": "لم يطرح مايكل أو المذيع هذه القاعدة التحريرية الخاصة بإذاعة المستشفى بل صرحت بها أنيت.",
+            "fr": "Cette règle éditoriale propre à la radio hospitalière émane de la directrice Annette."
+        }
+    },
+    "h25": {
+        "quote": "Moderator (a): „Für die Hörer bringt Werbung doch auch echte Vorzüge, da sie über neue Angebote und Rabatte informiert werden.“",
+        "whyCorrect": {
+            "de": "Der Moderator (a) vertritt diesen Standpunkt. Er hebt hervor, dass Konsumenten und Hörer von Werbehinweisen profitieren können.",
+            "ar": "المذيع (a) هو القائل. يرى أن الإعلانات التجارية تمنح المستمعين فوائد باطلاعهم على عروض وتخفيضات جديدة.",
+            "fr": "C'est l'animateur (a) qui défend cette idée. Il rappelle que la publicité informe utilement les auditeurs."
+        },
+        "whyIncorrect": {
+            "de": "Die beiden Gäste sehen Werbung im Spital eher kritisch oder als rein notwendiges Übel.",
+            "ar": "الضيفان ينظران للإعلانات بتحفظ بينما تولى المذيع ذكر فوائدها المحتملة للجمهور.",
+            "fr": "Les deux invités sont plus circonspects sur la publicité que l'animateur."
+        }
+    },
+    "h26": {
+        "quote": "Annette Vinke (b): „Erst durch gezielte Werbeeinnahmen können wir die laufenden Betriebskosten unseres Senders decken.“",
+        "whyCorrect": {
+            "de": "Annette Vinke (b) stellt dies klar. Für ihren Sender ist kommerzielle Werbung die notwendige Basis der Finanzierung.",
+            "ar": "أنيت فينكه (b) هي القائلة. توضح أن عائدات الإعلانات هي المصدر الأساسي الذي يتيح تمويل نفقات البث.",
+            "fr": "C'est Annette Vinke (b) qui le précise. Les recettes publicitaires sont indispensables pour couvrir les frais de sa station."
+        },
+        "whyIncorrect": {
+            "de": "Michael widerspricht dem für sein eigenes Projekt, bei dem auf Werbung verzichtet wird.",
+            "ar": "يعارضها مايكل مستشهداً بنموذج محطته التي نجحت في العمل دون أي إعلانات تجارية.",
+            "fr": "Michael prouve le contraire avec sa propre expérience exempte de réclame commerciale."
+        }
+    },
+    "h27": {
+        "quote": "Michael Schönberg (c): „Unser Sender 'Spitalfunk' finanziert sich seit jeher komplett werbefrei über Spenden und Förderer.“",
+        "whyCorrect": {
+            "de": "Michael Schönberg (c) berichtet stolz, dass sein Partnersender „Spitalfunk“ ganz ohne Werbespots erfolgreich arbeitet.",
+            "ar": "مايكل شونبيرغ (c) هو القائل. يفيد بنجاح محطتهم «سبيمالفنك» في البث والعمل دون اللجوء لأي إعلانات.",
+            "fr": "C'est Michael Schönberg (c) qui le relate. Sa radio « Spitalfunk » a réussi le pari de fonctionner sans aucune publicité."
+        },
+        "whyIncorrect": {
+            "de": "Annette räumte ein, dass ihr Sender ohne Werbung nicht überleben könnte.",
+            "ar": "أنيت أكدت حاجة محطتها للإعلانات، أما مايكل فهو الذي استطاع تدبير محطة خالية من الدعاية.",
+            "fr": "Annette a reconnu dépendre de la publicité, contrairement au projet de Michael."
+        }
+    },
+    "h28": {
+        "quote": "Annette Vinke (b): „Jeder ehrenamtliche Helfer, Patient oder Angehörige, der Lust hat, darf sich aktiv ans Mikrofon setzen.“",
+        "whyCorrect": {
+            "de": "Annette Vinke (b) lädt dazu ein. Bei ihrem Radioprojekt steht das Mitmachen allen interessierten Freiwilligen offen.",
+            "ar": "أنيت فينكه (b) هي القائلة. ترحب بمشاركة وتطوع أي شخص يرغب في خوض التجربة الإذاعية خلف الميكروفون.",
+            "fr": "C'est Annette Vinke (b) qui l'explique. Son antenne est ouverte à toute personne désireuse de participer."
+        },
+        "whyIncorrect": {
+            "de": "Michael und der Moderator thematisierten technische Pannen, nicht die offene Mitarbeiterpolitik.",
+            "ar": "تحدث مايكل عن الصعوبات التقنية بينما دعت أنيت الراغبين للانضمام والتطوع بالمحطة.",
+            "fr": "Michael évoque le matériel, alors qu'Annette développe la politique d'ouverture aux bénévoles."
+        }
+    },
+    "h29": {
+        "quote": "Michael Schönberg (c): „Wenn sich jemand verspricht oder ein kleiner Fehler passiert, nehmen wir das mit Humor und lachen herzlich.“",
+        "whyCorrect": {
+            "de": "Michael Schönberg (c) schildert die lockere Studioatmosphäre, in der Versprecher und Pannen mit Lachen genommen werden.",
+            "ar": "مايكل شونبيرغ (c) هو القائل. يشير إلى تقبل الأخطاء وزلات اللسان في الاستوديو بروح مرحة والضحك عليها ببساطة.",
+            "fr": "C'est Michael Schönberg (c) qui le raconte. Les lapsus et petites erreurs à l'antenne sont accueillis dans la bonne humeur et par des rires."
+        },
+        "whyIncorrect": {
+            "de": "Annette sprach über Professionalität und Sendebeschränkungen, während Michael von diesen lustigen Momenten erzählt.",
+            "ar": "ركزت أنيت على الانضباط بينما وصف مايكل المواقف العفوية والضحك على الأخطاء.",
+            "fr": "Annette insiste sur le cadre éditorial, tandis que Michael dépeint ces instants d'autodérision."
+        }
+    },
+    "h30": {
+        "quote": "Michael Schönberg (c): „Für ein professionelles Tonstudio und verlässliche Sendeanlagen muss man heute beträchtliche Summen investieren.“",
+        "whyCorrect": {
+            "de": "Michael Schönberg (c) äußert dies. Er verweist auf die hohen Anschaffungs- und Wartungskosten für Studiotechnik.",
+            "ar": "مايكل شونبيرغ (c) هو القائل. يوضح أن شراء وصيانة الأجهزة الصوتية ومعدات البث يتطلب إنفاق مبالغ مالية طائلة.",
+            "fr": "C'est Michael Schönberg (c) qui le constate. L'acquisition et la maintenance d'équipements audio de qualité représentent un investissement élevé."
+        },
+        "whyIncorrect": {
+            "de": "Weder Annette noch der Moderator gingen derart detailliert auf die hohen Anschaffungskosten der Funktechnik ein.",
+            "ar": "لم يتطرق المذيع أو أنيت لهذا التفصيل المتعلق بارتفاع أسعار معدات الاستوديو.",
+            "fr": "Ni l'animateur ni Annette n'ont chiffré ainsi les coûts du matériel de transmission."
+        }
+    }
 }
 };
 

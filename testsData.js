@@ -1368,5 +1368,925 @@ const modelTests = [
         ]
       }
     ]
+  },
+
+/* ------------------------------------------------------------------------
+     MODELLSATZ 5: HUEBER MODELLTEST 14 (ZERTIFIKAT B1 NEU)
+     Michelstädter Altstadtfest / Die Alten wollen kein Internet & Essen als Medizin / Hilfs-Anzeigen / Frühstudenten / Benutzungsordnung Pestalozzi-Bibliothek Zürich + Hören (Mozart-Tour, Straßenbahn, School for you)
+     ------------------------------------------------------------------------ */
+  {
+    id: "modellsatz-5",
+    title: "Modelltest 14 — Hueber Zertifikat B1",
+    badge: "Modelltest 14",
+    examTitle: "Goethe / ÖSD B1 Prüfungssimulation — Modelltest 14",
+    examSub: "Lesen (5 Teile) & Hören (4 Teile) · Modelltest 14 (Hueber)",
+    timeTotal: 65,
+    parts: [
+      {
+        id: 1,
+        title: "Teil 1",
+        time: 10,
+        instructions: "Lesen Sie den Text und die Aufgaben 1 bis 6 dazu. Wählen Sie: Sind die Aussagen Richtig oder Falsch?",
+        articles: [{
+          heading: "Meine Erlebnisse",
+          sub: "Besuch in Michelstadt im Odenwald",
+          meta: "25. September",
+          body: [
+            "Letzten August war ich zu Besuch bei meinem Onkel in Michelstadt. Michelstadt ist ein kleines, mittelalterliches Städtchen im Odenwald. Es ist sehr malerisch und ... da ist meistens nicht viel los. Hinzu kam, dass der letzte Sommer ziemlich verregnet war. Die meiste Zeit verbrachte ich mit Stubenhocken. Nicht gerade anregend!!",
+            "Doch an einem Samstag schlug meine Tante vor, dass wir abends zum Michelstädter Altstadtfest gehen. Ich machte mir zwar keine große Hoffnung auf gute Unterhaltung, aber da ich nichts Besseres zu tun hatte und das Wetter ausnahmsweise gut war, stimmte ich zu.",
+            "Das Fest fand im Zentrum statt, das für den Verkehr gesperrt war. Wir konnten also nicht mit dem Auto in die Innenstadt fahren und mussten zu Fuß gehen. Unterwegs erlebte ich schon die erste Überraschung. Die Geschäfte waren alle auf, Straßen und Gassen waren mit Kerzen erleuchtet. Es war „lange Einkaufsnacht“. Wir bummelten durch die Straßen, sahen uns die Attraktionen an, die der Gewerbeverein organisiert hatte, und ließen uns ein-zwei Schnäppchen nicht entgehen.",
+            "Schließlich kamen wir auf den Hof der Michelstädter Burg-Kellerei, den Ort, wo das Herz des Altstadtfests schlug. Hier waren Tische und Bänke aufgestellt, an denen schon viele Leute saßen. Man grüßte sich, saß beisammen, amüsierte sich ... eine tolle Stimmung. Für das leibliche Wohl war bestens gesorgt: Bratwurst, Currywurst, Pommes, Erbsensuppe mit Bockwurst – und natürlich Bier von der heimischen Brauerei. Und ab 21.00 Uhr spielte eine Rock-’n’-Roll-Band live. In Michelstadt war wirklich was los.",
+            "Doch das war nicht alles. Meine Tante drängte uns. Wir sollten weiter zum „Schwiegermutterbrunnen“, denn da gab eine Gruppe, die Art Artistica, eine Show. Eigentlich wollte ich nicht weg, weil die Musikband super spielte. Aber sie bestand so sehr darauf, dass wir nachgaben. Und sie hatte recht.",
+            "Die Artistengruppe bot eine Show mit Feuer-Acts. Es war sehr eindrucksvoll. In der sommerlichen Nacht sah man die Artisten ihre Kunststücke vorführen und man hörte nur das Knistern und Zischen des Feuers. Es war ein einmaliges Schauspiel.",
+            "Zu Fuß kehrten wir in der mondhellen Nacht langsam nach Hause zurück. Ich werde dieses Fest nie vergessen und kann nur jedem empfehlen: Auch Michelstadt im Odenwald ist eine Reise wert (besonders im August!)"
+          ],
+          signature: "Eure Nicole"
+        }],
+        example: { text: "In Michelstadt kann man oft etwas erleben.", answer: "falsch" },
+        questions: [
+          { id: 1, type: "tf", text: "Auf dem Fest konnte man sich trotz des schlechten Wetters gut unterhalten.", answer: "falsch" },
+          { id: 2, type: "tf", text: "Im Stadtzentrum durften während des Fests keine Privatwagen fahren.", answer: "richtig" },
+          { id: 3, type: "tf", text: "In der „langen Einkaufsnacht“ waren nur wenige Läden geschlossen.", answer: "falsch" },
+          { id: 4, type: "tf", text: "Die Speisen bot die heimische Brauerei umsonst an.", answer: "falsch" },
+          { id: 5, type: "tf", text: "Die Artisten zeigten ihre Feuer-Show zu lauter Musik.", answer: "falsch" },
+          { id: 6, type: "tf", text: "Nicole meint, es lohnt sich, Michelstadt zu besuchen.", answer: "richtig" }
+        ]
+      },
+      {
+        id: 2,
+        title: "Teil 2",
+        time: 20,
+        instructions: "Lesen Sie den Text aus der Presse und die Aufgaben 7 bis 9 dazu. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+        articles: [{
+          heading: "Die Alten wollen kein Internet",
+          body: [
+            "Trotz des gern verbreiteten Bildes vom munter surfenden Senior sind es die Haushalte älterer Bürger, die zu einer stillstehenden Statistik der Online-Haushalte in der Schweiz führen: Laut Bundesamt für Statistik wollen diese 20 Prozent partout nicht online gehen. Damit liegt die Schweiz hinter den skandinavischen Ländern und den Niederlanden, wo insgesamt mehr private Haushalte Internet haben als bei uns.",
+            "Dafür gibt es verschiedene Gründe. Bei einer Befragung wurden mangelndes Interesse, wenig Fachkenntnis oder kein Selbstvertrauen von den älteren Menschen angegeben. Fachleute nehmen auch an, dass den Senioren der spielerische Kontakt zum Internet fehlt. Sie sind einfach nicht damit aufgewachsen und zögern, die neuen Medien jetzt noch kennenzulernen.",
+            "Aber in der Befragung zeigte sich auch, dass jüngere Internetbenutzer in der Schweiz sich über verschiedene Gefahren Sorgen machen. Im Vordergrund steht hier die Angst vor Viren, gefolgt von der Furcht davor, dass persönliche Informationen in falsche Hände kommen, die Angst, dass über das Internet ihre Kreditkarten von Kriminellen benutzt werden, oder vor Risiken in Zusammenhang mit Kindern. Allerdings greifen die Schweizer Online-Nutzer auch zu Schutzmassnahmen. 80 Prozent von ihnen haben eine Sicherheitssoftware, aber nur 30 Prozent der Haushalte mit Kindern nutzen ein Kinderschutzprogramm für ihren Computer."
+          ],
+          source: "(aus einer Schweizer Zeitung)"
+        }],
+        example: { text: "In der Schweiz …", options: ["haben 80 Prozent der Haushalte Internet.", "haben nur wenige Internetnutzer Schutzprogramme gegen Viren.", "surfen ältere Menschen gern im Internet."], answer: 0 },
+        questions: [
+          { id: 7, type: "mcq", text: "In diesem Text geht es darum, …", options: ["dass die Schweizer im Internet vor allem spielen.", "wie sich die Zahl der Online-Haushalte in der Schweiz entwickelt.", "warum Kinder vor dem Internet geschützt werden müssen."], answer: 1 },
+          { id: 8, type: "mcq", text: "Senioren …", options: ["haben selten Computerkenntnisse.", "benutzen Schutzprogramme für ihre Computer.", "haben Angst vor Computerviren."], answer: 0 },
+          { id: 9, type: "mcq", text: "In den Niederlanden …", options: ["gibt es die gleichen Probleme mit dem Internet wie in der Schweiz.", "haben mehr Haushalte Internet als in der Schweiz.", "spielen ältere Leute viel im Internet."], answer: 1 }
+        ],
+        instructions2: "Lesen Sie den Text aus der Presse und die Aufgaben 10 bis 12 dazu. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+        articles2: [{
+          heading: "Essen als Medizin",
+          body: [
+            "Stark im Trend liegt zurzeit Functional-Food. Das ist Essen, das nicht nur satt macht, sondern auch für die Gesundheit sorgt. Dazu gehören beispielsweise cholesterinsenkende Drinks, mit Omega-3-Fettsäuren versetzte Margarine oder auch Fertiggerichte mit Vitaminzusätzen. Der Weltmarkt für Functional-Food-Produkte wird derzeit auf über 80 Milliarden Euro geschätzt. In Deutschland und in Österreich dürfte der Anteil funktioneller Lebensmittel rund drei Prozent des Gesamtabsatzes betragen, und das ist nicht wenig.",
+            "Wie lässt sich der zunehmende Konsum von Functional-Food begründen? Immer mehr Menschen erklären die Gesundheit zu ihrem höchsten Gut: Sie wollen vorbeugen oder reparieren, ohne auf Genuss zu verzichten. Auf diesen Wunsch setzt die Werbung, um den Verkauf solcher Produkte zu erhöhen. Sie betont in ihren Anzeigen und Werbespots, dass Functional-Food sowohl gut schmeckt, als auch der Gesundheit nützt. Die Käufer bekommen das Gefühl, durch Essen gesünder zu leben.",
+            "Allerdings zwingen die Gesetze der Europäischen Union die Firmen, die in der Werbung genannte gesundheitsfördernde Wirkung auch wissenschaftlich zu beweisen. Und sollte sich bei Tests herausstellen, dass zum Beispiel versprochene zusätzliche Vitamine nicht in den Lebensmitteln zu finden sind, wird dieser Firma verboten, weiterhin damit zu werben."
+          ],
+          source: "(aus einer österreichischen Zeitung)"
+        }],
+        questions2: [
+          { id: 10, type: "mcq", text: "In diesem Text geht es darum, …", options: ["dass man sich gesund ernähren sollte.", "dass die Menschen lieber viel essen als Medikamente nehmen.", "warum Functional-Food beliebt ist."], answer: 2 },
+          { id: 11, type: "mcq", text: "Die Gesundheit …", options: ["interessiert nur sehr wenige Menschen.", "ist für immer mehr Menschen das Wichtigste.", "zwingt manche Personen, Functional-Food zu essen."], answer: 1 },
+          { id: 12, type: "mcq", text: "Functional-Food …", options: ["ist in.", "ist nicht wirklich gesund.", "wird in Deutschland ohne jede Werbung verkauft."], answer: 0 }
+        ]
+      },
+      {
+        id: 3,
+        title: "Teil 3",
+        time: 10,
+        instructions: "Lesen Sie die Situationen 13 bis 19 und die Anzeigen a bis j aus verschiedenen deutschsprachigen Medien. Wählen Sie: Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es keine passende Anzeige, in diesem Fall wählen Sie X.",
+        situationsIntro: "Einige Personen aus Ihrem Bekanntenkreis interessieren sich besonders für die Probleme unserer Zeit und möchten aktiv Hilfe leisten. Sie suchen nach passenden Möglichkeiten.",
+        example: { text: "Annita hat zwei Mäntel, die ihr nicht mehr passen. Sie sind in gutem Zustand, deshalb möchte sie sie nicht wegwerfen.", answer: "D" },
+        adsFormatted: [
+          {
+            code: "A",
+            tagPos: "left",
+            hasPin: true,
+            cardClass: "anzeige-style-a",
+            html: `
+              <div class="anzeige-headline" style="color:#c0392b;">Helfende Hände herzlich willkommen</div>
+              <p style="font-size:13px; line-height:1.4; margin-bottom:6px;">
+                Sie können gut vorlesen oder spielen gerne mit Kindern? Sie wollen Ihre Erfahrung aus dem Beruf an einen Schüler weitergeben?<br>
+                Bringen Sie Ihre Talente ein in das Angebot der <strong>Caritas</strong>. Viele alte und junge, kranke und <strong>behinderte Menschen</strong> freuen sich auf die Zeit, die Sie ihnen schenken.
+              </p>
+              <div style="font-size:12px; color:var(--text-muted); font-weight:700;">Informieren Sie sich unter: www.caritas.de</div>
+            `
+          },
+          {
+            code: "B",
+            tagPos: "right",
+            hasPin: false,
+            cardClass: "anzeige-style-b",
+            html: `
+              <div class="anzeige-headline" style="color:#2c3e50;">GESUNDHEIT IST EIN MENSCHENRECHT</div>
+              <p style="font-size:13px; line-height:1.4; margin-bottom:6px;">
+                Deshalb hilft <strong>ÄRZTE OHNE GRENZEN</strong> in rund 60 Ländern Menschen in Not – ungeachtet ihrer Hautfarbe, Religion oder politischen Überzeugung.
+              </p>
+              <div style="font-size:12px; color:var(--text-muted);">ÄRZTE OHNE GRENZEN e.V. · Am Kölnischen Park 1 · 10179 Berlin<br>Spendenkonto 97 0 97 · Bank für Sozialwirtschaft · BLZ 370 205 00</div>
+            `
+          },
+          {
+            code: "C",
+            tagPos: "left",
+            hasPin: true,
+            cardClass: "anzeige-style-c",
+            html: `
+              <div class="anzeige-headline" style="color:#27ae60;">NAJU — Naturschutzjugend</div>
+              <p style="font-size:13px; line-height:1.4; margin-bottom:6px;">
+                <strong>Du bist gerne in der Natur und möchtest dich für ihren Schutz einsetzen?</strong><br>
+                Dann bist du bei der NAJU genau richtig! Werde zusammen mit 75.000 anderen Kindern und Jugendlichen aktiv für die Natur!
+              </p>
+              <div style="font-size:12px; color:var(--text-muted); line-height:1.35;">
+                Die NAJU ist die Jugendorganisation des NABU und deutschlandweit der größte Kinder- und Jugendverband im Natur- und Umweltschutz.<br>
+                <strong>www.NAJU.de</strong> · Tel.: 030 284984-1900
+              </div>
+            `
+          },
+          {
+            code: "D",
+            tagPos: "right",
+            hasPin: false,
+            cardClass: "anzeige-style-d",
+            html: `
+              <div class="anzeige-headline" style="color:#b03a2e;">Deutsches Rotes Kreuz (DRK)</div>
+              <p style="font-size:13.5px; font-weight:700; margin-bottom:6px;">Bitte daran denken:</p>
+              <p style="font-size:13px; line-height:1.4;">
+                <strong>Altkleidersammlung</strong> im Auftrag des DRK – alle vier Wochen zusammen mit der blauen Tonne.
+              </p>
+            `
+          },
+          {
+            code: "E",
+            tagPos: "left",
+            hasPin: false,
+            cardClass: "anzeige-style-e",
+            html: `
+              <div class="anzeige-headline" style="color:#2980b9;">Miteinander leben?</div>
+              <p style="font-size:13px; line-height:1.4; margin-bottom:6px;">
+                Die <strong>Bürgerinitiative</strong> ist eine Begegnungsstätte für alle Menschen in der Nachbarschaft – egal welcher Nationalität. Wir setzen uns für Toleranz ein und treten gegen Rassismus und Gewalt auf. Wir wollen <strong>ausländischen BürgerInnen ihre Integration</strong> in unsere Gesellschaft erleichtern.
+              </p>
+              <div style="font-size:12.5px; font-weight:700; color:#185a9d;">Kommen Sie doch einfach mal vorbei! · Bürgerinitiative Ausländische MitbürgerInnen e.V.</div>
+            `
+          },
+          {
+            code: "F",
+            tagPos: "right",
+            hasPin: true,
+            cardClass: "anzeige-style-f",
+            html: `
+              <div class="anzeige-headline" style="color:#16a085;">Verschenken Sie eine Mitgliedschaft im NABU!</div>
+              <p style="font-size:13px; line-height:1.4; margin-bottom:6px;">
+                Sie möchten einem <strong>Freund etwas schenken</strong> und gleichzeitig damit etwas Gutes für den Erhalt und <strong>Schutz unserer Natur und Umwelt</strong> tun? Ihr Geschenk soll sinnstiftend und etwas „anders“ sein?<br>
+                Dann verschenken Sie doch eine Mitgliedschaft im NABU! Der Beschenkte wird sich freuen.
+              </p>
+              <div style="font-size:12px; color:var(--text-muted); font-weight:700;">Infos online: NABU-Mitgliedschaft verschenken</div>
+            `
+          },
+          {
+            code: "G",
+            tagPos: "left",
+            hasPin: false,
+            cardClass: "anzeige-style-g",
+            html: `
+              <div class="anzeige-headline" style="color:#8e44ad;">Häusliche Pflege — ASB-GEMEINSAM</div>
+              <p style="font-size:13px; line-height:1.4; margin-bottom:6px;">
+                Brauchen Sie Hilfe bei Ihrer Körperpflege und ärztlich verordnete Behandlungen? An 7 Tagen in der Woche bieten unsere Pfleger und Sozialarbeiter unseren Kunden Hilfe in jeglicher Lebenslage.
+              </p>
+              <div style="font-size:12px; color:var(--text-muted);">ASB Ambulante Dienste · Petersstraße 50 · 41717 Viersen · Tel: 0 21 62 / 1 76 78</div>
+            `
+          },
+          {
+            code: "H",
+            tagPos: "right",
+            hasPin: true,
+            cardClass: "anzeige-style-h",
+            html: `
+              <div class="anzeige-headline" style="color:#27ae60;">Ihr Baby ist uns nicht schnuppe!</div>
+              <p style="font-size:13px; line-height:1.4; margin-bottom:6px;">
+                Deshalb gibt’s <strong>für junge Familien</strong> unsere Schnuppermitgliedschaft: Ein Jahr kostenlos!<br>
+                Wenn Sie uns diese Anzeige schicken, erfahren Sie mehr und bekommen <strong>gratis Umwelttipps für Eltern</strong>.
+              </p>
+              <div style="font-size:12px; font-weight:700; color:#2c3e50;">Bund für Umwelt und Naturschutz Deutschland (BUND) · 53333 Bonn · Fax 02 28 300 79 40</div>
+            `
+          },
+          {
+            code: "I",
+            tagPos: "left",
+            hasPin: false,
+            cardClass: "anzeige-style-i",
+            html: `
+              <div class="anzeige-headline" style="color:#d35400;">KEKS e.V. — Hilfe für kranke Kinder</div>
+              <p style="font-size:13px; line-height:1.4; margin-bottom:6px;">
+                <em>Wenn jeder Bissen im Hals stecken bleibt ...</em><br>
+                Wir helfen und unterstützen <strong>bundesweit Kinder in Deutschland</strong>, die wegen einer kranken Speiseröhre nicht essen können.
+              </p>
+              <div style="font-size:12px; color:var(--text-muted);">
+                <strong>Spendenkonto:</strong> Baden-Württembergische Bank · BLZ 600 507 0 · Kto.-Nr. 1 230 450<br>
+                Sommerrainstr. 61 · 70347 Stuttgart · www.keks.org
+              </div>
+            `
+          },
+          {
+            code: "J",
+            tagPos: "right",
+            hasPin: false,
+            cardClass: "anzeige-style-j",
+            html: `
+              <div class="anzeige-headline" style="color:#34495e;">Lieber gemeinsam statt einsam</div>
+              <p style="font-size:13px; line-height:1.4; margin-bottom:6px;">
+                Mehr Lebensqualität ist machbar, lieber Nachbar: Machen Sie mit, gründen Sie Ihre eigene <strong>Nachbarschaftshilfe gegen Kriminalität</strong> – wir helfen Ihnen dabei!
+              </p>
+              <div style="font-size:12px; color:var(--text-muted);">Schreiben Sie uns: Kennwort „Nachbarschaftshilfe“ · Postfach 71 20 07, 81475 München</div>
+            `
+          }
+        ],
+        questions: [
+          { id: 13, type: "match", text: "Frau Wickert hat ein Herz für Kinder. Sie möchte eine Geldsumme für eine Organisation geben, die sich besonders um Kinder in Deutschland kümmert.", answer: "I" },
+          { id: 14, type: "match", text: "Herr Geiger ist Biologielehrer. Er will das Interesse seiner Schüler für die Natur und ihren Schutz wecken.", answer: "C" },
+          { id: 15, type: "match", text: "Tobias ist ein Tier- und Naturfreund. Weil er in zwei Wochen Geburtstag hat, sucht sein Freund Lukas nach einem Geschenk.", answer: "F" },
+          { id: 16, type: "match", text: "Sara hat viele ausländische Freunde in der Nachbarschaft und möchte aktiv für das friedliche Zusammenleben von Menschen aus verschiedenen Ländern arbeiten.", answer: "E" },
+          { id: 17, type: "match", text: "Frau Anders will etwas für junge Familien tun, die arm sind.", answer: "X" },
+          { id: 18, type: "match", text: "Philipp ist Krankenpfleger. Er würde sein Wissen gern für die Hilfe behinderter Menschen einsetzen.", answer: "A" },
+          { id: 19, type: "match", text: "Gabriel ist vor ein paar Monaten Vater geworden. Er und seine Frau interessieren sich für den Umweltschutz und möchten auch ihr Kind dazu erziehen.", answer: "H" }
+        ]
+      },
+      {
+        id: 4,
+        title: "Teil 4",
+        time: 15,
+        instructions: "Lesen Sie die Texte 20 bis 26. Wählen Sie: Ist die Person dafür, dass Schüler unter 18 Jahren schon studieren dürfen?",
+        topic: "In einer Zeitschrift lesen Sie Kommentare zu einem Artikel über Frühstudenten, die schon vor dem Schulabschluss studieren, obwohl sie noch nicht erwachsen sind.",
+        example: {
+          who: "Andrea, 22, Germersheim",
+          text: "Die einen müssen Wartesemester in Kauf nehmen, um einen Studienplatz zu bekommen und werden älter und älter. Die anderen hingegen werden besser behandelt: Sie dürfen schon als Schüler studieren. Wie unfair. Das erscheint mir eine verkehrte Welt zu sein.",
+          answer: "nein"
+        },
+        letters: [
+          { id: 20, who: "Petra, 27, Koblenz", text: "Da gibt es grundsätzlich ein Problem: Die Universitäten sind auf einmal verantwortlich für Minderjährige! Stellt die Uni dann „Aufpasser“ ein, die immer bei diesen Jugendlichen sind und auf sie aufpassen? Das ist doch verrückt! Ein Glück, dass ich eben jene Universität vor Kurzem verlassen habe. Und wie würde das denn vom Recht her geregelt werden? Kommt mir alles sehr utopisch vor.", answer: "nein" },
+          { id: 21, who: "Willi, 17, Stuttgart", text: "Selbst den Bibliotheksausweis kann ich als Student unter 18 nicht einfach so beantragen. Ich brauche die Unterschrift meiner Mutter oder meines Vaters. Besonders umständlich ist auch, dass ich mich nicht über das Online-System der Uni für Prüfungen anmelden kann. Stattdessen muss ich persönlich bei der Professorin vorbeigehen. Trotzdem lohnt es sich.", answer: "ja" },
+          { id: 22, who: "Torsten, 58, Innsbruck", text: "Die wichtigsten Erfahrungen macht man doch in der Praxis. Viel richtiger wäre, dass alle jungen Leute in ihrem Leben etwas Konkretes lernen, auch bevor sie studieren. Die Praxis wird sie im Leben weiterbringen, nicht die Theorie. Egal wie alt sie sind. Es bringt nichts, dass sie nur studieren. Dieses Programm ist diesem Gedanken ganz entgegengesetzt.", answer: "nein" },
+          { id: 23, who: "Chiara, 30, Klosters", text: "Bei uns gibt es das noch nicht. Ich kann mir aber vorstellen, dass es besonders für begabte Schüler ein gutes Angebot ist. Diese jungen Leute werden in der Schule sowieso unterfordert und müssen sich kaum anstrengen. Dabei brauchen sie eine Herausforderung, um viel zu leisten. Unsere Gesellschaft braucht diese Menschen. Warum dann bis zur Matura mit dem Studium warten?", answer: "ja" },
+          { id: 24, who: "Reiner, 22, Kitzbühel", text: "Mit 16 oder 17 sind die Jugendlichen ja noch in der Pubertät. Die interessieren sich doch nur dafür, wie sie aussehen und ob sie cool sind. In dem Alter ist man doch noch gar nicht reif für ein Studium. Ich kann nicht glauben, dass so junge Menschen schon ernsthaft dabei sind. Nicht umsonst sollte man dafür erwachsen sein.", answer: "nein" },
+          { id: 25, who: "Helen, 45, Braunschweig", text: "Bei mir ist das Studium schon länger her. Ich kann nur sagen, es war eine schöne Zeit, auch weil man intensiv mit anderen zusammenarbeitete, die ähnliche Interessen hatten. Das motiviert und erweitert den eigenen Horizont. Wenn diese Erfahrung nun schon zeitlich früher im Leben gemacht wird, umso besser.", answer: "ja" },
+          { id: 26, who: "Ferdinand, 16, Andermatt", text: "Hier in der Nähe gibt es das nicht. Scheint mir aber wert zu sein, es mal zu testen. Ich weiss nur nicht, wie man dann nebenbei noch die Verpflichtungen des Gymnasiums zeitlich schafft. Oder bekommen diese Schüler schulfrei? Bei uns ist jedenfalls neben den Schulstunden nicht mehr viel Zeit für anderes.", answer: "ja" }
+        ]
+      },
+      {
+        id: 5,
+        title: "Teil 5",
+        time: 10,
+        instructions: "Sie informieren sich über die Benutzungsordnung der Pestalozzi-Bibliothek Zürich, da Sie bald für einige Zeit in Zürich leben werden. Wählen Sie bei jeder Aufgabe 27 bis 30 die richtige Lösung a, b oder c.",
+        articles: [{
+          heading: "Benutzungsordnung der Pestalozzi-Bibliothek Zürich (PBZ)",
+          sub: "Informationen für Benutzerinnen und Benutzer",
+          body: [
+            "<strong>Einschreibung</strong><br>Die Bibliotheken der Pestalozzi-Bibliothek Zürich (PBZ) steht allen Interessierten zur Benutzung offen. Gegen Vorlage eines amtlichen Ausweises wird eine persönliche Bibliothekskarte ausgestellt, die bei jeder Ausleihe mitzubringen ist. Die Bibliothekskarte ist nicht übertragbar, auch nicht innerhalb der Familie oder des Haushalts. Bei Personen ohne dauerhaften Wohnsitz in der Schweiz kann die Ausleihe eingeschränkt werden. Adress- und Namensänderungen sowie der Verlust der Bibliothekskarte sind umgehend zu melden. Ein Ersatzausweis kann gegen eine Gebühr bezogen werden.",
+            "<strong>Benutzung</strong><br>Es können maximal 25 Artikel (Bücher, Zeitschriften, CDs oder DVDs) gleichzeitig ausgeliehen werden. Die Ausleihdauer beträgt in der Regel 4 Wochen. Für bestimmte Artikel (wie beispielsweise DVDs) kann die Bibliothek abweichende Leihfristen festlegen. Eine zweimalige Verlängerung ist möglich. Ausgenommen sind reservierte Artikel. Die Verlängerung kann in der Bibliothek, telefonisch oder online via Internet erfolgen.<br>Ausgeliehene Artikel können reserviert werden. Sobald die reservierten Artikel bereitstehen, wird dies telefonisch oder per SMS mitgeteilt. Die Artikel sind dann innerhalb einer Woche abzuholen. Für Reservationen wird eine Gebühr erhoben. Ebenso können gegen Gebühr Artikel, die nicht im lokalen Bestand vorhanden sind, bei einer anderen Bibliothek der PBZ zur Ausleihe besorgt werden, mit Ausnahme von DVDs.",
+            "<strong>Haftung</strong><br>Kundinnen und Kunden sind für die ausgeliehenen Artikel verantwortlich und zu schonendem Umgang mit dem Bibliothekseigentum verpflichtet. Bei Beschädigung oder Verlust werden neben den Kosten für Reparatur oder Ersatz auch Bearbeitungsgebühren verrechnet. Schäden dürfen nicht selbst repariert werden. Wer die Bestimmungen der Bibliothek nicht beachtet oder sich ungebührlich verhält, kann vorübergehend oder gänzlich von der Benutzung ausgeschlossen werden."
+          ]
+        }],
+        example: { text: "Die Benutzungsordnung gilt …", options: ["nur für Schweizer Bürger.", "für alle Benutzer der Pestalozzi-Bibliothek Zürich.", "nur für Studenten."], answer: 1 },
+        questions: [
+          { id: 27, type: "mcq", text: "Wenn man etwas reservieren lässt, …", options: ["muss man die Artikel eine Woche nach Reservierung abholen.", "muss man die Artikel bei einer anderen Bibliothek der PBZ abholen.", "muss man dafür einen Geldbetrag zahlen."], answer: 2 },
+          { id: 28, type: "mcq", text: "Bei Nichtbeachtung der Bibliotheksbestimmungen …", options: ["muss man eine Strafgebühr zahlen.", "kann es sein, dass man die PBZ nicht mehr benutzen darf.", "muss man sofort alle ausgeliehenen Artikel zurückgeben."], answer: 1 },
+          { id: 29, type: "mcq", text: "Man kann …", options: ["auch DVDs reservieren lassen.", "einmal im Monat bis zu 25 Artikeln ausleihen.", "auch reservierte Artikel verlängern lassen."], answer: 0 },
+          { id: 30, type: "mcq", text: "Um die PBZ benutzen zu können, …", options: ["muss man in Zürich wohnen.", "muss man jedes Mal die Bibliothekskarte bei sich haben.", "braucht man eine Bibliothekskarte pro Familie oder Haushalt."], answer: 1 }
+        ]
+      },
+      {
+        id: 6,
+        title: "🎧 Hören",
+        badge: "Hören",
+        isHoren: true,
+        time: 40,
+        instructions: "Das Modul Hören besteht aus vier Teilen. Sie hören mehrere Texte und lösen Aufgaben dazu. Für jede Aufgabe gibt es nur eine richtige Lösung.",
+        audioSrc: "audio/modellsatz-5-hoeren.mp3",
+        audioFallbacks: [
+          "audio/14.mp3",
+          "audio/modellsatz-14-hoeren.mp3",
+          "audio/hoeren.mp3"
+        ],
+        audioChapters: [
+          { time: 0, label: "00:00 Einleitung" },
+          { time: 25, label: "00:25 Beispiel" },
+          { time: 111, label: "01:51 Teil 1 (Texte 1–5)" },
+          { time: 804, label: "13:24 Teil 2 (Mozart-City-Tour)" },
+          { time: 1148, label: "19:08 Teil 3 (Straßenbahn)" },
+          { time: 1417, label: "23:37 Teil 4 (School for you)" }
+        ],
+        questions: [
+          // Teil 1: 1 - 10
+          { id: "h1", num: 1, type: "tf", text: "Auf der A1 ist ein Unfall passiert.", answer: "falsch", teilPart: 1, textNum: 1 },
+          { id: "h2", num: 2, type: "mcq", text: "Warum gibt es Stau?", options: ["Weil das Wetter schlecht ist.", "Weil auf der Autobahn gebaut wird.", "Weil eine Ausfahrt geschlossen ist."], answer: 0, teilPart: 1, textNum: 1 },
+          { id: "h3", num: 3, type: "tf", text: "Sie hören eine Information eines Fotostudios.", answer: "falsch", teilPart: 1, textNum: 2 },
+          { id: "h4", num: 4, type: "mcq", text: "An welchem Tag ist das Haus geschlossen?", options: ["Am Montag.", "Am Dienstag.", "Am Mittwoch."], answer: 1, teilPart: 1, textNum: 2 },
+          { id: "h5", num: 5, type: "tf", text: "Sie hören Tipps zu Freizeitaktivitäten für Jugendliche.", answer: "richtig", teilPart: 1, textNum: 3 },
+          { id: "h6", num: 6, type: "mcq", text: "Für welche Veranstaltung muss man sich vorher anmelden?", options: ["Für die Ausstellung.", "Für die Fahrt mit dem Schneemobil.", "Zum Skifahren."], answer: 1, teilPart: 1, textNum: 3 },
+          { id: "h7", num: 7, type: "tf", text: "In Augsburg findet ein Weihnachtsmarkt statt.", answer: "richtig", teilPart: 1, textNum: 4 },
+          { id: "h8", num: 8, type: "mcq", text: "Wie lange ist der Christkindlesmarkt in Betrieb?", options: ["Länger als einen Monat.", "Weniger als einen Monat.", "135 Tage."], answer: 0, teilPart: 1, textNum: 4 },
+          { id: "h9", num: 9, type: "tf", text: "Sie hören einen Polizeibericht.", answer: "falsch", teilPart: 1, textNum: 5 },
+          { id: "h10", num: 10, type: "mcq", text: "Wer konnte die Besitzerin der Katze befreien?", options: ["Der Schlüsseldienst.", "Ein Nachbar.", "Die Polizei."], answer: 0, teilPart: 1, textNum: 5 },
+
+          // Teil 2: 11 - 15
+          { id: "h11", num: 11, type: "mcq", text: "Wie lange dauert die Rundfahrt?", options: ["Zwanzig Minuten.", "Fünfzehn Minuten.", "Neunzig Minuten."], answer: 2, teilPart: 2 },
+          { id: "h12", num: 12, type: "mcq", text: "Auf der Mozart-City-Tour besichtigt man …", options: ["das Wohnhaus Mozarts.", "das Geburtshaus Mozarts.", "das Schloss Leopoldskron."], answer: 1, teilPart: 2 },
+          { id: "h13", num: 13, type: "mcq", text: "Von wem wurde das Mozarteum gegründet?", options: ["Von Mozart.", "Von Wissenschaftlern.", "Von Salzburgern."], answer: 2, teilPart: 2 },
+          { id: "h14", num: 14, type: "mcq", text: "Wem gehörte das Geburtshaus Mozarts?", options: ["Der Familie Mozart.", "Einem Händler.", "Mozarts Nachbarin."], answer: 1, teilPart: 2 },
+          { id: "h15", num: 15, type: "mcq", text: "Was sieht man in dem Museum?", options: ["Mozarts Kinder-Violine.", "Mozarts Klavier.", "Möbel der Familie Mozart."], answer: 0, teilPart: 2 },
+
+          // Teil 3: 16 - 22
+          { id: "h16", num: 16, type: "tf", text: "Isabella hat von ihren Eltern ein neues Handy bekommen.", answer: "falsch", teilPart: 3 },
+          { id: "h17", num: 17, type: "tf", text: "Isabella zeigt Jonas Fotos auf ihrem Handy.", answer: "richtig", teilPart: 3 },
+          { id: "h18", num: 18, type: "tf", text: "Isabella fährt gern auf die Chalkidiki.", answer: "falsch", teilPart: 3 },
+          { id: "h19", num: 19, type: "tf", text: "Isabella mag Andreas.", answer: "richtig", teilPart: 3 },
+          { id: "h20", num: 20, type: "tf", text: "Jonas ist dieses Jahr allein mit seiner Schwester verreist.", answer: "falsch", teilPart: 3 },
+          { id: "h21", num: 21, type: "tf", text: "Isabellas Eltern sind nicht so sportlich wie die Eltern von Jonas.", answer: "richtig", teilPart: 3 },
+          { id: "h22", num: 22, type: "tf", text: "Jonas findet Ferien am Strand langweilig.", answer: "falsch", teilPart: 3 },
+
+          // Teil 4: 23 - 30
+          { id: "h23", num: 23, type: "speaker", text: "Fast alle Schüler finden Herrn X sympathisch.", options: ["Moderatorin", "Lara", "Simon"], answer: 1, teilPart: 4 },
+          { id: "h24", num: 24, type: "speaker", text: "Eine Minderheit der Schüler ist mit dem Gerichtsurteil nicht einverstanden.", options: ["Moderatorin", "Lara", "Simon"], answer: 2, teilPart: 4 },
+          { id: "h25", num: 25, type: "speaker", text: "Die verletzte Schulter des Lehrers spielte eine wichtige Rolle für das Gerichtsurteil.", options: ["Moderatorin", "Lara", "Simon"], answer: 0, teilPart: 4 },
+          { id: "h26", num: 26, type: "speaker", text: "Der Lehrer hatte nicht die Absicht, die Schülerin zu schlagen.", options: ["Moderatorin", "Lara", "Simon"], answer: 0, teilPart: 4 },
+          { id: "h27", num: 27, type: "speaker", text: "Das Mädchen wollte, dass der Lehrer seine Arbeit verliert.", options: ["Moderatorin", "Lara", "Simon"], answer: 2, teilPart: 4 },
+          { id: "h28", num: 28, type: "speaker", text: "Das Mädchen und seine Freunde sind nicht in die Klasse integriert.", options: ["Moderatorin", "Lara", "Simon"], answer: 2, teilPart: 4 },
+          { id: "h29", num: 29, type: "speaker", text: "Die Klasse macht heute außerhalb des Unterrichts nichts gemeinsam.", options: ["Moderatorin", "Lara", "Simon"], answer: 1, teilPart: 4 },
+          { id: "h30", num: 30, type: "speaker", text: "Die ersten Tage der Klassenfahrten waren immer ein bisschen schwierig.", options: ["Moderatorin", "Lara", "Simon"], answer: 1, teilPart: 4 }
+        ],
+        horenSections: [
+          {
+            partNumber: 1,
+            title: "Teil 1",
+            badge: "Aufgaben 1 – 10",
+            intro: "Sie hören nun fünf kurze Texte. Sie hören jeden Text zweimal. Zu jedem Text lösen Sie zwei Aufgaben. Wählen Sie bei jeder Aufgabe die richtige Lösung. Lesen Sie zuerst das Beispiel. Dazu haben Sie 10 Sekunden Zeit.",
+            example: {
+              ex01: { num: "01", text: "Sie rufen beim Autohersteller VW an.", type: "tf", answer: "falsch" },
+              ex02: { num: "02", text: "Wo bekommt man Informationen über die Workshops?", type: "mcq", options: ["Im Internet.", "Am Telefon.", "An der Kasse."], answer: 0 }
+            },
+            texts: [
+              { number: 1, title: "Text 1", qIds: ["h1", "h2"] },
+              { number: 2, title: "Text 2", qIds: ["h3", "h4"] },
+              { number: 3, title: "Text 3", qIds: ["h5", "h6"] },
+              { number: 4, title: "Text 4", qIds: ["h7", "h8"] },
+              { number: 5, title: "Text 5", qIds: ["h9", "h10"] }
+            ]
+          },
+          {
+            partNumber: 2,
+            title: "Teil 2",
+            badge: "Aufgaben 11 – 15",
+            intro: "Sie hören nun einen Text. Sie hören den Text einmal. Dazu lösen Sie fünf Aufgaben. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c. Lesen Sie jetzt die Aufgaben 11 bis 15. Dazu haben Sie 60 Sekunden Zeit.",
+            context: "Sie nehmen an der Mozart-City-Tour teil.",
+            qIds: ["h11", "h12", "h13", "h14", "h15"]
+          },
+          {
+            partNumber: 3,
+            title: "Teil 3",
+            badge: "Aufgaben 16 – 22",
+            intro: "Sie hören nun ein Gespräch. Sie hören das Gespräch einmal. Dazu lösen Sie sieben Aufgaben. Wählen Sie: Sind die Aussagen richtig oder falsch? Lesen Sie jetzt die Aufgaben 16 bis 22. Dazu haben Sie 60 Sekunden Zeit.",
+            context: "Sie fahren mit der Straßenbahn und hören, wie sich zwei Jugendliche über die Ferien unterhalten.",
+            qIds: ["h16", "h17", "h18", "h19", "h20", "h21", "h22"]
+          },
+          {
+            partNumber: 4,
+            title: "Teil 4",
+            badge: "Aufgaben 23 – 30",
+            intro: "Sie hören nun eine Diskussion. Sie hören die Diskussion zweimal. Dazu lösen Sie acht Aufgaben. Ordnen Sie die Aussagen zu: Wer sagt was? Lesen Sie jetzt die Aussagen 23 bis 30. Dazu haben Sie 60 Sekunden Zeit.",
+            context: "Die Moderatorin der Radiosendung „School for you“ diskutiert mit den Schülern Lara und Simon zum Thema: „Darf ein Lehrer einen Schüler schlagen?“.",
+            speakers: [
+              { code: "a", name: "Moderatorin" },
+              { code: "b", name: "Lara" },
+              { code: "c", name: "Simon" }
+            ],
+            example: {
+              num: "0",
+              text: "Das Gericht hat gegen die Entlassung des Lehrers entschieden.",
+              answerCode: "a",
+              answerSpeaker: "Moderatorin"
+            },
+            qIds: ["h23", "h24", "h25", "h26", "h27", "h28", "h29", "h30"]
+          }
+        ]
+      }
+    ]
+  },
+
+/* ------------------------------------------------------------------------
+     MODELLSATZ 6: HUEBER MODELLTEST 15 (ZERTIFIKAT B1 NEU)
+     Handy-Unfall im Meer / Oh, du fröhliche! & Goodbye, Mama / Familienhilfe-Anzeigen / Gehsteige nur für Fußgänger / SommerKinderUni Graz + Hören (Rhein-Dampfer, Schweizer Küche, Spitalradio)
+     ------------------------------------------------------------------------ */
+  {
+    id: "modellsatz-6",
+    title: "Modelltest 15 — Hueber Zertifikat B1",
+    badge: "Modelltest 15",
+    examTitle: "Goethe / ÖSD B1 Prüfungssimulation — Modelltest 15",
+    examSub: "Lesen (5 Teile) & Hören (4 Teile) · Modelltest 15 (Hueber)",
+    timeTotal: 65,
+    parts: [
+      {
+        id: 1,
+        title: "Teil 1",
+        time: 10,
+        instructions: "Lesen Sie den Text und die Aufgaben 1 bis 6 dazu. Wählen Sie: Sind die Aussagen richtig oder falsch?",
+        articles: [{
+          heading: "Meine Erlebnisse",
+          meta: "25. August",
+          body: [
+            "Mein Handy-Unfall ereignete sich im Sommerurlaub in Griechenland. Ich hatte das Handy in der Tasche meiner Badehose und bin damit ins Meer gelaufen. Dort habe ich natürlich relativ schnell festgestellt, dass mein Handy noch in der Tasche ist. Leider stand ich schon hüfttief im Wasser.",
+            "Ich bin sofort zurück an den Strand gelaufen und habe das Handy aus meiner Tasche geholt. Meine erste Reaktion war, das Handy mit dem Handtuch trocken zu wischen. Danach habe ich es auseinandergebaut und die einzelnen Teile ebenfalls mit dem Handtuch getrocknet. Doch bereits da wurde mir klar, dass mein Handy nur eine geringe Überlebenschance hatte. Ich habe es dann für den Rest des Strandtages in die Sonne gelegt. Im Hotel angekommen habe ich das Handy trocken geföhnt, doch auch das sollte nicht helfen. Es ging zwar an, aber der Bildschirm hat nur wirre Pixel angezeigt. Ich hatte keinen Zugriff aufs Menü und konnte weder telefonieren noch SMS schreiben. Auf einer Online-Plattform erfuhr ich, das Beste sei es, das Handy ein paar Tage ausgeschaltet zu lassen. Ein nicht ganz leicht zu befolgender Hinweis, wenn man im Urlaub ist. Schließlich wollte ich Kontakt zu meiner Familie und meinen Freunden aufnehmen.",
+            "Es war der erste Urlaubstag, somit war es doppelt ärgerlich. Aber einen guten Aspekt hatte es dann doch: Ich habe Geld gespart, da teure Auslandsgespräche und SMS aus dem Ausland nicht mehr möglich waren.",
+            "Zu Hause kam dann die große Erleichterung: Die SIM-Karte war glücklicherweise noch zu gebrauchen und so hatte ich weder Nummern noch Nachrichten verloren. Hätte ich ein neueres Modell gehabt, wären die wohl weg gewesen, denn da speichert sich fast alles auf dem Mobilfunkgerät selber und nicht auf der SIM-Karte. Finanziell hielt sich der Schaden in Grenzen, da es kein ganz neues Handymodell war. Leider konnte ich keine Garantieansprüche geltend machen. Ein Wasserschaden läuft nämlich nie auf Garantie. Aber ich habe das Handy meiner Oma bekommen, das war das gleiche Modell.",
+            "Noch einmal wird mir so etwas nicht passieren. Ich ziehe nur noch Badehosen ohne Taschen an, damit ich gar nicht erst auf die Idee komme, mein Handy in die Hosentasche zu stecken."
+          ],
+          signature: "Marie-Charlotte Maas"
+        }],
+        example: { text: "Sven ist mit seinem Handy schwimmen gegangen.", answer: "richtig" },
+        questions: [
+          { id: 1, type: "tf", text: "Svens Handy ging kaputt, als er es mit dem Handtuch zu trocknen versuchte.", answer: "falsch" },
+          { id: 2, type: "tf", text: "Den Rest des Tages verbrachte Sven am Strand in der Sonne.", answer: "falsch" },
+          { id: 3, type: "tf", text: "Sven informierte sich im Internet darüber, was er tun sollte.", answer: "richtig" },
+          { id: 4, type: "tf", text: "Sven ärgerte sich zwar sehr, doch er konnte Geld sparen.", answer: "richtig" },
+          { id: 5, type: "tf", text: "Weil die SIM-Karte in Ordnung war, blieben sowohl Nummern als auch Nachrichten gespeichert.", answer: "richtig" },
+          { id: 6, type: "tf", text: "Sven hat sich das gleiche Modell wie seine Oma angeschafft.", answer: "falsch" }
+        ]
+      },
+      {
+        id: 2,
+        title: "Teil 2",
+        time: 20,
+        instructions: "Lesen Sie den Text aus der Presse und die Aufgaben 7 bis 9 dazu. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+        articles: [{
+          heading: "Oh, du fröhliche!",
+          body: [
+            "An den Feiertagen schätzen die Deutschen das Zusammensein im Kreis der Familie. Traditionell trifft sie sich am Abend des 24. Dezember, um zusammen zu feiern. Manchmal kommen alle auch noch an den zwei folgenden Weihnachtsfeiertagen zusammen. Nur fünf Prozent aller Deutschen sagten in einer Umfrage, sie würden Weihnachten gern ohne die Verwandten verbringen. Die große Mehrheit, nämlich 92 Prozent, freuen sich darauf, die Familie zu sehen und genießen die Gesellschaft ihrer Verwandten.",
+            "Erstaunlicherweise zeigte die Umfrage auch, dass auch das festliche Essen und der Weihnachtsbaum für die Deutschen recht wichtig sind. Beides gehört für sie unbedingt zum Fest. Dagegen spielen Geschenke eine erstaunlich geringe Rolle: 61 Prozent der Befragten sagten, es ginge auch ohne das gegenseitige Beschenken. Das sehen die Altersgruppen allerdings differenziert: Während 73 Prozent der über 60-Jährigen nicht so viel Wert auf Geschenke legen, würden nur 42 Prozent der unter 30-Jährigen auch ohne Geschenke zufrieden sein. Die gleiche Meinung haben die Deutschen über die traditionellen Weihnachtsreden von Präsident und Papst, die jedes Jahr im Fernsehen kommen: Mehr als drei Viertel aller Befragten würde sie als Erstes vom Programm nehmen."
+          ],
+          source: "(aus einem deutschen Magazin)"
+        }],
+        example: {
+          text: "Die Mehrheit der Deutschen …",
+          options: [
+            "sieht sich die Rede des Präsidenten an.",
+            "hört lieber den Papst als den Präsidenten reden.",
+            "möchte zu Weihnachten keine Reden hören."
+          ],
+          answer: 2
+        },
+        questions: [
+          {
+            id: 7,
+            type: "mcq",
+            text: "In diesem Text geht es darum, …",
+            options: [
+              "wie die Deutschen gern an Weihnachten feiern.",
+              "welche Weihnachtsgeschenke zurzeit beliebt sind.",
+              "wer in Deutschland Weihnachten feiert."
+            ],
+            answer: 0
+          },
+          {
+            id: 8,
+            type: "mcq",
+            text: "Die meisten Deutschen …",
+            options: [
+              "wollen zu Weihnachten Geschenke haben.",
+              "möchten auf jeden Fall einen Weihnachtsbaum haben.",
+              "gehen an Weihnachten zu Freunden."
+            ],
+            answer: 1
+          },
+          {
+            id: 9,
+            type: "mcq",
+            text: "Die Familie …",
+            options: [
+              "gehört für die Deutschen beim Weihnachtsfest dazu.",
+              "ist für die Deutschen immer sehr wichtig.",
+              "feiert in Deutschland drei Tage lang Weihnachten."
+            ],
+            answer: 0
+          }
+        ],
+        instructions2: "Lesen Sie den Text aus der Presse und die Aufgaben 10 bis 12 dazu. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+        articles2: [{
+          heading: "Goodbye, Mama",
+          body: [
+            "Wenn die Eltern ihre Kinder zum ersten Mal zu Unibeginn verabschieden, dann ist das ein emotionaler Moment für sie. Mögen die Kinder inzwischen auch volljährig sein – das Entlassen ihrer Sprösslinge ins Studentenleben fällt Eltern zunehmend schwerer. Amerikanische Eltern nehmen sich zu Semesterbeginn nicht selten Zimmer in der Nähe der Uni, um immer für ihre Kinder erreichbar zu sein. Manche besuchen sogar mit ihren jungen Studenten gemeinsam die ersten Vorlesungen. Mehrere SMS-Nachrichten pro Tag und tägliche Anrufe per Skype sind ebenfalls normal.",
+            "Dass sich das Verhältnis von Studenten und ihren Eltern in den vergangenen Jahren gewandelt hat, beobachten auch Professoren in Deutschland.",
+            "„Viele Studienanfänger haben heute ein sehr enges Verhältnis zu ihren Familien. In dieser Hinsicht hat sich einiges verändert“, sagt die Professorin Martina Blasberg-Kuhnke von der Universität Osnabrück.",
+            "Auch an deutschen Unis gibt es nun für die Uni-Neulinge einen Eltern- oder Familientag, an dem die Eltern ihre Kinder offiziell an der Uni „abgeben“.",
+            "Aber nicht nur Eltern und Studenten soll mit den Familien-Veranstaltungen entgegengekommen werden. Auch die Hochschulen selbst profitieren, denn das habe einen Werbeeffekt für die Uni. Gerade Eltern von mehreren Kindern seien interessiert an der Hochschule und der Stadt – und empfehlen sie oft an die jüngeren Geschwister weiter."
+          ],
+          source: "(aus einer deutschen Zeitung)"
+        }],
+        questions2: [
+          {
+            id: 10,
+            type: "mcq",
+            text: "In diesem Text geht es darum, …",
+            options: [
+              "welche Schüler studieren.",
+              "wie sich die Eltern der neuen Studenten verhalten.",
+              "wie ein „Elterntag“ an einer Uni ist."
+            ],
+            answer: 1
+          },
+          {
+            id: 11,
+            type: "mcq",
+            text: "In den USA …",
+            options: [
+              "dürfen Eltern mit ihren Kindern studieren.",
+              "suchen die Eltern die Unis für die Kinder aus.",
+              "halten viele Eltern engen Kontakt mit ihren studierenden Kindern."
+            ],
+            answer: 2
+          },
+          {
+            id: 12,
+            type: "mcq",
+            text: "Die Universitäten …",
+            options: [
+              "machen mit dem „Elterntag“ auch Werbung für sich.",
+              "möchten die Eltern der Studienanfänger kennenlernen.",
+              "bekommen Geld von den Eltern."
+            ],
+            answer: 0
+          }
+        ]
+      },
+      {
+        id: 3,
+        title: "Teil 3",
+        time: 10,
+        instructions: "Lesen Sie die Situationen 13 bis 19 und die Anzeigen a bis j aus verschiedenen deutschsprachigen Medien. Wählen Sie: Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es keine passende Anzeige, in diesem Fall schreiben Sie 0 (oder wählen Sie X).",
+        situationsIntro: "Eine Familie zu haben ist schön, bringt aber manchmal auch Sorgen und Probleme. Ihre Bekannten suchen nach Lösungen.",
+        example: {
+          text: "Es ist Ostersonntag. Aber anstatt Ostereier zu suchen, liegt Alinas Tochter müde auf dem Sofa und hat plötzlich hohes Fieber.",
+          answer: "F"
+        },
+        adsFormatted: [
+          {
+            code: "A",
+            tagPos: "left",
+            hasPin: true,
+            cardClass: "anzeige-style-a",
+            html: `
+              <div class="anzeige-headline" style="color:#c0392b;">Kinder- und Jugendhilfe Kassel</div>
+              <p style="font-size:13.5px; font-weight:700; margin-bottom:4px; color:#2c3e50;">Wir beraten anonym, vertraulich, kostenfrei</p>
+              <p style="font-size:13px; line-height:1.4; margin-bottom:6px;">
+                in allen Rechtsgebieten, egal ob Strafrecht, <strong>Familienrecht</strong>, Arbeitsrecht, Vertragsrecht etc.<br>
+                Jeden 1. und 3. Mittwoch im Monat von 16.00 Uhr bis 18.00 Uhr in der Gartenstr. 25, in Kassel.
+              </p>
+              <div style="font-size:12px; color:var(--text-muted);">In dringenden Fällen Nachricht auf Anrufbeantworter hinterlassen: (0561) 88035</div>
+            `
+          },
+          {
+            code: "B",
+            tagPos: "right",
+            hasPin: false,
+            cardClass: "anzeige-style-b",
+            html: `
+              <div class="anzeige-headline" style="color:#2c3e50;">Erziehungsberatung gemeinsam …</div>
+              <p style="font-size:13px; line-height:1.4; margin-bottom:6px;">
+                für Kinder, Jugendliche und Eltern<br>
+                Mo–Mi–Fr 17.00–20.00 Uhr im Hause des VHKE,<br>
+                Kommunalstraße 96, Linz oder Telefonberatung: 07271/ 46 826
+              </p>
+              <div style="font-size:12px; font-weight:700; color:#2980b9;">Verein Hilfe für Kinder und Eltern</div>
+            `
+          },
+          {
+            code: "C",
+            tagPos: "left",
+            hasPin: true,
+            cardClass: "anzeige-style-c",
+            html: `
+              <div class="anzeige-headline" style="color:#27ae60;">Gebäude · Energie · Technik</div>
+              <p style="font-size:13px; line-height:1.4; margin-bottom:6px;">
+                vom 25. bis 27. Februar, 10.00 Uhr bis 18.00 Uhr · GET-Messe Freiburg, Europaplatz<br>
+                Haus, Heizen, <strong>Küche: neue Technologien</strong> zum Energiesparen.<br>
+                <strong>Während der Messeöffnungszeiten wird eine Kinderbetreuung angeboten.</strong>
+              </p>
+              <div style="font-size:12px; color:var(--text-muted); font-weight:700;">Informationen unter: www.get.freiburg.de</div>
+            `
+          },
+          {
+            code: "D",
+            tagPos: "right",
+            hasPin: false,
+            cardClass: "anzeige-style-d",
+            html: `
+              <div class="anzeige-headline" style="color:#8e44ad;">eki Eltern-Kind-Initiative e.V.</div>
+              <p style="font-size:13px; line-height:1.4; margin-bottom:6px;">
+                <strong>Bürozeiten für die Elternberatung ändern sich ab 1. März:</strong><br>
+                Mo u. Do: 15.00–17.00 Uhr, Erziehungsberatung<br>
+                <strong>Di u. Mi: 16.00–18.00 Uhr, Gesundheitsberatung</strong>
+              </p>
+              <div style="font-size:12px; color:var(--text-muted);">ELTERN-KIND-INITIATIVE · Friedrichstr. 18, Erfurt · Tel.: 0361-2244567</div>
+            `
+          },
+          {
+            code: "E",
+            tagPos: "left",
+            hasPin: true,
+            cardClass: "anzeige-style-e",
+            html: `
+              <div class="anzeige-headline" style="color:#2980b9;">Kantonales Arbeitsamt Basel-Stadt</div>
+              <p style="font-size:13.5px; font-weight:700; color:#c0392b; margin-bottom:4px;">Neu!</p>
+              <p style="font-size:13px; line-height:1.4; margin-bottom:6px;">
+                <strong>Persönliche Beratungsgespräche für Jugendliche und Eltern</strong> zu allem, was für die <strong>erste Berufswahl</strong> wichtig ist.<br>
+                Anmeldung: 061/27 89 242 · Basel-Stadt, Utengasse 12
+              </p>
+            `
+          },
+          {
+            code: "F",
+            tagPos: "right",
+            hasPin: false,
+            cardClass: "anzeige-style-f",
+            html: `
+              <div class="anzeige-headline" style="color:#e74c3c;">Ärztlicher Bereitschaftsdienst</div>
+              <p style="font-size:13px; line-height:1.4; margin-bottom:6px;">
+                der Notdienstpraxis Chur: <strong>zusätzlich kinderärztlicher Notdienst</strong> samstags/sonntags und an Feiertagen.<br>
+                Rufnummer: 081-254 34 00
+              </p>
+            `
+          },
+          {
+            code: "G",
+            tagPos: "left",
+            hasPin: true,
+            cardClass: "anzeige-style-g",
+            html: `
+              <div class="anzeige-headline" style="color:#16a085;">St. Martins Krankenhaus — Informationsabende</div>
+              <p style="font-size:13px; line-height:1.4; margin-bottom:6px;">
+                Sautierstraße 1 – Heidelberg<br>
+                <strong>1. März, 17.30 Uhr:</strong> Schwangerschaft, Geburt und Wochenbett<br>
+                <strong>8. März, 17.30 Uhr:</strong> Das gesunde Neugeborene<br>
+                Anmeldung nicht erforderlich, keine Gebühren.
+              </p>
+              <div style="font-size:12px; color:var(--text-muted);">BkK Bundesverbund kirchlicher Krankenhäuser · www.bkk-ggmbh.de</div>
+            `
+          },
+          {
+            code: "H",
+            tagPos: "right",
+            hasPin: false,
+            cardClass: "anzeige-style-h",
+            html: `
+              <div class="anzeige-headline" style="color:#d35400;">Frühlingsaktion! Weissgerber Küchenstudio</div>
+              <p style="font-size:13px; line-height:1.4; margin-bottom:6px;">
+                bis zum 31. März Sparpreise für junge Eltern.<br>
+                Wir nehmen Ihre Küche persönlich: kompetente Beratung – gemeinsame Planung – fachgerechter Einbau.
+              </p>
+              <div style="font-size:12px; color:var(--text-muted);">Tel: 0043(0)662 86 58 13 · www.weissgerber-kuechenstudio.at · 5010 Salzburg</div>
+            `
+          },
+          {
+            code: "I",
+            tagPos: "left",
+            hasPin: false,
+            cardClass: "anzeige-style-i",
+            html: `
+              <div class="anzeige-headline" style="color:#7f8c8d;">Die Tagesstätte vom Verein für die Rehabilitation psychisch Kranker e.V.</div>
+              <p style="font-size:13px; line-height:1.4; margin-bottom:6px;">
+                sucht Aufträge in den Bereichen Montage-, Versand-, Sortier- oder Verpackungsarbeiten oder Ähnlichem, die wir preisgünstig für Sie ausführen.
+              </p>
+              <div style="font-size:12px; color:var(--text-muted);">Tel. (0 731) 370 400</div>
+            `
+          },
+          {
+            code: "J",
+            tagPos: "right",
+            hasPin: true,
+            cardClass: "anzeige-style-j",
+            html: `
+              <div class="anzeige-headline" style="color:#2c3e50;">Verein Gemeinsam e.V.</div>
+              <p style="font-size:13.5px; font-weight:700; color:#27ae60; margin-bottom:4px;">Freie Alten-, Kranken- und Behindertenhilfe</p>
+              <p style="font-size:13px; line-height:1.4; margin-bottom:6px;">
+                Wir laden ein zur/zum <strong>Gesprächsrunde/Erfahrungsaustausch für pflegende Angehörige alter Menschen</strong>.<br>
+                Donnerstag, 16. Juni, um 19 Uhr · Petersstraße 20, Cottbus
+              </p>
+              <div style="font-size:12px; color:var(--text-muted);">Tel. 0355-80351 · E-Mail: gemeinsamv-freiburg@web.de</div>
+            `
+          }
+        ],
+        questions: [
+          { id: 13, type: "match", text: "Eriks Tante ist psychisch krank. Er sucht nach einem Seminar, wo er lernen kann, sie besser zu verstehen und ihr zu helfen.", answer: "X" },
+          { id: 14, type: "match", text: "Klaras Vater hat wieder geheiratet und Klara mag ihre neue „Mama“ überhaupt nicht. Sie will ausziehen und allein wohnen. Sie ist aber erst 16 und weiß nicht, ob sie das darf.", answer: "A" },
+          { id: 15, type: "match", text: "Herr Lenz wollte sich letzte Woche noch einmal bei der Elternberatung wegen der Diät seines Sohnes Rat holen, aber es war niemand da.", answer: "D" },
+          { id: 16, type: "match", text: "Daniel steht kurz vor dem Realschulabschluss, weiß aber noch immer nicht, was er danach machen möchte. Seine Eltern möchten mit ihm zu einer Beratung gehen.", answer: "E" },
+          { id: 17, type: "match", text: "Alexia und Gregor planen, sich eine neue Küche anzuschaffen. Heute wollen sie in die Stadt, um sich in verschiedenen Geschäften zu informieren. Da wird plötzlich die Babysitterin krank.", answer: "C" },
+          { id: 18, type: "match", text: "Die Mutter von Simon ist krank und sehr alt und manchmal wird das Zusammenleben schwierig. Er möchte gern von den Erfahrungen anderer lernen.", answer: "J" },
+          { id: 19, type: "match", text: "Antonia erwartet ihr erstes Kind und möchte sich nicht nur darauf verlassen, was sie in Büchern gelesen hat.", answer: "G" }
+        ]
+      },
+      {
+        id: 4,
+        title: "Teil 4",
+        time: 15,
+        instructions: "Lesen Sie die Texte 20 bis 26. Wählen Sie: Ist die Person dafür, dass Gehsteige grundsätzlich nur noch für Fußgänger sind?",
+        topic: "In einer Zeitschrift lesen Sie Kommentare zu einem Artikel über eine neue Verkehrsordnung, die nur noch Fußgänger auf den Gehsteigen erlaubt.",
+        example: {
+          who: "Anke, 38, Bremen",
+          text: "Ich fahre häufig mit meinen Kindern Rad. Das ist kompliziert! Denn Kinder bis 8 Jahre müssen auf den Gehsteigen und Kinder bis 10 Jahre dürfen darauf fahren. Ich als Erwachsene muss den Radweg oder die Straße benutzen. Allerdings bin ich froh, dass die Kinder auf dem Gehsteig vor Autos sicher sind, deshalb finde ich die vorgeschlagene Regelung gefährlich.",
+          answer: "nein"
+        },
+        letters: [
+          { id: 20, who: "Sven, 23, Wittenberg", text: "Schon seit Jahren bin ich begeisterter Inline-Skater. Das ist nicht immer einfach, denn man kann nicht überall gut fahren. Wenn man uns jetzt noch vom Gehsteig runterschmeißt, dann können wir nur noch auf extra Skaterbahnen fahren oder auf Skater-Events, wenn die Straßen gesperrt werden. Das wäre schlimm! Wo sollen wir dann noch fahren??", answer: "nein" },
+          { id: 21, who: "Olav, 17, Helmstedt", text: "Ich fahre mit dem Skateboard zur Schule. Um dahin zu kommen, muss ich auch auf dem Gehsteig fahren, denn die Fahrradfahrer lassen mich nicht auf den Radweg. Ich bin aber immer sehr vorsichtig und weiche Fußgängern aus, deshalb gibt es keinen Grund, uns Skateboardfahrern diese Fahrmöglichkeit wegzunehmen.", answer: "nein" },
+          { id: 22, who: "Karen, 47, Landeck", text: "Mit dem völligen Verschwinden von Personen, die sich ganz auf die altmodische Art, per Fuß, fortbewegen, wird gerechnet. Wie ich auf so etwas komme? Nun, ich würde sagen, aufgrund meiner Erfahrungen. Warum sonst gibt es häufig keine, und wenn, dann oft zu schmale Gehsteige? Warum sonst machen zunehmend mehr Radfahrer auf den Gehsteigen den Fußgängern den Platz streitig? So eine Regelung würde uns Fußgängern helfen.", answer: "ja" },
+          { id: 23, who: "Paul, 26, Thun", text: "Das Trottoir ist den Passanten vorbehalten, aber es sind längst nicht nur Passanten auf dem Trottoir unterwegs. Velos werden von der Strasse auf die Trottoirs verdrängt oder gar legal auf diesen geführt. Autos und Töffs werden auf den Trottoirs abgestellt. Ich meine, die vorgeschlagene Regelung ist zu streng. Nur die Velos sollten vom Trottoir verschwinden bzw. nur noch gestossen werden.", answer: "nein" },
+          { id: 24, who: "Alina, 30, Kufstein", text: "Stellen Sie sich mal vor, ich habe zwei kleine Kinder, mit denen ich gern mal auf dem Gehsteig spazierengehe. Das ist bei uns fast unmöglich, weil ständig jemand an uns vorbeirast, auf Skatern, auf Rollern, auf Fahrrädern. Wenn Sie mich fragen, stimme ich der Regelung zu, weil sie meine Kinder schützt.", answer: "ja" },
+          { id: 25, who: "Jonas, 18, Karlsruhe", text: "Vor ein paar Tagen hat mich ein Inline-Skater angefahren. Ich humple immer noch, dabei möchte ich mir nicht vorstellen, wie es mir gehen würde, wenn ich ein alter Mann wäre ... Eigentlich waren mir solche Regeln und Gesetze immer egal, aber hier habe ich nun eine Meinung. Die habe ich mir gebildet, weil ich betroffen bin. Auf die Bürgersteige sollen nur Bürger, also Fußgänger, wie das Wort schon sagt.", answer: "ja" },
+          { id: 26, who: "Ken, 29, Zug", text: "Ich glaube, der Kern des Problems liegt in der stetig steigenden Rücksichtslosigkeit gegenüber den Mitmenschen. Es gibt leider immer mehr Egoisten, die nur an sich denken. Wenn aber alle Passanten – egal ob mit Velos, Roller oder nur zu Fuss – aufpassen und höflich sind, brauchen wir keine neuen Regeln. Das wünsche ich mir.", answer: "nein" }
+        ]
+      },
+      {
+        id: 5,
+        title: "Teil 5",
+        time: 10,
+        instructions: "Sie lesen die Anmeldeinformationen der SommerKinderUni Graz, weil Sie im Programm der Universität interessante Angebote gefunden haben. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+        articles: [{
+          heading: "SommerKinderUni Graz — Anmeldeinformationen",
+          body: [
+            "<strong>Aufnahme und Anmeldung:</strong><br>Die SommerKinderUni Graz ist für Kinder bzw. Jugendliche im Alter von 9 bis 15 Jahren empfohlen. Anmeldungen beginnen am 22. Juni. Die Anmeldung ist nur für ganze Wochen über die Homepage der KinderUni Graz möglich. Insgesamt werden für die Veranstaltungen (Workshops) bis zu max. 60 Kinder pro Woche aufgenommen.",
+            "<strong>Öffnungszeiten:</strong><br>Die SommerKinderUni Graz ist von 11. Juli bis 29. Juli geöffnet. Die Betreuung ist von Montag bis Freitag von 8.00 bis 17.00 Uhr ganztags möglich. Erster gemeinsamer Treffpunkt aller TeilnehmerInnen ist immer Montag früh um 8.15 Uhr im Seminarraum SR 15.03, (Universitätsstraße 15, Erdgeschoß), Karl-Franzens-Universität.",
+            "<strong>Kosten:</strong><br>Pro Woche fällt eine Verpflegungspauschale in der Höhe von 45,00 € an. Dieser Beitrag wird in bar jeweils am Montag in der Früh, am allgemeinen Treffpunkt SR 15.03, für die laufende Woche eingehoben. Er inkludiert Frühstück, Jause, Mittagessen und Getränke.",
+            "<strong>Erkrankung/Fernbleiben:</strong><br>Erkrankt ein Kind, oder ist es verhindert die SommerKinderUni Graz zu besuchen, so ist dies umgehend im KinderUniBüro bekannt zu geben. Den BetreuerInnen ist es nicht gestattet, Medikamente zu verabreichen. Bei Vorliegen einer Allergie bitten wir Sie, diese bekannt zu geben und entsprechende Notfallmedikamente zur SommerKinderUni Graz mitzugeben.",
+            "<strong>Übergabe und Abholung Ihres Kindes:</strong><br>Die Eltern haben dafür zu sorgen, dass Jugendliche im Alter von 9 bis 15 Jahren von den Eltern selbst oder deren bevollmächtigten Vertretern ordnungsgemäß in die Obhut der BetreuerInnen der SommerKinderUni Graz übergeben und von dort wieder abgeholt werden. Alleiniges Nach-Hause-Gehen muss von den Eltern im Vorhinein mittels Unterschrift bestätigt werden."
+          ]
+        }],
+        example: {
+          text: "Die SommerKinderUni Graz findet statt …",
+          options: [
+            "im gesamten Monat August.",
+            "im Juli für Kinder und Jugendliche.",
+            "nur an den Wochenenden."
+          ],
+          answer: 1
+        },
+        questions: [
+          {
+            id: 27,
+            type: "mcq",
+            text: "Eltern können schriftlich erklären, dass …",
+            options: [
+              "ihr Kind von einem Betreuer abgeholt werden soll.",
+              "sie selbst ihr Kind zur Uni bringen.",
+              "ihr Kind selbstständig nach Hause geht."
+            ],
+            answer: 2
+          },
+          {
+            id: 28,
+            type: "mcq",
+            text: "Für das Essen der Kinder …",
+            options: [
+              "müssen die Eltern selbst sorgen.",
+              "zahlen die Eltern wöchentlich eine bestimmte Summe.",
+              "müssen die Eltern ihren Kindern täglich Geld mitgeben."
+            ],
+            answer: 1
+          },
+          {
+            id: 29,
+            type: "mcq",
+            text: "Medikamente …",
+            options: [
+              "dürfen die Betreuer den Kindern nicht geben.",
+              "kann man im Notfall im KinderUniBüro bekommen.",
+              "für Allergiker müssen im KinderUniBüro abgegeben werden."
+            ],
+            answer: 0
+          },
+          {
+            id: 30,
+            type: "mcq",
+            text: "Für die Anmeldung gilt:",
+            options: [
+              "Es können nur Kinder und Jugendliche zwischen 9 und 15 Jahren angemeldet werden.",
+              "Man kann sich jeweils nur für einen Workshop anmelden.",
+              "Die Teilnehmerzahl ist begrenzt."
+            ],
+            answer: 2
+          }
+        ]
+      },
+      {
+        id: 6,
+        title: "🎧 Hören",
+        badge: "Hören",
+        isHoren: true,
+        time: 40,
+        instructions: "Das Modul Hören besteht aus vier Teilen. Sie hören mehrere Texte und lösen Aufgaben dazu. Für jede Aufgabe gibt es nur eine richtige Lösung.",
+        audioSrc: "audio/modellsatz-6-hoeren.mp3",
+        audioFallbacks: [
+          "audio/15.mp3",
+          "audio/modellsatz-15-hoeren.mp3",
+          "audio/hoeren.mp3"
+        ],
+        audioChapters: [
+          { time: 0, label: "00:00 Einleitung" },
+          { time: 25, label: "00:25 Beispiel" },
+          { time: 111, label: "01:51 Teil 1 (Texte 1–5)" },
+          { time: 790, label: "13:10 Teil 2 (Dampferschifffahrt)" },
+          { time: 1067, label: "17:47 Teil 3 (Schweizer Küche)" },
+          { time: 1347, label: "22:27 Teil 4 (Spitalradio)" }
+        ],
+        questions: [
+          // Teil 1: 1 - 10
+          { id: "h1", num: 1, type: "tf", text: "Sie hören eine Information für Reisende.", answer: "richtig", teilPart: 1, textNum: 1 },
+          { id: "h2", num: 2, type: "mcq", text: "Wer braucht für den Pass nicht zu zahlen?", options: ["Kleinkinder bis 2 Jahre.", "Kinder unter 13 Jahren.", "Kinder über 12 Jahre."], answer: 0, teilPart: 1, textNum: 1 },
+          { id: "h3", num: 3, type: "tf", text: "Sie hören ein Angebot für Privatunterricht in Englisch.", answer: "falsch", teilPart: 1, textNum: 2 },
+          { id: "h4", num: 4, type: "mcq", text: "Für wen ist der Sprachkurs?", options: ["Für Berufstätige.", "Für Studenten.", "Für Schüler."], answer: 0, teilPart: 1, textNum: 2 },
+          { id: "h5", num: 5, type: "tf", text: "Es wird wärmer.", answer: "richtig", teilPart: 1, textNum: 3 },
+          { id: "h6", num: 6, type: "mcq", text: "Es regnet am …", options: ["Donnerstag.", "Freitag.", "Samstag."], answer: 2, teilPart: 1, textNum: 3 },
+          { id: "h7", num: 7, type: "tf", text: "Es gibt einen Vortrag.", answer: "richtig", teilPart: 1, textNum: 4 },
+          { id: "h8", num: 8, type: "mcq", text: "Worum geht es?", options: ["Um Medizin.", "Um Informatik.", "Um Robotik."], answer: 2, teilPart: 1, textNum: 4 },
+          { id: "h9", num: 9, type: "tf", text: "Dennis und Claudia wollen sich treffen.", answer: "richtig", teilPart: 1, textNum: 5 },
+          { id: "h10", num: 10, type: "mcq", text: "Um zum Zoo zu kommen, …", options: ["fährt Dennis sieben Stationen mit U- oder S-Bahn.", "braucht Dennis ungefähr 35 Minuten.", "muss Dennis zweimal umsteigen."], answer: 1, teilPart: 1, textNum: 5 },
+
+          // Teil 2: 11 - 15
+          { id: "h11", num: 11, type: "mcq", text: "Wann wurde das Schiff gebaut?", options: ["Vor 2010.", "Nach 2010.", "Vor 100 Jahren."], answer: 0, teilPart: 2 },
+          { id: "h12", num: 12, type: "mcq", text: "Was kann man auf der Burg Maus sehen?", options: ["Katzen.", "Mäuse.", "Vögel."], answer: 2, teilPart: 2 },
+          { id: "h13", num: 13, type: "mcq", text: "Wo gehen die Passagiere an Land?", options: ["In Bacherau.", "In Rüdesheim.", "In Sankt Goarshausen."], answer: 1, teilPart: 2 },
+          { id: "h14", num: 14, type: "mcq", text: "An der Bar gibt es …", options: ["Wein vom Rhein.", "verschiedene Getränke.", "warme Mahlzeiten."], answer: 1, teilPart: 2 },
+          { id: "h15", num: 15, type: "mcq", text: "Rauchen darf man …", options: ["im Freien auf dem Schiff.", "in den inneren Räumen.", "in einer Kabine."], answer: 2, teilPart: 2 },
+
+          // Teil 3: 16 - 22
+          { id: "h16", num: 16, type: "tf", text: "Lenas Großvater mag Kuchen nicht.", answer: "falsch", teilPart: 3 },
+          { id: "h17", num: 17, type: "tf", text: "Lenas Großvater hat noch nie Rüeblitorte gegessen.", answer: "falsch", teilPart: 3 },
+          { id: "h18", num: 18, type: "tf", text: "Lena braucht Geld für einen Kochkurs.", answer: "richtig", teilPart: 3 },
+          { id: "h19", num: 19, type: "tf", text: "Lenas Oma kocht gern schweizerische Gerichte.", answer: "falsch", teilPart: 3 },
+          { id: "h20", num: 20, type: "tf", text: "Traditionelle Gerichte zu kochen ist umweltfreundlich.", answer: "richtig", teilPart: 3 },
+          { id: "h21", num: 21, type: "tf", text: "Die mexikanische Küche ist nicht so gesund für Schweizer.", answer: "richtig", teilPart: 3 },
+          { id: "h22", num: 22, type: "tf", text: "Lenas Großvater kann ihr das Geld nicht geben.", answer: "falsch", teilPart: 3 },
+
+          // Teil 4: 23 - 30
+          { id: "h23", num: 23, type: "speaker", text: "Die gute Laune der Moderatoren ist viel wert.", options: ["Moderator", "Annette Vinke", "Michael Schönberg"], answer: 1, teilPart: 4 },
+          { id: "h24", num: 24, type: "speaker", text: "Ausgeschlossen vom Programm sind traurige Mitteilungen.", options: ["Moderator", "Annette Vinke", "Michael Schönberg"], answer: 1, teilPart: 4 },
+          { id: "h25", num: 25, type: "speaker", text: "Werbung hat auch für die Zuhörer Vorteile.", options: ["Moderator", "Annette Vinke", "Michael Schönberg"], answer: 0, teilPart: 4 },
+          { id: "h26", num: 26, type: "speaker", text: "Werbung macht die Finanzierung des Senders möglich.", options: ["Moderator", "Annette Vinke", "Michael Schönberg"], answer: 1, teilPart: 4 },
+          { id: "h27", num: 27, type: "speaker", text: "„Spitalfunk“ hat es ohne Werbung geschafft.", options: ["Moderator", "Annette Vinke", "Michael Schönberg"], answer: 2, teilPart: 4 },
+          { id: "h28", num: 28, type: "speaker", text: "Wer will, kann beim Radio mitmachen.", options: ["Moderator", "Annette Vinke", "Michael Schönberg"], answer: 1, teilPart: 4 },
+          { id: "h29", num: 29, type: "speaker", text: "Über Fehler wird gelacht.", options: ["Moderator", "Annette Vinke", "Michael Schönberg"], answer: 2, teilPart: 4 },
+          { id: "h30", num: 30, type: "speaker", text: "Für die Geräte muss man viel Geld ausgeben.", options: ["Moderator", "Annette Vinke", "Michael Schönberg"], answer: 2, teilPart: 4 }
+        ],
+        horenSections: [
+          {
+            partNumber: 1,
+            title: "Teil 1",
+            badge: "Aufgaben 1 – 10",
+            intro: "Sie hören nun fünf kurze Texte. Sie hören jeden Text zweimal. Zu jedem Text lösen Sie zwei Aufgaben. Wählen Sie bei jeder Aufgabe die richtige Lösung. Lesen Sie zuerst das Beispiel. Dazu haben Sie 10 Sekunden Zeit.",
+            example: {
+              ex01: { num: "01", text: "Die Firma ist zurzeit geschlossen.", type: "tf", answer: "richtig" },
+              ex02: { num: "02", text: "Die Firma …", type: "mcq", options: ["öffnet von Montag bis Freitag um 9.00 Uhr.", "hat am Freitag länger geöffnet als von Montag bis Donnerstag.", "schließt jeden Tag um 19.00 Uhr."], answer: 0 }
+            },
+            texts: [
+              { number: 1, title: "Text 1", qIds: ["h1", "h2"] },
+              { number: 2, title: "Text 2", qIds: ["h3", "h4"] },
+              { number: 3, title: "Text 3", qIds: ["h5", "h6"] },
+              { number: 4, title: "Text 4", qIds: ["h7", "h8"] },
+              { number: 5, title: "Text 5", qIds: ["h9", "h10"] }
+            ]
+          },
+          {
+            partNumber: 2,
+            title: "Teil 2",
+            badge: "Aufgaben 11 – 15",
+            intro: "Sie hören nun einen Text. Sie hören den Text einmal. Dazu lösen Sie fünf Aufgaben. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c. Lesen Sie jetzt die Aufgaben 11 bis 15. Dazu haben Sie 60 Sekunden Zeit.",
+            context: "Sie nehmen an einer Dampferschifffahrt auf dem Rhein teil.",
+            qIds: ["h11", "h12", "h13", "h14", "h15"]
+          },
+          {
+            partNumber: 3,
+            title: "Teil 3",
+            badge: "Aufgaben 16 – 22",
+            intro: "Sie hören nun ein Gespräch. Sie hören das Gespräch einmal. Dazu lösen Sie sieben Aufgaben. Wählen Sie: Sind die Aussagen richtig oder falsch? Lesen Sie jetzt die Aufgaben 16 bis 22. Dazu haben Sie 60 Sekunden Zeit.",
+            context: "Sie sitzen in einem Café in Zürich und hören, wie sich ein alter Mann und ein Mädchen über die Schweizer Küche unterhalten.",
+            qIds: ["h16", "h17", "h18", "h19", "h20", "h21", "h22"]
+          },
+          {
+            partNumber: 4,
+            title: "Teil 4",
+            badge: "Aufgaben 23 – 30",
+            intro: "Sie hören nun eine Diskussion. Sie hören die Diskussion zweimal. Dazu lösen Sie acht Aufgaben. Ordnen Sie die Aussagen zu: Wer sagt was? Lesen Sie jetzt die Aussagen 23 bis 30. Dazu haben Sie 60 Sekunden Zeit.",
+            context: "Der Moderator der Radiosendung „TopIdeen“ diskutiert mit Annette Vinke und Michael Schönberg über ein einmaliges Projekt, das Spitalradio.",
+            speakers: [
+              { code: "a", name: "Moderator" },
+              { code: "b", name: "Annette Vinke" },
+              { code: "c", name: "Michael Schönberg" }
+            ],
+            example: {
+              num: "0",
+              text: "Der Radiosender im Krankenhaus war eine Idee von Annette Vinke.",
+              answerCode: "a",
+              answerSpeaker: "Moderator"
+            },
+            qIds: ["h23", "h24", "h25", "h26", "h27", "h28", "h29", "h30"]
+          }
+        ]
+      }
+    ]
   }
 ];
