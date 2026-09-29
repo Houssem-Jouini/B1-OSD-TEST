@@ -53,8 +53,6 @@ ${context.whyIncorrect ? `- Warum falsch: ${context.whyIncorrect}` : ""}
 `;
       }
 
-      const geminiEndpoint = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${apiKey}`;
-
       const payload = {
         system_instruction: {
           parts: [{ text: systemPrompt || "Du bist ein B1 Deutschprüfung-Tutor." }]
@@ -71,26 +69,39 @@ ${context.whyIncorrect ? `- Warum falsch: ${context.whyIncorrect}` : ""}
         }
       };
 
-      const apiRes = await fetch(geminiEndpoint, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(payload)
-      });
+      const models = ['gemini-3.5-flash', 'gemini-3.7-flash', 'gemini-3.8-flash'];
+      let lastError = null;
+      let reply = null;
 
-      const data = await apiRes.json();
+      for (const model of models) {
+        const geminiEndpoint = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`;
+        const apiRes = await fetch(geminiEndpoint, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(payload)
+        });
 
-      if (!apiRes.ok) {
-        const errorMsg = data?.error?.message || `Google Gemini Fehler (Status ${apiRes.status})`;
-        return new Response(JSON.stringify({ error: errorMsg }), {
-          status: apiRes.status,
+        const data = await apiRes.json().catch(() => ({}));
+        if (apiRes.ok && data?.candidates?.[0]?.content?.parts?.[0]?.text) {
+          reply = data.candidates[0].content.parts[0].text;
+          break;
+        } else {
+          lastError = data?.error?.message || `Status ${apiRes.status}`;
+          if (apiRes.status !== 503 && apiRes.status !== 429 && apiRes.status !== 404) {
+            break;
+          }
+        }
+      }
+
+      if (!reply) {
+        return new Response(JSON.stringify({ error: lastError || "Keine Antwort erhalten." }), {
+          status: 502,
           headers: {
             "Content-Type": "application/json",
             "Access-Control-Allow-Origin": "*"
           }
         });
       }
-
-      const reply = data?.candidates?.[0]?.content?.parts?.[0]?.text || "Keine Antwort erhalten.";
 
       return new Response(JSON.stringify({ reply }), {
         headers: {

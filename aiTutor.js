@@ -156,20 +156,29 @@ ${context.whyIncorrect ? `- Didaktische Erklärung (Falsche Optionen): ${context
       }
     };
 
-    const res = await fetch(endpoint, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(payload)
-    });
+    const models = ['gemini-3.5-flash', 'gemini-3.7-flash', 'gemini-3.8-flash'];
+    let lastError = null;
 
-    if (!res.ok) {
-      const errJson = await res.json().catch(() => ({}));
-      const msg = errJson?.error?.message || `HTTP ${res.status}: ${res.statusText}`;
-      throw new Error(`Google Gemini Fehler: ${msg}`);
+    for (const model of models) {
+      const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`;
+      const res = await fetch(endpoint, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload)
+      });
+
+      const data = await res.json().catch(() => ({}));
+      if (res.ok && data?.candidates?.[0]?.content?.parts?.[0]?.text) {
+        return data.candidates[0].content.parts[0].text;
+      } else {
+        lastError = data?.error?.message || `HTTP ${res.status}: ${res.statusText}`;
+        if (res.status !== 503 && res.status !== 429 && res.status !== 404) {
+          break;
+        }
+      }
     }
 
-    const data = await res.json();
-    return data?.candidates?.[0]?.content?.parts?.[0]?.text || 'Keine Antwort erhalten.';
+    throw new Error(`Google Gemini Fehler: ${lastError || 'Keine Antwort erhalten.'}`);
   }
 
   async function callGroqApi(apiKey, userPrompt, context) {
