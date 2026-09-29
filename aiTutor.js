@@ -13,9 +13,54 @@
   const STORAGE_KEY_PROXY = 'b1_ai_proxy_endpoint';
   const STORAGE_KEY_PROVIDER = 'b1_ai_selected_provider'; // 'gemini' | 'groq' | 'proxy'
 
+  // Default Backend Proxy Endpoint (Leave blank or set to Cloudflare Worker URL)
+  const DEFAULT_PROXY_ENDPOINT = '';
+
   let activeQuestionContext = null;
   let isGenerating = false;
   let chatHistory = [];
+
+  /* ---------------- AUTO-CONFIGURE VIA PRIVATE INVITE LINK ---------------- */
+  // Allows user to send a one-click magic link to their friend: https://...#aikey=AIzaSy...
+  function checkAutoConfigLink() {
+    try {
+      const hash = window.location.hash || '';
+      const search = window.location.search || '';
+      const full = hash + '&' + search;
+      const match = full.match(/[#?&]aikey=([A-Za-z0-9_-]+)/);
+      if (match && match[1]) {
+        const key = match[1];
+        localStorage.setItem(STORAGE_KEY_GEMINI, key);
+        localStorage.setItem(STORAGE_KEY_PROVIDER, 'gemini');
+
+        // Clean URL so the key disappears from browser address bar immediately
+        const cleanUrl = window.location.pathname;
+        try {
+          window.history.replaceState({}, document.title, cleanUrl);
+        } catch (e) {}
+
+        setTimeout(() => {
+          const isAr = typeof questionsLang !== 'undefined' && questionsLang === 'ar';
+          const isFr = typeof questionsLang !== 'undefined' && questionsLang === 'fr';
+          const msg = isAr
+            ? '✨ تم تفعيل المعلم الذكي (KI-Tutor) بنجاح لك! بالتوفيق في دراستك.'
+            : (isFr
+                ? '✨ Le Tuteur IA a été activé avec succès pour vous !'
+                : '✨ KI-Tutor erfolgreich für dich aktiviert! Viel Erfolg beim Lernen.');
+          if (typeof showEvidenceToast === 'function') {
+            showEvidenceToast(msg);
+          } else {
+            alert(msg);
+          }
+        }, 600);
+      }
+    } catch (e) {
+      console.warn('Auto config link parse failed:', e);
+    }
+  }
+
+  // Run immediately on file load
+  checkAutoConfigLink();
 
   // System Prompt for B1 Language Pedagogy
   const SYSTEM_PROMPT = `Du bist der offizielle Antigravity KI-Tutor für die Goethe-Zertifikat B1 und ÖSD B1 Prüfungssimulation.
@@ -348,7 +393,7 @@ ${context.quote ? `- Textzitat: „${context.quote}“` : ''}
     // Check credentials
     const geminiKey = localStorage.getItem(STORAGE_KEY_GEMINI) || '';
     const groqKey = localStorage.getItem(STORAGE_KEY_GROQ) || '';
-    const proxyUrl = localStorage.getItem(STORAGE_KEY_PROXY) || '';
+    const proxyUrl = localStorage.getItem(STORAGE_KEY_PROXY) || DEFAULT_PROXY_ENDPOINT;
     const provider = localStorage.getItem(STORAGE_KEY_PROVIDER) || 'gemini';
 
     // If no API key is configured yet, provide built-in pedagogical answer or setup invite!
@@ -478,6 +523,38 @@ ${context.quote ? `- Textzitat: „${context.quote}“` : ''}
     window.sendAiTutorMessage(prompt);
   };
 
+  /* ---------------- INVITE LINK FOR FRIENDS ---------------- */
+  window.copyFriendInviteLink = function() {
+    const geminiKey = localStorage.getItem(STORAGE_KEY_GEMINI) || '';
+    const statusEl = document.getElementById('aiFriendLinkStatus');
+    if (!geminiKey) {
+      if (statusEl) {
+        statusEl.innerHTML = '<span style="color:var(--danger,#ef4444);">⚠️ Bitte trage zuerst deinen eigenen Google Gemini Key oben ein und klicke auf Speichern.</span>';
+        statusEl.style.display = 'block';
+      }
+      return;
+    }
+
+    const base = window.location.origin + window.location.pathname;
+    const inviteUrl = `${base}#aikey=${geminiKey}`;
+
+    const onSuccess = () => {
+      if (statusEl) {
+        statusEl.innerHTML = '<span style="color:var(--success,#10b981);">✓ Link in Zwischenablage kopiert! Sende diesen Link an deine Freundin. Sobald sie ihn öffnet, ist die KI bei ihr dauerhaft aktiv!</span>';
+        statusEl.style.display = 'block';
+        setTimeout(() => { statusEl.style.display = 'none'; }, 6000);
+      }
+    };
+
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(inviteUrl).then(onSuccess).catch(() => {
+        prompt('Kopiere diesen privaten Link und sende ihn an deine Freundin:', inviteUrl);
+      });
+    } else {
+      prompt('Kopiere diesen privaten Link und sende ihn an deine Freundin:', inviteUrl);
+    }
+  };
+
   /* ---------------- EVENT LISTENERS ON LOAD ---------------- */
   document.addEventListener('DOMContentLoaded', () => {
     // Top Nav Button
@@ -526,6 +603,10 @@ ${context.quote ? `- Textzitat: „${context.quote}“` : ''}
 
     const saveSettingsBtn = document.getElementById('aiSaveSettingsBtn');
     if (saveSettingsBtn) saveSettingsBtn.addEventListener('click', window.saveAiTutorSettings);
+
+    // Friend Invite Link Button
+    const copyFriendBtn = document.getElementById('aiCopyFriendLinkBtn');
+    if (copyFriendBtn) copyFriendBtn.addEventListener('click', window.copyFriendInviteLink);
   });
 
 })();
