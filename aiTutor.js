@@ -103,17 +103,25 @@ Richtlinien:
 
     if (!foundQ) return null;
 
-    const userAns = (typeof userAnswers !== 'undefined' && userAnswers[qid]) !== undefined ? userAnswers[qid] : 'Keine Antwort eingegeben';
+    const userAns = (typeof userAnswers !== 'undefined' && userAnswers[qid] !== undefined && userAnswers[qid] !== '') ? userAnswers[qid] : 'Keine Antwort eingegeben';
     const explanation = typeof getExplanation === 'function' ? getExplanation(test.id, qid, typeof questionsLang !== 'undefined' ? questionsLang : 'de') : null;
+
+    const formattedCorrect = (typeof formatAnswerDisplay === 'function') ? formatAnswerDisplay(foundQ, foundQ.answer) : String(foundQ.answer);
+    const formattedUser = (typeof formatAnswerDisplay === 'function' && userAns !== 'Keine Antwort eingegeben') ? formatAnswerDisplay(foundQ, userAns) : String(userAns);
+
+    let partTitle = foundPart ? (foundPart.title || `Teil ${foundPart.id}`) : 'Prüfungsteil';
+    if (foundQ.teilPart) {
+      partTitle = `🎧 Hören · Teil ${foundQ.teilPart}`;
+    }
 
     return {
       qid: String(qid),
       testTitle: test.title || test.badge || 'Modelltest B1',
-      partTitle: foundPart ? (foundPart.title || `Teil ${foundPart.id}`) : 'Prüfungsteil',
+      partTitle: partTitle,
       questionText: foundQ.text || '',
       options: foundQ.options || null,
-      correctAnswer: foundQ.answer,
-      userAnswer: userAns,
+      correctAnswer: formattedCorrect,
+      userAnswer: formattedUser,
       quote: explanation?.quote || '',
       whyCorrect: explanation?.whyCorrect || '',
       whyIncorrect: explanation?.whyIncorrect || ''

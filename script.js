@@ -972,6 +972,59 @@ window.hideTeilSolutions = function(teilId) {
   saveSession();
 };
 
+window.revealHorenTeilSolutions = function(partNum) {
+  revealedTeils.add(`horen-${partNum}`);
+  if (typeof syncMistakesForHorenTeil === 'function') {
+    syncMistakesForHorenTeil(partNum);
+  }
+  renderCurrentTeil();
+  saveSession();
+
+  const section = document.getElementById(`horen-teil-${partNum}`);
+  if (section) {
+    section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+};
+
+window.hideHorenTeilSolutions = function(partNum) {
+  revealedTeils.delete(`horen-${partNum}`);
+  renderCurrentTeil();
+  saveSession();
+
+  const section = document.getElementById(`horen-teil-${partNum}`);
+  if (section) {
+    section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+};
+
+window.scrollToHorenTeil = function(partNum) {
+  const el = document.getElementById(`horen-teil-${partNum}`);
+  if (el) {
+    el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+};
+
+function syncMistakesForHorenTeil(partNum) {
+  const t = testData.find(x => x.isHoren);
+  if (!t || !t.questions) return;
+  const qs = t.questions.filter(q => q.teilPart === partNum);
+  qs.forEach(q => {
+    const userVal = userAnswers[q.id];
+    const isCorrect = userVal !== undefined && isMatchOrTfCorrect(userVal, q.answer);
+    if (userVal !== undefined) {
+      recordMistake(currentTest.id, 6, q, userVal, isCorrect);
+    }
+  });
+}
+
+function isHorenTeilComplete(partNum) {
+  const t = testData.find(x => x.isHoren);
+  if (!t || !t.questions) return false;
+  const qs = t.questions.filter(q => q.teilPart === partNum);
+  if (qs.length === 0) return false;
+  return qs.every(q => userAnswers[q.id] !== undefined && userAnswers[q.id] !== '');
+}
+
 window.toggleReviewExplanation = function(qid) {
   const el = document.getElementById(`review-exp-${qid}`);
   if (!el) return;
@@ -1055,6 +1108,36 @@ window.highlightEvidence = function(qid) {
   const testId = (currentTest && currentTest.id) || (modelTests[currentTestIndex] && modelTests[currentTestIndex].id) || 'modellsatz-1';
   const exp = typeof getExplanation === 'function' ? getExplanation(testId, qid, questionsLang) : null;
   const quote = exp?.quote || '';
+
+  // 0. HÖREN (LISTENING): AUDIO TIMESTAMP & CARD GLOW
+  if (t.isHoren || t.id === 6) {
+    const card = document.getElementById('question-card-' + qid);
+    const q = t.questions?.find(x => String(x.id) === String(qid));
+    if (card) {
+      card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      card.classList.add('evidence-card-pulse');
+      window._evidenceClearTimer = setTimeout(() => card.classList.remove('evidence-card-pulse'), 7000);
+    }
+    if (q && q.audioStart !== undefined) {
+      if (typeof seekHorenAudio === 'function') {
+        seekHorenAudio(q.audioStart);
+      }
+      const toastMsg = isAr
+        ? `📍 تم تشغيل المقطع الصوتي لسؤال ${q.num || qid} عند ${formatAudioTime(q.audioStart)}`
+        : (isFr
+          ? `📍 Audio calé sur la question ${q.num || qid} (${formatAudioTime(q.audioStart)})`
+          : `📍 Hörtext zu Aufgabe ${q.num || qid} bei ${formatAudioTime(q.audioStart)} angespielt`);
+      showEvidenceToast(toastMsg);
+    } else {
+      const toastMsg = isAr
+        ? `📍 الشاهد الصوتي لسؤال ${q?.num || qid} محدد في صندوق الشرح`
+        : (isFr
+          ? `📍 Preuve audio de la question ${q?.num || qid} indiquée dans l'explication`
+          : `📍 Textbeleg im Hörtext zu Aufgabe ${q?.num || qid}`);
+      showEvidenceToast(toastMsg);
+    }
+    return;
+  }
 
   // 1. TEIL 3: ADS MATCHING
   if (t.id === 3 && t.adsFormatted) {
@@ -1359,6 +1442,122 @@ function renderTeilCompletionBannerHtml(t) {
       <button type="button" class="btn btn-primary btn-reveal-solutions" onclick="revealTeilSolutions(${t.id})">
         ${btnText}
       </button>
+    </div>
+  `;
+}
+
+function renderHorenTeilCompletionBannerHtml(teilPart) {
+  const isAr = questionsLang === 'ar';
+  const isFr = questionsLang === 'fr';
+  const rawName = document.getElementById('friendName')?.value?.trim();
+  const name = rawName || 'Sirin';
+
+  const teilNamesDe = { 1: 'Teil 1 (Aufgaben 1–10)', 2: 'Teil 2 (Aufgaben 11–15)', 3: 'Teil 3 (Aufgaben 16–22)', 4: 'Teil 4 (Aufgaben 23–30)' };
+  const teilNamesAr = { 1: 'الجزء 1 (الأسئلة 1–10)', 2: 'الجزء 2 (الأسئلة 11–15)', 3: 'الجزء 3 (الأسئلة 16–22)', 4: 'الجزء 4 (الأسئلة 23–30)' };
+  const teilNamesFr = { 1: 'Partie 1 (Questions 1–10)', 2: 'Partie 2 (Questions 11–15)', 3: 'Partie 3 (Questions 16–22)', 4: 'Partie 4 (Questions 23–30)' };
+
+  const teilName = isAr ? teilNamesAr[teilPart] : (isFr ? teilNamesFr[teilPart] : teilNamesDe[teilPart]);
+
+  const promptTitle = isAr
+    ? `أحسنتِ يا ${name}! تم إكمال جميع أسئلة ${teilName}`
+    : (isFr
+      ? `Bravo ${name} ! Toutes les questions de la ${teilName} sont remplies`
+      : `Super gemacht, ${name}! Alle Aufgaben in ${teilName} ausgefüllt!`);
+
+  const promptSub = isAr
+    ? 'هل ترغبين في التحقق من إجاباتكِ الآن وقراءة الشرح المفصل مع الشواهد الصوتية وسؤال المعلم الذكي؟'
+    : (isFr
+      ? 'Souhaitez-vous vérifier vos réponses maintenant, lire les explications détaillées avec citations audio et interroger le Tuteur IA ?'
+      : 'Möchten Sie Ihre Antworten jetzt überprüfen, die didaktischen Erklärungen mit Hörtext-Zitaten ansehen und den KI-Tutor befragen?');
+
+  const btnText = isAr ? '💡 إظهار الحلول والشرح المفصل' : (isFr ? '💡 Afficher les réponses et explications' : '💡 Lösungen & Erklärungen anzeigen');
+
+  return `
+    <div class="teil-completion-banner horen-completion-banner" id="horen-completion-${teilPart}">
+      <div class="teil-completion-icon">🎯</div>
+      <div class="teil-completion-info">
+        <strong>${promptTitle}</strong>
+        <p>${promptSub}</p>
+      </div>
+      <button type="button" class="btn btn-primary btn-reveal-solutions" onclick="revealHorenTeilSolutions(${teilPart})">
+        ${btnText}
+      </button>
+    </div>
+  `;
+}
+
+function renderHorenTeilScoreBannerHtml(teilPart) {
+  const t = testData.find(x => x.isHoren);
+  if (!t || !t.questions) return '';
+  const qs = t.questions.filter(q => q.teilPart === teilPart);
+  const isAr = questionsLang === 'ar';
+  const isFr = questionsLang === 'fr';
+
+  let correctCount = 0;
+  qs.forEach(q => {
+    const userVal = userAnswers[q.id];
+    if (userVal !== undefined && isMatchOrTfCorrect(userVal, q.answer)) {
+      correctCount++;
+    }
+  });
+
+  const pct = qs.length > 0 ? Math.round((correctCount / qs.length) * 100) : 0;
+  const isPass = pct >= 60;
+  const teilLabel = isAr ? `الجزء ${teilPart}` : (isFr ? `Partie ${teilPart}` : `Teil ${teilPart}`);
+
+  const title = isAr
+    ? `نتيجة الاستماع (${teilLabel}): ${correctCount} من ${qs.length} صحيحة (${pct}%)`
+    : (isFr ? `Résultat Compréhension orale (${teilLabel}) : ${correctCount} sur ${qs.length} correctes (${pct}%)` : `Ergebnis für Hören ${teilLabel}: ${correctCount} von ${qs.length} richtig (${pct}%)`);
+
+  const pillText = isPass
+    ? (isAr ? 'ناجح (≥ 60%)' : (isFr ? 'RÉUSSI (≥ 60%)' : 'BESTANDEN (≥ 60%)'))
+    : (isAr ? 'بحاجة للتدريب (< 60%)' : (isFr ? 'À RÉVISER (< 60%)' : 'ÜBUNGSBEDARF (< 60%)'));
+
+  const hideBtnText = isAr ? 'إخفاء الإجابات / إعادة المحاولة' : (isFr ? 'Masquer / Réessayer' : 'Lösungen ausblenden / Wiederholen');
+  const nextBtnText = teilPart < 4
+    ? (isAr ? `الانتقال إلى الجزء ${teilPart + 1} ↓` : (isFr ? `Aller à la Partie ${teilPart + 1} ↓` : `Weiter zu Teil ${teilPart + 1} ↓`))
+    : (isAr ? 'عرض النتيجة النهائية والتقرير' : (isFr ? 'Voir le résultat final' : 'Zum Gesamtergebnis'));
+
+  const wrongCount = qs.length - correctCount;
+  const mistakeBtnText = isAr
+    ? `📓 تدريب الأخطاء (${wrongCount})`
+    : (isFr ? `📓 Réviser les erreurs (${wrongCount})` : `📓 Fehler wiederholen (${wrongCount})`);
+  const mistakeBtnHtml = wrongCount > 0 ? `<button type="button" class="btn btn-sm btn-outline text-danger" onclick="openMistakesModal('drill')">${mistakeBtnText}</button>` : '';
+
+  return `
+    <div class="teil-score-banner horen-score-banner" id="horen-score-banner-${teilPart}">
+      <div class="teil-score-left">
+        <span class="teil-score-pill ${isPass ? 'pass' : 'fail'}">${pillText}</span>
+        <span class="teil-score-title">${title}</span>
+      </div>
+      <div class="teil-score-actions">
+        ${mistakeBtnHtml}
+        <button type="button" class="btn btn-sm btn-outline" onclick="hideHorenTeilSolutions(${teilPart})">${hideBtnText}</button>
+        ${teilPart < 4
+          ? `<button type="button" class="btn btn-sm btn-primary" onclick="scrollToHorenTeil(${teilPart + 1})">${nextBtnText}</button>`
+          : `<button type="button" class="btn btn-sm btn-success" onclick="document.getElementById('finishTestBtn')?.click() || showResults()">${nextBtnText}</button>`
+        }
+      </div>
+    </div>
+  `;
+}
+
+function renderHorenTeilFooterActionsHtml(teilPart) {
+  const isAr = questionsLang === 'ar';
+  const isFr = questionsLang === 'fr';
+
+  const hideBtnText = isAr ? '🙈 إخفاء الإجابات / إعادة المحاولة' : (isFr ? '🙈 Masquer / Réessayer' : '🙈 Lösungen ausblenden / Wiederholen');
+  const nextBtnText = teilPart < 4
+    ? (isAr ? `الانتقال إلى الجزء ${teilPart + 1} ↓` : (isFr ? `Aller à la Partie ${teilPart + 1} ↓` : `Weiter zu Teil ${teilPart + 1} ↓`))
+    : (isAr ? 'عرض النتيجة النهائية والتقرير' : (isFr ? 'Voir le résultat final' : 'Zum Gesamtergebnis'));
+
+  return `
+    <div class="horen-teil-footer-actions">
+      <button type="button" class="btn btn-sm btn-outline" onclick="hideHorenTeilSolutions(${teilPart})">${hideBtnText}</button>
+      ${teilPart < 4
+        ? `<button type="button" class="btn btn-sm btn-primary" onclick="scrollToHorenTeil(${teilPart + 1})">${nextBtnText}</button>`
+        : `<button type="button" class="btn btn-sm btn-success" onclick="document.getElementById('finishTestBtn')?.click() || showResults()">${nextBtnText}</button>`
+      }
     </div>
   `;
 }
@@ -2132,6 +2331,14 @@ function initHorenAudioDeck() {
 }
 
 window.selectHorenAnswer = function(qid, val) {
+  const t = testData.find(x => x.isHoren);
+  const q = t?.questions?.find(x => x.id === qid);
+
+  // If this sub-part is already revealed, prevent answering while reviewing
+  if (q && revealedTeils.has(`horen-${q.teilPart}`)) {
+    return;
+  }
+
   userAnswers[qid] = val;
   const card = document.getElementById(`question-card-${qid}`);
   if (card) {
@@ -2147,6 +2354,34 @@ window.selectHorenAnswer = function(qid, val) {
   renderTabs();
   updateProgress();
   saveSession();
+
+  // Dynamic completion check for this Hören Teil
+  if (q && q.teilPart && t) {
+    const partNum = q.teilPart;
+    const isRevealed = revealedTeils.has(`horen-${partNum}`);
+    if (!isRevealed) {
+      const partQs = t.questions.filter(item => item.teilPart === partNum);
+      const isComplete = partQs.every(item => userAnswers[item.id] !== undefined && userAnswers[item.id] !== '');
+      const footerEl = document.getElementById(`horen-teil-footer-${partNum}`);
+      if (footerEl) {
+        if (isComplete) {
+          footerEl.innerHTML = renderHorenTeilCompletionBannerHtml(partNum);
+          footerEl.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+          const isAr = questionsLang === 'ar';
+          const isFr = questionsLang === 'fr';
+          const msg = isAr
+            ? `🎯 أحسنتِ! تم إكمال الجزء ${partNum}. اضغطي على «إظهار الحلول والشرح» لرؤية التصحيح.`
+            : (isFr
+              ? `🎯 Bravo ! Partie ${partNum} terminée. Cliquez sur « Afficher les réponses » pour voir la correction.`
+              : `🎯 Prima! Teil ${partNum} ausgefüllt. Klicken Sie auf „Lösungen & Erklärungen anzeigen“, um die Auswertung zu sehen.`);
+          showEvidenceToast(msg);
+        } else {
+          const ansCount = partQs.filter(item => userAnswers[item.id] !== undefined && userAnswers[item.id] !== '').length;
+          footerEl.innerHTML = `<div class="horen-teil-progress-hint">${ansCount} ${questionsLang === 'ar' ? `من ${partQs.length} مجاب عليها` : (questionsLang === 'fr' ? `sur ${partQs.length} répondues` : `von ${partQs.length} Aufgaben beantwortet`)}</div>`;
+        }
+      }
+    }
+  }
 };
 
 function renderHorenQuestionCard(q) {
@@ -2160,6 +2395,18 @@ function renderHorenQuestionCard(q) {
   const qText = trQ?.text?.[questionsLang] || trQ?.[questionsLang] || q.text;
   const rawOpts = trQ?.options?.[questionsLang] || q.options;
 
+  const isRevealed = revealedTeils.has(`horen-${q.teilPart}`);
+  const isCorrect = isRevealed && isAnswered && isMatchOrTfCorrect(val, q.answer);
+  const correctTargetLabel = isAr ? 'الحل الصحيح' : (questionsLang === 'fr' ? 'Bonne réponse' : 'Richtige Lösung');
+
+  let evalBadgeHtml = '';
+  let evaluatedClass = '';
+
+  if (isRevealed) {
+    evaluatedClass = isCorrect ? 'evaluated-correct' : 'evaluated-wrong';
+    evalBadgeHtml = `<span class="eval-badge ${isCorrect ? 'correct' : 'wrong'}">${isCorrect ? (isAr ? '✓ صحيح (+1)' : (questionsLang === 'fr' ? '✓ Correct (+1)' : '✓ Richtig (+1)')) : (isAr ? '✗ خطأ (0)' : (questionsLang === 'fr' ? '✗ Faux (0)' : '✗ Falsch (0)'))}</span>`;
+  }
+
   let optionsHtml = '';
 
   if (q.type === 'tf') {
@@ -2167,27 +2414,70 @@ function renderHorenQuestionCard(q) {
     const isFalsch = String(val).toLowerCase() === 'falsch';
     const trueLabel = isAr ? 'صحيح' : (questionsLang === 'fr' ? 'Vrai' : 'Richtig');
     const falseLabel = isAr ? 'خطأ' : (questionsLang === 'fr' ? 'Faux' : 'Falsch');
+
+    let richtigClass = '';
+    let falschClass = '';
+    let richtigTag = '';
+    let falschTag = '';
+
+    if (isRevealed) {
+      if (isRichtig) {
+        richtigClass = isCorrect ? 'active is-selected-correct' : 'active is-selected-wrong';
+      }
+      if (isFalsch) {
+        falschClass = isCorrect ? 'active is-selected-correct' : 'active is-selected-wrong';
+      }
+      if (String(q.answer).toLowerCase() === 'richtig' && !isRichtig) {
+        richtigClass += ' is-target-correct';
+        richtigTag = `<span class="correct-target-tag">✓ ${correctTargetLabel}</span>`;
+      } else if (String(q.answer).toLowerCase() === 'falsch' && !isFalsch) {
+        falschClass += ' is-target-correct';
+        falschTag = `<span class="correct-target-tag">✓ ${correctTargetLabel}</span>`;
+      }
+    } else {
+      richtigClass = isRichtig ? 'active' : '';
+      falschClass = isFalsch ? 'active' : '';
+    }
+
     optionsHtml = `
       <div class="tf-options-group">
-        <button type="button" class="tf-btn ${isRichtig ? 'active' : ''}" data-val="richtig" onclick="selectHorenAnswer('${q.id}', 'richtig')">
-          <span class="radio-dot"></span> ${trueLabel}
+        <button type="button" class="tf-btn ${richtigClass}" data-val="richtig" onclick="${isRevealed ? '' : `selectHorenAnswer('${q.id}', 'richtig')`}" ${isRevealed ? 'disabled' : ''}>
+          <span class="radio-dot"></span> ${trueLabel} ${richtigTag}
         </button>
-        <button type="button" class="tf-btn ${isFalsch ? 'active' : ''}" data-val="falsch" onclick="selectHorenAnswer('${q.id}', 'falsch')">
-          <span class="radio-dot"></span> ${falseLabel}
+        <button type="button" class="tf-btn ${falschClass}" data-val="falsch" onclick="${isRevealed ? '' : `selectHorenAnswer('${q.id}', 'falsch')`}" ${isRevealed ? 'disabled' : ''}>
+          <span class="radio-dot"></span> ${falseLabel} ${falschTag}
         </button>
       </div>
     `;
   } else if (q.type === 'mcq') {
     const letters = ['a', 'b', 'c'];
     const idxVal = typeof val === 'number' ? val : (val !== undefined && val !== '' ? parseInt(val, 10) : null);
+    const correctIdx = typeof q.answer === 'number' ? q.answer : parseInt(q.answer, 10);
+
     optionsHtml = `
       <div class="mcq-options-group">
         ${rawOpts.map((opt, i) => {
           const isSelected = idxVal === i;
+          let pillClass = '';
+          let targetTag = '';
+
+          if (isRevealed) {
+            const isTarget = correctIdx === i;
+            if (isSelected) {
+              pillClass = isCorrect ? 'active is-selected-correct' : 'active is-selected-wrong';
+            } else if (isTarget) {
+              pillClass = 'is-target-correct';
+              targetTag = `<span class="correct-target-tag">✓ ${correctTargetLabel}</span>`;
+            }
+          } else {
+            pillClass = isSelected ? 'active' : '';
+          }
+
           return `
-            <button type="button" class="option-pill ${isSelected ? 'active' : ''}" data-val="${i}" onclick="selectHorenAnswer('${q.id}', ${i})">
+            <button type="button" class="option-pill ${pillClass}" data-val="${i}" onclick="${isRevealed ? '' : `selectHorenAnswer('${q.id}', ${i})`}" ${isRevealed ? 'disabled' : ''}>
               <span class="option-letter">${letters[i]}</span>
               <span class="option-text">${opt}</span>
+              ${targetTag}
             </button>
           `;
         }).join('')}
@@ -2196,6 +2486,8 @@ function renderHorenQuestionCard(q) {
   } else if (q.type === 'speaker') {
     const letters = ['a', 'b', 'c'];
     const idxVal = typeof val === 'number' ? val : (val !== undefined && val !== '' ? parseInt(val, 10) : null);
+    const correctIdx = typeof q.answer === 'number' ? q.answer : parseInt(q.answer, 10);
+
     let speakerNames = trQ?.options?.[questionsLang] || q.options;
     if (currentTest.id === 'modellsatz-1') {
       if (isAr) {
@@ -2210,14 +2502,31 @@ function renderHorenQuestionCard(q) {
         speakerNames = ['La présentatrice (Moderatorin)', 'Prof. Friedenthal', 'Mme Nielsen'];
       }
     }
+
     optionsHtml = `
       <div class="speaker-options-group">
         ${speakerNames.map((spk, i) => {
           const isSelected = idxVal === i;
+          let btnClass = '';
+          let targetTag = '';
+
+          if (isRevealed) {
+            const isTarget = correctIdx === i;
+            if (isSelected) {
+              btnClass = isCorrect ? 'active is-selected-correct' : 'active is-selected-wrong';
+            } else if (isTarget) {
+              btnClass = 'is-target-correct';
+              targetTag = `<span class="correct-target-tag">✓ ${correctTargetLabel}</span>`;
+            }
+          } else {
+            btnClass = isSelected ? 'active' : '';
+          }
+
           return `
-            <button type="button" class="speaker-btn ${isSelected ? 'active' : ''}" data-val="${i}" onclick="selectHorenAnswer('${q.id}', ${i})">
+            <button type="button" class="speaker-btn ${btnClass}" data-val="${i}" onclick="${isRevealed ? '' : `selectHorenAnswer('${q.id}', ${i})`}" ${isRevealed ? 'disabled' : ''}>
               <span class="speaker-code-badge">${letters[i]}</span>
               <span class="speaker-name">${spk}</span>
+              ${targetTag}
             </button>
           `;
         }).join('')}
@@ -2225,40 +2534,31 @@ function renderHorenQuestionCard(q) {
     `;
   }
 
+  const pinAudioBtnHtml = (isRevealed && q.audioStart !== undefined)
+    ? `<button type="button" class="flag-btn pin-evidence-header-btn" onclick="highlightEvidence('${q.id}')" title="${isAr ? 'تشغيل المقطع الصوتي المطابق' : (questionsLang === 'fr' ? 'Écouter l\'extrait audio' : 'Audio-Stelle abspielen')}">🎧</button>`
+    : '';
+
   return `
-    <div class="question-card horen-q-card ${isAnswered ? 'answered' : ''}" id="question-card-${q.id}" data-qid="${q.id}">
+    <div class="question-card horen-q-card ${isAnswered ? 'answered' : ''} ${evaluatedClass}" id="question-card-${q.id}" data-qid="${q.id}">
       <div class="question-header">
         <span class="q-number">${q.num}</span>
-        <div class="q-title">${qText}</div>
-        <button type="button" class="flag-btn ${isFlagged ? 'flagged' : ''}" onclick="toggleFlag('${q.id}')" title="Aufgabe vormerken">★</button>
+        <div class="q-title">${qText} ${evalBadgeHtml}</div>
+        <div style="display:flex; align-items:center; gap:4px;">
+          ${pinAudioBtnHtml}
+          <button type="button" class="flag-btn ${isFlagged ? 'flagged' : ''}" onclick="toggleFlag('${q.id}')" title="Aufgabe vormerken">★</button>
+        </div>
       </div>
       <div class="q-card-body">
         ${optionsHtml}
       </div>
+      ${isRevealed ? renderExplanationBoxHtml(q, val, isCorrect) : ''}
     </div>
   `;
 }
 
-function renderHoren(t) {
-  const panel = document.getElementById('questionsPanel');
-  if (!panel) return;
-
+function buildHorenTeilsHtml(t) {
   const isAr = questionsLang === 'ar';
   const trPart = getTrPart(currentTest.id, t.id, questionsLang);
-  const instructionsText = trPart?.instructions?.[questionsLang] || t.instructions;
-
-  if (isAr) {
-    panel.classList.add('lang-ar');
-    panel.setAttribute('dir', 'rtl');
-    panel.setAttribute('lang', 'ar');
-  } else {
-    panel.classList.remove('lang-ar');
-    panel.setAttribute('dir', 'ltr');
-    panel.setAttribute('lang', questionsLang);
-  }
-
-  const badgeText = isAr ? '🎧 قسم الاستماع · 40 دقيقة' : (questionsLang === 'fr' ? '🎧 MODULE COMPRÉHENSION ORALE · 40 MINUTES' : '🎧 MODUL HÖREN · 40 MINUTEN');
-  const mainTitleText = isAr ? 'شهادة جوته / ÖSD B1 — فهم المسموع' : (questionsLang === 'fr' ? 'Goethe / ÖSD Certificat B1 — Compréhension orale' : 'Goethe / ÖSD Zertifikat B1 — Hörverstehen');
 
   const sec1 = t.horenSections?.[0] || {};
   const sec2 = t.horenSections?.[1] || {};
@@ -2314,6 +2614,284 @@ function renderHoren(t) {
     answerCode: "b",
     answerSpeaker: "Dana Schneider"
   };
+
+  // Status for each Teil
+  const q1 = t.questions.filter(q => q.teilPart === 1);
+  const q2 = t.questions.filter(q => q.teilPart === 2);
+  const q3 = t.questions.filter(q => q.teilPart === 3);
+  const q4 = t.questions.filter(q => q.teilPart === 4);
+
+  const a1 = q1.filter(q => userAnswers[q.id] !== undefined && userAnswers[q.id] !== '').length;
+  const a2 = q2.filter(q => userAnswers[q.id] !== undefined && userAnswers[q.id] !== '').length;
+  const a3 = q3.filter(q => userAnswers[q.id] !== undefined && userAnswers[q.id] !== '').length;
+  const a4 = q4.filter(q => userAnswers[q.id] !== undefined && userAnswers[q.id] !== '').length;
+
+  const isComplete1 = a1 === q1.length && q1.length > 0;
+  const isComplete2 = a2 === q2.length && q2.length > 0;
+  const isComplete3 = a3 === q3.length && q3.length > 0;
+  const isComplete4 = a4 === q4.length && q4.length > 0;
+
+  const isRev1 = revealedTeils.has('horen-1');
+  const isRev2 = revealedTeils.has('horen-2');
+  const isRev3 = revealedTeils.has('horen-3');
+  const isRev4 = revealedTeils.has('horen-4');
+
+  const revealBtnLabel = isAr ? '💡 إظهار الحلول والشرح' : (questionsLang === 'fr' ? '💡 Afficher les réponses' : '💡 Lösungen anzeigen');
+  const hideBtnLabel = isAr ? '🙈 إخفاء الحلول' : (questionsLang === 'fr' ? '🙈 Masquer' : '🙈 Ausblenden');
+
+  return `
+      <!-- Teil 1 -->
+      <section class="horen-teil-section" id="horen-teil-1">
+        <div class="horen-teil-header">
+          <div class="horen-teil-pill">${isAr ? 'الجزء 1' : (questionsLang === 'fr' ? 'Partie 1' : 'Teil 1')}</div>
+          <div class="horen-teil-header-text">
+            <h3 class="horen-teil-title">${t1Title}</h3>
+            <p class="horen-teil-desc">${t1Desc}</p>
+          </div>
+          <div class="horen-teil-header-actions">
+            ${isRev1
+              ? `<button type="button" class="btn btn-xs btn-outline" onclick="hideHorenTeilSolutions(1)">${hideBtnLabel}</button>`
+              : `<button type="button" class="btn btn-xs ${isComplete1 ? 'btn-primary' : 'btn-outline'}" onclick="revealHorenTeilSolutions(1)">${revealBtnLabel}</button>`
+            }
+          </div>
+        </div>
+
+        ${isRev1 ? renderHorenTeilScoreBannerHtml(1) : ''}
+
+        <!-- Teil 1 Example Box -->
+        ${sec1.hasExample === false ? '' : `
+        <div class="example-box horen-example">
+          <div class="example-badge">${exampleBadge} (${ex01.num} & ${ex02.num})</div>
+          <div class="horen-ex-item">
+            <div class="horen-ex-q"><strong>${ex01.num}</strong> ${ex01.text}</div>
+            <div class="horen-ex-options">
+              <span class="ex-option-pill ${ex01.answer === 'richtig' ? 'selected' : ''}">${richtigLabel}${ex01.answer === 'richtig' ? ' ✓' : ''}</span>
+              <span class="ex-option-pill ${ex01.answer === 'falsch' ? 'selected' : ''}">${falschLabel}${ex01.answer === 'falsch' ? ' ✓' : ''}</span>
+            </div>
+          </div>
+          <div class="horen-ex-item" style="margin-top:10px;">
+            <div class="horen-ex-q"><strong>${ex02.num}</strong> ${ex02.text}</div>
+            <div class="horen-ex-options">
+              ${(ex02.options || []).map((opt, i) => `
+                <span class="ex-option-pill ${ex02.answer === i ? 'selected' : ''}">${['a', 'b', 'c'][i]}) ${opt}${ex02.answer === i ? ' ✓' : ''}</span>
+              `).join('')}
+            </div>
+          </div>
+        </div>`}
+
+        <!-- Teil 1: 5 Texts -->
+        ${[1, 2, 3, 4, 5].map(textNum => {
+          const qsForText = t.questions.filter(q => q.teilPart === 1 && q.textNum === textNum);
+          const labelText = isAr ? `النص ${textNum}` : (questionsLang === 'fr' ? `Texte ${textNum}` : `Text ${textNum}`);
+          return `
+            <div class="horen-text-group">
+              <div class="horen-text-label">${labelText}</div>
+              <div class="horen-text-cards">
+                ${qsForText.map(q => renderHorenQuestionCard(q)).join('')}
+              </div>
+            </div>
+          `;
+        }).join('')}
+
+        <div class="horen-teil-footer" id="horen-teil-footer-1">
+          ${isRev1
+            ? renderHorenTeilFooterActionsHtml(1)
+            : (isComplete1
+              ? renderHorenTeilCompletionBannerHtml(1)
+              : `<div class="horen-teil-progress-hint">${a1} ${isAr ? `من ${q1.length} مجاب عليها` : (questionsLang === 'fr' ? `sur ${q1.length} répondues` : `von ${q1.length} Aufgaben beantwortet`)}</div>`
+            )
+          }
+        </div>
+      </section>
+
+      <!-- Teil 2 -->
+      <section class="horen-teil-section" id="horen-teil-2">
+        <div class="horen-teil-header">
+          <div class="horen-teil-pill">${isAr ? 'الجزء 2' : (questionsLang === 'fr' ? 'Partie 2' : 'Teil 2')}</div>
+          <div class="horen-teil-header-text">
+            <h3 class="horen-teil-title">${t2Title}</h3>
+            <p class="horen-teil-desc">${t2Desc}</p>
+          </div>
+          <div class="horen-teil-header-actions">
+            ${isRev2
+              ? `<button type="button" class="btn btn-xs btn-outline" onclick="hideHorenTeilSolutions(2)">${hideBtnLabel}</button>`
+              : `<button type="button" class="btn btn-xs ${isComplete2 ? 'btn-primary' : 'btn-outline'}" onclick="revealHorenTeilSolutions(2)">${revealBtnLabel}</button>`
+            }
+          </div>
+        </div>
+
+        ${isRev2 ? renderHorenTeilScoreBannerHtml(2) : ''}
+
+        <div class="horen-context-card">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          <span><strong>${isAr ? 'الموقف والسياق:' : (questionsLang === 'fr' ? 'Situation :' : 'Situation:')}</strong> ${t2Sit}</span>
+        </div>
+
+        <div class="horen-questions-list">
+          ${q2.map(q => renderHorenQuestionCard(q)).join('')}
+        </div>
+
+        <div class="horen-teil-footer" id="horen-teil-footer-2">
+          ${isRev2
+            ? renderHorenTeilFooterActionsHtml(2)
+            : (isComplete2
+              ? renderHorenTeilCompletionBannerHtml(2)
+              : `<div class="horen-teil-progress-hint">${a2} ${isAr ? `من ${q2.length} مجاب عليها` : (questionsLang === 'fr' ? `sur ${q2.length} répondues` : `von ${q2.length} Aufgaben beantwortet`)}</div>`
+            )
+          }
+        </div>
+      </section>
+
+      <!-- Teil 3 -->
+      <section class="horen-teil-section" id="horen-teil-3">
+        <div class="horen-teil-header">
+          <div class="horen-teil-pill">${isAr ? 'الجزء 3' : (questionsLang === 'fr' ? 'Partie 3' : 'Teil 3')}</div>
+          <div class="horen-teil-header-text">
+            <h3 class="horen-teil-title">${t3Title}</h3>
+            <p class="horen-teil-desc">${t3Desc}</p>
+          </div>
+          <div class="horen-teil-header-actions">
+            ${isRev3
+              ? `<button type="button" class="btn btn-xs btn-outline" onclick="hideHorenTeilSolutions(3)">${hideBtnLabel}</button>`
+              : `<button type="button" class="btn btn-xs ${isComplete3 ? 'btn-primary' : 'btn-outline'}" onclick="revealHorenTeilSolutions(3)">${revealBtnLabel}</button>`
+            }
+          </div>
+        </div>
+
+        ${isRev3 ? renderHorenTeilScoreBannerHtml(3) : ''}
+
+        <div class="horen-context-card">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          <span><strong>${isAr ? 'الموقف والسياق:' : (questionsLang === 'fr' ? 'Situation :' : 'Situation:')}</strong> ${t3Sit}</span>
+        </div>
+
+        ${sec3.example ? `
+        <div class="example-box horen-example" style="margin-top:14px;">
+          <div class="example-badge">${exampleBadge} (${sec3.example.num})</div>
+          <div class="horen-ex-item">
+            <div class="horen-ex-q"><strong>${sec3.example.num}</strong> ${sec3.example.text}</div>
+            <div class="horen-ex-options">
+              <span class="ex-option-pill ${sec3.example.answer === 'richtig' ? 'selected' : ''}">${richtigLabel}${sec3.example.answer === 'richtig' ? ' ✓' : ''}</span>
+              <span class="ex-option-pill ${sec3.example.answer === 'falsch' ? 'selected' : ''}">${falschLabel}${sec3.example.answer === 'falsch' ? ' ✓' : ''}</span>
+            </div>
+          </div>
+        </div>
+        ` : ''}
+
+        <div class="horen-questions-list" style="${sec3.example ? 'margin-top:18px;' : ''}">
+          ${q3.map(q => renderHorenQuestionCard(q)).join('')}
+        </div>
+
+        <div class="horen-teil-footer" id="horen-teil-footer-3">
+          ${isRev3
+            ? renderHorenTeilFooterActionsHtml(3)
+            : (isComplete3
+              ? renderHorenTeilCompletionBannerHtml(3)
+              : `<div class="horen-teil-progress-hint">${a3} ${isAr ? `من ${q3.length} مجاب عليها` : (questionsLang === 'fr' ? `sur ${q3.length} répondues` : `von ${q3.length} Aufgaben beantwortet`)}</div>`
+            )
+          }
+        </div>
+      </section>
+
+      <!-- Teil 4 -->
+      <section class="horen-teil-section" id="horen-teil-4">
+        <div class="horen-teil-header">
+          <div class="horen-teil-pill">${isAr ? 'الجزء 4' : (questionsLang === 'fr' ? 'Partie 4' : 'Teil 4')}</div>
+          <div class="horen-teil-header-text">
+            <h3 class="horen-teil-title">${t4Title}</h3>
+            <p class="horen-teil-desc">${t4Desc}</p>
+          </div>
+          <div class="horen-teil-header-actions">
+            ${isRev4
+              ? `<button type="button" class="btn btn-xs btn-outline" onclick="hideHorenTeilSolutions(4)">${hideBtnLabel}</button>`
+              : `<button type="button" class="btn btn-xs ${isComplete4 ? 'btn-primary' : 'btn-outline'}" onclick="revealHorenTeilSolutions(4)">${revealBtnLabel}</button>`
+            }
+          </div>
+        </div>
+
+        ${isRev4 ? renderHorenTeilScoreBannerHtml(4) : ''}
+
+        <div class="horen-context-card">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="2"/><path d="M16.24 7.76a6 6 0 0 1 0 8.49m-8.48-.01a6 6 0 0 1 0-8.49m11.31-2.82a10 10 0 0 1 0 14.14m-14.14 0a10 10 0 0 1 0-14.14"/></svg>
+          <span><strong>${isAr ? 'برنامج إذاعي:' : (questionsLang === 'fr' ? 'Émission radiophonique :' : 'Radiosendung:')}</strong> ${t4Sit}</span>
+        </div>
+
+        <div class="horen-speakers-legend">
+          ${speakers.map(spk => `
+            <div class="speaker-legend-pill"><span class="speaker-code">${spk.code}</span> ${spk.name}</div>
+          `).join('')}
+        </div>
+
+        <div class="example-box horen-example" style="margin-top:14px;">
+          <div class="example-badge">${exampleBadge} (${ex0.num})</div>
+          <div class="horen-ex-item">
+            <div class="horen-ex-q"><strong>${ex0.num}</strong> ${ex0.text}</div>
+            <div class="horen-ex-options">
+              ${speakers.map((spk, i) => {
+                const isSelected = ex0.answerCode === spk.code || ex0.answer === i || ex0.answerSpeaker === spk.name;
+                return `
+                  <span class="ex-option-pill ${isSelected ? 'selected' : ''}">${spk.code}) ${spk.name}${isSelected ? ' ✓' : ''}</span>
+                `;
+              }).join('')}
+            </div>
+          </div>
+        </div>
+
+        <div class="horen-questions-list" style="margin-top:18px;">
+          ${q4.map(q => renderHorenQuestionCard(q)).join('')}
+        </div>
+
+        <div class="horen-teil-footer" id="horen-teil-footer-4">
+          ${isRev4
+            ? renderHorenTeilFooterActionsHtml(4)
+            : (isComplete4
+              ? renderHorenTeilCompletionBannerHtml(4)
+              : `<div class="horen-teil-progress-hint">${a4} ${isAr ? `من ${q4.length} مجاب عليها` : (questionsLang === 'fr' ? `sur ${q4.length} répondues` : `von ${q4.length} Aufgaben beantwortet`)}</div>`
+            )
+          }
+        </div>
+      </section>
+  `;
+}
+
+function renderHoren(t) {
+  const panel = document.getElementById('questionsPanel');
+  if (!panel) return;
+
+  const isAr = questionsLang === 'ar';
+  const trPart = getTrPart(currentTest.id, t.id, questionsLang);
+  const instructionsText = trPart?.instructions?.[questionsLang] || t.instructions;
+
+  if (isAr) {
+    panel.classList.add('lang-ar');
+    panel.setAttribute('dir', 'rtl');
+    panel.setAttribute('lang', 'ar');
+  } else {
+    panel.classList.remove('lang-ar');
+    panel.setAttribute('dir', 'ltr');
+    panel.setAttribute('lang', questionsLang);
+  }
+
+  const badgeText = isAr ? '🎧 قسم الاستماع · 40 دقيقة' : (questionsLang === 'fr' ? '🎧 MODULE COMPRÉHENSION ORALE · 40 MINUTES' : '🎧 MODUL HÖREN · 40 MINUTEN');
+  const mainTitleText = isAr ? 'شهادة جوته / ÖSD B1 — فهم المسموع' : (questionsLang === 'fr' ? 'Goethe / ÖSD Certificat B1 — Compréhension orale' : 'Goethe / ÖSD Zertifikat B1 — Hörverstehen');
+
+  // Check if audio deck is already mounted: preserve audio playback uninterrupted!
+  const existingSticky = panel.querySelector('.horen-sticky-header');
+  const existingContainer = panel.querySelector('.horen-teils-container');
+
+  if (existingSticky && existingContainer) {
+    const badgeEl = existingSticky.querySelector('.horen-badge');
+    if (badgeEl) badgeEl.textContent = badgeText;
+    const titleEl = existingSticky.querySelector('.horen-main-title');
+    if (titleEl) titleEl.textContent = mainTitleText;
+    const instrEl = existingSticky.querySelector('.horen-instructions');
+    if (instrEl) instrEl.textContent = instructionsText;
+    existingSticky.querySelectorAll('.lang-switch-group button').forEach(b => {
+      b.classList.toggle('active', b.dataset.lang === questionsLang);
+    });
+    existingContainer.innerHTML = buildHorenTeilsHtml(t);
+    return;
+  }
 
   let html = `
     <!-- Top Audio Player Card (Sticky / Top of Page) -->
@@ -2407,145 +2985,7 @@ function renderHoren(t) {
 
     <!-- All 4 Teile Below Audio in One Page -->
     <div class="horen-teils-container">
-      <!-- Teil 1 -->
-      <section class="horen-teil-section" id="horen-teil-1">
-        <div class="horen-teil-header">
-          <div class="horen-teil-pill">${isAr ? 'الجزء 1' : (questionsLang === 'fr' ? 'Partie 1' : 'Teil 1')}</div>
-          <div class="horen-teil-header-text">
-            <h3 class="horen-teil-title">${t1Title}</h3>
-            <p class="horen-teil-desc">${t1Desc}</p>
-          </div>
-        </div>
-
-        <!-- Teil 1 Example Box -->
-        ${sec1.hasExample === false ? '' : `
-        <div class="example-box horen-example">
-          <div class="example-badge">${exampleBadge} (${ex01.num} & ${ex02.num})</div>
-          <div class="horen-ex-item">
-            <div class="horen-ex-q"><strong>${ex01.num}</strong> ${ex01.text}</div>
-            <div class="horen-ex-options">
-              <span class="ex-option-pill ${ex01.answer === 'richtig' ? 'selected' : ''}">${richtigLabel}${ex01.answer === 'richtig' ? ' ✓' : ''}</span>
-              <span class="ex-option-pill ${ex01.answer === 'falsch' ? 'selected' : ''}">${falschLabel}${ex01.answer === 'falsch' ? ' ✓' : ''}</span>
-            </div>
-          </div>
-          <div class="horen-ex-item" style="margin-top:10px;">
-            <div class="horen-ex-q"><strong>${ex02.num}</strong> ${ex02.text}</div>
-            <div class="horen-ex-options">
-              ${(ex02.options || []).map((opt, i) => `
-                <span class="ex-option-pill ${ex02.answer === i ? 'selected' : ''}">${['a', 'b', 'c'][i]}) ${opt}${ex02.answer === i ? ' ✓' : ''}</span>
-              `).join('')}
-            </div>
-          </div>
-        </div>`}
-
-        <!-- Teil 1: 5 Texts -->
-        ${[1, 2, 3, 4, 5].map(textNum => {
-          const qsForText = t.questions.filter(q => q.teilPart === 1 && q.textNum === textNum);
-          const labelText = isAr ? `النص ${textNum}` : (questionsLang === 'fr' ? `Texte ${textNum}` : `Text ${textNum}`);
-          return `
-            <div class="horen-text-group">
-              <div class="horen-text-label">${labelText}</div>
-              <div class="horen-text-cards">
-                ${qsForText.map(q => renderHorenQuestionCard(q)).join('')}
-              </div>
-            </div>
-          `;
-        }).join('')}
-      </section>
-
-      <!-- Teil 2 -->
-      <section class="horen-teil-section" id="horen-teil-2">
-        <div class="horen-teil-header">
-          <div class="horen-teil-pill">${isAr ? 'الجزء 2' : (questionsLang === 'fr' ? 'Partie 2' : 'Teil 2')}</div>
-          <div class="horen-teil-header-text">
-            <h3 class="horen-teil-title">${t2Title}</h3>
-            <p class="horen-teil-desc">${t2Desc}</p>
-          </div>
-        </div>
-
-        <div class="horen-context-card">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-          <span><strong>${isAr ? 'الموقف والسياق:' : (questionsLang === 'fr' ? 'Situation :' : 'Situation:')}</strong> ${t2Sit}</span>
-        </div>
-
-        <div class="horen-questions-list">
-          ${t.questions.filter(q => q.teilPart === 2).map(q => renderHorenQuestionCard(q)).join('')}
-        </div>
-      </section>
-
-      <!-- Teil 3 -->
-      <section class="horen-teil-section" id="horen-teil-3">
-        <div class="horen-teil-header">
-          <div class="horen-teil-pill">${isAr ? 'الجزء 3' : (questionsLang === 'fr' ? 'Partie 3' : 'Teil 3')}</div>
-          <div class="horen-teil-header-text">
-            <h3 class="horen-teil-title">${t3Title}</h3>
-            <p class="horen-teil-desc">${t3Desc}</p>
-          </div>
-        </div>
-
-        <div class="horen-context-card">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
-          <span><strong>${isAr ? 'الموقف والسياق:' : (questionsLang === 'fr' ? 'Situation :' : 'Situation:')}</strong> ${t3Sit}</span>
-        </div>
-
-        ${sec3.example ? `
-        <div class="example-box horen-example" style="margin-top:14px;">
-          <div class="example-badge">${exampleBadge} (${sec3.example.num})</div>
-          <div class="horen-ex-item">
-            <div class="horen-ex-q"><strong>${sec3.example.num}</strong> ${sec3.example.text}</div>
-            <div class="horen-ex-options">
-              <span class="ex-option-pill ${sec3.example.answer === 'richtig' ? 'selected' : ''}">${richtigLabel}${sec3.example.answer === 'richtig' ? ' ✓' : ''}</span>
-              <span class="ex-option-pill ${sec3.example.answer === 'falsch' ? 'selected' : ''}">${falschLabel}${sec3.example.answer === 'falsch' ? ' ✓' : ''}</span>
-            </div>
-          </div>
-        </div>
-        ` : ''}
-
-        <div class="horen-questions-list" style="${sec3.example ? 'margin-top:18px;' : ''}">
-          ${t.questions.filter(q => q.teilPart === 3).map(q => renderHorenQuestionCard(q)).join('')}
-        </div>
-      </section>
-
-      <!-- Teil 4 -->
-      <section class="horen-teil-section" id="horen-teil-4">
-        <div class="horen-teil-header">
-          <div class="horen-teil-pill">${isAr ? 'الجزء 4' : (questionsLang === 'fr' ? 'Partie 4' : 'Teil 4')}</div>
-          <div class="horen-teil-header-text">
-            <h3 class="horen-teil-title">${t4Title}</h3>
-            <p class="horen-teil-desc">${t4Desc}</p>
-          </div>
-        </div>
-
-        <div class="horen-context-card">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="2"/><path d="M16.24 7.76a6 6 0 0 1 0 8.49m-8.48-.01a6 6 0 0 1 0-8.49m11.31-2.82a10 10 0 0 1 0 14.14m-14.14 0a10 10 0 0 1 0-14.14"/></svg>
-          <span><strong>${isAr ? 'برنامج إذاعي:' : (questionsLang === 'fr' ? 'Émission radiophonique :' : 'Radiosendung:')}</strong> ${t4Sit}</span>
-        </div>
-
-        <div class="horen-speakers-legend">
-          ${speakers.map(spk => `
-            <div class="speaker-legend-pill"><span class="speaker-code">${spk.code}</span> ${spk.name}</div>
-          `).join('')}
-        </div>
-
-        <div class="example-box horen-example" style="margin-top:14px;">
-          <div class="example-badge">${exampleBadge} (${ex0.num})</div>
-          <div class="horen-ex-item">
-            <div class="horen-ex-q"><strong>${ex0.num}</strong> ${ex0.text}</div>
-            <div class="horen-ex-options">
-              ${speakers.map((spk, i) => {
-                const isSelected = ex0.answerCode === spk.code || ex0.answer === i || ex0.answerSpeaker === spk.name;
-                return `
-                  <span class="ex-option-pill ${isSelected ? 'selected' : ''}">${spk.code}) ${spk.name}${isSelected ? ' ✓' : ''}</span>
-                `;
-              }).join('')}
-            </div>
-          </div>
-        </div>
-
-        <div class="horen-questions-list" style="margin-top:18px;">
-          ${t.questions.filter(q => q.teilPart === 4).map(q => renderHorenQuestionCard(q)).join('')}
-        </div>
-      </section>
+      ${buildHorenTeilsHtml(t)}
     </div>
   `;
 
@@ -4152,6 +4592,7 @@ function formatAnswerDisplay(q, val) {
   }
   return val;
 }
+window.formatAnswerDisplay = formatAnswerDisplay;
 
 function generateTextSummary(name, score, total, pct, pass, questions) {
   let lines = [

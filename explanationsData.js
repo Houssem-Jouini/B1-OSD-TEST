@@ -406,6 +406,398 @@ const explanationsData = {
         "fr": "L'option b est fausse (pas d'exception automatique pour petits chiens). L'option c invente une taxe inexistante."
       }
     }
+  ,
+    /* ---------------- MODELLSATZ 1: HÖREN (Aufgaben h1 - h30) ---------------- */
+    "h1": {
+          "quote": "Praxis Dr. Weber: Herr Dr. Weber ist heute leider erkrankt. Wir müssen Ihren morgigen Behandlungstermin leider verschieben.",
+          "whyCorrect": {
+                "de": "Richtig. Die Mitarbeiterin ruft an, um den Termin abzusagen und auf ein anderes Datum zu verlegen.",
+                "ar": "صحيح. تتصل موظفة العيادة لإلغاء الموعد وتأجيله إلى موعد آخر بسبب مرض الطبيب.",
+                "fr": "Vrai. L'assistante appelle pour annuler le rendez-vous de demain et le reporter car le médecin est malade."
+          },
+          "whyIncorrect": {
+                "de": "Falsch trifft nicht zu: Der Termin findet definitiv nicht wie geplant morgen statt, sondern wird verschoben.",
+                "ar": "الخيار 'خطأ' غير صحيح لأن الموعد لن يتم في وقته المحدد بل تم تأجيله صراحة.",
+                "fr": "L'affirmation n'est pas fausse car le rendez-vous est expressément reporté."
+          }
+    },
+    "h2": {
+          "quote": "Praxis Dr. Weber: Bitte rufen Sie uns so bald wie möglich zurück, damit wir einen neuen Termin vereinbaren können.",
+          "whyCorrect": {
+                "de": "Option c ist richtig. Frau Stein wird ausdrücklich gebeten, in der Praxis zurückzurufen.",
+                "ar": "الخيار (c) هو الصحيح. يُطلب من السيدة شتاين صراحة معاودة الاتصال بالعيادة لتحديد موعد جديد.",
+                "fr": "L'option c est correcte. Mme Stein est expressément priée de rappeler le cabinet pour convenir d'un nouveau rendez-vous."
+          },
+          "whyIncorrect": {
+                "de": "Option a und b sind falsch: Es geht im Anruf nicht um die Chipkarte oder eine Gebühr von zehn Euro, sondern um die telefonische Terminabsprache.",
+                "ar": "الخياران (a) و (b) غير صحيحين: لم تطلب الموظفة إحضار البطاقة الذكية أو دفع 10 يورو في هذا الاتصال.",
+                "fr": "Les options a et b sont incorrectes : l'appel ne concerne ni la carte d'assuré ni un paiement de dix euros."
+          }
+    },
+    "h3": {
+          "quote": "Herr Thomas: Guten Tag Frau Brahms, hier ist Thomas von der Personalabteilung. Ich habe Ihre Bewerbung vorliegen, aber es fehlen noch wichtige Unterlagen.",
+          "whyCorrect": {
+                "de": "Falsch. Herr Thomas ruft wegen Bewerbungsunterlagen an, nicht wegen Versicherungstarifen.",
+                "ar": "خطأ. يتصل السيد توماس بخصوص ملف طلب التوظيف واستكمال الوثائق الناقصة، وليس لإبلاغها بأسعار تأمين.",
+                "fr": "Faux. M. Thomas appelle au sujet de son dossier de candidature, pas pour des tarifs d'assurance."
+          },
+          "whyIncorrect": {
+                "de": "Richtig ist falsch: Der Anrufer arbeitet in der Personalabteilung und spricht über eine Bewerbung.",
+                "ar": "اختيار 'صحيح' غير دقيق لأن المتصل من قسم الموارد البشرية ويتناول موضوع التوظيف.",
+                "fr": "Choisir 'Vrai' est faux car l'appel émane des ressources humaines pour un recrutement."
+          }
+    },
+    "h4": {
+          "quote": "Herr Thomas: Bitte senden Sie uns Ihre Ausbildungs- und Arbeitszeugnisse noch bis Ende der Woche zu.",
+          "whyCorrect": {
+                "de": "Option b ist richtig. Herr Thomas benötigt die Zeugnisse von Frau Brahms für ihre Bewerbungsunterlagen.",
+                "ar": "الخيار (b) هو الصحيح. يحتاج السيد توماس إلى شهادات التدريب والخبرة المهنية للسيدة برامس قبل نهاية الأسبوع.",
+                "fr": "L'option b est correcte. M. Thomas a besoin des certificats de travail et diplômes de Mme Brahms d'ici la fin de semaine."
+          },
+          "whyIncorrect": {
+                "de": "Option a ist falsch (kein Vertragsabschluss erwähnt) und c ist falsch (sie soll die Unterlagen senden, er ruft nicht nochmals an).",
+                "ar": "الخيار (a) خاطئ (لم يُعرض عقد جديد)، والخيار (c) خاطئ (طلب منها إرسال الوثائق ولم يقل إنه سيعاود الاتصال).",
+                "fr": "L'option a est fausse (aucun contrat n'est proposé) et c est erronée (il attend ses documents, sans prévoir de rappeler)."
+          }
+    },
+    "h5": {
+          "quote": "Radiodurchsage: Wir unterbrechen das Programm für eine wichtige Verkehrsmeldung für den Großraum München und die A8.",
+          "whyCorrect": {
+                "de": "Falsch. Die Durchsage bringt Verkehrsmeldungen und Stauberichte, keine Veranstaltungstipps.",
+                "ar": "خطأ. الإعلان الإذاعي يقدم نشرة مرورية عاجلة عن حالة الطرق والازدحام، وليس نصائح لحضور فعاليات.",
+                "fr": "Faux. Le message diffuse des informations routières d'urgence et non des conseils d'événements culturels."
+          },
+          "whyIncorrect": {
+                "de": "Richtig ist nicht zutreffend, da es sich um eine Verkehrswarnung für Autofahrer handelt.",
+                "ar": "اختيار 'صحيح' غير وارد فالإعلان موجه للمرور على الطرق السريعة.",
+                "fr": "Choisir 'Vrai' est incorrect car l'alerte concerne la circulation autoroutière."
+          }
+    },
+    "h6": {
+          "quote": "Radiodurchsage: Auf der A8 Salzburg Richtung München gibt es 5 km Stau nach einem Zusammenstoß zweier Fahrzeuge.",
+          "whyCorrect": {
+                "de": "Option c ist richtig. Ein Unfall (Zusammenstoß zweier Fahrzeuge) ist die Ursache für den Stau.",
+                "ar": "الخيار (c) هو الصحيح. وقع الازدحام على الطريق السريع بسبب حادث اصطدام بين مركبتين.",
+                "fr": "L'option c est correcte. Un accident (collision de deux véhicules) provoque 5 km de bouchon."
+          },
+          "whyIncorrect": {
+                "de": "Option a (Baustelle) und b (Berufsverkehr) sind falsch: Die Radiostimme nennt explizit den Unfall als Staugrund.",
+                "ar": "الخياران (a) و (b) خاطئان: ذكر المذيع صراحة أن سبب التوقف هو اصطدام سيارتين وليس أعمال صيانة أو ساعة ذروة.",
+                "fr": "Les options a et b sont inexactes : la radio mentionne explicitement la collision automobile comme cause."
+          }
+    },
+    "h7": {
+          "quote": "Bahnhofsdurchsage: Achtung an Gleis 4: Wichtige Information für Fahrgäste des InterCity nach Genf.",
+          "whyCorrect": {
+                "de": "Falsch. Die Durchsage richtet sich an alle Reisenden am Bahnsteig, nicht an eine bestimmte Reisegruppe.",
+                "ar": "خطأ. الإعلان في محطة القطار موجه لعموم المسافرين على الرصيف رقم 4 وليس لمجموعة سياحية خاصة.",
+                "fr": "Faux. L'annonce en gare s'adresse à l'ensemble des passagers du quai 4 et non à un groupe organisé."
+          },
+          "whyIncorrect": {
+                "de": "Richtig ist falsch, da eine allgemeine Lautsprecherdurchsage für Passagiere des InterCity gesendet wird.",
+                "ar": "اختيار 'صحيح' غير دقيق لأن النداء عام عبر مكبرات الصوت للمسافرين المتجهين إلى جنيف.",
+                "fr": "Choisir 'Vrai' ne correspond pas : il s'agit d'une annonce ferroviaire publique."
+          }
+    },
+    "h8": {
+          "quote": "Bahnhofsdurchsage: Der InterCity nach Genf, planmäßige Abfahrt 14:15 Uhr, fällt heute wegen einer technischen Störung aus.",
+          "whyCorrect": {
+                "de": "Option b ist richtig. Der Zug nach Genf fällt aus.",
+                "ar": "الخيار (b) هو الصحيح. أعلن المتحدث إلغاء رحلة القطار المتجه إلى جنيف بسبب عطل تقني.",
+                "fr": "L'option b est correcte. Le train InterCity à destination de Genève est supprimé pour problème technique."
+          },
+          "whyIncorrect": {
+                "de": "Option a (Bern) und c (Lausanne) sind falsch: Ausdrücklich wird der Zug nach Genf als ausfallend gemeldet.",
+                "ar": "الخياران (a) و (c) غير صحيحين: الإلغاء المعلن يتعلق تحديداً بقطار جنيف.",
+                "fr": "Les options a et c sont fausses : seule la liaison vers Genève est expressément annulée."
+          }
+    },
+    "h9": {
+          "quote": "Wetterbericht: Im Osten bleibt es den ganzen Tag über stark bewölkt mit kräftigen Schauern und örtlichen Unwettern.",
+          "whyCorrect": {
+                "de": "Falsch. Das Wetter im Osten bessert sich keineswegs, sondern bleibt regnerisch und stürmisch.",
+                "ar": "خطأ. لن يتحسن الطقس في شرق ألمانيا، بل سيبقى غائماً بشدة وممطراً ومصحوباً بعواصف محلية.",
+                "fr": "Faux. La météo dans l'Est ne s'améliore pas, restant très nuageuse et orageuse toute la journée."
+          },
+          "whyIncorrect": {
+                "de": "Richtig ist nicht zutreffend, da der Wetterbericht anhaltende Unwetter und Schauer im Osten voraussagt.",
+                "ar": "اختيار 'صحيح' غير وارد، فالنشرة الجوية تؤكد استمرار الأمطار والعواصف في الشرق.",
+                "fr": "Choisir 'Vrai' est faux car la prévision annonce des intempéries persistantes dans l'Est."
+          }
+    },
+    "h10": {
+          "quote": "Wetterbericht: Besonders entlang der Elbe muss am Nachmittag mit heftigen Gewittern gerechnet werden.",
+          "whyCorrect": {
+                "de": "Option a ist richtig. An der Elbe werden Gewitter vorhergesagt.",
+                "ar": "الخيار (a) هو الصحيح. تشير التوقعات الجوية إلى احتمال هبوب عواصف رعدية شديدة على طول نهر إلبه.",
+                "fr": "L'option a est correcte. Des orages violents sont prévus dans l'après-midi le long de l'Elbe."
+          },
+          "whyIncorrect": {
+                "de": "Option b und c sind falsch: Von Temperaturen unter 10 Grad oder Dauerregen im Westen ist nicht die Rede.",
+                "ar": "الخياران (b) و (c) غير صحيحين: لم تذكر النشرة درجات حرارة أقل من 10 أو أمطاراً غزيرة غرباً.",
+                "fr": "Les options b et c sont inexactes : le bulletin ne prévoit ni températures sous 10° ni déluge à l'Ouest."
+          }
+    },
+    "h11": {
+          "quote": "Museumsführer: Herzlich willkommen im Münchner Stadtmuseum! Wie Sie sehen, ist es heute erfreulich ruhig und fast leer in den Sälen.",
+          "whyCorrect": {
+                "de": "Option c ist richtig. Es sind sehr wenige Besucher da, das Museum ist ziemlich leer.",
+                "ar": "الخيار (c) هو الصحيح. يوضح المرشد أن القاعات هادئة وشبه فارغة من الزوار اليوم.",
+                "fr": "L'option c est correcte. Les salles sont agréablement calmes et presque vides de visiteurs aujourd'hui."
+          },
+          "whyIncorrect": {
+                "de": "Option a (sehr voll) und b (teilweise geschlossen) widersprechen den Worten des Führers („erfreulich ruhig und fast leer“).",
+                "ar": "الخياران (a) و (b) خاطئان: المتحف ليس مزدحماً وليس مغلقاً جزئياً بل هادئ وخالٍ تقريباً.",
+                "fr": "Les options a et b sont contredites par le guide qui se félicite du calme et du peu d'affluence."
+          }
+    },
+    "h12": {
+          "quote": "Museumsführer: In unserer heutigen Führung konzentrieren wir uns auf die große Hauptausstellung zur Münchner Stadtgeschichte.",
+          "whyCorrect": {
+                "de": "Option b ist richtig. Die Gruppe besichtigt gemeinsam die Hauptausstellung.",
+                "ar": "الخيار (b) هو الصحيح. يركز المرشد في جولته اليوم على المعرض الرئيسي لتاريخ مدينة ميونخ.",
+                "fr": "L'option b est correcte. La visite guidée se concentre exclusivement sur l'exposition principale."
+          },
+          "whyIncorrect": {
+                "de": "Option a (alle Ausstellungen) und c (Sonderausstellungen) sind falsch: Es geht gezielt um die Hauptausstellung.",
+                "ar": "الخياران (a) و (c) غير صحيحين: لن تشمل الجولة كافة المعارض أو المعارض المؤقتة الخاصة.",
+                "fr": "Les options a et c sont erronées : le guide précise ne pas visiter toutes les galeries ni les temporaires."
+          }
+    },
+    "h13": {
+          "quote": "Museumsführer: Wir treffen uns nach dem Rundgang um Punkt 15:00 Uhr wieder vorne am Haupteingang.",
+          "whyCorrect": {
+                "de": "Option a ist richtig. Der Treffpunkt am Nachmittag ist am Eingang.",
+                "ar": "الخيار (a) هو الصحيح. حدد المرشد نقطة التجمع بعد انتهاء الجولة عند المدخل الرئيسي للمتحف.",
+                "fr": "L'option a est correcte. Le point de rassemblement de 15h00 est fixé devant l'entrée principale."
+          },
+          "whyIncorrect": {
+                "de": "Option b (Garderobe) und c (Café) sind falsch: Treffpunkt ist ausdrücklich der Haupteingang.",
+                "ar": "الخياران (b) و (c) خاطئان: نقطة الالتقاء ليست خزانة الملابس ولا المقهى بل المدخل الرئيسي.",
+                "fr": "Les options b et c sont fausses : le lieu de rendez-vous n'est ni le vestiaire ni la cafétéria."
+          }
+    },
+    "h14": {
+          "quote": "Museumsführer: Die Ausstellung dokumentiert die Entwicklung Münchens vom Mittelalter bis ins 20. Jahrhundert.",
+          "whyCorrect": {
+                "de": "Option c ist richtig. Das Thema der Ausstellung ist die Geschichte Münchens.",
+                "ar": "الخيار (c) هو الصحيح. يوثق المعرض تاريخ وتطور مدينة ميونخ عبر العصور.",
+                "fr": "L'option c est correcte. L'exposition retrace l'histoire et l'évolution de la ville de Munich."
+          },
+          "whyIncorrect": {
+                "de": "Option a (Oktoberfest) und b (bayerische Küche) sind nur eventuelle Randthemen, nicht der Hauptgegenstand.",
+                "ar": "الخياران (a) و (b) ليسا الموضوع الرئيسي للمعرض، فالموضوع الشامل هو تاريخ المدينة.",
+                "fr": "Les options a et b ne sont pas l'objet central de la présentation muséale historique."
+          }
+    },
+    "h15": {
+          "quote": "Museumsführer: Wenn Sie danach noch Zeit haben, setzen Sie sich bei dem sonnigen Wetter am besten in einen der schönen Biergärten in der Nähe.",
+          "whyCorrect": {
+                "de": "Option c ist richtig. Er empfiehlt den Teilnehmern den Besuch eines Biergartens.",
+                "ar": "الخيار (c) هو الصحيح. ينصح المرشد الزوار بالاستمتاع بالطقس المشمس في إحدى حدائق المشروبات في الهواء الطلق (Biergarten).",
+                "fr": "L'option c est correcte. Le guide suggère de profiter du beau temps dans un Biergarten voisin."
+          },
+          "whyIncorrect": {
+                "de": "Option a (Restaurant) und b (Café) sind falsch: Der Museumsführer hebt ausdrücklich den Biergarten hervor.",
+                "ar": "الخياران (a) و (b) خاطئان: أوصى المرشد صراحة بزيارة حديقة مفتوحة (Biergarten) وليس مطعماً مغلقاً أو مقهى.",
+                "fr": "Les options a et b sont inexactes : la recommandation porte spécifiquement sur les Biergärten."
+          }
+    },
+    "h16": {
+          "quote": "Gespräch: Wir waren am Samstag auf Annas großem Geburtstagsfest eingeladen. Sie ist ja 40 geworden!",
+          "whyCorrect": {
+                "de": "Falsch. Anna selbst hatte Geburtstag, nicht ihr Mann.",
+                "ar": "خطأ. كانت الحفلة احتفالاً بعيد ميلاد آنا نفسها (بلوغها الأربعين) وليس زوجها.",
+                "fr": "Faux. La fête célébrait les 40 ans d'Anna elle-même, et non l'anniversaire de son mari."
+          },
+          "whyIncorrect": {
+                "de": "Richtig ist falsch, da der Anlass eindeutig der 40. Geburtstag von Anna war.",
+                "ar": "اختيار 'صحيح' غير دقيق لأن المناسبة كانت عيد ميلاد آنا تحديداً.",
+                "fr": "Choisir 'Vrai' est erroné car c'est Anna qui fêtait son anniversaire."
+          }
+    },
+    "h17": {
+          "quote": "Nadia: Das Haus von Anna und ihrem Mann ist einfach ein Traum! Riesig, modern und ein wunderschöner Garten direkt am Wald.",
+          "whyCorrect": {
+                "de": "Richtig. Nadia schwärmt begeistert von dem Haus und dem Garten der Gastgeber.",
+                "ar": "صحيح. تعبر ناديا عن إعجابها الشديد بمنزل المضيفين وتصفه بأنه رائع وواسع وحديقته جميلة.",
+                "fr": "Vrai. Nadia est émerveillée et très enthousiaste en décrivant la maison et le jardin."
+          },
+          "whyIncorrect": {
+                "de": "Falsch ist nicht zutreffend: Nadia benutzt Ausdrücke wie „einfach ein Traum“ und „wunderschön“.",
+                "ar": "اختيار 'خطأ' غير صحيح لأن ناديا تمدح البيت بعبارات الإعجاب والانبهار.",
+                "fr": "Choisir 'Faux' est contredit par les éloges très nets de Nadia envers la maison."
+          }
+    },
+    "h18": {
+          "quote": "Gespräch: Nadia gibt Musikunterricht und bereitet Schüler auf Konzerte vor.",
+          "whyCorrect": {
+                "de": "Falsch. Nadia arbeitet nicht beim Fernsehen, sondern als Musikerin/Musiklehrerin.",
+                "ar": "خطأ. ناديا لا تعمل في التلفزيون، بل تعمل في تدريس الموسيقى وتدريب الطلاب على العزف.",
+                "fr": "Faux. Nadia ne travaille pas à la télévision mais enseigne la musique à des élèves."
+          },
+          "whyIncorrect": {
+                "de": "Richtig ist falsch, da ihr Beruf im Musikbereich und Unterricht liegt.",
+                "ar": "اختيار 'صحيح' غير مطابق للواقع المذكور في الحوار بأنها مدرسة موسيقى وعازفة.",
+                "fr": "Choisir 'Vrai' ne correspond pas à sa profession de professeur de musique."
+          }
+    },
+    "h19": {
+          "quote": "Nadia: Das Buffet war wirklich absolute Spitzenklasse – fantastische Antipasti, Salate und herrliche Desserts.",
+          "whyCorrect": {
+                "de": "Richtig. Nadia lobt das Essen ausdrücklich als hervorragend.",
+                "ar": "صحيح. تمتدح ناديا بوفيه الطعام وتصفه بأنه كان ممتازاً وعلى أعلى مستوى.",
+                "fr": "Vrai. Nadia qualifie le buffet de gastronomie de premier ordre et le trouve délicieux."
+          },
+          "whyIncorrect": {
+                "de": "Falsch ist unpassend: Sie bezeichnet das Essen wörtlich als „absolute Spitzenklasse“.",
+                "ar": "اختيار 'خطأ' غير سليم لأنها وصفت الأطعمة بعبارة 'قمة في الروعة والإتقان'.",
+                "fr": "Choisir 'Faux' est faux : elle qualifie explicitement le buffet d'excellence."
+          }
+    },
+    "h20": {
+          "quote": "Nadia: Es war zwar ein Gitarrist da, aber wir haben nicht zusammen gespielt. Ich habe später ganz alleine am Flügel gespielt.",
+          "whyCorrect": {
+                "de": "Falsch. Sie hat nicht zusammen mit dem Musiker musiziert, sondern solo.",
+                "ar": "خطأ. لم تعزف ناديا مع عازف الجيتار، بل عزفت منفردة على البيانو لاحقاً.",
+                "fr": "Faux. Elle n'a pas joué en duo avec le guitariste mais seule au piano à queue."
+          },
+          "whyIncorrect": {
+                "de": "Richtig trifft nicht zu, weil sie klar betont: „wir haben nicht zusammen gespielt“.",
+                "ar": "اختيار 'صحيح' غير صحيح لأنها صرحت بوضوح: 'لم نعزف معاً إطلاقاً'.",
+                "fr": "Choisir 'Vrai' est contredit par sa phrase explicite « nous n'avons pas joué ensemble »."
+          }
+    },
+    "h21": {
+          "quote": "Nadia: Ich habe klassische Stücke von Chopin und Brahms gespielt. Jazz kann ich ja gar nicht richtig.",
+          "whyCorrect": {
+                "de": "Falsch. Nadia hat keinen Jazz gespielt, sondern ausschließlich klassische Werke.",
+                "ar": "خطأ. لم تعزف ناديا موسيقى الجاز، بل عزفت مقطوعات كلاسيكية لشوبان وبرامز.",
+                "fr": "Faux. Nadia n'a pas joué de jazz, mais uniquement des pièces classiques."
+          },
+          "whyIncorrect": {
+                "de": "Richtig ist falsch: Sie sagt ausdrücklich, dass sie gar keinen Jazz spielen kann.",
+                "ar": "اختيار 'صحيح' خاطئ لأنها ذكرت صراحة أنها لا تجيد عزف موسيقى الجاز أصلاً.",
+                "fr": "Choisir 'Vrai' est faux puisqu'elle affirme ne pas maîtriser le jazz."
+          }
+    },
+    "h22": {
+          "quote": "Nadia: Wir haben noch bis um halb zwei zusammengesessen und getanzt. Ich war erst gegen zwei Uhr nachts im Bett.",
+          "whyCorrect": {
+                "de": "Richtig. Das Fest dauerte bis tief in die Nacht nach Mitternacht.",
+                "ar": "صحيح. استمرت الحفلة حتى الساعة الواحدة والنصف صباحاً وتجاوزت منتصف الليل.",
+                "fr": "Vrai. La fête s'est poursuivie tard dans la nuit, bien après minuit."
+          },
+          "whyIncorrect": {
+                "de": "Falsch ist nicht zutreffend: Sie saßen bis 1:30 Uhr zusammen und sie ging erst um 2:00 Uhr schlafen.",
+                "ar": "اختيار 'خطأ' غير صحيح لأنهم استمروا في الرقص والحديث حتى الواحدة والنصف ليلاً.",
+                "fr": "Choisir 'Faux' est inexact : les invités sont restés jusqu'à 1h30 du matin."
+          }
+    },
+    "h23": {
+          "quote": "Dana Schneider: Kleine Kinder spielen unter drei Jahren meistens nebeneinander, nicht miteinander. Richtiges soziales Verhalten mit Gleichaltrigen lernen sie erst ab drei oder vier Jahren.",
+          "whyCorrect": {
+                "de": "Option b (Dana Schneider) ist richtig. Sie vertritt die Auffassung, dass soziales Verhalten erst ab einem bestimmten Alter erlernt wird.",
+                "ar": "الخيار (b) (دانا شنايدر) صحيح. ترى أن السلوك الاجتماعي التفاعلي لا يبدأ إلا بعد سن الثالثة أو الرابعة.",
+                "fr": "L'option b (Dana Schneider) est correcte. Elle affirme que la socialisation ne s'apprend qu'à partir d'un certain âge."
+          },
+          "whyIncorrect": {
+                "de": "Option a (Moderator) und c (Florian Bader) haben diesen entwicklungspsychologischen Standpunkt nicht vertreten.",
+                "ar": "الخياران (a) و (c) خاطئان: دانا شنايدر هي المتحدثة التي طرحت هذه النقطة النفسية للأطفال.",
+                "fr": "Les options a et c ne sont pas les auteurs de cette analyse développementale."
+          }
+    },
+    "h24": {
+          "quote": "Florian Bader: In der heutigen Arbeitswelt ist Kontinuität entscheidend. Wer jahrelang aus dem Job aussteigt, verliert den Anschluss und gefährdet seine Karriere.",
+          "whyCorrect": {
+                "de": "Option c (Florian Bader) ist richtig. Er betont, wie wichtig ununterbrochene Erwerbstätigkeit für den beruflichen Erfolg ist.",
+                "ar": "الخيار (c) (فلوريان بادر) صحيح. يؤكد أن الاستمرار في العمل دون انقطاع شرط حاسم للنجاح المهني والترقي.",
+                "fr": "L'option c (Florian Bader) est correcte. Il souligne l'importance d'une activité professionnelle ininterrompue."
+          },
+          "whyIncorrect": {
+                "de": "Option a und b sind falsch: Florian Bader argumentiert aus der Perspektive beruflicher Kontinuität.",
+                "ar": "الخياران (a) و (b) خاطئان: فلوريان بادر هو من شدد على ضرورة عدم الانقطاع عن العمل.",
+                "fr": "Les options a et b sont erronées : cet argument de carrière émane de Florian Bader."
+          }
+    },
+    "h25": {
+          "quote": "Florian Bader: Mit guten Betreuungsangeboten kann man Familie und Beruf wunderbar unter einen Hut bringen. Man muss sich heute nicht mehr zwischen Kindern und Arbeit entscheiden.",
+          "whyCorrect": {
+                "de": "Option c (Florian Bader) ist richtig. Er ist überzeugt, dass Kinder und Beruf problemlos vereinbar sind.",
+                "ar": "الخيار (c) (فلوريان بادر) صحيح. يرى إمكانية التوفيق والجمع بين العمل وتربية الأطفال بفضل الحضانات.",
+                "fr": "L'option c (Florian Bader) est correcte. Il est convaincu de la compatibilité entre vie professionnelle et enfants."
+          },
+          "whyIncorrect": {
+                "de": "Option a und b vertreten nicht diese optimistische Haltung zur Vereinbarkeit von Familie und Beruf.",
+                "ar": "الخياران (a) و (b) لم يطرحا هذا الموقف الإيجابي بشأن سهولة التوفيق بين الوظيفة والأسرة.",
+                "fr": "Les options a et b ne défendent pas cette thèse d'harmonie travail-famille."
+          }
+    },
+    "h26": {
+          "quote": "Moderator: Aber lernen Kinder in der Krippe durch die pädagogische Betreuung nicht ganz andere Fähigkeiten, als Eltern zu Hause vermitteln können?",
+          "whyCorrect": {
+                "de": "Option a (Moderator) ist richtig. Er bringt den Aspekt ein, dass in der Krippe andere Inhalte als zu Hause geboten werden.",
+                "ar": "الخيار (a) (منسق الحوار) صحيح. يطرح السؤال حول ما إذا كان الأطفال يكتسبون في دار الحضانة مهارات مغايرة لما يتعلمونه في المنزل.",
+                "fr": "L'option a (Le modérateur) est correcte. Il soulève l'idée que la crèche apporte des apprentissages différents du foyer."
+          },
+          "whyIncorrect": {
+                "de": "Option b und c antworten auf diese vom Moderator gestellte Leitfrage.",
+                "ar": "الخياران (b) و (c) كانا المستمعين والمجيبين على هذا التساؤل المطروح من قبل المذيع.",
+                "fr": "Les options b et c réagissent à cette interrogation soulevée par le présentateur."
+          }
+    },
+    "h27": {
+          "quote": "Dana Schneider: Die Realität sieht doch so aus, dass oft eine Erzieherin mit zehn oder zwölf Kleinkindern überfordert ist und keine individuelle Zuwendung geben kann.",
+          "whyCorrect": {
+                "de": "Option b (Dana Schneider) ist richtig. Sie kritisiert das Betreuungsverhältnis mit zu vielen Kindern pro Erzieherin.",
+                "ar": "الخيار (b) (دانا شنايدر) صحيح. تنتقد كثرة عدد الأطفال الموكلين إلى مربية واحدة في دور الحضانة.",
+                "fr": "L'option b (Dana Schneider) est correcte. Elle dénonce le nombre excessif d'enfants confiés à une seule éducatrice."
+          },
+          "whyIncorrect": {
+                "de": "Option a und c haben diese Kritik an der Überlastung der Erzieherinnen nicht geäußert.",
+                "ar": "الخياران (a) و (c) لم يوجها هذا النقد الحاد لمشكلة قلة المربيات مقارنة بعدد الأطفال.",
+                "fr": "Les options a et c ne partagent pas ce reproche spécifique de surcharge en crèche."
+          }
+    },
+    "h28": {
+          "quote": "Florian Bader: Kinder müssen von klein auf lernen, sich auch mal selbst zu beschäftigen und eigenständig mit Spielsachen umzugehen.",
+          "whyCorrect": {
+                "de": "Option c (Florian Bader) ist richtig. Er plädiert dafür, dass Kinder Eigenständigkeit lernen und sich alleine beschäftigen können.",
+                "ar": "الخيار (c) (فلوريان بادر) صحيح. يشدد على ضرورة أن يتعلم الطفل منذ نعومة أظفاره الاعتماد على نفسه واللعب بمفرده.",
+                "fr": "L'option c (Florian Bader) est correcte. Il soutient que les enfants doivent apprendre à s'occuper seuls."
+          },
+          "whyIncorrect": {
+                "de": "Option a und b haben diese Erziehungsansicht im Gespräch nicht vertreten.",
+                "ar": "الخياران (a) و (b) لم يطالبا بتعويد الأطفال على اللعب المنفرد.",
+                "fr": "Les options a et b ne préconisent pas cette approche d'autonomie ludique précoce."
+          }
+    },
+    "h29": {
+          "quote": "Florian Bader: Leider fehlt es vielen Kommunen an Geld für moderne, gut ausgestattete Einrichtungen und ausreichend Personal.",
+          "whyCorrect": {
+                "de": "Option c (Florian Bader) ist richtig. Er weist auf den Geldmangel und die finanzielle Notlage vieler Kitas hin.",
+                "ar": "الخيار (c) (فلوريان بادر) صحيح. يشير إلى نقص الموارد المالية لدى البلديات لتمويل الحضانات وتوفير الكوادر.",
+                "fr": "L'option c (Florian Bader) est correcte. Il pointe le manque de budget des municipalités pour équiper les crèches."
+          },
+          "whyIncorrect": {
+                "de": "Option a und b thematisieren nicht den finanziellen Mangel der Kommunen.",
+                "ar": "الخياران (a) و (b) لم يتطرقا إلى ضعف الميزانيات ونقص التمويل المالي للبلديات.",
+                "fr": "Les options a et b n'abordent pas le déficit budgétaire des structures publiques."
+          }
+    },
+    "h30": {
+          "quote": "Dana Schneider: Krippenplätze müssen für alle bezahlbar sein, damit nicht nur Wohlhabende Kinder bekommen können.",
+          "whyCorrect": {
+                "de": "Option b (Dana Schneider) ist richtig. Sie fordert finanzielle Unterstützung, damit auch einkommensschwache Familien Kinder haben können.",
+                "ar": "الخيار (b) (دانا شنايدر) صحيح. تطالب بأن تكون رسوم الحضانات في متناول الجميع ليتسنى لمحدودي الدخل إنجاب أطفال.",
+                "fr": "L'option b (Dana Schneider) est correcte. Elle exige que les crèches soient abordables pour permettre aux familles modestes d'avoir des enfants."
+          },
+          "whyIncorrect": {
+                "de": "Option a und c haben diese sozialpolitische Forderung nicht formuliert.",
+                "ar": "الخياران (a) و (c) لم يطرحا هذا المطلب الاجتماعي بخصوص العدالة المالية وتكاليف الرعاية.",
+                "fr": "Les options a et c n'ont pas formulé cette revendication de tarification sociale."
+          }
+    },
   },
   "modellsatz-2": {
     "1": {

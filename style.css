@@ -3470,6 +3470,128 @@
   border: 1px solid var(--danger);
 }
 
+/* Evaluated Hören Buttons */
+.tf-btn.is-selected-correct,
+.option-pill.is-selected-correct,
+.speaker-btn.is-selected-correct {
+  background: var(--success-light) !important;
+  border-color: var(--success) !important;
+  color: var(--success-text) !important;
+  box-shadow: 0 0 0 1px var(--success) !important;
+}
+
+.tf-btn.is-selected-correct .radio-dot {
+  background: var(--success) !important;
+  border-color: var(--success) !important;
+}
+
+.option-pill.is-selected-correct .option-letter,
+.speaker-btn.is-selected-correct .speaker-code-badge {
+  background: var(--success) !important;
+  color: #fff !important;
+  border-color: var(--success) !important;
+}
+
+.tf-btn.is-selected-wrong,
+.option-pill.is-selected-wrong,
+.speaker-btn.is-selected-wrong {
+  background: var(--danger-light) !important;
+  border-color: var(--danger) !important;
+  color: var(--danger-text) !important;
+  box-shadow: 0 0 0 1px var(--danger) !important;
+}
+
+.tf-btn.is-selected-wrong .radio-dot {
+  background: var(--danger) !important;
+  border-color: var(--danger) !important;
+}
+
+.option-pill.is-selected-wrong .option-letter,
+.speaker-btn.is-selected-wrong .speaker-code-badge {
+  background: var(--danger) !important;
+  color: #fff !important;
+  border-color: var(--danger) !important;
+}
+
+.tf-btn.is-target-correct,
+.option-pill.is-target-correct,
+.speaker-btn.is-target-correct {
+  background: rgba(34, 197, 94, 0.12) !important;
+  border: 2px solid var(--success) !important;
+  color: var(--text-main) !important;
+  font-weight: 700 !important;
+}
+
+.tf-btn.is-target-correct .radio-dot {
+  border-color: var(--success) !important;
+  background: var(--success) !important;
+}
+
+.option-pill.is-target-correct .option-letter,
+.speaker-btn.is-target-correct .speaker-code-badge {
+  background: var(--success) !important;
+  color: #fff !important;
+  border-color: var(--success) !important;
+}
+
+.horen-q-card.evaluated-correct button:disabled,
+.horen-q-card.evaluated-wrong button:disabled {
+  cursor: default !important;
+}
+
+.horen-teil-header-actions {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+[dir="rtl"] .horen-teil-header-actions, .lang-ar .horen-teil-header-actions {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.horen-teil-footer {
+  margin-top: 20px;
+  margin-bottom: 24px;
+}
+
+.horen-teil-footer-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 14px 18px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  animation: teilRevealSlideUp 0.3s ease;
+}
+
+.horen-teil-progress-hint {
+  text-align: center;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-muted);
+  padding: 8px 12px;
+  background: var(--bg-card-subtle);
+  border: 1px dashed var(--border);
+  border-radius: var(--radius-md);
+  margin-top: 14px;
+}
+
+.horen-score-banner {
+  margin-top: 14px;
+  margin-bottom: 18px;
+}
+
+.horen-completion-banner {
+  margin-top: 16px;
+  margin-bottom: 20px;
+}
+
 /* 4. Didactic Explanation Box */
 .question-explanation-box {
   margin-top: 14px;
