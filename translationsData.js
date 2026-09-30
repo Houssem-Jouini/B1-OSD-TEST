@@ -883,6 +883,294 @@ const translationsData = {
       }
     }
   },
+  "modellsatz-2": {
+    "6": {
+      "title": {
+        "ar": "🎧 قسم الاستماع (Hören)",
+        "fr": "🎧 Compréhension de l'oral (Hören)"
+      },
+      "instructions": {
+        "ar": "يتكون قسم الاستماع من أربعة أجزاء. ستستمع إلى عدة نصوص وتجيب على المهام المتعلقة بها. لكل مهمة إجابة صحيحة واحدة فقط.",
+        "fr": "Le module Hören se compose de quatre parties. Vous allez écouter plusieurs enregistrements et répondre aux questions. Pour chaque tâche, il n'y a qu'une seule réponse correcte."
+      },
+      "teile": {
+        "1": {
+          "title": {
+            "ar": "خمسة نصوص قصيرة · المهام من 1 إلى 10",
+            "fr": "Cinq courts enregistrements · Tâches 1 à 10"
+          },
+          "desc": {
+            "ar": "ستستمع الآن إلى خمسة نصوص قصيرة. ستستمع إلى كل نص مرتين. لكل نص مهمتان. اختر الحل الصحيح لكل مهمة.",
+            "fr": "Vous allez entendre cinq courts textes. Vous écouterez chaque texte deux fois. Pour chaque texte, résolvez deux tâches. Choisissez la bonne solution pour chaque tâche."
+          }
+        },
+        "2": {
+          "title": {
+            "ar": "جولة إرشادية في قاعة الفنون بهامبورغ · المهام من 11 إلى 15",
+            "fr": "Visite guidée à la Kunsthalle de Hambourg · Tâches 11 à 15"
+          },
+          "desc": {
+            "ar": "ستستمع الآن إلى نص واحد. ستستمع إلى هذا النص مرة واحدة فقط. اختر الحل الصحيح a أو b أو c للمهام من 11 إلى 15. اقرأ المهام أولاً. لديك 60 ثانية لذلك.",
+            "fr": "Vous allez entendre un enregistrement. Vous ne l'écouterez qu'une seule fois. Choisissez la bonne solution a, b ou c pour les tâches 11 à 15. Lisez d'abord les tâches. Vous avez 60 secondes pour cela."
+          },
+          "context": {
+            "ar": "أنت تشارك في جولة إرشادية داخل قاعة الفنون في مدينة هامبورغ (Hamburger Kunsthalle).",
+            "fr": "Vous participez à une visite guidée de la Kunsthalle de Hambourg."
+          }
+        },
+        "3": {
+          "title": {
+            "ar": "محادثة أمام المطعم الجامعي · المهام من 16 إلى 22",
+            "fr": "Conversation devant le restaurant universitaire · Tâches 16 à 22"
+          },
+          "desc": {
+            "ar": "ستستمع الآن إلى محادثة. ستستمع إلى هذه المحادثة مرة واحدة فقط. حدد ما إذا كانت العبارات الواردة في المهام من 16 إلى 22 صحيحة أم خاطئة. اقرأ المهام أولاً. لديك 60 ثانية لذلك.",
+            "fr": "Vous allez entendre une conversation. Vous ne l'écouterez qu'une seule fois. Indiquez si les affirmations des tâches 16 à 22 sont Vraies ou Fausses. Lisez d'abord les tâches. Vous avez 60 secondes pour cela."
+          },
+          "context": {
+            "ar": "أنت تقف في الجامعة أمام المطعم الجامعي (Mensa) وتستمع إلى محادثة بين طالبين (كاي وبيا).",
+            "fr": "Vous êtes à l'université devant le restaurant universitaire (Mensa) et entendez une conversation entre deux étudiants (Kai et Pia)."
+          }
+        },
+        "4": {
+          "title": {
+            "ar": "برنامج حواري إذاعي حول استهلاك الشباب · المهام من 23 إلى 30",
+            "fr": "Débat radiophonique sur la consommation des jeunes · Tâches 23 à 30"
+          },
+          "desc": {
+            "ar": "ستستمع الآن إلى نقاش إذاعي. ستستمع إلى هذا النقاش مرتين. حدد من الذي عبر عن الرأي الوارد في المهام من 23 إلى 30: المذيعة (a)، البروفيسور فريدنتال (b)، أو السيدة نيلسن (c). اقرأ المهام أولاً. لديك 60 ثانية لذلك.",
+            "fr": "Vous allez entendre un débat radiophonique. Vous l'écouterez deux fois. Attribuez chaque opinion (tâches 23 à 30) à la bonne personne : l'animatrice (a), Prof. Friedenthal (b) ou Mme Nielsen (c). Lisez d'abord les tâches. Vous avez 60 secondes pour cela."
+          },
+          "context": {
+            "ar": "تناقش مذيعة برنامج «Kontrovers» الإذاعي مع البروفيسور فريدنتال والسيدة آنيليس نيلسن موضوع: «هل أطفالنا مدمنون على الاستهلاك والتسوق؟».",
+            "fr": "L'animatrice de l'émission « Kontrovers » débat avec le Prof. Friedenthal et Mme Annelies Nielsen autour du thème : « Nos enfants sont-ils accros à la consommation ? »."
+          }
+        }
+      },
+      "questions": {
+        "h1": {
+          "text": {
+            "ar": "يتصل شتيفن بمارايكه لأنه يحتاج إلى شيء ما.",
+            "fr": "Steffen appelle Mareike parce qu'il a besoin de quelque chose."
+          }
+        },
+        "h2": {
+          "text": {
+            "ar": "يجب على مارايكه …",
+            "fr": "Mareike doit …"
+          },
+          "options": {
+            "ar": ["المجيء فوراً إلى شتيفن.", "الانتظار حتى يأتي شتيفن.", "الاتصال هاتفياً بشتيفن."],
+            "fr": ["venir immédiatement chez Steffen.", "attendre Steffen.", "rappeler Steffen."]
+          }
+        },
+        "h3": {
+          "text": {
+            "ar": "هذا الإعلان موجه لركاب الطائرة قبل الإقلاع.",
+            "fr": "Cette annonce s'adresse aux passagers avant le décollage."
+          }
+        },
+        "h4": {
+          "text": {
+            "ar": "المسافرون إلى هامبورغ …",
+            "fr": "Les passagers pour Hambourg …"
+          },
+          "options": {
+            "ar": ["يجدون مخرج رحلتهم على شاشة العرض.", "يجب أن يتوجهوا إلى البوابة G17.", "يجب أن يتوجهوا إلى البوابة H7."],
+            "fr": ["trouvent leur porte sur l'écran d'affichage.", "doivent se rendre à la porte G17.", "doivent se rendre à la porte H7."]
+          }
+        },
+        "h5": {
+          "text": {
+            "ar": "هذا الإعلان هو فقرة إذاعية حول موضوع غسيل الملابس.",
+            "fr": "Cette annonce est une émission de radio sur le lavage du linge."
+          }
+        },
+        "h6": {
+          "text": {
+            "ar": "مسحوق الغسيل …",
+            "fr": "La lessive en poudre …"
+          },
+          "options": {
+            "ar": ["موجود بالفعل داخل الغسالة.", "يوضع في الغسالة بعد 60 دقيقة.", "يوضع في الحجرة العلوية إلى اليسار في الغسالة."],
+            "fr": ["est déjà dans la machine.", "se met dans la machine au bout de 60 minutes.", "se met en haut à gauche dans la machine."]
+          }
+        },
+        "h7": {
+          "text": {
+            "ar": "هذا الإعلان موجه للمستمعين الشباب الذين يحبون موسيقى الهيب هوب.",
+            "fr": "Cette annonce s'adresse aux jeunes auditeurs qui aiment le hip-hop."
+          }
+        },
+        "h8": {
+          "text": {
+            "ar": "يمكن للمرء …",
+            "fr": "On peut …"
+          },
+          "options": {
+            "ar": ["السفر عبر أوروبا.", "الفوز بتذاكر لحضور حفل موسيقي.", "الفوز بأحدث الأغاني المسجلة."],
+            "fr": ["voyager à travers l'Europe.", "gagner des billets pour un concert.", "gagner les toutes dernières chansons."]
+          }
+        },
+        "h9": {
+          "text": {
+            "ar": "هذا الإعلان الصوتي موجه لركاب القطار.",
+            "fr": "Cette annonce est destinée aux voyageurs en train."
+          }
+        },
+        "h10": {
+          "text": {
+            "ar": "في محطة فولدا …",
+            "fr": "À Fulda …"
+          },
+          "options": {
+            "ar": ["يجب على جميع الركاب النزول من القطار.", "يمكن التبديل وركوب القطار المتجه إلى برلين.", "يصل القطار متأخراً عن موعده."],
+            "fr": ["tous les passagers doivent descendre.", "on peut prendre une correspondance pour Berlin.", "on arrive avec du retard."]
+          }
+        },
+        "h11": {
+          "text": {
+            "ar": "السيدة فيرتمولر …",
+            "fr": "Mme Wertmüller …"
+          },
+          "options": {
+            "ar": ["لا تفهم اللغة الألمانية.", "لا تتحدث الألمانية بشكل جيد.", "تتحدث باللغة الألمانية."],
+            "fr": ["ne comprend pas l'allemand.", "ne parle pas très bien allemand.", "parle allemand."]
+          }
+        },
+        "h12": {
+          "text": {
+            "ar": "تبدأ الجولة الإرشادية …",
+            "fr": "La visite commence …"
+          },
+          "options": {
+            "ar": ["في القاعة الرئيسية.", "بالفن المعاصر الحديث.", "باللوحات التجريدية."],
+            "fr": ["dans le hall principal.", "avec l'art contemporain.", "avec la peinture abstraite."]
+          }
+        },
+        "h13": {
+          "text": {
+            "ar": "يشاهد الطلاب …",
+            "fr": "Les étudiants voient …"
+          },
+          "options": {
+            "ar": ["في النهاية الفن الكلاسيكي.", "في النهاية أعمالاً من الفن المعاصر أيضاً.", "أعمالاً فنية مستوحاة من الطبيعة أيضاً."],
+            "fr": ["à la fin de l'art classique.", "à la fin également de l'art moderne.", "aussi des œuvres d'art inspirées de la nature."]
+          }
+        },
+        "h14": {
+          "text": {
+            "ar": "بعد انتهاء الجولة …",
+            "fr": "Après la visite …"
+          },
+          "options": {
+            "ar": ["يمكن للمرء تناول فنجان من القهوة.", "يجب على الجميع التوجه فوراً إلى المخرج.", "لا يُسمح بالبقاء بمفرده داخل قاعة الفنون."],
+            "fr": ["on peut boire un café.", "on doit immédiatement se rendre à la sortie.", "on n'a pas le droit de rester seul dans la Kunsthalle."]
+          }
+        },
+        "h15": {
+          "text": {
+            "ar": "الحقائب والمعاطف …",
+            "fr": "Les sacs et manteaux …"
+          },
+          "options": {
+            "ar": ["يُسمح للزوار بالاحتفاظ بها معهم.", "تأخذها السيدة فيرتمولر.", "يجب إيداعها في خزانة الملابس (Garderobe)."],
+            "fr": ["peuvent être gardés par les visiteurs.", "sont pris en charge par Mme Wertmüller.", "doivent obligatoirement être déposés au vestiaire."]
+          }
+        },
+        "h16": {
+          "text": {
+            "ar": "كاي ليس جائعاً.",
+            "fr": "Kai n'a pas faim."
+          }
+        },
+        "h17": {
+          "text": {
+            "ar": "وصل كاي متأخراً عن الندوة الدراسية.",
+            "fr": "Kai est arrivé en retard au séminaire."
+          }
+        },
+        "h18": {
+          "text": {
+            "ar": "بيا تستمتع بدراسة الكيمياء في الجامعة.",
+            "fr": "Pia aime étudier la chimie."
+          }
+        },
+        "h19": {
+          "text": {
+            "ar": "يعرض كاي المساعدة على بيا.",
+            "fr": "Kai propose son aide à Pia."
+          }
+        },
+        "h20": {
+          "text": {
+            "ar": "يعتقد كاي أن على بيا تقليل ساعات عملها.",
+            "fr": "Kai pense que Pia devrait moins travailler."
+          }
+        },
+        "h21": {
+          "text": {
+            "ar": "بيا بحاجة ماسة وعاجلة إلى المال.",
+            "fr": "Pia a un besoin urgent de cet argent."
+          }
+        },
+        "h22": {
+          "text": {
+            "ar": "يعرض كاي وظيفة عمل على بيا.",
+            "fr": "Kai propose un emploi à Pia."
+          }
+        },
+        "h23": {
+          "text": {
+            "ar": "تعتبر الملابس رمزاً وشعاراً للانتماء إلى مجموعة معينة.",
+            "fr": "Le vêtement est considéré comme un signe d'appartenance à un groupe."
+          }
+        },
+        "h24": {
+          "text": {
+            "ar": "تتغير صيحات الموضة بسرعة كبيرة جداً.",
+            "fr": "La mode change très rapidement."
+          }
+        },
+        "h25": {
+          "text": {
+            "ar": "معظم المراهقين في سن 16 عاماً ليس لديهم مال كافٍ للملابس ذات العلامات التجارية الباهظة.",
+            "fr": "La plupart des adolescents de 16 ans n'ont pas assez d'argent pour des vêtements de marque coûteux."
+          }
+        },
+        "h26": {
+          "text": {
+            "ar": "مصروف الجيب الذي يحصل عليه الشباب ليس مرتفعاً كما يعتقد الكثير من الناس.",
+            "fr": "L'argent de poche des jeunes n'est pas aussi élevé que beaucoup de gens le pensent."
+          }
+        },
+        "h27": {
+          "text": {
+            "ar": "يشعر الآباء بالقلق بسبب قضاء أطفالهم وقتاً طويلاً في التحدث عبر الهاتف المحمول.",
+            "fr": "Les parents s'inquiètent parce que leurs enfants passent trop de temps au téléphone portable."
+          }
+        },
+        "h28": {
+          "text": {
+            "ar": "الاستهلاك واقتناء السلع يعني نيل التقدير والاعتراف الاجتماعي.",
+            "fr": "Consommer signifie obtenir de la reconnaissance sociale."
+          }
+        },
+        "h29": {
+          "text": {
+            "ar": "يشتري الآباء ملابس معينة لأن الأبناء يرونها جميلة ويرغبون فيها.",
+            "fr": "Les parents achètent certains vêtements parce que les enfants les trouvent beaux."
+          }
+        },
+        "h30": {
+          "text": {
+            "ar": "سيكون من الجيد الاستماع إلى رأي الشباب واليافعين حول هذا الموضوع.",
+            "fr": "Il serait bien d'entendre l'avis des jeunes sur ce sujet."
+          }
+        }
+      }
+    }
+  },
   "modellsatz-4": {
     "parts": {
         "1": {

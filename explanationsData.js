@@ -797,8 +797,399 @@ const explanationsData = {
             "ar": "الخيار (b) خاطئ فالمطلوب فرز النفايات فقط. والخيار (c) خاطئ فالساعة 7:00 هي نهاية ساعات الهدوء الليلي وليست موعد استيقاظ إجباري.",
             "fr": "L'option b est imprécise. L'option c est fausse (7h correspond à la fin du silence nocturne, non à un réveil forcé)."
         }
-    }
+    },
+    /* ---------------- MODELLSATZ 2: HÖREN (Aufgaben h1 - h30) ---------------- */
+    "h1": {
+      "quote": "Hallo Mareike, ich bin's Steffen. Du, ich sitze hier an den Mathe-Hausaufgaben und verstehe Aufgabe 4 überhaupt nicht. Kannst du mir deine Notizen geben?",
+      "whyCorrect": {
+            "de": "Richtig. Steffen ruft Mareike an, weil er Hilfe und ihre Notizen für die Mathe-Hausaufgaben braucht.",
+            "ar": "صحيح. يتصل شتيفن بمارايكه لأنه يحتاج إلى مساعدتها وملاحظاتها لحل واجب الرياضيات.",
+            "fr": "Vrai. Steffen appelle Mareike car il a besoin de son aide et de ses notes pour ses devoirs de mathématiques."
+      },
+      "whyIncorrect": {
+            "de": "Falsch trifft nicht zu: Steffen formuliert am Telefon eine konkrete Bitte um Unterstützung.",
+            "ar": "الخيار 'خطأ' غير صحيح لأن شتيفن يطلب صراحة المساعدة.",
+            "fr": "L'affirmation n'est pas fausse car il formule clairement une demande d'aide."
+      }
 },
+    "h2": {
+      "quote": "Ruf mich bitte zurück, sobald du nach Hause kommst.",
+      "whyCorrect": {
+            "de": "Option c ist richtig. Steffen bittet Mareike ausdrücklich darum, ihn nach ihrer Rückkehr anzurufen.",
+            "ar": "الخيار (c) هو الصحيح. يطلب شتيفن من مارايكه أن تعاود الاتصال به فور عودتها للمنزل.",
+            "fr": "L'option c est correcte. Steffen demande expressément à Mareike de le rappeler."
+      },
+      "whyIncorrect": {
+            "de": "Optionen a und b sind falsch: Er erwartet keinen sofortigen Besuch und fordert sie nicht zum Warten auf.",
+            "ar": "الخياران (a) و (b) غير صحيحين، فلم يطلب منها القدوم فوراً أو الانتظار.",
+            "fr": "Les options a et b sont incorrectes car il ne lui demande ni de venir ni d'attendre."
+      }
+},
+    "h3": {
+      "quote": "Liebe Fluggäste. In wenigen Minuten werden wir in München auf dem Flughafen Franz Josef Strauß landen.",
+      "whyCorrect": {
+            "de": "Falsch. Die Durchsage erfolgt kurz vor der Landung des Flugzeugs, nicht vor dem Abflug.",
+            "ar": "خطأ. الإعلان موجه لركاب الطائرة قبل الهبوط في المطار وليس قبل الإقلاع.",
+            "fr": "Faux. L'annonce est faite avant l'atterrissage à Munich, et non avant le décollage."
+      },
+      "whyIncorrect": {
+            "de": "Richtig ist nicht zutreffend, da es sich um eine Landedurchsage während des Fluges handelt.",
+            "ar": "اختيار 'صحيح' غير دقيق لأن الطائرة على وشك الهبوط.",
+            "fr": "Choisir 'Vrai' est erroné car l'avion est sur le point d'atterrir."
+      }
+},
+    "h4": {
+      "quote": "Transitreisende mit dem Ziel Hamburg, gebucht auf LH 4293, begeben sich bitte unverzüglich zum Ausgang H 7.",
+      "whyCorrect": {
+            "de": "Option c ist richtig. Die Fluggäste nach Hamburg werden zum Flugsteig/Ausgang H7 gebeten.",
+            "ar": "الخيار (c) هو الصحيح. يُطلب من المسافرين إلى هامبورغ التوجه إلى البوابة H7.",
+            "fr": "L'option c est correcte. Les passagers pour Hambourg sont invités à se rendre à la porte H7."
+      },
+      "whyIncorrect": {
+            "de": "Option b nennt G17 (für Frankfurt), Option a ist nur für sonstige Weiterflüge.",
+            "ar": "الخيار (b) يخص رحلة فرانكفورت (G17)، والخيار (a) يخص الرحلات الأخرى فقط.",
+            "fr": "L'option b concerne Francfort (G17) et l'option a s'adresse aux autres correspondances."
+      }
+},
+    "h5": {
+      "quote": "Hallo Jens! Hier ist Mama. ... ist mir nämlich eingefallen, dass ich vergessen habe, deine Sportklamotten zu waschen.",
+      "whyCorrect": {
+            "de": "Falsch. Es ist eine persönliche Telefonnachricht der Mutter an ihren Sohn Jens, keine Radiosendung.",
+            "ar": "خطأ. الرسالة هي اتصال هاتفي شخصي من الأم لابنها ينس وليست برنامجاً إذاعياً.",
+            "fr": "Faux. Il s'agit d'un message téléphonique personnel de la mère à son fils Jens, pas d'une émission de radio."
+      },
+      "whyIncorrect": {
+            "de": "Richtig ist unpassend: Die Mutter spricht auf den Anrufbeantworter zu Hause.",
+            "ar": "الخيار 'صحيح' غير مطابق لطبيعة الرسالة الصوتية الشخصية.",
+            "fr": "L'option 'Vrai' est incorrecte car il s'agit d'un répondeur privé."
+      }
+},
+    "h6": {
+      "quote": "Du tust einen Messbecher Waschpulver in den kleinen Behälter oben links, und zwar in den Behälter Nummer zwei.",
+      "whyCorrect": {
+            "de": "Option c ist richtig. Das Waschpulver soll oben links in das Fach Nummer zwei gefüllt werden.",
+            "ar": "الخيار (c) هو الصحيح. يوضع مسحوق الغسيل في الحجرة الصغيرة في الأعلى إلى اليسار.",
+            "fr": "L'option c est correcte. La lessive en poudre doit être versée dans le compartiment en haut à gauche."
+      },
+      "whyIncorrect": {
+            "de": "Option a ist falsch (die Kleidung ist drin, nicht das Pulver); b (60 Minuten) ist die Programmdauer.",
+            "ar": "الخيار (a) غير صحيح فالملابس هي الموجودة بالداخل، و(b) تشير إلى مدة دورة الغسيل.",
+            "fr": "L'option a est fausse (ce sont les vêtements qui s'y trouvent) et b indique la durée du programme."
+      }
+},
+    "h7": {
+      "quote": "Hallo, liebe Hip-Hop-Freunde. Ich begrüße euch alle wieder ganz herzlich zu unserer Musiksendung „Coole Hits und Neues aus der Szene“...",
+      "whyCorrect": {
+            "de": "Richtig. Die Radiosendung begrüßt ausdrücklich alle jugendlichen Fans der Hip-Hop-Musik.",
+            "ar": "صحيح. ترحب المذيعة صراحة بمحبي موسيقى الهيب هوب وتخاطب جمهورها الشاب.",
+            "fr": "Vrai. L'émission radio s'adresse explicitement aux amateurs de hip-hop."
+      },
+      "whyIncorrect": {
+            "de": "Falsch ist nicht zutreffend, da der Moderator die Hörer direkt als „Hip-Hop-Freunde“ anspricht.",
+            "ar": "الخيار 'خطأ' غير سليم لأن مقدم البرنامج بدأ حديثه بتحية عشاق الهيب هوب.",
+            "fr": "L'affirmation n'est pas fausse car l'animateur salue les fans de hip-hop."
+      }
+},
+    "h8": {
+      "quote": "Außerdem könnt ihr wie immer Konzertkarten gewinnen, wenn ihr bei unserem Fragespiel mitmacht.",
+      "whyCorrect": {
+            "de": "Option b ist richtig. Als Gewinn beim Quiz werden Eintrittskarten für ein Konzert verlost.",
+            "ar": "الخيار (b) هو الصحيح. يمكن للمستمعين الفوز بتذاكر لحضور حفل موسيقي عبر المسابقة.",
+            "fr": "L'option b est correcte. Les auditeurs peuvent remporter des billets pour un concert."
+      },
+      "whyIncorrect": {
+            "de": "Option a und c sind falsch: Europareisen oder Songs gibt es nicht als Hauptgewinn.",
+            "ar": "الخياران (a) و (c) خاطئان؛ الجائزة هي تذاكر الحفلات وليست رحلات أو أغانٍ.",
+            "fr": "Les options a et c sont fausses car le prix en jeu est une place de concert."
+      }
+},
+    "h9": {
+      "quote": "Verehrte Fahrgäste. In wenigen Minuten erreichen wir Fulda. Fulda Hauptbahnhof.",
+      "whyCorrect": {
+            "de": "Richtig. Die Durchsage wendet sich an die Passagiere im fahrenden Zug vor Erreichen des Bahnhofs.",
+            "ar": "صحيح. الإعلان موجه لركاب القطار لإعلامهم بالوصول القريب إلى محطة فولدا الرئيسية.",
+            "fr": "Vrai. L'annonce est adressée aux voyageurs à bord du train avant l'arrivée en gare."
+      },
+      "whyIncorrect": {
+            "de": "Falsch trifft nicht zu: Die Ansage beginnt mit „Verehrte Fahrgäste“ im Zug.",
+            "ar": "الخيار 'خطأ' غير صحيح لأن الحديث موجه مباشرة للمسافرين بالقطار.",
+            "fr": "L'affirmation n'est pas fausse car il s'agit d'une annonce ferroviaire."
+      }
+},
+    "h10": {
+      "quote": "ICE 5445 nach Berlin Gesundbrunnen um 16:07 ... Dieser Zug wird voraussichtlich 15 Minuten später eintreffen.",
+      "whyCorrect": {
+            "de": "Option b ist richtig. In Fulda besteht eine Umsteigemöglichkeit in den Zug in Richtung Berlin.",
+            "ar": "الخيار (b) هو الصحيح. يمكن في فولدا التبديل إلى قطار ICE المتجه إلى برلين.",
+            "fr": "L'option b est correcte. Les voyageurs peuvent prendre une correspondance pour Berlin."
+      },
+      "whyIncorrect": {
+            "de": "Option a ist falsch (kein Endbahnhof); Option c ist falsch (nicht der aktuelle Zug hat Verspätung, sondern der Anschlusszug).",
+            "ar": "الخيار (a) خاطئ فالمحطة ليست نهاية الخط، و(c) غير دقيق لأن التأخير خاص بالقطار البديل المتجه لبرلين.",
+            "fr": "L'option a est fausse et c attribue le retard au mauvais train."
+      }
+},
+    "h11": {
+      "quote": "Verstehen Sie alle Deutsch? Gut, dann kann ich ja auf Deutsch fortfahren.",
+      "whyCorrect": {
+            "de": "Option c ist richtig. Die Museumsführerin Frau Wertmüller fragt die Gruppe und spricht Deutsch mit ihr.",
+            "ar": "الخيار (c) هو الصحيح. المرشدة السيدة فيرتمولر تتحدث باللغة الألمانية مع المجموعة.",
+            "fr": "L'option c est correcte. La guide Mme Wertmüller s'exprime en allemand."
+      },
+      "whyIncorrect": {
+            "de": "Option a und b widersprechen dem Text, da sie fließend auf Deutsch führt.",
+            "ar": "الخياران (a) و (b) يتعارضان مع النص حيث تقود الجولة بالألمانية بطلاقة.",
+            "fr": "Les options a et b contredisent ses propos."
+      }
+},
+    "h12": {
+      "quote": "Wir befinden uns jetzt im zentralen Eingangsbereich und beginnen unsere Führung hier vorn in der Haupthalle...",
+      "whyCorrect": {
+            "de": "Option a ist richtig. Die Führung durch die Kunsthalle startet in der großen Haupthalle.",
+            "ar": "الخيار (a) هو الصحيح. تنطلق الجولة الإرشادية من القاعة الرئيسية (Haupthalle).",
+            "fr": "L'option a est correcte. La visite guidée commence dans le hall principal."
+      },
+      "whyIncorrect": {
+            "de": "Option b und c sind falsch, da moderne Kunst erst am Ende der Führung gezeigt wird.",
+            "ar": "الخياران (b) و (c) غير صحيحين، فالفن الحديث والمعاصر مخصص لنهاية الجولة.",
+            "fr": "Les options b et c sont fausses car l'art contemporain n'est abordé qu'à la fin."
+      }
+},
+    "h13": {
+      "quote": "Zum Abschluss der Führung möchte ich Ihnen aber auch noch einige bedeutende Kunstwerke aus der Gegenwart zeigen.",
+      "whyCorrect": {
+            "de": "Option b ist richtig. Zum Ende des Rundgangs werden bedeutende Werke der modernen Gegenwartskunst besichtigt.",
+            "ar": "الخيار (b) هو الصحيح. في ختام الجولة، سيشاهد الطلاب أعمالاً من الفن الحديث والمعاصر.",
+            "fr": "L'option b est correcte. La visite se termine par la découverte d'œuvres d'art contemporain."
+      },
+      "whyIncorrect": {
+            "de": "Option a ist falsch (klassische Kunst kommt am Anfang); Option c (Kunstwerke der Natur) wird nicht erwähnt.",
+            "ar": "الخيار (a) غير صحيح لأن الفن الكلاسيكي يبدأ في البداية، والخيار (c) لم يرد في النص.",
+            "fr": "L'option a est inversée et l'option c invente des éléments absents du texte."
+      }
+},
+    "h14": {
+      "quote": "Danach haben Sie noch eine gute Stunde Zeit, allein durch die Kunsthalle zu gehen oder einfach im Café „Falanx“ bei einer Tasse Kaffee oder einem Bier zu entspannen.",
+      "whyCorrect": {
+            "de": "Option a ist richtig. Nach der Führung können die Teilnehmer im museumseigenen Café einen Kaffee trinken.",
+            "ar": "الخيار (a) هو الصحيح. يمكن للمشاركين بعد الجولة أخذ استراحة وتناول القهوة في مقهى المتحف.",
+            "fr": "L'option a est correcte. Les visiteurs peuvent aller boire un café après la visite."
+      },
+      "whyIncorrect": {
+            "de": "Option b und c sind falsch: Sie dürfen allein im Museum bleiben und müssen keineswegs sofort gehen.",
+            "ar": "الخياران (b) و (c) خاطئان؛ إذ يُسمح لهم بالبقاء بمفردهم واستكشاف المعرض.",
+            "fr": "Les options b et c sont réfutées car les participants ont le droit de rester seuls."
+      }
+},
+    "h15": {
+      "quote": "Ach, geben Sie doch bitte vorher noch Ihre Mäntel und Taschen an der Garderobe ab.",
+      "whyCorrect": {
+            "de": "Option c ist richtig. Mäntel und Taschen müssen vor Beginn an der Garderobe abgegeben werden.",
+            "ar": "الخيار (c) هو الصحيح. يجب إيداع المعاطف والحقائب في خزانة الملابس (Garderobe).",
+            "fr": "L'option c est correcte. Les manteaux et sacs doivent être déposés au vestiaire."
+      },
+      "whyIncorrect": {
+            "de": "Option a ist falsch (Mitnahme verboten); Option b ist falsch (Frau Wertmüller nimmt sie nicht persönlich).",
+            "ar": "الخيار (a) خاطئ، والخيار (b) خاطئ فالمرشدة لا تأخذها بنفسها بل توضع في الخزانة.",
+            "fr": "L'option a est fausse et l'option b invente que la guide s'en occupe personnellement."
+      }
+},
+    "h16": {
+      "quote": "Kai: Hallo Pia, ja gern. Ich hab einen Riesenhunger. ... Mir ist ganz schlecht vor Hunger.",
+      "whyCorrect": {
+            "de": "Falsch. Kai hat großen Hunger („Riesenhunger“) und freut sich auf das Essen.",
+            "ar": "خطأ. كاي جائع جداً ('Riesenhunger') ويشعر بالتعب من شدة الجوع.",
+            "fr": "Faux. Kai a très faim et a hâte d'aller manger."
+      },
+      "whyIncorrect": {
+            "de": "Richtig ist nicht zutreffend, da Kai ausdrücklich von seinem großen Hunger spricht.",
+            "ar": "الخيار 'صحيح' مناقض لكلام كاي الصريح عن شدة جوعه.",
+            "fr": "L'affirmation 'Vrai' est contraire aux propos de Kai."
+      }
+},
+    "h17": {
+      "quote": "Warst du nicht da? Pia: Doch, doch, aber ich war mal wieder viel zu spät...",
+      "whyCorrect": {
+            "de": "Falsch. Pia kam zu spät zum Seminar, Kai hingegen war pünktlich anwesend.",
+            "ar": "خطأ. بيا هي التي تأخرت عن الندوة الدراسية وليس كاي.",
+            "fr": "Faux. C'est Pia qui est arrivée en retard au séminaire, pas Kai."
+      },
+      "whyIncorrect": {
+            "de": "Richtig ist eine Verwechslung der beiden Personen.",
+            "ar": "الخيار 'صحيح' خلط بين الشخصين؛ فبيا هي من اعترفت بالتأخر.",
+            "fr": "Attribuer le retard à Kai est une confusion entre les personnages."
+      }
+},
+    "h18": {
+      "quote": "Pia: Chemie hat mir zwar in der Schule Spaß gemacht, aber jetzt ist das ganz anders. ... Ich glaube, ich sollte doch das Studienfach wechseln.",
+      "whyCorrect": {
+            "de": "Falsch. Pia ist frustriert über die schweren Formeln und denkt über einen Fachwechsel nach; sie studiert Chemie nicht gern.",
+            "ar": "خطأ. بيا لا تحب دراسة الكيمياء في الجامعة وتفكر في تغيير تخصصها الدراسي.",
+            "fr": "Faux. Pia est découragée par la chimie universitaire et envisage de changer de filière."
+      },
+      "whyIncorrect": {
+            "de": "Richtig widerspricht ihren Worten („verliere die Lust“, „mir wird ganz schlecht“).",
+            "ar": "الخيار 'صحيح' يتعارض تماماً مع معاناتها ورغبتها في ترك التخصص.",
+            "fr": "L'affirmation est fausse compte tenu de son profond découragement."
+      }
+},
+    "h19": {
+      "quote": "Kai: Wir können doch wieder zusammen lernen, dann geht es sicher wieder besser. Ich find das alles gar nicht so schwierig.",
+      "whyCorrect": {
+            "de": "Richtig. Kai bietet Pia an, gemeinsam den Lernstoff durchzugehen und ihr zu helfen.",
+            "ar": "صحيح. يعرض كاي على بيا أن يدرسا معاً ويقدم لها المساعدة في فهم المواد.",
+            "fr": "Vrai. Kai propose à Pia de réviser ensemble pour l'aider à surmonter ses difficultés."
+      },
+      "whyIncorrect": {
+            "de": "Falsch ist nicht korrekt: Kai schlägt ausdrücklich gegenseitiges Lernen vor.",
+            "ar": "الخيار 'خطأ' غير صحيح؛ فكاي اقترح المساعدة بوضوح.",
+            "fr": "Choisir 'Faux' ne convient pas car la proposition d'aide est explicite."
+      }
+},
+    "h20": {
+      "quote": "Kai: Ich denke, dass du einfach zu oft in der Kneipe arbeitest, und dass du deshalb immer total müde bist.",
+      "whyCorrect": {
+            "de": "Richtig. Kai meint, Pia sollte wegen der Erschöpfung weniger in der Gaststätte arbeiten.",
+            "ar": "صحيح. يرى كاي أن بيا ترهق نفسها بالعمل في الحانة لساعات متأخرة ويجب أن تقلل منه.",
+            "fr": "Vrai. Kai estime que Pia passe trop de temps à travailler au bar et manque de sommeil."
+      },
+      "whyIncorrect": {
+            "de": "Falsch ist unpassend, da Kai die Nachtarbeit in der Kneipe als Hauptproblem identifiziert.",
+            "ar": "الخيار 'خطأ' غير سليم لأن كاي انتقد بوضوح كثرة ساعات عملها الليلي.",
+            "fr": "L'option 'Faux' est erronée car il lui conseille de modérer ses heures de travail."
+      }
+},
+    "h21": {
+      "quote": "Pia: ...aber mein Zimmer in der Wohngemeinschaft kostet 450 Euro und das Geld muss ich mir schon verdienen, von meinen Eltern krieg ich doch nichts.",
+      "whyCorrect": {
+            "de": "Richtig. Pia muss Miete und Lebensunterhalt allein finanzieren und ist auf das Geld angewiesen.",
+            "ar": "صحيح. تحتاج بيا للمال بشكل عاجل لدفع إيجار غرفتها البالغ 450 يورو دون مساعدة والديها.",
+            "fr": "Vrai. Pia a un besoin urgent de ses revenus pour payer les 450 € de loyer de sa colocation."
+      },
+      "whyIncorrect": {
+            "de": "Falsch ist nicht zutreffend: Ihre finanzielle Notwendigkeit wird klar begründet.",
+            "ar": "الخيار 'خطأ' لا يطابق توضيحها لحاجتها الملحة لتغطية نفقاتها.",
+            "fr": "L'affirmation est vraie car son autonomie financière est indispensable."
+      }
+},
+    "h22": {
+      "quote": "Kai: Du brauchst halt einen Job in den Semesterferien. Wir finden da schon eine Lösung. Das wird schon.",
+      "whyCorrect": {
+            "de": "Falsch. Kai bietet Pia keinen Job an, sondern gibt ihr lediglich den Rat, in den Ferien zu jobben.",
+            "ar": "خطأ. كاي لم يقدم لها وظيفة، بل نصحها بالبحث عن عمل أثناء العطلة الجامعية.",
+            "fr": "Faux. Kai ne lui propose pas d'emploi direct, il lui suggère simplement de travailler pendant les vacances."
+      },
+      "whyIncorrect": {
+            "de": "Richtig trifft nicht zu: Kai hat keine konkrete Arbeitsstelle für sie.",
+            "ar": "الخيار 'صحيح' غير دقيق لأنه لم يوفر لها فرصة عمل محددة.",
+            "fr": "L'affirmation est fausse car il ne dispose pas d'un travail à lui offrir."
+      }
+},
+    "h23": {
+      "quote": "Friedenthal: Mit der Kleidung zeigt man, dass man zu einer bestimmten Gruppe gehört.",
+      "whyCorrect": {
+            "de": "b (Friedenthal). Professor Friedenthal betont, dass Kleidung als Gruppensymbol und Zeichen der Zugehörigkeit dient.",
+            "ar": "(b) البروفيسور فريدنتال. يؤكد أن الملابس تمثل رمزاً للانتماء إلى مجموعة معينة بين الشباب.",
+            "fr": "b (Friedenthal). Le professeur souligne que le vêtement sert d'emblème d'appartenance à un groupe."
+      },
+      "whyIncorrect": {
+            "de": "Weder die Moderatorin (a) noch Frau Nielsen (c) stellen diese soziologische These auf.",
+            "ar": "لم يصدر هذا الرأي التحليلي عن المذيعة ولا عن السيدة نيلسن.",
+            "fr": "Cette analyse n'est formulée ni par l'animatrice ni par Mme Nielsen."
+      }
+},
+    "h24": {
+      "quote": "Friedenthal: Bestimmte Marken sind heute „in“ und morgen schon wieder „out“. Wenn man wirklich zu den coolen Leuten gehören will, muss man das wissen.",
+      "whyCorrect": {
+            "de": "b (Friedenthal). Professor Friedenthal erklärt den schnellen Wechsel der Modemarken und Trends.",
+            "ar": "(b) البروفيسور فريدنتال. يشير إلى السرعة الكبيرة التي تتغير بها الموضة والعلامات التجارية الرائجة.",
+            "fr": "b (Friedenthal). Il explique que les tendances et les marques changent à un rythme très soutenu."
+      },
+      "whyIncorrect": {
+            "de": "a und c äußern sich nicht über die Schnelllebigkeit der Modetrends.",
+            "ar": "المتحدثان الآخران لم يشيرا إلى سرعة تبدل صيحات الموضة.",
+            "fr": "Les autres intervenants ne traitent pas de la rapidité du cycle de la mode."
+      }
+},
+    "h25": {
+      "quote": "Frau Nielsen: Die meisten Jugendlichen haben gar nicht genug Geld, um teure Markenkleidung zu kaufen.",
+      "whyCorrect": {
+            "de": "c (Nielsen). Frau Nielsen widerspricht und betont, dass vielen 16-Jährigen das Geld für Markensachen schlicht fehlt.",
+            "ar": "(c) السيدة نيلسن. توضح كمعلمة وأم أن غالبية المراهقين لا يملكون المال الكافي للملابس ذات الماركات الغالية.",
+            "fr": "c (Nielsen). En tant qu'enseignante et mère, elle souligne que la majorité des jeunes n'a pas les moyens d'acheter des marques."
+      },
+      "whyIncorrect": {
+            "de": "Friedenthal und die Moderatorin teilen diesen Einwand aus dem Alltag nicht.",
+            "ar": "فريدنتال والمذيعة لم يذكرا هذا القيد المالي الواقعي.",
+            "fr": "Ni le professeur ni la présentatrice ne font ce constat économique."
+      }
+},
+    "h26": {
+      "quote": "Frau Nielsen: Nach unseren Untersuchungen bekommen die Schülerinnen und Schüler im Durchschnitt etwa 30 Euro pro Woche und müssen davon auch alle Ausgaben für die Schule bezahlen... Das Geld reicht doch höchstens noch für einen Kinobesuch.",
+      "whyCorrect": {
+            "de": "c (Nielsen). Frau Nielsen führt an, dass das reale Taschengeld viel knapper ist als vermutet.",
+            "ar": "(c) السيدة نيلسن. تبين أن مصروف الجيب لدى الطلاب ليس كبيراً كما يظن الكثيرون ويكاد يكفي متطلباتهم.",
+            "fr": "c (Nielsen). Elle précise que l'argent de poche des adolescents est bien plus modeste qu'on ne l'imagine."
+      },
+      "whyIncorrect": {
+            "de": "Friedenthal behauptet eher, dass Jugendliche viel Geld für Handys und Apps ausgeben.",
+            "ar": "فريدنتال على العكس من ذلك ركز على المبالغ الكبيرة المصروفة على الهواتف والتطبيقات.",
+            "fr": "Friedenthal met plutôt l'accent sur les dépenses excessives en téléphonie."
+      }
+},
+    "h27": {
+      "quote": "Friedenthal: Für viele Eltern sind die Handygebühren ihrer Kinder der reinste Albtraum.",
+      "whyCorrect": {
+            "de": "b (Friedenthal). Er thematisiert die Sorgen und Ängste der Eltern bezüglich teurer Handyrechnungen und ständigen Telefonierens.",
+            "ar": "(b) البروفيسور فريدنتال. يتحدث عن قلق الآباء الشديد وكوابيسهم من فواتير واستخدام الهواتف الذكية.",
+            "fr": "b (Friedenthal). Il aborde l'angoisse des parents face aux factures de téléphone et à l'usage continu des mobiles."
+      },
+      "whyIncorrect": {
+            "de": "Frau Nielsen und die Moderatorin formulieren diese Klage über Handygebühren nicht.",
+            "ar": "لم تتطرق السيدة نيلسن أو المذيعة إلى هذا الكابوس المتعلق بفواتير الهواتف.",
+            "fr": "Cette remarque sur le coût du téléphone n'émane ni de Mme Nielsen ni de l'animatrice."
+      }
+},
+    "h28": {
+      "quote": "Friedenthal: Im Grunde geht es gar nicht darum, wie viel Geld die jungen Leute tatsächlich ausgeben, sondern es geht um die Tatsache, dass sie sich über den Konsum definieren. Nur wer die richtigen Apps ... hat, wird in der Gruppe akzeptiert.",
+      "whyCorrect": {
+            "de": "b (Friedenthal). Er analysiert die psychologische Bedeutung: Konsumgüter verleihen soziale Anerkennung und Akzeptanz.",
+            "ar": "(b) البروفيسور فريدنتال. يحلل أن الاستهلاك يمنح الاعتراف الاجتماعي والقبول وسط أقرانهم.",
+            "fr": "b (Friedenthal). Il formule l'idée sociologique que la consommation procure reconnaissance et intégration."
+      },
+      "whyIncorrect": {
+            "de": "Die Definition von Anerkennung durch Konsum ist Friedenthals Kernaussage.",
+            "ar": "ربط الاستهلاك بالحصول على التقدير هو جوهر طرح البروفيسور فريدنتال.",
+            "fr": "Cette assimilation de la consommation à la reconnaissance sociale est le cœur de son analyse."
+      }
+},
+    "h29": {
+      "quote": "Frau Nielsen: Meine Söhne sind beide im kritischen Alter, 14 und 17 Jahre alt. Zu jedem Geburtstag wünschen sie sich ganz bestimmte Kleidungsstücke... Wir kaufen sie trotzdem, weil es das ist, was sie sich wünschen.",
+      "whyCorrect": {
+            "de": "c (Nielsen). Frau Nielsen erzählt aus eigener Erfahrung, dass Eltern den Wünschen der Kinder nachgeben und ihnen die gewünschte Kleidung kaufen.",
+            "ar": "(c) السيدة نيلسن. تروي من واقع بيتها أن الآباء يشترون الملابس المحددة إرضاءً لرغبة أبنائهم وإعجابهم بها.",
+            "fr": "c (Nielsen). Elle témoigne en tant que mère que les parents cèdent aux souhaits vestimentaires de leurs enfants."
+      },
+      "whyIncorrect": {
+            "de": "Friedenthal hat keine eigenen Kinder in diesem Kontext geschildert.",
+            "ar": "فريدنتال لم يقدم شهادة شخصية كأب في هذا السياق.",
+            "fr": "Ce récit personnel d'achat familial n'appartient pas au professeur."
+      }
+},
+    "h30": {
+      "quote": "Moderatorin: Vielleicht sollten wir gerade zu diesem Thema auch einmal die Meinung der jungen Leute hören. ... In der nächsten Woche begrüßen wir zum selben Thema hier als Studiogäste einige Schülerinnen und Schüler...",
+      "whyCorrect": {
+            "de": "a (Moderatorin). Die Moderatorin resümiert die Sendung mit dem Vorschlag, beim nächsten Mal die Jugendlichen selbst einzuladen und anzuhören.",
+            "ar": "(a) المذيعة. تختتم الحوار باقتراح استضافة التلاميذ والشباب أنفسهم في الحلقة القادمة لسماع رأيهم.",
+            "fr": "a (Moderatorin). L'animatrice conclut en suggérant de donner directement la parole aux jeunes dans la prochaine émission."
+      },
+      "whyIncorrect": {
+            "de": "Die Programmankündigung für die Folgewoche obliegt traditionell der Moderatorin der Sendung.",
+            "ar": "إدارة الحوار وتوجيه الدعوة للحلقة القادمة دور منوط بالمذيعة حصراً.",
+            "fr": "La conclusion et l'annonce de l'émission suivante relèvent du rôle de la présentatrice."
+      }
+}
+  },
   "modellsatz-3": {
     "1": {
         "quote": "das Jugendhotel zu finden, von dem ich im Reiseführer gelesen hatte.",

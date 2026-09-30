@@ -2203,6 +2203,12 @@ function renderHorenQuestionCard(q) {
       } else if (questionsLang === 'fr') {
         speakerNames = ['Le modérateur', 'Dana Schneider', 'Florian Bader'];
       }
+    } else if (currentTest.id === 'modellsatz-2') {
+      if (isAr) {
+        speakerNames = ['المذيعة (Moderatorin)', 'البروفيسور فريدنتال (Friedenthal)', 'السيدة نيلسن (Nielsen)'];
+      } else if (questionsLang === 'fr') {
+        speakerNames = ['La présentatrice (Moderatorin)', 'Prof. Friedenthal', 'Mme Nielsen'];
+      }
     }
     optionsHtml = `
       <div class="speaker-options-group">
@@ -2412,6 +2418,7 @@ function renderHoren(t) {
         </div>
 
         <!-- Teil 1 Example Box -->
+        ${sec1.hasExample === false ? '' : `
         <div class="example-box horen-example">
           <div class="example-badge">${exampleBadge} (${ex01.num} & ${ex02.num})</div>
           <div class="horen-ex-item">
@@ -2429,7 +2436,7 @@ function renderHoren(t) {
               `).join('')}
             </div>
           </div>
-        </div>
+        </div>`}
 
         <!-- Teil 1: 5 Texts -->
         ${[1, 2, 3, 4, 5].map(textNum => {
@@ -2481,7 +2488,20 @@ function renderHoren(t) {
           <span><strong>${isAr ? 'الموقف والسياق:' : (questionsLang === 'fr' ? 'Situation :' : 'Situation:')}</strong> ${t3Sit}</span>
         </div>
 
-        <div class="horen-questions-list">
+        ${sec3.example ? `
+        <div class="example-box horen-example" style="margin-top:14px;">
+          <div class="example-badge">${exampleBadge} (${sec3.example.num})</div>
+          <div class="horen-ex-item">
+            <div class="horen-ex-q"><strong>${sec3.example.num}</strong> ${sec3.example.text}</div>
+            <div class="horen-ex-options">
+              <span class="ex-option-pill ${sec3.example.answer === 'richtig' ? 'selected' : ''}">${richtigLabel}${sec3.example.answer === 'richtig' ? ' ✓' : ''}</span>
+              <span class="ex-option-pill ${sec3.example.answer === 'falsch' ? 'selected' : ''}">${falschLabel}${sec3.example.answer === 'falsch' ? ' ✓' : ''}</span>
+            </div>
+          </div>
+        </div>
+        ` : ''}
+
+        <div class="horen-questions-list" style="${sec3.example ? 'margin-top:18px;' : ''}">
           ${t.questions.filter(q => q.teilPart === 3).map(q => renderHorenQuestionCard(q)).join('')}
         </div>
       </section>
@@ -2498,7 +2518,7 @@ function renderHoren(t) {
 
         <div class="horen-context-card">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="2"/><path d="M16.24 7.76a6 6 0 0 1 0 8.49m-8.48-.01a6 6 0 0 1 0-8.49m11.31-2.82a10 10 0 0 1 0 14.14m-14.14 0a10 10 0 0 1 0-14.14"/></svg>
-          <span><strong>${isAr ? 'برنامج إذاعي:' : (questionsLang === 'fr' ? 'Émission radiophonique :' : 'Sendung „Diskussion am Abend“:')}</strong> ${t4Sit}</span>
+          <span><strong>${isAr ? 'برنامج إذاعي:' : (questionsLang === 'fr' ? 'Émission radiophonique :' : 'Radiosendung:')}</strong> ${t4Sit}</span>
         </div>
 
         <div class="horen-speakers-legend">

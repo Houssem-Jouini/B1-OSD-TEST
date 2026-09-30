@@ -431,9 +431,9 @@ const modelTests = [
     id: "modellsatz-2",
     title: "Modellsatz 2 — B1 Prüfungstraining (Set A)",
     badge: "Modellsatz 2",
-    examTitle: "B1 Prüfungstraining — Set A (Training zur Prüfung Lesen)",
-    examSub: "Modul Lesen · 5 Teile · 65 Minuten · Modellsatz 2 (PDF)",
-    timeTotal: 65,
+    examTitle: "B1 Prüfungstraining — Set A (Training zur Prüfung Lesen & Hören)",
+    examSub: "Lesen (5 Teile) & Hören (4 Teile) · Modellsatz 2 (PDF)",
+    timeTotal: 105,
     parts: [
       {
         id: 1,
@@ -707,6 +707,124 @@ const modelTests = [
           { id: 28, type: "mcq", text: "Alkoholische Getränke …", options: ["sind in der Jugendherberge verboten.", "kann man in der Jugendherberge kaufen.", "dürfen nicht beim Essen konsumiert werden."], answer: 1 },
           { id: 29, type: "mcq", text: "Das Gepäck …", options: ["kann man im Sekretariat abgeben.", "kann man einschließen, wenn man dafür bezahlt.", "darf man nicht in der Jugendherberge lassen."], answer: 1 },
           { id: 30, type: "mcq", text: "In der Jugendherberge wird erwartet, …", options: ["dass die Gäste das Essgeschirr selbst holen und aufräumen.", "dass die Gäste den Müll hinaustragen.", "dass die Gäste um 7.00 Uhr aufstehen."], answer: 0 }
+        ]
+      },
+      {
+        id: 6,
+        title: "🎧 Hören",
+        badge: "Hören",
+        isHoren: true,
+        time: 40,
+        instructions: "Das Modul Hören besteht aus vier Teilen. Sie hören mehrere Texte und lösen Aufgaben dazu. Für jede Aufgabe gibt es nur eine richtige Lösung.",
+        audioSrc: "audio/modellsatz-2-hoeren.mp3",
+        audioFallbacks: [
+          "audio/modellsatz-2-hoeren.mp3",
+          "audio/hoeren.mp3"
+        ],
+        audioChapters: [
+          { time: 0, label: "00:00 Teil 1: Text 1 (Steffen)" },
+          { time: 91, label: "01:31 Teil 1: Text 2 (Flug)" },
+          { time: 200, label: "03:20 Teil 1: Text 3 (Wäsche)" },
+          { time: 338, label: "05:38 Teil 1: Text 4 (Hip-Hop)" },
+          { time: 450, label: "07:30 Teil 1: Text 5 (Zug)" },
+          { time: 619, label: "10:19 Teil 2 (Kunsthalle)" },
+          { time: 837, label: "13:57 Teil 3 (Mensa)" },
+          { time: 1024, label: "17:04 Teil 4 (Konsumsucht)" }
+        ],
+        questions: [
+          // Teil 1: 1 - 10
+          { id: "h1", num: 1, type: "tf", text: "Steffen ruft Mareike an, weil er etwas braucht.", answer: "richtig", teilPart: 1, textNum: 1 },
+          { id: "h2", num: 2, type: "mcq", text: "Mareike soll …", options: ["sofort zu Steffen kommen.", "auf Steffen warten.", "Steffen anrufen."], answer: 2, teilPart: 1, textNum: 1 },
+          { id: "h3", num: 3, type: "tf", text: "Diese Ansage ist für Fluggäste vor dem Abflug.", answer: "falsch", teilPart: 1, textNum: 2 },
+          { id: "h4", num: 4, type: "mcq", text: "Die Reisenden nach Hamburg …", options: ["finden Ihren Ausgang auf dem Bildschirm.", "sollen nach G17 kommen.", "sollen zum Ausgang H7 gehen."], answer: 2, teilPart: 1, textNum: 2 },
+          { id: "h5", num: 5, type: "tf", text: "Diese Ansage ist eine Radioinformation zum Thema Wäschewaschen.", answer: "falsch", teilPart: 1, textNum: 3 },
+          { id: "h6", num: 6, type: "mcq", text: "Das Waschpulver …", options: ["ist schon in der Maschine.", "kommt nach 60 Minuten in die Maschine.", "kommt oben links in die Maschine."], answer: 2, teilPart: 1, textNum: 3 },
+          { id: "h7", num: 7, type: "tf", text: "Diese Ansage ist für junge Radiohörer, die Hip-Hop lieben.", answer: "richtig", teilPart: 1, textNum: 4 },
+          { id: "h8", num: 8, type: "mcq", text: "Man kann …", options: ["durch Europa reisen.", "Karten für ein Konzert gewinnen.", "die neuesten Songs gewinnen."], answer: 1, teilPart: 1, textNum: 4 },
+          { id: "h9", num: 9, type: "tf", text: "Die Durchsage ist für Zugreisende.", answer: "richtig", teilPart: 1, textNum: 5 },
+          { id: "h10", num: 10, type: "mcq", text: "In Fulda …", options: ["müssen alle aussteigen.", "kann man nach Berlin umsteigen.", "kommt man mit Verspätung an."], answer: 1, teilPart: 1, textNum: 5 },
+
+          // Teil 2: 11 - 15
+          { id: "h11", num: 11, type: "mcq", text: "Frau Wertmüller …", options: ["versteht kein Deutsch.", "spricht nicht so gut Deutsch.", "spricht Deutsch."], answer: 2, teilPart: 2 },
+          { id: "h12", num: 12, type: "mcq", text: "Die Führung beginnt …", options: ["in der Haupthalle.", "mit Kunst aus der Gegenwart.", "mit abstrakter Malerei."], answer: 0, teilPart: 2 },
+          { id: "h13", num: 13, type: "mcq", text: "Die Studenten sehen …", options: ["am Ende klassische Kunst.", "am Ende auch moderne Kunst.", "auch Kunstwerke der Natur."], answer: 1, teilPart: 2 },
+          { id: "h14", num: 14, type: "mcq", text: "Nach der Führung …", options: ["kann man einen Kaffee trinken.", "muss man sofort zum Ausgang.", "darf man nicht alleine in der Kunsthalle bleiben."], answer: 0, teilPart: 2 },
+          { id: "h15", num: 15, type: "mcq", text: "Taschen und Mäntel …", options: ["darf man behalten.", "nimmt Frau Wertmüller.", "müssen abgegeben werden."], answer: 2, teilPart: 2 },
+
+          // Teil 3: 16 - 22
+          { id: "h16", num: 16, type: "tf", text: "Kai hat keinen Hunger.", answer: "falsch", teilPart: 3 },
+          { id: "h17", num: 17, type: "tf", text: "Kai kam zu spät zum Seminar.", answer: "falsch", teilPart: 3 },
+          { id: "h18", num: 18, type: "tf", text: "Pia studiert gern Chemie.", answer: "falsch", teilPart: 3 },
+          { id: "h19", num: 19, type: "tf", text: "Kai bietet Pia Hilfe an.", answer: "richtig", teilPart: 3 },
+          { id: "h20", num: 20, type: "tf", text: "Kai meint, dass Pia weniger arbeiten soll.", answer: "richtig", teilPart: 3 },
+          { id: "h21", num: 21, type: "tf", text: "Pia braucht das Geld dringend.", answer: "richtig", teilPart: 3 },
+          { id: "h22", num: 22, type: "tf", text: "Kai bietet Pia einen Job an.", answer: "falsch", teilPart: 3 },
+
+          // Teil 4: 23 - 30
+          { id: "h23", num: 23, type: "speaker", text: "Die Kleidung gilt als Zeichen für eine Gruppe.", options: ["Moderatorin", "Friedenthal", "Nielsen"], answer: 1, teilPart: 4 },
+          { id: "h24", num: 24, type: "speaker", text: "Die Mode wechselt sehr schnell.", options: ["Moderatorin", "Friedenthal", "Nielsen"], answer: 1, teilPart: 4 },
+          { id: "h25", num: 25, type: "speaker", text: "Die meisten 16-Jährigen haben nicht genug Geld für teure Markenkleidung.", options: ["Moderatorin", "Friedenthal", "Nielsen"], answer: 2, teilPart: 4 },
+          { id: "h26", num: 26, type: "speaker", text: "Das Taschengeld der jungen Leute ist nicht so hoch wie viele Leute glauben.", options: ["Moderatorin", "Friedenthal", "Nielsen"], answer: 2, teilPart: 4 },
+          { id: "h27", num: 27, type: "speaker", text: "Die Eltern machen sich Sorgen, weil die Kinder so viel auf dem Handy telefonieren.", options: ["Moderatorin", "Friedenthal", "Nielsen"], answer: 1, teilPart: 4 },
+          { id: "h28", num: 28, type: "speaker", text: "Konsum bedeutet Anerkennung.", options: ["Moderatorin", "Friedenthal", "Nielsen"], answer: 1, teilPart: 4 },
+          { id: "h29", num: 29, type: "speaker", text: "Die Eltern kaufen bestimmte Kleidungsstücke, weil die Kinder sie schön finden.", options: ["Moderatorin", "Friedenthal", "Nielsen"], answer: 2, teilPart: 4 },
+          { id: "h30", num: 30, type: "speaker", text: "Es wäre gut, die Meinung der Jugendlichen zu diesem Thema zu hören.", options: ["Moderatorin", "Friedenthal", "Nielsen"], answer: 0, teilPart: 4 }
+        ],
+        horenSections: [
+          {
+            partNumber: 1,
+            title: "Teil 1",
+            badge: "Aufgaben 1 – 10",
+            intro: "Sie hören nun fünf kurze Texte. Sie hören jeden Text zweimal. Zu jedem Text lösen Sie zwei Aufgaben. Wählen Sie bei jeder Aufgabe die richtige Lösung.",
+            hasExample: false,
+            texts: [
+              { number: 1, title: "Text 1", qIds: ["h1", "h2"] },
+              { number: 2, title: "Text 2", qIds: ["h3", "h4"] },
+              { number: 3, title: "Text 3", qIds: ["h5", "h6"] },
+              { number: 4, title: "Text 4", qIds: ["h7", "h8"] },
+              { number: 5, title: "Text 5", qIds: ["h9", "h10"] }
+            ]
+          },
+          {
+            partNumber: 2,
+            title: "Teil 2",
+            badge: "Aufgaben 11 – 15",
+            intro: "Sie hören nun einen Text. Sie hören den Text einmal. Dazu lösen Sie fünf Aufgaben. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c. Lesen Sie jetzt die Aufgaben 11 bis 15. Dazu haben Sie 60 Sekunden Zeit.",
+            context: "Du nimmst an einer Führung durch die Hamburger Kunsthalle teil.",
+            qIds: ["h11", "h12", "h13", "h14", "h15"]
+          },
+          {
+            partNumber: 3,
+            title: "Teil 3",
+            badge: "Aufgaben 16 – 22",
+            intro: "Sie hören nun ein Gespräch. Sie hören das Gespräch einmal. Dazu lösen Sie sieben Aufgaben. Wählen Sie: Sind die Aussagen Richtig oder Falsch? Lesen Sie jetzt die Aufgaben 16 bis 22. Dazu haben Sie 60 Sekunden Zeit.",
+            context: "Du stehst in der Universität vor der Mensa und hörst ein Gespräch zwischen zwei Studenten:",
+            example: {
+              num: "0",
+              text: "Kai möchte mit Pia Mittag essen.",
+              answer: "richtig"
+            },
+            qIds: ["h16", "h17", "h18", "h19", "h20", "h21", "h22"]
+          },
+          {
+            partNumber: 4,
+            title: "Teil 4",
+            badge: "Aufgaben 23 – 30",
+            intro: "Sie hören nun eine Diskussion. Sie hören die Diskussion zweimal. Dazu lösen Sie acht Aufgaben. Ordnen Sie die Aussagen zu: Wer sagt was? Lesen Sie jetzt die Aussagen 23 bis 30. Dazu haben Sie 60 Sekunden Zeit.",
+            context: "Die Moderatorin der Radiosendung „Kontrovers“ diskutiert mit Herrn Professor Friedenthal von der Universität Heidelberg und mit Frau Annelies Nielsen, Gymnasiallehrerin und Mutter von zwei Kindern im Alter von 14 und 17 Jahren. Das Thema ist heute: Sind unsere Kinder konsumsüchtig?",
+            speakers: [
+              { code: "a", name: "Moderatorin" },
+              { code: "b", name: "Friedenthal" },
+              { code: "c", name: "Nielsen" }
+            ],
+            example: {
+              num: "0",
+              text: "Jugendliche überlegen lange, bevor sie etwas kaufen.",
+              answerCode: "a",
+              answerSpeaker: "Moderatorin"
+            },
+            qIds: ["h23", "h24", "h25", "h26", "h27", "h28", "h29", "h30"]
+          }
         ]
       }
     ]
