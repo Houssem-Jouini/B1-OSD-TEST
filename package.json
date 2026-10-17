@@ -1,0 +1,20 @@
+{
+  "name": "b1-osd-exam-simulator",
+  "version": "2.0.0",
+  "description": "Interactive Goethe / ÖSD B1 Exam Simulator with Modular Test Architecture",
+  "scripts": {
+    "test": "node scripts/validate-tests.js",
+    "build:data": "node scripts/build-data.js",
+    "extract:data": "node scripts/extract-modular-tests.js",
+    "serve": "python3 -m http.server 8080"
+  },
+  "keywords": [
+    "b1",
+    "goethe",
+    "osd",
+    "german-exam",
+    "pruefungssimulation"
+  ],
+  "author": "",
+  "license": "ISC"
+}

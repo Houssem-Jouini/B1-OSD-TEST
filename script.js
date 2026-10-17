@@ -217,7 +217,7 @@ function initTestSelector() {
     select.appendChild(opt);
   });
 
-  select.addEventListener('change', (e) => {
+  select.onchange = (e) => {
     const newIdx = parseInt(e.target.value, 10);
     if (newIdx !== currentTestIndex) {
       const answeredCount = Object.values(userAnswers).filter(v => v !== undefined && v !== '').length;
@@ -230,8 +230,9 @@ function initTestSelector() {
       localStorage.removeItem(SESSION_STORAGE_KEY);
       loadModelTest(newIdx);
     }
-  });
+  };
 }
+
 
 /* ---------------- LOAD / SWITCH MODEL TEST ---------------- */
 function loadModelTest(index) {
@@ -276,7 +277,7 @@ function loadModelTest(index) {
   const brandTitle = document.getElementById('brandTitle');
   const brandSub = document.getElementById('brandSub');
   
-  if (brandBadge) brandBadge.textContent = currentTest.badge || 'B1';
+  if (brandBadge) brandBadge.textContent = 'B1';
   if (brandTitle) brandTitle.textContent = currentTest.examTitle || 'Goethe / ÖSD B1 Prüfungssimulation';
   if (brandSub) brandSub.textContent = currentTest.examSub || `Modul Lesen · 5 Teile · ${currentTest.timeTotal || 65} Minuten`;
 
@@ -3053,12 +3054,21 @@ function updateVocabToggleBtnState() {
 
   if (vocabHighlightEnabled) {
     toggleBtn.classList.add('active');
-    label.textContent = questionsLang === 'ar' ? 'المفردات: مفعل' : (questionsLang === 'fr' ? 'Vocabulaire : ON' : 'Wortschatz: AN');
+    if (window.uiLoc && typeof window.uiLoc.getVocabToggleText === 'function') {
+      label.textContent = window.uiLoc.getVocabToggleText(true);
+    } else {
+      label.textContent = questionsLang === 'ar' ? 'المفردات: مفعل' : (questionsLang === 'fr' ? 'Vocabulaire : ON' : 'Wortschatz: AN');
+    }
   } else {
     toggleBtn.classList.remove('active');
-    label.textContent = questionsLang === 'ar' ? 'المفردات: معطل' : (questionsLang === 'fr' ? 'Vocabulaire : OFF' : 'Wortschatz: AUS');
+    if (window.uiLoc && typeof window.uiLoc.getVocabToggleText === 'function') {
+      label.textContent = window.uiLoc.getVocabToggleText(false);
+    } else {
+      label.textContent = questionsLang === 'ar' ? 'المفردات: معطل' : (questionsLang === 'fr' ? 'Vocabulaire : OFF' : 'Wortschatz: AUS');
+    }
   }
 }
+window.updateVocabToggleBtnState = updateVocabToggleBtnState;
 
 function applyVocabHighlightsToCurrentTeil() {
   if (!vocabHighlightEnabled) return;
@@ -4338,13 +4348,25 @@ function updateProgress() {
   const nextBtn = document.getElementById('nextTeilBtn');
   const submitBtn = document.getElementById('submitBtn');
 
-  if (progressTxt) progressTxt.textContent = `${answered} von ${total} Aufgaben gelöst`;
+  if (progressTxt) {
+    if (window.uiLoc && typeof window.uiLoc.getProgressText === 'function') {
+      progressTxt.textContent = window.uiLoc.getProgressText(answered, total);
+    } else {
+      progressTxt.textContent = `${answered} von ${total} Aufgaben gelöst`;
+    }
+  }
   if (progressFill) progressFill.style.width = `${pct}%`;
 
   const matrixBtn = document.getElementById('matrixBtn');
   if (matrixBtn) {
     const span = matrixBtn.querySelector('span');
-    if (span) span.textContent = `Aufgaben (${total})`;
+    if (span) {
+      if (window.uiLoc && typeof window.uiLoc.getMatrixBtnText === 'function') {
+        span.textContent = window.uiLoc.getMatrixBtnText(total);
+      } else {
+        span.textContent = `Aufgaben (${total})`;
+      }
+    }
   }
 
   if (prevBtn) prevBtn.disabled = activeTeil === 1;
@@ -4353,6 +4375,7 @@ function updateProgress() {
   if (nextBtn) nextBtn.style.display = isLastTeil ? 'none' : '';
   if (submitBtn) submitBtn.style.display = isLastTeil ? '' : 'none';
 }
+window.updateProgress = updateProgress;
 
 document.getElementById('prevTeilBtn').addEventListener('click', () => {
   if (activeTeil > 1) {

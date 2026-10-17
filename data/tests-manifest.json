@@ -1,0 +1,68 @@
+[
+  {
+    "id": "modellsatz-1",
+    "title": "Modellsatz 1 — Goethe / ÖSD Original",
+    "badge": "Modellsatz 1",
+    "examTitle": "Goethe / ÖSD B1 Prüfungssimulation",
+    "examSub": "Lesen (5 Teile) & Hören (4 Teile) · Modellsatz 1",
+    "timeTotal": 65,
+    "partsCount": 6,
+    "questionsCount": 50,
+    "fileName": "data/tests/modellsatz-1.json"
+  },
+  {
+    "id": "modellsatz-2",
+    "title": "Modellsatz 2 — B1 Prüfungstraining (Set A)",
+    "badge": "Modellsatz 2",
+    "examTitle": "B1 Prüfungstraining — Set A (Training zur Prüfung Lesen & Hören)",
+    "examSub": "Lesen (5 Teile) & Hören (4 Teile) · Modellsatz 2 (PDF)",
+    "timeTotal": 105,
+    "partsCount": 6,
+    "questionsCount": 50,
+    "fileName": "data/tests/modellsatz-2.json"
+  },
+  {
+    "id": "modellsatz-3",
+    "title": "Modellsatz 3 — B1 Prüfungstraining (Set B)",
+    "badge": "Modellsatz 3",
+    "examTitle": "B1 Prüfungstraining — Set B (Training zur Prüfung Lesen)",
+    "examSub": "Modul Lesen · 5 Teile · 65 Minuten · Modellsatz 3 (PDF)",
+    "timeTotal": 65,
+    "partsCount": 5,
+    "questionsCount": 20,
+    "fileName": "data/tests/modellsatz-3.json"
+  },
+  {
+    "id": "modellsatz-4",
+    "title": "Modelltest 13 — Hueber Zertifikat B1",
+    "badge": "Modelltest 13",
+    "examTitle": "Goethe / ÖSD B1 Prüfungssimulation — Modelltest 13",
+    "examSub": "Lesen (5 Teile) & Hören (4 Teile) · Modelltest 13 (Hueber)",
+    "timeTotal": 65,
+    "partsCount": 6,
+    "questionsCount": 50,
+    "fileName": "data/tests/modellsatz-4.json"
+  },
+  {
+    "id": "modellsatz-5",
+    "title": "Modelltest 14 — Hueber Zertifikat B1",
+    "badge": "Modelltest 14",
+    "examTitle": "Goethe / ÖSD B1 Prüfungssimulation — Modelltest 14",
+    "examSub": "Lesen (5 Teile) & Hören (4 Teile) · Modelltest 14 (Hueber)",
+    "timeTotal": 65,
+    "partsCount": 6,
+    "questionsCount": 50,
+    "fileName": "data/tests/modellsatz-5.json"
+  },
+  {
+    "id": "modellsatz-6",
+    "title": "Modelltest 15 — Hueber Zertifikat B1",
+    "badge": "Modelltest 15",
+    "examTitle": "Goethe / ÖSD B1 Prüfungssimulation — Modelltest 15",
+    "examSub": "Lesen (5 Teile) & Hören (4 Teile) · Modelltest 15 (Hueber)",
+    "timeTotal": 65,
+    "partsCount": 6,
+    "questionsCount": 50,
+    "fileName": "data/tests/modellsatz-6.json"
+  }
+]
