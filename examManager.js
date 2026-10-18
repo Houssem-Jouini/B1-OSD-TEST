@@ -68,6 +68,7 @@
 
     /* ---------------- TAB 1: RENDER EXAM LIST ---------------- */
     function renderExamList() {
+      window.renderExamList = renderExamList;
       const container = document.getElementById('examListCards');
       if (!container) return;
 
@@ -88,9 +89,12 @@
       const tipRestore = lang === 'fr' ? 'Réafficher ce test' : (lang === 'en' ? 'Restore this test' : 'Test wieder einblenden');
       const tipExport = lang === 'fr' ? 'Exporter en fichier JSON' : (lang === 'en' ? 'Export as JSON file' : 'Als JSON-Datei exportieren');
 
+      const passedStore = (typeof window.getPassedExamsStore === 'function') ? window.getPassedExamsStore() : {};
+
       container.innerHTML = manifest.map((item, idx) => {
         const isCustom = item.isCustom;
         const isHidden = item.isHidden;
+        const passedInfo = passedStore[item.id];
         const tipDel = isCustom 
           ? (lang === 'fr' ? 'Supprimer définitivement l\'examen' : (lang === 'en' ? 'Permanently delete test' : 'Test unwiderruflich löschen'))
           : (lang === 'fr' ? 'Masquer l\'examen du menu' : (lang === 'en' ? 'Hide test from menu' : 'Test im Menü ausblenden'));
@@ -113,6 +117,20 @@
               <p style="font-size:12px; color:var(--text-muted); margin:0;">
                 ${item.partsCount} ${lblParts} · ${item.timeTotal} Min.
               </p>
+              ${passedInfo ? `
+                <div style="display:flex; gap:6px; margin-top:6px; flex-wrap:wrap;">
+                  ${passedInfo.lesen ? `
+                    <span style="font-size:11px; padding:2px 7px; border-radius:4px; font-weight:700; display:inline-flex; align-items:center; gap:3px; ${passedInfo.lesen.passed ? 'background:#dcfce7; color:#15803d;' : 'background:#fee2e2; color:#b91c1c;'}">
+                      ${passedInfo.lesen.passed ? '✓' : '✗'} Lesen: ${passedInfo.lesen.points}/100 P.
+                    </span>
+                  ` : ''}
+                  ${passedInfo.horen ? `
+                    <span style="font-size:11px; padding:2px 7px; border-radius:4px; font-weight:700; display:inline-flex; align-items:center; gap:3px; ${passedInfo.horen.passed ? 'background:#dcfce7; color:#15803d;' : 'background:#fee2e2; color:#b91c1c;'}">
+                      ${passedInfo.horen.passed ? '✓' : '✗'} Hören: ${passedInfo.horen.points}/100 P.
+                    </span>
+                  ` : ''}
+                </div>
+              ` : ''}
             </div>
             <div style="display:flex; align-items:center; gap:6px; flex-shrink:0;">
               ${!isHidden ? `

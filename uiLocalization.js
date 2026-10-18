@@ -63,6 +63,8 @@
       'footer.prev': '← Zurück',
       'footer.next': 'Weiter →',
       'footer.submit': 'Test abgeben',
+      'footer.submitLesen': 'Modul Lesen abgeben (100 P.)',
+      'footer.submitHoren': 'Modul Hören abgeben (100 P.)',
       'footer.progressPattern': '{answered} von {total} Aufgaben gelöst',
 
       'matrix.title': 'Prüfungsübersicht ({total} Aufgaben)',
@@ -194,6 +196,8 @@
       'footer.prev': '← Back',
       'footer.next': 'Next →',
       'footer.submit': 'Submit Exam',
+      'footer.submitLesen': 'Submit Reading (100 P.)',
+      'footer.submitHoren': 'Submit Listening (100 P.)',
       'footer.progressPattern': '{answered} of {total} tasks solved',
 
       'matrix.title': 'Exam Overview ({total} Tasks)',
@@ -325,6 +329,8 @@
       'footer.prev': '← Précédent',
       'footer.next': 'Suivant →',
       'footer.submit': 'Soumettre l\'examen',
+      'footer.submitLesen': 'Soumettre la Lecture (100 P.)',
+      'footer.submitHoren': 'Soumettre l\'Écoute (100 P.)',
       'footer.progressPattern': '{answered} sur {total} tâches résolues',
 
       'matrix.title': 'Aperçu de l\'examen ({total} tâches)',
@@ -613,7 +619,16 @@
     if (nextTeilBtn) nextTeilBtn.textContent = t('footer.next');
 
     const submitBtn = document.getElementById('submitBtn');
-    if (submitBtn) submitBtn.textContent = t('footer.submit');
+    if (submitBtn) {
+      if (typeof window.getSubmitButtonLabel === 'function') {
+        submitBtn.textContent = window.getSubmitButtonLabel();
+      } else {
+        submitBtn.textContent = t('footer.submit');
+      }
+    }
+    if (typeof window.updateFooterButtons === 'function') {
+      window.updateFooterButtons();
+    }
 
     // 5. Question Matrix Modal
     const matrixTitle = document.getElementById('matrixTitle');

@@ -16,6 +16,10 @@ const userAnswers = {};
 const flaggedQuestions = new Set();
 let reviewFilter = 'all';
 const revealedTeils = new Set();
+if (typeof window !== 'undefined') {
+  window.userAnswers = userAnswers;
+  window.flaggedQuestions = flaggedQuestions;
+}
 
 /* ---------------- MULTILINGUAL STATE ---------------- */
 let passageLang = localStorage.getItem('b1_passage_lang') || 'de'; // 'de' | 'ar' | 'fr'
@@ -32,15 +36,110 @@ let activeHighlightTool = null; // null (disabled by default) | 'yellow' | 'gree
 
 /* ---------------- LOCALSTORAGE KEYS ---------------- */
 const SESSION_STORAGE_KEY = 'b1_osd_exam_session_v1';
+const TESTS_ANSWERS_STORAGE_KEY = 'b1_tests_answers_v2';
+const PASSED_EXAMS_STORAGE_KEY = 'b1_passed_exams_v2';
+const LAST_ACTIVE_TEST_KEY = 'b1_last_active_test_id';
 const THEME_STORAGE_KEY = 'b1_exam_theme_pref';
+
+/* ---------------- PERSISTENT MEMORY & PASSED EXAMS ---------------- */
+function getPassedExamsStore() {
+  try {
+    const raw = localStorage.getItem(PASSED_EXAMS_STORAGE_KEY);
+    return raw ? JSON.parse(raw) : {};
+  } catch (e) {
+    return {};
+  }
+}
+window.getPassedExamsStore = getPassedExamsStore;
+
+function recordExamPassed(testId, moduleType, result) {
+  try {
+    const store = getPassedExamsStore();
+    if (!store[testId]) store[testId] = {};
+    store[testId][moduleType] = {
+      passed: !!result.passed,
+      score: result.score,
+      totalQuestions: result.totalQuestions,
+      points: result.points,
+      pct: result.pct,
+      date: new Date().toLocaleDateString('fr-FR', { day: '2-digit', month: '2-digit', year: 'numeric' }),
+      timestamp: Date.now()
+    };
+    localStorage.setItem(PASSED_EXAMS_STORAGE_KEY, JSON.stringify(store));
+    if (typeof initTestSelector === 'function') initTestSelector();
+    if (typeof window.renderExamList === 'function') window.renderExamList();
+  } catch (e) {
+    console.warn('[PassedExams] Failed to record:', e);
+  }
+}
+window.recordExamPassed = recordExamPassed;
+
+function getTestsAnswersStore() {
+  try {
+    const raw = localStorage.getItem(TESTS_ANSWERS_STORAGE_KEY);
+    return raw ? JSON.parse(raw) : {};
+  } catch (e) {
+    return {};
+  }
+}
+
+function restoreTestMemory(testId) {
+  try {
+    const store = getTestsAnswersStore();
+    let data = store[testId];
+    if (!data) {
+      const oldRaw = localStorage.getItem(SESSION_STORAGE_KEY);
+      if (oldRaw) {
+        try {
+          const oldData = JSON.parse(oldRaw);
+          if (oldData && oldData.testId === testId) data = oldData;
+        } catch (err) {}
+      }
+    }
+
+    Object.keys(userAnswers).forEach(k => delete userAnswers[k]);
+    flaggedQuestions.clear();
+    revealedTeils.clear();
+    sentTeileSnapshots.clear();
+    Object.keys(teilTimers).forEach(k => delete teilTimers[k]);
+
+    if (data && data.userAnswers) {
+      Object.assign(userAnswers, data.userAnswers);
+      if (Array.isArray(data.flagged)) data.flagged.forEach(f => flaggedQuestions.add(f));
+      if (Array.isArray(data.revealed)) data.revealed.forEach(r => revealedTeils.add(r));
+      if (typeof data.timeLeft === 'number' && data.timeLeft > 0) {
+        timeLeft = data.timeLeft;
+      } else {
+        timeLeft = (currentTest?.timeTotal || 65) * 60;
+      }
+      if (data.activeTeil && testData?.some(t => t.id === data.activeTeil)) {
+        activeTeil = data.activeTeil;
+      } else {
+        activeTeil = 1;
+      }
+      if (data.candidateName) {
+        const nameInput = document.getElementById('friendName');
+        if (nameInput) nameInput.value = data.candidateName;
+      }
+    } else {
+      activeTeil = 1;
+      timeLeft = (currentTest?.timeTotal || 65) * 60;
+    }
+  } catch (e) {
+    console.warn('[Memory] Failed to restore test memory:', e);
+  }
+}
+
+/* ---------------- REUSABLE UI ICONS ---------------- */
+const ICON_PIN_SVG = `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>`;
+const ICON_STAR_SVG = `<svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>`;
+const ICON_HEADPHONES_SVG = `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 18v-6a9 9 0 0 1 18 0v6"/><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"/></svg>`;
 
 /* ---------------- EMAILJS INTEGRATION ---------------- */
 const EMAILJS_SERVICE_ID = "service_553g6eb";
 const EMAILJS_TEMPLATE_ID = "template_b1q3byg";
 const EMAILJS_PUBLIC_KEY = "vWILUi2Y4Wx1pKGoB";
 
-// Cache to prevent duplicate emails for unchanged Teil snapshots:
-// Key: `${testId}_teil_${partId}`, Value: stringified JSON of answers
 const sentTeileSnapshots = new Map();
 let emailToastTimer = null;
 
@@ -124,21 +223,17 @@ function sendTeilResultsEmail(teilId) {
   const qs = allQuestionsOf(t);
   if (!qs || qs.length === 0) return;
 
-  // Check how many questions were answered in this Teil
   const answeredList = qs.filter(q => userAnswers[q.id] !== undefined && userAnswers[q.id] !== '');
   if (answeredList.length === 0) {
-    // No questions answered yet; don't send empty email
     return;
   }
 
-  // Create answers snapshot to avoid duplicate dispatches for identical answers
   const answersSnapshot = JSON.stringify(qs.map(q => ({ id: q.id, ans: userAnswers[q.id] ?? null })));
   const cacheKey = `${currentTest.id || currentTestIndex}_teil_${teilId}`;
   if (sentTeileSnapshots.get(cacheKey) === answersSnapshot) {
     return;
   }
 
-  // Calculate score for this Teil
   let teilCorrect = 0;
   qs.forEach(q => {
     const userVal = userAnswers[q.id];
@@ -172,7 +267,6 @@ function sendTeilResultsEmail(teilId) {
     answers_summary: summary
   };
 
-  // Mark as sent before/during async call to avoid race conditions
   sentTeileSnapshots.set(cacheKey, answersSnapshot);
 
   emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, templateParams)
@@ -182,7 +276,6 @@ function sendTeilResultsEmail(teilId) {
     })
     .catch((error) => {
       console.error(`[EmailJS] Failed to send email for ${t.title}:`, error);
-      // Remove from cache on error so retry is possible
       sentTeileSnapshots.delete(cacheKey);
     });
 }
@@ -203,16 +296,57 @@ function renderLangSwitcherHtml(target, currentLang) {
   `;
 }
 
+/* ---------------- SHORT TEST NAME HELPER (FOR MOBILE) ---------------- */
+function getShortTestName(t, idx) {
+  if (!t) return `Test ${(idx !== undefined ? idx + 1 : 1)}`;
+  const title = t.title || '';
+  const match = title.match(/(?:Modelltest|Modellsatz|Prüfung|Test|Satz)\s*(\d+)/i)
+    || (t.id || '').match(/(\d+)/);
+  if (match && match[1]) {
+    return `Test ${match[1]}`;
+  }
+  const letterMatch = title.match(/Set\s*([A-Za-z])/i);
+  if (letterMatch && letterMatch[1]) {
+    return `Test ${letterMatch[1].toUpperCase()}`;
+  }
+  return `Test ${(idx !== undefined ? idx + 1 : 1)}`;
+}
+
 /* ---------------- INITIALIZE TEST SELECTOR ---------------- */
 function initTestSelector() {
   const select = document.getElementById('modelTestSelect');
   if (!select) return;
   
+  const isMobile = typeof window !== 'undefined' && window.innerWidth <= 768;
+  const passedStore = getPassedExamsStore();
+
   select.innerHTML = '';
   modelTests.forEach((t, idx) => {
     const opt = document.createElement('option');
     opt.value = idx;
-    opt.textContent = t.title;
+    const testPassed = passedStore[t.id];
+    let passBadge = '';
+    if (testPassed) {
+      if (testPassed.lesen?.passed && testPassed.horen?.passed) {
+        passBadge = ' ✓✓';
+      } else if (testPassed.lesen?.passed || testPassed.horen?.passed) {
+        passBadge = ' ✓';
+      }
+    }
+
+    if (isMobile) {
+      opt.textContent = `${getShortTestName(t, idx)}${passBadge}`;
+    } else {
+      let detailSuffix = '';
+      if (testPassed) {
+        const parts = [];
+        if (testPassed.lesen) parts.push(`L: ${testPassed.lesen.points}/100 P. ${testPassed.lesen.passed ? '✓' : ''}`);
+        if (testPassed.horen) parts.push(`H: ${testPassed.horen.points}/100 P. ${testPassed.horen.passed ? '✓' : ''}`);
+        if (parts.length > 0) detailSuffix = ` · [${parts.join(' | ')}]`;
+      }
+      opt.textContent = `${t.title}${detailSuffix}`;
+    }
+    opt.title = t.title;
     if (idx === currentTestIndex) opt.selected = true;
     select.appendChild(opt);
   });
@@ -220,22 +354,31 @@ function initTestSelector() {
   select.onchange = (e) => {
     const newIdx = parseInt(e.target.value, 10);
     if (newIdx !== currentTestIndex) {
-      const answeredCount = Object.values(userAnswers).filter(v => v !== undefined && v !== '').length;
-      if (answeredCount > 0) {
-        if (!confirm('Wenn Sie den Test wechseln, werden Ihre bisherigen Antworten für den aktuellen Test zurückgesetzt. Fortfahren?')) {
-          select.value = currentTestIndex;
-          return;
-        }
-      }
-      localStorage.removeItem(SESSION_STORAGE_KEY);
+      saveSession();
       loadModelTest(newIdx);
     }
   };
-}
 
+  if (typeof window !== 'undefined' && !window._testSelectorResizeBound) {
+    window._testSelectorResizeBound = true;
+    let wasMobile = isMobile;
+    window.addEventListener('resize', () => {
+      const nowMobile = window.innerWidth <= 768;
+      if (nowMobile !== wasMobile) {
+        wasMobile = nowMobile;
+        initTestSelector();
+      }
+    });
+  }
+}
+window.initTestSelector = initTestSelector;
 
 /* ---------------- LOAD / SWITCH MODEL TEST ---------------- */
 function loadModelTest(index) {
+  if (currentTest && Object.keys(userAnswers).length > 0) {
+    saveSession();
+  }
+
   if (typeof index === 'string') {
     const foundIdx = modelTests.findIndex(m => m.id === index);
     if (foundIdx !== -1) {
@@ -253,26 +396,16 @@ function loadModelTest(index) {
   currentTest = modelTests[currentTestIndex];
   testData = currentTest.parts;
 
-  // Sync selector dropdown if needed
+  restoreTestMemory(currentTest.id);
+
   const selEl = document.getElementById('modelTestSelect');
   if (selEl && selEl.value !== String(currentTestIndex)) {
     selEl.value = currentTestIndex;
   }
 
-  // Clear answers & flags
-  Object.keys(userAnswers).forEach(k => delete userAnswers[k]);
-  flaggedQuestions.clear();
-  revealedTeils.clear();
-  sentTeileSnapshots.clear();
-  Object.keys(teilTimers).forEach(k => delete teilTimers[k]);
-  activeTeil = 1;
-
-  // Reset timer
-  timeLeft = (currentTest.timeTotal || 65) * 60;
   timerRunning = true;
   updateTimerDisplay();
 
-  // Update header text & badge
   const brandBadge = document.getElementById('brandBadge');
   const brandTitle = document.getElementById('brandTitle');
   const brandSub = document.getElementById('brandSub');
@@ -281,7 +414,6 @@ function loadModelTest(index) {
   if (brandTitle) brandTitle.textContent = currentTest.examTitle || 'Goethe / ÖSD B1 Prüfungssimulation';
   if (brandSub) brandSub.textContent = currentTest.examSub || `Modul Lesen · 5 Teile · ${currentTest.timeTotal || 65} Minuten`;
 
-  // Ensure test area is shown
   document.getElementById('resultsScreen').style.display = 'none';
   document.getElementById('tabsWrapper').style.display = 'block';
   document.getElementById('testAreaContainer').style.display = 'block';
@@ -656,7 +788,6 @@ function initHighlighter() {
       const target = e.currentTarget;
       const tool = target.dataset.tool;
 
-      // If clicked tool is already active, toggle it OFF (return to normal text selection/copy mode)
       if (activeHighlightTool === tool) {
         activeHighlightTool = null;
         target.classList.remove('active');
@@ -690,8 +821,6 @@ function initHighlighter() {
 }
 
 function handlePassageSelection() {
-  // If no highlighter tool is activated, DO NOTHING!
-  // This allows the user to select text and freely copy it (Ctrl+C, right click, etc.) without selection disappearing!
   if (!activeHighlightTool) return;
 
   const selection = window.getSelection();
@@ -735,9 +864,7 @@ function handlePassageSelection() {
     });
     range.surroundContents(mark);
     selection.removeAllRanges();
-  } catch (err) {
-    // Gracefully ignore cross-boundary selections
-  }
+  } catch (err) {}
 }
 
 /* ---------------- HELPER QUESTION ACCESSORS ---------------- */
@@ -801,7 +928,6 @@ function renderPassage(t) {
     passagePanel.setAttribute('lang', passageLang);
   }
 
-  const timeUnit = isAr ? 'دقيقة' : (passageLang === 'fr' ? 'min.' : 'Min.');
   const textLabel = isAr ? 'النص' : (passageLang === 'fr' ? 'Texte' : 'Text');
   const instructionsText = trPart?.instructions?.[passageLang] || t.instructions;
 
@@ -822,7 +948,6 @@ function renderPassage(t) {
     <div class="instruction-box">${instructionsText}</div>
   `;
 
-  // Standard articles or blog posts
   if (t.articles) {
     t.articles.forEach((a, aIdx) => {
       const trArt = trPart?.articles?.[aIdx];
@@ -838,23 +963,21 @@ function renderPassage(t) {
       if (heading) html += `<h3>${heading}</h3>`;
       if (sub) html += `<div class="article-sub">${sub}</div>`;
 
-      // Body paragraphs
       if (Array.isArray(bodyParas)) {
         bodyParas.forEach(p => html += `<p>${p}</p>`);
       }
 
-      // Sections (e.g. structured rules / notices in Teil 5)
       if (Array.isArray(a.sections)) {
         a.sections.forEach((sec, sIdx) => {
           const trSec = trArt?.sections?.[sIdx];
           const secTitle = trSec?.title?.[passageLang] || sec.title;
           const secItems = trSec?.items?.[passageLang] || sec.items;
 
-          html += `<div style="margin-top:14px; margin-bottom:10px;">`;
-          if (secTitle) html += `<h4 style="font-size:15px; font-weight:700; color:var(--text-main); margin-bottom:6px;">${secTitle}</h4>`;
+          html += `<div style="margin-top:16px; margin-bottom:12px; padding:12px 16px; background:var(--bg-card-subtle); border:1px solid var(--border); border-radius:var(--radius-md);">`;
+          if (secTitle) html += `<h4 style="font-family:var(--font-sans); font-size:15px; font-weight:800; color:var(--text-main); margin-bottom:8px;">${secTitle}</h4>`;
           if (secItems) {
-            html += `<ul style="line-height:1.55; font-size:14px; color:var(--text-main);">`;
-            secItems.forEach(it => html += `<li style="margin-bottom:4px;">${it}</li>`);
+            html += `<ul style="line-height:1.65; font-size:14.5px; color:var(--text-main); padding-left:18px;">`;
+            secItems.forEach(it => html += `<li style="margin-bottom:5px;">${it}</li>`);
             html += `</ul>`;
           }
           html += `</div>`;
@@ -868,7 +991,6 @@ function renderPassage(t) {
     });
   }
 
-  // Teil 3: Authentic Book-Styled Ads Board with Live Assignment Tracker & Translations
   if (t.adsFormatted) {
     const assignedMap = getTeil3Assignments(t);
     const assignedLabel = isAr ? 'في رقم' : (passageLang === 'fr' ? 'Dans n°' : 'In Nr.');
@@ -881,7 +1003,7 @@ function renderPassage(t) {
 
       let adContent = ad.html;
       if (trAdText) {
-        adContent = `<div class="anzeige-headline" style="font-size:14px; font-weight:700; margin-bottom:6px;">${isAr ? `إعلان ${ad.code}` : `Annonce ${ad.code}`}</div><div style="font-size:13.5px; line-height:1.5;">${trAdText}</div>`;
+        adContent = `<div class="anzeige-headline" style="font-size:14.5px; font-weight:800; margin-bottom:6px;">${isAr ? `إعلان ${ad.code}` : `Annonce ${ad.code}`}</div><div style="font-size:13.5px; line-height:1.55;">${trAdText}</div>`;
       }
 
       html += `
@@ -898,7 +1020,6 @@ function renderPassage(t) {
     html += `</div>`;
   }
 
-  // Second article batch (Teil 2)
   if (t.articles2) {
     const instr2 = trPart?.instructions2?.[passageLang] || t.instructions2;
     if (instr2) {
@@ -924,7 +1045,6 @@ function renderPassage(t) {
 
   passagePanel.innerHTML = html;
 
-  // Bind passage language switcher buttons
   passagePanel.querySelectorAll('.lang-switch-group button').forEach(btn => {
     btn.addEventListener('click', (e) => {
       e.stopPropagation();
@@ -1063,8 +1183,8 @@ function renderExplanationBoxHtml(q, userVal, isCorrect) {
           „${exp.quote}“
         </div>
         <button type="button" class="btn-pin-evidence" onclick="highlightEvidence('${qid}')">
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
-          <span>📍 ${pinBtnLabel}</span>
+          ${ICON_PIN_SVG}
+          <span>${pinBtnLabel}</span>
         </button>
       </div>
     `;
@@ -1110,7 +1230,6 @@ window.highlightEvidence = function(qid) {
   const exp = typeof getExplanation === 'function' ? getExplanation(testId, qid, questionsLang) : null;
   const quote = exp?.quote || '';
 
-  // 0. HÖREN (LISTENING): AUDIO TIMESTAMP & CARD GLOW
   if (t.isHoren || t.id === 6) {
     const card = document.getElementById('question-card-' + qid);
     const q = t.questions?.find(x => String(x.id) === String(qid));
@@ -1140,7 +1259,6 @@ window.highlightEvidence = function(qid) {
     return;
   }
 
-  // 1. TEIL 3: ADS MATCHING
   if (t.id === 3 && t.adsFormatted) {
     const q = t.questions?.find(x => String(x.id) === String(qid));
     if (!q) return;
@@ -1171,7 +1289,6 @@ window.highlightEvidence = function(qid) {
     }
   }
 
-  // 2. TEIL 4: OPINIONS / COMMENTS (Single Column View)
   if (t.id === 4 || t.letters) {
     const card = document.getElementById('question-card-' + qid);
     if (card) {
@@ -1187,11 +1304,9 @@ window.highlightEvidence = function(qid) {
     }
   }
 
-  // 3. TEIL 1, 2, 5: READING PASSAGES ON LEFT PANEL
   const passagePanel = document.getElementById('passagePanel');
   if (!passagePanel) return;
 
-  // Gather candidate text elements in passage panel
   const allElements = Array.from(passagePanel.querySelectorAll('.reading-text p, .reading-text li, .reading-text div.article-body, .reading-text h3, .reading-text h4'));
   let candidates = allElements.filter(el => {
     const txt = el.textContent.trim();
@@ -1201,7 +1316,6 @@ window.highlightEvidence = function(qid) {
   });
   if (candidates.length === 0) candidates = allElements;
 
-  // In Teil 2: split by article 1 (Q7-9) and article 2 (Q10-12)
   const qNum = parseInt(qid, 10);
   if (t.id === 2 && !isNaN(qNum)) {
     const readingBoxes = passagePanel.querySelectorAll('.reading-text');
@@ -1215,7 +1329,6 @@ window.highlightEvidence = function(qid) {
   let matchedEl = null;
   let matchedText = '';
 
-  // Tier 1: Search clean quote subphrases (>= 8 chars)
   if (quote) {
     const cleanQuote = quote.replace(/[\'\"„“»«]/g, '').trim();
     const subphrases = cleanQuote.split(/\s*[\.\,\;\:\!\?…]{1,}\s*|\s*\.{3,}\s*/)
@@ -1235,7 +1348,6 @@ window.highlightEvidence = function(qid) {
       }
       if (matchedEl) break;
 
-      // Try sliding 3-word windows
       const words = phrase.split(/\s+/).filter(w => w.length >= 3);
       if (words.length >= 3) {
         for (let i = 0; i <= words.length - 3; i++) {
@@ -1254,7 +1366,6 @@ window.highlightEvidence = function(qid) {
     }
   }
 
-  // Tier 2: Keyword scoring from question text & explanation if no exact quote match
   if (!matchedEl) {
     const qObj = (t.questions || []).concat(t.questions2 || []).find(x => String(x.id) === String(qid));
     const searchText = ((qObj?.text || '') + ' ' + (exp?.whyCorrect || '')).toLowerCase();
@@ -1279,7 +1390,6 @@ window.highlightEvidence = function(qid) {
     }
   }
 
-  // Tier 3: Positional sequential heuristic fallback
   if (!matchedEl && candidates.length > 0) {
     if (t.id === 1 && !isNaN(qNum) && qNum >= 1 && qNum <= 6) {
       const idx = Math.min(qNum - 1, candidates.length - 1);
@@ -1301,16 +1411,13 @@ window.highlightEvidence = function(qid) {
   }
 
   if (matchedEl) {
-    // Floating badge
     const badge = document.createElement('div');
     badge.className = 'evidence-badge-floating';
     badge.innerHTML = `📍 ${isAr ? `الشاهد اللغوي للسؤال ${qid}` : (isFr ? `Preuve textuelle (Question ${qid})` : `Textbeleg für Aufgabe ${qid}`)}`;
     matchedEl.parentNode.insertBefore(badge, matchedEl);
 
-    // Block highlight
     matchedEl.classList.add('evidence-glow-pulse');
 
-    // Attempt inline highlight of specific chunk if safely matched
     let inlineMark = null;
     if (matchedText && matchedText.length >= 8) {
       const elText = matchedEl.textContent;
@@ -1600,12 +1707,10 @@ function renderQuestions(t) {
     </div>
   `;
 
-  // Teil score banner when revealed
   if (isRevealed) {
     html += renderTeilScoreBannerHtml(t, qs);
   }
 
-  // Example pill
   if (t.example) {
     const trEx = trPart?.example;
     const exText = trEx?.[questionsLang]?.text || trEx?.text?.[questionsLang] || t.example.text;
@@ -1626,21 +1731,18 @@ function renderQuestions(t) {
 
   html += `<div class="question-list">`;
 
-  // Questions (Teile 1, 2, 5)
   if (t.questions && t.id !== 3) {
     t.questions.forEach(q => {
       html += renderSingleQuestionCard(q, trPart, false, isRevealed);
     });
   }
 
-  // Teil 2 second batch
   if (t.questions2) {
     t.questions2.forEach(q => {
       html += renderSingleQuestionCard(q, trPart, true, isRevealed);
     });
   }
 
-  // Teil 3 Match questions with assigned ad indicators & translations
   if (t.id === 3 && t.adsFormatted) {
     const codes = t.adsFormatted.map(a => a.code);
     const assignedMap = getTeil3Assignments(t);
@@ -1690,8 +1792,8 @@ function renderQuestions(t) {
             <span class="q-number">${q.id}</span>
             <div class="q-title">${qText} ${evalBadgeHtml}</div>
             <div style="display:flex; align-items:center; gap:4px;">
-              <button type="button" class="flag-btn pin-evidence-header-btn" onclick="highlightEvidence('${q.id}')" title="${isAr ? 'تحديد وإظهار الإعلان المطابق' : (questionsLang === 'fr' ? 'Afficher l\'annonce preuve' : 'Passende Anzeige im Text anzeigen')}">📍</button>
-              <button type="button" class="flag-btn ${isFlagged ? 'flagged' : ''}" onclick="toggleFlag(${q.id})" title="Frage vormerken">★</button>
+              <button type="button" class="flag-btn pin-evidence-header-btn" onclick="highlightEvidence('${q.id}')" title="${isAr ? 'تحديد وإظهار الإعلان المطابق' : (questionsLang === 'fr' ? 'Afficher l\'annonce preuve' : 'Passende Anzeige im Text anzeigen')}">${ICON_PIN_SVG}</button>
+              <button type="button" class="flag-btn ${isFlagged ? 'flagged' : ''}" onclick="toggleFlag(${q.id})" title="Frage vormerken">${ICON_STAR_SVG}</button>
             </div>
           </div>
           <div class="match-select-wrap">
@@ -1709,14 +1811,12 @@ function renderQuestions(t) {
 
   html += `</div>`;
 
-  // If completed and not revealed -> show completion banner!
   if (!isRevealed && isTeilComplete) {
     html += renderTeilCompletionBannerHtml(t);
   }
 
   questionsPanel.innerHTML = html;
 
-  // Bind questions language switcher buttons
   questionsPanel.querySelectorAll('.lang-switch-group button').forEach(btn => {
     btn.addEventListener('click', (e) => {
       e.stopPropagation();
@@ -1730,7 +1830,6 @@ function renderQuestions(t) {
     });
   });
 
-  // Bind radio events (only if not revealed)
   if (!isRevealed) {
     questionsPanel.querySelectorAll('input[type=radio]').forEach(inp => {
       inp.addEventListener('change', (e) => {
@@ -1748,11 +1847,11 @@ function renderQuestions(t) {
       });
     });
 
-    // Bind match select events
     questionsPanel.querySelectorAll('select.match-select').forEach(sel => {
       sel.addEventListener('change', (e) => {
         const qid = parseInt(e.target.dataset.qid, 10);
         userAnswers[qid] = e.target.value;
+        const passagePanel = document.getElementById('passagePanel');
         const prevPassageScroll = passagePanel ? passagePanel.scrollTop : 0;
         const prevQuestionsScroll = questionsPanel.scrollTop;
         const prevWin = window.scrollY;
@@ -1822,13 +1921,11 @@ function renderTeil4(t) {
     </div>
   `;
 
-  // Teil score banner when revealed
   if (isRevealed) {
     html += renderTeilScoreBannerHtml(t, qs);
   }
 
   html += `
-    <!-- Pinned Leitfrage for Teil 4 -->
     <div class="teil4-sticky-prompt">
       <div class="teil4-prompt-badge">${promptBadge}</div>
       <div class="teil4-prompt-text">${promptText}</div>
@@ -1836,7 +1933,6 @@ function renderTeil4(t) {
     </div>
   `;
 
-  // Example pill
   if (t.example) {
     const trEx = trPart?.example;
     const exWho = trEx?.who || t.example.who;
@@ -1907,8 +2003,8 @@ function renderTeil4(t) {
               <div class="author-name">${authorName} ${evalBadgeHtml}</div>
             </div>
             <div style="display:flex; align-items:center; gap:4px;">
-              <button type="button" class="flag-btn pin-evidence-header-btn" onclick="highlightEvidence('${l.id}')" title="${isAr ? 'تحديد الشاهد في التعليق' : (questionsLang === 'fr' ? 'Surligner la preuve' : 'Textstelle im Kommentar markieren')}">📍</button>
-              <button type="button" class="flag-btn ${isFlagged ? 'flagged' : ''}" onclick="toggleFlag(${l.id})" title="Aufgabe vormerken">★</button>
+              <button type="button" class="flag-btn pin-evidence-header-btn" onclick="highlightEvidence('${l.id}')" title="${isAr ? 'تحديد الشاهد في التعليق' : (questionsLang === 'fr' ? 'Surligner la preuve' : 'Textstelle im Kommentar markieren')}">${ICON_PIN_SVG}</button>
+              <button type="button" class="flag-btn ${isFlagged ? 'flagged' : ''}" onclick="toggleFlag(${l.id})" title="Aufgabe vormerken">${ICON_STAR_SVG}</button>
             </div>
           </div>
           <div class="letter-body">„${letterText}“</div>
@@ -1933,14 +2029,12 @@ function renderTeil4(t) {
 
   html += `</div>`;
 
-  // If completed and not revealed -> show completion banner!
   if (!isRevealed && isTeilComplete) {
     html += renderTeilCompletionBannerHtml(t);
   }
 
   questionsPanel.innerHTML = html;
 
-  // Bind language switcher for Teil 4
   questionsPanel.querySelectorAll('.lang-switch-group button').forEach(btn => {
     btn.addEventListener('click', (e) => {
       e.stopPropagation();
@@ -1954,7 +2048,6 @@ function renderTeil4(t) {
     });
   });
 
-  // Bind radio events for Teil 4 (only if not revealed)
   if (!isRevealed) {
     questionsPanel.querySelectorAll('input[type=radio]').forEach(inp => {
       inp.addEventListener('change', (e) => {
@@ -2073,8 +2166,8 @@ function renderSingleQuestionCard(q, trPart, isBatch2 = false, isRevealed = fals
         <span class="q-number">${q.id}</span>
         <div class="q-title">${qText} ${evalBadgeHtml}</div>
         <div style="display:flex; align-items:center; gap:4px;">
-          <button type="button" class="flag-btn pin-evidence-header-btn" onclick="highlightEvidence('${q.id}')" title="${isAr ? 'تحديد وإظهار الشاهد في النص' : (questionsLang === 'fr' ? 'Surligner la preuve' : 'Textbeleg im Text anzeigen')}">📍</button>
-          <button type="button" class="flag-btn ${isFlagged ? 'flagged' : ''}" onclick="toggleFlag(${q.id})" title="Frage vormerken">★</button>
+          <button type="button" class="flag-btn pin-evidence-header-btn" onclick="highlightEvidence('${q.id}')" title="${isAr ? 'تحديد وإظهار الشاهد في النص' : (questionsLang === 'fr' ? 'Surligner la preuve' : 'Textbeleg im Text anzeigen')}">${ICON_PIN_SVG}</button>
+          <button type="button" class="flag-btn ${isFlagged ? 'flagged' : ''}" onclick="toggleFlag(${q.id})" title="Frage vormerken">${ICON_STAR_SVG}</button>
         </div>
       </div>
       ${optsHtml}
@@ -2090,8 +2183,8 @@ window.toggleFlag = function(qid) {
   if (t && t.isHoren) {
     const card = document.getElementById(`question-card-${qid}`);
     if (card) {
-      const btn = card.querySelector('.flag-btn');
-      if (btn) btn.classList.toggle('flagged', flaggedQuestions.has(qid));
+      const btns = card.querySelectorAll('.flag-btn:not(.pin-evidence-header-btn)');
+      btns.forEach(btn => btn.classList.toggle('flagged', flaggedQuestions.has(qid)));
     }
   } else {
     renderCurrentTeil();
@@ -2130,12 +2223,12 @@ function updateChapterActiveState(currentTime) {
   const chapterTimes = (t && t.audioChapters && t.audioChapters.length)
     ? [...t.audioChapters].reverse().map((ch, revIdx) => ({ time: ch.time, idx: t.audioChapters.length - 1 - revIdx }))
     : [
-        { time: 1230, idx: 5 }, // 20:30 Teil 4
-        { time: 917, idx: 4 },  // 15:17 Teil 3
-        { time: 652, idx: 3 },  // 10:52 Teil 2
-        { time: 122, idx: 2 },  // 02:02 Teil 1
-        { time: 40, idx: 1 },   // 00:40 Beispiel
-        { time: 0, idx: 0 }     // 00:00 Einleitung
+        { time: 1230, idx: 5 },
+        { time: 917, idx: 4 },
+        { time: 652, idx: 3 },
+        { time: 122, idx: 2 },
+        { time: 40, idx: 1 },
+        { time: 0, idx: 0 }
       ];
   const matched = chapterTimes.find(ch => currentTime >= ch.time);
   const activeIdx = matched ? matched.idx : 0;
@@ -2191,7 +2284,6 @@ function initHorenAudioDeck() {
     }
   }
 
-  // Play / Pause toggle
   if (playBtn) {
     playBtn.onclick = () => {
       if (audio.paused) {
@@ -2206,7 +2298,6 @@ function initHorenAudioDeck() {
     };
   }
 
-  // -10s / +10s
   if (back10Btn) {
     back10Btn.onclick = () => {
       audio.currentTime = Math.max(0, audio.currentTime - 10);
@@ -2219,7 +2310,6 @@ function initHorenAudioDeck() {
     };
   }
 
-  // Scrubber events
   if (scrubber) {
     scrubber.addEventListener('input', () => {
       isSeeking = true;
@@ -2237,7 +2327,6 @@ function initHorenAudioDeck() {
     });
   }
 
-  // Timeupdate
   audio.ontimeupdate = () => {
     if (!isSeeking) {
       if (currentTimeEl) currentTimeEl.textContent = formatAudioTime(audio.currentTime);
@@ -2248,7 +2337,6 @@ function initHorenAudioDeck() {
     }
   };
 
-  // Loaded metadata
   audio.onloadedmetadata = () => {
     if (durationEl && audio.duration) {
       durationEl.textContent = formatAudioTime(audio.duration);
@@ -2262,14 +2350,12 @@ function initHorenAudioDeck() {
     }
   };
 
-  // Can play
   audio.oncanplay = () => {
     if (statusDot && !statusDot.classList.contains('playing')) {
       statusDot.className = 'horen-status-dot ready';
     }
   };
 
-  // Audio Play / Pause events
   audio.onplay = () => updatePlayButtonUI();
   audio.onpause = () => updatePlayButtonUI();
   audio.onended = () => {
@@ -2278,7 +2364,6 @@ function initHorenAudioDeck() {
     if (scrubber) scrubber.value = 0;
   };
 
-  // Volume slider
   if (volSlider) {
     volSlider.value = audio.volume;
     volSlider.oninput = () => {
@@ -2288,7 +2373,6 @@ function initHorenAudioDeck() {
     };
   }
 
-  // Mute button
   if (muteBtn) {
     muteBtn.onclick = () => {
       audio.muted = !audio.muted;
@@ -2296,7 +2380,6 @@ function initHorenAudioDeck() {
     };
   }
 
-  // Speed buttons
   speedBtns.forEach(btn => {
     btn.onclick = () => {
       speedBtns.forEach(b => b.classList.remove('active'));
@@ -2305,7 +2388,6 @@ function initHorenAudioDeck() {
     };
   });
 
-  // Local File Picker
   if (fileInput) {
     fileInput.onchange = (e) => {
       const file = e.target.files && e.target.files[0];
@@ -2320,7 +2402,6 @@ function initHorenAudioDeck() {
     };
   }
 
-  // Error handler
   audio.onerror = () => {
     if (statusText && !audio.src.startsWith('blob:')) {
       statusText.textContent = 'Hinweis: MP3 im Ordner audio/ ablegen oder oben auswählen.';
@@ -2335,7 +2416,6 @@ window.selectHorenAnswer = function(qid, val) {
   const t = testData.find(x => x.isHoren);
   const q = t?.questions?.find(x => x.id === qid);
 
-  // If this sub-part is already revealed, prevent answering while reviewing
   if (q && revealedTeils.has(`horen-${q.teilPart}`)) {
     return;
   }
@@ -2356,7 +2436,6 @@ window.selectHorenAnswer = function(qid, val) {
   updateProgress();
   saveSession();
 
-  // Dynamic completion check for this Hören Teil
   if (q && q.teilPart && t) {
     const partNum = q.teilPart;
     const isRevealed = revealedTeils.has(`horen-${partNum}`);
@@ -2536,7 +2615,7 @@ function renderHorenQuestionCard(q) {
   }
 
   const pinAudioBtnHtml = (isRevealed && q.audioStart !== undefined)
-    ? `<button type="button" class="flag-btn pin-evidence-header-btn" onclick="highlightEvidence('${q.id}')" title="${isAr ? 'تشغيل المقطع الصوتي المطابق' : (questionsLang === 'fr' ? 'Écouter l\'extrait audio' : 'Audio-Stelle abspielen')}">🎧</button>`
+    ? `<button type="button" class="flag-btn pin-evidence-header-btn" onclick="highlightEvidence('${q.id}')" title="${isAr ? 'تشغيل المقطع الصوتي المطابق' : (questionsLang === 'fr' ? 'Écouter l\'extrait audio' : 'Audio-Stelle abspielen')}">${ICON_HEADPHONES_SVG}</button>`
     : '';
 
   return `
@@ -2546,7 +2625,7 @@ function renderHorenQuestionCard(q) {
         <div class="q-title">${qText} ${evalBadgeHtml}</div>
         <div style="display:flex; align-items:center; gap:4px;">
           ${pinAudioBtnHtml}
-          <button type="button" class="flag-btn ${isFlagged ? 'flagged' : ''}" onclick="toggleFlag('${q.id}')" title="Aufgabe vormerken">★</button>
+          <button type="button" class="flag-btn ${isFlagged ? 'flagged' : ''}" onclick="toggleFlag('${q.id}')" title="Aufgabe vormerken">${ICON_STAR_SVG}</button>
         </div>
       </div>
       <div class="q-card-body">
@@ -2616,7 +2695,6 @@ function buildHorenTeilsHtml(t) {
     answerSpeaker: "Dana Schneider"
   };
 
-  // Status for each Teil
   const q1 = t.questions.filter(q => q.teilPart === 1);
   const q2 = t.questions.filter(q => q.teilPart === 2);
   const q3 = t.questions.filter(q => q.teilPart === 3);
@@ -2651,15 +2729,14 @@ function buildHorenTeilsHtml(t) {
           </div>
           <div class="horen-teil-header-actions">
             ${isRev1
-              ? `<button type="button" class="btn btn-xs btn-outline" onclick="hideHorenTeilSolutions(1)">${hideBtnLabel}</button>`
-              : `<button type="button" class="btn btn-xs ${isComplete1 ? 'btn-primary' : 'btn-outline'}" onclick="revealHorenTeilSolutions(1)">${revealBtnLabel}</button>`
+              ? `<button type="button" class="btn btn-sm btn-outline" onclick="hideHorenTeilSolutions(1)">${hideBtnLabel}</button>`
+              : `<button type="button" class="btn btn-sm ${isComplete1 ? 'btn-primary' : 'btn-outline'}" onclick="revealHorenTeilSolutions(1)">${revealBtnLabel}</button>`
             }
           </div>
         </div>
 
         ${isRev1 ? renderHorenTeilScoreBannerHtml(1) : ''}
 
-        <!-- Teil 1 Example Box -->
         ${sec1.hasExample === false ? '' : `
         <div class="example-box horen-example">
           <div class="example-badge">${exampleBadge} (${ex01.num} & ${ex02.num})</div>
@@ -2680,7 +2757,6 @@ function buildHorenTeilsHtml(t) {
           </div>
         </div>`}
 
-        <!-- Teil 1: 5 Texts -->
         ${[1, 2, 3, 4, 5].map(textNum => {
           const qsForText = t.questions.filter(q => q.teilPart === 1 && q.textNum === textNum);
           const labelText = isAr ? `النص ${textNum}` : (questionsLang === 'fr' ? `Texte ${textNum}` : `Text ${textNum}`);
@@ -2715,8 +2791,8 @@ function buildHorenTeilsHtml(t) {
           </div>
           <div class="horen-teil-header-actions">
             ${isRev2
-              ? `<button type="button" class="btn btn-xs btn-outline" onclick="hideHorenTeilSolutions(2)">${hideBtnLabel}</button>`
-              : `<button type="button" class="btn btn-xs ${isComplete2 ? 'btn-primary' : 'btn-outline'}" onclick="revealHorenTeilSolutions(2)">${revealBtnLabel}</button>`
+              ? `<button type="button" class="btn btn-sm btn-outline" onclick="hideHorenTeilSolutions(2)">${hideBtnLabel}</button>`
+              : `<button type="button" class="btn btn-sm ${isComplete2 ? 'btn-primary' : 'btn-outline'}" onclick="revealHorenTeilSolutions(2)">${revealBtnLabel}</button>`
             }
           </div>
         </div>
@@ -2753,8 +2829,8 @@ function buildHorenTeilsHtml(t) {
           </div>
           <div class="horen-teil-header-actions">
             ${isRev3
-              ? `<button type="button" class="btn btn-xs btn-outline" onclick="hideHorenTeilSolutions(3)">${hideBtnLabel}</button>`
-              : `<button type="button" class="btn btn-xs ${isComplete3 ? 'btn-primary' : 'btn-outline'}" onclick="revealHorenTeilSolutions(3)">${revealBtnLabel}</button>`
+              ? `<button type="button" class="btn btn-sm btn-outline" onclick="hideHorenTeilSolutions(3)">${hideBtnLabel}</button>`
+              : `<button type="button" class="btn btn-sm ${isComplete3 ? 'btn-primary' : 'btn-outline'}" onclick="revealHorenTeilSolutions(3)">${revealBtnLabel}</button>`
             }
           </div>
         </div>
@@ -2804,8 +2880,8 @@ function buildHorenTeilsHtml(t) {
           </div>
           <div class="horen-teil-header-actions">
             ${isRev4
-              ? `<button type="button" class="btn btn-xs btn-outline" onclick="hideHorenTeilSolutions(4)">${hideBtnLabel}</button>`
-              : `<button type="button" class="btn btn-xs ${isComplete4 ? 'btn-primary' : 'btn-outline'}" onclick="revealHorenTeilSolutions(4)">${revealBtnLabel}</button>`
+              ? `<button type="button" class="btn btn-sm btn-outline" onclick="hideHorenTeilSolutions(4)">${hideBtnLabel}</button>`
+              : `<button type="button" class="btn btn-sm ${isComplete4 ? 'btn-primary' : 'btn-outline'}" onclick="revealHorenTeilSolutions(4)">${revealBtnLabel}</button>`
             }
           </div>
         </div>
@@ -2876,7 +2952,6 @@ function renderHoren(t) {
   const badgeText = isAr ? '🎧 قسم الاستماع · 40 دقيقة' : (questionsLang === 'fr' ? '🎧 MODULE COMPRÉHENSION ORALE · 40 MINUTES' : '🎧 MODUL HÖREN · 40 MINUTEN');
   const mainTitleText = isAr ? 'شهادة جوته / ÖSD B1 — فهم المسموع' : (questionsLang === 'fr' ? 'Goethe / ÖSD Certificat B1 — Compréhension orale' : 'Goethe / ÖSD Zertifikat B1 — Hörverstehen');
 
-  // Check if audio deck is already mounted: preserve audio playback uninterrupted!
   const existingSticky = panel.querySelector('.horen-sticky-header');
   const existingContainer = panel.querySelector('.horen-teils-container');
 
@@ -2895,7 +2970,6 @@ function renderHoren(t) {
   }
 
   let html = `
-    <!-- Top Audio Player Card (Sticky / Top of Page) -->
     <div class="horen-sticky-header">
       <div class="horen-header-top">
         <div style="display:flex; justify-content:space-between; align-items:flex-start; gap:12px; flex-wrap:wrap;">
@@ -2908,7 +2982,6 @@ function renderHoren(t) {
         </div>
       </div>
 
-      <!-- Dedicated HTML5 Audio Deck (Strictly LTR for universal timeline scrubbing) -->
       <div class="horen-audio-deck" id="horenAudioDeck" dir="ltr">
         <div class="horen-deck-top">
           <div class="horen-deck-status">
@@ -2984,7 +3057,6 @@ function renderHoren(t) {
       </div>
     </div>
 
-    <!-- All 4 Teile Below Audio in One Page -->
     <div class="horen-teils-container">
       ${buildHorenTeilsHtml(t)}
     </div>
@@ -3033,7 +3105,6 @@ function initVocabHighlighting() {
     });
   }
 
-  // Close floating tooltip when clicking outside
   document.addEventListener('click', (e) => {
     const tooltip = document.getElementById('vocabFloatingTooltip');
     if (!tooltip || tooltip.style.display === 'none') return;
@@ -3369,23 +3440,23 @@ function renderVocabModalContent() {
   }
 
   if (statsText) {
-    statsText.textContent = `${list.length} Wort/Wörter gefunden`;
+    statsText.textContent = `${list.length} Wort/Wörter geladen`;
   }
 
   if (list.length === 0) {
     if (activeVocabTab === 'saved') {
       cardsGrid.innerHTML = `
-        <div style="grid-column: 1 / -1; text-align:center; padding: 40px 10px; color:var(--text-muted);">
+        <div style="grid-column: 1 / -1; text-align:center; padding: 48px 16px; color:var(--text-muted); background:var(--bg-card-subtle); border:1px dashed var(--border); border-radius:var(--radius-lg);">
           <div style="font-size:36px; margin-bottom:10px;">★</div>
-          <strong style="font-size:15px; color:var(--text-main);">Noch keine gemerkten Vokabeln</strong>
+          <strong style="font-size:15.5px; font-weight:800; color:var(--text-main);">Noch keine gemerkten Vokabeln</strong>
           <p style="font-size:13px; margin-top:6px;">Klicke auf den Stern bei einem Wort, um es für deine persönliche Wiederholungsliste zu speichern.</p>
         </div>
       `;
     } else {
       cardsGrid.innerHTML = `
-        <div style="grid-column: 1 / -1; text-align:center; padding: 40px 10px; color:var(--text-muted);">
+        <div style="grid-column: 1 / -1; text-align:center; padding: 48px 16px; color:var(--text-muted); background:var(--bg-card-subtle); border:1px dashed var(--border); border-radius:var(--radius-lg);">
           <div style="font-size:36px; margin-bottom:10px;">🔍</div>
-          <strong style="font-size:15px; color:var(--text-main);">Keine Vokabeln gefunden</strong>
+          <strong style="font-size:15.5px; font-weight:800; color:var(--text-main);">Keine Vokabeln gefunden</strong>
           <p style="font-size:13px; margin-top:6px;">Versuche einen anderen Suchbegriff oder wechsle zu „Alle Wörter“.</p>
         </div>
       `;
@@ -3468,9 +3539,9 @@ function renderSingleFlashcard() {
 
   if (currentFlashcardsList.length === 0) {
     container.innerHTML = `
-      <div style="text-align:center; padding: 40px 10px; color:var(--text-muted);">
+      <div style="text-align:center; padding: 48px 16px; color:var(--text-muted); background:var(--bg-card-subtle); border:1px dashed var(--border); border-radius:var(--radius-lg); width:100%;">
         <div style="font-size:36px; margin-bottom:10px;">🗂️</div>
-        <strong style="font-size:15px; color:var(--text-main);">Keine Lernkarten in dieser Auswahl</strong>
+        <strong style="font-size:15.5px; font-weight:800; color:var(--text-main);">Keine Lernkarten in dieser Auswahl</strong>
         <p style="font-size:13px; margin-top:6px;">Wähle oben „Alle Wörter“ oder markiere Wörter mit Stern (★).</p>
       </div>
     `;
@@ -3482,12 +3553,11 @@ function renderSingleFlashcard() {
 
   container.innerHTML = `
     <div class="flashcard-progress">
-      Lernkarte ${currentFlashcardIndex + 1} von ${currentFlashcardsList.length}
+      Lernkarte ${currentFlashcardIndex + 1} von${currentFlashcardsList.length}
     </div>
 
     <div class="flashcard-scene" onclick="this.querySelector('.flashcard-3d').classList.toggle('flipped')">
       <div class="flashcard-3d" id="activeFlashcard3d">
-        <!-- Front -->
         <div class="flashcard-face flashcard-front">
           <div style="display:flex; justify-content:space-between; width:100%;">
             <span class="vocab-card-level">B1</span>
@@ -3502,7 +3572,6 @@ function renderSingleFlashcard() {
           <div class="fc-flip-hint">↻ Klicken zum Umdrehen</div>
         </div>
 
-        <!-- Back -->
         <div class="flashcard-face flashcard-back">
           <div style="font-size:14px; font-weight:700; color:var(--text-main); margin-bottom:6px;">
             ${v.defDe}
@@ -3736,7 +3805,7 @@ function renderMistakesDrillView(openMistakes) {
 
   if (openMistakes.length === 0) {
     body.innerHTML = `
-      <div style="text-align:center; padding: 45px 15px; color:var(--text-muted);">
+      <div style="text-align:center; padding: 48px 16px; color:var(--text-muted); background:var(--bg-card-subtle); border:1px dashed var(--border); border-radius:var(--radius-lg);">
         <div style="font-size:42px; margin-bottom:12px;">🎉</div>
         <h4 style="font-size:18px; font-weight:800; color:var(--text-main); margin-bottom:8px;">Alle Fehler gemeistert!</h4>
         <p style="font-size:14px; max-width:440px; margin:0 auto 18px; line-height:1.5;">
@@ -3755,7 +3824,6 @@ function renderMistakesDrillView(openMistakes) {
   const m = currentDrillList[currentDrillIndex];
   const qid = m.qid;
   const q = findQuestionById(qid) || { id: qid, text: m.questionText, answer: m.correctAnswer, options: m.options };
-  const exp = typeof getExplanation === 'function' ? getExplanation(m.testId || currentTest.id, qid, questionsLang) : null;
 
   let optionsHtml = '';
   if (m.options && m.options.length > 0) {
@@ -3782,7 +3850,7 @@ function renderMistakesDrillView(openMistakes) {
         <h4 style="font-size:16px; font-weight:800; color:var(--text-main); margin-bottom:8px;">
           ${m.questionText}
         </h4>
-        <div style="font-size:12.5px; color:#dc2626; margin-bottom:12px;">
+        <div style="font-size:12.5px; color:var(--danger-text); margin-bottom:12px;">
           Frühere falsche Eingabe: <strong>${m.userAnswer}</strong>
         </div>
       </div>
@@ -3891,7 +3959,7 @@ function renderMistakesListView(allMistakes) {
 
   if (allMistakes.length === 0) {
     body.innerHTML = `
-      <div style="text-align:center; padding: 45px 15px; color:var(--text-muted);">
+      <div style="text-align:center; padding: 48px 16px; color:var(--text-muted); background:var(--bg-card-subtle); border:1px dashed var(--border); border-radius:var(--radius-lg);">
         <div style="font-size:42px; margin-bottom:12px;">📓</div>
         <h4 style="font-size:18px; font-weight:800; color:var(--text-main); margin-bottom:8px;">Fehlerheft ist noch leer</h4>
         <p style="font-size:14px; max-width:440px; margin:0 auto 18px; line-height:1.5;">
@@ -4005,7 +4073,6 @@ function initFocusReaderModal() {
     });
   }
 
-  // Font size buttons (A-, Normal, A+, A++)
   document.querySelectorAll('.reader-btn-size').forEach(btn => {
     btn.addEventListener('click', () => {
       document.querySelectorAll('.reader-btn-size').forEach(b => b.classList.remove('active'));
@@ -4018,7 +4085,6 @@ function initFocusReaderModal() {
     });
   });
 
-  // Font family toggles (Buchstil Serif vs Modern Sans)
   if (serifBtn) {
     serifBtn.addEventListener('click', () => {
       serifBtn.classList.add('active');
@@ -4042,7 +4108,6 @@ function initFocusReaderModal() {
     });
   }
 
-  // Language switcher inside reader
   const langSwitch = document.getElementById('readerLangSwitch');
   if (langSwitch) {
     langSwitch.querySelectorAll('button').forEach(btn => {
@@ -4056,11 +4121,10 @@ function initFocusReaderModal() {
   }
 }
 
-window.openFocusReaderModal = function() {
+function openFocusReaderModal() {
   const modal = document.getElementById('focusReaderModal');
   if (!modal) return;
 
-  // Sync initial language with active passage language
   focusReaderLang = (typeof passageLang !== 'undefined' && passageLang) ? passageLang : 'de';
   const langSwitch = document.getElementById('readerLangSwitch');
   if (langSwitch) {
@@ -4073,13 +4137,15 @@ window.openFocusReaderModal = function() {
 
   modal.style.display = 'flex';
   document.body.classList.add('focus-reader-active');
-};
+}
+window.openFocusReaderModal = openFocusReaderModal;
 
-window.closeFocusReaderModal = function() {
+function closeFocusReaderModal() {
   const modal = document.getElementById('focusReaderModal');
   if (modal) modal.style.display = 'none';
   document.body.classList.remove('focus-reader-active');
-};
+}
+window.closeFocusReaderModal = closeFocusReaderModal;
 
 function renderFocusReaderContent() {
   const inner = document.getElementById('focusReaderInner');
@@ -4105,7 +4171,6 @@ function renderFocusReaderContent() {
     }
   }
 
-  // Update badges
   if (teilBadge) teilBadge.textContent = t.title || `Teil ${activeTeil}`;
   if (testBadge) testBadge.textContent = currentTest?.badge || currentTest?.title || 'B1 Modellsatz';
   if (headingEl) {
@@ -4115,7 +4180,6 @@ function renderFocusReaderContent() {
   const trPart = typeof getTrPart === 'function' ? getTrPart(currentTest.id, t.id, focusReaderLang) : null;
   let html = '';
 
-  // 1. STANDARD ARTICLES (Teil 1, 2, 5)
   if (t.articles && Array.isArray(t.articles)) {
     t.articles.forEach((a, aIdx) => {
       const trArt = trPart?.articles?.[aIdx];
@@ -4159,7 +4223,6 @@ function renderFocusReaderContent() {
     });
   }
 
-  // 2. SECOND BATCH OF ARTICLES (Teil 2: Article 2)
   if (t.articles2 && Array.isArray(t.articles2)) {
     html += `<hr class="article-divider">`;
     t.articles2.forEach((a, aIdx) => {
@@ -4178,7 +4241,6 @@ function renderFocusReaderContent() {
     });
   }
 
-  // 3. TEIL 3 ADS
   if (t.adsFormatted) {
     html += `
       <div style="margin-bottom: 24px;">
@@ -4196,7 +4258,8 @@ function renderFocusReaderContent() {
       html += `
         <div class="anzeige-wrapper tag-left" style="margin-bottom:18px;">
           <div class="anzeige-letter-tag">${ad.code}</div>
-          <div class="anzeige-item" style="padding:22px; font-size:16px; line-height:1.65;">
+          <div class="anzeige-item" style="padding:22
+          <div class="anzeige-item" style="padding:22px 24px; background:var(--bg-card-subtle); border:1px solid var(--border); border-radius:12px;">
             ${adContent}
           </div>
         </div>
@@ -4205,36 +4268,266 @@ function renderFocusReaderContent() {
     html += `</div>`;
   }
 
-  // 4. TEIL 4 OPINIONS
-  if (t.letters && Array.isArray(t.letters)) {
+  if (t.id === 4 || t.letters) {
+    const promptText = trPart?.instructions?.[focusReaderLang] || t.instructions;
     html += `
-      <div style="margin-bottom: 24px;">
-        <h2>${isAr ? 'آراء القراء ومشاركاتهم' : (isFr ? 'Courrier des lecteurs & Débat' : 'Leserbriefe & Diskussionsbeiträge')}</h2>
-        <p style="color:var(--text-muted); font-size:0.95em;">${t.instructions}</p>
+      <div class="teil4-sticky-prompt" style="margin-bottom:24px;">
+        <div class="teil4-prompt-badge">${isAr ? 'السؤال الرئيسي' : (isFr ? 'Question directrice' : 'Leitfrage')}</div>
+        <div class="teil4-prompt-text">${promptText}</div>
       </div>
     `;
-    t.letters.forEach(l => {
-      const trL = trPart?.letters?.find(x => x.id === l.id);
-      const who = trL?.who?.[focusReaderLang] || l.who;
-      const text = trL?.text?.[focusReaderLang] || l.text;
-      html += `
-        <div style="background:var(--bg-card-subtle); border:1px solid var(--border); border-radius:14px; padding:22px 26px; margin-bottom:18px;">
-          <div style="font-weight:800; color:var(--primary); font-size:1.05em; margin-bottom:10px;">${who} (Aufgabe ${l.id})</div>
-          <p style="margin:0; font-size:1.05em; line-height:1.8;">„${text}“</p>
-        </div>
-      `;
-    });
+    if (Array.isArray(t.letters)) {
+      t.letters.forEach(l => {
+        const trLetter = trPart?.letters?.[String(l.id)];
+        const authorName = trLetter?.who || l.who;
+        const letterText = trLetter?.text?.[focusReaderLang] || l.text;
+        html += `
+          <div style="margin-bottom:22px; padding:18px 22px; background:var(--bg-card-subtle); border-left:4px solid var(--primary); border-radius:0 12px 12px 0;">
+            <div style="font-weight:800; font-size:0.9em; color:var(--primary); margin-bottom:6px;">${l.id}. ${authorName}</div>
+            <p style="margin:0;">„${letterText}“</p>
+          </div>
+        `;
+      });
+    }
+  }
+
+  if (t.isHoren) {
+    html += `
+      <div style="text-align:center; padding:40px 20px; color:var(--text-muted);">
+        <div style="font-size:40px; margin-bottom:12px;">🎧</div>
+        <h2>${t.title}</h2>
+        <p style="text-align:center;">${t.instructions}</p>
+      </div>
+    `;
   }
 
   inner.innerHTML = html;
 
-  // Enrich with interactive B1 vocabulary tooltips
-  if (typeof enrichContainerWithVocab === 'function') {
-    enrichContainerWithVocab(inner, activeTeil);
+  if (vocabHighlightEnabled && focusReaderLang === 'de') {
+    enrichContainerWithVocab(inner, t.id);
   }
 }
 
-/* ---------------- QUESTION MATRIX MODAL (1–30 OVERVIEW) ---------------- */
+/* ---------------- GERMAN TTS PRONUNCIATION HELPER ---------------- */
+window.speakGermanWord = function(text) {
+  if (!('speechSynthesis' in window)) return;
+  try {
+    window.speechSynthesis.cancel();
+    const utter = new SpeechSynthesisUtterance(text);
+    utter.lang = 'de-DE';
+    utter.rate = 0.92;
+    const voices = window.speechSynthesis.getVoices();
+    const deVoice = voices.find(v => v.lang && v.lang.toLowerCase().startsWith('de'));
+    if (deVoice) utter.voice = deVoice;
+    window.speechSynthesis.speak(utter);
+  } catch (e) {}
+};
+
+/* ---------------- RENDER CURRENT TEIL & LAYOUT CONTROLLER ---------------- */
+function renderCurrentTeil() {
+  const t = testData.find(x => x.id === activeTeil) || testData[0];
+  if (!t) return;
+
+  const testGrid = document.getElementById('testGrid');
+  const passagePanel = document.getElementById('passagePanel');
+  const questionsPanel = document.getElementById('questionsPanel');
+
+  renderTabs();
+
+  if (t.isHoren || t.id === 6) {
+    if (testGrid) testGrid.classList.add('single-column-grid');
+    if (passagePanel) passagePanel.style.display = 'none';
+    if (questionsPanel) questionsPanel.style.display = 'block';
+    renderHoren(t);
+  } else if (t.id === 4 || (t.letters && !t.articles)) {
+    if (testGrid) testGrid.classList.add('single-column-grid');
+    if (passagePanel) passagePanel.style.display = 'none';
+    if (questionsPanel) questionsPanel.style.display = 'block';
+    renderTeil4(t);
+  } else {
+    if (testGrid) testGrid.classList.remove('single-column-grid');
+    if (passagePanel) passagePanel.style.display = 'block';
+    if (questionsPanel) questionsPanel.style.display = 'block';
+    renderPassage(t);
+    renderQuestions(t);
+  }
+
+  applyVocabHighlightsToCurrentTeil();
+  updateProgress();
+  updateFooterButtons();
+}
+
+/* ---------------- MODULE HELPERS & FOOTER CONTROLS ---------------- */
+function isCurrentTeilHoren(teilId = activeTeil) {
+  const t = testData.find(x => x.id === teilId);
+  return !!(t && (t.isHoren || t.id === 6));
+}
+
+function getActiveModuleParts(teilId = activeTeil) {
+  const isHoren = isCurrentTeilHoren(teilId);
+  return testData.filter(t => isHoren ? (t.isHoren || t.id === 6) : (!t.isHoren && t.id !== 6));
+}
+
+function shouldShowSubmitButton(teilId = activeTeil) {
+  const currentTeilObj = testData.find(x => x.id === teilId);
+  if (!currentTeilObj) return false;
+
+  // 1. Hören module (listening): show submit button
+  if (currentTeilObj.isHoren || currentTeilObj.id === 6) {
+    return true;
+  }
+
+  // 2. Reading module: show ONLY on Teil 5 (or last reading teil if test has fewer parts)
+  if (currentTeilObj.id === 5) {
+    return true;
+  }
+  const readingParts = testData.filter(x => !x.isHoren && x.id !== 6);
+  if (readingParts.length > 0 && readingParts[readingParts.length - 1].id === teilId) {
+    return true;
+  }
+  return false;
+}
+
+function getSubmitButtonLabel(teilId = activeTeil) {
+  const currentTeilObj = testData.find(x => x.id === teilId);
+  const isHoren = !!(currentTeilObj && (currentTeilObj.isHoren || currentTeilObj.id === 6));
+  const lang = (window.uiLoc && typeof window.uiLoc.getLang === 'function') ? window.uiLoc.getLang() : 'fr';
+
+  if (isHoren) {
+    if (lang === 'de') return 'Modul Hören abgeben (100 P.)';
+    if (lang === 'en') return 'Submit Listening (100 P.)';
+    return "Soumettre l'Écoute (100 P.)";
+  } else {
+    if (lang === 'de') return 'Modul Lesen abgeben (100 P.)';
+    if (lang === 'en') return 'Submit Reading (100 P.)';
+    return 'Soumettre la Lecture (100 P.)';
+  }
+}
+window.getSubmitButtonLabel = getSubmitButtonLabel;
+window.shouldShowSubmitButton = shouldShowSubmitButton;
+window.isCurrentTeilHoren = isCurrentTeilHoren;
+window.getActiveModuleParts = getActiveModuleParts;
+
+/* ---------------- FOOTER PROGRESS & NAVIGATION BUTTONS ---------------- */
+function updateProgress() {
+  const isHoren = isCurrentTeilHoren(activeTeil);
+  const moduleParts = getActiveModuleParts(activeTeil);
+
+  let total = 0;
+  let answered = 0;
+
+  moduleParts.forEach(t => {
+    const qs = allQuestionsOf(t);
+    total += qs.length;
+    answered += qs.filter(q => userAnswers[q.id] !== undefined && userAnswers[q.id] !== '').length;
+  });
+
+  const pct = total > 0 ? Math.round((answered / total) * 100) : 0;
+  const fillEl = document.getElementById('progressFill');
+  const txtEl = document.getElementById('progressTxt');
+
+  if (fillEl) fillEl.style.width = `${pct}%`;
+  if (txtEl) {
+    const modLabel = isHoren ? 'Écoute' : 'Lecture';
+    if (window.uiLoc && typeof window.uiLoc.getProgressText === 'function') {
+      txtEl.textContent = `${window.uiLoc.getProgressText(answered, total)} (${modLabel})`;
+    } else {
+      txtEl.textContent = `${answered} sur ${total} résolues (${modLabel} · ${pct}%)`;
+    }
+  }
+}
+
+function updateFooterButtons() {
+  const prevBtn = document.getElementById('prevTeilBtn');
+  const nextBtn = document.getElementById('nextTeilBtn');
+  const submitBtn = document.getElementById('submitBtn');
+
+  const currentIdx = testData.findIndex(x => x.id === activeTeil);
+  const isFirst = currentIdx <= 0;
+  const isLast = currentIdx >= testData.length - 1;
+
+  if (prevBtn) {
+    prevBtn.disabled = isFirst;
+    prevBtn.style.opacity = isFirst ? '0.45' : '1';
+    prevBtn.style.pointerEvents = isFirst ? 'none' : 'auto';
+  }
+
+  if (nextBtn) {
+    nextBtn.style.display = isLast ? 'none' : 'inline-flex';
+  }
+
+  if (submitBtn) {
+    if (shouldShowSubmitButton(activeTeil)) {
+      submitBtn.style.display = 'inline-flex';
+      submitBtn.textContent = getSubmitButtonLabel(activeTeil);
+    } else {
+      submitBtn.style.display = 'none';
+    }
+  }
+}
+window.updateFooterButtons = updateFooterButtons;
+
+function initFooterNavigation() {
+  const prevBtn = document.getElementById('prevTeilBtn');
+  const nextBtn = document.getElementById('nextTeilBtn');
+  const submitBtn = document.getElementById('submitBtn');
+
+  if (prevBtn) {
+    prevBtn.addEventListener('click', () => {
+      const idx = testData.findIndex(x => x.id === activeTeil);
+      if (idx > 0) {
+        sendTeilResultsEmail(activeTeil);
+        activeTeil = testData[idx - 1].id;
+        renderCurrentTeil();
+        saveSession();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
+    });
+  }
+
+  if (nextBtn) {
+    nextBtn.addEventListener('click', () => {
+      const idx = testData.findIndex(x => x.id === activeTeil);
+      if (idx !== -1 && idx < testData.length - 1) {
+        sendTeilResultsEmail(activeTeil);
+        activeTeil = testData[idx + 1].id;
+        renderCurrentTeil();
+        saveSession();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
+    });
+  }
+
+  if (submitBtn) {
+    submitBtn.addEventListener('click', () => {
+      const isHoren = isCurrentTeilHoren(activeTeil);
+      const targetModule = isHoren ? 'horen' : 'lesen';
+      const moduleParts = getActiveModuleParts(activeTeil);
+
+      let total = 0;
+      let answered = 0;
+      moduleParts.forEach(t => {
+        const qs = allQuestionsOf(t);
+        total += qs.length;
+        answered += qs.filter(q => userAnswers[q.id] !== undefined && userAnswers[q.id] !== '').length;
+      });
+
+      const unanswered = total - answered;
+      if (unanswered > 0) {
+        const modName = isHoren ? 'Écoute (Hören)' : 'Lecture (Lesen)';
+        const msg = questionsLang === 'fr'
+          ? `Il reste encore ${unanswered} question(s) sans réponse dans le module ${modName}. Voulez-vous vraiment soumettre l'examen (100 P.) ?`
+          : `Es sind noch ${unanswered} Aufgabe(n) im Modul ${isHoren ? 'Hören' : 'Lesen'} unbeantwortet. Möchten Sie das Modul jetzt abgeben (100 Punkte)?`;
+        if (!confirm(msg)) return;
+      }
+
+      sendTeilResultsEmail(activeTeil);
+      showResults(targetModule);
+    });
+  }
+}
+
+/* ---------------- QUESTION MATRIX MODAL ---------------- */
 function initMatrixModal() {
   const matrixBtn = document.getElementById('matrixBtn');
   const closeBtn = document.getElementById('matrixCloseBtn');
@@ -4265,506 +4558,377 @@ function closeMatrixModal() {
 }
 
 function renderMatrixGrid() {
-  const gridContainer = document.getElementById('matrixGrid');
-  const statsText = document.getElementById('matrixStatsText');
-  if (!gridContainer) return;
-  gridContainer.innerHTML = '';
+  const grid = document.getElementById('matrixGrid');
+  const stats = document.getElementById('matrixStatsText');
+  if (!grid) return;
 
-  let totalAnswered = 0;
-  let totalCount = 0;
+  let total = 0;
+  let answered = 0;
 
-  testData.forEach(t => {
+  grid.innerHTML = testData.map(t => {
     const qs = allQuestionsOf(t);
-    const teilAnsCount = qs.filter(q => userAnswers[q.id] !== undefined && userAnswers[q.id] !== '').length;
-    totalAnswered += teilAnsCount;
-    totalCount += qs.length;
+    total += qs.length;
+    const partAns = qs.filter(q => userAnswers[q.id] !== undefined && userAnswers[q.id] !== '').length;
+    answered += partAns;
 
-    const section = document.createElement('div');
-    section.className = 'matrix-part-section';
-    section.innerHTML = `
-      <div class="matrix-part-header">
-        <div class="matrix-part-title">${t.title}</div>
-        <div class="matrix-part-count">${teilAnsCount} von ${qs.length} gelöst</div>
-      </div>
-      <div class="matrix-items-grid" id="matrix-grid-teil-${t.id}"></div>
-    `;
-
-    const itemsGrid = section.querySelector(`#matrix-grid-teil-${t.id}`);
-    qs.forEach(q => {
+    const btnsHtml = qs.map(q => {
       const isAns = userAnswers[q.id] !== undefined && userAnswers[q.id] !== '';
-      const isFlg = flaggedQuestions.has(q.id);
+      const isFlag = flaggedQuestions.has(q.id);
+      const isCurrentTeil = t.id === activeTeil;
+      const displayNum = q.num || q.id;
 
-      const qBtn = document.createElement('button');
-      qBtn.className = `matrix-q-btn ${isAns ? 'answered' : ''} ${isFlg ? 'flagged' : ''} ${t.id === activeTeil ? 'active-current' : ''}`;
-      qBtn.textContent = q.num || q.id;
-      qBtn.title = `Aufgabe ${q.num || q.id} (${isAns ? 'Beantwortet' : 'Offen'}${isFlg ? ', Gemerkt ★' : ''})`;
+      return `
+        <button type="button" class="matrix-q-btn ${isAns ? 'answered' : ''} ${isFlag ? 'flagged' : ''} ${isCurrentTeil ? 'active-current' : ''}" onclick="jumpToQuestion(${t.id}, '${q.id}')">
+          ${displayNum}
+        </button>
+      `;
+    }).join('');
 
-      qBtn.onclick = () => {
-        closeMatrixModal();
-        jumpToQuestion(t.id, q.id);
-      };
+    return `
+      <div class="matrix-part-section">
+        <div class="matrix-part-header">
+          <span class="matrix-part-title">${t.title}</span>
+          <span class="matrix-part-count">${partAns} / ${qs.length}</span>
+        </div>
+        <div class="matrix-items-grid">
+          ${btnsHtml}
+        </div>
+      </div>
+    `;
+  }).join('');
 
-      itemsGrid.appendChild(qBtn);
-    });
-
-    gridContainer.appendChild(section);
-  });
-
-  const modalTitle = document.getElementById('matrixTitle');
-  if (modalTitle) {
-    modalTitle.textContent = `Prüfungsübersicht (${totalCount} Aufgaben)`;
-  }
-
-  if (statsText) {
-    statsText.textContent = `${totalAnswered} von ${totalCount} Aufgaben gelöst`;
+  if (stats) {
+    stats.textContent = `${answered} von ${total} gelöst`;
   }
 }
 
 function jumpToQuestion(teilId, qid) {
+  closeMatrixModal();
   if (activeTeil !== teilId) {
     sendTeilResultsEmail(activeTeil);
     activeTeil = teilId;
     renderCurrentTeil();
+    saveSession();
   }
   setTimeout(() => {
-    const el = document.getElementById(`question-card-${qid}`);
-    if (el) {
-      el.scrollIntoView({ behavior: 'smooth', block: 'center' });
-      el.classList.add('highlight-jump');
-      setTimeout(() => el.classList.remove('highlight-jump'), 1300);
+    const card = document.getElementById(`question-card-${qid}`);
+    if (card) {
+      card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      card.classList.remove('highlight-jump');
+      void card.offsetWidth;
+      card.classList.add('highlight-jump');
     }
   }, 80);
 }
+window.jumpToQuestion = jumpToQuestion;
 
-/* ---------------- NAVIGATION & PROGRESS ---------------- */
-function updateProgress() {
-  const total = getTotalQuestionsCount();
-  const answered = Object.values(userAnswers).filter(v => v !== undefined && v !== '').length;
-  const pct = total > 0 ? Math.round((answered / total) * 100) : 0;
-
-  const progressTxt = document.getElementById('progressTxt');
-  const progressFill = document.getElementById('progressFill');
-  const prevBtn = document.getElementById('prevTeilBtn');
-  const nextBtn = document.getElementById('nextTeilBtn');
-  const submitBtn = document.getElementById('submitBtn');
-
-  if (progressTxt) {
-    if (window.uiLoc && typeof window.uiLoc.getProgressText === 'function') {
-      progressTxt.textContent = window.uiLoc.getProgressText(answered, total);
-    } else {
-      progressTxt.textContent = `${answered} von ${total} Aufgaben gelöst`;
-    }
+/* ---------------- RESULTS & EVALUATION SCREEN ---------------- */
+function formatAnswerDisplay(q, val) {
+  if (val === undefined || val === null || val === '') return 'Keine Antwort';
+  if (q.type === 'mcq' && Array.isArray(q.options)) {
+    const idx = parseInt(val, 10);
+    const letter = ['a', 'b', 'c'][idx] || val;
+    const text = q.options[idx] || '';
+    return text ? `${letter}) ${text}` : String(val);
   }
-  if (progressFill) progressFill.style.width = `${pct}%`;
-
-  const matrixBtn = document.getElementById('matrixBtn');
-  if (matrixBtn) {
-    const span = matrixBtn.querySelector('span');
-    if (span) {
-      if (window.uiLoc && typeof window.uiLoc.getMatrixBtnText === 'function') {
-        span.textContent = window.uiLoc.getMatrixBtnText(total);
-      } else {
-        span.textContent = `Aufgaben (${total})`;
-      }
-    }
+  if (q.type === 'speaker' && Array.isArray(q.options)) {
+    const idx = parseInt(val, 10);
+    const letter = ['a', 'b', 'c'][idx] || val;
+    const text = q.options[idx] || '';
+    return text ? `${letter}) ${text}` : String(val);
   }
-
-  if (prevBtn) prevBtn.disabled = activeTeil === 1;
-
-  const isLastTeil = activeTeil === testData.length;
-  if (nextBtn) nextBtn.style.display = isLastTeil ? 'none' : '';
-  if (submitBtn) submitBtn.style.display = isLastTeil ? '' : 'none';
-}
-window.updateProgress = updateProgress;
-
-document.getElementById('prevTeilBtn').addEventListener('click', () => {
-  if (activeTeil > 1) {
-    sendTeilResultsEmail(activeTeil);
-    activeTeil--;
-    renderCurrentTeil();
-    saveSession();
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+  if (q.type === 'tf') {
+    return String(val).toLowerCase() === 'richtig' ? 'Richtig' : 'Falsch';
   }
-});
-
-document.getElementById('nextTeilBtn').addEventListener('click', () => {
-  sendTeilResultsEmail(activeTeil);
-  if (activeTeil < testData.length) {
-    activeTeil++;
-    renderCurrentTeil();
-    saveSession();
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  } else {
-    document.getElementById('submitBtn').click();
+  if (q.type === 'letter') {
+    return String(val).toLowerCase() === 'ja' ? 'Ja' : 'Nein';
   }
-});
-
-function renderCurrentTeil() {
-  renderTabs();
-  const t = testData.find(x => x.id === activeTeil);
-  const testGrid = document.getElementById('testGrid');
-  const passagePanel = document.getElementById('passagePanel');
-
-  if (!t) return;
-
-  if (t.isHoren) {
-    if (testGrid) testGrid.classList.add('single-column-grid');
-    if (passagePanel) {
-      passagePanel.style.display = 'none';
-      passagePanel.innerHTML = '';
-    }
-    renderHoren(t);
-  } else if (t.id === 4 || t.letters) {
-    if (testGrid) testGrid.classList.add('single-column-grid');
-    if (passagePanel) {
-      passagePanel.style.display = 'none';
-      passagePanel.innerHTML = '';
-    }
-    renderTeil4(t);
-  } else {
-    if (testGrid) testGrid.classList.remove('single-column-grid');
-    if (passagePanel) passagePanel.style.display = 'block';
-    renderPassage(t);
-    renderQuestions(t);
-  }
-  updateProgress();
-  if (typeof applyVocabHighlightsToCurrentTeil === 'function') {
-    applyVocabHighlightsToCurrentTeil();
-  }
+  return String(val).toUpperCase();
 }
 
-/* ---------------- SCORING & RESULTS ---------------- */
-document.getElementById('submitBtn').addEventListener('click', () => {
-  const total = getTotalQuestionsCount();
-  const answered = Object.values(userAnswers).filter(v => v !== undefined && v !== '').length;
+let lastEvaluatedModule = 'lesen';
 
-  if (answered < total) {
-    const unans = total - answered;
-    if (!confirm(`Sie haben noch ${unans} unbeantwortete Aufgabe(n). Möchten Sie den Test wirklich abgeben?`)) {
-      return;
-    }
+function showResults(moduleType) {
+  if (!moduleType) {
+    moduleType = isCurrentTeilHoren(activeTeil) ? 'horen' : 'lesen';
   }
-  // Transmit results for any answered Teil that hasn't been sent yet
-  testData.forEach(t => sendTeilResultsEmail(t.id));
-  showResults();
-});
+  lastEvaluatedModule = moduleType;
 
-function showResults() {
   timerRunning = false;
-  localStorage.removeItem(SESSION_STORAGE_KEY);
+  syncAllMistakes();
 
   document.getElementById('tabsWrapper').style.display = 'none';
   document.getElementById('testAreaContainer').style.display = 'none';
   document.getElementById('footerBar').style.display = 'none';
-  document.getElementById('candidateBanner').style.display = 'none';
-  const resumeBanner = document.getElementById('sessionResumeBanner');
-  if (resumeBanner) resumeBanner.style.display = 'none';
+  const resScreen = document.getElementById('resultsScreen');
+  if (resScreen) resScreen.style.display = 'block';
 
-  const resultsScreen = document.getElementById('resultsScreen');
-  resultsScreen.style.display = 'block';
-  window.scrollTo({ top: 0, behavior: 'smooth' });
+  const isHoren = moduleType === 'horen';
+  const moduleParts = testData.filter(t => isHoren ? (t.isHoren || t.id === 6) : (!t.isHoren && t.id !== 6));
 
   let totalCorrect = 0;
-  const totalCount = getTotalQuestionsCount();
-  const teilScoresGrid = document.getElementById('teilScoresGrid');
-  teilScoresGrid.innerHTML = '';
+  let totalQuestions = 0;
 
-  const flatQuestions = [];
-
-  testData.forEach(t => {
-    let qs = [];
-    if (t.questions) qs = qs.concat(t.questions.map(q => ({ ...q, kind: q.type, teilTitle: t.title })));
-    if (t.questions2) qs = qs.concat(t.questions2.map(q => ({ ...q, kind: q.type, teilTitle: t.title })));
-    if (t.letters) qs = qs.concat(t.letters.map(l => ({ id: l.id, text: `Kommentar von ${l.who}`, answer: l.answer, kind: 'letter', teilTitle: t.title })));
-
-    let teilCorrect = 0;
+  const teilBreakdownHtml = moduleParts.map(t => {
+    const qs = allQuestionsOf(t);
+    let partCorrect = 0;
     qs.forEach(q => {
-      const userVal = userAnswers[q.id];
-      const isCorrect = userVal !== undefined && isMatchOrTfCorrect(userVal, q.answer);
-      if (isCorrect) teilCorrect++;
-      flatQuestions.push({ ...q, userVal, isCorrect });
+      if (isMatchOrTfCorrect(userAnswers[q.id], q.answer)) {
+        partCorrect++;
+      }
     });
+    totalCorrect += partCorrect;
+    totalQuestions += qs.length;
 
-    totalCorrect += teilCorrect;
-
-    const card = document.createElement('div');
-    card.className = 'teil-score-card';
-    let breakdownHtml = '';
-    if (t.isHoren) {
-      const t1 = qs.filter(q => q.teilPart === 1);
-      const t2 = qs.filter(q => q.teilPart === 2);
-      const t3 = qs.filter(q => q.teilPart === 3);
-      const t4 = qs.filter(q => q.teilPart === 4);
-      const c1 = t1.filter(q => q.isCorrect).length;
-      const c2 = t2.filter(q => q.isCorrect).length;
-      const c3 = t3.filter(q => q.isCorrect).length;
-      const c4 = t4.filter(q => q.isCorrect).length;
-      breakdownHtml = `
-        <div style="font-size:11.5px; color:var(--text-muted); margin-top:5px; line-height:1.4;">
-          Teil 1: ${c1}/${t1.length} · Teil 2: ${c2}/${t2.length}<br>
-          Teil 3: ${c3}/${t3.length} · Teil 4: ${c4}/${t4.length}
-        </div>
-      `;
-    }
-    card.innerHTML = `
-      <div class="title">${t.title}</div>
-      <div class="val">${teilCorrect} <span style="font-size:14px; font-weight:500; color:var(--text-muted);">/ ${qs.length}</span></div>
-      ${breakdownHtml}
-    `;
-    teilScoresGrid.appendChild(card);
-  });
-
-  if (typeof syncAllMistakes === 'function') {
-    syncAllMistakes();
-  }
-
-  const pct = totalCount > 0 ? Math.round((totalCorrect / totalCount) * 100) : 0;
-  const isPassed = pct >= 60;
-
-  const scoreCircle = document.getElementById('scoreCircle');
-  scoreCircle.style.setProperty('--score-pct', pct);
-  scoreCircle.style.setProperty('--score-color', isPassed ? 'var(--success)' : 'var(--danger)');
-
-  document.getElementById('resTotalPts').textContent = `${totalCorrect}/${totalCount}`;
-  document.getElementById('resTotalPct').textContent = `${pct}%`;
-
-  const statusTag = document.getElementById('statusTag');
-  statusTag.textContent = isPassed ? 'BESTANDEN (≥ 60%)' : 'NICHT BESTANDEN (< 60%)';
-  statusTag.className = `status-tag ${isPassed ? 'pass' : 'fail'}`;
-
-  const name = document.getElementById('friendName')?.value?.trim() || 'Sirin';
-  document.getElementById('candidateCongrats').textContent =
-    `Auswertung für ${name} · ${isPassed ? 'Herzlichen Glückwunsch zu diesem B1-Ergebnis!' : 'Gute Übung – wiederholen Sie die Abschnitte mit Fehlern noch einmal.'}`;
-
-  window._allReviewQuestions = flatQuestions;
-  window._copySummary = generateTextSummary(name, totalCorrect, totalCount, pct, isPassed, flatQuestions);
-  renderReviewList(flatQuestions);
-}
-
-function renderReviewList(questions) {
-  const container = document.getElementById('reviewItemsList');
-  if (!container) return;
-  container.innerHTML = '';
-
-  const isAr = questionsLang === 'ar';
-  const isFr = questionsLang === 'fr';
-  const toggleExpText = isAr ? 'إظهار الشرح' : (isFr ? 'Afficher l\'explication' : 'Erklärung anzeigen');
-
-  const filtered = questions.filter(q => {
-    if (reviewFilter === 'correct') return q.isCorrect;
-    if (reviewFilter === 'incorrect') return !q.isCorrect;
-    return true;
-  });
-
-  if (filtered.length === 0) {
-    container.innerHTML = `<div style="text-align:center; padding:24px; color:var(--text-muted);">${isAr ? 'لا توجد أسئلة في هذا التصنيف.' : (isFr ? 'Aucune question dans cette catégorie.' : 'Keine Aufgaben in dieser Kategorie.')}</div>`;
-    return;
-  }
-
-  filtered.forEach(q => {
-    const item = document.createElement('div');
-    item.className = `review-item ${q.isCorrect ? 'correct' : 'incorrect'}`;
-
-    const userDisplay = formatAnswerDisplay(q, q.userVal);
-    const correctDisplay = formatAnswerDisplay(q, q.answer);
-    const yourAnsLabel = isAr ? 'إجابتكِ:' : (isFr ? 'Votre réponse :' : 'Ihre Antwort:');
-    const correctSolLabel = isAr ? 'الحل الصحيح:' : (isFr ? 'Bonne réponse :' : 'Richtige Lösung:');
-
-    item.innerHTML = `
-      <div class="review-badge">${q.isCorrect ? '✓' : '✗'}</div>
-      <div class="review-content">
-        <div class="review-qtitle">${q.num ? `Aufgabe ${q.num}: ` : `${q.id}. `}${q.text} <span style="font-size:11px; font-weight:600; color:var(--text-muted); margin-left:6px;">(${q.teilTitle}${q.teilPart ? ` · Teil ${q.teilPart}` : ''})</span></div>
-        <div class="review-answers">
-          ${yourAnsLabel} <span class="${q.isCorrect ? 'ans-correct' : 'ans-wrong'}">${userDisplay}</span>
-          ${!q.isCorrect ? ` &nbsp;·&nbsp; ${correctSolLabel} <span class="ans-correct">${correctDisplay}</span>` : ''}
-        </div>
-        <button type="button" class="btn-toggle-explanation" onclick="toggleReviewExplanation('${q.id}')">
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 18h6"/><path d="M10 22h4"/><path d="M15.09 14c.18-.98.65-1.74 1.41-2.5A4.65 4.65 0 0 0 18 8 6 6 0 0 0 6 8c0 1 .23 2.23 1.5 3.5A4.61 4.61 0 0 1 8.91 14"/></svg>
-          <span>${toggleExpText}</span>
-        </button>
-        <div id="review-exp-${q.id}" style="display:none; margin-top:8px;">
-          ${renderExplanationBoxHtml(q, q.userVal, q.isCorrect)}
-        </div>
+    const partPct = qs.length > 0 ? Math.round((partCorrect / qs.length) * 100) : 0;
+    return `
+      <div class="teil-score-card">
+        <div class="title">${t.title}</div>
+        <div class="val">${partCorrect} / ${qs.length}</div>
+        <div style="font-size:12px; color:var(--text-muted); margin-top:4px; font-weight:600;">${partPct}%</div>
       </div>
     `;
-    container.appendChild(item);
+  }).join('');
+
+  // Official Goethe / ÖSD Standard: Lesen and Hören are each scored out of 100 Points independently
+  const points = totalQuestions > 0 ? Math.round((totalCorrect / totalQuestions) * 100) : 0;
+  const pct = points;
+  const passed = points >= 60;
+
+  // Record in persistent storage
+  recordExamPassed(currentTest.id, moduleType, {
+    passed,
+    score: totalCorrect,
+    totalQuestions,
+    points,
+    pct
   });
+
+  const scoreCircle = document.getElementById('scoreCircle');
+  const resTotalPts = document.getElementById('resTotalPts');
+  const resTotalPct = document.getElementById('resTotalPct');
+  const statusTag = document.getElementById('statusTag');
+  const congratsEl = document.getElementById('candidateCongrats');
+  const teilGrid = document.getElementById('teilScoresGrid');
+  const moduleBadge = document.getElementById('resModuleBadge');
+
+  if (moduleBadge) {
+    moduleBadge.textContent = isHoren ? '🎧 MODUL HÖREN (ÉCOUTE) · 100 PUNKTE' : '📖 MODUL LESEN (LECTURE) · 100 PUNKTE';
+    moduleBadge.style.display = 'inline-block';
+  }
+
+  if (scoreCircle) {
+    scoreCircle.style.setProperty('--score-color', passed ? 'var(--success)' : 'var(--danger)');
+    scoreCircle.style.setProperty('--score-pct', pct);
+  }
+  if (resTotalPts) resTotalPts.textContent = `${points} / 100 P.`;
+  if (resTotalPct) resTotalPct.textContent = `${totalCorrect}/${totalQuestions} gelöst (${pct}%)`;
+
+  if (statusTag) {
+    statusTag.className = `status-tag ${passed ? 'pass' : 'fail'}`;
+    statusTag.textContent = passed ? 'BESTANDEN (≥ 60/100 P.)' : 'NICHT BESTANDEN (< 60/100 P.)';
+  }
+
+  const candidateName = document.getElementById('friendName')?.value?.trim() || 'Sirin';
+  const modTitle = isHoren ? 'Modul Hören' : 'Modul Lesen';
+  if (congratsEl) {
+    congratsEl.textContent = passed
+      ? `Herzlichen Glückwunsch, ${candidateName}! Du hast das ${modTitle} (${currentTest.title}) mit ${points}/100 Punkten erfolgreich bestanden!`
+      : `Kopf hoch, ${candidateName}! Im ${modTitle} hast du ${points}/100 Punkte erreicht (mindestens 60 erforderlich). Schau dir die Fehler im Fehlerheft an.`;
+  }
+
+  if (teilGrid) {
+    teilGrid.innerHTML = teilBreakdownHtml;
+  }
+
+  // Update dynamic action buttons
+  const backBtn = document.getElementById('btnBackToExam');
+  if (backBtn) {
+    backBtn.textContent = '← Zurück zur Prüfung';
+  }
+
+  const switchBtn = document.getElementById('btnSwitchModule');
+  const hasHoren = testData.some(t => t.isHoren || t.id === 6);
+  if (switchBtn) {
+    if (!isHoren && hasHoren) {
+      switchBtn.style.display = 'inline-flex';
+      switchBtn.textContent = 'Weiter zum Modul Hören (Écoute) →';
+    } else if (isHoren) {
+      switchBtn.style.display = 'inline-flex';
+      switchBtn.textContent = '← Zurück zum Modul Lesen (Lecture)';
+    } else {
+      switchBtn.style.display = 'none';
+    }
+  }
+
+  const restartBtn = document.getElementById('restartBtn');
+  if (restartBtn) {
+    restartBtn.textContent = isHoren ? 'Modul Hören neu starten' : 'Modul Lesen neu starten';
+  }
+
+  renderReviewList(moduleType);
+  window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
-function formatAnswerDisplay(q, val) {
-  if (val === undefined || val === '') return '– (Keine Antwort)';
-  const kind = q.kind || q.type;
-  if (kind === 'mcq' || kind === 'speaker') {
-    const letters = ['a', 'b', 'c'];
-    const idx = typeof val === 'number' ? val : parseInt(val, 10);
-    const letter = !isNaN(idx) && letters[idx] !== undefined ? letters[idx] : val;
-    const optText = !isNaN(idx) && q.options && q.options[idx] !== undefined ? q.options[idx] : '';
-    return optText ? `${letter}) ${optText}` : `${letter}`;
-  }
-  if (kind === 'letter') {
-    if (String(val).toLowerCase() === 'ja') return 'Ja';
-    if (String(val).toLowerCase() === 'nein') return 'Nein';
-    return val;
-  }
-  if (kind === 'tf' || String(val).toLowerCase() === 'richtig' || String(val).toLowerCase() === 'falsch') {
-    if (String(val).toLowerCase() === 'richtig') return 'Richtig';
-    if (String(val).toLowerCase() === 'falsch') return 'Falsch';
-  }
-  if (kind === 'match') {
-    return String(val).toUpperCase() === 'X' ? 'X (Keine Anzeige passt)' : `Anzeige ${val}`;
-  }
-  return val;
+function renderReviewList(moduleType = lastEvaluatedModule) {
+  const listEl = document.getElementById('reviewItemsList');
+  if (!listEl) return;
+
+  const isHoren = moduleType === 'horen';
+  const moduleParts = testData.filter(t => isHoren ? (t.isHoren || t.id === 6) : (!t.isHoren && t.id !== 6));
+
+  let itemsHtml = '';
+  moduleParts.forEach(t => {
+    const qs = allQuestionsOf(t);
+    qs.forEach(q => {
+      const userVal = userAnswers[q.id];
+      const isCorrect = isMatchOrTfCorrect(userVal, q.answer);
+
+      if (reviewFilter === 'correct' && !isCorrect) return;
+      if (reviewFilter === 'incorrect' && isCorrect) return;
+
+      const userStr = formatAnswerDisplay(q, userVal);
+      const corrStr = formatAnswerDisplay(q, q.answer);
+      const expHtml = renderExplanationBoxHtml(q, userVal, isCorrect);
+      const displayNum = q.num || q.id;
+
+      itemsHtml += `
+        <div class="review-item ${isCorrect ? 'correct' : 'incorrect'}">
+          <div class="review-badge">${isCorrect ? '✓' : '✗'}</div>
+          <div class="review-content">
+            <div class="review-qtitle">${t.title} · Aufgabe ${displayNum}: ${q.text || ''}</div>
+            <div class="review-answers">
+              Deine Antwort: <span class="${isCorrect ? 'ans-correct' : 'ans-wrong'}">${userStr}</span>
+              ${!isCorrect ? ` · Richtige Lösung: <span class="ans-correct">${corrStr}</span>` : ''}
+            </div>
+            ${expHtml ? `
+              <button type="button" class="btn-toggle-explanation" onclick="toggleReviewExplanation('${q.id}')">
+                <span>💡 Erklärung anzeigen</span>
+              </button>
+              <div id="review-exp-${q.id}" style="display:none;">
+                ${expHtml}
+              </div>
+            ` : ''}
+          </div>
+        </div>
+      `;
+    });
+  });
+
+  listEl.innerHTML = itemsHtml || `<div style="text-align:center; padding:24px; color:var(--text-muted);">Keine Aufgaben in diesem Filter.</div>`;
 }
-window.formatAnswerDisplay = formatAnswerDisplay;
 
-function generateTextSummary(name, score, total, pct, pass, questions) {
-  let lines = [
-    `=== ${currentTest.title.toUpperCase()} ===`,
-    name ? `Kandidat(in): ${name}` : '',
-    `Ergebnis: ${score} / ${total} Punkte (${pct}%)`,
-    `Status: ${pass ? 'BESTANDEN' : 'NICHT BESTANDEN'}`,
-    `Datum: ${new Date().toLocaleDateString('de-DE')}`,
-    `--------------------------------------`
-  ].filter(Boolean);
-
-  questions.forEach(q => {
-    const userDisplay = formatAnswerDisplay(q, q.userVal);
-    const correctDisplay = formatAnswerDisplay(q, q.answer);
-    const qNumStr = q.num ? `Aufgabe ${q.num}:` : `${q.id}.`;
-    lines.push(`${qNumStr} ${q.isCorrect ? '[✓]' : '[✗]'} Antwort: ${userDisplay}${!q.isCorrect ? ` (Korrekt: ${correctDisplay})` : ''} [${q.teilTitle || ''}]`);
+function initResultsActions() {
+  document.querySelectorAll('.review-header .filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.review-header .filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      reviewFilter = btn.dataset.filter || 'all';
+      renderReviewList(lastEvaluatedModule);
+    });
   });
 
-  return lines.join('\n');
+  const copyBtn = document.getElementById('copyBtn');
+  if (copyBtn) {
+    copyBtn.addEventListener('click', () => {
+      const pts = document.getElementById('resTotalPts')?.textContent || '';
+      const pct = document.getElementById('resTotalPct')?.textContent || '';
+      const name = document.getElementById('friendName')?.value?.trim() || 'Sirin';
+      const modName = lastEvaluatedModule === 'horen' ? 'Modul Hören' : 'Modul Lesen';
+      const summary = `B1 Prüfungssimulation (${currentTest.title} · ${modName}) — Kandidat(in): ${name} — Ergebnis: ${pts} (${pct})`;
+      navigator.clipboard?.writeText(summary).then(() => {
+        showEmailSentToast('Ergebnis in die Zwischenablage kopiert!');
+      }).catch(() => {});
+    });
+  }
+
+  const backBtn = document.getElementById('btnBackToExam');
+  if (backBtn) {
+    backBtn.addEventListener('click', () => {
+      document.getElementById('resultsScreen').style.display = 'none';
+      document.getElementById('tabsWrapper').style.display = 'block';
+      document.getElementById('testAreaContainer').style.display = 'block';
+      document.getElementById('footerBar').style.display = 'block';
+      document.getElementById('candidateBanner').style.display = 'flex';
+      renderCurrentTeil();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  }
+
+  const switchBtn = document.getElementById('btnSwitchModule');
+  if (switchBtn) {
+    switchBtn.addEventListener('click', () => {
+      document.getElementById('resultsScreen').style.display = 'none';
+      document.getElementById('tabsWrapper').style.display = 'block';
+      document.getElementById('testAreaContainer').style.display = 'block';
+      document.getElementById('footerBar').style.display = 'block';
+      document.getElementById('candidateBanner').style.display = 'flex';
+      const targetTeil = (lastEvaluatedModule === 'lesen') ? 6 : 1;
+      switchTeil(targetTeil);
+    });
+  }
+
+  const restartBtn = document.getElementById('restartBtn');
+  if (restartBtn) {
+    restartBtn.addEventListener('click', () => {
+      const isHoren = lastEvaluatedModule === 'horen';
+      const modParts = testData.filter(t => isHoren ? (t.isHoren || t.id === 6) : (!t.isHoren && t.id !== 6));
+      const msg = isHoren 
+        ? 'Möchten Sie Ihre Antworten für das Modul Hören wirklich zurücksetzen und neu beginnen?'
+        : 'Möchten Sie Ihre Antworten für das Modul Lesen wirklich zurücksetzen und neu beginnen?';
+      if (!confirm(msg)) return;
+
+      modParts.forEach(t => {
+        const qs = allQuestionsOf(t);
+        qs.forEach(q => {
+          delete userAnswers[q.id];
+          flaggedQuestions.delete(q.id);
+        });
+        revealedTeils.delete(t.id);
+        if (t.isHoren) {
+          [1, 2, 3, 4].forEach(p => revealedTeils.delete(`horen-${p}`));
+        }
+      });
+
+      saveSession();
+      document.getElementById('resultsScreen').style.display = 'none';
+      document.getElementById('tabsWrapper').style.display = 'block';
+      document.getElementById('testAreaContainer').style.display = 'block';
+      document.getElementById('footerBar').style.display = 'block';
+      document.getElementById('candidateBanner').style.display = 'flex';
+      activeTeil = isHoren ? 6 : 1;
+      renderCurrentTeil();
+    });
+  }
 }
 
-// Review filters click
-document.querySelectorAll('.filter-btn').forEach(btn => {
-  btn.addEventListener('click', (e) => {
-    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-    e.target.classList.add('active');
-    reviewFilter = e.target.dataset.filter;
-    renderReviewList(window._allReviewQuestions || []);
-  });
-});
-
-// Copy result
-document.getElementById('copyBtn').addEventListener('click', () => {
-  navigator.clipboard.writeText(window._copySummary || '').then(() => {
-    alert('Das detaillierte Prüfungsergebnis wurde in die Zwischenablage kopiert!');
-  });
-});
-
-// Restart test
-document.getElementById('restartBtn').addEventListener('click', () => {
-  if (!confirm('Möchten Sie den Test wirklich zurücksetzen? Alle Ihre Antworten werden gelöscht.')) return;
-  localStorage.removeItem(SESSION_STORAGE_KEY);
-  revealedTeils.clear();
-  loadModelTest(currentTestIndex);
-});
-
-/* ---------------- AUTO-SAVE & SESSION PERSISTENCE ---------------- */
+/* ---------------- AUTO-SAVE & SESSION RECOVERY ---------------- */
 function saveSession() {
-  if (document.getElementById('resultsScreen')?.style.display === 'block') {
-    return;
-  }
-  const sessionData = {
-    testIndex: currentTestIndex,
-    activeTeil,
-    timeLeft,
-    teilTimers,
-    answers: userAnswers,
-    flagged: Array.from(flaggedQuestions),
-    revealedTeils: Array.from(revealedTeils),
-    candidateName: document.getElementById('friendName')?.value || 'Sirin',
-    savedAt: Date.now()
-  };
+  if (!currentTest) return;
   try {
-    localStorage.setItem(SESSION_STORAGE_KEY, JSON.stringify(sessionData));
-  } catch (e) {}
+    const store = getTestsAnswersStore();
+    store[currentTest.id] = {
+      testId: currentTest.id,
+      testIndex: currentTestIndex,
+      activeTeil,
+      timeLeft,
+      userAnswers: { ...userAnswers },
+      flagged: Array.from(flaggedQuestions),
+      revealed: Array.from(revealedTeils),
+      candidateName: document.getElementById('friendName')?.value || 'Sirin',
+      updatedAt: Date.now()
+    };
+    localStorage.setItem(TESTS_ANSWERS_STORAGE_KEY, JSON.stringify(store));
+    localStorage.setItem(LAST_ACTIVE_TEST_KEY, currentTest.id);
+    localStorage.setItem(SESSION_STORAGE_KEY, JSON.stringify(store[currentTest.id]));
+  } catch (e) {
+    console.warn('[Memory] Failed to save session:', e);
+  }
 }
 
 function checkSavedSession() {
-  try {
-    const raw = localStorage.getItem(SESSION_STORAGE_KEY);
-    if (!raw) return;
-    const data = JSON.parse(raw);
-    const ansCount = data.answers ? Object.values(data.answers).filter(v => v !== undefined && v !== '').length : 0;
-    
-    if (ansCount > 0 || (data.timeLeft && data.timeLeft < (modelTests[data.testIndex || 0]?.timeTotal || 65) * 60 - 30)) {
-      const banner = document.getElementById('sessionResumeBanner');
-      const text = document.getElementById('sessionResumeText');
-      if (banner) {
-        const testName = modelTests[data.testIndex || 0]?.title || 'Modellsatz';
-        if (text) text.textContent = `Gespeicherte Sitzung für „${testName}“ (${ansCount} gelöste Aufgaben) gefunden.`;
-        banner.style.display = 'block';
-
-        document.getElementById('btnResumeSession').onclick = () => {
-          resumeSession(data);
-          banner.style.display = 'none';
-        };
-        document.getElementById('btnDismissResume').onclick = () => {
-          localStorage.removeItem(SESSION_STORAGE_KEY);
-          banner.style.display = 'none';
-        };
-      }
-    }
-  } catch (e) {}
-}
-
-function resumeSession(data) {
-  if (data.testIndex !== undefined && data.testIndex !== currentTestIndex) {
-    currentTestIndex = data.testIndex;
-    currentTest = modelTests[currentTestIndex];
-    testData = currentTest.parts;
-    const sel = document.getElementById('modelTestSelect');
-    if (sel) sel.value = currentTestIndex;
-  }
-
-  // Restore answers
-  Object.keys(userAnswers).forEach(k => delete userAnswers[k]);
-  if (data.answers) {
-    Object.assign(userAnswers, data.answers);
-  }
-
-  // Restore flags
-  flaggedQuestions.clear();
-  if (data.flagged && Array.isArray(data.flagged)) {
-    data.flagged.forEach(qid => flaggedQuestions.add(qid));
-  }
-
-  // Restore revealed Teils
-  revealedTeils.clear();
-  if (data.revealedTeils && Array.isArray(data.revealedTeils)) {
-    data.revealedTeils.forEach(id => revealedTeils.add(id));
-  }
-
-  // Restore Teil timers
-  if (data.teilTimers) {
-    Object.keys(teilTimers).forEach(k => delete teilTimers[k]);
-    Object.assign(teilTimers, data.teilTimers);
-  }
-
-  // Restore time
-  if (data.timeLeft) timeLeft = data.timeLeft;
-
-  // Restore candidate name
-  const inp = document.getElementById('friendName');
-  if (inp) {
-    if (data.candidateName && data.candidateName.trim()) {
-      inp.value = data.candidateName;
-    } else {
-      const saved = localStorage.getItem('b1_candidate_name');
-      inp.value = (saved && saved.trim()) ? saved : 'Sirin';
-    }
-  }
-
-  // Restore active Teil
-  if (data.activeTeil) activeTeil = data.activeTeil;
-
-  updateTimerDisplay();
-  renderCurrentTeil();
-  updateProgress();
-  startTimer();
+  const banner = document.getElementById('sessionResumeBanner');
+  if (banner) banner.style.display = 'none';
 }
 
 /* ---------------- KEYBOARD SHORTCUTS ---------------- */
@@ -4808,7 +4972,7 @@ function initKeyboardShortcuts() {
   }
 }
 
-/* ---------------- PWA & IOS INSTALLATION ---------------- */
+/* ---------------- PWA & MOBILE INSTALLATION ---------------- */
 function initPwaServiceWorker() {
   if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
@@ -4822,16 +4986,16 @@ function initPwaServiceWorker() {
 }
 
 function initIosInstallPrompt() {
-  const ua = window.navigator.userAgent.toLowerCase();
+  const nav = typeof window !== 'undefined' ? window.navigator : (typeof navigator !== 'undefined' ? navigator : null);
+  const ua = (nav?.userAgent || '').toLowerCase();
   const isIos = /iphone|ipad|ipod/.test(ua);
-  const isStandalone = window.navigator.standalone === true || window.matchMedia('(display-mode: standalone)').matches;
+  const isStandalone = (nav?.standalone === true) || Boolean(typeof window !== 'undefined' && window.matchMedia && window.matchMedia('(display-mode: standalone)').matches);
   const isDismissed = localStorage.getItem('b1_ios_prompt_dismissed') === '1';
 
   if (isIos && !isStandalone && !isDismissed) {
     const promptEl = document.getElementById('iosInstallPrompt');
     const closeBtn = document.getElementById('closeIosPromptBtn');
     if (promptEl) {
-      // Gentle appearance after 2.5s
       setTimeout(() => {
         promptEl.style.display = 'flex';
       }, 2500);
@@ -4848,8 +5012,10 @@ function initIosInstallPrompt() {
 
 let deferredAndroidInstallPrompt = null;
 function initAndroidInstallPrompt() {
-  const isStandalone = window.matchMedia('(display-mode: standalone)').matches;
+  const isStandalone = Boolean(window.matchMedia && window.matchMedia('(display-mode: standalone)').matches);
   const isDismissed = localStorage.getItem('b1_android_prompt_dismissed') === '1';
+
+  if (typeof window === 'undefined' || typeof window.addEventListener !== 'function') return;
 
   window.addEventListener('beforeinstallprompt', (e) => {
     e.preventDefault();
@@ -4893,27 +5059,131 @@ function initAndroidInstallPrompt() {
   });
 }
 
-/* ---------------- INITIALIZATION ---------------- */
-initPwaServiceWorker();
-initIosInstallPrompt();
-initAndroidInstallPrompt();
-initEmailService();
-initTheme();
-initFullscreen();
-initFontSizeControls();
-initHighlighter();
-initMatrixModal();
-initVocabHighlighting();
-initVocabModal();
-initMistakesModal();
-initFocusReaderModal();
-initKeyboardShortcuts();
-initTestSelector();
-loadModelTest(0);
-checkSavedSession();
+/* ---------------- UI DESIGN & INTERACTION UPGRADE ENGINE ---------------- */
+function initUiDesignUpgrades() {
+  if (document.getElementById('b1-js-design-upgrades')) return;
 
-window.loadModelTest = loadModelTest;
-window.switchTeil = function(id) {
+  const styleEl = document.createElement('style');
+  styleEl.id = 'b1-js-design-upgrades';
+  styleEl.textContent = `
+    @keyframes b1CardEntrance {
+      from {
+        opacity: 0;
+        transform: translateY(12px) scale(0.99);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+      }
+    }
+
+    .b1-animate-in {
+      animation: b1CardEntrance 0.32s cubic-bezier(0.16, 1, 0.3, 1) both;
+    }
+
+    .panel-header.is-scrolled {
+      box-shadow: 0 8px 20px -6px rgba(15, 23, 42, 0.12) !important;
+      border-bottom-color: var(--border-hover) !important;
+    }
+
+    [data-theme="dark"] .panel-header.is-scrolled {
+      box-shadow: 0 10px 25px -6px rgba(0, 0, 0, 0.55) !important;
+    }
+
+    .option-label:active,
+    .option-pill:active,
+    .tf-btn:active,
+    .speaker-btn:active {
+      transform: scale(0.985) !important;
+    }
+
+    .theme-btn-spin svg {
+      transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+      transform: rotate(180deg) scale(1.1);
+    }
+  `;
+  document.head.appendChild(styleEl);
+
+  function animatePanelChildren(container) {
+    if (!container) return;
+    const selector = [
+      '.question-card',
+      '.letter-card',
+      '.anzeige-wrapper',
+      '.horen-teil-section',
+      '.horen-q-card',
+      '.teil-score-card',
+      '.review-item'
+    ].join(', ');
+
+    const cards = container.querySelectorAll(selector);
+    cards.forEach((card, index) => {
+      card.classList.remove('b1-animate-in');
+      const delay = Math.min(index * 35, 350);
+      card.style.animationDelay = `${delay}ms`;
+      void card.offsetWidth;
+      card.classList.add('b1-animate-in');
+    });
+  }
+
+  const panelIds = ['passagePanel', 'questionsPanel', 'teilScoresGrid', 'reviewItemsList'];
+  panelIds.forEach((id) => {
+    const el = document.getElementById(id);
+    if (!el) return;
+
+    let rafId = null;
+    const observer = new MutationObserver((mutations) => {
+      const hasAddedNodes = mutations.some((m) => m.addedNodes.length > 0);
+      if (!hasAddedNodes) return;
+      if (rafId) cancelAnimationFrame(rafId);
+      rafId = requestAnimationFrame(() => {
+        animatePanelChildren(el);
+        attachPanelScrollListeners();
+      });
+    });
+
+    observer.observe(el, { childList: true });
+  });
+
+  function attachPanelScrollListeners() {
+    const stickyPanels = document.querySelectorAll('.sticky-panel');
+    stickyPanels.forEach((panel) => {
+      if (panel.dataset.scrollBound === 'true') return;
+      panel.dataset.scrollBound = 'true';
+
+      panel.addEventListener('scroll', () => {
+        const header = panel.querySelector('.panel-header');
+        if (!header) return;
+        if (panel.scrollTop > 8) {
+          header.classList.add('is-scrolled');
+        } else {
+          header.classList.remove('is-scrolled');
+        }
+      }, { passive: true });
+    });
+  }
+
+  const themeToggle = document.getElementById('themeToggle');
+  if (themeToggle) {
+    themeToggle.addEventListener('click', () => {
+      themeToggle.classList.add('theme-btn-spin');
+      setTimeout(() => themeToggle.classList.remove('theme-btn-spin'), 420);
+    });
+  }
+
+  const tabsNav = document.getElementById('tabs');
+  if (tabsNav) {
+    tabsNav.addEventListener('click', (e) => {
+      const btn = e.target.closest('.tab-btn');
+      if (btn && typeof btn.scrollIntoView === 'function') {
+        btn.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
+      }
+    });
+  }
+}
+
+/* ---------------- GLOBAL WINDOW EXPORTS ---------------- */
+function switchTeil(id) {
   if (id !== activeTeil) {
     sendTeilResultsEmail(activeTeil);
   }
@@ -4921,5 +5191,44 @@ window.switchTeil = function(id) {
   renderCurrentTeil();
   saveSession();
   window.scrollTo({ top: 0, behavior: 'smooth' });
-};
+}
 
+window.loadModelTest = loadModelTest;
+window.switchTeil = switchTeil;
+
+/* ---------------- APPLICATION INITIALIZATION ---------------- */
+function initApplication() {
+  initTheme();
+  initFullscreen();
+  initFontSizeControls();
+  initHighlighter();
+  initTestSelector();
+  initEmailService();
+  initVocabHighlighting();
+  initVocabModal();
+  initMistakesModal();
+  initFocusReaderModal();
+  initMatrixModal();
+  initKeyboardShortcuts();
+  initFooterNavigation();
+  initResultsActions();
+  initPwaServiceWorker();
+  initIosInstallPrompt();
+  initAndroidInstallPrompt();
+
+  const lastActiveTestId = localStorage.getItem(LAST_ACTIVE_TEST_KEY);
+  let initialIdx = 0;
+  if (lastActiveTestId) {
+    const found = modelTests.findIndex(m => m.id === lastActiveTestId);
+    if (found !== -1) initialIdx = found;
+  }
+  loadModelTest(initialIdx);
+  checkSavedSession();
+  initUiDesignUpgrades();
+}
+
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initApplication);
+} else {
+  initApplication();
+}
