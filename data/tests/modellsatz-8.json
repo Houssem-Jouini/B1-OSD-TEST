@@ -1,0 +1,2633 @@
+{
+  "id": "modellsatz-8",
+  "title": "Modelltest 2 — So geht's noch besser B1",
+  "badge": "Modelltest 2",
+  "examTitle": "Goethe / ÖSD B1 Prüfungssimulation — Modelltest 2",
+  "examSub": "Lesen (5 Teile) & Hören (4 Teile) · So geht's noch besser (Klett)",
+  "timeTotal": 65,
+  "parts": [
+    {
+      "id": 1,
+      "title": "Teil 1",
+      "time": 10,
+      "instructions": "Lesen Sie den Text und die Aufgaben 1 bis 6 dazu. Wählen Sie: Sind die Aussagen Richtig oder Falsch?",
+      "articles": [
+        {
+          "heading": "Mein Reisemosaik von Deutschland",
+          "sub": "7. Etappe: Die Entschleunigung meiner Reise – Familienbesuch",
+          "body": [
+            "Nachdem ich nun Metropolen und Ballungsgebiete hinter mir gelassen habe, wende ich mich dem ländlichen Südwesten zu. Die Hälfte meiner Familie stammt aus dem Schwarzwald, darum fuhr ich mit der Bahn gleich mal mitten hinein, nämlich ins Kinzigtal. Noch während die Landschaft mit ihren idyllischen Tälern und Orten an mir vorbeigleitet, steigen Erinnerungen in mir hoch. Dann hält der Zug im Bahnhof und ich steige aus. Ist es die Luft, ist es der Geruch nach frisch geschnittenem Heu: gleich waren sie da, die Bilder aus Kindertagen. Ich lächle und winke meinem Kusin, der mich mit dem Auto abholt.",
+            "Erst einmal begrüßen und ankommen. So viele Augen, so viele Hände und Arme, herzliche Wärme empfängt mich. Es gibt auch gleich Vesper mit Bauernbrot, Wurst und Speck vom „Brettle“. Mit scharfem Messer hauchdünn geschnitten, zergeht mir die Erinnerung auf der Zunge. Als Getränk kann ich wählen zwischen Most vom Bauern oder doch ein „Tannenzäpfle“, falls ich Lust auf ein Bier habe. Das Wasser ist schließlich zum Waschen und für die Tiere da. 😊",
+            "Und mit der Nahrung nehme ich auch gleich ein Sprachbad. Wie lange habe ich diesen Klang der Sprache nicht gehört! Auch das ist Deutsch, eine Behauptung, für die mich die meisten meiner Kollegen spöttisch belächeln, weil Alemannisch für sie eine Fremdsprache ist. Dabei ist Dialekt heutzutage wieder im Trend. Wie viel ärmer wäre die Sprache ohne die Mundart. Vielleicht ist die Sprache der Umgebung auch so ein bisschen etwas wie Heimat, die man mit sich im Herzen trägt.",
+            "Beim Abendspaziergang um den Waldsee besprechen wir Pläne für eine kleine Wanderung am nächsten Tag. Nach langer Diskussion, ob es auf den Brandenkopf, zu den Nillhöfen oder auf die Heidburg gehen soll, beschließen wir, das Auto in der Garage stehen zu lassen und nur so weit zu gehen, wie uns die Füße von der Haustüre aus tragen. Das war eine kluge und pragmatische Entscheidung. Zum Einen hätten wir gar nicht alle in ein Auto gepasst und es wäre ein zweites Auto nötig gewesen. Zum Anderen wollte ich schließlich Natur pur genießen.",
+            "Noch während ich hier in meinen Laptop tippe, erinnere ich mich an glückliche Kindertage, rieche die Waldluft und freue mich auf morgen. 😊"
+          ]
+        }
+      ],
+      "example": {
+        "text": "Der Bericht handelt von einem Reise-Souvenir aus Deutschland.",
+        "answer": "falsch"
+      },
+      "questions": [
+        {
+          "id": 1,
+          "type": "tf",
+          "text": "Der Schreiber war zuerst in großen Städten.",
+          "answer": "richtig",
+          "num": 1
+        },
+        {
+          "id": 2,
+          "type": "tf",
+          "text": "Ein Verwandter holt ihn ab.",
+          "answer": "richtig",
+          "num": 2
+        },
+        {
+          "id": 3,
+          "type": "tf",
+          "text": "Nach der Ankunft gibt es etwas zu Essen.",
+          "answer": "richtig",
+          "num": 3
+        },
+        {
+          "id": 4,
+          "type": "tf",
+          "text": "Sie trinken Wasser.",
+          "answer": "falsch",
+          "num": 4
+        },
+        {
+          "id": 5,
+          "type": "tf",
+          "text": "Die Kollegen mögen den süddeutschen Dialekt.",
+          "answer": "falsch",
+          "num": 5
+        },
+        {
+          "id": 6,
+          "type": "tf",
+          "text": "Sie wollen zu Fuß gehen und nicht mit dem Auto fahren.",
+          "answer": "richtig",
+          "num": 6
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Teil 2",
+      "time": 20,
+      "instructions": "Lesen Sie den Text aus der Presse und die Aufgaben 7 bis 9 dazu. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+      "articles": [
+        {
+          "heading": "Sind Bio-Äpfel wirklich besser?",
+          "sub": "Huch, Bio-Produkte sind gar nicht gesünder als konventionelle? Ein Skandal? Was für ein Quatsch.",
+          "body": [
+            "Wer Bio für grundsätzlich gesünder hält, der kann Bio-Zigaretten rauchen und sich von Bio-Schokolade ernähren. Nein, der Öko-Landwirtschaft geht es um Nachhaltigkeit. Und skandalös ist dabei etwas ganz anderes.",
+            "Eine Studie bestätigt, was sich jeder mit ein bisschen Verstand auch selbst denken kann: Ein Apfel ist nicht einfach gesünder, nur weil er vom Bio-Bauern kommt. Viele Bio-Produkte entsprechen nicht den Geschmacksvorstellungen der Konsumenten.",
+            "Der Begriff „gesund“ ist schon fragwürdig. Eine mit viel Butter und Zucker angerührte Schokoladentorte macht auch dann nicht schlank, wenn sie aus Bio-Produkten hergestellt wird. Auch ein Bio-Lutscher kann Karies verursachen. Und, ja, auch Tabak aus Bio-Anbau ist krebserregend. Wie immer, wenn es um Ernährung geht, geht es um ausgewogene Ernährung.",
+            "Bio ist nicht gleich Bio. Wer Wert darauf legt, dass ein Produkt nicht nur weitgehend pestizidfrei ist und umweltschonend angebaut wird, muss schon genau hinsehen. Auch aufgepasst, wer sicher sein will, Fleisch von halbwegs glücklichen Hühnern, Schweinen und Rindern zu essen. Für die strengen Kriterien muss man leider meist auch mehr bezahlen, aber es lohnt sich. Bio hat nun mal seinen Preis, wenn im Einklang mit der Natur angebaut wurde."
+          ]
+        }
+      ],
+      "example": {
+        "text": "Der Artikel...",
+        "options": [
+          "handelt vom Bio-Apfelanbau.",
+          "sagt, dass Bio nicht gleich Bio ist.",
+          "behauptet, dass Bio-Anbau skandalös ist."
+        ],
+        "answer": 1
+      },
+      "questions": [
+        {
+          "id": 7,
+          "type": "mcq",
+          "text": "Es wurde festgestellt,...",
+          "options": [
+            "dass Bio-Äpfel besser schmecken.",
+            "dass Bio-Bauern gesund leben.",
+            "dass „Bio“ nicht selbstverständlich auch gesünder ist."
+          ],
+          "answer": 2,
+          "num": 7
+        },
+        {
+          "id": 8,
+          "type": "mcq",
+          "text": "Wer Bio-Qualität sucht,...",
+          "options": [
+            "muss die Produkte genau prüfen.",
+            "muss Glück haben.",
+            "hat eine hohe Lebenserwartung."
+          ],
+          "answer": 0,
+          "num": 8
+        },
+        {
+          "id": 9,
+          "type": "mcq",
+          "text": "Der Preis für Bio-Produkte...",
+          "options": [
+            "wird streng kontrolliert.",
+            "ist oft hoch.",
+            "hängt von der Natur ab."
+          ],
+          "answer": 1,
+          "num": 9
+        }
+      ],
+      "instructions2": "Lesen Sie den Text aus der Presse und die Aufgaben 10 bis 12 dazu. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+      "articles2": [
+        {
+          "heading": "Infofest der Europaschule Köln",
+          "sub": "Großer Andrang herrschte beim diesjährigen Informationsfest der Europaschule in Köln.",
+          "body": [
+            "Wie jedes Jahr öffnete die Europaschule ihre Pforten, um sich allen Interessierten vorzustellen. Grundschulkinder und -eltern nahmen die Gelegenheit zu Unterrichtsbesuchen im 5. und 6. Jahrgang wahr. In separaten Veranstaltungen wurde über die möglichen Schullaufbahnen sowie das Schulprogramm in beiden Sekundarstufen informiert. Führungen durch das Schulgebäude sorgten für die nötige Orientierung.",
+            "Vielfältige Ausstellungen, Aufführungen und Aktionen zeigten einen repräsentativen Querschnitt des Schulalltags. Der Schriftsteller Alexander Rothe wurde eingeladen und feierlich zum offiziellen Lesepaten der Europaschule ernannt, natürlich mit einer kurzen Lesung im Theatersaal. In der Vorstellung der Wahlsprachen lag der besondere Fokus in diesem Jahr auf dem Fach Russisch. Hierzu gab es ein buntes Programm mit verschiedenen Aufführungen und russischen Spezialitäten. Das Mensa-Team und die Schülerfirma „milchig“ sorgten für weitere Stärkungen im England-Café.",
+            "Auch die Gäste konnten aktiv werden, beim Märchenquiz raten, in der Disko tanzen, ein Tombola-Los kaufen oder die Spieler vom Kickerturnier unterstützen. Natürlich ist ein solch umfangreiches Programm nicht ohne die Hilfe aller möglich. Ein besonderer Dank geht an alle Eltern, die Schülerinnen und Schüler, die Kolleginnen und Kollegen sowie die Mitarbeiter der Europaschule, die in der Vorbereitung dieses Tages mit großem Einsatz bei der Sache waren."
+          ]
+        }
+      ],
+      "questions2": [
+        {
+          "id": 10,
+          "type": "mcq",
+          "text": "Die Besucher...",
+          "options": [
+            "verloren auf dem Fest die Orientierung.",
+            "beschwerten sich über den großen Andrang auf dem Fest.",
+            "konnten sich über die Europaschule in Köln informieren."
+          ],
+          "answer": 2,
+          "num": 10
+        },
+        {
+          "id": 11,
+          "type": "mcq",
+          "text": "Die Schüler...",
+          "options": [
+            "zeigten Beispiele aus dem täglichen Schulleben.",
+            "lasen Texte des Schriftstellers Alexander Rothe.",
+            "machten Werbung für die Schülerfirma „milchig“."
+          ],
+          "answer": 0,
+          "num": 11
+        },
+        {
+          "id": 12,
+          "type": "mcq",
+          "text": "Der Dank gilt...",
+          "options": [
+            "der Schulleitung.",
+            "allen, die mitgeholfen haben.",
+            "dem Programm-Team."
+          ],
+          "answer": 1,
+          "num": 12
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Teil 3",
+      "time": 10,
+      "instructions": "Lesen Sie die Situationen 13 bis 19 und die Anzeigen A bis J aus verschiedenen deutschsprachigen Medien. Wählen Sie: Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es keine passende Anzeige. In diesem Fall wählen Sie X.",
+      "example": {
+        "text": "Unsere Abteilung könnte mal zusammen essen gehen, so richtig schick und die Firma zahlt.",
+        "answer": "E"
+      },
+      "adsFormatted": [
+        {
+          "code": "A",
+          "tagPos": "left",
+          "hasPin": true,
+          "cardClass": "anzeige-style-a",
+          "html": "<div class=\"anzeige-headline\">Waldau - Stuben</div><div class=\"anzeige-sub\">Reutlinger Str. 5 · Tel. 76 77 600</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">• Bier vom Fass<br>• Kaffee & Rote Wurst<br>• Pommes Frites, Wurstsalat<br>• Zeitungen, Lotto und Toto Samstag bis 16 Uhr<br><strong>Öffnungszeiten:</strong> Mo - Fr 6 bis ca. 21 Uhr, Sa + So 9.15-16.00 Uhr</div>"
+        },
+        {
+          "code": "B",
+          "tagPos": "right",
+          "hasPin": true,
+          "cardClass": "anzeige-style-b",
+          "html": "<div class=\"anzeige-headline\">GUTEN APPETIT ...</div><div class=\"anzeige-sub\">wünscht der Gasthof zum Ochsen</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">Wir bieten jeden Mittag von 11.30 - 14.00 Uhr leckere Mittagsmenüs zu einem günstigen Preis!<br><strong>Kein Ruhetag.</strong> Tel. 70 16 609<br><em>Täglich frisch! Täglich günstig! Täglich gut!</em></div>"
+        },
+        {
+          "code": "C",
+          "tagPos": "left",
+          "hasPin": true,
+          "cardClass": "anzeige-style-c",
+          "html": "<div class=\"anzeige-headline\">DER GRIECHE IM GRÜNEN</div><div class=\"anzeige-sub\">Eine der schönsten Stuttgarter Gartenwirtschaften</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">Wir bieten Ihnen schwäbische und griechische Spezialitäten.<br><strong>Preiswerter Mittagstisch.</strong><br>Sprollstr. 93, 70597 Stuttgart · Tel. 0711/7612123</div>"
+        },
+        {
+          "code": "D",
+          "tagPos": "right",
+          "hasPin": true,
+          "cardClass": "anzeige-style-d",
+          "html": "<div class=\"anzeige-headline\">Back to the Fifties</div><div class=\"anzeige-sub\">im klassischen US-Diner-Restaurant</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">Genießen Sie Rock'n'Roll-Atmosphäre, Burger und Musik der 50er Jahre!<br>Sonntag bis Freitag 12.00-24.00, Samstag 13.00-2.00 Uhr.<br>Blumauer Gasse 3, Wien</div>"
+        },
+        {
+          "code": "E",
+          "tagPos": "right",
+          "hasPin": true,
+          "cardClass": "anzeige-style-e",
+          "html": "<div class=\"anzeige-headline\">Till Eulenspiegel</div><div class=\"anzeige-sub\">Restaurant und Weinstube</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">— Für Gartenfreunde: der große Biergarten<br>— Für Grill-Freunde: der neue Lava-Grill<br>— Für Familienfeste & Firmenfeiern: schöne Räume, reichhaltige Menüs<br>Vahinger Straße 19, Stuttgart (Möhringen) · Tel. 0711/76 28 60</div>"
+        },
+        {
+          "code": "F",
+          "tagPos": "left",
+          "hasPin": true,
+          "cardClass": "anzeige-style-f",
+          "html": "<div class=\"anzeige-headline\">Banyan</div><div class=\"anzeige-sub\">das neue Asia-Restaurant</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">Speisen, die wie Fleisch schmecken. China-Schnitzerl, „Rindersteak“ und „Knusprige Ente“, <strong>garantiert alles ohne Fleisch</strong>.<br>Markthalle, 1090 Wien</div>"
+        },
+        {
+          "code": "G",
+          "tagPos": "left",
+          "hasPin": true,
+          "cardClass": "anzeige-style-g",
+          "html": "<div class=\"anzeige-headline\">Café Bellini</div><div class=\"anzeige-sub\">Karl-Pfaff-Str. 12 · Tel. 76 54 274</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">Bester italienischer Espresso, Cappuccino und feine Dolci!<br><strong>Öffnungszeiten:</strong><br>• Mo - Fr 8 - 19.30 Uhr (Mi + Do bis ca. 22.30 Uhr)<br>• Sa 8 - 14 Uhr</div>"
+        },
+        {
+          "code": "H",
+          "tagPos": "right",
+          "hasPin": true,
+          "cardClass": "anzeige-style-h",
+          "html": "<div class=\"anzeige-headline\">Pronto Pronto online</div><div class=\"anzeige-sub\">Italienisch – Mexikanisch Lieferservice</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">Karlsruhe, Moltkestr.<br>Online bestellen ohne Aufpreis: Gutschein / Barzahlung / PayPal.<br>www.lieferheld.de</div>"
+        },
+        {
+          "code": "I",
+          "tagPos": "left",
+          "hasPin": true,
+          "cardClass": "anzeige-style-i",
+          "html": "<div class=\"anzeige-headline\">Sushi digital</div><div class=\"anzeige-sub\">... ein Klick auf den Fisch und du schwimmst</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">Frisches Sushi online bestellen und blitzschnell liefern lassen.<br>http://www.sushi.de/</div>"
+        },
+        {
+          "code": "J",
+          "tagPos": "right",
+          "hasPin": true,
+          "cardClass": "anzeige-style-j",
+          "html": "<div class=\"anzeige-headline\">Bäckerei Konditorei Café Alter</div><div class=\"anzeige-sub\">Epple-Str. 15, Degerloch</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">Wir empfehlen heute:<br><strong>Lemon Pie</strong>, eine feine Zitronensahnecreme auf Blätterteig. Hausgemachte Torten und feiner Kaffee.</div>"
+        }
+      ],
+      "questions": [
+        {
+          "id": 13,
+          "type": "match",
+          "text": "Herr Berger hat das Kantinenessen mittags satt, er will mal schauen, ob es ein Angebot gibt, gut und preiswert essen zu gehen.",
+          "answer": "B",
+          "num": 13
+        },
+        {
+          "id": 14,
+          "type": "match",
+          "text": "Seit seinem Italienurlaub ist Franz ein Freund von italienischem Kaffee. Er möchte einen richtig guten Espresso trinken.",
+          "answer": "G",
+          "num": 14
+        },
+        {
+          "id": 15,
+          "type": "match",
+          "text": "Herr Wengert möchte nach der Arbeit mit Kollegen noch eine Kleinigkeit essen und ein Bier trinken.",
+          "answer": "A",
+          "num": 15
+        },
+        {
+          "id": 16,
+          "type": "match",
+          "text": "Frau Ehlert möchte am Samstag mit ihren Eltern in ein Restaurant gehen, wo Songs aus deren Jugend gespielt werden.",
+          "answer": "D",
+          "num": 16
+        },
+        {
+          "id": 17,
+          "type": "match",
+          "text": "Frau Bär sucht ein Restaurant, wo sie vegetarisch essen kann.",
+          "answer": "F",
+          "num": 17
+        },
+        {
+          "id": 18,
+          "type": "match",
+          "text": "Frau Sulcher will mal ausländisch essen gehen und dabei draußen im Freien sitzen.",
+          "answer": "C",
+          "num": 18
+        },
+        {
+          "id": 19,
+          "type": "match",
+          "text": "Herr Thomas möchte eine Gartenparty veranstalten und sucht einen Partyservice, damit er selbst nichts vorbereiten muss.",
+          "answer": "X",
+          "num": 19
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Teil 4",
+      "time": 15,
+      "instructions": "Lesen Sie die Texte 20 bis 26. Wählen Sie: Ist die Person gegen Extremsport?",
+      "topic": "Beurteilen Sie folgende Leserbriefe zu einem Artikel über das Zugspitzlaufen in einer Zeitschrift zum Thema Extremsport „schneller - höher - tot\"...",
+      "example": {
+        "who": "Mareike, 32, Venlo",
+        "text": "Ich sehe es so wie Uschi Eichner: „Es ist eben ein besonderer Kick, zu wissen, dass man etwas bewältigen kann, was nicht jeder schafft.“ Die Teilnehmer des alljährlichen Zugspitzlaufs wollen ihre physischen und psychischen Grenzen austesten. Das ist die persönliche Entscheidung jedes Einzelnen und von niemandem sonst.",
+        "answer": "nein"
+      },
+      "letters": [
+        {
+          "id": 20,
+          "who": "U. Filsmann, 46, Landshut",
+          "text": "Herr Reitmeir warnt vor Fehleinschätzungen, weil sie unvorhersehbare Folgen haben können. Ich gehe noch weiter und unterstütze den Aufruf von Herrn Messner in den Medien, das organisierte Berglaufen abzuschaffen. Wie viele Tote brauchen wir noch, um am Ende einzusehen, dass Extremsport-Wettkämpfe Unsinn sind?",
+          "answer": "ja"
+        },
+        {
+          "id": 21,
+          "who": "Norbert P., 52, Konstanz",
+          "text": "Sie schreiben, dass 40% der angetretenen Sportler dort fehl am Platz waren und die Teilnahme für sie ein großes Risiko war. Das bedeutet für mich, dass die Organisation versagt hat. Um in Zukunft derartige Katastrophen zu vermeiden, bin ich dafür, das Zugspitzlaufen einzustellen, sonst wird Sport zu organisiertem Verbrechen!",
+          "answer": "ja"
+        },
+        {
+          "id": 22,
+          "who": "Wilma J., 39, Leipzig",
+          "text": "Ich bewundere die Darstellung von Frau Benöhr, die vor Extremsport warnt, ihn aber auch verteidigt. Sportler sollten sich darüber im Klaren sein, dass man während eines solchen Wettkampfes in besondere Situationen geraten kann. Es ist wohl eine Kunst, den Sport so zu betreiben, ohne seinem Körper zu schaden, aber das halte ich für absolut legitim.",
+          "answer": "nein"
+        },
+        {
+          "id": 23,
+          "who": "Nicole, 39, Freiburg",
+          "text": "Stimmt, Herr Reitmeir, zu einem Wettkampf gehört das richtige Einschätzen der Natur und der eigenen Fähigkeiten dazu. Wenn es zu gefährlich wird, muss sich das jeder selbst eingestehen und wissen, wann man aufhören muss. Das ist reine Nervensache, das kann man trainieren. Ich halte nichts davon, Wettkämpfe zu verteufeln, nur weil einige nicht damit umgehen können.",
+          "answer": "nein"
+        },
+        {
+          "id": 24,
+          "who": "Walther, 42, Baden-Baden",
+          "text": "Also ich finde, die Teilnehmer, die sich für so einen Wettkampf anmelden, sollten genauer geprüft werden. Es sollte sich um absolute Spitzensportler handeln, die bewiesen haben, dass sie solchen Strapazen gewachsen sind. Es gibt schließlich auch andere, ungefährlichere Läufe, wo die Sportler ihr Können unter Beweis stellen können. Mit besserer Organisation hat der Extremsport durchaus Chancen.",
+          "answer": "nein"
+        },
+        {
+          "id": 25,
+          "who": "Dr. Rosner, 56, Wien",
+          "text": "Ich bin Dozent an der Sporthochschule und weiß aus eigener Erfahrung, dass Sport zur Droge werden kann. Die eigene körperliche Leistung kann derart berauschen, dass man den Bezug zur Realität verliert. Tja, und in extremen Situationen kann das durchaus gefährlich werden, darum sollte auf Wettkämpfe im Extremsport verzichtet werden.",
+          "answer": "ja"
+        },
+        {
+          "id": 26,
+          "who": "Svenja R., 29, Flensburg",
+          "text": "Die Sportler wissen sehr genau, dass es sich nicht um einen Sonntagvormittag-Spaziergang handelt. Der Zugspitzlauf ist kein Massensport. Die Teilnehmer haben jahrelang dafür trainiert und nehmen die Herausforderung ganz bewusst an. Nach diesem harten Training will man schließlich wissen, wo man steht und sucht die Leistungsmessung, das ist doch ganz natürlich.",
+          "answer": "nein"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Teil 5",
+      "time": 10,
+      "instructions": "Lesen Sie die Aufgaben 27 bis 30 und den Text dazu. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+      "articles": [
+        {
+          "heading": "Geburtstagsführungen im Berliner Zoo",
+          "sub": "Ihr Patenkind hat Geburtstag. Sie planen als Überraschung einen Besuch im Berliner Zoo.",
+          "body": [
+            "Wir bieten Zooführungen mit Einblicken in den Zooalltag und jede Menge spannende Aktionen rund um die Tiere im Zoo Berlin! In der Regel kann man auf jeder Tour füttern und zumeist auch einen Blick hinter die Kulissen des Zoos riskieren. Die genaue Gestaltung der Tour hängt auch vom Wetter ab. Die Touren werden altersgerecht angeboten.",
+            "• Für Kinder ab 5 Jahren (Mindestalter des Geburtstagskindes und seiner Gäste)",
+            "• Mindestens 1 Erwachsener als Begleitperson",
+            "• Bitte bedenken Sie bei Ihrer Buchung, dass der Zoo vom 15. Oktober bis 14. März bereits um 17.00 Uhr schließt. Sie verlassen den Zoo dann in der Regel durch das Elefantentor.",
+            "Wann?",
+            "• Montag - Freitag um 14.00 Uhr und 15.00 Uhr (zur Winterschließzeit) bzw. 15.30 Uhr (zur Sommerschließzeit)",
+            "• An den Wochenenden um 11.00 Uhr, 13.00 Uhr und 15.00 Uhr",
+            "Wie lange?",
+            "• Eine Stunde und etwas mehr...",
+            "Was?",
+            "• Bitte wählen Sie unter den folgenden Touren aus..."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": 27,
+          "num": 27,
+          "type": "mcq",
+          "text": "Der Berliner Zoo...",
+          "options": [
+            "feiert Geburtstag.",
+            "feiert mit den Tieren Geburtstag.",
+            "bietet Geburtstagsführungen an."
+          ],
+          "answer": 2
+        },
+        {
+          "id": 28,
+          "num": 28,
+          "type": "mcq",
+          "text": "Das Programm...",
+          "options": [
+            "beinhaltet meistens auch eine Fütterung.",
+            "ist bei Regen riskant.",
+            "wird in der Regel bei schönem Wetter geplant."
+          ],
+          "answer": 0
+        },
+        {
+          "id": 29,
+          "num": 29,
+          "type": "mcq",
+          "text": "Zielgruppen sind...",
+          "options": [
+            "Besucher unter fünf Jahren.",
+            "Erwachsene mit Kindern.",
+            "Kinder im Alter ab fünf."
+          ],
+          "answer": 2
+        },
+        {
+          "id": 30,
+          "num": 30,
+          "type": "mcq",
+          "text": "Die Führung...",
+          "options": [
+            "dauert den ganzen Tag.",
+            "ist an Wochentagen nur nachmittags möglich.",
+            "kann man Samstag und Sonntag nur vormittags buchen."
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "🎧 Hören",
+      "badge": "Hören (Teile 1–4)",
+      "isHoren": true,
+      "time": 30,
+      "instructions": "Sie hören vier Teile. Sie hören jeden Text einmal oder zweimal. Lösen Sie die Aufgaben zu jedem Teil.",
+      "audioSrc": "audio/modellsatz-8-hoeren.mp3",
+      "audioFallbacks": [
+        "/run/media/houssem/HDD Disk/work/germany/So geht's noch besser B1/2/horen/modellsatz-2-hoeren-complete.mp3"
+      ],
+      "audioChapters": [
+        {
+          "part": 1,
+          "title": "Teil 1 · Fünf kurze Texte",
+          "start": 0,
+          "end": 425.32
+        },
+        {
+          "part": 2,
+          "title": "Teil 2 · Burgführung",
+          "start": 425.32,
+          "end": 632.92
+        },
+        {
+          "part": 3,
+          "title": "Teil 3 · Dschungelwanderer Reportage",
+          "start": 632.92,
+          "end": 861.6
+        },
+        {
+          "part": 4,
+          "title": "Teil 4 · Diskussion: Deutsche im Ausland",
+          "start": 861.6,
+          "end": 1679.32
+        }
+      ],
+      "horenSections": [
+        {
+          "part": 1,
+          "title": "Teil 1: Fünf kurze Texte",
+          "intro": "Sie hören nun fünf kurze Texte. Sie hören jeden Text zweimal. Zu jedem Text lösen Sie zwei Aufgaben. Wählen Sie bei jeder Aufgabe die richtige Lösung.",
+          "badge": "Aufgaben 1 bis 10 · 2x hören",
+          "hasExample": false
+        },
+        {
+          "part": 2,
+          "title": "Teil 2: Führung auf der Burg",
+          "intro": "Sie hören nun einen Text. Sie hören den Text einmal. Dazu lösen Sie fünf Aufgaben. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c. Lesen Sie jetzt die Aufgaben 11 bis 15. Dazu haben Sie 60 Sekunden Zeit.",
+          "context": "Sie nehmen an einer Burgführung teil und hören folgende Informationen.",
+          "badge": "Aufgaben 11 bis 15 · 1x hören"
+        },
+        {
+          "part": 3,
+          "title": "Teil 3: Fernsehreportage über Dschungelwanderer",
+          "intro": "Sie hören nun ein Gespräch. Sie hören das Gespräch einmal. Dazu lösen Sie sieben Aufgaben. Wählen Sie: Sind die Aufgaben Richtig oder Falsch? Lesen Sie jetzt die Aufgaben 16 bis 22. Dazu haben Sie 60 Sekunden Zeit.",
+          "context": "Sie sehen im Fernsehen eine Reportage über einen Dschungelwanderer.",
+          "badge": "Aufgaben 16 bis 22 · 1x hören"
+        },
+        {
+          "part": 4,
+          "title": "Teil 4: Diskussion: Deutsche im Ausland",
+          "intro": "Sie hören nun eine Diskussion. Sie hören die Diskussion zweimal. Dazu lösen Sie acht Aufgaben. Ordnen Sie die Aussagen zu: Wer sagt was? Lesen Sie jetzt die Aussagen 23 bis 30. Dazu haben Sie 60 Sekunden Zeit.",
+          "context": "Die Moderatorin der Sendung „Aktuell“ diskutiert mit Bernd Bechstein und Ulrike Meyer über das Thema „Deutsche – im Ausland nicht so sehr beliebt“.",
+          "badge": "Aufgaben 23 bis 30 · 2x hören",
+          "speakers": [
+            {
+              "code": "a",
+              "name": "Moderatorin"
+            },
+            {
+              "code": "b",
+              "name": "Bernd Bechstein"
+            },
+            {
+              "code": "c",
+              "name": "Ulrike Meyer"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "h1",
+          "teilPart": 1,
+          "type": "tf",
+          "text": "Man kann ab dem 12. April indische Tiger und Löwen sehen.",
+          "answer": "falsch",
+          "audioStart": 79.8,
+          "num": 1,
+          "textNum": 1
+        },
+        {
+          "id": "h2",
+          "teilPart": 1,
+          "type": "mcq",
+          "text": "Der Tierpark ist...",
+          "options": [
+            "täglich geöffnet.",
+            "bis zum 12. April geöffnet.",
+            "erst ab dem 12. April geöffnet."
+          ],
+          "answer": 0,
+          "audioStart": 79.8,
+          "num": 2,
+          "textNum": 1
+        },
+        {
+          "id": "h3",
+          "teilPart": 1,
+          "type": "tf",
+          "text": "Das Möbelhaus verschenkt nur 200 Euro-Wertgutscheine.",
+          "answer": "falsch",
+          "audioStart": 145.4,
+          "num": 3,
+          "textNum": 2
+        },
+        {
+          "id": "h4",
+          "teilPart": 1,
+          "type": "mcq",
+          "text": "Die Wertgutscheine...",
+          "options": [
+            "gelten nur für die Sommerkollektion.",
+            "gelten nur für Möbelstücke mit dem roten Punkt.",
+            "gelten für alle Möbelstücke im ganzen Möbelhaus."
+          ],
+          "answer": 0,
+          "audioStart": 145.4,
+          "num": 4,
+          "textNum": 2
+        },
+        {
+          "id": "h5",
+          "teilPart": 1,
+          "type": "tf",
+          "text": "Gaby bekommt Besuch von ihrer Mutter.",
+          "answer": "falsch",
+          "audioStart": 225.9,
+          "num": 5,
+          "textNum": 3
+        },
+        {
+          "id": "h6",
+          "teilPart": 1,
+          "type": "mcq",
+          "text": "Sie kommt nicht ins Kino, weil...",
+          "options": [
+            "sie sauber machen muss.",
+            "ihr Mann heute abwesend ist.",
+            "sie den Film schon gesehen hat."
+          ],
+          "answer": 0,
+          "audioStart": 225.9,
+          "num": 6,
+          "textNum": 3
+        },
+        {
+          "id": "h7",
+          "teilPart": 1,
+          "type": "tf",
+          "text": "Es ist kurz vor Ladenschluss.",
+          "answer": "richtig",
+          "audioStart": 288.9,
+          "num": 7,
+          "textNum": 4
+        },
+        {
+          "id": "h8",
+          "teilPart": 1,
+          "type": "mcq",
+          "text": "Die Parkhausbenutzer verlassen das Kaufhaus...",
+          "options": [
+            "durch die Nebenausgänge.",
+            "durch den Haupteingang.",
+            "durch den Eingang an der Hauptkasse."
+          ],
+          "answer": 1,
+          "audioStart": 288.9,
+          "num": 8,
+          "textNum": 4
+        },
+        {
+          "id": "h9",
+          "teilPart": 1,
+          "type": "tf",
+          "text": "Vor dem Stuttgarter Hauptbahnhof gibt es eine Demonstration.",
+          "answer": "richtig",
+          "audioStart": 357.5,
+          "num": 9,
+          "textNum": 5
+        },
+        {
+          "id": "h10",
+          "teilPart": 1,
+          "type": "mcq",
+          "text": "Die Autofahrer nach Bad Cannstatt sollen...",
+          "options": [
+            "die Südausfahrt benutzen.",
+            "die Zufahrtsstraße benutzen.",
+            "die Ringstraße benutzen."
+          ],
+          "answer": 0,
+          "audioStart": 357.5,
+          "num": 10,
+          "textNum": 5
+        },
+        {
+          "id": "h11",
+          "teilPart": 2,
+          "type": "mcq",
+          "text": "Die Führung erzählt das Leben...",
+          "options": [
+            "der Burgherren.",
+            "des Grafen Friedberg und der Burgbewohner.",
+            "der Handwerker."
+          ],
+          "answer": 1,
+          "audioStart": 425.32,
+          "num": 11
+        },
+        {
+          "id": "h12",
+          "teilPart": 2,
+          "type": "mcq",
+          "text": "Die Burg entstand...",
+          "options": [
+            "im 6. Jahrhundert.",
+            "im Jahr 1545.",
+            "in der Neuzeit."
+          ],
+          "answer": 1,
+          "audioStart": 425.32,
+          "num": 12
+        },
+        {
+          "id": "h13",
+          "teilPart": 2,
+          "type": "mcq",
+          "text": "Wertburg fühlte sich geschlagen,...",
+          "options": [
+            "nachdem er ein Duell verloren hat.",
+            "nachdem er mit Federn und Pech angegriffen wurde.",
+            "nachdem er in den Graben gefallen war."
+          ],
+          "answer": 1,
+          "audioStart": 425.32,
+          "num": 13
+        },
+        {
+          "id": "h14",
+          "teilPart": 2,
+          "type": "mcq",
+          "text": "Warum schrieb Graf Friedberg Märchen?",
+          "options": [
+            "Es machte ihm Spaß.",
+            "Er wollte seinem Sohn eine Freude machen.",
+            "Er wollte ein Märchenbuch schreiben."
+          ],
+          "answer": 0,
+          "audioStart": 425.32,
+          "num": 14
+        },
+        {
+          "id": "h15",
+          "teilPart": 2,
+          "type": "mcq",
+          "text": "Katharinas Spezialität war...",
+          "options": [
+            "Seelachsfilet.",
+            "Eisbein.",
+            "Zwiebelsuppe."
+          ],
+          "answer": 2,
+          "audioStart": 425.32,
+          "num": 15
+        },
+        {
+          "id": "h16",
+          "teilPart": 3,
+          "type": "tf",
+          "text": "Die Dschungelwanderung war eine spontane Entscheidung.",
+          "answer": "richtig",
+          "audioStart": 632.92,
+          "num": 16
+        },
+        {
+          "id": "h17",
+          "teilPart": 3,
+          "type": "tf",
+          "text": "Die Dschungelwanderer waren nicht immer in Begleitung.",
+          "answer": "falsch",
+          "audioStart": 632.92,
+          "num": 17
+        },
+        {
+          "id": "h18",
+          "teilPart": 3,
+          "type": "tf",
+          "text": "Der Sonnenuntergang in den Anden war wunderschön.",
+          "answer": "richtig",
+          "audioStart": 632.92,
+          "num": 18
+        },
+        {
+          "id": "h19",
+          "teilPart": 3,
+          "type": "tf",
+          "text": "Die Dschungelwanderer mussten Lebensmittel besorgen.",
+          "answer": "richtig",
+          "audioStart": 632.92,
+          "num": 19
+        },
+        {
+          "id": "h20",
+          "teilPart": 3,
+          "type": "tf",
+          "text": "In der Nacht bewachten sie abwechselnd das Lager.",
+          "answer": "richtig",
+          "audioStart": 632.92,
+          "num": 20
+        },
+        {
+          "id": "h21",
+          "teilPart": 3,
+          "type": "tf",
+          "text": "Der Schlangenbiss wurde sofort ärztlich behandelt.",
+          "answer": "falsch",
+          "audioStart": 632.92,
+          "num": 21
+        },
+        {
+          "id": "h22",
+          "teilPart": 3,
+          "type": "tf",
+          "text": "Die Dschungelwanderer haben eine zweite Reise geplant.",
+          "answer": "falsch",
+          "audioStart": 632.92,
+          "num": 22
+        },
+        {
+          "id": "h23",
+          "teilPart": 4,
+          "type": "mcq",
+          "text": "Nur ältere Menschen verbinden die Deutschen noch mit dem Krieg.",
+          "options": [
+            "Moderatorin",
+            "Bernd Bechstein",
+            "Ulrike Meyer"
+          ],
+          "answer": 2,
+          "audioStart": 861.6,
+          "num": 23
+        },
+        {
+          "id": "h24",
+          "teilPart": 4,
+          "type": "mcq",
+          "text": "Es gibt Menschen, die mehr als Deutsche arbeiten.",
+          "options": [
+            "Moderatorin",
+            "Bernd Bechstein",
+            "Ulrike Meyer"
+          ],
+          "answer": 1,
+          "audioStart": 861.6,
+          "num": 24
+        },
+        {
+          "id": "h25",
+          "teilPart": 4,
+          "type": "mcq",
+          "text": "Ausländer sind Deutschen gegenüber sehr freundlich.",
+          "options": [
+            "Moderatorin",
+            "Bernd Bechstein",
+            "Ulrike Meyer"
+          ],
+          "answer": 1,
+          "audioStart": 861.6,
+          "num": 25
+        },
+        {
+          "id": "h26",
+          "teilPart": 4,
+          "type": "mcq",
+          "text": "Viele Deutsche halten sich an die Regeln.",
+          "options": [
+            "Moderatorin",
+            "Bernd Bechstein",
+            "Ulrike Meyer"
+          ],
+          "answer": 2,
+          "audioStart": 861.6,
+          "num": 26
+        },
+        {
+          "id": "h27",
+          "teilPart": 4,
+          "type": "mcq",
+          "text": "Wenn man Gesetze befolgt, hilft man der Demokratie und dem Rechtsstaat.",
+          "options": [
+            "Moderatorin",
+            "Bernd Bechstein",
+            "Ulrike Meyer"
+          ],
+          "answer": 0,
+          "audioStart": 861.6,
+          "num": 27
+        },
+        {
+          "id": "h28",
+          "teilPart": 4,
+          "type": "mcq",
+          "text": "In den südeuropäischen Ländern wird auch bei hohen Temperaturen gearbeitet.",
+          "options": [
+            "Moderatorin",
+            "Bernd Bechstein",
+            "Ulrike Meyer"
+          ],
+          "answer": 2,
+          "audioStart": 861.6,
+          "num": 28
+        },
+        {
+          "id": "h29",
+          "teilPart": 4,
+          "type": "mcq",
+          "text": "Ohne Ordnung kann eine Gesellschaft nicht richtig existieren.",
+          "options": [
+            "Moderatorin",
+            "Bernd Bechstein",
+            "Ulrike Meyer"
+          ],
+          "answer": 1,
+          "audioStart": 861.6,
+          "num": 29
+        },
+        {
+          "id": "h30",
+          "teilPart": 4,
+          "type": "mcq",
+          "text": "Man sollte die Geschwindigkeit der Gesellschaft reduzieren.",
+          "options": [
+            "Moderatorin",
+            "Bernd Bechstein",
+            "Ulrike Meyer"
+          ],
+          "answer": 2,
+          "audioStart": 861.6,
+          "num": 30
+        }
+      ]
+    }
+  ],
+  "explanations": {
+    "1": {
+      "quote": "Nachdem ich nun Metropolen und Ballungsgebiete hinter mir gelassen habe...",
+      "whyCorrect": {
+        "de": "Richtig: Der Autor erwähnt ausdrücklich, dass er zuvor in Metropolen und Ballungsgebieten (großen Städten) unterwegs war.",
+        "ar": "صحيح: يذكر الكاتب صراحة أنه كان يتنقل في المدن الكبرى والمناطق المأهولة قبل التوجه إلى الريف.",
+        "fr": "Vrai : L'auteur mentionne expressément qu'il a d'abord quitté les métropoles et grandes agglomérations urbaines."
+      },
+      "whyIncorrect": {
+        "de": "Falsch wäre nicht zutreffend, da der Text klar von Metropolen spricht.",
+        "ar": "الخيار 'خطأ' غير صحيح لأن النص يؤكد زيارته للمدن الكبرى أولاً.",
+        "fr": "Faux ne conviendrait pas, le texte mentionnant clairement les métropoles."
+      }
+    },
+    "2": {
+      "quote": "...winke meinem Kusin, der mich mit dem Auto abholt.",
+      "whyCorrect": {
+        "de": "Richtig: Ein Verwandter (sein Cousin/Kusin) holt ihn am Bahnhof ab.",
+        "ar": "صحيح: أحد أقربائه (ابن عمه/خاله) يستقبله في المحطة بالسيارة.",
+        "fr": "Vrai : Un membre de sa famille (son cousin) vient le chercher en voiture à la gare."
+      },
+      "whyIncorrect": {
+        "de": "Falsch trifft nicht zu, da ein Cousin zur Familie gehört.",
+        "ar": "الخيار 'خطأ' غير صحيح لأن ابن العم من الأقارب.",
+        "fr": "Faux est incorrect car un cousin fait bien partie de la parenté."
+      }
+    },
+    "3": {
+      "quote": "Es gibt auch gleich Vesper mit Bauernbrot, Wurst und Speck vom „Brettle“.",
+      "whyCorrect": {
+        "de": "Richtig: Gleich nach der Ankunft wird ihm eine herzhafte Vespermahlzeit serviert.",
+        "ar": "صحيح: بعد وصوله مباشرة يتم تقديم وجبة خفيفة تقليدية (خبز ريفي ولحم مقدد).",
+        "fr": "Vrai : Dès son arrivée, un casse-croûte campagnard lui est immédiatement servi."
+      },
+      "whyIncorrect": {
+        "de": "Falsch ist unzutreffend, da die Vespermahlzeit direkt angeboten wird.",
+        "ar": "الخيار 'خطأ' غير دقيق لأن الطعام قُدّم فور وصوله.",
+        "fr": "Faux n'est pas correct car le repas est immédiatement proposé."
+      }
+    },
+    "4": {
+      "quote": "Als Getränk kann ich wählen zwischen Most vom Bauern oder doch ein „Tannenzäpfle“... Das Wasser ist schließlich zum Waschen und für die Tiere da.",
+      "whyCorrect": {
+        "de": "Falsch: Sie trinken keinen Wasserkrug, sondern Apfelmost oder Bier (Tannenzäpfle); Wasser sei 'zum Waschen und für die Tiere da'.",
+        "ar": "خطأ: هم لا يشربون الماء بل عصير التفاح المخمر (Most) أو البيرة، حيث يعلق مازحًا أن الماء للغسيل والحيوانات فقط.",
+        "fr": "Faux : Ils ne boivent pas d'eau mais du cidre local ou de la bière ; l'eau étant plaisamment réservée 'à la toilette et aux bêtes'."
+      },
+      "whyIncorrect": {
+        "de": "Richtig wäre falsch, da sie ausdrücklich Most oder Bier trinken.",
+        "ar": "الخيار 'صحيح' غير دقيق لأنهم لا يشربون الماء إطلاقًا.",
+        "fr": "Vrai serait faux car ils consomment explicitement du cidre ou de la bière."
+      }
+    },
+    "5": {
+      "quote": "...eine Behauptung, für die mich die meisten meiner Kollegen spöttisch belächeln, weil Alemannisch für sie eine Fremdsprache ist.",
+      "whyCorrect": {
+        "de": "Falsch: Die Kollegen belächeln den alemannischen Dialekt spöttisch und betrachten ihn als fremdartig, sie mögen ihn also nicht sonderlich.",
+        "ar": "خطأ: زملاؤه يسخرون من اللهجة الألمانية الجنوبية ويعتبرونها لغة أجنبية بالنسبة لهم.",
+        "fr": "Faux : Les collègues se moquent du dialecte alémanique et le considèrent comme une langue étrangère."
+      },
+      "whyIncorrect": {
+        "de": "Richtig ist falsch, da die Kollegen spöttisch reagieren.",
+        "ar": "الخيار 'صحيح' خاطئ لأن الزملاء يسخرون من اللهجة.",
+        "fr": "Vrai est incorrect car les collègues réagissent avec dérision."
+      }
+    },
+    "6": {
+      "quote": "...beschließen wir das Auto in der Garage stehen zu lassen und nur so weit zu gehen, wie uns die Füße von der Haustüre aus tragen.",
+      "whyCorrect": {
+        "de": "Richtig: Sie lassen das Auto stehen und wandern direkt zu Fuß von der Haustür aus los.",
+        "ar": "صحيح: قرروا ترك السيارة في المرآب والانطلاق مشيًا على الأقدام مباشرة من عتبة الباب.",
+        "fr": "Vrai : Ils décident de laisser la voiture au garage et de partir à pied directement depuis le pas de la porte."
+      },
+      "whyIncorrect": {
+        "de": "Falsch ist nicht zutreffend, da sie ausdrücklich auf das Auto verzichten.",
+        "ar": "الخيار 'خطأ' غير صحيح لأنهم تخلوا صراحة عن استخدام السيارة.",
+        "fr": "Faux ne s'applique pas puisqu'ils renoncent expressément à la voiture."
+      }
+    },
+    "7": {
+      "quote": "Eine Studie bestätigt, was sich jeder mit ein bisschen Verstand auch selbst denken kann: Ein Apfel ist nicht einfach gesünder, nur weil er vom Bio-Bauern kommt.",
+      "whyCorrect": {
+        "de": "Lösung c ist richtig: Die Studie belegt, dass Bio-Produkte nicht automatisch oder selbstverständlich gesünder sind.",
+        "ar": "الخيار (c) صحيح: أثبتت الدراسة أن المنتجات العضوية ليست بالضرورة أو تلقائيًا أكثر فائدة للصحة.",
+        "fr": "L'option c est correcte : L'étude confirme que le label bio n'est pas automatiquement synonyme de meilleure santé."
+      },
+      "whyIncorrect": {
+        "de": "a und b stimmen nicht, da es weder um besseren Geschmack noch um den Lebensstil der Bauern geht.",
+        "ar": "الخيارات الأخرى غير صحيحة لأن النص لا يدعي تفوق طعم التفاح أو نمط معيشة المزارعين.",
+        "fr": "a et b sont erronés car le texte ne parle ni de meilleur goût ni du mode de vie des agriculteurs."
+      }
+    },
+    "8": {
+      "quote": "Wer Wert darauf legt, dass ein Produkt nicht nur weitgehend pestizidfrei ist... muss schon genau hinsehen.",
+      "whyCorrect": {
+        "de": "Lösung a ist richtig: Man muss genau hinsehen und die Herkunft/Kriterien der Produkte genau prüfen.",
+        "ar": "الخيار (a) صحيح: من يبحث عن جودة عضوية حقيقية عليه فحص وتدقيق المنتجات بعناية.",
+        "fr": "L'option a est correcte : Il faut regarder de très près et vérifier minutieusement les produits."
+      },
+      "whyIncorrect": {
+        "de": "b und c sind frei erfunden (Glück haben / Lebenserwartung).",
+        "ar": "الخيارات (b) و (c) غير مذكورة وغير منطقية.",
+        "fr": "b et c sont sans rapport avec le conseil d'examen attentif donné dans le texte."
+      }
+    },
+    "9": {
+      "quote": "Für die strengen Kriterien muss man leider meist auch mehr bezahlen... Bio hat nun mal seinen Preis...",
+      "whyCorrect": {
+        "de": "Lösung b ist richtig: Echte Bio-Qualität erfordert strengere Kriterien und ist daher oft teurer/hoch im Preis.",
+        "ar": "الخيار (b) صحيح: المنتجات العضوية التي تراعي المعايير الصارمة تكلف أكثر وغالبًا ما يكون سعرها مرتفعًا.",
+        "fr": "L'option b est correcte : Répondre aux critères stricts du bio a un coût, d'où des prix souvent élevés."
+      },
+      "whyIncorrect": {
+        "de": "a und c treffen den Kern nicht; der Text betont, dass man mehr bezahlen muss.",
+        "ar": "الخيارات الأخرى غير صحيحة لأن التركيز في النص على ارتفاع السعر.",
+        "fr": "a et c sont incorrects car le texte insiste sur le surcoût financier."
+      }
+    },
+    "10": {
+      "quote": "Wie jedes Jahr öffnete die Europaschule ihre Pforten, um sich allen Interessierten vorzustellen... über die möglichen Schullaufbahnen sowie das Schulprogramm... informiert.",
+      "whyCorrect": {
+        "de": "Lösung c ist richtig: Das Fest bot Eltern und Schülern umfassende Informationen über die Schule und deren Bildungswege.",
+        "ar": "الخيار (c) صحيح: أتاح يوم المعلومات للزوار الاطلاع على البرامج التعليمية للمدرسة الأوروبية في كولونيا.",
+        "fr": "L'option c est correcte : Les visiteurs ont pu s'informer en détail sur l'école européenne de Cologne et ses filières."
+      },
+      "whyIncorrect": {
+        "de": "a und b sind falsch: Niemand verlor die Orientierung (es gab Führungen) und niemand beschwerte sich.",
+        "ar": "الخيارات (a) و (b) خاطئة تمامًا، فلم يشتكِ أحد ولم يضلوا الطريق.",
+        "fr": "a et b sont faux : des visites guidées assuraient l'orientation et aucune plainte n'est mentionnée."
+      }
+    },
+    "11": {
+      "quote": "Vielfältige Ausstellungen, Aufführungen und Aktionen zeigten einen repräsentativen Querschnitt des Schulalltags.",
+      "whyCorrect": {
+        "de": "Lösung a ist richtig: Die Aktionen und Aufführungen spiegelten das alltägliche Schulleben wider.",
+        "ar": "الخيار (a) صحيح: قدمت العروض والأنشطة نماذج حية من الحياة المدرسية اليومية.",
+        "fr": "L'option a est correcte : Les représentations illustraient le quotidien scolaire des élèves."
+      },
+      "whyIncorrect": {
+        "de": "b ist falsch, da der Schriftsteller selbst las; c war nicht die Hauptaktivität der Schüler.",
+        "ar": "الخيار (b) غير صحيح لأن الكاتب نفسه هو من ألقى القراءة، و (c) لم تكن نشاطهم الأساسي.",
+        "fr": "b est erroné (l'auteur a lu ses textes lui-même) et c n'était pas l'objet principal."
+      }
+    },
+    "12": {
+      "quote": "Ein besonderer Dank geht an alle Eltern, die Schülerinnen und Schüler, die Kolleginnen und Kollegen sowie die Mitarbeiter...",
+      "whyCorrect": {
+        "de": "Lösung b ist richtig: Der Dank richtet sich an alle Beteiligten, die mitgeholfen haben.",
+        "ar": "الخيار (b) صحيح: الشكر وُجّه لجميع من ساهم وتطوع في إنجاح الفعالية من أولياء أمور وطلاب ومعلمين.",
+        "fr": "L'option b est correcte : Les remerciements s'adressent à toutes les personnes qui ont apporté leur aide."
+      },
+      "whyIncorrect": {
+        "de": "a und c schränken den Dank unzulässig auf Teilgruppen ein.",
+        "ar": "الخيارات الأخرى تقصر الشكر على فئات محددة خلافًا للنص.",
+        "fr": "a et c limitent indûment les remerciements à un groupe restreint."
+      }
+    },
+    "13": {
+      "quote": "Gasthof zum Ochsen: Wir bieten jeden Mittag von 11.30 - 14.00 Uhr leckere Mittagsmenüs zu einem günstigen Preis!",
+      "whyCorrect": {
+        "de": "Anzeige B passt: Herr Berger sucht ein preiswertes und gutes Mittagsessen außerhalb der Kantine.",
+        "ar": "الإعلان B يطابق الموقف: مطعم Gasthof zum Ochsen يقدم وجبات غداء يومية شهية واقتصادية من 11:30 إلى 14:00.",
+        "fr": "L'annonce B correspond : L'auberge Zum Ochsen propose des menus du midi savoureux et économiques."
+      },
+      "whyIncorrect": {
+        "de": "Andere Anzeigen bieten keinen preiswerten Mittagstisch dieser Art.",
+        "ar": "الإعلانات الأخرى لا تقدم قوائم غداء اقتصادية وسريعة.",
+        "fr": "Les autres annonces ne répondent pas au besoin de déjeuner économique le midi."
+      }
+    },
+    "14": {
+      "quote": "Café Bellini: Karl-Pfaff-Str. 12 ... Bester italienischer Espresso und Cappuccino.",
+      "whyCorrect": {
+        "de": "Anzeige G passt: Franz möchte nach seinem Italienurlaub einen hervorragenden italienischen Espresso trinken.",
+        "ar": "الإعلان G يطابق الموقف: مقهى Café Bellini متخصص في القهوة والإسبريسو الإيطالي الأصيل.",
+        "fr": "L'annonce G correspond : Le Café Bellini est spécialisé dans le véritable expresso italien."
+      },
+      "whyIncorrect": {
+        "de": "Andere Lokale fokussieren sich auf Speisen oder Lieferservice, nicht auf Espresso-Spezialitäten.",
+        "ar": "المطاعم الأخرى تركز على المأكولات وليس على مقاهي الإسبريسو المتخصصة.",
+        "fr": "Les autres établissements sont des restaurants ou services de livraison, pas des cafés expresso."
+      }
+    },
+    "15": {
+      "quote": "Waldau - Stuben: Bier vom Fass, Rote Wurst, Pommes Frites, Wurstsalat ... Öffnungszeiten bis ca. 21 Uhr.",
+      "whyCorrect": {
+        "de": "Anzeige A passt: Nach der Arbeit ein Bier trinken und eine Kleinigkeit (Wurst, Pommes) essen.",
+        "ar": "الإعلان A يطابق الموقف: مطعم Waldau-Stuben يقدم بيرة برميل ووجبات خفيفة حتى التاسعة مساءً.",
+        "fr": "L'annonce A correspond : Les Waldau-Stuben proposent bière pression et collations simples en soirée."
+      },
+      "whyIncorrect": {
+        "de": "Andere Anzeigen bieten kein einfaches Feierabendbier mit kleiner Mahlzeit.",
+        "ar": "الإعلانات الأخرى لا تناسب فكرة تناول وجبة خفيفة ومشروب بعد الدوام.",
+        "fr": "Les autres annonces ne conviennent pas pour une simple bière d'après-travail avec collation."
+      }
+    },
+    "16": {
+      "quote": "Back to the Fifties im klassischen US-Diner-Restaurant mit Rock'n'Roll-Atmosphäre...",
+      "whyCorrect": {
+        "de": "Anzeige D passt: Frau Ehlert sucht für ihre Eltern ein Lokal mit Musik/Songs aus deren Jugendzeit (50er Jahre).",
+        "ar": "الإعلان D يطابق الموقف: مطعم Back to the Fifties يقدم أجواء وموسيقى فترة شباب الوالدين (الخمسينيات).",
+        "fr": "L'annonce D correspond : Le diner US diffuse de la musique rétro des années 50, époque de jeunesse des parents."
+      },
+      "whyIncorrect": {
+        "de": "Kein anderes Restaurant bietet spezifische 50er-Jahre-Musik.",
+        "ar": "لا يوجد مطعم آخر يركز على أغاني وموسيقى الخمسينيات.",
+        "fr": "Aucun autre établissement ne propose cette musique spécifique des années 50."
+      }
+    },
+    "17": {
+      "quote": "Banyan – das neue Asia-Restaurant: Speisen, die wie Fleisch schmecken... garantiert alles ohne Fleisch.",
+      "whyCorrect": {
+        "de": "Anzeige F passt: Frau Bär sucht vegetarisches Essen; das Banyan bietet garantiert 100% fleischlose Gerichte.",
+        "ar": "الإعلان F يطابق الموقف: مطعم Banyan الآسيوي نباتي بالكامل وتخلو مأكولاته تمامًا من اللحوم.",
+        "fr": "L'annonce F correspond : Le restaurant asiatique Banyan garantit une cuisine 100 % sans viande."
+      },
+      "whyIncorrect": {
+        "de": "Die anderen Lokale bieten traditionelle Fleisch- oder Mischküche.",
+        "ar": "بقية المطاعم تقدم لحومًا تقليدية وليست نباتية.",
+        "fr": "Les autres annonces proposent des cartes traditionnelles contenant de la viande."
+      }
+    },
+    "18": {
+      "quote": "DER GRIECHE IM GRÜNEN: Eine der schönsten Stuttgarter Gartenwirtschaften... griechische Spezialitäten... großer Biergarten.",
+      "whyCorrect": {
+        "de": "Anzeige C passt: Frau Sulcher will ausländisch (griechisch) essen und draußen im Biergarten/Garten sitzen.",
+        "ar": "الإعلان C يطابق الموقف: مطعم Der Grieche im Grünen يقدم مأكولات أجنبية (يونانية) في حديقة مفتوحة في الهواء الطلق.",
+        "fr": "L'annonce C correspond : Ce restaurant grec dispose d'une terrasse/jardin pour manger dehors."
+      },
+      "whyIncorrect": {
+        "de": "Die anderen ausländischen Lokale bieten keinen großen Außenbereich/Gartenwirtschaft.",
+        "ar": "المطاعم الأجنبية الأخرى تفتقر إلى جلسات خارجية في حديقة واسعة.",
+        "fr": "Les autres restaurants étrangers ne disposent pas d'une grande terrasse en plein air."
+      }
+    },
+    "19": {
+      "quote": "Keine passende Anzeige vorhanden.",
+      "whyCorrect": {
+        "de": "Lösung X: Herr Thomas sucht einen Partyservice für eine Gartenparty; es gibt unter den Anzeigen keinen Catering-Dienst, der Speisen liefert.",
+        "ar": "الخيار X صحيح: لا يوجد إعلان يقدم خدمة إعداد وجلب الطعام الجاهز (Partyservice/Catering) للحفلات.",
+        "fr": "L'option X est correcte : Aucun service traiteur pour préparer une fête n'est proposé parmi les annonces."
+      },
+      "whyIncorrect": {
+        "de": "E bietet nur Geschirr-/Zeltverleih, keinen Partyservice für Essen; H und I sind reine Essenslieferdienste für Einzelbestellungen.",
+        "ar": "الإعلان E يؤجر خيامًا وأطباقًا فقط دون إعداد طعام، وبقية الإعلانات لا تلبي طلب تنظيم بوفيه الحفل.",
+        "fr": "L'annonce E ne loue que du matériel sans traiteur, et les autres sont des livraisons de repas individuels."
+      }
+    },
+    "20": {
+      "quote": "U. Filsmann: ...unterstütze den Aufruf, das organisierte Berglaufen abzuschaffen. Wie viele Tote brauchen wir noch, um am Ende einzusehen, dass Extremsport-Wettkämpfe Unsinn sind?",
+      "whyCorrect": {
+        "de": "Ja: U. Filsmann ist eindeutig gegen Extremsport und fordert die Abschaffung von Bergläufen.",
+        "ar": "نعم: فيلسمان يعارض رياضات التحمل الشديدة ويطالب بحظر وإلغاء سباقات الجري الجبلية المنظمة.",
+        "fr": "Oui : U. Filsmann est fermement opposé aux sports extrêmes et demande l'interdiction de ces courses."
+      },
+      "whyIncorrect": {
+        "de": "Nein trifft nicht zu, da er Extremsport als 'Unsinn' bezeichnet.",
+        "ar": "الخيار 'لا' خاطئ لأنه يصف هذه الرياضات بالهراء المميت.",
+        "fr": "Non ne s'applique pas car il qualifie ces compétitions d'inepties dangereuses."
+      }
+    },
+    "21": {
+      "quote": "Norbert P.: Um in Zukunft derartige Katastrophen zu vermeiden, bin ich dafür, das Zugspitzlaufen einzustellen...",
+      "whyCorrect": {
+        "de": "Ja: Norbert P. will das Zugspitzlaufen einstellen, da er es für unverantwortlich hält.",
+        "ar": "نعم: نوربرت يؤيد إلغاء سباق تسلق قمة تسوغشبيتسه لتفادي الكوارث وحالات الوفاة.",
+        "fr": "Oui : Norbert P. demande l'arrêt de la course de la Zugspitze pour éviter de nouveaux drames."
+      },
+      "whyIncorrect": {
+        "de": "Nein ist unzutreffend, da er die Einstellung des Wettbewerbs fordert.",
+        "ar": "الخيار 'لا' غير صحيح لأنه يدعو صراحة لإلغاء الفعالية.",
+        "fr": "Non est inexact car il réclame l'annulation de l'épreuve."
+      }
+    },
+    "22": {
+      "quote": "Wilma J.: Es ist wohl eine Kunst, den Sport so zu betreiben, ohne seinem Körper zu schaden, aber das halte ich für absolut legitim.",
+      "whyCorrect": {
+        "de": "Nein: Wilma J. ist nicht gegen Extremsport; sie hält ihn für 'absolut legitim', wenn man auf seinen Körper achtet.",
+        "ar": "لا: فيلما ليست ضد الرياضات الشديدة، بل تراها نشاطًا مشروعًا وحقًا طبيعيًا للرياضي.",
+        "fr": "Non : Wilma J. n'est pas opposée au sport extrême ; elle le juge tout à fait légitime."
+      },
+      "whyIncorrect": {
+        "de": "Ja wäre falsch, da sie den Sport verteidigt und legitim findet.",
+        "ar": "الخيار 'نعم' خاطئ لأنها تدافع عن هذه الرياضات وتراها مشروعة.",
+        "fr": "Oui serait erroné car elle défend cette pratique sportive."
+      }
+    },
+    "23": {
+      "quote": "Nicole: Ich halte nichts davon, Wettkämpfe zu verteufeln, nur weil einige nicht damit umgehen können.",
+      "whyCorrect": {
+        "de": "Nein: Nicole verteidigt Extremsportwettkämpfe und spricht sich gegen deren Verteufelung aus.",
+        "ar": "لا: نيكول لا تعارض هذه الرياضات وترفض شيطنة المنافسات الرياضية لمجرد فشل البعض.",
+        "fr": "Non : Nicole s'oppose à la diabolisation des compétitions et défend la liberté de concourir."
+      },
+      "whyIncorrect": {
+        "de": "Ja trifft nicht zu, da sie gegen ein Verbot oder Verteufelung argumentiert.",
+        "ar": "الخيار 'نعم' غير صحيح لأنها تؤيد حرية المشاركة وخوض التحدي.",
+        "fr": "Oui est incorrect car elle refuse qu'on diabolise ces épreuves."
+      }
+    },
+    "24": {
+      "quote": "Walther: Mit besserer Organisation hat der Extremsport durchaus Chancen.",
+      "whyCorrect": {
+        "de": "Nein: Walther ist nicht grundsätzlich gegen Extremsport; er fordert lediglich bessere Organisation und Teilnehmerprüfung.",
+        "ar": "لا: فالتر ليس ضد هذه الرياضات من حيث المبدأ، بل يرى أن لها مستقبلاً مع تحسين التنظيم وفحص اللياقة.",
+        "fr": "Non : Walther n'est pas opposé au sport extrême ; il préconise seulement une meilleure organisation."
+      },
+      "whyIncorrect": {
+        "de": "Ja ist falsch, da er Extremsport mit besserer Organisation befürwortet.",
+        "ar": "الخيار 'نعم' خاطئ لأنه يرى أن للرياضة فرصًا حقيقية مع حسن التنظيم.",
+        "fr": "Oui est faux car il accorde des chances d'avenir à cette discipline."
+      }
+    },
+    "25": {
+      "quote": "Dr. Rosner: ...und in extremen Situationen kann das durchaus gefährlich werden, darum sollte auf Wettkämpfe im Extremsport verzichtet werden.",
+      "whyCorrect": {
+        "de": "Ja: Dr. Rosner plädiert dafür, auf Extremsportwettkämpfe zu verzichten, da sie zur gefährlichen Sucht werden können.",
+        "ar": "نعم: د. روزنر يعارض مسابقات الرياضات الشديدة ويدعو للتخلي عنها لتحولها إلى إدمان خطير.",
+        "fr": "Oui : Le Dr Rosner préconise de renoncer aux compétitions extrêmes en raison des risques d'addiction et de danger."
+      },
+      "whyIncorrect": {
+        "de": "Nein ist falsch, da er ausdrücklich für den Verzicht auf Wettkämpfe plädiert.",
+        "ar": "الخيار 'لا' خاطئ لأنه يطلب صراحة التخلي عن هذه المسابقات.",
+        "fr": "Non est faux puisqu'il appelle expressément à y renoncer."
+      }
+    },
+    "26": {
+      "quote": "Svenja R.: Nach diesem harten Training will man schließlich wissen, wo man steht und sucht die Leistungsmessung, das ist doch ganz natürlich.",
+      "whyCorrect": {
+        "de": "Nein: Svenja R. ist nicht gegen den Extremsport; sie versteht und unterstützt das Streben der Sportler nach Leistungsmessung.",
+        "ar": "لا: سفينيا ليست ضد الرياضات الشديدة وتعتبر قياس القدرات وتحدي الذات أمرًا طبيعيًا ومستحقًا.",
+        "fr": "Non : Svenja R. n'est pas contre ; elle trouve tout à fait naturel de vouloir mesurer ses performances."
+      },
+      "whyIncorrect": {
+        "de": "Ja trifft nicht zu, da sie die Athleten verteidigt.",
+        "ar": "الخيار 'نعم' خاطئ لأنها تبرر وتدعم رغبة الرياضيين في المنافسة.",
+        "fr": "Oui est incorrect car elle soutient la démarche des sportifs."
+      }
+    },
+    "27": {
+      "quote": "Wir bieten Zooführungen mit Einblicken in den Zooalltag und jede Menge spannende Aktionen...",
+      "whyCorrect": {
+        "de": "Lösung c ist richtig: Der Berliner Zoo bietet spezielle Geburtstagsführungen als buchbares Programm an.",
+        "ar": "الخيار (c) صحيح: حديقة حيوان برلين تقدم جولات إرشادية مخصصة لأعياد الميلاد.",
+        "fr": "L'option c est correcte : Le zoo de Berlin propose des visites guidées d'anniversaire."
+      },
+      "whyIncorrect": {
+        "de": "a und b sind falsch: Weder der Zoo selbst noch die Tiere feiern Geburtstag.",
+        "ar": "الخيارات الأخرى غير صحيحة لأن الحديقة أو الحيوانات ليست هي من تحتفل بالعيد.",
+        "fr": "a et b sont erronés : ce ne sont ni le zoo ni les animaux qui fêtent leur anniversaire."
+      }
+    },
+    "28": {
+      "quote": "In der Regel kann man auf jeder Tour füttern und zumeist auch einen Blick hinter die Kulissen...",
+      "whyCorrect": {
+        "de": "Lösung a ist richtig: Das Programm beinhaltet im Regelfall auch das Füttern von Tieren.",
+        "ar": "الخيار (a) صحيح: يتضمن برنامج الجولة في العادة إطعام الحيوانات ورؤية ما وراء الكواليس.",
+        "fr": "L'option a est correcte : Le programme prévoit en règle générale le nourrissage des animaux."
+      },
+      "whyIncorrect": {
+        "de": "b und c stimmen nicht: Von riskantem Regen oder Nur-Schönwetter ist keine Rede.",
+        "ar": "الخيارات الأخرى غير صحيحة فالأمطار لا تجعلها خطيرة ولم تُقصر الجولة على الجو المشمس.",
+        "fr": "b et c sont faux : le texte ne qualifie pas la pluie de dangereuse et ne limite pas aux beaux jours."
+      }
+    },
+    "29": {
+      "quote": "Für Kinder ab 5 Jahren (Mindestalter des Geburtstagskindes und seiner Gäste)",
+      "whyCorrect": {
+        "de": "Lösung c ist richtig: Die Führungen richten sich gezielt an Kinder ab 5 Jahren.",
+        "ar": "الخيار (c) صحيح: الجولات مخصصة وموجهة للأطفال بدءًا من سن 5 سنوات.",
+        "fr": "L'option c est correcte : Les visites guidées s'adressent spécifiquement aux enfants à partir de 5 ans."
+      },
+      "whyIncorrect": {
+        "de": "a ist falsch (unter fünf Jahren nicht zugelassen); b ist falsch (Erwachsene sind lediglich Begleitpersonen, nicht Zielgruppe).",
+        "ar": "الخيارات الأخرى غير صحيحة؛ فالأطفال دون الخامسة غير مسموح لهم، والبالغون مرافقون فقط وليسوا الفئة المستهدفة.",
+        "fr": "a est faux (non autorisé aux moins de 5 ans) et b est faux (les adultes sont de simples accompagnateurs)."
+      }
+    },
+    "30": {
+      "quote": "Montag - Freitag um 14.00 Uhr und 15.00 Uhr... bzw. 15.30 Uhr",
+      "whyCorrect": {
+        "de": "Lösung b ist richtig: An Wochentagen (Mo–Fr) finden die Führungen ausschließlich am Nachmittag statt.",
+        "ar": "الخيار (b) صحيح: في أيام الأسبوع العادية (من الاثنين إلى الجمعة) تتاح الجولات بعد الظهر فقط.",
+        "fr": "L'option b est correcte : En semaine (lundi au vendredi), les visites ont lieu uniquement l'après-midi."
+      },
+      "whyIncorrect": {
+        "de": "a ist falsch (dauert ca. eine Stunde); c ist falsch, an Wochenenden gibt es auch Führungen um 13.00 und 15.00 Uhr.",
+        "ar": "الخيارات الأخرى خاطئة؛ فالجولة تستغرق ساعة تقريبًا، وفي عطلة نهاية الأسبوع تتاح بعد الظهر أيضًا (13:00 و15:00).",
+        "fr": "a est faux (durée d'environ une heure) et c est faux car le week-end propose aussi des visites l'après-midi."
+      }
+    },
+    "h1": {
+      "quote": "Die neuen indischen Tiger... sind ab sofort im Freigehege zu sehen.",
+      "whyCorrect": {
+        "de": "Falsch: Die indischen Tiger sind bereits ab sofort zu sehen, nicht erst ab 12. April.",
+        "ar": "خطأ: النمور الهندية معروضة ويمكن رؤيتها فورًا في الحظيرة المفتوحة وليس ابتداءً من 12 أبريل.",
+        "fr": "Faux : Les tigres indiens sont visibles immédiatement dans l'enclos extérieur, pas seulement à partir du 12 avril."
+      },
+      "whyIncorrect": {
+        "de": "Richtig wäre falsch, da die Tiere bereits jetzt im Gehege sind.",
+        "ar": "الخيار 'صحيح' غير دقيق لأن الحيوانات متاحة للمشاهدة حاليًا.",
+        "fr": "Vrai est incorrect car les animaux sont déjà visibles dès maintenant."
+      }
+    },
+    "h2": {
+      "quote": "Der Tierpark hat für Sie täglich ab 9 Uhr geöffnet...",
+      "whyCorrect": {
+        "de": "Lösung a ist richtig: Der Tierpark ist jeden Tag geöffnet.",
+        "ar": "الخيار (a) صحيح: حديقة الحيوان مفتوحة يوميًا للزوار من الساعة 9 صباحًا.",
+        "fr": "L'option a est correcte : Le parc zoologique est ouvert tous les jours dès 9 heures."
+      },
+      "whyIncorrect": {
+        "de": "b und c widersprechen der täglichen Öffnungszeit.",
+        "ar": "الخيارات الأخرى غير صحيحة لأن الحديقة لا تغلق حتى 12 أبريل.",
+        "fr": "b et c contredisent l'ouverture quotidienne mentionnée dans l'annonce."
+      }
+    },
+    "h3": {
+      "quote": "Wertgutscheine im Wert von 50, 100 und 200 Euro...",
+      "whyCorrect": {
+        "de": "Falsch: Es gibt Gutscheine in verschiedenen Werten (50, 100 und 200 Euro), nicht nur über 200 Euro.",
+        "ar": "خطأ: يقدم متجر الأثاث قسائم شراء بفئات مختلفة (50 و 100 و 200 يورو) وليس فقط 200 يورو.",
+        "fr": "Faux : Des bons d'achat de 50, 100 et 200 euros sont distribués, pas seulement de 200 euros."
+      },
+      "whyIncorrect": {
+        "de": "Richtig wäre falsch, da mehrere Wertstufen existieren.",
+        "ar": "الخيار 'صحيح' خاطئ لتعدد فئات القسائم.",
+        "fr": "Vrai est erroné car plusieurs montants sont proposés."
+      }
+    },
+    "h4": {
+      "quote": "Die Gutscheine gelten ausschließlich für unsere neue Sommerkollektion.",
+      "whyCorrect": {
+        "de": "Lösung a ist richtig: Die Gutscheine können nur für die Sommerkollektion eingelöst werden.",
+        "ar": "الخيار (a) صحيح: القسائم تسري حصرًا على تشكيلة الأثاث الصيفية الجديدة.",
+        "fr": "L'option a est correcte : Les bons d'achat sont valables uniquement sur la collection d'été."
+      },
+      "whyIncorrect": {
+        "de": "b und c stimmen nicht mit der ausdrücklichen Beschränkung auf die Sommerkollektion überein.",
+        "ar": "الخيارات الأخرى لا تتوافق مع التخصيص الحصري للتشكيلة الصيفية.",
+        "fr": "b et c ne correspondent pas à la restriction explicite à la collection estivale."
+      }
+    },
+    "h5": {
+      "quote": "Hallo Gaby, meine Schwiegermutter kommt heute überraschend zu Besuch...",
+      "whyCorrect": {
+        "de": "Falsch: Die Schwiegermutter kommt zu Besuch, nicht Gabys eigene Mutter.",
+        "ar": "خطأ: الحماة (أم الزوج) هي القادمة في زيارة مفاجئة وليست والدة غابي.",
+        "fr": "Faux : C'est sa belle-mère qui arrive à l'improviste, pas sa propre mère."
+      },
+      "whyIncorrect": {
+        "de": "Richtig ist unzutreffend (Schwiegermutter ≠ eigene Mutter).",
+        "ar": "الخيار 'صحيح' غير دقيق للاختلاف بين الحماة والأم.",
+        "fr": "Vrai est faux car il s'agit de la belle-mère."
+      }
+    },
+    "h6": {
+      "quote": "...deshalb muss ich die ganze Wohnung noch auf Hochglanz bringen und saubermachen.",
+      "whyCorrect": {
+        "de": "Lösung a ist richtig: Sie muss die Wohnung putzen und kann deshalb nicht mit ins Kino.",
+        "ar": "الخيار (a) صحيح: يتعين عليها تنظيف وترتيب المنزل بالكامل لاستقبال الضيفة.",
+        "fr": "L'option a est correcte : Elle doit nettoyer l'appartement de fond en comble avant la visite."
+      },
+      "whyIncorrect": {
+        "de": "b und c sind frei erfunden.",
+        "ar": "الخيارات الأخرى غير صحيحة ولم تذكر في المكالمة.",
+        "fr": "b et c ne sont pas mentionnés comme motif du refus."
+      }
+    },
+    "h7": {
+      "quote": "Sehr geehrte Kunden, unser Kaufhaus schließt in 15 Minuten...",
+      "whyCorrect": {
+        "de": "Richtig: Die Durchsage kündigt die Schließung des Kaufhauses in 15 Minuten an.",
+        "ar": "صحيح: يعلن المتجر عبر مكبر الصوت إغلاق أبوابه بعد 15 دقيقة (قبيل موعد الإغلاق).",
+        "fr": "Vrai : L'annonce annonce la fermeture du magasin dans 15 minutes."
+      },
+      "whyIncorrect": {
+        "de": "Falsch ist nicht zutreffend, da der Feierabend unmittelbar bevorsteht.",
+        "ar": "الخيار 'خطأ' غير صحيح لاقتراب موعد الإغلاق الفعلي.",
+        "fr": "Faux est incorrect car la fermeture est imminente."
+      }
+    },
+    "h8": {
+      "quote": "Kunden, die im Parkhaus parken, benutzen bitte nach Geschäftsschluss den Haupteingang.",
+      "whyCorrect": {
+        "de": "Lösung b ist richtig: Der Zugang zum Parkhaus erfolgt nach Ladenschluss durch den Haupteingang.",
+        "ar": "الخيار (b) صحيح: يُطلب من مستخدمي مرآب السيارات التوجه والخروج عبر المدخل الرئيسي.",
+        "fr": "L'option b est correcte : Les usagers du parking sont priés d'emprunter l'entrée principale."
+      },
+      "whyIncorrect": {
+        "de": "a und c nennen Nebenausgänge oder Kassen, was der Durchsage widerspricht.",
+        "ar": "الخيارات الأخرى تخالف التوجيه الصريح بالخروج من المدخل الرئيسي.",
+        "fr": "a et c contredisent l'instruction d'utiliser l'entrée principale."
+      }
+    },
+    "h9": {
+      "quote": "Wegen einer Großdemonstration vor dem Hauptbahnhof kommt es zu Verkehrsbehinderungen...",
+      "whyCorrect": {
+        "de": "Richtig: Eine Kundgebung/Demonstration findet direkt vor dem Stuttgarter Hauptbahnhof statt.",
+        "ar": "صحيح: توجد مظاهرة حاشدة أمام محطة القطار المركزية في شتوتغارت تعيق حركة المرور.",
+        "fr": "Vrai : Une manifestation a bien lieu devant la gare centrale de Stuttgart."
+      },
+      "whyIncorrect": {
+        "de": "Falsch ist unzutreffend, da die Demonstration ausdrücklich gemeldet wird.",
+        "ar": "الخيار 'خطأ' غير صحيح لوجود تأكيد صريح في النشرة المرورية.",
+        "fr": "Faux est erroné car la manifestation est expressément signalée."
+      }
+    },
+    "h10": {
+      "quote": "Autofahrer in Richtung Bad Cannstatt werden gebeten, die Südausfahrt zu wählen.",
+      "whyCorrect": {
+        "de": "Lösung a ist richtig: Autofahrer nach Bad Cannstatt sollen die Südausfahrt benutzen.",
+        "ar": "الخيار (a) صحيح: يُنصح السائقون المتجهون نحو حي باد كانشتات بسلك المخرج الجنوبي.",
+        "fr": "L'option a est correcte : Les automobilistes se dirigeant vers Bad Cannstatt doivent emprunter la sortie Sud."
+      },
+      "whyIncorrect": {
+        "de": "b und c nennen andere Straßenführungen.",
+        "ar": "الخيارات الأخرى تذكر طرقًا بديلة غير موصى بها.",
+        "fr": "b et c mentionnent d'autres voies non recommandées dans le bulletin radio."
+      }
+    },
+    "h11": {
+      "quote": "Mein Name ist Lorenz und ich freue mich, Ihnen heute das bewegte Leben des Grafen Friedberg und der früheren Burgbewohner näherzubringen.",
+      "whyCorrect": {
+        "de": "Lösung b ist richtig: Der Führer erzählt die Lebensgeschichte des Grafen Friedberg und der früheren Bewohner der Burg.",
+        "ar": "الخيار (b) صحيح: يركز مرشد الجولة على سيرة الكونت فريدبيرغ وحياة سكان القلعة القدامى.",
+        "fr": "L'option b est correcte : La visite retrace la vie du comte Friedberg et des habitants de la forteresse."
+      },
+      "whyIncorrect": {
+        "de": "a und c sind unvollständig oder nicht zutreffend.",
+        "ar": "الخيارات الأخرى لا تصف موضوع الجولة بدقة.",
+        "fr": "a et c ne reflètent pas fidèlement le contenu annoncé de la visite."
+      }
+    },
+    "h12": {
+      "quote": "Die ersten Grundmauern der Festung wurden bereits 1545 errichtet...",
+      "whyCorrect": {
+        "de": "Lösung b ist richtig: Die Burg entstand im Jahr 1545.",
+        "ar": "الخيار (b) صحيح: تأسست وبُنيت القلعة في عام 1545.",
+        "fr": "L'option b est correcte : Le château fort a été érigé en 1545."
+      },
+      "whyIncorrect": {
+        "de": "a (6. Jh.) und c (Neuzeit) stimmen zeitlich nicht mit den historischen Daten überein.",
+        "ar": "الخيارات الأخرى تخالف التاريخ المذكور في التسجيل.",
+        "fr": "a et c ne correspondent pas à la date historique annoncée."
+      }
+    },
+    "h13": {
+      "quote": "Erst als ihn die gegnerischen Soldaten mit heißem Pech und Hühnerfedern übergossen, gab Wertburg auf.",
+      "whyCorrect": {
+        "de": "Lösung b ist richtig: Wertburg fühlte sich besiegt, nachdem er mit Pech und Federn beworfen worden war.",
+        "ar": "الخيار (b) صحيح: اعترف فيرتبيرغ بالهزيمة واستسلم بعد مهاجمته بالقار والريش.",
+        "fr": "L'option b est correcte : Wertburg s'est avoué vaincu après avoir été aspergé de poix et de plumes."
+      },
+      "whyIncorrect": {
+        "de": "a und c nennen ein Duell oder den Graben, was nicht der Grund seiner Kapitulation war.",
+        "ar": "الخيارات الأخرى غير صحيحة ولم تكن سبب استسلامه.",
+        "fr": "a et c mentionnent un duel ou les douves, ce qui n'a pas causé sa reddition."
+      }
+    },
+    "h14": {
+      "quote": "Graf Friedberg schrieb unzählige Geschichten, vor allem weil es ihm schlichte Freude und Spaß bereitete.",
+      "whyCorrect": {
+        "de": "Lösung a ist richtig: Er verfasste Märchen aus persönlicher Freude und Spaß am Schreiben.",
+        "ar": "الخيار (a) صحيح: كان الكونت يؤلف الحكايات الخرافية بدافع التسلية والمتعة الشخصية.",
+        "fr": "L'option a est correcte : Le comte écrivait des contes par pur plaisir personnel."
+      },
+      "whyIncorrect": {
+        "de": "b und c treffen nicht den Hauptgrund.",
+        "ar": "الخيارات الأخرى لا تشكل الدافع الرئيسي وراء كتاباته.",
+        "fr": "b et c ne constituent pas le motif essentiel évoqué."
+      }
+    },
+    "h15": {
+      "quote": "Die Köchin Katharina war weithin berühmt für ihre schmackhafte, dampfende Zwiebelsuppe.",
+      "whyCorrect": {
+        "de": "Lösung c ist richtig: Katharinas berühmteste kulinarische Spezialität war ihre Zwiebelsuppe.",
+        "ar": "الخيار (c) صحيح: كانت الطاهية كاتارينا مشهورة بصنع حساء البصل اللذيذ.",
+        "fr": "L'option c est correcte : La spécialité culinaire réputée de Katharina était sa soupe à l'oignon."
+      },
+      "whyIncorrect": {
+        "de": "a und b nennen Seelachs oder Eisbein, die nicht ihre Spezialität waren.",
+        "ar": "الخيارات الأخرى تذكر أطباقًا أخرى لم تكن من اختصاصها.",
+        "fr": "a et b citent le lieu noir ou le jarret, qui n'étaient pas sa spécialité."
+      }
+    },
+    "h16": {
+      "quote": "Die Idee für diese Dschungeltour entstand ganz spontan beim Kaffeetrinken mit meinem Freund.",
+      "whyCorrect": {
+        "de": "Richtig: Die Entscheidung zur Dschungelwanderung fiel spontan und ungeplant.",
+        "ar": "صحيح: فكرة رحلة الغابات الاستوائية كانت قرارًا عفويًا ومفاجئًا.",
+        "fr": "Vrai : La décision de partir en trek dans la jungle a été prise de manière spontanée."
+      },
+      "whyIncorrect": {
+        "de": "Falsch trifft nicht zu, da die Entscheidung ausdrücklich spontan war.",
+        "ar": "الخيار 'خطأ' غير صحيح لتأكيد الطبيعة العفوية للقرار.",
+        "fr": "Faux est incorrect car la spontanéité est expressément soulignée."
+      }
+    },
+    "h17": {
+      "quote": "Unser erfahrener einheimischer Guide begleitete uns ununterbrochen auf Schritt und Tritt.",
+      "whyCorrect": {
+        "de": "Falsch: Sie waren stets und ohne Unterbrechung von einem einheimischen Führer begleitet.",
+        "ar": "خطأ: كان يرافقهم مرشد محلي متمرس باستمرار دون انقطاع.",
+        "fr": "Faux : Un guide local expérimenté les a accompagnés en permanence à chaque étape."
+      },
+      "whyIncorrect": {
+        "de": "Richtig ist falsch, da sie nie alleine unterwegs waren.",
+        "ar": "الخيار 'صحيح' خاطئ لأنهم لم يكونوا أبدًا بدون مرافق.",
+        "fr": "Vrai est erroné puisqu'ils ont toujours été accompagnés."
+      }
+    },
+    "h18": {
+      "quote": "Der Sonnenuntergang über den Kämmen der Anden war schlichtweg atemberaubend und wunderschön.",
+      "whyCorrect": {
+        "de": "Richtig: Der Wanderer schwärmt von der atemberaubenden Schönheit des Sonnenuntergangs in den Anden.",
+        "ar": "صحيح: يصف المتحدث مشهد غروب الشمس فوق قمم جبال الأنديز بأنه كان رائعًا وبديعًا للغاية.",
+        "fr": "Vrai : Le voyageur évoque avec émotion la beauté splendide du coucher de soleil dans les Andes."
+      },
+      "whyIncorrect": {
+        "de": "Falsch ist nicht zutreffend, da der Sonnenuntergang begeistert beschrieben wird.",
+        "ar": "الخيار 'خطأ' غير صحيح لوجود وصف مليء بالإعجاب في التسجيل.",
+        "fr": "Faux ne convient pas vu la description enthousiaste de la scène."
+      }
+    },
+    "h19": {
+      "quote": "Wir mussten regelmäßig in kleinen Dörfern am Fluss haltmachen, um frische Lebensmittel einzukaufen.",
+      "whyCorrect": {
+        "de": "Richtig: Sie mussten unterwegs selbst Nahrungsmittel und Vorräte in den Dörfern besorgen.",
+        "ar": "صحيح: كان لزامًا عليهم التوقف في القرى النهرية لشراء وتوفير المواد الغذائية.",
+        "fr": "Vrai : Ils devaient régulièrement s'arrêter dans les villages pour acheter des vivres."
+      },
+      "whyIncorrect": {
+        "de": "Falsch trifft nicht zu, da die Lebensmittelbeschaffung notwendig war.",
+        "ar": "الخيار 'خطأ' غير صحيح لأن التزود بالطعام كان أمرًا لا غنى عنه.",
+        "fr": "Faux est inexact car l'achat de nourriture était indispensable."
+      }
+    },
+    "h20": {
+      "quote": "Aus Angst vor wilden Tieren teilten wir die Nachtwache auf und wechselten uns stündlich ab.",
+      "whyCorrect": {
+        "de": "Richtig: Nachts hielten sie abwechselnd Wache am Lager.",
+        "ar": "صحيح: كانوا يتبادلون نوبات الحراسة الليلية حول المخيم بالتناوب خوفًا من الحيوانات المفترسة.",
+        "fr": "Vrai : Ils montaient la garde à tour de rôle durant la nuit pour protéger le campement."
+      },
+      "whyIncorrect": {
+        "de": "Falsch ist nicht zutreffend, da die abwechselnde Wache bestätigt wird.",
+        "ar": "الخيار 'خطأ' غير دقيق لتأكيد تقسيم نوبات الحراسة.",
+        "fr": "Faux est contredit par la garde alternée décrite dans l'enregistrement."
+      }
+    },
+    "h21": {
+      "quote": "Als mein Kollege gebissen wurde, war weit und breit kein Arzt erreichbar; wir mussten uns mit Bordmitteln selbst helfen.",
+      "whyCorrect": {
+        "de": "Falsch: Ein Arzt war nicht vor Ort; sie mussten die Wunde im Dschungel selbst notdürftig versorgen.",
+        "ar": "خطأ: لم يكن هناك أي طبيب متوفر وعالجوا لدغة الثعبان بأنفسهم وبإمكانياتهم البسيطة.",
+        "fr": "Faux : Aucun médecin n'était joignable sur place ; ils ont dû soigner la morsure par leurs propres moyens."
+      },
+      "whyIncorrect": {
+        "de": "Richtig ist falsch, da keine sofortige ärztliche Behandlung stattfand.",
+        "ar": "الخيار 'صحيح' خاطئ لغياب التدخل الطبي الفوري.",
+        "fr": "Vrai est incorrect faute d'intervention médicale immédiate."
+      }
+    },
+    "h22": {
+      "quote": "Nach all den Gefahren und Strapazen waren wir uns einig: Ein zweites Mal machen wir so ein Abenteuer sicher nicht mehr.",
+      "whyCorrect": {
+        "de": "Falsch: Sie haben keine zweite Reise geplant, sondern schließen eine Wiederholung ausdrücklich aus.",
+        "ar": "خطأ: لم يخططوا لأي رحلة قادمة واستبعدوا خوض مثل هذه المخاطرة مرة أخرى.",
+        "fr": "Faux : Ils n'ont absolument pas prévu de second voyage et excluent de revivre une telle épreuve."
+      },
+      "whyIncorrect": {
+        "de": "Richtig ist unzutreffend, da sie ein zweites Mal ablehnen.",
+        "ar": "الخيار 'صحيح' غير دقيق لأنهم يرفضون تكرار التجربة.",
+        "fr": "Vrai ne convient pas car ils refusent expressément de recommencer."
+      }
+    },
+    "h23": {
+      "quote": "Ulrike Meyer: Nach meinen Erfahrungen im Ausland sind es fast nur noch die älteren Generationen, die mit Deutschland sofort den Krieg assoziieren.",
+      "whyCorrect": {
+        "de": "Lösung c (Ulrike Meyer): Frau Meyer berichtet aus ihrer Auslandserfahrung, dass nur Ältere noch an den Krieg denken.",
+        "ar": "الخيار (c) أولريكه ماير: تؤكد المراسلة أن كبار السن في الخارج هم فقط من يربطون الألمان بالحرب.",
+        "fr": "Option c (Ulrike Meyer) : La correspondante souligne que seules les générations âgées font encore ce lien avec la guerre."
+      },
+      "whyIncorrect": {
+        "de": "a und b haben diese Aussage nicht getätigt.",
+        "ar": "الخيارات الأخرى لم تدلِ بهذا التصريح.",
+        "fr": "a et b n'ont pas formulé cette observation."
+      }
+    },
+    "h24": {
+      "quote": "Bernd Bechstein: Laut statistischen Erhebungen arbeiten Menschen in vielen anderen Ländern deutlich mehr Wochenstunden als der Durchschnittsdeutsche.",
+      "whyCorrect": {
+        "de": "Lösung b (Bernd Bechstein): Der Soziologe Bechstein verweist auf Statistiken über höhere Arbeitszeiten in anderen Ländern.",
+        "ar": "الخيار (b) بيرند بيخشتاين: عالم الاجتماع يوضح بالأرقام أن شعوبًا أخرى تعمل ساعات أطول من الألمان.",
+        "fr": "Option b (Bernd Bechstein) : Le sociologue cite des statistiques montrant des temps de travail plus élevés ailleurs."
+      },
+      "whyIncorrect": {
+        "de": "a und c äußern diesen Punkt nicht.",
+        "ar": "الخيارات الأخرى لم تشر إلى هذه الإحصائيات.",
+        "fr": "a et c n'ont pas apporté ces éléments chiffrés."
+      }
+    },
+    "h25": {
+      "quote": "Bernd Bechstein: Wenn Deutsche ins Ausland reisen, werden sie von der einheimischen Bevölkerung fast überall überaus freundlich und gastfreundlich empfangen.",
+      "whyCorrect": {
+        "de": "Lösung b (Bernd Bechstein): Bechstein betont die ausgeprägte Freundlichkeit der Gastgeber im Ausland gegenüber Deutschen.",
+        "ar": "الخيار (b) بيرند بيخشتاين: يبرز بيخشتاين حسن المعاملة والود الكبير الذي يلقاه الألمان في الدول الأجنبية.",
+        "fr": "Option b (Bernd Bechstein) : Bechstein insiste sur la grande courtoisie et l'hospitalité réservées aux Allemands à l'étranger."
+      },
+      "whyIncorrect": {
+        "de": "a und c heben diesen Aspekt so nicht hervor.",
+        "ar": "الخيارات الأخرى لم تركز على هذا الجانب الإيجابي.",
+        "fr": "a et c n'ont pas souligné cet aspect de la même manière."
+      }
+    },
+    "h26": {
+      "quote": "Ulrike Meyer: Im Ausland wird bewundert, dass in Deutschland die überwiegende Mehrheit der Bürger Regeln und Vorschriften sehr gewissenhaft einhält.",
+      "whyCorrect": {
+        "de": "Lösung c (Ulrike Meyer): Frau Meyer unterstreicht die deutsche Gesetzestreue und Regeltreue.",
+        "ar": "الخيار (c) أولريكه ماير: تذكر ماير أن التزام أغلب الألمان بالقوانين والقواعد يحظى بالإعجاب في الخارج.",
+        "fr": "Option c (Ulrike Meyer) : Mme Meyer relève le respect consciencieux des règles par la majorité des Allemands."
+      },
+      "whyIncorrect": {
+        "de": "a und b formulierten diesen Gedanken nicht.",
+        "ar": "الخيارات الأخرى لم تتحدث عن التزام الألمان بالقواعد.",
+        "fr": "a et b n'ont pas tenu ces propos."
+      }
+    },
+    "h27": {
+      "quote": "Moderatorin: Aber das strikte Befolgen von Gesetzen ist doch genau das Fundament, das unsere Demokratie und den Rechtsstaat am Leben erhält.",
+      "whyCorrect": {
+        "de": "Lösung a (Moderatorin): Die Moderatorin verteidigt die Gesetzestreue als Basis von Rechtsstaat und Demokratie.",
+        "ar": "الخيار (a) مقدمة البرنامج: المذيعة تؤكد أن احترام القوانين هو الدعامة الأساسية للديمقراطية وسيادة القانون.",
+        "fr": "Option a (l'animatrice) : La présentatrice rappelle que l'application de la loi garantit la démocratie et l'État de droit."
+      },
+      "whyIncorrect": {
+        "de": "b und c waren Gesprächspartner, die These warf die Moderatorin ein.",
+        "ar": "الخيارات الأخرى ضيوف، بينما الطرح كان من المذيعة مباشرة.",
+        "fr": "b et c étaient les invités, cette remarque émane de la modératrice."
+      }
+    },
+    "h28": {
+      "quote": "Ulrike Meyer: In vielen südeuropäischen Ländern wie Spanien oder Griechenland wird trotz sengender Hitze hart und ausdauernd gearbeitet.",
+      "whyCorrect": {
+        "de": "Lösung c (Ulrike Meyer): Frau Meyer widerspricht Vorurteilen und betont die harte Arbeit im Süden auch bei Hitze.",
+        "ar": "الخيار (c) أولريكه ماير: توضح ماير أن سكان دول جنوب أوروبا يعملون بجد واجتهاد حتى في أشد درجات الحرارة.",
+        "fr": "Option c (Ulrike Meyer) : Mme Meyer souligne que le travail se poursuit courageusement dans le sud malgré les fortes chaleurs."
+      },
+      "whyIncorrect": {
+        "de": "a und b haben dies nicht geäußert.",
+        "ar": "الخيارات الأخرى لم تتطرق إلى عمل سكان الجنوب في الصيف.",
+        "fr": "a et b n'ont pas abordé ce point précis."
+      }
+    },
+    "h29": {
+      "quote": "Bernd Bechstein: Ein gewisses Maß an Ordnung und Verbindlichkeit ist für das Funktionieren jeder zivilisierten Gesellschaft unverzichtbar.",
+      "whyCorrect": {
+        "de": "Lösung b (Bernd Bechstein): Bechstein erklärt, dass geordnete Verhältnisse für das Zusammenleben essenziell sind.",
+        "ar": "الخيار (b) بيرند بيخشتاين: يرى بيخشتاين أن النظام والانضباط ركيزة لا غنى عنها لبقاء المجتمع.",
+        "fr": "Option b (Bernd Bechstein) : Bechstein affirme qu'un ordre structuré est indispensable au bon fonctionnement social."
+      },
+      "whyIncorrect": {
+        "de": "a und c vertreten nicht diese soziologische Sichtweise.",
+        "ar": "الخيارات الأخرى لم تقدم هذا التفسير الاجتماعي.",
+        "fr": "a et c n'ont pas développé cette analyse sociologique."
+      }
+    },
+    "h30": {
+      "quote": "Ulrike Meyer: Wir leben in einer hektischen Welt; wir sollten lernen, einen Gang zurückzuschalten und das Tempo der Gesellschaft zu drosseln.",
+      "whyCorrect": {
+        "de": "Lösung c (Ulrike Meyer): Frau Meyer regt an, die übertriebene gesellschaftliche Hektik und Geschwindigkeit zu reduzieren.",
+        "ar": "الخيار (c) أولريكه ماير: تدعو ماير إلى تقليل سرعة وتيرة الحياة في المجتمع والابتعاد عن التوتر المفرط.",
+        "fr": "Option c (Ulrike Meyer) : Mme Meyer préconise de ralentir le rythme effréné de la société moderne."
+      },
+      "whyIncorrect": {
+        "de": "a und b teilten dieses Schlussplädoyer nicht.",
+        "ar": "الخيارات الأخرى لم تطلق هذه الدعوة الختامية للتهدئة.",
+        "fr": "a et b n'ont pas conclu sur ce souhait de décélération."
+      }
+    }
+  },
+  "translations": {
+    "parts": {
+      "1": {
+        "instructions": {
+          "ar": "اقرأ النص والمهام من 1 إلى 6. اختر: هل العبارات صحيحة أم خاطئة؟",
+          "fr": "Lisez le texte et les tâches 1 à 6 correspondantes. Choisissez : les affirmations sont-elles Vraies ou Fausses ?"
+        },
+        "articles": [
+          {
+            "heading": {
+              "ar": "فسيفساء رحلتي في ألمانيا",
+              "fr": "Mosaïque de mon voyage en Allemagne"
+            },
+            "sub": {
+              "ar": "المرحلة السابعة: إبطاء وتيرة رحلتي – زيارة عائلية",
+              "fr": "7e étape : Ralentir le rythme de mon voyage – Visite familiale"
+            },
+            "body": {
+              "ar": [
+                "بعد أن تركتُ المدن الكبرى والمناطق المزدحمة خلف ظهري، اتجهت نحو الجنوب الغربي الريفي الهادئ. نصف عائلتي ينحدر من الغابة السوداء (Schwarzwald)، ولهذا السبب استقللتُ القطار مباشرة إلى قلب المنطقة، وتحديدًا إلى وادي كينتسيغ (Kinzigtal). وبينما كانت المناظر الطبيعية بوديانها وقراها الخلابة تنساب أمام ناظري، استيقظت في داخلي ذكريات الماضي. ثم توقف القطار في المحطة فنزلت. هل هو نقاء الهواء، أم رائحة التبن المحصود حديثًا؟ فجأة حضرت صور أيام الطفولة بكل وضوح. ابتسمت ولوحت لابن عمي الذي جاء لاصطحابي بالسيارة.",
+                "في البداية، كان الترحيب والوصول؛ عيون كثيرة، وأيادٍ وأذرع ممتدة، ودفء عائلي صادق غمرني. وقُدمت لي فورًا وجبة خفيفة تقليدية (Vesper) مكونة من الخبز الريفي، والنقانق، واللحم المقدد على اللوح الخشبي. وبسكين حاد قُطعت شرائح رقيقة تذوب في الفم مع الذكريات. وللمشروبات، كان بإمكاني الاختيار بين عصير التفاح الطبيعي من المزارع أو بيرة 'تاننتسيبفله' الشهيرة. فالماء في النهاية مخصص للغسيل وللحيوانات! 😊",
+                "ومع هذا الطعام، خضتُ أيضًا تجربة لغوية منعشة؛ فكم مضى عليّ من الوقت لم أسمع فيه هذه النغمة الخاصة في الكلام! هذه أيضًا لغة ألمانية، وهو ادعاء يقابله معظم زملائي في العمل بابتسامة ساخرة، لأن اللهجة الألمانية الجنوبية (الأليمانية) تبدو لهم كأنها لغة أجنبية. ومع ذلك، فإن اللهجات المحلية اليوم أصبحت رائجة ومحبوبة من جديد. فكم كانت اللغة لتكون فقيرة لولا هذه اللهجات الإقليمية! ربما تكون لغة البيئة المحلية شيئًا يشبه الوطن، يحمله المرء في قلبه أينما ذهب.",
+                "وخلال نزهة مسائية حول بحيرة الغابة (Waldsee)، ناقشنا خططًا للقيام بجولة سير قصيرة في اليوم التالي. وبعد نقاش طويل حول ما إذا كان ينبغي الصعود إلى قمة 'براندنكوبف' أو مزارع 'نيل هوفه' أو قلعة 'هايدبورغ'، قررنا ترك السيارة في المرآب، والمشي فقط إلى المدى الذي تحمله لنا أقدامنا انطلاقًا من باب المنزل. كان ذلك قرارًا حكيمًا وعمليًا؛ فمن ناحية، لم نكن لنتسع جميعًا في سيارة واحدة وكان سيلزمنا سيارة ثانية، ومن ناحية أخرى، أردت الاستمتاع بالطبيعة البكر والنقية.",
+                "وبينما أكتب هذه الكلمات على حاسوبي المحمول، أتذكر أيام الطفولة السعيدة، وأستنشق هواء الغابة العليل، وأتطلع بحماس إلى يوم غد. 😊"
+              ],
+              "fr": [
+                "Après avoir laissé derrière moi les métropoles et grandes agglomérations, je me tourne vers le sud-ouest rural. La moitié de ma famille est originaire de la Forêt-Noire, c'est pourquoi j'ai pris le train en direction du cœur de la région, la vallée de la Kinzig (Kinzigtal). Tandis que le paysage défile avec ses vallées idylliques et ses villages pittoresques, des souvenirs d'enfance remontent en moi. Le train s'arrête en gare et je descends. Est-ce la pureté de l'air ou la bonne odeur de foin fraîchement coupé ? Les images d'autrefois ressurgissent instantanément. Je souris et fais signe à mon cousin qui vient me chercher en voiture.",
+                "D'abord les salutations et les retrouvailles. Tant de regards, de mains et de bras tendus : une chaleur humaine sincère m'accueille. On me sert aussitôt un casse-croûte campagnard traditionnel (Vesper) avec du pain de campagne, de la charcuterie et du lard sur planche en bois. Découpé très finement avec un couteau bien aiguisé, le goût me replonge dans mes souvenirs. Pour boire, j'ai le choix entre le cidre fermier ou une bière locale Tannenzäpfle. Après tout, l'eau, c'est pour se laver et pour les animaux ! 😊",
+                "Et avec cette nourriture, je prends un véritable bain linguistique. Depuis combien de temps n'avais-je pas entendu cette sonorité si particulière ! Cela aussi, c'est de l'allemand, une affirmation qui fait souvent sourire mes collègues avec dérision, tant l'alémanique leur semble être une langue étrangère. Pourtant, le dialecte revient en force aujourd'hui. Que la langue serait pauvre sans ses parlers régionaux ! Peut-être que le dialecte est un peu comme une patrie intime que l'on porte dans son cœur.",
+                "Pendant notre promenade du soir autour du lac en forêt, nous discutons des projets d'excursion pour le lendemain. Après un long débat pour savoir si nous irions au Brandenkopf, aux fermes du Nill ou au château de Heidburg, nous décidons de laisser la voiture au garage et d'aller seulement aussi loin que nos jambes nous porteront depuis le pas de la porte. C'était une décision sage et pragmatique : nous n'aurions pas tous tenu dans une seule voiture, et je voulais avant tout profiter de la nature à l'état pur.",
+                "Tandis que je tape ces lignes sur mon ordinateur portable, je me remémore mes joyeux jours d'enfance, je respire l'air vivifiant de la forêt et j'attends la journée de demain avec impatience. 😊"
+              ]
+            }
+          }
+        ],
+        "example": {
+          "ar": {
+            "text": "التقرير يتناول تذكار سفر من ألمانيا.",
+            "answer": "falsch"
+          },
+          "fr": {
+            "text": "Le récit porte sur un souvenir de voyage acheté en Allemagne.",
+            "answer": "falsch"
+          }
+        },
+        "questions": {
+          "1": {
+            "text": {
+              "ar": "الكاتب كان في البداية في مدن كبيرة.",
+              "fr": "L'auteur s'est d'abord rendu dans de grandes villes."
+            }
+          },
+          "2": {
+            "text": {
+              "ar": "أحد أقربائه جاء لاصطحابه.",
+              "fr": "Un membre de sa famille vient le chercher."
+            }
+          },
+          "3": {
+            "text": {
+              "ar": "بعد الوصول تم تقديم طعام له.",
+              "fr": "Après son arrivée, on lui offre à manger."
+            }
+          },
+          "4": {
+            "text": {
+              "ar": "هم يشربون الماء.",
+              "fr": "Ils boivent de l'eau."
+            }
+          },
+          "5": {
+            "text": {
+              "ar": "الزملاء يحبون اللهجة الألمانية الجنوبية.",
+              "fr": "Les collègues apprécient le dialecte du sud de l'Allemagne."
+            }
+          },
+          "6": {
+            "text": {
+              "ar": "هم يريدون السير على الأقدام وعدم ركوب السيارة.",
+              "fr": "Ils veulent faire la randonnée à pied et non en voiture."
+            }
+          }
+        }
+      },
+      "2": {
+        "instructions": {
+          "ar": "اقرأ النص المأخوذ من الصحافة والمهام من 7 إلى 9. اختر الحل الصحيح: أ، أو ب، أو ج.",
+          "fr": "Lisez le texte issu de la presse et les tâches 7 à 9. Choisissez la bonne réponse : a, b ou c."
+        },
+        "instructions2": {
+          "ar": "اقرأ النص المأخوذ من الصحافة والمهام من 10 إلى 12. اختر الحل الصحيح: أ، أو ب، أو ج.",
+          "fr": "Lisez le texte issu de la presse et les tâches 10 à 12. Choisissez la bonne réponse : a, b ou c."
+        },
+        "articles": [
+          {
+            "heading": {
+              "ar": "هل التفاح العضوي أفضل حقًا؟",
+              "fr": "Les pommes bio sont-elles vraiment meilleures ?"
+            },
+            "sub": {
+              "ar": "يا للهول، هل المنتجات العضوية ليست أكثر صحة من التقليدية؟ هل هذه فضيحة؟ يا له من هراء!",
+              "fr": "Tiens, les produits bio ne seraient pas plus sains que les conventionnels ? Un scandale ? Quelle absurdité !"
+            },
+            "body": {
+              "ar": [
+                "من يعتقد أن المنتجات العضوية صحية دائمًا بشكل مطلق، يمكنه إذن تدخين سجائر عضوية والتغذي على الشوكولاتة العضوية! كلا، فالزراعة البيئية تهدف بالأساس إلى الاستدامة وحماية الطبيعة، أما الفضيحة الحقيقية فتقع في مكان آخر تمامًا.",
+                "تؤكد دراسة حديثة ما يمكن لأي شخص يمتلك قليلاً من المنطق التفكير فيه بنفسه: التفاحة ليست أكثر صحة بمجرد أنها قادمة من مزارع عضوي. فالكثير من المنتجات العضوية لا تلبي بالضرورة توقعات المستهلكين من حيث المذاق.",
+                "إن مفهوم 'صحي' في حد ذاته أمر نسبي ومثير للجدل؛ فكعكة الشوكولاتة المليئة بالكثير من الزبدة والسكر لن تجعلك رشيقًا حتى وإن صنعت من مكونات عضوية 100%. ومصاصة الحلوى العضوية يمكنها أيضًا تسويس الأسنان. كما أن التبغ المزروع عضويًا يظل مسببًا للسرطان. فالقاعدة الأساسية في التغذية ترتكز دائمًا على التوازن والاعتدال الغذائي.",
+                "ليس كل ما يحمل علامة عضوي متساويًا؛ فمن يهمه أن يكون المنتج خاليًا من المبيدات ومزروعًا بطرق صديقة للبيئة عليه أن يدقق النظر جيدًا. وينبغي الانتباه أيضًا لمن يريد ضمان تناول لحوم من دواجن وأبقار حظيت بظروف تربية كريمة. وتلك المعايير الصارمة تتطلب في الغالب دفع مبالغ أكبر، لكنها تستحق ذلك؛ فالمنتجات العضوية لها ثمنها عندما تزرع في وئام تام مع الطبيعة."
+              ],
+              "fr": [
+                "Quiconque croit que le bio est intrinsèquement sain n'a qu'à fumer des cigarettes bio et se nourrir de chocolat bio. Non, l'agriculture biologique vise avant tout la durabilité écologique. Et le véritable scandale est bien différent.",
+                "Une étude vient confirmer ce que chacun avec un peu de bon sens peut déduire : une pomme n'est pas automatiquement plus saine sous prétexte qu'elle provient d'un producteur bio. De plus, de nombreux produits bio ne correspondent pas aux attentes gustatives des consommateurs.",
+                "Le terme même de « sain » est sujet à caution. Un gâteau au chocolat préparé avec une grande quantité de beurre et de sucre ne fera pas maigrir même s'il est bio. Une sucette bio donne aussi des caries, et le tabac de culture biologique reste cancérigène. Comme toujours, l'important réside dans une alimentation variée et équilibrée.",
+                "Tous les produits bio ne se valent pas. Celui qui exige un produit sans résidus de pesticides et respectueux de l'environnement doit regarder de très près les étiquettes et les labels. Pour ces critères rigoureux de bien-être animal et d'écologie, il faut certes payer plus cher, mais cela en vaut la peine. Le bio a un juste prix quand il est produit en harmonie avec la nature."
+              ]
+            }
+          }
+        ],
+        "example": {
+          "ar": {
+            "text": "المقال...",
+            "options": [
+              "يتناول زراعة التفاح العضوي.",
+              "يقول إن المنتجات العضوية ليست كلها متساوية.",
+              "يزعم أن الزراعة العضوية فضيحة."
+            ],
+            "answer": 1
+          },
+          "fr": {
+            "text": "L'article...",
+            "options": [
+              "traite de la culture des pommes bio.",
+              "affirme que tous les produits bio ne se valent pas.",
+              "prétend que l'agriculture biologique est scandaleuse."
+            ],
+            "answer": 1
+          }
+        },
+        "questions": {
+          "7": {
+            "text": {
+              "ar": "تم التوصل إلى أن...",
+              "fr": "Il a été constaté que..."
+            },
+            "options": {
+              "ar": [
+                "التفاح العضوي أطيب مذاقًا دائمًا.",
+                "المزارعين العضويين يعيشون حياة صحية.",
+                "المنتجات العضوية ليست بالضرورة وبشكل بديهي أكثر صحة."
+              ],
+              "fr": [
+                "les pommes bio ont toujours meilleur goût.",
+                "les agriculteurs bio mènent une vie saine.",
+                "le bio n'est pas systématiquement plus sain."
+              ]
+            }
+          },
+          "8": {
+            "text": {
+              "ar": "من يبحث عن جودة عضوية حقيقية...",
+              "fr": "Celui qui recherche une réelle qualité bio..."
+            },
+            "options": {
+              "ar": [
+                "يجب عليه فحص وتدقيق المنتجات بعناية.",
+                "يجب أن يحالفه الحظ.",
+                "يتمتع بمتوسط عمر مرتفع."
+              ],
+              "fr": [
+                "doit examiner attentivement les produits.",
+                "doit avoir de la chance.",
+                "a une espérance de vie élevée."
+              ]
+            }
+          },
+          "9": {
+            "text": {
+              "ar": "سعر المنتجات العضوية...",
+              "fr": "Le prix des produits biologiques..."
+            },
+            "options": {
+              "ar": [
+                "تتم مراقبته بصرامة شديدة.",
+                "غالبًا ما يكون مرتفعًا.",
+                "يعتمد على الطبيعة والطقس."
+              ],
+              "fr": [
+                "est strictement contrôlé.",
+                "est souvent élevé.",
+                "dépend des conditions climatiques."
+              ]
+            }
+          }
+        },
+        "articles2": [
+          {
+            "heading": {
+              "ar": "مهرجان المعلومات بالمدرسة الأوروبية في كولونيا",
+              "fr": "Journée d'information de l'École Européenne de Cologne"
+            },
+            "sub": {
+              "ar": "إقبال كبير شهده مهرجان المعلومات السنوي بالمدرسة الأوروبية في كولونيا.",
+              "fr": "Forte affluence lors de la journée d'information de l'École Européenne de Cologne."
+            },
+            "body": {
+              "ar": [
+                "كما جرت العادة في كل عام، فتحت المدرسة الأوروبية أبوابها للتعريف بنفسها لجميع المهتمين. واغتنم أطفال المدارس الابتدائية وأولياء أمورهم الفرصة لحضور حصص دراسية في الصفين الخامس والسادس. وفي فعاليات وندوات منفصلة، تم تقديم معلومات وافية حول المسارات التعليمية المتاحة والبرامج الدراسية في المرحلتين الثانوية الأولى والثانية، بينما ساعدت الجولات الإرشادية داخل مبنى المدرسة الزوار على التعرف على أرجائها بسهولة.",
+                "وقدمت المعارض المتنوعة والعروض المسرحية والأنشطة الطلابية صورة معبرة عن واقع الحياة المدرسية اليومية. وتمت دعوة الكاتب ألكسندر روته وتعيينه رسميًا راعيًا فخريًا للقراءة في المدرسة، متوجًا ذلك بقراءة أدبية قصيرة في قاعة المسرح. وخلال عرض اللغات الاختيارية، كان التركيز الأساسي هذا العام على اللغة الروسية، حيث تضمن برنامجًا شيقًا بمشاركات فنية وأطباق روسية تقليدية. وتكفل فريق المقصف وشركة الطلاب 'milchig' بتوفير وجبات ومشروبات إضافية في مقهى إنجلترا.",
+                "كما أتيحت الفرصة للضيوف للمشاركة بفاعلية في مسابقة الحكايات، والرقص في قاعة الديسكو، وشراء تذاكر اليانصيب، أو تشجيع المشاركين في بطولة كرة الطاولة. وبطبيعة الحال، لا يمكن إنجاح مثل هذا البرنامج الحافل دون تكاتف الجميع؛ لذا يتوجه الشكر الخاص إلى أولياء الأمور، والطلاب والطالبات، والزملاء المعلمين وجميع العاملين بالمدرسة الذين شاركوا بحماس وتفانٍ كبير في التحضير لهذا اليوم."
+              ],
+              "fr": [
+                "Comme chaque année, l'École Européenne a ouvert ses portes pour se faire connaître auprès de tous les intéressés. Les élèves de primaire et leurs parents ont profité de l'occasion pour assister à des cours en 5e et 6e années. Des conférences distinctes ont permis d'informer sur les parcours scolaires et les programmes des deux cycles secondaires. Des visites guidées ont facilité l'orientation dans l'établissement.",
+                "De nombreuses expositions, représentations et ateliers offraient un aperçu représentatif du quotidien scolaire. L'écrivain Alexander Rothe a été convié et nommé officiellement parrain de la lecture de l'école, avec une séance de lecture dans la salle de spectacle. Pour la présentation des langues vivantes au choix, l'accent a été mis cette année sur le russe, avec un programme riche en spectacles et spécialités culinaires russes. L'équipe de la cantine et l'entreprise d'élèves « milchig » ont assuré la restauration au café Angleterre.",
+                "Les visiteurs ont également pu participer à un quiz sur les contes, danser à la discothèque, acheter des billets de tombola ou soutenir les joueurs du tournoi de baby-foot. Un programme aussi dense ne serait possible sans l'implication de tous : des remerciements chaleureux sont adressés aux parents, aux élèves, au corps professoral et au personnel administratif de l'École Européenne qui se sont mobilisés avec dévouement."
+              ]
+            }
+          }
+        ],
+        "questions2": {
+          "10": {
+            "text": {
+              "ar": "الزوار...",
+              "fr": "Les visiteurs..."
+            },
+            "options": {
+              "ar": [
+                "تاهوا وفقدوا الاتجاهات داخل المهرجان.",
+                "اشتكو من شدة الازدحام والإقبال.",
+                "استطاعوا الحصول على معلومات وافية حول المدرسة الأوروبية في كولونيا."
+              ],
+              "fr": [
+                "ont perdu leur orientation durant la fête.",
+                "se sont plaints de l'affluence excessive.",
+                "ont pu s'informer sur l'École Européenne de Cologne."
+              ]
+            }
+          },
+          "11": {
+            "text": {
+              "ar": "الطلاب...",
+              "fr": "Les élèves..."
+            },
+            "options": {
+              "ar": [
+                "قدموا نماذج حية من واقع الحياة المدرسية اليومية.",
+                "قرأوا نصوصًا من مؤلفات الكاتب ألكسندر روته.",
+                "قاموا بحملة دعائية لشركة الطلاب 'milchig'."
+              ],
+              "fr": [
+                "ont présenté des illustrations du quotidien scolaire.",
+                "ont lu des textes de l'écrivain Alexander Rothe.",
+                "ont fait de la publicité pour leur entreprise « milchig »."
+              ]
+            }
+          },
+          "12": {
+            "text": {
+              "ar": "يُوجه الشكر والتقدير إلى...",
+              "fr": "Les remerciements s'adressent à..."
+            },
+            "options": {
+              "ar": [
+                "إدارة المدرسة فقط.",
+                "جميع الأشخاص الذين شاركوا وساعدوا في التنظيم.",
+                "فريق إعداد البرامج."
+              ],
+              "fr": [
+                "la direction de l'école.",
+                "tous ceux qui ont apporté leur concours.",
+                "l'équipe chargée du programme."
+              ]
+            }
+          }
+        }
+      },
+      "3": {
+        "instructions": {
+          "ar": "اقرأ المواقف من 13 إلى 19 والإعلانات من A إلى J. أي إعلان يناسب أي موقف؟ يمكنك استخدام كل إعلان مرة واحدة فقط. إذا لم يكن هناك إعلان مناسب، اختر X.",
+          "fr": "Lisez les situations 13 à 19 et les annonces A à J. Quelle annonce correspond à quelle situation ? Vous ne pouvez utiliser chaque annonce qu'une seule fois. Si aucune annonce ne convient, choisissez X."
+        },
+        "example": {
+          "ar": {
+            "text": "يمكن لقسمنا في الشركة الخروج لتناول العشاء معًا في مطعم راقٍ على حساب الشركة.",
+            "answer": "E"
+          },
+          "fr": {
+            "text": "Notre service pourrait aller dîner ensemble dans un endroit chic, payé par l'entreprise.",
+            "answer": "E"
+          }
+        },
+        "ads": {
+          "A": {
+            "ar": "فالداو-شتوبن (Waldau - Stuben): بيرة برميل، كافيه، نقانق حمراء، بطاطس مقلية، سلطة نقانق، يانصيب وتوتو، وجرائد. مفتوح حتى التاسعة مساءً.",
+            "fr": "Waldau - Stuben : Bière pression, café, saucisse rouge, frites, salade de saucisse, loto et journaux. Ouvert jusqu'à 21h en semaine."
+          },
+          "B": {
+            "ar": "مطعم 'تسوم أوكسن' (Gasthof zum Ochsen): وجبات غداء يومية شهية واقتصادية من 11:30 إلى 14:00. طازج ويوميًا بسعر مناسب!",
+            "fr": "Auberge Zum Ochsen : Menus du midi savoureux à prix avantageux tous les jours de 11h30 à 14h00. Frais, bon et économique !"
+          },
+          "C": {
+            "ar": "اليوناني في المساحات الخضراء (Der Grieche im Grünen): إحدى أجمل حدائق المطاعم المفتوحة في شتوتغارت. أطباق يونانية ومحلية وقائمة غداء اقتصادية.",
+            "fr": "Der Grieche im Grünen : L'une des plus belles terrasses de Stuttgart. Spécialités grecques et régionales, menu du midi avantageux."
+          },
+          "D": {
+            "ar": "العودة إلى الخمسينيات (Back to the Fifties): مطعم وداينر أمريكي كلاسيكي مع برغر وأجواء وموسيقى الروك أند رول في الخمسينيات. فيينا.",
+            "fr": "Back to the Fifties : Diner américain classique avec ambiance rock'n'roll et musique des années 50. Vienne."
+          },
+          "E": {
+            "ar": "تيل أويلنشبيغل (Till Eulenspiegel): مطعم واستراحة. حديقة بيرة واسعة، شواية لافا، غرف مريحة للحفلات العائلية واحتفالات الشركات وقوائم طعام غنية.",
+            "fr": "Till Eulenspiegel : Restaurant avec grand biergarten, grill à pierre de lave, salles pour fêtes de famille et réceptions d'entreprise."
+          },
+          "F": {
+            "ar": "بانيان (Banyan): المطعم الآسيوي الجديد. مأكولات بمذاق اللحم ولكن خالية من اللحوم بنسبة 100%، نباتي مضمون. فيينا.",
+            "fr": "Banyan : Le nouveau restaurant asiatique. Plats ayant la saveur de la viande mais garantis 100 % végétariens sans viande. Vienne."
+          },
+          "G": {
+            "ar": "كافيه بيليني (Café Bellini): أفضل قهوة إسبريسو وكابتشينو وحلويات إيطالية أصيلة. شتوتغارت.",
+            "fr": "Café Bellini : Le meilleur expresso italien, cappuccino et douceurs italiennes traditionnelles. Stuttgart."
+          },
+          "H": {
+            "ar": "برونتو برونتو أونلاين: خدمة توصيل مأكولات إيطالية ومكسيكية. طلب أونلاين ودفع نقدي أو قسائم. كارلسروه.",
+            "fr": "Pronto Pronto en ligne : Livraison de spécialités italiennes et mexicaines à domicile. Commande en ligne à Karlsruhe."
+          },
+          "I": {
+            "ar": "سوشي ديجيتال: طلب السوشي الطازج أونلاين بنقرة زر وتوصيل سريع ومباشر.",
+            "fr": "Sushi digital : Commandez vos sushis frais en ligne en un clic avec livraison ultra rapide."
+          },
+          "J": {
+            "ar": "مخبز وحلواني وكافيه ألتر (Café Alter): نوصيكم اليوم بتارت الليمون بالكريمة اللذيذة على العجين المورق. حلويات وقهوة فاخرة.",
+            "fr": "Pâtisserie-Café Alter : Nous recommandons aujourd'hui notre tarte au citron meringuée sur pâte feuilletée. Pâtisseries maison et café."
+          }
+        },
+        "questions": {
+          "13": {
+            "text": {
+              "ar": "السيد بيرغر ملّ من طعام المقصف ظهرًا، ويريد البحث عن عرض لتناول طعام جيد واقتصادي.",
+              "fr": "M. Berger en a assez de la cantine et cherche un endroit pour bien manger à midi à prix avantageux."
+            }
+          },
+          "14": {
+            "text": {
+              "ar": "منذ عطلته في إيطاليا أصبح فرانتس من عشاق القهوة الإيطالية ويرغب في شرب إسبريسو ممتاز حقًا.",
+              "fr": "Depuis ses vacances en Italie, Franz adore le café italien et souhaite boire un excellent expresso."
+            }
+          },
+          "15": {
+            "text": {
+              "ar": "السيد فينغرت يرغب بعد انتهاء العمل في تناول وجبة خفيفة مع زملائه واحتساء مشروب.",
+              "fr": "M. Wengert souhaite manger un morceau et boire une bière avec ses collègues après le travail."
+            }
+          },
+          "16": {
+            "text": {
+              "ar": "السيدة إيلرت ترغب يوم السبت في الذهاب مع والديها إلى مطعم تُعزف فيه أغاني من فترة شبابهما.",
+              "fr": "Mme Ehlert souhaite aller samedi au restaurant avec ses parents dans un lieu diffusant des musiques de leur jeunesse."
+            }
+          },
+          "17": {
+            "text": {
+              "ar": "السيدة بار تبحث عن مطعم تتوفر فيه خيارات طعام نباتية.",
+              "fr": "Mme Bär cherche un restaurant où elle peut manger végétarien."
+            }
+          },
+          "18": {
+            "text": {
+              "ar": "السيدة زولشر تريد تجربة طعام أجنبي مع الجلوس في الهواء الطلق في حديقة المطعم.",
+              "fr": "Mme Sulcher veut manger étranger tout en profitant d'une terrasse en plein air."
+            }
+          },
+          "19": {
+            "text": {
+              "ar": "السيد توماس يريد إقامة حفلة في الحديقة ويبحث عن خدمة تقديم الطعام (Partyservice) ليتفادى تحضير أي شيء بنفسه.",
+              "fr": "M. Thomas organise une fête de jardin et cherche un service traiteur pour ne rien avoir à préparer."
+            }
+          }
+        }
+      },
+      "4": {
+        "instructions": {
+          "ar": "اقرأ النصوص من 20 إلى 26. اختر: هل هذا الشخص ضد الرياضات الشديدة والخطرة؟",
+          "fr": "Lisez les textes 20 à 26. Choisissez : cette personne est-elle opposée aux sports extrêmes ?"
+        },
+        "topic": {
+          "ar": "تقييم رسائل القراء حول مقال في مجلة عن سباق تسلق قمة تسوغشبيتسه بعنوان 'أسرع – أعلى – نحو الموت'...",
+          "fr": "Donnez votre avis sur ces courriers de lecteurs concernant la course de la Zugspitze sous le titre « Plus vite, plus haut, la mort »..."
+        },
+        "example": {
+          "who": "مارايكه، 32 عامًا، فينلو / Mareike, 32, Venlo",
+          "text": {
+            "ar": "أرى الأمر تمامًا كما تراه أوشي آيشنر: إنه شعور فريد بالتحدي عندما تدرك أنك قادر على إنجاز ما لا يستطيعه الجميع. المتسابقون في الجري السنوي إلى تسوغشبيتسه يريدون اختبار حدودهم الجسدية والنفسية، وذلك قرار شخصي تمامًا لكل فرد منهم دون سواه.",
+            "fr": "Je partage l'avis d'Uschi Eichner : c'est un frisson incomparable de savoir que l'on peut accomplir ce que tout le monde ne réussit pas. Les participants veulent tester leurs limites physiques et mentales. C'est le choix individuel de chacun."
+          },
+          "answer": "nein"
+        },
+        "letters": {
+          "20": {
+            "who": "أو. فيلسمان، 46 عامًا، لاندسهوت / U. Filsmann, 46, Landshut",
+            "text": {
+              "ar": "يحذر السيد رايتماير من التقديرات الخاطئة لخطورتها. وأنا أذهب إلى أبعد من ذلك وأؤيد دعوة السيد ميسنر لإلغاء سباقات الجري الجبلية المنظمة؛ فكم من الوفيات نحتاج بعد حتى ندرك في النهاية أن مسابقات الرياضات الشديدة لا طائل منها ومجرد عبث؟",
+              "fr": "M. Reitmeir met en garde contre les erreurs d'appréciation. Je vais plus loin et soutiens l'appel de M. Messner à interdire les courses de montagne organisées. Combien de morts faudra-t-il encore pour admettre que ces compétitions sont absurdes ?"
+            }
+          },
+          "21": {
+            "who": "نوربرت ب.، 52 عامًا، كونستانس / Norbert P., 52, Konstanz",
+            "text": {
+              "ar": "تكتبون أن 40% من الرياضيين المشاركين لم يكونوا مؤهلين للمشاركة وأن خوضهم السباق شكل خطرًا هائلاً عليهم. وهذا يعني بالنسبة لي فشل الجهة المنظمة. ولتفادي مثل هذه الكوارث مستقبلاً، أنا مع إلغاء سباق تسوغشبيتسه بالكامل، وإلا ستتحول الرياضة إلى جريمة منظمة!",
+              "fr": "Vous écrivez que 40 % des coureurs n'avaient pas le niveau et prenaient un risque inconsidéré. Pour moi, les organisateurs ont failli. Pour éviter de tels drames, il faut supprimer cette course, sinon le sport devient un crime organisé !"
+            }
+          },
+          "22": {
+            "who": "فيلما ي.، 39 عامًا، لايبزيغ / Wilma J., 39, Leipzig",
+            "text": {
+              "ar": "أنا معجبة بطرح السيدة بينور التي تحذر من الرياضات الشديدة ولكنها تدافع عنها في نفس الوقت. ينبغي للرياضيين أن يعوا جيدًا أنهم قد يواجهون مواقف استثنائية خلال المسابقة. إنها لمهارة وفن أن تمارس الرياضة دون الإضرار بجسدك، لكني أعتبر ذلك حقًا مشروعًا تمامًا.",
+              "fr": "J'admire l'analyse de Mme Benöhr qui met en garde contre le sport extrême tout en le défendant. Les sportifs doivent être conscients des situations extrêmes possibles. Savoir pratiquer sans nuire à son corps est un art, mais cela reste légitime."
+            }
+          },
+          "23": {
+            "who": "نيكول، 39 عامًا، فرايبورغ / Nicole, 39, Freiburg",
+            "text": {
+              "ar": "صحيح، يا سيد رايتماير، فالمنافسة تتطلب التقدير السليم لقوى الطبيعة ولقدرات المرء الذاتية. وعندما يصبح الموقف بالغ الخطورة، يجب على المرء مصارحة نفسه ومعرفة متى يتوقف. هذا تدريب نفسي وعصبي بحت. وأنا أرفض شيطنة المسابقات فقط لأن البعض يعجز عن التصرف السليم.",
+              "fr": "C'est exact, M. Reitmeir : la compétition exige d'estimer correctement la nature et ses propres capacités. Quand cela devient trop dangereux, il faut savoir s'arrêter. C'est une question de nerfs et d'entraînement. Inutile de diaboliser les épreuves."
+            }
+          },
+          "24": {
+            "who": "فالتر، 42 عامًا، بادن بادن / Walther, 42, Baden-Baden",
+            "text": {
+              "ar": "أرى أنه ينبغي فحص واختبار المشاركين المتقدمين لهذه المنافسات بدقة أكبر. يجب أن يقتصر الأمر على نخبة الرياضيين المحترفين الذين أثبتوا قدرتهم على تحمل مثل هذه المشاق. وتوجد بالفعل سباقات أخرى أقل خطورة لإثبات القدرات. ومع تنظيم أفضل، يمتلك الرياضات الشديدة مستقبلاً واعدًا.",
+              "fr": "Je pense que les participants inscrits à de telles épreuves devraient être sélectionnés plus rigoureusement. Seuls des sportifs de haut niveau confirmés devraient concourir. Avec un meilleur encadrement, ces sports extrêmes ont toute leur place."
+            }
+          },
+          "25": {
+            "who": "د. روزنر، 56 عامًا، فيينا / Dr. Rosner, 56, Wien",
+            "text": {
+              "ar": "بصفتي محاضرًا في الأكاديمية الرياضية، أعلم من خبرتي الشخصية أن ممارسة الرياضة قد تتحول إلى نوع من الإدمان كالمخدرات. فالنشوة بالإنجاز الجسدي قد تُفقد المرء اتصاله بالواقع. وفي الظروف القاسية قد يغدو ذلك مميتًا، لذا ينبغي الاستغناء عن بطولات ومسابقات الرياضات الشديدة.",
+              "fr": "En tant qu'enseignant en faculté de sport, je sais d'expérience que le sport peut devenir une drogue. La performance physique peut griser au point de perdre le sens des réalités. Dans des situations extrêmes, cela devient mortel : il faut y renoncer."
+            }
+          },
+          "26": {
+            "who": "سفينيا ر.، 29 عامًا، فلنسبورغ / Svenja R., 29, Flensburg",
+            "text": {
+              "ar": "يعلم الرياضيون جيدًا أن الأمر ليس نزهة استجمام صباحية يوم الأحد. فسباق تسوغشبيتسه ليس رياضة جماهيرية عادية. لقد تدرب المشاركون سنوات طويلة ويخوضون التحدي بوعي تام. وبعد كل هذا التمرين الشاق، يريد المتسابق بطبيعة الحال قياس قدراته وتحديد مستواه، وهذا أمر طبيعي ومنطقي للغاية.",
+              "fr": "Les coureurs savent parfaitement qu'il ne s'agit pas d'une promenade dominicale. La course de la Zugspitze n'est pas un sport de masse. Les participants s'entraînent des années durant. Vouloir mesurer ses limites après une préparation si dure est tout naturel."
+            }
+          }
+        }
+      },
+      "5": {
+        "instructions": {
+          "ar": "اقرأ المهام من 27 إلى 30 والنص المرفق حول جولات أعياد الميلاد في حديقة حيوان برلين. اختر الحل الصحيح: أ، أو ب، أو ج.",
+          "fr": "Lisez les tâches 27 à 30 et le texte sur les visites d'anniversaire au zoo de Berlin. Choisissez la bonne réponse : a, b ou c."
+        },
+        "articles": [
+          {
+            "heading": {
+              "ar": "جولات أعياد الميلاد في حديقة حيوان برلين",
+              "fr": "Visites d'anniversaire au zoo de Berlin"
+            },
+            "sub": {
+              "ar": "ابن أخيك أو ربيبك يحتفل بعيد ميلاده وتخطط لمفاجأته بزيارة ممتعة لحديقة حيوان برلين.",
+              "fr": "Votre filleul fête son anniversaire. Vous prévoyez une visite surprise au zoo de Berlin."
+            },
+            "body": {
+              "ar": [
+                "نقدم لكم جولات إرشادية داخل حديقة الحيوان تمنحكم نظرة حية على يوميات الحيوانات وتتضمن الكثير من الأنشطة الشيقة والتفاعلية في حديقة حيوان برلين! كقاعدة عامة، تتاح إمكانية إطعام الحيوانات في كل جولة، وفي معظم الأحيان يُسمح بإلقاء نظرة خلف كواليس الحديقة. ويعتمد الترتيب الدقيق للجولة على أحوال الطقس، كما تُقدم الجولات بطرق تتناسب مع المراحل العمرية للمشاركين.",
+                "• للأطفال من سن 5 سنوات فما فوق (الحد الأدنى لسن صاحب العيد وضيوفه الصغار)",
+                "• وجود شخص بالغ واحد على الأقل كمرافق إلزامي",
+                "• يرجى مراعاة مواعيد الإغلاق المبكرة عند الحجز: من 15 أكتوبر إلى 14 مارس تغلق الحديقة في تمام الساعة 17:00 مساءً، ويتم الخروج عادة من بوابة الفيل (Elefantentor).",
+                "المواعيد المتاحة:",
+                "• من الاثنين إلى الجمعة: في تمام الساعة 14:00 و15:00 (في فترة الإغلاق الشتوي) أو 15:30 (في فترة الإغلاق الصيفي).",
+                "• في عطلات نهاية الأسبوع (السبت والأحد): في تمام الساعة 11:00، و13:00، و15:00.",
+                "مدة الجولة:",
+                "• ساعة واحدة أو أكثر قليلاً...",
+                "الخيارات والبرامج:",
+                "• يرجى الاختيار من بين المسارات والجولات المتاحة عند الحجز..."
+              ],
+              "fr": [
+                "Nous vous proposons des visites guidées du zoo offrant un aperçu captivant du quotidien des soigneurs et de nombreuses animations autour des animaux du zoo de Berlin ! En règle générale, chaque tour permet de participer au nourrissage et d'explorer les coulisses du parc. Le déroulement précis dépend des conditions météo. Les parcours sont adaptés à chaque tranche d'âge.",
+                "• Pour les enfants à partir de 5 ans (âge minimum requis pour l'enfant et ses invités)",
+                "• Présence obligatoire d'au moins un adulte accompagnateur",
+                "• Veuillez noter lors de votre réservation que du 15 octobre au 14 mars, le zoo ferme dès 17h00. La sortie s'effectue alors par la porte des Éléphants.",
+                "Horaires des visites :",
+                "• Du lundi au vendredi à 14h00 et 15h00 (horaires d'hiver) ou 15h30 (horaires d'été)",
+                "• Le week-end (samedi et dimanche) à 11h00, 13h00 et 15h00",
+                "Durée de la visite :",
+                "• Une heure et un peu plus...",
+                "Modalités :",
+                "• Veuillez sélectionner votre parcours parmi nos visites à thème..."
+              ]
+            }
+          }
+        ],
+        "example": {
+          "ar": {
+            "text": "حديقة حيوان برلين تنظم جولات خاصة بالأطفال في أعياد الميلاد.",
+            "answer": "richtig"
+          },
+          "fr": {
+            "text": "Le zoo de Berlin organise des visites guidées spéciales pour les anniversaires d'enfants.",
+            "answer": "richtig"
+          }
+        },
+        "questions": {
+          "27": {
+            "text": {
+              "ar": "حديقة حيوان برلين...",
+              "fr": "Le zoo de Berlin..."
+            },
+            "options": {
+              "ar": [
+                "تحتفل بعيد ميلادها الخاص.",
+                "تحتفل بعيد ميلاد الحيوانات.",
+                "تقدم وتنظم جولات خاصة بأعياد الميلاد."
+              ],
+              "fr": [
+                "fête son propre anniversaire.",
+                "célèbre l'anniversaire des animaux.",
+                "propose des visites guidées d'anniversaire."
+              ]
+            }
+          },
+          "28": {
+            "text": {
+              "ar": "برنامج الجولة...",
+              "fr": "Le programme de la visite..."
+            },
+            "options": {
+              "ar": [
+                "يتضمن في العادة إطعام الحيوانات.",
+                "يصبح خطيرًا في حالة هطول الأمطار.",
+                "يتم التخطيط له فقط في الأيام المشمسة."
+              ],
+              "fr": [
+                "comprend généralement le nourrissage des animaux.",
+                "est risqué en cas de pluie.",
+                "n'est planifié que par beau temps."
+              ]
+            }
+          },
+          "29": {
+            "text": {
+              "ar": "الفئات المستهدفة للجولة هي...",
+              "fr": "Les publics cibles sont..."
+            },
+            "options": {
+              "ar": [
+                "الزوار دون سن الخامسة.",
+                "البالغون بصحبة أطفال.",
+                "الأطفال من سن الخامسة فما فوق."
+              ],
+              "fr": [
+                "les visiteurs de moins de cinq ans.",
+                "les adultes accompagnés d'enfants.",
+                "les enfants à partir de cinq ans."
+              ]
+            }
+          },
+          "30": {
+            "text": {
+              "ar": "الجولة الإرشادية...",
+              "fr": "La visite guidée..."
+            },
+            "options": {
+              "ar": [
+                "تستمر طوال اليوم.",
+                "متاحة في أيام الأسبوع بعد الظهر فقط.",
+                "يمكن حجزها في عطلة نهاية الأسبوع صباحًا فقط."
+              ],
+              "fr": [
+                "dure toute la journée.",
+                "est possible en semaine uniquement l'après-midi.",
+                "ne peut être réservée le week-end qu'en matinée."
+              ]
+            }
+          }
+        }
+      },
+      "6": {
+        "instructions": {
+          "ar": "يتكون قسم الاستماع من أربعة أجزاء. ستستمع إلى عدة نصوص وتقوم بحل المهام المرتبطة بها. لكل مهمة إجابة صحيحة واحدة فقط.",
+          "fr": "Le module Compréhension orale se compose de quatre parties. Vous écouterez plusieurs enregistrements et répondrez aux questions associées. Pour chaque tâche, il n'y a qu'une seule bonne réponse."
+        },
+        "teile": {
+          "1": {
+            "title": {
+              "ar": "خمسة نصوص قصيرة · المهام من 1 إلى 10",
+              "fr": "Cinq enregistrements courts · Tâches 1 à 10"
+            },
+            "desc": {
+              "ar": "ستستمع الآن إلى خمسة نصوص قصيرة مرتين. لكل نص ستحل مهمتين. اقرأ أولاً المثال.",
+              "fr": "Vous écouterez cinq courts enregistrements deux fois chacun. Pour chaque texte, vous résoudrez deux tâches."
+            }
+          },
+          "2": {
+            "title": {
+              "ar": "جولة داخل قلعة تاريخية · المهام من 11 إلى 15",
+              "fr": "Visite guidée d'un château fort · Tâches 11 à 15"
+            },
+            "desc": {
+              "ar": "ستستمع الآن إلى نص واحد مرة واحدة فقط. ستحل خمس مهام. اختر الحل الصحيح: أ، أو ب، أو ج.",
+              "fr": "Vous allez entendre un texte une seule fois. Répondez aux cinq questions a, b ou c."
+            },
+            "context": {
+              "ar": "أنت تشارك في جولة إرشادية داخل قلعة أثرية وتستمع للمرشد Lorenz.",
+              "fr": "Vous participez à la visite guidée d'un château fort historique."
+            }
+          },
+          "3": {
+            "title": {
+              "ar": "تقرير تلفزيوني عن رحلة في الغابات · المهام من 16 إلى 22",
+              "fr": "Reportage télévisé sur un trek dans la jungle · Tâches 16 à 22"
+            },
+            "desc": {
+              "ar": "ستستمع الآن إلى محادثة مرة واحدة فقط. ستحل سبع مهام. اختر: هل العبارات صحيحة أم خاطئة؟",
+              "fr": "Vous allez entendre une conversation une seule fois. Répondez aux sept questions : Vrai ou Faux ?"
+            },
+            "context": {
+              "ar": "تشاهد في التلفزيون تقريرًا مصورًا عن رحالة خاض مغامرة في غابات جبال الأنديز.",
+              "fr": "Vous regardez un reportage télévisé sur un randonneur dans la jungle des Andes."
+            }
+          },
+          "4": {
+            "title": {
+              "ar": "نقاش إذاعي حول الألمان في الخارج · المهام من 23 إلى 30",
+              "fr": "Débat radiophonique : Les Allemands à l'étranger · Tâches 23 à 30"
+            },
+            "desc": {
+              "ar": "ستستمع الآن إلى مناقشة مرتين. ستحل ثماني مهام. حدد من قال ماذا.",
+              "fr": "Vous écouterez une discussion deux fois. Associez les affirmations : qui dit quoi ?"
+            },
+            "context": {
+              "ar": "مقدمة برنامج 'Aktuell' تناقش مع بيرند بيخشتاين وأولريكه ماير موضوع: 'الألمان — ليسوا محبوبين كثيرًا في الخارج'.",
+              "fr": "L'animatrice de l'émission « Aktuell » débat avec Bernd Bechstein et Ulrike Meyer."
+            }
+          }
+        },
+        "questions": {
+          "h1": {
+            "text": {
+              "ar": "يمكن مشاهدة النمور والأسود الهندية ابتداءً من 12 أبريل.",
+              "fr": "On peut voir des tigres et lions d'Inde à partir du 12 avril."
+            }
+          },
+          "h2": {
+            "text": {
+              "ar": "حديقة الحيوان...",
+              "fr": "Le parc zoologique est..."
+            },
+            "options": {
+              "ar": [
+                "مفتوحة يوميًا.",
+                "مفتوحة حتى 12 أبريل فقط.",
+                "مفتوحة فقط ابتداءً من 12 أبريل."
+              ],
+              "fr": [
+                "ouvert tous les jours.",
+                "ouvert jusqu'au 12 avril.",
+                "ouvert seulement à partir du 12 avril."
+              ]
+            }
+          },
+          "h3": {
+            "text": {
+              "ar": "متجر الأثاث يوزع فقط قسائم بقيمة 200 يورو.",
+              "fr": "Le magasin de meubles offre uniquement des bons de 200 euros."
+            }
+          },
+          "h4": {
+            "text": {
+              "ar": "قسائم الشراء...",
+              "fr": "Les bons d'achat..."
+            },
+            "options": {
+              "ar": [
+                "تسري فقط على تشكيلة الصيف.",
+                "تسري فقط على القطع التي عليها نقطة حمراء.",
+                "تسري على جميع قطع الأثاث بالمتجر."
+              ],
+              "fr": [
+                "sont valables uniquement sur la collection d'été.",
+                "sont valables sur les meubles marqués d'un point rouge.",
+                "sont valables sur tous les meubles du magasin."
+              ]
+            }
+          },
+          "h5": {
+            "text": {
+              "ar": "غابي تستقبل زيارة من والدتها.",
+              "fr": "Gaby reçoit la visite de sa mère."
+            }
+          },
+          "h6": {
+            "text": {
+              "ar": "هي لن تذهب إلى السينما لأنها...",
+              "fr": "Elle ne vient pas au cinéma parce que..."
+            },
+            "options": {
+              "ar": [
+                "يجب عليها تنظيف وترتيب البيت.",
+                "زوجها غير موجود اليوم.",
+                "شاهدت الفيلم بالفعل من قبل."
+              ],
+              "fr": [
+                "elle doit faire le ménage.",
+                "son mari est absent aujourd'hui.",
+                "elle a déjà vu le film."
+              ]
+            }
+          },
+          "h7": {
+            "text": {
+              "ar": "الوقت الحالي هو قبيل موعد إغلاق المتجر.",
+              "fr": "C'est peu avant la fermeture du magasin."
+            }
+          },
+          "h8": {
+            "text": {
+              "ar": "مستخدمو مرآب السيارات يغادرون المتجر...",
+              "fr": "Les usagers du parking quittent le magasin..."
+            },
+            "options": {
+              "ar": [
+                "عبر المخارج الجانبية.",
+                "عبر المدخل الرئيسي.",
+                "عبر المخرج الواقع عند الصندوق الرئيسي."
+              ],
+              "fr": [
+                "par les sorties secondaires.",
+                "par l'entrée principale.",
+                "par l'entrée près de la caisse centrale."
+              ]
+            }
+          },
+          "h9": {
+            "text": {
+              "ar": "توجد مظاهرة أمام محطة قطار شتوتغارت الرئيسية.",
+              "fr": "Il y a une manifestation devant la gare centrale de Stuttgart."
+            }
+          },
+          "h10": {
+            "text": {
+              "ar": "يُطلب من السائقين المتجهين إلى باد كانشتات...",
+              "fr": "Les automobilistes pour Bad Cannstatt doivent..."
+            },
+            "options": {
+              "ar": [
+                "استخدام المخرج الجنوبي.",
+                "استخدام طريق الوصول الفرعي.",
+                "استخدام الطريق الدائري."
+              ],
+              "fr": [
+                "emprunter la sortie Sud.",
+                "utiliser la voie d'accès.",
+                "emprunter la voie circulaire."
+              ]
+            }
+          },
+          "h11": {
+            "text": {
+              "ar": "الجولة تروي قصة حياة...",
+              "fr": "La visite guidée raconte la vie..."
+            },
+            "options": {
+              "ar": [
+                "فرسان وحكام القلعة.",
+                "الكونت فريدبيرغ وسكان القلعة السابقين.",
+                "الحرفيين والعمال."
+              ],
+              "fr": [
+                "des seigneurs du château.",
+                "du comte Friedberg et des habitants du château.",
+                "des artisans."
+              ]
+            }
+          },
+          "h12": {
+            "text": {
+              "ar": "تأسست وبُنيت القلعة في...",
+              "fr": "Le château a été construit..."
+            },
+            "options": {
+              "ar": [
+                "القرن السادس الميلادي.",
+                "عام 1545.",
+                "العصر الحديث."
+              ],
+              "fr": [
+                "au VIe siècle.",
+                "en l'an 1545.",
+                "à l'époque moderne."
+              ]
+            }
+          },
+          "h13": {
+            "text": {
+              "ar": "شعر فيرتبيرغ بالهزيمة والاستسلام بعد أن...",
+              "fr": "Wertburg s'est avoué vaincu après..."
+            },
+            "options": {
+              "ar": [
+                "خسر مبارزة ثنائية.",
+                "تمت مهاجمته بالريش والقطران الساخن.",
+                "سقط داخل الخندق المائي."
+              ],
+              "fr": [
+                "avoir perdu un duel.",
+                "avoir été aspergé de poix et de plumes.",
+                "être tombé dans les douves."
+              ]
+            }
+          },
+          "h14": {
+            "text": {
+              "ar": "لماذا كتب الكونت فريدبيرغ الحكايات الخرافية؟",
+              "fr": "Pourquoi le comte Friedberg écrivait-il des contes ?"
+            },
+            "options": {
+              "ar": [
+                "كان الأمر يمنحه متعة وتسلية شخصية.",
+                "أراد إدخال السرور على قلب ابنه.",
+                "أراد تأليف كتاب حكايات تجاري."
+              ],
+              "fr": [
+                "Cela lui faisait plaisir.",
+                "Il voulait faire plaisir à son fils.",
+                "Il voulait publier un recueil de contes."
+              ]
+            }
+          },
+          "h15": {
+            "text": {
+              "ar": "كان الطبق المفضل والمشهور للطاهية كاتارينا هو...",
+              "fr": "La spécialité réputée de Katharina était..."
+            },
+            "options": {
+              "ar": [
+                "فيليه سمك القد السايث.",
+                "كوارع ولحم خنزير.",
+                "حساء البصل اللذيذ."
+              ],
+              "fr": [
+                "le filet de colin.",
+                "le jarret de porc.",
+                "la soupe à l'oignon."
+              ]
+            }
+          },
+          "h16": {
+            "text": {
+              "ar": "كانت جولة الغابات قرارًا عفويًا وغير مخطط له مسبقًا.",
+              "fr": "Le trek dans la jungle a été décidé spontanément."
+            }
+          },
+          "h17": {
+            "text": {
+              "ar": "لم يكن الرحالة دائمًا برفقة مرشدين.",
+              "fr": "Les randonneurs n'étaient pas toujours accompagnés."
+            }
+          },
+          "h18": {
+            "text": {
+              "ar": "كان مشهد غروب الشمس في جبال الأنديز في غاية الروعة والجمال.",
+              "fr": "Le coucher de soleil dans les Andes était magnifique."
+            }
+          },
+          "h19": {
+            "text": {
+              "ar": "كان على الرحالة شراء وتأمين المواد الغذائية بأنفسهم في الطريق.",
+              "fr": "Les randonneurs ont dû se procurer de la nourriture."
+            }
+          },
+          "h20": {
+            "text": {
+              "ar": "في الليل كانوا يتبادلون نوبات حراسة المخيم.",
+              "fr": "La nuit, ils montaient la garde au camp à tour de rôle."
+            }
+          },
+          "h21": {
+            "text": {
+              "ar": "تم علاج لدغة الثعبان طبيًا وفورًا بواسطة طبيب مختص.",
+              "fr": "La morsure de serpent a été immédiatement traitée par un médecin."
+            }
+          },
+          "h22": {
+            "text": {
+              "ar": "خطط الرحالة للقيام برحلة استكشافية ثانية مماثلة.",
+              "fr": "Les randonneurs ont planifié un deuxième voyage."
+            }
+          },
+          "h23": {
+            "text": {
+              "ar": "فقط كبار السن هم من يربطون الألمان بالحرب العالمية.",
+              "fr": "Seules les personnes âgées associent encore les Allemands à la guerre."
+            }
+          },
+          "h24": {
+            "text": {
+              "ar": "هناك شعوب تعمل ساعات أكثر وأطول من الألمان.",
+              "fr": "Certaines populations travaillent plus d'heures que les Allemands."
+            }
+          },
+          "h25": {
+            "text": {
+              "ar": "الأجانب في الخارج يعاملون الألمان بلطف وود كبير.",
+              "fr": "Les étrangers sont très chaleureux et accueillants envers les Allemands."
+            }
+          },
+          "h26": {
+            "text": {
+              "ar": "الكثير من الألمان يلتزمون بالقوانين والتعليمات بدقة.",
+              "fr": "Beaucoup d'Allemands respectent scrupuleusement les règles."
+            }
+          },
+          "h27": {
+            "text": {
+              "ar": "احترام القوانين هو ما يدعم الديمقراطية ودولة القانون.",
+              "fr": "Respecter les lois renforce la démocratie et l'État de droit."
+            }
+          },
+          "h28": {
+            "text": {
+              "ar": "في دول جنوب أوروبا يتم العمل أيضًا بجد في درجات الحرارة المرتفعة.",
+              "fr": "Dans les pays du Sud, on travaille aussi dur malgré la chaleur."
+            }
+          },
+          "h29": {
+            "text": {
+              "ar": "بدون انضباط ونظام لا يمكن لأي مجتمع أن يستمر في الوجود والعمل.",
+              "fr": "Sans ordre, une société ne peut pas fonctionner convenablement."
+            }
+          },
+          "h30": {
+            "text": {
+              "ar": "ينبغي التخفيف من السرعة والعجلة المفرطة في نمط حياة المجتمع.",
+              "fr": "Il faudrait ralentir le rythme effréné imposé par la société."
+            }
+          }
+        }
+      }
+    }
+  }
+}

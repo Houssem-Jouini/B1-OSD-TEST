@@ -744,6 +744,976 @@ const b1VocabData = [
     example: "Ich muss dieser Behauptung ganz entschieden widersprechen.",
     tip: "Höflich die Gegenposition vertreten."
   }
+,
+
+  /* ---------------- SO GEHTS NOCH BESSER B1 (MODELLTESTS 1, 2, 3) ---------------- */
+  {
+    "id": "v-m1-t1-1",
+    "testId": "modellsatz-7",
+    "term": "das duale System",
+    "display": "das duale System",
+    "pos": "Nomen, n.",
+    "teil": 1,
+    "level": "B1",
+    "forms": [
+      "duale System",
+      "dualen System",
+      "dualen Systems"
+    ],
+    "defDe": "Berufsausbildungssystem mit paralleler Theorie in der Berufsschule und Praxis im Betrieb.",
+    "defAr": "النظام التعليمي المزدوج (دراسة نظرية في معهد مهني وتدريب عملي في مكان العمل).",
+    "defFr": "Système de formation en alternance (cours théoriques et pratique en entreprise).",
+    "example": "Die Ausbildung zur Bürokauffrau basiert auf dem dualen System.",
+    "tip": "Zentraler B1-Begriff für Ausbildung und Arbeitsmarkt in Deutschland."
+  },
+  {
+    "id": "v-m1-t1-2",
+    "testId": "modellsatz-7",
+    "term": "der Glückspilz",
+    "display": "der Glückspilz, -e",
+    "pos": "Nomen, m.",
+    "teil": 1,
+    "level": "B1",
+    "forms": [
+      "Glückspilz",
+      "Glückspilze"
+    ],
+    "defDe": "Umgangssprachlich für eine Person, die immer wieder großes Glück hat.",
+    "defAr": "شخص محظوظ جدًا تبتسم له الظروف دائمًا.",
+    "defFr": "Un petit veinard, une personne particulièrement chanceuse.",
+    "example": "Du bist echt ein Glückspilz, dass du sofort eine Ausbildungsstelle gefunden hast!",
+    "tip": "Gegenteil von 'Pechvogel'."
+  },
+  {
+    "id": "v-m1-t1-3",
+    "testId": "modellsatz-7",
+    "term": "der Fußmarsch",
+    "display": "der Fußmarsch, -¨e",
+    "pos": "Nomen, m.",
+    "teil": 1,
+    "level": "B1",
+    "forms": [
+      "Fußmarsch",
+      "Fußmärsche",
+      "Fußmarsches"
+    ],
+    "defDe": "Ein langer, anstrengender Weg, den man zu Fuß zurücklegt.",
+    "defAr": "مسيرة طويلة أو مشي شاق على الأقدام.",
+    "defFr": "Une longue marche à pied.",
+    "example": "Nach einem halbstündigen Fußmarsch durch die Stadt erreichte ich das Büro.",
+    "tip": "Wird oft für Wege ohne Verkehrsmittel verwendet."
+  },
+  {
+    "id": "v-m1-t1-4",
+    "testId": "modellsatz-7",
+    "term": "der Kompass",
+    "display": "der Kompass, -e",
+    "pos": "Nomen, m.",
+    "teil": 1,
+    "level": "B1",
+    "forms": [
+      "Kompass",
+      "Kompasse"
+    ],
+    "defDe": "Gerät zur Orientierung, dessen Magnetnadel nach Norden zeigt.",
+    "defAr": "بوصلة لتحديد الاتجاهات الجغرافية.",
+    "defFr": "Une boussole.",
+    "example": "Um sich im riesigen Betriebsgelände zurechtzufinden, braucht man fast einen Kompass.",
+    "tip": "Metaphorisch: Orientierungshilfe im Beruf."
+  },
+  {
+    "id": "v-m1-t1-5",
+    "testId": "modellsatz-7",
+    "term": "die Buchhaltung",
+    "display": "die Buchhaltung, -en",
+    "pos": "Nomen, f.",
+    "teil": 1,
+    "level": "B1",
+    "forms": [
+      "Buchhaltung",
+      "Buchhaltungen"
+    ],
+    "defDe": "Abteilung eines Betriebs, die alle Einnahmen, Ausgaben und Rechnungen dokumentiert.",
+    "defAr": "قسم المحاسبة وضبط الفواتير والمعاملات المالية في الشركة.",
+    "defFr": "La comptabilité d'une entreprise.",
+    "example": "In den ersten Monaten der Ausbildung lernt man die Arbeit in der Buchhaltung kennen.",
+    "tip": "Wichtiges Berufsfeld im kaufmännischen Bereich."
+  },
+  {
+    "id": "v-m1-t1-6",
+    "testId": "modellsatz-7",
+    "term": "die Butterbrezel",
+    "display": "die Butterbrezel, -n",
+    "pos": "Nomen, f.",
+    "teil": 1,
+    "level": "B1",
+    "forms": [
+      "Butterbrezel",
+      "Butterbrezeln"
+    ],
+    "defDe": "Typisches deutsches Laugengebäck, das mit Butter bestrichen ist.",
+    "defAr": "خبز البريتزل الألماني التقليدي المدهون بالزبدة (وجبة خفيفة شائعة في الاستراحة).",
+    "defFr": "Bretzel au beurre, en-cas typique en Allemagne.",
+    "example": "In der Frühstückspause essen viele Kollegen eine frische Butterbrezel.",
+    "tip": "Typischer Snack im Büroalltag."
+  },
+  {
+    "id": "v-m1-t1-7",
+    "testId": "modellsatz-7",
+    "term": "Löcher in den Bauch fragen",
+    "display": "Löcher in den Bauch fragen",
+    "pos": "Redewendung",
+    "teil": 1,
+    "level": "B1",
+    "forms": [
+      "Löcher in den Bauch fragen",
+      "fragte Löcher in den Bauch"
+    ],
+    "defDe": "Jemanden ununterbrochen mit vielen neugierigen Fragen löchern.",
+    "defAr": "يمطر شخصًا بوابل من الأسئلة الملحة والفضولية.",
+    "defFr": "Poser mille questions à quelqu'un, harceler de questions.",
+    "example": "Die neue Auszubildende war so wissbegierig, dass sie dem Chef Löcher in den Bauch fragte.",
+    "tip": "Sehr beliebte deutsche Redewendung in B1-Prüfungstexten."
+  },
+  {
+    "id": "v-m1-t2-1",
+    "testId": "modellsatz-7",
+    "term": "die Anschaffung",
+    "display": "die Anschaffung, -en",
+    "pos": "Nomen, f.",
+    "teil": 2,
+    "level": "B1",
+    "forms": [
+      "Anschaffung",
+      "Anschaffungen"
+    ],
+    "defDe": "Der Kauf oder Erwerb von etwas Wertvollem oder Nützlichem.",
+    "defAr": "شراء أو اقتناء شيء جديد (مثل حيوان أليف أو جهاز).",
+    "defFr": "L'acquisition, l'achat d'un bien.",
+    "example": "Vor der Anschaffung eines Haustiers muss die ganze Familie zustimmen.",
+    "tip": "Verb: 'anschaffen' (kaufen/besorgen)."
+  },
+  {
+    "id": "v-m1-t2-2",
+    "testId": "modellsatz-7",
+    "term": "die Lebenserwartung",
+    "display": "die Lebenserwartung, -en",
+    "pos": "Nomen, f.",
+    "teil": 2,
+    "level": "B1",
+    "forms": [
+      "Lebenserwartung",
+      "Lebenserwartungen"
+    ],
+    "defDe": "Die Zeitspanne, die ein Mensch oder Tier voraussichtlich leben wird.",
+    "defAr": "متوسط العمر المتوقع للكائن الحي.",
+    "defFr": "L'espérance de vie.",
+    "example": "Manche Haustiere haben eine hohe Lebenserwartung von über 15 Jahren.",
+    "tip": "Kompositum aus Leben + Erwartung."
+  },
+  {
+    "id": "v-m1-t2-3",
+    "testId": "modellsatz-7",
+    "term": "sanft",
+    "display": "sanft (Adj.)",
+    "pos": "Adjektiv",
+    "teil": 2,
+    "level": "B1",
+    "forms": [
+      "sanft",
+      "sanfte",
+      "sanften",
+      "sanfter"
+    ],
+    "defDe": "Mild, behutsam, ohne Härte oder Nebenwirkungen.",
+    "defAr": "لطيف، خفيف، غير ضار ولا يسبب ألمًا (مثل العلاج اللطيف).",
+    "defFr": "Doux, sans violence, sans agressivité.",
+    "example": "Viele Patienten bevorzugen sanfte Heilmethoden gegenüber chemischen Medikamenten.",
+    "tip": "Wird oft in 'sanfte Medizin' (Naturheilkunde) genutzt."
+  },
+  {
+    "id": "v-m1-t2-4",
+    "testId": "modellsatz-7",
+    "term": "fragwürdig",
+    "display": "fragwürdig (Adj.)",
+    "pos": "Adjektiv",
+    "teil": 2,
+    "level": "B1",
+    "forms": [
+      "fragwürdig",
+      "fragwürdige",
+      "fragwürdigen"
+    ],
+    "defDe": "Zweifelhaft, bedenklich, wissenschaftlich nicht sicher bewiesen.",
+    "defAr": "مشكوك في صحته، مثير للتساؤل والشبهات.",
+    "defFr": "Douteux, discutable, contestable.",
+    "example": "Einige dieser Methoden sind wissenschaftlich höchst fragwürdig.",
+    "tip": "Synonym für 'zweifelhaft' oder 'umstritten'."
+  },
+  {
+    "id": "v-m1-t2-5",
+    "testId": "modellsatz-7",
+    "term": "der Placebo-Effekt",
+    "display": "der Placebo-Effekt, -e",
+    "pos": "Nomen, m.",
+    "teil": 2,
+    "level": "B1",
+    "forms": [
+      "Placebo-Effekt",
+      "Placebo-Effekts",
+      "Placeboeffekt"
+    ],
+    "defDe": "Positive gesundheitliche Wirkung allein durch den Glauben an ein wirkungsloses Scheinmedikament.",
+    "defAr": "تأثير الدواء الوهمي (التحسن النفسي والجسدي الناتج عن الإيمان بفاعلية العلاج).",
+    "defFr": "L'effet placebo.",
+    "example": "Kritiker führen den Heilerfolg auf den Placebo-Effekt zurück.",
+    "tip": "Wichtiger Begriff in Gesundheitstexten."
+  },
+  {
+    "id": "v-m1-t2-6",
+    "testId": "modellsatz-7",
+    "term": "der Heilpraktiker",
+    "display": "der Heilpraktiker, -",
+    "pos": "Nomen, m.",
+    "teil": 2,
+    "level": "B1",
+    "forms": [
+      "Heilpraktiker",
+      "Heilpraktikern",
+      "Heilpraktikerin"
+    ],
+    "defDe": "Person mit staatlicher Erlaubnis, Krankheiten ohne Medizinstudium mit Naturheilkunde zu behandeln.",
+    "defAr": "المعالج بالطب البديل أو الطبيعي المرخص له رسميًا.",
+    "defFr": "Praticien de médecines alternatives ou naturelles non-médecin agréé.",
+    "example": "Immer mehr Kranke suchen Rat bei einem Heilpraktiker.",
+    "tip": "Spezifisch deutsches Berufsbild."
+  },
+  {
+    "id": "v-m1-t2-7",
+    "testId": "modellsatz-7",
+    "term": "auf den Punkt bringen",
+    "display": "etwas auf den Punkt bringen",
+    "pos": "Redewendung",
+    "teil": 2,
+    "level": "B1",
+    "forms": [
+      "auf den Punkt bringen",
+      "auf den Punkt gebracht"
+    ],
+    "defDe": "Eine komplizierte Tatsache kurz, treffend und präzise formulieren.",
+    "defAr": "يلخص جوهر المسألة بإيجاز ودقة بالغة.",
+    "defFr": "Aller droit au but, résumer précisément l'essentiel.",
+    "example": "Der Arzt brachte das Problem mit wenigen Worten auf den Punkt.",
+    "tip": "Häufige Wendung für klare Zusammenfassungen."
+  },
+  {
+    "id": "v-m1-t2-8",
+    "testId": "modellsatz-7",
+    "term": "befördern",
+    "display": "befördern (v.)",
+    "pos": "Verb",
+    "teil": 2,
+    "level": "B1",
+    "forms": [
+      "befördern",
+      "befördert",
+      "beförderte"
+    ],
+    "defDe": "Personen oder Güter mit einem Fahrzeug von A nach B transportieren.",
+    "defAr": "ينقل الركاب أو البضائع من مكان لآخر.",
+    "defFr": "Transporter, acheminer des passagers ou des marchandises.",
+    "example": "Die neuen Fernbusse befördern täglich tausende Reisende.",
+    "tip": "Zweites Bedeutungsfeld: im Beruf aufsteigen (befördert werden)."
+  },
+  {
+    "id": "v-m1-t2-9",
+    "testId": "modellsatz-7",
+    "term": "rentabel",
+    "display": "rentabel (Adj.)",
+    "pos": "Adjektiv",
+    "teil": 2,
+    "level": "B1",
+    "forms": [
+      "rentabel",
+      "rentable",
+      "rentablen"
+    ],
+    "defDe": "Finanziell gewinnbringend, lohnend; so, dass sich die Kosten auszahlen.",
+    "defAr": "مربح، مجدٍ اقتصاديًا ويدر عائداً مالياً جيداً.",
+    "defFr": "Rentable, financièrement avantageux.",
+    "example": "Linienverbindungen zwischen Kleinstädten sind oft nicht rentabel.",
+    "tip": "Gegenteil: unrentabel / verlustreich."
+  },
+  {
+    "id": "v-m1-t2-10",
+    "testId": "modellsatz-7",
+    "term": "das Monopol",
+    "display": "das Monopol, -e",
+    "pos": "Nomen, n.",
+    "teil": 2,
+    "level": "B1",
+    "forms": [
+      "Monopol",
+      "Monopole",
+      "Monopols"
+    ],
+    "defDe": "Marktbeherrschende Stellung ohne Wettbewerber.",
+    "defAr": "احتكار السوق من طرف جهة واحدة دون منافسين.",
+    "defFr": "Le monopole commercial.",
+    "example": "Früher hatte die Bahn ein staatliches Monopol im Fernverkehr.",
+    "tip": "Wichtig in Wirtschaftstexten."
+  },
+  {
+    "id": "v-m1-t4-1",
+    "testId": "modellsatz-7",
+    "term": "der Wissensschatz",
+    "display": "der Wissensschatz, -¨e",
+    "pos": "Nomen, m.",
+    "teil": 4,
+    "level": "B1",
+    "forms": [
+      "Wissensschatz",
+      "Wissensschatzes"
+    ],
+    "defDe": "Große Menge wertvoller Kenntnisse und gesammelter Erfahrungen.",
+    "defAr": "كنز وخزينة المعرفة والخبرات القيمة المتراكمة.",
+    "defFr": "Le trésor de connaissances, bagage intellectuel précieux.",
+    "example": "Ältere Menschen verfügen über einen enormen Wissensschatz.",
+    "tip": "Metapher für lebenslange Bildung."
+  },
+  {
+    "id": "v-m1-t5-1",
+    "testId": "modellsatz-7",
+    "term": "der Schienenverkehr",
+    "display": "der Schienenverkehr (nur Sg.)",
+    "pos": "Nomen, m.",
+    "teil": 5,
+    "level": "B1",
+    "forms": [
+      "Schienenverkehr",
+      "Schienenverkehrs"
+    ],
+    "defDe": "Gesamtheit aller Verkehrsmittel, die auf Gleisen fahren (Züge, Trams).",
+    "defAr": "حركة النقل عبر السكك الحديدية والقطارات.",
+    "defFr": "Le transport ferroviaire.",
+    "example": "Auf dem Museumsgelände hat der Schienenverkehr stets Vorrang.",
+    "tip": "Gegenstück zum Straßenverkehr."
+  },
+  {
+    "id": "v-m1-t5-2",
+    "testId": "modellsatz-7",
+    "term": "der Vorrang",
+    "display": "der Vorrang (nur Sg.)",
+    "pos": "Nomen, m.",
+    "teil": 5,
+    "level": "B1",
+    "forms": [
+      "Vorrang",
+      "Vorrangs"
+    ],
+    "defDe": "Die Priorität oder das Recht, zuerst zu fahren oder bedient zu werden.",
+    "defAr": "الأولوية وأسبقية المرور أو الإجراء.",
+    "defFr": "La priorité absolue, préséance.",
+    "example": "Fußgänger und Lokomotiven haben in bestimmten Zonen Vorrang.",
+    "tip": "Nomen zu 'vorrangig' (prioritär)."
+  },
+  {
+    "id": "v-m1-t5-3",
+    "testId": "modellsatz-7",
+    "term": "die Haftung",
+    "display": "die Haftung (nur Sg.)",
+    "pos": "Nomen, f.",
+    "teil": 5,
+    "level": "B1",
+    "forms": [
+      "Haftung"
+    ],
+    "defDe": "Rechtliche Verpflichtung, für entstandene Schäden aufzukommen.",
+    "defAr": "المسؤولية القانونية والمالية عن التعويض والأضرار.",
+    "defFr": "La responsabilité civile/légale.",
+    "example": "Der Betreiber übernimmt keine Haftung für beschmutzte Kleidung.",
+    "tip": "Typische Klausel in Park- und Hausordnungen."
+  },
+  {
+    "id": "v-m2-t1-1",
+    "testId": "modellsatz-8",
+    "term": "die Entschleunigung",
+    "display": "die Entschleunigung, -en",
+    "pos": "Nomen, f.",
+    "teil": 1,
+    "level": "B1",
+    "forms": [
+      "Entschleunigung",
+      "Entschleunigungen"
+    ],
+    "defDe": "Bewusste Verlangsamung des Lebensrhythmus zur Vermeidung von Hektik und Stress.",
+    "defAr": "التمهل وإبطاء وتيرة الحياة السريعة للتخلص من التوتر واللهاث اليومي.",
+    "defFr": "La décélération, ralentissement volontaire du rythme de vie.",
+    "example": "Der Urlaub auf dem Land sorgt für eine echte Entschleunigung.",
+    "tip": "Antonym zu 'Beschleunigung'."
+  },
+  {
+    "id": "v-m2-t1-2",
+    "testId": "modellsatz-8",
+    "term": "die Metropole",
+    "display": "die Metropole, -n",
+    "pos": "Nomen, f.",
+    "teil": 1,
+    "level": "B1",
+    "forms": [
+      "Metropole",
+      "Metropolen"
+    ],
+    "defDe": "Große, bedeutende Weltstadt mit regem wirtschaftlichem und kulturellem Leben.",
+    "defAr": "مدينة كبرى أو عاصمة اقتصادية وثقافية عالمية.",
+    "defFr": "Une métropole, grande agglomération.",
+    "example": "Nach Jahren in der Metropole Berlin sehnte er sich nach der Ruhe des Schwarzwalds.",
+    "tip": "Synonym zu 'Großstadt' oder 'Weltstadt'."
+  },
+  {
+    "id": "v-m2-t1-3",
+    "testId": "modellsatz-8",
+    "term": "idyllisch",
+    "display": "idyllisch (Adj.)",
+    "pos": "Adjektiv",
+    "teil": 1,
+    "level": "B1",
+    "forms": [
+      "idyllisch",
+      "idyllische",
+      "idyllischen",
+      "idyllischer"
+    ],
+    "defDe": "Malerisch, friedlich, ländlich und harmonisch ruhig.",
+    "defAr": "شاعري، هادئ ومبهج يبعث على الراحة والسكينة.",
+    "defFr": "Idyllique, pittoresque et paisible.",
+    "example": "Der Zug fuhr an idyllischen Dörfern und saftigen Wiesen vorbei.",
+    "tip": "Wird oft zur Beschreibung von Natur und Landschaften genutzt."
+  },
+  {
+    "id": "v-m2-t1-4",
+    "testId": "modellsatz-8",
+    "term": "das Vesper",
+    "display": "das Vesper, -",
+    "pos": "Nomen, n.",
+    "teil": 1,
+    "level": "B1",
+    "forms": [
+      "Vesper"
+    ],
+    "defDe": "Traditionelle Zwischenmahlzeit im süddeutschen Raum mit Brot, Wurst und Käse.",
+    "defAr": "وجبة خفيفة تقليدية شهية (خبز ريفي وجبن ولحم بارد).",
+    "defFr": "Collation traditionnelle du soir ou de l'après-midi en Allemagne du Sud.",
+    "example": "Zur Begrüßung gab es ein herzhaftes Vesper mit Bauernbrot und Schinken.",
+    "tip": "Regionaler Begriff aus Baden-Württemberg und Bayern."
+  },
+  {
+    "id": "v-m2-t1-5",
+    "testId": "modellsatz-8",
+    "term": "zergehen",
+    "display": "auf der Zunge zergehen",
+    "pos": "Verb",
+    "teil": 1,
+    "level": "B1",
+    "forms": [
+      "zergehen",
+      "zergeht",
+      "zerging",
+      "zergangen"
+    ],
+    "defDe": "Im Mund langsam und köstlich schmelzen.",
+    "defAr": "يذوب في الفم برقة ولذة لا تقاوم.",
+    "defFr": "Fondre sur la langue, être exquis.",
+    "example": "Der hauchdünne Schinken zergeht förmlich auf der Zunge.",
+    "tip": "Wird für besonders feine Speisen verwendet."
+  },
+  {
+    "id": "v-m2-t1-6",
+    "testId": "modellsatz-8",
+    "term": "die Mundart",
+    "display": "die Mundart, -en",
+    "pos": "Nomen, f.",
+    "teil": 1,
+    "level": "B1",
+    "forms": [
+      "Mundart",
+      "Mundarten"
+    ],
+    "defDe": "In einer bestimmten Region gesprochener lokaler Dialekt.",
+    "defAr": "اللهجة المحلية المنطوقة في إقليم معين.",
+    "defFr": "Le dialecte régional, le parler local.",
+    "example": "Die Einheimischen sprechen ihre alemannische Mundart mit Stolz.",
+    "tip": "Synonym für 'Dialekt'."
+  },
+  {
+    "id": "v-m2-t2-1",
+    "testId": "modellsatz-8",
+    "term": "die Nachhaltigkeit",
+    "display": "die Nachhaltigkeit (nur Sg.)",
+    "pos": "Nomen, f.",
+    "teil": 2,
+    "level": "B1",
+    "forms": [
+      "Nachhaltigkeit"
+    ],
+    "defDe": "Prinzip, nach dem nicht mehr verbraucht werden darf, als nachwachsen kann.",
+    "defAr": "الاستدامة البيئية وحماية الموارد للأجيال القادمة.",
+    "defFr": "La durabilité, développement durable.",
+    "example": "Nachhaltigkeit spielt beim biologischen Anbau von Lebensmitteln eine Schlüsselrolle.",
+    "tip": "Top-Thema in Prüfungsaufsätzen und Lesetexten."
+  },
+  {
+    "id": "v-m2-t2-2",
+    "testId": "modellsatz-8",
+    "term": "die Karies",
+    "display": "die Karies (nur Sg.)",
+    "pos": "Nomen, f.",
+    "teil": 2,
+    "level": "B1",
+    "forms": [
+      "Karies"
+    ],
+    "defDe": "Zahnfäule, Erkrankung der Zähne durch Säuren und Bakterien.",
+    "defAr": "تسوس الأسنان وتآكل طبقة المينا.",
+    "defFr": "Les caries dentaires.",
+    "example": "Zu viel Zucker in Süßigkeiten verursacht Karies bei Kindern.",
+    "tip": "Medizinischer Begriff im Alltag."
+  },
+  {
+    "id": "v-m2-t2-3",
+    "testId": "modellsatz-8",
+    "term": "pestizidfrei",
+    "display": "pestizidfrei (Adj.)",
+    "pos": "Adjektiv",
+    "teil": 2,
+    "level": "B1",
+    "forms": [
+      "pestizidfrei",
+      "pestizidfreie",
+      "pestizidfreien"
+    ],
+    "defDe": "Ohne chemische Pflanzenschutz- oder Schädlingsbekämpfungsmittel angebaut.",
+    "defAr": "خالٍ تمامًا من المبيدات الكيماوية والسموم الزراعية.",
+    "defFr": "Sans pesticides, exempt de produits phytosanitaires.",
+    "example": "Verbraucher zahlen gern mehr für pestizidfreies Obst und Gemüse.",
+    "tip": "Zusammensetzung aus Pestizid + frei."
+  },
+  {
+    "id": "v-m2-t2-4",
+    "testId": "modellsatz-8",
+    "term": "der Andrang",
+    "display": "der Andrang (nur Sg.)",
+    "pos": "Nomen, m.",
+    "teil": 2,
+    "level": "B1",
+    "forms": [
+      "Andrang",
+      "Andrangs"
+    ],
+    "defDe": "Großes Zuströmen vieler interessierter Menschen zu einem Ort oder Event.",
+    "defAr": "تدفق وإقبال جماهيري حاشد على فعالية أو مكان.",
+    "defFr": "La forte affluence, ruée de personnes.",
+    "example": "Beim Tag der offenen Tür der Schule herrschte ein riesiger Andrang.",
+    "tip": "Oft mit dem Verb 'herrschen': 'großer Andrang herrscht'."
+  },
+  {
+    "id": "v-m2-t2-5",
+    "testId": "modellsatz-8",
+    "term": "die Gelegenheit wahrnehmen",
+    "display": "eine Gelegenheit wahrnehmen",
+    "pos": "Redewendung",
+    "teil": 2,
+    "level": "B1",
+    "forms": [
+      "Gelegenheit wahrnehmen",
+      "nahm die Gelegenheit wahr"
+    ],
+    "defDe": "Eine günstige Chance aktiv nutzen.",
+    "defAr": "يغتنم الفرصة السانحة ويستفيد منها.",
+    "defFr": "Saisir une opportunité.",
+    "example": "Viele Eltern nahmen die Gelegenheit wahr, den Unterricht persönlich zu besuchen.",
+    "tip": "Gehobenes B1-Verbgefüge für 'eine Chance nutzen'."
+  },
+  {
+    "id": "v-m2-t2-6",
+    "testId": "modellsatz-8",
+    "term": "der Lesepate",
+    "display": "der Lesepate, -n",
+    "pos": "Nomen, m.",
+    "teil": 2,
+    "level": "B1",
+    "forms": [
+      "Lesepate",
+      "Lesepaten"
+    ],
+    "defDe": "Freiwilliger Helfer, der Kindern in Schulen oder Kitas regelmäßig vorliest.",
+    "defAr": "مرشد قراءة متطوع يقرأ القصص للأطفال لتحفيز حب المطالعة.",
+    "defFr": "Parrain de lecture bénévole pour les élèves.",
+    "example": "Der bekannte Jugendbuchautor wurde zum offiziellen Lesepaten ernannt.",
+    "tip": "Aus Pate (Schutzherr) und lesen."
+  },
+  {
+    "id": "v-m2-t3-1",
+    "testId": "modellsatz-8",
+    "term": "etwas satt haben",
+    "display": "etwas satt haben",
+    "pos": "Redewendung",
+    "teil": 3,
+    "level": "B1",
+    "forms": [
+      "satt haben",
+      "hatte satt"
+    ],
+    "defDe": "Von einer Sache genug haben; etwas nicht mehr ertragen wollen.",
+    "defAr": "يضيق ذرعًا بشيء ويسأم منه تمامًا.",
+    "defFr": "En avoir marre de quelque chose, être rassasié de.",
+    "example": "Herr Berger hat das ungesunde Kantinenessen endgültig satt.",
+    "tip": "Umgangssprachlich, aber sehr häufig in Situationen."
+  },
+  {
+    "id": "v-m2-t4-1",
+    "testId": "modellsatz-8",
+    "term": "die Fehleinschätzung",
+    "display": "die Fehleinschätzung, -en",
+    "pos": "Nomen, f.",
+    "teil": 4,
+    "level": "B1",
+    "forms": [
+      "Fehleinschätzung",
+      "Fehleinschätzungen"
+    ],
+    "defDe": "Falsche oder unzureichende Beurteilung einer Lage oder Gefahr.",
+    "defAr": "سوء تقدير أو تقييم خاطئ لموقف أو خطر حقيقي.",
+    "defFr": "Une erreur de jugement, mauvaise appréciation.",
+    "example": "Im Extremsport kann eine kleine Fehleinschätzung tödlich enden.",
+    "tip": "Präfix 'Fehl-' bedeutet falsch / fehlerhaft."
+  },
+  {
+    "id": "v-m2-t4-2",
+    "testId": "modellsatz-8",
+    "term": "unter Beweis stellen",
+    "display": "etwas unter Beweis stellen",
+    "pos": "Phrase",
+    "teil": 4,
+    "level": "B1",
+    "forms": [
+      "unter Beweis stellen",
+      "stellte unter Beweis"
+    ],
+    "defDe": "Das eigene Können oder eine Behauptung durch Taten überzeugend belegen.",
+    "defAr": "يبرهن على كفاءته ويثبت قدراته بالفعل.",
+    "defFr": "Faire ses preuves, prouver ses capacités.",
+    "example": "Die Bergläufer wollen bei dem Wettkampf ihre enorme Ausdauer unter Beweis stellen.",
+    "tip": "Typisches Funktionsverbgefüge für 'beweisen'."
+  },
+  {
+    "id": "v-m2-t5-1",
+    "testId": "modellsatz-8",
+    "term": "altersgerecht",
+    "display": "altersgerecht (Adj.)",
+    "pos": "Adjektiv",
+    "teil": 5,
+    "level": "B1",
+    "forms": [
+      "altersgerecht",
+      "altersgerechte",
+      "altersgerechten"
+    ],
+    "defDe": "Für das jeweilige Alter der Zielgruppe passend gestaltet.",
+    "defAr": "ملائم ومناسب للمرحلة العمرية للمشاركين.",
+    "defFr": "Adapté à l'âge du public.",
+    "example": "Die Geburtstagsführungen im Zoo sind altersgerecht für Kinder ab fünf Jahren konzipiert.",
+    "tip": "Aus Alter + gerecht (angemessen)."
+  },
+  {
+    "id": "v-m3-t1-1",
+    "testId": "modellsatz-9",
+    "term": "reinstecken",
+    "display": "Geld/Arbeit reinstecken",
+    "pos": "Verb",
+    "teil": 1,
+    "level": "B1",
+    "forms": [
+      "reinstecken",
+      "reingesteckt"
+    ],
+    "defDe": "Umgangssprachlich: Viel Geld, Zeit oder Mühe in ein Projekt oder eine Wohnung investieren.",
+    "defAr": "يضخ أو يستثمر الكثير من المال والجهد في مشروع أو مسكن.",
+    "defFr": "Investir, injecter de l'argent ou des efforts dans un projet.",
+    "example": "In die Renovierung der neuen Wohnung muss ich noch jede Menge Geld reinstecken.",
+    "tip": "Synonym zu 'hineinstecken' oder 'investieren'."
+  },
+  {
+    "id": "v-m3-t1-2",
+    "testId": "modellsatz-9",
+    "term": "der gesunde Menschenverstand",
+    "display": "der gesunde Menschenverstand",
+    "pos": "Nomen, m.",
+    "teil": 1,
+    "level": "B1",
+    "forms": [
+      "gesunde Menschenverstand",
+      "gesunden Menschenverstandes"
+    ],
+    "defDe": "Die natürliche Fähigkeit, vernünftig und logisch zu urteilen.",
+    "defAr": "الفطرة السليمة وحسن التفكير المنطقي والبديهة الطبيعية.",
+    "defFr": "Le bon sens commun.",
+    "example": "Mit ein bisschen gesundem Menschenverstand lässt sich die kleine Wohnung optimal einrichten.",
+    "tip": "Wichtiger Ausdruck im Deutschen."
+  },
+  {
+    "id": "v-m3-t1-3",
+    "testId": "modellsatz-9",
+    "term": "etwas hinkriegen",
+    "display": "etwas hinkriegen (ugs.)",
+    "pos": "Verb",
+    "teil": 1,
+    "level": "B1",
+    "forms": [
+      "hinkriegen",
+      "kriegen hin",
+      "hingekriegt"
+    ],
+    "defDe": "Eine schwierige Herausforderung erfolgreich bewältigen.",
+    "defAr": "ينجح في إتمام أمر صعب أو حل معضلة بتوفيق.",
+    "defFr": "Réussir à faire, s'en sortir avec succès.",
+    "example": "Keine Sorge, das Renovieren der Küche kriegen wir schon hin!",
+    "tip": "Umgangssprachliches Synonym zu 'schaffen' oder 'meistern'."
+  },
+  {
+    "id": "v-m3-t1-4",
+    "testId": "modellsatz-9",
+    "term": "der Grundriss",
+    "display": "der Grundriss, -e",
+    "pos": "Nomen, m.",
+    "teil": 1,
+    "level": "B1",
+    "forms": [
+      "Grundriss",
+      "Grundrisse",
+      "Grundrisses"
+    ],
+    "defDe": "Die zeichnerische Darstellung einer Wohnung oder eines Gebäudes von oben.",
+    "defAr": "المخطط المعماري الأفقي للمنزل أو الشقة.",
+    "defFr": "Le plan au sol, tracé architectural d'un logement.",
+    "example": "Ich habe den Grundriss der Wohnung genau analysiert, um die Möbel passend zu platzieren.",
+    "tip": "Wichtig bei Wohnungssuche und Architektur."
+  },
+  {
+    "id": "v-m3-t2-1",
+    "testId": "modellsatz-9",
+    "term": "die Kriminalprävention",
+    "display": "die Kriminalprävention (nur Sg.)",
+    "pos": "Nomen, f.",
+    "teil": 2,
+    "level": "B1",
+    "forms": [
+      "Kriminalprävention"
+    ],
+    "defDe": "Vorbeugende polizeiliche Maßnahmen zur Verhütung von Straftaten.",
+    "defAr": "إدارة الوقاية من الجريمة والتدابير الاستباقية للحد من السرقات.",
+    "defFr": "La prévention de la criminalité.",
+    "example": "Die Polizei setzt verstärkt auf Kriminalprävention zum Schutz vor Einbrüchen.",
+    "tip": "Prävention = Vorbeugung."
+  },
+  {
+    "id": "v-m3-t2-2",
+    "testId": "modellsatz-9",
+    "term": "sensibilisieren",
+    "display": "sensibilisieren (v.)",
+    "pos": "Verb",
+    "teil": 2,
+    "level": "B1",
+    "forms": [
+      "sensibilisieren",
+      "sensibilisiert"
+    ],
+    "defDe": "Die Aufmerksamkeit und Wachsamkeit von Menschen für ein ernstes Problem schärfen.",
+    "defAr": "يوعي الأفراد ويرفع درجة يقظتهم تجاه خطر معين.",
+    "defFr": "Sensibiliser le public à un problème.",
+    "example": "Mit der Kampagne will die Polizei die Bürger für Einbruchsgefahren sensibilisieren.",
+    "tip": "Bedeutet 'empfindsam / aufmerksam machen'."
+  },
+  {
+    "id": "v-m3-t2-3",
+    "testId": "modellsatz-9",
+    "term": "nachhaltig beeinträchtigen",
+    "display": "nachhaltig beeinträchtigen",
+    "pos": "Phrase",
+    "teil": 2,
+    "level": "B1",
+    "forms": [
+      "nachhaltig beeinträchtigen",
+      "nachhaltig beeinträchtigt"
+    ],
+    "defDe": "Über lange Zeit hinweg negativ stören oder seelisch schädigen.",
+    "defAr": "يلحق أثرًا نفسيًا أو ماديًا ضارًا وممتدًا لفترة طويلة.",
+    "defFr": "Perturber ou affecter négativement et durablement.",
+    "example": "Ein Wohnungseinbruch beeinträchtigt das Sicherheitsgefühl der Opfer oft nachhaltig.",
+    "tip": "Kollokation für langfristige Negativfolgen."
+  },
+  {
+    "id": "v-m3-t2-4",
+    "testId": "modellsatz-9",
+    "term": "der Feinschmecker",
+    "display": "der Feinschmecker, -",
+    "pos": "Nomen, m.",
+    "teil": 2,
+    "level": "B1",
+    "forms": [
+      "Feinschmecker",
+      "Feinschmeckern"
+    ],
+    "defDe": "Person, die besonders gerne exquisites, hochwertiges Essen genießt (Gourmet).",
+    "defAr": "متذوق الأطعمة الفاخرة وخبير فنون الطهي الراقية.",
+    "defFr": "Un fin gourmet, gastronome averti.",
+    "example": "Die Kochschule bietet exquisite Kurse für neugierige Feinschmecker an.",
+    "tip": "Zusammengesetzt aus fein + schmecken."
+  },
+  {
+    "id": "v-m3-t2-5",
+    "testId": "modellsatz-9",
+    "term": "die Molekularküche",
+    "display": "die Molekularküche (nur Sg.)",
+    "pos": "Nomen, f.",
+    "teil": 2,
+    "level": "B1",
+    "forms": [
+      "Molekularküche"
+    ],
+    "defDe": "Moderne Kochkunst, die biochemische und physikalische Prozesse bei der Zubereitung nutzt.",
+    "defAr": "المطبخ الجزيئي (إعداد الأطعمة بأساليب كيميائية وفيزيائية مبتكرة).",
+    "defFr": "La cuisine moléculaire.",
+    "example": "In dem Kochkurs lernen die Teilnehmer spannende Tricks der modernen Molekularküche.",
+    "tip": "Neuer Trendbegriff der Gastronomie."
+  },
+  {
+    "id": "v-m3-t2-6",
+    "testId": "modellsatz-9",
+    "term": "sich etwas zutrauen",
+    "display": "sich etwas zutrauen",
+    "pos": "Verb",
+    "teil": 2,
+    "level": "B1",
+    "forms": [
+      "zutrauen",
+      "traut sich zu",
+      "zugetraut"
+    ],
+    "defDe": "Den Mut haben und an die eigenen Fähigkeiten glauben, eine Aufgabe zu schaffen.",
+    "defAr": "يجرؤ ويثق في مقدرته على القيام بأمر ما.",
+    "defFr": "Se sentir capable de, oser entreprendre.",
+    "example": "Wer sich noch kein 4-Gänge-Menü zutraut, fängt am besten mit dem Einsteigerkurs an.",
+    "tip": "Reflexiv mit Dativ ('Ich traue mir das zu')."
+  },
+  {
+    "id": "v-m3-t4-1",
+    "testId": "modellsatz-9",
+    "term": "das Multitasking",
+    "display": "das Multitasking (nur Sg.)",
+    "pos": "Nomen, n.",
+    "teil": 4,
+    "level": "B1",
+    "forms": [
+      "Multitasking"
+    ],
+    "defDe": "Die gleichzeitige Ausführung mehrerer verschiedener Aufgaben zur selben Zeit.",
+    "defAr": "القيام بعدة مهام في وقت واحد.",
+    "defFr": "Le multitâche, réalisation simultanée de tâches multiples.",
+    "example": "Wissenschaftler bezweifeln, dass menschliches Multitasking wirklich effizient ist.",
+    "tip": "Anglizismus in der modernen Arbeitswelt."
+  },
+  {
+    "id": "v-m3-t4-2",
+    "testId": "modellsatz-9",
+    "term": "überfordern",
+    "display": "überfordern (v.)",
+    "pos": "Verb",
+    "teil": 4,
+    "level": "B1",
+    "forms": [
+      "überfordern",
+      "überfordert",
+      "überforderte"
+    ],
+    "defDe": "Mehr Leistung oder Aufmerksamkeit von jemandem verlangen, als er schaffen kann.",
+    "defAr": "يكلف أو يرهق المرء بما يفوق طاقته وقدرته على الاحتمال.",
+    "defFr": "Surmener, exiger trop de quelqu'un.",
+    "example": "Ständige Telefonate und E-Mails gleichzeitig überfordern das Gehirn.",
+    "tip": "Gegenteil: 'unterfordern'."
+  },
+  {
+    "id": "v-m3-t4-3",
+    "testId": "modellsatz-9",
+    "term": "einer Sache auf den Grund gehen",
+    "display": "einer Sache auf den Grund gehen",
+    "pos": "Redewendung",
+    "teil": 4,
+    "level": "B1",
+    "forms": [
+      "auf den Grund gehen",
+      "ging auf den Grund"
+    ],
+    "defDe": "Die wahre und tiefste Ursache eines Phänomens gründlich erforschen.",
+    "defAr": "يتقصى جذور المشكلة ويبحث في أسبابها العميقة.",
+    "defFr": "Aller au fond des choses, élucider la cause profonde.",
+    "example": "Die Hirnforschung will der Frage nach der Konzentrationsschwäche auf den Grund gehen.",
+    "tip": "Sehr beliebte Redewendung in Lese- und Vortragstexten."
+  },
+  {
+    "id": "v-m3-t5-1",
+    "testId": "modellsatz-9",
+    "term": "die Faustregel",
+    "display": "die Faustregel, -n",
+    "pos": "Nomen, f.",
+    "teil": 5,
+    "level": "B1",
+    "forms": [
+      "Faustregel",
+      "Faustregeln"
+    ],
+    "defDe": "Einfache, praktische Grundregel, die man sich leicht merken kann.",
+    "defAr": "قاعدة عامة تقريبية أو قاعدة ذهبية سهلة التطبيق.",
+    "defFr": "Une règle générale empirique, règle de base.",
+    "example": "Als Faustregel gilt: Im Internet sollte ein Forenbeitrag nie länger als ein Bildschirm sein.",
+    "tip": "Faust + Regel."
+  },
+  {
+    "id": "v-m3-t5-2",
+    "testId": "modellsatz-9",
+    "term": "sich kurz fassen",
+    "display": "sich kurz fassen",
+    "pos": "Redewendung",
+    "teil": 5,
+    "level": "B1",
+    "forms": [
+      "kurz fassen",
+      "fasst sich kurz"
+    ],
+    "defDe": "Nur das Wichtigste sagen oder schreiben, ohne unnötige Weitschweifigkeit.",
+    "defAr": "يوجز ويختصر الكلام مراعاة للوقت وقراء المنشور.",
+    "defFr": "Être bref, faire court.",
+    "example": "Bitte fassen Sie sich in Ihren Online-Kommentaren kurz.",
+    "tip": "Wichtige Verhaltensregel in Diskussionsforen."
+  },
+  {
+    "id": "v-m3-t5-3",
+    "testId": "modellsatz-9",
+    "term": "urheberrechtlich geschützt",
+    "display": "urheberrechtlich geschützt",
+    "pos": "Phrase",
+    "teil": 5,
+    "level": "B1",
+    "forms": [
+      "urheberrechtlich geschützt",
+      "urheberrechtlich geschützte"
+    ],
+    "defDe": "Rechtlich durch das Gesetz über das geistige Eigentum vor unerlaubtem Kopieren geschützt.",
+    "defAr": "محمي بموجب قوانين حقوق النشر والملكية الفكرية.",
+    "defFr": "Protégé par le droit d'auteur.",
+    "example": "Es ist verboten, urheberrechtlich geschützte Artikel im Forum ohne Genehmigung zu posten.",
+    "tip": "Juristischer Standardbegriff im Medienrecht."
+  }
 ];
 
 /* ---------------- STORAGE & RETENTION HELPERS ---------------- */
@@ -795,21 +1765,25 @@ function getVocabById(vocabId) {
   return b1VocabData.find(v => v.id === vocabId) || null;
 }
 
-function getVocabForTeil(teilId) {
-  if (!teilId) return b1VocabData;
-  return b1VocabData.filter(v => v.teil === teilId || v.teil === 0);
+function getVocabForTeil(teilId, optTestId) {
+  const activeTestId = optTestId || (typeof currentTest !== 'undefined' ? currentTest?.id : null);
+  return b1VocabData.filter(v => {
+    if (v.testId && activeTestId && v.testId !== activeTestId) return false;
+    if (!teilId) return true;
+    return v.teil === teilId || v.teil === 0;
+  });
 }
 
-function searchVocabList(query, filter = 'all', currentTeil = 1) {
+function searchVocabList(query, filter = 'all', currentTeil = 1, optTestId) {
+  const activeTestId = optTestId || (typeof currentTest !== 'undefined' ? currentTest?.id : null);
   const q = (query || '').trim().toLowerCase();
   const savedIds = getSavedVocabIds();
 
   return b1VocabData.filter(item => {
-    // Filter mode
+    if (item.testId && activeTestId && item.testId !== activeTestId) return false;
     if (filter === 'saved' && !savedIds.includes(item.id)) return false;
     if (filter === 'teil' && item.teil !== currentTeil && item.teil !== 0) return false;
 
-    // Search query
     if (!q) return true;
     return (
       item.term.toLowerCase().includes(q) ||
@@ -832,4 +1806,28 @@ function speakGermanWord(text) {
   utter.lang = 'de-DE';
   utter.rate = 0.9;
   window.speechSynthesis.speak(utter);
+}
+
+if (typeof window !== 'undefined') {
+  window.b1VocabData = b1VocabData;
+  window.getVocabById = getVocabById;
+  window.getVocabForTeil = getVocabForTeil;
+  window.searchVocabList = searchVocabList;
+  window.speakGermanWord = speakGermanWord;
+  window.isVocabSaved = isVocabSaved;
+  window.toggleSaveVocab = toggleSaveVocab;
+  window.getSavedVocabIds = getSavedVocabIds;
+}
+
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = {
+    b1VocabData,
+    getVocabById,
+    getVocabForTeil,
+    searchVocabList,
+    speakGermanWord,
+    isVocabSaved,
+    toggleSaveVocab,
+    getSavedVocabIds
+  };
 }

@@ -1,0 +1,2621 @@
+{
+  "id": "modellsatz-9",
+  "title": "Modelltest 3 — So geht's noch besser B1",
+  "badge": "Modelltest 3",
+  "examTitle": "Goethe / ÖSD B1 Prüfungssimulation — Modelltest 3",
+  "examSub": "Lesen (5 Teile) & Hören (4 Teile) · So geht's noch besser (Klett)",
+  "timeTotal": 65,
+  "parts": [
+    {
+      "id": 1,
+      "title": "Teil 1",
+      "time": 10,
+      "instructions": "Lesen Sie den Text und die Aufgaben 1 bis 6 dazu. Wählen Sie: Sind die Aussagen Richtig oder Falsch?",
+      "articles": [
+        {
+          "heading": "Meine eigenen vier Wände",
+          "sub": "Wohnraum zum Leben – das soll das Motto für meine kleine Wohnung sein, die seit heute mir gehört.",
+          "body": [
+            "Wohnraum zum Leben – das soll das Motto für meine kleine Wohnung sein, die seit heute mir gehört. Lange habe ich darauf gespart und nun ist es soweit: 50 Quadratmeter sind mein Eigen: Wohnküche mit Balkon, Schlafzimmer, Bad und Mini-Flur. Aber damit es wirklich meine vier Wände werden, muss ich noch einiges Geld und Arbeit reinstecken.",
+            "Nach den chaotischen Jahren will ich Harmonie in mein Leben und in mein Haus bringen. Seit Tagen surfe ich im Internet und suche nach Tipps und Tricks für kleine Wohnräume. Immer wieder stoße ich dabei auf Feng Shui. Ich weiß zwar nicht, ob es funktioniert, aber ich probiere das jetzt mal aus.",
+            "Die Worte „Feng“ und „Shui“ kommen aus dem Chinesischen und heißen übersetzt „Wind“ und „Wasser“. Durch eine bestimmte Gestaltung der Lebensräume sollen Mensch und Raum harmonisieren. Wenn die Lebensenergie „Chi“ ungehindert durch die Räume strömen kann, schaffen wir die Voraussetzung für eine angenehme Atmosphäre, welche wir zum Wohlfühlen brauchen.",
+            "Einen Palast könnte ich leicht so einrichten und für jede Situation die richtige Umgebung schaffen, aber wie soll ich das in meinen 50 Quadratmetern umsetzen? Der Raum darf auf keinen Fall überfüllt werden. Weniger ist mehr! Ich brauche Luft zum Atmen und einen weiten Blick, dann geht es mir richtig gut. Na also, so schwer kann das doch nicht sein, mit etwas gesundem Menschenverstand kriege ich das hin.",
+            "In der chinesischen Philosophie sind die Elemente und Kraftfelder wichtig. Um den Fluss der Lebensenergie zu unterstützen, muss ich mit Materialien, Formen und Farben spielen. Mit der Dekoration will ich sparsam umgehen, denn Platz ist nicht viel und ich will klare Linien. Ganz wichtig ist natürlich auch, wie die Wohnung geschnitten ist. Dazu habe ich mir mal den Grundriss genauer angeschaut.",
+            "Die Wohnküche hat ein Fenster nach Westen und die Balkontüre geht Richtung Süden. Das ist schon mal nicht schlecht. Auf den Balkon muss ich aber auf jeden Fall einen Sonnenschirm stellen, damit es im Sommer nicht zu heiß wird. Das Schlafzimmer im Osten ist so gut wie perfekt. Dann habe ich morgens gleich gute Laune, wenn die Sonne scheint.",
+            "Ich kann mir alles sehr gut vorstellen und im Geist habe ich meine Wohnung schon eingerichtet. Die gemütliche Sitzecke, der Schrank, die Regale für meine Bücher, der Esstisch, alles findet seinen Platz. Schließlich fehlt mir nur noch eine schöne Topfpflanze. Und die schenkt mir vielleicht meine Freundin zum Einzug. Bingo! Ich kann es kaum noch erwarten!"
+          ]
+        }
+      ],
+      "example": {
+        "text": "Der Blogger hat eine neue Wohnung gemietet.",
+        "answer": "falsch"
+      },
+      "questions": [
+        {
+          "id": 1,
+          "type": "tf",
+          "text": "Vor dem Einzug muss noch viel gemacht werden.",
+          "answer": "richtig",
+          "num": 1
+        },
+        {
+          "id": 2,
+          "type": "tf",
+          "text": "Das Internet funktioniert seit Tagen nicht.",
+          "answer": "falsch",
+          "num": 2
+        },
+        {
+          "id": 3,
+          "type": "tf",
+          "text": "Die Einrichtung des Raumes soll zum Wohlfühlen einladen.",
+          "answer": "richtig",
+          "num": 3
+        },
+        {
+          "id": 4,
+          "type": "tf",
+          "text": "Der Blogger hat zu viele Möbel.",
+          "answer": "falsch",
+          "num": 4
+        },
+        {
+          "id": 5,
+          "type": "tf",
+          "text": "Der Balkon ist im Norden.",
+          "answer": "falsch",
+          "num": 5
+        },
+        {
+          "id": 6,
+          "type": "tf",
+          "text": "Der Blogger hofft, dass er zum Einzug eine Pflanze geschenkt bekommt.",
+          "answer": "richtig",
+          "num": 6
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Teil 2",
+      "time": 20,
+      "instructions": "Lesen Sie den Text aus der Presse und die Aufgaben 7 bis 9 dazu. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+      "articles": [
+        {
+          "heading": "K-Einbruch: Kampagne gegen Einbruch",
+          "sub": "Polizei und Kooperationspartner aus der Wirtschaft starten bundesweite Öffentlichkeitskampagne zum Einbruchschutz und rufen den „Tag des Einbruchschutzes“ ins Leben.",
+          "body": [
+            "In einer Pressemitteilung des Ministeriums wurde darauf hingewiesen, dass nach jahrelangem Rückgang die Zahl der Einbrüche nun wieder steigt. Die durch Einbrüche verursachten Schäden betragen jährlich rund 600 Millionen Euro. Daher ist das Thema Einbruchschutz in Zukunft wieder ein besonderer Schwerpunkt in der Arbeit der polizeilichen Kriminalprävention. Ziel ist es, die Bevölkerung noch intensiver als bisher zu sensibilisieren.",
+            "Ein Einbruch kann das Sicherheitsgefühl und Wohlbefinden der Betroffenen nachhaltig beeinträchtigen: Nicht nur der materielle Schaden, sondern häufig auch dauerhafte psychische Belastungen sind die Folgen für die Opfer. Denn die Täter dringen in die Privatsphäre ein, wühlen in den persönlichsten Sachen und stehlen womöglich Gegenstände, an denen Lebenserinnerungen hängen.",
+            "Als Stichtag für den Beginn der Initiative wurde der „Tag des Einbruchschutzes“ ins Leben gerufen. Unter dem Motto „Eine Stunde mehr für mehr Sicherheit“ findet dieser jährlich am Tag der Zeitumstellung statt, wenn die mitteleuropäische Sommerzeit endet – also erstmals am 28. Oktober 2012. Die dadurch gewonnene zusätzliche Stunde sollen die Bürger nutzen, sich über Einbruchschutz zu informieren und darüber nachzudenken, die Sicherheitsempfehlungen in ihrem Alltag umzusetzen: K-Einbruch!"
+          ]
+        }
+      ],
+      "example": {
+        "text": "K-Einbruch...",
+        "options": [
+          "bestätigt den Rückgang der Einbrüche.",
+          "ist eine Idee der Wirtschaftspartner.",
+          "steht für eine Aktion gegen Einbrüche."
+        ],
+        "answer": 2
+      },
+      "questions": [
+        {
+          "id": 7,
+          "type": "mcq",
+          "text": "Zweck der Initiative ist,...",
+          "options": [
+            "die Bevölkerung aufmerksam zu machen.",
+            "der Polizei die Arbeit zu erleichtern.",
+            "noch mehr Einbrüche aufzuklären."
+          ],
+          "answer": 0,
+          "num": 7
+        },
+        {
+          "id": 8,
+          "type": "mcq",
+          "text": "Einbrüche verursachen...",
+          "options": [
+            "Schäden am Haus.",
+            "oft psychische Probleme.",
+            "persönliche Opfer."
+          ],
+          "answer": 1,
+          "num": 8
+        },
+        {
+          "id": 9,
+          "type": "mcq",
+          "text": "Den „Tag des Einbruchschutzes“...",
+          "options": [
+            "feiert man in Mitteleuropa.",
+            "nutzen Bürger zur Erholung.",
+            "gibt es seit 2012 in Deutschland."
+          ],
+          "answer": 2,
+          "num": 9
+        }
+      ],
+      "instructions2": "Lesen Sie den Text aus der Presse und die Aufgaben 10 bis 12 dazu. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+      "articles2": [
+        {
+          "heading": "COOKST DU! – frischer Wind in der Kochkunst",
+          "sub": "Eine neue Adresse für Feinschmecker, Genießer und Freunde der Kochkunst bereichert den Rhein-Neckar-Raum: COOKST DU! – die Kochschule Eppelheim.",
+          "body": [
+            "COOKST DU! – die Kochschule in Eppelheim bei Heidelberg liegt voll im Trend. Kochen ist Leidenschaft und Erlebnis, Genuss und Lebensfreude, Kreativität und Kultur. All das will die Kochschule Eppelheim nicht nur Kochfreaks näher bringen.",
+            "Die typische regionale Küche verschiedener Länder ist im Programm, ebenso die moderne Spitzenküche wie auch Workshops über Fingerfood, Molekularküche – der neue Trend in der Kochkunst – oder süße Verführungen. Auch die Einsteiger kommen nicht zu kurz: Wer sich noch kein Sternemenü zutraut, sondern erst einmal die Basics kennen lernen möchte, ist zum Beispiel beim Einsteigerkochkurs, beim Grillworkshop oder dem „Dinner for two“ gut aufgehoben.",
+            "Und für die Kleinen gibt es einen Samstag im Monat, an dem sie nicht nur lernen, wie man Rosmarin, Petersilie und Basilikum im Kräutergarten erkennt, welche Farben und Düfte bestimmte Gewürze haben, wie man eine Kartoffel schält, sondern dass das alles vor allem einen Riesenspaß macht.",
+            "Auch für Events ist die Kochschule Eppelheim die richtige Adresse: ob beim Show-Cooking zum 50. Geburtstag oder beim gemeinsamen Kochen und Genießen beim Mitarbeitertreffen – die Kochschule gibt vielen Events den passenden und erlebnisreichen Rahmen."
+          ]
+        }
+      ],
+      "questions2": [
+        {
+          "id": 10,
+          "type": "mcq",
+          "text": "COOKST DU!...",
+          "options": [
+            "ist eine neue Adresse in Heidelberg.",
+            "ist eine Kochschule neuer Art.",
+            "heißt ein neues Restaurant in Eppelheim."
+          ],
+          "answer": 1,
+          "num": 10
+        },
+        {
+          "id": 11,
+          "type": "mcq",
+          "text": "Einmal im Monat...",
+          "options": [
+            "ist die Küche für Kinder geöffnet.",
+            "kommen Spitzenköche.",
+            "lernt man, Sternemenüs zuzubereiten."
+          ],
+          "answer": 0,
+          "num": 11
+        },
+        {
+          "id": 12,
+          "type": "mcq",
+          "text": "Man kann...",
+          "options": [
+            "dort in der Küche helfen.",
+            "Essen von dort mitnehmen.",
+            "dort Feste feiern."
+          ],
+          "answer": 2,
+          "num": 12
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Teil 3",
+      "time": 10,
+      "instructions": "Lesen Sie die Situationen 13 bis 19 und die Anzeigen A bis J aus verschiedenen deutschsprachigen Medien. Wählen Sie: Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es keine passende Anzeige. In diesem Fall wählen Sie X.",
+      "example": {
+        "text": "Julian hat 1987 Abitur gemacht und möchte ein Klassentreffen organisieren. Er sucht passende Tanzmusik.",
+        "answer": "C"
+      },
+      "adsFormatted": [
+        {
+          "code": "A",
+          "tagPos": "left",
+          "hasPin": true,
+          "cardClass": "anzeige-style-a",
+          "html": "<div class=\"anzeige-headline\">Tanzschule Wolfgang Schön</div><div class=\"anzeige-sub\">Die Schule, in der niemand sitzen bleibt!</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">Rock'n'Roll, Salsa, Disco-Partys und was Sie sonst noch lernen möchten!<br>Fordern Sie unseren Kursprospekt an!<br>Bahnhofstr. 23, München · Tel. 5 69 432</div>"
+        },
+        {
+          "code": "B",
+          "tagPos": "right",
+          "hasPin": true,
+          "cardClass": "anzeige-style-b",
+          "html": "<div class=\"anzeige-headline\">Gasthaus „Zum Hirsch“</div><div class=\"anzeige-sub\">Das renommierte Gasthaus in Stuttgart - Feuerbach</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">sucht ab sofort eine <strong>Küchenhilfe</strong><br>2-3 Nachmittage pro Woche.<br>Tel. 0711/81 56 99</div>"
+        },
+        {
+          "code": "C",
+          "tagPos": "left",
+          "hasPin": true,
+          "cardClass": "anzeige-style-c",
+          "html": "<div class=\"anzeige-headline\">SUCHEN SIE DIE PASSENDE MUSIK?</div><div class=\"anzeige-sub\">Erfahrener Discjockey mit eigener Musikanlage</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">spielt Ihre Wunschtitel (Rock'n'Roll, Beat, Soul, Pop, Rock, Country, Disco, Rap, Dancefloor) aus den 50er, 60er, 70er, 80er und 90er Jahren.<br>Tel. 07129/734883</div>"
+        },
+        {
+          "code": "D",
+          "tagPos": "right",
+          "hasPin": true,
+          "cardClass": "anzeige-style-d",
+          "html": "<div class=\"anzeige-headline\">Klavier oder Flügel</div><div class=\"anzeige-sub\">von Musikstudenten zu verkaufen</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">Sehr gepflegtes Instrument zu einem fairen Studentenpreis abzugeben.<br>Tel.: 0561-810 55 46</div>"
+        },
+        {
+          "code": "E",
+          "tagPos": "right",
+          "hasPin": true,
+          "cardClass": "anzeige-style-e",
+          "html": "<div class=\"anzeige-headline\">Das Gelbe vom Ei! – Leih!</div><div class=\"anzeige-sub\">Alles klar! Veranstaltungsservice</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">Geschirr – Möbel – Zelte – Sonnenschirme für Ihre Gartenparty und Familienfeste!<br>Stuttgart Büsnau · Tel. 0711/705 63 40 · Fax 778 45 46</div>"
+        },
+        {
+          "code": "F",
+          "tagPos": "left",
+          "hasPin": true,
+          "cardClass": "anzeige-style-f",
+          "html": "<div class=\"anzeige-headline\">Ristorante • Pizzeria Da Franco</div><div class=\"anzeige-sub\">Degerlocher Str. 53, 70467 Feuerbach · Tel. 50 75 477</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\"><strong>13. August: Italienisches Fest „Ferragosto“</strong><br>Mit Live-Musik und italienischen Spezialitäten. Günstige Schüler- und Studentenpreise! <em>Eintritt frei</em>.</div>"
+        },
+        {
+          "code": "G",
+          "tagPos": "left",
+          "hasPin": true,
+          "cardClass": "anzeige-style-g",
+          "html": "<div class=\"anzeige-headline\">Selezione Vini – Italien-Wein-Import</div><div class=\"anzeige-sub\">Metzinger-Str. 74, Stammheim · Tel. 0711/80 82 87</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">Lager-Direktverkauf von ausgesuchten Winzer-Weinen direkt aus der Toskana und dem Piemont.</div>"
+        },
+        {
+          "code": "H",
+          "tagPos": "right",
+          "hasPin": true,
+          "cardClass": "anzeige-style-h",
+          "html": "<div class=\"anzeige-headline\">SILBER BAR</div><div class=\"anzeige-sub\">Cabaret + Filmbar · Tanzshows & Filme</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">Neugierig? Einfach mal reinschauen und die Nacht zum Tag machen!<br><strong>Öffnungszeiten:</strong> Montag - Samstag von 21 bis 5 Uhr.<br>Tel. 07121/20 45 97</div>"
+        },
+        {
+          "code": "I",
+          "tagPos": "left",
+          "hasPin": true,
+          "cardClass": "anzeige-style-i",
+          "html": "<div class=\"anzeige-headline\">„Oktoberfest München“</div><div class=\"anzeige-sub\">Die schönste Erinnerung an ein Ereignis mit weltweitem Ruf</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">Das Buch von Reiner Baumhart lädt Sie zu einem Rundgang über das Oktoberfest ein. 98 Seiten, 85 Farbbilder (deutsch, englisch, italienisch).<br>Nur 13,95 Euro!</div>"
+        },
+        {
+          "code": "J",
+          "tagPos": "right",
+          "hasPin": true,
+          "cardClass": "anzeige-style-j",
+          "html": "<div class=\"anzeige-headline\">Fotograf gesucht?</div><div class=\"anzeige-sub\">Professionelle Fotos für alle festlichen Anlässe</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">Hochzeiten, Taufen, Firmenfeste und Jubiläen im besten Licht festhalten.<br>Termine: 0561/662216</div>"
+        }
+      ],
+      "questions": [
+        {
+          "id": 13,
+          "type": "match",
+          "text": "Leonhard hat eine Prüfung an der Uni bestanden. Er will am liebsten die ganze Nacht ausgehen.",
+          "answer": "H",
+          "num": 13
+        },
+        {
+          "id": 14,
+          "type": "match",
+          "text": "Am Wochenende wollen Sarah und Tobias das Ende des Schuljahres feiern und suchen ein Lokal, in dem man billig essen kann.",
+          "answer": "F",
+          "num": 14
+        },
+        {
+          "id": 15,
+          "type": "match",
+          "text": "Die Eltern wollen ein Sommerfest im Garten feiern. Dafür suchen sie Sitzgelegenheiten, Teller und Gläser.",
+          "answer": "E",
+          "num": 15
+        },
+        {
+          "id": 16,
+          "type": "match",
+          "text": "Die Familie plant einen Besuch auf dem Oktoberfest und will sich darüber informieren.",
+          "answer": "I",
+          "num": 16
+        },
+        {
+          "id": 17,
+          "type": "match",
+          "text": "Die Eltern tanzen gern und wollen auch einige moderne Tänze lernen.",
+          "answer": "A",
+          "num": 17
+        },
+        {
+          "id": 18,
+          "type": "match",
+          "text": "Die Kinder sollen die Familie beim Singen auf dem Klavier begleiten. Die Familie sucht ein preisgünstiges Instrument.",
+          "answer": "D",
+          "num": 18
+        },
+        {
+          "id": 19,
+          "type": "match",
+          "text": "Die Kinder wollen den Eltern zur silbernen Hochzeit eine Reise nach Venedig schenken und suchen nach einem Angebot.",
+          "answer": "X",
+          "num": 19
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Teil 4",
+      "time": 15,
+      "instructions": "Lesen Sie die Texte 20 bis 26. Wählen Sie: Welche Personen sagen, dass Multitasking dumm macht?",
+      "topic": "Beurteilen Sie folgende Leserbriefe zu einem Artikel über Multitasking in einer Zeitung mit dem Titel „Zu viel auf einmal tun macht krank“...",
+      "example": {
+        "who": "Paulsen, 48, Hamburg",
+        "text": "Ja, wo leben Sie denn, Frau Mertens? In welcher Zeit sind Sie denn stehen geblieben und behaupten, dass Leute nicht nur überfordert, sondern sogar dümmer werden, wenn sie mehrere Dinge gleichzeitig tun. Damit ziehen Sie sich doch selbst den Boden unter den Füßen weg. Ich jedenfalls kenne keine Redaktion, in der linear gearbeitet wird.",
+        "answer": "nein"
+      },
+      "letters": [
+        {
+          "id": 20,
+          "who": "Obermeier, 51, Linz",
+          "text": "Wer ständig mehrere Dinge gleichzeitig macht, setzt seine Gesundheit aufs Spiel. Multitasking und Dauerstress sind Gift für die Psyche. Mit neuen Therapieformen gehen Psychologen gegen die Leiden der Betroffenen vor. Das sagt aber noch lange nichts über die Intelligenz aus. Also das geht entschieden zu weit!",
+          "answer": "nein"
+        },
+        {
+          "id": 21,
+          "who": "Stella B., 34, Passau",
+          "text": "Ich glaube, dass die Ergebnisse der Hirnforschung stimmen. Wenn man viele Dinge gleichzeitig tut, kann man keiner Sache so richtig auf den Grund gehen. Die Folge ist bestenfalls Halbwissen. Vielleicht weiß man am Ende auch gar nichts. Ist doch logisch, dass man besser abschneidet, wenn man sich nur auf eine Sache konzentriert.",
+          "answer": "ja"
+        },
+        {
+          "id": 22,
+          "who": "Bernhard, 32, Rastatt",
+          "text": "Wie im Artikel beschrieben, kann man einen „Body-Scan“ sogar ohne Bedenken während der Autofahrt machen. Das beweist, dass wir die Fähigkeit zu denken nicht verlieren, nur weil wir mehrere Dinge gleichzeitig tun. Autofahren ist schon sehr komplex und dazu noch das Entspannungstraining, das vor allem auf langen Autofahrten hilft.",
+          "answer": "nein"
+        },
+        {
+          "id": 23,
+          "who": "Becker, 54, Husum",
+          "text": "Ich bin Lehrerin und halte Multitasking für die Ursache für die allmähliche Verdummung der Menschheit. Wenn ich meine Schüler so höre, wie sie beim Fernsehen mit Freunden am Handy sprechen, dabei mit anderen am Laptop chatten und gleichzeitig noch Hausaufgaben machen. Dann wundere ich mich überhaupt nicht mehr über ihre schlechten Leistungen.",
+          "answer": "ja"
+        },
+        {
+          "id": 24,
+          "who": "Friedrichs, 29, Wetterau",
+          "text": "Ich finde es interessant, dass man mit Achtsamkeitsübungen, die wohl nichts anderes als Konzentrationsübungen darstellen, gestressten Menschen wieder zu mehr Hirnfunktion verhelfen kann. Nur dreißig Minuten täglich sollen genügen, um messbare Veränderungen im Gehirnspin zu messen. Somit gilt Achtsamkeit als Mittel gegen Multitasking.",
+          "answer": "ja"
+        },
+        {
+          "id": 25,
+          "who": "Ginterer, 26, Zürich",
+          "text": "Danke für diesen wunderbaren Artikel! Den werde ich morgen gleich meinem Chef auf den Schreibtisch legen. So kann ich mich besser dagegen wehren, wenn er wieder alles auf einmal verlangt. Er kann ja nicht wirklich wollen, dass ich verblöde!",
+          "answer": "ja"
+        },
+        {
+          "id": 26,
+          "who": "Wenzel, 38, Nürnberg",
+          "text": "Ich bin Mutter von vier Kindern. Ich weiß sehr genau, was Multitasking bedeutet. Es bedeutet vor allem eines, nämlich Stress. Um mit meiner Rasselbande fertig zu werden, muss ich ständig alles Mögliche gleichzeitig tun. Ich finde es unverschämt, mir darum weniger IQs zuzutrauen. Ganz im Gegenteil, es macht mich sogar flexibler und erfinderisch.",
+          "answer": "nein"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Teil 5",
+      "time": 10,
+      "instructions": "Lesen Sie die Aufgaben 27 bis 30 und den Text dazu. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+      "articles": [
+        {
+          "heading": "Die Netiquette von Joachim Astel",
+          "sub": "Hier einige Tipps, wie man das Netz effizient und auch höflich zu aller Zufriedenheit benutzen kann (und sollte).",
+          "body": [
+            "1. Achte auf die Leserschaft! Vergiss niemals, dass auf der anderen Seite ein Mensch sitzt. Vorsicht mit Humor und Sarkasmus. Eine einfache Faustregel: Schreibe nie etwas, was du dem Adressaten nicht auch vor anderen Leuten ins Gesicht sagen würdest.",
+            "2. Fasse dich kurz! Vernachlässige nicht die Aufmachung deines Artikels! Bedenke den Schrifttyp, mach eine übersichtliche Gliederung, kurz: gestalte das Layout und achte auf Korrektheit.",
+            "3. Benutze Mails, wo immer es geht! Wenn du dem Autor eines Artikels etwas mitteilen willst, überlege dir bitte genau, ob dafür nicht eine simple Mail ausreicht.",
+            "4. Achte auf die gesetzlichen Regelungen! Es ist völlig legal, kurze Auszüge aus urheberrechtlich geschützten Werken zur Information zu posten. Was darüber hinaus geht, ist illegal. Ebenfalls illegal ist es, mit Wort und/oder Bild zu Straftaten aufzurufen oder zumindest Anleitungen dafür zu liefern.",
+            "5. „du“ oder „Sie“? Dafür gibt es keine allgemeingültige Regel; es hat sich jedoch eingebürgert, den anderen mit „du“ anzureden."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": 27,
+          "type": "mcq",
+          "text": "Die Netiquette...",
+          "options": [
+            "stellt Regeln für den Umgang im Netz dar.",
+            "gibt Verhaltensregeln für den Alltag.",
+            "gibt Tipps, wie man schneller kommunizieren kann."
+          ],
+          "answer": 0,
+          "num": 27
+        },
+        {
+          "id": 28,
+          "type": "mcq",
+          "text": "Selbst geschriebene Texte...",
+          "options": [
+            "dürfen eine lockere Sprache haben.",
+            "muss man genehmigen lassen.",
+            "sollten immer auch den Leser berücksichtigen."
+          ],
+          "answer": 2,
+          "num": 28
+        },
+        {
+          "id": 29,
+          "type": "mcq",
+          "text": "Es ist...",
+          "options": [
+            "illegal, andere Texte zu kopieren.",
+            "erlaubt, Zitate zu verwenden.",
+            "verboten, über begangene Straftaten zu schreiben."
+          ],
+          "answer": 1,
+          "num": 29
+        },
+        {
+          "id": 30,
+          "type": "mcq",
+          "text": "Mails sollte man benutzen,...",
+          "options": [
+            "wenn man an Freunde schreibt.",
+            "um mit dem Autor in Kontakt zu treten.",
+            "wenn das Kommentarfeld nicht funktioniert."
+          ],
+          "answer": 1,
+          "num": 30
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "🎧 Hören",
+      "badge": "Hören (Teile 1–4)",
+      "isHoren": true,
+      "time": 30,
+      "instructions": "Sie hören vier Teile. Sie hören jeden Text einmal oder zweimal. Lösen Sie die Aufgaben zu jedem Teil.",
+      "audioSrc": "audio/modellsatz-9-hoeren.mp3",
+      "audioFallbacks": [
+        "/run/media/houssem/HDD Disk/work/germany/So geht's noch besser B1/3/horen/modellsatz-3-hoeren-complete.mp3"
+      ],
+      "audioChapters": [
+        {
+          "part": 1,
+          "title": "Teil 1 · Fünf kurze Texte",
+          "start": 0,
+          "end": 427.71
+        },
+        {
+          "part": 2,
+          "title": "Teil 2 · Tropfsteinhöhle Eberstadt",
+          "start": 427.71,
+          "end": 659.49
+        },
+        {
+          "part": 3,
+          "title": "Teil 3 · Gespräch zweier Ärzte",
+          "start": 659.49,
+          "end": 910.36
+        },
+        {
+          "part": 4,
+          "title": "Teil 4 · Diskussion: Glückliche Scheidungskinder",
+          "start": 910.36,
+          "end": 1825.03
+        }
+      ],
+      "horenSections": [
+        {
+          "part": 1,
+          "title": "Teil 1: Fünf kurze Texte",
+          "intro": "Sie hören nun fünf kurze Texte. Sie hören jeden Text zweimal. Zu jedem Text lösen Sie zwei Aufgaben. Wählen Sie bei jeder Aufgabe die richtige Lösung.",
+          "badge": "Aufgaben 1 bis 10 · 2x hören",
+          "hasExample": false
+        },
+        {
+          "part": 2,
+          "title": "Teil 2: Führung durch eine Tropfsteinhöhle",
+          "intro": "Sie hören nun einen Text. Sie hören den Text einmal. Dazu lösen Sie fünf Aufgaben. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c. Lesen Sie jetzt die Aufgaben 11 bis 15. Dazu haben Sie 60 Sekunden Zeit.",
+          "context": "Sie nehmen an einer Führung durch eine Tropfsteinhöhle teil.",
+          "badge": "Aufgaben 11 bis 15 · 1x hören"
+        },
+        {
+          "part": 3,
+          "title": "Teil 3: Gespräch im Krankenhaus",
+          "intro": "Sie hören nun ein Gespräch. Sie hören das Gespräch einmal. Dazu lösen Sie sieben Aufgaben. Wählen Sie: Sind die Aufgaben Richtig oder Falsch? Lesen Sie jetzt die Aufgaben 16 bis 22. Dazu haben Sie 60 Sekunden Zeit.",
+          "context": "Sie hören ein Gespräch zwischen zwei Ärzten, die sich in einem örtlichen Krankenhaus unterhalten.",
+          "badge": "Aufgaben 16 bis 22 · 1x hören"
+        },
+        {
+          "part": 4,
+          "title": "Teil 4: Diskussion: Glückliche Scheidungskinder",
+          "intro": "Sie hören nun eine Diskussion. Sie hören die Diskussion zweimal. Dazu lösen Sie acht Aufgaben. Ordnen Sie die Aussagen zu: Wer sagt was? Lesen Sie jetzt die Aussagen 23 bis 30. Dazu haben Sie 60 Sekunden Zeit.",
+          "context": "Die Moderatorin der Sendung „Aktuell“ diskutiert mit Dr. Gustav Lange und Frau Renate Hölderlin über das Thema „Glückliche Scheidungskinder“.",
+          "badge": "Aufgaben 23 bis 30 · 2x hören",
+          "speakers": [
+            {
+              "code": "a",
+              "name": "Moderatorin"
+            },
+            {
+              "code": "b",
+              "name": "Dr. Gustav Lange"
+            },
+            {
+              "code": "c",
+              "name": "Renate Hölderlin"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "h1",
+          "teilPart": 1,
+          "type": "tf",
+          "text": "Der Wagen steht vor dem Eingang des Schwimmbads.",
+          "answer": "falsch",
+          "audioStart": 74.7,
+          "num": 1,
+          "textNum": 1
+        },
+        {
+          "id": "h2",
+          "teilPart": 1,
+          "type": "mcq",
+          "text": "Der Falschparker kann das Schwimmbad wieder betreten,...",
+          "options": [
+            "ohne seine Karte vorzuzeigen.",
+            "wenn er seine Karte vorzeigt.",
+            "wenn er eine neue Karte kauft."
+          ],
+          "answer": 1,
+          "audioStart": 74.7,
+          "num": 2,
+          "textNum": 1
+        },
+        {
+          "id": "h3",
+          "teilPart": 1,
+          "type": "tf",
+          "text": "Die Gäste können nicht zur Endstation fahren.",
+          "answer": "falsch",
+          "audioStart": 144.4,
+          "num": 3,
+          "textNum": 2
+        },
+        {
+          "id": "h4",
+          "teilPart": 1,
+          "type": "mcq",
+          "text": "Die Gäste nach Rheindorf...",
+          "options": [
+            "können ohne Umsteigen zur Endstation fahren.",
+            "müssen nicht mit Wartezeiten rechnen.",
+            "können mit dem Sonderbus weiterfahren."
+          ],
+          "answer": 2,
+          "audioStart": 144.4,
+          "num": 4,
+          "textNum": 2
+        },
+        {
+          "id": "h5",
+          "teilPart": 1,
+          "type": "tf",
+          "text": "Um 11:30 Uhr gibt es keine Delfinshow.",
+          "answer": "richtig",
+          "audioStart": 213.8,
+          "num": 5,
+          "textNum": 3
+        },
+        {
+          "id": "h6",
+          "teilPart": 1,
+          "type": "mcq",
+          "text": "Die Fütterung des Killerwals ist...",
+          "options": [
+            "im Aquarium 2.",
+            "im Bassin.",
+            "von 30 Minuten Dauer."
+          ],
+          "answer": 1,
+          "audioStart": 213.8,
+          "num": 6,
+          "textNum": 3
+        },
+        {
+          "id": "h7",
+          "teilPart": 1,
+          "type": "tf",
+          "text": "Der Friseursalon ist montags geöffnet.",
+          "answer": "falsch",
+          "audioStart": 278.5,
+          "num": 7,
+          "textNum": 4
+        },
+        {
+          "id": "h8",
+          "teilPart": 1,
+          "type": "mcq",
+          "text": "Die Kunden mit der Kundenkarte...",
+          "options": [
+            "müssen einen Termin vereinbaren.",
+            "bezahlen für einen Haarschnitt den halben Preis.",
+            "dürfen nur nach 18 Uhr zum Friseursalon kommen."
+          ],
+          "answer": 1,
+          "audioStart": 278.5,
+          "num": 8,
+          "textNum": 4
+        },
+        {
+          "id": "h9",
+          "teilPart": 1,
+          "type": "tf",
+          "text": "Das Frühstück ist immer typisch deutsch.",
+          "answer": "richtig",
+          "audioStart": 337.1,
+          "num": 9,
+          "textNum": 5
+        },
+        {
+          "id": "h10",
+          "teilPart": 1,
+          "type": "mcq",
+          "text": "Abends gibt es...",
+          "options": [
+            "Knäckebrot und diverse Brotaufstriche.",
+            "oft etwas Warmes.",
+            "nur Joghurt."
+          ],
+          "answer": 0,
+          "audioStart": 337.1,
+          "num": 10,
+          "textNum": 5
+        },
+        {
+          "id": "h11",
+          "teilPart": 2,
+          "type": "mcq",
+          "text": "Worauf müssen die Gäste in der Höhle achten?",
+          "options": [
+            "Auf ihre Köpfe.",
+            "Auf den Syntheseprozess.",
+            "Auf die Feuchtigkeit."
+          ],
+          "answer": 0,
+          "audioStart": 427.71,
+          "num": 11
+        },
+        {
+          "id": "h12",
+          "teilPart": 2,
+          "type": "mcq",
+          "text": "Die Eberstädter Höhle wurde entdeckt, als...",
+          "options": [
+            "ein Bauer sein Schaf dort verlor.",
+            "Bauarbeiter eine Öffnung freilegten.",
+            "die Eberstädter zufällig den Eingang der Höhle sahen."
+          ],
+          "answer": 1,
+          "audioStart": 427.71,
+          "num": 12
+        },
+        {
+          "id": "h13",
+          "teilPart": 2,
+          "type": "mcq",
+          "text": "Die Zentralfigur in der Höhle trägt den Namen...",
+          "options": [
+            "„Schneewittchen“.",
+            "„Dornröschen“.",
+            "„Frau Holle“."
+          ],
+          "answer": 2,
+          "audioStart": 427.71,
+          "num": 13
+        },
+        {
+          "id": "h14",
+          "teilPart": 2,
+          "type": "mcq",
+          "text": "Die Eberstädter Höhle ist...",
+          "options": [
+            "600 m lang.",
+            "300 m lang.",
+            "200 m lang."
+          ],
+          "answer": 0,
+          "audioStart": 427.71,
+          "num": 14
+        },
+        {
+          "id": "h15",
+          "teilPart": 2,
+          "type": "mcq",
+          "text": "Im Laden der Höhle erhält man...",
+          "options": [
+            "einen Film der Eberstädter Höhle.",
+            "das Tagebuch eines Höhlenforschers.",
+            "eine 3D-Animation über die Höhlen des Landkreises."
+          ],
+          "answer": 2,
+          "audioStart": 427.71,
+          "num": 15
+        },
+        {
+          "id": "h16",
+          "teilPart": 3,
+          "type": "tf",
+          "text": "Die Ärztin ist aus Hamburg.",
+          "answer": "falsch",
+          "audioStart": 659.49,
+          "num": 16
+        },
+        {
+          "id": "h17",
+          "teilPart": 3,
+          "type": "tf",
+          "text": "Die Leute auf der Insel sind sehr hilfsbereit.",
+          "answer": "richtig",
+          "audioStart": 659.49,
+          "num": 17
+        },
+        {
+          "id": "h18",
+          "teilPart": 3,
+          "type": "tf",
+          "text": "Die Ärztin kann auch fliegen.",
+          "answer": "richtig",
+          "audioStart": 659.49,
+          "num": 18
+        },
+        {
+          "id": "h19",
+          "teilPart": 3,
+          "type": "tf",
+          "text": "John Flynn gründete auf den Nordseeinseln die Flying Doctors.",
+          "answer": "falsch",
+          "audioStart": 659.49,
+          "num": 19
+        },
+        {
+          "id": "h20",
+          "teilPart": 3,
+          "type": "tf",
+          "text": "Der Ärzteservice bietet auch telefonische Betreuung.",
+          "answer": "richtig",
+          "audioStart": 659.49,
+          "num": 20
+        },
+        {
+          "id": "h21",
+          "teilPart": 3,
+          "type": "tf",
+          "text": "Als Ausgleich zur Arbeit treibt die Ärztin Sport.",
+          "answer": "richtig",
+          "audioStart": 659.49,
+          "num": 21
+        },
+        {
+          "id": "h22",
+          "teilPart": 3,
+          "type": "tf",
+          "text": "Das Fliegen macht der Ärztin am meisten Spaß.",
+          "answer": "falsch",
+          "audioStart": 659.49,
+          "num": 22
+        },
+        {
+          "id": "h23",
+          "teilPart": 4,
+          "type": "mcq",
+          "text": "Der Grund der Scheidung war unklar.",
+          "options": [
+            "Moderatorin",
+            "Dr. Gustav Lange",
+            "Renate Hölderlin"
+          ],
+          "answer": 2,
+          "audioStart": 910.36,
+          "num": 23
+        },
+        {
+          "id": "h24",
+          "teilPart": 4,
+          "type": "mcq",
+          "text": "Die Wut auf den Partner entsteht aufgrund finanzieller Schwierigkeiten.",
+          "options": [
+            "Moderatorin",
+            "Dr. Gustav Lange",
+            "Renate Hölderlin"
+          ],
+          "answer": 1,
+          "audioStart": 910.36,
+          "num": 24
+        },
+        {
+          "id": "h25",
+          "teilPart": 4,
+          "type": "mcq",
+          "text": "Viele geschiedene Eheleute beginnen nach einer Scheidung nicht von Neuem.",
+          "options": [
+            "Moderatorin",
+            "Dr. Gustav Lange",
+            "Renate Hölderlin"
+          ],
+          "answer": 0,
+          "audioStart": 910.36,
+          "num": 25
+        },
+        {
+          "id": "h26",
+          "teilPart": 4,
+          "type": "mcq",
+          "text": "Viele Kinder leiden psychisch unter der Trennung der Eltern.",
+          "options": [
+            "Moderatorin",
+            "Dr. Gustav Lange",
+            "Renate Hölderlin"
+          ],
+          "answer": 1,
+          "audioStart": 910.36,
+          "num": 26
+        },
+        {
+          "id": "h27",
+          "teilPart": 4,
+          "type": "mcq",
+          "text": "Der Vater fehlte oft.",
+          "options": [
+            "Moderatorin",
+            "Dr. Gustav Lange",
+            "Renate Hölderlin"
+          ],
+          "answer": 2,
+          "audioStart": 910.36,
+          "num": 27
+        },
+        {
+          "id": "h28",
+          "teilPart": 4,
+          "type": "mcq",
+          "text": "Bei einer Scheidung sollte man sich über alles aussprechen.",
+          "options": [
+            "Moderatorin",
+            "Dr. Gustav Lange",
+            "Renate Hölderlin"
+          ],
+          "answer": 1,
+          "audioStart": 910.36,
+          "num": 28
+        },
+        {
+          "id": "h29",
+          "teilPart": 4,
+          "type": "mcq",
+          "text": "Glückliche Scheidungskinder sind keine Einzelfälle.",
+          "options": [
+            "Moderatorin",
+            "Dr. Gustav Lange",
+            "Renate Hölderlin"
+          ],
+          "answer": 1,
+          "audioStart": 910.36,
+          "num": 29
+        },
+        {
+          "id": "h30",
+          "teilPart": 4,
+          "type": "mcq",
+          "text": "Nur die Politiker glauben an ein perfektes Familienleben in Deutschland.",
+          "options": [
+            "Moderatorin",
+            "Dr. Gustav Lange",
+            "Renate Hölderlin"
+          ],
+          "answer": 1,
+          "audioStart": 910.36,
+          "num": 30
+        }
+      ]
+    }
+  ],
+  "explanations": {
+    "1": {
+      "quote": "Aber damit es wirklich meine vier Wände werden, muss ich noch einiges Geld und Arbeit reinstecken.",
+      "whyCorrect": {
+        "de": "Richtig: Der Blogger betont, dass vor dem endgültigen Einzug noch viel Arbeit und Geld investiert werden müssen.",
+        "ar": "صحيح: يؤكد الكاتب أنه يجب بذل الكثير من الجهد والمال في التجهيزات والترتيبات قبل السكن الفعلي.",
+        "fr": "Vrai : Le blogueur souligne qu'il reste beaucoup de travail et d'argent à investir avant de s'y installer vraiment."
+      },
+      "whyIncorrect": {
+        "de": "Falsch trifft nicht zu, da die Wohnung noch viel Arbeit erfordert.",
+        "ar": "الخيار 'خطأ' غير صحيح لأن الشقة تحتاج الكثير من التجهيزات.",
+        "fr": "Faux est incorrect car l'appartement nécessite encore de nombreux travaux."
+      }
+    },
+    "2": {
+      "quote": "Seit Tagen surfe ich im Internet und suche nach Tipps und Tricks für kleine Wohnräume.",
+      "whyCorrect": {
+        "de": "Falsch: Das Internet funktioniert einwandfrei; er surft seit Tagen intensiv darin nach Tipps.",
+        "ar": "خطأ: الإنترنت يعمل بكفاءة تامة، حيث يتصفحه الكاتب منذ أيام بحثًا عن نصائح لديكور المساحات الصغيرة.",
+        "fr": "Faux : La connexion Internet fonctionne très bien ; il surfe depuis des jours pour trouver des conseils."
+      },
+      "whyIncorrect": {
+        "de": "Richtig ist unzutreffend, da das Internet aktiv genutzt wird.",
+        "ar": "الخيار 'صحيح' خاطئ لأن الإنترنت مستخدم بشكل يومي ونشط.",
+        "fr": "Vrai est faux car le blogueur utilise activement le web."
+      }
+    },
+    "3": {
+      "quote": "...schaffen wir die Voraussetzung für eine angenehme Atmosphäre, welche wir zum Wohlfühlen brauchen.",
+      "whyCorrect": {
+        "de": "Richtig: Ziel der Feng-Shui-Einrichtung ist eine behagliche Atmosphäre zum Wohlfühlen.",
+        "ar": "صحيح: الهدف من أسلوب الفينغ شوي هو خلق بيئة مريحة وأجواء تبعث على السكينة والاسترخاء.",
+        "fr": "Vrai : L'aménagement vise explicitement à créer une atmosphère agréable où l'on se sent bien."
+      },
+      "whyIncorrect": {
+        "de": "Falsch ist nicht zutreffend, da das Wohlfühlen das erklärte Ziel ist.",
+        "ar": "الخيار 'خطأ' غير دقيق لأن الراحة والانسجام هما الغاية المعلنة.",
+        "fr": "Faux ne convient pas car le bien-être est l'objectif premier."
+      }
+    },
+    "4": {
+      "quote": "Der Raum darf auf keinen Fall überfüllt werden. Weniger ist mehr! Ich brauche Luft zum Atmen...",
+      "whyCorrect": {
+        "de": "Falsch: Er hat nicht zu viele Möbel, sondern setzt bewusst auf Minimalismus ('Weniger ist mehr').",
+        "ar": "خطأ: الكاتب لا يملك أثاثًا فائضًا، بل يحرص على عدم تكديس الغرف متبعًا مبدأ 'القليل يعني الكثير'.",
+        "fr": "Faux : Il n'a pas trop de meubles, il privilégie expressément le minimalisme (« Moins, c'est plus »)."
+      },
+      "whyIncorrect": {
+        "de": "Richtig ist falsch, da er Überfüllung strikt vermeidet.",
+        "ar": "الخيار 'صحيح' غير صحيح لتجنبه التام للازدحام.",
+        "fr": "Vrai est erroné car il refuse catégoriquement l'encombrement."
+      }
+    },
+    "5": {
+      "quote": "Die Wohnküche hat ein Fenster nach Westen und die Balkontüre geht Richtung Süden.",
+      "whyCorrect": {
+        "de": "Falsch: Der Balkon geht nach Süden (nicht nach Norden), weshalb er einen Sonnenschirm braucht.",
+        "ar": "خطأ: باب الشرفة يطل نحو الجنوب وليس الشمال، لذلك سيحتاج إلى مظلة شمسية صيفًا.",
+        "fr": "Faux : La porte du balcon est orientée vers le sud (et non vers le nord), nécessitant un parasol en été."
+      },
+      "whyIncorrect": {
+        "de": "Richtig ist falsch, da der Balkon nach Süden ausgerichtet ist.",
+        "ar": "الخيار 'صحيح' خاطئ لأن الاتجاه هو الجنوب.",
+        "fr": "Vrai est faux car le balcon donne au sud."
+      }
+    },
+    "6": {
+      "quote": "Schließlich fehlt mir nur noch eine schöne Topfpflanze. Und die schenkt mir vielleicht meine Freundin zum Einzug.",
+      "whyCorrect": {
+        "de": "Richtig: Er hofft, dass ihm seine Freundin als Einzugsgeschenk eine schöne Topfpflanze schenkt.",
+        "ar": "صحيح: يأمل الكاتب أن تهديه صديقته نبتة منزلية جميلة بمناسبة الانتقال إلى الشقة الجديدة.",
+        "fr": "Vrai : Il espère qu'une amie lui offrira une plante verte en pot pour sa pendaison de crémaillère."
+      },
+      "whyIncorrect": {
+        "de": "Falsch ist unzutreffend, da er diesen Wunsch ausdrücklich äußert.",
+        "ar": "الخيار 'خطأ' غير صحيح للتصريح الواضح بهذا الرجاء.",
+        "fr": "Faux est incorrect car ce souhait est mentionné noir sur blanc."
+      }
+    },
+    "7": {
+      "quote": "Ziel ist es, die Bevölkerung noch intensiver als bisher zu sensibilisieren.",
+      "whyCorrect": {
+        "de": "Lösung a ist richtig: Die Kampagne 'K-Einbruch' will die Bürger für das Thema Einbruchschutz sensibilisieren und aufmerksam machen.",
+        "ar": "الخيار (a) صحيح: تهدف المبادرة إلى توعية المواطنين ولفت انتباههم لتدابير الحماية من السرقات.",
+        "fr": "L'option a est correcte : L'initiative vise à sensibiliser et alerter la population sur la protection contre les cambriolages."
+      },
+      "whyIncorrect": {
+        "de": "b und c stimmen nicht mit dem erklärten Hauptziel der Sensibilisierung überein.",
+        "ar": "الخيارات الأخرى لم تُذكر كأهداف أساسية للحملة.",
+        "fr": "b et c ne correspondent pas à l'objectif prioritaire de sensibilisation du public."
+      }
+    },
+    "8": {
+      "quote": "Nicht nur der materielle Schaden, sondern häufig auch dauerhafte psychische Belastungen sind die Folgen für die Opfer.",
+      "whyCorrect": {
+        "de": "Lösung b ist richtig: Einbrüche verursachen neben materiellen Schäden vor allem schwere und dauerhafte psychische Probleme bei den Opfern.",
+        "ar": "الخيار (b) صحيح: تتسبب جرائم اقتحام المنازل غالبًا في معاناة وضغوط نفسية عميقة ومستمرة للضحايا.",
+        "fr": "L'option b est correcte : Les cambriolages entraînent fréquemment de lourds traumatismes psychologiques chez les victimes."
+      },
+      "whyIncorrect": {
+        "de": "a und c nennen Nebenaspekte oder unpassende Begriffe.",
+        "ar": "الخيارات الأخرى غير دقيقة ولا تعبر عن الأثر النفسي الأبرز.",
+        "fr": "a et c n'expriment pas l'impact psychologique majeur relevé par le texte."
+      }
+    },
+    "9": {
+      "quote": "...unter dem Motto „Eine Stunde mehr für mehr Sicherheit“ ... also erstmals am 28. Oktober 2012.",
+      "whyCorrect": {
+        "de": "Lösung c ist richtig: Der 'Tag des Einbruchschutzes' wurde 2012 erstmals in Deutschland ins Leben gerufen.",
+        "ar": "الخيار (c) صحيح: أُطلق 'يوم الحماية من السطو' لأول مرة في ألمانيا عام 2012.",
+        "fr": "L'option c est correcte : Cette journée de prévention a été instaurée pour la première fois en 2012 en Allemagne."
+      },
+      "whyIncorrect": {
+        "de": "a und b sind falsch: Es ist kein mitteleuropäischer Feiertag und dient nicht der Erholung.",
+        "ar": "الخيارات (a) و (b) خاطئة تمامًا؛ فهو ليس يوم عطلة ولا للاستجمام.",
+        "fr": "a et b sont erronés : ce n'est ni un jour de fête ni un temps de repos."
+      }
+    },
+    "10": {
+      "quote": "COOKST DU! – die Kochschule in Eppelheim bei Heidelberg liegt voll im Trend... Kochen ist Leidenschaft und Erlebnis...",
+      "whyCorrect": {
+        "de": "Lösung b ist richtig: 'COOKST DU!' ist eine moderne Kochschule neuartiger Art für Hobbyköche und Einsteiger.",
+        "ar": "الخيار (b) صحيح: هي مدرسة طهي من نوع مبتكر وعصري في إبلهيم تقدم دورات وتجارب تفاعلية.",
+        "fr": "L'option b est correcte : Il s'agit d'une école de cuisine d'un genre novateur et tendance."
+      },
+      "whyIncorrect": {
+        "de": "a und c sind falsch: Sie liegt in Eppelheim (nicht Heidelberg) und ist eine Kochschule, kein Restaurant.",
+        "ar": "الخيارات الأخرى غير صحيحة لأنها مدرسة تعليم طبخ وليست مطعمًا وتقع في إبلهيم.",
+        "fr": "a et c sont faux : l'école se situe à Eppelheim et n'est pas un simple restaurant."
+      }
+    },
+    "11": {
+      "quote": "Und für die Kleinen gibt es einen Samstag im Monat, an dem sie nicht nur lernen...",
+      "whyCorrect": {
+        "de": "Lösung a ist richtig: An einem Samstag im Monat steht die Kochschule speziell Kindern offen.",
+        "ar": "الخيار (a) صحيح: يُخصص سبت واحد شهريًا لفتح المطبخ للأطفال لتعلم الطهي واكتشاف النكهات.",
+        "fr": "L'option a est correcte : Un samedi par mois, la cuisine est spécialement ouverte aux enfants."
+      },
+      "whyIncorrect": {
+        "de": "b und c nennen Spitzenköche oder Sternemenüs, die nicht monatlich für Kinder vorgesehen sind.",
+        "ar": "الخيارات الأخرى لا تصف ما يحدث في ذلك السبت الشهري المخصص للأطفال.",
+        "fr": "b et c ne correspondent pas à l'activité mensuelle dédiée aux enfants."
+      }
+    },
+    "12": {
+      "quote": "Auch für Events ist die Kochschule Eppelheim die richtige Adresse... Show-Cooking zum 50. Geburtstag... Feste den passenden Rahmen.",
+      "whyCorrect": {
+        "de": "Lösung c ist richtig: Man kann die Kochschule für Events, Geburtstage und Feste buchen.",
+        "ar": "الخيار (c) صحيح: يمكن استئجار مدرسة الطهي وتنظيم الاحتفالات والمناسبات الخاصة فيها.",
+        "fr": "L'option c est correcte : On peut y organiser des réceptions privées, anniversaires et événements festifs."
+      },
+      "whyIncorrect": {
+        "de": "a und b treffen nicht zu: Es geht nicht um Mithilfe in der Großküche oder Take-Away.",
+        "ar": "الخيارات الأخرى غير صحيحة فالهدف ليس التطوع بالمطبخ أو بيع طعام سفري.",
+        "fr": "a et b sont erronés : il ne s'agit ni de faire la plonge ni de vente à emporter."
+      }
+    },
+    "13": {
+      "quote": "SILBER BAR: Cabaret + Filmbar · Öffnungszeiten: Montag - Samstag von 21 bis 5 Uhr.",
+      "whyCorrect": {
+        "de": "Anzeige H passt: Leonhard hat bestanden und will die ganze Nacht (bis 5 Uhr morgens) ausgehen und feiern.",
+        "ar": "الإعلان H يطابق الموقف: حانة Silber Bar مفتوحة حتى الخامسة فجرًا ومثالية للسهر طوال الليل.",
+        "fr": "L'annonce H correspond : Le Silber Bar est ouvert de 21h à 5h du matin pour faire la fête toute la nuit."
+      },
+      "whyIncorrect": {
+        "de": "Andere Lokale schließen deutlich früher (z. B. vor Mitternacht).",
+        "ar": "الأماكن الأخرى تغلق أبوابها في مواعيد مبكرة ولا تتيح السهر حتى الصباح.",
+        "fr": "Les autres établissements ferment beaucoup plus tôt dans la soirée."
+      }
+    },
+    "14": {
+      "quote": "Ristorante Da Franco: 13. August Italienisches Fest „Ferragosto“ ... Eintritt frei, günstige Spezialitäten.",
+      "whyCorrect": {
+        "de": "Anzeige F passt: Sarah und Tobias suchen ein günstiges Lokal mit Live-Musik und freiem Eintritt zum Schuljahresende.",
+        "ar": "الإعلان F يطابق الموقف: مطعم Da Franco ينظم مهرجانًا إيطاليًا مع موسيقى حية ودخول مجاني وأسعار مناسبة للطلاب.",
+        "fr": "L'annonce F correspond : Le restaurant Da Franco organise une fête italienne avec entrée gratuite et plats bon marché."
+      },
+      "whyIncorrect": {
+        "de": "Bietet als einziges Fest freien Eintritt und preisgünstige Pizzeria-Atmosphäre.",
+        "ar": "هو العرض الوحيد الذي يوفر احتفالاً بدخول مجاني وأسعار وجبات في متناول الطلاب.",
+        "fr": "C'est la seule annonce combinant fête musicale, entrée libre et cuisine abordable."
+      }
+    },
+    "15": {
+      "quote": "Das Gelbe vom Ei! – Leih! Geschirr – Möbel – Zelte – Sonnenschirme ... Alles klar! Veranstaltungsservice.",
+      "whyCorrect": {
+        "de": "Anzeige E passt: Die Eltern suchen für ihr Garten-Sommerfest Mietmobiliar, Teller, Gläser und Zelte.",
+        "ar": "الإعلان E يطابق الموقف: خدمة تأجير Das Gelbe vom Ei توفر الأطباق والكؤوس والمقاعد والخيام لحفلات الحدائق.",
+        "fr": "L'annonce E correspond : Ce service loue vaisselle, mobilier de jardin, tentes et verres pour les réceptions."
+      },
+      "whyIncorrect": {
+        "de": "Andere Anzeigen verkaufen nur Instrumente oder Dienstleistungen.",
+        "ar": "الإعلانات الأخرى متخصصة في بيع الآلات أو خدمات الرقص.",
+        "fr": "Les autres annonces proposent de la musique ou des cours, pas de matériel de réception."
+      }
+    },
+    "16": {
+      "quote": "„Oktoberfest München“: Das Buch von Reiner Baumhart lädt Sie zu einem Rundgang über das Oktoberfest ein...",
+      "whyCorrect": {
+        "de": "Anzeige I passt: Ein reich bebildertes Informationsbuch über das Oktoberfest in München für die Besucher.",
+        "ar": "الإعلان I يطابق الموقف: كتاب مصور وشامل يعرف القراء على تاريخ وأجواء مهرجان أكتوبر في ميونخ.",
+        "fr": "L'annonce I correspond : Un livre illustré complet pour s'informer sur la fête de la bière de Munich."
+      },
+      "whyIncorrect": {
+        "de": "Keine andere Anzeige informiert über das Oktoberfest.",
+        "ar": "لا توجد أي مادة إعلانية أخرى تقدم دليلاً أو معلومات عن المهرجان.",
+        "fr": "Aucune autre annonce ne concerne l'Oktoberfest de Munich."
+      }
+    },
+    "17": {
+      "quote": "Tanzschule Wolfgang Schön: Rock'n'Roll, Salsa, Disco-Partys und was Sie sonst noch lernen möchten!",
+      "whyCorrect": {
+        "de": "Anzeige A passt: Die Eltern tanzen gern und möchten in einer Tanzschule moderne Tänze (Salsa, Disco) erlernen.",
+        "ar": "الإعلان A يطابق الموقف: مدرسة الرقص تقدم دورات لتعلم الرقصات العصرية مثل السالسا والروك أند رول.",
+        "fr": "L'annonce A correspond : L'école de danse dispense des cours de danses modernes (salsa, rock, disco)."
+      },
+      "whyIncorrect": {
+        "de": "Andere Anzeigen bieten reine Partymusik oder Shows zum Zusehen.",
+        "ar": "الإعلانات الأخرى تقدم عروض مشاهدة فقط وليست دروسًا للتعلم.",
+        "fr": "Les autres annonces proposent des spectacles à regarder, pas des cours d'apprentissage."
+      }
+    },
+    "18": {
+      "quote": "Klavier oder Flügel von Musikstudenten zu verkaufen. Tel.: 0561-810 55 46.",
+      "whyCorrect": {
+        "de": "Anzeige D passt: Ein Musikstudent verkauft ein preisgünstiges Klavier für die Kinder zum Musizieren.",
+        "ar": "الإعلان D يطابق الموقف: إعلان لبيع بيانو مستعمل بحالة ممتازة وبسعر طلابي مناسب لعزف الأطفال.",
+        "fr": "L'annonce D correspond : Un étudiant en musique vend son piano à prix très avantageux."
+      },
+      "whyIncorrect": {
+        "de": "Kein anderes Inserat verkauft Musikinstrumente.",
+        "ar": "لا يوجد أي إعلان آخر لبيع الآلات الموسيقية.",
+        "fr": "Aucune autre annonce ne propose d'instrument de musique à la vente."
+      }
+    },
+    "19": {
+      "quote": "Keine passende Reiseanzeige für Venedig vorhanden.",
+      "whyCorrect": {
+        "de": "Lösung X: Die Kinder suchen ein Reiseangebot nach Venedig; keine der Anzeigen bietet Reisen oder Urlaubspakete an.",
+        "ar": "الخيار X صحيح: يبحث الأبناء عن رحلة سياحية إلى البندقية، ولا يوجد بين الإعلانات أي وكالة سفر أو عرض رحلات.",
+        "fr": "L'option X est correcte : Aucune agence de voyages ne propose d'offre de séjour pour Venise."
+      },
+      "whyIncorrect": {
+        "de": "F ist nur ein italienisches Restaurant in Feuerbach, keine Reiseagentur.",
+        "ar": "الإعلان F هو مجرد مطعم إيطالي محلي في ألمانيا وليس شركة سياحية.",
+        "fr": "L'annonce F est un simple restaurant italien local, pas un voyagiste."
+      }
+    },
+    "20": {
+      "quote": "Obermeier: Das sagt aber noch lange nichts über die Intelligenz aus. Also das geht entschieden zu weit!",
+      "whyCorrect": {
+        "de": "Nein: Obermeier betont, dass Multitasking zwar ungesund ist, aber nichts über mangelnde Intelligenz aussagt.",
+        "ar": "لا: أوبرماير يرى أن تعدد المهام يسبب التوتر، لكنه يرفض تمامًا القول بأنه ينقص الذكاء أو يسبب الغباء.",
+        "fr": "Non : Obermeier affirme que si le multitâche est stressant, il ne rend absolument pas stupide."
+      },
+      "whyIncorrect": {
+        "de": "Ja ist falsch, da er der 'Verdummungsthese' entschieden widerspricht.",
+        "ar": "الخيار 'نعم' خاطئ لأنه يعارض بشدة فكرة تراجع الذكاء.",
+        "fr": "Oui est incorrect car il réfute vivement l'idée d'un abaissement intellectuel."
+      }
+    },
+    "21": {
+      "quote": "Stella B.: Die Folge ist bestenfalls Halbwissen. Vielleicht weiß man am Ende auch gar nichts... wenn man sich nur auf eine Sache konzentriert.",
+      "whyCorrect": {
+        "de": "Ja: Stella B. stimmt den Hirnforschern zu und meint, dass Multitasking nur zu Halbwissen oder Nichtwissen führt.",
+        "ar": "نعم: ستيلا توافق على أن تعدد المهام يشتت الذهن ويؤدي في النهاية إلى الجهل أو أنصاف المعارف وضعف الاستيعاب.",
+        "fr": "Oui : Stella B. estime que le multitâche ne produit que des demi-connaissances et nuit à la réflexion."
+      },
+      "whyIncorrect": {
+        "de": "Nein trifft nicht zu, da sie Multitasking für ineffizient und verblödend hält.",
+        "ar": "الخيار 'لا' غير دقيق لأنها تؤيد أطروحة تراجع الأداء الذهني.",
+        "fr": "Non est inexact car elle soutient la thèse des pertes de capacités cognitives."
+      }
+    },
+    "22": {
+      "quote": "Bernhard: Das beweist, dass wir die Fähigkeit zu denken nicht verlieren, nur weil wir mehrere Dinge gleichzeitig tun.",
+      "whyCorrect": {
+        "de": "Nein: Bernhard widerspricht und argumentiert, dass man seine Denkfähigkeit beim Multitasking keineswegs verliert.",
+        "ar": "لا: بيرنهارد يدافع عن القدرة على التفكير المتزامن ويؤكد أن الإنسان لا يفقد ذكاءه عند إنجاز أكثر من عمل.",
+        "fr": "Non : Bernhard soutient qu'on ne perd nullement ses facultés intellectuelles en faisant plusieurs choses à la fois."
+      },
+      "whyIncorrect": {
+        "de": "Ja ist falsch, da er Multitasking am Beispiel des Autofahrens verteidigt.",
+        "ar": "الخيار 'نعم' خاطئ لأنه يثبت احتفاظ العقل بكفاءته.",
+        "fr": "Oui est erroné car il défend le maintien des capacités cérébrales."
+      }
+    },
+    "23": {
+      "quote": "Becker: Ich bin Lehrerin und halte Multitasking für die Ursache für die allmähliche Verdummung der Menschheit.",
+      "whyCorrect": {
+        "de": "Ja: Als Lehrerin sieht Becker im Multitasking die Ursache für eine 'Verdummung' und schlechte Leistungen ihrer Schüler.",
+        "ar": "نعم: المعلمة بيكر تصرح بوضوح بأن تعدد المهام هو سبب التراجع الدراسي وتفشي الغباء بين الطلاب.",
+        "fr": "Oui : En tant qu'enseignante, elle affirme expressément que le multitâche abrutit les jeunes et ruine leurs résultats."
+      },
+      "whyIncorrect": {
+        "de": "Nein trifft nicht zu, da sie das Wort 'Verdummung' ausdrücklich bejaht.",
+        "ar": "الخيار 'لا' خاطئ لاستخدامها الصريح لكلمة 'الغباء' والتراجع الذهني.",
+        "fr": "Non est faux puisqu'elle emploie expressément le mot « abrutissement »."
+      }
+    },
+    "24": {
+      "quote": "Friedrichs: Somit gilt Achtsamkeit als Mittel gegen Multitasking... zu mehr Hirnfunktion verhelfen...",
+      "whyCorrect": {
+        "de": "Ja: Friedrichs sieht Multitasking als Problem für die Hirnfunktion, gegen das man Achtsamkeit als Gegenmittel braucht.",
+        "ar": "نعم: فريدريكس يرى في تعدد المهام تدهورًا لوظائف الدماغ يستوجب تمارين التركيز كعلاج مضاد له.",
+        "fr": "Oui : Friedrichs considère le multitâche comme une dégradation cérébrale nécessitant un antidote mental."
+      },
+      "whyIncorrect": {
+        "de": "Nein ist falsch, da er Multitasking als hirnschädigend beschreibt.",
+        "ar": "الخيار 'لا' خاطئ لاعتباره تعدد المهام مهددًا لوظائف الدماغ.",
+        "fr": "Non est inexact car il présente le multitâche comme une altération cognitive."
+      }
+    },
+    "25": {
+      "quote": "Ginterer: Er kann ja nicht wirklich wollen, dass ich verblöde!",
+      "whyCorrect": {
+        "de": "Ja: Ginterer stimmt dem Artikel zu und will verhindern, dass ständiges Multitasking im Büro sie 'verblöden' lässt.",
+        "ar": "نعم: غينترر تخشى أن يؤدي ضغط تعدد المهام المفروض من مديرها إلى تبلد ذكائها وفقدان تركيزها.",
+        "fr": "Oui : Ginterer craint expressément de « s'abrutir » au travail si on lui impose trop de tâches simultanées."
+      },
+      "whyIncorrect": {
+        "de": "Nein trifft nicht zu, da sie die Verblödung durch Multitasking fürchtet.",
+        "ar": "الخيار 'لا' غير صحيح لأنها تؤكد خطر التبلد الذهني.",
+        "fr": "Non est faux car elle confirme la dégradation intellectuelle subie."
+      }
+    },
+    "26": {
+      "quote": "Wenzel: Ich finde es unverschämt, mir darum weniger IQs zuzutrauen. Ganz im Gegenteil, es macht mich sogar flexibler und erfinderisch.",
+      "whyCorrect": {
+        "de": "Nein: Mutter Wenzel weist die Behauptung zurück; Multitasking mindere nicht den IQ, sondern mache flexibel und erfinderisch.",
+        "ar": "لا: الأم فينزل ترفض الزعم بانخفاض معدل الذكاء، بل تؤكد أن تعدد المهام زادها مرونة وذكاءً وابتكارًا.",
+        "fr": "Non : Cette mère de famille réfute l'idée d'une baisse de QI et estime que le multitâche développe l'ingéniosité."
+      },
+      "whyIncorrect": {
+        "de": "Ja ist falsch, da sie ihre Intelligenz durch Multitasking gesteigert sieht.",
+        "ar": "الخيار 'نعم' خاطئ لأنها ترى أن التحدي اليومي عزز من مهاراتها الذهنية.",
+        "fr": "Oui est erroné car elle considère que cela renforce son adaptabilité."
+      }
+    },
+    "27": {
+      "quote": "Die Netiquette von Joachim Astel: Hier einige Tipps, wie man das Netz effizient und auch höflich zu aller Zufriedenheit benutzen kann...",
+      "whyCorrect": {
+        "de": "Lösung a ist richtig: Die Netiquette formuliert Richtlinien und Benimmregeln für die Kommunikation im Internet.",
+        "ar": "الخيار (a) صحيح: النيتيكيت (Netiquette) تمثل قواعد وأخلاقيات السلوك والتعامل المهذب عبر شبكة الإنترنت.",
+        "fr": "L'option a est correcte : La nétiquette définit les règles de bonne conduite sur Internet."
+      },
+      "whyIncorrect": {
+        "de": "b und c sind zu allgemein oder verfehlen den spezifischen Online-Kontext.",
+        "ar": "الخيارات الأخرى غير دقيقة ولا تقتصر على آداب التواصل الرقمي.",
+        "fr": "b et c sont soit trop générales soit imprécises sur le cadre du web."
+      }
+    },
+    "28": {
+      "quote": "1. Achte auf die Leserschaft! Vergiss niemals, dass auf der anderen Seite ein Mensch sitzt... Schreibe nie etwas, was du dem Adressaten nicht auch ins Gesicht sagen würdest.",
+      "whyCorrect": {
+        "de": "Lösung c ist richtig: Eigene Texte sollten immer Rücksicht auf die Empfänger/Leser und deren Gefühle nehmen.",
+        "ar": "الخيار (c) صحيح: يجب أن تراعي النصوص المكتوبة دائمًا مشاعر القارئ واحترام إنسانيته.",
+        "fr": "L'option c est correcte : Tout texte rédigé doit toujours prendre en compte le respect du lecteur."
+      },
+      "whyIncorrect": {
+        "de": "a und b entsprechen nicht den Ratschlägen (keine Genehmigungspflicht, Vorsicht bei Sprache).",
+        "ar": "الخيارات الأخرى لم تشترط الحصول على موافقة مسبقة ولم تشجع على التراخي اللفظي غير المحسوب.",
+        "fr": "a et b ne correspondent pas aux conseils (pas d'autorisation requise, prudence exigée)."
+      }
+    },
+    "29": {
+      "quote": "4. Achte auf die gesetzlichen Regelungen! Es ist völlig legal, kurze Auszüge aus urheberrechtlich geschützten Werken zur Information zu posten.",
+      "whyCorrect": {
+        "de": "Lösung b ist richtig: Das Verwenden kurzer Auszüge und Zitate zu Informationszwecken ist gesetzlich erlaubt.",
+        "ar": "الخيار (b) صحيح: يُسمح قانونًا باقتباس فقرات ومقاطع قصيرة من الأعمال المحمية بحقوق النشر بغرض التوضيح.",
+        "fr": "L'option b est correcte : L'usage de courtes citations informatives est tout à fait autorisé par la loi."
+      },
+      "whyIncorrect": {
+        "de": "a ist zu pauschal und c ist falsch formuliert (Aufrufe zu Straftaten sind verboten, nicht Berichte).",
+        "ar": "الخيارات الأخرى غير دقيقة؛ فالمحظور هو التحريض على الجرائم أو النسخ الكامل غير المرخص.",
+        "fr": "a est trop vague et c est faux (l'incitation est interdite, pas le simple fait de relater)."
+      }
+    },
+    "30": {
+      "quote": "3. Benutze Mails, wo immer es geht! Wenn du dem Autor eines Artikels etwas mitteilen willst, überlege dir bitte genau, ob dafür nicht eine simple Mail ausreicht.",
+      "whyCorrect": {
+        "de": "Lösung b ist richtig: Für persönliche Anmerkungen an den Verfasser sollte man den direkten E-Mail-Kontakt nutzen.",
+        "ar": "الخيار (b) صحيح: ينبغي استخدام البريد الإلكتروني للتواصل المباشر مع كاتب المقال بدلاً من التعليقات العامة.",
+        "fr": "L'option b est correcte : Le courriel doit être privilégié pour entrer en contact direct avec l'auteur."
+      },
+      "whyIncorrect": {
+        "de": "a und c nennen unpassende Anwendungsfälle.",
+        "ar": "الخيارات الأخرى تذكر حالات غير معنية بالنصيحة المذكورة.",
+        "fr": "a et c citent des cas de figure non visés par la règle."
+      }
+    },
+    "h1": {
+      "quote": "Der falsch geparkte PKW behindert die Rettungszufahrt auf dem Parkplatz...",
+      "whyCorrect": {
+        "de": "Falsch: Das Auto steht auf dem Parkplatz an der Notfallzufahrt, nicht direkt vor dem Eingang.",
+        "ar": "خطأ: السيارة تقف في موقف السيارات معطلة مدخل طوارئ الإسعاف وليس أمام مدخل المسبح مباشرة.",
+        "fr": "Faux : Le véhicule gêne l'accès des secours sur le parking et non devant l'entrée principale."
+      },
+      "whyIncorrect": {
+        "de": "Richtig ist unzutreffend, da der Standort die Rettungszufahrt des Parkplatzes ist.",
+        "ar": "الخيار 'صحيح' غير دقيق لاختلاف الموقع الفعلي.",
+        "fr": "Vrai est incorrect car l'emplacement est l'accès d'urgence du parking."
+      }
+    },
+    "h2": {
+      "quote": "...kann nach dem Umparken gegen Vorlage seiner Eintrittskarte das Bad wieder betreten.",
+      "whyCorrect": {
+        "de": "Lösung b ist richtig: Nach dem Umparken darf der Fahrer gegen Vorzeigen seiner Eintrittskarte wieder hinein.",
+        "ar": "الخيار (b) صحيح: يستطيع السائق الدخول ثانية إلى المسبح فور إبراز تذكرة دخوله عند البوابة.",
+        "fr": "L'option b est correcte : Le conducteur peut réintégrer la piscine sur simple présentation de son billet."
+      },
+      "whyIncorrect": {
+        "de": "a und c stimmen nicht (Karte muss vorgezeigt werden; Neukauf ist unnötig).",
+        "ar": "الخيارات الأخرى غير صحيحة، فإظهار التذكرة مطلوب وشراء تذكرة جديدة غير لازم.",
+        "fr": "a et c sont faux : le billet doit être montré et aucun nouvel achat n'est exigé."
+      }
+    },
+    "h3": {
+      "quote": "Dieser Zug endet unplanmäßig in Rheindorf; Fahrgäste nach Endstation nutzen bitte den Ersatzverkehr.",
+      "whyCorrect": {
+        "de": "Falsch: Die Fahrgäste können mit dem bereitgestellten Schienenersatzverkehr sehr wohl zur Endstation gelangen.",
+        "ar": "خطأ: بمقدور الركاب الوصول إلى المحطة الأخيرة باستخدام حافلات النقل البديلة المتوفرة.",
+        "fr": "Faux : Les voyageurs peuvent bel et bien rejoindre le terminus grâce au service de substitution par bus."
+      },
+      "whyIncorrect": {
+        "de": "Richtig ist falsch, da die Weiterfahrt per Ersatzbus gewährleistet ist.",
+        "ar": "الخيار 'صحيح' غير صحيح لأن مواصلة الرحلة مؤمنة بالكامل.",
+        "fr": "Vrai est erroné puisque la liaison est assurée par bus de remplacement."
+      }
+    },
+    "h4": {
+      "quote": "Reisende nach Rheindorf und zur Endstation steigen bitte in den Sonderbus am Bahnhofsvorplatz um.",
+      "whyCorrect": {
+        "de": "Lösung c ist richtig: Fahrgäste können die Fahrt mit dem Sonderbus fortsetzen.",
+        "ar": "الخيار (c) صحيح: يمكن للمسافرين متابعة رحلتهم بواسطة الحافلة الخاصة البديلة أمام المحطة.",
+        "fr": "L'option c est correcte : Les passagers peuvent poursuivre leur trajet à bord du bus spécial."
+      },
+      "whyIncorrect": {
+        "de": "a und b widersprechen der Durchsage (Umsteigen ist zwingend nötig; Verzögerungen möglich).",
+        "ar": "الخيارات الأخرى تخالف الإعلان بضرورة تبديل وسيلة النقل.",
+        "fr": "a et b contredisent le message indiquant une correspondance obligatoire."
+      }
+    },
+    "h5": {
+      "quote": "Die geplante Delfinshow um 11:30 Uhr muss wegen Reinigungsarbeiten leider entfallen.",
+      "whyCorrect": {
+        "de": "Richtig: Um 11:30 Uhr findet keine Delfinshow statt.",
+        "ar": "صحيح: تم إلغاء عرض الدلافين في الساعة 11:30 بسبب أعمال الصيانة والتنظيف.",
+        "fr": "Vrai : Le spectacle de dauphins de 11h30 est effectivement annulé en raison du nettoyage."
+      },
+      "whyIncorrect": {
+        "de": "Falsch trifft nicht zu, da die Show entfällt.",
+        "ar": "الخيار 'خطأ' غير صحيح لإلغاء العرض صراحة.",
+        "fr": "Faux est inexact car la représentation n'a pas lieu."
+      }
+    },
+    "h6": {
+      "quote": "Die Fütterung unserer Orcas findet wie gewohnt um 12 Uhr im großen Außenbassin statt.",
+      "whyCorrect": {
+        "de": "Lösung b ist richtig: Die Fütterung des Killerwals (Orcas) erfolgt im Bassin.",
+        "ar": "الخيار (b) صحيح: يتم إطعام الحوت القاتل (الأوركا) في الحوض المائي الكبير (Bassin).",
+        "fr": "L'option b est correcte : Le nourrissage de l'orque se déroule dans le grand bassin extérieur."
+      },
+      "whyIncorrect": {
+        "de": "a und c nennen falsche Orte oder Zeitdauern.",
+        "ar": "الخيارات الأخرى تذكر مواقع أو مدد زمنية غير صحيحة.",
+        "fr": "a et c indiquent des lieux ou durées non conformes à l'annonce."
+      }
+    },
+    "h7": {
+      "quote": "Unser Salon hat von Dienstag bis Samstag durchgehend für Sie geöffnet; montags ist Ruhetag.",
+      "whyCorrect": {
+        "de": "Falsch: Montags ist Ruhetag und der Friseursalon bleibt geschlossen.",
+        "ar": "خطأ: يوم الاثنين هو يوم عطلة الصالون الأسبوعية ويكون مغلقًا تمامًا.",
+        "fr": "Faux : Le salon de coiffure est fermé le lundi (jour de relâche)."
+      },
+      "whyIncorrect": {
+        "de": "Richtig ist falsch, da der Salon montags geschlossen ist.",
+        "ar": "الخيار 'صحيح' غير صحيح لثبوت إغلاقه يوم الاثنين.",
+        "fr": "Vrai est faux car le salon n'ouvre pas le lundi."
+      }
+    },
+    "h8": {
+      "quote": "Inhaber unserer exklusiven Treuekarte erhalten auf jeden Haarschnitt 50 Prozent Rabatt.",
+      "whyCorrect": {
+        "de": "Lösung b ist richtig: Kunden mit Kundenkarte zahlen für den Haarschnitt nur die Hälfte (50% Rabatt).",
+        "ar": "الخيار (b) صحيح: يستفيد أصحاب بطاقة الوفاء من خصم 50% ويدفعون نصف السعر المعتاد فقط.",
+        "fr": "L'option b est correcte : Les titulaires de la carte paient leur coupe à moitié prix (50 % de remise)."
+      },
+      "whyIncorrect": {
+        "de": "a und c treffen nicht zu (keine Termine nach 18 Uhr vorgeschrieben).",
+        "ar": "الخيارات الأخرى شروط لم ترد في العرض الترويجي.",
+        "fr": "a et c n'ont aucun rapport avec l'avantage tarifaire annoncé."
+      }
+    },
+    "h9": {
+      "quote": "Morgens servieren wir traditionell frische Brötchen, Wurst, Käse und gekochte Eier – eben typisch deutsch.",
+      "whyCorrect": {
+        "de": "Richtig: Das Frühstücksangebot folgt traditionell den typisch deutschen Gewohnheiten.",
+        "ar": "صحيح: وجبة الإفطار تتبع دائمًا التقاليد الألمانية الأصيلة من مخبوزات وأجبان وبيض.",
+        "fr": "Vrai : Le petit-déjeuner proposé est toujours composé selon la tradition typiquement allemande."
+      },
+      "whyIncorrect": {
+        "de": "Falsch ist nicht zutreffend, da das Frühstück als typisch deutsch beschrieben wird.",
+        "ar": "الخيار 'خطأ' غير دقيق لتأكيد النمط الألماني التقليدي.",
+        "fr": "Faux est contredit par la description du petit-déjeuner traditionnel."
+      }
+    },
+    "h10": {
+      "quote": "Abends gibt es bei uns eine kalte Brotzeit mit Knäckebrot, Bauernbrot und diversen vegetarischen Aufstrichen.",
+      "whyCorrect": {
+        "de": "Lösung a ist richtig: Zum Abendessen gibt es Knäckebrot und diverse Aufstriche.",
+        "ar": "الخيار (a) صحيح: وجبة العشاء تشتمل على خبز مقرمش ومجموعة من المقبلات والدهون النباتية.",
+        "fr": "L'option a est correcte : Le dîner se compose de pain croustillant et de diverses garnitures à tartiner."
+      },
+      "whyIncorrect": {
+        "de": "b und c stimmen nicht (es gibt keine warmen Mahlzeiten und nicht nur Joghurt).",
+        "ar": "الخيارات الأخرى غير صحيحة لعدم وجود وجبات ساخنة مساءً.",
+        "fr": "b et c sont faux : le repas est froid et ne se limite pas à du yaourt."
+      }
+    },
+    "h11": {
+      "quote": "Achten Sie bitte auf den unebenen Wegen vor allem darauf, den Kopf einzuziehen...",
+      "whyCorrect": {
+        "de": "Lösung a ist richtig: Wegen herabhängender Stalaktiten und niedriger Decken müssen die Besucher auf ihre Köpfe achten.",
+        "ar": "الخيار (a) صحيح: يجب على الزوار الحذر وخفض رؤوسهم لتفادي الصخور المتدلية في الممرات المنخفضة.",
+        "fr": "L'option a est correcte : En raison des stalactites basses, les visiteurs doivent impérativement faire attention à leur tête."
+      },
+      "whyIncorrect": {
+        "de": "b und c sind keine Sicherheitsanweisungen für Besucher.",
+        "ar": "الخيارات الأخرى ليست من تعليمات السلامة الجسدية الموجهة للضيوف.",
+        "fr": "b et c ne constituent pas la consigne de prudence corporelle répétée."
+      }
+    },
+    "h12": {
+      "quote": "Bei Sprengarbeiten stießen Bauarbeiter im Steinbruch 1971 überraschend auf einen Hohlraum...",
+      "whyCorrect": {
+        "de": "Lösung b ist richtig: Bauarbeiter legten bei Arbeiten im Steinbruch zufällig den Eingang frei.",
+        "ar": "الخيار (b) صحيح: اكتشف عمال البناء الكهف مصادفة أثناء أعمال الحفر والتفجير في المحجر عام 1971.",
+        "fr": "L'option b est correcte : Des ouvriers de carrière ont découvert l'ouverture par hasard lors de travaux de dynamitage."
+      },
+      "whyIncorrect": {
+        "de": "a und c sind Legenden bzw. frei erfunden.",
+        "ar": "الخيارات الأخرى أساطير لا تمت بصلة للوقائع التاريخية المذكورة.",
+        "fr": "a et c relèvent de la fable et ne correspondent pas à l'histoire réelle."
+      }
+    },
+    "h13": {
+      "quote": "Die bekannteste Tropfsteinformation in dieser Halle wird von allen Besuchern liebevoll „Frau Holle“ genannt.",
+      "whyCorrect": {
+        "de": "Lösung c ist richtig: Die zentrale und berühmteste Tropfsteinfigur heißt 'Frau Holle'.",
+        "ar": "الخيار (c) صحيح: يُطلق على التشكيل الصخري الرئيسي والأشهر في الكهف اسم 'السيدة هوله' (Frau Holle).",
+        "fr": "L'option c est correcte : La formation rocheuse emblématique de la grotte porte le nom de « Dame Holle »."
+      },
+      "whyIncorrect": {
+        "de": "a und b nennen andere Märchenfiguren (Schneewittchen / Dornröschen).",
+        "ar": "الخيارات الأخرى تذكر شخصيات خيالية مغايرة.",
+        "fr": "a et b citent d'autres personnages de contes non concernés."
+      }
+    },
+    "h14": {
+      "quote": "Der begehbare und erschlossene Schauhöhlenbereich erstreckt sich über eine Gesamtlänge von genau 600 Metern.",
+      "whyCorrect": {
+        "de": "Lösung a ist richtig: Der für Besucher erschlossene Höhlenteil ist 600 Meter lang.",
+        "ar": "الخيار (a) صحيح: يبلغ طول المسار السياحي الممهد للزوار في الكهف 600 متر بالضبط.",
+        "fr": "L'option a est correcte : La partie aménagée pour les visiteurs s'étend sur 600 mètres de longueur."
+      },
+      "whyIncorrect": {
+        "de": "b und c nennen mit 300 m oder 200 m falsche Längenangaben.",
+        "ar": "الخيارات الأخرى تذكر مسافات أقل بكثير من الطول الفعلي.",
+        "fr": "b et c sous-estiment notablement la longueur totale aménagée."
+      }
+    },
+    "h15": {
+      "quote": "Im Museumsshop können Sie sich eine faszinierende 3D-Computersimulation über die Entstehung aller Höhlen der Region ansehen.",
+      "whyCorrect": {
+        "de": "Lösung c ist richtig: Im Höhlenladen wird eine moderne 3D-Animation über die Höhlen des Landkreises angeboten.",
+        "ar": "الخيار (c) صحيح: يوفر متجر الكهف عرضًا مجسمًا ثلاثي الأبعاد (3D) يوضح تشكل كهوف المنطقة الجغرافية.",
+        "fr": "L'option c est correcte : La boutique propose une animation 3D immersive sur les cavités de la région."
+      },
+      "whyIncorrect": {
+        "de": "a und b nennen Film oder Tagebuch, die dort nicht im Zentrum stehen.",
+        "ar": "الخيارات الأخرى لا تطابق العرض التقني المجسم المتوفر.",
+        "fr": "a et b ne correspondent pas à la simulation 3D mise en avant."
+      }
+    },
+    "h16": {
+      "quote": "Ursprünglich habe ich in München studiert und gearbeitet, bevor ich mich für das Inselkrankenhaus bewarb.",
+      "whyCorrect": {
+        "de": "Falsch: Die Ärztin stammt bzw. studierte in München, nicht in Hamburg.",
+        "ar": "خطأ: الطبيبة درست وعملت في ميونخ قبل انتقالها، وليست من هامبورغ.",
+        "fr": "Faux : La médecin est originaire ou a étudié à Munich, et non à Hambourg."
+      },
+      "whyIncorrect": {
+        "de": "Richtig ist unzutreffend, da Hamburg nicht ihr Herkunftsort ist.",
+        "ar": "الخيار 'صحيح' غير دقيق لأن هامبورغ لم تكن مقرها الأصلي.",
+        "fr": "Vrai est erroné car son parcours universitaire est munichois."
+      }
+    },
+    "h17": {
+      "quote": "Die Insulaner halten fest zusammen und stehen jedem Kranken rund um die Uhr hilfsbereit zur Seite.",
+      "whyCorrect": {
+        "de": "Richtig: Die Inselbewohner zeichnen sich durch großen Zusammenhalt und ständige Hilfsbereitschaft aus.",
+        "ar": "صحيح: يتميز سكان الجزيرة بالتكاتف الشديد وتقديم يد العون والمساعدة للجميع عند المرض.",
+        "fr": "Vrai : Les habitants de l'île font preuve d'une grande solidarité et d'une aide dévouée."
+      },
+      "whyIncorrect": {
+        "de": "Falsch trifft nicht zu, da die Hilfsbereitschaft ausdrücklich gelobt wird.",
+        "ar": "الخيار 'خطأ' غير صحيح لوجود إشادة واضحة بتعاونهم.",
+        "fr": "Faux est contredit par les éloges répétés de la praticienne."
+      }
+    },
+    "h18": {
+      "quote": "Ich habe vor drei Jahren den Pilotenschein gemacht und steuere das Rettungsflugzeug bei Notfällen selbst.",
+      "whyCorrect": {
+        "de": "Richtig: Die Ärztin besitzt die Fluglizenz und kann selbst ein Flugzeug fliegen.",
+        "ar": "صحيح: حصلت الطبيبة على رخصة طيران وتقود طائرة الإسعاف بنفسها عند الحالات الطارئة.",
+        "fr": "Vrai : La médecin possède son brevet de pilote et pilote elle-même les avions d'urgence."
+      },
+      "whyIncorrect": {
+        "de": "Falsch ist nicht zutreffend, da sie selbst fliegt.",
+        "ar": "الخيار 'خطأ' غير صحيح لتأكيد قدرتها على قيادة الطائرة.",
+        "fr": "Faux est inexact puisqu'elle pilote personnellement."
+      }
+    },
+    "h19": {
+      "quote": "John Flynn hat die Flying Doctors im australischen Outback gegründet, nicht auf den Nordseeinseln.",
+      "whyCorrect": {
+        "de": "Falsch: John Flynn gründete die fliegenden Ärzte in Australien und nicht auf den deutschen Nordseeinseln.",
+        "ar": "خطأ: جون فلين أسس خدمة الأطباء الطائرين في ريف أستراليا النائي وليس في جزر بحر الشمال الألمانية.",
+        "fr": "Faux : John Flynn a créé les « Flying Doctors » dans l'outback australien, pas en mer du Nord."
+      },
+      "whyIncorrect": {
+        "de": "Richtig ist falsch, da der historische Bezug Australien ist.",
+        "ar": "الخيار 'صحيح' خاطئ لأن الجغرافيا التاريخية للمبادرة في أستراليا.",
+        "fr": "Vrai est faux car le berceau historique est l'Australie."
+      }
+    },
+    "h20": {
+      "quote": "Bei schlechtem Wetter bieten wir den Patienten eine umfassende telefonische Beratung und telemedizinische Betreuung.",
+      "whyCorrect": {
+        "de": "Richtig: Der Dienst bietet auch medizinische Betreuung und Sprechstunden über das Telefon an.",
+        "ar": "صحيح: توفر الخدمة الطبية استشارات ومتابعة هاتفية للمرضى خصوصًا في فترات تعذر الطيران.",
+        "fr": "Vrai : Le service médical assure des consultations et un suivi attentif par téléphone."
+      },
+      "whyIncorrect": {
+        "de": "Falsch trifft nicht zu, da Telefonberatung aktiv geleistet wird.",
+        "ar": "الخيار 'خطأ' غير دقيق لتأكيد تقديم الاستشارات الهاتفية.",
+        "fr": "Faux ne s'applique pas car le conseil téléphonique est bien réel."
+      }
+    },
+    "h21": {
+      "quote": "Um den Kopf frei zu bekommen, jogge ich jeden Tag am Strand und treibe regelmäßig Sport.",
+      "whyCorrect": {
+        "de": "Richtig: Die Ärztin treibt regelmäßig Sport (Joggen am Strand), um einen Ausgleich zur Arbeit zu finden.",
+        "ar": "صحيح: تمارس الطبيبة الرياضة والجري بانتظام على الشاطئ لتجديد طاقتها والتخفيف من ضغط العمل.",
+        "fr": "Vrai : Elle pratique régulièrement le jogging sur la plage pour évacuer le stress professionnel."
+      },
+      "whyIncorrect": {
+        "de": "Falsch ist unzutreffend, da sie sportliche Betätigung als Ausgleich nutzt.",
+        "ar": "الخيار 'خطأ' غير صحيح لممارستها المستمرة للرياضة.",
+        "fr": "Faux est démenti par sa routine sportive quotidienne."
+      }
+    },
+    "h22": {
+      "quote": "Das Fliegen ist zwar nützlich, aber meine wahre Leidenschaft und größte Freude bleibt der direkte Kontakt und das Heilen der Patienten.",
+      "whyCorrect": {
+        "de": "Falsch: Das Fliegen ist nur ein Werkzeug; die meiste Freude bereitet ihr das Heilen und der menschliche Kontakt.",
+        "ar": "خطأ: قيادة الطائرة مجرد وسيلة نقل بالنسبة لها، بينما سعادتها الحقيقية تكمن في مداواة المرضى والتواصل معهم.",
+        "fr": "Faux : L'aviation n'est qu'un moyen utile ; sa véritable joie réside dans les soins et la relation humaine."
+      },
+      "whyIncorrect": {
+        "de": "Richtig ist falsch, da das Heilen ihre Hauptfreude ist.",
+        "ar": "الخيار 'صحيح' خاطئ لأن مهنة الشفاء هي أولويتها ومتعتها الكبرى.",
+        "fr": "Vrai est faux car le soin aux malades reste sa priorité absolue."
+      }
+    },
+    "h23": {
+      "quote": "Renate Hölderlin: Bei meiner eigenen Trennung wusste ich am Anfang selbst nicht einmal genau, was eigentlich die wahren Ursachen waren.",
+      "whyCorrect": {
+        "de": "Lösung c (Renate Hölderlin): Frau Hölderlin schildert, dass ihr der tiefere Trennungsgrund anfangs unklar war.",
+        "ar": "الخيار (c) ريناته هولدرلين: توضح هولدرلين أن السبب الجوهري للطلاق لم يكن واضحًا بالنسبة لها في البداية.",
+        "fr": "Option c (Renate Hölderlin) : Mme Hölderlin confie qu'elle-même ne cernait pas clairement les causes de son divorce."
+      },
+      "whyIncorrect": {
+        "de": "a und b haben dies nicht über ihre persönliche Biografie geäußert.",
+        "ar": "الخيارات الأخرى لم تتحدث عن هذه التجربة الشخصية.",
+        "fr": "a et b n'ont pas fait ce témoignage personnel."
+      }
+    },
+    "h24": {
+      "quote": "Dr. Gustav Lange: Häufig entzünden sich die aggressiven Streitigkeiten zwischen Partnern vor allem an erbitterten finanziellen Sorgen und Auseinandersetzungen.",
+      "whyCorrect": {
+        "de": "Lösung b (Dr. Gustav Lange): Psychologe Lange analysiert finanzielle Nöte als Hauptursache für Wut auf den Ex-Partner.",
+        "ar": "الخيار (b) د. غوستاف لانغه: يشير الخبير النفسي إلى أن الضغوط المادية وتوزيع الأموال هي الشرارة الكبرى للغضب والنزاع.",
+        "fr": "Option b (Dr Gustav Lange) : Le Dr Lange identifie les difficultés financières comme le déclencheur majeur des rancœurs."
+      },
+      "whyIncorrect": {
+        "de": "a und c formulierten diese psychologische Feststellung nicht.",
+        "ar": "الخيارات الأخرى لم تقدم هذا التحليل التخصصي.",
+        "fr": "a et c n'ont pas développé cette analyse économique du conflit."
+      }
+    },
+    "h25": {
+      "quote": "Moderatorin: Aber beginnen denn nicht überraschend viele geschiedene Paare danach wieder ganz von vorn, oder bleiben sie in Bitterkeit gefangen?",
+      "whyCorrect": {
+        "de": "Lösung a (Moderatorin): Die Moderatorin wirft die Frage auf, warum viele Geschiedene keinen Neuanfang wagen.",
+        "ar": "الخيار (a) مقدمة البرنامج: المذيعة تطرح التساؤل حول عدم قدرة الكثيرين على فتح صفحة جديدة وبداية حياة أخرى بعد الانفصال.",
+        "fr": "Option a (l'animatrice) : La journaliste interroge le plateau sur l'incapacité de nombreux divorcés à repartir à zéro."
+      },
+      "whyIncorrect": {
+        "de": "b und c waren die Antwortenden auf diese Leitfrage.",
+        "ar": "الخيارات الأخرى كانت تجيب على تساؤل المذيعة.",
+        "fr": "b et c apportaient leurs réflexions en réponse à la question."
+      }
+    },
+    "h26": {
+      "quote": "Dr. Gustav Lange: In meiner therapeutischen Praxis erlebe ich täglich, welch tiefe seelische Wunden und psychische Schmerzen die Trennung bei den Kindern hinterlassen kann.",
+      "whyCorrect": {
+        "de": "Lösung b (Dr. Gustav Lange): Dr. Lange betont das schwere psychische Leiden vieler Scheidungskinder.",
+        "ar": "الخيار (b) د. غوستاف لانغه: يؤكد الطبيب النفسي على المعاناة النفسية والألم الداخلي الذي يكابده الأطفال عند انفصال الوالدين.",
+        "fr": "Option b (Dr Gustav Lange) : Le Dr Lange souligne la profonde souffrance psychique endurée par les enfants."
+      },
+      "whyIncorrect": {
+        "de": "a und c haben diese therapeutische Beobachtung nicht artikuliert.",
+        "ar": "الخيارات الأخرى لم تذكر هذه الملاحظة السريرية.",
+        "fr": "a et c n'ont pas exposé ce constat clinique."
+      }
+    },
+    "h27": {
+      "quote": "Renate Hölderlin: Mein Ex-Mann war beruflich fast das ganze Jahr unterwegs, den Kindern fehlte die Vaterfigur ungemein.",
+      "whyCorrect": {
+        "de": "Lösung c (Renate Hölderlin): Frau Hölderlin beklagt das ständige Fehlen des Vaters im Familienalltag.",
+        "ar": "الخيار (c) ريناته هولدرلين: تشرح أن غياب الأب الدائم بداعي العمل والسفر كان يترك فراغًا كبيرًا لدى أطفالها.",
+        "fr": "Option c (Renate Hölderlin) : Mme Hölderlin regrette les absences répétées du père qui manquait beaucoup aux enfants."
+      },
+      "whyIncorrect": {
+        "de": "a und b betraf diese Schilderung des Familienlebens nicht.",
+        "ar": "الخيارات الأخرى لم تدلِ بهذه التجربة العائلية المحددة.",
+        "fr": "a et b n'ont pas partagé cette expérience vécue."
+      }
+    },
+    "h28": {
+      "quote": "Dr. Gustav Lange: Das Wichtigste für ein gelingendes Auseinandergehen ist der ehrliche, offene Dialog, in dem alle Kränkungen ausgesprochen werden.",
+      "whyCorrect": {
+        "de": "Lösung b (Dr. Gustav Lange): Dr. Lange rät Paaren, sich bei einer Trennung über alle Probleme gründlich auszusprechen.",
+        "ar": "الخيار (b) د. غوستاف لانغه: ينصح الدكتور بالتصارح الكامل والحوار الشفاف بين الزوجين لتصفية المشاعر عند الطلاق.",
+        "fr": "Option b (Dr Gustav Lange) : Le praticien préconise une communication totale et sans tabou pour clarifier les griefs."
+      },
+      "whyIncorrect": {
+        "de": "a und c haben diesen therapeutischen Ratgeber-Hinweis nicht gegeben.",
+        "ar": "الخيارات الأخرى لم تقدم هذه النصيحة الإرشادية.",
+        "fr": "a et c n'ont pas formulé ce conseil thérapeutique."
+      }
+    },
+    "h29": {
+      "quote": "Dr. Gustav Lange: Wissenschaftliche Langzeitstudien belegen eindeutig: Zufriedene und glückliche Scheidungskinder sind keineswegs seltene Einzelfälle.",
+      "whyCorrect": {
+        "de": "Lösung b (Dr. Gustav Lange): Dr. Lange untermauert mit Studien, dass glückliche Scheidungskinder keine Einzelfälle sind.",
+        "ar": "الخيار (b) د. غوستاف لانغه: يؤكد بالأدلة العلمية أن نشأة أطفال سعداء ومستقرين بعد طلاق الوالدين ليست حالات نادرة أو معزولة.",
+        "fr": "Option b (Dr Gustav Lange) : Le Dr Lange s'appuie sur des études pour prouver que les enfants de divorcés épanouis ne sont pas des exceptions."
+      },
+      "whyIncorrect": {
+        "de": "a und c äußerten diesen statistischen Befund nicht.",
+        "ar": "الخيارات الأخرى لم تستشهد بالدراسات الإحصائية.",
+        "fr": "a et c n'ont pas fait référence à ces données scientifiques."
+      }
+    },
+    "h30": {
+      "quote": "Dr. Gustav Lange: Manchmal habe ich das Gefühl, dass nur noch Sonntagsredner und Politiker an das Idealbild der heilen Musterfamilie glauben.",
+      "whyCorrect": {
+        "de": "Lösung b (Dr. Gustav Lange): Dr. Lange kritisiert das weltfremde Familienideal mancher Politiker.",
+        "ar": "الخيار (b) د. غوستاف لانغه: ينتقد الدكتور لانغه تمسك بعض السياسيين بصورة وهمية ومثالية للأسرة التقليدية لا تطابق الواقع.",
+        "fr": "Option b (Dr Gustav Lange) : Le Dr Lange ironise sur l'illusion des discours politiques vantant une famille traditionnelle sans faille."
+      },
+      "whyIncorrect": {
+        "de": "a und c haben diesen pointierten Satz nicht geäußert.",
+        "ar": "الخيارات الأخرى لم تدلِ بهذا النقد السياسي.",
+        "fr": "a et c n'ont pas tenu ces propos ironiques sur le monde politique."
+      }
+    }
+  },
+  "translations": {
+    "parts": {
+      "1": {
+        "instructions": {
+          "ar": "اقرأ النص والمهام من 1 إلى 6. اختر: هل العبارات صحيحة أم خاطئة؟",
+          "fr": "Lisez le texte et les tâches 1 à 6 correspondantes. Choisissez : les affirmations sont-elles Vraies ou Fausses ?"
+        },
+        "articles": [
+          {
+            "heading": {
+              "ar": "جدراني الأربعة الخاصة بي",
+              "fr": "Mes quatre murs à moi"
+            },
+            "sub": {
+              "ar": "مساحة سكنية تنبض بالحياة – هذا هو الشعار لشقتي الصغيرة التي أصبحت ملكي الخاص منذ اليوم.",
+              "fr": "Un espace pour vivre – telle est la devise de mon petit appartement qui m'appartient depuis aujourd'hui."
+            },
+            "body": {
+              "ar": [
+                "مساحة سكنية تنبض بالحياة – هذا هو الشعار لشقتي الصغيرة التي أصبحت ملكي الخاص منذ اليوم. لقد ادخرتُ من أجلها لسنوات طويلة، والآن حانت اللحظة المنتظرة: 50 مترًا مربعًا أصبحت ملكي التام؛ مطبخ معيشة مع شرفة، وغرفة نوم، وحمام، وردهة صغيرة. ولكن لكي تصبح هذه الجدران حقًا بيتي الدافئ، لا يزال يتعين عليّ استثمار الكثير من المال والجهد فيها.",
+                "بعد تلك السنوات الفوضوية، أريد أن أُدخل الانسجام والسكينة إلى حياتي وإلى بيتي. منذ عدة أيام وأنا أتصفح شبكة الإنترنت بحثًا عن نصائح وأفكار ذكية لترتيب المساحات السكنية الضيقة، ودائمًا ما أصادف مفهوم 'الفينغ شوي' (Feng Shui). ورغم أنني لا أعلم يقينًا ما إذا كان ينجح حقًا، إلا أنني قررتُ تجربته الآن.",
+                "كلمتا 'فينغ' و'شوي' صينيتان وتعنيان حرفيًا 'الريح' و'الماء'. ويهدف هذا الفن إلى خلق التناغم بين الإنسان ومحيطه من خلال تصميم وتوزيع محدد للمساحات. فعندما تتدفق طاقة الحياة 'تشي' بسلاسة وبلا عوائق عبر الغرف، تتهيأ الشروط المثالية لأجواء مريحة وممتعة نحتاجها جميعًا للشعور بالراحة النفسية.",
+                "لو كنتُ أملك قصرًا، لكان من السهل جدًا تأثيثه وتوفير الأجواء المناسبة لكل ركن فيه، ولكن كيف يمكنني تطبيق ذلك في مساحة 50 مترًا مربعًا فقط؟ الأهم ألا تصبح الغرفة مكدسة بالأثاث على الإطلاق؛ فالقليل يعني الكثير! أحتاج إلى مساحة للتنفس ورؤية بصرية مفتوحة، وحينها فقط سأكون في أفضل حال. الأمر لن يكون بتلك الصعوبة، وبقليل من التفكير المنطقي سأحقق ذلك بالتأكيد.",
+                "في الفلسفة الصينية، تحظى العناصر ومجالات الطاقة بأهمية كبرى؛ ولدعم سريان طاقة الحياة، ينبغي التلاعب بالخامات والأشكال والألوان. وسأكون مقتصدًا للغاية في استخدام الديكورات، فالمساحة محدودة وأنا أميل للخطوط الواضحة المريحة. وبالطبع، فإن التوزيع الهندسي للغرف أمر جوهري، ولهذا قمت بدراسة المخطط بعناية.",
+                "مطبخ المعيشة يمتلك نافذة نحو الغرب وباب الشرفة يتجه نحو الجنوب، وهذه بداية ممتازة. لكن عليّ بالتأكيد وضع مظلة شمسية على الشرفة لتفادي الحرارة الشديدة صيفًا. أما غرفة النوم في الشرق فهي شبه مثالية؛ حيث سأستيقظ صباحًا بمزاج رائع مع خيوط الشمس الذهبية.",
+                "يمكنني تخيل كل تفصيلة بوضوح تام، وفي مخيلتي قمتُ بتأثيث الشقة بالكامل؛ ركن الجلوس المريح، والخزانة، ورفوف كتبي، وطاولة الطعام، كل شيء وجد مكانه المثالي. وفي النهاية، لا ينقصني سوى نبتة منزلية جميلة في أصيص، ولعل صديقتي ستهديني إياها بمناسبة الانتقال. رائع! لا أطيق الانتظار لبدء هذه المرحلة الجديدة!"
+              ],
+              "fr": [
+                "Un espace pour vivre – telle sera la devise de mon petit appartement qui m'appartient enfin depuis aujourd'hui. J'ai économisé pendant de longues années pour cela et le moment est enfin venu : 50 mètres carrés bien à moi, comprenant une cuisine-séjour avec balcon, une chambre, une salle de bains et un mini-couloir. Mais pour que cela devienne véritablement mon chez-moi, je dois encore y consacrer pas mal d'argent et d'efforts.",
+                "Après des années un peu chaotiques, je veux apporter de l'harmonie dans ma vie et dans mon intérieur. Depuis plusieurs jours, je surfe sur Internet à la recherche d'astuces pour petits espaces. Et je retombe sans cesse sur le Feng Shui. J'ignore si cela fonctionne vraiment, mais j'ai envie d'essayer !",
+                "Les mots « Feng » et « Shui » viennent du chinois et se traduisent par « vent » et « eau ». Grâce à un agencement précis des pièces, l'homme et son environnement entrent en résonance. Lorsque l'énergie vitale « Chi » circule librement à travers l'espace, cela crée les conditions indispensables au bien-être et à la sérénité au quotidien.",
+                "Aménager un palais serait facile, mais comment réussir cela sur seulement 50 mètres carrés ? La pièce ne doit en aucun cas être encombrée. Moins, c'est plus ! J'ai besoin d'air pour respirer et d'une perspective dégagée pour me sentir vraiment bien. Allez, ce n'est pas si sorcier : avec un peu de bon sens, je vais y arriver !",
+                "Dans la philosophie chinoise, les éléments naturels et les flux énergétiques sont prépondérants. Pour favoriser la circulation du Chi, il faut jouer sur les matières, les formes et les couleurs. Je serai sobre sur la décoration, car la place manque et je veux des lignes pures. L'orientation des pièces est également capitale : j'ai donc étudié le plan au sol avec attention.",
+                "La cuisine-séjour possède une fenêtre à l'ouest et la baie vitrée du balcon donne plein sud. C'est déjà une très bonne chose, même s'il me faudra impérativement installer un parasol pour les journées d'été. La chambre à l'est est quasi parfaite : les premiers rayons du soleil me mettront de bonne humeur dès le saut du lit.",
+                "Je visualise déjà parfaitement chaque détail dans ma tête : le coin salon douillet, l'armoire, les étagères pour mes livres, la table à manger... tout trouvera naturellement sa place. Il ne me manque finalement plus qu'une belle plante verte en pot. Peut-être que mon amie me l'offrira pour ma pendaison de crémaillère. Bingo ! J'ai tellement hâte d'y être !"
+              ]
+            }
+          }
+        ],
+        "example": {
+          "ar": {
+            "text": "المدون استأجر شقة جديدة.",
+            "answer": "falsch"
+          },
+          "fr": {
+            "text": "Le blogueur a loué un nouvel appartement.",
+            "answer": "falsch"
+          }
+        },
+        "questions": {
+          "1": {
+            "text": {
+              "ar": "قبل الانتقال للسكن يجب إنجاز الكثير من الأعمال.",
+              "fr": "Avant d'emménager, il reste encore beaucoup de travaux à faire."
+            }
+          },
+          "2": {
+            "text": {
+              "ar": "الإنترنت لا يعمل منذ عدة أيام.",
+              "fr": "La connexion Internet ne fonctionne plus depuis plusieurs jours."
+            }
+          },
+          "3": {
+            "text": {
+              "ar": "تأثيث وتصميم الغرفة يهدف إلى توفير الراحة والشعور بالسكينة.",
+              "fr": "L'aménagement de la pièce doit inviter au bien-être."
+            }
+          },
+          "4": {
+            "text": {
+              "ar": "المدون يملك الكثير جدًا من الأثاث.",
+              "fr": "Le blogueur possède beaucoup trop de meubles."
+            }
+          },
+          "5": {
+            "text": {
+              "ar": "الشرفة تقع في جهة الشمال.",
+              "fr": "Le balcon se situe au nord."
+            }
+          },
+          "6": {
+            "text": {
+              "ar": "يأمل المدون في الحصول على نبتة كهدية بمناسبة الانتقال للشقة.",
+              "fr": "Le blogueur espère recevoir une plante en cadeau pour son installation."
+            }
+          }
+        }
+      },
+      "2": {
+        "instructions": {
+          "ar": "اقرأ النص المأخوذ من الصحافة والمهام من 7 إلى 9. اختر الحل الصحيح: أ، أو ب، أو ج.",
+          "fr": "Lisez le texte issu de la presse et les tâches 7 à 9. Choisissez la bonne réponse : a, b ou c."
+        },
+        "instructions2": {
+          "ar": "اقرأ النص المأخوذ من الصحافة والمهام من 10 إلى 12. اختر الحل الصحيح: أ، أو ب، أو ج.",
+          "fr": "Lisez le texte issu de la presse et les tâches 10 à 12. Choisissez la bonne réponse : a, b ou c."
+        },
+        "articles": [
+          {
+            "heading": {
+              "ar": "مبادرة K-Einbruch: حملة وطنية ضد السطو على المنازل",
+              "fr": "K-Einbruch : Campagne nationale contre les cambriolages"
+            },
+            "sub": {
+              "ar": "الشرطة وشركاؤها في القطاع الاقتصادي يطلقون حملة توعية واسعة ويستحدثون 'يوم الحماية من السطو'.",
+              "fr": "La police et ses partenaires économiques lancent une vaste campagne et instaurent la « Journée de la protection contre le cambriolage »."
+            },
+            "body": {
+              "ar": [
+                "أشار بيان صحفي صادر عن الوزارة إلى أنه بعد سنوات طويلة من التراجع الملحوظ، عادت أعداد جرائم اقتحام المنازل للارتفاع مجددًا. وتقدر الأضرار الناجمة سنويًا عن السرقات بنحو 600 مليون يورو؛ ولهذا السبب أصبح ملف الحماية من السطو يمثل مجددًا أولوية قصوى ومحورًا رئيسيًا في عمل إدارة الوقاية من الجريمة لدى أجهزة الشرطة، بهدف زيادة وعي ويقظة المواطنين بصورة أكثر كثافة من أي وقت مضى.",
+                "إن حادثة اقتحام المنزل قد تزعزع الشعور بالأمان والاستقرار النفسي لدى الضحايا بشكل دائم وعميق؛ فالأمر لا يقتصر فقط على الخسائر المادية المباشرة، بل يمتد في كثير من الأحيان ليخلف أعباء وصدمات نفسية مستمرة. فالجناة ينتهكون الخصوصية الشخصية للمنزل، ويعبثون بأكثر الأغراض حميمية، ويسرقون مقتنيات قد ترتبط بها ذكريات عمر لا تعوض بثمن.",
+                "ولتحديد موعد رمزي لانطلاق هذه المبادرة، تم استحداث 'يوم الحماية من السطو'. وتحت شعار 'ساعة إضافية من أجل أمان أكبر'، يقام هذا اليوم سنويًا بالتزامن مع موعد تغيير التوقيت الشتوي في أوروبا الوسطى عندما تنتهي فترة التوقيت الصيفي – وكانت انطلاقته الأولى في 28 أكتوبر 2012. وتدعو المبادرة المواطنين لاستغلال تلك الساعة الإضافية المكتسبة للاطلاع على إرشادات الأمان وتطبيق توصيات الوقاية في حياتهم اليومية: K-Einbruch!"
+              ],
+              "fr": [
+                "Dans un communiqué officiel, le ministère a souligné qu'après des années de baisse continue, le nombre de cambriolages est de nouveau en hausse. Le préjudice annuel causé par ces infractions s'élève à environ 600 millions d'euros. C'est pourquoi la sécurisation des logements redevient une priorité majeure pour la prévention criminelle de la police, dont le but est de sensibiliser le public plus intensément que par le passé.",
+                "Un cambriolage porte souvent une atteinte durable au sentiment de sécurité et au bien-être psychologique des personnes touchées : au-delà des pertes matérielles, les victimes subissent fréquemment des traumatismes psychiques prolongés. Les malfaiteurs pénètrent dans l'intimité, fouillent les affaires les plus personnelles et dérobent des objets chargés de souvenirs irremplaçables.",
+                "Pour marquer le coup d'envoi de l'initiative, la « Journée de la protection contre le cambriolage » a été instituée. Sous la devise « Une heure de plus pour plus de sécurité », elle a lieu chaque année lors du passage à l'heure d'hiver en Europe centrale – inaugurée le 28 octobre 2012. Les citoyens sont invités à mettre à profit cette heure supplémentaire pour s'informer sur les mesures de sécurité et les appliquer chez eux : K-Einbruch !"
+              ]
+            }
+          }
+        ],
+        "example": {
+          "ar": {
+            "text": "مبادرة K-Einbruch...",
+            "options": [
+              "تؤكد تراجع السرقات.",
+              "فكرة من شركاء القطاع الاقتصادي فقط.",
+              "تمثل حملة وإجراءات ضد السطو على المنازل."
+            ],
+            "answer": 2
+          },
+          "fr": {
+            "text": "L'opération K-Einbruch...",
+            "options": [
+              "confirme la baisse des cambriolages.",
+              "est une simple idée de partenaires privés.",
+              "désigne une action de lutte contre les cambriolages."
+            ],
+            "answer": 2
+          }
+        },
+        "questions": {
+          "7": {
+            "text": {
+              "ar": "الهدف الرئيسي من المبادرة هو...",
+              "fr": "Le but de cette initiative est..."
+            },
+            "options": {
+              "ar": [
+                "توعية ولفت انتباه السكان والمواطنين.",
+                "تسهيل عمل الشرطة فقط.",
+                "حل وفك ألغاز المزيد من الجرائم."
+              ],
+              "fr": [
+                "d'attirer l'attention de la population.",
+                "de faciliter la tâche de la police.",
+                "d'élucider davantage de cambriolages."
+              ]
+            }
+          },
+          "8": {
+            "text": {
+              "ar": "تتسبب جرائم السطو في...",
+              "fr": "Les cambriolages provoquent..."
+            },
+            "options": {
+              "ar": [
+                "أضرار بالغة في هيكل المنزل.",
+                "مشكلات واضطرابات نفسية غالبًا.",
+                "خسائر بشرية وإصابات شخصية."
+              ],
+              "fr": [
+                "des dégâts au bâtiment.",
+                "souvent des troubles psychologiques.",
+                "des victimes physiques."
+              ]
+            }
+          },
+          "9": {
+            "text": {
+              "ar": "'يوم الحماية من السطو'...",
+              "fr": "La « Journée de la protection contre le cambriolage »..."
+            },
+            "options": {
+              "ar": [
+                "يحتفل به كعيد في وسط أوروبا.",
+                "يستغله المواطنون للاستجمام والراحة.",
+                "أصبح موجودًا في ألمانيا منذ عام 2012."
+              ],
+              "fr": [
+                "est fêtée dans toute l'Europe centrale.",
+                "est utilisée par les citoyens pour se détendre.",
+                "existe en Allemagne depuis 2012."
+              ]
+            }
+          }
+        },
+        "articles2": [
+          {
+            "heading": {
+              "ar": "اطبخ بنفسك (COOKST DU!) – نفس جديد في فنون الطهي",
+              "fr": "COOKST DU ! – Un souffle nouveau dans l'art culinaire"
+            },
+            "sub": {
+              "ar": "عنوان جديد لعشاق التذوق وفنون الطهي يثري منطقة راين-نيكّار: مدرسة الطبخ في إبلهيم.",
+              "fr": "Une nouvelle adresse pour les gastronomes et amateurs de cuisine dans la région Rhin-Neckar : l'école de cuisine d'Eppelheim."
+            },
+            "body": {
+              "ar": [
+                "مدرسة الطهي 'COOKST DU!' في إبلهيم بالقرب من هايدلبرغ تواكب أحدث الصيحات؛ فالطبخ شغف وتجربة فريدة، ومتعة وبهجة حياة، وإبداع وثقافة. وكل هذه المعاني تود المدرسة تقريبها ليس فقط لهواة الطبخ المحترفين، بل للجميع.",
+                "ويتضمن البرنامج أطباقًا إقليمية مميزة من مختلف بلدان العالم، إلى جانب فنون الطبخ الراقية المعاصرة، فضلاً عن ورش عمل متخصصة في المقبلات الخفيفة (Fingerfood)، وفنون الطهي الجزيئي (الموضة الجديدة في عالم الطبخ)، والحلويات الشهية. كما يجد المبتدئون نصيبهم الوافر؛ فمن لا يجرؤ بعد على إعداد قائمة طعام فاخرة ويرغب في البداية في تعلم الأساسيات، يمكنه الالتحاق بدورة المبتدئين أو ورشة الشواء أو دورة 'عشاء لشخصين'.",
+                "وللصغار، يُخصص سبت واحد شهريًا لا يتعلمون فيه فقط كيفية التعرف على إكليل الجبل والبقدونس والريحان في حديقة الأعشاب، ولا الروائح والألوان المميزة للتوابل أو تقشير البطاطس، بل يكتشفون قبل كل شيء أن الطهي متعة حقيقية ومرح رائع.",
+                "وتعتبر مدرسة الطبخ في إبلهيم أيضًا العنوان المثالي للمناسبات والفعاليات؛ سواء في عروض الطهي الحي احتفالاً بعيد الميلاد الخمسين أو جلسات الطهي المشترك في لقاءات زملاء العمل والشركات، حيث تمنح الفعاليات إطارًا مميزًا لا يُنسى."
+              ],
+              "fr": [
+                "L'école de cuisine « COOKST DU ! » à Eppelheim près de Heidelberg est pile dans l'air du temps. La cuisine est une passion, une expérience conviviale, un plaisir et une culture que l'école souhaite faire découvrir bien au-delà du cercle des passionnés.",
+                "Les cuisines régionales du monde entier sont au programme, tout comme la haute gastronomie moderne, des ateliers d'amuse-bouches (finger food), la cuisine moléculaire en plein essor ou les douceurs sucrées. Les néophytes ne sont pas en reste : pour acquérir les bases avant de s'attaquer à des menus étoilés, des cours d'initiation, des ateliers barbecue ou la formule « dîner pour deux » sont parfaitement adaptés.",
+                "Pour les plus jeunes, un samedi par mois leur est réservé : ils y apprennent à reconnaître le romarin, le persil ou le basilic au jardin aromatique, à sentir les épices et à éplucher les légumes, le tout dans une ambiance ludique et réjouissante.",
+                "L'école est aussi l'adresse parfaite pour les événements : show culinaire pour un cinquantième anniversaire ou atelier de team building entre collègues, elle offre un cadre original et convivial à chaque festivité."
+              ]
+            }
+          }
+        ],
+        "questions2": {
+          "10": {
+            "text": {
+              "ar": "مشروع COOKST DU!...",
+              "fr": "COOKST DU !..."
+            },
+            "options": {
+              "ar": [
+                "هو عنوان جديد يقع في مدينة هايدلبرغ.",
+                "هو مدرسة طهي من نوع مبتكر وعصري.",
+                "هو اسم مطعم فاخر جديد في إبلهيم."
+              ],
+              "fr": [
+                "est une nouvelle adresse à Heidelberg.",
+                "est une école de cuisine d'un genre novateur.",
+                "est le nom d'un nouveau restaurant à Eppelheim."
+              ]
+            }
+          },
+          "11": {
+            "text": {
+              "ar": "مرة واحدة كل شهر...",
+              "fr": "Une fois par mois..."
+            },
+            "options": {
+              "ar": [
+                "يفتح المطبخ أبوابه مخصصًا للأطفال.",
+                "يأتي طهاة عالميون لتقديم عروضهم.",
+                "يتعلم المشتركون إعداد وجبات المطاعم الحاصلة على نجوم ميشلان."
+              ],
+              "fr": [
+                "la cuisine s'ouvre spécialement aux enfants.",
+                "de grands chefs étoilés interviennent.",
+                "on apprend à préparer des menus étoilés."
+              ]
+            }
+          },
+          "12": {
+            "text": {
+              "ar": "يمكن للمرء هناك...",
+              "fr": "On peut..."
+            },
+            "options": {
+              "ar": [
+                "المساعدة في أعمال المطبخ وغسيل الأواني.",
+                "أخذ وجبات جاهزة إلى المنزل.",
+                "إقامة وتنظيم الاحتفالات والمناسبات."
+              ],
+              "fr": [
+                "aider à la préparation en cuisine.",
+                "emporter des plats à domicile.",
+                "y organiser et fêter des réceptions."
+              ]
+            }
+          }
+        }
+      },
+      "3": {
+        "instructions": {
+          "ar": "اقرأ المواقف من 13 إلى 19 والإعلانات من A إلى J. أي إعلان يناسب أي موقف؟ يمكنك استخدام كل إعلان مرة واحدة فقط. إذا لم يكن هناك إعلان مناسب، اختر X.",
+          "fr": "Lisez les situations 13 à 19 et les annonces A à J. Quelle annonce correspond à quelle situation ? Vous ne pouvez utiliser chaque annonce qu'une seule fois. Si aucune annonce ne convient, choisissez X."
+        },
+        "example": {
+          "ar": {
+            "text": "تخرج جوليان من الثانوية عام 1987 ويرغب في تنظيم حفل لقاء زملاء الدراسة ويبحث عن موسيقى رقص مناسبة.",
+            "answer": "C"
+          },
+          "fr": {
+            "text": "Julian a eu son bac en 1987 et organise une réunion d'anciens élèves. Il cherche de la musique de danse adaptée.",
+            "answer": "C"
+          }
+        },
+        "ads": {
+          "A": {
+            "ar": "مدرسة الرقص فولفغانغ شون (Wolfgang Schön): المدرسة التي لا يرسب فيها أحد! روك أند رول، سالسا، حفلات ديسكو. ميونخ.",
+            "fr": "École de danse Wolfgang Schön : L'école où personne ne reste sur la touche ! Rock'n'roll, salsa, soirées disco. Munich."
+          },
+          "B": {
+            "ar": "مطعم تسوم هيرش (Zum Hirsch): مطعم عريق في شتوتغارت-فويرباخ يبحث فورًا عن مساعد مطبخ بمعدل 2-3 فترات بعد الظهر أسبوعيًا.",
+            "fr": "Auberge Zum Hirsch : Restaurant réputé à Stuttgart-Feuerbach cherche aide de cuisine 2 à 3 après-midis par semaine."
+          },
+          "C": {
+            "ar": "دي جي ذو خبرة يملك تجهيزاته الموسيقية الخاصة: يعزف أغانيكم المفضلة من الخمسينيات إلى التسعينيات لجميع الحفلات والمناسبات.",
+            "fr": "DJ expérimenté avec sono complète : joue tous vos titres préférés des années 50 aux années 90 pour vos réceptions."
+          },
+          "D": {
+            "ar": "بيانو أو جناح بيانو مستعمل للبيع من طلاب موسيقى بسعر ملائم ومغري للغاية.",
+            "fr": "Piano droit ou à queue à vendre par des étudiants en musique à prix très avantageux."
+          },
+          "E": {
+            "ar": "خدمة الفعاليات 'Das Gelbe vom Ei': تأجير أطباق، طاولات ومقاعد، خيام، ومظلات شمسية للحفلات العائلية واحتفالات الحدائق.",
+            "fr": "Service réceptions « Das Gelbe vom Ei » : Location de vaisselle, mobilier, tentes et parasols pour fêtes de jardin."
+          },
+          "F": {
+            "ar": "مطعم وبيتزا دا فرانكو (Da Franco): احتفال العيد الإيطالي مع موسيقى حية ومأكولات إيطالية، والدخول مجاني. أسعار مناسبة للجميع.",
+            "fr": "Pizzeria Da Franco : Fête italienne avec musique live et spécialités culinaires, entrée gratuite."
+          },
+          "G": {
+            "ar": "استيراد وتوزيع النبيذ الإيطالي الفاخر من المنتجين مباشرة. شتوتغارت.",
+            "fr": "Importation de vins italiens sélectionnés directement chez les vignerons."
+          },
+          "H": {
+            "ar": "سيلفر بار (SILBER BAR): كباريه وبار سينما، عروض رقص وأفلام وسهر حتى الخامسة فجرًا من الاثنين إلى السبت.",
+            "fr": "SILBER BAR : Cabaret et bar-cinéma, shows de danse, ouvert de 21h à 5h du matin."
+          },
+          "I": {
+            "ar": "مهرجان أكتوبر في ميونخ: كتاب مصور قيم للمؤلف راينر بومهارت يقدم جولة كاملة في تاريخ وأجواء المهرجان مع 85 صورة ملونة.",
+            "fr": "« Fête de la bière de Munich » : Le livre complet illustré de 85 photos couleur pour tout savoir sur l'Oktoberfest."
+          },
+          "J": {
+            "ar": "مصور فوتوغرافي محترف: تصوير الأعراس، والعماد، واحتفالات الشركات واللقاءات التذكارية بأعلى درجات الاحتراف.",
+            "fr": "Photographe professionnel : Reportages pour mariages, baptêmes et fêtes d'entreprise."
+          }
+        },
+        "questions": {
+          "13": {
+            "text": {
+              "ar": "اجتاز لينهارد امتحانه الجامعي ويرغب في قضاء الليلة بأكملها في السهر والاحتفال بالخارج.",
+              "fr": "Leonhard a réussi son examen universitaire et veut sortir faire la fête toute la nuit."
+            }
+          },
+          "14": {
+            "text": {
+              "ar": "في عطلة نهاية الأسبوع يريد سارة وتوبياس الاحتفال بنهاية العام الدراسي ويبحثان عن مكان لتناول طعام رخيص معًا.",
+              "fr": "Sarah et Tobias fêtent la fin de l'année scolaire ce week-end et cherchent un endroit pas cher pour manger."
+            }
+          },
+          "15": {
+            "text": {
+              "ar": "يرغب الوالدان في إقامة حفل صيفي بالحديقة ويبحثان عن أماكن للجلوس وأطباق وكؤوس للإيجار.",
+              "fr": "Les parents organisent une fête estivale au jardin et cherchent à louer des sièges, assiettes et verres."
+            }
+          },
+          "16": {
+            "text": {
+              "ar": "تخطط العائلة لزيارة مهرجان أكتوبر وترغب في الحصول على معلومات شاملة ومصورة عنه.",
+              "fr": "La famille prévoit d'aller à la fête de la bière et cherche à se renseigner dessus."
+            }
+          },
+          "17": {
+            "text": {
+              "ar": "الوالدان يحبان الرقص ويرغبان أيضًا في تعلم بعض الرقصات الحديثة.",
+              "fr": "Les parents aiment danser et souhaitent apprendre quelques danses modernes."
+            }
+          },
+          "18": {
+            "text": {
+              "ar": "يجب على الأطفال مرافقة العائلة بالعزف على البيانو أثناء الغناء، وتبحث الأسرة عن آلة موسيقية بسعر مناسب.",
+              "fr": "Les enfants doivent accompagner la famille au piano lors des chants : ils cherchent un instrument bon marché."
+            }
+          },
+          "19": {
+            "text": {
+              "ar": "يريد الأبناء إهداء الوالدين رحلة إلى البندقية بمناسبة اليوبيل الفضي لزواجهما ويبحثون عن عرض مناسب.",
+              "fr": "Les enfants veulent offrir un voyage à Venise à leurs parents pour leurs noces d'argent et cherchent une offre."
+            }
+          }
+        }
+      },
+      "4": {
+        "instructions": {
+          "ar": "اقرأ النصوص من 20 إلى 26. اختر: من من هؤلاء الأشخاص يقول إن تعدد المهام (Multitasking) يسبب الغباء وتراجع الذكاء؟",
+          "fr": "Lisez les textes 20 à 26. Choisissez : quelles personnes affirment que le multitâche rend stupide ?"
+        },
+        "topic": {
+          "ar": "آراء القراء حول مقال في إحدى الصحف عن تعدد المهام بعنوان 'القيام بالكثير من الأشياء في آن واحد يسبب المرض'...",
+          "fr": "Courriers de lecteurs sur un article consacré au multitâche intitulé « Faire trop de choses à la fois rend malade »..."
+        },
+        "example": {
+          "who": "باولسن، 48 عامًا، هامبورغ / Paulsen, 48, Hamburg",
+          "text": {
+            "ar": "أين تعيشين حقًا يا سيدة ميرتنز؟ في أي عصر توقفتِ لتزعُمي أن الناس لا يصابون بالإرهاق فحسب بل يصبحون أكثر غباءً عند القيام بعدة مهام في نفس الوقت؟ بهذا الادعاء أنتِ تفقدين مصداقيتك؛ فأنا لا أعرف أي دار نشر أو صحيفة تعمل بنمط خطي مجزأ.",
+            "fr": "Mais où vivez-vous donc, Mme Mertens ? À quelle époque êtes-vous restée pour prétendre que faire plusieurs choses à la fois abrutit les gens ? Vous perdez toute crédibilité : je ne connais aucune rédaction moderne qui travaille de façon purement séquentielle."
+          },
+          "answer": "nein"
+        },
+        "letters": {
+          "20": {
+            "who": "أوبرماير، 51 عامًا، لينتس / Obermeier, 51, Linz",
+            "text": {
+              "ar": "من يقوم باستمرار بعدة مهام معًا يغامر بصحته؛ فتعدد المهام والضغط المتواصل سموم للراحة النفسية. ويعمل الأطباء النفسيون بأساليب علاجية جديدة لعلاج المرضى. لكن هذا لا يعكس أبدًا أي نقص في مستوى الذكاء، فهذا استنتاج مبالغ فيه جدًا!",
+              "fr": "Faire constamment plusieurs choses en même temps est dangereux pour la santé et le stress chronique est un poison. Les psychologues s'y attaquent avec de nouvelles thérapies. Mais cela ne dit absolument rien sur l'intelligence : ce raccourci va bien trop loin !"
+            }
+          },
+          "21": {
+            "who": "ستيلا ب.، 34 عامًا، باساو / Stella B., 34, Passau",
+            "text": {
+              "ar": "أعتقد أن نتائج أبحاث الدماغ دقيقة وصحيحة؛ فعندما تفعل الكثير في وقت واحد لا يمكنك التعمق في أي موضوع. وتكون النتيجة في أحسن الأحوال معرفة مبتورة وسطحية، أو ربما لا يفهم المرء أي شيء في النهاية. من البديهي أن يحقق المرء نتائج أفضل عندما يركز على أمر واحد فقط.",
+              "fr": "Je pense que les neurosciences ont raison : quand on s'éparpille sur plein de tâches à la fois, on n'approfondit rien. Le résultat est au mieux du demi-savoir, voire une ignorance totale. Il est évident qu'on est bien plus performant en se concentrant sur une seule chose."
+            }
+          },
+          "22": {
+            "who": "بيرنهارد، 32 عامًا، راستات / Bernhard, 32, Rastatt",
+            "text": {
+              "ar": "كما جاء في المقال، يمكن للمرء إجراء فحص ذاتي لاسترخاء الجسد أثناء القيادة دون تردد. وهذا يثبت أننا لا نفقد قدرتنا على التفكير السليم لمجرد القيام بأكثر من عمل متزامن. فالقيادة بحد ذاتها عملية معقدة للغاية، وإضافة تمارين الاسترخاء إليها تساعد كثيرًا في الرحلات الطويلة.",
+              "fr": "Comme le décrit l'article, on peut pratiquer un scan corporel de relaxation tout en conduisant sans danger. Cela prouve bien que nous ne perdons pas nos facultés de réflexion en accomplissant plusieurs tâches simultanées. Conduire est complexe et s'y détendre aide sur long trajet."
+            }
+          },
+          "23": {
+            "who": "بيكر، 54 عامًا، هوسوم / Becker, 54, Husum",
+            "text": {
+              "ar": "بصفتي معلمة، أرى أن تعدد المهام هو السبب المباشر للتراجع التدريجي في ذكاء البشرية. فعندما أرى طلابي يشاهدون التلفزيون ويتحدثون بالهاتف مع الأصدقاء ويجرون محادثات على الحاسوب ويحلون واجباتهم المدرسية في نفس الوقت، لا أتعجب إطلاقًا من تدهور درجاتهم ومستواهم.",
+              "fr": "En tant qu'enseignante, je tiens le multitâche pour le responsable de l'abrutissement progressif de l'humanité. Quand j'entends mes élèves téléphoner devant la télé tout en tchatant sur ordinateur et en bâclant leurs devoirs, je ne m'étonne plus de leurs mauvais résultats."
+            }
+          },
+          "24": {
+            "who": "فريدريكس، 29 عامًا، فيتراو / Friedrichs, 29, Wetterau",
+            "text": {
+              "ar": "أجد من المثير للاهتمام أنه يمكن من خلال تمارين اليقظة الذهنية، والتي تمثل في جوهرها تمارين تركيز، مساعدة الأشخاص المرهقين على استعادة وظائف أدمغتهم. ثلاثون دقيقة يوميًا كفيلة بإحداث تغيرات ملموسة في نشاط الدماغ؛ وبذلك تعتبر اليقظة وسيلة علاجية ضد أضرار تعدد المهام.",
+              "fr": "Je trouve fascinant qu'avec des exercices de pleine conscience, qui sont de purs entraînements de concentration, on puisse restaurer les fonctions cognitives altérées. Trente minutes par jour suffisent à réparer les méfaits cérébraux du multitâche."
+            }
+          },
+          "25": {
+            "who": "غينترر، 26 عامًا، زيورخ / Ginterer, 26, Zürich",
+            "text": {
+              "ar": "شكرًا جزيلاً على هذا المقال الرائع! سأضعه غدًا في الصباح الباكر على مكتب مديري في العمل، حتى أتمكن من الدفاع عن نفسي والاعتراض عندما يطلب مني إنجاز كل شيء في لحظة واحدة؛ فهو بالتأكيد لا يريد لي أن أصبح بلهاء وفاقدة للعقل!",
+              "fr": "Merci pour cet article remarquable ! Dès demain, je le poserai sur le bureau de mon chef. Je pourrai ainsi me défendre quand il exige tout en même temps. Il ne peut tout de même pas souhaiter que je devienne complètement idiote !"
+            }
+          },
+          "26": {
+            "who": "فينزل، 38 عامًا، نورنبرغ / Wenzel, 38, Nürnberg",
+            "text": {
+              "ar": "أنا أم لأربعة أطفال، وأدرك جيدًا معنى تعدد المهام؛ إنه يعني قبل كل شيء الضغط الشديد. وللسيطرة على هذه المجموعة المشاغبة، يتعين عليّ باستمرار القيام بكل الأشياء في آن واحد. وأرى من الوقاحة التشكيك في مستوى ذكائي بسبب ذلك؛ بل على العكس تمامًا، هذا جعلني أكثر مرونة وابتكارًا.",
+              "fr": "Je suis mère de quatre enfants et je sais pertinemment ce que signifie le multitâche : cela veut dire du stress. Pour gérer ma petite bande, je dois faire mille choses à la fois. Trouver insultant qu'on mette en doute mon quotient intellectuel est un comble : cela me rend au contraire plus inventive."
+            }
+          }
+        }
+      },
+      "5": {
+        "instructions": {
+          "ar": "اقرأ المهام من 27 إلى 30 والنص المرفق حول قواعد السلوك على الإنترنت (Netiquette). اختر الحل الصحيح: أ، أو ب، أو ج.",
+          "fr": "Lisez les tâches 27 à 30 et le texte sur la nétiquette de Joachim Astel. Choisissez la bonne réponse : a, b ou c."
+        },
+        "articles": [
+          {
+            "heading": {
+              "ar": "قواعد السلوك على الإنترنت (Netiquette) للمؤلف يواخيم أستل",
+              "fr": "La nétiquette par Joachim Astel"
+            },
+            "sub": {
+              "ar": "إليكم بعض النصائح لكيفية استخدام شبكة الإنترنت بكفاءة وتهذيب بما يضمن رضا الجميع.",
+              "fr": "Voici quelques conseils pour utiliser le net avec efficacité, politesse et respect mutuel."
+            },
+            "body": {
+              "ar": [
+                "1. انتبه لجمهور القراء! تذكر دائمًا أن هناك إنسانًا من لحم ودم يجلس على الطرف الآخر من الشاشة. توخَّ الحذر الشديد عند استخدام الفكاهة والتهكم. والقاعدة الذهبية البسيطة هي: لا تكتب أبدًا ما لا تجرؤ على قوله في وجه المتلقي أمام الناس جميعًا.",
+                "2. كن موجزًا وواضحًا، ولا تهمل تنسيق مظهر مقالك! اعتنِ بنوع الخط وحجمه، وضع تقسيمًا وتنظيمًا مرتبًا؛ باختصار: صمم شكل التنسيق واحرص على الدقة اللغوية والإملائية.",
+                "3. استخدم رسائل البريد الإلكتروني (Mails) حيثما أمكن! إذا أردت إبلاغ كاتب مقال بشيء خاص أو ملحوظة، فكر جيدًا ما إذا كانت رسالة بريد بسيطة تكفي بدلاً من كتابة تعليق علني عام.",
+                "4. راعِ القوانين والأنظمة التشريعية! يُسمح قانونًا بنشر اقتباسات ومقتطفات قصيرة من المصنفات المحمية بحقوق النشر بغرض التوضيح والمعلومات، وأي تجاوز لذلك يعد غير قانوني. كما يُحظر تمامًا التحريض على الجرائم لفظيًا أو بالصور أو تقديم إرشادات لتنفيذها.",
+                "5. هل تخاطب بـ 'أنت' (du) أم بـ 'حضرتك' (Sie)؟ لا توجد قاعدة عامة ملزمة في هذا الشأن، ولكن جرى العرف السائد في المنتديات والشبكات على مخاطبة الآخرين بصيغة الكلفة البسيطة 'أنت' (du)."
+              ],
+              "fr": [
+                "1. Respectez vos lecteurs ! N'oubliez jamais qu'un être humain est assis derrière l'autre écran. Maniez l'humour et le sarcasme avec grande prudence. Règle d'or : n'écrivez jamais ce que vous ne diriez pas en face à votre interlocuteur devant témoins.",
+                "2. Soyez concis ! Ne négligez pas la présentation de vos messages : choisissez une police lisible, aérez les paragraphes, soignez la mise en page et veillez à l'exactitude de l'orthographe.",
+                "3. Privilégiez le courriel direct dès que possible ! Si vous souhaitez faire une remarque personnelle à l'auteur d'un article, demandez-vous si un simple e-mail privé n'est pas plus approprié qu'un commentaire public.",
+                "4. Respectez la législation ! Il est parfaitement légal de citer de courts extraits d'œuvres protégées à titre informatif. Tout ce qui dépasse ce cadre est illégal. Il est tout aussi répréhensible d'inciter à des délits par les mots ou l'image.",
+                "5. Tutoiement ou vouvoiement ? Il n'existe pas de règle absolue en allemand, mais l'usage informel du tutoiement (« du ») s'est largement imposé sur les réseaux."
+              ]
+            }
+          }
+        ],
+        "example": {
+          "ar": {
+            "text": "قواعد النيتيكيت تقدم إرشادات للتعامل المهذب في الفضاء الرقمي.",
+            "answer": "richtig"
+          },
+          "fr": {
+            "text": "La nétiquette propose des règles de bienséance pour le monde numérique.",
+            "answer": "richtig"
+          }
+        },
+        "questions": {
+          "27": {
+            "text": {
+              "ar": "قواعد النيتيكيت (Netiquette)...",
+              "fr": "La nétiquette..."
+            },
+            "options": {
+              "ar": [
+                "تمثل وتقدم قواعد للتعامل في الفضاء الرقمي.",
+                "تعطي توجيهات سلوكية للحياة اليومية العامة.",
+                "تقدم نصائح حول كيفية تسريع الاتصالات وسرعة النت."
+              ],
+              "fr": [
+                "établit des règles de conduite sur le réseau Internet.",
+                "fournit des conseils pour le quotidien hors ligne.",
+                "donne des astuces pour communiquer plus vite."
+              ]
+            }
+          },
+          "28": {
+            "text": {
+              "ar": "النصوص والمشاركات المكتوبة ذاتيًا...",
+              "fr": "Les textes personnels rédigés..."
+            },
+            "options": {
+              "ar": [
+                "يُسمح بأن تستخدم لغة شديدة التراخي والعامية.",
+                "يجب الحصول على موافقة مسبقة عليها.",
+                "ينبغي أن تراعي دائمًا مشاعر واحترام القارئ."
+              ],
+              "fr": [
+                "peuvent employer un langage très familier.",
+                "doivent faire l'objet d'une autorisation.",
+                "doivent toujours prendre en considération le lecteur."
+              ]
+            }
+          },
+          "29": {
+            "text": {
+              "ar": "يعتبر...",
+              "fr": "Il est..."
+            },
+            "options": {
+              "ar": [
+                "غير قانوني نسخ نصوص أخرى كليًا.",
+                "مسموحًا قانونًا استخدام الاقتباسات والمقتطفات القصيرة.",
+                "محظورًا الكتابة عن الجرائم المرتكبة."
+              ],
+              "fr": [
+                "illégal de copier d'autres textes.",
+                "autorisé d'utiliser de courtes citations.",
+                "interdit d'évoquer des crimes passés."
+              ]
+            }
+          },
+          "30": {
+            "text": {
+              "ar": "ينبغي استخدام رسائل البريد الإلكتروني (Mails)...",
+              "fr": "On devrait utiliser le courriel..."
+            },
+            "options": {
+              "ar": [
+                "عند الكتابة إلى الأصدقاء المقربين فقط.",
+                "للتواصل المباشر والخاص مع كاتب المقال.",
+                "إذا تعطل حقل التعليقات العام."
+              ],
+              "fr": [
+                "uniquement lorsqu'on écrit à des amis.",
+                "pour entrer en contact direct avec l'auteur.",
+                "lorsque la zone de commentaire est en panne."
+              ]
+            }
+          }
+        }
+      },
+      "6": {
+        "instructions": {
+          "ar": "يتكون قسم الاستماع من أربعة أجزاء. ستستمع إلى عدة نصوص وتقوم بحل المهام المرتبطة بها. لكل مهمة إجابة صحيحة واحدة فقط.",
+          "fr": "Le module Compréhension orale se compose de quatre parties. Vous écouterez plusieurs enregistrements et répondrez aux questions associées. Pour chaque tâche, il n'y a qu'une seule bonne réponse."
+        },
+        "teile": {
+          "1": {
+            "title": {
+              "ar": "خمسة نصوص قصيرة · المهام من 1 إلى 10",
+              "fr": "Cinq enregistrements courts · Tâches 1 à 10"
+            },
+            "desc": {
+              "ar": "ستستمع الآن إلى خمسة نصوص قصيرة مرتين. لكل نص ستحل مهمتين. اقرأ أولاً المثال.",
+              "fr": "Vous écouterez cinq courts enregistrements deux fois chacun. Pour chaque texte, vous résoudrez deux tâches."
+            }
+          },
+          "2": {
+            "title": {
+              "ar": "جولة في كهف إيبرشتادت الكلسي · المهام من 11 إلى 15",
+              "fr": "Visite de la grotte d'Eberstadt · Tâches 11 à 15"
+            },
+            "desc": {
+              "ar": "ستستمع الآن إلى نص واحد مرة واحدة فقط. ستحل خمس مهام. اختر الحل الصحيح: أ، أو ب، أو ج.",
+              "fr": "Vous allez entendre un texte une seule fois. Répondez aux cinq questions a, b ou c."
+            },
+            "context": {
+              "ar": "أنت تشارك في جولة إرشادية داخل كهف المقرنصات والصواعد الكلسية في إيبرشتادت.",
+              "fr": "Vous participez à une visite guidée d'une grotte de stalactites."
+            }
+          },
+          "3": {
+            "title": {
+              "ar": "محادثة بين طبيبين في مستشفى · المهام من 16 إلى 22",
+              "fr": "Conversation entre deux médecins · Tâches 16 à 22"
+            },
+            "desc": {
+              "ar": "ستستمع الآن إلى محادثة مرة واحدة فقط. ستحل سبع مهام. اختر: هل العبارات صحيحة أم خاطئة؟",
+              "fr": "Vous allez entendre une conversation une seule fois. Répondez aux sept questions : Vrai ou Faux ?"
+            },
+            "context": {
+              "ar": "تستمع إلى حوار يدور بين طبيبين في مستشفى محلي بإحدى جزر بحر الشمال.",
+              "fr": "Vous entendez une conversation entre deux médecins dans un hôpital insulaire."
+            }
+          },
+          "4": {
+            "title": {
+              "ar": "نقاش إذاعي: أطفال الطلاق السعداء · المهام من 23 إلى 30",
+              "fr": "Débat radiophonique : Les enfants du divorce épanouis · Tâches 23 à 30"
+            },
+            "desc": {
+              "ar": "ستستمع الآن إلى مناقشة مرتين. ستحل ثماني مهام. حدد من قال ماذا.",
+              "fr": "Vous écouterez une discussion deux fois. Associez les affirmations : qui dit quoi ?"
+            },
+            "context": {
+              "ar": "مقدمة برنامج 'Aktuell' تناقش مع د. غوستاف لانغه وريناته هولدرلين موضوع: 'أطفال الطلاق السعداء'.",
+              "fr": "L'animatrice de l'émission « Aktuell » débat avec le Dr Gustav Lange et Renate Hölderlin."
+            }
+          }
+        },
+        "questions": {
+          "h1": {
+            "text": {
+              "ar": "السيارة متوقفة أمام مدخل المسبح مباشرة.",
+              "fr": "La voiture est garée devant l'entrée de la piscine."
+            }
+          },
+          "h2": {
+            "text": {
+              "ar": "صاحب السيارة المخالفة يمكنه الدخول إلى المسبح ثانية...",
+              "fr": "Le contrevenant peut réintégrer la piscine..."
+            },
+            "options": {
+              "ar": [
+                "دون الحاجة لإبراز تذكرته.",
+                "بمجرد إبراز تذكرة دخوله.",
+                "إذا قام بشراء تذكرة دخول جديدة."
+              ],
+              "fr": [
+                "sans avoir à présenter son billet.",
+                "sur simple présentation de son billet.",
+                "s'il achète un nouveau billet."
+              ]
+            }
+          },
+          "h3": {
+            "text": {
+              "ar": "لا يمكن للركاب السفر حتى المحطة الأخيرة.",
+              "fr": "Les voyageurs ne peuvent pas aller jusqu'au terminus."
+            }
+          },
+          "h4": {
+            "text": {
+              "ar": "المسافرون المتجهون إلى رايندورف...",
+              "fr": "Les voyageurs pour Rheindorf..."
+            },
+            "options": {
+              "ar": [
+                "يمكنهم مواصلة السفر للنهائية دون تبديل القطار.",
+                "لن يواجهوا أي فترات انتظار.",
+                "يمكنهم متابعة الرحلة بالحافلة الخاصة البديلة."
+              ],
+              "fr": [
+                "peuvent aller au terminus sans correspondance.",
+                "ne subiront aucun temps d'attente.",
+                "peuvent poursuivre leur trajet en bus spécial."
+              ]
+            }
+          },
+          "h5": {
+            "text": {
+              "ar": "في الساعة 11:30 لا يوجد عرض للدلافين.",
+              "fr": "À 11h30, il n'y a pas de spectacle de dauphins."
+            }
+          },
+          "h6": {
+            "text": {
+              "ar": "إطعام الحوت القاتل (الأوركا) يتم...",
+              "fr": "Le nourrissage de l'orque a lieu..."
+            },
+            "options": {
+              "ar": [
+                "في الأكواريوم رقم 2.",
+                "في الحوض المائي الكبير (Bassin).",
+                "لمدة 30 دقيقة متواصلة."
+              ],
+              "fr": [
+                "dans l'aquarium 2.",
+                "dans le grand bassin.",
+                "pendant une durée de 30 minutes."
+              ]
+            }
+          },
+          "h7": {
+            "text": {
+              "ar": "صالون الحلاقة والتجميل مفتوح يوم الاثنين.",
+              "fr": "Le salon de coiffure est ouvert le lundi."
+            }
+          },
+          "h8": {
+            "text": {
+              "ar": "الزبائن حاملو بطاقة الوفاء...",
+              "fr": "Les clients détenteurs de la carte..."
+            },
+            "options": {
+              "ar": [
+                "يجب عليهم حجز موعد مسبق إلزامي.",
+                "يدفعون نصف السعر المعتاد لقص الشعر.",
+                "لا يُسمح لهم بالمجيء إلا بعد السادسة مساءً."
+              ],
+              "fr": [
+                "doivent impérativement prendre rendez-vous.",
+                "paient la coupe de cheveux à moitié prix.",
+                "ne peuvent venir qu'après 18 heures."
+              ]
+            }
+          },
+          "h9": {
+            "text": {
+              "ar": "وجبة الإفطار تتبع النمط الألماني التقليدي دائمًا.",
+              "fr": "Le petit-déjeuner est toujours typiquement allemand."
+            }
+          },
+          "h10": {
+            "text": {
+              "ar": "في المساء يتم تقديم...",
+              "fr": "Le soir, on sert..."
+            },
+            "options": {
+              "ar": [
+                "خبز مقرمش ومقبلات متنوعة للدهن.",
+                "أطباق ساخنة ومطبوخة غالبًا.",
+                "زبادي فقط دون أي إضافات."
+              ],
+              "fr": [
+                "du pain croustillant et diverses garnitures.",
+                "souvent des plats chauds.",
+                "uniquement du yaourt."
+              ]
+            }
+          },
+          "h11": {
+            "text": {
+              "ar": "إلى ماذا يجب على الزوار الانتباه داخل الكهف؟",
+              "fr": "À quoi les visiteurs doivent-ils faire attention dans la grotte ?"
+            },
+            "options": {
+              "ar": [
+                "الانتباه إلى رؤوسهم من الصخور المنخفضة.",
+                "إلى عملية التخليق الكلسي.",
+                "إلى نسبة الرطوبة في الجو."
+              ],
+              "fr": [
+                "À leur tête.",
+                "Au processus de synthèse.",
+                "À l'humidité."
+              ]
+            }
+          },
+          "h12": {
+            "text": {
+              "ar": "تم اكتشاف كهف إيبرشتادت عندما...",
+              "fr": "La grotte d'Eberstadt a été découverte lorsque..."
+            },
+            "options": {
+              "ar": [
+                "فقد أحد الرعاة شاته هناك.",
+                "قام عمال البناء بفتح فجوة أثناء التفجير.",
+                "شاهد سكان البلدة مدخل الكهف مصادفة."
+              ],
+              "fr": [
+                "un berger y a perdu un mouton.",
+                "des ouvriers ont dégagé une ouverture.",
+                "les habitants ont aperçu l'entrée par hasard."
+              ]
+            }
+          },
+          "h13": {
+            "text": {
+              "ar": "التشكيل الكلسي المركزي والشهير داخل الكهف يحمل اسم...",
+              "fr": "La figure centrale emblématique de la grotte s'appelle..."
+            },
+            "options": {
+              "ar": [
+                "'بياض الثلج' (Schneewittchen).",
+                "'الأميرة النائمة' (Dornröschen).",
+                "'السيدة هوله' (Frau Holle)."
+              ],
+              "fr": [
+                "« Blanche-Neige ».",
+                "« La Belle au bois dormant ».",
+                "« Dame Holle »."
+              ]
+            }
+          },
+          "h14": {
+            "text": {
+              "ar": "يبلغ طول كهف إيبرشتادت الممهد للزيارة...",
+              "fr": "La grotte d'Eberstadt mesure..."
+            },
+            "options": {
+              "ar": [
+                "600 متر.",
+                "300 متر.",
+                "200 متر."
+              ],
+              "fr": [
+                "600 m de long.",
+                "300 m de long.",
+                "200 m de long."
+              ]
+            }
+          },
+          "h15": {
+            "text": {
+              "ar": "في متجر الكهف يمكن للزائر الحصول على...",
+              "fr": "À la boutique de la grotte, on peut trouver..."
+            },
+            "options": {
+              "ar": [
+                "فيلم وثائقي عن كهف إيبرشتادت.",
+                "مذكرات باحث ومستكشف كهوف.",
+                "عرض محاكاة مجسم ثلاثي الأبعاد (3D) لكهوف المنطقة."
+              ],
+              "fr": [
+                "un film sur la grotte.",
+                "le carnet de bord d'un spéléologue.",
+                "une animation 3D sur les grottes de la région."
+              ]
+            }
+          },
+          "h16": {
+            "text": {
+              "ar": "الطبيبة تنحدر أصلاً من مدينة هامبورغ.",
+              "fr": "La médecin est originaire de Hambourg."
+            }
+          },
+          "h17": {
+            "text": {
+              "ar": "سكان الجزيرة متعاونون وكرماء جدًا في المساعدة.",
+              "fr": "Les habitants de l'île sont très serviables et solidaires."
+            }
+          },
+          "h18": {
+            "text": {
+              "ar": "الطبيبة تستطيع أيضًا قيادة الطائرات بنفسها.",
+              "fr": "La médecin sait également piloter des avions."
+            }
+          },
+          "h19": {
+            "text": {
+              "ar": "جون فلين أسس خدمة الأطباء الطائرين في جزر بحر الشمال.",
+              "fr": "John Flynn a fondé les Flying Doctors sur les îles de la mer du Nord."
+            }
+          },
+          "h20": {
+            "text": {
+              "ar": "تقدم الخدمة الطبية رعاية ومتابعة عبر الهاتف أيضًا.",
+              "fr": "Le service médical assure également un suivi téléphonique."
+            }
+          },
+          "h21": {
+            "text": {
+              "ar": "تمارس الطبيبة الرياضة لتجديد نشاطها والتخفيف من ضغط العمل.",
+              "fr": "La praticienne fait du sport pour compenser la fatigue du travail."
+            }
+          },
+          "h22": {
+            "text": {
+              "ar": "قيادة الطائرات هي أكثر ما يمنح الطبيبة السعادة والبهجة.",
+              "fr": "Le pilotage est ce qui amuse le plus la médecin."
+            }
+          },
+          "h23": {
+            "text": {
+              "ar": "السبب الحقيقي للطلاق لم يكن واضحًا في البداية.",
+              "fr": "Le motif exact du divorce n'était pas clair au début."
+            }
+          },
+          "h24": {
+            "text": {
+              "ar": "ينشأ الغضب والخصام تجاه الشريك السابق بسبب المشاكل والضغوط المالية.",
+              "fr": "La rancœur envers le conjoint naît souvent de soucis d'argent."
+            }
+          },
+          "h25": {
+            "text": {
+              "ar": "العديد من الأزواج المطلقين لا يبدؤون حياة جديدة بعد الانفصال.",
+              "fr": "Beaucoup de divorcés ne reprennent pas un nouveau départ."
+            }
+          },
+          "h26": {
+            "text": {
+              "ar": "يعاني الكثير من الأطفال نفسيًا جراء انفصال والديهم.",
+              "fr": "De nombreux enfants souffrent psychologiquement de la séparation des parents."
+            }
+          },
+          "h27": {
+            "text": {
+              "ar": "كان الأب غائبًا في كثير من الأوقات بداعي السفر والعمل.",
+              "fr": "Le père était très souvent absent."
+            }
+          },
+          "h28": {
+            "text": {
+              "ar": "عند وقوع الطلاق ينبغي مصارحة بعضهما والتحدث عن كل المشاكل بوضوح.",
+              "fr": "Lors d'un divorce, il faut s'expliquer franchement sur tout."
+            }
+          },
+          "h29": {
+            "text": {
+              "ar": "نشأة أطفال سعداء بعد طلاق الوالدين ليست مجرد حالات نادرة أو فردية.",
+              "fr": "Les enfants de divorcés épanouis ne sont pas des cas isolés."
+            }
+          },
+          "h30": {
+            "text": {
+              "ar": "السياسيون وحدهم هم من يؤمنون بوجود حياة أسرية مثالية وخالية من المشاكل في ألمانيا.",
+              "fr": "Seuls les hommes politiques croient encore à l'image d'Épinal de la famille modèle."
+            }
+          }
+        }
+      }
+    }
+  }
+}

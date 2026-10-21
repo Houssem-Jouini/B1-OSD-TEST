@@ -64,5 +64,38 @@
     "partsCount": 6,
     "questionsCount": 50,
     "fileName": "data/tests/modellsatz-6.json"
+  },
+  {
+    "id": "modellsatz-7",
+    "title": "Modelltest 1 — So geht's noch besser B1",
+    "badge": "Modelltest 1",
+    "examTitle": "Goethe / ÖSD B1 Prüfungssimulation — Modelltest 1",
+    "examSub": "Lesen (5 Teile) & Hören (4 Teile) · So geht's noch besser (Klett)",
+    "timeTotal": 65,
+    "partsCount": 6,
+    "questionsCount": 50,
+    "fileName": "data/tests/modellsatz-7.json"
+  },
+  {
+    "id": "modellsatz-8",
+    "title": "Modelltest 2 — So geht's noch besser B1",
+    "badge": "Modelltest 2",
+    "examTitle": "Goethe / ÖSD B1 Prüfungssimulation — Modelltest 2",
+    "examSub": "Lesen (5 Teile) & Hören (4 Teile) · So geht's noch besser (Klett)",
+    "timeTotal": 65,
+    "partsCount": 6,
+    "questionsCount": 50,
+    "fileName": "data/tests/modellsatz-8.json"
+  },
+  {
+    "id": "modellsatz-9",
+    "title": "Modelltest 3 — So geht's noch besser B1",
+    "badge": "Modelltest 3",
+    "examTitle": "Goethe / ÖSD B1 Prüfungssimulation — Modelltest 3",
+    "examSub": "Lesen (5 Teile) & Hören (4 Teile) · So geht's noch besser (Klett)",
+    "timeTotal": 65,
+    "partsCount": 6,
+    "questionsCount": 50,
+    "fileName": "data/tests/modellsatz-9.json"
   }
 ]
