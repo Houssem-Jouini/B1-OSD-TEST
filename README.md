@@ -70,13 +70,20 @@ B1-OSD-TEST/
 │   ├── tests-bundle.js          # Bundle autonome pour utilisation locale
 │   ├── exam-template.json       # Modèle type pour créer un nouvel examen
 │   ├── translations-common.json # Dictionnaires de traduction
-│   └── tests/
-│       ├── modellsatz-1.json    # Modellsatz 1 — Goethe / ÖSD Original
-│       ├── modellsatz-2.json    # Modellsatz 2 — B1 Prüfungstraining (Set A)
-│       ├── modellsatz-3.json    # Modellsatz 3 — B1 Prüfungstraining (Set B)
-│       ├── modellsatz-4.json    # Modelltest 13 — Hueber Zertifikat B1
-│       ├── modellsatz-5.json    # Modelltest 14 — Hueber Zertifikat B1
-│       └── modellsatz-6.json    # Modelltest 15 — Hueber Zertifikat B1
+│   ├── tests/                   # Séries d'examens actives et archivées
+│   │   ├── modellsatz-1.json    # (Archivé) Modellsatz 1 Original
+│   │   ├── modellsatz-2.json    # (Archivé) Modellsatz 2 Set A
+│   │   ├── modellsatz-3.json    # (Archivé) Modellsatz 3 Set B
+│   │   ├── modellsatz-4.json    # Modelltest 13 — Hueber Zertifikat B1
+│   │   ├── modellsatz-5.json    # Modelltest 14 — Hueber Zertifikat B1
+│   │   ├── modellsatz-6.json    # Modelltest 15 — Hueber Zertifikat B1
+│   │   ├── modellsatz-7.json    # Modelltest 1 — So geht's noch besser B1
+│   │   ├── modellsatz-8.json    # Modelltest 2 — So geht's noch besser B1
+│   │   └── modellsatz-9.json    # Modelltest 3 — So geht's noch besser B1
+│   └── archive/                 # Archives sécurisées des anciens examens
+│       ├── archived-manifest.json
+│       ├── README.md
+│       └── tests/
 │
 ├── scripts/
 │   ├── validate-tests.js        # Script de validation automatique de schéma

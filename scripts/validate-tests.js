@@ -20,7 +20,8 @@ console.log(`\n🔍 Validating ${manifest.length} B1 tests in ${testsDir}...\n`)
 manifest.forEach((item, idx) => {
   const filePath = path.join(baseDir, item.fileName);
   console.log(`------------------------------------------------------------`);
-  console.log(`[${idx + 1}/${manifest.length}] Checking: ${item.id} (${item.title})`);
+  const statusLabel = item.archived ? ' [ARCHIVED]' : ' [ACTIVE]';
+  console.log(`[${idx + 1}/${manifest.length}] Checking${statusLabel}: ${item.id} (${item.title})`);
 
   if (!fs.existsSync(filePath)) {
     console.error(`  ❌ Error: File missing: ${item.fileName}`);
@@ -102,8 +103,10 @@ manifest.forEach((item, idx) => {
 });
 
 console.log(`\n============================================================`);
+const activeCount = manifest.filter(m => !m.archived).length;
+const archivedCount = manifest.filter(m => m.archived).length;
 if (totalErrors === 0) {
-  console.log(`🎉 All tests are VALID! (${totalWarnings} warnings, 0 errors)\n`);
+  console.log(`🎉 All tests are VALID! (${activeCount} active, ${archivedCount} archived, ${totalWarnings} warnings, 0 errors)\n`);
 } else {
   console.error(`❌ Validation failed with ${totalErrors} error(s) and ${totalWarnings} warning(s)!\n`);
   process.exit(1);

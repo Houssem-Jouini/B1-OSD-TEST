@@ -1,0 +1,2111 @@
+{
+  "id": "modellsatz-2",
+  "archived": true,
+  "title": "Modellsatz 2 — B1 Prüfungstraining (Set A)",
+  "badge": "Modellsatz 2",
+  "examTitle": "B1 Prüfungstraining — Set A (Training zur Prüfung Lesen & Hören)",
+  "examSub": "Lesen (5 Teile) & Hören (4 Teile) · Modellsatz 2 (PDF)",
+  "timeTotal": 105,
+  "parts": [
+    {
+      "id": 1,
+      "title": "Teil 1",
+      "time": 10,
+      "instructions": "Lesen Sie den Text und die Aufgaben 1 bis 6 dazu. Wählen Sie: Sind die Aussagen Richtig oder Falsch?",
+      "articles": [
+        {
+          "heading": "Ninas.Praktikums-Blog.int",
+          "sub": "Einblicke & Erlebnisse aus der Hamburger Medien- & Kulturszene",
+          "meta": "Samstag, 16. Mai",
+          "body": [
+            "Seit zwei Tagen arbeite ich in der Presseabteilung. Wir müssen gerade für ein neues Buch ein paar Werbeauftritte vorbereiten. Da bin ich also ziemlich viel als „location-scout“ in der Stadt unterwegs. Klingt toll, oder? Aber es bedeutet nur, dass ich in der Stadt herumlaufe und Bibliotheken und Geschäfte ansehe und überlege, ob sie für uns geeignet sind.",
+            "Gestern war ich in einer Fotoausstellung im Stadtzentrum, wo wir vielleicht eine Lesung machen wollen. Dabei habe ich einen richtig coolen Typ kennengelernt, der neben seinem Studium ab und zu da arbeitet. Wir haben ein bisschen geredet, über die Fotos, über die Stadt und wie man hier lebt. Er kennt sich in der Hamburger Kunstszene sehr gut aus, hat schon alle Museen besichtigt und interessiert sich vor allem für Popart.",
+            "Dann hat er mir zwei Einladungskarten gegeben, für eine Ausstellungseröffnung in einem anderen Stadtteil. Da sollte am Abend eine Party sein. Natürlich habe ich gleich meine Freundin Karo angerufen, um sie einzuladen; und um halb acht kam sie mich abholen. Wir hatten uns beide ganz toll zurechtgemacht: schwarzes Minikleid, Stilettos, großes Make-up. Die Leute in der U-Bahn dachten wahrscheinlich, wir wollten zu einer Hochzeit oder in die Oper. Karo hatte im Internet herausgefunden, dass wir an der U-Bahnstation „Horner Landstraße“ aussteigen mussten. Das haben wir auch getan. Und danach müssten wir nur noch ein paar Meter laufen, hatte Karo gesagt.",
+            "Diese „paar Meter“ werde ich nicht so schnell vergessen! Es waren kaum Leute auf der Straße, dafür rasten die Autos ganz nah an uns vorbei. Wir haben überall gefragt, aber niemand wusste etwas von der Ausstellung. Nach einer halben Stunde Herumlaufen haben wir wenigstens die Straße gefunden und nach weiteren 20 Minuten standen wir in einem Hinterhof vor einer Garage, in der offensichtlich gefeiert wurde.",
+            "Alle Wände waren schwarz, so dass die hell beleuchteten Bilder gut zu sehen waren. Der Raum war voller Menschen, die lachten und redeten, meistens mit einem Glas oder einem Teller in der Hand. Eine junge Frau gab uns einen Prospekt von der Ausstellung und fragte, ob wir zum ersten Mal hier wären. Dann machte sie uns mit ein paar Leuten bekannt und es wurde noch ein fabelhafter Abend. Wir haben uns prima unterhalten, viel gelacht und vielleicht eine oder zwei neue Bekanntschaften gemacht – nur der coole Typ, der mir am Morgen die Einladung gegeben hatte, der war gar nicht da!",
+            "Das war mir aber völlig egal."
+          ],
+          "signature": "Bis bald, Eure Nina"
+        }
+      ],
+      "example": {
+        "text": "Nina arbeitet in der Presseabteilung für ein neues Buchprojekt.",
+        "answer": "richtig"
+      },
+      "questions": [
+        {
+          "id": 1,
+          "type": "tf",
+          "text": "Nina ist noch nicht lange auf dieser Arbeitsstelle.",
+          "answer": "richtig"
+        },
+        {
+          "id": 2,
+          "type": "tf",
+          "text": "Sie muss in der Stadt Räume finden, in denen man eine kulturelle Veranstaltung organisieren kann.",
+          "answer": "richtig"
+        },
+        {
+          "id": 3,
+          "type": "tf",
+          "text": "Am Abend will sie mit ihrer Freundin zu einer Hochzeitsfeier gehen.",
+          "answer": "falsch"
+        },
+        {
+          "id": 4,
+          "type": "tf",
+          "text": "Die beiden Mädchen steigen an der falschen Haltestelle aus.",
+          "answer": "falsch"
+        },
+        {
+          "id": 5,
+          "type": "tf",
+          "text": "Sie haben sich bei vielen Leuten erkundigt, aber keiner konnte ihnen helfen.",
+          "answer": "richtig"
+        },
+        {
+          "id": 6,
+          "type": "tf",
+          "text": "Am Ende ist Nina traurig, weil sie ihren neuen Freund nicht getroffen hat.",
+          "answer": "falsch"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Teil 2",
+      "time": 20,
+      "instructions": "Lesen Sie den Zeitungsartikel und die Aufgaben 7 bis 9 dazu. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+      "articles": [
+        {
+          "heading": "Stresstest im neuen Flughafen",
+          "body": [
+            "27 Millionen Fluggäste soll der neue Großflughafen Berlin-Brandenburg pro Jahr abfertigen. Bisher sind aber noch alle Schalter in Plastik eingepackt und der ohrenbetäubende Lärm kommt nicht von einer Boeing 900, sondern von den Baumaschinen der sechstausend Arbeiter, die hier beschäftigt sind.",
+            "Das neue Terminal soll in ein paar Monaten eröffnet werden und bis dahin wird geprobt. 10000 Berliner haben sich freiwillig gemeldet, um als Testpersonen im Flughafen gerade das zu tun, was man sonst auf Reisen am meisten hasst: Schlange stehen, Koffer tragen und durch lange Gänge laufen.",
+            "Pro Tag kommen ca. 300 Testpassagiere und simulieren verschiedene Szenarien, die beim Flugverkehr stattfinden können: Routineflug, Umsteigen, Behindertentransport, Bombendrohung – und alle machen begeistert mit, obwohl der Job nicht bezahlt wird. Der Flughafen hat 15000 Koffer besorgt, mit denen immer wieder geübt wird. Die Testpersonen bekommen Koffer und Tickets für verschiedene Flugrouten, außerdem werden Ereigniskarten verteilt: Sie kommen von Madrid und wollen weiterfliegen nach Moskau!, Sie wollen Ihre Katze mitnehmen! Oder Sie haben einen Schwächeanfall! Natürlich werden die Fluggäste nach dem „Einsteigen“ nicht wirklich ins Flugzeug geleitet, sondern in einen Pausenraum, wo es Kaffee und Brötchen gibt, bevor man sich aufmacht zu einer neuen fiktiven Flugreise.",
+            "Nach sechs Stunden mit Gepäckwagen, Warteschlangen und Sicherheitskontrollen müssen noch die Fragebögen ausgefüllt werden. Obwohl die Testpersonen jetzt stundenlang herumgelaufen sind und Flugsteige gesucht haben, ist die Stimmung richtig gut. Es wird viel gelacht und einige äußern sich geradezu begeistert über den neuen Flughafen: „Haben Sie gesehen, die S-Bahn fährt direkt bis unter das Terminal!“",
+            "„Ja“, antwortet jemand, „aber hinter den Sicherheitskontrollen ist viel zu wenig Platz. Das darf nicht so bleiben“.",
+            "Morgen geht der Stresstest weiter und in ein paar Monaten wird der Eröffnungsflug starten, von Berlin nach Frankfurt. Die Flughafenfenfans kämpfen bereits um die letzten Plätze."
+          ],
+          "source": "(aus einer deutschen Zeitung)"
+        }
+      ],
+      "example": {
+        "text": "Am neuen Flughafen Berlin-Brandenburg …",
+        "options": [
+          "arbeiten bereits alle Flugschalter normal.",
+          "wird der Ablauf mit Freiwilligen geprobt.",
+          "dürfen nur Passagiere nach Moskau fliegen."
+        ],
+        "answer": 1
+      },
+      "questions": [
+        {
+          "id": 7,
+          "type": "mcq",
+          "text": "Der Stresstest wird gemacht,",
+          "options": [
+            "weil die Sicherheit auf allen europäischen Flughäfen getestet werden soll.",
+            "damit die Berliner den neuen Flughafen kennenlernen können.",
+            "um die Einrichtungen des neuen Flughafens zu testen."
+          ],
+          "answer": 2
+        },
+        {
+          "id": 8,
+          "type": "mcq",
+          "text": "Die Testpersonen …",
+          "options": [
+            "nehmen ohne Lohn am Stresstest teil.",
+            "machen ein Interview mit dem Flughafenpersonal.",
+            "kommen mit zwei Koffern zum Flughafen und spielen Fluggäste."
+          ],
+          "answer": 0
+        },
+        {
+          "id": 9,
+          "type": "mcq",
+          "text": "Nach dem Stresstest …",
+          "options": [
+            "sind die Teilnehmer immer sehr müde.",
+            "sind alle Teilnehmer mit dem Flughafen zufrieden.",
+            "gibt es positive und negative Reaktionen."
+          ],
+          "answer": 2
+        }
+      ],
+      "articles2": [
+        {
+          "heading": "Sammeln Sie Punkte?",
+          "body": [
+            "Mit der Kundenkarte können Sie Punkte sammeln und bestimmte Produkte zu besseren Preisen kaufen. Ihr Name steht auf der Karte und die Firma schickt Ihnen regelmäßig Werbung ins Haus.",
+            "Es gibt durchaus Menschen, die damit nicht einverstanden sind. Wenn sie im Kaufhaus gefragt werden, ob sie eine Kundenkarte beantragen möchten, lehnen sie höflich ab, weil sie ihre persönlichen Daten nicht veröffentlichen wollen. „Dabei könnten sie mit der Kundenkarte doch Geld sparen“, argumentiert die freundliche Frau an der Kasse. Es soll ein fairer Vertrag zwischen Kunde und Verkäufer sein: Sie kaufen immer bei uns ein und wir geben Ihnen bestimmte Waren etwas billiger.",
+            "Man muss aber gut abwägen, wie viel Rabatt man wirklich bekommt. Manchmal könnte man mit einem genauen Preisvergleich viel mehr Geld sparen. Die Stiftung „Warentest“ sieht die Vorteile der Kundenkarte zwischen 1,5 % und 3 %.",
+            "Das bedeutet: Wenn mir die Apotheke in meiner Straße 10 % Rabatt für die Kundenkarte anbietet, dann könnte das ganz sinnvoll sein, denn die besorgt mir alle gewünschten Artikel. Wenn mir aber eine Mode-Boutique 3 % Rabatt für die Preisgabe meiner persönlichen Daten offeriert, lohnt sich das viel weniger, weil sie nur die eigene Produktpalette verkaufen.",
+            "Es gibt auch noch die Karten der Fluglinien und der Bahn, da werden ebenfalls Punkte gesammelt, allerdings nach einem anderen System: Wenn ich viel mit Flugzeug oder Bahn unterwegs bin, habe ich schließlich auf meiner Kundenkarte genügend Bonuspunkte, um ein freies Flugticket oder eine Bahnfahrkarte oder bestimmte Produkte dafür einzutauschen. Das gleiche System benutzen auch der Supermarkt und das Kino an der Ecke: Ich bekomme Treuepunkte und kann mir irgendwann eine Sachprämie oder einen freien Film aussuchen.",
+            "In den letzten Jahren hat sich die Payback-Karte auf dem europäischen Markt durchgesetzt, ein Bonusprogramm, das ganz verschiedene Warenhäuser und Geschäfte zusammenfasst. In Deutschland besitzen bereits 20 Millionen Kunden eine Payback-Karte.",
+            "Gerd Kortenreuther, Werbefachmann aus Graz, sagt dazu: „Selbstverständlich sind alle Bonusprogramme in erster Linie ein Mittel, um möglichst viele Kunden möglichst fest an den Verkäufer zu binden.“"
+          ],
+          "source": "(aus einer österreichischen Zeitung)"
+        }
+      ],
+      "instructions2": "Lesen Sie den Zeitungsartikel und die Aufgaben 10 bis 12 dazu. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+      "questions2": [
+        {
+          "id": 10,
+          "type": "mcq",
+          "text": "Viele Menschen wollen nicht an Bonusprogrammen teilnehmen,",
+          "options": [
+            "weil der Verkäufer private Informationen bekommt.",
+            "weil alle Waren dadurch teurer werden.",
+            "weil die Prämien nicht attraktiv sind."
+          ],
+          "answer": 0
+        },
+        {
+          "id": 11,
+          "type": "mcq",
+          "text": "Wenn man die Kundenkarte der Bahn besitzt,",
+          "options": [
+            "kann man in der Heimatregion frei fahren.",
+            "bekommt man beim Kauf einer Fahrkarte eine kleine Überraschung.",
+            "kann man Punkte sammeln."
+          ],
+          "answer": 2
+        },
+        {
+          "id": 12,
+          "type": "mcq",
+          "text": "Mit Kundenkarten und Bonusprogrammen will man erreichen,",
+          "options": [
+            "dass einige Produkte billiger werden.",
+            "dass die Menschen besser informiert werden.",
+            "dass die Leute immer im gleichen Geschäft einkaufen."
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Teil 3",
+      "time": 10,
+      "instructions": "Lesen Sie die Situationen 13 bis 19 und die Anzeigen A bis J aus verschiedenen deutschsprachigen Medien. Wählen Sie: Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es keine passende Anzeige, in diesem Fall wählen Sie X.",
+      "adsFormatted": [
+        {
+          "code": "A",
+          "tagPos": "left",
+          "hasPin": true,
+          "cardClass": "anzeige-style-m2-a",
+          "html": "\n              <div class=\"anzeige-kicker\" style=\"font-size:11px; font-weight:700; color:#dc2626; letter-spacing:0.5px; text-transform:uppercase;\">Im Colosseum</div>\n              <div class=\"anzeige-headline\" style=\"font-size:15px; font-weight:800; line-height:1.25; margin-bottom:6px;\">GROSSE BILLY WILDER RETROSPEKTIVE</div>\n              <p style=\"font-size:13px; line-height:1.4; margin-bottom:6px;\">Ab Freitag zeigen wir alle Filme des Regisseurs Billy Wilder.</p>\n              <div style=\"font-size:12.5px; line-height:1.4; margin-bottom:6px;\">\n                <div><strong>Freitag um 18.00:</strong> Eröffnungsgala und der Film „Extrablatt“ (1974).</div>\n                <div><strong>Eintrittspreise:</strong> jeder Film 6 Euro · Eröffnung mit Büffet: 18 Euro</div>\n              </div>\n              <div style=\"font-size:12.5px; font-weight:700; color:#dc2626;\">www.colosseum.de/billy-wilder</div>\n            "
+        },
+        {
+          "code": "B",
+          "tagPos": "right",
+          "hasPin": true,
+          "cardClass": "anzeige-style-m2-b",
+          "html": "\n              <div class=\"anzeige-headline\" style=\"font-size:15px; font-weight:800; color:#15803d; margin-bottom:4px;\">Fröhliches Wochenende – Stadtfest in Bruchsal</div>\n              <p style=\"font-size:13px; line-height:1.4; margin-bottom:6px;\">In der Altstadt gibt es Unterhaltung für junge und alte Besucher. Tanzbuden, Handwerkermarkt, Zauberer und Clowns tragen dazu bei, dass jeder sich wohlfühlt.</p>\n              <p style=\"font-size:13px; font-weight:700; color:#166534; margin-bottom:4px;\">Für die Kleinen ist ein besonderer Spielpark aufgebaut.</p>\n              <div style=\"font-size:12.5px; font-weight:700; margin-top:4px;\">Beginn: 12.00 Uhr · <strong>Eintritt frei.</strong></div>\n              <div style=\"font-size:12px; color:#64748b;\">www.stadtverwaltung.bruchsal.de/stadtfest</div>\n            "
+        },
+        {
+          "code": "C",
+          "tagPos": "left",
+          "hasPin": false,
+          "cardClass": "anzeige-style-m2-c",
+          "html": "\n              <div class=\"anzeige-headline\" style=\"font-size:15.5px; font-weight:800; color:#7c3aed; margin-bottom:2px;\">Club Nirvana: Neueröffnung!</div>\n              <div style=\"font-size:12.5px; font-weight:700; color:#a855f7; margin-bottom:6px;\">Große Eröffnungsparty, auch für neue Mitglieder</div>\n              <div style=\"font-size:13px; line-height:1.4; margin-bottom:6px;\">\n                <div>– elegantes Büffet & erlesene Weine</div>\n                <div>– Tanz mit den „Beachriders“ bis in den frühen Morgen</div>\n                <div>– alte und neue Clubmitglieder treffen sich</div>\n              </div>\n              <div style=\"font-size:12.5px; font-weight:700;\">Moderator: Tabor Mirandos · <span style=\"text-decoration:underline;\">www.club-nirvana.de</span></div>\n            "
+        },
+        {
+          "code": "D",
+          "tagPos": "right",
+          "hasPin": false,
+          "cardClass": "anzeige-style-m2-d",
+          "html": "\n              <div class=\"anzeige-headline\" style=\"font-size:14.5px; font-weight:800; color:#854d0e; margin-bottom:2px;\">Der Buchladen am Steintor</div>\n              <div style=\"font-size:13px; font-style:italic; font-weight:700; color:#a16207; margin-bottom:6px;\">Eine ganz besondere Veranstaltung: Kaffee und Literatur</div>\n              <p style=\"font-size:13px; margin-bottom:6px;\">Der Autor Stefan Michalsky liest aus seinem neuen Werk: <strong>Das verfehlte Leben</strong></p>\n              <div style=\"font-size:12.5px; font-weight:700;\">Sonntag, 10.00 Uhr · Eintrittspreis: 8 Euro</div>\n              <div style=\"font-size:12px; margin-top:2px;\">Bitte vorher anmelden, Tel: 071 44398</div>\n            "
+        },
+        {
+          "code": "E",
+          "tagPos": "left",
+          "hasPin": false,
+          "cardClass": "anzeige-style-m2-e",
+          "html": "\n              <div class=\"anzeige-headline\" style=\"font-size:15px; font-weight:800; color:#c2410c; margin-bottom:4px;\">In der Bar „Sol latino“ ist am Samstag Party</div>\n              <p style=\"font-size:13px; margin-bottom:4px;\">Live-Musik mit <strong>„Los Varaderos“</strong>. Die heißesten kubanischen Rhythmen der Stadt!</p>\n              <div style=\"font-size:13px; line-height:1.4; margin-bottom:6px;\">\n                <div><strong>Einlass ab 22.00 Uhr.</strong></div>\n                <div style=\"color:#b45309; font-weight:700;\">Für Damen, die gern tanzen, ist der Eintritt frei!</div>\n                <div>Ab 23.00 Uhr werden Tapas serviert.</div>\n              </div>\n              <div style=\"font-size:12px; font-weight:700; color:#c2410c;\">www.sol.latino.com.ch</div>\n            "
+        },
+        {
+          "code": "F",
+          "tagPos": "right",
+          "hasPin": false,
+          "cardClass": "anzeige-style-m2-f",
+          "html": "\n              <div class=\"anzeige-headline\" style=\"font-size:15px; font-weight:800; color:#0284c7; margin-bottom:4px;\">Und am Wochenende zum Bowling!</div>\n              <p style=\"font-size:13px; line-height:1.4; margin-bottom:6px;\">Verbringen Sie einen anregenden Tag mit einer Gruppe von Freunden. Jede Bowling-Bahn enthält eine eigene Service-Einheit.</p>\n              <p style=\"font-size:13px; margin-bottom:6px;\">Genug Ruhe, um sich zu unterhalten – genug Platz für den Sport. Und unser Catering-Service versorgt Sie mit köstlichen Speisen.</p>\n              <div style=\"font-size:12.5px; font-weight:700;\">Tel: 089 74489012 · info@süd-bowling.com.de</div>\n            "
+        },
+        {
+          "code": "G",
+          "tagPos": "left",
+          "hasPin": false,
+          "cardClass": "anzeige-style-m2-g",
+          "html": "\n              <div class=\"anzeige-headline\" style=\"font-size:15px; font-weight:800; color:#4338ca; margin-bottom:4px;\">Der musikalische Höhepunkt des Sommers!</div>\n              <p style=\"font-size:13px; line-height:1.4; margin-bottom:6px;\">Am Sa. 17.08. treten <strong>Giulia Bardini und Serge Popov</strong> im Open-Air-Konzert auf dem Domplatz auf. Vor der großartigen Kulisse des nächtlichen Doms erklingen die großen Arien der italienischen Meister.</p>\n              <div style=\"font-size:12.5px; font-style:italic; margin-bottom:4px;\">Ein Feuerwerk beschließt das diesjährige Open-Air-Festival.</div>\n              <div style=\"font-size:12px; font-weight:700; color:#4338ca;\">www.open-air-festival.am.dom.de</div>\n            "
+        },
+        {
+          "code": "H",
+          "tagPos": "right",
+          "hasPin": false,
+          "cardClass": "anzeige-style-m2-h",
+          "html": "\n              <div class=\"anzeige-headline\" style=\"font-size:14.5px; font-weight:800; color:#0f172a; margin-bottom:2px;\">Sonntags-Matinee im Cinema Continental</div>\n              <p style=\"font-size:13px; margin-bottom:4px;\">Das große Historiendrama aus Frankreich: <strong>Als ich Königin war – La Reine Margaux</strong></p>\n              <div style=\"font-size:12.5px; line-height:1.4; margin-bottom:4px;\">\n                <div>Beginn: 11.00 Uhr, Kartenverkauf 30 Min. vorher (Doppelte Filmdauer)</div>\n                <div><strong>OmU (Originalsprache mit Untertiteln)</strong> · Freigegeben ab 16 J.</div>\n              </div>\n              <div style=\"font-size:12px; color:#475569;\">www.cinema-continental.com.at</div>\n            "
+        },
+        {
+          "code": "I",
+          "tagPos": "left",
+          "hasPin": false,
+          "cardClass": "anzeige-style-m2-i",
+          "html": "\n              <div class=\"anzeige-headline\" style=\"font-size:15px; font-weight:800; color:#047857; margin-bottom:2px;\">Meditation und Yoga im Südpark</div>\n              <p style=\"font-size:13px; line-height:1.4; margin-bottom:4px;\">Zwei Tage lang treffen sich Yoga-Anhänger auf der großen Wiese im Südpark. Der berühmte Yogalehrer Madhavi Chopra lädt ein:</p>\n              <div style=\"font-size:12.5px; line-height:1.4; margin-bottom:4px;\">\n                <div>– Hatha Yoga · Meditation · Vorträge · Diskussion</div>\n              </div>\n              <div style=\"font-size:12px; font-weight:700; color:#047857;\">Bitte rechtzeitig eintragen: www.madhavi-chopra.de</div>\n            "
+        },
+        {
+          "code": "J",
+          "tagPos": "right",
+          "hasPin": false,
+          "cardClass": "anzeige-style-m2-j",
+          "html": "\n              <div class=\"anzeige-headline\" style=\"font-size:15px; font-weight:800; color:#991b1b; margin-bottom:2px;\">Weinfest auf dem Geisenheimer Platz</div>\n              <p style=\"font-size:13px; line-height:1.4; margin-bottom:4px;\">Zwanzig deutsche Winzer aus den besten Weinbaugebieten laden ein. Rund um den Weinbrunnen haben sie ihre Zelte aufgeschlagen:</p>\n              <div style=\"font-size:12.5px; line-height:1.4; margin-bottom:4px;\">\n                <div>– Informationen · Weinprobe · Attraktive Kaufangebote</div>\n                <div><strong>Eröffnung: Samstag, 12.00 Uhr</strong></div>\n              </div>\n              <div style=\"font-size:12px; color:#991b1b;\">www.geisenheimerplatz.de/weinfest</div>\n            "
+        }
+      ],
+      "example": {
+        "text": "Stefan ist Kino-Fan. Er hat eine große Sammlung alter Filme auf DVD. Aber im Kino ist es natürlich viel schöner.",
+        "answer": "A"
+      },
+      "questions": [
+        {
+          "id": 13,
+          "type": "match",
+          "text": "Frau Gabriell liebt klassische Musik. Sie würde gern ein Konzert besuchen oder in die Oper gehen. Am Samstagabend hat sie schon etwas vor.",
+          "answer": "X"
+        },
+        {
+          "id": 14,
+          "type": "match",
+          "text": "Miriam bekommt am Wochenende Besuch von ihrer japanischen Freundin Ai, die nur wenig Deutsch spricht. Ai kann sehr gut Französisch. Für klassische Musik interessieren sich die beiden nicht.",
+          "answer": "H"
+        },
+        {
+          "id": 15,
+          "type": "match",
+          "text": "Philipp war sechs Monate lang in Thailand. Jetzt möchte er seine Freunde an einem Ort treffen, wo sie miteinander sprechen, etwas essen und etwas Lustiges machen können.",
+          "answer": "F"
+        },
+        {
+          "id": 16,
+          "type": "match",
+          "text": "Familie Steiner, Vater, Mutter und drei Kinder, möchte für den Sonntag etwas planen, das auch den Kindern Spaß macht. Sie können nicht viel Geld ausgeben.",
+          "answer": "B"
+        },
+        {
+          "id": 17,
+          "type": "match",
+          "text": "Stefan und Marie wollen groß ausgehen: gut essen, tanzen, neue Leute kennenlernen.",
+          "answer": "C"
+        },
+        {
+          "id": 18,
+          "type": "match",
+          "text": "Tanja und Claire hören gern gute Musik, sie tanzen auch gern und gut, am liebsten lateinamerikanische Tänze. Viel Geld haben sie allerdings nicht.",
+          "answer": "E"
+        },
+        {
+          "id": 19,
+          "type": "match",
+          "text": "Herr Mirolek möchte am Wochenende eine kulturelle Veranstaltung besuchen. Abends will er bei seiner Familie sein.",
+          "answer": "D"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Teil 4",
+      "time": 15,
+      "instructions": "In einer Zeitschrift lesen Sie Kommentare zu einem Artikel über die Gewinnung von Energie aus Getreide (sogenannte „Bio-Energie“). Wählen Sie: Ist die Person für die Produktion von Bio-Energie?",
+      "example": {
+        "who": "Nina, 45, St. Wendel",
+        "text": "Ich verstehe nicht, wie es möglich ist, dass nicht die ganze Menschheit aufsteht gegen diesen Irrsinn! Wir produzieren Lebensmittel und darin verbrennen wir sie, damit unsere Autos fahren können. In Südamerika und in Afrika steigt der Preis für Mais so hoch, dass die Menschen ihn nicht mehr bezahlen können und hungern müssen. Wie lange soll das noch so weitergehen?",
+        "answer": "nein"
+      },
+      "letters": [
+        {
+          "id": 20,
+          "who": "Stefanie, 28, Koblenz",
+          "text": "In Deutschland will offenbar niemand mehr Atomkraftwerke. Wir wollen auch nicht von den Öl-Staaten abhängig sein, die uns den Benzinpreis diktieren. Aber Bio-Gas, das aus Getreide produziert wird, wollen wir auch nicht. Nur geht es nicht mehr anders: Wenn wir weiterhin unseren Lebensstandard behalten wollen, müssen wir auch die erneuerbare Energie aus Getreide akzeptieren.",
+          "answer": "ja"
+        },
+        {
+          "id": 21,
+          "who": "Carlos, 30, Berlin",
+          "text": "Ich bin viel in Südamerika gereist und ich habe gesehen, was es bedeutet, wenn die Preise für Lebensmittel steigen. Mais ist dort die Grundlage der Ernährung für die Bevölkerung auf dem Lande. Es kann uns nicht egal sein, dass die Menschen in Honduras hungern, nur damit wir in Europa oder in Amerika genügend Energie zur Verfügung haben!",
+          "answer": "nein"
+        },
+        {
+          "id": 22,
+          "who": "Robin, 17, Gelsenkirchen",
+          "text": "Ich hoffe, dass es in Zukunft möglich sein wird, neue Formen von erneuerbarer Energie zu finden. Es wird Elektroautos geben, die mehr als 200 km Autonomie haben. Oder die Forscher finden andere Lösungen. Jedenfalls meine ich, dass die Industrie-Länder ganz schnell damit aufhören müssen, Energie aus Lebensmitteln herzustellen!",
+          "answer": "nein"
+        },
+        {
+          "id": 23,
+          "who": "Michaela, 22, Linz",
+          "text": "In dem Artikel wird berichtet, dass die reichen Länder große Gebiete in der dritten Welt aufkaufen, um dort Getreide anzubauen. Die Ernte wird dann aber nicht für die Ernährung von Menschen oder Tieren verbraucht, sondern für die Erzeugung von Energie. Ich finde das furchtbar! Denn schon heute ist es unmöglich, alle Menschen ausreichend mit Nahrung und Trinkwasser zu versorgen – was erwartet uns in der Zukunft?",
+          "answer": "nein"
+        },
+        {
+          "id": 24,
+          "who": "Julia, 35, Bern",
+          "text": "Es stimmt natürlich, dass die großen Industrie-Nationen den größten Teil der vorhandenen Energiereserven verbrauchen, ohne sich viel darum zu kümmern, wie die Länder der dritten Welt sich entwickeln. Dazu gehört auch die Gewinnung von Energie aus Getreide. Ob wir das schön finden oder nicht, wir haben im Moment keine andere Wahl.",
+          "answer": "ja"
+        },
+        {
+          "id": 25,
+          "who": "Antonia, 61, Hannover",
+          "text": "Nicht nur die großen Konzerne machen mit, die Energie aus Getreide produzieren und daran gut verdienen. Wir alle, die wir in den „reichen Ländern“ leben und unseren täglichen Komfort nicht verlieren wollen, wir alle sind daran beteiligt, dass die Preise für Lebensmittel in Afrika steigen und unbezahlbar werden. Es gibt im Moment keine andere Lösung, deshalb müssen wir auf diesem Wege weitergehen.",
+          "answer": "ja"
+        },
+        {
+          "id": 26,
+          "who": "Andreas, 55, Pinneberg",
+          "text": "Ich finde es schrecklich, wenn Leute über den Hunger in Afrika jammern und gleichzeitig die Bio-Energie benutzen. Wir sollten ehrlich zugeben, dass wir Energie aus Getreide machen, weil wir die Energie brauchen. Vielleicht gibt es bald andere Möglichkeiten, aber das liegt noch weit in der Zukunft. Wir müssen mit dem leben, was heute möglich ist.",
+          "answer": "ja"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Teil 5",
+      "time": 10,
+      "instructions": "Sie informieren sich über die Hausordnung der Jugendherberge in Hamburg, in der Sie drei Tage übernachten wollen. Wählen Sie bei jeder Aufgabe 27 bis 30 die richtige Lösung a, b oder c.",
+      "articles": [
+        {
+          "heading": "Herbergsordnung",
+          "sub": "Jugendherberge Hamburg · Hausordnung für Gäste und Gruppen",
+          "body": [
+            "<strong>Ankunft</strong><br>– Es wird empfohlen, sich 24 Stunden vor der Ankunft anzumelden.<br>– Reservierte Plätze werden bis 18.00 Uhr freigehalten, danach können sie an andere Gäste vergeben werden.<br>– Wenn Sie nicht angemeldet sind, können Sie telefonisch oder direkt in der Jugendherberge erfahren, ob es freie Plätze gibt.",
+            "<strong>Mitgliedskarte der DJH*</strong><br>– Wer in einer Jugendherberge übernachten möchte, muss Mitglied des „Deutschen Jugendherbergswerkes“ oder eines anderen Jugendherbergsverbandes sein.<br>– Reisende mit deutscher Anschrift können auch in der Jugendherberge die Mitgliedskarte erwerben.<br>– Ausländische Gäste ohne Mitgliedskarte können in der Jugendherberge eine „Internationale Gastkarte“ erwerben.",
+            "<strong>Aufenthalt</strong><br>– Unsere Gäste übernachten in Mehrbettzimmern, in der Regel nach Geschlecht getrennt.<br>– Familien können in einem Zimmer gemeinsam untergebracht werden.<br>– Wir bitten Sie während Ihres Aufenthaltes um Mithilfe. Dazu gehört z. B., dass Sie die Räume und Gegenstände in Ordnung halten, beim Tischdienst helfen, Abfall getrennt sammeln und mit Energie und Wasser sparsam umgehen.<br>– In den Schlafräumen dürfen Sie nicht kochen oder essen.",
+            "<strong>Wertgegenstände und Gepäck</strong><br>– Die Herbergsverwaltung ist nicht verantwortlich für Gepäck und andere Gegenstände, die in den Schlafräumen verbleiben.<br>– Geld und andere Wertgegenstände können an der Rezeption abgegeben werden.<br>– Verschließbare Schrankfächer stehen gegen eine Gebühr zur Verfügung.",
+            "<strong>Alkohol und Tabak</strong><br>– Rauchen ist in der Jugendherberge nicht gestattet.<br>– Zum Essen können erwachsene Gäste Bier und Wein bestellen (kostenpflichtig).<br>– Der Konsum von mitgebrachten alkoholischen Getränken ist in der Jugendherberge nicht erlaubt.<br>– Alkoholisierten Gästen kann der Aufenthalt in der Jugendherberge verboten werden.",
+            "<strong>Öffnungszeiten</strong><br>– Die Jugendherberge ist in der Regel von 7.00 bis 22.00 Uhr geöffnet. Ausnahmen müssen mit der Herbergsleitung abgesprochen werden.<br>– Die Nachtruhe beginnt um 22.00 Uhr und endet um 7.00 Uhr.<br>– Bitte nehmen Sie bei Ihrem Aufenthalt Rücksicht auf andere Gäste.",
+            "<strong>Abreise</strong><br>– Die Schlafräume müssen bis 10.00 Uhr geräumt sein.<br>– Nach Absprache mit der Herbergsleitung sind Ausnahmen möglich.<br><br><small><em>*Deutsches Jugendherbergswerk</em></small>"
+          ]
+        }
+      ],
+      "example": {
+        "text": "Rauchen in der Jugendherberge …",
+        "options": [
+          "ist nur im Freien gestattet.",
+          "ist generell nicht gestattet.",
+          "ist nach 22 Uhr erlaubt."
+        ],
+        "answer": 1
+      },
+      "questions": [
+        {
+          "id": 27,
+          "type": "mcq",
+          "text": "Die Gäste der Jugendherberge …",
+          "options": [
+            "müssen auf jeden Fall vor der Ankunft ein Zimmer reservieren.",
+            "schlafen in Einzel- oder Doppelzimmern.",
+            "können bei der Ankunft in den Jugendherbergsverein eintreten."
+          ],
+          "answer": 2
+        },
+        {
+          "id": 28,
+          "type": "mcq",
+          "text": "Alkoholische Getränke …",
+          "options": [
+            "sind in der Jugendherberge verboten.",
+            "kann man in der Jugendherberge kaufen.",
+            "dürfen nicht beim Essen konsumiert werden."
+          ],
+          "answer": 1
+        },
+        {
+          "id": 29,
+          "type": "mcq",
+          "text": "Das Gepäck …",
+          "options": [
+            "kann man im Sekretariat abgeben.",
+            "kann man einschließen, wenn man dafür bezahlt.",
+            "darf man nicht in der Jugendherberge lassen."
+          ],
+          "answer": 1
+        },
+        {
+          "id": 30,
+          "type": "mcq",
+          "text": "In der Jugendherberge wird erwartet, …",
+          "options": [
+            "dass die Gäste das Essgeschirr selbst holen und aufräumen.",
+            "dass die Gäste den Müll hinaustragen.",
+            "dass die Gäste um 7.00 Uhr aufstehen."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "🎧 Hören",
+      "badge": "Hören",
+      "isHoren": true,
+      "time": 40,
+      "instructions": "Das Modul Hören besteht aus vier Teilen. Sie hören mehrere Texte und lösen Aufgaben dazu. Für jede Aufgabe gibt es nur eine richtige Lösung.",
+      "audioSrc": "audio/modellsatz-2-hoeren.mp3",
+      "audioFallbacks": [
+        "audio/modellsatz-2-hoeren.mp3",
+        "audio/hoeren.mp3"
+      ],
+      "audioChapters": [
+        {
+          "time": 0,
+          "label": "00:00 Teil 1: Text 1 (Steffen)"
+        },
+        {
+          "time": 91,
+          "label": "01:31 Teil 1: Text 2 (Flug)"
+        },
+        {
+          "time": 200,
+          "label": "03:20 Teil 1: Text 3 (Wäsche)"
+        },
+        {
+          "time": 338,
+          "label": "05:38 Teil 1: Text 4 (Hip-Hop)"
+        },
+        {
+          "time": 450,
+          "label": "07:30 Teil 1: Text 5 (Zug)"
+        },
+        {
+          "time": 619,
+          "label": "10:19 Teil 2 (Kunsthalle)"
+        },
+        {
+          "time": 837,
+          "label": "13:57 Teil 3 (Mensa)"
+        },
+        {
+          "time": 1024,
+          "label": "17:04 Teil 4 (Konsumsucht)"
+        }
+      ],
+      "questions": [
+        {
+          "id": "h1",
+          "num": 1,
+          "type": "tf",
+          "text": "Steffen ruft Mareike an, weil er etwas braucht.",
+          "answer": "richtig",
+          "teilPart": 1,
+          "textNum": 1
+        },
+        {
+          "id": "h2",
+          "num": 2,
+          "type": "mcq",
+          "text": "Mareike soll …",
+          "options": [
+            "sofort zu Steffen kommen.",
+            "auf Steffen warten.",
+            "Steffen anrufen."
+          ],
+          "answer": 2,
+          "teilPart": 1,
+          "textNum": 1
+        },
+        {
+          "id": "h3",
+          "num": 3,
+          "type": "tf",
+          "text": "Diese Ansage ist für Fluggäste vor dem Abflug.",
+          "answer": "falsch",
+          "teilPart": 1,
+          "textNum": 2
+        },
+        {
+          "id": "h4",
+          "num": 4,
+          "type": "mcq",
+          "text": "Die Reisenden nach Hamburg …",
+          "options": [
+            "finden Ihren Ausgang auf dem Bildschirm.",
+            "sollen nach G17 kommen.",
+            "sollen zum Ausgang H7 gehen."
+          ],
+          "answer": 2,
+          "teilPart": 1,
+          "textNum": 2
+        },
+        {
+          "id": "h5",
+          "num": 5,
+          "type": "tf",
+          "text": "Diese Ansage ist eine Radioinformation zum Thema Wäschewaschen.",
+          "answer": "falsch",
+          "teilPart": 1,
+          "textNum": 3
+        },
+        {
+          "id": "h6",
+          "num": 6,
+          "type": "mcq",
+          "text": "Das Waschpulver …",
+          "options": [
+            "ist schon in der Maschine.",
+            "kommt nach 60 Minuten in die Maschine.",
+            "kommt oben links in die Maschine."
+          ],
+          "answer": 2,
+          "teilPart": 1,
+          "textNum": 3
+        },
+        {
+          "id": "h7",
+          "num": 7,
+          "type": "tf",
+          "text": "Diese Ansage ist für junge Radiohörer, die Hip-Hop lieben.",
+          "answer": "richtig",
+          "teilPart": 1,
+          "textNum": 4
+        },
+        {
+          "id": "h8",
+          "num": 8,
+          "type": "mcq",
+          "text": "Man kann …",
+          "options": [
+            "durch Europa reisen.",
+            "Karten für ein Konzert gewinnen.",
+            "die neuesten Songs gewinnen."
+          ],
+          "answer": 1,
+          "teilPart": 1,
+          "textNum": 4
+        },
+        {
+          "id": "h9",
+          "num": 9,
+          "type": "tf",
+          "text": "Die Durchsage ist für Zugreisende.",
+          "answer": "richtig",
+          "teilPart": 1,
+          "textNum": 5
+        },
+        {
+          "id": "h10",
+          "num": 10,
+          "type": "mcq",
+          "text": "In Fulda …",
+          "options": [
+            "müssen alle aussteigen.",
+            "kann man nach Berlin umsteigen.",
+            "kommt man mit Verspätung an."
+          ],
+          "answer": 1,
+          "teilPart": 1,
+          "textNum": 5
+        },
+        {
+          "id": "h11",
+          "num": 11,
+          "type": "mcq",
+          "text": "Frau Wertmüller …",
+          "options": [
+            "versteht kein Deutsch.",
+            "spricht nicht so gut Deutsch.",
+            "spricht Deutsch."
+          ],
+          "answer": 2,
+          "teilPart": 2
+        },
+        {
+          "id": "h12",
+          "num": 12,
+          "type": "mcq",
+          "text": "Die Führung beginnt …",
+          "options": [
+            "in der Haupthalle.",
+            "mit Kunst aus der Gegenwart.",
+            "mit abstrakter Malerei."
+          ],
+          "answer": 0,
+          "teilPart": 2
+        },
+        {
+          "id": "h13",
+          "num": 13,
+          "type": "mcq",
+          "text": "Die Studenten sehen …",
+          "options": [
+            "am Ende klassische Kunst.",
+            "am Ende auch moderne Kunst.",
+            "auch Kunstwerke der Natur."
+          ],
+          "answer": 1,
+          "teilPart": 2
+        },
+        {
+          "id": "h14",
+          "num": 14,
+          "type": "mcq",
+          "text": "Nach der Führung …",
+          "options": [
+            "kann man einen Kaffee trinken.",
+            "muss man sofort zum Ausgang.",
+            "darf man nicht alleine in der Kunsthalle bleiben."
+          ],
+          "answer": 0,
+          "teilPart": 2
+        },
+        {
+          "id": "h15",
+          "num": 15,
+          "type": "mcq",
+          "text": "Taschen und Mäntel …",
+          "options": [
+            "darf man behalten.",
+            "nimmt Frau Wertmüller.",
+            "müssen abgegeben werden."
+          ],
+          "answer": 2,
+          "teilPart": 2
+        },
+        {
+          "id": "h16",
+          "num": 16,
+          "type": "tf",
+          "text": "Kai hat keinen Hunger.",
+          "answer": "falsch",
+          "teilPart": 3
+        },
+        {
+          "id": "h17",
+          "num": 17,
+          "type": "tf",
+          "text": "Kai kam zu spät zum Seminar.",
+          "answer": "falsch",
+          "teilPart": 3
+        },
+        {
+          "id": "h18",
+          "num": 18,
+          "type": "tf",
+          "text": "Pia studiert gern Chemie.",
+          "answer": "falsch",
+          "teilPart": 3
+        },
+        {
+          "id": "h19",
+          "num": 19,
+          "type": "tf",
+          "text": "Kai bietet Pia Hilfe an.",
+          "answer": "richtig",
+          "teilPart": 3
+        },
+        {
+          "id": "h20",
+          "num": 20,
+          "type": "tf",
+          "text": "Kai meint, dass Pia weniger arbeiten soll.",
+          "answer": "richtig",
+          "teilPart": 3
+        },
+        {
+          "id": "h21",
+          "num": 21,
+          "type": "tf",
+          "text": "Pia braucht das Geld dringend.",
+          "answer": "richtig",
+          "teilPart": 3
+        },
+        {
+          "id": "h22",
+          "num": 22,
+          "type": "tf",
+          "text": "Kai bietet Pia einen Job an.",
+          "answer": "falsch",
+          "teilPart": 3
+        },
+        {
+          "id": "h23",
+          "num": 23,
+          "type": "speaker",
+          "text": "Die Kleidung gilt als Zeichen für eine Gruppe.",
+          "options": [
+            "Moderatorin",
+            "Friedenthal",
+            "Nielsen"
+          ],
+          "answer": 1,
+          "teilPart": 4
+        },
+        {
+          "id": "h24",
+          "num": 24,
+          "type": "speaker",
+          "text": "Die Mode wechselt sehr schnell.",
+          "options": [
+            "Moderatorin",
+            "Friedenthal",
+            "Nielsen"
+          ],
+          "answer": 1,
+          "teilPart": 4
+        },
+        {
+          "id": "h25",
+          "num": 25,
+          "type": "speaker",
+          "text": "Die meisten 16-Jährigen haben nicht genug Geld für teure Markenkleidung.",
+          "options": [
+            "Moderatorin",
+            "Friedenthal",
+            "Nielsen"
+          ],
+          "answer": 2,
+          "teilPart": 4
+        },
+        {
+          "id": "h26",
+          "num": 26,
+          "type": "speaker",
+          "text": "Das Taschengeld der jungen Leute ist nicht so hoch wie viele Leute glauben.",
+          "options": [
+            "Moderatorin",
+            "Friedenthal",
+            "Nielsen"
+          ],
+          "answer": 2,
+          "teilPart": 4
+        },
+        {
+          "id": "h27",
+          "num": 27,
+          "type": "speaker",
+          "text": "Die Eltern machen sich Sorgen, weil die Kinder so viel auf dem Handy telefonieren.",
+          "options": [
+            "Moderatorin",
+            "Friedenthal",
+            "Nielsen"
+          ],
+          "answer": 1,
+          "teilPart": 4
+        },
+        {
+          "id": "h28",
+          "num": 28,
+          "type": "speaker",
+          "text": "Konsum bedeutet Anerkennung.",
+          "options": [
+            "Moderatorin",
+            "Friedenthal",
+            "Nielsen"
+          ],
+          "answer": 1,
+          "teilPart": 4
+        },
+        {
+          "id": "h29",
+          "num": 29,
+          "type": "speaker",
+          "text": "Die Eltern kaufen bestimmte Kleidungsstücke, weil die Kinder sie schön finden.",
+          "options": [
+            "Moderatorin",
+            "Friedenthal",
+            "Nielsen"
+          ],
+          "answer": 2,
+          "teilPart": 4
+        },
+        {
+          "id": "h30",
+          "num": 30,
+          "type": "speaker",
+          "text": "Es wäre gut, die Meinung der Jugendlichen zu diesem Thema zu hören.",
+          "options": [
+            "Moderatorin",
+            "Friedenthal",
+            "Nielsen"
+          ],
+          "answer": 0,
+          "teilPart": 4
+        }
+      ],
+      "horenSections": [
+        {
+          "partNumber": 1,
+          "title": "Teil 1",
+          "badge": "Aufgaben 1 – 10",
+          "intro": "Sie hören nun fünf kurze Texte. Sie hören jeden Text zweimal. Zu jedem Text lösen Sie zwei Aufgaben. Wählen Sie bei jeder Aufgabe die richtige Lösung.",
+          "hasExample": false,
+          "texts": [
+            {
+              "number": 1,
+              "title": "Text 1",
+              "qIds": [
+                "h1",
+                "h2"
+              ]
+            },
+            {
+              "number": 2,
+              "title": "Text 2",
+              "qIds": [
+                "h3",
+                "h4"
+              ]
+            },
+            {
+              "number": 3,
+              "title": "Text 3",
+              "qIds": [
+                "h5",
+                "h6"
+              ]
+            },
+            {
+              "number": 4,
+              "title": "Text 4",
+              "qIds": [
+                "h7",
+                "h8"
+              ]
+            },
+            {
+              "number": 5,
+              "title": "Text 5",
+              "qIds": [
+                "h9",
+                "h10"
+              ]
+            }
+          ]
+        },
+        {
+          "partNumber": 2,
+          "title": "Teil 2",
+          "badge": "Aufgaben 11 – 15",
+          "intro": "Sie hören nun einen Text. Sie hören den Text einmal. Dazu lösen Sie fünf Aufgaben. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c. Lesen Sie jetzt die Aufgaben 11 bis 15. Dazu haben Sie 60 Sekunden Zeit.",
+          "context": "Du nimmst an einer Führung durch die Hamburger Kunsthalle teil.",
+          "qIds": [
+            "h11",
+            "h12",
+            "h13",
+            "h14",
+            "h15"
+          ]
+        },
+        {
+          "partNumber": 3,
+          "title": "Teil 3",
+          "badge": "Aufgaben 16 – 22",
+          "intro": "Sie hören nun ein Gespräch. Sie hören das Gespräch einmal. Dazu lösen Sie sieben Aufgaben. Wählen Sie: Sind die Aussagen Richtig oder Falsch? Lesen Sie jetzt die Aufgaben 16 bis 22. Dazu haben Sie 60 Sekunden Zeit.",
+          "context": "Du stehst in der Universität vor der Mensa und hörst ein Gespräch zwischen zwei Studenten:",
+          "example": {
+            "num": "0",
+            "text": "Kai möchte mit Pia Mittag essen.",
+            "answer": "richtig"
+          },
+          "qIds": [
+            "h16",
+            "h17",
+            "h18",
+            "h19",
+            "h20",
+            "h21",
+            "h22"
+          ]
+        },
+        {
+          "partNumber": 4,
+          "title": "Teil 4",
+          "badge": "Aufgaben 23 – 30",
+          "intro": "Sie hören nun eine Diskussion. Sie hören die Diskussion zweimal. Dazu lösen Sie acht Aufgaben. Ordnen Sie die Aussagen zu: Wer sagt was? Lesen Sie jetzt die Aussagen 23 bis 30. Dazu haben Sie 60 Sekunden Zeit.",
+          "context": "Die Moderatorin der Radiosendung „Kontrovers“ diskutiert mit Herrn Professor Friedenthal von der Universität Heidelberg und mit Frau Annelies Nielsen, Gymnasiallehrerin und Mutter von zwei Kindern im Alter von 14 und 17 Jahren. Das Thema ist heute: Sind unsere Kinder konsumsüchtig?",
+          "speakers": [
+            {
+              "code": "a",
+              "name": "Moderatorin"
+            },
+            {
+              "code": "b",
+              "name": "Friedenthal"
+            },
+            {
+              "code": "c",
+              "name": "Nielsen"
+            }
+          ],
+          "example": {
+            "num": "0",
+            "text": "Jugendliche überlegen lange, bevor sie etwas kaufen.",
+            "answerCode": "a",
+            "answerSpeaker": "Moderatorin"
+          },
+          "qIds": [
+            "h23",
+            "h24",
+            "h25",
+            "h26",
+            "h27",
+            "h28",
+            "h29",
+            "h30"
+          ]
+        }
+      ]
+    }
+  ],
+  "translations": {
+    "parts": {
+      "6": {
+        "title": {
+          "ar": "🎧 قسم الاستماع (Hören)",
+          "fr": "🎧 Compréhension de l'oral (Hören)"
+        },
+        "instructions": {
+          "ar": "يتكون قسم الاستماع من أربعة أجزاء. ستستمع إلى عدة نصوص وتجيب على المهام المتعلقة بها. لكل مهمة إجابة صحيحة واحدة فقط.",
+          "fr": "Le module Hören se compose de quatre parties. Vous allez écouter plusieurs enregistrements et répondre aux questions. Pour chaque tâche, il n'y a qu'une seule réponse correcte."
+        },
+        "teile": {
+          "1": {
+            "title": {
+              "ar": "خمسة نصوص قصيرة · المهام من 1 إلى 10",
+              "fr": "Cinq courts enregistrements · Tâches 1 à 10"
+            },
+            "desc": {
+              "ar": "ستستمع الآن إلى خمسة نصوص قصيرة. ستستمع إلى كل نص مرتين. لكل نص مهمتان. اختر الحل الصحيح لكل مهمة.",
+              "fr": "Vous allez entendre cinq courts textes. Vous écouterez chaque texte deux fois. Pour chaque texte, résolvez deux tâches. Choisissez la bonne solution pour chaque tâche."
+            }
+          },
+          "2": {
+            "title": {
+              "ar": "جولة إرشادية في قاعة الفنون بهامبورغ · المهام من 11 إلى 15",
+              "fr": "Visite guidée à la Kunsthalle de Hambourg · Tâches 11 à 15"
+            },
+            "desc": {
+              "ar": "ستستمع الآن إلى نص واحد. ستستمع إلى هذا النص مرة واحدة فقط. اختر الحل الصحيح a أو b أو c للمهام من 11 إلى 15. اقرأ المهام أولاً. لديك 60 ثانية لذلك.",
+              "fr": "Vous allez entendre un enregistrement. Vous ne l'écouterez qu'une seule fois. Choisissez la bonne solution a, b ou c pour les tâches 11 à 15. Lisez d'abord les tâches. Vous avez 60 secondes pour cela."
+            },
+            "context": {
+              "ar": "أنت تشارك في جولة إرشادية داخل قاعة الفنون في مدينة هامبورغ (Hamburger Kunsthalle).",
+              "fr": "Vous participez à une visite guidée de la Kunsthalle de Hambourg."
+            }
+          },
+          "3": {
+            "title": {
+              "ar": "محادثة أمام المطعم الجامعي · المهام من 16 إلى 22",
+              "fr": "Conversation devant le restaurant universitaire · Tâches 16 à 22"
+            },
+            "desc": {
+              "ar": "ستستمع الآن إلى محادثة. ستستمع إلى هذه المحادثة مرة واحدة فقط. حدد ما إذا كانت العبارات الواردة في المهام من 16 إلى 22 صحيحة أم خاطئة. اقرأ المهام أولاً. لديك 60 ثانية لذلك.",
+              "fr": "Vous allez entendre une conversation. Vous ne l'écouterez qu'une seule fois. Indiquez si les affirmations des tâches 16 à 22 sont Vraies ou Fausses. Lisez d'abord les tâches. Vous avez 60 secondes pour cela."
+            },
+            "context": {
+              "ar": "أنت تقف في الجامعة أمام المطعم الجامعي (Mensa) وتستمع إلى محادثة بين طالبين (كاي وبيا).",
+              "fr": "Vous êtes à l'université devant le restaurant universitaire (Mensa) et entendez une conversation entre deux étudiants (Kai et Pia)."
+            }
+          },
+          "4": {
+            "title": {
+              "ar": "برنامج حواري إذاعي حول استهلاك الشباب · المهام من 23 إلى 30",
+              "fr": "Débat radiophonique sur la consommation des jeunes · Tâches 23 à 30"
+            },
+            "desc": {
+              "ar": "ستستمع الآن إلى نقاش إذاعي. ستستمع إلى هذا النقاش مرتين. حدد من الذي عبر عن الرأي الوارد في المهام من 23 إلى 30: المذيعة (a)، البروفيسور فريدنتال (b)، أو السيدة نيلسن (c). اقرأ المهام أولاً. لديك 60 ثانية لذلك.",
+              "fr": "Vous allez entendre un débat radiophonique. Vous l'écouterez deux fois. Attribuez chaque opinion (tâches 23 à 30) à la bonne personne : l'animatrice (a), Prof. Friedenthal (b) ou Mme Nielsen (c). Lisez d'abord les tâches. Vous avez 60 secondes pour cela."
+            },
+            "context": {
+              "ar": "تناقش مذيعة برنامج «Kontrovers» الإذاعي مع البروفيسور فريدنتال والسيدة آنيليس نيلسن موضوع: «هل أطفالنا مدمنون على الاستهلاك والتسوق؟».",
+              "fr": "L'animatrice de l'émission « Kontrovers » débat avec le Prof. Friedenthal et Mme Annelies Nielsen autour du thème : « Nos enfants sont-ils accros à la consommation ? »."
+            }
+          }
+        },
+        "questions": {
+          "h1": {
+            "text": {
+              "ar": "يتصل شتيفن بمارايكه لأنه يحتاج إلى شيء ما.",
+              "fr": "Steffen appelle Mareike parce qu'il a besoin de quelque chose."
+            }
+          },
+          "h2": {
+            "text": {
+              "ar": "يجب على مارايكه …",
+              "fr": "Mareike doit …"
+            },
+            "options": {
+              "ar": [
+                "المجيء فوراً إلى شتيفن.",
+                "الانتظار حتى يأتي شتيفن.",
+                "الاتصال هاتفياً بشتيفن."
+              ],
+              "fr": [
+                "venir immédiatement chez Steffen.",
+                "attendre Steffen.",
+                "rappeler Steffen."
+              ]
+            }
+          },
+          "h3": {
+            "text": {
+              "ar": "هذا الإعلان موجه لركاب الطائرة قبل الإقلاع.",
+              "fr": "Cette annonce s'adresse aux passagers avant le décollage."
+            }
+          },
+          "h4": {
+            "text": {
+              "ar": "المسافرون إلى هامبورغ …",
+              "fr": "Les passagers pour Hambourg …"
+            },
+            "options": {
+              "ar": [
+                "يجدون مخرج رحلتهم على شاشة العرض.",
+                "يجب أن يتوجهوا إلى البوابة G17.",
+                "يجب أن يتوجهوا إلى البوابة H7."
+              ],
+              "fr": [
+                "trouvent leur porte sur l'écran d'affichage.",
+                "doivent se rendre à la porte G17.",
+                "doivent se rendre à la porte H7."
+              ]
+            }
+          },
+          "h5": {
+            "text": {
+              "ar": "هذا الإعلان هو فقرة إذاعية حول موضوع غسيل الملابس.",
+              "fr": "Cette annonce est une émission de radio sur le lavage du linge."
+            }
+          },
+          "h6": {
+            "text": {
+              "ar": "مسحوق الغسيل …",
+              "fr": "La lessive en poudre …"
+            },
+            "options": {
+              "ar": [
+                "موجود بالفعل داخل الغسالة.",
+                "يوضع في الغسالة بعد 60 دقيقة.",
+                "يوضع في الحجرة العلوية إلى اليسار في الغسالة."
+              ],
+              "fr": [
+                "est déjà dans la machine.",
+                "se met dans la machine au bout de 60 minutes.",
+                "se met en haut à gauche dans la machine."
+              ]
+            }
+          },
+          "h7": {
+            "text": {
+              "ar": "هذا الإعلان موجه للمستمعين الشباب الذين يحبون موسيقى الهيب هوب.",
+              "fr": "Cette annonce s'adresse aux jeunes auditeurs qui aiment le hip-hop."
+            }
+          },
+          "h8": {
+            "text": {
+              "ar": "يمكن للمرء …",
+              "fr": "On peut …"
+            },
+            "options": {
+              "ar": [
+                "السفر عبر أوروبا.",
+                "الفوز بتذاكر لحضور حفل موسيقي.",
+                "الفوز بأحدث الأغاني المسجلة."
+              ],
+              "fr": [
+                "voyager à travers l'Europe.",
+                "gagner des billets pour un concert.",
+                "gagner les toutes dernières chansons."
+              ]
+            }
+          },
+          "h9": {
+            "text": {
+              "ar": "هذا الإعلان الصوتي موجه لركاب القطار.",
+              "fr": "Cette annonce est destinée aux voyageurs en train."
+            }
+          },
+          "h10": {
+            "text": {
+              "ar": "في محطة فولدا …",
+              "fr": "À Fulda …"
+            },
+            "options": {
+              "ar": [
+                "يجب على جميع الركاب النزول من القطار.",
+                "يمكن التبديل وركوب القطار المتجه إلى برلين.",
+                "يصل القطار متأخراً عن موعده."
+              ],
+              "fr": [
+                "tous les passagers doivent descendre.",
+                "on peut prendre une correspondance pour Berlin.",
+                "on arrive avec du retard."
+              ]
+            }
+          },
+          "h11": {
+            "text": {
+              "ar": "السيدة فيرتمولر …",
+              "fr": "Mme Wertmüller …"
+            },
+            "options": {
+              "ar": [
+                "لا تفهم اللغة الألمانية.",
+                "لا تتحدث الألمانية بشكل جيد.",
+                "تتحدث باللغة الألمانية."
+              ],
+              "fr": [
+                "ne comprend pas l'allemand.",
+                "ne parle pas très bien allemand.",
+                "parle allemand."
+              ]
+            }
+          },
+          "h12": {
+            "text": {
+              "ar": "تبدأ الجولة الإرشادية …",
+              "fr": "La visite commence …"
+            },
+            "options": {
+              "ar": [
+                "في القاعة الرئيسية.",
+                "بالفن المعاصر الحديث.",
+                "باللوحات التجريدية."
+              ],
+              "fr": [
+                "dans le hall principal.",
+                "avec l'art contemporain.",
+                "avec la peinture abstraite."
+              ]
+            }
+          },
+          "h13": {
+            "text": {
+              "ar": "يشاهد الطلاب …",
+              "fr": "Les étudiants voient …"
+            },
+            "options": {
+              "ar": [
+                "في النهاية الفن الكلاسيكي.",
+                "في النهاية أعمالاً من الفن المعاصر أيضاً.",
+                "أعمالاً فنية مستوحاة من الطبيعة أيضاً."
+              ],
+              "fr": [
+                "à la fin de l'art classique.",
+                "à la fin également de l'art moderne.",
+                "aussi des œuvres d'art inspirées de la nature."
+              ]
+            }
+          },
+          "h14": {
+            "text": {
+              "ar": "بعد انتهاء الجولة …",
+              "fr": "Après la visite …"
+            },
+            "options": {
+              "ar": [
+                "يمكن للمرء تناول فنجان من القهوة.",
+                "يجب على الجميع التوجه فوراً إلى المخرج.",
+                "لا يُسمح بالبقاء بمفرده داخل قاعة الفنون."
+              ],
+              "fr": [
+                "on peut boire un café.",
+                "on doit immédiatement se rendre à la sortie.",
+                "on n'a pas le droit de rester seul dans la Kunsthalle."
+              ]
+            }
+          },
+          "h15": {
+            "text": {
+              "ar": "الحقائب والمعاطف …",
+              "fr": "Les sacs et manteaux …"
+            },
+            "options": {
+              "ar": [
+                "يُسمح للزوار بالاحتفاظ بها معهم.",
+                "تأخذها السيدة فيرتمولر.",
+                "يجب إيداعها في خزانة الملابس (Garderobe)."
+              ],
+              "fr": [
+                "peuvent être gardés par les visiteurs.",
+                "sont pris en charge par Mme Wertmüller.",
+                "doivent obligatoirement être déposés au vestiaire."
+              ]
+            }
+          },
+          "h16": {
+            "text": {
+              "ar": "كاي ليس جائعاً.",
+              "fr": "Kai n'a pas faim."
+            }
+          },
+          "h17": {
+            "text": {
+              "ar": "وصل كاي متأخراً عن الندوة الدراسية.",
+              "fr": "Kai est arrivé en retard au séminaire."
+            }
+          },
+          "h18": {
+            "text": {
+              "ar": "بيا تستمتع بدراسة الكيمياء في الجامعة.",
+              "fr": "Pia aime étudier la chimie."
+            }
+          },
+          "h19": {
+            "text": {
+              "ar": "يعرض كاي المساعدة على بيا.",
+              "fr": "Kai propose son aide à Pia."
+            }
+          },
+          "h20": {
+            "text": {
+              "ar": "يعتقد كاي أن على بيا تقليل ساعات عملها.",
+              "fr": "Kai pense que Pia devrait moins travailler."
+            }
+          },
+          "h21": {
+            "text": {
+              "ar": "بيا بحاجة ماسة وعاجلة إلى المال.",
+              "fr": "Pia a un besoin urgent de cet argent."
+            }
+          },
+          "h22": {
+            "text": {
+              "ar": "يعرض كاي وظيفة عمل على بيا.",
+              "fr": "Kai propose un emploi à Pia."
+            }
+          },
+          "h23": {
+            "text": {
+              "ar": "تعتبر الملابس رمزاً وشعاراً للانتماء إلى مجموعة معينة.",
+              "fr": "Le vêtement est considéré comme un signe d'appartenance à un groupe."
+            }
+          },
+          "h24": {
+            "text": {
+              "ar": "تتغير صيحات الموضة بسرعة كبيرة جداً.",
+              "fr": "La mode change très rapidement."
+            }
+          },
+          "h25": {
+            "text": {
+              "ar": "معظم المراهقين في سن 16 عاماً ليس لديهم مال كافٍ للملابس ذات العلامات التجارية الباهظة.",
+              "fr": "La plupart des adolescents de 16 ans n'ont pas assez d'argent pour des vêtements de marque coûteux."
+            }
+          },
+          "h26": {
+            "text": {
+              "ar": "مصروف الجيب الذي يحصل عليه الشباب ليس مرتفعاً كما يعتقد الكثير من الناس.",
+              "fr": "L'argent de poche des jeunes n'est pas aussi élevé que beaucoup de gens le pensent."
+            }
+          },
+          "h27": {
+            "text": {
+              "ar": "يشعر الآباء بالقلق بسبب قضاء أطفالهم وقتاً طويلاً في التحدث عبر الهاتف المحمول.",
+              "fr": "Les parents s'inquiètent parce que leurs enfants passent trop de temps au téléphone portable."
+            }
+          },
+          "h28": {
+            "text": {
+              "ar": "الاستهلاك واقتناء السلع يعني نيل التقدير والاعتراف الاجتماعي.",
+              "fr": "Consommer signifie obtenir de la reconnaissance sociale."
+            }
+          },
+          "h29": {
+            "text": {
+              "ar": "يشتري الآباء ملابس معينة لأن الأبناء يرونها جميلة ويرغبون فيها.",
+              "fr": "Les parents achètent certains vêtements parce que les enfants les trouvent beaux."
+            }
+          },
+          "h30": {
+            "text": {
+              "ar": "سيكون من الجيد الاستماع إلى رأي الشباب واليافعين حول هذا الموضوع.",
+              "fr": "Il serait bien d'entendre l'avis des jeunes sur ce sujet."
+            }
+          }
+        }
+      }
+    }
+  },
+  "explanations": {
+    "1": {
+      "quote": "Seit zwei Tagen arbeite ich in der Presseabteilung.",
+      "whyCorrect": {
+        "de": "Richtig. Nina schreibt gleich zu Beginn ihres Blogeintrags: „Seit zwei Tagen arbeite ich in der Presseabteilung.“ Sie ist also noch ganz neu auf dieser Stelle.",
+        "ar": "صحيح. تذكر نينا في بداية تدوينتها مباشرة: 'منذ يومين أعمل في قسم الصحافة'. وبالتالي فهي جديدة تمامًا في هذه الوظيفة.",
+        "fr": "Vrai. Nina commence son billet de blog en disant : « Depuis deux jours, je travaille au service de presse ». Elle est donc toute nouvelle à ce poste."
+      },
+      "whyIncorrect": {
+        "de": "Falsch wäre unzutreffend, da sie erst seit zwei Tagen dort arbeitet und somit noch nicht lange dabei ist.",
+        "ar": "اختيار 'خطأ' غير صحيح، لأنها لم تبدأ العمل سوى منذ يومين فقط.",
+        "fr": "Choisir 'Faux' est incorrect car deux jours représentent une durée très courte."
+      }
+    },
+    "2": {
+      "quote": "Wir müssen gerade für ein neues Buch ein paar Werbeauftritte vorbereiten. Da bin ich also ziemlich viel als „location-scout“ in der Stadt unterwegs ... überlege, ob sie für uns geeignet sind.",
+      "whyCorrect": {
+        "de": "Richtig. Als „Location-Scout“ sucht sie in der Stadt nach geeigneten Orten (wie Bibliotheken oder Geschäften) für kulturelle Werbeauftritte und Lesungen.",
+        "ar": "صحيح. بصفتها مستكشفة مواقع، تبحث في المدينة عن أماكن مناسبة (مثل المكتبات والمتاجر) لتنظيم فعاليات ترويجية وأمسيات قراءة لكتاب جديد.",
+        "fr": "Vrai. En tant que repéreuse de lieux (« location-scout »), elle recherche des espaces adaptés (bibliothèques, boutiques) pour organiser des événements promotionnels et des lectures."
+      },
+      "whyIncorrect": {
+        "de": "Die Aussage ist nicht falsch: Genau das ist ihre Hauptaufgabe im Moment.",
+        "ar": "العبارة ليست خاطئة، فهذه بالضبط مهمتها الحالية وفقًا للنص.",
+        "fr": "L'affirmation n'est pas fausse : c'est exactement sa mission actuelle."
+      }
+    },
+    "3": {
+      "quote": "Dann hat er mir zwei Einladungskarten gegeben, für eine Ausstellungseröffnung in einem anderen Stadtteil. Da sollte am Abend eine Party sein. Natürlich habe ich gleich meine Freundin Karo angerufen ... Die Leute in der U-Bahn dachten wahrscheinlich, wir wollten zu einer Hochzeit oder in die Oper.",
+      "whyCorrect": {
+        "de": "Falsch. Nina und Karo gehen zu einer Ausstellungseröffnung mit Party. Die Hochzeit wird im Text lediglich als lustiger Vergleich erwähnt („Die Leute in der U-Bahn dachten wahrscheinlich, wir wollten zu einer Hochzeit...“), weil sie sich so schick angezogen hatten.",
+        "ar": "خطأ. ذهبت نينا وصديقتها كارو لحضور افتتاح معرض فني مصحوب بحفل. ذُكر حفل الزفاف في النص فقط كمقارنة طريفة لأناقة ملابسهما في المترو.",
+        "fr": "Faux. Nina et son amie se rendent au vernissage d'une exposition artistique. Le mariage n'est qu'une métaphore amusante pour illustrer leurs tenues très élégantes dans le métro."
+      },
+      "whyIncorrect": {
+        "de": "Die Aussage ist nicht 'richtig', da es sich um eine Kunstausstellung mit Vernissage handelt, nicht um eine Heirat.",
+        "ar": "العبارة ليست صحيحة لأن المناسبة افتتاح معرض فني وليست زفافًا حقيقيًا.",
+        "fr": "L'affirmation n'est pas 'vraie' car il s'agit d'une exposition d'art et non d'un mariage."
+      }
+    },
+    "4": {
+      "quote": "Karo hatte im Internet herausgefunden, dass wir an der U-Bahnstation „Horner Landstraße“ aussteigen mussten. Das haben wir auch getan.",
+      "whyCorrect": {
+        "de": "Falsch. Die beiden Mädchen sind an der absolut richtigen Station („Horner Landstraße“) ausgestiegen („Das haben wir auch getan“). Nur der anschließende Fußweg war viel weiter und verwirrender als gedacht.",
+        "ar": "خطأ. نزلتا في المحطة الصحيحة تمامًا ('وهذا ما فعلناه أيضًا'). لكن المسافة سيرًا على الأقدام بعد ذلك كانت أطول ومضللة.",
+        "fr": "Faux. Elles sont descendues à la bonne station (« C'est ce que nous avons fait »). C'est seulement la marche à pied par la suite qui était plus longue et trompeuse."
+      },
+      "whyIncorrect": {
+        "de": "Die Aussage ist nicht richtig, denn sie sind genau an der Haltestelle ausgestiegen, die Karo recherchiert hatte.",
+        "ar": "العبارة ليست صحيحة لأنهما نزلتا بالضبط في المحطة التي حددتها كارو.",
+        "fr": "L'affirmation n'est pas vraie car elles sont descendues à la station exacte indiquée par Karo."
+      }
+    },
+    "5": {
+      "quote": "Wir haben überall gefragt, aber niemand wusste etwas von der Ausstellung. Nach einer halben Stunde Herumlaufen haben wir wenigstens die Straße gefunden",
+      "whyCorrect": {
+        "de": "Richtig. Sie haben Passanten nach dem Weg gefragt, aber niemand konnte ihnen weiterhelfen („niemand wusste etwas von der Ausstellung“), sodass sie lange suchen mussten.",
+        "ar": "صحيح. سألتا المارة في كل مكان ولكن لم يعرف أحد أي شيء عن المعرض، فاضطرتا للتجول والبحث لمدة طويلة.",
+        "fr": "Vrai. Elles ont interrogé plusieurs passants, mais personne ne connaissait l'exposition (« personne n'était au courant »), elles ont donc dû chercher par elles-mêmes."
+      },
+      "whyIncorrect": {
+        "de": "Falsch ist nicht zutreffend: Der Text bestätigt ausdrücklich, dass ihnen niemand Auskunft geben konnte.",
+        "ar": "اختيار 'خطأ' غير صحيح لأن النص يؤكد بوضوح أن أحدًا لم يتمكن من مساعدتهما.",
+        "fr": "Choisir 'Faux' est incorrect car le texte indique expressément que personne n'a pu les aider."
+      }
+    },
+    "6": {
+      "quote": "nur der coole Typ, der mir am Morgen die Einladung gegeben hatte, der war gar nicht da! Das war mir aber völlig egal.",
+      "whyCorrect": {
+        "de": "Falsch. Nina war keineswegs traurig. Sie fand den Abend fantastisch, hat nette Bekanntschaften gemacht und betont im Schlusssatz: „Das war mir aber völlig egal.“",
+        "ar": "خطأ. لم تكن نينا حزينة بأي شكل من الأشكال؛ بل استمتعت بأمسية رائعة وتعرفت على أصدقاء جدد وأكدت: 'لكن ذلك لم يهمني إطلاقًا'.",
+        "fr": "Faux. Nina n'était absolument pas triste ; elle a passé une excellente soirée et conclut le texte par : « Mais cela m'était complètement égal »."
+      },
+      "whyIncorrect": {
+        "de": "Die Aussage ist nicht richtig, da Nina ausdrücklich schreibt, dass ihr die Abwesenheit des Bekannten völlig gleichgültig war.",
+        "ar": "العبارة ليست صحيحة لأن نينا لم تكترث إطلاقًا لعدم حضور ذلك الشاب.",
+        "fr": "L'affirmation n'est pas vraie car Nina précise qu'elle ne s'en souciait absolument pas."
+      }
+    },
+    "7": {
+      "quote": "Das neue Terminal soll in ein paar Monaten eröffnet werden und bis dahin wird geprobt. 10000 Berliner haben sich freiwillig gemeldet, um als Testpersonen im Flughafen gerade das zu tun, was man sonst auf Reisen am meisten hasst: Schlange stehen, Koffer tragen und durch lange Gänge laufen.",
+      "whyCorrect": {
+        "de": "Option c ist richtig. Der Stresstest dient dazu, das neue Terminal und alle Einrichtungen sowie Betriebsabläufe vor der offiziellen Eröffnung umfassend zu testen.",
+        "ar": "الخيار (c) صحيح. الغرض من اختبار الضغط هو اختبار مرافق ومنشآت المطار الجديد وسير العمليات قبل الافتتاح الرسمي.",
+        "fr": "L'option c est correcte. Le test a pour but de vérifier et d'éprouver toutes les installations du nouveau terminal avant l'ouverture."
+      },
+      "whyIncorrect": {
+        "de": "Option a ist falsch (es geht nur um Berlin-Brandenburg, nicht um ganz Europa). Option b ist falsch (es geht nicht um Sightseeing für Berliner, sondern um einen realitätsnahen Belastungstest).",
+        "ar": "الخيار (a) خاطئ فالاختبار مقتصر على مطار برلين وليس كل مطارات أوروبا. والخيار (b) خاطئ فالهدف ليس نزهة تعريفية بل فحص تقني وعملي دقيق.",
+        "fr": "L'option a est fausse (test local à Berlin). L'option b est erronée car l'objectif est technique et logistique, non une simple visite de découverte."
+      }
+    },
+    "8": {
+      "quote": "und alle machen begeistert mit, obwohl der Job nicht bezahlt wird. Der Flughafen hat 15000 Koffer besorgt, mit denen immer wieder geübt wird.",
+      "whyCorrect": {
+        "de": "Option a ist richtig. Die Testpersonen arbeiten freiwillig und ohne Bezahlung („obwohl der Job nicht bezahlt wird“).",
+        "ar": "الخيار (a) صحيح. يشارك المتطوعون دون أي أجر مالي ('على الرغم من أن العمل غير مدفوع الأجر').",
+        "fr": "L'option a est correcte. Les testeurs participent bénévolement sans aucune rémunération (« bien que le travail ne soit pas payé »)."
+      },
+      "whyIncorrect": {
+        "de": "Option b ist falsch (kein Interview). Option c ist falsch, weil die Koffer vom Flughafen bereitgestellt werden und nicht von den Teilnehmern mitgebracht werden.",
+        "ar": "الخيار (b) خاطئ فلا وجود لمقابلات. والخيار (c) خاطئ لأن المطار هو من وفر 15 ألف حقيبة للتجربة ولم يجلبها المشاركون.",
+        "fr": "L'option b est fausse. L'option c est erronée car les 15 000 valises sont fournies par l'aéroport et non amenées par les passagers."
+      }
+    },
+    "9": {
+      "quote": "einige äußern sich geradezu begeistert über den neuen Flughafen: „Haben Sie gesehen, die S-Bahn fährt direkt bis unter das Terminal!“ „Ja“, antwortet jemand, „aber hinter den Sicherheitskontrollen ist viel zu wenig Platz. Das darf nicht so bleiben“.",
+      "whyCorrect": {
+        "de": "Option c ist richtig. Die Reaktionen sind gemischt: Einige Teilnehmer sind begeistert (Lob für die direkte S-Bahn-Anbindung), andere üben deutliche Kritik (zu wenig Platz hinter den Kontrollen).",
+        "ar": "الخيار (c) صحيح. هناك آراء إيجابية وأخرى سلبية: بعض المشاركين متحمسون (القطار أسفل المبنى) وآخرون ينتقدون ضيق المكان خلف التفتيش الأمني.",
+        "fr": "L'option c est correcte. Les avis sont partagés : réactions très positives sur l'accès ferroviaire direct, et critiques sur l'étroitesse des contrôles de sûreté."
+      },
+      "whyIncorrect": {
+        "de": "Option a ist falsch (sie sind bester Laune, nicht übermüdet). Option b ist falsch, da keineswegs „alle“ rundum zufrieden sind.",
+        "ar": "الخيار (a) خاطئ فالأجواء كانت مرحة. والخيار (b) خاطئ لوجود انتقادات صريحة بشأن المساحة.",
+        "fr": "L'option a est fausse. L'option b est inexacte car plusieurs participants soulignent des défauts majeurs."
+      }
+    },
+    "10": {
+      "quote": "Wenn sie im Kaufhaus gefragt werden, ob sie eine Kundenkarte beantragen möchten, lehnen sie höflich ab, weil sie ihre persönlichen Daten nicht veröffentlichen wollen.",
+      "whyCorrect": {
+        "de": "Option a ist richtig. Viele Menschen lehnen Kundenkarten ab, um ihre privaten Angaben und Einkaufsdaten vor den Verkäufern zu schützen.",
+        "ar": "الخيار (a) صحيح. يرفض الكثير من الزبائن بطاقات العملاء لحماية خصوصيتهم وعدم الكشف عن بياناتهم الشخصية للمتاجر.",
+        "fr": "L'option a est correcte. Les clients réticents refusent les cartes pour ne pas divulguer leurs données personnelles aux commerçants."
+      },
+      "whyIncorrect": {
+        "de": "Option b ist falsch (Waren werden nicht teurer). Option c ist falsch, denn die Prämien werden nicht als Hauptablehnungsgrund genannt.",
+        "ar": "الخيار (b) خاطئ فالأسعار لا ترتفع بسببها. والخيار (c) خاطئ لأن السبب الأساسي هو حماية البيانات وليس نوعية المكافآت.",
+        "fr": "L'option b est fausse. L'option c ne correspond pas au motif invoqué dans l'article."
+      }
+    },
+    "11": {
+      "quote": "Es gibt auch noch die Karten der Fluglinien und der Bahn, da werden ebenfalls Punkte gesammelt, allerdings nach einem anderen System: Wenn ich viel mit Flugzeug oder Bahn unterwegs bin, habe ich schließlich auf meiner Kundenkarte genügend Bonuspunkte",
+      "whyCorrect": {
+        "de": "Option c ist richtig. Bei der Kundenkarte der Bahn sammelt der Inhaber Punkte bzw. Treuepunkte („da werden ebenfalls Punkte gesammelt“).",
+        "ar": "الخيار (c) صحيح. مع بطاقة ولاء القطارات، يجمع المسافر نقاط مكافآت ('يتم هناك أيضًا جمع النقاط').",
+        "fr": "L'option c est correcte. La carte de chemin de fer permet d'accumuler des points de fidélité au fil des voyages."
+      },
+      "whyIncorrect": {
+        "de": "Option a ist falsch (man fährt nicht automatisch gratis in der Heimatregion). Option b ist falsch (keine kleine Überraschung pro Ticketkauf).",
+        "ar": "الخيار (a) خاطئ فلا تمنح ركوبًا مجانيًا تلقائيًا. والخيار (b) خاطئ فلا توجد مفاجآت فورية عند كل تذكرة.",
+        "fr": "L'option a est fausse. L'option b est inventée."
+      }
+    },
+    "12": {
+      "quote": "Gerd Kortenreuther, Werbefachmann aus Graz, sagt dazu: „Selbstverständlich sind alle Bonusprogramme in erster Linie ein Mittel, um möglichst viele Kunden möglichst fest an den Verkäufer zu binden.“",
+      "whyCorrect": {
+        "de": "Option c ist richtig. Das Hauptziel der Programme ist die Kundenbindung: Die Kunden sollen dem Geschäft treu bleiben und immer dort einkaufen.",
+        "ar": "الخيار (c) صحيح. الهدف الاستراتيجي هو ولاء الزبون وربطه بالبائع ليداوم على الشراء من المتجر ذاته.",
+        "fr": "L'option c est correcte. La finalité première est la fidélisation : inciter le client à revenir constamment dans le même magasin."
+      },
+      "whyIncorrect": {
+        "de": "Option a ist falsch (Verbilligung ist nur ein Ködermittel, nicht das Endziel der Händler). Option b ist falsch (es geht um Verkauf, nicht Information).",
+        "ar": "الخيار (a) خاطئ فالخصم مجرد وسيلة لجذب العميل وليس غاية التاجر. والخيار (b) خاطئ فلا تهدف لتثقيف المستهلك.",
+        "fr": "L'option a et l'option b ne reflètent pas la motivation commerciale des entreprises."
+      }
+    },
+    "13": {
+      "quote": "Frau Gabriell liebt klassische Musik. Sie würde gern ein Konzert besuchen oder in die Oper gehen. Am Samstagabend hat sie schon etwas vor.",
+      "whyCorrect": {
+        "de": "Lösung X ist richtig. Unter den vorliegenden Anzeigen A bis J gibt es kein passendes klassisches Konzert oder Opernangebot, das nicht am Samstagabend stattfindet.",
+        "ar": "الحل X صحيح. لا يوجد بين الإعلانات إعلان يقدم حفلاً للموسيقى الكلاسيكية أو أوبرا في موعد يناسب السيدة غابرييل.",
+        "fr": "La réponse X est correcte. Aucune des annonces A à J ne propose de concert de musique classique ou d'opéra adapté à son emploi du temps."
+      },
+      "whyIncorrect": {
+        "de": "Keine der Anzeigen A bis J deckt diese Situation ab, daher muss X gewählt werden.",
+        "ar": "لا ينطبق أي إعلان من A إلى J على وضعها، لذلك يجب اختيار X.",
+        "fr": "Aucune annonce ne convenant, il faut sélectionner X."
+      }
+    },
+    "14": {
+      "quote": "Französischer Chanson-Abend im Café Voltaire · Eintritt frei",
+      "whyCorrect": {
+        "de": "Anzeige H passt. Ai spricht sehr gut Französisch und die beiden interessieren sich nicht für klassische Musik. Der französische Chanson-Abend im Café Voltaire ist ideal.",
+        "ar": "الإعلان H مناسب. آي تجيد الفرنسية بطلاقة، وأمسية الأغاني الفرنسية (Chanson) في مقهى فولتير تناسبهما تمامًا.",
+        "fr": "L'annonce H convient. Ai parlant couramment français, la soirée de chansons françaises au Café Voltaire est parfaite."
+      },
+      "whyIncorrect": {
+        "de": "Andere Anzeigen bieten keinen französischen Sprachbezug oder erfordern Deutschkenntnisse.",
+        "ar": "الإعلانات الأخرى لا ترتبط باللغة الفرنسية وتتطلب فهمًا للغة الألمانية.",
+        "fr": "Les autres annonces ne répondent pas au critère linguistique francophone."
+      }
+    },
+    "15": {
+      "quote": "Bowling-Center Treffpunkt: Spiel, Spaß, Pizza & Snacks",
+      "whyCorrect": {
+        "de": "Anzeige F passt. Philipp möchte seine Freunde treffen, etwas essen, reden und etwas Unterhaltsames machen. Das Bowling-Center mit Pizza und Snacks erfüllt alle Wünsche.",
+        "ar": "الإعلان F مناسب. يريد فيليب لقاء أصدقائه والحديث وتناول الطعام والمرح؛ ومركز البولينغ مع البيتزا يوفر كل ذلك.",
+        "fr": "L'annonce F convient. Philipp cherche un endroit convivial pour jouer, discuter et manger des pizzas entre amis."
+      },
+      "whyIncorrect": {
+        "de": "Andere Anzeigen bieten kein lockeres Treffen mit Sport, Spiel und Gastronomie für eine Freundesgruppe.",
+        "ar": "الإعلانات الأخرى لا تجمع بين اللعب الترفيهي الجماعي وتناول البيتزا.",
+        "fr": "Les autres propositions ne combinent pas loisir ludique et restauration conviviale."
+      }
+    },
+    "16": {
+      "quote": "Fröhliches Wochenende – Stadtfest in Bruchsal ... Für die Kleinen ist ein besonderer Spielpark aufgebaut. Eintritt frei.",
+      "whyCorrect": {
+        "de": "Anzeige B passt. Familie Steiner sucht ein günstiges Angebot für Sonntag mit Unterhaltung für die drei Kinder. Das Stadtfest bietet einen Spielpark für Kinder und der Eintritt ist frei.",
+        "ar": "الإعلان B مناسب. تبحث عائلة شتاينر عن نشاط غير مكلف وممتع للأطفال يوم الأحد؛ ومهرجان المدينة يقدم حديقة ألعاب للصغار ودخولاً مجانيًا.",
+        "fr": "L'annonce B convient. Fête municipale avec parc de jeux pour enfants, idéale pour la famille le dimanche avec entrée gratuite."
+      },
+      "whyIncorrect": {
+        "de": "Andere Anzeigen sind kostenpflichtig oder nicht für kleine Kinder geeignet.",
+        "ar": "الإعلانات الأخرى باهظة التكلفة أو غير مناسبة للأطفال الصغار.",
+        "fr": "Les autres annonces sont payantes ou inadaptées à de jeunes enfants."
+      }
+    },
+    "17": {
+      "quote": "Club Nirvana: Neueröffnung! Große Eröffnungsparty ... elegantes Büffet & erlesene Weine ... Tanz mit den „Beachriders“",
+      "whyCorrect": {
+        "de": "Anzeige C passt. Stefan und Marie wollen festlich ausgehen: gutes Essen (elegantes Büffet), Tanz und neue Clubmitglieder kennenlernen.",
+        "ar": "الإعلان C مناسب. يرغب شتيفان وماري في سهرة مميزة: بوفيه فاخر، رقص، والتعرف على أعضاء النادي الجدد.",
+        "fr": "L'annonce C convient. Soirée élégante avec buffet raffiné, piste de danse et rencontres au Club Nirvana."
+      },
+      "whyIncorrect": {
+        "de": "Andere Anzeigen bieten nicht die gewünschte Kombination aus festlichem Abendessen und Tanzparty.",
+        "ar": "الإعلانات الأخرى لا توفر بوفيه عشاء ورقصًا في آن واحد.",
+        "fr": "Les autres options n'offrent pas à la fois buffet soigné et ambiance dansante."
+      }
+    },
+    "18": {
+      "quote": "Salsa-Club Havana ... Eintritt frei",
+      "whyCorrect": {
+        "de": "Anzeige E passt. Tanja und Claire wollen lateinamerikanisch tanzen und haben wenig Geld. Der Salsa-Club bietet heiße Rhythmen bei freiem Eintritt.",
+        "ar": "الإعلان E مناسب. تانجا وكلير ترغبان في رقص إيقاعات لاتينية بميزانية محدودة؛ ونادي السالسا يقدم دخولاً مجانيًا.",
+        "fr": "L'annonce E convient. Musiques et danses latino-américaines (salsa) avec entrée gratuite, parfait pour leur petit budget."
+      },
+      "whyIncorrect": {
+        "de": "Andere Tanzangebote kosten Eintritt oder spielen keine lateinamerikanische Musik.",
+        "ar": "أماكن الرقص الأخرى تفرض رسوم دخول أو لا تقدم موسيقى لاتينية.",
+        "fr": "Les autres clubs font payer l'entrée ou diffusent d'autres styles musicaux."
+      }
+    },
+    "19": {
+      "quote": "Matinee im Schlosspark ... Sonntag, 11.00 Uhr",
+      "whyCorrect": {
+        "de": "Anzeige D passt. Herr Mirolek möchte Kultur am Wochenende erleben, aber am Abend zu Hause bei seiner Familie sein. Eine Matinee am Vormittag passt exakt.",
+        "ar": "الإعلان D مناسب. يريد السيد ميروليك حضور فعالية ثقافية صباحية ليبقى مساءً مع عائلته؛ والحفلة الصباحية (Matinee) تقام الأحد الساعة 11:00.",
+        "fr": "L'annonce D convient. Une matinée culturelle au parc du château le dimanche matin à 11h lui permet d'être en famille le soir."
+      },
+      "whyIncorrect": {
+        "de": "Abendveranstaltungen kommen für Herrn Mirolek nicht infrage.",
+        "ar": "الفعاليات المسائية غير مناسبة لأنه يريد قضاء المساء في المنزل.",
+        "fr": "Les événements du soir ne lui conviennent pas car il veut rentrer chez lui."
+      }
+    },
+    "20": {
+      "quote": "Wenn wir weiterhin unseren Lebensstandard behalten wollen, müssen wir auch die erneuerbare Energie aus Getreide akzeptieren.",
+      "whyCorrect": {
+        "de": "„Ja“ ist richtig. Stefanie spricht sich klar für Bio-Energie aus, weil sie Atomkraft und Öl-Abhängigkeit ablehnt und Getreideenergie für notwendig hält.",
+        "ar": "'نعم' صحيح. تؤيد ستيفاني الطاقة الحيوية لأنها ترى ضرورة قبول الطاقة المتجددة من الحبوب للحفاظ على مستوى المعيشة وتجنب الاعتماد على النفط.",
+        "fr": "« Oui » est correct. Stefanie soutient la bioénergie, jugeant nécessaire d'accepter l'énergie issue des céréales pour maintenir notre niveau de vie."
+      },
+      "whyIncorrect": {
+        "de": "„Nein“ wäre falsch, da ihr Schlusswort eindeutig befürwortend ist („müssen wir akzeptieren“).",
+        "ar": "اختيار 'لا' خاطئ لأنها تختم بضرورة قبول هذا الخيار البديل.",
+        "fr": "« Non » est erroné car sa conclusion est explicitement favorable."
+      }
+    },
+    "21": {
+      "quote": "Es kann uns nicht egal sein, dass die Menschen in Honduras hungern, nur damit wir in Europa oder in Amerika genügend Energie zur Verfügung haben!",
+      "whyCorrect": {
+        "de": "„Nein“ ist richtig. Carlos ist strikt gegen Bio-Energie aus Getreide, da dadurch Lebensmittelpreise in Lateinamerika steigen und Menschen hungern.",
+        "ar": "'لا' صحيح. يرفض كارلوس إنتاج الطاقة من الحبوب لما يسببه ذلك من غلاء أسعار الذرة والمجاعة في أمريكا اللاتينية.",
+        "fr": "« Non » est correct. Carlos s'oppose fermement aux biocarburants qui affament les populations d'Amérique latine en faisant flamber le prix du maïs."
+      },
+      "whyIncorrect": {
+        "de": "„Ja“ ist falsch, da Carlos die Umwandlung von Nahrung in Treibstoff scharf verurteilt.",
+        "ar": "اختيار 'نعم' خاطئ لأنه يدين استخدام المحاصيل الغذائية لإنتاج الطاقة.",
+        "fr": "« Oui » est faux car il dénonce l'injustice alimentaire mondiale."
+      }
+    },
+    "22": {
+      "quote": "Jedenfalls meine ich, dass die Industrie-Länder ganz schnell damit aufhören müssen, Energie aus Lebensmitteln herzustellen!",
+      "whyCorrect": {
+        "de": "„Nein“ ist richtig. Robin fordert, dass Industrieländer sofort aufhören, Energie aus Lebensmitteln zu gewinnen, und stattdessen auf Elektroautos und Forschung setzen.",
+        "ar": "'لا' صحيح. يعارض روبن ذلك ويطالب الدول الصناعية بالتوقف فورًا عن تصنيع الطاقة من الأغذية والبحث عن حلول بديلة.",
+        "fr": "« Non » est correct. Robin exige l'arrêt immédiat de la production d'énergie à partir d'aliments."
+      },
+      "whyIncorrect": {
+        "de": "„Ja“ ist falsch: Seine Forderung („ganz schnell aufhören“) ist eine unmissverständliche Ablehnung.",
+        "ar": "اختيار 'نعم' غير صحيح لأن عبارته صريحة في الرفض والمطالبة بالتوقف السريع.",
+        "fr": "« Oui » contredit son appel explicite à cesser cette pratique."
+      }
+    },
+    "23": {
+      "quote": "Ich finde das furchtbar! Denn schon heute ist es unmöglich, alle Menschen ausreichend mit Nahrung und Trinkwasser zu versorgen",
+      "whyCorrect": {
+        "de": "„Nein“ ist richtig. Michaela findet es schrecklich („furchtbar“), Landflächen für Energiegetreide zu nutzen, während Millionen Menschen hungern.",
+        "ar": "'لا' صحيح. ترفض ميكايلا ذلك بشدة وتصفه بالمروع لأن توفير الغذاء والماء للبشر يجب أن تكون له الأولوية القصوى.",
+        "fr": "« Non » est correct. Michaela juge « terrible » d'accaparer des terres agricoles pour l'énergie au détriment de l'alimentation humaine."
+      },
+      "whyIncorrect": {
+        "de": "„Ja“ widerspricht ihrer eindeutig ablehnenden Haltung.",
+        "ar": "'نعم' يتعارض تمامًا مع موقفها الرافض والغاضب.",
+        "fr": "« Oui » est erroné car son jugement est négatif sans équivoque."
+      }
+    },
+    "24": {
+      "quote": "Dazu gehört auch die Gewinnung von Energie aus Getreide. Ob wir das schön finden oder nicht, wir haben im Moment keine andere Wahl.",
+      "whyCorrect": {
+        "de": "„Ja“ ist richtig. Julia sieht im Moment keine Alternative („keine andere Wahl“) und befürwortet daher pragmatisch die Getreideenergie.",
+        "ar": "'نعم' صحيح. ترى يوليا ببراغماتية أنه لا خيار آخر حاليًا لمواجهة أزمة الطاقة سوى اللجوء لطاقة الحبوب.",
+        "fr": "« Oui » est correct. Julia adopte une position réaliste : même si la situation est difficile, nous n'avons pas d'autre choix actuellement."
+      },
+      "whyIncorrect": {
+        "de": "„Nein“ wäre unpassend: Julia akzeptiert die Notwendigkeit ausdrücklich.",
+        "ar": "اختيار 'لا' خاطئ لأنها تقر بضرورة استخدامها بحكم عدم وجود بديل.",
+        "fr": "« Non » est faux car elle soutient l'utilisation indispensable de ces ressources."
+      }
+    },
+    "25": {
+      "quote": "Es gibt im Moment keine andere Lösung, deshalb müssen wir auf diesem Wege weitergehen.",
+      "whyCorrect": {
+        "de": "„Ja“ ist richtig. Antonia betont, dass wir unseren Komfort nicht verlieren wollen und auf diesem Weg weitermachen müssen, da es keine andere Lösung gibt.",
+        "ar": "'نعم' صحيح. تؤكد أنطونيا ضرورة الاستمرار في هذا المسار لعدم وجود حل آخر في الوقت الحالي.",
+        "fr": "« Oui » est correct. Antonia affirme qu'il n'y a pas d'autre solution à court terme et qu'il faut persévérer dans cette voie."
+      },
+      "whyIncorrect": {
+        "de": "„Nein“ ist falsch: Ihr Fazit plädiert klar für die Fortsetzung der Energieproduktion.",
+        "ar": "اختيار 'لا' خاطئ لأن خاتمتها تدعو للمضي قدمًا في استخدام طاقة الحبوب.",
+        "fr": "« Non » contredit sa conclusion appelant à poursuivre."
+      }
+    },
+    "26": {
+      "quote": "Wir sollten ehrlich zugeben, dass wir Energie aus Getreide machen, weil wir die Energie brauchen. ... Wir müssen mit dem leben, was heute möglich ist.",
+      "whyCorrect": {
+        "de": "„Ja“ ist richtig. Andreas verteidigt die Nutzung von Bio-Energie und fordert Ehrlichkeit: Wir brauchen diese Energie heute und müssen sie nutzen.",
+        "ar": "'نعم' صحيح. يدافع أندرياس عن الطاقة الحيوية مؤكدًا حاجتنا الحالية الماسة إليها والتعامل بواقعية مع المتاح.",
+        "fr": "« Oui » est correct. Andreas défend l'exploitation de cette énergie dont nous avons besoin immédiatement."
+      },
+      "whyIncorrect": {
+        "de": "„Nein“ ist unzutreffend: Andreas verurteilt das Klagen über den Hunger als Heuchelei und befürwortet die Bio-Energie.",
+        "ar": "اختيار 'لا' غير سليم لأنه يعتبر الاعتراض نفاقًا ويؤيد استغلال الحبوب للطاقة.",
+        "fr": "« Non » est inexact car il assume pleinement la nécessité énergétique."
+      }
+    },
+    "27": {
+      "quote": "Reisende mit deutscher Anschrift können auch in der Jugendherberge die Mitgliedskarte erwerben. Ausländische Gäste ohne Mitgliedskarte können in der Jugendherberge eine „Internationale Gastkarte“ erwerben.",
+      "whyCorrect": {
+        "de": "Option c ist richtig. Man muss Mitglied sein, kann die Mitgliedskarte bzw. internationale Gastkarte aber bequem direkt bei der Ankunft in der Herberge kaufen.",
+        "ar": "الخيار (c) صحيح. يمكن شراء بطاقة العضوية أو بطاقة الضيف الدولية في بيت الشباب عند الوصول مباشرة دون الحاجة لاشتراك مسبق.",
+        "fr": "L'option c est correcte. Les clients peuvent adhérer à l'association ou acheter une carte d'hôte directement sur place à leur arrivée."
+      },
+      "whyIncorrect": {
+        "de": "Option a ist falsch (Voranmeldung wird nur empfohlen, ist aber keine strikte Pflicht). Option b ist falsch (es gibt Mehrbettzimmer, keine reinen Einzelzimmer).",
+        "ar": "الخيار (a) خاطئ فالحجز المسبق مستحسن لكنه غير إلزامي. والخيار (b) خاطئ فالغرف مشتركة لعدة أسرّة وليست فردية.",
+        "fr": "L'option a est fausse (la réservation est recommandée, non obligatoire). L'option b est fausse car ce sont des dortoirs partagés."
+      }
+    },
+    "28": {
+      "quote": "Zum Essen können erwachsene Gäste Bier und Wein bestellen (kostenpflichtig). Der Konsum von mitgebrachten alkoholischen Getränken ist in der Jugendherberge nicht erlaubt.",
+      "whyCorrect": {
+        "de": "Option b ist richtig. Volljährige Gäste können zu den Mahlzeiten Bier und Wein käuflich erwerben.",
+        "ar": "الخيار (b) صحيح. يستطيع النزلاء البالغون شراء وطلب البيرة والنبيذ مع وجبات الطعام في بيت الشباب.",
+        "fr": "L'option b est correcte. Les adultes peuvent acheter de la bière et du vin au cours des repas dans l'établissement."
+      },
+      "whyIncorrect": {
+        "de": "Option a ist falsch (Alkohol ist nicht komplett verboten, sondern darf beim Essen gekauft werden). Option c ist falsch, weil er gerade zum Essen erlaubt ist.",
+        "ar": "الخيار (a) خاطئ فالكحول ليس ممنوعًا بالكامل. والخيار (c) خاطئ لأنه مسموح به تحديدًا مع وجبات الطعام.",
+        "fr": "L'option a est inexacte car la vente aux repas est autorisée. L'option c contredit directement la règle."
+      }
+    },
+    "29": {
+      "quote": "Verschließbare Schrankfächer stehen gegen eine Gebühr zur Verfügung.",
+      "whyCorrect": {
+        "de": "Option b ist richtig. Für Wertsachen und Gepäck stehen abschließbare Fächer gegen Entrichtung einer Gebühr bereit.",
+        "ar": "الخيار (b) صحيح. تتوفر خزائن مقفلة لحفظ الحقائب والأمتعة مقابل دفع رسوم معينة.",
+        "fr": "L'option b est correcte. Des casiers sécurisés peuvent être fermés à clé moyennant paiement d'une redevance."
+      },
+      "whyIncorrect": {
+        "de": "Option a ist falsch (an der Rezeption werden Wertsachen abgegeben, nicht das gesamte Gepäck im Sekretariat). Option c ist falsch, Gepäck darf natürlich in den Zimmern bleiben (auf eigenes Risiko).",
+        "ar": "الخيار (a) خاطئ فالأمانات النقدية توضع في الاستقبال وليس كامل الحقائب. والخيار (c) خاطئ فالأمتعة تُترك في الغرف على مسؤولية صاحبها.",
+        "fr": "L'option a est fausse. L'option c est erronée car les bagages peuvent rester dans les chambres."
+      }
+    },
+    "30": {
+      "quote": "Wir bitten Sie während Ihres Aufenthaltes um Mithilfe. Dazu gehört z. B., dass Sie die Räume und Gegenstände in Ordnung halten, beim Tischdienst helfen, Abfall getrennt sammeln",
+      "whyCorrect": {
+        "de": "Option a ist richtig. Unter der Bitte um „Tischdienst“ wird erwartet, dass Gäste beim Decken, Holen und Abräumen des Essgeschirrs mit anpacken.",
+        "ar": "الخيار (a) صحيح. تتضمن المساعدة و'خدمة المائدة' (Tischdienst) قيام النزلاء بإحضار وترتيب وإعادة أواني الطعام بأنفسهم.",
+        "fr": "L'option a est correcte. Le service de table (« Tischdienst ») demande aux résidents de participer à la gestion et au débarrassage de leur vaisselle."
+      },
+      "whyIncorrect": {
+        "de": "Option b ist falsch (Abfall soll getrennt gesammelt werden, kein Hinaustragen verlangt). Option c ist falsch (7 Uhr ist das Ende der Nachtruhe, keine Aufstehpflicht).",
+        "ar": "الخيار (b) خاطئ فالمطلوب فرز النفايات فقط. والخيار (c) خاطئ فالساعة 7:00 هي نهاية ساعات الهدوء الليلي وليست موعد استيقاظ إجباري.",
+        "fr": "L'option b est imprécise. L'option c est fausse (7h correspond à la fin du silence nocturne, non à un réveil forcé)."
+      }
+    },
+    "h1": {
+      "quote": "Hallo Mareike, ich bin's Steffen. Du, ich sitze hier an den Mathe-Hausaufgaben und verstehe Aufgabe 4 überhaupt nicht. Kannst du mir deine Notizen geben?",
+      "whyCorrect": {
+        "de": "Richtig. Steffen ruft Mareike an, weil er Hilfe und ihre Notizen für die Mathe-Hausaufgaben braucht.",
+        "ar": "صحيح. يتصل شتيفن بمارايكه لأنه يحتاج إلى مساعدتها وملاحظاتها لحل واجب الرياضيات.",
+        "fr": "Vrai. Steffen appelle Mareike car il a besoin de son aide et de ses notes pour ses devoirs de mathématiques."
+      },
+      "whyIncorrect": {
+        "de": "Falsch trifft nicht zu: Steffen formuliert am Telefon eine konkrete Bitte um Unterstützung.",
+        "ar": "الخيار 'خطأ' غير صحيح لأن شتيفن يطلب صراحة المساعدة.",
+        "fr": "L'affirmation n'est pas fausse car il formule clairement une demande d'aide."
+      }
+    },
+    "h2": {
+      "quote": "Ruf mich bitte zurück, sobald du nach Hause kommst.",
+      "whyCorrect": {
+        "de": "Option c ist richtig. Steffen bittet Mareike ausdrücklich darum, ihn nach ihrer Rückkehr anzurufen.",
+        "ar": "الخيار (c) هو الصحيح. يطلب شتيفن من مارايكه أن تعاود الاتصال به فور عودتها للمنزل.",
+        "fr": "L'option c est correcte. Steffen demande expressément à Mareike de le rappeler."
+      },
+      "whyIncorrect": {
+        "de": "Optionen a und b sind falsch: Er erwartet keinen sofortigen Besuch und fordert sie nicht zum Warten auf.",
+        "ar": "الخياران (a) و (b) غير صحيحين، فلم يطلب منها القدوم فوراً أو الانتظار.",
+        "fr": "Les options a et b sont incorrectes car il ne lui demande ni de venir ni d'attendre."
+      }
+    },
+    "h3": {
+      "quote": "Liebe Fluggäste. In wenigen Minuten werden wir in München auf dem Flughafen Franz Josef Strauß landen.",
+      "whyCorrect": {
+        "de": "Falsch. Die Durchsage erfolgt kurz vor der Landung des Flugzeugs, nicht vor dem Abflug.",
+        "ar": "خطأ. الإعلان موجه لركاب الطائرة قبل الهبوط في المطار وليس قبل الإقلاع.",
+        "fr": "Faux. L'annonce est faite avant l'atterrissage à Munich, et non avant le décollage."
+      },
+      "whyIncorrect": {
+        "de": "Richtig ist nicht zutreffend, da es sich um eine Landedurchsage während des Fluges handelt.",
+        "ar": "اختيار 'صحيح' غير دقيق لأن الطائرة على وشك الهبوط.",
+        "fr": "Choisir 'Vrai' est erroné car l'avion est sur le point d'atterrir."
+      }
+    },
+    "h4": {
+      "quote": "Transitreisende mit dem Ziel Hamburg, gebucht auf LH 4293, begeben sich bitte unverzüglich zum Ausgang H 7.",
+      "whyCorrect": {
+        "de": "Option c ist richtig. Die Fluggäste nach Hamburg werden zum Flugsteig/Ausgang H7 gebeten.",
+        "ar": "الخيار (c) هو الصحيح. يُطلب من المسافرين إلى هامبورغ التوجه إلى البوابة H7.",
+        "fr": "L'option c est correcte. Les passagers pour Hambourg sont invités à se rendre à la porte H7."
+      },
+      "whyIncorrect": {
+        "de": "Option b nennt G17 (für Frankfurt), Option a ist nur für sonstige Weiterflüge.",
+        "ar": "الخيار (b) يخص رحلة فرانكفورت (G17)، والخيار (a) يخص الرحلات الأخرى فقط.",
+        "fr": "L'option b concerne Francfort (G17) et l'option a s'adresse aux autres correspondances."
+      }
+    },
+    "h5": {
+      "quote": "Hallo Jens! Hier ist Mama. ... ist mir nämlich eingefallen, dass ich vergessen habe, deine Sportklamotten zu waschen.",
+      "whyCorrect": {
+        "de": "Falsch. Es ist eine persönliche Telefonnachricht der Mutter an ihren Sohn Jens, keine Radiosendung.",
+        "ar": "خطأ. الرسالة هي اتصال هاتفي شخصي من الأم لابنها ينس وليست برنامجاً إذاعياً.",
+        "fr": "Faux. Il s'agit d'un message téléphonique personnel de la mère à son fils Jens, pas d'une émission de radio."
+      },
+      "whyIncorrect": {
+        "de": "Richtig ist unpassend: Die Mutter spricht auf den Anrufbeantworter zu Hause.",
+        "ar": "الخيار 'صحيح' غير مطابق لطبيعة الرسالة الصوتية الشخصية.",
+        "fr": "L'option 'Vrai' est incorrecte car il s'agit d'un répondeur privé."
+      }
+    },
+    "h6": {
+      "quote": "Du tust einen Messbecher Waschpulver in den kleinen Behälter oben links, und zwar in den Behälter Nummer zwei.",
+      "whyCorrect": {
+        "de": "Option c ist richtig. Das Waschpulver soll oben links in das Fach Nummer zwei gefüllt werden.",
+        "ar": "الخيار (c) هو الصحيح. يوضع مسحوق الغسيل في الحجرة الصغيرة في الأعلى إلى اليسار.",
+        "fr": "L'option c est correcte. La lessive en poudre doit être versée dans le compartiment en haut à gauche."
+      },
+      "whyIncorrect": {
+        "de": "Option a ist falsch (die Kleidung ist drin, nicht das Pulver); b (60 Minuten) ist die Programmdauer.",
+        "ar": "الخيار (a) غير صحيح فالملابس هي الموجودة بالداخل، و(b) تشير إلى مدة دورة الغسيل.",
+        "fr": "L'option a est fausse (ce sont les vêtements qui s'y trouvent) et b indique la durée du programme."
+      }
+    },
+    "h7": {
+      "quote": "Hallo, liebe Hip-Hop-Freunde. Ich begrüße euch alle wieder ganz herzlich zu unserer Musiksendung „Coole Hits und Neues aus der Szene“...",
+      "whyCorrect": {
+        "de": "Richtig. Die Radiosendung begrüßt ausdrücklich alle jugendlichen Fans der Hip-Hop-Musik.",
+        "ar": "صحيح. ترحب المذيعة صراحة بمحبي موسيقى الهيب هوب وتخاطب جمهورها الشاب.",
+        "fr": "Vrai. L'émission radio s'adresse explicitement aux amateurs de hip-hop."
+      },
+      "whyIncorrect": {
+        "de": "Falsch ist nicht zutreffend, da der Moderator die Hörer direkt als „Hip-Hop-Freunde“ anspricht.",
+        "ar": "الخيار 'خطأ' غير سليم لأن مقدم البرنامج بدأ حديثه بتحية عشاق الهيب هوب.",
+        "fr": "L'affirmation n'est pas fausse car l'animateur salue les fans de hip-hop."
+      }
+    },
+    "h8": {
+      "quote": "Außerdem könnt ihr wie immer Konzertkarten gewinnen, wenn ihr bei unserem Fragespiel mitmacht.",
+      "whyCorrect": {
+        "de": "Option b ist richtig. Als Gewinn beim Quiz werden Eintrittskarten für ein Konzert verlost.",
+        "ar": "الخيار (b) هو الصحيح. يمكن للمستمعين الفوز بتذاكر لحضور حفل موسيقي عبر المسابقة.",
+        "fr": "L'option b est correcte. Les auditeurs peuvent remporter des billets pour un concert."
+      },
+      "whyIncorrect": {
+        "de": "Option a und c sind falsch: Europareisen oder Songs gibt es nicht als Hauptgewinn.",
+        "ar": "الخياران (a) و (c) خاطئان؛ الجائزة هي تذاكر الحفلات وليست رحلات أو أغانٍ.",
+        "fr": "Les options a et c sont fausses car le prix en jeu est une place de concert."
+      }
+    },
+    "h9": {
+      "quote": "Verehrte Fahrgäste. In wenigen Minuten erreichen wir Fulda. Fulda Hauptbahnhof.",
+      "whyCorrect": {
+        "de": "Richtig. Die Durchsage wendet sich an die Passagiere im fahrenden Zug vor Erreichen des Bahnhofs.",
+        "ar": "صحيح. الإعلان موجه لركاب القطار لإعلامهم بالوصول القريب إلى محطة فولدا الرئيسية.",
+        "fr": "Vrai. L'annonce est adressée aux voyageurs à bord du train avant l'arrivée en gare."
+      },
+      "whyIncorrect": {
+        "de": "Falsch trifft nicht zu: Die Ansage beginnt mit „Verehrte Fahrgäste“ im Zug.",
+        "ar": "الخيار 'خطأ' غير صحيح لأن الحديث موجه مباشرة للمسافرين بالقطار.",
+        "fr": "L'affirmation n'est pas fausse car il s'agit d'une annonce ferroviaire."
+      }
+    },
+    "h10": {
+      "quote": "ICE 5445 nach Berlin Gesundbrunnen um 16:07 ... Dieser Zug wird voraussichtlich 15 Minuten später eintreffen.",
+      "whyCorrect": {
+        "de": "Option b ist richtig. In Fulda besteht eine Umsteigemöglichkeit in den Zug in Richtung Berlin.",
+        "ar": "الخيار (b) هو الصحيح. يمكن في فولدا التبديل إلى قطار ICE المتجه إلى برلين.",
+        "fr": "L'option b est correcte. Les voyageurs peuvent prendre une correspondance pour Berlin."
+      },
+      "whyIncorrect": {
+        "de": "Option a ist falsch (kein Endbahnhof); Option c ist falsch (nicht der aktuelle Zug hat Verspätung, sondern der Anschlusszug).",
+        "ar": "الخيار (a) خاطئ فالمحطة ليست نهاية الخط، و(c) غير دقيق لأن التأخير خاص بالقطار البديل المتجه لبرلين.",
+        "fr": "L'option a est fausse et c attribue le retard au mauvais train."
+      }
+    },
+    "h11": {
+      "quote": "Verstehen Sie alle Deutsch? Gut, dann kann ich ja auf Deutsch fortfahren.",
+      "whyCorrect": {
+        "de": "Option c ist richtig. Die Museumsführerin Frau Wertmüller fragt die Gruppe und spricht Deutsch mit ihr.",
+        "ar": "الخيار (c) هو الصحيح. المرشدة السيدة فيرتمولر تتحدث باللغة الألمانية مع المجموعة.",
+        "fr": "L'option c est correcte. La guide Mme Wertmüller s'exprime en allemand."
+      },
+      "whyIncorrect": {
+        "de": "Option a und b widersprechen dem Text, da sie fließend auf Deutsch führt.",
+        "ar": "الخياران (a) و (b) يتعارضان مع النص حيث تقود الجولة بالألمانية بطلاقة.",
+        "fr": "Les options a et b contredisent ses propos."
+      }
+    },
+    "h12": {
+      "quote": "Wir befinden uns jetzt im zentralen Eingangsbereich und beginnen unsere Führung hier vorn in der Haupthalle...",
+      "whyCorrect": {
+        "de": "Option a ist richtig. Die Führung durch die Kunsthalle startet in der großen Haupthalle.",
+        "ar": "الخيار (a) هو الصحيح. تنطلق الجولة الإرشادية من القاعة الرئيسية (Haupthalle).",
+        "fr": "L'option a est correcte. La visite guidée commence dans le hall principal."
+      },
+      "whyIncorrect": {
+        "de": "Option b und c sind falsch, da moderne Kunst erst am Ende der Führung gezeigt wird.",
+        "ar": "الخياران (b) و (c) غير صحيحين، فالفن الحديث والمعاصر مخصص لنهاية الجولة.",
+        "fr": "Les options b et c sont fausses car l'art contemporain n'est abordé qu'à la fin."
+      }
+    },
+    "h13": {
+      "quote": "Zum Abschluss der Führung möchte ich Ihnen aber auch noch einige bedeutende Kunstwerke aus der Gegenwart zeigen.",
+      "whyCorrect": {
+        "de": "Option b ist richtig. Zum Ende des Rundgangs werden bedeutende Werke der modernen Gegenwartskunst besichtigt.",
+        "ar": "الخيار (b) هو الصحيح. في ختام الجولة، سيشاهد الطلاب أعمالاً من الفن الحديث والمعاصر.",
+        "fr": "L'option b est correcte. La visite se termine par la découverte d'œuvres d'art contemporain."
+      },
+      "whyIncorrect": {
+        "de": "Option a ist falsch (klassische Kunst kommt am Anfang); Option c (Kunstwerke der Natur) wird nicht erwähnt.",
+        "ar": "الخيار (a) غير صحيح لأن الفن الكلاسيكي يبدأ في البداية، والخيار (c) لم يرد في النص.",
+        "fr": "L'option a est inversée et l'option c invente des éléments absents du texte."
+      }
+    },
+    "h14": {
+      "quote": "Danach haben Sie noch eine gute Stunde Zeit, allein durch die Kunsthalle zu gehen oder einfach im Café „Falanx“ bei einer Tasse Kaffee oder einem Bier zu entspannen.",
+      "whyCorrect": {
+        "de": "Option a ist richtig. Nach der Führung können die Teilnehmer im museumseigenen Café einen Kaffee trinken.",
+        "ar": "الخيار (a) هو الصحيح. يمكن للمشاركين بعد الجولة أخذ استراحة وتناول القهوة في مقهى المتحف.",
+        "fr": "L'option a est correcte. Les visiteurs peuvent aller boire un café après la visite."
+      },
+      "whyIncorrect": {
+        "de": "Option b und c sind falsch: Sie dürfen allein im Museum bleiben und müssen keineswegs sofort gehen.",
+        "ar": "الخياران (b) و (c) خاطئان؛ إذ يُسمح لهم بالبقاء بمفردهم واستكشاف المعرض.",
+        "fr": "Les options b et c sont réfutées car les participants ont le droit de rester seuls."
+      }
+    },
+    "h15": {
+      "quote": "Ach, geben Sie doch bitte vorher noch Ihre Mäntel und Taschen an der Garderobe ab.",
+      "whyCorrect": {
+        "de": "Option c ist richtig. Mäntel und Taschen müssen vor Beginn an der Garderobe abgegeben werden.",
+        "ar": "الخيار (c) هو الصحيح. يجب إيداع المعاطف والحقائب في خزانة الملابس (Garderobe).",
+        "fr": "L'option c est correcte. Les manteaux et sacs doivent être déposés au vestiaire."
+      },
+      "whyIncorrect": {
+        "de": "Option a ist falsch (Mitnahme verboten); Option b ist falsch (Frau Wertmüller nimmt sie nicht persönlich).",
+        "ar": "الخيار (a) خاطئ، والخيار (b) خاطئ فالمرشدة لا تأخذها بنفسها بل توضع في الخزانة.",
+        "fr": "L'option a est fausse et l'option b invente que la guide s'en occupe personnellement."
+      }
+    },
+    "h16": {
+      "quote": "Kai: Hallo Pia, ja gern. Ich hab einen Riesenhunger. ... Mir ist ganz schlecht vor Hunger.",
+      "whyCorrect": {
+        "de": "Falsch. Kai hat großen Hunger („Riesenhunger“) und freut sich auf das Essen.",
+        "ar": "خطأ. كاي جائع جداً ('Riesenhunger') ويشعر بالتعب من شدة الجوع.",
+        "fr": "Faux. Kai a très faim et a hâte d'aller manger."
+      },
+      "whyIncorrect": {
+        "de": "Richtig ist nicht zutreffend, da Kai ausdrücklich von seinem großen Hunger spricht.",
+        "ar": "الخيار 'صحيح' مناقض لكلام كاي الصريح عن شدة جوعه.",
+        "fr": "L'affirmation 'Vrai' est contraire aux propos de Kai."
+      }
+    },
+    "h17": {
+      "quote": "Warst du nicht da? Pia: Doch, doch, aber ich war mal wieder viel zu spät...",
+      "whyCorrect": {
+        "de": "Falsch. Pia kam zu spät zum Seminar, Kai hingegen war pünktlich anwesend.",
+        "ar": "خطأ. بيا هي التي تأخرت عن الندوة الدراسية وليس كاي.",
+        "fr": "Faux. C'est Pia qui est arrivée en retard au séminaire, pas Kai."
+      },
+      "whyIncorrect": {
+        "de": "Richtig ist eine Verwechslung der beiden Personen.",
+        "ar": "الخيار 'صحيح' خلط بين الشخصين؛ فبيا هي من اعترفت بالتأخر.",
+        "fr": "Attribuer le retard à Kai est une confusion entre les personnages."
+      }
+    },
+    "h18": {
+      "quote": "Pia: Chemie hat mir zwar in der Schule Spaß gemacht, aber jetzt ist das ganz anders. ... Ich glaube, ich sollte doch das Studienfach wechseln.",
+      "whyCorrect": {
+        "de": "Falsch. Pia ist frustriert über die schweren Formeln und denkt über einen Fachwechsel nach; sie studiert Chemie nicht gern.",
+        "ar": "خطأ. بيا لا تحب دراسة الكيمياء في الجامعة وتفكر في تغيير تخصصها الدراسي.",
+        "fr": "Faux. Pia est découragée par la chimie universitaire et envisage de changer de filière."
+      },
+      "whyIncorrect": {
+        "de": "Richtig widerspricht ihren Worten („verliere die Lust“, „mir wird ganz schlecht“).",
+        "ar": "الخيار 'صحيح' يتعارض تماماً مع معاناتها ورغبتها في ترك التخصص.",
+        "fr": "L'affirmation est fausse compte tenu de son profond découragement."
+      }
+    },
+    "h19": {
+      "quote": "Kai: Wir können doch wieder zusammen lernen, dann geht es sicher wieder besser. Ich find das alles gar nicht so schwierig.",
+      "whyCorrect": {
+        "de": "Richtig. Kai bietet Pia an, gemeinsam den Lernstoff durchzugehen und ihr zu helfen.",
+        "ar": "صحيح. يعرض كاي على بيا أن يدرسا معاً ويقدم لها المساعدة في فهم المواد.",
+        "fr": "Vrai. Kai propose à Pia de réviser ensemble pour l'aider à surmonter ses difficultés."
+      },
+      "whyIncorrect": {
+        "de": "Falsch ist nicht korrekt: Kai schlägt ausdrücklich gegenseitiges Lernen vor.",
+        "ar": "الخيار 'خطأ' غير صحيح؛ فكاي اقترح المساعدة بوضوح.",
+        "fr": "Choisir 'Faux' ne convient pas car la proposition d'aide est explicite."
+      }
+    },
+    "h20": {
+      "quote": "Kai: Ich denke, dass du einfach zu oft in der Kneipe arbeitest, und dass du deshalb immer total müde bist.",
+      "whyCorrect": {
+        "de": "Richtig. Kai meint, Pia sollte wegen der Erschöpfung weniger in der Gaststätte arbeiten.",
+        "ar": "صحيح. يرى كاي أن بيا ترهق نفسها بالعمل في الحانة لساعات متأخرة ويجب أن تقلل منه.",
+        "fr": "Vrai. Kai estime que Pia passe trop de temps à travailler au bar et manque de sommeil."
+      },
+      "whyIncorrect": {
+        "de": "Falsch ist unpassend, da Kai die Nachtarbeit in der Kneipe als Hauptproblem identifiziert.",
+        "ar": "الخيار 'خطأ' غير سليم لأن كاي انتقد بوضوح كثرة ساعات عملها الليلي.",
+        "fr": "L'option 'Faux' est erronée car il lui conseille de modérer ses heures de travail."
+      }
+    },
+    "h21": {
+      "quote": "Pia: ...aber mein Zimmer in der Wohngemeinschaft kostet 450 Euro und das Geld muss ich mir schon verdienen, von meinen Eltern krieg ich doch nichts.",
+      "whyCorrect": {
+        "de": "Richtig. Pia muss Miete und Lebensunterhalt allein finanzieren und ist auf das Geld angewiesen.",
+        "ar": "صحيح. تحتاج بيا للمال بشكل عاجل لدفع إيجار غرفتها البالغ 450 يورو دون مساعدة والديها.",
+        "fr": "Vrai. Pia a un besoin urgent de ses revenus pour payer les 450 € de loyer de sa colocation."
+      },
+      "whyIncorrect": {
+        "de": "Falsch ist nicht zutreffend: Ihre finanzielle Notwendigkeit wird klar begründet.",
+        "ar": "الخيار 'خطأ' لا يطابق توضيحها لحاجتها الملحة لتغطية نفقاتها.",
+        "fr": "L'affirmation est vraie car son autonomie financière est indispensable."
+      }
+    },
+    "h22": {
+      "quote": "Kai: Du brauchst halt einen Job in den Semesterferien. Wir finden da schon eine Lösung. Das wird schon.",
+      "whyCorrect": {
+        "de": "Falsch. Kai bietet Pia keinen Job an, sondern gibt ihr lediglich den Rat, in den Ferien zu jobben.",
+        "ar": "خطأ. كاي لم يقدم لها وظيفة، بل نصحها بالبحث عن عمل أثناء العطلة الجامعية.",
+        "fr": "Faux. Kai ne lui propose pas d'emploi direct, il lui suggère simplement de travailler pendant les vacances."
+      },
+      "whyIncorrect": {
+        "de": "Richtig trifft nicht zu: Kai hat keine konkrete Arbeitsstelle für sie.",
+        "ar": "الخيار 'صحيح' غير دقيق لأنه لم يوفر لها فرصة عمل محددة.",
+        "fr": "L'affirmation est fausse car il ne dispose pas d'un travail à lui offrir."
+      }
+    },
+    "h23": {
+      "quote": "Friedenthal: Mit der Kleidung zeigt man, dass man zu einer bestimmten Gruppe gehört.",
+      "whyCorrect": {
+        "de": "b (Friedenthal). Professor Friedenthal betont, dass Kleidung als Gruppensymbol und Zeichen der Zugehörigkeit dient.",
+        "ar": "(b) البروفيسور فريدنتال. يؤكد أن الملابس تمثل رمزاً للانتماء إلى مجموعة معينة بين الشباب.",
+        "fr": "b (Friedenthal). Le professeur souligne que le vêtement sert d'emblème d'appartenance à un groupe."
+      },
+      "whyIncorrect": {
+        "de": "Weder die Moderatorin (a) noch Frau Nielsen (c) stellen diese soziologische These auf.",
+        "ar": "لم يصدر هذا الرأي التحليلي عن المذيعة ولا عن السيدة نيلسن.",
+        "fr": "Cette analyse n'est formulée ni par l'animatrice ni par Mme Nielsen."
+      }
+    },
+    "h24": {
+      "quote": "Friedenthal: Bestimmte Marken sind heute „in“ und morgen schon wieder „out“. Wenn man wirklich zu den coolen Leuten gehören will, muss man das wissen.",
+      "whyCorrect": {
+        "de": "b (Friedenthal). Professor Friedenthal erklärt den schnellen Wechsel der Modemarken und Trends.",
+        "ar": "(b) البروفيسور فريدنتال. يشير إلى السرعة الكبيرة التي تتغير بها الموضة والعلامات التجارية الرائجة.",
+        "fr": "b (Friedenthal). Il explique que les tendances et les marques changent à un rythme très soutenu."
+      },
+      "whyIncorrect": {
+        "de": "a und c äußern sich nicht über die Schnelllebigkeit der Modetrends.",
+        "ar": "المتحدثان الآخران لم يشيرا إلى سرعة تبدل صيحات الموضة.",
+        "fr": "Les autres intervenants ne traitent pas de la rapidité du cycle de la mode."
+      }
+    },
+    "h25": {
+      "quote": "Frau Nielsen: Die meisten Jugendlichen haben gar nicht genug Geld, um teure Markenkleidung zu kaufen.",
+      "whyCorrect": {
+        "de": "c (Nielsen). Frau Nielsen widerspricht und betont, dass vielen 16-Jährigen das Geld für Markensachen schlicht fehlt.",
+        "ar": "(c) السيدة نيلسن. توضح كمعلمة وأم أن غالبية المراهقين لا يملكون المال الكافي للملابس ذات الماركات الغالية.",
+        "fr": "c (Nielsen). En tant qu'enseignante et mère, elle souligne que la majorité des jeunes n'a pas les moyens d'acheter des marques."
+      },
+      "whyIncorrect": {
+        "de": "Friedenthal und die Moderatorin teilen diesen Einwand aus dem Alltag nicht.",
+        "ar": "فريدنتال والمذيعة لم يذكرا هذا القيد المالي الواقعي.",
+        "fr": "Ni le professeur ni la présentatrice ne font ce constat économique."
+      }
+    },
+    "h26": {
+      "quote": "Frau Nielsen: Nach unseren Untersuchungen bekommen die Schülerinnen und Schüler im Durchschnitt etwa 30 Euro pro Woche und müssen davon auch alle Ausgaben für die Schule bezahlen... Das Geld reicht doch höchstens noch für einen Kinobesuch.",
+      "whyCorrect": {
+        "de": "c (Nielsen). Frau Nielsen führt an, dass das reale Taschengeld viel knapper ist als vermutet.",
+        "ar": "(c) السيدة نيلسن. تبين أن مصروف الجيب لدى الطلاب ليس كبيراً كما يظن الكثيرون ويكاد يكفي متطلباتهم.",
+        "fr": "c (Nielsen). Elle précise que l'argent de poche des adolescents est bien plus modeste qu'on ne l'imagine."
+      },
+      "whyIncorrect": {
+        "de": "Friedenthal behauptet eher, dass Jugendliche viel Geld für Handys und Apps ausgeben.",
+        "ar": "فريدنتال على العكس من ذلك ركز على المبالغ الكبيرة المصروفة على الهواتف والتطبيقات.",
+        "fr": "Friedenthal met plutôt l'accent sur les dépenses excessives en téléphonie."
+      }
+    },
+    "h27": {
+      "quote": "Friedenthal: Für viele Eltern sind die Handygebühren ihrer Kinder der reinste Albtraum.",
+      "whyCorrect": {
+        "de": "b (Friedenthal). Er thematisiert die Sorgen und Ängste der Eltern bezüglich teurer Handyrechnungen und ständigen Telefonierens.",
+        "ar": "(b) البروفيسور فريدنتال. يتحدث عن قلق الآباء الشديد وكوابيسهم من فواتير واستخدام الهواتف الذكية.",
+        "fr": "b (Friedenthal). Il aborde l'angoisse des parents face aux factures de téléphone et à l'usage continu des mobiles."
+      },
+      "whyIncorrect": {
+        "de": "Frau Nielsen und die Moderatorin formulieren diese Klage über Handygebühren nicht.",
+        "ar": "لم تتطرق السيدة نيلسن أو المذيعة إلى هذا الكابوس المتعلق بفواتير الهواتف.",
+        "fr": "Cette remarque sur le coût du téléphone n'émane ni de Mme Nielsen ni de l'animatrice."
+      }
+    },
+    "h28": {
+      "quote": "Friedenthal: Im Grunde geht es gar nicht darum, wie viel Geld die jungen Leute tatsächlich ausgeben, sondern es geht um die Tatsache, dass sie sich über den Konsum definieren. Nur wer die richtigen Apps ... hat, wird in der Gruppe akzeptiert.",
+      "whyCorrect": {
+        "de": "b (Friedenthal). Er analysiert die psychologische Bedeutung: Konsumgüter verleihen soziale Anerkennung und Akzeptanz.",
+        "ar": "(b) البروفيسور فريدنتال. يحلل أن الاستهلاك يمنح الاعتراف الاجتماعي والقبول وسط أقرانهم.",
+        "fr": "b (Friedenthal). Il formule l'idée sociologique que la consommation procure reconnaissance et intégration."
+      },
+      "whyIncorrect": {
+        "de": "Die Definition von Anerkennung durch Konsum ist Friedenthals Kernaussage.",
+        "ar": "ربط الاستهلاك بالحصول على التقدير هو جوهر طرح البروفيسور فريدنتال.",
+        "fr": "Cette assimilation de la consommation à la reconnaissance sociale est le cœur de son analyse."
+      }
+    },
+    "h29": {
+      "quote": "Frau Nielsen: Meine Söhne sind beide im kritischen Alter, 14 und 17 Jahre alt. Zu jedem Geburtstag wünschen sie sich ganz bestimmte Kleidungsstücke... Wir kaufen sie trotzdem, weil es das ist, was sie sich wünschen.",
+      "whyCorrect": {
+        "de": "c (Nielsen). Frau Nielsen erzählt aus eigener Erfahrung, dass Eltern den Wünschen der Kinder nachgeben und ihnen die gewünschte Kleidung kaufen.",
+        "ar": "(c) السيدة نيلسن. تروي من واقع بيتها أن الآباء يشترون الملابس المحددة إرضاءً لرغبة أبنائهم وإعجابهم بها.",
+        "fr": "c (Nielsen). Elle témoigne en tant que mère que les parents cèdent aux souhaits vestimentaires de leurs enfants."
+      },
+      "whyIncorrect": {
+        "de": "Friedenthal hat keine eigenen Kinder in diesem Kontext geschildert.",
+        "ar": "فريدنتال لم يقدم شهادة شخصية كأب في هذا السياق.",
+        "fr": "Ce récit personnel d'achat familial n'appartient pas au professeur."
+      }
+    },
+    "h30": {
+      "quote": "Moderatorin: Vielleicht sollten wir gerade zu diesem Thema auch einmal die Meinung der jungen Leute hören. ... In der nächsten Woche begrüßen wir zum selben Thema hier als Studiogäste einige Schülerinnen und Schüler...",
+      "whyCorrect": {
+        "de": "a (Moderatorin). Die Moderatorin resümiert die Sendung mit dem Vorschlag, beim nächsten Mal die Jugendlichen selbst einzuladen und anzuhören.",
+        "ar": "(a) المذيعة. تختتم الحوار باقتراح استضافة التلاميذ والشباب أنفسهم في الحلقة القادمة لسماع رأيهم.",
+        "fr": "a (Moderatorin). L'animatrice conclut en suggérant de donner directement la parole aux jeunes dans la prochaine émission."
+      },
+      "whyIncorrect": {
+        "de": "Die Programmankündigung für die Folgewoche obliegt traditionell der Moderatorin der Sendung.",
+        "ar": "إدارة الحوار وتوجيه الدعوة للحلقة القادمة دور منوط بالمذيعة حصراً.",
+        "fr": "La conclusion et l'annonce de l'émission suivante relèvent du rôle de la présentatrice."
+      }
+    }
+  }
+}

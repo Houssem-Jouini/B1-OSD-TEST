@@ -16,12 +16,26 @@ const commonPath = path.join(dataDir, 'translations-common.json');
 const commonTranslations = fs.existsSync(commonPath) ? JSON.parse(fs.readFileSync(commonPath, 'utf8')) : {};
 
 const allTests = [];
+const activeManifest = [];
+const archivedManifest = [];
 
 manifest.forEach(item => {
+  if (item.archived) {
+    archivedManifest.push(item);
+    console.log(`📦 Archived (omitted from site bundle): ${item.title || item.id}`);
+    return;
+  }
+
   const filePath = path.join(baseDir, item.fileName);
   if (fs.existsSync(filePath)) {
     try {
       const testData = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+      if (testData.archived) {
+        archivedManifest.push(item);
+        console.log(`📦 Archived in file (omitted from site bundle): ${testData.title || item.id}`);
+        return;
+      }
+      activeManifest.push(item);
       allTests.push(testData);
       console.log(`✓ Bundled: ${testData.title || item.id}`);
     } catch (e) {
@@ -40,10 +54,11 @@ const bundleJsContent = `/* ====================================================
 
 (function(root) {
   root.__B1_COMMON_TRANSLATIONS__ = ${JSON.stringify(commonTranslations, null, 2)};
-  root.__B1_MANIFEST__ = ${JSON.stringify(manifest, null, 2)};
+  root.__B1_MANIFEST__ = ${JSON.stringify(activeManifest, null, 2)};
+  root.__B1_ARCHIVED_MANIFEST__ = ${JSON.stringify(archivedManifest, null, 2)};
   root.__B1_BUNDLED_TESTS__ = ${JSON.stringify(allTests, null, 2)};
 })(typeof window !== 'undefined' ? window : globalThis);
 `;
 
 fs.writeFileSync(path.join(dataDir, 'tests-bundle.js'), bundleJsContent, 'utf8');
-console.log(`\n🎉 Successfully generated data/tests-bundle.js with ${allTests.length} tests!`);
+console.log(`\n🎉 Successfully generated data/tests-bundle.js with ${allTests.length} active tests (${archivedManifest.length} archived)!`);

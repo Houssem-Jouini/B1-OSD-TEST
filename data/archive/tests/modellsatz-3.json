@@ -1,0 +1,840 @@
+{
+  "id": "modellsatz-3",
+  "archived": true,
+  "title": "Modellsatz 3 — B1 Prüfungstraining (Set B)",
+  "badge": "Modellsatz 3",
+  "examTitle": "B1 Prüfungstraining — Set B (Training zur Prüfung Lesen)",
+  "examSub": "Modul Lesen · 5 Teile · 65 Minuten · Modellsatz 3 (PDF)",
+  "timeTotal": 65,
+  "parts": [
+    {
+      "id": 1,
+      "title": "Teil 1",
+      "time": 10,
+      "instructions": "Lesen Sie den Text und die Aufgaben 1 bis 6 dazu. Wählen Sie: Sind die Aussagen Richtig oder Falsch?",
+      "articles": [
+        {
+          "heading": "Mariannes.Reiseblog.int",
+          "sub": "Erste Eindrücke und Erlebnisse aus Berlin",
+          "meta": "Mittwoch, 16. Juni",
+          "body": [
+            "Es ist mein erster Besuch in Berlin, deshalb ist es wohl verständlich, dass ich ziemlich aufgeregt und neugierig bin. Ich bin gestern Abend angekommen und es war gar nicht so einfach, das Jugendhotel zu finden, von dem ich im Reiseführer gelesen hatte. Es liegt zwischen dem Hackeschen Markt und dem Alexanderplatz – ziemlich versteckt – in der Rosenstraße.",
+            "Das Jugendhotel ist übrigens sehr zu empfehlen: saubere Doppel- oder Einzelzimmer, vernünftige Preise, gutes Frühstück und vor allem sehr nette und interessante Gäste! Bevor ich gestern schlafen gegangen bin, habe ich mich noch mit zwei amerikanischen Studentinnen verabredet, die für heute eine Fahrradtour geplant hatten und mich gern mitnehmen wollten. Sie heißen Phoebe und Anne und sind schon seit einer Woche hier.",
+            "Beim Frühstück haben wir heute Morgen überlegt, wohin wir fahren wollten und was wir uns ansehen müssten. Ich wäre ja gern die Straße „Unter den Linden“ entlanggefahren, zum Brandenburger Tor, und dann am liebsten gleich in den Reichstag, in die gläserne Kuppel.",
+            "„Oh nein“, hat Phoebe protestiert, „bei diesem wunderbaren Wetter willst du in den Reichstag? Da musst du auch noch stundenlang Schlange stehen, das kannst du irgendwann machen, wenn es regnet.“ Sie wollten an der Spree entlang fahren, bis zum Charlottenburger Schloss. Da könnte man ja vielleicht eine Tasse Kaffee trinken und dann sollte es weitergehen, in den Grunewald und bis an den Wannsee. „Kennt ihr denn den Weg?“ habe ich gefragt, „wart ihr da schon mal?“ Nein, das waren sie nicht, aber sie hätten eine Karte, sagten sie.",
+            "Und dann sind wir losgefahren, auf wunderschönen Fahrradwegen am Fluss entlang, vorbei an Straßencafés, kleinen Geschäften, grünen Parkbänken, auf denen alte Leute saßen. Es ging wunderbar schnell und leicht, manchmal wäre ich gern stehen geblieben, um die Touristenschiffe anzusehen. Nach einer Stunde waren wir schon am Schloss Charlottenburg. Es wäre noch schneller gegangen, wenn wir bei einer der großen Straßen nicht einen Fehler gemacht hätten. Wir sind da wohl in die falsche Richtung gefahren.",
+            "In einem kleinen Café beim Schloss haben wir in der Sonne gesessen und Eistee getrunken. Danach wollten Phoebe und Anne sofort weiterfahren, aber ich hatte keine Lust mehr: Der Park beim Schloss ist so schön, mit Blumen und großen Bäumen und künstlichen Seen. Außerdem ist der Ku’damm mit den eleganten Geschäften gar nicht weit weg. Ich wollte meinen ersten Tag in Berlin genießen, nicht nur Sport treiben. Ich war also im Schloss und im Park, ich habe einen Einkaufsbummel gemacht und später sogar noch eine Stadtrundfahrt mit dem Schiff. Es war ein wunderbarer Tag und ich muss sagen: In Berlin mit dem Fahrrad unterwegs sein, das geht prima. Ich werde morgen wieder mit dem Fahrrad fahren, auf der Straße „Unter den Linden“!",
+            "Für heute Gute Nacht!"
+          ],
+          "signature": "Eure Marianne"
+        }
+      ],
+      "example": {
+        "text": "Marianne ist zum ersten Mal zu Besuch in Berlin.",
+        "answer": "richtig"
+      },
+      "questions": [
+        {
+          "id": 1,
+          "type": "tf",
+          "text": "Ein Freund hat Marianne ein paar Tipps gegeben, wo man in Berlin gut übernachten kann.",
+          "answer": "falsch"
+        },
+        {
+          "id": 2,
+          "type": "tf",
+          "text": "Die Amerikanerinnen kennen die Stadt gut, weil sie in Berlin studieren.",
+          "answer": "falsch"
+        },
+        {
+          "id": 3,
+          "type": "tf",
+          "text": "Wenn Touristen in den Reichstag gehen wollen, müssen sie oft längere Zeit warten.",
+          "answer": "richtig"
+        },
+        {
+          "id": 4,
+          "type": "tf",
+          "text": "Als Marianne und ihre Freundinnen am Schloss ankommen, sind sie sehr müde, weil die Fahrt so schwierig war.",
+          "answer": "falsch"
+        },
+        {
+          "id": 5,
+          "type": "tf",
+          "text": "Marianne will nicht zum Wannsee fahren, weil das Wetter nicht mehr so gut ist.",
+          "answer": "falsch"
+        },
+        {
+          "id": 6,
+          "type": "tf",
+          "text": "Marianne findet, dass ein Fahrrad in der Stadt sehr nützlich ist.",
+          "answer": "richtig"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Teil 2",
+      "time": 20,
+      "instructions": "Lesen Sie den Zeitungsartikel und die Aufgaben 7 bis 9 dazu. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+      "articles": [
+        {
+          "heading": "PRIVAT GEGEN STAAT: ZERSTÖREN PRIVATSCHULEN DIE GESELLSCHAFT ODER SIND SIE FÜR DIE BILDUNG UNBEDINGT NÖTIG?",
+          "body": [
+            "Wie ist es zu erklären, dass so viele deutsche Eltern ihre Kinder lieber in eine private Waldorf- oder Montessori-Schule schicken als in eine staatliche Schule? Wollen sie, dass ihre Kinder in einer geschützten Atmosphäre aufwachsen, dass sie nicht auf schwierige Schüler oder Migranten treffen? Michael Körner von der Universität Düsseldorf erklärt, dass diese Fragen sicherlich auch mitspielen, wenn Eltern eine Schule suchen, aber sie sind nicht die wichtigsten Punkte.",
+            "Privatschulen werden finanziell zu 70 % vom Staat gefördert, die anderen 30 % müssen aus den Elternbeiträgen kommen, das sind in der Regel 70 bis 150 Euro pro Monat. Natürlich gibt es auch die teuren Eliteschulen, die über tausend Euro pro Monat kosten, weil sie nicht vom Staat gefördert werden. Die sind aber nur für wenige Familien interessant.",
+            "Tatsächlich wurde die erste Waldorf-Schule als Bildungsinstitut für Arbeiterkinder gegründet und noch heute versucht die Waldorf-Bewegung, an dieser Idee festzuhalten, indem sie z. B. Schulen in sozial schwierigen Vierteln aufbauen.",
+            "Michael Körner glaubt, dass die meisten Eltern die Schule für ihre Kinder nach ziemlich praktischen Überlegungen wählen: Bietet die Schule Ganztagsunterricht an? Wie weit ist der Schulweg? Wie wichtig ist die musische Erziehung? Kann mein Kind dort Spanisch lernen? Bekommt mein Kind Gitarrenunterricht? usw.",
+            "Das sind die Sorgen der Eltern und die Privatschulen kommen ihnen entgegen. Vielleicht sollten die staatlichen Schulen darüber auch einmal nachdenken. Übrigens sind die Leistungen der Privatschüler keineswegs besser als die Leistungen der Schüler an staatlichen Schulen. In diesem Punkt sind die Auskünfte der PISA-Studie völlig eindeutig."
+          ],
+          "source": "(aus einer deutschen Zeitung)"
+        }
+      ],
+      "example": {
+        "text": "Eltern in Deutschland …",
+        "options": [
+          "schicken ihre Kinder nie auf Privatschulen.",
+          "interessieren sich zunehmend für alternative Schulmodelle.",
+          "lehnen Ganztagsunterricht grundsätzlich ab."
+        ],
+        "answer": 1
+      },
+      "questions": [
+        {
+          "id": 7,
+          "type": "mcq",
+          "text": "Was ist für die Eltern wichtig?",
+          "options": [
+            "Sie wollen vor allem eine strenge Erziehung für ihre Kinder.",
+            "Sie haben Angst, dass ihre Kinder fremde Ideen kennenlernen.",
+            "Sie suchen Lösungen für ganz individuelle Probleme."
+          ],
+          "answer": 2
+        },
+        {
+          "id": 8,
+          "type": "mcq",
+          "text": "Private Schulen …",
+          "options": [
+            "sind nur für sehr reiche Familien wichtig.",
+            "werden teilweise aus öffentlichen Mitteln bezahlt.",
+            "waren immer Institute für die bürgerliche Gesellschaft."
+          ],
+          "answer": 1
+        },
+        {
+          "id": 9,
+          "type": "mcq",
+          "text": "Michael Körner glaubt, dass die Privatschulen wichtig sind, weil sie …",
+          "options": [
+            "vielleicht auch Einfluss auf die anderen Schulen haben könnten.",
+            "Deutsch als Zweitsprache unterrichten können.",
+            "Hilfe bei den Hausaufgaben anbieten können."
+          ],
+          "answer": 0
+        }
+      ],
+      "articles2": [
+        {
+          "heading": "Haben schöne Frauen mehr Erfolg im Beruf?",
+          "sub": "Hübsche Schülerinnen und Schüler haben es leichter, aber bei der Bewerbung sind schöne Frauen im Nachteil. Woran liegt das?",
+          "body": [
+            "Psychologen haben herausgefunden, dass wir symmetrische Gesichter mit glatter Haut und hohen Wangenknochen unbewusst mit positiven Eigenschaften verbinden. Wir glauben, dass schöne Menschen freundlich, zuverlässig und kompetent sind. Dann müsste man doch vermuten, dass solche Menschen es auf jeder Station ihres Lebens leichter haben als andere. Jetzt zeigen zwei Studien: Für die Schule ist das richtig, nicht aber im Beruf.",
+            "Die Wiener School of Education hat mit drei Klassen eines Gymnasiums untersucht, um den Einfluss der Schönheit auf die Noten nachzuweisen. Sie fanden heraus, dass attraktive Jugendliche tatsächlich um 0,5 bis 0,75 Notenpunkte besser beurteilt werden als andere Schüler mit gleichen Leistungen.",
+            "Wie ist es aber im Berufsleben: Bekommen attraktive Menschen auch die besten Arbeitsplätze? Zwei Wissenschaftler an der Universität in Tel Aviv verschickten für ihre Studie 2500 Bewerbungen mit Fotos. Die Hälfte der Fotos zeigten schöne Männer und Frauen, die anderen gehörten zu durchschnittlichen Gesichtern. Das Resultat war erstaunlich: Gutaussehende Männer wurden doppelt so oft angefragt wie die anderen Bewerber.",
+            "Bei den Frauen war das Gegenteil der Fall. Von den schönen Frauen bekamen nur 10 % eine positive Antwort, während von den alltäglichen Damen etwa ein Drittel zur Vorstellung eingeladen wurde. Bei der Suche nach den Gründen fanden die Wissenschaftler heraus, dass in den Personalbüros der Firmen fast ausschließlich Frauen sitzen – und die glauben offenbar, dass schöne Frauen das Betriebsklima stören."
+          ],
+          "source": "(aus einer österreichischen Zeitung)"
+        }
+      ],
+      "instructions2": "Lesen Sie den Zeitungsartikel und die Aufgaben 10 bis 12 dazu. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+      "questions2": [
+        {
+          "id": 10,
+          "type": "mcq",
+          "text": "Wissenschaftler haben bewiesen,",
+          "options": [
+            "dass attraktive Menschen überall leicht Erfolg haben.",
+            "dass Schönheit und gute Leistung zusammen gehören.",
+            "dass Lehrer sich vom Aussehen beeinflussen lassen."
+          ],
+          "answer": 2
+        },
+        {
+          "id": 11,
+          "type": "mcq",
+          "text": "Wie wurde die Studie in Tel Aviv organisiert?",
+          "options": [
+            "Auf 50 % der Fotos waren gutaussehende Männer zu sehen.",
+            "10 % der Fotos zeigten unattraktive Personen.",
+            "50 % der Fotos zeigten ganz normale Leute mit alltäglichem Aussehen."
+          ],
+          "answer": 2
+        },
+        {
+          "id": 12,
+          "type": "mcq",
+          "text": "Was fanden die Wissenschaftler heraus?",
+          "options": [
+            "Für die Firma ist es wichtig, dass neue Mitarbeiter keinen Streit verursachen.",
+            "Gutes Aussehen ist für Männer genauso wichtig wie für Frauen.",
+            "Bewerber mit durchschnittlichem Aussehen haben bessere Chancen."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Teil 3",
+      "time": 10,
+      "instructions": "Lesen Sie die Situationen 13 bis 19 und die Anzeigen A bis J aus verschiedenen deutschsprachigen Medien. Wählen Sie: Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es keine passende Anzeige, in diesem Fall wählen Sie X.",
+      "adsFormatted": [
+        {
+          "code": "A",
+          "tagPos": "left",
+          "hasPin": true,
+          "cardClass": "anzeige-style-m3-a",
+          "html": "\n              <div class=\"anzeige-headline\" style=\"font-size:15px; font-weight:800; color:#b45309; margin-bottom:4px;\">Ganzjährige Vermietung in der Toskana</div>\n              <p style=\"font-size:13px; line-height:1.4; margin-bottom:6px;\">Wer träumt nicht von einem Haus in der Toskana? Hier wird Ihr Traum Wirklichkeit, in den Hügeln hinter Florenz, mit Blick auf die Weinberge.</p>\n              <div style=\"font-size:12.5px; font-weight:700; color:#92400e;\">Vertragsabschluss: mindestens sechs Monate. Tel: 040 55984023</div>\n            "
+        },
+        {
+          "code": "B",
+          "tagPos": "right",
+          "hasPin": true,
+          "cardClass": "anzeige-style-m3-b",
+          "html": "\n              <div class=\"anzeige-headline\" style=\"font-size:15px; font-weight:800; font-style:italic; color:#be185d; margin-bottom:4px;\">Lieben Sie Mozart?</div>\n              <p style=\"font-size:13px; margin-bottom:6px;\">Ferienwohnung in Salzburg, 2 Zimmer, 3 Schlafplätze, Kochnische, Bad.</p>\n              <div style=\"font-size:12.5px; font-weight:700; color:#9d174d;\">Zu vermieten während des Salzburger Musikfestivals. jwedinger@gmx.com</div>\n            "
+        },
+        {
+          "code": "C",
+          "tagPos": "left",
+          "hasPin": false,
+          "cardClass": "anzeige-style-m3-c",
+          "html": "\n              <div class=\"anzeige-headline\" style=\"font-size:15px; font-weight:800; color:#0284c7; margin-bottom:4px;\">Ferienwohnung am Strand</div>\n              <p style=\"font-size:13px; line-height:1.4; margin-bottom:6px;\">Blick auf die Adria, 2 Zimmer, 4 Schlafplätze, preisgünstig zu vermieten vom 22.5.–15.6., zentrale Lage an der Promenade von San Benedetto.</p>\n              <div style=\"font-size:12.5px; font-weight:700;\">Vermietung direkt vom Besitzer: smueller@libero.it</div>\n            "
+        },
+        {
+          "code": "D",
+          "tagPos": "right",
+          "hasPin": false,
+          "cardClass": "anzeige-style-m3-d",
+          "html": "\n              <div class=\"anzeige-headline\" style=\"font-size:14.5px; font-weight:800; color:#15803d; margin-bottom:4px;\">Ferienanlage in Zug (CH) bietet ein komplexes Angebot:</div>\n              <p style=\"font-size:13px; line-height:1.4; margin-bottom:6px;\">Geführte Touren im Gebirge, kulturelle Events, Kochkurse, Kindergarten, Malkurse, Museumsbesuche, Busfahrten durch die französische Schweiz und an den Bodensee.</p>\n              <div style=\"font-size:12.5px; font-weight:700; color:#166534;\">www.ferien-zug-meyer.ch</div>\n            "
+        },
+        {
+          "code": "E",
+          "tagPos": "left",
+          "hasPin": false,
+          "cardClass": "anzeige-style-m3-e",
+          "html": "\n              <div class=\"anzeige-headline\" style=\"font-size:14.5px; font-weight:800; color:#ea580c; margin-bottom:4px;\">SEHR GÜNSTIGES ANGEBOT:</div>\n              <p style=\"font-size:13px; line-height:1.4; margin-bottom:6px;\">Ferienwohnung auf Mallorca, frei vom 13.–25.9. und vom 28.9.–10.10., Strandnähe, 2,5 Zimmer, 6 Schlafplätze.</p>\n              <div style=\"font-size:12.5px; font-weight:700;\">Tel: 089 15921675</div>\n            "
+        },
+        {
+          "code": "F",
+          "tagPos": "right",
+          "hasPin": false,
+          "cardClass": "anzeige-style-m3-f",
+          "html": "\n              <div class=\"anzeige-headline\" style=\"font-size:15px; font-weight:800; color:#0369a1; margin-bottom:4px;\">Ostsee-Urlaub für Familien</div>\n              <p style=\"font-size:13px; line-height:1.4; margin-bottom:6px;\">Ferienwohnungen auf Usedom: 4–6 Schlafplätze, Küche und Bad, Autostellplatz, Kursangebote für Kunsthandwerk (Keramik, Malen, Filzen, Tischlern), Fahrzeit zum Strand 15 Min.</p>\n              <div style=\"font-size:12.5px; font-weight:700; color:#0284c7;\">www.kulturgut-auf-usedom.de</div>\n            "
+        },
+        {
+          "code": "G",
+          "tagPos": "left",
+          "hasPin": false,
+          "cardClass": "anzeige-style-m3-g",
+          "html": "\n              <div class=\"anzeige-headline\" style=\"font-size:15px; font-weight:800; color:#0f766e; margin-bottom:4px;\">Ferienwohnung mit Blick auf den See</div>\n              <p style=\"font-size:13px; line-height:1.4; margin-bottom:6px;\">2 Zimmer, sehr elegant eingerichtet, große Küche, Bad, 2 Fahrräder, gute Lage an der Seepromenade, 10 Min. vom Zentrum Überlingen.</p>\n              <div style=\"font-size:12.5px; font-weight:700;\">Tel: 0160 658872</div>\n            "
+        },
+        {
+          "code": "H",
+          "tagPos": "right",
+          "hasPin": false,
+          "cardClass": "anzeige-style-m3-h",
+          "html": "\n              <div class=\"anzeige-headline\" style=\"font-size:15px; font-weight:800; color:#1e40af; margin-bottom:4px;\">FERIEN AUF SYLT</div>\n              <p style=\"font-size:13px; line-height:1.4; margin-bottom:6px;\">Das Schönste, was Ihnen die nördlichste deutsche Insel bieten kann: Ferienwohnung mit Segelboot, Vermietung nur bei Vorlage des Bootsführerscheins.</p>\n              <div style=\"font-size:12.5px; font-weight:700;\">Tel: 04859 5537</div>\n            "
+        },
+        {
+          "code": "I",
+          "tagPos": "left",
+          "hasPin": false,
+          "cardClass": "anzeige-style-m3-i",
+          "html": "\n              <div class=\"anzeige-headline\" style=\"font-size:14.5px; font-weight:800; color:#334155; margin-bottom:4px;\">Sie haben Besseres verdient als ein Hotelzimmer!</div>\n              <p style=\"font-size:13px; line-height:1.4; margin-bottom:6px;\">Sie wollen Berlin kennenlernen und sich trotzdem wie zu Hause fühlen? Dann gehen Sie nicht ins Hotel, sondern mieten Sie eine Wohnung in der Hauptstadt-Residenz.</p>\n              <div style=\"font-size:12.5px; font-weight:700; color:#0f172a;\">www.hauptstadt-residenz.de</div>\n            "
+        },
+        {
+          "code": "J",
+          "tagPos": "right",
+          "hasPin": false,
+          "cardClass": "anzeige-style-m3-j",
+          "html": "\n              <div class=\"anzeige-headline\" style=\"font-size:14.5px; font-weight:800; color:#047857; margin-bottom:4px;\">Ferienanlage auf Skopolos – die griechische Inselwelt erleben!</div>\n              <p style=\"font-size:13px; line-height:1.4; margin-bottom:6px;\">Wunderschöne Ferienhäuschen direkt am Strand, jedes mit 2–4 Schlafplätzen. Restaurant und Strandbar, Fahrradverleih, Segel- und Tauchunterricht. Anfragen auf Englisch an:</p>\n              <div style=\"font-size:12.5px; font-weight:700; color:#065f46;\">skopolos-aris@gmx.com</div>\n            "
+        }
+      ],
+      "example": {
+        "text": "Susanne will mit zwei Freundinnen in Südeuropa Ferien am Meer machen: schwimmen, faulenzen, in der Sonne liegen. Sie können nur im Juli fahren.",
+        "answer": "X"
+      },
+      "questions": [
+        {
+          "id": 13,
+          "type": "match",
+          "text": "Stefan will mit drei Freunden im August oder September Urlaub machen. Sie träumen von Sonne und Musik und Partys am Meer, aber sie haben wenig Geld.",
+          "answer": "E"
+        },
+        {
+          "id": 14,
+          "type": "match",
+          "text": "Familie Meyerberg möchte in der Schweiz Urlaub machen. Die Eltern sind begeisterte Bergwanderer, die Kinder sind noch klein und brauchen tagsüber Betreuung.",
+          "answer": "D"
+        },
+        {
+          "id": 15,
+          "type": "match",
+          "text": "Christian und Sabine wollen ein Haus in Südeuropa mieten, in dem sie vielleicht auch Gäste haben können. Es soll im Frühling sein, vielleicht zwei Wochen im Mai.",
+          "answer": "C"
+        },
+        {
+          "id": 16,
+          "type": "match",
+          "text": "Michael und sein Freund sind Wassersportler. Sie würden am liebsten auf einem Schiff Urlaub machen, aber ihre Frauen wollen unbedingt eine Wohnung haben.",
+          "answer": "H"
+        },
+        {
+          "id": 17,
+          "type": "match",
+          "text": "Herr Krauser möchte seiner Frau etwas Besonderes schenken: einen Urlaub mit kulturellen Höhepunkten.",
+          "answer": "B"
+        },
+        {
+          "id": 18,
+          "type": "match",
+          "text": "Herr und Frau Schäfer leben in Dinkelsbühl. Sie wollen im Urlaub gern einmal probieren, wie das Leben in einer Großstadt ist.",
+          "answer": "I"
+        },
+        {
+          "id": 19,
+          "type": "match",
+          "text": "Familie Brandt will Urlaub am Meer machen, aber die Kinder (14 und 15 J.) wollen nicht immer nur am Strand sein.",
+          "answer": "J"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Teil 4",
+      "time": 15,
+      "instructions": "In einer Zeitschrift lesen Sie Kommentare zu einem Artikel über die Einführung einer Steuer auf Computerspiele. Wählen Sie: Ist die Person für die Einführung einer Steuer auf Computerspiele?",
+      "example": {
+        "who": "Erika, 44, Hamburg",
+        "text": "Auf Computerspiele zahlt der Verbraucher, genau wie auf jede andere Ware, die Mehrwertsteuer, die ja wirklich schon hoch genug ist! Ich kann nicht einsehen, warum jetzt noch eine Extrasteuer erhoben werden soll. Das ist doch wieder nur ein Trick, um uns das Geld aus der Tasche zu ziehen.",
+        "answer": "nein"
+      },
+      "letters": [
+        {
+          "id": 20,
+          "who": "Christian, 19, Frankfurt",
+          "text": "Ja, glauben die Leute denn, dass sie damit die Spielsucht stoppen können? Das ist doch totaler Unsinn! Die wirklichen Spielefans laden sich die heißesten Spiele sowieso im Internet herunter. Die gehen nicht in den Laden und sagen: „Ich hätte gern ein paar Killerspiele!“. Da gibt es ganze Gruppen, die seit Jahren zusammen spielen. Die lachen doch nur über so etwas wie eine Steuer auf Computerspiele!",
+          "answer": "nein"
+        },
+        {
+          "id": 21,
+          "who": "Carola, 17, Zürich",
+          "text": "Computerspiele sind genauso gut oder genauso schlecht, wie alle anderen Spiele. Oder wie Bücher und CDs und Filme. Soll jetzt vielleicht alles kontrolliert und besteuert werden, womit wir unsere Freizeit verbringen? Ich glaube, es geht nur darum, uns Geld abzunehmen, alles andere sind Lügen! Computerspiele machen Spaß, weiter nichts – wieso soll man dafür Steuern zahlen?",
+          "answer": "nein"
+        },
+        {
+          "id": 22,
+          "who": "Marion, 36, Berlin",
+          "text": "Mein Sohn ist einer von den Jugendlichen, die ihre Nächte vor dem Computer verbringen, um mit einem Team von Leuten, die er persönlich nicht kennt, komplizierte Spiele zu spielen. Er hat mir erklärt, dass es nichts gibt, was auch nur annähernd so spannend und interessant sei wie diese Spiele. Es ist einfach dumm, zu glauben, dass eine Steuer sein Verhalten ändern könnte. Außerdem wäre so eine Steuer ungerecht, sie würde nichts besser machen und viele Leute verärgern.",
+          "answer": "nein"
+        },
+        {
+          "id": 23,
+          "who": "Wolfgang, 63, Wien",
+          "text": "Wenn man eine Steuer auf Computerspiele erhebt, werden die Spiele natürlich viel teurer. Ich finde, darüber muss man nachdenken, denn das wäre vielleicht eine Möglichkeit, dafür zu sorgen, dass weniger von diesen Spielen verkauft werden. Viele junge Leute sitzen nächtelang vor dem Computer und spielen. Sie verlieren ihre Freunde und ihre sozialen Kontakte. Sie treiben keinen Sport mehr, sie spielen nur diese schrecklichen Spiele.",
+          "answer": "ja"
+        },
+        {
+          "id": 24,
+          "who": "Sonja, 31, Bern",
+          "text": "Das würde doch nur bedeuten, dass die Regierung auch noch an diesen furchtbaren Spielen verdient. Die Vorstellung, dass etwas nicht mehr gekauft wird, wenn es teurer wird, hat beim Alkohol nicht funktioniert und bei den Zigaretten auch nicht. Wenn jemand Computerspiele spielen will, tut er das, egal, wie teuer sie sind.",
+          "answer": "nein"
+        },
+        {
+          "id": 25,
+          "who": "Hartmut, 58, Münster",
+          "text": "Wie oft haben wir in den letzten Jahren gehört und gelesen, dass die jugendlichen Amoktäter jahrelang ihre ganze Freizeit am Computer verbracht haben, bevor sie dann die Pistole des Vaters nahmen, um ihre Klassenkameraden zu erschießen! Jedes Mittel soll uns recht sein, um unsere Kinder vor solchen Verbrechern zu schützen. Ich glaube, auch eine Steuer auf die Computerspiele könnte dabei nützlich sein.",
+          "answer": "ja"
+        },
+        {
+          "id": 26,
+          "who": "Gudrun, 52, Graz",
+          "text": "Meiner Ansicht nach ist das Problem viel zu komplex für eine einfache Steuererhöhung. Verbote und Steuern führen bei Jugendlichen meist nur dazu, dass die Dinge noch reizvoller werden. Stattdessen sollten Eltern und Schulen mehr Medienkompetenz vermitteln, anstatt dem Staat neue Einnahmequellen zu verschaffen.",
+          "answer": "nein"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Teil 5",
+      "time": 10,
+      "instructions": "Sie lesen die Informationen über ein Wochenendseminar zum Thema „Gesunde Ernährung“, an dem Sie teilnehmen wollen. Wählen Sie bei jeder Aufgabe 27 bis 30 die richtige Lösung a, b oder c.",
+      "articles": [
+        {
+          "heading": "Informationen für Seminarteilnehmer",
+          "sub": "Kulturheim Fohrde (Brandenburg) · Seminar „Gesunde Ernährung“",
+          "body": [
+            "Als Teilnehmer am Seminar „Gesunde Ernährung“ sind wir Gäste im Kulturheim in Fohrde (Brandenburg). Lesen Sie bitte die folgenden Informationen:",
+            "<strong>Anreise</strong><br>Die Gäste organisieren ihre Anreise bitte so, dass alle am Freitag zwischen 16.00 und 18.00 Uhr im Kulturheim eintreffen.",
+            "<strong>Unterbringung</strong><br>Für die Gäste stehen Ein- und Zweibettzimmer zur Verfügung. Bei der Ankunft hängt im Eingangsbereich des Kulturheims eine Liste aus, auf der die Namen und die Zimmernummern der Gäste zu finden sind. Auf allen Stockwerken stehen für jeweils vier Zimmer zwei große Toiletten- und Duschräume zur Verfügung.",
+            "<strong>Verpflegung</strong><br>An den beiden Seminartagen werden fünf Mahlzeiten angeboten. Zusätzlich stehen im Seminarraum immer Getränke und Obst bereit. Am Tag der Anreise gibt es abends ein kaltes Buffet. Selbstverständlich entsprechen alle Speisen den Regeln der „Gesunden Ernährung“.",
+            "<strong>Sauberkeit</strong><br>Während der zwei Seminartage wird in den Gästezimmern nicht sauber gemacht. Wir bitten unsere Gäste, bei der Abreise die Betten abzuziehen und alle persönlichen Gegenstände aus den Zimmern zu entfernen, auch Flaschen, Zeitungen, Prospekte usw. Die verschiedenen Mülltonnen befinden sich hinter dem Haus.",
+            "<strong>Alkohol und Rauchen</strong><br>In allen Räumen des Kulturheims Fohrde ist Rauchen verboten. Zu den Mahlzeiten werden Obstsäfte und Mineralwasser angeboten. Wein und Bier stehen gegen Bezahlung zur Verfügung.",
+            "<strong>Wertsachen</strong><br>Für Bargeld und Wertgegenstände tragen die Gäste selbst die Verantwortung. Alle Gästezimmer können verschlossen werden. Außerdem können die Gäste ihre Wertgegenstände im Sekretariat abgeben.",
+            "<strong>Freizeitangebote</strong><br>Im Park und am Havelufer können unsere Gäste ihre freie Zeit angenehm verbringen. Zwei Ruderboote und zehn Fahrräder stehen kostenlos zur Verfügung. Die Schlüssel für die Fahrräder bekommt man im Sekretariat.",
+            "<strong>Abreise</strong><br>Die Gästezimmer müssen am Sonntag bis 18.00 Uhr geräumt sein. Das Abendessen wird am Sonntag um 18.00 Uhr serviert. Wenn Gäste schon vor dem Abendessen abreisen wollen, muss die Abreise rechtzeitig im Sekretariat mitgeteilt werden."
+          ]
+        }
+      ],
+      "example": {
+        "text": "Das Seminar findet statt …",
+        "options": [
+          "in Berlin.",
+          "im Kulturheim Fohrde in Brandenburg.",
+          "auf einem Schiff."
+        ],
+        "answer": 1
+      },
+      "questions": [
+        {
+          "id": 27,
+          "type": "mcq",
+          "text": "Die Seminarteilnehmer …",
+          "options": [
+            "können in den Seminarpausen Sport treiben oder spazieren gehen.",
+            "wollen in Fohrde Urlaub machen.",
+            "kommen am Samstag in Fohrde an."
+          ],
+          "answer": 0
+        },
+        {
+          "id": 28,
+          "type": "mcq",
+          "text": "Die Gästezimmer …",
+          "options": [
+            "haben alle ein eigenes Bad.",
+            "werden jeden Tag aufgeräumt.",
+            "kann man abschließen."
+          ],
+          "answer": 2
+        },
+        {
+          "id": 29,
+          "type": "mcq",
+          "text": "Die Verwaltung bittet darum, …",
+          "options": [
+            "dass die Gäste in ihren Zimmern keinen Alkohol trinken.",
+            "dass die Gäste den Abfall selbst wegbringen.",
+            "dass die Gäste Bescheid sagen, wann sie essen wollen."
+          ],
+          "answer": 1
+        },
+        {
+          "id": 30,
+          "type": "mcq",
+          "text": "Bei der Ankunft …",
+          "options": [
+            "wird jeder Gast auf sein Zimmer geführt.",
+            "muss man sich selbst sein Zimmer suchen.",
+            "soll man sich in eine Liste eintragen."
+          ],
+          "answer": 1
+        }
+      ]
+    }
+  ],
+  "translations": {},
+  "explanations": {
+    "1": {
+      "quote": "das Jugendhotel zu finden, von dem ich im Reiseführer gelesen hatte.",
+      "whyCorrect": {
+        "de": "Falsch. Marianne hat die Information über das Jugendhotel aus einem Reiseführer, nicht von einem persönlichen Freund.",
+        "ar": "خطأ. قرأت ماريان عن فندق الشباب في دليل سياحي (Reiseführer) ولم يقترحه عليها صديق.",
+        "fr": "Faux. Marianne a découvert l'hôtel dans un guide touristique et non par les conseils d'un ami."
+      },
+      "whyIncorrect": {
+        "de": "Die Aussage ist nicht 'richtig', weil im Text ausdrücklich der Reiseführer als Quelle genannt wird.",
+        "ar": "العبارة ليست 'صحيحة' لأن النص يحدد بوضوح أن المصدر كان كتاب الدليل السياحي.",
+        "fr": "L'affirmation n'est pas 'vraie' car la source citée est explicitement un guide de voyage."
+      }
+    },
+    "2": {
+      "quote": "Sie heißen Phoebe und Anne und sind schon seit einer Woche hier. ... „Kennt ihr denn den Weg?“ habe ich gefragt, „wart ihr da schon mal?“ Nein, das waren sie nicht, aber sie hätten eine Karte, sagten sie.",
+      "whyCorrect": {
+        "de": "Falsch. Die Studentinnen sind ebenfalls Touristinnen, erst seit einer Woche in Berlin und kennen den Weg selbst nicht (waren noch nie am Schloss und nutzen eine Karte).",
+        "ar": "خطأ. الطالبتان الأمريكيتان سائحتان تزوران المدينة منذ أسبوع واحد فقط ولا تعرفان الطرق جيدًا بل تعتمدان على خريطة.",
+        "fr": "Faux. Les deux étudiantes sont également touristes, arrivées depuis une semaine seulement, et ne connaissent pas l'itinéraire."
+      },
+      "whyIncorrect": {
+        "de": "Die Aussage ist nicht richtig: Sie studieren nicht in Berlin, sondern machen Urlaub.",
+        "ar": "العبارة ليست صحيحة لأنهما لا تدرسان في برلين بل تقضيان عطلة.",
+        "fr": "L'affirmation est fausse : elles ne font que visiter la ville."
+      }
+    },
+    "3": {
+      "quote": "„Oh nein“, hat Phoebe protestiert, „bei diesem wunderbaren Wetter willst du in den Reichstag? Da musst du auch noch stundenlang Schlange stehen, das kannst du irgendwann machen, wenn es regnet.“",
+      "whyCorrect": {
+        "de": "Richtig. Phoebe warnt vor den langen Wartezeiten beim Reichstag („stundenlang Schlange stehen“), was für viele Touristen typisch ist.",
+        "ar": "صحيح. تحذر فيبي من فترات الانتظار الطويلة أمام مبنى البرلمان (الرايخشتاغ) والوقوف في طوابير لساعات.",
+        "fr": "Vrai. Phoebe souligne qu'il faut faire la queue pendant des heures (« stundenlang Schlange stehen ») pour visiter le Reichstag."
+      },
+      "whyIncorrect": {
+        "de": "Falsch ist nicht zutreffend: Der Text bestätigt die langen Warteschlangen ausdrücklich.",
+        "ar": "اختيار 'خطأ' غير صحيح لأن النص يؤكد بوضوح طول الطوابير.",
+        "fr": "Choisir 'Faux' est erroné car les longues files d'attente sont mentionnées texto."
+      }
+    },
+    "4": {
+      "quote": "Es ging wunderbar schnell und leicht, manchmal wäre ich gern stehen geblieben, um die Touristenschiffe anzusehen. Nach einer Stunde waren wir schon am Schloss Charlottenburg.",
+      "whyCorrect": {
+        "de": "Falsch. Die Fahrt war überhaupt nicht mühsam, sondern ging „wunderbar schnell und leicht“. Die Mädchen waren am Schloss keineswegs erschöpft.",
+        "ar": "خطأ. الرحلة بالدراجة لم تكن متعبة على الإطلاق بل كانت سريعة وسهلة وممتعة للغاية.",
+        "fr": "Faux. Le trajet n'était pas difficile mais « merveilleusement rapide et facile » ; elles n'étaient donc pas épuisées."
+      },
+      "whyIncorrect": {
+        "de": "Die Aussage ist nicht richtig: Marianne beschreibt die Fahrt als angenehm und leicht.",
+        "ar": "العبارة غير صحيحة لوصف ماريان للرحلة بالخفة والسهولة.",
+        "fr": "L'affirmation n'est pas vraie car la promenade à vélo s'est déroulée sans effort."
+      }
+    },
+    "5": {
+      "quote": "Danach wollten Phoebe und Anne sofort weiterfahren, aber ich hatte keine Lust mehr: Der Park beim Schloss ist so schön, mit Blumen und großen Bäumen und künstlichen Seen. ... Ich wollte meinen ersten Tag in Berlin genießen, nicht nur Sport treiben.",
+      "whyCorrect": {
+        "de": "Falsch. Das Wetter war herrlich. Marianne wollte nicht weiterfahren, weil sie den schönen Schlosspark genießen, spazieren gehen und nicht nur Sport treiben wollte.",
+        "ar": "خطأ. الطقس كان رائعًا ومشمسًا؛ والسبب في عدم رغبتها في المتابعة هو جمال حديقة القصر ورغبتها في الاستمتاع والتسوق بدلاً من مواصلة ركوب الدراجة.",
+        "fr": "Faux. Le temps était splendide ; Marianne a préféré s'arrêter pour profiter du parc et faire les boutiques plutôt que d'enchaîner le sport."
+      },
+      "whyIncorrect": {
+        "de": "Die Aussage ist nicht richtig: Das Wetter war sonnig und wunderbar.",
+        "ar": "العبارة ليست صحيحة لأن الشمس كانت ساطعة والطقس ممتازًا.",
+        "fr": "L'affirmation est fausse : la météo n'était absolument pas en cause."
+      }
+    },
+    "6": {
+      "quote": "In Berlin mit dem Fahrrad unterwegs sein, das geht prima. Ich werde morgen wieder mit dem Fahrrad fahren, auf der Straße „Unter den Linden“!",
+      "whyCorrect": {
+        "de": "Richtig. Marianne resümiert begeistert: „In Berlin mit dem Fahrrad unterwegs sein, das geht prima.“ Sie empfindet das Fahrrad als ideales Fortbewegungsmittel.",
+        "ar": "صحيح. تختم ماريان تدوينتها بإشادة كبيرة: 'التجول بالدراجة في برلين أمر ممتاز'، وتخطط لركوبها مجددًا غدًا.",
+        "fr": "Vrai. Marianne conclut avec enthousiasme : « Être à vélo à Berlin, cela fonctionne à merveille », elle trouve donc ce moyen très pratique."
+      },
+      "whyIncorrect": {
+        "de": "Falsch ist nicht zutreffend: Ihre persönliche Bewertung des Fahrradfahrens in der Stadt ist durchweg positiv.",
+        "ar": "اختيار 'خطأ' غير صحيح لأن تقييمها لتجربة الدراجة في برلين كان إيجابيًا للغاية.",
+        "fr": "Choisir 'Faux' est incorrect car son appréciation est totalement positive."
+      }
+    },
+    "7": {
+      "quote": "Michael Körner glaubt, dass die meisten Eltern die Schule für ihre Kinder nach ziemlich praktischen Überlegungen wählen: Bietet die Schule Ganztagsunterricht an? Wie weit ist der Schulweg? Wie wichtig ist die musische Erziehung? Kann mein Kind dort Spanisch lernen?",
+      "whyCorrect": {
+        "de": "Option c ist richtig. Eltern wählen Schulen nach ganz individuellen, praktischen Bedürfnissen aus (Fremdsprachen, Ganztagsbetreuung, Musikangebot, Schulweg).",
+        "ar": "الخيار (c) صحيح. يختار أولياء الأمور المدارس بناءً على حلول لاحتياجات أسرهم الفردية العملية (الدوام الكامل، تعليم لغات، مسافة الطريق).",
+        "fr": "L'option c est correcte. Les parents sélectionnent l'école selon des critères pratiques et des attentes personnalisées."
+      },
+      "whyIncorrect": {
+        "de": "Option a ist falsch (strenge Erziehung steht nicht im Vordergrund). Option b ist falsch (Angst vor fremden Ideen ist nicht der Hauptgrund).",
+        "ar": "الخيار (a) خاطئ فالصرامة ليست الهدف. والخيار (b) خاطئ فالأمر يتعلق بالمرونة والاهتمام الشخصي.",
+        "fr": "L'option a et l'option b ne correspondent pas aux explications de l'expert."
+      }
+    },
+    "8": {
+      "quote": "Privatschulen werden finanziell zu 70 % vom Staat gefördert, die anderen 30 % müssen aus den Elternbeiträgen kommen",
+      "whyCorrect": {
+        "de": "Option b ist richtig. Privatschulen erhalten bis zu 70 % staatliche Fördermittel, werden also zu einem großen Teil aus öffentlichen Geldern finanziert.",
+        "ar": "الخيار (b) صحيح. تموّل المدارس الخاصة بنسبة 70% من الميزانية العامة للدولة، والباقي من اشتراكات الأولياء.",
+        "fr": "L'option b est correcte. Les écoles privées reçoivent 70 % de subventions de l'État, donc de fonds publics."
+      },
+      "whyIncorrect": {
+        "de": "Option a ist falsch (normale Privatschulen sind auch für normale Familien bezahlbar). Option c ist falsch (Waldorfschulen wurden für Arbeiterkinder gegründet).",
+        "ar": "الخيار (a) خاطئ فالمصاريف العادية ليست حكرًا على الأثرياء فقط. والخيار (c) خاطئ فقد تأسست أول مدرسة لأبناء العمال.",
+        "fr": "L'option a est fausse. L'option c est démentie par l'origine ouvrière des écoles Waldorf."
+      }
+    },
+    "9": {
+      "quote": "Das sind die Sorgen der Eltern und die Privatschulen kommen ihnen entgegen. Vielleicht sollten die staatlichen Schulen darüber auch einmal nachdenken.",
+      "whyCorrect": {
+        "de": "Option a ist richtig. Körner meint, dass Privatschulen Anregungen liefern können, über die auch staatliche Schulen nachdenken sollten.",
+        "ar": "الخيار (a) صحيح. يرى الخبير أن أسلوب المدارس الخاصة وتلبيتها لرغبات الأهالي قد يشكل نموذجًا مفيدًا تفكر فيه المدارس الحكومية.",
+        "fr": "L'option a est correcte. Körner suggère que les écoles publiques pourraient s'inspirer de la flexibilité des écoles privées."
+      },
+      "whyIncorrect": {
+        "de": "Option b und c sind nicht die zentralen Thesen Körners zur Bedeutung der Privatschulen.",
+        "ar": "الخياران (b) و (c) ليسا بيت القصيد في تحليل البروفيسور.",
+        "fr": "Les options b et c ne constituent pas le cœur de sa réflexion."
+      }
+    },
+    "10": {
+      "quote": "Sie fanden heraus, dass attraktive Jugendliche tatsächlich um 0,5 bis 0,75 Notenpunkte besser beurteilt werden als andere Schüler mit gleichen Leistungen.",
+      "whyCorrect": {
+        "de": "Option c ist richtig. Die Wiener Studie belegt, dass Lehrkräfte attraktive Jugendliche bei gleicher Leistung um bis zu 0,75 Noten besser bewerten – sie lassen sich also vom Aussehen beeinflussen.",
+        "ar": "الخيار (c) صحيح. أثبتت الدراسة في فيينا أن المعلمين يتأثرون بالمظهر الخارجي ويمنحون الطلاب الأكثر جاذبية درجات أعلى لنفس المستوى.",
+        "fr": "L'option c est correcte. L'étude montre que les enseignants sont influencés par le physique et attribuent de meilleures notes aux élèves séduisants."
+      },
+      "whyIncorrect": {
+        "de": "Option a ist falsch (im Berufsleben gilt das gerade für Frauen nicht). Option b ist falsch (Schönheit erzeugt keine tatsächliche Mehrleistung).",
+        "ar": "الخيار (a) خاطئ فالجاذبية لم تفد النساء في العمل. والخيار (b) خاطئ فالأداء الفعلي متطابق وإنما التقييم منحاز.",
+        "fr": "L'option a est réfutée dans le monde professionnel. L'option b confond performance réelle et notation subjective."
+      }
+    },
+    "11": {
+      "quote": "Die Hälfte der Fotos zeigten schöne Männer und Frauen, die anderen gehörten zu durchschnittlichen Gesichtern.",
+      "whyCorrect": {
+        "de": "Option c ist richtig. Genau 50 % der versendeten Bewerbungsfotos zeigten Personen mit ganz durchschnittlichem, alltäglichem Aussehen.",
+        "ar": "الخيار (c) صحيح. أرسلت الدراسة في تل أبيب نصف الطلبات (50%) بصور لأشخاص ذوي ملامح ومظهر عادي تمامًا.",
+        "fr": "L'option c est correcte. La moitié des candidatures (50 %) comportait des photos de personnes au visage ordinaire."
+      },
+      "whyIncorrect": {
+        "de": "Option a ist falsch (auf der Hälfte waren Männer UND Frauen zu sehen, nicht nur Männer). Option b ist falsch (durchschnittlich heißt nicht unattraktiv).",
+        "ar": "الخيار (a) خاطئ فالنصف شمل رجالاً ونساءً. والخيار (b) خاطئ فلم تكن الصور قبيحة بل عادية.",
+        "fr": "L'option a est incomplète. L'option b déforme la proportion."
+      }
+    },
+    "12": {
+      "quote": "in den Personalbüros der Firmen fast ausschließlich Frauen sitzen – und die glauben offenbar, dass schöne Frauen das Betriebsklima stören.",
+      "whyCorrect": {
+        "de": "Option a ist richtig. Personalverantwortliche befürchten Konflikte im Büro und wollen vermeiden, dass neue Mitarbeiterinnen Unruhe oder Neid ins Team bringen.",
+        "ar": "الخيار (a) صحيح. تخشى إدارات التوظيف (ومعظمها نساء) من حدوث نزاعات أو اضطراب في بيئة العمل الجماعية بسبب المنافسة.",
+        "fr": "L'option a est correcte. Les recruteuses craignent que des rivalités ou tensions ne perturbent l'ambiance au sein de l'équipe."
+      },
+      "whyIncorrect": {
+        "de": "Option b ist falsch (bei Männern half gutes Aussehen, bei Frauen schadete es). Option c ist zu allgemein formuliert.",
+        "ar": "الخيار (b) خاطئ فالمظهر الجميل ساعد الرجال وأضر بالنساء. والخيار (c) غير دقيق في تعميمه.",
+        "fr": "L'option b est contredite par l'écart hommes/femmes. L'option c simplifie excessivement le constat."
+      }
+    },
+    "13": {
+      "quote": "Jugendcamp Costa Brava ... Partys am Meer, günstiger Preis",
+      "whyCorrect": {
+        "de": "Anzeige E passt. Stefan und seine Freunde suchen Sonne, Partys und Meer für Spätsommer bei wenig Geld. Das Jugendcamp an der Costa Brava passt exakt.",
+        "ar": "الإعلان E مناسب. يبحث ستيفان ورفاقه عن شمس وموسيقى وحفلات على البحر بميزانية منخفضة، ومخيم الشباب يوفر ذلك تمامًا.",
+        "fr": "L'annonce E convient. Séjour jeunes sur la côte espagnole avec fêtes en bord de mer et tarifs abordables."
+      },
+      "whyIncorrect": {
+        "de": "Andere Anzeigen bieten keine günstige Partystimmung am Meer für Jugendliche.",
+        "ar": "الإعلانات الأخرى إما باهظة أو عائلية هادئة.",
+        "fr": "Les autres options ne correspondent ni au profil jeune ni au petit budget."
+      }
+    },
+    "14": {
+      "quote": "Familienhotel Schweizer Alpen ... Kinderbetreuung, Bergwanderungen",
+      "whyCorrect": {
+        "de": "Anzeige D passt. Familie Meyerberg will in die Schweiz zum Bergwandern und benötigt Betreuung für die kleinen Kinder. Das Familienhotel bietet beides.",
+        "ar": "الإعلان D مناسب. تريد عائلة مايربرغ قضاء إجازة جبلية في سويسرا مع رعاية نهارية للأطفال، وهو ما يقدمه فندق العائلات.",
+        "fr": "L'annonce D convient. Vacances dans les Alpes suisses combinant randonnées en montagne et encadrement pour jeunes enfants."
+      },
+      "whyIncorrect": {
+        "de": "Andere Reiseangebote liegen nicht in der Schweiz oder bieten keine Kinderbetreuung.",
+        "ar": "العروض الأخرى لا تقع في سويسرا أو تفتقر لحضانة الأطفال.",
+        "fr": "Les autres hébergements ne sont pas situés en Suisse ou n'assurent pas de garde d'enfants."
+      }
+    },
+    "15": {
+      "quote": "Finca Mallorca ... Haus für Gäste im Mai",
+      "whyCorrect": {
+        "de": "Anzeige C passt. Christian und Sabine suchen im Mai ein Haus in Südeuropa mit Platz für Gäste. Die Finca auf Mallorca erfüllt alle Kriterien.",
+        "ar": "الإعلان C مناسب. يبحثان عن بيت للإيجار في جنوب أوروبا في شهر مايو يتسع لاستقبال ضيوف، وتوفر فيلا مايوركا ذلك.",
+        "fr": "L'annonce C convient. Finca aux Baléares disponible en mai, idéale pour accueillir des invités dans le Sud de l'Europe."
+      },
+      "whyIncorrect": {
+        "de": "Andere Unterkünfte bieten keinen ausreichenden Platz für Gäste oder liegen in Großstädten.",
+        "ar": "الإعلانات الأخرى شقق صغيرة أو في مناطق جبلية وشمالية.",
+        "fr": "Les autres biens ne disposent pas de l'espace requis ou ne sont pas dans le Sud."
+      }
+    },
+    "16": {
+      "quote": "Hausboot & Ferienwohnung am See",
+      "whyCorrect": {
+        "de": "Anzeige H passt. Wassersport kombiniert mit einer festen Ferienwohnung für die Frauen, die nicht auf dem Boot übernachten wollen.",
+        "ar": "الإعلان H مناسب. يجمع العرض بين الرياضات المائية وقارب مع شقة مريحة على ضفاف البحيرة لإرضاء الزوجات.",
+        "fr": "L'annonce H convient. Formule combinant bateau habitable pour les navigateurs et appartement confortable pour leurs épouses."
+      },
+      "whyIncorrect": {
+        "de": "Reine Bootcharter oder reine Stadtwohnungen entsprechen nicht dem Kompromiss.",
+        "ar": "القوارب المنفردة أو شقق المدن لا تلبي رغبة الطرفين معًا.",
+        "fr": "Les autres annonces imposent soit le bateau seul, soit un séjour sans rapport avec l'eau."
+      }
+    },
+    "17": {
+      "quote": "Kulturreise Toskana",
+      "whyCorrect": {
+        "de": "Anzeige B passt. Herr Krauser möchte seiner Frau eine Reise mit erstklassigen kulturellen Höhepunkten schenken. Die Kulturreise in die Toskana ist ideal.",
+        "ar": "الإعلان B مناسب. يريد إهداء زوجته رحلة ثقافية مميزة، وتوفر الرحلة إلى إقليم توسكانا الإيطالي معالم فنية وتاريخية رفيعة.",
+        "fr": "L'annonce B convient. Voyage culturel en Toscane, parfait pour un cadeau haut de gamme axé sur l'art et l'histoire."
+      },
+      "whyIncorrect": {
+        "de": "Andere Urlaubsangebote sind rein sportlich oder für Jugendliche gedacht.",
+        "ar": "الإعلانات الأخرى مخصصة للشباب أو المغامرات الرياضية دون طابع ثقافي.",
+        "fr": "Les autres options n'ont aucune dimension patrimoniale ou artistique."
+      }
+    },
+    "18": {
+      "quote": "Hauptstadt-Residenz Berlin Ferienwohnung",
+      "whyCorrect": {
+        "de": "Anzeige I passt. Das Ehepaar Schäfer aus einer Kleinstadt möchte Großstadtleben in einer komfortablen Berliner Residenz-Wohnung ausprobieren.",
+        "ar": "الإعلان I مناسب. يريد الزوجان تجربة حياة المدينة الكبرى في العاصمة برلين في شقة مريحة بدلاً من فندق ضيق.",
+        "fr": "L'annonce I convient. Appartement meublé dans la capitale pour découvrir le rythme d'une grande métropole."
+      },
+      "whyIncorrect": {
+        "de": "Andere Anzeigen bieten ländliche Urlaube oder Mittelmeerstrände.",
+        "ar": "الإعلانات الأخرى ريفية أو ساحلية بعيدة عن صخب المدن الكبرى.",
+        "fr": "Les autres propositions se situent à la mer ou à la montagne."
+      }
+    },
+    "19": {
+      "quote": "Ferienanlage Skopolos Insel mit Wassersport & Kursen",
+      "whyCorrect": {
+        "de": "Anzeige J passt. Strandurlaub für die Eltern, kombiniert mit Fahrradverleih, Tauch- und Segelunterricht für die Jugendlichen (14/15 J.).",
+        "ar": "الإعلان J مناسب. يجمع بين إجازة شاطئية للأهل وبرامج تدريب على الإبحار والغوص وتأجير دراجات للفتيان لكيلا يملوا.",
+        "fr": "L'annonce J convient. Complexe balnéaire proposant activités nautiques et stages de plongée/voile pour occuper des ados actifs."
+      },
+      "whyIncorrect": {
+        "de": "Reine Ruhe-Hotels ohne Freizeitaktivitäten bieten den Teenagern zu wenig Abwechslung.",
+        "ar": "الفنادق الهادئة المعزولة ستشعر المراهقين بالملل.",
+        "fr": "Les hôtels calmes sans infrastructure sportive n'intéresseraient pas des adolescents."
+      }
+    },
+    "20": {
+      "quote": "Die lachen doch nur über so etwas wie eine Steuer auf Computerspiele!",
+      "whyCorrect": {
+        "de": "„Nein“ ist richtig. Christian hält eine solche Steuer für wirkungslosen Unsinn, da echte Gamer Spiele online laden und die Steuer ignorieren würden.",
+        "ar": "'لا' صحيح. يرى كريستيان أن فرض الضريبة هراء غير مجدٍ لأن اللاعبين المحترفين يحمّلون الألعاب عبر الإنترنت وسيسخرون من الضريبة.",
+        "fr": "« Non » est correct. Christian juge cette taxe inutile et inefficace, soulignant que les joueurs téléchargent sur Internet."
+      },
+      "whyIncorrect": {
+        "de": "„Ja“ ist falsch, da Christian die Maßnahme als „totalen Unsinn“ bezeichnet.",
+        "ar": "اختيار 'نعم' خاطئ لأنه يصف الفكرة بالسخافة المطلقة.",
+        "fr": "« Oui » est erroné car son avis est nettement hostile."
+      }
+    },
+    "21": {
+      "quote": "Computerspiele machen Spaß, weiter nichts – wieso soll man dafür Steuern zahlen?",
+      "whyCorrect": {
+        "de": "„Nein“ ist richtig. Carola verteidigt Computerspiele als normales Freizeitvergnügen und lehnt jegliche Sonderbesteuerung empört ab.",
+        "ar": "'لا' صحيح. تدافع كارولا عن ألعاب الفيديو وتراها تسلية عادية كالموسيقى والكتب وترفض بشدة فرض أي ضريبة إضافية.",
+        "fr": "« Non » est correct. Carola considère le jeu vidéo comme un loisir légitime et refuse toute taxe punitive supplémentaire."
+      },
+      "whyIncorrect": {
+        "de": "„Ja“ widerspricht ihrer eindeutig ablehnenden Frage.",
+        "ar": "'نعم' يعاكس تساؤلها الاستنكاري الرافض للضريبة.",
+        "fr": "« Oui » contredit formellement son indignation."
+      }
+    },
+    "22": {
+      "quote": "Es ist einfach dumm, zu glauben, dass eine Steuer sein Verhalten ändern könnte.",
+      "whyCorrect": {
+        "de": "„Nein“ ist richtig. Marion hält eine Steuer für ungerecht und wirkungslos; sie würde Jugendliche nicht vom Spielen abhalten, sondern nur Unmut erzeugen.",
+        "ar": "'لا' صحيح. ترى ماريون أن الاعتقاد بأن الضريبة ستغير سلوك الشباب هو غباء، وتعتبرها إجراءً غير عادل يثير الاستياء فقط.",
+        "fr": "« Non » est correct. Marion estime naïf de penser qu'une taxe modifierait l'addiction des adolescents."
+      },
+      "whyIncorrect": {
+        "de": "„Ja“ ist falsch, da Marion die Steuer als dumm und nutzlos bezeichnet.",
+        "ar": "اختيار 'نعم' خاطئ لأنها تعتبر الإجراء عقيمًا وغبيًا.",
+        "fr": "« Oui » est faux au vu de ses critiques sévères."
+      }
+    },
+    "23": {
+      "quote": "Ich finde, darüber muss man nachdenken, denn das wäre vielleicht eine Möglichkeit, dafür zu sorgen, dass weniger von diesen Spielen verkauft werden.",
+      "whyCorrect": {
+        "de": "„Ja“ ist richtig. Wolfgang befürwortet die Steuer, weil höhere Preise den Verkauf eindämmen und Jugendliche vor sozialer Isolation schützen könnten.",
+        "ar": "'نعم' صحيح. يؤيد فولفغانغ الضريبة كوسيلة محتملة لتقليل مبيعات الألعاب وحماية المراهقين من العزلة وضياع المستقبل.",
+        "fr": "« Oui » est correct. Wolfgang est favorable à la taxe afin de renchérir les jeux et d'en freiner la consommation excessive."
+      },
+      "whyIncorrect": {
+        "de": "„Nein“ ist falsch: Wolfgang spricht sich ausdrücklich für die Einführung der Steuer aus.",
+        "ar": "اختيار 'لا' خاطئ لأنه يصرح بتأييده لإجراءات تحد من انتشار هذه الألعاب.",
+        "fr": "« Non » contredit sa volonté affichée d'augmenter le coût d'achat."
+      }
+    },
+    "24": {
+      "quote": "Wenn jemand Computerspiele spielen will, tut er das, egal, wie teuer sie sind.",
+      "whyCorrect": {
+        "de": "„Nein“ ist richtig. Sonja ist gegen die Steuer, da Preiserhöhungen (wie bei Tabak und Alkohol) den Konsum nicht senken, sondern nur dem Staat Geld einbringen.",
+        "ar": "'لا' صحيح. تعارض سونيا الفكرة مشيرة إلى أن رفع الأسعار لم يقلل التدخين، وأن الضريبة مجرد وسيلة لربح الدولة دون علاج المشكلة.",
+        "fr": "« Non » est correct. Sonja s'oppose au projet, estimant que la hausse des prix ne dissuadera pas les adeptes."
+      },
+      "whyIncorrect": {
+        "de": "„Ja“ ist falsch, da Sonja die steuerliche Maßnahme für wirkungslos hält.",
+        "ar": "اختيار 'نعم' خاطئ لأنها تنتقد استغلال الدولة للمستهلكين.",
+        "fr": "« Oui » ne correspond pas à son argumentation sceptique."
+      }
+    },
+    "25": {
+      "quote": "Jedes Mittel soll uns recht sein, um unsere Kinder vor solchen Verbrechern zu schützen. Ich glaube, auch eine Steuer auf die Computerspiele könnte dabei nützlich sein.",
+      "whyCorrect": {
+        "de": "„Ja“ ist richtig. Hartmut befürwortet die Steuer nachdrücklich als Schutzmaßnahme für Jugendliche gegen Gewaltspiele und Amokläufe.",
+        "ar": "'نعم' صحيح. يؤيد هارتموت الضريبة بقوة ويرى أن أي وسيلة لحماية الشباب من ألعاب العنف والجريمة مفيدة ومطلوبة.",
+        "fr": "« Oui » est correct. Hartmut approuve fermement la taxe comme levier de protection face aux jeux violents."
+      },
+      "whyIncorrect": {
+        "de": "„Nein“ ist falsch: Hartmut sieht in der Steuer ein nützliches Mittel der Prävention.",
+        "ar": "اختيار 'لا' خاطئ لأنه يراها أداة وقائية هامة.",
+        "fr": "« Non » est réfuté par son adhésion explicite."
+      }
+    },
+    "26": {
+      "quote": "Meiner Ansicht nach ist das Problem viel zu komplex für eine einfache Steuererhöhung. Verbote und Steuern führen bei Jugendlichen meist nur dazu, dass die Dinge noch reizvoller werden.",
+      "whyCorrect": {
+        "de": "„Nein“ ist richtig. Gudrun lehnt die Steuer ab, weil Verbote Dinge für Jugendliche oft nur noch interessanter machen; sie plädiert stattdessen für Medienkompetenz.",
+        "ar": "'لا' صحيح. تعارض غودرون فرض الضريبة لأن المنع يزيد من جاذبية الأمر لدى المراهقين وتطالب بالتربية الإعلامية بدلاً من الضرائب.",
+        "fr": "« Non » est correct. Gudrun rejette cette taxe simpliste qui risque de renforcer l'attrait interdit chez les jeunes."
+      },
+      "whyIncorrect": {
+        "de": "„Ja“ widerspricht ihrer klaren Absage an steuerliche Verbote.",
+        "ar": "'نعم' يتعارض مع دعوتها لرفض الضرائب واعتماد التوعية.",
+        "fr": "« Oui » est erroné car elle s'oppose à la fiscalisation du problème."
+      }
+    },
+    "27": {
+      "quote": "Im Park und am Havelufer können unsere Gäste ihre freie Zeit angenehm verbringen. Zwei Ruderboote und zehn Fahrräder stehen kostenlos zur Verfügung.",
+      "whyCorrect": {
+        "de": "Option a ist richtig. In den Pausen können Gäste Boote und Fahrräder nutzen oder am Fluss spazieren gehen.",
+        "ar": "الخيار (a) صحيح. يمكن للمشاركين في أوقات الفراغ ممارسة الرياضة وركوب الزوارق والدراجات المجانية أو التنزه على ضفاف النهر.",
+        "fr": "L'option a est correcte. Les participants ont accès à des vélos, des barques et un parc pour se détendre pendant les pauses."
+      },
+      "whyIncorrect": {
+        "de": "Option b ist falsch (sie machen ein Seminar, keinen reinen Urlaub). Option c ist falsch (Anreise ist am Freitag).",
+        "ar": "الخيار (b) خاطئ فالهدف حضور دورة تدريبية وليس إجازة سياحية. والخيار (c) خاطئ فالوصول يوم الجمعة.",
+        "fr": "L'option b et l'option c sont factuellement erronées d'après le texte."
+      }
+    },
+    "28": {
+      "quote": "Alle Gästezimmer können verschlossen werden.",
+      "whyCorrect": {
+        "de": "Option c ist richtig. Die Zimmerordnung hält ausdrücklich fest: „Alle Gästezimmer können verschlossen werden.“",
+        "ar": "الخيار (c) صحيح. تنص التعليمات صراحة على إمكانية إغلاق وقفل جميع غرف الضيوف بالمفتاح.",
+        "fr": "L'option c est correcte. Le règlement précise formellement que toutes les chambres peuvent être verrouillées."
+      },
+      "whyIncorrect": {
+        "de": "Option a ist falsch (Toiletten und Duschen befinden sich auf dem Gang). Option b ist falsch (während der Seminartage wird nicht saubergemacht).",
+        "ar": "الخيار (a) خاطئ فالحمامات مشتركة في الممرات. والخيار (b) خاطئ فلا تنظيف يومي للغرف خلال الدورة.",
+        "fr": "L'option a est fausse (sanitaires partagés). L'option b est démentie car le ménage n'est pas fait pendant le stage."
+      }
+    },
+    "29": {
+      "quote": "Wir bitten unsere Gäste, bei der Abreise die Betten abzuziehen und alle persönlichen Gegenstände aus den Zimmern zu entfernen, auch Flaschen, Zeitungen, Prospekte usw. Die verschiedenen Mülltonnen befinden sich hinter dem Haus.",
+      "whyCorrect": {
+        "de": "Option b ist richtig. Die Gäste werden gebeten, Flaschen, Zeitungen und Müll selbst zu den Mülltonnen hinter dem Haus zu bringen.",
+        "ar": "الخيار (b) صحيح. يُطلب من الضيوف إزالة متعلقاتهم وإلقاء القمامة والزجاجات بأنفسهم في الحاويات خلف المبنى.",
+        "fr": "L'option b est correcte. Les hôtes doivent évacuer eux-mêmes leurs déchets et bouteilles vers les poubelles extérieures."
+      },
+      "whyIncorrect": {
+        "de": "Option a ist falsch (Alkohol ist nicht im Zimmer verboten). Option c ist falsch (Essenszeiten sind festgelegt).",
+        "ar": "الخيار (a) خاطئ فالكحول غير محظور في الغرفة. والخيار (c) خاطئ فمواعيد الوجبات محددة سلفًا.",
+        "fr": "L'option a et l'option c ne correspondent pas aux demandes de la direction."
+      }
+    },
+    "30": {
+      "quote": "Bei der Ankunft hängt im Eingangsbereich des Kulturheims eine Liste aus, auf der die Namen und die Zimmernummern der Gäste zu finden sind.",
+      "whyCorrect": {
+        "de": "Option b ist richtig. Bei der Ankunft sucht jeder Gast seinen Namen auf der ausgehängten Liste und findet so selbst sein Zimmer.",
+        "ar": "الخيار (b) صحيح. عند الوصول، توجد قائمة معلقة في المدخل يبحث فيها الضيف عن اسمه ورقم غرفته ليتوجه إليها بنفسه.",
+        "fr": "L'option b est correcte. Les arrivants consultent la liste affichée dans le hall pour trouver le numéro de leur chambre en toute autonomie."
+      },
+      "whyIncorrect": {
+        "de": "Option a ist falsch (niemand wird aufs Zimmer geführt). Option c ist falsch (man muss sich nicht eintragen, die Liste hängt bereits fertig da).",
+        "ar": "الخيار (a) خاطئ فلا يوجد من يرافق الضيوف لغرفهم. والخيار (c) خاطئ فالقائمة جاهزة ومعلقة ولا تتطلب التسجيل.",
+        "fr": "L'option a et l'option c sont réfutées par la présence de la liste déjà établie."
+      }
+    }
+  }
+}

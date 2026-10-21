@@ -25,13 +25,23 @@ B1-OSD-TEST/
 │   ├── tests-bundle.js          # Automatisch generiertes Offline-Bundle
 │   ├── exam-template.json       # Muster-Vorlage für neue Prüfungen
 │   ├── translations-common.json # Gemeinsame UI-Übersetzungen (AR/FR)
-│   └── tests/
-│       ├── modellsatz-1.json    # Goethe / ÖSD Original (Komplett)
-│       ├── modellsatz-2.json    # Prüfungstraining Set A
-│       ├── modellsatz-3.json    # Prüfungstraining Set B
-│       ├── modellsatz-4.json    # Hueber Test 13
-│       ├── modellsatz-5.json    # Hueber Test 14
-│       └── modellsatz-6.json    # Hueber Test 15
+│   ├── tests/                   # Aktive und modular registrierte Tests
+│   │   ├── modellsatz-1.json    # (Archiviert)
+│   │   ├── modellsatz-2.json    # (Archiviert)
+│   │   ├── modellsatz-3.json    # (Archiviert)
+│   │   ├── modellsatz-4.json    # Hueber Test 13
+│   │   ├── modellsatz-5.json    # Hueber Test 14
+│   │   ├── modellsatz-6.json    # Hueber Test 15
+│   │   ├── modellsatz-7.json    # So geht's noch besser 1
+│   │   ├── modellsatz-8.json    # So geht's noch besser 2
+│   │   └── modellsatz-9.json    # So geht's noch besser 3
+│   └── archive/                 # Archivierte Datensätze
+│       ├── archived-manifest.json
+│       ├── README.md
+│       └── tests/
+│           ├── modellsatz-1.json
+│           ├── modellsatz-2.json
+│           └── modellsatz-3.json
 │
 └── scripts/
     ├── validate-tests.js        # Validiert alle Tests auf Vollständigkeit
@@ -94,7 +104,13 @@ B1-OSD-TEST/
   2. Klicke neben der gewünschten Prüfung auf das rote **🗑️ (Löschen / Ausblenden)**.
   3. Bei eigenen Tests wird der Test gelöscht. Bei integrierten Tests wird er sauber aus der Menüleiste ausgeblendet (und kann jederzeit mit 1 Klick wiederhergestellt werden).
 
-- **Im Code:**
+- **Im Code (Archivieren & Ausblenden):**
+  1. Setze im entsprechenden Eintrag in `data/tests-manifest.json` die Eigenschaft `"archived": true`.
+  2. Führe `npm run build:data` aus.
+  3. Die Prüfung bleibt in `data/tests/` und im Archiv `data/archive/` vollständig gesichert erhalten, ist aber auf der Website und im Auswahlmenü unsichtbar.
+  4. Um sie wieder zu aktivieren: `"archived": true` entfernen und erneut `npm run build:data` ausführen.
+
+- **Vollständiges Entfernen aus dem Katalog:**
   1. Lösche den entsprechenden Eintrag aus `data/tests-manifest.json`.
   2. Führe `npm run build:data` aus.
 

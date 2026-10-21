@@ -21,6 +21,7 @@
   /* ---------------- 1. LOAD BUILT-IN TESTS ---------------- */
   const bundled = root.__B1_BUNDLED_TESTS__ || [];
   bundled.forEach(t => {
+    if (t.archived) return;
     // Clone to prevent mutating bundle reference
     const testCopy = JSON.parse(JSON.stringify(t));
     testCopy.isBuiltIn = true;
@@ -49,6 +50,7 @@
 
   const customExams = getCustomExams();
   customExams.forEach(ct => {
+    if (ct.archived) return;
     ct.isBuiltIn = false;
     ct.isCustom = true;
     // Don't duplicate if already present
@@ -61,7 +63,7 @@
   /* ---------------- 3. POPULATE COMPATIBILITY GLOBAL ARRAYS ---------------- */
   function syncGlobalData() {
     const hiddenIds = new Set(getHiddenExamIds());
-    const visibleTests = masterTests.filter(t => !hiddenIds.has(t.id));
+    const visibleTests = masterTests.filter(t => !hiddenIds.has(t.id) && !t.archived);
 
     // Ensure there is at least one test visible
     const finalTests = visibleTests.length > 0 ? visibleTests : masterTests;
@@ -86,7 +88,8 @@
   /* ---------------- 4. EXPLANATION HELPER (FALLBACK AWARE) ---------------- */
   root.getExplanation = function(testId, questionId, lang) {
     const currentLang = (lang === 'ar' || lang === 'fr') ? lang : 'de';
-    const testDict = explanationsMap[testId] || explanationsMap['modellsatz-1'] || {};
+    const firstActiveId = (masterTests[0] && masterTests[0].id) || 'modellsatz-4';
+    const testDict = explanationsMap[testId] || explanationsMap[firstActiveId] || explanationsMap['modellsatz-1'] || {};
     const qExp = testDict ? testDict[String(questionId)] : null;
 
     if (qExp) {

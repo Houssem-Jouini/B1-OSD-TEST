@@ -8,7 +8,8 @@
     "timeTotal": 65,
     "partsCount": 6,
     "questionsCount": 50,
-    "fileName": "data/tests/modellsatz-1.json"
+    "fileName": "data/tests/modellsatz-1.json",
+    "archived": true
   },
   {
     "id": "modellsatz-2",
@@ -19,7 +20,8 @@
     "timeTotal": 105,
     "partsCount": 6,
     "questionsCount": 50,
-    "fileName": "data/tests/modellsatz-2.json"
+    "fileName": "data/tests/modellsatz-2.json",
+    "archived": true
   },
   {
     "id": "modellsatz-3",
@@ -30,7 +32,8 @@
     "timeTotal": 65,
     "partsCount": 5,
     "questionsCount": 20,
-    "fileName": "data/tests/modellsatz-3.json"
+    "fileName": "data/tests/modellsatz-3.json",
+    "archived": true
   },
   {
     "id": "modellsatz-4",
