@@ -27,7 +27,7 @@ export default {
     }
 
     try {
-      const { prompt, context, systemPrompt } = await request.json();
+      const { prompt, context, systemPrompt, mode } = await request.json();
       const apiKey = env.GEMINI_API_KEY;
 
       if (!apiKey) {
@@ -37,9 +37,48 @@ export default {
         });
       }
 
-      let contextText = "";
-      if (context) {
-        contextText = `
+      let payload;
+
+      if (mode === 'translate') {
+        const translateSystem = systemPrompt || "Du bist ein präziser deutsch-arabisch-französischer Sprachexperte für B1-Zertifikatsprüfungen (Goethe / ÖSD). Antworte AUSSCHLIESSLICH mit reinem JSON.";
+        const translatePrompt = `Übersetze und analysiere das folgende deutsche Wort für einen B1-Prüfungskandidaten: "${prompt}"
+
+Antworte AUSSCHLIESSLICH als gültiges JSON-Objekt mit genau dieser Struktur:
+{
+  "term": "Grundform / Lemma (z. B. aufgeben)",
+  "display": "Wort mit Artikel falls Nomen (z. B. der Tisch (Nomen) oder aufgeben (Verb))",
+  "pos": "Nomen | Verb | Adjektiv | Adverb | Redewendung",
+  "article": "der | die | das | null",
+  "forms": ["Grundform", "weitere wichtige Formen"],
+  "defDe": "Kurze, einfache Definition auf Deutsch (B1-Niveau)",
+  "defAr": "ترجمة عربية دقيقة وواضحة جدا",
+  "defFr": "Traduction française précise et naturelle",
+  "example": "Authentischer deutscher Beispielsatz auf B1-Niveau",
+  "tip": "Prüfungsrelevanter B1-Tipp oder Synonym",
+  "isValidGerman": true
+}`;
+
+        payload = {
+          system_instruction: {
+            parts: [{ text: translateSystem }]
+          },
+          contents: [
+            {
+              role: "user",
+              parts: [{ text: translatePrompt }]
+            }
+          ],
+          generationConfig: {
+            temperature: 0.2,
+            maxOutputTokens: 1200,
+            responseMimeType: "application/json",
+            thinkingConfig: { thinkingBudget: 0 }
+          }
+        };
+      } else {
+        let contextText = "";
+        if (context) {
+          contextText = `
 [AKTUELLE PRÜFUNGSAUFGABE]:
 - Prüfung: ${context.testTitle} (${context.partTitle})
 - Aufgabe-ID: ${context.qid}
@@ -51,24 +90,25 @@ ${context.quote ? `- Textbeleg / Zitat: „${context.quote}“` : ""}
 ${context.whyCorrect ? `- Warum richtig: ${context.whyCorrect}` : ""}
 ${context.whyIncorrect ? `- Warum falsch: ${context.whyIncorrect}` : ""}
 `;
-      }
-
-      const payload = {
-        system_instruction: {
-          parts: [{ text: systemPrompt || "Du bist ein B1 Deutschprüfung-Tutor." }]
-        },
-        contents: [
-          {
-            role: "user",
-            parts: [{ text: `${contextText}\n\n[FRAGE DES SCHÜLERS AN DEN KI-TUTOR]:\n${prompt}` }]
-          }
-        ],
-        generationConfig: {
-          temperature: 0.4,
-          maxOutputTokens: 3000,
-          thinkingConfig: { thinkingBudget: 0 }
         }
-      };
+
+        payload = {
+          system_instruction: {
+            parts: [{ text: systemPrompt || "Du bist ein B1 Deutschprüfung-Tutor." }]
+          },
+          contents: [
+            {
+              role: "user",
+              parts: [{ text: `${contextText}\n\n[FRAGE DES SCHÜLERS AN DEN KI-TUTOR]:\n${prompt}` }]
+            }
+          ],
+          generationConfig: {
+            temperature: 0.4,
+            maxOutputTokens: 3000,
+            thinkingConfig: { thinkingBudget: 0 }
+          }
+        };
+      }
 
       const models = ['gemini-3.5-flash', 'gemini-3.7-flash', 'gemini-3.8-flash'];
       let lastError = null;

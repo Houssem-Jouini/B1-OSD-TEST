@@ -78,6 +78,11 @@ manifest.forEach((item, idx) => {
         console.warn(`  ⚠️ Warning: Question ${q.id} has no 'answer' defined`);
         totalWarnings++;
       }
+
+      if ((q.type === 'mcq' || q.type === 'speaker') && (!Array.isArray(q.options) || q.options.length === 0)) {
+        console.error(`  ❌ Error: Question ${q.id} (${q.type}) is missing 'options' array in ${context}`);
+        totalErrors++;
+      }
     };
 
     if (Array.isArray(part.questions)) {

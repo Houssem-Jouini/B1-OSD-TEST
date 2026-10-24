@@ -1,0 +1,2759 @@
+{
+  "id": "modellsatz-10",
+  "title": "Modelltest 4 — So geht's noch besser B1",
+  "badge": "Modelltest 4",
+  "examTitle": "Goethe / ÖSD B1 Prüfungssimulation — Modelltest 4",
+  "examSub": "Lesen (5 Teile) & Hören (4 Teile) · So geht's noch besser (Klett)",
+  "timeTotal": 65,
+  "parts": [
+    {
+      "id": 1,
+      "title": "Teil 1",
+      "time": 10,
+      "instructions": "Lesen Sie den Text und die Aufgaben 1 bis 6 dazu. Wählen Sie: Sind die Aussagen Richtig oder Falsch?",
+      "articles": [
+        {
+          "heading": "Der Mensch ist ein soziales Wesen",
+          "sub": "Blut ist dicker als Wasser – Freunde sind die bessere Familie. Das sind die Pole, zwischen denen sich unser Leben abspielt.",
+          "body": [
+            "Wir Menschen werden in Situationen hineingeboren, wie wir sie uns zunächst nicht ausgesucht haben, die uns dennoch entscheidend beeinflussen. Außer Pflege, Ernährung und Schutz brauchen wir unbedingt auch Kontakte zu anderen Menschen. Wie groß der Einfluss der Menschen in unserer Umgebung auf uns ist, hängt auch davon ab, wie viel Zeit wir miteinander verbringen und wie intensiv die Begegnungen sind. Es ist wohl etwas anderes, ob eine Person einfach nur physisch anwesend ist oder ob sie sich mit mir beschäftigt und Emotionen dabei frei werden.",
+            "Ich frage mich immer wieder, welche Rolle die Familienbande spielt. Wie weit sind wir durch das Erbgut festgelegt und welchen Spielraum haben wir zur eigenen Entwicklung. Die Zwillingsforschung hat das untersucht und interessante Ergebnisse geliefert. Aber gelten diese auch für mich? Was wäre, wenn ich meinen Lebensfilm zurückspulte und noch einmal von vorne beginnen würde? Käme ich an dem gleichen Punkt an, an dem ich mich nun befinde oder wie weit wäre er entfernt? Der Fantasie sind hier keine Grenzen gesetzt.",
+            "Zu berücksichtigen sind auch die äußeren Umstände für ein Leben, wie Geografie, Klima und die Gesellschaft. Man soll aus jeder Situation das Beste machen, aber auch nach seinen Möglichkeiten leben. Welchen Spielraum bietet mir der freie Wille? Steht es mir wirklich offen, mich so oder so zu entscheiden? Was ist Schicksal und wie weit kann ich es beeinflussen oder gar umkehren? Ich habe so viele Fragen an das Leben, an mein Leben.",
+            "Am Ende ist es auch von entscheidender Bedeutung, zu welchen Menschen ich Kontakt pflege oder einfach gesagt, wer meine Freunde sind. Diese besondere Beziehung zwischen Menschen wird wissenschaftlich untersucht. Psychologen testen unsere Freundeskreise. Wie trägt uns dieses soziale Netz und was kann man ihm zumuten. Freundschaft hat viele Formen. Es gibt Freunde fürs Leben, die bis ins hohe Alter zusammenhalten. Es gibt Freunde nebenan und ganz weit weg. Freundschaften überspannen Generationen, kennen keine Grenzen und manche existieren nur im Internet.",
+            "Ob blutsverwandt oder freundschaftlich gesinnt, ich picke mir aus Familie und Freunden, aus jedem Kuchen, die Rosinen heraus. Das ist meine Formel für mein Lebensglück."
+          ]
+        }
+      ],
+      "example": {
+        "text": "Im Blog geht es um einflussreiche Familien.",
+        "answer": "falsch"
+      },
+      "questions": [
+        {
+          "id": 1,
+          "type": "tf",
+          "text": "Entscheidend ist, wie viel Zeit man mit den Menschen verbringt.",
+          "answer": "richtig",
+          "num": 1
+        },
+        {
+          "id": 2,
+          "type": "tf",
+          "text": "Der Blogger fragt sich, wie groß der Spielraum ist, sich selbst zu entwickeln.",
+          "answer": "richtig",
+          "num": 2
+        },
+        {
+          "id": 3,
+          "type": "tf",
+          "text": "Man kann in Gedanken spielen, wie es wäre, wenn man noch einmal leben würde.",
+          "answer": "richtig",
+          "num": 3
+        },
+        {
+          "id": 4,
+          "type": "tf",
+          "text": "Die Umgebung hat einen Einfluss auf die Entwicklung.",
+          "answer": "richtig",
+          "num": 4
+        },
+        {
+          "id": 5,
+          "type": "tf",
+          "text": "Psychologen testen, was eine Freundschaft aushält.",
+          "answer": "richtig",
+          "num": 5
+        },
+        {
+          "id": 6,
+          "type": "tf",
+          "text": "Das Lebensmotto des Schreibers lautet: Von allem das Beste nehmen.",
+          "answer": "richtig",
+          "num": 6
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Teil 2",
+      "time": 20,
+      "instructions": "Lesen Sie den Text aus der Presse und die Aufgaben 7 bis 9 dazu. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+      "articles": [
+        {
+          "heading": "Mode aus dem Gefängnis",
+          "sub": "Die Baggy-Hose – eine sehr weite Hose – die vor allem unter Hiphop-Fans und Skatern beliebt ist, wurde in einem Gefängnis erfunden.",
+          "body": [
+            "Die Baggy-Hose – eine sehr weite Hose – die vor allem unter Hiphop-Fans und Skatern beliebt ist, wurde in einem Gefängnis erfunden: In den frühen Neunzigerjahren waren viele Hiphopper und Rapper im Gefängnis. Sie wollten auch dort cool aussehen. Deshalb ließen sie sich Hosen geben, die mehrere Nummern zu groß waren. Und weil es im Gefängnis keine Gürtel gab, rutschten die Hosen automatisch ein Stück nach unten, so dass man die Unterhose sehen konnte. So entstand die Baggy-Hose.",
+            "Mode aus dem Gefängnis ist jetzt schick. Diesen Trend will Deutschlands größtes Gefängnis in Berlin-Tegel nutzen. Die Häftlinge produzieren schon seit 1898 ihre eigene Kleidung und bieten sie zum Verkauf in einem Laden des Gefängnisses an. Allerdings wurden bis jetzt nur zwei bis drei Artikel pro Woche verkauft. Doch seit der Werbeexperte einer Berliner Agentur die Idee hatte, die Kleidungsstücke im Internet anzubieten, sind die Verkaufszahlen fünfhundertmal so hoch. Seit Kurzem produziert man hier eine erfolgreiche Modelinie mit dem Namen „haeftling.de“. Aufträge kommen inzwischen aus der ganzen Welt.",
+            "Über das Internet kann man „echte“ Gefängnis-Hemden, Jacken, Taschen und Schuhe zu Preisen zwischen 25 und 100 Euro bestellen. Neuerdings gibt es außer dem bisher üblichen Blau auch noch ein paar andere Farben. „Der Erfolg des Projekts HAEFTLING-Jailwear ist so groß“, sagt der Verantwortliche für diesen Arbeitsbereich, „dass man vorläufig gar keine neuen Bestellungen mehr annehmen kann, da man organisatorisch nicht auf so viele Aufträge vorbereitet war. Es gibt bereits 1500 Bestellungen. Das ist mehr, als man erwartet hatte.“",
+            "Die Produktion läuft so gut, dass die Verantwortlichen hoffen, in nächster Zukunft etwa 50 neue Stellen für die 1670 Häftlinge einrichten zu können. Das wäre ganz besonders positiv, weil die Arbeitslosigkeit im Gefängnis bei etwa 40 Prozent liegt. Von dem Geld, das man einnimmt, bekommen der Staat und die Werbeagentur je einen Teil. Den Rest erhält das Gefängnis. Man hofft, dafür Arbeitsmittel für die Gefangenen kaufen zu können, zum Beispiel Bücher und Computer, aber auch Geräte für die Sporträume. Einige Häftlinge, die die Mode herstellen, bekommen auch etwas Geld zu ihrem täglichen Lohn dazu. „50 Euro pro Monat machen schon einen großen Unterschied“, sagt Häftling Meisenberg. Damit kann er sich extra Süßigkeiten, Tabak und Kaffee leisten.",
+            "*Gefängnis: Wenn ein Gericht einen Straftäter verurteilt hat, muss er ins Gefängnis."
+          ]
+        }
+      ],
+      "example": {
+        "text": "Im Tegeler Gefängnis ...",
+        "options": [
+          "nähen die Häftlinge seit über 100 Jahren ihre Kleidung selbst.",
+          "wird Berufskleidung hergestellt.",
+          "tragen die Häftlinge moderne Kleidung."
+        ],
+        "answer": 0
+      },
+      "questions": [
+        {
+          "id": 7,
+          "type": "mcq",
+          "text": "Die Internetidee hat dazu geführt, dass ...",
+          "options": [
+            "jetzt etwa 500 verschiedene Kleidungsstücke angeboten werden.",
+            "man sich jetzt weltweit für die Berliner Gefängnismode interessiert.",
+            "es jetzt Gefängnisbekleidung für jeden Geschmack gibt."
+          ],
+          "answer": 1,
+          "num": 7
+        },
+        {
+          "id": 8,
+          "type": "mcq",
+          "text": "Man kann im Moment keine Gefängnisbekleidung bestellen, weil ...",
+          "options": [
+            "nur 1000 Artikel hergestellt wurden.",
+            "man mit dem Erfolg der letzten drei Monate schon zufrieden ist.",
+            "mehr bestellt wurde, als produziert werden kann."
+          ],
+          "answer": 2,
+          "num": 8
+        },
+        {
+          "id": 9,
+          "type": "mcq",
+          "text": "Durch das Geschäft mit der Gefängnismode ...",
+          "options": [
+            "gibt es heute keine Arbeitslosen mehr.",
+            "will man neue Arbeitsplätze schaffen.",
+            "gibt es bereits 50 neue Stellen."
+          ],
+          "answer": 1,
+          "num": 9
+        }
+      ],
+      "instructions2": "Lesen Sie den Text aus der Presse und die Aufgaben 10 bis 12 dazu. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+      "articles2": [
+        {
+          "heading": "Der unsichtbare Pfleger",
+          "sub": "Ingenieure und Informatiker haben einen Traum: Hightech soll im Alltag über die Gesundheit alter Menschen wachen. Es wird geforscht, getestet und nach Geldgebern gesucht.",
+          "body": [
+            "Lange hat Joachim Garske im Gestern gelebt, nun ist bei dem 80-Jährigen die Zukunft eingezogen. Informatiker haben Sensoren in seiner Zweizimmerwohnung angebracht, in der Dusche, an Decken und Wänden, an Balkontür und Besteckschublade. 24 Stunden am Tag überwachen die weißen Kästchen den Senior. „Ich habe dadurch an Sicherheit gewonnen“, sagt er.",
+            "Nicht nur in Deutschland fürchtet man sich vor den Folgen der demografischen Bombe. Seit vier Jahren fördert die Europäische Union in 23 Ländern die Arbeit von Ingenieuren und Informatikern, die sie entschärfen sollen. Die Forscher erproben verkabelte Westen, die bei einem Herzinfarkt automatisch den Notarzt rufen, Computerspiele, die nach dem Schlaganfall zu Fitnessübungen animieren, und Sensoren für alle, die Angst haben, zu stürzen oder Herdplatten an und Fenster offen zu lassen.",
+            "Etwa viermal am Tag erscheint eine Warnmeldung auf dem Computer von Susanne Riesch im Erdgeschoss des Karl-Walser-Hauses. Frau Riesch ist die Koordinatorin des Betreuten Wohnens. Das System alarmiert sie immer dann, wenn sich die Hausbewohner ungewöhnlich verhalten. Wenn sie morgens nicht aufstehen, sich tagelang nicht duschen oder Fenster und Türen unbekümmert offen lassen."
+          ]
+        }
+      ],
+      "questions2": [
+        {
+          "id": 10,
+          "type": "mcq",
+          "text": "Bei Herrn Garske ...",
+          "options": [
+            "wurde die Wohnung renoviert.",
+            "wurde ein Monitor zur Überwachung aufgestellt.",
+            "wurden an verschiedenen Stellen in der Wohnung Sensoren montiert."
+          ],
+          "answer": 2,
+          "num": 10
+        },
+        {
+          "id": 11,
+          "type": "mcq",
+          "text": "Die Forschung ...",
+          "options": [
+            "erprobt Computerspiele.",
+            "stürzt die Senioren in Unkosten.",
+            "wird von der EU unterstützt."
+          ],
+          "answer": 2,
+          "num": 11
+        },
+        {
+          "id": 12,
+          "type": "mcq",
+          "text": "Das System alarmiert, ...",
+          "options": [
+            "wenn zu oft geduscht wird.",
+            "wenn man sich ungewöhnlich verhält.",
+            "wenn im Erdgeschoss ein Fenster offen ist."
+          ],
+          "answer": 1,
+          "num": 12
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Teil 3",
+      "time": 10,
+      "instructions": "Lesen Sie die Situationen 13 bis 19 und die Anzeigen A bis J aus verschiedenen deutschsprachigen Medien. Wählen Sie: Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Die Anzeige aus dem Beispiel können Sie nicht mehr verwenden. Für eine Situation gibt es keine passende Anzeige. In diesem Fall schreiben Sie 0.\n\nFolgende Personen nehmen in einer Tierhandlung eine Tierzeitschrift zur Hand. Sie blättern darin und suchen nach Anzeigen.",
+      "example": {
+        "text": "Frau Zelter möchte ein paar Tage verreisen und auch ihren Hund mitnehmen.",
+        "answer": "B"
+      },
+      "adsFormatted": [
+        {
+          "code": "A",
+          "tagPos": "left",
+          "hasPin": true,
+          "cardClass": "anzeige-style-a",
+          "html": "<div class=\"anzeige-headline\">Urlaubsratgeber</div><div class=\"anzeige-sub\">Hilfe für Tiere im Urlaubsland · Tierärztlicher Informationsdienst</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">Tierschutzverein Landkreis Erding e.V. · Mitglied im Deutschen Tierschutzbund<br>Maiselsbergerstr. 10, 84416 Moosen/Vils<br>Haben Sie Fragen, Anregungen, Kritik, Wünsche? Schreiben Sie oder senden Sie uns eine E-Mail.</div>"
+        },
+        {
+          "code": "B",
+          "tagPos": "right",
+          "hasPin": true,
+          "cardClass": "anzeige-style-b",
+          "html": "<div class=\"anzeige-headline\">Berlin erleben –</div><div class=\"anzeige-sub\">mit Ihren 4-beinigen Freunden</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">preiswert im Flax-Hotel zwischen den Zentren Ost und West<br>Liebenwalder Straße 44 · 13347 Berlin-Wedding<br><strong>www.flax-hotel.de</strong></div>"
+        },
+        {
+          "code": "C",
+          "tagPos": "left",
+          "hasPin": true,
+          "cardClass": "anzeige-style-c",
+          "html": "<div class=\"anzeige-headline\">Ferien für Hund, Katz und Co.</div><div class=\"anzeige-sub\">Wellness- und Erholungsprogramm</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">Das Wellness- und Erholungsprogramm bietet gründliche Untersuchung, Pflege und Therapiestunden und individuelle Fitnessprogramme für Vierbeiner.<br>Infos unter <strong>www.nationalpark.at</strong></div>"
+        },
+        {
+          "code": "D",
+          "tagPos": "right",
+          "hasPin": true,
+          "cardClass": "anzeige-style-d",
+          "html": "<div class=\"anzeige-headline\">Beim Bauern zu Gast</div><div class=\"anzeige-sub\">Mitmachen im Stall und auf der Wiese</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">Mitessen in der Bauernküche, alles aus biologischem Anbau.<br>Für die Kinder: Traktorfahrten und Tierpflege.<br>Mehr Informationen unter <strong>www.tressner.de</strong></div>"
+        },
+        {
+          "code": "E",
+          "tagPos": "left",
+          "hasPin": true,
+          "cardClass": "anzeige-style-e",
+          "html": "<div class=\"anzeige-headline\">Zwei süße Kätzchen zu verschenken!</div><div class=\"anzeige-sub\">Informationen: Penny Renny</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">Tel. 0711/7654173<br>penny@gmx.de</div>"
+        },
+        {
+          "code": "F",
+          "tagPos": "right",
+          "hasPin": true,
+          "cardClass": "anzeige-style-f",
+          "html": "<div class=\"anzeige-headline\">„Hunde-Flüsterer“</div><div class=\"anzeige-sub\">Mensch und Hund, Ob jung oder alt, ob Problemfall – wir kriegen das hin!</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">Erziehung von Kampfhunden, Blindenhundausbildung, Welpengruppe.<br>Termin nach telefonischer Vereinbarung: <strong>0511-527843</strong></div>"
+        },
+        {
+          "code": "G",
+          "tagPos": "left",
+          "hasPin": true,
+          "cardClass": "anzeige-style-g",
+          "html": "<div class=\"anzeige-headline\">„Fisch im Zentrum“</div><div class=\"anzeige-sub\">Süßwasser – Salzwasser, kalt – warm, Einheimische – Exoten</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">große Auswahl an Aquarien, Zubehör und Futter jeglicher Art, Tipps vom Profi!<br>Parkhaus am Marktplatz · Mo–Fr: 9–20 Uhr, Sa: 9–18 Uhr</div>"
+        },
+        {
+          "code": "H",
+          "tagPos": "right",
+          "hasPin": true,
+          "cardClass": "anzeige-style-h",
+          "html": "<div class=\"anzeige-headline\">Urlaub für den Hund, Hundepension „Sommerwiese“</div><div class=\"anzeige-sub\">Wellness für Vierbeiner</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">Rundumversorgung, Fährtentraining, Tierklinik, Experten-Team.<br>Tel. 0511-200901</div>"
+        },
+        {
+          "code": "I",
+          "tagPos": "left",
+          "hasPin": true,
+          "cardClass": "anzeige-style-i",
+          "html": "<div class=\"anzeige-headline\">Günstig abzugeben: Graupapagei</div><div class=\"anzeige-sub\">Lora sucht ein Zuhause bei tierlieben Menschen</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">Er gehörte unserer Oma und wir können ihn leider nicht behalten. Lora ist 12 Jahre alt, sehr zutraulich und verschmust, Lora spricht viele Wörter.<br><strong>Tel. 0511-2833903</strong></div>"
+        },
+        {
+          "code": "J",
+          "tagPos": "right",
+          "hasPin": true,
+          "cardClass": "anzeige-style-j",
+          "html": "<div class=\"anzeige-headline\">In Freundschaft zu Mensch und Tier!</div><div class=\"anzeige-sub\">Unser Heimlieferservice für Tiernahrung wird immer beliebter.</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">Das ist Ihre Chance, als selbstständiger Partner mit uns zu arbeiten.<br>Sante-Frischdienst · Tel. 0711-72070504</div>"
+        }
+      ],
+      "questions": [
+        {
+          "id": 13,
+          "type": "match",
+          "text": "Sebastian mag gern Katzen und möchte am liebsten selbst eine kleine Katze haben.",
+          "answer": "E",
+          "num": 13
+        },
+        {
+          "id": 14,
+          "type": "match",
+          "text": "Frau Severin macht sich Sorgen um die Gesundheit ihrer Katze und sucht Hilfe.",
+          "answer": "C",
+          "num": 14
+        },
+        {
+          "id": 15,
+          "type": "match",
+          "text": "Herr Spanos liebt das Meer und die Fische. Er will zu Hause ein Aquarium haben und sucht Beratung.",
+          "answer": "G",
+          "num": 15
+        },
+        {
+          "id": 16,
+          "type": "match",
+          "text": "Herr Ortlieb hat einen jungen Schäferhund und möchte ihn ausbilden lassen.",
+          "answer": "F",
+          "num": 16
+        },
+        {
+          "id": 17,
+          "type": "match",
+          "text": "Frau Kuchler fühlt sich einsam und alleine. Sie denkt daran, einen Papagei zu kaufen, dem will sie dann das Sprechen beibringen.",
+          "answer": "I",
+          "num": 17
+        },
+        {
+          "id": 18,
+          "type": "match",
+          "text": "Familie Weber möchte den Kindern exotische Tiere zeigen und plant einen Zoobesuch.",
+          "answer": "X",
+          "num": 18
+        },
+        {
+          "id": 19,
+          "type": "match",
+          "text": "Frau Mühl macht eine Woche Urlaub und kann ihren Hund nicht mitnehmen. Sie sucht eine günstige Unterkunft für ihren Liebling.",
+          "answer": "H",
+          "num": 19
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Teil 4",
+      "time": 15,
+      "instructions": "Lesen Sie die Texte 20 bis 26. Wählen Sie: Welche Personen äußern sich kritisch gegenüber Fortbildungsangeboten?",
+      "topic": "Beurteilen Sie folgende Leserbriefe zu einem Artikel mit dem Titel „Lernen, ein Leben lang“.",
+      "example": {
+        "who": "Wagner, 35, Saarbrücken",
+        "text": "Aus eigenen Erfahrungen kann ich bestätigen, wie wertvoll ein längerer Aufenthalt im Ausland ist. Durch die Begegnung mit Menschen in anderen Ländern erweitert sich mein Horizont enorm. Das macht mich auch offen für neue Situationen zu Hause oder am Arbeitsplatz. Ich befürworte solche Austauschprogramme.",
+        "answer": "nein"
+      },
+      "letters": [
+        {
+          "id": 20,
+          "who": "Juliane, 32, Halle",
+          "text": "Also, wenn mir mein Chef eine Fortbildung vorschlägt, dann denke ich sofort, dass ich nicht gut genug bin, sonst würde er das ja nicht tun. Ich gebe zu, ich habe Angst vor solchen Programmen. Da lese ich lieber Fachliteratur.",
+          "answer": "ja"
+        },
+        {
+          "id": 21,
+          "who": "Holzmann, 44, Bremen",
+          "text": "Das hört sich ja alles sehr schön an. Aber ich frage Sie: Wer soll denn das alles bezahlen? Das sind doch wieder meine Steuergelder, die hier fröhlich verteilt werden! Da machen sich andere auf meine Kosten ein schönes Leben mit „all inclusive“. Wer es braucht, der sollte wenigstens selbst dafür aufkommen.",
+          "answer": "ja"
+        },
+        {
+          "id": 22,
+          "who": "Veronika, 32, Innsbruck",
+          "text": "Bravo! Das ist schon eine Auszeichnung wert, erfolgreiche europäische Fortbildungsprogramme auf die Beine zu stellen. Hinter einem Werk sollte man nie die Menschen vergessen, die das alles durch ihre Arbeit möglich gemacht haben. Das motiviert auch, in diese Richtung weiterzuarbeiten.",
+          "answer": "nein"
+        },
+        {
+          "id": 23,
+          "who": "Jonas, 28, Paderborn",
+          "text": "Genau, in der heutigen Zeit verändern sich die Dinge so rasant, dass wir damit rechnen müssen, früher oder später mit veränderten Berufsbedingungen konfrontiert zu werden. Ich finde es gut, dass der Staat solche Angebote macht. Solche sollte es noch viel mehr und regelmäßig geben.",
+          "answer": "nein"
+        },
+        {
+          "id": 24,
+          "who": "A. Schuch, 75, Basel",
+          "text": "Die Lust am lebenslangen Lernen wecken, fördern und bewahren. Das ist ein nobles Ziel. Und wenn wir uns nur ein bisschen Neugierde im Leben erhalten, sollte es gelingen. Ohne Neugierde kein Lernen, sie begleitet uns ein Leben lang und erhält uns lern- und entwicklungsfähig. Das dürfen Sie einem vielfachen Opa wie mir gerne glauben.",
+          "answer": "nein"
+        },
+        {
+          "id": 25,
+          "who": "Marie, 33, Straßburg",
+          "text": "Bildung für alle, das hört sich sehr demokratisch an, ist es aber nicht. Wer profitiert denn in der Regel von diesen Angeboten? Das sind doch wieder nur die, die die Nase sowieso schon vorne haben. Da sollte man sich auch noch andere Möglichkeiten ausdenken.",
+          "answer": "ja"
+        },
+        {
+          "id": 26,
+          "who": "Clemens, 38, Cottbus",
+          "text": "Ich habe eine kleine Computerfirma mit drei Angestellten. Sie können sich vorstellen, dass ich Fortbildung für meine Mitarbeiter nicht finanzieren kann. Glücklicherweise gibt es in meiner Branche aber auch E-Learning-Angebote. Die Online-Kurse stellen eine gute Alternative dar und sind für mich die preisgünstigere Lösung.",
+          "answer": "nein"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Teil 5",
+      "time": 10,
+      "instructions": "Lesen Sie die Aufgaben 27 bis 30 und den Text dazu. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+      "articles": [
+        {
+          "heading": "Montageanleitung für das Bücherregal „Bruno“",
+          "sub": "Wir gratulieren Ihnen zum Kauf unseres hochwertigen Möbels. Die beigefügte Montageanleitung macht Ihnen den Aufbau des Qualitätsmöbels einfach:",
+          "body": [
+            "1. Öffnen Sie vorsichtig den Karton mit den Möbelteilen. Nehmen Sie alle Teile aus dem Karton und prüfen Sie, ob alle Bau- und Montageteile da sind und sich in einwandfreiem Zustand befinden.",
+            "2. Beginnen Sie mit der Regalunterseite (A1) und schrauben Sie die Fußteile (F1–4) in die Ecken.",
+            "3. Klopfen Sie nun auf der Oberseite von A1 die Metallverbindungen (4xMV) in die Löcher. Das machen Sie auch am Kopfteil des Regals (A2 und 4xMV).",
+            "4. Nun arbeiten Sie an den Seitenteilen (B1 und B2). Schrauben Sie die Metalldübel (je 4xMD) fest.",
+            "5. Stecken Sie nun das Zwischenbrett (Z1) auf ein Seitenteil (z.B. B1). Fügen Sie den Regalboden A1 und die Seitenteile B1 und B2 zusammen und drehen Sie die Metallverbindungen fest.",
+            "6. Legen Sie den Kopfteil des Möbels (A2) auf und drehen Sie die Metallverbindungen fest.",
+            "7. Öffnen Sie das Metallkreuz (K1) und schrauben Sie es mit den Schrauben (S1–4) an die Rückseite. Fertig! Viel Freude mit Ihrem neuen Qualitätsbücherregal „Bruno“!"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": 27,
+          "type": "mcq",
+          "text": "Die Anleitung ...",
+          "options": [
+            "beschreibt die Herkunft des Möbelstückes.",
+            "listet alle Bauteile auf.",
+            "erklärt die Montage des Möbelstückes."
+          ],
+          "answer": 2,
+          "num": 27
+        },
+        {
+          "id": 28,
+          "type": "mcq",
+          "text": "Vor der Montage ...",
+          "options": [
+            "muss man schauen, ob nichts fehlt.",
+            "muss man Werkzeug kaufen.",
+            "muss man den Karton zur Seite legen."
+          ],
+          "answer": 0,
+          "num": 28
+        },
+        {
+          "id": 29,
+          "type": "mcq",
+          "text": "Das Zwischenbrett ...",
+          "options": [
+            "muss man nur reinlegen.",
+            "muss man auf den Boden schrauben.",
+            "muss man auf ein Seitenteil stecken."
+          ],
+          "answer": 2,
+          "num": 29
+        },
+        {
+          "id": 30,
+          "type": "mcq",
+          "text": "Das Metallkreuz ...",
+          "options": [
+            "gibt Stabilität.",
+            "muss man hinten befestigen.",
+            "muss man zusammenstecken."
+          ],
+          "answer": 1,
+          "num": 30
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "🎧 Hören",
+      "badge": "Hören (Teile 1–4)",
+      "isHoren": true,
+      "time": 40,
+      "instructions": "Das Modul Hören besteht aus vier Teilen. Sie hören mehrere Texte und lösen die Aufgaben dazu.",
+      "audioSrc": "audio/modellsatz-10-hoeren.mp3",
+      "audioFallbacks": [
+        "audio/modellsatz-10-hoeren.mp3",
+        "/run/media/houssem/HDD Disk/work/germany/So geht's noch besser B1/4/horen/modellsatz-4-hoeren-complete.mp3"
+      ],
+      "audioChapters": [
+        {
+          "time": 0,
+          "label": "00:00 Teil 1 (Beispiel · 2x)",
+          "part": 1,
+          "title": "Teil 1 · Fünf kurze Texte (2x hören)",
+          "start": 0,
+          "end": 728.31
+        },
+        {
+          "time": 129,
+          "label": "02:09 Teil 1 (Texte 1–5 · 2x)",
+          "part": 1,
+          "title": "Teil 1 · Texte 1–5 (2x hören)",
+          "start": 129.17,
+          "end": 728.31
+        },
+        {
+          "time": 728,
+          "label": "12:08 Teil 2 (UNO-Gebäude Wien · 1x)",
+          "part": 2,
+          "title": "Teil 2 · Führung UNO-Gebäude Wien",
+          "start": 728.31,
+          "end": 995.78
+        },
+        {
+          "time": 996,
+          "label": "16:36 Teil 3 (U-Bahn Gespräch · 1x)",
+          "part": 3,
+          "title": "Teil 3 · Gespräch in der U-Bahn",
+          "start": 995.78,
+          "end": 1250.92
+        },
+        {
+          "time": 1251,
+          "label": "20:51 Teil 4 (1. Durchgang)",
+          "part": 4,
+          "title": "Teil 4 · Diskussion: Studienort wechseln (1. Durchgang)",
+          "start": 1250.92,
+          "end": 1634.63
+        },
+        {
+          "time": 1635,
+          "label": "27:15 Teil 4 (2. Durchgang — Wiederholung)",
+          "part": 4,
+          "title": "Teil 4 · Diskussion: Studienort wechseln (2. Durchgang)",
+          "start": 1634.63,
+          "end": 2003.84
+        }
+      ],
+      "horenSections": [
+        {
+          "part": 1,
+          "partNumber": 1,
+          "title": "Teil 1: Fünf kurze Texte",
+          "badge": "Aufgaben 1 bis 10 · 2x hören",
+          "intro": "Sie hören nun fünf kurze Texte. Sie hören jeden Text zweimal. Zu jedem Text lösen Sie zwei Aufgaben. Wählen Sie bei jeder Aufgabe die richtige Lösung. Lesen Sie zuerst das Beispiel. Dazu haben Sie 10 Sekunden Zeit.",
+          "example": {
+            "ex01": {
+              "num": "01",
+              "text": "Die Eintrittskarte gilt auch für Bus und Bahn.",
+              "type": "tf",
+              "answer": "richtig"
+            },
+            "ex02": {
+              "num": "02",
+              "text": "Beide Freunde nehmen ...",
+              "type": "mcq",
+              "options": [
+                "die U-Bahn.",
+                "den Bus.",
+                "das Auto."
+              ],
+              "answer": 0
+            }
+          }
+        },
+        {
+          "part": 2,
+          "partNumber": 2,
+          "title": "Teil 2: Fremdenführung durch das UNO-Gebäude in Wien",
+          "badge": "Aufgaben 11 bis 15 · 1x hören",
+          "intro": "Sie hören nun einen Text. Sie hören den Text einmal. Dazu lösen Sie fünf Aufgaben. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c. Lesen Sie jetzt die Aufgaben 11 bis 15. Dazu haben Sie 60 Sekunden Zeit.",
+          "context": "Sie nehmen an einer Fremdenführung durch das UNO-Gebäude in Wien teil und hören folgende Informationen."
+        },
+        {
+          "part": 3,
+          "partNumber": 3,
+          "title": "Teil 3: Gespräch in der U-Bahn",
+          "badge": "Aufgaben 16 bis 22 · 1x hören",
+          "intro": "Sie hören nun ein Gespräch. Sie hören das Gespräch einmal. Dazu lösen Sie sieben Aufgaben. Wählen Sie: Sind die Aufgaben Richtig oder Falsch? Lesen Sie jetzt die Aufgaben 16 bis 22. Dazu haben Sie 60 Sekunden Zeit.",
+          "context": "Sie sitzen in der U-Bahn und hören, wie sich zwei Frauen unterhalten."
+        },
+        {
+          "part": 4,
+          "partNumber": 4,
+          "title": "Teil 4: Diskussion: Studienort wechseln",
+          "badge": "Aufgaben 23 bis 30 · 2x hören",
+          "intro": "Sie hören nun eine Diskussion. Sie hören die Diskussion zweimal. Dazu lösen Sie acht Aufgaben. Ordnen Sie die Aussagen zu: Wer sagt was? Lesen Sie jetzt die Aussagen 23 bis 30. Dazu haben Sie 60 Sekunden Zeit.",
+          "context": "Die Moderatorin der Sendung „Aktuell“ diskutiert mit Rebecca Wieland und Jörg Pohlmann die Frage, warum viele Studenten in Deutschland öfter ihren Studienort wechseln.",
+          "speakers": [
+            {
+              "code": "a",
+              "name": "Moderatorin"
+            },
+            {
+              "code": "b",
+              "name": "Rebecca Wieland"
+            },
+            {
+              "code": "c",
+              "name": "Jörg Pohlmann"
+            }
+          ],
+          "example": {
+            "num": "0",
+            "text": "Durch ein Studium im Ausland kann man sehr viel Nützliches lernen.",
+            "answerCode": "b",
+            "answerSpeaker": "Rebecca Wieland"
+          }
+        }
+      ],
+      "questions": [
+        {
+          "id": "h1",
+          "teilPart": 1,
+          "type": "tf",
+          "text": "Waren kann man problemlos umtauschen.",
+          "answer": "falsch",
+          "audioStart": 129.2,
+          "num": 1,
+          "textNum": 1
+        },
+        {
+          "id": "h2",
+          "teilPart": 1,
+          "type": "mcq",
+          "text": "Fehlerhafte Waren kann man ...",
+          "options": [
+            "nicht umtauschen.",
+            "innerhalb von 7 Tagen umtauschen.",
+            "in der vorgeschriebenen Zeit umtauschen."
+          ],
+          "answer": 1,
+          "audioStart": 129.2,
+          "num": 2,
+          "textNum": 1
+        },
+        {
+          "id": "h3",
+          "teilPart": 1,
+          "type": "tf",
+          "text": "Herrenlose Koffer sollen nur bei der Polizei gemeldet werden.",
+          "answer": "falsch",
+          "audioStart": 221.6,
+          "num": 3,
+          "textNum": 2
+        },
+        {
+          "id": "h4",
+          "teilPart": 1,
+          "type": "mcq",
+          "text": "Besondere Vorsicht vor Trickdieben sollte man ...",
+          "options": [
+            "in den Warteschlangen haben.",
+            "in den Parkebenen des Parkplatzes haben.",
+            "in den Toiletten haben."
+          ],
+          "answer": 0,
+          "audioStart": 221.6,
+          "num": 4,
+          "textNum": 2
+        },
+        {
+          "id": "h5",
+          "teilPart": 1,
+          "type": "tf",
+          "text": "Das Gastland der Buchausstellung ist Japan.",
+          "answer": "richtig",
+          "audioStart": 355.8,
+          "num": 5,
+          "textNum": 3
+        },
+        {
+          "id": "h6",
+          "teilPart": 1,
+          "type": "mcq",
+          "text": "Der Gastprofessor ist aus ...",
+          "options": [
+            "Japan.",
+            "China.",
+            "Korea."
+          ],
+          "answer": 1,
+          "audioStart": 355.8,
+          "num": 6,
+          "textNum": 3
+        },
+        {
+          "id": "h7",
+          "teilPart": 1,
+          "type": "tf",
+          "text": "Der Geisterfahrer wurde schon bei der Ausfahrt umgeleitet.",
+          "answer": "falsch",
+          "audioStart": 483.8,
+          "num": 7,
+          "textNum": 4
+        },
+        {
+          "id": "h8",
+          "teilPart": 1,
+          "type": "mcq",
+          "text": "Der Unfall des LKWs ereignete sich ...",
+          "options": [
+            "auf der Autobahn A9.",
+            "auf der Bundesstraße.",
+            "auf der Autobahn A49."
+          ],
+          "answer": 0,
+          "audioStart": 483.8,
+          "num": 8,
+          "textNum": 4
+        },
+        {
+          "id": "h9",
+          "teilPart": 1,
+          "type": "tf",
+          "text": "Am Sonntagnachmittag gibt es eine Theatervorstellung.",
+          "answer": "richtig",
+          "audioStart": 611.2,
+          "num": 9,
+          "textNum": 5
+        },
+        {
+          "id": "h10",
+          "teilPart": 1,
+          "type": "mcq",
+          "text": "Bei „Pippi Langstrumpf“ bekommt man einen Familienrabatt von ...",
+          "options": [
+            "12%.",
+            "15%.",
+            "25%."
+          ],
+          "answer": 2,
+          "audioStart": 611.2,
+          "num": 10,
+          "textNum": 5
+        },
+        {
+          "id": "h11",
+          "teilPart": 2,
+          "type": "mcq",
+          "text": "Wie viele Mitgliedstaaten haben die Vereinten Nationen heute?",
+          "options": [
+            "51",
+            "120",
+            "193"
+          ],
+          "answer": 2,
+          "audioStart": 728.3,
+          "num": 11
+        },
+        {
+          "id": "h12",
+          "teilPart": 2,
+          "type": "mcq",
+          "text": "Wie viele österreichische Mitarbeiter gibt es im VIC?",
+          "options": [
+            "4500",
+            "120",
+            "Weniger als die Hälfte der Mitarbeiter"
+          ],
+          "answer": 2,
+          "audioStart": 728.3,
+          "num": 12
+        },
+        {
+          "id": "h13",
+          "teilPart": 2,
+          "type": "mcq",
+          "text": "Der UNO-Hauptsitz in Wien hat einen Schwerpunkt auf ...",
+          "options": [
+            "Drogen- und Verbrechensbekämpfung.",
+            "Atomenergie.",
+            "industrielle Entwicklung."
+          ],
+          "answer": 1,
+          "audioStart": 728.3,
+          "num": 13
+        },
+        {
+          "id": "h14",
+          "teilPart": 2,
+          "type": "mcq",
+          "text": "Wie viele offizielle Sprachen haben die Vereinten Nationen?",
+          "options": [
+            "Zwei",
+            "Fünf",
+            "Sechs"
+          ],
+          "answer": 2,
+          "audioStart": 728.3,
+          "num": 14
+        },
+        {
+          "id": "h15",
+          "teilPart": 2,
+          "type": "mcq",
+          "text": "Welche zwei Arbeitssprachen haben die Vereinten Nationen?",
+          "options": [
+            "Englisch und Französisch",
+            "Englisch und Chinesisch",
+            "Englisch und Spanisch"
+          ],
+          "answer": 0,
+          "audioStart": 728.3,
+          "num": 15
+        },
+        {
+          "id": "h16",
+          "teilPart": 3,
+          "type": "tf",
+          "text": "Die zwei Frauen haben sich seit dem Schulabschluss nicht gesehen.",
+          "answer": "richtig",
+          "audioStart": 995.8,
+          "num": 16
+        },
+        {
+          "id": "h17",
+          "teilPart": 3,
+          "type": "tf",
+          "text": "Die Idee zur Pilotin kam ihr im Flughafencafé.",
+          "answer": "richtig",
+          "audioStart": 995.8,
+          "num": 17
+        },
+        {
+          "id": "h18",
+          "teilPart": 3,
+          "type": "tf",
+          "text": "Ihre Familie unterstützt sie.",
+          "answer": "richtig",
+          "audioStart": 995.8,
+          "num": 18
+        },
+        {
+          "id": "h19",
+          "teilPart": 3,
+          "type": "tf",
+          "text": "Das Wichtigste im Beruf sind die Mathematikkenntnisse.",
+          "answer": "falsch",
+          "audioStart": 995.8,
+          "num": 19
+        },
+        {
+          "id": "h20",
+          "teilPart": 3,
+          "type": "tf",
+          "text": "Nach dem Mexikoflug hat die Pilotin 2 Tage Urlaub.",
+          "answer": "falsch",
+          "audioStart": 995.8,
+          "num": 20
+        },
+        {
+          "id": "h21",
+          "teilPart": 3,
+          "type": "tf",
+          "text": "Familienangehörige fliegen immer umsonst.",
+          "answer": "falsch",
+          "audioStart": 995.8,
+          "num": 21
+        },
+        {
+          "id": "h22",
+          "teilPart": 3,
+          "type": "tf",
+          "text": "Einige Piloten sind sehr charmant.",
+          "answer": "richtig",
+          "audioStart": 995.8,
+          "num": 22
+        },
+        {
+          "id": "h23",
+          "teilPart": 4,
+          "type": "speaker",
+          "text": "Zur Weiterbildung kann man auch die Werke der Professoren lesen.",
+          "answer": 2,
+          "audioStart": 1250.9,
+          "num": 23,
+          "options": [
+            "Moderatorin",
+            "Rebecca Wieland",
+            "Jörg Pohlmann"
+          ]
+        },
+        {
+          "id": "h24",
+          "teilPart": 4,
+          "type": "speaker",
+          "text": "Ein Buch und eine Vorlesung sind nicht das Gleiche.",
+          "answer": 1,
+          "audioStart": 1250.9,
+          "num": 24,
+          "options": [
+            "Moderatorin",
+            "Rebecca Wieland",
+            "Jörg Pohlmann"
+          ]
+        },
+        {
+          "id": "h25",
+          "teilPart": 4,
+          "type": "speaker",
+          "text": "Ein Umzug während des Studiums ist komplizierter.",
+          "answer": 0,
+          "audioStart": 1250.9,
+          "num": 25,
+          "options": [
+            "Moderatorin",
+            "Rebecca Wieland",
+            "Jörg Pohlmann"
+          ]
+        },
+        {
+          "id": "h26",
+          "teilPart": 4,
+          "type": "speaker",
+          "text": "Die Arbeitserfahrung ist wichtiger als ein Auslandssemester.",
+          "answer": 2,
+          "audioStart": 1250.9,
+          "num": 26,
+          "options": [
+            "Moderatorin",
+            "Rebecca Wieland",
+            "Jörg Pohlmann"
+          ]
+        },
+        {
+          "id": "h27",
+          "teilPart": 4,
+          "type": "speaker",
+          "text": "Für viele ist es schwer, nach dem Studium einen vernünftigen Job zu finden.",
+          "answer": 0,
+          "audioStart": 1250.9,
+          "num": 27,
+          "options": [
+            "Moderatorin",
+            "Rebecca Wieland",
+            "Jörg Pohlmann"
+          ]
+        },
+        {
+          "id": "h28",
+          "teilPart": 4,
+          "type": "speaker",
+          "text": "Erfahrungen und Berufspraktika sind wichtig für das Studium.",
+          "answer": 2,
+          "audioStart": 1250.9,
+          "num": 28,
+          "options": [
+            "Moderatorin",
+            "Rebecca Wieland",
+            "Jörg Pohlmann"
+          ]
+        },
+        {
+          "id": "h29",
+          "teilPart": 4,
+          "type": "speaker",
+          "text": "In einer globalen Welt muss man wissen, wie andere denken.",
+          "answer": 1,
+          "audioStart": 1250.9,
+          "num": 29,
+          "options": [
+            "Moderatorin",
+            "Rebecca Wieland",
+            "Jörg Pohlmann"
+          ]
+        },
+        {
+          "id": "h30",
+          "teilPart": 4,
+          "type": "speaker",
+          "text": "In der Tourismusbranche sind Auslandserfahrungen unerlässlich.",
+          "answer": 2,
+          "audioStart": 1250.9,
+          "num": 30,
+          "options": [
+            "Moderatorin",
+            "Rebecca Wieland",
+            "Jörg Pohlmann"
+          ]
+        }
+      ]
+    }
+  ],
+  "explanations": {
+    "1": {
+      "quote": "Wie groß der Einfluss der Menschen in unserer Umgebung auf uns ist, hängt auch davon ab, wie viel Zeit wir miteinander verbringen und wie intensiv die Begegnungen sind.",
+      "whyCorrect": {
+        "de": "Richtig: Der Text betont ausdrücklich, dass der Einfluss anderer Menschen davon abhängt, wie viel Zeit man miteinander verbringt.",
+        "ar": "صحيح: يؤكد النص بوضوح أن مدى تأثير المحيطين بنا يعتمد على مقدار الوقت الذي نقضيه معهم ومدى عمق اللقاءات.",
+        "fr": "Vrai : Le texte souligne expressément que l'influence de notre entourage dépend du temps passé ensemble."
+      },
+      "whyIncorrect": {
+        "de": "Falsch trifft nicht zu, da die gemeinsam verbrachte Zeit im ersten Absatz direkt als entscheidender Faktor genannt wird.",
+        "ar": "الخيار 'خطأ' غير صحيح لأن الفقرة الأولى تذكر الوقت المشترك كعامل حاسم.",
+        "fr": "Faux est inexact car le premier paragraphe mentionne directement le temps partagé comme facteur déterminant."
+      }
+    },
+    "2": {
+      "quote": "Ich frage mich immer wieder, welche Rolle die Familienbande spielt. Wie weit sind wir durch das Erbgut festgelegt und welchen Spielraum haben wir zur eigenen Entwicklung.",
+      "whyCorrect": {
+        "de": "Richtig: Im zweiten Absatz stellt sich der Blogger genau diese Frage nach dem eigenen Entwicklungsspielraum.",
+        "ar": "صحيح: يتساءل الكاتب في الفقرة الثانية عن مدى الحرية والمساحة المتاحة للإنسان لتطوير ذاته بعيدًا عن الوراثة.",
+        "fr": "Vrai : Dans le deuxième paragraphe, le blogueur s'interroge précisément sur la marge de manœuvre pour son propre développement."
+      },
+      "whyIncorrect": {
+        "de": "Falsch widerspricht dem direkten Wortlaut im zweiten Abschnitt.",
+        "ar": "الخيار 'خطأ' يتعارض مع نص الفقرة الثانية الصريح.",
+        "fr": "Faux contredit la formulation explicite du deuxième paragraphe."
+      }
+    },
+    "3": {
+      "quote": "Was wäre, wenn ich meinen Lebensfilm zurückspulte und noch einmal von vorne beginnen würde? ... Der Fantasie sind hier keine Grenzen gesetzt.",
+      "whyCorrect": {
+        "de": "Richtig: Man kann seiner Fantasie freien Lauf lassen und gedanklich durchspielen, wie ein Neubeginn des Lebens aussähe.",
+        "ar": "صحيح: يشير الكاتب إلى إمكانية تخيل إعادة شريط الحياة من البداية، مؤكدًا أنه لا حدود للخيال في ذلك.",
+        "fr": "Vrai : L'auteur explique qu'on peut laisser libre cours à son imagination et envisager ce que serait une vie recommencée."
+      },
+      "whyIncorrect": {
+        "de": "Falsch stimmt nicht, da der Autor genau dieses Gedankenspiel beschreibt.",
+        "ar": "الخيار 'خطأ' غير دقيق لأن الكاتب يطرح هذه التجربة الذهنية صراحةً.",
+        "fr": "Faux ne convient pas car l'auteur décrit précisément cette expérience de pensée."
+      }
+    },
+    "4": {
+      "quote": "Zu berücksichtigen sind auch die äußeren Umstände für ein Leben, wie Geografie, Klima und die Gesellschaft.",
+      "whyCorrect": {
+        "de": "Richtig: Sowohl die Menschen in unserer Umgebung als auch äußere Umstände wie Geografie, Klima und Gesellschaft beeinflussen unser Leben.",
+        "ar": "صحيح: تؤثر البيئة المحيطة والظروف الخارجية كالموقع الجغرافي والمناخ والمجتمع في تطور حياة الإنسان.",
+        "fr": "Vrai : L'environnement humain ainsi que les circonstances extérieures (géographie, climat, société) influencent le développement."
+      },
+      "whyIncorrect": {
+        "de": "Falsch ist unzutreffend, da der Einfluss der Umgebung mehrfach hervorgehoben wird.",
+        "ar": "الخيار 'خطأ' غير صحيح لأن تأثير البيئة المحيطة مذكور بوضوح.",
+        "fr": "Faux est erroné puisque l'impact de l'environnement est souligné à plusieurs reprises."
+      }
+    },
+    "5": {
+      "quote": "Psychologen testen unsere Freundeskreise. Wie trägt uns dieses soziale Netz und was kann man ihm zumuten.",
+      "whyCorrect": {
+        "de": "Richtig: Wissenschaftler und Psychologen untersuchen, wie tragfähig Freundschaften sind und wie viel Belastung ('was man ihm zumuten kann') sie aushalten.",
+        "ar": "صحيح: يختبر علماء النفس دوائر الصداقة لمعرفة مدى قوة هذه الشبكة الاجتماعية وما يمكنها تحمله من ضغوط.",
+        "fr": "Vrai : Les psychologues étudient la solidité des cercles d'amis et ce qu'une amitié peut supporter."
+      },
+      "whyIncorrect": {
+        "de": "Falsch widerspricht dem vierten Absatz über die wissenschaftliche Untersuchung von Freundeskreisen.",
+        "ar": "الخيار 'خطأ' يخالف ما ورد في الفقرة الرابعة حول الأبحاث النفسية.",
+        "fr": "Faux contredit le quatrième paragraphe sur les tests psychologiques."
+      }
+    },
+    "6": {
+      "quote": "Ob blutsverwandt oder freundschaftlich gesinnt, ich picke mir aus Familie und Freunden, aus jedem Kuchen, die Rosinen heraus. Das ist meine Formel für mein Lebensglück.",
+      "whyCorrect": {
+        "de": "Richtig: 'Sich die Rosinen herauspicken' bedeutet bildlich, sich überall das Beste auszusuchen – genau das nennt er seine Formel fürs Lebensglück.",
+        "ar": "صحيح: تعبير 'انتقاء الزبيب من كل كعكة' يعني أخذ أفضل ما في العائلة والأصدقاء، وهو شعاره للسعادة.",
+        "fr": "Vrai : L'expression « picorer les raisins secs du gâteau » signifie prendre le meilleur de chacun, ce qu'il définit comme sa formule du bonheur."
+      },
+      "whyIncorrect": {
+        "de": "Falsch trifft nicht zu, da der Schlusssatz genau dieses Lebensmotto zusammenfasst.",
+        "ar": "الخيار 'خطأ' غير صحيح لأن الجملة الختامية تؤكد هذا الشعار تمامًا.",
+        "fr": "Faux est inexact car la phrase finale résume exactement cette devise."
+      }
+    },
+    "7": {
+      "quote": "Doch seit der Werbeexperte einer Berliner Agentur die Idee hatte, die Kleidungsstücke im Internet anzubieten, sind die Verkaufszahlen fünfhundertmal so hoch. ... Aufträge kommen inzwischen aus der ganzen Welt.",
+      "whyCorrect": {
+        "de": "Lösung b ist richtig: Durch den Online-Verkauf sind die Verkaufszahlen explodiert und Bestellungen kommen nun aus aller Welt.",
+        "ar": "الخيار (b) صحيح: بفضل فكرة التسويق عبر الإنترنت تضاعفت المبيعات خمسمائة مرة وأصبحت الطلبات تأتي من جميع أنحاء العالم.",
+        "fr": "L'option b est correcte : Grâce à la vente en ligne, l'intérêt est devenu mondial et les commandes affluent du monde entier."
+      },
+      "whyIncorrect": {
+        "de": "a verwechselt 'fünfhundertmal so hoch' mit 500 Kleidungsstücken; c steht nicht im Text.",
+        "ar": "الخيار (a) يخلط بين تضاعف المبيعات 500 مرة وبين عدد القطع، و(c) لم يرد في النص.",
+        "fr": "a confond « 500 fois plus élevé » avec 500 articles ; c n'est pas mentionné."
+      }
+    },
+    "8": {
+      "quote": "„... dass man vorläufig gar keine neuen Bestellungen mehr annehmen kann, da man organisatorisch nicht auf so viele Aufträge vorbereitet war. Es gibt bereits 1500 Bestellungen.“",
+      "whyCorrect": {
+        "de": "Lösung c ist richtig: Es gingen bereits 1500 Bestellungen ein – mehr, als organisatorisch produziert und bewältigt werden kann.",
+        "ar": "الخيار (c) صحيح: توقف استقبال الطلبات مؤقتًا لأن حجم الطلبات (1500 طلب) فاق القدرة الإنتاجية والتنظيمية.",
+        "fr": "L'option c est correcte : Il y a déjà 1 500 commandes, soit plus que ce que la prison peut produire pour l'instant."
+      },
+      "whyIncorrect": {
+        "de": "a nennt eine falsche Zahl (1000 statt 1500 Bestellungen); b nennt keinen solchen Grund.",
+        "ar": "الخيارات الأخرى تذكر أرقامًا أو أسبابًا غير صحيحة.",
+        "fr": "a cite un chiffre erroné et b n'est pas la raison de l'arrêt des commandes."
+      }
+    },
+    "9": {
+      "quote": "Die Produktion läuft so gut, dass die Verantwortlichen hoffen, in nächster Zukunft etwa 50 neue Stellen für die 1670 Häftlinge einrichten zu können.",
+      "whyCorrect": {
+        "de": "Lösung b ist richtig: Wegen der guten Nachfrage planen die Verantwortlichen, bald rund 50 neue Arbeitsplätze für Häftlinge zu schaffen.",
+        "ar": "الخيار (b) صحيح: يأمل المسؤولون في توفير حوالي 50 فرصة عمل جديدة للسجناء في المستقبل القريب.",
+        "fr": "L'option b est correcte : Les responsables espèrent créer prochainement environ 50 nouveaux emplois pour les détenus."
+      },
+      "whyIncorrect": {
+        "de": "a ist falsch (40 % sind arbeitslos); c ist falsch, da die 50 Stellen erst für die Zukunft geplant sind.",
+        "ar": "الخيار (a) خاطئ لأن البطالة 40%، و(c) خاطئ لأن الوظائف لم تُستحدث بعد بل هي خطة مستقبلية.",
+        "fr": "a est faux (40 % de chômage) ; c est faux car les 50 postes sont seulement prévus pour l'avenir."
+      }
+    },
+    "10": {
+      "quote": "Informatiker haben Sensoren in seiner Zweizimmerwohnung angebracht, in der Dusche, an Decken und Wänden, an Balkontür und Besteckschublade.",
+      "whyCorrect": {
+        "de": "Lösung c ist richtig: In Herrn Garskes Wohnung wurden an zahlreichen Stellen (Dusche, Decken, Wände, Balkontür, Schublade) Sensoren installiert.",
+        "ar": "الخيار (c) صحيح: قام خبراء المعلوماتية بتركيب حساسات استشعار في أماكن متفرقة من شقته لمراقبة سلامته.",
+        "fr": "L'option c est correcte : Des informaticiens ont installé des capteurs à différents endroits de son appartement."
+      },
+      "whyIncorrect": {
+        "de": "a (Renovierung) und b (Monitor in seiner Wohnung) treffen nicht zu; der Monitor steht bei der Koordinatorin.",
+        "ar": "لم يتم تجديد الشقة، وشاشة المراقبة موجودة لدى المنسقة في الطابق الأرضي وليس داخل شقته.",
+        "fr": "L'appartement n'a pas été rénové (a) et l'écran se trouve chez la coordinatrice (b)."
+      }
+    },
+    "11": {
+      "quote": "Seit vier Jahren fördert die Europäische Union in 23 Ländern die Arbeit von Ingenieuren und Informatikern, die sie entschärfen sollen.",
+      "whyCorrect": {
+        "de": "Lösung c ist richtig: Die Forschungsarbeit wird seit vier Jahren von der Europäischen Union (EU) gefördert.",
+        "ar": "الخيار (c) صحيح: يدعم الاتحاد الأوروبي هذه الأبحاث الهندسية والتقنية في 23 دولة منذ أربع سنوات.",
+        "fr": "L'option c est correcte : La recherche est financée et soutenue par l'Union européenne dans 23 pays."
+      },
+      "whyIncorrect": {
+        "de": "Hinweis: Laut Klett-Lösungsschlüssel ist c die vorgesehene Lösung (Förderung durch die EU), auch wenn im Text zudem Computerspiele erprobt werden.",
+        "ar": "الخيار (c) هو الحل الرسمي المعتمد في دليل المعلم (دعم الاتحاد الأوروبي للمشروع).",
+        "fr": "L'option c est la réponse officielle du corrigé Klett (soutien financier de l'UE)."
+      }
+    },
+    "12": {
+      "quote": "Das System alarmiert sie immer dann, wenn sich die Hausbewohner ungewöhnlich verhalten.",
+      "whyCorrect": {
+        "de": "Lösung b ist richtig: Eine Warnmeldung erscheint immer dann, wenn die Bewohner ein ungewöhnliches Verhalten zeigen.",
+        "ar": "الخيار (b) صحيح: يطلق النظام إنذارًا عندما يتصرف السكان بشكل غير معتاد (كعدم الاستيقاظ أو ترك النوافذ مفتوحة).",
+        "fr": "L'option b est correcte : Le système donne l'alerte dès que les résidents ont un comportement inhabituel."
+      },
+      "whyIncorrect": {
+        "de": "a (zu oft duschen – im Text steht 'tagelang nicht duschen') und c (Fenster im Erdgeschoss) sind falsch.",
+        "ar": "الخيار (a) يعكس المعنى (عدم الاستحمام لأيام)، و(c) يخلط بين مكتب المنسقة في الطابق الأرضي ونوافذ السكان.",
+        "fr": "a inverse le texte (ne pas se doucher pendant des jours) et c confond l'étage du bureau avec les fenêtres."
+      }
+    },
+    "13": {
+      "quote": "Anzeige E: Zwei süße Kätzchen zu verschenken! Informationen: Penny Renny, Tel. 0711/7654173",
+      "whyCorrect": {
+        "de": "Anzeige E passt: Sebastian wünscht sich eine eigene kleine Katze, und in Anzeige E werden zwei junge Kätzchen verschenkt.",
+        "ar": "الإعلان (E) هو المناسب: سيباستيان يرغب في اقتناء قطة صغيرة، والإعلان يعرض قطتين صغيرتين مجانًا.",
+        "fr": "L'annonce E correspond : Sebastian aimerait avoir un chaton, et l'annonce E propose deux adorables chatons à donner."
+      },
+      "whyIncorrect": {
+        "de": "Andere Anzeigen bieten Tierpensionen, Hundeausbildung oder Aquarien, aber keine Kätzchen.",
+        "ar": "الإعلانات الأخرى تتعلق بفنادق الحيوانات أو تدريب الكلاب أو الأسماك.",
+        "fr": "Les autres annonces concernent des pensions, le dressage canin ou l'aquariophilie."
+      }
+    },
+    "14": {
+      "quote": "Anzeige C: Ferien für Hund, Katz und Co. Das Wellness- und Erholungsprogramm bietet gründliche Untersuchung, Pflege und Therapiestunden...",
+      "whyCorrect": {
+        "de": "Anzeige C passt: Frau Severin sorgt sich um die Gesundheit ihrer Katze; Anzeige C bietet gründliche Untersuchung, Pflege und Therapiestunden auch für Katzen.",
+        "ar": "الإعلان (C) هو المناسب: السيدة سيفيرين قلقة على صحة قطتها، والإعلان يوفر فحصًا شاملاً وعناية وجلسات علاجية للكلاب والقطط.",
+        "fr": "L'annonce C correspond : Mme Severin s'inquiète pour la santé de son chat ; l'annonce C propose un examen approfondi et des soins."
+      },
+      "whyIncorrect": {
+        "de": "Anzeige A hilft nur Tieren im Urlaubsland; Anzeige H ist nur für Hunde.",
+        "ar": "الإعلان (A) مخصص للحيوانات في بلدان العطلات، و(H) مخصص للكلاب فقط.",
+        "fr": "L'annonce A concerne les animaux en voyage à l'étranger et H est réservé aux chiens."
+      }
+    },
+    "15": {
+      "quote": "Anzeige G: „Fisch im Zentrum“ – Süßwasser – Salzwasser... große Auswahl an Aquarien, Zubehör und Futter jeglicher Art, Tipps vom Profi!",
+      "whyCorrect": {
+        "de": "Anzeige G passt: Herr Spanos möchte ein Aquarium kaufen und braucht fachkundige Beratung ('Tipps vom Profi!').",
+        "ar": "الإعلان (G) هو المناسب: السيد سبانوس يريد اقتناء حوض أسماك ويبحث عن استشارة، والمتجر يقدم تشكيلة واسعة ونصائح احترافية.",
+        "fr": "L'annonce G correspond : M. Spanos souhaite installer un aquarium chez lui et cherche des conseils de professionnels."
+      },
+      "whyIncorrect": {
+        "de": "Keine andere Anzeige handelt von Fischen oder Aquarien.",
+        "ar": "لا يوجد أي إعلان آخر يختص بأسماك الزينة وأحواضها.",
+        "fr": "Aucune autre annonce ne traite de poissons ou d'aquariums."
+      }
+    },
+    "16": {
+      "quote": "Anzeige F: „Hunde-Flüsterer“ – Mensch und Hund, Ob jung oder alt... Blindenhundausbildung, Welpengruppe.",
+      "whyCorrect": {
+        "de": "Anzeige F passt: Herr Ortlieb möchte seinen jungen Schäferhund ausbilden lassen; der 'Hunde-Flüsterer' bietet Hundeerziehung und Welpengruppen an.",
+        "ar": "الإعلان (F) هو المناسب: السيد أورتليب يريد تدريب كلبه الصغير، وإعلان 'هامس الكلاب' يقدم تدريبًا للجراء والكلاب.",
+        "fr": "L'annonce F correspond : M. Ortlieb veut faire dresser son jeune berger allemand, et F propose l'éducation canine et des groupes pour chiots."
+      },
+      "whyIncorrect": {
+        "de": "Anzeige H ist eine Hundepension für den Urlaub, keine Hundeschule zur Welpenausbildung.",
+        "ar": "الإعلان (H) هو فندق لإقامة الكلاب في العطلات وليس مدرسة لتدريب الجراء.",
+        "fr": "L'annonce H est une pension de vacances pour chiens, pas un éducateur canin."
+      }
+    },
+    "17": {
+      "quote": "Anzeige I: Günstig abzugeben: Graupapagei... Lora ist 12 Jahre alt, sehr zutraulich und verschmust, Lora spricht viele Wörter.",
+      "whyCorrect": {
+        "de": "Anzeige I passt: Frau Kuchler sucht einen Papagei gegen ihre Einsamkeit; in Anzeige I wird ein zutraulicher, sprechender Graupapagei günstig abgegeben.",
+        "ar": "الإعلان (I) هو المناسب: السيدة كوخلر تشعر بالوحدة وتفكر في شراء ببغاء، والإعلان يعرض ببغاء رماديًا أليفًا يتحدث كلمات كثيرة بسعر مناسب.",
+        "fr": "L'annonce I correspond : Mme Kuchler cherche un perroquet pour lui tenir compagnie ; l'annonce I propose un perroquet gris affectueux qui parle déjà."
+      },
+      "whyIncorrect": {
+        "de": "Keine andere Anzeige bietet Vögel oder Papageien an.",
+        "ar": "لا يوجد إعلان آخر يعرض طيورًا أو ببغاوات.",
+        "fr": "Aucune autre annonce ne propose d'oiseaux."
+      }
+    },
+    "18": {
+      "quote": "Keine passende Anzeige (0 / X) – Anzeige D bietet nur einen Bauernhof, Anzeige G ist ein Aquariengeschäft, kein Zoo.",
+      "whyCorrect": {
+        "de": "Lösung 0 (X) ist richtig: Für einen Zoobesuch mit exotischen Tieren gibt es unter den Anzeigen A bis J kein passendes Angebot.",
+        "ar": "الحل (0 / X) صحيح: ترغب عائلة فيبر في زيارة حديقة حيوانات لرؤية حيوانات نادرة، ولا يوجد أي إعلان عن حديقة حيوانات.",
+        "fr": "La réponse 0 (X) est correcte : Aucune annonce ne propose de visite de zoo avec des animaux exotiques."
+      },
+      "whyIncorrect": {
+        "de": "Anzeige D ist ein Bauernhof (Kühe/Stall) und Anzeige G ein Fachgeschäft für Aquarien.",
+        "ar": "الإعلان (D) يتعلق بمزرعة ريفية تقليدية، و(G) متجر لبيع أحواض السمك.",
+        "fr": "L'annonce D concerne une ferme agricole et G est un magasin d'aquariophilie."
+      }
+    },
+    "19": {
+      "quote": "Anzeige H: Urlaub für den Hund, Hundepension „Sommerwiese“, Wellness für Vierbeiner, Rundumversorgung...",
+      "whyCorrect": {
+        "de": "Anzeige H passt: Frau Mühl sucht für eine Woche Urlaub eine Unterkunft für ihren Hund; die Hundepension 'Sommerwiese' bietet Rundumversorgung.",
+        "ar": "الإعلان (H) هو المناسب: السيدة مول تبحث عن مأوى يعتني بكلبها أثناء سفرها لمدة أسبوع، وفندق الكلاب 'سومرفيزه' يوفر رعاية متكاملة.",
+        "fr": "L'annonce H correspond : Mme Mühl part une semaine en vacances sans son chien et cherche une pension canine complète."
+      },
+      "whyIncorrect": {
+        "de": "Anzeige B (Hotel mit Hund) war bereits das Beispiel und gilt für Reisen mit Hund.",
+        "ar": "الإعلان (B) استُخدم في المثال وهو مخصص لمن يصطحب كلبه معه في السفر.",
+        "fr": "L'annonce B servait d'exemple et concerne un hôtel où l'on emmène son chien."
+      }
+    },
+    "20": {
+      "quote": "Juliane: Also, wenn mir mein Chef eine Fortbildung vorschlägt, dann denke ich sofort, dass ich nicht gut genug bin... Ich gebe zu, ich habe Angst vor solchen Programmen.",
+      "whyCorrect": {
+        "de": "Ja: Juliane steht Fortbildungsangeboten kritisch und ängstlich gegenüber und liest lieber selbstständig Fachliteratur.",
+        "ar": "نعم: تتعامل يوليانه بحذر وانتقاد وخوف مع برامج التدريب المهني وتفضل قراءة الكتب التخصصية بنفسها.",
+        "fr": "Oui : Juliane exprime sa crainte et son scepticisme face aux formations continues et préfère lire des ouvrages spécialisés."
+      },
+      "whyIncorrect": {
+        "de": "Nein trifft nicht zu, da sie Fortbildungsprogramme ablehnt.",
+        "ar": "الخيار 'لا' غير صحيح لأنها ترفض هذه البرامج وتخشاها.",
+        "fr": "Non est faux puisqu'elle rejette ces programmes par appréhension."
+      }
+    },
+    "21": {
+      "quote": "Holzmann: Aber ich frage Sie: Wer soll denn das alles bezahlen? Das sind doch wieder meine Steuergelder, die hier fröhlich verteilt werden!",
+      "whyCorrect": {
+        "de": "Ja: Holzmann kritisiert heftig die Finanzierung staatlicher Fortbildungsprogramme durch Steuergelder.",
+        "ar": "نعم: ينتقد هولتسمان بشدة تمويل برامج التدريب من أموال دافعي الضرائب ويرى أن على المستفيد دفع تكاليفها بنفسه.",
+        "fr": "Oui : Holzmann critique vivement le financement public de ces formations par l'argent des contribuables."
+      },
+      "whyIncorrect": {
+        "de": "Nein ist falsch, da er sich empört gegen öffentlich finanzierte Programme ausspricht.",
+        "ar": "الخيار 'لا' خاطئ لأنه يعارض بشدة إنفاق الضرائب على هذه الدورات.",
+        "fr": "Non est inexact car il s'indigne contre ces dépenses publiques."
+      }
+    },
+    "22": {
+      "quote": "Veronika: Bravo! Das ist schon eine Auszeichnung wert, erfolgreiche europäische Fortbildungsprogramme auf die Beine zu stellen.",
+      "whyCorrect": {
+        "de": "Nein: Veronika lobt die europäischen Fortbildungsprogramme ausdrücklich ('Bravo!').",
+        "ar": "لا: تشيد فيرونيكا ببرامج التدريب الأوروبية الناجحة وتعتبرها جديرة بالتكريم.",
+        "fr": "Non : Veronika félicite chaleureusement (« Bravo ! ») la mise en place de ces programmes européens."
+      },
+      "whyIncorrect": {
+        "de": "Ja stimmt nicht, da sie keinerlei Kritik äußert.",
+        "ar": "الخيار 'نعم' غير صحيح لأنها تمدح البرامج ولا تنتقدها.",
+        "fr": "Oui ne convient pas car son commentaire est entièrement élogieux."
+      }
+    },
+    "23": {
+      "quote": "Jonas: Ich finde es gut, dass der Staat solche Angebote macht. Solche sollte es noch viel mehr und regelmäßig geben.",
+      "whyCorrect": {
+        "de": "Nein: Jonas befürwortet staatliche Fortbildungsangebote und wünscht sich sogar noch mehr davon.",
+        "ar": "لا: يؤيد يوناس عروض التدريب الحكومية ويطالب بزيادتها وتنظيمها بانتظام.",
+        "fr": "Non : Jonas approuve pleinement les offres de formation de l'État et souhaite qu'il y en ait davantage."
+      },
+      "whyIncorrect": {
+        "de": "Ja ist falsch, weil Jonas die Angebote positiv bewertet.",
+        "ar": "الخيار 'نعم' خاطئ لأن موقفه إيجابي ومؤيد تمامًا.",
+        "fr": "Oui est erroné car son avis est très favorable."
+      }
+    },
+    "24": {
+      "quote": "A. Schuch: Die Lust am lebenslangen Lernen wecken, fördern und bewahren. Das ist ein nobles Ziel.",
+      "whyCorrect": {
+        "de": "Nein: Herr Schuch unterstützt die Idee des lebenslangen Lernens voll und ganz.",
+        "ar": "لا: يثني السيد شوخ على فكرة التعلم مدى الحياة ويعتبرها هدفًا نبيلاً يحافظ على حيوية الإنسان.",
+        "fr": "Non : M. Schuch soutient avec enthousiasme l'apprentissage tout au long de la vie."
+      },
+      "whyIncorrect": {
+        "de": "Ja trifft nicht zu, da er sich sehr positiv äußert.",
+        "ar": "الخيار 'نعم' غير صحيح لأن تعليقه إيجابي ومشجع.",
+        "fr": "Oui est faux car il qualifie cet objectif de noble."
+      }
+    },
+    "25": {
+      "quote": "Marie: Bildung für alle, das hört sich sehr demokratisch an, ist es aber nicht. Wer profitiert denn in der Regel von diesen Angeboten? Das sind doch wieder nur die, die die Nase sowieso schon vorne haben.",
+      "whyCorrect": {
+        "de": "Ja: Marie kritisiert, dass Fortbildungsangebote nicht wirklich demokratisch sind und meist nur denen nutzen, die ohnehin schon im Vorteil sind.",
+        "ar": "نعم: تنتقد ماري هذه العروض لأنها في رأيها غير ديمقراطية ولا يستفيد منها إلا المتميزون أصلاً.",
+        "fr": "Oui : Marie critique le manque d'équité de ces offres qui ne profitent selon elle qu'aux personnes déjà privilégiées."
+      },
+      "whyIncorrect": {
+        "de": "Nein ist falsch, da sie die Ungleichheit der bisherigen Angebote bemängelt.",
+        "ar": "الخيار 'لا' خاطئ لأنها توجه نقدًا واضحًا لعدم عدالة تلك البرامج.",
+        "fr": "Non est inexact car elle dénonce l'inégalité d'accès à ces programmes."
+      }
+    },
+    "26": {
+      "quote": "Clemens: Glücklicherweise gibt es in meiner Branche aber auch E-Learning-Angebote. Die Online-Kurse stellen eine gute Alternative dar und sind für mich die preisgünstigere Lösung.",
+      "whyCorrect": {
+        "de": "Nein: Clemens äußert sich nicht kritisch gegen Fortbildung, sondern lobt E-Learning- und Online-Kurse als gute, bezahlbare Lösung für seine Firma.",
+        "ar": "لا: لا ينتقد كليمنس التدريب المهني، بل يثني على دورات التعلم الإلكتروني عبر الإنترنت كبديل ممتاز واقتصادي لشركته الصغيرة.",
+        "fr": "Non : Clemens ne critique pas la formation continue, il salue au contraire les cours en ligne (e-learning) comme une excellente alternative économique."
+      },
+      "whyIncorrect": {
+        "de": "Ja stimmt nicht, da er Online-Fortbildungen ausdrücklich begrüßt.",
+        "ar": "الخيار 'نعم' غير صحيح لأنه يمدح حلول التدريب الرقمي.",
+        "fr": "Oui est faux puisqu'il apprécie et utilise les formations en ligne."
+      }
+    },
+    "27": {
+      "quote": "Die beigefügte Montageanleitung macht Ihnen den Aufbau des Qualitätsmöbels einfach: Montageanleitung für das Bücherregal „Bruno“",
+      "whyCorrect": {
+        "de": "Lösung c ist richtig: Der Text erklärt Schritt für Schritt (1 bis 7), wie man das Bücherregal aufbaut (montiert).",
+        "ar": "الخيار (c) صحيح: يشرح الدليل خطوة بخطوة كيفية تركيب وتجميع خزانة الكتب.",
+        "fr": "L'option c est correcte : La notice explique étape par étape le montage de l'étagère."
+      },
+      "whyIncorrect": {
+        "de": "a (Herkunft) wird gar nicht erwähnt; b (reine Bauteilliste) stimmt nicht, da es eine Schritt-für-Schritt-Aufbauanleitung ist.",
+        "ar": "لا يذكر النص مصدر صناعة الأثاث (a)، وهو دليل خطوات التركيب وليس مجرد قائمة جرد للقطع (b).",
+        "fr": "a (origine du meuble) n'est pas mentionné et b est inexact car il s'agit des instructions d'assemblage."
+      }
+    },
+    "28": {
+      "quote": "1. Öffnen Sie vorsichtig den Karton mit den Möbelteilen. Nehmen Sie alle Teile aus dem Karton und prüfen Sie, ob alle Bau- und Montageteile da sind...",
+      "whyCorrect": {
+        "de": "Lösung a ist richtig: Im ersten Schritt muss man vor dem eigentlichen Aufbau kontrollieren, ob alle Teile vollständig vorhanden sind.",
+        "ar": "الخيار (a) صحيح: قبل البدء بالتركيب يجب إخراج جميع القطع والتأكد من وجود كافة أجزاء البناء والتثبيت دون نقص.",
+        "fr": "L'option a est correcte : Avant l'assemblage, il faut vérifier qu'il ne manque aucune pièce."
+      },
+      "whyIncorrect": {
+        "de": "b (Werkzeug kaufen) und c (Karton zur Seite legen) werden im Text nicht verlangt.",
+        "ar": "الخيارات الأخرى لم ترد في تعليمات الخطوة الأولى.",
+        "fr": "b (acheter des outils) et c (mettre le carton de côté) ne figurent pas dans le texte."
+      }
+    },
+    "29": {
+      "quote": "5. Stecken Sie nun das Zwischenbrett (Z1) auf ein Seitenteil (z.B. B1).",
+      "whyCorrect": {
+        "de": "Lösung c ist richtig: Laut Punkt 5 wird das Zwischenbrett (Z1) auf eines der Seitenteile gesteckt.",
+        "ar": "الخيار (c) صحيح: تنص الخطوة الخامسة على تثبيت اللوح الأوسط (Z1) بإدخاله في أحد الجزأين الجانبيين.",
+        "fr": "L'option c est correcte : Selon l'étape 5, la planche intermédiaire doit être emboîtée sur un panneau latéral."
+      },
+      "whyIncorrect": {
+        "de": "a (nur reinlegen) und b (auf den Boden schrauben) widersprechen Punkt 5.",
+        "ar": "الخيارات الأخرى تخالف طريقة التركيب الموضحة في البند الخامس.",
+        "fr": "a et b contredisent l'instruction précise de l'étape 5."
+      }
+    },
+    "30": {
+      "quote": "7. Öffnen Sie das Metallkreuz (K1) und schrauben Sie es mit den Schrauben (S1–4) an die Rückseite.",
+      "whyCorrect": {
+        "de": "Lösung b ist richtig: Im letzten Schritt wird das Metallkreuz mit vier Schrauben hinten (an der Rückseite) befestigt.",
+        "ar": "الخيار (b) صحيح: في الخطوة السابعة يتم تثبيت الصليب المعدني بالبراغي في الجهة الخلفية للخزانة.",
+        "fr": "L'option b est correcte : À l'étape 7, la croix métallique doit être vissée à l'arrière de l'étagère."
+      },
+      "whyIncorrect": {
+        "de": "a wird im Text nicht erwähnt; c ist falsch, da es aufgeschraubt und nicht zusammengesteckt wird.",
+        "ar": "الخيار (a) لم يُذكر نصًا، و(c) خاطئ لأن القطعة تُفتح وتُثبت بالبراغي في الخلف.",
+        "fr": "a n'est pas dit dans le texte et c est faux car on la visse au dos du meuble."
+      }
+    },
+    "h1": {
+      "quote": "Aber juristisch gesehen ist es so, dass Ware, die gekauft wurde und keine Fehler aufweist, nicht einfach zurückgegeben werden kann.",
+      "whyCorrect": {
+        "de": "Falsch: Fehlerfreie Ware kann rechtlich gesehen nicht einfach problemlos umgetauscht oder zurückgegeben werden.",
+        "ar": "خطأ: من الناحية القانونية لا يمكن إرجاع أو استبدال البضاعة السليمة الخالية من العيوب ببساطة.",
+        "fr": "Faux : Juridiquement, une marchandise achetée sans défaut ne peut pas être simplement échangée ou rendue."
+      },
+      "whyIncorrect": {
+        "de": "Richtig widerspricht der Auskunft der Verbraucherzentrale.",
+        "ar": "الخيار 'صحيح' يتعارض مع تنبيه مركز حماية المستهلك.",
+        "fr": "Vrai contredit l'information donnée par le centre des consommateurs."
+      }
+    },
+    "h2": {
+      "quote": "Eine Ausnahme besteht bei Waren, die einen Fehler haben. Dann haben Sie ein Rückgaberecht von 7 Tagen.",
+      "whyCorrect": {
+        "de": "Lösung b ist richtig: Wenn eine Ware fehlerhaft ist, hat man ein Rückgaberecht innerhalb von 7 Tagen.",
+        "ar": "الخيار (b) صحيح: في حال وجود عيب في السلعة، يحق للمشتري إرجاعها أو استبدالها خلال 7 أيام.",
+        "fr": "L'option b est correcte : En cas de marchandise défectueuse, vous disposez d'un droit de retour de 7 jours."
+      },
+      "whyIncorrect": {
+        "de": "a (nicht umtauschen) ist falsch; c ist zu ungenau, da im Hörtext explizit '7 Tage' genannt werden.",
+        "ar": "الخيار (a) خاطئ، و(c) غير دقيق لأن النص حدد المهلة بسبعة أيام صراحةً.",
+        "fr": "a est faux et c est imprécis puisque le délai exact de 7 jours est annoncé."
+      }
+    },
+    "h3": {
+      "quote": "... informieren Sie bitte direkt unser Sicherheitspersonal oder die Polizei.",
+      "whyCorrect": {
+        "de": "Falsch: Unbeaufsichtigte Gepäckstücke sollen nicht nur der Polizei, sondern dem Sicherheitspersonal oder der Polizei gemeldet werden.",
+        "ar": "خطأ: يجب الإبلاغ عن الحقائب المتروكة لموظفي الأمن أو الشرطة، وليس الشرطة فقط.",
+        "fr": "Faux : Les bagages sans surveillance doivent être signalés au personnel de sécurité ou à la police (pas uniquement à la police)."
+      },
+      "whyIncorrect": {
+        "de": "Richtig ist falsch wegen der Einschränkung 'nur bei der Polizei'.",
+        "ar": "الخيار 'صحيح' خاطئ بسبب كلمة الحصر 'فقط لدى الشرطة'.",
+        "fr": "Vrai est faux à cause de la restriction « uniquement à la police »."
+      }
+    },
+    "h4": {
+      "quote": "Bitte achten Sie insbesondere in den Warteschlangen vor den Check-ins auf Ihre Wertsachen, Portemonnaies und kleineren Gegenstände. Auch in den Toiletten sollten Sie vorsichtig sein. Es könnten Sie Trickdiebe angreifen...",
+      "whyCorrect": {
+        "de": "Lösung a ist richtig: Laut offiziellem Klett-Lösungsschlüssel gilt a ('insbesondere in den Warteschlangen'), zudem wird im Schlüssel auch c ('in den Toiletten ... Trickdiebe') als richtig anerkannt.",
+        "ar": "الخيار (a) صحيح وفق مفتاح الحلول الرسمي ('خصوصًا في طوابير الانتظار')، كما يشير الدليل إلى إمكانية قبول (c) لذكر اللصوص المحتالين في دورات المياه.",
+        "fr": "L'option a est la réponse principale du corrigé officiel (« en particulier dans les files d'attente »), l'option c (dans les toilettes) étant également acceptée."
+      },
+      "whyIncorrect": {
+        "de": "b (Parkebenen) bezieht sich nur auf herrenlose Gepäckstücke, nicht auf Taschendiebe.",
+        "ar": "الخيار (b) ذُكر فقط في سياق الإبلاغ عن الحقائب المتروكة وليس اللصوص.",
+        "fr": "b (niveaux du parking) ne concerne que les bagages abandonnés."
+      }
+    },
+    "h5": {
+      "quote": "Schauen Sie unbedingt bei unserem Gastland Japan vorbei.",
+      "whyCorrect": {
+        "de": "Richtig: Japan wird ausdrücklich als das diesjährige Gastland der Bamberger Buchausstellung genannt.",
+        "ar": "صحيح: اليابان هي دولة الضيف في معرض بامبرغ للكتاب هذا العام.",
+        "fr": "Vrai : Le Japon est expressément présenté comme le pays invité d'honneur du salon du livre."
+      },
+      "whyIncorrect": {
+        "de": "Falsch trifft nicht zu.",
+        "ar": "الخيار 'خطأ' غير صحيح.",
+        "fr": "Faux est inexact."
+      }
+    },
+    "h6": {
+      "quote": "Der Vortrag des chinesischen Professors Dr. Ling Tchua Chang über die überregionalen asiatischen Märchen beginnt bereits um 15 Uhr...",
+      "whyCorrect": {
+        "de": "Lösung b ist richtig: Es handelt sich um den chinesischen Professor Dr. Ling Tchua Chang.",
+        "ar": "الخيار (b) صحيح: المحاضر الزائر هو البروفيسور الصيني الدكتور لينغ تشوا تشانغ.",
+        "fr": "L'option b est correcte : Il s'agit du professeur chinois Dr Ling Tchua Chang."
+      },
+      "whyIncorrect": {
+        "de": "a (Japan ist das Gastland) und c (Korea gibt es nur beim Essen im Restaurant) sind falsch.",
+        "ar": "اليابان هي دولة الضيف (a)، وكوريا ذُكرت فقط ضمن أطباق المطعم (c).",
+        "fr": "Le Japon est le pays invité (a) et la Corée n'est mentionnée que pour le restaurant (c)."
+      }
+    },
+    "h7": {
+      "quote": "Fahren Sie bitte vorsichtig. Die Polizei versucht den Fahrer bei der nächsten Ausfahrt zu stoppen.",
+      "whyCorrect": {
+        "de": "Falsch: Der Geisterfahrer ist noch auf der A49 unterwegs; die Polizei versucht erst, ihn an der nächsten Ausfahrt zu stoppen.",
+        "ar": "خطأ: السائق المخالف لا يزال يقود في الاتجاه المعاكس، والشرطة تحاول إيقافه عند المخرج القادم.",
+        "fr": "Faux : Le conducteur à contresens roule toujours sur l'A49 ; la police tente seulement de l'arrêter à la prochaine sortie."
+      },
+      "whyIncorrect": {
+        "de": "Richtig ist falsch, da er noch nicht gestoppt oder umgeleitet wurde.",
+        "ar": "الخيار 'صحيح' خاطئ لأنه لم يتم تحويله أو إيقافه بعد.",
+        "fr": "Vrai est erroné car il n'a pas encore été intercepté."
+      }
+    },
+    "h8": {
+      "quote": "Die A9 Stuttgart–München ist an der Ausfahrt Ulm wegen eines schweren Unfalls eines LKWs in beiden Richtungen gesperrt.",
+      "whyCorrect": {
+        "de": "Lösung a ist richtig: Der schwere LKW-Unfall passierte auf der Autobahn A9 (Stuttgart–München).",
+        "ar": "الخيار (a) صحيح: وقع حادث الشاحنة الخطير على الطريق السريع A9 مما أدى لإغلاقه في الاتجاهين.",
+        "fr": "L'option a est correcte : Le grave accident de poids lourd s'est produit sur l'autoroute A9."
+      },
+      "whyIncorrect": {
+        "de": "b (Bundesstraße 39 ist die Umleitung) und c (auf der A49 ist der Geisterfahrer) sind falsch.",
+        "ar": "الطريق الفيدرالي B39 هو مسار التحويلة البديلة (b)، والطريق A49 هو مكان السائق المعاكس (c).",
+        "fr": "La route nationale B39 sert de déviation (b) et l'A49 concerne le conducteur à contresens (c)."
+      }
+    },
+    "h9": {
+      "quote": "Am Sonntag um 10 Uhr „Der kleine Muck“, ab 6 Jahre, und um 14 Uhr „Pippi Langstrumpfs Abenteuer“, ab 6 Jahre.",
+      "whyCorrect": {
+        "de": "Richtig: Am Sonntagnachmittag um 14 Uhr wird das Theaterstück „Pippi Langstrumpfs Abenteuer“ aufgeführt.",
+        "ar": "صحيح: يوجد عرض مسرحي بعد ظهر يوم الأحد في الساعة الثانية (14:00) بعنوان 'مغامرات بيبي لانغشترومبف'.",
+        "fr": "Vrai : Le dimanche après-midi à 14 heures a lieu la représentation des « Aventures de Fifi Brindacier »."
+      },
+      "whyIncorrect": {
+        "de": "Falsch stimmt nicht, da 14 Uhr am Sonntagnachmittag liegt.",
+        "ar": "الخيار 'خطأ' غير صحيح لأن العرض يقام الساعة 14:00 ظهر الأحد.",
+        "fr": "Faux est inexact car il y a bien une séance à 14 h le dimanche."
+      }
+    },
+    "h10": {
+      "quote": "Wenn Papa und Mama mitkommen, gibt es einen Familienrabatt von 25%.",
+      "whyCorrect": {
+        "de": "Lösung c ist richtig: Wenn die Eltern mitkommen, erhält man einen Familienrabatt in Höhe von 25 Prozent.",
+        "ar": "الخيار (c) صحيح: عند حضور الأب والأم مع الأطفال يُمنح خصم عائلي بقيمة 25%.",
+        "fr": "L'option c est correcte : Si papa et maman accompagnent les enfants, une réduction familiale de 25 % est accordée."
+      },
+      "whyIncorrect": {
+        "de": "a (12%) und b (15% – 15 Minuten gilt für den Kartenvorverkauf) sind falsch.",
+        "ar": "الرقم 15 ذُكر فقط كمهلة بالدقائق لشراء التذاكر قبل العرض وليس نسبة الخصم.",
+        "fr": "Le chiffre 15 correspond aux 15 minutes de prévente avant la séance, pas au pourcentage de remise."
+      }
+    },
+    "h11": {
+      "quote": "Die Organisation der Vereinten Nationen wurde am 24. Oktober 1945 von 51 Staaten gegründet. Sie hat derzeit 193 Mitglieder...",
+      "whyCorrect": {
+        "de": "Lösung c ist richtig: Heute gehören den Vereinten Nationen 193 Mitgliedstaaten an.",
+        "ar": "الخيار (c) صحيح: يبلغ عدد الدول الأعضاء في الأمم المتحدة حاليًا 193 دولة.",
+        "fr": "L'option c est correcte : L'Organisation des Nations Unies compte aujourd'hui 193 États membres."
+      },
+      "whyIncorrect": {
+        "de": "a (51 Staaten war die Zahl bei der Gründung 1945) und b (120 Nationen arbeiten im VIC) sind falsch.",
+        "ar": "العدد 51 يمثل الدول المؤسسة عام 1945 (a)، والعدد 120 يمثل جنسيات الموظفين في فيينا (b).",
+        "fr": "51 était le nombre d'États fondateurs en 1945 (a) et 120 le nombre de nationalités parmi les employés à Vienne (b)."
+      }
+    },
+    "h12": {
+      "quote": "Es arbeiten heute etwa 4.500 Menschen aus ungefähr 120 verschiedenen Nationen hier. Ein Drittel davon sind Österreicher.",
+      "whyCorrect": {
+        "de": "Lösung c ist richtig: Ein Drittel (also weniger als die Hälfte) der rund 4.500 Beschäftigten sind Österreicher.",
+        "ar": "الخيار (c) صحيح: ثلث الموظفين فقط من النمساويين، أي أقل من نصف إجمالي العاملين في المركز.",
+        "fr": "L'option c est correcte : Un tiers des employés sont autrichiens, ce qui représente moins de la moitié du personnel."
+      },
+      "whyIncorrect": {
+        "de": "a (4.500 ist die Gesamtzahl aller Mitarbeiter) und b (120 ist die Anzahl der Herkunftsnationen) sind falsch.",
+        "ar": "الرقم 4500 هو إجمالي الموظفين من كل الجنسيات (a)، و120 هو عدد الدول التي ينحدرون منها (b).",
+        "fr": "4 500 est l'effectif total (a) et 120 correspond au nombre de nationalités représentées (b)."
+      }
+    },
+    "h13": {
+      "quote": "Der Schwerpunkt dieses Hauptsitzes liegt auf der friedlichen Nutzung der Atomenergie und der menschlichen Sicherheit.",
+      "whyCorrect": {
+        "de": "Lösung b ist richtig: Der Wiener UNO-Sitz hat seinen besonderen Schwerpunkt auf der friedlichen Nutzung der Atomenergie (IAEO, CTBTO).",
+        "ar": "الخيار (b) صحيح: يتركز محور عمل مقر الأمم المتحدة في فيينا على الاستخدام السلمي للطاقة الذرية والأمن البشري.",
+        "fr": "L'option b est correcte : Le siège de l'ONU à Vienne met l'accent principal sur l'utilisation pacifique de l'énergie atomique."
+      },
+      "whyIncorrect": {
+        "de": "a und c sind zwar ebenfalls als Organisationen vertreten, bilden aber laut Text nicht den genannten Hauptschwerpunkt.",
+        "ar": "المنظمات الأخرى موجودة في المبنى لكن النص حدد الطاقة الذرية كمحور رئيسي للمقر.",
+        "fr": "Les autres agences (a et c) sont présentes mais ne constituent pas l'axe prioritaire souligné."
+      }
+    },
+    "h14": {
+      "quote": "Die Delegierten, die zu den Konferenzen kommen, können ihre Reden in einer der sechs Amtssprachen der Vereinten Nationen halten...",
+      "whyCorrect": {
+        "de": "Lösung c ist richtig: Die UNO hat sechs offizielle Amtssprachen (Arabisch, Chinesisch, Englisch, Französisch, Russisch, Spanisch).",
+        "ar": "الخيار (c) صحيح: توجد ست لغات رسمية للأمم المتحدة (العربية، الصينية، الإنجليزية، الفرنسية، الروسية، والإسبانية).",
+        "fr": "L'option c est correcte : Les Nations Unies comptent six langues officielles."
+      },
+      "whyIncorrect": {
+        "de": "a (Zwei ist die Zahl der Arbeitssprachen) und b (in die fünf anderen Sprachen wird simultan übersetzt) sind falsch.",
+        "ar": "اللغتان هما لغتا العمل (a)، والخمس هي اللغات التي يترجم إليها الفوريون (b).",
+        "fr": "Deux est le nombre de langues de travail (a) et cinq le nombre d'autres langues vers lesquelles on traduit (b)."
+      }
+    },
+    "h15": {
+      "quote": "Die zwei Arbeitssprachen der Vereinten Nationen sind Englisch und Französisch.",
+      "whyCorrect": {
+        "de": "Lösung a ist richtig: Die beiden Arbeitssprachen der UNO sind Englisch und Französisch.",
+        "ar": "الخيار (a) صحيح: لغتا العمل الرسميتان في الأمانة العامة للأمم المتحدة هما الإنجليزية والفرنسية.",
+        "fr": "L'option a est correcte : Les deux langues de travail des Nations Unies sont l'anglais et le français."
+      },
+      "whyIncorrect": {
+        "de": "b und c nennen Chinesisch bzw. Spanisch, die zwar Amtssprachen, aber nicht die zwei Arbeitssprachen sind.",
+        "ar": "الصينية والإسبانية من اللغات الرسمية الست وليستا لغتي العمل الثنائيتين.",
+        "fr": "Le chinois et l'espagnol sont des langues officielles mais pas les deux langues de travail."
+      }
+    },
+    "h16": {
+      "quote": "Laura: Mensch, Gabi, das ist ja eine Überraschung. Ich habe dich ja seit dem Abi nicht mehr gesehen.",
+      "whyCorrect": {
+        "de": "Richtig: Laura sagt gleich zur Begrüßung, dass sie Gabi seit dem Abitur (Schulabschluss) nicht mehr gesehen hat.",
+        "ar": "صحيح: تقول لورا في بداية اللقاء إنها لم ترَ غابي منذ شهادة الثانوية العامة (Abitur).",
+        "fr": "Vrai : Laura dit d'emblée qu'elle n'a plus revu Gabi depuis le baccalauréat (la fin du lycée)."
+      },
+      "whyIncorrect": {
+        "de": "Falsch widerspricht dem ersten Satz des Gesprächs.",
+        "ar": "الخيار 'خطأ' يخالف الجملة الأولى في الحوار.",
+        "fr": "Faux contredit la toute première phrase du dialogue."
+      }
+    },
+    "h17": {
+      "quote": "Gabi: Du weißt doch, mein Vater und meine Mutter sind oft ins Flughafencafé nach Frankfurt gefahren... Da habe ich oft auf der Besucherterrasse gestanden und mich immer gefragt, warum fliegt ein Flugzeug eigentlich... Na ja, und so wollte ich Pilotin werden.",
+      "whyCorrect": {
+        "de": "Richtig: Bei den Ausflügen mit ihren Eltern ins Frankfurter Flughafencafé und auf die Besucherterrasse entstand ihr Wunsch, Pilotin zu werden.",
+        "ar": "صحيح: راودتها فكرة أن تصبح طيارة أثناء ذهابها المتكرر مع والديها إلى مقهى وشرفة المطار في فرانكفورت.",
+        "fr": "Vrai : C'est lors des sorties avec ses parents au café de l'aéroport de Francfort que lui est venue l'idée de devenir pilote."
+      },
+      "whyIncorrect": {
+        "de": "Falsch trifft nicht zu.",
+        "ar": "الخيار 'خطأ' غير صحيح.",
+        "fr": "Faux ne s'applique pas."
+      }
+    },
+    "h18": {
+      "quote": "Gabi: ... aber mein Mann und meine zwei Kinder finden es spitze und unterstützen mich.",
+      "whyCorrect": {
+        "de": "Richtig: Ihr Ehemann und ihre beiden Kinder finden ihren Beruf toll und unterstützen sie.",
+        "ar": "صحيح: زوجها وطفلاها معجبون بعملها ويدعمونها بشكل كامل.",
+        "fr": "Vrai : Son mari et ses deux enfants trouvent son métier formidable et la soutiennent."
+      },
+      "whyIncorrect": {
+        "de": "Falsch widerspricht ihrer eigenen Aussage.",
+        "ar": "الخيار 'خطأ' يتعارض مع ما أكدته غابي.",
+        "fr": "Faux contredit directement ses propos."
+      }
+    },
+    "h19": {
+      "quote": "Gabi: Ich denke, das Wichtigste ist, den Beruf zu lieben. Sonst hat man da lange keine Chance. Aber man muss auch gute Physik- und Mathematikkenntnisse haben.",
+      "whyCorrect": {
+        "de": "Falsch: Das Wichtigste ist laut Gabi die Liebe zum Beruf; Physik- und Mathematikkenntnisse kommen erst danach hinzu.",
+        "ar": "خطأ: الشيء الأهم في رأي غابي هو حب المهنة أولاً، بينما المعرفة الجيدة بالفيزياء والرياضيات تأتي كشرط إضافي.",
+        "fr": "Faux : Le plus important selon Gabi est d'aimer ce métier ; les compétences en physique et en mathématiques viennent en complément."
+      },
+      "whyIncorrect": {
+        "de": "Richtig ist falsch, da nicht Mathematik, sondern die Liebe zum Beruf an erster Stelle steht.",
+        "ar": "الخيار 'صحيح' خاطئ لأن حب المهنة هو الأهم وليس الرياضيات.",
+        "fr": "Vrai est erroné car c'est l'amour du métier qui prime."
+      }
+    },
+    "h20": {
+      "quote": "Gabi: ... heute fliege ich z. B. für vier Tage nach Mexiko. ... In zwei Tagen geht es ja auch schon wieder zurück. Nächste Woche, wenn die Ferien beginnen, dürfen die Kinder und mein Mann auch mit. Wir fliegen nach Vancouver... Leider nur für zwei Tage.",
+      "whyCorrect": {
+        "de": "Falsch: Sie kehrt in zwei Tagen aus Mexiko zurück; der zweitägige Aufenthalt mit der Familie ist erst nächste Woche in Vancouver (Kanada).",
+        "ar": "خطأ: ستعود من رحلة المكسيك بعد يومين، أما الإقامة لمدة يومين مع العائلة فستكون الأسبوع القادم في فانكوفر بكندا.",
+        "fr": "Faux : Elle rentre du Mexique dans deux jours ; le séjour de deux jours avec sa famille aura lieu la semaine prochaine à Vancouver."
+      },
+      "whyIncorrect": {
+        "de": "Richtig verwechselt die Rückreise nach zwei Tagen bzw. den Kanada-Flug mit zwei Tagen Urlaub nach dem Mexikoflug.",
+        "ar": "الخيار 'صحيح' يخلط بين موعد العودة من المكسيك وبين رحلة كندا العائلية.",
+        "fr": "Vrai confond le retour au bout de deux jours avec des vacances après le vol pour le Mexique."
+      }
+    },
+    "h21": {
+      "quote": "Gabi: Nein, nein, so einfach geht das nicht, wir haben zwar das Recht, ab und zu unsere Familie mitzunehmen, aber auch nur, wenn die Maschine freie Plätze hat. Sie zahlen dann einen kleineren Aufpreis.",
+      "whyCorrect": {
+        "de": "Falsch: Familienangehörige fliegen nicht umsonst und auch nicht immer, sondern nur bei freien Plätzen und gegen einen kleineren Aufpreis.",
+        "ar": "خطأ: لا يسافر أفراد العائلة مجانًا ولا في كل وقت، بل فقط عند توفر مقاعد شاغرة مقابل دفع رسوم إضافية مخفضة.",
+        "fr": "Faux : Les proches ne voyagent ni toujours ni gratuitement ; il faut qu'il reste des places libres et ils paient un petit supplément."
+      },
+      "whyIncorrect": {
+        "de": "Richtig widerspricht Gabis klarer Verneinung ('Nein, nein, so einfach geht das nicht...').",
+        "ar": "الخيار 'صحيح' يتناقض مع نفي غابي الصريح.",
+        "fr": "Vrai contredit le démenti formel de Gabi."
+      }
+    },
+    "h22": {
+      "quote": "Gabi: Jaja, einige sind schon sehr charmant!",
+      "whyCorrect": {
+        "de": "Richtig: Gabi bestätigt ausdrücklich, dass einige ihrer männlichen Pilotenkollegen sehr charmant sind.",
+        "ar": "صحيح: تؤكد غابي أن بعض زملائها الطيارين يتمتعون بجاذبية ولطف كبيرين.",
+        "fr": "Vrai : Gabi confirme volontiers que certains de ses collègues pilotes sont très charmants."
+      },
+      "whyIncorrect": {
+        "de": "Falsch trifft nicht zu.",
+        "ar": "الخيار 'خطأ' غير صحيح.",
+        "fr": "Faux est inexact."
+      }
+    },
+    "h23": {
+      "quote": "Jörg Pohlmann: Also, ich finde es entschieden wertlos, da diese hochangesehenen Professoren in den meisten Fällen Bücher verfassen, die man ohne Weiteres im Buchhandel kaufen kann...",
+      "whyCorrect": {
+        "de": "Lösung c (Jörg Pohlmann): Jörg argumentiert, man müsse den Studienort nicht wechseln, da man die Bücher der berühmten Professoren einfach kaufen und lesen könne.",
+        "ar": "الخيار (c) يورغ بولمان: يرى يورغ أنه لا داعي للانتقال لأن الأساتذة الكبار يؤلفون كتبًا يمكن شراؤها وقراءتها بسهولة.",
+        "fr": "Option c (Jörg Pohlmann) : Jörg estime qu'il suffit d'acheter et de lire les ouvrages rédigés par ces professeurs renommés."
+      },
+      "whyIncorrect": {
+        "de": "a (Moderatorin) und b (Rebecca Wieland widerspricht ihm hier direkt) sind falsch.",
+        "ar": "المذيعة (a) لم تقل ذلك، وريبيكا (b) تعارض هذا الرأي.",
+        "fr": "L'animatrice (a) n'a pas dit cela et Rebecca (b) défend le point de vue opposé."
+      }
+    },
+    "h24": {
+      "quote": "Rebecca Wieland: Ein Buch kann einfach nicht vermitteln, was man in der Vorlesung und im Gespräch lernt.",
+      "whyCorrect": {
+        "de": "Lösung b (Rebecca Wieland): Rebecca hält dagegen, dass ein Buch niemals das ersetzen kann, was man im persönlichen Austausch in einer Vorlesung lernt.",
+        "ar": "الخيار (b) ريبيكا فيلاند: تؤكد ريبيكا أن الكتاب لا يمكنه أن ينقل ما يتعلمه الطالب في المحاضرات والنقاشات الحية.",
+        "fr": "Option b (Rebecca Wieland) : Rebecca rétorque qu'un livre ne peut pas transmettre ce que l'on apprend en cours magistral et dans le débat."
+      },
+      "whyIncorrect": {
+        "de": "a und c haben diese Aussage nicht gemacht.",
+        "ar": "الخيارات الأخرى لم تصدر عنها هذه العبارة.",
+        "fr": "Ni a ni c n'ont prononcé cette affirmation."
+      }
+    },
+    "h25": {
+      "quote": "Moderatorin: Während des Studiums umzuziehen ist ja doch komplizierter. Wenn man im Arbeitsleben steht, ist es viel einfacher.",
+      "whyCorrect": {
+        "de": "Lösung a (Moderatorin): Die Moderatorin stellt fest, dass ein Umzug während der Studienzeit wegen des knappen Geldes komplizierter ist als später im Berufsleben.",
+        "ar": "الخيار (a) مقدمة البرنامج: تذكر المذيعة أن الانتقال وتغيير السكن أثناء الدراسة أكثر تعقيدًا منه في الحياة المهنية.",
+        "fr": "Option a (Moderatorin) : L'animatrice fait remarquer qu'un déménagement pendant les études est plus compliqué que dans la vie active."
+      },
+      "whyIncorrect": {
+        "de": "b und c gehen danach auf die Kostenfrage ein, aber der Satz stammt von der Moderatorin.",
+        "ar": "العبارة صدرت عن المذيعة تمهيدًا لسؤال الضيوف عن التكاليف.",
+        "fr": "Cette remarque a été formulée par l'animatrice pour introduire la question des coûts."
+      }
+    },
+    "h26": {
+      "quote": "Jörg Pohlmann: Außerdem spielt für mich die berufliche Erfahrung in einem Unternehmen eine viel wichtigere Rolle. Ich habe parallel in einer Immobilienfirma gearbeitet und habe viel gelernt.",
+      "whyCorrect": {
+        "de": "Lösung c (Jörg Pohlmann): Für Jörg ist praktische Arbeitserfahrung in einer Firma viel wichtiger als ein Auslandssemester.",
+        "ar": "الخيار (c) يورغ بولمان: يؤكد يورغ أن الخبرة العملية في إحدى الشركات أهم بكثير بالنسبة له من فصل دراسي في الخارج.",
+        "fr": "Option c (Jörg Pohlmann) : Pour Jörg, l'expérience professionnelle en entreprise joue un rôle bien plus important qu'un semestre à l'étranger."
+      },
+      "whyIncorrect": {
+        "de": "a und b vertreten diese Meinung nicht.",
+        "ar": "الخيارات الأخرى لا تتبنى هذا الرأي.",
+        "fr": "a et b n'expriment pas cet avis."
+      }
+    },
+    "h27": {
+      "quote": "Moderatorin: Der Anschluss vom Studium in die Berufswelt ist für viele Absolventen schwer.",
+      "whyCorrect": {
+        "de": "Lösung a (Moderatorin): Die Moderatorin weist darauf hin, dass der Übergang vom Studium ins Berufsleben für viele Absolventen schwierig ist.",
+        "ar": "الخيار (a) مقدمة البرنامج: تشير المذيعة إلى أن الانتقال من الدراسة إلى سوق العمل والعثور على وظيفة مناسبة أمر صعب على كثير من الخريجين.",
+        "fr": "Option a (Moderatorin) : L'animatrice souligne que l'insertion professionnelle après les études est difficile pour de nombreux diplômés."
+      },
+      "whyIncorrect": {
+        "de": "b und c antworten erst auf diese Feststellung der Moderatorin.",
+        "ar": "الضيفان يجيبان عن هذا الطرح الذي قدمته المذيعة.",
+        "fr": "Les deux invités répondent à ce constat posé par l'animatrice."
+      }
+    },
+    "h28": {
+      "quote": "Jörg Pohlmann: Vor allem während des Studiums ist es wichtig, Kontakte zu knüpfen und Praktika oder andere Arbeitsformen anzustreben.",
+      "whyCorrect": {
+        "de": "Lösung c (Jörg Pohlmann): Jörg empfiehlt, schon während des Studiums Praktika zu machen und berufliche Kontakte zu knüpfen.",
+        "ar": "الخيار (c) يورغ بولمان: ينصح يورغ ببناء العلاقات وإجراء التدريبات العملية (Praktika) أثناء فترة الدراسة.",
+        "fr": "Option c (Jörg Pohlmann) : Jörg recommande de nouer des contacts et de faire des stages en entreprise pendant les études."
+      },
+      "whyIncorrect": {
+        "de": "a und b haben diese Empfehlung nicht ausgesprochen.",
+        "ar": "الخيارات الأخرى لم تقدم هذه النصيحة.",
+        "fr": "a et b n'ont pas formulé cette recommandation."
+      }
+    },
+    "h29": {
+      "quote": "Rebecca Wieland: Wir werden von Tag zu Tag internationaler... Da muss man einfach mal die Erfahrung gemacht haben, wie ein Ausländer denkt, fühlt, ja sogar handelt.",
+      "whyCorrect": {
+        "de": "Lösung b (Rebecca Wieland): Rebecca betont, dass man in einer zunehmend internationalen Welt verstehen muss, wie Menschen aus anderen Kulturen denken und fühlen.",
+        "ar": "الخيار (b) ريبيكا فيلاند: تشدد ريبيكا على أنه في عالم يزداد عولمة وتنوعًا يجب أن نختبر ونفهم كيف يفكر ويشعر ويتصرف الآخرون.",
+        "fr": "Option b (Rebecca Wieland) : Rebecca insiste sur la nécessité, dans un monde globalisé, de comprendre comment pensent et agissent les étrangers."
+      },
+      "whyIncorrect": {
+        "de": "a und c haben dieses Argument nicht vorgebracht.",
+        "ar": "الخيارات الأخرى لم تطرح هذه الحجة.",
+        "fr": "a et c n'ont pas avancé cet argument."
+      }
+    },
+    "h30": {
+      "quote": "Jörg Pohlmann: Also, ich denke, das nützt nur, wenn es für den Beruf fördernd ist, wie z. B. in der Tourismusbranche, bei Fluggesellschaften, in der Hotellerie.",
+      "whyCorrect": {
+        "de": "Lösung c (Jörg Pohlmann): Jörg räumt ein, dass Auslandserfahrungen dort sinnvoll und nötig sind, wo sie dem Beruf direkt nützen – etwa im Tourismus, bei Airlines oder im Hotelwesen.",
+        "ar": "الخيار (c) يورغ بولمان: يرى يورغ أن الخبرة الخارجية تفيد وتلزم فقط في قطاعات محددة مثل السياحة وشركات الطيران والفنادق.",
+        "fr": "Option c (Jörg Pohlmann) : Jörg concède que l'expérience à l'étranger est indispensable dans des secteurs spécifiques comme le tourisme, l'hôtellerie ou les compagnies aériennes."
+      },
+      "whyIncorrect": {
+        "de": "a und b haben die Tourismusbranche nicht genannt.",
+        "ar": "الخيارات الأخرى لم تذكر قطاع السياحة.",
+        "fr": "a et b n'ont pas mentionné le secteur du tourisme."
+      }
+    }
+  },
+  "translations": {
+    "parts": {
+      "1": {
+        "instructions": {
+          "ar": "اقرأ النص والمهام من 1 إلى 6. اختر: هل العبارات صحيحة أم خاطئة؟",
+          "fr": "Lisez le texte et les tâches 1 à 6 correspondantes. Choisissez : les affirmations sont-elles Vraies ou Fausses ?"
+        },
+        "articles": [
+          {
+            "heading": {
+              "ar": "الإنسان كائن اجتماعي",
+              "fr": "L'être humain est un être social"
+            },
+            "sub": {
+              "ar": "الدم أثقل من الماء – والأصدقاء هم العائلة الأفضل. هذان هما القطبان اللذان تدور بينهما حياتنا.",
+              "fr": "Les liens du sang sont plus forts que tout – les amis sont la meilleure des familles. Tels sont les deux pôles entre lesquels se joue notre vie."
+            },
+            "body": {
+              "ar": [
+                "نحن البشر نولد في ظروف وأوضاع لم نخترها لأنفسنا في البداية، لكنها مع ذلك تؤثر فينا بشكل حاسم. وإلى جانب الرعاية والتغذية والحماية، نحتاج حتماً إلى التواصل مع الآخرين. إن مدى تأثير الأشخاص المحيطين بنا علينا يعتمد أيضاً على مقدار الوقت الذي نقضيه معاً ومدى عمق وكثافة اللقاءات؛ فهناك فرق كبير بين أن يكون الشخص حاضراً جسدياً فقط، أو أن يهتم بي ويتفاعل معي وتتحرر المشاعر أثناء ذلك.",
+                "أتساءل مراراً وتكراراً عن الدور الذي تلعبه الروابط العائلية: إلى أي مدى نحن مقيدون بالعوامل الوراثية، وما هي مساحة الحرية المتاحة لنا لتطوير ذواتنا؟ لقد بحثت دراسات التوائم هذا الأمر وقدمت نتائج مثيرة للاهتمام، ولكن هل تنطبق هذه النتائج عليّ أيضاً؟ ماذا لو أعدتُ شريط حياتي إلى الوراء وبدأتُ من جديد؟ هل كنتُ سأصل إلى نفس النقطة التي أقف عندها الآن أم كم ستكون بعيدة عنها؟ لا حدود للخيال هنا.",
+                "يجب أيضاً مراعاة الظروف الخارجية للحياة، مثل الجغرافيا والمناخ والمجتمع. ينبغي للإنسان أن يصنع الأفضل من كل موقف، ولكن أن يعيش أيضاً وفق إمكانياته. ما هي المساحة التي تمنحها لي الإرادة الحرة؟ هل الخيار مفتوح أمامي حقاً لأقرر هكذا أو هكذا؟ ما هو القدر وإلى أي مدى يمكنني التأثير فيه أو حتى تغييره؟ لديّ أسئلة كثيرة جداً أطرحها على الحياة، على حياتي أنا.",
+                "في النهاية، من الأهمية بمكان أيضاً مع من أحافظ على التواصل، أو بعبارة بسيطة: من هم أصدقائي. هذه العلاقة المميزة بين البشر تخضع للدراسة العلمية؛ فعلماء النفس يختبرون دوائر صداقاتنا: كيف تحملنا هذه الشبكة الاجتماعية وما الذي يمكنها تحمله؟ للصداقة أشكال عديدة؛ فهناك أصدقاء العمر الذين يبقون متكاتفين حتى الشيخوخة، وهناك أصدقاء بالجوار وآخرون بعيدون جداً. الصداقات تعبر الأجيال ولا تعرف حدوداً، وبعضها لا يوجد إلا عبر الإنترنت.",
+                "سواء كانت رابطة دم أو مودة صداقة، فإنني أنتقي من العائلة والأصدقاء، من كل كعكة، أطيب الزبيب فيها. هذه هي معادلتي لسعادتي في الحياة."
+              ],
+              "fr": [
+                "Nous, les êtres humains, naissons dans des situations que nous n'avons pas choisies au départ, mais qui nous influencent néanmoins de manière décisive. Outre les soins, la nourriture et la protection, nous avons absolument besoin de contacts avec d'autres personnes. L'importance de l'influence de notre entourage dépend aussi du temps que nous passons ensemble et de l'intensité de nos rencontres. C'est tout autre chose qu'une personne soit simplement présente physiquement ou qu'elle s'occupe de moi en libérant des émotions.",
+                "Je me demande sans cesse quel rôle jouent les liens familiaux. Dans quelle mesure sommes-nous déterminés par notre patrimoine génétique et quelle marge de manœuvre avons-nous pour notre propre développement ? La recherche sur les jumeaux a étudié la question et livré des résultats intéressants. Mais s'appliquent-ils aussi à moi ? Que se passerait-il si je rembobinais le film de ma vie et recommençais tout depuis le début ? Arriverais-je au même point qu'aujourd'hui ? Ici, l'imagination n'a pas de limites.",
+                "Il faut également tenir compte des circonstances extérieures d'une vie, comme la géographie, le climat et la société. On doit tirer le meilleur parti de chaque situation, tout en vivant selon ses possibilités. Quelle marge de manœuvre m'offre le libre arbitre ? Suis-je vraiment libre de décider dans un sens ou dans l'autre ? Qu'est-ce que le destin et jusqu'où puis-je l'influencer ou l'inverser ? J'ai tant de questions sur la vie, sur ma vie.",
+                "Finalement, il est aussi crucial de savoir avec quelles personnes j'entretiens des contacts, ou plus simplement qui sont mes amis. Cette relation particulière entre humains est étudiée scientifiquement. Les psychologues testent nos cercles d'amis : comment ce réseau social nous porte-t-il et que peut-il supporter ? L'amitié prend de nombreuses formes. Il y a des amis pour la vie qui restent soudés jusqu'à un âge avancé, des amis proches et d'autres très éloignés. Les amitiés traversent les générations, ne connaissent pas de frontières et certaines n'existent que sur Internet.",
+                "Qu'il s'agisse de liens du sang ou d'amitié, je picore chez ma famille et mes amis, dans chaque gâteau, les meilleurs raisins secs. C'est ma formule pour mon bonheur de vivre."
+              ]
+            }
+          }
+        ],
+        "example": {
+          "ar": {
+            "text": "يدور المقال في المدونة حول العائلات ذات النفوذ.",
+            "answer": "falsch"
+          },
+          "fr": {
+            "text": "Le blog parle de familles influentes.",
+            "answer": "falsch"
+          }
+        },
+        "questions": {
+          "1": {
+            "text": {
+              "ar": "الأمر الحاسم هو مقدار الوقت الذي يقضيه المرء مع الناس.",
+              "fr": "Ce qui est déterminant, c'est le temps que l'on passe avec les gens."
+            }
+          },
+          "2": {
+            "text": {
+              "ar": "يتساءل المدون عن مدى المساحة المتاحة للإنسان لتطوير نفسه.",
+              "fr": "Le blogueur se demande quelle est la marge de manœuvre pour se développer soi-même."
+            }
+          },
+          "3": {
+            "text": {
+              "ar": "يمكن للمرء أن يتخيل في أفكاره كيف سيكون الحال لو عاش حياته مرة أخرى.",
+              "fr": "On peut imaginer en pensée ce que ce serait si l'on vivait une seconde fois."
+            }
+          },
+          "4": {
+            "text": {
+              "ar": "للبيئة المحيطة تأثير على تطور الإنسان.",
+              "fr": "L'environnement a une influence sur le développement."
+            }
+          },
+          "5": {
+            "text": {
+              "ar": "يختبر علماء النفس مدى قدرة الصداقة على التحمل.",
+              "fr": "Les psychologues testent ce qu'une amitié peut supporter."
+            }
+          },
+          "6": {
+            "text": {
+              "ar": "شعار الكاتب في الحياة هو: أخذ الأفضل من كل شيء.",
+              "fr": "La devise de l'auteur dans la vie est : prendre le meilleur de tout."
+            }
+          }
+        }
+      },
+      "2": {
+        "instructions": {
+          "ar": "اقرأ النص الصحفي والمهام من 7 إلى 9. اختر عند كل مهمة الحل الصحيح a أو b أو c.",
+          "fr": "Lisez l'article de presse et les tâches 7 à 9. Choisissez pour chaque tâche la bonne réponse a, b ou c."
+        },
+        "articles": [
+          {
+            "heading": {
+              "ar": "موضة من السجن",
+              "fr": "La mode venue de prison"
+            },
+            "sub": {
+              "ar": "البنطال الواسع (Baggy-Hose) – المحبوب خاصة لدى عشاق الهيب هوب والمتزلجين – تم اختراعه داخل أحد السجون.",
+              "fr": "Le pantalon baggy – très large et prisé des fans de hip-hop et de skate – a été inventé dans une prison."
+            },
+            "body": {
+              "ar": [
+                "البنطال الواسع (Baggy-Hose) – وهو بنطال فضفاض جداً يحظى بشعبية خاصة بين محبي الهيب هوب والمتزلجين – جرى اختراعه في السجن: ففي أوائل التسعينيات كان هناك العديد من مغني الراب والهيب هوب في السجن، وأرادوا أن يبدوا بمظهر عصري هناك أيضاً، فطلبوا سراويل أكبر من مقاسهم بعدة درجات. ولأنه لم يكن مسموحاً بارتداء الأحزمة في السجن، كانت السراويل تنزلق تلقائياً إلى الأسفل قليلاً؛ وهكذا ظهر بنطال الباغي.",
+                "أصبحت موضة السجون أنيقة اليوم، ويريد أكبر سجن في ألمانيا في برلين-تيغل (Berlin-Tegel) استغلال هذا التوجه. ينتج السجناء ملابسهم الخاصة منذ عام 1898 ويعرضونها للبيع في متجر السجن، غير أنه لم يكن يُباع منها حتى الآن سوى قطعتين أو ثلاث قطع أسبوعياً. ولكن منذ أن خطرت لخبير إعلانات في وكالة ببرلين فكرة عرض الملابس عبر الإنترنت، ارتفعت المبيعات إلى خمسمائة ضعف! ومنذ فترة وجيزة يُنتج هنا خط أزياء ناجح باسم 'haeftling.de' وترد الطلبات عليه من جميع أنحاء العالم.",
+                "عبر الإنترنت يمكن طلب قمصان وسترات وحقائب وأحذية السجن 'الأصلية' بأسعار تتراوح بين 25 و100 يورو، ومؤخراً توفرت ألوان أخرى إلى جانب اللون الأزرق المعتاد. ويقول المسؤول عن هذا القسم: 'إن نجاح مشروع HAEFTLING-Jailwear كبير لدرجة أننا لا نستطيع حالياً قبول أي طلبات جديدة، لأننا لم نكن مستعدين تنظيمياً لهذا العدد الهائل من الطلبات. هناك بالفعل 1500 طلب، وهذا أكثر مما كنا نتوقع.'",
+                "يسير الإنتاج بشكل ممتاز يجعل المسؤولين يأملون في توفير نحو 50 وظيفة جديدة في المستقبل القريب للسجناء البالغ عددهم 1670 سجيناً، وهو أمر إيجابي للغاية لأن نسبة البطالة في السجن تبلغ نحو 40%. ومن العائدات تحصل الدولة ووكالة الإعلانات على حصة لكل منهما، ويحتفظ السجن بالباقي لشراء كتب وأجهزة حاسوب ومعدات رياضية للسجناء، كما يحصل السجناء العاملون في الخياطة على مبلغ إضافي فوق أجرهم اليومي؛ ويقول السجين مايزنبرغ: '50 يورو شهرياً تصنع فرقاً كبيراً' يشتري بها الحلوى والتبغ والقهوة."
+              ],
+              "fr": [
+                "Le pantalon baggy – une coupe très ample particulièrement populaire chez les amateurs de hip-hop et les skateurs – a été inventé en prison : au début des années 1990, de nombreux rappeurs étaient incarcérés et voulaient garder un style cool. Ils demandaient des pantalons de plusieurs tailles trop grands, et comme les ceintures étaient interdites en prison, le pantalon glissait vers le bas. Ainsi est né le baggy.",
+                "La mode carcérale est désormais tendance, et la plus grande prison d'Allemagne à Berlin-Tegel entend bien en profiter. Les détenus fabriquent leurs propres vêtements depuis 1898 et les vendent dans une boutique de la prison, mais seules deux à trois pièces par semaine trouvaient preneur jusqu'ici. Depuis qu'un publicitaire berlinois a eu l'idée de proposer ces articles sur Internet, les ventes ont été multipliées par cinq cents ! La ligne « haeftling.de » reçoit désormais des commandes du monde entier.",
+                "Sur Internet, on peut commander d'« authentiques » chemises, vestes, sacs et chaussures de prison entre 25 et 100 euros. Le succès du projet HAEFTLING-Jailwear est tel qu'on ne peut provisoirement plus accepter de nouvelles commandes : avec déjà 1 500 commandes enregistrées, l'organisation ne suffisait plus à la demande.",
+                "La production marche si bien que les responsables espèrent créer prochainement environ 50 nouveaux postes pour les 1 670 détenus, alors que le chômage carcéral atteint 40 %. Une partie des recettes revient à l'État et à l'agence de publicité, le reste permettant à la prison d'acheter des livres, des ordinateurs et des appareils de sport. Certains détenus reçoivent aussi un complément de salaire : « 50 euros par mois font déjà une grande différence », confie le détenu Meisenberg."
+              ]
+            }
+          }
+        ],
+        "example": {
+          "ar": {
+            "text": "في سجن تيغل ببرلين ...",
+            "options": [
+              "يخيط السجناء ملابسهم بأنفسهم منذ أكثر من 100 عام.",
+              "يتم تصنيع ملابس العمل الرسمية فقط.",
+              "يرتدي السجناء أزياءً حديثة."
+            ],
+            "answer": 0
+          },
+          "fr": {
+            "text": "Dans la prison de Tegel...",
+            "options": [
+              "les détenus cousent eux-mêmes leurs vêtements depuis plus de 100 ans.",
+              "on fabrique des vêtements professionnels.",
+              "les détenus portent des vêtements modernes."
+            ],
+            "answer": 0
+          }
+        },
+        "questions": {
+          "7": {
+            "text": {
+              "ar": "أدت فكرة البيع عبر الإنترنت إلى ...",
+              "fr": "L'idée de la vente sur Internet a conduit à ce que..."
+            },
+            "options": {
+              "ar": [
+                "عرض حوالي 500 قطعة ملابس مختلفة الآن.",
+                "اهتمام الناس في جميع أنحاء العالم بموضة سجن برلين.",
+                "توفر ملابس سجن تناسب جميع الأذواق."
+              ],
+              "fr": [
+                "environ 500 vêtements différents soient désormais proposés.",
+                "l'on s'intéresse désormais dans le monde entier à la mode carcérale berlinoise.",
+                "il existe maintenant des vêtements de prison pour tous les goûts."
+              ]
+            }
+          },
+          "8": {
+            "text": {
+              "ar": "لا يمكن في الوقت الحالي طلب ملابس السجن لأن ...",
+              "fr": "On ne peut pas commander de vêtements de prison en ce moment parce que..."
+            },
+            "options": {
+              "ar": [
+                "ألف قطعة فقط تم تصنيعها.",
+                "الإدارة مكتفية بالنجاح الذي تحقق في الأشهر الثلاثة الماضية.",
+                "حجم الطلبات فاق ما يمكن إنتاجه حالياً."
+              ],
+              "fr": [
+                "seulement 1 000 articles ont été fabriqués.",
+                "on se contente déjà du succès des trois derniers mois.",
+                "il y a eu plus de commandes que ce qui peut être produit."
+              ]
+            }
+          },
+          "9": {
+            "text": {
+              "ar": "من خلال تجارة موضة السجن ...",
+              "fr": "Grâce au commerce de la mode carcérale..."
+            },
+            "options": {
+              "ar": [
+                "لم يعد هناك أي عاطلين عن العمل اليوم.",
+                "يرغب المسؤولون في توفير فرص عمل جديدة.",
+                "توفرت بالفعل 50 وظيفة جديدة."
+              ],
+              "fr": [
+                "il n'y a plus aucun chômeur aujourd'hui.",
+                "on veut créer de nouveaux emplois.",
+                "il existe déjà 50 nouveaux postes."
+              ]
+            }
+          },
+          "10": {
+            "text": {
+              "ar": "في شقة السيد غارسكه ...",
+              "fr": "Chez M. Garske..."
+            },
+            "options": {
+              "ar": [
+                "تم تجديد الشقة بالكامل.",
+                "تم وضع شاشة للمراقبة.",
+                "تم تركيب حساسات استشعار في أماكن متفرقة من الشقة."
+              ],
+              "fr": [
+                "l'appartement a été rénové.",
+                "un écran de surveillance a été installé.",
+                "des capteurs ont été montés à différents endroits de l'appartement."
+              ]
+            }
+          },
+          "11": {
+            "text": {
+              "ar": "إن الأبحاث ...",
+              "fr": "La recherche..."
+            },
+            "options": {
+              "ar": [
+                "تختبر ألعاب حاسوب.",
+                "توقع كبار السن في تكاليف باهظة.",
+                "تحظى بدعم من الاتحاد الأوروبي."
+              ],
+              "fr": [
+                "teste des jeux vidéo.",
+                "plonge les seniors dans de lourdes dépenses.",
+                "est soutenue par l'Union européenne."
+              ]
+            }
+          },
+          "12": {
+            "text": {
+              "ar": "يطلق النظام إنذاراً ...",
+              "fr": "Le système donne l'alerte..."
+            },
+            "options": {
+              "ar": [
+                "عند الاستحمام بشكل مفرط.",
+                "عندما يتصرف الشخص بشكل غير معتاد.",
+                "عندما تكون نافذة مفتوحة في الطابق الأرضي."
+              ],
+              "fr": [
+                "lorsqu'on prend trop souvent de douches.",
+                "lorsqu'on a un comportement inhabituel.",
+                "lorsqu'une fenêtre est ouverte au rez-de-chaussée."
+              ]
+            }
+          }
+        },
+        "instructions2": {
+          "ar": "اقرأ النص الصحفي والمهام من 10 إلى 12. اختر عند كل مهمة الحل الصحيح a أو b أو c.",
+          "fr": "Lisez l'article de presse et les tâches 10 à 12. Choisissez pour chaque tâche la bonne réponse a, b ou c."
+        },
+        "articles2": [
+          {
+            "heading": {
+              "ar": "الممرض غير المرئي",
+              "fr": "L'infirmier invisible"
+            },
+            "sub": {
+              "ar": "لدى المهندسين وخبراء المعلوماتية حلم: أن تسهر التكنولوجيا المتقدمة في الحياة اليومية على صحة كبار السن.",
+              "fr": "Ingénieurs et informaticiens ont un rêve : que la haute technologie veille au quotidien sur la santé des personnes âgées."
+            },
+            "body": {
+              "ar": [
+                "عاش يواخيم غارسكه طويلاً في الماضي، والآن دخل المستقبل شقة الرجل البالغ من العمر 80 عاماً؛ إذ قام خبراء المعلوماتية بتركيب حساسات استشعار في شقته المكونة من غرفتين: في الدش، وعلى الأسقف والجدران، وعند باب الشرفة ودرج أدوات المائدة. على مدار 24 ساعة تراقب هذه الصناديق البيضاء المسن، ويقول: 'لقد اكتسبتُ بذلك مزيداً من الأمان'.",
+                "لا يقتصر الخوف من عواقب القنبلة الديموغرافية على ألمانيا وحدها؛ فمنذ أربع سنوات يدعم الاتحاد الأوروبي في 23 دولة عمل المهندسين والمبرمجين لنزع فتيلها. ويختبر الباحثون سترات مزودة بأسلاك تتصل تلقائياً بطبيب الطوارئ عند حدوث نوبة قلبية، وألعاب حاسوب تحفز على التمارين الرياضية بعد السكتة الدماغية، وحساسات لكل من يخشى السقوط أو نسيان مواقد الطبخ مشتعلة والنوافذ مفتوحة.",
+                "نحو أربع مرات يومياً تظهر رسالة تحذير على حاسوب سوزانه ريش في الطابق الأرضي من مبنى كارل-فالزر، وهي منسقة السكن المدعوم. ينبهها النظام دائماً عندما يتصرف السكان بشكل غير معتاد: كأن لا يستيقظوا صباحاً، أو لا يستحموا لعدة أيام، أو يتركوا النوافذ والأبواب مفتوحة دون مبالاة."
+              ],
+              "fr": [
+                "Joachim Garske a longtemps vécu dans le passé, mais le futur a désormais emménagé chez cet octogénaire. Des informaticiens ont installé des capteurs dans son deux-pièces : dans la douche, aux plafonds et aux murs, sur la porte du balcon et dans le tiroir à couverts. 24 heures sur 24, ces petits boîtiers blancs veillent sur le senior : « J'y ai gagné en sécurité », dit-il.",
+                "L'Allemagne n'est pas la seule à redouter les conséquences de la bombe démographique. Depuis quatre ans, l'Union européenne finance dans 23 pays le travail d'ingénieurs et d'informaticiens chargés de la désamorcer. Les chercheurs testent des gilets connectés qui appellent automatiquement le SAMU en cas d'infarctus, des jeux vidéo qui encouragent les exercices physiques après un AVC, et des capteurs pour ceux qui craignent de chuter ou de laisser les plaques chauffantes allumées.",
+                "Environ quatre fois par jour, un message d'alerte apparaît sur l'ordinateur de Susanne Riesch au rez-de-chaussée de la résidence Karl-Walser. Coordinatrice du logement accompagné, elle est alertée par le système dès que les résidents ont un comportement inhabituel : s'ils ne se lèvent pas le matin, ne se douchent pas pendant plusieurs jours ou laissent portes et fenêtres grandes ouvertes."
+              ]
+            }
+          }
+        ]
+      },
+      "3": {
+        "instructions": {
+          "ar": "اقرأ المواقف من 13 إلى 19 والإعلانات من A إلى J. اختر: أي إعلان يناسب أي موقف؟ يمكنك استخدام كل إعلان مرة واحدة فقط. لموقف واحد لا يوجد إعلان مناسب، وفي هذه الحالة اختر 0 (أو X).",
+          "fr": "Lisez les situations 13 à 19 et les annonces A à J. Choisissez quelle annonce correspond à quelle situation. Pour une situation, il n'y a pas d'annonce correspondante (choisissez 0 / X)."
+        },
+        "example": {
+          "ar": {
+            "text": "ترغب السيدة تسلتر في السفر لبضعة أيام واصطحاب كلبها معها.",
+            "answer": "B"
+          },
+          "fr": {
+            "text": "Mme Zelter souhaite partir quelques jours en voyage et emmener son chien.",
+            "answer": "B"
+          }
+        },
+        "ads": {
+          "A": {
+            "ar": "دليل العطلات: مساعدة للحيوانات في بلد العطلة، خدمة استعلامات بيطرية، جمعية الرفق بالحيوان في إردينغ.",
+            "fr": "Guide de vacances : Aide aux animaux sur le lieu de vacances, service d'information vétérinaire (Association de protection animale)."
+          },
+          "B": {
+            "ar": "استمتع ببرلين مع أصدقائك ذوي الأربع قوائم (الكلاب) بسعر مناسب في فندق فلاكس (Flax-Hotel) ببرلين.",
+            "fr": "Découvrir Berlin avec vos amis à quatre pattes à prix doux au Flax-Hotel de Berlin-Wedding."
+          },
+          "C": {
+            "ar": "عطلة للكلاب والقطط وغيرها: برنامج العناية والاستجمام يقدم فحصاً شاملاً ورعاية وجلسات علاجية وبرامج لياقة للحيوانات الأليفة.",
+            "fr": "Vacances pour chiens, chats et Cie : Programme bien-être offrant examen approfondi, soins, séances de thérapie et remise en forme."
+          },
+          "D": {
+            "ar": "ضيف عند المزارع: المشاركة في الإسطبل والمروج، وتناول الطعام الريفي العضوي، وركوب الجرارات ورعاية الحيوانات للأطفال.",
+            "fr": "Invité à la ferme : Participer à l'étable et aux prés, cuisine bio, promenades en tracteur et soin des animaux pour les enfants."
+          },
+          "E": {
+            "ar": "قطتان صغيرتان لطيفان للإهداء مجاناً! للاستعلام: بيني ريني.",
+            "fr": "Deux adorables chatons à donner gratuitement ! Renseignements : Penny Renny."
+          },
+          "F": {
+            "ar": "'هامس الكلاب': تدريب وتأهيل الكلاب سواء كانت صغيرة أم كبيرة، تدريب كلاب الحراسة والمكفوفين ومجموعات الجراء الصغيرة.",
+            "fr": "« L'homme qui murmure à l'oreille des chiens » : Éducation canine, chiens d'aveugle, groupes pour chiots sur rendez-vous."
+          },
+          "G": {
+            "ar": "'أسماك في المركز': مياه عذبة ومالحة، تشكيلة كبيرة من أحواض السمك (Aquarien) ومستلزماتها وأطعمتها، ونصائح من المحترفين!",
+            "fr": "« Poisson au Centre » : Eau douce et eau de mer, grand choix d'aquariums, accessoires, nourriture et conseils de pros !"
+          },
+          "H": {
+            "ar": "عطلة للكلب، فندق الكلاب 'سومرفيزه': رعاية شاملة على مدار الساعة، تدريب تتبع الأثر، عيادة بيطرية وفريق خبراء.",
+            "fr": "Vacances pour le chien, pension canine « Sommerwiese » : Bien-être, prise en charge complète, clinique vétérinaire et équipe d'experts."
+          },
+          "I": {
+            "ar": "ببغاء رمادي للبيع بسعر مناسب: كان ملكاً لجدتنا، عمره 12 سنة، أليف جداً ويتحدث كلمات كثيرة ويبحث عن بيت يحب الحيوانات.",
+            "fr": "À céder à petit prix : Perroquet gris du Gabon de 12 ans, très affectueux, parle beaucoup, cherche un foyer aimant les animaux."
+          },
+          "J": {
+            "ar": "خدمة التوصيل المنزلي لأغذية الحيوانات الأليفة: فرصتك للعمل كشريك مستقل معنا.",
+            "fr": "Service de livraison à domicile d'aliments pour animaux : Devenez partenaire indépendant avec Sante-Frischdienst."
+          }
+        },
+        "questions": {
+          "13": {
+            "text": {
+              "ar": "يحب سيباستيان القطط كثيراً ويرغب في امتلاك قطة صغيرة خاصة به.",
+              "fr": "Sebastian aime beaucoup les chats et aimerait avoir lui-même un petit chaton."
+            }
+          },
+          "14": {
+            "text": {
+              "ar": "تشعر السيدة سيفيرين بالقلق على صحة قطتها وتبحث عن مساعدة.",
+              "fr": "Mme Severin s'inquiète pour la santé de son chat et cherche de l'aide."
+            }
+          },
+          "15": {
+            "text": {
+              "ar": "يحب السيد سبانوس البحر والأسماك، ويريد اقتناء حوض سمك في المنزل ويبحث عن استشارة.",
+              "fr": "M. Spanos aime la mer et les poissons. Il veut avoir un aquarium chez lui et cherche des conseils."
+            }
+          },
+          "16": {
+            "text": {
+              "ar": "لدى السيد أورتليب كلب راعٍ ألماني صغير ويرغب في تدريبه.",
+              "fr": "M. Ortlieb a un jeune berger allemand et souhaite le faire dresser."
+            }
+          },
+          "17": {
+            "text": {
+              "ar": "تشعر السيدة كوخلر بالوحدة، وتفكر في شراء ببغاء لتعليمه الكلام.",
+              "fr": "Mme Kuchler se sent seule et pense acheter un perroquet pour lui apprendre à parler."
+            }
+          },
+          "18": {
+            "text": {
+              "ar": "ترغب عائلة فيبر في إطلاع الأطفال على حيوانات غريبة ونادرة وتخطط لزيارة حديقة الحيوانات.",
+              "fr": "La famille Weber voudrait montrer des animaux exotiques aux enfants et prévoit une visite au zoo."
+            }
+          },
+          "19": {
+            "text": {
+              "ar": "تسافر السيدة مول في عطلة لمدة أسبوع ولا تستطيع اصطحاب كلبها معها، وتبحث عن مأوى مناسب له.",
+              "fr": "Mme Mühl part une semaine en vacances sans pouvoir emmener son chien et cherche un hébergement pour son compagnon."
+            }
+          }
+        }
+      },
+      "4": {
+        "instructions": {
+          "ar": "اقرأ النصوص من 20 إلى 26. اختر: أي من هؤلاء الأشخاص يعبر عن موقف نقدي تجاه عروض التدريب والتأهيل المستمر (Fortbildungsangebote)؟",
+          "fr": "Lisez les textes 20 à 26. Choisissez : quelles personnes s'expriment de manière critique envers les offres de formation continue ?"
+        },
+        "topic": {
+          "ar": "قيّم رسائل القراء التالية حول مقال بعنوان 'التعلم مدى الحياة'.",
+          "fr": "Évaluez les courriers de lecteurs suivants à propos d'un article intitulé « Apprendre toute la vie »."
+        },
+        "example": {
+          "who": "فاغنر، 35 عاماً، ساربروكن / Wagner, 35, Saarbrücken",
+          "text": {
+            "ar": "من واقع تجربتي الشخصية أؤكد مدى قيمة الإقامة الطويلة في الخارج؛ فمن خلال لقاء الناس في بلدان أخرى يتسع أفقي كثيراً. أنا أؤيد برامج التبادل هذه.",
+            "fr": "Par expérience personnelle, je peux confirmer combien un séjour prolongé à l'étranger est précieux. Je suis favorable à ces programmes d'échange."
+          },
+          "answer": "nein"
+        },
+        "letters": {
+          "20": {
+            "who": "يوليانه، 32 عاماً، هاله / Juliane, 32, Halle",
+            "text": {
+              "ar": "عندما يقترح عليّ مديري دورة تدريبية، أفكر فوراً بأنني لستُ كفؤة بما يكفي، وإلا لما فعل ذلك. أعترف بأنني أخاف من مثل هذه البرامج، ولذلك أفضل قراءة الكتب التخصصية بنفسي.",
+              "fr": "Quand mon chef me propose une formation continue, je pense tout de suite que je ne suis pas assez compétente. J'avoue avoir peur de ces programmes et je préfère lire de la littérature spécialisée."
+            }
+          },
+          "21": {
+            "who": "هولتسمان، 44 عاماً، بريمن / Holzmann, 44, Bremen",
+            "text": {
+              "ar": "يبدو هذا كله جميلاً جداً، لكنني أسألكم: من سيدفع تكاليف كل ذلك؟ إنها مجدداً أموال ضرائبي التي توزع هنا ببذخ! من يحتاج إلى ذلك فعليه على الأقل أن يتحمل نفقاته بنفسه.",
+              "fr": "Tout cela semble bien beau, mais qui va payer ? Ce sont encore mes impôts qu'on distribue gaiement ! Ceux qui en ont besoin devraient au moins les financer eux-mêmes."
+            }
+          },
+          "22": {
+            "who": "فيرونيكا، 32 عاماً، إنسبروك / Veronika, 32, Innsbruck",
+            "text": {
+              "ar": "أحسنتم! إن تأسيس برامج تدريب أوروبية ناجحة يستحق وسام تقدير، ولا ينبغي أبداً نسيان الجنود المجهولين الذين جعلوا هذا العمل ممكناً. هذا يحفز على الاستمرار في هذا الاتجاه.",
+              "fr": "Bravo ! Mettre sur pied des programmes européens de formation performants mérite une distinction. Cela motive à poursuivre dans cette voie."
+            }
+          },
+          "23": {
+            "who": "يوناس، 28 عاماً، بادربورن / Jonas, 28, Paderborn",
+            "text": {
+              "ar": "بالضبط، في عصرنا الحالي تتغير الأشياء بسرعة فائقة تجعلنا نتوقع مواجهة ظروف مهنية متغيرة عاجلاً أم آجلاً. أرى أنه من الجيد أن تقدم الدولة مثل هذه العروض، وينبغي الإكثار منها بانتظام.",
+              "fr": "Exactement, de nos jours les choses évoluent si vite que nous devons nous attendre à des conditions professionnelles changeantes. Je trouve positif que l'État propose de telles offres."
+            }
+          },
+          "24": {
+            "who": "أ. شوخ، 75 عاماً، بازل / A. Schuch, 75, Basel",
+            "text": {
+              "ar": "إيقاظ حب التعلم مدى الحياة وتعزيزه والحفاظ عليه هدف نبيل. وإذا حافظنا على قليل من الفضول في الحياة فسننجح؛ فلا تعلم بلا فضول، فهو يرافقنا طوال العمر ويبقينا قادرين على التطور.",
+              "fr": "Éveiller, encourager et préserver le goût d'apprendre toute sa vie est un noble objectif. Sans curiosité, pas d'apprentissage : elle nous garde aptes à évoluer à tout âge."
+            }
+          },
+          "25": {
+            "who": "ماري، 33 عاماً، ستراسبورغ / Marie, 33, Straßburg",
+            "text": {
+              "ar": "التعليم للجميع يبدو شعاراً ديمقراطياً للغاية، لكنه ليس كذلك في الواقع. فمن يستفيد عادةً من هذه العروض؟ إنهم دائماً أولئك المتفوقون أصلاً. لذا ينبغي التفكير في بدائل وإمكانيات أخرى.",
+              "fr": "L'éducation pour tous, cela sonne très démocratique, mais ça ne l'est pas. Qui profite généralement de ces offres ? Toujours ceux qui ont déjà une longueur d'avance."
+            }
+          },
+          "26": {
+            "who": "كليمنس، 38 عاماً، كوتبوس / Clemens, 38, Cottbus",
+            "text": {
+              "ar": "أمتلك شركة حاسوب صغيرة بها ثلاثة موظفين، ولا أستطيع تمويل دورات تدريبية تقليدية لموظفيّ. ولحسن الحظ تتوفر في مجالنا عروض التعلم الإلكتروني (E-Learning)، فدورات الإنترنت بديل جيد وأقل تكلفة.",
+              "fr": "J'ai une petite société informatique de trois salariés et ne peux pas financer de formations classiques. Heureusement, il existe des offres d'e-learning qui constituent une bonne alternative plus économique."
+            }
+          }
+        }
+      },
+      "5": {
+        "instructions": {
+          "ar": "اقرأ المهام من 27 إلى 30 والنص المرفق حول دليل تركيب خزانة الكتب 'Bruno'. اختر الحل الصحيح: a أو b أو c.",
+          "fr": "Lisez les tâches 27 à 30 et la notice de montage de l'étagère « Bruno ». Choisissez la bonne réponse : a, b ou c."
+        },
+        "articles": [
+          {
+            "heading": {
+              "ar": "دليل تركيب خزانة الكتب 'Bruno'",
+              "fr": "Notice de montage pour l'étagère à livres « Bruno »"
+            },
+            "sub": {
+              "ar": "نهنئكم بشراء أثاثنا عالي الجودة. دليل التركيب المرفق يجعل تجميع هذا الأثاث الفاخر سهلاً للغاية:",
+              "fr": "Nous vous félicitons pour l'achat de notre meuble de haute qualité. La notice ci-jointe facilite son assemblage :"
+            },
+            "body": {
+              "ar": [
+                "1. افتح بحذر الصندوق الكرتوني المحتوي على قطع الأثاث. أخرج جميع القطع من الصندوق وتحقق من وجود كافة أجزاء البناء والتركيب وأنها في حالة سليمة تماماً.",
+                "2. ابدأ بالجزء السفلي للخزانة (A1) وثبّت قوائم الأرجل (F1–4) في الزوايا بالبراغي.",
+                "3. اطرق الآن على الوجه العلوي للقطعة (A1) لإدخال الوصلات المعدنية (4xMV) في الثقوب، وكرر ذلك أيضاً في الجزء العلوي للخزانة (A2 و4xMV).",
+                "4. اعمل الآن على الجزأين الجانبيين (B1 وB2) وثبّت المسامير الملولبة المعدنية (4xMD لكل جانب).",
+                "5. ركّب الآن اللوح الأوسط (Z1) بإدخاله في أحد الجانبين (مثلاً B1)، ثم اجمع قاعدة الخزانة (A1) والجانبين (B1 وB2) معاً وأحكم ربط الوصلات المعدنية.",
+                "6. ضع الجزء العلوي للأثاث (A2) من الأعلى وأحكم ربط الوصلات المعدنية.",
+                "7. افتح الصليب المعدني الداعم (K1) وثبّته بالبراغي (S1–4) في الجهة الخلفية. انتهى العمل! نتمنى لكم وقتاً ممتعاً مع خزانة الكتب الجديدة 'Bruno'!"
+              ],
+              "fr": [
+                "1. Ouvrez délicatement le carton contenant les éléments du meuble. Sortez toutes les pièces et vérifiez que tous les éléments de construction et de montage sont présents et en parfait état.",
+                "2. Commencez par la base de l'étagère (A1) et vissez les pieds (F1–4) dans les coins.",
+                "3. Enfoncez maintenant sur la face supérieure de A1 les raccords métalliques (4xMV) dans les trous. Faites de même sur la partie supérieure de l'étagère (A2 et 4xMV).",
+                "4. Travaillez ensuite sur les panneaux latéraux (B1 et B2). Vissez fermement les chevilles métalliques (4xMD chacune).",
+                "5. Emboîtez maintenant la planche intermédiaire (Z1) sur un panneau latéral (par ex. B1). Assemblez le fond A1 et les côtés B1 et B2, puis serrez les raccords métalliques.",
+                "6. Posez la partie supérieure du meuble (A2) et serrez les raccords métalliques.",
+                "7. Dépliez la croix métallique (K1) et vissez-la au dos de l'étagère à l'aide des vis (S1–4). C'est terminé ! Profitez bien de votre nouvelle bibliothèque « Bruno » !"
+              ]
+            }
+          }
+        ],
+        "questions": {
+          "27": {
+            "text": {
+              "ar": "إن الدليل الإرشادي ...",
+              "fr": "La notice..."
+            },
+            "options": {
+              "ar": [
+                "يصف منشأ قطعة الأثاث.",
+                "يسرد قائمة بجميع القطع فقط.",
+                "يشرح كيفية تركيب وتجميع قطعة الأثاث."
+              ],
+              "fr": [
+                "décrit l'origine du meuble.",
+                "énumère tous les composants.",
+                "explique le montage du meuble."
+              ]
+            }
+          },
+          "28": {
+            "text": {
+              "ar": "قبل البدء بالتركيب ...",
+              "fr": "Avant le montage..."
+            },
+            "options": {
+              "ar": [
+                "يجب التأكد من عدم نقص أي قطعة.",
+                "يجب شراء أدوات العمل.",
+                "يجب وضع الصندوق الكرتوني جانباً."
+              ],
+              "fr": [
+                "il faut vérifier qu'il ne manque rien.",
+                "il faut acheter des outils.",
+                "il faut mettre le carton de côté."
+              ]
+            }
+          },
+          "29": {
+            "text": {
+              "ar": "اللوح الأوسط (Zwischenbrett) ...",
+              "fr": "La planche intermédiaire..."
+            },
+            "options": {
+              "ar": [
+                "يكفي وضعه بالداخل فقط.",
+                "يجب تثبيته بالبراغي على الأرضية.",
+                "يجب تركيبه بإدخاله في أحد الجزأين الجانبيين."
+              ],
+              "fr": [
+                "doit simplement être posée à l'intérieur.",
+                "doit être vissée au sol.",
+                "doit être emboîtée sur un panneau latéral."
+              ]
+            }
+          },
+          "30": {
+            "text": {
+              "ar": "الصليب المعدني (Metallkreuz) ...",
+              "fr": "La croix métallique..."
+            },
+            "options": {
+              "ar": [
+                "يمنح الثبات والاستقرار.",
+                "يجب تثبيته في الجهة الخلفية.",
+                "يجب تركيبه بالدمج دون براغٍ."
+              ],
+              "fr": [
+                "apporte de la stabilité.",
+                "doit être fixée à l'arrière.",
+                "doit être emboîtée."
+              ]
+            }
+          }
+        }
+      },
+      "6": {
+        "instructions": {
+          "ar": "يتكون قسم الاستماع من أربعة أجزاء. ستستمع إلى عدة نصوص وتقوم بحل المهام المرتبطة بها.",
+          "fr": "Le module Compréhension orale se compose de quatre parties. Vous écouterez plusieurs textes et résoudrez les tâches correspondantes."
+        },
+        "teile": {
+          "1": {
+            "title": {
+              "ar": "خمسة نصوص قصيرة · المهام من 1 إلى 10 (يُسمع كل نص مرتين)",
+              "fr": "Cinq textes courts · Tâches 1 à 10 (2 écoutes par texte)"
+            },
+            "desc": {
+              "ar": "ستستمع الآن إلى خمسة نصوص قصيرة. ستسمع كل نص مرتين. لكل نص ستحل مهمتين. اقرأ أولاً المثال (لديك 10 ثوانٍ).",
+              "fr": "Vous allez entendre cinq textes courts. Vous entendrez chaque texte deux fois. Pour chaque texte, résolvez deux tâches."
+            }
+          },
+          "2": {
+            "title": {
+              "ar": "جولة إرشادية في مبنى الأمم المتحدة في فيينا · المهام من 11 إلى 15",
+              "fr": "Visite guidée du bâtiment de l'ONU à Vienne · Tâches 11 à 15"
+            },
+            "desc": {
+              "ar": "ستستمع الآن إلى نص واحد مرة واحدة فقط. حل المهام الخمس باختيار الإجابة الصحيحة a أو b أو c.",
+              "fr": "Vous allez entendre un texte une seule fois. Résolvez les cinq tâches en choisissant la bonne réponse a, b ou c."
+            },
+            "context": {
+              "ar": "أنت تشارك في جولة إرشادية داخل مبنى الأمم المتحدة (VIC) في فيينا وتسمع المعلومات التالية.",
+              "fr": "Vous participez à une visite guidée du siège de l'ONU à Vienne et entendez les informations suivantes."
+            }
+          },
+          "3": {
+            "title": {
+              "ar": "حوار في قطار الأنفاق (U-Bahn) · المهام من 16 إلى 22",
+              "fr": "Conversation dans le métro · Tâches 16 à 22"
+            },
+            "desc": {
+              "ar": "ستستمع الآن إلى محادثة مرة واحدة فقط. حل السبع مهام وحدد: هل العبارات صحيحة أم خاطئة؟",
+              "fr": "Vous allez entendre une conversation une seule fois. Résolvez les sept tâches : les affirmations sont-elles Vraies ou Fausses ?"
+            },
+            "context": {
+              "ar": "أنت تجلس في قطار الأنفاق (U-Bahn) وتسمع امرأتين تتحدثان.",
+              "fr": "Vous êtes assis dans le métro et entendez deux femmes discuter."
+            }
+          },
+          "4": {
+            "title": {
+              "ar": "نقاش إذاعي: لماذا يغير الكثير من الطلاب مكان دراستهم؟ · المهام من 23 إلى 30",
+              "fr": "Débat radio : Pourquoi tant d'étudiants changent-ils de lieu d'études ? · Tâches 23 à 30"
+            },
+            "desc": {
+              "ar": "ستستمع الآن إلى مناقشة مرتين. حل الثماني مهام وحدد: من قال ماذا؟",
+              "fr": "Vous allez entendre une discussion deux fois. Résolvez les huit tâches : qui dit quoi ?"
+            },
+            "context": {
+              "ar": "تناقش مقدمة برنامج 'Aktuell' مع ريبيكا فيلاند ويورغ بولمان مسألة تغيير الكثير من الطلاب في ألمانيا لمكان دراستهم الجامعية.",
+              "fr": "L'animatrice de l'émission « Aktuell » débat avec Rebecca Wieland et Jörg Pohlmann de la question du changement fréquent d'université en Allemagne."
+            }
+          }
+        },
+        "questions": {
+          "h1": {
+            "text": {
+              "ar": "يمكن استبدال البضائع المشتراة بسهولة ودون أي مشكلة.",
+              "fr": "On peut échanger des marchandises sans aucun problème."
+            }
+          },
+          "h2": {
+            "text": {
+              "ar": "البضائع التي بها عيوب يمكن ...",
+              "fr": "Les marchandises défectueuses peuvent..."
+            },
+            "options": {
+              "ar": [
+                "عدم استبدالها.",
+                "استبدالها خلال 7 أيام.",
+                "استبدالها في الوقت المحدد."
+              ],
+              "fr": [
+                "ne pas être échangées.",
+                "être échangées dans un délai de 7 jours.",
+                "être échangées dans le temps imparti."
+              ]
+            }
+          },
+          "h3": {
+            "text": {
+              "ar": "يجب الإبلاغ عن الحقائب المتروكة بلا صاحب لدى الشرطة فقط.",
+              "fr": "Les valises sans surveillance doivent être signalées uniquement à la police."
+            }
+          },
+          "h4": {
+            "text": {
+              "ar": "ينبغي توخي الحذر الشديد من اللصوص المحتالين ...",
+              "fr": "Il faut faire particulièrement attention aux voleurs à la tire..."
+            },
+            "options": {
+              "ar": [
+                "في طوابير الانتظار.",
+                "في طوابق موقف السيارات.",
+                "في دورات المياه."
+              ],
+              "fr": [
+                "dans les files d'attente.",
+                "aux différents niveaux du parking.",
+                "dans les toilettes."
+              ]
+            }
+          },
+          "h5": {
+            "text": {
+              "ar": "الدولة الضيف في معرض الكتاب هي اليابان.",
+              "fr": "Le pays invité d'honneur du salon du livre est le Japon."
+            }
+          },
+          "h6": {
+            "text": {
+              "ar": "الأستاذ المحاضر الزائر قادم من ...",
+              "fr": "Le professeur invité vient..."
+            },
+            "options": {
+              "ar": [
+                "اليابان.",
+                "الصين.",
+                "كوريا."
+              ],
+              "fr": [
+                "du Japon.",
+                "de Chine.",
+                "de Corée."
+              ]
+            }
+          },
+          "h7": {
+            "text": {
+              "ar": "تم بالفعل تحويل مسار السائق المخالف للاتجاه عند المخرج.",
+              "fr": "Le conducteur à contresens a déjà été dévié à la sortie."
+            }
+          },
+          "h8": {
+            "text": {
+              "ar": "وقع حادث الشاحنة ...",
+              "fr": "L'accident du poids lourd s'est produit..."
+            },
+            "options": {
+              "ar": [
+                "على الطريق السريع A9.",
+                "على الطريق الفيدرالي.",
+                "على الطريق السريع A49."
+              ],
+              "fr": [
+                "sur l'autoroute A9.",
+                "sur la route nationale.",
+                "sur l'autoroute A49."
+              ]
+            }
+          },
+          "h9": {
+            "text": {
+              "ar": "يوجد عرض مسرحي بعد ظهر يوم الأحد.",
+              "fr": "Le dimanche après-midi, il y a une représentation théâtrale."
+            }
+          },
+          "h10": {
+            "text": {
+              "ar": "في مسرحية 'بيبي لانغشترومبف' يحصل المرء على خصم عائلي قدره ...",
+              "fr": "Pour « Fifi Brindacier », on bénéficie d'une réduction familiale de..."
+            },
+            "options": {
+              "ar": [
+                "12%.",
+                "15%.",
+                "25%."
+              ],
+              "fr": [
+                "12 %.",
+                "15 %.",
+                "25 %."
+              ]
+            }
+          },
+          "h11": {
+            "text": {
+              "ar": "كم عدد الدول الأعضاء في الأمم المتحدة اليوم؟",
+              "fr": "Combien d'États membres les Nations Unies comptent-elles aujourd'hui ?"
+            },
+            "options": {
+              "ar": [
+                "51",
+                "120",
+                "193"
+              ],
+              "fr": [
+                "51",
+                "120",
+                "193"
+              ]
+            }
+          },
+          "h12": {
+            "text": {
+              "ar": "كم يبلغ عدد الموظفين النمساويين في مركز فيينا الدولي (VIC)؟",
+              "fr": "Combien y a-t-il de collaborateurs autrichiens au VIC ?"
+            },
+            "options": {
+              "ar": [
+                "4500",
+                "120",
+                "أقل من نصف عدد الموظفين"
+              ],
+              "fr": [
+                "4 500",
+                "120",
+                "Moins de la moitié des employés"
+              ]
+            }
+          },
+          "h13": {
+            "text": {
+              "ar": "يركز المقر الرئيسي للأمم المتحدة في فيينا بشكل خاص على ...",
+              "fr": "Le siège de l'ONU à Vienne met l'accent sur..."
+            },
+            "options": {
+              "ar": [
+                "مكافحة المخدرات والجريمة.",
+                "الطاقة الذرية.",
+                "التنمية الصناعية."
+              ],
+              "fr": [
+                "la lutte contre la drogue et la criminalité.",
+                "l'énergie atomique.",
+                "le développement industriel."
+              ]
+            }
+          },
+          "h14": {
+            "text": {
+              "ar": "كم عدد اللغات الرسمية للأمم المتحدة؟",
+              "fr": "Combien de langues officielles les Nations Unies ont-elles ?"
+            },
+            "options": {
+              "ar": [
+                "لغتان",
+                "خمس لغات",
+                "ست لغات"
+              ],
+              "fr": [
+                "Deux",
+                "Cinq",
+                "Six"
+              ]
+            }
+          },
+          "h15": {
+            "text": {
+              "ar": "ما هما لغتا العمل في الأمم المتحدة؟",
+              "fr": "Quelles sont les deux langues de travail des Nations Unies ?"
+            },
+            "options": {
+              "ar": [
+                "الإنجليزية والفرنسية",
+                "الإنجليزية والصينية",
+                "الإنجليزية والإسبانية"
+              ],
+              "fr": [
+                "L'anglais et le français",
+                "L'anglais et le chinois",
+                "L'anglais et l'espagnol"
+              ]
+            }
+          },
+          "h16": {
+            "text": {
+              "ar": "لم ترَ المرأتان بعضهما منذ التخرج من المدرسة الثانوية.",
+              "fr": "Les deux femmes ne se sont plus vues depuis la fin du lycée."
+            }
+          },
+          "h17": {
+            "text": {
+              "ar": "خطرت لها فكرة أن تصبح طيارة في مقهى المطار.",
+              "fr": "L'idée de devenir pilote lui est venue au café de l'aéroport."
+            }
+          },
+          "h18": {
+            "text": {
+              "ar": "عائلتها تدعمها وتساندها.",
+              "fr": "Sa famille la soutient."
+            }
+          },
+          "h19": {
+            "text": {
+              "ar": "أهم شيء في هذه المهنة هو المعرفة الرياضية.",
+              "fr": "Le plus important dans ce métier, ce sont les connaissances en mathématiques."
+            }
+          },
+          "h20": {
+            "text": {
+              "ar": "بعد رحلة المكسيك تحصل الطيارة على إجازة لمدة يومين.",
+              "fr": "Après le vol pour le Mexique, la pilote a deux jours de vacances."
+            }
+          },
+          "h21": {
+            "text": {
+              "ar": "يسافر أفراد العائلة دائماً مجاناً.",
+              "fr": "Les membres de la famille voyagent toujours gratuitement."
+            }
+          },
+          "h22": {
+            "text": {
+              "ar": "بعض الطيارين يتمتعون بجاذبية ولطف كبيرين.",
+              "fr": "Certains pilotes sont très charmants."
+            }
+          },
+          "h23": {
+            "text": {
+              "ar": "من أجل مواصلة التعلم يمكن للمرء أيضاً قراءة مؤلفات الأساتذة الجامعيين.",
+              "fr": "Pour se perfectionner, on peut aussi lire les ouvrages des professeurs."
+            },
+            "options": {
+              "ar": [
+                "مقدمة البرنامج (Moderatorin)",
+                "ريبيكا فيلاند (Rebecca Wieland)",
+                "يورغ بولمان (Jörg Pohlmann)"
+              ],
+              "fr": [
+                "L'animatrice (Moderatorin)",
+                "Rebecca Wieland",
+                "Jörg Pohlmann"
+              ]
+            }
+          },
+          "h24": {
+            "text": {
+              "ar": "الكتاب والمحاضرة الجامعية ليسا الشيء نفسه.",
+              "fr": "Un livre et un cours magistral, ce n'est pas la même chose."
+            },
+            "options": {
+              "ar": [
+                "مقدمة البرنامج (Moderatorin)",
+                "ريبيكا فيلاند (Rebecca Wieland)",
+                "يورغ بولمان (Jörg Pohlmann)"
+              ],
+              "fr": [
+                "L'animatrice (Moderatorin)",
+                "Rebecca Wieland",
+                "Jörg Pohlmann"
+              ]
+            }
+          },
+          "h25": {
+            "text": {
+              "ar": "الانتقال وتغيير السكن أثناء الدراسة أكثر تعقيداً.",
+              "fr": "Un déménagement pendant les études est plus compliqué."
+            },
+            "options": {
+              "ar": [
+                "مقدمة البرنامج (Moderatorin)",
+                "ريبيكا فيلاند (Rebecca Wieland)",
+                "يورغ بولمان (Jörg Pohlmann)"
+              ],
+              "fr": [
+                "L'animatrice (Moderatorin)",
+                "Rebecca Wieland",
+                "Jörg Pohlmann"
+              ]
+            }
+          },
+          "h26": {
+            "text": {
+              "ar": "الخبرة العملية في العمل أهم من قضاء فصل دراسي في الخارج.",
+              "fr": "L'expérience professionnelle est plus importante qu'un semestre à l'étranger."
+            },
+            "options": {
+              "ar": [
+                "مقدمة البرنامج (Moderatorin)",
+                "ريبيكا فيلاند (Rebecca Wieland)",
+                "يورغ بولمان (Jörg Pohlmann)"
+              ],
+              "fr": [
+                "L'animatrice (Moderatorin)",
+                "Rebecca Wieland",
+                "Jörg Pohlmann"
+              ]
+            }
+          },
+          "h27": {
+            "text": {
+              "ar": "من الصعب على الكثيرين العثور على وظيفة مناسبة بعد التخرج.",
+              "fr": "Pour beaucoup, il est difficile de trouver un emploi convenable après les études."
+            },
+            "options": {
+              "ar": [
+                "مقدمة البرنامج (Moderatorin)",
+                "ريبيكا فيلاند (Rebecca Wieland)",
+                "يورغ بولمان (Jörg Pohlmann)"
+              ],
+              "fr": [
+                "L'animatrice (Moderatorin)",
+                "Rebecca Wieland",
+                "Jörg Pohlmann"
+              ]
+            }
+          },
+          "h28": {
+            "text": {
+              "ar": "الخبرات والتدريبات المهنية (Praktika) مهمة للدراسة.",
+              "fr": "Les expériences et les stages professionnels sont importants pour les études."
+            },
+            "options": {
+              "ar": [
+                "مقدمة البرنامج (Moderatorin)",
+                "ريبيكا فيلاند (Rebecca Wieland)",
+                "يورغ بولمان (Jörg Pohlmann)"
+              ],
+              "fr": [
+                "L'animatrice (Moderatorin)",
+                "Rebecca Wieland",
+                "Jörg Pohlmann"
+              ]
+            }
+          },
+          "h29": {
+            "text": {
+              "ar": "في عالم معولم يجب أن يعرف المرء كيف يفكر الآخرون.",
+              "fr": "Dans un monde globalisé, il faut savoir comment pensent les autres."
+            },
+            "options": {
+              "ar": [
+                "مقدمة البرنامج (Moderatorin)",
+                "ريبيكا فيلاند (Rebecca Wieland)",
+                "يورغ بولمان (Jörg Pohlmann)"
+              ],
+              "fr": [
+                "L'animatrice (Moderatorin)",
+                "Rebecca Wieland",
+                "Jörg Pohlmann"
+              ]
+            }
+          },
+          "h30": {
+            "text": {
+              "ar": "في قطاع السياحة تُعد الخبرات الخارجية أمراً لا غنى عنه.",
+              "fr": "Dans le secteur du tourisme, l'expérience à l'étranger est indispensable."
+            },
+            "options": {
+              "ar": [
+                "مقدمة البرنامج (Moderatorin)",
+                "ريبيكا فيلاند (Rebecca Wieland)",
+                "يورغ بولمان (Jörg Pohlmann)"
+              ],
+              "fr": [
+                "L'animatrice (Moderatorin)",
+                "Rebecca Wieland",
+                "Jörg Pohlmann"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

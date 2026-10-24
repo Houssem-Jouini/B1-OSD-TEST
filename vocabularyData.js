@@ -1713,12 +1713,163 @@ const b1VocabData = [
     "defFr": "Protégé par le droit d'auteur.",
     "example": "Es ist verboten, urheberrechtlich geschützte Artikel im Forum ohne Genehmigung zu posten.",
     "tip": "Juristischer Standardbegriff im Medienrecht."
+  },
+  {
+    "id": "v-m4-t1-1",
+    "testId": "modellsatz-10",
+    "term": "der Spielraum",
+    "display": "der Spielraum, -räume",
+    "pos": "Nomen, m.",
+    "teil": 1,
+    "level": "B1",
+    "forms": ["Spielraum", "Spielraums", "Spielräume"],
+    "defDe": "Die Freiheit oder Möglichkeit, selbst zu entscheiden und sich frei zu entwickeln.",
+    "defAr": "مساحة الحرية، هامش التصرف أو التطور الذاتي.",
+    "defFr": "La marge de manœuvre, la liberté d'action.",
+    "example": "Wie weit sind wir durch das Erbgut festgelegt und welchen Spielraum haben wir zur eigenen Entwicklung?",
+    "tip": "Wichtiger Ausdruck in Lesen Teil 1 (Aufgabe 2)."
+  },
+  {
+    "id": "v-m4-t1-2",
+    "testId": "modellsatz-10",
+    "term": "das Erbgut",
+    "display": "das Erbgut (Sg.)",
+    "pos": "Nomen, n.",
+    "teil": 1,
+    "level": "B1",
+    "forms": ["Erbgut", "Erbguts"],
+    "defDe": "Die Gesamtheit der genetischen Eigenschaften, die man von den Eltern erbt (Gene).",
+    "defAr": "الموروث الجيني، العوامل الوراثية.",
+    "defFr": "Le patrimoine génétique, l'hérédité.",
+    "example": "Die Zwillingsforschung untersucht, wie stark wir durch das Erbgut festgelegt sind.",
+    "tip": "Synonym zu 'die Gene' oder 'die Vererbung'."
+  },
+  {
+    "id": "v-m4-t1-3",
+    "testId": "modellsatz-10",
+    "term": "zumuten",
+    "display": "jdm. etwas zumuten (v.)",
+    "pos": "Verb",
+    "teil": 1,
+    "level": "B1",
+    "forms": ["zumuten", "mutet zu", "zugemutet"],
+    "defDe": "Von jemandem oder etwas eine hohe Belastung oder Anstrengung verlangen (aushalten).",
+    "defAr": "يُحمّل (شخصاً أو علاقة) فوق طاقته، يختبر قدرة تحمله.",
+    "defFr": "Exiger de quelqu'un (ou mettre à l'épreuve ce qu'il peut supporter).",
+    "example": "Psychologen testen unsere Freundeskreise: Wie trägt uns dieses soziale Netz und was kann man ihm zumuten?",
+    "tip": "Schlüsselwort für Aufgabe 5 ('was eine Freundschaft aushält')."
+  },
+  {
+    "id": "v-m4-t2-1",
+    "testId": "modellsatz-10",
+    "term": "der Häftling",
+    "display": "der Häftling, -e",
+    "pos": "Nomen, m.",
+    "teil": 2,
+    "level": "B1",
+    "forms": ["Häftling", "Häftlinge", "Häftlingen"],
+    "defDe": "Eine Person, die wegen einer Straftat im Gefängnis sitzt; ein Gefangener.",
+    "defAr": "السجين، النزيل في السجن.",
+    "defFr": "Le détenu, le prisonnier.",
+    "example": "Die Häftlinge produzieren schon seit 1898 ihre eigene Kleidung im Gefängnis.",
+    "tip": "Synonym zu 'der Gefangene'."
+  },
+  {
+    "id": "v-m4-t2-2",
+    "testId": "modellsatz-10",
+    "term": "vorläufig",
+    "display": "vorläufig (Adv./Adj.)",
+    "pos": "Adverb",
+    "teil": 2,
+    "level": "B1",
+    "forms": ["vorläufig", "vorläufige"],
+    "defDe": "Fürs Erste, im Moment, vorübergehend bis sich die Situation ändert.",
+    "defAr": "مؤقتاً، في الوقت الراهن، حتى إشعار آخر.",
+    "defFr": "Provisoirement, pour le moment, temporairement.",
+    "example": "Der Erfolg ist so groß, dass man vorläufig gar keine neuen Bestellungen mehr annehmen kann.",
+    "tip": "Entspricht 'im Moment' in Aufgabe 8."
+  },
+  {
+    "id": "v-m4-t2-3",
+    "testId": "modellsatz-10",
+    "term": "fördern",
+    "display": "fördern (v.)",
+    "pos": "Verb",
+    "teil": 2,
+    "level": "B1",
+    "forms": ["fördern", "fördert", "gefördert"],
+    "defDe": "Finanziell oder ideell unterstützen, damit sich etwas gut entwickelt.",
+    "defAr": "يدعم، يمول، يعزز ويشجع.",
+    "defFr": "Soutenir financièrement, promouvoir, encourager.",
+    "example": "Seit vier Jahren fördert die Europäische Union die Arbeit von Ingenieuren und Informatikern.",
+    "tip": "Schlüsselwort für Aufgabe 11 ('wird von der EU unterstützt')."
+  },
+  {
+    "id": "v-m4-t3-1",
+    "testId": "modellsatz-10",
+    "term": "zutraulich",
+    "display": "zutraulich (Adj.)",
+    "pos": "Adjektiv",
+    "teil": 3,
+    "level": "B1",
+    "forms": ["zutraulich", "zutrauliche"],
+    "defDe": "Ohne Scheu gegenüber Menschen, zahm und freundlich (besonders bei Tieren).",
+    "defAr": "أليف، ودود يألف الناس ولا يخاف منهم.",
+    "defFr": "Affectueux, familier, apprivoisé (pour un animal).",
+    "example": "Der Graupapagei Lora ist 12 Jahre alt, sehr zutraulich und spricht viele Wörter.",
+    "tip": "Wichtiges Adjektiv bei Haustier-Anzeigen."
+  },
+  {
+    "id": "v-m4-t4-1",
+    "testId": "modellsatz-10",
+    "term": "die Fortbildung",
+    "display": "die Fortbildung, -en",
+    "pos": "Nomen, f.",
+    "teil": 4,
+    "level": "B1",
+    "forms": ["Fortbildung", "Fortbildungen", "Fortbildungsangeboten"],
+    "defDe": "Berufliche Weiterbildung durch Kurse oder Seminare, um neue Kenntnisse im Beruf zu erwerben.",
+    "defAr": "التدريب المهني المستمر، دورات التأهيل والتطوير الوظيفي.",
+    "defFr": "La formation continue, le perfectionnement professionnel.",
+    "example": "Wenn mir mein Chef eine Fortbildung vorschlägt, habe ich Angst vor solchen Programmen.",
+    "tip": "Zentrales Thema von Lesen Teil 4."
+  },
+  {
+    "id": "v-m4-t4-2",
+    "testId": "modellsatz-10",
+    "term": "für etwas aufkommen",
+    "display": "für etwas aufkommen (v.)",
+    "pos": "Verb",
+    "teil": 4,
+    "level": "B1",
+    "forms": ["aufkommen", "kommt auf", "aufzukommen"],
+    "defDe": "Die Kosten für etwas selbst bezahlen oder übernehmen.",
+    "defAr": "يتحمل التكاليف المالية، يدفع نفقات شيء بنفسه.",
+    "defFr": "Prendre en charge les frais, payer soi-même.",
+    "example": "Wer eine Fortbildung braucht, der sollte wenigstens selbst dafür aufkommen.",
+    "tip": "B1-Redewendung für 'selbst bezahlen'."
+  },
+  {
+    "id": "v-m4-t5-1",
+    "testId": "modellsatz-10",
+    "term": "die Montageanleitung",
+    "display": "die Montageanleitung, -en",
+    "pos": "Nomen, f.",
+    "teil": 5,
+    "level": "B1",
+    "forms": ["Montageanleitung", "Montage"],
+    "defDe": "Eine schriftliche Beschreibung, die Schritt für Schritt erklärt, wie man ein Möbelstück oder Gerät zusammenbaut.",
+    "defAr": "دليل التركيب والتجميع.",
+    "defFr": "La notice de montage / d'assemblage.",
+    "example": "Die beigefügte Montageanleitung macht Ihnen den Aufbau des Qualitätsmöbels einfach.",
+    "tip": "Schlüsselwort für Aufgabe 27."
   }
 ];
 
 /* ---------------- STORAGE & RETENTION HELPERS ---------------- */
 
 const VOCAB_STORAGE_KEY = 'b1_saved_vocab_ids';
+const CUSTOM_VOCAB_STORAGE_KEY = 'b1_custom_vocab_v1';
 
 function getSavedVocabIds() {
   try {
@@ -1761,13 +1912,125 @@ function toggleSaveVocab(vocabId) {
   }
 }
 
+/* ---------------- CUSTOM VOCABULARY CRUD ---------------- */
+
+function getCustomVocab() {
+  try {
+    const raw = localStorage.getItem(CUSTOM_VOCAB_STORAGE_KEY);
+    return raw ? JSON.parse(raw) : [];
+  } catch (e) {
+    return [];
+  }
+}
+
+function saveCustomVocabList(list) {
+  try {
+    localStorage.setItem(CUSTOM_VOCAB_STORAGE_KEY, JSON.stringify(list));
+  } catch (e) {}
+}
+
+function getAllVocab() {
+  const custom = getCustomVocab();
+  if (!custom || custom.length === 0) return b1VocabData;
+  const map = new Map();
+  b1VocabData.forEach(item => map.set(item.id, item));
+  custom.forEach(item => map.set(item.id, item));
+  return Array.from(map.values());
+}
+
+function findVocabByTerm(term) {
+  if (!term || typeof term !== 'string') return null;
+  const clean = term.trim().toLowerCase();
+  if (!clean) return null;
+  const all = getAllVocab();
+  return all.find(item => {
+    if (item.term && item.term.toLowerCase() === clean) return true;
+    if (Array.isArray(item.forms) && item.forms.some(f => f && f.toLowerCase() === clean)) return true;
+    return false;
+  }) || null;
+}
+
+function addCustomVocab(word) {
+  if (!word || !word.term) throw new Error('Wort muss einen Begriff enthalten.');
+  const cleanTerm = word.term.trim();
+  const wordId = word.id || ('cv-' + Date.now() + '-' + Math.random().toString(36).substr(2, 4));
+
+  const entry = {
+    id: wordId,
+    term: cleanTerm,
+    display: word.display || cleanTerm,
+    pos: word.pos || 'Nomen',
+    teil: word.teil !== undefined ? word.teil : 0,
+    level: word.level || 'B1',
+    forms: Array.isArray(word.forms) && word.forms.length > 0 ? word.forms : [cleanTerm],
+    defDe: word.defDe || cleanTerm,
+    defAr: word.defAr || '',
+    defFr: word.defFr || '',
+    example: word.example || '',
+    tip: word.tip || 'Eigenes B1-Wort',
+    isCustom: true,
+    addedAt: word.addedAt || Date.now()
+  };
+
+  const list = getCustomVocab().filter(w => w.id !== entry.id && w.term.toLowerCase() !== cleanTerm.toLowerCase());
+  list.unshift(entry);
+  saveCustomVocabList(list);
+
+  // Sync in-memory b1VocabData
+  const existingIdx = b1VocabData.findIndex(w => w.id === entry.id || w.term.toLowerCase() === cleanTerm.toLowerCase());
+  if (existingIdx !== -1) {
+    b1VocabData[existingIdx] = entry;
+  } else {
+    b1VocabData.unshift(entry);
+  }
+
+  // Automatically save/star it so it appears in saved vocab & flashcards
+  saveVocabId(entry.id);
+
+  if (typeof window !== 'undefined' && typeof window.dispatchEvent === 'function') {
+    window.dispatchEvent(new CustomEvent('b1-vocab-updated', { detail: { action: 'add', item: entry } }));
+  }
+
+  return entry;
+}
+
+function removeCustomVocab(wordId) {
+  const list = getCustomVocab().filter(w => w.id !== wordId);
+  saveCustomVocabList(list);
+
+  const idx = b1VocabData.findIndex(w => w.id === wordId);
+  if (idx !== -1) {
+    b1VocabData.splice(idx, 1);
+  }
+
+  removeSavedVocabId(wordId);
+
+  if (typeof window !== 'undefined' && typeof window.dispatchEvent === 'function') {
+    window.dispatchEvent(new CustomEvent('b1-vocab-updated', { detail: { action: 'remove', id: wordId } }));
+  }
+
+  return true;
+}
+
+// Merge persisted custom vocab at evaluation
+try {
+  const customInit = getCustomVocab();
+  if (Array.isArray(customInit)) {
+    customInit.forEach(cw => {
+      if (!b1VocabData.some(w => w.id === cw.id)) {
+        b1VocabData.unshift(cw);
+      }
+    });
+  }
+} catch (e) {}
+
 function getVocabById(vocabId) {
-  return b1VocabData.find(v => v.id === vocabId) || null;
+  return getAllVocab().find(v => v.id === vocabId) || null;
 }
 
 function getVocabForTeil(teilId, optTestId) {
   const activeTestId = optTestId || (typeof currentTest !== 'undefined' ? currentTest?.id : null);
-  return b1VocabData.filter(v => {
+  return getAllVocab().filter(v => {
     if (v.testId && activeTestId && v.testId !== activeTestId) return false;
     if (!teilId) return true;
     return v.teil === teilId || v.teil === 0;
@@ -1779,17 +2042,17 @@ function searchVocabList(query, filter = 'all', currentTeil = 1, optTestId) {
   const q = (query || '').trim().toLowerCase();
   const savedIds = getSavedVocabIds();
 
-  return b1VocabData.filter(item => {
+  return getAllVocab().filter(item => {
     if (item.testId && activeTestId && item.testId !== activeTestId) return false;
     if (filter === 'saved' && !savedIds.includes(item.id)) return false;
     if (filter === 'teil' && item.teil !== currentTeil && item.teil !== 0) return false;
 
     if (!q) return true;
     return (
-      item.term.toLowerCase().includes(q) ||
-      item.defDe.toLowerCase().includes(q) ||
-      item.defAr.toLowerCase().includes(q) ||
-      item.defFr.toLowerCase().includes(q) ||
+      (item.term && item.term.toLowerCase().includes(q)) ||
+      (item.defDe && item.defDe.toLowerCase().includes(q)) ||
+      (item.defAr && item.defAr.toLowerCase().includes(q)) ||
+      (item.defFr && item.defFr.toLowerCase().includes(q)) ||
       (item.example && item.example.toLowerCase().includes(q))
     );
   });
@@ -1810,6 +2073,7 @@ function speakGermanWord(text) {
 
 if (typeof window !== 'undefined') {
   window.b1VocabData = b1VocabData;
+  window.getAllVocab = getAllVocab;
   window.getVocabById = getVocabById;
   window.getVocabForTeil = getVocabForTeil;
   window.searchVocabList = searchVocabList;
@@ -1817,17 +2081,26 @@ if (typeof window !== 'undefined') {
   window.isVocabSaved = isVocabSaved;
   window.toggleSaveVocab = toggleSaveVocab;
   window.getSavedVocabIds = getSavedVocabIds;
+  window.getCustomVocab = getCustomVocab;
+  window.addCustomVocab = addCustomVocab;
+  window.removeCustomVocab = removeCustomVocab;
+  window.findVocabByTerm = findVocabByTerm;
 }
 
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = {
     b1VocabData,
+    getAllVocab,
     getVocabById,
     getVocabForTeil,
     searchVocabList,
     speakGermanWord,
     isVocabSaved,
     toggleSaveVocab,
-    getSavedVocabIds
+    getSavedVocabIds,
+    getCustomVocab,
+    addCustomVocab,
+    removeCustomVocab,
+    findVocabByTerm
   };
 }

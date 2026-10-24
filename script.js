@@ -2410,6 +2410,122 @@ function initHorenAudioDeck() {
       statusDot.className = 'horen-status-dot';
     }
   };
+
+  setupHorenMiniPlayer(audio);
+}
+
+/* ---------------- FLOATING MINI AUDIO PLAYER (Hören) ---------------- */
+let horenMiniObserver = null;
+
+function getHorenMiniPlayerEl() {
+  let el = document.getElementById('horenMiniPlayer');
+  if (el) return el;
+  el = document.createElement('div');
+  el.id = 'horenMiniPlayer';
+  el.className = 'horen-mini-player';
+  el.setAttribute('dir', 'ltr');
+  el.setAttribute('role', 'region');
+  el.setAttribute('aria-label', 'Audio-Steuerung');
+  el.innerHTML = `
+    <div class="hmp-info">
+      <span class="hmp-dot" id="hmpDot"></span>
+      <span class="hmp-title" id="hmpTitle">Hören</span>
+      <span class="hmp-time" id="hmpTime">00:00</span>
+    </div>
+    <div class="hmp-controls">
+      <button type="button" class="hmp-btn" id="hmpBack" title="10 Sekunden zurück" aria-label="10 Sekunden zurück">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M1 4v6h6"/><path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"/></svg>
+      </button>
+      <button type="button" class="hmp-btn hmp-play" id="hmpPlay" title="Wiedergabe / Pause" aria-label="Wiedergabe / Pause">
+        <svg class="hmp-icon-play" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="6 3 20 12 6 21 6 3"/></svg>
+        <svg class="hmp-icon-pause" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="display:none;"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>
+      </button>
+      <button type="button" class="hmp-btn" id="hmpFwd" title="10 Sekunden vor" aria-label="10 Sekunden vor">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M23 4v6h-6"/><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"/></svg>
+      </button>
+    </div>
+  `;
+  document.body.appendChild(el);
+
+  const curAudio = () => document.getElementById('horenAudioElement');
+  el.querySelector('#hmpPlay').addEventListener('click', () => {
+    const a = curAudio();
+    if (!a) return;
+    if (a.paused) a.play().catch(() => {}); else a.pause();
+  });
+  el.querySelector('#hmpBack').addEventListener('click', () => {
+    const a = curAudio();
+    if (a) a.currentTime = Math.max(0, a.currentTime - 10);
+  });
+  el.querySelector('#hmpFwd').addEventListener('click', () => {
+    const a = curAudio();
+    if (a) a.currentTime = Math.min(a.duration || 99999, a.currentTime + 10);
+  });
+  return el;
+}
+
+function getCurrentHorenChapterLabel(time) {
+  const t = testData.find(x => x.isHoren);
+  const chapters = (t && t.audioChapters) || [];
+  let label = '';
+  chapters.forEach(ch => {
+    const start = ch.time !== undefined ? ch.time : ch.start;
+    if (start !== undefined && time >= start) {
+      label = ch.title || ch.label || label;
+    }
+  });
+  return label || 'Hören';
+}
+
+function updateHorenMiniPlayer(audio) {
+  const el = document.getElementById('horenMiniPlayer');
+  if (!el || !audio) return;
+  const playIcon = el.querySelector('.hmp-icon-play');
+  const pauseIcon = el.querySelector('.hmp-icon-pause');
+  const dot = el.querySelector('#hmpDot');
+  const isPlaying = !audio.paused;
+  if (playIcon) playIcon.style.display = isPlaying ? 'none' : 'block';
+  if (pauseIcon) pauseIcon.style.display = isPlaying ? 'block' : 'none';
+  if (dot) dot.classList.toggle('playing', isPlaying);
+  const timeEl = el.querySelector('#hmpTime');
+  if (timeEl) timeEl.textContent = formatAudioTime(audio.currentTime || 0);
+  const titleEl = el.querySelector('#hmpTitle');
+  if (titleEl) {
+    const label = getCurrentHorenChapterLabel(audio.currentTime || 0);
+    if (titleEl.textContent !== label) {
+      titleEl.textContent = label;
+      titleEl.title = label;
+    }
+  }
+}
+
+function setHorenMiniVisible(visible) {
+  const el = document.getElementById('horenMiniPlayer');
+  if (el) el.classList.toggle('visible', !!visible);
+}
+window.setHorenMiniVisible = setHorenMiniVisible;
+
+function setupHorenMiniPlayer(audio) {
+  getHorenMiniPlayerEl();
+  ['play', 'pause', 'timeupdate', 'ended', 'loadedmetadata'].forEach(evt => {
+    audio.addEventListener(evt, () => updateHorenMiniPlayer(audio));
+  });
+  updateHorenMiniPlayer(audio);
+
+  const deck = document.getElementById('horenAudioDeck');
+  if (horenMiniObserver) {
+    horenMiniObserver.disconnect();
+    horenMiniObserver = null;
+  }
+  if (deck && typeof IntersectionObserver !== 'undefined') {
+    horenMiniObserver = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        const horenActive = !!document.getElementById('horenAudioElement');
+        setHorenMiniVisible(horenActive && !entry.isIntersecting);
+      });
+    }, { threshold: 0 });
+    horenMiniObserver.observe(deck);
+  }
 }
 
 window.selectHorenAnswer = function(qid, val) {
@@ -2566,9 +2682,12 @@ function renderHorenQuestionCard(q) {
   } else if (q.type === 'speaker') {
     const letters = ['a', 'b', 'c'];
     const idxVal = typeof val === 'number' ? val : (val !== undefined && val !== '' ? parseInt(val, 10) : null);
-    const correctIdx = typeof q.answer === 'number' ? q.answer : parseInt(q.answer, 10);
+    const ansMap = { a: 0, b: 1, c: 2 };
+    const correctIdx = typeof q.answer === 'number' ? q.answer : (ansMap[String(q.answer).toLowerCase()] ?? parseInt(q.answer, 10));
 
-    let speakerNames = trQ?.options?.[questionsLang] || q.options;
+    const horenPart = testData.find(x => x.isHoren);
+    const sec4Speakers = horenPart?.horenSections?.[3]?.speakers?.map(s => s.name);
+    let speakerNames = trQ?.options?.[questionsLang] || q.options || sec4Speakers || ['a', 'b', 'c'];
     if (currentTest.id === 'modellsatz-1') {
       if (isAr) {
         speakerNames = ['منسق الحوار (Moderator)', 'دانا شنايدر (Dana Schneider)', 'فلوريان بادر (Florian Bader)'];
@@ -3406,6 +3525,9 @@ function openVocabModal(tab = 'current') {
   renderVocabModalContent();
   modal.style.display = 'flex';
 }
+window.openVocabModal = openVocabModal;
+window.renderVocabModalContent = renderVocabModalContent;
+window.updateSavedVocabCountBadge = updateSavedVocabCountBadge;
 
 function closeVocabModal() {
   const modal = document.getElementById('vocabModal');
@@ -3467,12 +3589,18 @@ function renderVocabModalContent() {
   cardsGrid.innerHTML = list.map(v => {
     const isSaved = typeof isVocabSaved === 'function' ? isVocabSaved(v.id) : false;
     const teilBadge = v.teil ? `Teil ${v.teil}` : 'Allgemein';
+    const customBadge = v.isCustom ? `<span class="b1-custom-badge" style="background:linear-gradient(135deg, #6366f1, #8b5cf6); color:#fff; font-size:10px; font-weight:700; padding:2px 7px; border-radius:999px; margin-left:6px; display:inline-block; vertical-align:middle;">Eigenes Wort</span>` : '';
+    const deleteBtn = v.isCustom ? `
+      <button type="button" class="btn btn-outline btn-xs" onclick="deleteCustomWordFromModal('${v.id}')" title="Dieses eigene Wort löschen" style="font-size:11px; padding:3px 8px; color:var(--danger, #ef4444); border-color:rgba(239, 68, 68, 0.35); background:transparent; display:inline-flex; align-items:center; gap:4px; margin-left:6px; cursor:pointer;">
+        <span>🗑️</span><span>Löschen</span>
+      </button>` : '';
+
     return `
       <div class="vocab-card" id="vcard-${v.id}">
         <div>
           <div class="vocab-card-header">
             <div>
-              <div class="vocab-card-term">${v.term}</div>
+              <div class="vocab-card-term">${v.term} ${customBadge}</div>
               <div class="vocab-card-meta">
                 <span class="vocab-card-level">B1</span>
                 <span class="vocab-card-pos">${v.pos || ''} · ${teilBadge}</span>
@@ -3500,9 +3628,12 @@ function renderVocabModalContent() {
           </div>
           ${v.example ? `<div style="font-size:11.5px; font-style:italic; color:var(--text-muted); margin-top:6px; line-height:1.35;">„${v.example}“</div>` : ''}
           <div class="vocab-card-actions">
-            <button type="button" class="vpop-star-btn ${isSaved ? 'starred' : ''}" onclick="toggleCardVocabStar('${v.id}')">
-              <span>${isSaved ? '★ Gemerkt' : '☆ Merken'}</span>
-            </button>
+            <div style="display:flex; align-items:center;">
+              <button type="button" class="vpop-star-btn ${isSaved ? 'starred' : ''}" onclick="toggleCardVocabStar('${v.id}')">
+                <span>${isSaved ? '★ Gemerkt' : '☆ Merken'}</span>
+              </button>
+              ${deleteBtn}
+            </div>
             <span style="font-size:11px; color:var(--text-muted);">${v.tip || 'B1 Prüfungsrelevanz'}</span>
           </div>
         </div>
@@ -3514,6 +3645,16 @@ function renderVocabModalContent() {
 window.toggleCardVocabStar = function(vocabId) {
   if (typeof toggleSaveVocab === 'function') {
     toggleSaveVocab(vocabId);
+    updateSavedVocabCountBadge();
+    renderVocabModalContent();
+  }
+};
+
+window.deleteCustomWordFromModal = function(vocabId) {
+  if (confirm('Möchtest du dieses Wort wirklich aus deinem Wortschatz und deinen Lernkarten löschen?')) {
+    if (typeof removeCustomVocab === 'function') {
+      removeCustomVocab(vocabId);
+    }
     updateSavedVocabCountBadge();
     renderVocabModalContent();
   }
@@ -3559,8 +3700,11 @@ function renderSingleFlashcard() {
     <div class="flashcard-scene" onclick="this.querySelector('.flashcard-3d').classList.toggle('flipped')">
       <div class="flashcard-3d" id="activeFlashcard3d">
         <div class="flashcard-face flashcard-front">
-          <div style="display:flex; justify-content:space-between; width:100%;">
-            <span class="vocab-card-level">B1</span>
+          <div style="display:flex; justify-content:space-between; align-items:center; width:100%;">
+            <div style="display:flex; align-items:center; gap:6px;">
+              <span class="vocab-card-level">B1</span>
+              ${v.isCustom ? '<span style="background:linear-gradient(135deg, #6366f1, #8b5cf6); color:#fff; font-size:10px; font-weight:700; padding:2px 7px; border-radius:999px;">Eigenes Wort</span>' : ''}
+            </div>
             <span class="vocab-card-pos">${v.pos || ''}</span>
           </div>
           <div>
@@ -3621,6 +3765,23 @@ window.markFlashcardMastered = function(vocabId) {
     renderSingleFlashcard();
   }
 };
+
+/* Listen for vocabulary additions/deletions from Quick-Lookup or other modules */
+if (typeof window !== 'undefined') {
+  window.addEventListener('b1-vocab-updated', () => {
+    updateSavedVocabCountBadge();
+    const modal = document.getElementById('vocabModal');
+    if (modal && modal.style.display !== 'none') {
+      renderVocabModalContent();
+    }
+    if (typeof applyVocabHighlightsToCurrentTeil === 'function') {
+      document.querySelectorAll('[data-vocab-enriched="true"]').forEach(el => {
+        delete el.dataset.vocabEnriched;
+      });
+      applyVocabHighlightsToCurrentTeil();
+    }
+  });
+}
 
 /* ---------------- 3. PERSONALIZED MISTAKE NOTEBOOK (FEHLERHEFT) ---------------- */
 
@@ -4333,6 +4494,14 @@ function renderCurrentTeil() {
   const questionsPanel = document.getElementById('questionsPanel');
 
   renderTabs();
+
+  if (!(t.isHoren || t.id === 6)) {
+    setHorenMiniVisible(false);
+    if (horenMiniObserver) {
+      horenMiniObserver.disconnect();
+      horenMiniObserver = null;
+    }
+  }
 
   if (t.isHoren || t.id === 6) {
     if (testGrid) testGrid.classList.add('single-column-grid');

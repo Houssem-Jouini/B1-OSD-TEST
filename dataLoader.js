@@ -263,6 +263,9 @@
 
     /* ---- Custom Vocabulary Management ---- */
     getCustomVocab: function() {
+      if (typeof root.getCustomVocab === 'function') {
+        return root.getCustomVocab();
+      }
       try {
         const raw = localStorage.getItem(STORAGE_CUSTOM_VOCAB);
         return raw ? JSON.parse(raw) : [];
@@ -272,6 +275,9 @@
     },
 
     addCustomVocab: function(word) {
+      if (typeof root.addCustomVocab === 'function') {
+        return root.addCustomVocab(word);
+      }
       if (!word || !word.term) throw new Error('Wort muss einen Begriff enthalten.');
       if (!word.id) word.id = 'cv-' + Date.now();
       word.isCustom = true;
@@ -287,6 +293,9 @@
     },
 
     removeCustomVocab: function(wordId) {
+      if (typeof root.removeCustomVocab === 'function') {
+        return root.removeCustomVocab(wordId);
+      }
       const list = this.getCustomVocab().filter(w => w.id !== wordId);
       localStorage.setItem(STORAGE_CUSTOM_VOCAB, JSON.stringify(list));
 
