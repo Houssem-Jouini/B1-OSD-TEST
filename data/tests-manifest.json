@@ -122,5 +122,16 @@
     "partsCount": 6,
     "questionsCount": 50,
     "fileName": "data/tests/modellsatz-11.json"
+  },
+  {
+    "id": "modellsatz-12",
+    "title": "Modelltest 6 — So geht's noch besser B1",
+    "badge": "Modelltest 6",
+    "examTitle": "Goethe / ÖSD B1 Prüfungssimulation — Modelltest 6",
+    "examSub": "Lesen (5 Teile) & Hören (4 Teile) · So geht's noch besser (Klett)",
+    "timeTotal": 65,
+    "partsCount": 6,
+    "questionsCount": 50,
+    "fileName": "data/tests/modellsatz-12.json"
   }
 ]

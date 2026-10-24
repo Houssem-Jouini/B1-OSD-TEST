@@ -1,0 +1,2701 @@
+{
+  "id": "modellsatz-12",
+  "title": "Modelltest 6 — So geht's noch besser B1",
+  "badge": "Modelltest 6",
+  "examTitle": "Goethe / ÖSD B1 Prüfungssimulation — Modelltest 6",
+  "examSub": "Lesen (5 Teile) & Hören (4 Teile) · So geht's noch besser (Klett)",
+  "timeTotal": 65,
+  "parts": [
+    {
+      "id": 1,
+      "title": "Teil 1",
+      "time": 10,
+      "instructions": "Lesen Sie den Text und die Aufgaben 1 bis 6 dazu. Wählen Sie: Sind die Aussagen Richtig oder Falsch?",
+      "articles": [
+        {
+          "heading": "Tanzen – mein Hobby fürs Leben",
+          "sub": "Tanzen macht Spaß und ist gesund. Kein Wunder, dass immer mehr Menschen Tanz als Lust an Bewegung und Musik entdecken: Tanz ist Körperempfindung, Tanz ist Ausdruck, Tanz ist Koordination, Tanz ist Kommunikation.",
+          "body": [
+            "Gerade im Zeitalter der vorwiegend sitzenden Tätigkeiten ist es immer bedeutender, für die richtige Bewegung zu sorgen. Tanzen stärkt das Herz-Kreislauf-System und den Rücken. Auch die Ausdauer, die Koordination, Konzentration und Balance werden gefördert. Die Konzentration auf Tanzschritte und Choreografie befreit den Kopf. Durch die verstärkte Durchblutung beider Gehirnhälften wird die Kreativität gefördert. Schon nach kurzer Zeit verbessert sich das Körpergefühl und das bis ins hohe Alter.",
+            "Dieser Ausgleich ist nicht nur für den Körper gut. Die Bewegung zu Musik baut Stress ab und bringt pure Lebensfreude. Außerdem kommt auch die Geselligkeit in einer Tanzgruppe nicht zu kurz. Innerhalb kürzester Zeit lernt man neue Leute kennen. Ein sehr wichtiger Aspekt des Tanzes ist die Körperwahrnehmung und Körpererfahrung sowie die Bewegung im Raum oder in der Umgebung, ob alleine oder in der Gruppe.",
+            "Seit wann ich dieses Hobby habe? Eigentlich schon immer. Schon als kleines Mädchen faszinierten mich die Musik und das Tanzen. Für Ballettunterricht war das Geld nicht da, aber ich fand auch Tanz-Angebote im Sportunterricht und in Freizeitgruppen. In die Disco sind wir natürlich auch gegangen, wo jeder seinen Stil suchte. Später kam dann die Tanzstunde mit den Gesellschaftstänzen wie Walzer, Foxtrott, Tango und die Latino-Tänze. Sicherlich gehört auch eine gehörige Portion Technik und Disziplin dazu, die Schritte und Bewegungen zu erlernen, aber der Spaß an der Sache überwiegt.",
+            "Wie sagt Norbert Rubey? „Tanz als rhythmisch-periodische Bewegung kann den Menschen aus dem Alltag in ein überalltägliches Dasein versetzen und zugleich Erregung auslösen. Mach kane Tanz oder Drah kane Tanz lautet eine verbreitete Redewendung im Wiener Dialekt, die rät: Rege dich nicht auf oder Begehe in der Aufregung keine Dummheit. Abgesehen davon ist das Leben allerdings von Aufregungen – wienerisch Tanz – begleitet.“",
+            "Tanzen und Tanzen lernen hört nie auf. Eine der neuesten Fitness-Tanz-Programme auf dem Markt ist Zumba. Hier wird zu absolut heißen Rhythmen Aerobic betrieben. Zunächst lernt man ähnlich wie in einer Tanzschule ein paar Grundschritte, hinzu kommen diverse Powerbewegungen und fertig ist Zumba.",
+            "Wirklich eine schweißtreibende Angelegenheit, aber es füllt mich mit Energie. In allen Kulturen findet sich Tanz als Ausdruck von Leben. Und das Schöne ist, dass wir für die Verständigung keine Sprache mit Worten benötigen. Damit trägt der Tanz wie auch die Musik zur internationalen Völkerverständigung bei. Was ich mir wünsche? ... Nie mit dem Tanzen aufhören!"
+          ]
+        }
+      ],
+      "example": {
+        "text": "Die Bloggerin berichtet von lebenslangen Tanzerfahrungen.",
+        "answer": "richtig"
+      },
+      "questions": [
+        {
+          "id": 1,
+          "type": "tf",
+          "text": "Viele Menschen tanzen nicht gern.",
+          "answer": "falsch",
+          "num": 1
+        },
+        {
+          "id": 2,
+          "type": "tf",
+          "text": "Tanzen ist ein Hobby, das man auch im Alter ausüben kann.",
+          "answer": "richtig",
+          "num": 2
+        },
+        {
+          "id": 3,
+          "type": "tf",
+          "text": "Tanzen stärkt das psychische Wohlbefinden.",
+          "answer": "richtig",
+          "num": 3
+        },
+        {
+          "id": 4,
+          "type": "tf",
+          "text": "Die Bloggerin hält es für wichtig, die Tanzbewegungen richtig zu lernen.",
+          "answer": "richtig",
+          "num": 4
+        },
+        {
+          "id": 5,
+          "type": "tf",
+          "text": "Die Bloggerin hält Zumba für zu anstrengend.",
+          "answer": "falsch",
+          "num": 5
+        },
+        {
+          "id": 6,
+          "type": "tf",
+          "text": "Manche Menschen verstehen sich beim Tanzen nicht.",
+          "answer": "falsch",
+          "num": 6
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Teil 2",
+      "time": 20,
+      "instructions": "Lesen Sie den Text aus der Presse und die Aufgaben 7 bis 9 dazu. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+      "articles": [
+        {
+          "heading": "Deutschland und die Kinderrechte",
+          "sub": "1989 hat die Vollversammlung der Vereinten Nationen die UN-Kinderrechtskonvention verabschiedet. Mittlerweile wurde dieses Dokument von fast allen Staaten der Erde unterzeichnet. Auch der Weltkindertag, der in Deutschland immer am 20. September gefeiert wird, soll auf die besonderen Rechte der Kinder hinweisen.",
+          "body": [
+            "Die UN-Kinderrechtskonvention soll sicherstellen, dass Kinder ihre Rechte kennen und auch durchsetzen können. Doch wie sieht die Lage heute wirklich aus? Wie steht es um die Rechte von Kindern in Deutschland? Das Deutsche Kinderhilfswerk zum Beispiel kritisiert, dass das Wohl von Kindern noch immer nicht so berücksichtigt wird wie es die Kinderrechtskonvention eigentlich vorschreibt.",
+            "Dafür wäre es notwendig, dass Kinder auch wirklich an Entscheidungen beteiligt werden, die sie betreffen: zum Beispiel beim Bau von Spielplätzen, in der Schule oder auch bei politischen Wahlen.",
+            "Dr. Heide-Rose Brückner vom Deutschen Kinderhilfswerk sagt: „Politiker müssen die Kinder mehr als bisher in den Mittelpunkt ihrer Politik stellen, zum Beispiel bei der Bekämpfung der Kinderarmut oder beim Ausbau von Beteiligungsrechten für Kinder und Jugendliche.“ Denn leider gibt es noch immer viel zu viele Kinder in Deutschland, die arm sind oder ohne Chancen auf ein gesundes und erfülltes Leben aufwachsen. Deswegen fordern Kinderrechtsorganisationen auch, Kinderrechte ins Deutsche Grundgesetz aufzunehmen. Damit wäre nach Meinung von Kinderrechtsorganisationen ein wichtiger Schritt getan, um Deutschland endlich kinderfreundlicher zu machen."
+          ]
+        }
+      ],
+      "example": {
+        "text": "Der Artikel handelt ...",
+        "options": [
+          "von den Rechten der Kinder in Deutschland.",
+          "vom Kindertag im September.",
+          "von der Vollversammlung der UN."
+        ],
+        "answer": 0
+      },
+      "questions": [
+        {
+          "id": 7,
+          "type": "mcq",
+          "text": "Kinder sollten mitsprechen dürfen, ...",
+          "options": [
+            "wenn eine Straße gebaut wird.",
+            "wenn ein Spielplatz gebaut wird.",
+            "wenn ein Parkplatz gebaut wird."
+          ],
+          "answer": 1,
+          "num": 7
+        },
+        {
+          "id": 8,
+          "type": "mcq",
+          "text": "Frau Brückner sagt, ...",
+          "options": [
+            "dass es in Deutschland viele arme Kinder gibt.",
+            "dass Politiker arm sind.",
+            "dass Politiker im Mittelpunkt stehen."
+          ],
+          "answer": 0,
+          "num": 8
+        },
+        {
+          "id": 9,
+          "type": "mcq",
+          "text": "Die Kinderrechte sollen ...",
+          "options": [
+            "dem Grundgesetz nicht widersprechen.",
+            "selbstverständlich sein.",
+            "ein Teil des Grundgesetzes werden."
+          ],
+          "answer": 2,
+          "num": 9
+        }
+      ],
+      "instructions2": "Lesen Sie den Text aus der Presse und die Aufgaben 10 bis 12 dazu. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+      "articles2": [
+        {
+          "heading": "Jugendportal > Ludwigshafen: Hausaufgabenhilfe Grundschüler",
+          "sub": "Du bist in der Grundschule und suchst jemanden, der dir bei den Hausaufgaben helfen kann?",
+          "body": [
+            "In der Hausaufgabenhilfe der Freizeitstätte Edigheim kannst du in kleinen Gruppen gemeinsam mit zwei Mitarbeiterinnen deine Hausaufgaben erledigen und für Klassenarbeiten üben. Dieses Angebot ist für dich kostenlos.",
+            "Weil es in den meisten Fällen am sinnvollsten ist, wenn die Kinder der Hausaufgabenhilfe längere Zeit regelmäßig kommen und die Plätze hier begrenzt sind, ist dies der einzige Bereich der Freizeitstätte, für den du dich vorher anmelden musst. Geht es nur darum, gezielt einmal für eine Arbeit zu üben oder wenn du eben mal ausnahmsweise deine Aufgaben nicht alleine machen kannst, so helfen dir die Mitarbeiter und Mitarbeiterinnen der Freizeitstätte auch außerhalb der Hausaufgabenhilfe. Kein Problem!",
+            "Zurzeit bekommen Schüler ab der 5. Klasse von Mittwoch bis Freitag jeweils von 15 bis 16 Uhr bei den Hausaufgaben geholfen. Da in dieser Stunde meist nicht alle Hausaufgaben erledigt werden können, beschränkt sich die Hilfe hier auf die wichtigsten, beziehungsweise deine Problemfächer.",
+            "Die Hausaufgabenhilfe findet im Computerraum der Einrichtung statt, du hast also die Möglichkeit die Computer der Freizeitstätte zum Beispiel für Referate oder für die Suche nach Informationen im Internet zu nutzen. Soweit wir die Möglichkeit dazu haben, helfen wir dir natürlich auch gerne außerhalb dieser Zeiten."
+          ]
+        }
+      ],
+      "questions2": [
+        {
+          "id": 10,
+          "type": "mcq",
+          "text": "Die Hausaufgabenhilfe ...",
+          "options": [
+            "wird von der Schule in Edigheim angeboten.",
+            "kommt von der Kirche.",
+            "wird von der Stadt organisiert."
+          ],
+          "answer": 2,
+          "num": 10
+        },
+        {
+          "id": 11,
+          "type": "mcq",
+          "text": "Die Mitarbeiter ...",
+          "options": [
+            "helfen täglich eine Stunde lang.",
+            "helfen soweit es geht auch nach Absprache.",
+            "arbeiten freiwillig."
+          ],
+          "answer": 1,
+          "num": 11
+        },
+        {
+          "id": 12,
+          "type": "mcq",
+          "text": "Die Computer ...",
+          "options": [
+            "haben keinen Zugang zum Internet.",
+            "gehören nicht zur Einrichtung.",
+            "dürfen benutzt werden."
+          ],
+          "answer": 2,
+          "num": 12
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Teil 3",
+      "time": 10,
+      "instructions": "Lesen Sie die Situationen 13 bis 19 und die Anzeigen A bis J aus verschiedenen deutschsprachigen Medien. Wählen Sie: Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Die Anzeige aus dem Beispiel können Sie nicht mehr verwenden. Für eine Situation gibt es keine passende Anzeige. In diesem Fall schreiben Sie 0.",
+      "example": {
+        "text": "Herr Wieland plant eine Reise nach Afrika und möchte wissen, was er zum Schutz seiner Gesundheit tun muss.",
+        "match": "C",
+        "answer": "C"
+      },
+      "adsFormatted": [
+        {
+          "id": "A",
+          "title": "Schönheitsfarm Bella",
+          "text": "Verwöhnprogramme für Damen\nAroma-Massagen · Hallenbad · Sonnenterrasse · Sauna\nFeine leichte Küche zum Abnehmen. Fitnessangebote.\nZeit für Ruhe in entspannter Atmosphäre."
+        },
+        {
+          "id": "B",
+          "title": "Reiseprogramm für Herzkranke",
+          "text": "Zum Radwandern nach Kreta oder zum Golfen nach Mallorca?\nMedizinische Betreuung rund um die Uhr.\nGymnastik, Entspannungsübungen und Herz-Seminare.\nDen Katalog «Reisen für Herz und Kreislauf» anfordern bei: Deutsche Herzstiftung e.V., Vogtstraße 50, 60322 Frankfurt / Main"
+        },
+        {
+          "id": "C",
+          "title": "Optimale Vorbereitung auf Fernreisen",
+          "text": "Welche Impfungen für welches Land? Welche Medikamente mitnehmen? Wo gibt es spezielle Informationen?\nwww.medizin.at/Schwerpunkte/SP_Reise/reise.htm"
+        },
+        {
+          "id": "D",
+          "title": "Deutsche Krebshilfe",
+          "text": "Warum jedes Jahr 2.000 Kinder an Krebs erkranken, ist bis heute nicht geklärt. Sicher ist, dass wir Ihre aktive Hilfe brauchen, um Diagnose, Behandlung und Forschung ständig weiterentwickeln und verbessern zu können. Damit unsere Kleinen eine große Zukunft haben.\nDeutsche Krebshilfe 90 90 93"
+        },
+        {
+          "id": "E",
+          "title": "Das ELTERN-Buch „Gesunde Kinder – Kinderkrankheiten von A - Z“",
+          "text": "Es enthält über 200 Stichwörter zu Krankheiten und gesundheitlichen Problemen von Kindern. Ein gesonderter Teil bietet wichtige Informationen für Notfälle – Erste Hilfe.\nNaumann & Göbel Verlag. Im Buchhandel und in Kaufhäusern. (Empfohlener Preis: 18 Euro)"
+        },
+        {
+          "id": "F",
+          "title": "Heilklima: Das Allgäu",
+          "text": "Das Allgäu hat 14 anerkannte Kurorte, sieben davon sind „Heilklimatische Kurorte“. Temperaturreize, Sonne, Licht und Bewegung. Zur Klimatherapie gehören... Sie hat sich vor allem bei Erkrankungen von Atemwegen und Haut bewährt.\nMehr Informationen über Kuren beim Tourismusverband Allgäu / Bayerisch-Schwaben, Tel.: 0821 / 33335"
+        },
+        {
+          "id": "G",
+          "title": "Tempur Matratzen und Schlafkissen",
+          "text": "Für die Raumfahrt entwickelt – gegen Rückenschmerzen bewährt. Fördern die Durchblutung – sorgen für ruhigen, entspannten Schlaf. Fühlen Sie den Unterschied zu Hause – testen Sie die Tempur Matratzen 30 Nächte unverbindlich. Fragen Sie Ihren Arzt, Apotheker oder Physiotherapeuten.\nTempur Gefinex GmbH, Rote Erde 6, 33803 Steinhagen"
+        },
+        {
+          "id": "H",
+          "title": "Schlauer Knopf: der Lexikon-Button von GesundheitPro.de",
+          "text": "Drei neue Lexika warten im Internet auf Sie:\n• das Wörterbuch medizinischer Fachausdrücke\n• das Fremdwörterbuch\n• das Universalwörterbuch\nKostenlose Informationen in Sekundenschnelle! Schauen Sie mal rein: www.GesundheitPro.de"
+        },
+        {
+          "id": "I",
+          "title": "Apotheken-Aktionswochen zur Raucherentwöhnung",
+          "text": "Dem blauen Dunst Ade zu sagen, ist nicht ganz einfach. TROTZDEM: Jeder kann es schaffen! Auch Sie! Dabei können wir Ihnen helfen. Nutzen Sie unsere Aktionswochen zur Raucherentwöhnung! Tipps, wie man Rauchen reduziert und von der Zigarette loskommt.\nInformationen in Ihrer Apotheke."
+        },
+        {
+          "id": "J",
+          "title": "Hörpille Akustin",
+          "text": "Aktiver hören! Hörzellen stärken! Nebengeräusche verringern! Mehr Sicherheit. Hilfe bei altersbedingten Hörproblemen. Rezeptfrei in allen Apotheken."
+        }
+      ],
+      "questions": [
+        {
+          "id": 13,
+          "type": "match",
+          "text": "Herr Krämer schläft nachts schlecht. Er denkt daran, eventuell ein neues Bett zu kaufen.",
+          "answer": "G",
+          "num": 13
+        },
+        {
+          "id": 14,
+          "type": "match",
+          "text": "Frau Müller möchte wissen, wie sie ihrem Kind bei kleinen Verletzungen und Unfällen helfen kann, wenn mal kein Arzt in der Nähe ist.",
+          "answer": "E",
+          "num": 14
+        },
+        {
+          "id": 15,
+          "type": "match",
+          "text": "Herr Engelhardt möchte gerne weniger rauchen, schafft es aber nicht alleine. Er sucht Hilfe.",
+          "answer": "I",
+          "num": 15
+        },
+        {
+          "id": 16,
+          "type": "match",
+          "text": "Herr Roth möchte eine alternative Therapie gegen sein Asthma ausprobieren und sucht hierzu einen Heilpraktiker.",
+          "answer": "F",
+          "num": 16
+        },
+        {
+          "id": 17,
+          "type": "match",
+          "text": "Frau Köhler hatte einen Herzinfarkt, will aber nicht auf Auslandsreisen verzichten. Sie sucht nach einem geeigneten Reiseangebot.",
+          "answer": "B",
+          "num": 17
+        },
+        {
+          "id": 18,
+          "type": "match",
+          "text": "Holger hat eine Hautkrankheit, die er bisher erfolglos mit allen möglichen Mitteln behandelt hat. Er sucht eine wirksame Therapie.",
+          "answer": "0",
+          "num": 18
+        },
+        {
+          "id": 19,
+          "type": "match",
+          "text": "Frau Vogel möchte auf möglichst angenehme Weise etwas schlanker werden.",
+          "answer": "A",
+          "num": 19
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Teil 4",
+      "time": 15,
+      "instructions": "Lesen Sie die Texte 20 bis 26. Wählen Sie: Welche Personen äußern sich kritisch zum neuen Reisekonzept?",
+      "topic": "Beurteilen Sie folgende Kommentare zu einem Artikel mit dem Titel „Der sanfte Tourismus“.",
+      "example": {
+        "who": "Kuhn, 34, Düsseldorf",
+        "text": "Ich begrüße es, dass wir sogenannten LOHAS (Lifestyle of Health and Sustainability) endlich von den Reiseveranstaltern ernst genommen werden. Die Angebote scheinen interessant zu sein, müssen aber noch geprüft werden. Das erleichtert vielleicht so manche Reiseentscheidung und erweitert die Möglichkeiten.",
+        "answer": "nein"
+      },
+      "letters": [
+        {
+          "id": 20,
+          "who": "Lauinger, 39, Stuttgart",
+          "text": "Also die Idee des alternativen Tourismus klingt ja wunderbar, aber die Zielgruppe scheint mir sehr elitär zu sein. Wer kann sich denn so einen Luxus-Urlaub leisten? Ich bin auch für Bio und zahle für die Produkte gerne etwas mehr, weil ich weiß, wofür, aber hier fühle ich mich total ausgegrenzt.",
+          "answer": "ja",
+          "num": 20
+        },
+        {
+          "id": 21,
+          "who": "Peter W., 62, Graz",
+          "text": "Die Verantwortung für klimabewusstes Reisen kann nicht nur beim Kunden liegen. Ich halte es für geradezu kriminell, ein reines Gewissen für einen Aufpreis beim Ticket anzubieten. Das ist ja wie in der Kirche im Mittelalter, wo man sich einen Platz im Paradies kaufen konnte.",
+          "answer": "ja",
+          "num": 21
+        },
+        {
+          "id": 22,
+          "who": "David, 26, Schwerin",
+          "text": "Ich finde es großartig, den Urlaub mit einem Freiwilligen-Programm zu verbinden. So habe ich endlich die Möglichkeit, moralisch unbedenklich in exotische Reiseziele zu kommen und das weitab vom Touristenstrom. Das nenne ich authentische Erlebnisse. Da helfe ich doch gerne!",
+          "answer": "nein",
+          "num": 22
+        },
+        {
+          "id": 23,
+          "who": "F. Blei, 28, Bozen",
+          "text": "Genau das ist es: Erlebnisurlaub in der Natur, Unterkunft im Energiehotel mit Solarstrom und klug durchdachten Management. Komfort und Bequemlichkeit mit einem Kick Abenteuer, verbunden mit einem ökologisch vertretbaren Programm, das trifft den neuen Lifestyle.",
+          "answer": "nein",
+          "num": 23
+        },
+        {
+          "id": 24,
+          "who": "Kern, 48, Bregenz",
+          "text": "Mit diesen geschickt „verpackten“ Fernreisen wollen die Veranstalter die Kunden glauben lassen sich ökologisch korrekt zu verhalten. Welch ein Irrtum! Sollen sie doch mal nachfragen, wie viel Abgase ein Jet macht. Solche Reisen sind doch nur Mogelpackungen für Umweltsünder.",
+          "answer": "ja",
+          "num": 24
+        },
+        {
+          "id": 25,
+          "who": "Kubisch, 31, Rügen",
+          "text": "Schön, dass unsere Konsum- und Wegwerfgesellschaft so langsam beginnt nach neuen Werten zu suchen. Nach Bio und fairem Handel nun also auch faires Reisen. Ich hoffe, dass sich dieser neue Zweig gut entwickelt und ich bin gespannt auf weitere Berichte.",
+          "answer": "nein",
+          "num": 25
+        },
+        {
+          "id": 26,
+          "who": "Blattner, 70, Potsdam",
+          "text": "Warum in die Ferne schweifen, wenn das Gute liegt so nah! Für mich ist und bleibt die bessere Alternative: zu Hause bleiben! Gut, damit meine ich nicht unbedingt mein Zuhause, sondern meine Umgebung, meine Region. Auch hier gibt es reizvolle Landschaften. Es ist doch irrsinnig, dass die Menschen den Planeten besser kennen, als den Wald vor ihrem Haus.",
+          "answer": "ja",
+          "num": 26
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Teil 5",
+      "time": 10,
+      "instructions": "Lesen Sie die Aufgaben 27 bis 30 und den Text dazu. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+      "articles": [
+        {
+          "heading": "Bibliotheksordnung der Ludwig-Maximilians-Universität München (bearbeitete Fassung)",
+          "sub": "I. Benutzung",
+          "body": [
+            "1. Die Benutzung ist Studenten und Mitarbeitern der LMU sowie Besuchern während der allgemeinen Öffnungszeiten gestattet.",
+            "2. Die Räume der Bibliothek dürfen nur ohne Mäntel/Jacken und ohne Taschen/Rucksäcke betreten werden. Eine Garderobe befindet sich im Aufenthaltsraum E 12. Bei Betreten und Verlassen der Bibliothek sind alle mitgeführten Bücher der Aufsicht vorzuzeigen.",
+            "3. Rauchen, Essen, Trinken und mobiles Telefonieren sind in allen Räumen der Bibliothek verboten. Um andere Bibliotheksbenutzer nicht zu stören, ist lautes Reden zu vermeiden.",
+            "4. Die Computerarbeitsplätze dienen ausschließlich der Arbeit im Zusammenhang mit dem Bibliotheksbestand und der fachbezogenen Information (z.B. Nutzen des Bibliothekskatalogs, Literaturrecherchen).",
+            "5. Wesentliche Voraussetzung für die Funktionsfähigkeit der Bibliothek ist die ständige Wahrung des Klassifikationssystems. Ausgeliehene Bücher sind bei der Aufsicht zurückzugeben. Das Verstellen der Bücher wird als ein Verstoß gegen die Bibliotheksordnung angesehen.",
+            "6. Haftung für von Benutzern mitgebrachte Gegenstände wird von der Bibliothek nicht übernommen.",
+            "7. Bitte achten Sie beim Kopieren auf die schonende Behandlung der Bücher und Zeitschriften. Bei Fragen zur Bibliotheksbenutzung, der Bedienung des elektronischen Kataloges und des Kopierers wenden Sie sich bitte an die Aufsichten und die Assistenten."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": 27,
+          "type": "mcq",
+          "text": "Der Text ist für ...",
+          "options": [
+            "Nutzer der Bibliothek.",
+            "die Mitarbeiter der Bibliothek.",
+            "die Ausleihe von Büchern."
+          ],
+          "answer": 0,
+          "num": 27
+        },
+        {
+          "id": 28,
+          "type": "mcq",
+          "text": "Die Garderobe ...",
+          "options": [
+            "muss man zeigen.",
+            "ist am Eingang.",
+            "ist im Aufenthaltsraum."
+          ],
+          "answer": 2,
+          "num": 28
+        },
+        {
+          "id": 29,
+          "type": "mcq",
+          "text": "Das Handy ...",
+          "options": [
+            "darf man nicht benutzen.",
+            "muss man auf leise stellen.",
+            "ist nur im Aufenthaltsraum erlaubt."
+          ],
+          "answer": 0,
+          "num": 29
+        },
+        {
+          "id": 30,
+          "type": "mcq",
+          "text": "Die Bibliotheks-Computer ...",
+          "options": [
+            "sind ausschließlich für die Mitarbeiter der Bibliothek.",
+            "sind nur für die Bibliotheksbenutzung.",
+            "sind selten frei."
+          ],
+          "answer": 1,
+          "num": 30
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "🎧 Hören",
+      "badge": "Hören",
+      "isHoren": true,
+      "time": 40,
+      "instructions": "Sie hören 4 Teile. Zu jedem Teil lösen Sie Aufgaben. Sie hören jeden Text ein- oder zweimal.",
+      "audioSrc": "audio/modellsatz-12-hoeren.mp3",
+      "audioFallbacks": [
+        "audio/modellsatz-12-hoeren.mp3"
+      ],
+      "audioChapters": [
+        {
+          "time": 0,
+          "label": "00:00 Teil 1 (Beispiel · 2x)",
+          "part": 1,
+          "title": "Teil 1 · Beispiel (2x hören)",
+          "start": 0,
+          "end": 56
+        },
+        {
+          "time": 56,
+          "label": "00:56 Teil 1 (Texte 1–5 · 2x)",
+          "part": 1,
+          "title": "Teil 1 · Fünf kurze Texte (2x hören)",
+          "start": 56,
+          "end": 652
+        },
+        {
+          "time": 652,
+          "label": "10:52 Teil 2 (Wohnungsbesichtigung · 1x)",
+          "part": 2,
+          "title": "Teil 2 · Wohnungsbesichtigung mit dem Makler (1x hören)",
+          "start": 652,
+          "end": 875
+        },
+        {
+          "time": 875,
+          "label": "14:35 Teil 3 (Marktstand · 1x)",
+          "part": 3,
+          "title": "Teil 3 · Gespräch zweier Damen am Marktstand (1x hören)",
+          "start": 875,
+          "end": 1176
+        },
+        {
+          "time": 1176,
+          "label": "19:36 Teil 4 (1. Durchgang)",
+          "part": 4,
+          "title": "Teil 4 · Diskussion: Phänomen „Hotel Mama“ (1. Durchgang)",
+          "start": 1176,
+          "end": 1622
+        },
+        {
+          "time": 1622,
+          "label": "27:02 Teil 4 (2. Durchgang — Wiederholung)",
+          "part": 4,
+          "title": "Teil 4 · Diskussion: Phänomen „Hotel Mama“ (2. Durchgang)",
+          "start": 1622,
+          "end": 2018
+        }
+      ],
+      "horenSections": [
+        {
+          "id": 1,
+          "title": "Teil 1: Fünf kurze Texte"
+        },
+        {
+          "id": 2,
+          "title": "Teil 2: Wohnungsbesichtigung mit dem Makler"
+        },
+        {
+          "id": 3,
+          "title": "Teil 3: Gespräch am Marktstand zweier Damen"
+        },
+        {
+          "id": 4,
+          "title": "Teil 4: Diskussion: Das Phänomen „Hotel Mama“"
+        }
+      ],
+      "questions": [
+        {
+          "id": "h1",
+          "teilPart": 1,
+          "type": "tf",
+          "text": "Das Flugzeug fliegt gerade durch heftige Turbulenzen.",
+          "answer": "richtig",
+          "num": 1,
+          "textNum": 1,
+          "audioStart": 56
+        },
+        {
+          "id": "h2",
+          "teilPart": 1,
+          "type": "mcq",
+          "text": "Die Crew wird ...",
+          "options": [
+            "aufhören, das Essen auszuteilen.",
+            "auf eine andere Flughöhe ausweichen.",
+            "die Turbulenzen umfliegen."
+          ],
+          "answer": 0,
+          "num": 2,
+          "textNum": 1,
+          "audioStart": 56
+        },
+        {
+          "id": "h3",
+          "teilPart": 1,
+          "type": "tf",
+          "text": "Der Golfplatz ist bis 7 Uhr abends geöffnet.",
+          "answer": "falsch",
+          "num": 3,
+          "textNum": 2,
+          "audioStart": 170
+        },
+        {
+          "id": "h4",
+          "teilPart": 1,
+          "type": "mcq",
+          "text": "Die Eintrittskarte für den Golfplatz kostet ...",
+          "options": [
+            "3 Euro.",
+            "5 Euro.",
+            "nichts."
+          ],
+          "answer": 2,
+          "num": 4,
+          "textNum": 2,
+          "audioStart": 170
+        },
+        {
+          "id": "h5",
+          "teilPart": 1,
+          "type": "tf",
+          "text": "Während der Renovierungsarbeiten gibt es keine Filmvorführungen.",
+          "answer": "richtig",
+          "num": 5,
+          "textNum": 3,
+          "audioStart": 289
+        },
+        {
+          "id": "h6",
+          "teilPart": 1,
+          "type": "mcq",
+          "text": "Am Sonntag ...",
+          "options": [
+            "kann man einen Film sehen.",
+            "ist nur die Kasse geöffnet.",
+            "ist das Kino geschlossen."
+          ],
+          "answer": 2,
+          "num": 6,
+          "textNum": 3,
+          "audioStart": 289
+        },
+        {
+          "id": "h7",
+          "teilPart": 1,
+          "type": "tf",
+          "text": "Im Einkaufszentrum ist für alle Altersstufen gesorgt.",
+          "answer": "richtig",
+          "num": 7,
+          "textNum": 4,
+          "audioStart": 415
+        },
+        {
+          "id": "h8",
+          "teilPart": 1,
+          "type": "mcq",
+          "text": "Beim Wettbewerb gibt es etwas ...",
+          "options": [
+            "für Kinder.",
+            "für Erwachsene.",
+            "sowohl für Kinder als auch Erwachsene."
+          ],
+          "answer": 0,
+          "num": 8,
+          "textNum": 4,
+          "audioStart": 415
+        },
+        {
+          "id": "h9",
+          "teilPart": 1,
+          "type": "tf",
+          "text": "Der Arzt schickt ein Rezept per E-Mail.",
+          "answer": "falsch",
+          "num": 9,
+          "textNum": 5,
+          "audioStart": 521
+        },
+        {
+          "id": "h10",
+          "teilPart": 1,
+          "type": "mcq",
+          "text": "Die Befunde ...",
+          "options": [
+            "sind alle in Ordnung.",
+            "sind außer dem Cholesterinspiegel alle in Ordnung.",
+            "sind außer den Eisenwerten alle in Ordnung."
+          ],
+          "answer": 1,
+          "num": 10,
+          "textNum": 5,
+          "audioStart": 521
+        },
+        {
+          "id": "h11",
+          "teilPart": 2,
+          "type": "mcq",
+          "text": "Aus der Wohnung hat man einen Blick ...",
+          "options": [
+            "auf den Hinterhof.",
+            "auf den Park.",
+            "auf den Garten."
+          ],
+          "answer": 1,
+          "num": 11,
+          "audioStart": 652
+        },
+        {
+          "id": "h12",
+          "teilPart": 2,
+          "type": "mcq",
+          "text": "Die Möbel in der Wohnung sind ...",
+          "options": [
+            "chromsilbern.",
+            "dunkelbraun.",
+            "beige."
+          ],
+          "answer": 1,
+          "num": 12,
+          "audioStart": 652
+        },
+        {
+          "id": "h13",
+          "teilPart": 2,
+          "type": "mcq",
+          "text": "Wie viele Schlafzimmer hat die Wohnung?",
+          "options": [
+            "4",
+            "2",
+            "1"
+          ],
+          "answer": 1,
+          "num": 13,
+          "audioStart": 652
+        },
+        {
+          "id": "h14",
+          "teilPart": 2,
+          "type": "mcq",
+          "text": "Die Badewanne steht ...",
+          "options": [
+            "mitten im Bad.",
+            "rechts im Bad.",
+            "hinten im Bad."
+          ],
+          "answer": 0,
+          "num": 14,
+          "audioStart": 652
+        },
+        {
+          "id": "h15",
+          "teilPart": 2,
+          "type": "mcq",
+          "text": "Die Nebenkosten ...",
+          "options": [
+            "sind in der Miete enthalten.",
+            "betragen 50 €.",
+            "betragen 100-150 €."
+          ],
+          "answer": 2,
+          "num": 15,
+          "audioStart": 652
+        },
+        {
+          "id": "h16",
+          "teilPart": 3,
+          "type": "tf",
+          "text": "Die junge Dame ist über das Alter der Marktfrau erstaunt.",
+          "answer": "richtig",
+          "num": 16,
+          "audioStart": 875
+        },
+        {
+          "id": "h17",
+          "teilPart": 3,
+          "type": "tf",
+          "text": "Gesund essen ist nicht immer eine Garantie für langes Leben.",
+          "answer": "richtig",
+          "num": 17,
+          "audioStart": 875
+        },
+        {
+          "id": "h18",
+          "teilPart": 3,
+          "type": "tf",
+          "text": "Harte Arbeit ist nicht gesund.",
+          "answer": "richtig",
+          "num": 18,
+          "audioStart": 875
+        },
+        {
+          "id": "h19",
+          "teilPart": 3,
+          "type": "tf",
+          "text": "Man muss in seinem Leben Maß halten.",
+          "answer": "richtig",
+          "num": 19,
+          "audioStart": 875
+        },
+        {
+          "id": "h20",
+          "teilPart": 3,
+          "type": "tf",
+          "text": "Die Marktfrau hat schon fünf Ururenkel.",
+          "answer": "falsch",
+          "num": 20,
+          "audioStart": 875
+        },
+        {
+          "id": "h21",
+          "teilPart": 3,
+          "type": "tf",
+          "text": "Die Marktfrau hat keine Schmerzen.",
+          "answer": "falsch",
+          "num": 21,
+          "audioStart": 875
+        },
+        {
+          "id": "h22",
+          "teilPart": 3,
+          "type": "tf",
+          "text": "Die junge Dame hat Stress.",
+          "answer": "richtig",
+          "num": 22,
+          "audioStart": 875
+        },
+        {
+          "id": "h23",
+          "teilPart": 4,
+          "type": "speaker",
+          "text": "Man ist verwöhnt, wenn man als Erwachsener bei seinen Eltern lebt.",
+          "options": [
+            "Moderatorin",
+            "Jürgen Markowsky",
+            "Volker Degen"
+          ],
+          "answer": 2,
+          "num": 23,
+          "audioStart": 1176
+        },
+        {
+          "id": "h24",
+          "teilPart": 4,
+          "type": "speaker",
+          "text": "Es ist schwer, Ausbildung und Haushalt zu kombinieren.",
+          "options": [
+            "Moderatorin",
+            "Jürgen Markowsky",
+            "Volker Degen"
+          ],
+          "answer": 1,
+          "num": 24,
+          "audioStart": 1176
+        },
+        {
+          "id": "h25",
+          "teilPart": 4,
+          "type": "speaker",
+          "text": "Einige haben keinen Kontakt mehr zu ihren Eltern, nachdem sie das Haus verlassen.",
+          "options": [
+            "Moderatorin",
+            "Jürgen Markowsky",
+            "Volker Degen"
+          ],
+          "answer": 1,
+          "num": 25,
+          "audioStart": 1176
+        },
+        {
+          "id": "h26",
+          "teilPart": 4,
+          "type": "speaker",
+          "text": "Alte Menschen und erwachsene Kinder in einem Haushalt können sich Kosten teilen.",
+          "options": [
+            "Moderatorin",
+            "Jürgen Markowsky",
+            "Volker Degen"
+          ],
+          "answer": 1,
+          "num": 26,
+          "audioStart": 1176
+        },
+        {
+          "id": "h27",
+          "teilPart": 4,
+          "type": "speaker",
+          "text": "Das Rentensystem versorgt ältere Menschen ausreichend.",
+          "options": [
+            "Moderatorin",
+            "Jürgen Markowsky",
+            "Volker Degen"
+          ],
+          "answer": 0,
+          "num": 27,
+          "audioStart": 1176
+        },
+        {
+          "id": "h28",
+          "teilPart": 4,
+          "type": "speaker",
+          "text": "Manche Rentner genießen die Gesellschaft von Freunden ihrer Kinder.",
+          "options": [
+            "Moderatorin",
+            "Jürgen Markowsky",
+            "Volker Degen"
+          ],
+          "answer": 1,
+          "num": 28,
+          "audioStart": 1176
+        },
+        {
+          "id": "h29",
+          "teilPart": 4,
+          "type": "speaker",
+          "text": "Zu Hause lebende Singles achten auf ihre Eltern.",
+          "options": [
+            "Moderatorin",
+            "Jürgen Markowsky",
+            "Volker Degen"
+          ],
+          "answer": 1,
+          "num": 29,
+          "audioStart": 1176
+        },
+        {
+          "id": "h30",
+          "teilPart": 4,
+          "type": "speaker",
+          "text": "Die Kinder müssen lernen, selbstständig zu sein.",
+          "options": [
+            "Moderatorin",
+            "Jürgen Markowsky",
+            "Volker Degen"
+          ],
+          "answer": 2,
+          "num": 30,
+          "audioStart": 1176
+        }
+      ]
+    }
+  ],
+  "explanations": {
+    "1": {
+      "quote": "Tanzen macht Spaß und ist gesund. Kein Wunder, dass immer mehr Menschen Tanz als Lust an Bewegung und Musik entdecken...",
+      "whyCorrect": {
+        "de": "Falsch: Laut Einleitung entdecken immer mehr Menschen das Tanzen mit großer Begeisterung und Freude.",
+        "ar": "خطأ: يؤكد النص أن عدداً متزايداً من الناس يكتشفون متعة الرقص بحماس ورغبة في الحركة والموسيقى.",
+        "fr": "Faux : L'introduction précise qu'un nombre croissant de personnes découvrent la danse avec plaisir et enthousiasme."
+      },
+      "whyIncorrect": {
+        "de": "Richtig ist nicht zutreffend, da die Aussage dem Text direkt widerspricht.",
+        "ar": "الخيار 'صحيح' غير دقيق لأن العبارة تتعارض مباشرة مع ما ورد في النص.",
+        "fr": "Vrai ne convient pas car l'affirmation contredit textuellement l'article."
+      }
+    },
+    "2": {
+      "quote": "Schon nach kurzer Zeit verbessert sich das Körpergefühl und das bis ins hohe Alter.",
+      "whyCorrect": {
+        "de": "Richtig: Der Text belegt ausdrücklich, dass Tanzen das Körpergefühl bis ins hohe Alter positiv beeinflusst.",
+        "ar": "صحيح: يذكر النص صراحة أن الرقص يحسن الإحساس بالجسد ويستمر هذا الأثر الإيجابي حتى سن متقدمة.",
+        "fr": "Vrai : Le texte mentionne expressément que la danse améliore la perception du corps jusqu'à un âge avancé."
+      },
+      "whyIncorrect": {
+        "de": "Falsch ist nicht zutreffend, da Senioren ebenfalls tanzen und davon profitieren.",
+        "ar": "الخيار 'خطأ' غير صحيح لأن كبار السن يمارسون الرقص ويستفيدون منه صحياً.",
+        "fr": "Faux est erroné car les personnes âgées peuvent tout à fait pratiquer et en tirer bénéfice."
+      }
+    },
+    "3": {
+      "quote": "Die Bewegung zu Musik baut Stress ab und bringt pure Lebensfreude... befreit den Kopf.",
+      "whyCorrect": {
+        "de": "Richtig: Durch den Stressabbau, die Lebensfreude und die mentale Befreiung wird das seelische Wohlbefinden deutlich gestärkt.",
+        "ar": "صحيح: تسهم الحركة على وقع الموسيقى في التخلص من التوتر ومنح بهجة الحياة والراحة النفسية والذهنية.",
+        "fr": "Vrai : Le mouvement en musique évacue le stress et procure une vraie joie de vivre tout en libérant l'esprit."
+      },
+      "whyIncorrect": {
+        "de": "Falsch trifft nicht zu, weil die psychische Entlastung ein zentraler Nutzen des Tanzens ist.",
+        "ar": "الخيار 'خطأ' غير صحيح لأن الدعم النفسي وإزالة التوتر ركيزة أساسية يركز عليها المقال.",
+        "fr": "Faux ne s'applique pas car le bien-être psychologique est un atout central mis en avant."
+      }
+    },
+    "4": {
+      "quote": "Sicherlich gehört auch eine gehörige Portion Technik und Disziplin dazu, die Schritte und Bewegungen zu erlernen...",
+      "whyCorrect": {
+        "de": "Richtig: Die Bloggerin betont, dass Technik und Disziplin unverzichtbar sind, um die Bewegungen korrekt zu erlernen.",
+        "ar": "صحيح: تؤكد الكاتبة أن تعلم الحركات والخطوات يتطلب قدراً كبيراً من التقنية والانضباط.",
+        "fr": "Vrai : L'auteure souligne qu'il faut une bonne dose de technique et de discipline pour bien assimiler les pas."
+      },
+      "whyIncorrect": {
+        "de": "Falsch ist nicht zutreffend, da sie Technik und Disziplin ausdrücklich voraussetzt.",
+        "ar": "الخيار 'خطأ' غير صحيح لأنها لا تهمل الجانب التقني والانضباطي إطلاقاً بل تؤكده.",
+        "fr": "Faux est inexact puisqu'elle mentionne rigoureusement l'importance de la technique."
+      }
+    },
+    "5": {
+      "quote": "Wirklich eine schweißtreibende Angelegenheit, aber es füllt mich mit Energie.",
+      "whyCorrect": {
+        "de": "Falsch: Obwohl Zumba schweißtreibend ist, beurteilt sie es positiv, da es sie mit vitaler Energie erfüllt und nicht 'zu' anstrengend ist.",
+        "ar": "خطأ: بالرغم من أن الزومبا تسبب التعرق، إلا أنها تراها ممتعة وتمدها بالطاقة الإيجابية وليست مجهدة بشكل سلبي.",
+        "fr": "Faux : Même si la zumba fait transpirer, elle ne la juge pas 'trop fatigante', affirmant qu'elle lui donne au contraire de l'énergie."
+      },
+      "whyIncorrect": {
+        "de": "Richtig trifft nicht zu, weil sie Zumba mit Begeisterung betreibt und Energie daraus schöpft.",
+        "ar": "الخيار 'صحيح' غير دقيق لأنها تتحدث عن الزومبا بحماس وشغف كبيرين.",
+        "fr": "Vrai est incorrect car elle pratique la zumba avec grand enthousiasme."
+      }
+    },
+    "6": {
+      "quote": "Und das Schöne ist, dass wir für die Verständigung keine Sprache mit Worten benötigen. Damit trägt der Tanz wie auch die Musik zur internationalen Völkerverständigung bei.",
+      "whyCorrect": {
+        "de": "Falsch: Tanzen verbindet Menschen weltweit ohne verbale Sprachbarrieren und fördert die Völkerverständigung.",
+        "ar": "خطأ: يجمع الرقص الناس من مختلف الثقافات دون الحاجة إلى كلمات، معززاً التفاهم الدولي والتقارب الإنساني.",
+        "fr": "Faux : La danse rapproche les individus de toutes cultures sans barrière linguistique, favorisant la compréhension mutuelle."
+      },
+      "whyIncorrect": {
+        "de": "Richtig widerspricht dem universellen Charakter des Tanzes im Text.",
+        "ar": "الخيار 'صحيح' يتعارض مع رسالة النص حول قدرة الرقص والموسيقى على التوحيد بين الشعوب.",
+        "fr": "Vrai contredit le message universel du texte sur le pouvoir fédérateur de la danse."
+      }
+    },
+    "7": {
+      "quote": "Dafür wäre es notwendig, dass Kinder auch wirklich an Entscheidungen beteiligt werden, die sie betreffen: zum Beispiel beim Bau von Spielplätzen...",
+      "whyCorrect": {
+        "de": "Lösung b ist richtig: Der Text nennt ausdrücklich den Bau von Spielplätzen als Bereich, bei dem Kinder mitentscheiden sollten.",
+        "ar": "الخيار (b) صحيح: يذكر النص تحديداً بناء ملاعب الأطفال كمجال ينبغي إشراك الأطفال في اتخاذ القرار بشأنه.",
+        "fr": "L'option b est correcte : Le texte cite précisément la construction d'aires de jeux comme domaine où les enfants doivent être consultés."
+      },
+      "whyIncorrect": {
+        "de": "a (Straße) und c (Parkplatz) werden im Artikel nicht als Beteiligungsbeispiele für Kinder genannt.",
+        "ar": "الشارع (a) ومواقف السيارات (c) لم يرد ذكرهما في النص كأمثلة لمشاركة الأطفال.",
+        "fr": "Les routes (a) et parkings (c) ne sont pas mentionnés dans le texte."
+      }
+    },
+    "8": {
+      "quote": "Dr. Heide-Rose Brückner: „Politiker müssen die Kinder mehr als bisher in den Mittelpunkt ihrer Politik stellen... Denn leider gibt es noch immer viel zu viele Kinder in Deutschland, die arm sind...“",
+      "whyCorrect": {
+        "de": "Lösung a ist richtig: Frau Brückner weist mit Nachdruck darauf hin, dass in Deutschland nach wie vor zu viele Kinder in Armut leben.",
+        "ar": "الخيار (a) صحيح: تشير الدكتورة بروكيز بأسف إلى وجود أعداد كبيرة من الأطفال الفقراء في ألمانيا.",
+        "fr": "L'option a est correcte : Mme Brückner déplore qu'il y ait encore beaucoup trop d'enfants pauvres en Allemagne."
+      },
+      "whyIncorrect": {
+        "de": "b (Politiker sind arm) ist absurd; c (Politiker stehen im Mittelpunkt) fordert sie für Kinder, nicht für Politiker.",
+        "ar": "الخيار (b) غير منطقي، و(c) غير صحيح لأنها تطالب بأن يكون الأطفال هم محور الاهتمام وليس السياسيين.",
+        "fr": "b est insensé ; c est faux car elle demande que les enfants soient au centre des priorités, pas les politiciens."
+      }
+    },
+    "9": {
+      "quote": "Deswegen fordern Kinderrechtsorganisationen auch, Kinderrechte ins Deutsche Grundgesetz aufzunehmen.",
+      "whyCorrect": {
+        "de": "Lösung c ist richtig: Die Organisationen fordern die verfassungsrechtliche Verankerung der Kinderrechte direkt im Grundgesetz.",
+        "ar": "الخيار (c) صحيح: تطالب منظمات رعاية الطفل بإدراج حقوق الأطفال صراحة كجزء أصيل من الدستور الألماني.",
+        "fr": "L'option c est correcte : Les organisations réclament l'inscription des droits de l'enfant dans la Loi fondamentale (Constitution)."
+      },
+      "whyIncorrect": {
+        "de": "a und b entsprechen nicht der konkreten juristischen Hauptforderung der Organisationen.",
+        "ar": "الخياران (a) و(b) لا يعبران عن المطلب التشريعي الحقيقي للمنظمات.",
+        "fr": "a et b ne correspondent pas à la revendication juridique concrète des organisations."
+      }
+    },
+    "10": {
+      "quote": "In der Hausaufgabenhilfe der Freizeitstätte Edigheim kannst du in kleinen Gruppen gemeinsam mit zwei Mitarbeiterinnen deine Hausaufgaben erledigen...",
+      "whyCorrect": {
+        "de": "Lösung c ist richtig: Als kommunale Freizeitstätte in Ludwigshafen wird diese Einrichtung städtisch organisiert und gefördert.",
+        "ar": "الخيار (c) صحيح: يتبع مركز الأنشطة الترفيهية لبلدية لودفيغسهافن وتديره وتنظمه المدينة.",
+        "fr": "L'option c est correcte : Il s'agit d'un centre de loisirs municipal de Ludwigshafen géré par la ville."
+      },
+      "whyIncorrect": {
+        "de": "a ist falsch (kein Schulangebot, sondern Freizeitstätte); b ist falsch (keine kirchliche Trägerschaft erwähnt).",
+        "ar": "المدرسة (a) لا تقدم العرض، والكنيسة (b) لم تُذكر كجهة راعية في المقال.",
+        "fr": "Ce n'est ni l'école locale (a) ni l'Église (b) qui gèrent ce service."
+      }
+    },
+    "11": {
+      "quote": "Geht es nur darum, gezielt einmal für eine Arbeit zu üben... so helfen dir die Mitarbeiter und Mitarbeiterinnen der Freizeitstätte auch außerhalb der Hausaufgabenhilfe.",
+      "whyCorrect": {
+        "de": "Lösung b ist richtig: Außerhalb der regulären Zeiten helfen die Mitarbeiter nach Absprache und Verfügbarkeit ebenfalls flexibel weiter.",
+        "ar": "الخيار (b) صحيح: يقدم العاملون المساعدة خارج الأوقات المحددة أيضاً بحسب الإمكانية والاتفاق.",
+        "fr": "L'option b est correcte : Les animateurs aident volontiers en dehors des heures fixées, dans la mesure du possible."
+      },
+      "whyIncorrect": {
+        "de": "a ist falsch, da das Angebot mittwochs bis freitags stattfindet; c ist falsch, da es bezahlte Mitarbeiterinnen sind.",
+        "ar": "الخيار (a) غير صحيح لأن الخدمة تقدم من الأربعاء للجمعة فقط، و(c) غير دقيق لأنهن موظفات بالمؤسسة.",
+        "fr": "a est inexact (mercredi au vendredi uniquement) ; c ne correspond pas au statut des employés."
+      }
+    },
+    "12": {
+      "quote": "Die Hausaufgabenhilfe findet im Computerraum der Einrichtung statt, du hast also die Möglichkeit die Computer der Freizeitstätte zum Beispiel für Referate oder für die Suche nach Informationen im Internet zu nutzen.",
+      "whyCorrect": {
+        "de": "Lösung c ist richtig: Die Computer der Einrichtung dürfen für Recherchen und Referate genutzt werden.",
+        "ar": "الخيار (c) صحيح: يُسمح للطلاب باستخدام حواسيب المركز للبحث في الإنترنت وإعداد عروضهم المدرسية.",
+        "fr": "L'option c est correcte : Les ordinateurs sont mis à disposition des élèves pour des recherches ou exposés."
+      },
+      "whyIncorrect": {
+        "de": "a widerspricht dem ausdrücklichen Internetzugang; b ist falsch, da sie zur Einrichtung gehören.",
+        "ar": "الخيار (a) يناقض وجود الإنترنت صراحة، و(b) خاطئ لأن الأجهزة ملك المركز.",
+        "fr": "a est contredit par l'accès au web mentionné ; b est faux car le matériel appartient au centre."
+      }
+    },
+    "13": {
+      "quote": "Anzeige G: Tempur Matratzen und Schlafkissen. Für die Raumfahrt entwickelt – gegen Rückenschmerzen bewährt. Fördern die Durchblutung – sorgen für ruhigen, entspannten Schlaf.",
+      "whyCorrect": {
+        "de": "Anzeige G passt: Herr Krämer schläft schlecht und sucht ein neues Bett; Tempur bietet Matratzen und Kissen für erholsamen Schlaf.",
+        "ar": "الإعلان (G) هو الأنسب: يعاني السيد كريمر من الأرق ويبحث عن سرير جديد؛ ومراتب تمبور توفر نوماً هادئاً وصحياً.",
+        "fr": "L'annonce G correspond : M. Krämer dort mal et envisage un nouveau lit ; Tempur propose matelas et oreillers pour un sommeil réparateur."
+      },
+      "whyIncorrect": {
+        "de": "Andere Anzeigen behandeln Reisen, Kinderbücher oder Raucherentwöhnung.",
+        "ar": "الإعلانات الأخرى تتناول السفر أو كتب الأطفال أو الإقلاع عن التدخين.",
+        "fr": "Les autres annonces concernent les voyages, la lecture ou le sevrage tabagique."
+      }
+    },
+    "14": {
+      "quote": "Anzeige E: Das ELTERN-Buch „Gesunde Kinder – Kinderkrankheiten von A - Z“. Ein gesonderter Teil bietet wichtige Informationen für Notfälle – Erste Hilfe.",
+      "whyCorrect": {
+        "de": "Anzeige E passt: Frau Müller sucht eine Erste-Hilfe-Anleitung für Unfälle und Verletzungen bei Kindern.",
+        "ar": "الإعلان (E) هو الأنسب: تبحث السيدة مولر عن دليل للإسعافات الأولية لحالات الطوارئ وإصابات الأطفال.",
+        "fr": "L'annonce E convient : Mme Müller cherche des conseils d'urgence et de premiers secours pour soigner les enfants."
+      },
+      "whyIncorrect": {
+        "de": "D ist ein Spendenaufruf für Krebshilfe; H ist ein allgemeines Internet-Lexikon.",
+        "ar": "الإعلان (D) تبرعات لأبحاث السرطان، و(H) معجم إلكتروني عام.",
+        "fr": "D est un appel aux dons pour le cancer ; H est un dictionnaire en ligne général."
+      }
+    },
+    "15": {
+      "quote": "Anzeige I: Dem blauen Dunst Ade zu sagen, ist nicht ganz einfach... Nutzen Sie unsere Aktionswochen zur Raucherentwöhnung! Tipps, wie man Rauchen reduziert und von der Zigarette loskommt.",
+      "whyCorrect": {
+        "de": "Anzeige I passt: Herr Engelhardt möchte das Rauchen aufgeben; die Apotheken bieten Begleitung zur Raucherentwöhnung.",
+        "ar": "الإعلان (I) هو الأنسب: يرغب السيد إنغلهارت في تقليل التدخين أو الإقلاع عنه، والصيدليات تقدم أسبوعاً إرشادياً لمساعدته.",
+        "fr": "L'annonce I correspond : M. Engelhardt souhaite arrêter de fumer ; les pharmacies proposent une semaine d'aide au sevrage tabagique."
+      },
+      "whyIncorrect": {
+        "de": "Keine andere Anzeige widmet sich dem Thema Tabak und Raucherentwöhnung.",
+        "ar": "لا يوجد أي إعلان آخر يتناول موضوع التبغ والتخلص من التدخين.",
+        "fr": "Aucune autre annonce ne traite de l'arrêt du tabac."
+      }
+    },
+    "16": {
+      "quote": "Anzeige F: Heilklima: Das Allgäu hat 14 anerkannte Kurorte... Zur Klimatherapie gehören... Sie hat sich vor allem bei Erkrankungen von Atemwegen und Haut bewährt.",
+      "whyCorrect": {
+        "de": "Anzeige F passt: Herr Roth hat Asthma (Atemwegserkrankung) und sucht eine alternative heilklimatische Therapie.",
+        "ar": "الإعلان (F) هو الأنسب: يعاني السيد روت من الربو (مرض في الجهاز التنفسي) والمنطقة تقدم علاجاً مناخياً معتمداً للمسالك التنفسية.",
+        "fr": "L'annonce F convient : M. Roth souffre d'asthme (voies respiratoires) et l'Allgäu propose des cures climatothérapiques adaptées."
+      },
+      "whyIncorrect": {
+        "de": "Anzeige J bietet nur Hörpillen gegen Altersschwerhörigkeit.",
+        "ar": "الإعلان (J) خاص بحبوب تقوية السمع فقط.",
+        "fr": "L'annonce J ne s'adresse qu'aux personnes ayant des troubles auditifs."
+      }
+    },
+    "17": {
+      "quote": "Anzeige B: Reiseprogramm für Herzkranke. Zum Radwandern nach Kreta oder zum Golfen nach Mallorca? Medizinische Betreuung rund um die Uhr. Katalog «Reisen für Herz und Kreislauf».",
+      "whyCorrect": {
+        "de": "Anzeige B passt: Frau Köhler hatte einen Herzinfarkt und sucht betreute Reisen ins Ausland (Kreta, Mallorca).",
+        "ar": "الإعلان (B) هو الأنسب: أصيبت السيدة كولر بأزمة قلبية وترغب بالسفر مع رعاية طبية متخصصة ومستمرة في الخارج.",
+        "fr": "L'annonce B correspond : Mme Köhler a eu un infarctus et recherche un séjour à l'étranger sécurisé par une assistance médicale."
+      },
+      "whyIncorrect": {
+        "de": "C ist lediglich allgemeine Impfberatung für Fernreisen (aus dem Beispiel).",
+        "ar": "الإعلان (C) خاص بنصائح التطعيم للرحلات البعيدة (وهو مثال لا يجوز استخدامه).",
+        "fr": "L'annonce C était déjà utilisée comme exemple."
+      }
+    },
+    "18": {
+      "quote": "Für eine Situation gibt es keine passende Anzeige. In diesem Fall schreiben Sie 0.",
+      "whyCorrect": {
+        "de": "Antwort 0 ist richtig: Für Holgers schwere Hauterkrankung nach vielen erfolglosen Behandlungen gibt es keine spezialisierte Therapiestation im Angebot.",
+        "ar": "الجواب 0 صحيح: لا يوجد إعلان متخصص يقدم علاجاً فعالاً لحالات الأمراض الجلدية المستعصية بعد فشل العلاجات السابقة.",
+        "fr": "La réponse 0 est correcte : Aucune annonce ne propose de traitement clinique spécifique pour une maladie de peau rebelle."
+      },
+      "whyIncorrect": {
+        "de": "Anzeige F nennt zwar Hauterkrankungen im Rahmen von Luftkurorten im Allgäu, stellt jedoch keine spezialisierte Klinik oder Heilbehandlung dar.",
+        "ar": "الإعلان (F) يشير عموماً للمناخ الملائم للمسالك التنفسية والجلد في المنتجعات وليس علاجاً مستهدفاً للمرض الجلدي المستعصي.",
+        "fr": "L'annonce F évoque le climat pour la peau mais n'offre pas de thérapie médicale ciblée pour des cas rebelles."
+      }
+    },
+    "19": {
+      "quote": "Anzeige A: Schönheitsfarm Bella. Verwöhnprogramme für Damen. Feine leichte Küche zum Abnehmen. Fitnessangebote. Zeit für Ruhe in entspannter Atmosphäre.",
+      "whyCorrect": {
+        "de": "Anzeige A passt: Frau Vogel möchte angenehm und entspannt mit feiner leichter Küche und Wellness abnehmen.",
+        "ar": "الإعلان (A) هو الأنسب: ترغب السيدة فوغل في إنقاص وزنها بطريقة مريحة وممتعة من خلال الوجبات الخفيفة والسبا.",
+        "fr": "L'annonce A convient : Mme Vogel désire perdre du poids de manière agréable grâce à une cuisine légère et des soins bien-être."
+      },
+      "whyIncorrect": {
+        "de": "G ist für Matratzen, J für Hörprobleme und B für herzkranke Urlauber.",
+        "ar": "الإعلانات (G) للمراتب و(J) للسمع و(B) لمرضى القلب.",
+        "fr": "G concerne la literie, J l'audition et B les cardiaques."
+      }
+    },
+    "20": {
+      "quote": "Lauinger: Also die Idee des alternativen Tourismus klingt ja wunderbar, aber die Zielgruppe scheint mir sehr elitär zu sein. Wer kann sich denn so einen Luxus-Urlaub leisten?... aber hier fühle ich mich total ausgegrenzt.",
+      "whyCorrect": {
+        "de": "Ja: Lauinger äußert sich kritisch über die hohen Preise und die elitäre Ausgrenzung von Normalverdienern.",
+        "ar": "نعم: يعبر لاوينغر عن رأي نقدي سلبي لأن السياحة البديلة نخبوية وباهظة الثمن وتشعر الناس العاديين بالإقصاء.",
+        "fr": "Oui : Lauinger émet une critique sévère sur les coûts exorbitants et le caractère élitiste qui exclut la majorité."
+      },
+      "whyIncorrect": {
+        "de": "Nein trifft nicht zu, da er klare Kritik am Konzept formuliert.",
+        "ar": "الخيار 'لا' خاطئ لأنه يوجه انتقاداً لاذعاً لتكاليف هذا السفر.",
+        "fr": "Non est inexact car ses propos sont nettement critiques."
+      }
+    },
+    "21": {
+      "quote": "Peter W.: Die Verantwortung für klimabewusstes Reisen kann nicht nur beim Kunden liegen. Ich halte es für geradezu kriminell, ein reines Gewissen für einen Aufpreis beim Ticket anzubieten. Das ist ja wie in der Kirche im Mittelalter...",
+      "whyCorrect": {
+        "de": "Ja: Peter W. kritisiert scharf, dass Reiseunternehmen sich mit CO2-Aufpreisen wie mit mittelalterlichen Ablassbriefen freikaufen.",
+        "ar": "نعم: يوجه بيتر انتقاداً حاداً لاعتبار دفع رسوم إضافية على التذكرة وسيلة لشراء راحة الضمير البيئي مثل صكوك الغفران في العصور الوسطى.",
+        "fr": "Oui : Peter W. condamne fermement le principe des suppléments de compensation carbone, comparés au trafic des indulgences au Moyen Âge."
+      },
+      "whyIncorrect": {
+        "de": "Nein trifft nicht zu, da er die Praxis als 'kriminell' ablehnt.",
+        "ar": "الخيار 'لا' غير صحيح لأن عباراته تتضمن هجوماً صريحاً ووصفاً قاسياً.",
+        "fr": "Non ne convient pas car il juge cette méthode inacceptable et hypocrite."
+      }
+    },
+    "22": {
+      "quote": "David: Ich finde es großartig, den Urlaub mit einem Freiwilligen-Programm zu verbinden. So habe ich endlich die Möglichkeit, moralisch unbedenklich in exotische Reiseziele zu kommen...",
+      "whyCorrect": {
+        "de": "Nein: David äußert sich nicht kritisch, sondern findet das Konzept 'großartig' und begrüßt freiwillige Hilfseinsätze.",
+        "ar": "لا (ليس ناقداً): دافيد لا ينتقد المفهوم بل يصفه بالرائع ومتحمس جداً لدمج العطلة بالتطوع الإنساني والبيئي.",
+        "fr": "Non (pas critique) : David trouve l'idée formidable et apprécie de voyager utilement dans le cadre d'un volontariat."
+      },
+      "whyIncorrect": {
+        "de": "Ja trifft nicht zu, weil seine Haltung durchweg positiv und unterstützend ist.",
+        "ar": "الخيار 'نعم' خاطئ لأن موقفه مؤيد ومتحمس وليس ناقداً.",
+        "fr": "Oui est erroné car son témoignage est pleinement approbateur."
+      }
+    },
+    "23": {
+      "quote": "F. Blei: Genau das ist es: Erlebnisurlaub in der Natur, Unterkunft im Energiehotel... das trifft den neuen Lifestyle.",
+      "whyCorrect": {
+        "de": "Nein: F. Blei ist begeistert vom umweltfreundlichen Natururlaub und dem modernen Lifestyle mit Solarstrom.",
+        "ar": "لا (ليس ناقداً): يشيد بلي بالسياحة البيئية في الفنادق الصديقة للبيئة ويعتبرها تطوراً عصرياً رائعاً.",
+        "fr": "Non (pas critique) : F. Blei applaudit ce nouveau mode de vacances conjuguant nature, énergies propres et aventure."
+      },
+      "whyIncorrect": {
+        "de": "Ja ist falsch, da er keinerlei Vorbehalte oder Kritik äußert.",
+        "ar": "الخيار 'نعم' غير صحيح لعدم وجود أي تحفظات لديه.",
+        "fr": "Oui est incorrect car aucune réticence n'est exprimée."
+      }
+    },
+    "24": {
+      "quote": "Kern: Mit diesen geschickt „verpackten“ Fernreisen wollen die Veranstalter die Kunden glauben lassen sich ökologisch korrekt zu verhalten. Welch ein Irrtum!... Solche Reisen sind doch nur Mogelpackungen für Umweltsünder.",
+      "whyCorrect": {
+        "de": "Ja: Kern übt scharfe Kritik und bezeichnet sanfte Fernreisen als scheinheilige Mogelpackungen angesichts der Flugzeugabgase.",
+        "ar": "نعم: ينتقد كيرن هذا النوع من السفر بشدة ويعتبره حيلة خادعة وتضليلاً للبيئة متجاهلاً كمية الانبعاثات الناتجة عن الطائرات.",
+        "fr": "Oui : Kern s'insurge contre ces voyages lointains 'écologiques', qu'il qualifie d'impostures face à la pollution des avions."
+      },
+      "whyIncorrect": {
+        "de": "Nein trifft nicht zu, da seine Bewertung absolut ablehnend ist.",
+        "ar": "الخيار 'لا' خاطئ لأن رأيه يعبر عن معارضة تامة وازدراء للمشروع.",
+        "fr": "Non est faux car son avis est sans équivoque hostile à cette démarche."
+      }
+    },
+    "25": {
+      "quote": "Kubisch: Schön, dass unsere Konsum- und Wegwerfgesellschaft so langsam beginnt nach neuen Werten zu suchen. Nach Bio und fairem Handel nun also auch faires Reisen. Ich hoffe, dass sich dieser neue Zweig gut entwickelt...",
+      "whyCorrect": {
+        "de": "Nein: Kubisch begrüßt den Wandel zu fairem Reisen positiv und hofft auf einen weiteren Ausbau.",
+        "ar": "لا (ليس ناقداً): ترحب كوبيش بالتحول نحو السفر العادل والمستدام وتتمنى له الازدهار والتطور الإيجابي.",
+        "fr": "Non (pas critique) : Kubisch salue cette transition vers un tourisme éthique et espère que ce secteur va prospérer."
+      },
+      "whyIncorrect": {
+        "de": "Ja ist nicht zutreffend, da ihr Kommentar optimistisch und befürwortend ist.",
+        "ar": "الخيار 'نعم' خاطئ لأن تعليقها يحمل تفاؤلاً وتشجيعاً صريحين.",
+        "fr": "Oui ne convient pas car son propos est bienveillant et encourageant."
+      }
+    },
+    "26": {
+      "quote": "Blattner: Warum in die Ferne schweifen, wenn das Gute liegt so nah! Für mich ist und bleibt die bessere Alternative: zu Hause bleiben!... Es ist doch irrsinnig, dass die Menschen den Planeten besser kennen, als den Wald vor ihrem Haus.",
+      "whyCorrect": {
+        "de": "Ja: Blattner kritisiert Fernreisen grundsätzlich und hält es für unvernünftig, weit zu reisen, statt die heimische Region zu erkunden.",
+        "ar": "نعم: يوجه بلاتنر نقداً لاذعاً لفكرة السفر البعيد ويرى أن الخيار الأفضل هو استكشاف الطبيعة القريبة من الوطن بدلاً من السفر غير المبرر.",
+        "fr": "Oui : Blattner critique l'absurdité des voyages au bout du monde et prône le tourisme local et la découverte de sa région."
+      },
+      "whyIncorrect": {
+        "de": "Nein trifft nicht zu, da er die Sinnhaftigkeit des Konzepts klar infrage stellt.",
+        "ar": "الخيار 'لا' خاطئ لأنه يرفض فكرة السفر البعيد حتى لو كانت تحت مسمى بيئي.",
+        "fr": "Non est erroné puisqu'il remet explicitement en cause le bien-fondé de ces voyages."
+      }
+    },
+    "27": {
+      "quote": "Bibliotheksordnung der Ludwig-Maximilians-Universität München... Die Benutzung ist Studenten und Mitarbeitern der LMU sowie Besuchern während der allgemeinen Öffnungszeiten gestattet.",
+      "whyCorrect": {
+        "de": "Lösung a ist richtig: Die Bibliotheksordnung regelt verbindlich die Rechte und Pflichten aller Nutzer und Besucher der Universitätsbibliothek.",
+        "ar": "الخيار (a) صحيح: تضع لائحة المكتبة القواعد الإلزامية لجميع رواد ومستخدمي المكتبة الجامعية وزوارها.",
+        "fr": "L'option a est correcte : Le règlement s'adresse aux usagers et visiteurs de la bibliothèque universitaire."
+      },
+      "whyIncorrect": {
+        "de": "b (nur Mitarbeiter) und c (nur Ausleihe) greifen zu kurz, da es um Verhaltensregeln für alle Bibliotheksnutzer geht.",
+        "ar": "الخياران (b) الموظفون فقط و(c) استعارة الكتب فقط غير دقيقين لأن القواعد تشمل كل زائر للمبنى.",
+        "fr": "b et c sont réducteurs car le texte dicte la conduite générale de tous les utilisateurs."
+      }
+    },
+    "28": {
+      "quote": "Eine Garderobe befindet sich im Aufenthaltsraum E 12.",
+      "whyCorrect": {
+        "de": "Lösung c ist richtig: Der Aufbewahrungsort für Jacken und Mäntel (Garderobe) liegt im Aufenthaltsraum E 12.",
+        "ar": "الخيار (c) صحيح: تقع شماعة المعاطف وخزائن حفظ الملابس في قاعة الاستراحة (E 12).",
+        "fr": "L'option c est correcte : Le vestiaire est expressément situé dans la salle de détente (E 12)."
+      },
+      "whyIncorrect": {
+        "de": "a verwechselt Garderobe mit Büchern (Bücher muss man vorzeigen); b ist sachlich falsch.",
+        "ar": "الخيار (a) يخلط بين الملابس والكتب التي يجب إبرازها للمشرف، و(b) موقع المدخل غير صحيح.",
+        "fr": "a confond vestiaire et livres (à présenter au contrôle) ; b localise faussement l'entrée."
+      }
+    },
+    "29": {
+      "quote": "3. Rauchen, Essen, Trinken und mobiles Telefonieren sind in allen Räumen der Bibliothek verboten.",
+      "whyCorrect": {
+        "de": "Lösung a ist richtig: Das mobile Telefonieren (Handybenutzung) ist in ausnahmslos allen Räumen strikt untersagt.",
+        "ar": "الخيار (a) صحيح: يحظر إجراء المكالمات الهاتفية واستخدام الجوال نهائياً في سائر أرجاء المكتبة.",
+        "fr": "L'option a est correcte : L'usage du téléphone portable est formellement interdit dans toutes les salles."
+      },
+      "whyIncorrect": {
+        "de": "b (leise stellen) reicht nicht aus; c (im Aufenthaltsraum erlaubt) wird durch 'in allen Räumen verboten' ausgeschlossen.",
+        "ar": "الخيار (b) وضعه على الصامت غير كافٍ، و(c) مسموح في الاستراحة خاطئ لأن الحظر شامل لكل القاعات.",
+        "fr": "b est insuffisant ; c est faux car l'interdiction est totale et concerne toutes les pièces."
+      }
+    },
+    "30": {
+      "quote": "4. Die Computerarbeitsplätze dienen ausschließlich der Arbeit im Zusammenhang mit dem Bibliotheksbestand und der fachbezogenen Information (z.B. Nutzen des Bibliothekskatalogs, Literaturrecherchen).",
+      "whyCorrect": {
+        "de": "Lösung b ist richtig: Die Rechner sind ausschließlich für Recherchen im Bibliotheksbestand und fachbezogene Arbeiten vorgesehen.",
+        "ar": "الخيار (b) صحيح: خُصصت الحواسيب حصرياً لاستخدامات البحث الأكاديمي والفهرس والكتالوج المكتبي.",
+        "fr": "L'option b est correcte : Les postes informatiques sont réservés uniquement aux recherches liées au fonds de la bibliothèque."
+      },
+      "whyIncorrect": {
+        "de": "a ist falsch (sie stehen auch Studierenden und Nutzern zur Verfügung); c (selten frei) wird im Text nicht erwähnt.",
+        "ar": "الخيار (a) خاطئ لأنها ليست حكراً على الموظفين فقط، و(c) ندرة توفرها لم ترد بالنص.",
+        "fr": "a est inexact (les usagers y ont accès) ; c n'est pas mentionné."
+      }
+    },
+    "h1": {
+      "quote": "Durchsage des Flugkapitäns: Wir befinden uns im Sinkflug... Leider durchqueren wir gerade ein Schlechtwettergebiet mit heftigen Turbulenzen. Bitte bleiben Sie auf Ihren Plätzen und schnallen Sie sich an.",
+      "whyCorrect": {
+        "de": "Richtig: Der Kapitän informiert die Fluggäste darüber, dass die Maschine sich mitten in heftigen Turbulenzen befindet.",
+        "ar": "صحيح: يعلن قبطان الطائرة للمسافرين أن الطائرة تعبر حالياً منطقة اضطرابات ومطبات جوية عنيفة.",
+        "fr": "Vrai : Le commandant informe les passagers que l'avion traverse actuellement de fortes turbulences."
+      },
+      "whyIncorrect": {
+        "de": "Falsch widerspricht der Sicherheitsdurchsage des Piloten.",
+        "ar": "الخيار 'خطأ' يتعارض تماماً مع التوجيه الأمني الصادر من قمرة القيادة.",
+        "fr": "Faux contredit formellement l'annonce du commandant de bord."
+      }
+    },
+    "h2": {
+      "quote": "Aus Sicherheitsgründen müssen wir den Bordservice leider vorübergehend unterbrechen. Unsere Flugbegleiterinnen haben den Kabinengang bereits verlassen...",
+      "whyCorrect": {
+        "de": "Lösung a ist richtig: Wegen der Turbulenzen wird der Bordservice gestoppt und kein Essen/Trinken mehr ausgeteilt.",
+        "ar": "الخيار (a) صحيح: قرر الطاقم تعليق وتوقيف تقديم الطعام والمشروبات حفاظاً على سلامة الركاب.",
+        "fr": "L'option a est correcte : Le service en cabine est suspendu et la distribution des repas s'interrompt pour raison de sécurité."
+      },
+      "whyIncorrect": {
+        "de": "b und c treffen nicht zu, da das Flugzeug bereits im Landeanflug ist und den Kurs beibehält.",
+        "ar": "الخياران (b) و(c) غير صحيحين لأن الطائرة مستمرة في مسار الهبوط دون تغيير الارتفاع.",
+        "fr": "b et c sont inexacts car l'avion poursuit sa descente sans dévier de trajectoire."
+      }
+    },
+    "h3": {
+      "quote": "Telefonansage Golfanlage: Die Driving Range und die Übungsbereiche stehen Ihnen täglich bis zum Einbruch der Dunkelheit zur Verfügung, mindestens jedoch bis 20 Uhr.",
+      "whyCorrect": {
+        "de": "Falsch: Die Anlage ist nicht nur bis 19 Uhr (7 Uhr abends), sondern bis mindestens 20 Uhr bzw. Einbruch der Dunkelheit geöffnet.",
+        "ar": "خطأ: المنشأة تفتح أبوابها حتى الساعة 20:00 على الأقل (وليس حتى 19:00 فقط) أو حتى حلول الظلام.",
+        "fr": "Faux : Le practice reste accessible au moins jusqu'à 20 heures (et non 19 heures) ou jusqu'à la tombée de la nuit."
+      },
+      "whyIncorrect": {
+        "de": "Richtig ist falsch, da 19 Uhr vor der tatsächlichen Schließzeit liegt.",
+        "ar": "الخيار 'صحيح' خاطئ لأن موعد الإغلاق الفعلي هو الثامنة مساءً على الأقل.",
+        "fr": "Vrai est incorrect puisque la fermeture intervient au plus tôt à 20 heures."
+      }
+    },
+    "h4": {
+      "quote": "Der Eintritt zum Schnuppertag auf dem Übungsgelände sowie die Nutzung der Schläger sind an diesem Aktionstag völlig kostenfrei.",
+      "whyCorrect": {
+        "de": "Lösung c ist richtig: Der Eintritt und die Teilnahme am Aktionstag sind komplett kostenlos (nichts).",
+        "ar": "الخيار (c) صحيح: الدخول لملعب الجولف والمشاركة في اليوم التجريبي مجانية تماماً وبدون أي رسوم.",
+        "fr": "L'option c est correcte : L'accès à la journée découverte et l'entraînement sont entièrement gratuits."
+      },
+      "whyIncorrect": {
+        "de": "3 Euro (a) oder 5 Euro (b) betreffen eventuelle Bälleautomaten, der Eintritt selbst kostet aber nichts.",
+        "ar": "الرسوم 3 أو 5 يورو تخص آلات الكرات فقط، بينما بطاقة الدخول بحد ذاتها مجانية.",
+        "fr": "3 ou 5 euros ne correspondent pas au tarif d'entrée qui est sans frais."
+      }
+    },
+    "h5": {
+      "quote": "Kino-Ansage: Wegen umfassender Renovierungsarbeiten in unseren Kinosälen 1 bis 3 bleibt unser gesamter Vorführbetrieb bis einschließlich Freitag eingestellt.",
+      "whyCorrect": {
+        "de": "Richtig: Während der Bau- und Renovierungsarbeiten finden keinerlei Kinovorstellungen statt.",
+        "ar": "صحيح: تتوقف عروض الأفلام السينمائية بالكامل خلال فترة أعمال الصيانة والتجديد.",
+        "fr": "Vrai : Pendant les travaux de rénovation, aucune projection de film n'est programmée."
+      },
+      "whyIncorrect": {
+        "de": "Falsch widerspricht der Mitteilung der Kinoleitung.",
+        "ar": "الخيار 'خطأ' يتعارض مع إعلان إيقاف العروض التام.",
+        "fr": "Faux contredit l'annonce officielle du cinéma."
+      }
+    },
+    "h6": {
+      "quote": "Bitte beachten Sie: Am Sonntag bleibt das Kinocenter aufgrund der abschließenden Teppichverlegung ganztägig komplett geschlossen.",
+      "whyCorrect": {
+        "de": "Lösung c ist richtig: Das Kino bleibt am Sonntag ganztägig vollständig geschlossen.",
+        "ar": "الخيار (c) صحيح: تغلق صالات السينما أبوابها بالكامل طوال يوم الأحد.",
+        "fr": "L'option c est correcte : Le complexe cinématographique sera totalement fermé toute la journée du dimanche."
+      },
+      "whyIncorrect": {
+        "de": "a und b treffen nicht zu, da weder Kasse noch Vorführsäle am Sonntag geöffnet sind.",
+        "ar": "الخياران (a) و(b) غير صحيحين لأن شباك التذاكر والقاعات مغلقة كلياً.",
+        "fr": "a et b sont erronés car ni caisses ni projections ne fonctionneront dimanche."
+      }
+    },
+    "h7": {
+      "quote": "Werbedurchsage: In unserem neuen Familien-Einkaufscenter kommen Groß und Klein auf ihre Kosten – von der Senioren-Lounge bis zum Kinderparadies.",
+      "whyCorrect": {
+        "de": "Richtig: Es gibt gezielte Angebote für alle Altersstufen – von Kindern bis hin zu Senioren.",
+        "ar": "صحيح: يقدم المجمع التجاري خدمات ومرافق مخصصة لكافة الفئات العمرية من الأطفال حتى كبار السن.",
+        "fr": "Vrai : Le centre commercial a prévu des espaces adaptés à chaque tranche d'âge, des enfants aux aînés."
+      },
+      "whyIncorrect": {
+        "de": "Falsch widerspricht dem generationenübergreifenden Konzept des Centers.",
+        "ar": "الخيار 'خطأ' ينافي ما جاء في الإعلان عن شمولية الخدمات لجميع الأعمار.",
+        "fr": "Faux est contraire au concept intergénérationnel annoncé."
+      }
+    },
+    "h8": {
+      "quote": "Nehmt an unserem großen Malwettbewerb teil! Tolle Spielzeugpakete und Einkaufsgutscheine für Kinder warten auf die jungen Gewinner.",
+      "whyCorrect": {
+        "de": "Lösung a ist richtig: Der Malwettbewerb richtet sich speziell an Kinder und prämiert deren Bilder.",
+        "ar": "الخيار (a) صحيح: تنظم مسابقة الرسم للأطفال وجوائزها مخصصة للفائزين الصغار.",
+        "fr": "L'option a est correcte : Le concours de dessin est destiné spécifiquement aux enfants avec des lots jeunesse."
+      },
+      "whyIncorrect": {
+        "de": "b und c treffen nicht zu, da dieser Wettbewerb exklusiv für Kinder ausgeschrieben ist.",
+        "ar": "الخياران (b) و(c) غير دقيقين لأن المسابقة مخصصة للأطفال فقط.",
+        "fr": "b et c sont faux car le concours s'adresse exclusivement aux enfants."
+      }
+    },
+    "h9": {
+      "quote": "Praxis Dr. Weber auf dem Anrufbeantworter: Bitte holen Sie Ihr Rezept persönlich gegen Vorlage Ihrer Versichertenkarte in der Praxis ab; ein Versand per E-Mail ist rechtlich nicht möglich.",
+      "whyCorrect": {
+        "de": "Falsch: Ein E-Mail-Versand von Rezepten ist nicht möglich; das Rezept muss persönlich abgeholt werden.",
+        "ar": "خطأ: لا يمكن إرسال الوصفة الطبية عبر البريد الإلكتروني بل يجب استلامها شخصياً من العيادة مع البطاقة التأمينية.",
+        "fr": "Faux : L'envoi d'ordonnances par e-mail n'est pas autorisé ; il faut venir la chercher au cabinet en personne."
+      },
+      "whyIncorrect": {
+        "de": "Richtig ist nicht zutreffend, da der Arzt E-Mails für Rezepte ausdrücklich ausschließt.",
+        "ar": "الخيار 'صحيح' غير وارد لأن الطبيب أوضح منع إرسال الوصفات عبر الإيميل.",
+        "fr": "Vrai est incorrect car le médecin exclut formellement l'envoi dématérialisé."
+      }
+    },
+    "h10": {
+      "quote": "Ihre Blutwerte sind alle im Normalbereich – Blutzucker, Eisen und Leberwerte sind vorbildlich. Lediglich der Cholesterinspiegel ist leicht erhöht.",
+      "whyCorrect": {
+        "de": "Lösung b ist richtig: Bis auf den leicht erhöhten Cholesterinwert sind alle Laborbefunde vollkommen unauffällig.",
+        "ar": "الخيار (b) صحيح: جميع التحاليل والنتائج سليمة وطبيعية، باستثناء نسبة الكوليسترول المرتفعة قليلاً.",
+        "fr": "L'option b est correcte : Tous les bilans sanguins sont très satisfaisants, à l'exception du taux de cholestérol un peu élevé."
+      },
+      "whyIncorrect": {
+        "de": "a ist falsch, da das Cholesterin abweicht; c ist falsch, da Eisen vollkommen in Ordnung ist.",
+        "ar": "الخيار (a) خاطئ لوجود خلل بالكوليسترول، و(c) خاطئ لأن نسبة الحديد طبيعية جداً.",
+        "fr": "a est faux à cause du cholestérol ; c est faux car le fer est impeccable."
+      }
+    },
+    "h11": {
+      "quote": "Makler bei der Wohnungsbesichtigung: Wie Sie sehen, liegt der große Balkon direkt nach Süden mit einem wunderschönen, unverbauten Blick ins Grüne auf den Stadtpark.",
+      "whyCorrect": {
+        "de": "Lösung b ist richtig: Aus den Wohnzimmerfenstern und vom Balkon blickt man direkt auf den Park.",
+        "ar": "الخيار (b) صحيح: تطل الشرفة والنوافذ مباشرة على المساحات الخضراء لحديقة المدينة العامة.",
+        "fr": "L'option b est correcte : L'appartement bénéficie d'une vue dégagée orientée plein sud sur le parc."
+      },
+      "whyIncorrect": {
+        "de": "a (Hinterhof) und c (Garten) entsprechen nicht der Beschreibung des Maklers.",
+        "ar": "الفناء الخلفي (a) والحديقة الخاصة (c) لا يتطابقان مع ما ذكره الوسيط.",
+        "fr": "La cour arrière (a) et le jardin (c) ne correspondent pas aux explications de l'agent."
+      }
+    },
+    "h12": {
+      "quote": "Die Einbaumöbel und Schränke sind aus massivem, dunkelbraunem Eichenholz gefertigt und verleihen den Räumen eine warme Atmosphäre.",
+      "whyCorrect": {
+        "de": "Lösung b ist richtig: Die vorhandenen Möbel und Einbauten sind in Dunkelbraun gehalten.",
+        "ar": "الخيار (b) صحيح: قطع الأثاث والخزائن المدمجة مصنوعة من خشب البلوط ذي اللون البني الداكن.",
+        "fr": "L'option b est correcte : Les meubles encastrés sont en chêne massif de teinte marron foncé."
+      },
+      "whyIncorrect": {
+        "de": "a (chromsilbern) und c (beige) betreffen andere Einrichtungsdetails.",
+        "ar": "الفضي (a) والبيج (c) لا ينطبقان على الأثاث الخشبي المذكور.",
+        "fr": "Chromé (a) et beige (c) ne décrivent pas le mobilier principal."
+      }
+    },
+    "h13": {
+      "quote": "Die Wohnung verfügt über ein geräumiges Elternschlafzimmer und ein zweites, kleineres Zimmer, das ideal als Kinder- oder Arbeitszimmer genutzt werden kann.",
+      "whyCorrect": {
+        "de": "Lösung b ist richtig: Die Wohnung besitzt genau zwei Schlafzimmer (Eltern- und zweites Zimmer).",
+        "ar": "الخيار (b) صحيح: تحتوي الشقة على غرفتي نوم (غرفة رئيسية وغرفة نوم ثانية للأطفال أو العمل).",
+        "fr": "L'option b est correcte : Le logement compte exactement deux chambres (la chambre parentale et une seconde pièce)."
+      },
+      "whyIncorrect": {
+        "de": "a (4 Zimmer ist die Gesamtraumzahl) und c (1 Schlafzimmer) sind rechnerisch falsch.",
+        "ar": "الخيار (a) هو إجمالي عدد الغرف الأربع، و(c) غرفة واحدة لا يتطابق مع الواقع.",
+        "fr": "4 (a) désigne le nombre total de pièces ; 1 chambre (c) est faux."
+      }
+    },
+    "h14": {
+      "quote": "Im Badezimmer erwartet Sie ein echtes Highlight: Eine freistehende Designer-Badewanne steht mitten im Raum.",
+      "whyCorrect": {
+        "de": "Lösung a ist richtig: Die Designer-Wanne steht freistehend genau in der Mitte des Badezimmers.",
+        "ar": "الخيار (a) صحيح: صُممت حوض الاستحمام العصري ليكون قائماً بذاته في منتصف الحمام.",
+        "fr": "L'option a est correcte : La baignoire îlot est placée en plein milieu de la salle de bains."
+      },
+      "whyIncorrect": {
+        "de": "b (rechts) und c (hinten) widersprechen der freistehenden Mittelposition.",
+        "ar": "اليمين (b) أو الخلف (c) يتعارضان مع وضعية الحوض المستقل في وسط القاعة.",
+        "fr": "b (à droite) et c (au fond) contredisent l'emplacement central."
+      }
+    },
+    "h15": {
+      "quote": "Die Kaltmiete beträgt 850 Euro. Die monatliche Vorauszahlung für Nebenkosten liegt erfahrungsgemäß bei 100 bis 150 Euro je nach Heizverhalten.",
+      "whyCorrect": {
+        "de": "Lösung c ist richtig: Die Nebenkosten belaufen sich auf ca. 100 bis 150 Euro monatlich.",
+        "ar": "الخيار (c) صحيح: تتراوح المصاريف الإضافية والخدمات التقديرية بين 100 و150 يورو شهرياً.",
+        "fr": "L'option c est correcte : Le montant prévisionnel des charges s'élève à 100-150 euros par mois."
+      },
+      "whyIncorrect": {
+        "de": "a ist falsch, da sie zusätzlich zur Kaltmiete anfallen; b (50 €) ist zu niedrig angesetzt.",
+        "ar": "الخيار (a) خاطئ لأن الإيجار مجرد إيجار صافٍ بدون مصاريف، و(b) مبلغ 50 يورو غير مطابق.",
+        "fr": "a est inexact (loyer hors charges) ; b (50 €) est inférieur au montant annoncé."
+      }
+    },
+    "h16": {
+      "quote": "Junge Kundin: Was, Sie sind schon 88 Jahre alt und stehen jeden Tag hier bei Wind und Wetter am Gemüsestand? Das hätte ich im Leben nicht geschätzt!",
+      "whyCorrect": {
+        "de": "Richtig: Die Kundin reagiert mit großem Erstaunen und Bewunderung auf das hohe Alter der rüstigen Marktfrau.",
+        "ar": "صحيح: أبدت الشابة دهشتها وإعجابها الشديدين عندما علمت بأن البائعة تبلغ من العمر 88 عاماً وما زالت تعمل يومياً.",
+        "fr": "Vrai : La jeune cliente manifeste un grand étonnement en découvrant que la marchande a déjà 88 ans."
+      },
+      "whyIncorrect": {
+        "de": "Falsch widerspricht der überraschten Reaktion der jungen Kundin.",
+        "ar": "الخيار 'خطأ' يناقض تعبيرات الدهشة الصريحة الصادرة عن الزبونة.",
+        "fr": "Faux est contraire aux exclamations de surprise de la cliente."
+      }
+    },
+    "h17": {
+      "quote": "Marktfrau: Wissen Sie, mein Mann hat immer streng Diät gehalten, nur Bio gegessen – und ist trotzdem mit 60 gestorben. Gesundes Essen allein ist eben keine Lebensversicherung.",
+      "whyCorrect": {
+        "de": "Richtig: Die Marktfrau erklärt anhand ihres Mannes, dass gesundes Essen keine absolute Garantie für ein langes Leben ist.",
+        "ar": "صحيح: توضح البائعة من تجربة زوجها الراحل أن الأكل الصحي وحده لا يشكل ضمانة حتمية للعمر الطويل.",
+        "fr": "Vrai : La commerçante souligne que manger sainement ne garantit pas à coup sûr une longue vie."
+      },
+      "whyIncorrect": {
+        "de": "Falsch steht im Widerspruch zum Beispiel ihres früh verstorbenen Mannes.",
+        "ar": "الخيار 'خطأ' يتعارض مع ما روته البائعة عن وفاة زوجها المبكرة رغم تغذيته الصحية الصارمة.",
+        "fr": "Faux contredit l'exemple cité par la commerçante."
+      }
+    },
+    "h18": {
+      "quote": "Kundin: Naja, aber die viele Schlepperei und die viele Arbeit, das kann auf Dauer doch nicht gesund sein!",
+      "whyCorrect": {
+        "de": "Richtig: Die junge Dame vertritt die Auffassung, dass schwere körperliche Arbeit und Lastenheben ungesund sind.",
+        "ar": "صحيح: ترى الشابة أن الإجهاد والعمل البدني الشاق وحمل الأوزان الثقيلة يضر بالصحة.",
+        "fr": "Vrai : La cliente affirme que le travail physique pénible et le port de charges sont néfastes pour le corps."
+      },
+      "whyIncorrect": {
+        "de": "Falsch widerspricht der Aussage der Kundin im Dialog.",
+        "ar": "الخيار 'خطأ' ينافي ما صرحت به الزبونة نصياً في الحوار.",
+        "fr": "Faux contredit les propos explicites de la cliente."
+      }
+    },
+    "h19": {
+      "quote": "Marktfrau: Mein Geheimnis ist einfach: Von allem ein bisschen, nichts übertreiben! Man muss in allen Dingen Maß halten, dann bleibt man zufrieden.",
+      "whyCorrect": {
+        "de": "Richtig: Das Lebensprinzip der Marktfrau lautet, stets Maß zu halten und Extreme zu vermeiden.",
+        "ar": "صحيح: تؤكد البائعة العجوز أن سر صحتها هو الاعتدال في كل شيء وعدم الإفراط.",
+        "fr": "Vrai : La commerçante préconise la modération en toute chose pour garder l'équilibre et vivre vieux."
+      },
+      "whyIncorrect": {
+        "de": "Falsch trifft nicht zu, da Mäßigung ihre zentrale Lebensweisheit ist.",
+        "ar": "الخيار 'خطأ' غير صحيح لأن الاعتدال هو نصيحتها الأساسية للعيش الهانئ.",
+        "fr": "Faux est faux puisque la tempérance constitue son conseil fondamental."
+      }
+    },
+    "h20": {
+      "quote": "Marktfrau: Ich habe sieben Enkel und inzwischen zwei kleine Ururenkel, die mich am Wochenende besuchen.",
+      "whyCorrect": {
+        "de": "Falsch: Sie hat zwei Ururenkel (nicht fünf) und sieben Enkelkinder.",
+        "ar": "خطأ: لديها حفيدان من أبناء الأحفاد (Ururenkel) فقط وليس خمسة كما زعمت العبارة.",
+        "fr": "Faux : Elle a deux arrière-arrière-petits-enfants (et non cinq) ainsi que sept petits-enfants."
+      },
+      "whyIncorrect": {
+        "de": "Richtig ist eine falsche Ziffernzuordnung im Verwandtschaftsgrad.",
+        "ar": "الخيار 'صحيح' يخلط بين الأرقام وصلة القرابة الواردة في الحوار.",
+        "fr": "Vrai confond les chiffres cités dans la conversation."
+      }
+    },
+    "h21": {
+      "quote": "Marktfrau: Natürlich zwackt es morgens im Knie und der Rücken meldet sich auch manchmal, schmerzfrei ist man in meinem Alter nicht...",
+      "whyCorrect": {
+        "de": "Falsch: Die Marktfrau spürt sehr wohl Schmerzen in Knien und Rücken; sie ist keineswegs schmerzfrei.",
+        "ar": "خطأ: تشعر بآلام الصباح في الركبة والظهر، ونفت أن تكون بلا أوجاع في هذه السن.",
+        "fr": "Faux : La vieille dame a des douleurs régulières aux genoux et au dos ; elle n'est pas épargnée."
+      },
+      "whyIncorrect": {
+        "de": "Richtig widerspricht ihren realistischen Beschreibungen von Gelenkschmerzen.",
+        "ar": "الخيار 'صحيح' يتناقض مع اعترافها الصريح بآلام المفاصل والظهر.",
+        "fr": "Vrai est démenti par ses aveux sur ses douleurs articulaires."
+      }
+    },
+    "h22": {
+      "quote": "Kundin: Wenn ich daran denke: Ich hetze vom Büro zum Einkaufen, dann noch Sport... ich fühle mich oft völlig ausgelaugt und gestresst.",
+      "whyCorrect": {
+        "de": "Richtig: Die junge Kundin klagt über ihren hektischen Alltag und fühlt sich stark gestresst.",
+        "ar": "صحيح: تشكو الشابة من الركض الدائم وضغوط العمل وتؤكد أنها تشعر بالتوتر والإرهاق المستمر.",
+        "fr": "Vrai : La jeune femme avoue mener une vie trépidante et être souvent submergée par le stress."
+      },
+      "whyIncorrect": {
+        "de": "Falsch steht im Widerspruch zu ihren Schilderungen der eigenen Belastung.",
+        "ar": "الخيار 'خطأ' يخالف اعتراف الزبونة الصريح بحالة الضغط العصبي التي تعيشها.",
+        "fr": "Faux contredit sa propre description de son quotidien sous tension."
+      }
+    },
+    "h23": {
+      "quote": "Volker Degen: Wer mit Ende 20 immer noch bei den Eltern wohnt, lässt sich doch bloß bedienen und wird bequem und verwöhnt.",
+      "whyCorrect": {
+        "de": "Lösung c (Volker Degen): Volker kritisiert scharf, dass erwachsene Kinder im Elternhaus verwöhnt und unselbstständig werden.",
+        "ar": "الخيار (c) فولكر ديغن: يرى فولكر أن بقاء الشاب مع والديه يجعله مدللاً واتكالياً يبحث عن الراحة فقط.",
+        "fr": "Option c (Volker Degen) : Volker estime qu'habiter chez ses parents à l'âge adulte rend paresseux et assisté."
+      },
+      "whyIncorrect": {
+        "de": "a (Moderatorin) moderiert neutral; b (Jürgen Markowsky) verteidigt das Modell.",
+        "ar": "المذيعة (a) تدير النقاش بحياد، وماركوفسكي (b) يدافع عن سكن الأبناء مع العائلة.",
+        "fr": "L'animatrice (a) reste neutre ; Jürgen (b) défend la cohabitation familiale."
+      }
+    },
+    "h24": {
+      "quote": "Jürgen Markowsky: Wenn man eine anspruchsvolle Berufsausbildung oder ein Studium absolviert, ist es enorm hart, gleichzeitig noch einen kompletten Haushalt alleine zu stemmen.",
+      "whyCorrect": {
+        "de": "Lösung b (Jürgen Markowsky): Jürgen verweist darauf, wie schwierig die Doppelbelastung von Ausbildung und eigenem Haushalt ist.",
+        "ar": "الخيار (b) يورغن ماركوفسكي: يوضح يورغن مدى صعوبة الجمع بين متطلبات الدراسة أو التدريب المهني وإدارة أعباء المنزل بمفرده.",
+        "fr": "Option b (Jürgen Markowsky) : Jürgen rappelle à quel point il est difficile de concilier études exigeantes et gestion d'un foyer."
+      },
+      "whyIncorrect": {
+        "de": "a und c äußern diesen verteidigenden Aspekt nicht.",
+        "ar": "المذيعة (a) وفولكر (c) لم يذكرا صعوبة إدارة الأعمال المنزلية أثناء الدراسة.",
+        "fr": "Ni l'animatrice (a) ni Volker (c) n'ont mis en avant cet argument."
+      }
+    },
+    "h25": {
+      "quote": "Jürgen Markowsky: Ich kenne viele Altersgenossen, die früh ausgezogen sind und danach kaum noch Kontakt zu den Eltern pflegen. Das Zusammenleben erhält dagegen die Bindung.",
+      "whyCorrect": {
+        "de": "Lösung b (Jürgen Markowsky): Jürgen stellt fest, dass manche nach dem Auszug den elterlichen Kontakt fast völlig verlieren.",
+        "ar": "الخيار (b) يورغن ماركوفسكي: يشير يورغن إلى أن الكثير ممن يستقلون مبكراً تنقطع صلتهم بآبائهم ولا يزورونهم إلا نادراً.",
+        "fr": "Option b (Jürgen Markowsky) : Jürgen constate que beaucoup de jeunes partis trop vite coupent quasiment les ponts avec leurs parents."
+      },
+      "whyIncorrect": {
+        "de": "a und c teilen diesen Einwand über den Kontaktabbruch nicht.",
+        "ar": "المذيعة (a) وفولكر (c) لم يتحدثا عن ظاهرة فقدان التواصل الأسري.",
+        "fr": "Ce n'est une remarque formulée ni par l'animatrice (a) ni par Volker (c)."
+      }
+    },
+    "h26": {
+      "quote": "Jürgen Markowsky: Man darf auch die ökonomischen Vorteile nicht vergessen: Gemeinsames Wirtschaften senkt die Wohn- und Lebenshaltungskosten für beide Generationen.",
+      "whyCorrect": {
+        "de": "Lösung b (Jürgen Markowsky): Jürgen argumentiert mit der gegenseitigen finanziellen Entlastung und Kostenteilung.",
+        "ar": "الخيار (b) يورغن ماركوفسكي: يوضح يورغن الميزة الاقتصادية في تقاسم نفقات السكن والمعيشة بين الأبناء والآباء.",
+        "fr": "Option b (Jürgen Markowsky) : Jürgen insiste sur le partage des charges et les économies réalisées par les deux générations."
+      },
+      "whyIncorrect": {
+        "de": "Volker (c) ignoriert finanzielle Synergien; die Moderatorin (a) fragt lediglich nach.",
+        "ar": "فولكر (c) يرفض المبدأ كلياً، والمذيعة (a) تكتفي بطرح السؤال دون إبداء الرأي.",
+        "fr": "Volker (c) refuse l'idée et l'animatrice (a) se contente de relancer."
+      }
+    },
+    "h27": {
+      "quote": "Moderatorin: Aber ist es nicht die staatliche Rentenkasse, die älteren Menschen ein finanziell sorgenfreies Leben sichern sollte?",
+      "whyCorrect": {
+        "de": "Lösung a (Moderatorin): Die Moderatorin wirft die Frage nach der Rolle des Rentensystems zur Altersversorgung auf.",
+        "ar": "الخيار (a) المذيعة: تطرح المذيعة التساؤل حول مدى كفاية نظام التقاعد الحكومي لتأمين حياة كريمة لكبار السن.",
+        "fr": "Option a (l'animatrice) : La présentatrice pose la question de la suffisance du système de retraite pour faire vivre les aînés."
+      },
+      "whyIncorrect": {
+        "de": "b und c sind Diskussionsteilnehmer, die den Impuls der Moderatorin aufgreifen.",
+        "ar": "الضيفان (b) و(c) علقا على سؤال المذيعة الذي بادرت بطرحه.",
+        "fr": "Les invités (b et c) ne font que réagir à la question de l'animatrice."
+      }
+    },
+    "h28": {
+      "quote": "Jürgen Markowsky: Meine Eltern freuen sich jedes Mal, wenn meine Freunde zu Besuch sind. Für Rentner ist dieses junge Leben im Haus ein echtes Lebenselixier.",
+      "whyCorrect": {
+        "de": "Lösung b (Jürgen Markowsky): Jürgen erzählt, dass seine Eltern den Kontakt zu seinen Freunden und den Trubel im Haus sehr schätzen.",
+        "ar": "الخيار (b) يورغن ماركوفسكي: يؤكد يورغن أن والديه يستمتعان بحضور أصدقائه ويشعران بحيوية وروح الشباب في المنزل.",
+        "fr": "Option b (Jürgen Markowsky) : Jürgen explique que ses parents apprécient la venue de ses amis et l'animation que cela apporte."
+      },
+      "whyIncorrect": {
+        "de": "Volker (c) behauptet das Gegenteil, nämlich dass Freunde der Kinder die Eltern belasten.",
+        "ar": "فولكر (c) زعم عكس ذلك بأن الأصدقاء يزعجون الوالدين.",
+        "fr": "Volker (c) soutient au contraire que les amis représentent une gêne pour les parents."
+      }
+    },
+    "h29": {
+      "quote": "Jürgen Markowsky: Außerdem ist man im Notfall sofort zur Stelle. Wenn meine Mutter stürzt oder krank wird, ist jemand da, der sich sofort kümmert.",
+      "whyCorrect": {
+        "de": "Lösung b (Jürgen Markowsky): Jürgen betont, dass daheim lebende Kinder auf die Gesundheit ihrer Eltern achten und im Ernstfall helfen.",
+        "ar": "الخيار (b) يورغن ماركوفسكي: يوضح يورغن أن وجود الابن في البيت يضمن مراقبة صحة الوالدين والتدخل الفوري عند المرض أو الحوادث.",
+        "fr": "Option b (Jürgen Markowsky) : Jürgen fait valoir que les jeunes veillent sur leurs parents âgés et peuvent intervenir en cas de pépin."
+      },
+      "whyIncorrect": {
+        "de": "a und c äußern diesen Aspekt der familiären Fürsorge nicht.",
+        "ar": "المذيعة (a) وفولكر (c) لم يذكرا رعاية الأبناء لآبائهم في حالات الطوارئ.",
+        "fr": "Ni l'animatrice (a) ni Volker (c) n'ont mis en avant la vigilance auprès des parents."
+      }
+    },
+    "h30": {
+      "quote": "Volker Degen: Am Ende zählt nur eines: Junge Erwachsene müssen flügge werden, die eigenen vier Wände beziehen und echte Eigenverantwortung lernen!",
+      "whyCorrect": {
+        "de": "Lösung c (Volker Degen): Volker schließt mit dem vehementen Plädoyer, dass junge Menschen ausziehen und Selbstständigkeit lernen müssen.",
+        "ar": "الخيار (c) فولكر ديغن: يختم فولكر بالتأكيد الصارم على ضرورة خروج الأبناء من بيت العائلة لتعلم الاستقلال وتحمل المسؤولية.",
+        "fr": "Option c (Volker Degen) : Volker conclut avec fermeté que les enfants doivent quitter le nid pour acquérir une vraie autonomie."
+      },
+      "whyIncorrect": {
+        "de": "b (Jürgen) plädiert für flexible Modelle; a (Moderatorin) fasst neutral zusammen.",
+        "ar": "يورغن (b) يرى أن الأمر نسبي ومفيد، والمذيعة (a) تكتفي بإنهاء الحلقة دون تبني هذا الموقف الصارم.",
+        "fr": "Jürgen (b) défend la cohabitation et l'animatrice (a) se contente de clore l'émission."
+      }
+    }
+  },
+  "translations": {
+    "parts": {
+      "1": {
+        "instructions": {
+          "ar": "اقرأ النص والمهام من 1 إلى 6. اختر: هل العبارات صحيحة أم خاطئة؟",
+          "fr": "Lisez le texte et les tâches 1 à 6 correspondantes. Choisissez : les affirmations sont-elles Vraies ou Fausses ?"
+        },
+        "articles": [
+          {
+            "heading": {
+              "ar": "الرقص – هوايتي مدى الحياة",
+              "fr": "La danse – ma passion pour la vie"
+            },
+            "sub": {
+              "ar": "الرقص ممتع وصحي. ليس من قبيل الصدفة أن يكتشف المزيد والمزيد من الناس الرقص كشغف بالحركة والموسيقى: فالرقص إحساس بالجسد، وتعبير، وتناسق، وتواصل.",
+              "fr": "La danse est source de plaisir et de santé. Rien d'étonnant à ce qu'un nombre croissant de personnes y trouvent le goût du mouvement et de la musique : la danse est sensation corporelle, expression, coordination et communication."
+            },
+            "body": {
+              "ar": [
+                "في عصر تتغلب فيه الأنشطة التي تتطلب الجلوس الطويل، بات توفير الحركة المناسبة للجسم أمراً بالغ الأهمية. فالرقص يقوي الجهاز القلبي الوعائي والظهر، كما ينمي القدرة على التحمل، والتناسق الحركي، والتركيز، والتوازن. والتركيز على الخطوات وتصميم الرقصات يحرر الذهن. وبفضل تنشيط الدورة الدموية في كلا نصفي الدماغ، يتم تحفيز الإبداع. وسرعان ما يتحسن الشعور بالجسد ويستمر هذا حتى سن متقدمة.",
+                "هذا التوازن ليس مفيداً للجسد فحسب؛ فالحركة مع الموسيقى تزيل التوتر وتبعث في النفس فرحة الحياة الخالصة. فضلاً عن ذلك، لا تغيب الألفة الاجتماعية في مجموعات الرقص، إذ يمكن التعرف على أشخاص جدد في وقت وجيز جداً. ومن الجوانب المهمة في الرقص إدراك الجسد والوعي به، بالإضافة إلى التحرك في المكان أو البيئة المحيطة، سواء منفرداً أو في مجموعة.",
+                "منذ متى وأنا أمارس هذه الهواية؟ في الحقيقة، منذ طفولتي. فمنذ أن كنت فتاة صغيرة، سحرتني الموسيقى والرقص. لم تكن هناك إمكانات مادية لدروس الباليه، لكنني وجدت عروضاً للرقص في حصص الرياضة ومجموعات أوقات الفراغ. كما كنا نذهب إلى الديسكو حيث يبحث كل منا عن أسلوبه الخاص. لاحقاً جاءت دروس الرقص على الرقصات الكلاسيكية كالفالس، والفوكستروت، والتانغو، والرقصات اللاتينية. ولا شك أن تعلم الخطوات والحركات يتطلب قدراً كبيراً من التقنية والانضباط، لكن متعة التجربة تطغى على كل جهد.",
+                "كما يقول نوربرت روبي: «الرقص كحركة إيقاعية دورية قادر على نقل الإنسان من واقعه اليومي إلى حالة استثنائية وإثارة المشاعر في آن واحد». وفي اللهجة الفيينية هناك مثل شهير يقول: 'لا تقم برقصات' بمعنى: 'لا تنفعل' أو 'لا ترتكب حماقة في فورة غضبك'، ومع ذلك فالحياة محاطة دائماً بالانفعالات التي تشبه الرقص.",
+                "الرقص وتعلمه مسار لا ينتهي أبداً. ومن أحدث برامج اللياقة الراقصة في السوق برنامج 'زومبا'، وفيه تمارس تمارين الأيروبيكس على إيقاعات حماسية دافئة. يتعلم المرء في البداية خطوات أساسية مثل مدارس الرقص، ثم تضاف حركات حيوية مكثفة لتكتمل رقصة الزومبا.",
+                "إنها حقاً ممارسة تثير العرق، لكنها تملأني بالطاقة والحيوية. في جميع الثقافات، يمثل الرقص تعبيراً حياً عن الحياة. والأجمل من ذلك أننا لسنا بحاجة إلى لغة منطوقة للتفاهم؛ فالرقص يسهم كالموسيقى في تحقيق التفاهم والتآخي بين الشعوب. وما أتمناه حقاً؟ ... ألا أتوقف عن الرقص أبداً!"
+              ],
+              "fr": [
+                "À une époque où prédominent les activités sédentaires, il est de plus en plus crucial d'assurer une activité physique suffisante. La danse renforce le système cardio-vasculaire et le dos, tout en stimulant l'endurance, la coordination, la concentration et l'équilibre. Se focaliser sur les pas et la chorégraphie libère l'esprit. Grâce à une meilleure irrigation des deux hémisphères cérébraux, la créativité est stimulée. Dès les premières séances, la conscience corporelle s'améliore, et ce jusqu'à un âge avancé.",
+                "Cet équilibre n'est pas seulement bénéfique pour le corps. Bouger en musique élimine le stress et procure une pure joie de vivre. De plus, la convivialité au sein d'un groupe de danse n'est pas en reste : on tisse des liens très rapidement. La perception de son propre corps et le déplacement dans l'espace, seul ou en groupe, constituent des atouts majeurs.",
+                "Depuis quand ai-je cette passion ? En réalité, depuis toujours. Toute petite déjà, j'étais fascinée par les rythmes et le mouvement. Nous n'avions pas les moyens pour des cours de ballet, mais j'ai trouvé des ateliers en cours d'EPS et en clubs de loisirs. Plus tard vinrent les danses de salon : valse, foxtrot, tango et danses latines. L'apprentissage exige certes rigueur et technique, mais le plaisir l'emporte toujours.",
+                "Comme l'exprime Norbert Rubey : « La danse, en tant que mouvement périodique et rythmé, élève l'être humain hors du quotidien ». Le dialecte viennois utilise d'ailleurs l'expression 'Mach kane Tanz' pour conseiller de ne pas s'emporter inutilement, même si la vie elle-même est faite de tumultes semblables à la danse.",
+                "Danser et apprendre à danser ne s'arrête jamais. Parmi les concepts récents figure la Zumba, combinant aérobic et rythmes endiablés. Après l'acquisition des pas de base, on y intègre des mouvements dynamiques pleins d'énergie.",
+                "C'est une activité très physique, mais qui regorge d'énergie communicative. Dans toutes les cultures, la danse exprime la vie. Le plus beau reste que nous n'avons besoin d'aucun mot pour nous comprendre : la danse favorise ainsi, à l'instar de la musique, la concorde internationale. Mon vœu le plus cher ? Ne jamais cesser de danser !"
+              ]
+            }
+          }
+        ],
+        "example": {
+          "text": {
+            "ar": "المدونة تتحدث عن تجاربها الطويلة مع الرقص طوال حياتها.",
+            "fr": "La blogueuse évoque son expérience de la danse tout au long de sa vie."
+          }
+        },
+        "questions": {
+          "1": {
+            "text": {
+              "ar": "كثير من الناس لا يحبون الرقص.",
+              "fr": "Beaucoup de gens n'aiment pas danser."
+            }
+          },
+          "2": {
+            "text": {
+              "ar": "الرقص هواية يمكن ممارستها في سن الشيخوخة أيضاً.",
+              "fr": "La danse est un passe-temps que l'on peut pratiquer même âgé."
+            }
+          },
+          "3": {
+            "text": {
+              "ar": "الرقص يعزز الراحة النفسية والصحة العاطفية.",
+              "fr": "La danse renforce le bien-être psychologique."
+            }
+          },
+          "4": {
+            "text": {
+              "ar": "ترى المدونة أنه من المهم تعلم حركات الرقص بالشكل الصحيح.",
+              "fr": "La blogueuse estime important de bien apprendre les mouvements de danse."
+            }
+          },
+          "5": {
+            "text": {
+              "ar": "ترى المدونة أن رقصة الزومبا مجهدة وشاقة أكثر من اللازم.",
+              "fr": "La blogueuse trouve la zumba trop fatigante."
+            }
+          },
+          "6": {
+            "text": {
+              "ar": "بعض الناس لا يفهمون بعضهم البعض أثناء الرقص.",
+              "fr": "Certaines personnes ne se comprennent pas en dansant."
+            }
+          }
+        }
+      },
+      "2": {
+        "instructions": {
+          "ar": "اقرأ المقال الصحفي وحل المهام من 7 إلى 9. اختر الإجابة الصحيحة لكل مهمة: a أو b أو c.",
+          "fr": "Lisez l'article de presse et résolvez les tâches 7 à 9. Choisissez la bonne réponse a, b ou c."
+        },
+        "articles": [
+          {
+            "heading": {
+              "ar": "ألمانيا وحقوق الطفل",
+              "fr": "L'Allemagne et les droits de l'enfant"
+            },
+            "sub": {
+              "ar": "في عام 1989 اعتمدت الجمعية العامة للأمم المتحدة اتفاقية حقوق الطفل، وقد وقّعت عليها تقريباً جميع دول العالم. ويهدف اليوم العالمي للطفل، الذي تحتفل به ألمانيا في 20 سبتمبر من كل عام، إلى التذكير بحقوق الأطفال الخاصة.",
+              "fr": "En 1989, l'Assemblée générale des Nations unies a adopté la Convention relative aux droits de l'enfant, ratifiée depuis par la quasi-totalité des pays. La Journée mondiale de l'enfance, célébrée en Allemagne le 20 septembre, vise à sensibiliser aux droits fondamentaux des plus jeunes."
+            },
+            "body": {
+              "ar": [
+                "تهدف اتفاقية الأمم المتحدة إلى ضمان معرفة الأطفال بحقوقهم والقدرة على تطبيقها. ولكن كيف يبدو الوضع في الواقع اليوم؟ وما هو وضع حقوق الطفل في ألمانيا؟ تنتقد منظمة مساعدة الأطفال الألمانية (Deutsches Kinderhilfswerk) على سبيل المثال عدم مراعاة مصلحة الطفل بالشكل المنصوص عليه في الاتفاقية.",
+                "ولتحقيق ذلك، من الضروري إشراك الأطفال فعلياً في القرارات التي تهمهم: مثل بناء ساحات اللعب، أو في المدرسة، أو حتى في الانتخابات السياسية.",
+                "وتقول الدكتورة هايده روز بروكيز من المنظمة: «يجب على السياسيين وضع الأطفال في صميم سياستهم أكثر من ذي قبل، على سبيل المثال في مكافحة فقر الأطفال أو تعزيز حقوق مشاركة اليافعين». فما زال هناك في ألمانيا للأسف عدد كبير جداً من الأطفال الفقراء أو الذين ينشؤون دون فرص حقيقية لحياة صحية وكريمة. لذلك تطالب المنظمات بإدراج حقوق الطفل صراحة في الدستور الألماني لجعل البلاد أكثر مودة للأطفال."
+              ],
+              "fr": [
+                "La convention de l'ONU vise à faire en sorte que les enfants connaissent et fassent valoir leurs droits. Mais qu'en est-il réellement en Allemagne ? L'association Deutsches Kinderhilfswerk déplore que le bien-être des enfants ne soit pas autant pris en compte que le prescrit le traité.",
+                "Il serait indispensable que les jeunes soient associés aux décisions qui les concernent : aménagement d'aires de jeux, milieu scolaire ou scrutins électoraux.",
+                "Le Dr Heide-Rose Brückner déclare : « Les politiques doivent placer l'enfant au cœur de leurs priorités, notamment pour lutter contre la pauvreté infantile et élargir les droits de participation. » Trop d'enfants grandissent encore dans la précarité. C'est pourquoi les associations exigent l'inscription des droits de l'enfant dans la Constitution allemande afin de rendre le pays plus accueillant pour les jeunes générations."
+              ]
+            }
+          }
+        ],
+        "example": {
+          "text": {
+            "ar": "يتناول المقال موضوع ...",
+            "fr": "L'article traite..."
+          },
+          "options": {
+            "ar": [
+              "حقوق الأطفال في ألمانيا.",
+              "يوم الطفل في شهر سبتمبر.",
+              "الجمعية العامة للأمم المتحدة."
+            ],
+            "fr": [
+              "des droits des enfants en Allemagne.",
+              "de la Journée de l'enfance en septembre.",
+              "de l'Assemblée générale de l'ONU."
+            ]
+          }
+        },
+        "questions": {
+          "7": {
+            "text": {
+              "ar": "ينبغي السماح للأطفال بإبداء رأيهم والمشاركة، ...",
+              "fr": "Les enfants devraient avoir leur mot à dire..."
+            },
+            "options": {
+              "ar": [
+                "عندما يتم تعبيد أو بناء شارع جديد.",
+                "عندما يتم بناء أو إنشاء ساحة لعب.",
+                "عندما يتم إنشاء موقف سيارات."
+              ],
+              "fr": [
+                "lorsqu'une route est construite.",
+                "lorsqu'une aire de jeux est aménagée.",
+                "lorsqu'un parking est créé."
+              ]
+            }
+          },
+          "8": {
+            "text": {
+              "ar": "تقول الدكتورة بروكيز، ...",
+              "fr": "Mme Brückner affirme..."
+            },
+            "options": {
+              "ar": [
+                "إن هناك أطفالاً فقراء كثيرين في ألمانيا.",
+                "إن السياسيين فقراء.",
+                "إن السياسيين هم محط الاهتمام."
+              ],
+              "fr": [
+                "qu'il y a beaucoup d'enfants pauvres en Allemagne.",
+                "que les hommes politiques sont démunis.",
+                "que les politiques sont au centre des attentions."
+              ]
+            }
+          },
+          "9": {
+            "text": {
+              "ar": "حقوق الأطفال يجب أن ...",
+              "fr": "Les droits de l'enfant devraient..."
+            },
+            "options": {
+              "ar": [
+                "لا تتعارض مع نصوص الدستور.",
+                "تكون بديهية ومفروغاً منها.",
+                "تصبح جزءاً أصيلاً ومدرجاً في الدستور الألماني."
+              ],
+              "fr": [
+                "ne pas contredire la Loi fondamentale.",
+                "aller de soi.",
+                "faire partie intégrante de la Constitution."
+              ]
+            }
+          }
+        },
+        "instructions2": {
+          "ar": "اقرأ النص الصحفي التالي والمهام من 10 إلى 12. اختر لكل مهمة الحل الصحيح: a أو b أو c.",
+          "fr": "Lisez le texte de presse suivant et résolvez les tâches 10 à 12. Choisissez la bonne réponse a, b ou c."
+        },
+        "articles2": [
+          {
+            "heading": {
+              "ar": "بوابة الشباب > لودفيغسهافن: المساعدة في الواجبات المدرسية للمرحلة الابتدائية",
+              "fr": "Portail jeunesse > Ludwigshafen : Aide aux devoirs pour écoliers"
+            },
+            "sub": {
+              "ar": "هل أنت تلميذ في المرحلة الابتدائية وتبحث عمن يساعدك في أداء واجباتك المدرسية؟",
+              "fr": "Tu es à l'école primaire et tu cherches un soutien pour tes devoirs ?"
+            },
+            "body": {
+              "ar": [
+                "في قسم المساعدة في الواجبات التابع لمركز الترفيه والشباب بإديغهايم (Edigheim)، يمكنك العمل في مجموعات صغيرة بإشراف موظفتين لإنجاز واجباتك والتدرب للامتحانات. هذا العرض مجاني تماماً.",
+                "ولأن الفائدة الكبرى تتحقق عند التزام الأطفال بالحضور المنتظم لفترة كافية، ونظراً لمحدودية المقاعد، فهذا هو القسم الوحيد في المركز الذي يتطلب تسجيلاً مسبقاً. أما إذا أردت فقط التدرب استعداداً لامتحان محدد أو واجهت استثناءً صعوبة في واجباتك، فإن موظفي وموظفات المركز مستعدون لمساعدتك خارج هذا البرنامج بكل سرور وبلا أي مشكلة!",
+                "حالياً، يحصل تلاميذ الصف الخامس فما فوق على المساعدة من الأربعاء إلى الجمعة من الساعة 15 إلى 16. وبما أن هذه الساعة لا تكفي لكل الواجبات، يقتصر التركيز على المواد الأساسية أو التي يواجه فيها التلميذ صعوبات.",
+                "تُقام جلسات المساعدة في قاعة الحواسيب، مما يتيح لك استخدام أجهزة المركز لإعداد عروضك أو البحث عن المعلومات في الإنترنت. وبقدر ما تسمح إمكاناتنا، يسعدنا أيضاً تقديم العون خارج هذه الساعات المحددة."
+              ],
+              "fr": [
+                "Au centre de loisirs d'Edigheim, tu peux faire tes devoirs en petits groupes avec deux animatrices et préparer tes contrôles. Cette formule est totalement gratuite.",
+                "Comme l'assiduité est recommandée et les places contingentées, c'est la seule activité du centre nécessitant une inscription préalable. Si tu as juste besoin d'une aide ponctuelle, l'équipe reste disponible même en dehors des créneaux officiels.",
+                "Actuellement, les élèves à partir du CM2/6e (5. Klasse) sont accueillis du mercredi au vendredi de 15h à 16h. L'aide se concentre sur les matières clés ou problématiques.",
+                "Les séances ont lieu dans la salle informatique, ce qui te donne accès aux ordinateurs et à Internet pour tes exposés. Dans la mesure de nos disponibilités, nous t'aidons volontiers au-delà de ces plages horaires."
+              ]
+            }
+          }
+        ],
+        "questions2": {
+          "10": {
+            "text": {
+              "ar": "خدمة المساعدة في الواجبات المدرسية ...",
+              "fr": "L'aide aux devoirs..."
+            },
+            "options": {
+              "ar": [
+                "تقدمها المدرسة في إديغهايم.",
+                "تشرف عليها الكنيسة.",
+                "تنظمها وتديرها بلدية المدينة."
+              ],
+              "fr": [
+                "est proposée par l'école locale.",
+                "provient de la paroisse.",
+                "est organisée par la ville."
+              ]
+            }
+          },
+          "11": {
+            "text": {
+              "ar": "الموظفون والمشرفون ...",
+              "fr": "Les animateurs..."
+            },
+            "options": {
+              "ar": [
+                "يقدمون المساعدة لمدة ساعة واحدة يومياً.",
+                "يساعدون بقدر الإمكان أيضاً بموجب اتفاق مسبق وخارج الأوقات المحددة.",
+                "يعملون بشكل تطوعي غير مدفوع."
+              ],
+              "fr": [
+                "aident une heure par jour.",
+                "aident dans la mesure du possible selon entente préalable.",
+                "travaillent comme bénévoles."
+              ]
+            }
+          },
+          "12": {
+            "text": {
+              "ar": "أجهزة الحاسوب ...",
+              "fr": "Les ordinateurs..."
+            },
+            "options": {
+              "ar": [
+                "لا تملك اتصالاً بشبكة الإنترنت.",
+                "ليست ملكاً للمركز الترفيهي.",
+                "يُسمح باستخدامها للبحث والدراسة."
+              ],
+              "fr": [
+                "n'ont aucun accès à Internet.",
+                "n'appartiennent pas au centre.",
+                "peuvent être utilisés."
+              ]
+            }
+          }
+        }
+      },
+      "3": {
+        "instructions": {
+          "ar": "اقرأ الحالات من 13 إلى 19 والإعلانات من A إلى J. اختر: أي إعلان يناسب أياً من الحالات؟ يمكنك استخدام كل إعلان مرة واحدة فقط. لا تستخدم إعلان المثال. توجد حالة واحدة لا يناسبها أي إعلان، وفي هذه الحالة اختر 0.",
+          "fr": "Lisez les situations 13 à 19 et les annonces A à J. Choisissez l'annonce correspondant à chaque situation. Chaque annonce n'est utilisable qu'une seule fois. Une situation ne comporte aucune annonce correspondante, inscrivez 0."
+        },
+        "example": {
+          "text": {
+            "ar": "يخطط السيد فيلاند لرحلة إلى إفريقيا ويريد معرفة ما يجب فعله لحماية صحته من الأمراض.",
+            "fr": "M. Wieland prépare un voyage en Afrique et souhaite savoir comment préserver sa santé."
+          }
+        },
+        "ads": {
+          "A": {
+            "title": {
+              "ar": "مزرعة الجمال بيلا (Schönheitsfarm Bella)",
+              "fr": "Centre de beauté Bella"
+            },
+            "text": {
+              "ar": "برامج تدليل وعناية للسيدات: تدليك عطري، مسبح مغطى، تراس شمسي، ساونا. مطبخ صحي خفيف ومميز لإنقاص الوزن. برامج لياقة بدنية. وقت للهدوء والاسترخاء في أجواء مريحة.",
+              "fr": "Programmes bien-être pour dames : massages aromatiques, piscine couverte, terrasse, sauna. Cuisine légère et raffinée pour mincir. Remise en forme dans une ambiance détendue."
+            }
+          },
+          "B": {
+            "title": {
+              "ar": "برنامج سفر لمرضى القلب",
+              "fr": "Séjours de vacances pour cardiaques"
+            },
+            "text": {
+              "ar": "ركوب الدراجات في جزيرة كريت أم ممارسة الغولف في مايوركا؟ رعاية طبية متخصصة على مدار 24 ساعة. تمارين رياضية واسترخائية وندوات لصحة القلب. يمكن طلب الكتالوج من المؤسسة الألمانية لصحة القلب في فرانكفورت.",
+              "fr": "Randonnées à vélo en Crète ou golf à Majorque ? Suivi médicalisé 24h/24. Gymnastique douce, relaxation et séminaires cardiaques. Brochure disponible auprès de la Fondation allemande du cœur."
+            }
+          },
+          "C": {
+            "title": {
+              "ar": "الاستعداد الأمثل للرحلات البعيدة",
+              "fr": "Préparation optimale aux longs voyages"
+            },
+            "text": {
+              "ar": "ما هي اللقاحات المطلوبة لكل بلد؟ ما هي الأدوية الواجب اصطحابها؟ أين تجد المعلومات التخصصية؟ متوفر عبر الموقع الإلكتروني المرفق.",
+              "fr": "Quels vaccins pour chaque pays ? Quels médicaments emporter ? Conseils sanitaires sur le site internet dédié."
+            }
+          },
+          "D": {
+            "title": {
+              "ar": "مؤسسة مكافحة السرطان الألمانية",
+              "fr": "Ligue allemande contre le cancer"
+            },
+            "text": {
+              "ar": "لماذا يصاب 2000 طفل بالسرطان سنوياً؟ لم يُعرف السبب بدقة حتى اليوم. المؤكد أننا بحاجة لدعمكم لتطوير التشخيص والعلاج والبحث العلمي من أجل مستقبل أطفالنا.",
+              "fr": "Pourquoi 2 000 enfants déclarent-ils un cancer chaque année ? Nous avons besoin de votre soutien actif pour la recherche et les soins afin d'offrir un bel avenir aux plus jeunes."
+            }
+          },
+          "E": {
+            "title": {
+              "ar": "كتاب الوالدين «أطفال أصحاء – أمراض الطفولة من الألف إلى الياء»",
+              "fr": "Livre des parents « Enfants en bonne santé de A à Z »"
+            },
+            "text": {
+              "ar": "يحتوي على أكثر من 200 مصطلح ومعلومة عن أمراض الأطفال ومشكلاتهم الصحية. ويقدم قسم منفصل معلومات وإرشادات ضرورية لحالات الطوارئ والإسعافات الأولية.",
+              "fr": "Plus de 200 fiches sur les pathologies infantiles. Une section spéciale détaille les gestes de premiers secours en cas d'urgence."
+            }
+          },
+          "F": {
+            "title": {
+              "ar": "المناخ الشافي: منطقة ألغوي (Allgäu)",
+              "fr": "Climat curatif : l'Allgäu"
+            },
+            "text": {
+              "ar": "تضم المنطقة 14 مصحاً معترفاً به، سبعة منها منتجعات مناخية علاجية تعتمد على تحفيز درجات الحرارة والشمس والحركة. أثبت العلاج المناخي نجاحاً خاصاً في أمراض الجهاز التنفسي والجلد.",
+              "fr": "L'Allgäu compte 14 stations thermales dont 7 climatiques. La cure climatique a particulièrement fait ses preuves contre les affections respiratoires et cutanées."
+            }
+          },
+          "G": {
+            "title": {
+              "ar": "مراتب ووسائد النوم تمبور (Tempur)",
+              "fr": "Matelas et oreillers Tempur"
+            },
+            "text": {
+              "ar": "طُوّرت خصيصاً لرحلات الفضاء وأثبتت كفاءتها ضد آلام الظهر. تنشط الدورة الدموية وتضمن نوماً عميقاً ومريحاً. جرب مراتب تمبور في منزلك لمدة 30 ليلة دون أي التزام للشراء.",
+              "fr": "Conçus pour le secteur spatial, éprouvés contre le mal de dos. Améliorent la circulation et assurent un sommeil réparateur. Essayez les matelas Tempur pendant 30 nuits sans engagement."
+            }
+          },
+          "H": {
+            "title": {
+              "ar": "المعجم الإلكتروني الذكي من GesundheitPro.de",
+              "fr": "Bouton dictionnaire santé sur GesundheitPro.de"
+            },
+            "text": {
+              "ar": "ثلاثة معاجم جديدة بانتظارك على الإنترنت: معجم المصطلحات الطبية المتخصصة، معجم الكلمات الدخيلة، والمعجم الشامل. معلومات مجانية في ثوانٍ معدودة!",
+              "fr": "Trois nouveaux lexiques en ligne : vocabulaire médical spécialisé, termes étrangers et dictionnaire universel. Renseignements instantanés et gratuits."
+            }
+          },
+          "I": {
+            "title": {
+              "ar": "حملة الصيدليات للإقلاع عن التدخين",
+              "fr": "Semaines d'action en pharmacie pour l'arrêt du tabac"
+            },
+            "text": {
+              "ar": "توديع التدخين ليس بالأمر الهين، ولكن بإمكان الجميع تحقيقه وأنت كذلك! استفد من أسابيع التوعية في الصيدليات للحصول على نصائح عملية لتقليل السجائر والتخلص من الإدمان.",
+              "fr": "Renoncer à la cigarette n'est pas simple, mais chacun peut y arriver ! Profitez de nos semaines de sensibilisation en pharmacie pour des conseils concrets de sevrage tabagique."
+            }
+          },
+          "J": {
+            "title": {
+              "ar": "كبسولات السمع أكوستين (Akustin)",
+              "fr": "Gélules auditives Akustin"
+            },
+            "text": {
+              "ar": "سمع أكثر فاعلية ونقاء! تقوية الخلايا السمعية وتقليل الضجيج والتشويش المحيط. أمان أكبر في مواجهة مشكلات السمع المرتبطة بتقدم العمر. تباع بدون وصفة طبية.",
+              "fr": "Entendre plus distinctement ! Renforce les cellules auditives et réduit les bruits parasites. Remède en vente libre en pharmacie contre les faiblesses d'audition dues à l'âge."
+            }
+          }
+        },
+        "questions": {
+          "13": {
+            "text": {
+              "ar": "السيد كريمر ينام بصعوبة بالغة ليلاً ويفكر في إمكانية شراء سرير جديد ومريح.",
+              "fr": "M. Krämer a des nuits difficiles et envisage d'acheter un nouveau lit."
+            }
+          },
+          "14": {
+            "text": {
+              "ar": "تريد السيدة مولر معرفة كيف تسعف طفلها في حالات الإصابات والحوادث البسيطة إذا لم يتواجد طبيب قريب.",
+              "fr": "Mme Müller veut savoir comment soigner son enfant en cas de blessure lorsqu'aucun médecin n'est proche."
+            }
+          },
+          "15": {
+            "text": {
+              "ar": "يرغب السيد إنغلهارت في تقليل التدخين لكنه يعجز عن ذلك بمفرده ويبحث عن مساعدة متخصصة.",
+              "fr": "M. Engelhardt souhaite fumer moins mais n'y parvient pas tout seul et cherche de l'aide."
+            }
+          },
+          "16": {
+            "text": {
+              "ar": "يرغب السيد روت في تجربة علاج بديل للربو الذي يعاني منه ويبحث عن معالج بالطب الطبيعي أو المناخي.",
+              "fr": "M. Roth aimerait essayer une thérapie alternative contre son asthme."
+            }
+          },
+          "17": {
+            "text": {
+              "ar": "أصيبت السيدة كولر بنوبة قلبية، لكنها ترفض التخلي عن السفر للخارج وتبحث عن رحلات منظمة تناسب حالتها.",
+              "fr": "Mme Köhler a eu un infarctus mais ne veut pas renoncer aux voyages à l'étranger."
+            }
+          },
+          "18": {
+            "text": {
+              "ar": "يعاني هولغر من مرض جلدي عالجه حتى الآن بكل الوسائل دون جدوى، ويبحث عن علاج فعال وحاسم.",
+              "fr": "Holger a une affection cutanée soignée sans succès jusqu'ici et cherche un traitement efficace."
+            }
+          },
+          "19": {
+            "text": {
+              "ar": "ترغب السيدة فوغل في إنقاص وزنها بطريقة مريحة وممتعة قدر الإمكان.",
+              "fr": "Mme Vogel veut perdre du poids de la façon la plus agréable possible."
+            }
+          }
+        }
+      },
+      "4": {
+        "instructions": {
+          "ar": "اقرأ النصوص من 20 إلى 26. اختر: من من هؤلاء الأشخاص يعبر عن رأي نقدي أو معارض لمفهوم السياحة الجديد؟",
+          "fr": "Lisez les textes 20 à 26. Choisissez : quelles personnes expriment un avis critique sur ce nouveau concept touristique ?"
+        },
+        "topic": {
+          "ar": "قيّم التعليقات التالية حول مقال بعنوان «السياحة الهادئة والبيئية (Der sanfte Tourismus)»",
+          "fr": "Évaluez les commentaires suivants sur l'article intitulé « Le tourisme vert et durable »."
+        },
+        "example": {
+          "text": {
+            "ar": "أرحب ببدء شركات السياحة في التعامل بجدية مع المهتمين بنمط الحياة الصحي والمستدام. العروض تبدو واعدة وستسهل اتخاذ القرارات وتوسيع الخيارات.",
+            "fr": "Je me réjouis que les voyagistes prennent enfin au sérieux le mode de vie durable et sain. Les offres semblent intéressantes et élargissent le champ des possibles."
+          }
+        },
+        "letters": {
+          "20": {
+            "text": {
+              "ar": "فكرة السياحة البديلة تبدو رائعة، لكن فئتها المستهدفة تبدو نخبوية جداً. من يستطيع تحمل تكاليف هذه العطلات الفاخرة؟ أنا مع المنتجات العضوية ومستعد لدفع المزيد لمعرفتي بالهدف، لكن هنا أشعر بأنني مقصى تماماً.",
+              "fr": "L'idée du tourisme alternatif semble séduisante mais le public visé me paraît très élitiste. Qui peut s'offrir de telles vacances grand luxe ? J'adhère au bio et paie plus cher en connaissance de cause, mais là, je me sens totalement exclu."
+            }
+          },
+          "21": {
+            "text": {
+              "ar": "المسؤولية عن السفر المراعي للمناخ لا يجوز تحميلها للزبون وحده. أعتبره أمراً أقرب للاحتيال أن يُعرض ضمير بيئي مرتاح مقابل رسوم إضافية على التذكرة، تماماً كصكوك الغفران وشراء مقعد في الجنة في العصور الوسطى.",
+              "fr": "La responsabilité environnementale ne saurait incomber au seul client. Acheter une bonne conscience par un supplément sur le billet s'apparente aux indulgences médiévales pour acquérir sa place au paradis."
+            }
+          },
+          "22": {
+            "text": {
+              "ar": "أجد من الرائع الجمع بين العطلة وبرامج العمل التطوعي. يتيح لي هذا السفر لوجهات ساحرة بضمير مرتاح وبعيداً عن زحام السياح المعتاد، وأنا أقدم المساعدة بكل سرور.",
+              "fr": "Je trouve formidable de conjuguer congés et bénévolat. C'est l'opportunité de découvrir des contrées exotiques hors des sentiers battus sans mauvaise conscience morale."
+            }
+          },
+          "23": {
+            "text": {
+              "ar": "هذا هو المطلوب تماماً: عطلة للمغامرة في الطبيعة والإقامة في فنادق خضراء تعتمد الطاقة الشمسية وإدارة بيئية محكمة، مع الراحة والإثارة معاً.",
+              "fr": "C'est exactement ce qu'il faut : du dépaysement en pleine nature, un hébergement écologique à l'énergie solaire et une touche d'aventure compatible avec le respect de l'environnement."
+            }
+          },
+          "24": {
+            "text": {
+              "ar": "تريد شركات السياحة إيهام المسافرين بأنهم يتصرفون بشكل بيئي سليم. يا له من خداع! فليسألوا عن كمية الانبعاثات الهائلة للطائرات؛ هذه الرحلات مجرد ألاعيب خادعة لمسببي التلوث.",
+              "fr": "Avec ces circuits lointains relookés, les agences veulent faire croire au client qu'il agit de façon verte. Quelle illusion quand on sait ce que rejette un réacteur ! Ce ne sont que des faux-semblants pour pollueurs."
+            }
+          },
+          "25": {
+            "text": {
+              "ar": "من الرائع أن مجتمعنا الاستهلاكي بدأ يبحث عن قيم جديدة تدريجياً: بعد الأطعمة العضوية والتجارة العادلة، جاء السفر العادل والمستدام. آمل أن يزدهر هذا المجال باستمرار.",
+              "fr": "C'est une excellente chose que notre société de surconsommation se mette à chercher de nouvelles valeurs. Après le bio et le commerce équitable, voici le tourisme éthique. J'espère qu'il va prospérer."
+            }
+          },
+          "26": {
+            "text": {
+              "ar": "لماذا السفر بعيداً والجمال قريب منا؟ البديل الأفضل بالنسبة لي يظل البقاء في منطقتنا واستكشاف طبيعتها الساحرة؛ من الجنون أن يعرف الناس تفاصيل الكوكب بينما يجهلون الغابة الواقعة أمام بيوتهم.",
+              "fr": "Pourquoi courir au bout du monde quand les merveilles sont à portée de main ? La meilleure option reste de voyager localement : il est absurde de connaître la planète entière tout en ignorant la forêt voisine."
+            }
+          }
+        }
+      },
+      "5": {
+        "instructions": {
+          "ar": "اقرأ المهام من 27 إلى 30 والنص المرفق. اختر الحل الصحيح لكل مهمة: a أو b أو c.",
+          "fr": "Lisez les tâches 27 à 30 et le texte ci-dessous. Choisissez la bonne réponse a, b ou c."
+        },
+        "articles": [
+          {
+            "heading": {
+              "ar": "لائحة مكتبة جامعة لودفيغ ماكسيميليان بميونيخ (LMU)",
+              "fr": "Règlement intérieur de la bibliothèque de l'Université de Munich (LMU)"
+            },
+            "sub": {
+              "ar": "أولاً: الاستخدام واللوائح العامة",
+              "fr": "I. Utilisation et dispositions générales"
+            },
+            "body": {
+              "ar": [
+                "1. يُسمح باستخدام المكتبة لطلاب وموظفي الجامعة وكذلك للزوار خلال أوقات العمل الرسمية.",
+                "2. لا يجوز دخول قاعات المكتبة بالمعاطف أو الحقائب وحقائب الظهر؛ وتوجد غرفة لحفظ الملابس في القاعة E 12. ويجب إبراز جميع الكتب المصطحبة لموظف الأمن عند الدخول والخروج.",
+                "3. يُمنع منعاً باتاً التدخين وتناول الطعام والشراب واستخدام الهاتف الجوال في جميع غرف وقاعات المكتبة. ولتجنب إزعاج الآخرين، يجب تفادي التحدث بصوت مرتفع.",
+                "4. خُصصت أجهزة الحاسوب حصرياً للأعمال المرتبطة بمحتويات وفهارس المكتبة والأبحاث التخصصية والمراجع.",
+                "5. الالتزام المستمر بنظام التصنيف شرط أساسي لحسن سير عمل المكتبة؛ وتُعاد الكتب المستعارة للمشرف المختص، ويُعد تغيير أماكن الكتب مخالفة للائحة.",
+                "6. لا تتحمل إدارة المكتبة أي مسؤولية عن المقتنيات الشخصية التي يجلبها الرواد.",
+                "7. يُرجى التعامل بعناية مع الكتب والمجلات عند تصويرها. وفي حال وجود استفسارات، يرجى التوجه للمشرفين والمساعدين."
+              ],
+              "fr": [
+                "1. L'accès est autorisé aux étudiants, aux personnels de la LMU ainsi qu'aux visiteurs durant les heures d'ouverture.",
+                "2. Il est interdit d'accéder aux salles avec des manteaux, vestes ou sacs. Un vestiaire se trouve en salle E 12. Tout livre introduit doit être présenté au personnel à l'entrée et à la sortie.",
+                "3. Fumer, manger, boire et téléphoner avec un portable sont strictement interdits dans l'ensemble des locaux. Pour ne pas déranger, les conversations à voix haute doivent être évitées.",
+                "4. Les postes informatiques sont réservés exclusivement aux travaux liés aux collections de la bibliothèque et aux recherches documentaires.",
+                "5. Le respect du classement est indispensable. Les ouvrages empruntés doivent être retournés au bureau d'accueil. Déplacer les livres constitue une infraction.",
+                "6. La bibliothèque décline toute responsabilité concernant les objets personnels apportés par les usagers.",
+                "7. Merci de manipuler les livres et revues avec soin lors des photocopies. En cas de doute, adressez-vous au personnel de surveillance."
+              ]
+            }
+          }
+        ],
+        "questions": {
+          "27": {
+            "text": {
+              "ar": "هذا النص موجه إلى ...",
+              "fr": "Ce texte s'adresse..."
+            },
+            "options": {
+              "ar": [
+                "رواد ومستخدمي المكتبة.",
+                "موظفي المكتبة حصراً.",
+                "إجراءات إعارة الكتب فقط."
+              ],
+              "fr": [
+                "aux usagers de la bibliothèque.",
+                "aux employés de la bibliothèque.",
+                "au prêt d'ouvrages."
+              ]
+            }
+          },
+          "28": {
+            "text": {
+              "ar": "مكان حفظ الملابس والمعاطف (Garderobe) ...",
+              "fr": "Le vestiaire..."
+            },
+            "options": {
+              "ar": [
+                "يجب إبرازه للمشرفين.",
+                "يقع عند المدخل مباشرة.",
+                "يوجد في قاعة الاستراحة (E 12)."
+              ],
+              "fr": [
+                "doit être présenté.",
+                "se trouve à l'entrée.",
+                "est situé dans la salle de repos."
+              ]
+            }
+          },
+          "29": {
+            "text": {
+              "ar": "استخدام الهاتف الجوال ...",
+              "fr": "Le téléphone portable..."
+            },
+            "options": {
+              "ar": [
+                "غير مسموح به نهائياً.",
+                "يجب وضعه على الوضع الصامت فقط.",
+                "مسموح به فقط في غرفة الاستراحة."
+              ],
+              "fr": [
+                "ne doit pas être utilisé.",
+                "doit être réglé sur silencieux.",
+                "n'est permis qu'en salle de repos."
+              ]
+            }
+          },
+          "30": {
+            "text": {
+              "ar": "حواسيب المكتبة ...",
+              "fr": "Les ordinateurs de la bibliothèque..."
+            },
+            "options": {
+              "ar": [
+                "مخصصة حصرياً لموظفي المكتبة.",
+                "مخصصة فقط للأغراض والأبحاث المكتبية.",
+                "نادراً ما تكون شاغرة."
+              ],
+              "fr": [
+                "sont exclusivement réservés au personnel.",
+                "servent uniquement aux activités de la bibliothèque.",
+                "sont rarement disponibles."
+              ]
+            }
+          }
+        }
+      },
+      "6": {
+        "instructions": {
+          "ar": "يتكون قسم الاستماع من أربعة أجزاء. ستستمع إلى عدة نصوص وتقوم بحل المهام المرتبطة بها.",
+          "fr": "Le module Compréhension orale se compose de quatre parties. Vous écouterez plusieurs textes et résoudrez les tâches correspondantes."
+        },
+        "teile": {
+          "1": {
+            "ar": "الجزء 1: خمسة نصوص قصيرة",
+            "fr": "Partie 1 : Cinq textes courts"
+          },
+          "2": {
+            "ar": "الجزء 2: جولة استعراض شقة مع الوسيط العقاري",
+            "fr": "Partie 2 : Visite d'un appartement avec l'agent immobilier"
+          },
+          "3": {
+            "ar": "الجزء 3: حوار بين سيدتين أمام كشك في سوق الخضار",
+            "fr": "Partie 3 : Conversation entre deux dames sur un stand de marché"
+          },
+          "4": {
+            "ar": "الجزء 4: نقاش إذاعي: ظاهرة بقاء الأبناء في بيت العائلة «فندق ماما»",
+            "fr": "Partie 4 : Débat : Le phénomène Tanguy « L'Hôtel Maman »"
+          }
+        },
+        "questions": {
+          "h1": {
+            "text": {
+              "ar": "الطائرة تحلق حالياً وسط مطبات واضطرابات جوية عنيفة.",
+              "fr": "L'avion traverse actuellement de fortes turbulences."
+            }
+          },
+          "h2": {
+            "text": {
+              "ar": "طاقم الطائرة سوف ...",
+              "fr": "L'équipage va..."
+            },
+            "options": {
+              "ar": [
+                "يتوقف عن توزيع وجبات الطعام.",
+                "يغير مسار التحليق إلى ارتفاع جوي آخر.",
+                "يطير بالالتفاف حول العاصفة والاضطرابات."
+              ],
+              "fr": [
+                "cesser de servir les repas.",
+                "changer d'altitude de vol.",
+                "contourner la zone de turbulences."
+              ]
+            }
+          },
+          "h3": {
+            "text": {
+              "ar": "ملعب الجولف يظل مفتوحاً حتى السابعة مساءً.",
+              "fr": "Le terrain de golf est ouvert jusqu'à 19h."
+            }
+          },
+          "h4": {
+            "text": {
+              "ar": "تذكرة الدخول لملعب الجولف في اليوم المفتوح تكلف ...",
+              "fr": "Le billet d'entrée au golf coûte..."
+            },
+            "options": {
+              "ar": [
+                "3 يورو.",
+                "5 يورو.",
+                "مجانية بدون مقابل (صفر يورو)."
+              ],
+              "fr": [
+                "3 euros.",
+                "5 euros.",
+                "rien du tout (gratuit)."
+              ]
+            }
+          },
+          "h5": {
+            "text": {
+              "ar": "خلال فترة أعمال التجديد والصيانة لا تُقام أي عروض سينمائية.",
+              "fr": "Pendant les travaux de rénovation, aucune séance de cinéma n'a lieu."
+            }
+          },
+          "h6": {
+            "text": {
+              "ar": "يوم الأحد القادم ...",
+              "fr": "Le dimanche..."
+            },
+            "options": {
+              "ar": [
+                "يمكن للمرء مشاهدة أحد الأفلام.",
+                "يكون شباك التذاكر فقط مفتوحاً.",
+                "تكون السينما مغلقة بالكامل."
+              ],
+              "fr": [
+                "on peut visionner un film.",
+                "seule la billetterie est ouverte.",
+                "le cinéma est entièrement fermé."
+              ]
+            }
+          },
+          "h7": {
+            "text": {
+              "ar": "يوفر المركز التجاري خدمات تلائم مختلف المراحل والأعمار.",
+              "fr": "Le centre commercial s'adresse à toutes les tranches d'âge."
+            }
+          },
+          "h8": {
+            "text": {
+              "ar": "الجوائز في المسابقة مخصصة ...",
+              "fr": "Lors du concours, des lots sont prévus..."
+            },
+            "options": {
+              "ar": [
+                "للأطفال فقط.",
+                "للبالغين والكبار فقط.",
+                "للأطفال والبالغين معاً."
+              ],
+              "fr": [
+                "pour les enfants.",
+                "pour les adultes.",
+                "pour les enfants ainsi que les adultes."
+              ]
+            }
+          },
+          "h9": {
+            "text": {
+              "ar": "يرسل الطبيب الوصفة الطبية عبر البريد الإلكتروني.",
+              "fr": "Le médecin transmet l'ordonnance par e-mail."
+            }
+          },
+          "h10": {
+            "text": {
+              "ar": "نتائج التحاليل الطبية ...",
+              "fr": "Les résultats d'analyses..."
+            },
+            "options": {
+              "ar": [
+                "سليمة وطبيعية كلياً.",
+                "سليمة كلها باستثناء نسبة الكوليسترول.",
+                "سليمة كلها باستثناء معدلات الحديد."
+              ],
+              "fr": [
+                "sont tous parfaitement normaux.",
+                "sont normaux à l'exception du cholestérol.",
+                "sont normaux à l'exception du fer."
+              ]
+            }
+          },
+          "h11": {
+            "text": {
+              "ar": "تطل الشقة مباشرة ...",
+              "fr": "Depuis l'appartement, on a une vue..."
+            },
+            "options": {
+              "ar": [
+                "على الفناء الداخلي الخلفي للبناية.",
+                "على الحديقة العامة للمدينة (البارك).",
+                "على حديقة المنزل الخاصة."
+              ],
+              "fr": [
+                "sur la cour intérieure.",
+                "sur le parc.",
+                "sur le jardin privatif."
+              ]
+            }
+          },
+          "h12": {
+            "text": {
+              "ar": "قطع الأثاث الموجودة بالشقة ذات لون ...",
+              "fr": "Les meubles de l'appartement sont..."
+            },
+            "options": {
+              "ar": [
+                "فضي لامع (كروم).",
+                "بني داكن.",
+                "بيج فاتح."
+              ],
+              "fr": [
+                "argentés chromés.",
+                "marron foncé.",
+                "beige."
+              ]
+            }
+          },
+          "h13": {
+            "text": {
+              "ar": "كم عدد غرف النوم في هذه الشقة؟",
+              "fr": "Combien de chambres compte le logement ?"
+            },
+            "options": {
+              "ar": [
+                "4 غرف نوم.",
+                "غرفتا نوم (2).",
+                "غرفة نوم واحدة (1)."
+              ],
+              "fr": [
+                "4",
+                "2",
+                "1"
+              ]
+            }
+          },
+          "h14": {
+            "text": {
+              "ar": "حوض الاستحمام (البانيو) موضوع ...",
+              "fr": "La baignoire se trouve..."
+            },
+            "options": {
+              "ar": [
+                "في وسط قاعة الحمام تماماً.",
+                "على الجهة اليمنى من الحمام.",
+                "في أقصى الجزء الخلفي للحمام."
+              ],
+              "fr": [
+                "au milieu de la salle de bains.",
+                "à droite dans la pièce.",
+                "au fond de la pièce."
+              ]
+            }
+          },
+          "h15": {
+            "text": {
+              "ar": "المصاريف ورسوم الخدمات الإضافية (Nebenkosten) ...",
+              "fr": "Les charges locatives..."
+            },
+            "options": {
+              "ar": [
+                "مشمولة ضمن قيمة الإيجار الأساسية.",
+                "تبلغ قيمتها 50 يورو.",
+                "تتراوح قيمتها بين 100 و150 يورو شهرياً."
+              ],
+              "fr": [
+                "sont comprises dans le loyer.",
+                "s'élèvent à 50 €.",
+                "s'élèvent à 100-150 €."
+              ]
+            }
+          },
+          "h16": {
+            "text": {
+              "ar": "الشابة مندهشة ومعجبة بعمر البائعة العجوز.",
+              "fr": "La jeune cliente est impressionnée par l'âge de la maraîchère."
+            }
+          },
+          "h17": {
+            "text": {
+              "ar": "تناول الطعام الصحي لا يمثل دائماً ضمانة أكيدة للعمر المديد.",
+              "fr": "Manger sain n'est pas toujours une garantie de longévité."
+            }
+          },
+          "h18": {
+            "text": {
+              "ar": "العمل البدني الشاق ليس صحياً للجسم.",
+              "fr": "Le travail physique pénible n'est pas bon pour la santé."
+            }
+          },
+          "h19": {
+            "text": {
+              "ar": "يجب على المرء الحفاظ على الاعتدال في كل أمور حياته.",
+              "fr": "Il faut garder de la modération dans sa vie."
+            }
+          },
+          "h20": {
+            "text": {
+              "ar": "البائعة العجوز لديها بالفعل خمسة من أبناء الأحفاد (Ururenkel).",
+              "fr": "La marchande a déjà cinq arrière-arrière-petits-enfants."
+            }
+          },
+          "h21": {
+            "text": {
+              "ar": "البائعة لا تشعر بأي آلام أو أوجاع في جسدها.",
+              "fr": "La commerçante ne souffre d'aucune douleur."
+            }
+          },
+          "h22": {
+            "text": {
+              "ar": "الشابة تعاني من ضغوط وتوتر مستمر في حياتها اليومية.",
+              "fr": "La jeune femme subit beaucoup de stress."
+            }
+          },
+          "h23": {
+            "text": {
+              "ar": "يصبح المرء مدللاً واتكالياً إذا عاش مع والديه بعد سن البلوغ.",
+              "fr": "On devient gâté et assisté en restant chez ses parents à l'âge adulte."
+            },
+            "options": {
+              "ar": [
+                "المذيعة",
+                "يورغن ماركوفسكي",
+                "فولكر ديغن"
+              ],
+              "fr": [
+                "L'animatrice",
+                "Jürgen Markowsky",
+                "Volker Degen"
+              ]
+            }
+          },
+          "h24": {
+            "text": {
+              "ar": "من الصعب للغاية التوفيق بين متطلبات الدراسة وإدارة أعباء البيت بشكل مستقل.",
+              "fr": "Il est très difficile de concilier études et gestion d'un ménage."
+            },
+            "options": {
+              "ar": [
+                "المذيعة",
+                "يورغن ماركوفسكي",
+                "فولكر ديغن"
+              ],
+              "fr": [
+                "L'animatrice",
+                "Jürgen Markowsky",
+                "Volker Degen"
+              ]
+            }
+          },
+          "h25": {
+            "text": {
+              "ar": "يفقد بعض الشباب الاتصال والتواصل بآبائهم بعد مغادرة بيت الأسرة.",
+              "fr": "Certains n'ont plus aucun contact avec leurs parents après leur départ."
+            },
+            "options": {
+              "ar": [
+                "المذيعة",
+                "يورغن ماركوفسكي",
+                "فولكر ديغن"
+              ],
+              "fr": [
+                "L'animatrice",
+                "Jürgen Markowsky",
+                "Volker Degen"
+              ]
+            }
+          },
+          "h26": {
+            "text": {
+              "ar": "الآباء المسنون والأبناء البالغون في نفس البيت يتقاسمون النفقات ويوفرون التكاليف.",
+              "fr": "Les aînés et les enfants adultes vivant sous le même toit partagent les frais."
+            },
+            "options": {
+              "ar": [
+                "المذيعة",
+                "يورغن ماركوفسكي",
+                "فولكر ديغن"
+              ],
+              "fr": [
+                "L'animatrice",
+                "Jürgen Markowsky",
+                "Volker Degen"
+              ]
+            }
+          },
+          "h27": {
+            "text": {
+              "ar": "نظام التقاعد الحكومي يؤمن كبار السن مادياً بشكل كافٍ ومريح.",
+              "fr": "Le système de retraite subvient suffisamment aux besoins des aînés."
+            },
+            "options": {
+              "ar": [
+                "المذيعة",
+                "يورغن ماركوفسكي",
+                "فولكر ديغن"
+              ],
+              "fr": [
+                "L'animatrice",
+                "Jürgen Markowsky",
+                "Volker Degen"
+              ]
+            }
+          },
+          "h28": {
+            "text": {
+              "ar": "يستمتع بعض المتقاعدين بوجود وحيوية أصدقاء أبنائهم داخل المنزل.",
+              "fr": "Certains retraités apprécient la compagnie des amis de leurs enfants."
+            },
+            "options": {
+              "ar": [
+                "المذيعة",
+                "يورغن ماركوفسكي",
+                "فولكر ديغن"
+              ],
+              "fr": [
+                "L'animatrice",
+                "Jürgen Markowsky",
+                "Volker Degen"
+              ]
+            }
+          },
+          "h29": {
+            "text": {
+              "ar": "الأبناء العزاب المقيمون في المنزل يعتنون بوالديهم ويراعون صحتهم.",
+              "fr": "Les célibataires vivant chez eux veillent sur leurs parents."
+            },
+            "options": {
+              "ar": [
+                "المذيعة",
+                "يورغن ماركوفسكي",
+                "فولكر ديغن"
+              ],
+              "fr": [
+                "L'animatrice",
+                "Jürgen Markowsky",
+                "Volker Degen"
+              ]
+            }
+          },
+          "h30": {
+            "text": {
+              "ar": "يجب على الأبناء مغادرة البيت وتعلم الاستقلالية وتحمل المسؤولية.",
+              "fr": "Les enfants doivent apprendre à devenir autonomes."
+            },
+            "options": {
+              "ar": [
+                "المذيعة",
+                "يورغن ماركوفسكي",
+                "فولكر ديغن"
+              ],
+              "fr": [
+                "L'animatrice",
+                "Jürgen Markowsky",
+                "Volker Degen"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

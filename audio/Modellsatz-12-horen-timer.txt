@@ -1,0 +1,6 @@
+Beispiel = 0 to 56s
+teil 1 = 0m and 56s
+teil 2 = 10m and 52s
+teil 3 = 14m and 35s
+teil 4 = 19m and 36s
+teil 4 (wiederholung) = 27m and 02s

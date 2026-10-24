@@ -2252,6 +2252,362 @@ const b1VocabData = [
     "example": "Frauen haben angeblich keine gute Geschwindigkeitswahrnehmung.",
     "tip": "Schlüsselbegriff in Hören Teil 4 (Aufgabe 26)."
   }
+,
+  {
+    "id": "v-m6-t1-1",
+    "testId": "modellsatz-12",
+    "term": "das Herz-Kreislauf-System",
+    "display": "das Herz-Kreislauf-System (Sg.)",
+    "pos": "Nomen, n.",
+    "teil": 1,
+    "level": "B1",
+    "forms": [
+      "Herz-Kreislauf-System",
+      "Herz-Kreislauf-Systems"
+    ],
+    "defDe": "Das Organsystem aus Herz und Blutgefäßen, das den Körper mit Sauerstoff und Nährstoffen versorgt.",
+    "defAr": "الجهاز القلبي الوعائي والدورة الدموية التي تغذي الجسم بالأكسجين.",
+    "defFr": "Le système cardio-vasculaire qui irrigue l'organisme.",
+    "example": "Tanzen stärkt das Herz-Kreislauf-System und den Rücken.",
+    "tip": "Zentraler Gesundheitsbegriff in Lesen Teil 1."
+  },
+  {
+    "id": "v-m6-t1-2",
+    "testId": "modellsatz-12",
+    "term": "die Durchblutung",
+    "display": "die Durchblutung, -en",
+    "pos": "Nomen, f.",
+    "teil": 1,
+    "level": "B1",
+    "forms": [
+      "Durchblutung",
+      "Durchblutungen"
+    ],
+    "defDe": "Die Zirkulation und das Fließen des Blutes durch die Gewebe und Organe des Körpers.",
+    "defAr": "تدفق الدم وجريانه عبر الأنسجة والأعضاء (الدورة الدموية).",
+    "defFr": "La circulation sanguine et l'irrigation des tissus.",
+    "example": "Durch die verstärkte Durchblutung beider Gehirnhälften wird die Kreativität gefördert.",
+    "tip": "Wichtig für Gesundheitsthemen."
+  },
+  {
+    "id": "v-m6-t1-3",
+    "testId": "modellsatz-12",
+    "term": "die Körperwahrnehmung",
+    "display": "die Körperwahrnehmung (Sg.)",
+    "pos": "Nomen, f.",
+    "teil": 1,
+    "level": "B1",
+    "forms": [
+      "Körperwahrnehmung"
+    ],
+    "defDe": "Die bewusste Wahrnehmung des eigenen Körpers, der eigenen Haltung und Bewegungen.",
+    "defAr": "إدراك الجسد والوعي الذاتي بوضعية الجسم وحركاته.",
+    "defFr": "La perception corporelle et la conscience de ses mouvements.",
+    "example": "Ein sehr wichtiger Aspekt des Tanzes ist die Körperwahrnehmung und Körpererfahrung.",
+    "tip": "Schlüsselwort für Wohlbefinden und Sport."
+  },
+  {
+    "id": "v-m6-t1-4",
+    "testId": "modellsatz-12",
+    "term": "die Völkerverständigung",
+    "display": "die Völkerverständigung (Sg.)",
+    "pos": "Nomen, f.",
+    "teil": 1,
+    "level": "B1",
+    "forms": [
+      "Völkerverständigung"
+    ],
+    "defDe": "Die friedliche Annäherung, Verständigung und Freundschaft zwischen verschiedenen Nationen und Kulturen.",
+    "defAr": "التفاهم الدولي والتآخي والتقارب السلمي بين الشعوب والثقافات.",
+    "defFr": "L'entente et la compréhension mutuelle entre les peuples.",
+    "example": "Damit trägt der Tanz wie auch die Musik zur internationalen Völkerverständigung bei.",
+    "tip": "Wichtiges gesellschaftliches B1-Wort."
+  },
+  {
+    "id": "v-m6-t2-1",
+    "testId": "modellsatz-12",
+    "term": "die Kinderrechtskonvention",
+    "display": "die Kinderrechtskonvention, -en",
+    "pos": "Nomen, f.",
+    "teil": 2,
+    "level": "B1",
+    "forms": [
+      "Kinderrechtskonvention"
+    ],
+    "defDe": "Ein internationales Übereinkommen der Vereinten Nationen über die universellen Rechte von Kindern.",
+    "defAr": "اتفاقية حقوق الطفل الدولية الصادرة عن الأمم المتحدة.",
+    "defFr": "La Convention relative aux droits de l'enfant de l'ONU.",
+    "example": "1989 hat die Vollversammlung der Vereinten Nationen die UN-Kinderrechtskonvention verabschiedet.",
+    "tip": "Thema von Lesen Teil 2a."
+  },
+  {
+    "id": "v-m6-t2-2",
+    "testId": "modellsatz-12",
+    "term": "das Grundgesetz",
+    "display": "das Grundgesetz (Sg.)",
+    "pos": "Nomen, n.",
+    "teil": 2,
+    "level": "B1",
+    "forms": [
+      "Grundgesetz",
+      "Grundgesetzes"
+    ],
+    "defDe": "Die Verfassung der Bundesrepublik Deutschland, welche die grundlegenden Rechte und Gesetze enthält.",
+    "defAr": "القانون الأساسي (الدستور) لجمهورية ألمانيا الاتحادية.",
+    "defFr": "La Loi fondamentale, la constitution de la République fédérale d'Allemagne.",
+    "example": "Kinderrechtsorganisationen fordern, Kinderrechte ins Deutsche Grundgesetz aufzunehmen.",
+    "tip": "Zentraler Rechts- und Politikbegriff (Aufgabe 9)."
+  },
+  {
+    "id": "v-m6-t2-3",
+    "testId": "modellsatz-12",
+    "term": "die Hausaufgabenhilfe",
+    "display": "die Hausaufgabenhilfe, -n",
+    "pos": "Nomen, f.",
+    "teil": 2,
+    "level": "B1",
+    "forms": [
+      "Hausaufgabenhilfe",
+      "Hausaufgabenhilfen"
+    ],
+    "defDe": "Betreuung und Unterstützung für Schüler bei der Erledigung ihrer schulischen Aufgaben.",
+    "defAr": "المساعدة المدرسية والإشراف على أداء الواجبات المنزلية للتلاميذ.",
+    "defFr": "L'aide aux devoirs et le soutien scolaire pour élèves.",
+    "example": "In der Hausaufgabenhilfe kannst du gemeinsam deine Hausaufgaben erledigen.",
+    "tip": "Thema von Lesen Teil 2b."
+  },
+  {
+    "id": "v-m6-t2-4",
+    "testId": "modellsatz-12",
+    "term": "die Freizeitstätte",
+    "display": "die Freizeitstätte, -n",
+    "pos": "Nomen, f.",
+    "teil": 2,
+    "level": "B1",
+    "forms": [
+      "Freizeitstätte",
+      "Freizeitstätten"
+    ],
+    "defDe": "Eine öffentliche Einrichtung oder ein Zentrum mit Freizeitangeboten für Kinder und Jugendliche.",
+    "defAr": "مركز أنشطة ترفيهية ومجتمعية مخصص للأطفال والشباب.",
+    "defFr": "Le centre d'animation et de loisirs pour les jeunes.",
+    "example": "Die Mitarbeiter der Freizeitstätte helfen dir gerne auch außerhalb der regulären Zeiten.",
+    "tip": "Schlüsselwort für kommunale Einrichtungen."
+  },
+  {
+    "id": "v-m6-t3-1",
+    "testId": "modellsatz-12",
+    "term": "die Raucherentwöhnung",
+    "display": "die Raucherentwöhnung (Sg.)",
+    "pos": "Nomen, f.",
+    "teil": 3,
+    "level": "B1",
+    "forms": [
+      "Raucherentwöhnung"
+    ],
+    "defDe": "Der Prozess und Methoden, um sich das Rauchen von Zigaretten dauerhaft abzugewöhnen.",
+    "defAr": "الإقلاع عن التدخين والتخلص التدريجي من إدمان التبغ.",
+    "defFr": "Le sevrage tabagique et l'arrêt de la cigarette.",
+    "example": "Nutzen Sie unsere Aktionswochen zur Raucherentwöhnung in der Apotheke!",
+    "tip": "Passende Anzeige I für Situation 15."
+  },
+  {
+    "id": "v-m6-t3-2",
+    "testId": "modellsatz-12",
+    "term": "die Klimatherapie",
+    "display": "die Klimatherapie, -n",
+    "pos": "Nomen, f.",
+    "teil": 3,
+    "level": "B1",
+    "forms": [
+      "Klimatherapie",
+      "Klimatherapien"
+    ],
+    "defDe": "Die gezielte medizinische Nutzung von spezifischen Klimareizen zur Behandlung von Atemwegs- und Hauterkrankungen.",
+    "defAr": "العلاج المناخي والاستشفاء بمناخ الجبال والمنتجعات الصحية الطبيعية.",
+    "defFr": "La climatothérapie utilisant les vertus curatives d'un climat spécifique.",
+    "example": "Zur Klimatherapie gehören Kuren bei Erkrankungen von Atemwegen und Haut.",
+    "tip": "Passende Anzeige F für Situation 16 (Asthma)."
+  },
+  {
+    "id": "v-m6-t3-3",
+    "testId": "modellsatz-12",
+    "term": "der Heilpraktiker",
+    "display": "der Heilpraktiker, - / die Heilpraktikerin, -nen",
+    "pos": "Nomen, m./f.",
+    "teil": 3,
+    "level": "B1",
+    "forms": [
+      "Heilpraktiker",
+      "Heilpraktikers",
+      "Heilpraktikerin"
+    ],
+    "defDe": "Eine Person, die beruflich die Naturheilkunde und alternative medizinische Heilverfahren ausübt.",
+    "defAr": "ممارس الطب البديل والعلاج بالأعشاب والوسائل الطبيعية.",
+    "defFr": "Le praticien de médecine douce et naturopathie.",
+    "example": "Er möchte eine alternative Therapie ausprobieren und sucht hierzu einen Heilpraktiker.",
+    "tip": "Berufsbezeichnung in Situation 16."
+  },
+  {
+    "id": "v-m6-t4-1",
+    "testId": "modellsatz-12",
+    "term": "der sanfte Tourismus",
+    "display": "der sanfte Tourismus (Sg.)",
+    "pos": "Nomen, m.",
+    "teil": 4,
+    "level": "B1",
+    "forms": [
+      "sanfte Tourismus",
+      "sanften Tourismus"
+    ],
+    "defDe": "Eine Form des Reisens, die Natur, Umwelt und einheimische Kulturen schont und nachhaltig handelt.",
+    "defAr": "السياحة البيئية الهادئة والمستدامة التي تحافظ على الطبيعة والمجتمع المحلي.",
+    "defFr": "Le tourisme durable, doux et respectueux de l'écosystème.",
+    "example": "Beurteilen Sie folgende Kommentare zu einem Artikel mit dem Titel „Der sanfte Tourismus“.",
+    "tip": "Zentrales Thema von Lesen Teil 4."
+  },
+  {
+    "id": "v-m6-t4-2",
+    "testId": "modellsatz-12",
+    "term": "die Mogelpackung",
+    "display": "die Mogelpackung, -en",
+    "pos": "Nomen, f.",
+    "teil": 4,
+    "level": "B1",
+    "forms": [
+      "Mogelpackung",
+      "Mogelpackungen"
+    ],
+    "defDe": "Eine Verpackung oder ein Angebot, das mehr oder Besseres vortäuscht, als tatsächlich darin enthalten ist.",
+    "defAr": "عبوة مخادعة، حيلة تسويقية مضللة توهم بغير حقيقتها.",
+    "defFr": "Un emballage trompeur, une arnaque ou une fausse promesse.",
+    "example": "Solche Reisen sind doch nur Mogelpackungen für Umweltsünder.",
+    "tip": "Schlüsselbegriff in Kommentar 24 (Kern)."
+  },
+  {
+    "id": "v-m6-t4-3",
+    "testId": "modellsatz-12",
+    "term": "die Wegwerfgesellschaft",
+    "display": "die Wegwerfgesellschaft, -en",
+    "pos": "Nomen, f.",
+    "teil": 4,
+    "level": "B1",
+    "forms": [
+      "Wegwerfgesellschaft"
+    ],
+    "defDe": "Eine moderne Gesellschaft, in der Konsumgüter nach kurzem Gebrauch weggeworfen statt repariert oder geschätzt werden.",
+    "defAr": "مجتمع الاستهلاك السريع والرمي والتبذير.",
+    "defFr": "La société du tout-jeter et du gaspillage.",
+    "example": "Schön, dass unsere Konsum- und Wegwerfgesellschaft langsam nach neuen Werten sucht.",
+    "tip": "Wichtiges B1-Wort für Umwelt und Gesellschaft (Kommentar 25)."
+  },
+  {
+    "id": "v-m6-t5-1",
+    "testId": "modellsatz-12",
+    "term": "der Bibliotheksbestand",
+    "display": "der Bibliotheksbestand, -¨e",
+    "pos": "Nomen, m.",
+    "teil": 5,
+    "level": "B1",
+    "forms": [
+      "Bibliotheksbestand",
+      "Bibliotheksbestands",
+      "Bibliotheksbestände"
+    ],
+    "defDe": "Die Gesamtheit aller Bücher, Zeitschriften und Medien, die einer Bibliothek gehören.",
+    "defAr": "رصيد المكتبة ومجموع مقتنياتها من كتب ودوريات ومراجع علمية.",
+    "defFr": "Le fonds documentaire et la collection d'ouvrages d'une bibliothèque.",
+    "example": "Die Computerarbeitsplätze dienen ausschließlich der Arbeit mit dem Bibliotheksbestand.",
+    "tip": "Schlüsselbegriff in Regel 4 (Aufgabe 30)."
+  },
+  {
+    "id": "v-m6-t6-1",
+    "testId": "modellsatz-12",
+    "term": "die Turbulenz",
+    "display": "die Turbulenz, -en",
+    "pos": "Nomen, f.",
+    "teil": 6,
+    "level": "B1",
+    "forms": [
+      "Turbulenz",
+      "Turbulenzen"
+    ],
+    "defDe": "Heftige und unruhige Luftströmungen, die ein Flugzeug während des Fluges durchrütteln.",
+    "defAr": "المطبات الهوائية والاضطرابات الجوية العنيفة أثناء الطيران.",
+    "defFr": "Les turbulences et secousses d'air lors d'un vol.",
+    "example": "Das Flugzeug fliegt gerade durch heftige Turbulenzen.",
+    "tip": "Schlüsselbegriff in Hören Teil 1 (Aufgabe 1)."
+  },
+  {
+    "id": "v-m6-t6-2",
+    "testId": "modellsatz-12",
+    "term": "der Makler",
+    "display": "der Makler, - / die Maklerin, -nen",
+    "pos": "Nomen, m./f.",
+    "teil": 6,
+    "level": "B1",
+    "forms": [
+      "Makler",
+      "Maklers",
+      "Maklerin"
+    ],
+    "defDe": "Eine Person, die gewerbsmäßig Immobilien oder Mietwohnungen vermittelt.",
+    "defAr": "الوسيط أو السمسار العقاري لتأجير وبيع الشقق والمباني.",
+    "defFr": "L'agent immobilier chargé des ventes et locations.",
+    "example": "Sie schauen sich eine Wohnung an und hören die Informationen des Maklers.",
+    "tip": "Kontext für Hören Teil 2."
+  },
+  {
+    "id": "v-m6-t6-3",
+    "testId": "modellsatz-12",
+    "term": "die Nebenkosten",
+    "display": "die Nebenkosten (Pl.)",
+    "pos": "Nomen, Pl.",
+    "teil": 6,
+    "level": "B1",
+    "forms": [
+      "Nebenkosten"
+    ],
+    "defDe": "Die zusätzlichen Kosten neben der Kaltmiete für Heizung, Wasser, Müllabfuhr und Hausverwaltung.",
+    "defAr": "المصاريف الإضافية وتكاليف الخدمات الملحقة بإيجار السكن (تدفئة، ماء، صيانة).",
+    "defFr": "Les charges locatives annexes au loyer (chauffage, eau, entretien).",
+    "example": "Die monatliche Vorauszahlung für Nebenkosten liegt bei 100 bis 150 Euro.",
+    "tip": "Alltagsbegriff beim Wohnen (Aufgabe 15)."
+  },
+  {
+    "id": "v-m6-t6-4",
+    "testId": "modellsatz-12",
+    "term": "das Hotel Mama",
+    "display": "das Hotel Mama (ugs., Sg.)",
+    "pos": "Nomen, n.",
+    "teil": 6,
+    "level": "B1",
+    "forms": [
+      "Hotel Mama"
+    ],
+    "defDe": "Umgangssprachliche Bezeichnung für das Wohnen erwachsener Kinder bei den Eltern, wo sie versorgt werden.",
+    "defAr": "ظاهرة بقاء الأبناء البالغين في بيت العائلة («فندق ماما») حيث توفر لهم الأم كل سبل الراحة.",
+    "defFr": "Le phénomène Tanguy, où les jeunes adultes continuent de loger chez leurs parents.",
+    "example": "Die Diskussionsrunde spricht über die Vor- und Nachteile von Hotel Mama.",
+    "tip": "Hauptthema in Hören Teil 4."
+  },
+  {
+    "id": "v-m6-t6-5",
+    "testId": "modellsatz-12",
+    "term": "die Selbstständigkeit",
+    "display": "die Selbstständigkeit (Sg.)",
+    "pos": "Nomen, f.",
+    "teil": 6,
+    "level": "B1",
+    "forms": [
+      "Selbstständigkeit"
+    ],
+    "defDe": "Die Fähigkeit, das eigene Leben und den Alltag unabhängig und eigenverantwortlich zu gestalten.",
+    "defAr": "الاستقلالية والاعتماد على النفس وتحمل المسؤولية الذاتية.",
+    "defFr": "L'autonomie et l'indépendance dans la vie quotidienne.",
+    "example": "Die Kinder müssen ausziehen und lernen, selbstständig zu sein.",
+    "tip": "Schlussargument in Hören Teil 4 (Aufgabe 30)."
+  }
 ];
 
 /* ---------------- STORAGE & RETENTION HELPERS ---------------- */
