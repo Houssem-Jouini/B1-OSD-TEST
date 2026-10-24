@@ -6770,6 +6770,56 @@ html {
   font-family: var(--font-sans);
 }
 
+/* Sidebar Handles Container (Left Edge) */
+.b1-sidebar-handles {
+  position: fixed;
+  left: 0;
+  top: 48%;
+  transform: translateY(-50%);
+  z-index: 998;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  pointer-events: none;
+}
+
+.b1-sidebar-handles .b1-qw-handle {
+  position: relative;
+  left: auto;
+  top: auto;
+  transform: none;
+  pointer-events: auto;
+}
+
+.b1-sidebar-handles .b1-qw-handle:hover {
+  transform: translateX(4px);
+}
+
+/* Flashcards Companion Handle (Placed on top of Wort?) */
+.b1-sidebar-handles .b1-fc-handle {
+  background: linear-gradient(135deg, #f59e0b 0%, #ea580c 100%);
+  box-shadow: 2px 4px 18px rgba(234, 88, 12, 0.35);
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.b1-sidebar-handles .b1-fc-handle:hover {
+  background: linear-gradient(135deg, #fbbf24 0%, #f97316 100%);
+  box-shadow: 4px 6px 24px rgba(234, 88, 12, 0.5);
+  transform: translateX(4px);
+}
+
+.b1-sidebar-handles .b1-fc-handle.active {
+  background: linear-gradient(135deg, #c2410c 0%, #9a3412 100%);
+  box-shadow: 0 0 0 3px rgba(245, 158, 11, 0.4);
+}
+
+.b1-sidebar-handles .b1-fc-handle .b1-qw-handle-badge {
+  background: #f59e0b;
+  color: #ffffff;
+  border: 1.5px solid #ffffff;
+  box-shadow: 0 2px 6px rgba(245, 158, 11, 0.5);
+}
+
 /* Sticky Sidebar Handle */
 .b1-qw-handle {
   position: fixed;
@@ -7302,6 +7352,13 @@ html {
 
 /* Mobile & Small Screen Adaptations */
 @media (max-width: 640px) {
+  .b1-sidebar-handles {
+    top: auto;
+    bottom: 84px;
+    transform: none;
+    gap: 6px;
+  }
+  .b1-sidebar-handles .b1-qw-handle,
   .b1-qw-handle {
     top: auto;
     bottom: 84px;
@@ -7309,6 +7366,7 @@ html {
     border-radius: 0 10px 10px 0;
     padding: 8px 7px 8px 5px;
   }
+  .b1-sidebar-handles .b1-qw-handle:hover,
   .b1-qw-handle:hover {
     transform: translateX(2px);
   }

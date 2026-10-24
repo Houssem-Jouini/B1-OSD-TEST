@@ -1,0 +1,2662 @@
+{
+  "id": "modellsatz-11",
+  "title": "Modelltest 5 — So geht's noch besser B1",
+  "badge": "Modelltest 5",
+  "examTitle": "Goethe / ÖSD B1 Prüfungssimulation — Modelltest 5",
+  "examSub": "Lesen (5 Teile) & Hören (4 Teile) · So geht's noch besser (Klett)",
+  "timeTotal": 65,
+  "parts": [
+    {
+      "id": 1,
+      "title": "Teil 1",
+      "time": 10,
+      "instructions": "Lesen Sie den Text und die Aufgaben 1 bis 6 dazu. Wählen Sie: Sind die Aussagen Richtig oder Falsch?",
+      "articles": [
+        {
+          "heading": "Schulpraxis: „Schule“ – ein Stresswort?",
+          "sub": "Unsere Kinder müssen nicht nur den äußeren Weg zur Schule lernen. Sie müssen vor allem auch einen inneren Weg durch die Schule lernen.",
+          "body": [
+            "Schulstress ist ein Thema, das Eltern und Pädagogen gleichermaßen beschäftigt. An sich gibt es zwei Arten von Stress: Zum einen gibt es den positiven Stress, der dafür sorgt, dass wir besondere Leistungen erbringen können, wenn es erforderlich ist. Zum anderen unterscheidet man davon den negativen Stress, der sich gesundheitsschädigend auf Körper und Seele auswirkt. Beim Schulstress handelt es sich – leider – aber zumeist um negativen Stress, der entsteht, wenn Kinder und Jugendliche mit Situationen konfrontiert werden, die sie überfordern.",
+            "Es gibt verschiedene Formen und Ursachen für den Schulstress. Beispielsweise entsteht Leistungsstress, wenn zu bestimmten Zeiten sehr viel gelernt werden muss oder wenn die Kinder und Jugendlichen den geforderten Unterrichtsstoff nicht verstehen. Besonders die Angst vor schlechten Noten spielt dabei eine Rolle.",
+            "Unter Schulstress versteht man auch sozialen Stress, der durch verschiedene Ursachen in der Schulumgebung auftreten kann. So bedeutet es großen Stress für ein Kind, wenn es von Mitschülern zum Außenseiter gemacht wird oder sich gegen Mitschüler nicht durchsetzen kann (Mobbing). Auch Schüler-Lehrer-Beziehungen, die nicht funktionieren, sind großer Stress für Kinder und Jugendliche.",
+            "Sobald Kinder oder Jugendliche aber über einen längeren Zeitraum körperliche Beschwerden äußern, sollte dies ernst genommen werden. In den meisten Fällen klagen Kinder über Magen- oder Kopfschmerzen. Der Bauch ist ein sehr sensibler Bereich, der auf psychische Belastungen sehr schnell reagieren kann. Es ist sicherlich hilfreich, genau zu beobachten, wann solche Symptome bei Ihrem Kind auftreten: Jeden Tag vor der Schule, immer donnerstags vor der Mathestunde oder wenn in der Sportstunde der Junge aus der Nachbarklasse dabei ist. Daraus können Sie häufig schließen, was die spezifischen Auslöser für Stress bei Ihrem Kind sind. Aber auch wenn Eltern feststellen, dass ihr Kind nicht mehr so viel aus der Schule oder Freizeit erzählt wie früher oder immer stiller wird, sollten sie aufmerksam werden und mit ihrem Kind unbedingt das Gespräch suchen.",
+            "Ebenso ist es hilfreich, engen Kontakt mit den Lehrern Ihres Kindes zu suchen, um den Leistungsstand zu erfragen und nach eventuellen Hilfsmöglichkeiten zu suchen (zum Beispiel Förderunterricht, Nachhilfe). Falls Sie als Eltern das Gefühl haben, dass Sie Ihrem Kind bei seinen Schulproblemen nicht mehr weiterhelfen können, wenden Sie sich an Fachleute an der Schule Ihres Kindes, wie Sozialpädagogen und Schulpsychologen oder an externe Beratungsstellen."
+          ]
+        }
+      ],
+      "example": {
+        "text": "Der Text behandelt das Thema Schulprobleme.",
+        "answer": "richtig"
+      },
+      "questions": [
+        {
+          "id": 1,
+          "type": "tf",
+          "text": "Stress ist nicht immer negativ, es gibt auch positiven Stress.",
+          "answer": "richtig",
+          "num": 1
+        },
+        {
+          "id": 2,
+          "type": "tf",
+          "text": "Leistungsstress haben vor allem Kinder mit guten Noten.",
+          "answer": "falsch",
+          "num": 2
+        },
+        {
+          "id": 3,
+          "type": "tf",
+          "text": "Stress kann auch von den Mitschülern gemacht werden.",
+          "answer": "richtig",
+          "num": 3
+        },
+        {
+          "id": 4,
+          "type": "tf",
+          "text": "Mathematikstunden verursachen Stress.",
+          "answer": "falsch",
+          "num": 4
+        },
+        {
+          "id": 5,
+          "type": "tf",
+          "text": "Eltern haben selten die Möglichkeit die Ursachen zu finden.",
+          "answer": "falsch",
+          "num": 5
+        },
+        {
+          "id": 6,
+          "type": "tf",
+          "text": "Eltern sollten sich bei Problemen von Fachleuten beraten lassen.",
+          "answer": "richtig",
+          "num": 6
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Teil 2",
+      "time": 20,
+      "instructions": "Lesen Sie den Text aus der Presse und die Aufgaben 7 bis 9 dazu. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+      "articles": [
+        {
+          "heading": "Seid dabei! GOLDENER SPATZ sucht Kinderjury Kino-TV",
+          "sub": "Mädchen und Jungen im Alter von 9 bis 13 Jahren aus Deutschland, der Deutschsprachigen Gemeinschaft Belgiens, dem Fürstentum Liechtenstein, Österreich, Südtirol und der Schweiz können sich jetzt für die Jury bewerben!",
+          "body": [
+            "Der GOLDENE SPATZ sucht Film- und Fernsehfans im Alter von 9 bis 13 Jahren. Einmal in einer richtigen Jury sitzen, Filme bewerten, diskutieren und Preise vergeben. Genau das zeichnet die Kinderjury Kino-TV beim großen Festival für Filme, Fernsehprogramme und Onlineangebote für Kinder aus. Das Festival selbst findet in Gera und Erfurt bereits zum 21. Mal statt.",
+            "Beim GOLDENEN SPATZ spielen Kinder eine wichtige Rolle, denn hier ist ihre Meinung gefragt. Im Wettbewerb Kino-TV des Festivals werden Filme und Fernsehbeiträge in sechs Kategorien gezeigt, von Dokumentation über Animation bis hin zum Kino- und Fernsehfilm. Sie alle hoffen auf den begehrten GOLDENEN SPATZEN.",
+            "Die 25 Jurymitglieder erwartet während der Festivalwoche ein Stück harte Arbeit: Sechs Tage lang werden zuerst in Gera und später in Erfurt die unterschiedlichsten Filme und Fernsehsendungen angesehen und beurteilt und gemeinsam eine Entscheidung über die Preisvergabe getroffen. Wer Lust hat, in der Jury mitzuwirken und diese Aufgabe zu übernehmen, kann sich bewerben."
+          ]
+        }
+      ],
+      "example": {
+        "text": "Gesucht werden Kinder für ...",
+        "options": [
+          "einen neuen Film.",
+          "einen Kino-Workshop.",
+          "eine Preisjury."
+        ],
+        "answer": 2
+      },
+      "questions": [
+        {
+          "id": 7,
+          "type": "mcq",
+          "text": "Das Kinderfilm-Festival ...",
+          "options": [
+            "findet in zwei deutschen Städten statt.",
+            "ist am 21. Mai.",
+            "findet in 6 Ländern statt."
+          ],
+          "answer": 0,
+          "num": 7
+        },
+        {
+          "id": 8,
+          "type": "mcq",
+          "text": "Der GOLDENE SPATZ geht an ...",
+          "options": [
+            "den besten Dokumentarfilm.",
+            "das beste Kind in der Jury.",
+            "den besten Film oder Fernsehbeitrag."
+          ],
+          "answer": 2,
+          "num": 8
+        },
+        {
+          "id": 9,
+          "type": "mcq",
+          "text": "Die Kinder müssen ...",
+          "options": [
+            "die Filme zu Hause ansehen.",
+            "wählen, wer den Preis vergibt.",
+            "die Filme gemeinsam ansehen und beurteilen."
+          ],
+          "answer": 2,
+          "num": 9
+        }
+      ],
+      "instructions2": "Lesen Sie den Text aus der Presse und die Aufgaben 10 bis 12 dazu. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+      "articles2": [
+        {
+          "heading": "Riesen-Party zum Karneval der Kulturen in Berlin",
+          "sub": "Bei sonnigem Wetter zog der Karneval der Kulturen am Sonntag wieder mit Tänzern, Trommlern und Musikern durch Berlin.",
+          "body": [
+            "Sie tanzten, sie klatschten, sie trommelten: Am Sonntag sind beim Höhepunkt der Riesenparty zum Karneval der Kulturen wieder Tausende durch die Straßen von Berlin gezogen. Rot, Gelb, Blau, Grün, Lila – es gab kaum eine Farbe, die unter den fast 90 Gruppen des traditionellen Umzugs des Multikulti-Festes nicht vertreten war.",
+            "Rund 700 000 Besucher kamen und ließen sich das Spektakel nicht entgehen. Der Umzug durch die Viertel Neukölln und Kreuzberg startete am Hermannplatz und zog Richtung Gneisenaustraße zur Yorckstraße.",
+            "Angeführt wurde die Parade von einem Samba-Trupp mit blauen Froschkappen. Dahinter kam eine Gruppe aus Südkorea mit bunten ballartigen Kopfbedeckungen. Aus 70 Ländern kamen die rund 4 800 Teilnehmer in diesem Jahr. Erstmals waren Gruppen aus Taiwan und Nepal dabei.",
+            "Am Südstern wartete die Jury auf die teilnehmenden Gruppen. Etwa 60 der 90 Gruppen hatten sich für den Wettbewerb angemeldet. In kürzester Zeit mussten sie durch Musik, Tanz und Kostüme ihr Können zeigen. Auf die Besten warteten sieben Preise in drei Kategorien.",
+            "In den Seitenstraßen gab es Straßentheater zu sehen. Viele picknickten auf den Bürgersteigen. Das Publikum kam wie die Teilnehmer ebenfalls aus aller Welt."
+          ]
+        }
+      ],
+      "questions2": [
+        {
+          "id": 10,
+          "type": "mcq",
+          "text": "Zum Karneval der Kulturen ...",
+          "options": [
+            "kamen Tausende Teilnehmer.",
+            "kamen eine Million Zuschauer.",
+            "trafen sich 90 Nationen."
+          ],
+          "answer": 0,
+          "num": 10
+        },
+        {
+          "id": 11,
+          "type": "mcq",
+          "text": "Die bunte Parade ...",
+          "options": [
+            "kam aus Taiwan und Nepal.",
+            "tanzte um den Hermannplatz.",
+            "geht durch zwei Berliner Stadtteile."
+          ],
+          "answer": 2,
+          "num": 11
+        },
+        {
+          "id": 12,
+          "type": "mcq",
+          "text": "Sieben Preise gab es für ...",
+          "options": [
+            "das Publikum.",
+            "die besten Gruppen.",
+            "das Multikultifestival."
+          ],
+          "answer": 1,
+          "num": 12
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Teil 3",
+      "time": 10,
+      "instructions": "Lesen Sie die Situationen 13 bis 19 und die Anzeigen A bis J aus verschiedenen deutschsprachigen Medien. Wählen Sie: Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Die Anzeige aus dem Beispiel können Sie nicht mehr verwenden. Für eine Situation gibt es keine passende Anzeige. In diesem Fall schreiben Sie 0.",
+      "example": {
+        "text": "Christian ist Musiklehrer. Da er nicht viel verdient, sucht er einen Nebenjob, um sein Gehalt aufzubessern.",
+        "ad": "B"
+      },
+      "adsFormatted": [
+        {
+          "code": "A",
+          "tagPos": "left",
+          "hasPin": true,
+          "cardClass": "anzeige-style-a",
+          "html": "<div class=\"anzeige-headline\">Neu im Job</div><div class=\"anzeige-sub\">... ist das Schwerpunktthema der S-Trip-September-Ausgabe.</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">Mit Tipps und Hinweisen zur Berufswahl und für „Umsteiger“.<br><strong>Erscheinungstermin:</strong> 28. August<br><br>Wir beraten Sie gerne:<br>Tel. 0711 / 72 04-322 · Fax 0711 / 72 04-497</div>"
+        },
+        {
+          "code": "B",
+          "tagPos": "right",
+          "hasPin": true,
+          "cardClass": "anzeige-style-b",
+          "html": "<div class=\"anzeige-headline\">BILDUNGSINSTITUT</div><div class=\"anzeige-sub\">sucht Gitarrenlehrer/in</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">sucht eine Dame oder einen Herrn, die/der in den Abendstunden Gitarre für Anfänger unterrichten möchte.<br><br><strong>Tel.:</strong> 0711 341021<br><strong>Mobil:</strong> 0172 7335634</div>"
+        },
+        {
+          "code": "C",
+          "tagPos": "left",
+          "hasPin": true,
+          "cardClass": "anzeige-style-c",
+          "html": "<div class=\"anzeige-headline\">Austräger gesucht</div><div class=\"anzeige-sub\">Stuttgart Aktuell</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">Für folgende Verbreitungsgebiete: <strong>Degerloch – Möhringen – Sonnenberg</strong><br>Frische Luft, etwas Bewegung und dabei Geld verdienen.<br>Prima Nebenverdienst für Studenten, Rentner, Hausfrauen und <strong>Schüler ab 13 Jahre</strong>.<br>Interessenten melden sich bei Frau Lemke unter <strong>0711 / 973 87 21</strong></div>"
+        },
+        {
+          "code": "D",
+          "tagPos": "right",
+          "hasPin": true,
+          "cardClass": "anzeige-style-d",
+          "html": "<div class=\"anzeige-headline\">FAHRLEHRER</div><div class=\"anzeige-sub\">werden in ganz Deutschland gesucht.</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">Wir bilden Sie aus und vermitteln Ihnen auch gleich einen Arbeitsplatz in einer Fahrschule.<br><br><strong>Fahrlehrer Fachschule</strong><br>Infos: www.fahrlehrer-akademie.de</div>"
+        },
+        {
+          "code": "E",
+          "tagPos": "left",
+          "hasPin": true,
+          "cardClass": "anzeige-style-e",
+          "html": "<div class=\"anzeige-headline\">Fotograf gesucht?</div><div class=\"anzeige-sub\">Professionelle Fotoaufnahmen</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">Professionelle Fotos von Hochzeiten, Taufen, Firmenfesten und anderen festlichen Anlässen.<br>Zuverlässiger Service für alle privaten und geschäftlichen Events.</div>"
+        },
+        {
+          "code": "F",
+          "tagPos": "right",
+          "hasPin": true,
+          "cardClass": "anzeige-style-f",
+          "html": "<div class=\"anzeige-headline\">Bedienung in Diskothek</div><div class=\"anzeige-sub\">Wochenend- & Nachtschichten</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">Bedienung in Diskothek zu guten Bedingungen gesucht.<br>Perfekt für das Wochenende.<br><br><strong>Tel.:</strong> 0561 / 75 22 199</div>"
+        },
+        {
+          "code": "G",
+          "tagPos": "left",
+          "hasPin": true,
+          "cardClass": "anzeige-style-g",
+          "html": "<div class=\"anzeige-headline\">Hilfe für ältere Dame</div><div class=\"anzeige-sub\">in Stuttgart-Degerloch gesucht</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">für Körperpflege, Wohnung putzen, täglich ca. 3 Stunden.<br>Keine formale Ausbildung nötig.<br><br>Bewerbung mit kurzem Lebenslauf erbeten an:<br><strong>Familie Kenderer</strong>, Postfach 1208, 70597 Stuttgart</div>"
+        },
+        {
+          "code": "H",
+          "tagPos": "right",
+          "hasPin": true,
+          "cardClass": "anzeige-style-h",
+          "html": "<div class=\"anzeige-headline\">Vorleser gesucht</div><div class=\"anzeige-sub\">von Seniorenheimen und privat</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">für ältere Leute, die nicht mehr so gut sehen können.<br>Ideal für Studentinnen und Studenten mit freier Zeiteinteilung.<br><br><strong>Verdienst:</strong> 12–24 Euro pro Lesung.<br>Vermittlung Tel.: <strong>030 / 88 16 922</strong></div>"
+        },
+        {
+          "code": "I",
+          "tagPos": "left",
+          "hasPin": true,
+          "cardClass": "anzeige-style-i",
+          "html": "<div class=\"anzeige-headline\">Zuverlässige Putzhilfe</div><div class=\"anzeige-sub\">für Gaststätte gesucht</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">Zuverlässige Putzhilfe für Gaststätte für täglich 4 Stunden, <strong>vormittags</strong>, gesucht. Gern auch älter.<br><br><strong>Telefon:</strong> 0561 / 52 60 68</div>"
+        },
+        {
+          "code": "J",
+          "tagPos": "right",
+          "hasPin": true,
+          "cardClass": "anzeige-style-j",
+          "html": "<div class=\"anzeige-headline\">Heizungsbau & Öl+Gasfeuerungen</div><div class=\"anzeige-sub\">Handwerk & Haustechnik</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">Modernisierung · Kundendienst · Reparaturen · Fernheizung<br>Metzinger Str. 34 · Stuttgart<br><strong>Tel.:</strong> 76 51 232</div>"
+        }
+      ],
+      "questions": [
+        {
+          "id": 13,
+          "type": "match",
+          "text": "David ist Student und sucht dringend einen Job neben dem Studium. Er hat drei Nachmittage in der Woche Zeit.",
+          "answer": "H",
+          "num": 13
+        },
+        {
+          "id": 14,
+          "type": "match",
+          "text": "Frau Kant hat finanzielle Probleme und möchte einen Teilzeitjob annehmen. Sie hat aber keine Berufsausbildung.",
+          "answer": "G",
+          "num": 14
+        },
+        {
+          "id": 15,
+          "type": "match",
+          "text": "Claudia sucht einen Ferienjob, bei dem sie viel Geld verdienen und außerdem umsonst reisen kann.",
+          "answer": "0",
+          "num": 15
+        },
+        {
+          "id": 16,
+          "type": "match",
+          "text": "Tina ist Sportstudentin und sucht für die Wochenenden einen Job.",
+          "answer": "F",
+          "num": 16
+        },
+        {
+          "id": 17,
+          "type": "match",
+          "text": "Frau Frisch möchte gerne ein paar Stunden arbeiten, wenn ihre Kinder in der Schule sind.",
+          "answer": "I",
+          "num": 17
+        },
+        {
+          "id": 18,
+          "type": "match",
+          "text": "Klio ist unzufrieden mit ihrem Beruf und will sich über andere Möglichkeiten informieren.",
+          "answer": "A",
+          "num": 18
+        },
+        {
+          "id": 19,
+          "type": "match",
+          "text": "Fabian möchte jobben, weil er sich ein neues Fahrrad kaufen will. Er ist aber erst 14 und noch Schüler.",
+          "answer": "C",
+          "num": 19
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Teil 4",
+      "time": 15,
+      "instructions": "Lesen Sie die Texte 20 bis 26. Wählen Sie: Welche Personen äußern sich positiv über die molekulare Küche?",
+      "topic": "Beurteilen Sie folgende Kommentare zu einem Artikel mit dem Titel „Was ist dran am molekularen Küchenzauber?“",
+      "example": {
+        "who": "Schmidt, 39, Münster",
+        "text": "Ich verstehe nicht, warum es so lange gedauert hat, bis wir auf die molekulare Küche gekommen sind. Kochen war schon immer molekular, nur hatte sich niemand mit den Prozessen beschäftigt, die während der Zubereitung der Speisen geschahen. Ich bin jedenfalls offen für Geschmacksüberraschungen.",
+        "answer": "ja"
+      },
+      "letters": [
+        {
+          "id": 20,
+          "who": "Theresa, 41, Greifswald",
+          "text": "So wachsen schließlich zwei Welten zusammen: Großmutters Küche und die Lebensmittelindustrie, hier der häusliche Herd, dort die Fabrikation. Es ist kein Verbrechen zu wissen, warum das Steak so saftig ist und das Soufflee so lockerleicht. Wenn das Wissen dem guten Geschmack dient, soll es mir recht sein. Leckeres Essen ist dann kein Zufall mehr.",
+          "answer": "ja"
+        },
+        {
+          "id": 21,
+          "who": "B. Hofer, 56, Salzburg",
+          "text": "Die molekulare Küche ist ein großer Hokuspokus. Nur weil ein Kochmeister mit Stickstoff hantiert, soll sich Nahrung in Speise verwandeln. Weiß er eigentlich, wie gefährlich der Umgang mit Flüssiggas wie Stickstoff ist? Ich halte es für höchst verantwortungslos, was da in den Experimentierküchen passiert.",
+          "answer": "nein"
+        },
+        {
+          "id": 22,
+          "who": "Irene T., 27, Innsbruck",
+          "text": "Molekularküche ist nicht mehr als effektvolle Spaßküche. Bei mir hört der Spaß aber auf, wenn ich nicht weiß, was in meinem Essen so alles drin ist. Was da so alles in die Töpfe wandert erfährt Otto Normalverbraucher in der Regel nicht. Die Wundermittel kommen nämlich aus der Lebensmittelchemie und müssen mit E gekennzeichnet werden. Nein, Danke!",
+          "answer": "nein"
+        },
+        {
+          "id": 23,
+          "who": "Bloom, 28, Enschede",
+          "text": "Das molekulare Kochen ist eine einzige Showküche, die mit Dampf und Nebel nicht spart und mit Hilfe von Chemie futuristisch aussehendes Essen auf die Teller zaubert. Mit Brille und Handschuhen bewaffnet, Reagenzglas und Pipette in den Händen und das Laboroutfit ist perfekt. Aber ich will nicht das Versuchskaninchen spielen!",
+          "answer": "nein"
+        },
+        {
+          "id": 24,
+          "who": "Zeltl, 36, Bern",
+          "text": "Wie beim Experimentieren auch sehr gesunde Speisen entstehen können, veranschaulicht die von Molekularköchen entwickelte „Vakuum-Methode“ bei niedrigen Temperaturen. So bleiben beim Garen mehr Aromen, Vitamine und Proteine erhalten als bei herkömmlichen Methoden. Logisch! Neu für mich ist hier das Vakuum.",
+          "answer": "ja"
+        },
+        {
+          "id": 25,
+          "who": "Pfister, 40, Nürnberg",
+          "text": "Als Köchin in einem 3-Sterne-Restaurant fasziniert mich die Idee, um wie viele Delikatessen ich meine Speisekarte erweitern kann. Die Investition in die notwendigen Geräte lohnt sich bestimmt, weil sich die Haushalte solche nicht leisten können. Ich habe mich bereits für eine Fortbildung angemeldet und freue mich schon auf das Experimentieren.",
+          "answer": "ja"
+        },
+        {
+          "id": 26,
+          "who": "Klein, 63, Potsdam",
+          "text": "Ich finde auch, dass die Zubereitung von Speisen besser gelingt, wenn man genau weiß, was in den Töpfen und Schüsseln passiert. Den Begriff Molekularküche halte ich dennoch für übertrieben. Ich halte mich da lieber an meine Erfahrungen und experimentiere mit Kräutern und Gewürzen. Geschmeckt hat es meinen Gästen immer.",
+          "answer": "nein"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Teil 5",
+      "time": 10,
+      "instructions": "Lesen Sie die Aufgaben 27 bis 30 und den Text dazu. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+      "articles": [
+        {
+          "heading": "Pflanzenpflege: Tipps vom Euroflorist Blumenversand",
+          "sub": "Sehen Sie hier unsere professionellen und erprobten Pflanzentipps für gesunde und schöne Pflanzen zu Hause:",
+          "body": [
+            "Sorgen Sie dafür, dass Ihre Pflanzen viel Licht bekommen: Blühende Pflanzen benötigen viel mehr Licht als Grünpflanzen. In der Regel müssen Blütenpflanzen in der Nähe des Fensters platziert werden, während Grünpflanzen nicht direkt in der Sonne stehen sollten.",
+            "Düngen Sie Ihre Pflanzen mit Pflanzennahrung: Blütenpflanzen sollten während des Sommers bei jedem Gießen gedüngt werden, im Winter wöchentlich. Grünpflanzen sollten im Sommer wöchentlich, im Winter einmal im Monat gedüngt werden.",
+            "Gießen Sie Ihre Pflanzen nach Bedarf: Blütenpflanzen müssen fast jeden Tag gegossen werden, wenn Sie in der Nähe direkter Sonne stehen. Überwässern Sie Ihre Pflanzen nicht, und prüfen Sie die Topferde, um festzustellen, ob die Pflanzen trocken sind. Lassen Sie kein Wasser lange im Untersetzer stehen, sondern entfernen Sie das verbleibende Wasser eine Stunde nach dem Gießen. In der Regel sollten Grünpflanzen etwas trocken sein. Es genügt, wenn sie ein oder zwei Mal in der Woche gegossen werden.",
+            "Sorgen Sie dafür, dass Ihre Pflanzen gesund sind: Das häufigste Problem stellt die Rote Spinnmilbe dar. Entfernen Sie die Pflanzen vom Fenster, und säubern Sie den Fensterrahmen und Topf gut, bevor Sie neue Pflanzen hinstellen."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": 27,
+          "type": "mcq",
+          "text": "Der Text gibt Tipps, ...",
+          "options": [
+            "wie man Blumen verschicken kann.",
+            "wie Topfpflanzen zu pflegen sind.",
+            "wie Blumensträuße länger frisch bleiben."
+          ],
+          "answer": 1,
+          "num": 27
+        },
+        {
+          "id": 28,
+          "type": "mcq",
+          "text": "Blühende Pflanzen brauchen ...",
+          "options": [
+            "die Sonne.",
+            "viel Licht.",
+            "ein Fenster."
+          ],
+          "answer": 1,
+          "num": 28
+        },
+        {
+          "id": 29,
+          "type": "mcq",
+          "text": "Gießen muss man ...",
+          "options": [
+            "wenn die Erde trocken ist.",
+            "täglich.",
+            "zweimal wöchentlich."
+          ],
+          "answer": 0,
+          "num": 29
+        },
+        {
+          "id": 30,
+          "type": "mcq",
+          "text": "Düngen muss man ...",
+          "options": [
+            "nach Bedarf.",
+            "im Winter mehr als im Sommer.",
+            "im Sommer mehr als im Winter."
+          ],
+          "answer": 2,
+          "num": 30
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "🎧 Hören",
+      "badge": "Hören (Teile 1–4)",
+      "isHoren": true,
+      "time": 40,
+      "instructions": "Das Modul Hören besteht aus vier Teilen. Sie hören mehrere Texte und lösen Aufgaben dazu.",
+      "audioSrc": "audio/modellsatz-11-hoeren.mp3",
+      "audioFallbacks": [
+        "audio/modellsatz-11-hoeren.mp3",
+        "/run/media/houssem/HDD Disk/work/germany/So geht's noch besser B1/5/horen/So_geht_noch_besser_b1_hören_modeltest_5.mp3"
+      ],
+      "audioChapters": [
+        {
+          "time": 0,
+          "label": "00:00 Teil 1 (Beispiel · 2x)",
+          "part": 1,
+          "title": "Teil 1 · Beispiel (2x hören)",
+          "start": 0,
+          "end": 72
+        },
+        {
+          "time": 72,
+          "label": "01:12 Teil 1 (Texte 1–5 · 2x)",
+          "part": 1,
+          "title": "Teil 1 · Fünf kurze Texte (2x hören)",
+          "start": 72,
+          "end": 810
+        },
+        {
+          "time": 810,
+          "label": "13:30 Teil 2 (Schokoladenmuseum · 1x)",
+          "part": 2,
+          "title": "Teil 2 · Führung Schokoladenmuseum (1x hören)",
+          "start": 810,
+          "end": 1055
+        },
+        {
+          "time": 1055,
+          "label": "17:35 Teil 3 (Menschen wiederfinden · 1x)",
+          "part": 3,
+          "title": "Teil 3 · Gespräch im Radio: Menschen wiederfinden (1x hören)",
+          "start": 1055,
+          "end": 1419
+        },
+        {
+          "time": 1419,
+          "label": "23:39 Teil 4 (1. Durchgang)",
+          "part": 4,
+          "title": "Teil 4 · Diskussion: Männer- oder Frauenberufe (1. Durchgang)",
+          "start": 1419,
+          "end": 1852
+        },
+        {
+          "time": 1852,
+          "label": "30:52 Teil 4 (2. Durchgang — Wiederholung)",
+          "part": 4,
+          "title": "Teil 4 · Diskussion: Männer- oder Frauenberufe (2. Durchgang)",
+          "start": 1852,
+          "end": 2215
+        }
+      ],
+      "horenSections": [
+        {
+          "id": 1,
+          "title": "Teil 1: Fünf kurze Texte"
+        },
+        {
+          "id": 2,
+          "title": "Teil 2: Führung im Schokoladenmuseum"
+        },
+        {
+          "id": 3,
+          "title": "Teil 3: Gespräch im Radio: Menschen wiederfinden"
+        },
+        {
+          "id": 4,
+          "title": "Teil 4: Diskussion: Typische Männer- oder Frauenberufe – Klischee oder Wahrheit?"
+        }
+      ],
+      "questions": [
+        {
+          "id": "h1",
+          "teilPart": 1,
+          "type": "tf",
+          "text": "Natürliche Heilpflanzmittel sind besser gegen Hautrötung als chemische Produkte.",
+          "answer": "richtig",
+          "num": 1,
+          "textNum": 1,
+          "audioStart": 72
+        },
+        {
+          "id": "h2",
+          "teilPart": 1,
+          "type": "mcq",
+          "text": "Reinigungsmilch aus Kokosnussextrakten gibt es ...",
+          "options": [
+            "in Reformhäusern.",
+            "im Gesundheitsmagazin.",
+            "beim Arzt."
+          ],
+          "answer": 0,
+          "num": 2,
+          "textNum": 1,
+          "audioStart": 72
+        },
+        {
+          "id": "h3",
+          "teilPart": 1,
+          "type": "tf",
+          "text": "Der Termin verschiebt sich wegen Krankheit des Sprechers.",
+          "answer": "falsch",
+          "num": 3,
+          "textNum": 2,
+          "audioStart": 226
+        },
+        {
+          "id": "h4",
+          "teilPart": 1,
+          "type": "mcq",
+          "text": "Der ideale Treffpunkt wäre ...",
+          "options": [
+            "der Arzt.",
+            "das Büro.",
+            "das Café."
+          ],
+          "answer": 2,
+          "num": 4,
+          "textNum": 2,
+          "audioStart": 226
+        },
+        {
+          "id": "h5",
+          "teilPart": 1,
+          "type": "tf",
+          "text": "Am Bahnhof ist eine Baustelle.",
+          "answer": "falsch",
+          "num": 5,
+          "textNum": 3,
+          "audioStart": 364
+        },
+        {
+          "id": "h6",
+          "teilPart": 1,
+          "type": "mcq",
+          "text": "Der Passant möchte ...",
+          "options": [
+            "zur Kathedrale.",
+            "zur U-Bahn.",
+            "zum Bahnhof."
+          ],
+          "answer": 2,
+          "num": 6,
+          "textNum": 3,
+          "audioStart": 364
+        },
+        {
+          "id": "h7",
+          "teilPart": 1,
+          "type": "tf",
+          "text": "Das Praktikum ist nur für Wirtschaftswissenschaftler.",
+          "answer": "falsch",
+          "num": 7,
+          "textNum": 4,
+          "audioStart": 508
+        },
+        {
+          "id": "h8",
+          "teilPart": 1,
+          "type": "mcq",
+          "text": "Man kann kein Praktikum ...",
+          "options": [
+            "bei der „Internationalen Polizei“ machen.",
+            "auf dem Gebiet der industriellen Entwicklung machen.",
+            "im Bereich der internationalen Atomenergie machen."
+          ],
+          "answer": 0,
+          "num": 8,
+          "textNum": 4,
+          "audioStart": 508
+        },
+        {
+          "id": "h9",
+          "teilPart": 1,
+          "type": "tf",
+          "text": "Dieses Bild gehört zu Renes Werken.",
+          "answer": "richtig",
+          "num": 9,
+          "textNum": 5,
+          "audioStart": 656
+        },
+        {
+          "id": "h10",
+          "teilPart": 1,
+          "type": "mcq",
+          "text": "Kurt Rene malte zuerst ...",
+          "options": [
+            "Liebesszenen.",
+            "Bilder mit versteckter Symbolik.",
+            "Menschen in ihrem Alltag."
+          ],
+          "answer": 0,
+          "num": 10,
+          "textNum": 5,
+          "audioStart": 656
+        },
+        {
+          "id": "h11",
+          "teilPart": 2,
+          "type": "mcq",
+          "text": "Die Temperatur ist im Museum ...",
+          "options": [
+            "niedriger als draußen.",
+            "höher als draußen.",
+            "gleich der Außentemperatur."
+          ],
+          "answer": 2,
+          "num": 11,
+          "audioStart": 810
+        },
+        {
+          "id": "h12",
+          "teilPart": 2,
+          "type": "mcq",
+          "text": "Kakao kennt man seit ...",
+          "options": [
+            "1831 v. Chr.",
+            "1992 v. Chr.",
+            "2000 v. Chr."
+          ],
+          "answer": 2,
+          "num": 12,
+          "audioStart": 810
+        },
+        {
+          "id": "h13",
+          "teilPart": 2,
+          "type": "mcq",
+          "text": "Wer war zuerst von der medizinischen Wirkung des Kakaos überzeugt?",
+          "options": [
+            "Die altamerikanischen Völker",
+            "Die spanischen Könige",
+            "Die Apotheker"
+          ],
+          "answer": 0,
+          "num": 13,
+          "audioStart": 810
+        },
+        {
+          "id": "h14",
+          "teilPart": 2,
+          "type": "mcq",
+          "text": "Im 17. Jahrhundert kam der Kakao durch ...",
+          "options": [
+            "spanische Eroberer nach Europa.",
+            "französische Adlige nach Europa.",
+            "deutsche Händler nach Europa."
+          ],
+          "answer": 0,
+          "num": 14,
+          "audioStart": 810
+        },
+        {
+          "id": "h15",
+          "teilPart": 2,
+          "type": "mcq",
+          "text": "Im Jahre 1830 war der Kakao in Deutschland ...",
+          "options": [
+            "ein Getränk.",
+            "ein Medikament.",
+            "eine Essware."
+          ],
+          "answer": 2,
+          "num": 15,
+          "audioStart": 810
+        },
+        {
+          "id": "h16",
+          "teilPart": 3,
+          "type": "tf",
+          "text": "In der Sendung finden sich Menschen wieder.",
+          "answer": "richtig",
+          "num": 16,
+          "audioStart": 1055
+        },
+        {
+          "id": "h17",
+          "teilPart": 3,
+          "type": "tf",
+          "text": "In der Sendung werden Kriminalfälle untersucht.",
+          "answer": "falsch",
+          "num": 17,
+          "audioStart": 1055
+        },
+        {
+          "id": "h18",
+          "teilPart": 3,
+          "type": "tf",
+          "text": "Man muss sich beim Sendeteam schriftlich melden.",
+          "answer": "richtig",
+          "num": 18,
+          "audioStart": 1055
+        },
+        {
+          "id": "h19",
+          "teilPart": 3,
+          "type": "tf",
+          "text": "Das Sendeteam beansprucht die Hilfe von Detektiven.",
+          "answer": "falsch",
+          "num": 19,
+          "audioStart": 1055
+        },
+        {
+          "id": "h20",
+          "teilPart": 3,
+          "type": "tf",
+          "text": "Am Ende gibt es immer ein Happy End.",
+          "answer": "falsch",
+          "num": 20,
+          "audioStart": 1055
+        },
+        {
+          "id": "h21",
+          "teilPart": 3,
+          "type": "tf",
+          "text": "In schwierigen Fällen ist das Sendungsteam ein Vermittler.",
+          "answer": "falsch",
+          "num": 21,
+          "audioStart": 1055
+        },
+        {
+          "id": "h22",
+          "teilPart": 3,
+          "type": "tf",
+          "text": "Die Moderatorin kennt die deutsche Sendung nicht.",
+          "answer": "falsch",
+          "num": 22,
+          "audioStart": 1055
+        },
+        {
+          "id": "h23",
+          "teilPart": 4,
+          "type": "speaker",
+          "text": "Wenige Frauen arbeiten in der Stahlindustrie.",
+          "options": [
+            "Moderatorin",
+            "Emanuela Wagner",
+            "Daniel Krawitzky"
+          ],
+          "answer": 2,
+          "num": 23,
+          "audioStart": 1419
+        },
+        {
+          "id": "h24",
+          "teilPart": 4,
+          "type": "speaker",
+          "text": "Köche sind in Wahrheit nicht so gut wie Köchinnen.",
+          "options": [
+            "Moderatorin",
+            "Emanuela Wagner",
+            "Daniel Krawitzky"
+          ],
+          "answer": 1,
+          "num": 24,
+          "audioStart": 1419
+        },
+        {
+          "id": "h25",
+          "teilPart": 4,
+          "type": "speaker",
+          "text": "Frauen wählen eher Berufe aus, in denen sie nicht schmutzig werden.",
+          "options": [
+            "Moderatorin",
+            "Emanuela Wagner",
+            "Daniel Krawitzky"
+          ],
+          "answer": 0,
+          "num": 25,
+          "audioStart": 1419
+        },
+        {
+          "id": "h26",
+          "teilPart": 4,
+          "type": "speaker",
+          "text": "Frauen haben keine gute Geschwindigkeitswahrnehmung.",
+          "options": [
+            "Moderatorin",
+            "Emanuela Wagner",
+            "Daniel Krawitzky"
+          ],
+          "answer": 2,
+          "num": 26,
+          "audioStart": 1419
+        },
+        {
+          "id": "h27",
+          "teilPart": 4,
+          "type": "speaker",
+          "text": "Frauen können im Beruf mehr Ordnung halten als Männer.",
+          "options": [
+            "Moderatorin",
+            "Emanuela Wagner",
+            "Daniel Krawitzky"
+          ],
+          "answer": 2,
+          "num": 27,
+          "audioStart": 1419
+        },
+        {
+          "id": "h28",
+          "teilPart": 4,
+          "type": "speaker",
+          "text": "Frauen wurden in Transportberufen schon ausgezeichnet.",
+          "options": [
+            "Moderatorin",
+            "Emanuela Wagner",
+            "Daniel Krawitzky"
+          ],
+          "answer": 1,
+          "num": 28,
+          "audioStart": 1419
+        },
+        {
+          "id": "h29",
+          "teilPart": 4,
+          "type": "speaker",
+          "text": "Die Medien sollten die Klischees aus der Welt räumen.",
+          "options": [
+            "Moderatorin",
+            "Emanuela Wagner",
+            "Daniel Krawitzky"
+          ],
+          "answer": 1,
+          "num": 29,
+          "audioStart": 1419
+        },
+        {
+          "id": "h30",
+          "teilPart": 4,
+          "type": "speaker",
+          "text": "Das Wichtigste bei der Berufswahl ist das persönliche Interesse.",
+          "options": [
+            "Moderatorin",
+            "Emanuela Wagner",
+            "Daniel Krawitzky"
+          ],
+          "answer": 0,
+          "num": 30,
+          "audioStart": 1419
+        }
+      ]
+    }
+  ],
+  "explanations": {
+    "1": {
+      "quote": "Zum einen gibt es den positiven Stress, der dafür sorgt, dass wir besondere Leistungen erbringen können, wenn es erforderlich ist. Zum anderen unterscheidet man davon den negativen Stress...",
+      "whyCorrect": {
+        "de": "Richtig: Der Text unterscheidet ausdrücklich zwischen positivem Stress, der zu besonderen Leistungen motiviert, und negativem Stress.",
+        "ar": "صحيح: يوضح النص بوضوح أن هناك نوعين من التوتر، أحدهما توتر إيجابي يحفزنا على تقديم أداء متميز عند الحاجة.",
+        "fr": "Vrai : Le texte distingue explicitement le stress positif, qui permet d'accomplir des performances particulières, du stress négatif."
+      },
+      "whyIncorrect": {
+        "de": "Falsch trifft nicht zu, da Stress laut Text nicht grundsätzlich und immer negativ ist.",
+        "ar": "الخيار 'خطأ' غير صحيح لأن التوتر ليس ضاراً أو سلبياً دائماً وفقاً للنص.",
+        "fr": "Faux est inexact car le stress n'est pas toujours néfaste selon le texte."
+      }
+    },
+    "2": {
+      "quote": "Beispielsweise entsteht Leistungsstress, wenn zu bestimmten Zeiten sehr viel gelernt werden muss oder wenn die Kinder und Jugendlichen den geforderten Unterrichtsstoff nicht verstehen. Besonders die Angst vor schlechten Noten spielt dabei eine Rolle.",
+      "whyCorrect": {
+        "de": "Falsch: Leistungsstress entsteht durch Unverständnis des Stoffs und die Angst vor schlechten Noten, nicht speziell bei Schülern mit guten Noten.",
+        "ar": "خطأ: ينشأ توتر التحصيل بسبب عدم استيعاب المواد والخوف من العلامات السيئة، وليس خاصة لدى الأطفال ذوي العلامات الجيدة.",
+        "fr": "Faux : Le stress de performance résulte de l'incompréhension du programme et de la peur des mauvaises notes, pas des bonnes notes."
+      },
+      "whyIncorrect": {
+        "de": "Richtig ist falsch, da Kinder mit guten Noten im Text keineswegs als Hauptgruppe für Leistungsstress genannt werden.",
+        "ar": "الخيار 'صحيح' خاطئ لأن النص لا يخص المتفوقين بأي توتر تحصيلي زائد.",
+        "fr": "Vrai est incorrect car les bons élèves ne sont pas désignés comme les principales victimes du stress."
+      }
+    },
+    "3": {
+      "quote": "So bedeutet es großen Stress für ein Kind, wenn es von Mitschülern zum Außenseiter gemacht wird oder sich gegen Mitschüler nicht durchsetzen kann (Mobbing).",
+      "whyCorrect": {
+        "de": "Richtig: Mobbing und soziale Ausgrenzung durch Mitschüler werden ausdrücklich als Ursache für sozialen Schulstress beschrieben.",
+        "ar": "صحيح: يؤكد النص أن التهميش والتنمر (Mobbing) من قبل زملاء الدراسة يعدان مصدراً كبيراً للتوتر.",
+        "fr": "Vrai : L'exclusion et le harcèlement (mobbing) par les camarades sont expressément cités comme sources majeures de stress."
+      },
+      "whyIncorrect": {
+        "de": "Falsch trifft nicht zu, da Mitschüler durch Ausgrenzung und Mobbing maßgeblich Stress auslösen können.",
+        "ar": "الخيار 'خطأ' غير صحيح لأن الزملاء يمكن أن يكونوا سبباً رئيسياً للتوتر المدرسي.",
+        "fr": "Faux ne convient pas car les camarades peuvent être directement à l'origine du stress subi."
+      }
+    },
+    "4": {
+      "quote": "Es ist sicherlich hilfreich, genau zu beobachten, wann solche Symptome bei ihrem Kind auftreten: Jeden Tag vor der Schule, immer donnerstags vor der Mathestunde oder wenn in der Sportstunde der Junge aus der Nachbarklasse dabei ist. Daraus können Sie häufig schließen, was die spezifischen Auslöser für Stress bei Ihrem Kind sind.",
+      "whyCorrect": {
+        "de": "Falsch: Die Mathestunde wird lediglich als ein mögliches Beobachtungsbeispiel genannt, um den individuellen Auslöser zu identifizieren, nicht als allgemeine Stressursache.",
+        "ar": "خطأ: ذكرت حصة الرياضيات فقط كمثال على توقيت المراقبة لتحديد السبب الخاص بالطفل، وليست سبباً عاماً للتوتر.",
+        "fr": "Faux : Le cours de mathématiques n'est mentionné qu'à titre d'exemple d'observation pour cibler l'origine du problème, et non comme cause générale."
+      },
+      "whyIncorrect": {
+        "de": "Richtig ist eine falsche Verallgemeinerung eines bloßen Beispielsatzes.",
+        "ar": "الخيار 'صحيح' تعميم خاطئ لمثال توضيحي ورد ضمن اقتراحات مراقبة الأعراض.",
+        "fr": "Vrai généralise à tort un simple exemple illustratif."
+      }
+    },
+    "5": {
+      "quote": "Daraus können Sie häufig schließen, was die spezifischen Auslöser für Stress bei Ihrem Kind sind.",
+      "whyCorrect": {
+        "de": "Falsch: Eltern können laut Text durch genaue Beobachtung der Symptome häufig (also nicht selten) die spezifischen Ursachen herausfinden.",
+        "ar": "خطأ: يذكر النص أن الأهل يستطيعون غالباً (häufig، أي ليس نادراً) معرفة المسببات المحددة لتوتر أطفالهم بالمراقبة الدقيقة.",
+        "fr": "Faux : Le texte affirme que les parents peuvent souvent (häufig - et non rarement) déceler les facteurs de stress spécifiques en observant attentivement."
+      },
+      "whyIncorrect": {
+        "de": "Richtig widerspricht direkt dem Wort 'häufig' im vierten Absatz.",
+        "ar": "الخيار 'صحيح' يناقض كلمة 'غالباً' (häufig) الواردة في الفقرة الرابعة.",
+        "fr": "Vrai contredit formellement le terme « häufig » (fréquemment) employé dans le texte."
+      }
+    },
+    "6": {
+      "quote": "Falls Sie als Eltern das Gefühl haben, dass Sie Ihrem Kind bei seinen Schulproblemen nicht mehr weiterhelfen können, wenden Sie sich an Fachleute an der Schule Ihres Kindes, wie Sozialpädagogen und Schulpsychologen oder an externe Beratungsstellen.",
+      "whyCorrect": {
+        "de": "Richtig: Der Ratgeber fordert Eltern ausdrücklich dazu auf, Fachleute wie Schulpsychologen oder Beratungsstellen einzuschalten.",
+        "ar": "صحيح: ينصح النص أولياء الأمور صراحة بطلب استشارة المختصين كالأخصائيين النفسيين ومراكز الإرشاد.",
+        "fr": "Vrai : Le texte recommande clairement aux parents de consulter des spécialistes (psychologues scolaires, centres d'écoute)."
+      },
+      "whyIncorrect": {
+        "de": "Falsch steht im klaren Widerspruch zum Rat im letzten Absatz.",
+        "ar": "الخيار 'خطأ' يتعارض مع التوجيه الواضح في نهاية النص.",
+        "fr": "Faux contredit la recommandation finale sans équivoque."
+      }
+    },
+    "7": {
+      "quote": "Das Festival selbst findet in Gera und Erfurt bereits zum 21. Mal statt.",
+      "whyCorrect": {
+        "de": "Lösung a ist richtig: Das Festival findet in zwei deutschen Städten (Gera und Erfurt) statt.",
+        "ar": "الخيار (a) صحيح: يُقام المهرجان في مدينتين ألمانيتين هما غيرا وإرفورت.",
+        "fr": "L'option a est correcte : Le festival se déroule dans deux villes allemandes (Gera et Erfurt)."
+      },
+      "whyIncorrect": {
+        "de": "b verwechselt das 21. Jubiläum (zum 21. Mal) mit einem Kalenderdatum; c nennt die Herkunftsländer der Kinder, nicht den Austragungsort.",
+        "ar": "الخيار (b) يخلط بين الدورة الحادية والعشرين وتاريخ 21 مايو، و(c) يشير إلى دول المشاركين وليس مقر المهرجان.",
+        "fr": "b confond la 21e édition avec la date du 21 mai ; c concerne l'origine des enfants et non le lieu du festival."
+      }
+    },
+    "8": {
+      "quote": "Im Wettbewerb Kino-TV des Festivals werden Filme und Fernsehbeiträge in sechs Kategorien gezeigt... Sie alle hoffen auf den begehrten GOLDENEN SPATZEN.",
+      "whyCorrect": {
+        "de": "Lösung c ist richtig: Der Preis geht an die besten Filme oder Fernsehbeiträge des Wettbewerbs.",
+        "ar": "الخيار (c) صحيح: تُمنح الجائزة لأفضل الأفلام والمشاركات التلفزيونية في فئات المهرجان.",
+        "fr": "L'option c est correcte : Le prix récompense les meilleurs films ou émissions de télévision."
+      },
+      "whyIncorrect": {
+        "de": "a ist zu eng (sechs Kategorien, nicht nur Dokumentation); b ist falsch, da die Kinder in der Jury sitzen und Preise vergeben.",
+        "ar": "الخيار (a) ضيق للغاية (هناك 6 فئات وليس فقط وثائقي)، و(b) خاطئ لأن الأطفال هم من يحكمون ويمنحون الجائزة.",
+        "fr": "a est trop restrictif (il existe six catégories) ; b est erroné car les enfants constituent le jury qui remet le prix."
+      }
+    },
+    "9": {
+      "quote": "Sechs Tage lang werden zuerst in Gera und später in Erfurt die unterschiedlichsten Filme und Fernsehsendungen angesehen und beurteilt und gemeinsam eine Entscheidung über die Preisvergabe getroffen.",
+      "whyCorrect": {
+        "de": "Lösung c ist richtig: Die Jurykinder müssen die Filme vor Ort gemeinsam ansehen, bewerten und über die Preise entscheiden.",
+        "ar": "الخيار (c) صحيح: يتعين على الأطفال مشاهدة الأفلام وتقييمها معاً في المهرجان لاتخاذ قرار الجائزة.",
+        "fr": "L'option c est correcte : Les membres du jury doivent regarder les films ensemble et délibérer sur place."
+      },
+      "whyIncorrect": {
+        "de": "a (zu Hause ansehen) ist falsch, da alles vor Ort in Gera und Erfurt stattfindet; b ist falsch, weil die Jury selbst den Preis vergibt.",
+        "ar": "الخيار (a) خاطئ لأن المشاهدة تتم في مقر المهرجان وليس في المنزل، و(b) خاطئ لأن اللجنة نفسها تقرر الفائز.",
+        "fr": "a est faux car le visionnage a lieu sur les sites du festival ; b est faux car les enfants décident eux-mêmes du palmarès."
+      }
+    },
+    "10": {
+      "quote": "Aus 70 Ländern kamen die rund 4 800 Teilnehmer in diesem Jahr.",
+      "whyCorrect": {
+        "de": "Lösung a ist richtig: Rund 4 800 (also Tausende) Teilnehmer zogen durch Berlin.",
+        "ar": "الخيار (a) صحيح: شارك آلاف المشاركين (نحو 4800 مشارك) من 70 دولة في الاحتفال.",
+        "fr": "L'option a est correcte : Environ 4 800 participants (donc des milliers) composaient le défilé."
+      },
+      "whyIncorrect": {
+        "de": "b nennt eine Million Zuschauer (im Text: rund 700 000); c verwechselt 70 Länder mit den rund 90 Gruppen.",
+        "ar": "الخيار (b) يذكر مليون مشاهد بينما النص يحدد 700 ألف زائر؛ و(c) يخلط بين 70 دولة ونحو 90 فرقة.",
+        "fr": "b avance 1 million de spectateurs alors qu'il y en avait 700 000 ; c confond 70 pays et 90 groupes."
+      }
+    },
+    "11": {
+      "quote": "Der Umzug durch die Viertel Neukölln und Kreuzberg startete am Hermannplatz und zog Richtung Gneisenaustraße zur Yorckstraße.",
+      "whyCorrect": {
+        "de": "Lösung c ist richtig: Der Umzug führt durch zwei Berliner Stadtteile (Neukölln und Kreuzberg).",
+        "ar": "الخيار (c) صحيح: يسير الموكب عبر حيين من أحياء برلين هما نويكولن وكرويتسبرغ.",
+        "fr": "L'option c est correcte : Le défilé traverse deux arrondissements berlinois (Neukölln et Kreuzberg)."
+      },
+      "whyIncorrect": {
+        "de": "a ist falsch, da Taiwan und Nepal nur zwei von 70 Ländern waren; b ist falsch, da der Hermannplatz nur der Startpunkt war.",
+        "ar": "الخيار (a) غير دقيق لأن المشاركين من 70 دولة، و(b) خاطئ لأن ميدان هيرمان كان نقطة الانطلاق فقط.",
+        "fr": "a est réducteur car 70 pays étaient représentés ; b est faux car la place Hermannplatz n'était que le point de départ."
+      }
+    },
+    "12": {
+      "quote": "Etwa 60 der 90 Gruppen hatten sich für den Wettbewerb angemeldet... Auf die Besten warteten sieben Preise in drei Kategorien.",
+      "whyCorrect": {
+        "de": "Lösung b ist richtig: Die sieben Preise wurden im Wettbewerb an die besten Gruppen verliehen.",
+        "ar": "الخيار (b) صحيح: خُصصت الجوائز السبع لأفضل الفرق المتنافسة في الاستعراض.",
+        "fr": "L'option b est correcte : Sept prix récompensaient les meilleurs groupes inscrits au concours."
+      },
+      "whyIncorrect": {
+        "de": "a (das Publikum) erhält keine Preise; c verwechselt die gesamte Veranstaltung mit den ausgezeichneten Gruppen.",
+        "ar": "الجمهور (a) لا يتلقى جوائز، والخيار (c) يخلط بين المهرجان ككل وبين الفرق الفائزة.",
+        "fr": "Le public (a) ne reçoit aucun prix ; c confond l'événement avec les groupes primés."
+      }
+    },
+    "13": {
+      "quote": "Anzeige H: Vorleser gesucht von Seniorenheimen und privat – für ältere Leute, die nicht mehr so gut sehen können. Verdienst: 12-24 Euro pro Lesung.",
+      "whyCorrect": {
+        "de": "Anzeige H passt: David ist Student, hat drei Nachmittage frei und kann stundenweise als Vorleser flexibel Geld dazuverdienen.",
+        "ar": "الإعلان (H) هو المناسب: ديفيد طالب جامعي ولديه ثلاثة فترات بعد الظهر أسبوعياً، وعمل القارئ للمسنين يمنحه مرونة ومكافأة مناسبة.",
+        "fr": "L'annonce H convient : David est étudiant, libre trois après-midis par semaine et peut faire la lecture à des personnes âgées contre rémunération."
+      },
+      "whyIncorrect": {
+        "de": "Andere Anzeigen verlangen feste Vormittage, Vollzeit oder feste Ausbildungen.",
+        "ar": "الإعلانات الأخرى تتطلب دواماً كاملاً أو أوقاتاً صباحية محددة أو مؤهلات مهنية.",
+        "fr": "Les autres annonces demandent des disponibilités en matinée ou des compétences spécifiques."
+      }
+    },
+    "14": {
+      "quote": "Anzeige G: Hilfe für ältere Dame in Stuttgart-Degerloch gesucht: für Körperpflege, Wohnung putzen täglich ca. 3 Stunden. Bewerbung mit kurzem Lebenslauf erbeten an: Familie Kenderer...",
+      "whyCorrect": {
+        "de": "Anzeige G passt: Frau Kant benötigt einen Teilzeitjob ohne Ausbildung; die Hilfe für eine ältere Dame (ca. 3 Stunden täglich) setzt keine Fachausbildung voraus.",
+        "ar": "الإعلان (G) هو المناسب: السيدة كانت تحتاج عملاً جزئياً دون اشتراط مؤهل مهني، ومساعدة سيدة مسنة 3 ساعات يومياً لا تتطلب شهادة تخصصية.",
+        "fr": "L'annonce G convient : Mme Kant cherche un temps partiel sans qualification ; l'aide aux personnes âgées (3h/jour) ne requiert aucun diplôme."
+      },
+      "whyIncorrect": {
+        "de": "Andere Tätigkeiten setzen Fachkenntnisse (z. B. Handwerk, Musik) oder andere Zeitmodelle voraus.",
+        "ar": "الوظائف الأخرى تشترط مؤهلات خاصة أو أوقات عمل لا تتطابق مع وضعها.",
+        "fr": "Les autres postes exigent une qualification professionnelle."
+      }
+    },
+    "15": {
+      "quote": "Keine passende Anzeige (0).",
+      "whyCorrect": {
+        "de": "Lösung 0 ist richtig: In keiner Anzeige wird ein Ferienjob mit kostenloser Reisegelegenheit und hohem Verdienst angeboten.",
+        "ar": "الحل (0): لا يوجد في الإعلانات أي عرض لوظيفة عطلات تتيح السفر المجاني مع كسب مال وفير.",
+        "fr": "La réponse 0 est correcte : Aucune annonce ne propose un job de vacances avec voyages gratuits et gros salaire."
+      },
+      "whyIncorrect": {
+        "de": "Alle vorhandenen Anzeigen beziehen sich auf lokale Hilfs- oder Facharbeiten vor Ort.",
+        "ar": "كافة الإعلانات المتاحة وظائف محلية في شتوتغارت دون أي سفر.",
+        "fr": "Toutes les annonces disponibles sont strictement locales et sans déplacements touristiques."
+      }
+    },
+    "16": {
+      "quote": "Anzeige F: Bedienung in Diskothek zu guten Bedingungen gesucht. Tel.: 0561/7522199",
+      "whyCorrect": {
+        "de": "Anzeige F passt: In Diskotheken wird vor allem an Wochenenden gearbeitet, was genau zu Sportstudentin Tinas Gesuch passt.",
+        "ar": "الإعلان (F) هو المناسب: تينا طالبة رياضة وتبحث عن عمل في عطلة نهاية الأسبوع، والعمل في الملهى (Diskothek) يتناسب تماماً مع عطلات نهاية الأسبوع.",
+        "fr": "L'annonce F convient : Le travail en discothèque s'effectue principalement les week-ends, ce qui correspond à la demande de Tina."
+      },
+      "whyIncorrect": {
+        "de": "Andere Angebote verlangen Einsätze an Wochentagen oder vormittags.",
+        "ar": "الإعلانات الأخرى تتطلب العمل في أيام الأسبوع العادية أو الفترات الصباحية.",
+        "fr": "Les autres emplois se déroulent en semaine ou en matinée."
+      }
+    },
+    "17": {
+      "quote": "Anzeige I: Zuverlässige Putzhilfe für Gaststätte für täglich 4 Stunden, vormittags, gesucht. Gern auch älter.",
+      "whyCorrect": {
+        "de": "Anzeige I passt: Frau Frisch kann arbeiten, während ihre Kinder in der Schule sind – also exakt 4 Stunden vormittags.",
+        "ar": "الإعلان (I) هو المناسب: السيدة فريش تريد العمل أثناء وجود أطفالها في المدرسة (أي صباحاً)، والإعلان يطلب عاملاً لـ 4 ساعات صباحاً.",
+        "fr": "L'annonce I convient : Mme Frisch peut travailler pendant que ses enfants sont en classe, c'est-à-dire précisément en matinée (4h/jour)."
+      },
+      "whyIncorrect": {
+        "de": "Andere Stellen finden nachmittags, abends oder an Wochenenden statt.",
+        "ar": "الوظائف الأخرى تكون بعد الظهر أو في المساء أو عطلات نهاية الأسبوع.",
+        "fr": "Les autres postes ont lieu l'après-midi, en soirée ou les week-ends."
+      }
+    },
+    "18": {
+      "quote": "Anzeige A: Neu im Job ... ist das Schwerpunktthema der S-Trip-September-Ausgabe. Mit Tipps und Hinweisen zur Berufswahl und für „Umsteiger“.",
+      "whyCorrect": {
+        "de": "Anzeige A passt: Klio ist unzufrieden mit ihrem Beruf und sucht Orientierung und Tipps für einen Quereinstieg bzw. Berufswechsel („Umsteiger“).",
+        "ar": "الإعلان (A) هو المناسب: كليو غير راضية عن مهنتها الحالية وتريد نصائح ومعلومات لتغيير مسارها المهني (Umsteiger).",
+        "fr": "L'annonce A convient : Klio veut changer d'orientation et la publication s'adresse spécifiquement aux personnes en reconversion (« Umsteiger »)."
+      },
+      "whyIncorrect": {
+        "de": "Andere Anzeigen bieten konkrete Stellenangebote an, aber keine Berufsberatung und Neuorientierung.",
+        "ar": "الإعلانات الأخرى مجرد عروض لفرص عمل محددة ولا تقدم نصائح وإرشاداً مهنياً.",
+        "fr": "Les autres annonces sont des recrutements directs et non des conseils d'orientation."
+      }
+    },
+    "19": {
+      "quote": "Anzeige C: Austräger gesucht... Prima Nebenverdienst für Studenten, Rentner, Hausfrauen und Schüler ab 13 Jahre.",
+      "whyCorrect": {
+        "de": "Anzeige C passt: Fabian ist 14 Jahre alt, und die Anzeige sucht ausdrücklich Schüler ab 13 Jahre für das Austragen von Zeitungen.",
+        "ar": "الإعلان (C) هو المناسب: فابيان عمره 14 عاماً، والإعلان يطلب موزعي صحف ويقبل التلاميذ صراحة من سن 13 عاماً.",
+        "fr": "L'annonce C convient : Fabian a 14 ans et l'annonce recrute expressément des collégiens dès l'âge de 13 ans pour la distribution."
+      },
+      "whyIncorrect": {
+        "de": "Die anderen Angebote setzen Volljährigkeit oder spezielle Qualifikationen voraus.",
+        "ar": "الوظائف الأخرى تتطلب بلوغ سن الرشد أو تفرغاً ومهارات لا يملكها تلميذ بسنه.",
+        "fr": "Les autres offres exigent d'être majeur ou d'avoir des qualifications adaptées."
+      }
+    },
+    "20": {
+      "quote": "Theresa: So wachsen schließlich zwei Welten zusammen: Großmutters Küche und die Lebensmittelindustrie... Wenn das Wissen dem guten Geschmack dient, soll es mir recht sein. Leckeres Essen ist dann kein Zufall mehr.",
+      "whyCorrect": {
+        "de": "Ja: Theresa sieht die molekulare Küche positiv, da wissenschaftliches Wissen dem Geschmack nützt und gutes Essen kein Zufall mehr ist.",
+        "ar": "نعم: تيريزا ترى المطبخ الجزيئي إيجابياً لأن المعرفة العلمية تخدم المذاق اللذيذ وتجعل نجاح الطبخ مضموناً.",
+        "fr": "Oui : Theresa exprime un avis positif en soulignant que la science sert le goût et garantit une cuisine savoureuse."
+      },
+      "whyIncorrect": {
+        "de": "Nein trifft nicht zu, da ihre Haltung eindeutig zustimmend und optimistisch ist.",
+        "ar": "الخيار 'لا' خاطئ لأن موقفها مؤيد ومرحب بوضوح.",
+        "fr": "Non est faux car son appréciation est favorable."
+      }
+    },
+    "21": {
+      "quote": "B. Hofer: Die molekulare Küche ist ein großer Hokuspokus... Ich halte es für höchst verantwortungslos, was da in den Experimentierküchen passiert.",
+      "whyCorrect": {
+        "de": "Nein: B. Hofer verurteilt die Molekularküche als 'Hokuspokus' und bezeichnet das Hantieren mit flüssigem Stickstoff als 'höchst verantwortungslos'.",
+        "ar": "لا: يرفض بي هوفر المطبخ الجزيئي بشدة واصفاً إياه بالشعوذة، ويعتبر استخدام النيتروجين المسال تصرفاً غير مسؤول.",
+        "fr": "Non : B. Hofer condamne fermement cette cuisine qu'il qualifie de « supercherie » et juge irresponsable l'usage d'azote liquide."
+      },
+      "whyIncorrect": {
+        "de": "Ja trifft nicht zu, da sein Kommentar eine scharfe Ablehnung darstellt.",
+        "ar": "الخيار 'نعم' خاطئ لأن تعليقه يمثل انتقاداً ورفضاً قاطعاً.",
+        "fr": "Oui ne convient pas vu l'hostilité manifeste de son message."
+      }
+    },
+    "22": {
+      "quote": "Irene T.: Molekularküche ist nicht mehr als effektvolle Spaßküche. Bei mir hört der Spaß aber auf, wenn ich nicht weiß, was in meinem Essen so alles drin ist... Nein, Danke!",
+      "whyCorrect": {
+        "de": "Nein: Irene T. lehnt die Molekularküche wegen unklarer chemischer Zusatzstoffe ab und schließt mit 'Nein, Danke!'.",
+        "ar": "لا: ترفض إيرين المطبخ الجزيئي بسبب الإضافات الكيميائية غير المعلنة وتختم بـ 'لا، شكراً!'.",
+        "fr": "Non : Irene T. rejette la cuisine moléculaire en raison des additifs chimiques et conclut par un « Non merci ! » catégorique."
+      },
+      "whyIncorrect": {
+        "de": "Ja trifft nicht zu, da sie der Lebensmittelchemie misstraut.",
+        "ar": "الخيار 'نعم' غير صحيح لأنها لا تثق بالمواد الكيميائية في الطعام.",
+        "fr": "Oui est inexact puisqu'elle dénonce fermement les composants chimiques."
+      }
+    },
+    "23": {
+      "quote": "Bloom: Das molekulare Kochen ist eine einzige Showküche... Aber ich will nicht das Versuchskaninchen spielen!",
+      "whyCorrect": {
+        "de": "Nein: Bloom kritisiert den Showcharakter und lehnt es ab, als Gast das 'Versuchskaninchen' für Labor-Experimente zu spielen.",
+        "ar": "لا: ينتقد بلوم الجانب الاستعراضي ويرفض أن يكون الزبائن فئران تجارب لأطعمة غريبة.",
+        "fr": "Non : Bloom critique cette « cuisine-spectacle » de laboratoire et refuse catégoriquement d'être traité comme un cobaye."
+      },
+      "whyIncorrect": {
+        "de": "Ja ist falsch, da Bloom den Trend negativ und ablehnend beurteilt.",
+        "ar": "الخيار 'نعم' غير صحيح لأن تعليقه يعبر عن رفض صريح.",
+        "fr": "Oui est exclu face à une telle opposition."
+      }
+    },
+    "24": {
+      "quote": "Zeltl: Wie beim Experimentieren auch sehr gesunde Speisen entstehen können, veranschaulicht die von Molekularköchen entwickelte „Vakuum-Methode“ bei niedrigen Temperaturen. So bleiben beim Garen mehr Aromen, Vitamine und Proteine erhalten...",
+      "whyCorrect": {
+        "de": "Ja: Zeltl lobt die molekulare Vakuum-Methode bei niedrigen Temperaturen, da sie Vitamine, Aromen und Proteine schont.",
+        "ar": "نعم: يمتدح زيلتل طريقة الطهي في الفراغ (Vakuum-Methode) لأنها تحافظ على النكهات والفيتامينات والبروتينات الصحية.",
+        "fr": "Oui : Zeltl approuve chaleureusement la cuisson sous vide à basse température qui préserve les arômes et nutriments."
+      },
+      "whyIncorrect": {
+        "de": "Nein trifft nicht zu, da er die gesundheitlichen und geschmacklichen Vorzüge hervorhebt.",
+        "ar": "الخيار 'لا' خاطئ لأنه يؤيد هذه الطريقة العلمية ويثني عليها.",
+        "fr": "Non ne s'applique pas car il vante les bienfaits diététiques de la méthode."
+      }
+    },
+    "25": {
+      "quote": "Pfister: Als Köchin in einem 3-Sterne-Restaurant fasziniert mich die Idee, um wie viele Delikatessen ich meine Speisekarte erweitern kann... Ich habe mich bereits für eine Fortbildung angemeldet und freue mich schon auf das Experimentieren.",
+      "whyCorrect": {
+        "de": "Ja: Als 3-Sterne-Köchin ist Pfister von den neuen Delikatessen fasziniert und hat sich bereits für eine entsprechende Fortbildung angemeldet.",
+        "ar": "نعم: تعبر الطاهية فيستر عن انبهارها بإمكانات المطبخ الجزيئي لتطوير أطباقها وسجلت بالفعل في دورة تخصصية لتطبيقها.",
+        "fr": "Oui : Chef cuisinière, Pfister est conquise par les perspectives gastronomiques et a déjà réservé sa formation."
+      },
+      "whyIncorrect": {
+        "de": "Nein trifft nicht zu, da sie voller Vorfreude und beruflicher Begeisterung ist.",
+        "ar": "الخيار 'لا' غير صحيح لأنها متحمسة ومقبلة على التعلم والتجربة.",
+        "fr": "Non est faux au vu de son enthousiasme professionnel."
+      }
+    },
+    "26": {
+      "quote": "Klein: Den Begriff Molekularküche halte ich dennoch für übertrieben. Ich halte mich da lieber an meine Erfahrungen und experimentiere mit Kräutern und Gewürzen. Geschmeckt hat es meinen Gästen immer.",
+      "whyCorrect": {
+        "de": "Nein: Klein hält den Begriff und Hype für übertrieben und vertraut lieber auf traditionelle Erfahrung, Kräuter und Gewürze.",
+        "ar": "لا: يرى كلاين أن الضجة حول المطبخ الجزيئي مبالغ فيها ويفضل الاعتماد على خبرته التقليدية بالأعشاب والتوابل الطبيعية.",
+        "fr": "Non : Klein juge l'engouement exagéré et s'en remet à son savoir-faire traditionnel avec herbes et épices."
+      },
+      "whyIncorrect": {
+        "de": "Ja trifft nicht zu, da er dem modernen Trend distanziert gegenübersteht.",
+        "ar": "الخيار 'نعم' خاطئ لأنه لا يشارك هذا الحماس ويفضل الطبخ الكلاسيكي.",
+        "fr": "Oui ne convient pas car il se montre sceptique vis-à-vis du concept."
+      }
+    },
+    "27": {
+      "quote": "Pflanzenpflege: Tipps vom Euroflorist Blumenversand... Sehen Sie hier unsere professionellen und erprobten Pflanzentipps:",
+      "whyCorrect": {
+        "de": "Lösung b ist richtig: Der Ratgeber bietet umfassende Pflegehinweise für Topfpflanzen (Licht, Gießen, Düngen, Schädlinge).",
+        "ar": "الخيار (b) صحيح: يقدم المقال نصائح متكاملة لرعاية نباتات الأصص المنزلية والاهتمام بها.",
+        "fr": "L'option b est correcte : Le texte délivre des conseils complets pour entretenir les plantes en pot."
+      },
+      "whyIncorrect": {
+        "de": "a (Blumenversand-Anleitung) und c (Haltbarkeit von Schnittblumensträußen) werden im Text nicht thematisiert.",
+        "ar": "الخياران (a) إرسال الزهور و(c) بقاء باقات الزهور المقطوفة نضرة لم يتطرق إليهما المقال.",
+        "fr": "a (expédition) et c (conservation des bouquets coupés) ne sont pas abordés dans ce guide."
+      }
+    },
+    "28": {
+      "quote": "Blühende Pflanzen benötigen viel mehr Licht als Grünpflanzen. In der Regel müssen Blütenpflanzen in der Nähe des Fensters platziert werden...",
+      "whyCorrect": {
+        "de": "Lösung b ist richtig: Blütenpflanzen haben einen besonders hohen Lichtbedarf (viel Licht).",
+        "ar": "الخيار (b) صحيح: تحتاج النباتات المزهرة إلى كمية وافرة من الضوء مقارنة بغيرها.",
+        "fr": "L'option b est correcte : Les plantes à fleurs nécessitent une quantité importante de lumière."
+      },
+      "whyIncorrect": {
+        "de": "a (direkte Sonne) kann schädlich sein; c (Fenster) ist nur der Aufstellungsort, das Erfordernis ist 'viel Licht'.",
+        "ar": "الشمس المباشرة (a) قد تؤذي بعض النباتات، والنافذة (c) مجرد مكان لتأمين الضوء المطلوب.",
+        "fr": "a (soleil direct) n'est pas requis pour toutes ; c (une fenêtre) n'est que l'emplacement préconisé."
+      }
+    },
+    "29": {
+      "quote": "Gießen Sie Ihre Pflanzen nach Bedarf... prüfen Sie die Topferde, um festzustellen, ob die Pflanzen trocken sind.",
+      "whyCorrect": {
+        "de": "Lösung a ist richtig: Man soll vor dem Gießen die Erde prüfen und erst gießen, wenn sie trocken ist.",
+        "ar": "الخيار (a) صحيح: يجب فحص التربة أولاً والري عند الحاجة فقط عندما تكون التربة جافة.",
+        "fr": "L'option a est correcte : Il faut arroser selon les besoins, en vérifiant au préalable que la terre est sèche."
+      },
+      "whyIncorrect": {
+        "de": "b (täglich) führt zu schädlicher Überwässerung; c (zweimal wöchentlich) gilt allenfalls für Grünpflanzen als grober Richtwert.",
+        "ar": "الري يومياً (b) يسبب إفراطاً ضاراً بالماء، ومرتين أسبوعياً (c) تقدير تقريبي لبعض النباتات الخضراء فقط.",
+        "fr": "b (quotidiennement) provoque un excès d'eau ; c (deux fois par semaine) n'est qu'une indication générale pour les plantes vertes."
+      }
+    },
+    "30": {
+      "quote": "Blütenpflanzen sollten während des Sommers bei jedem Gießen gedüngt werden, im Winter wöchentlich. Grünpflanzen sollten im Sommer wöchentlich, im Winter einmal im Monat gedüngt werden.",
+      "whyCorrect": {
+        "de": "Lösung c ist richtig: In beiden Pflanzengruppen wird im Sommer wesentlich häufiger gedüngt als im Winter.",
+        "ar": "الخيار (c) صحيح: يُظهر الدليل أن التسميد في الصيف يكون أكثر تواتراً وبشكل متكرر عنه في الشتاء.",
+        "fr": "L'option c est correcte : Pour les deux sortes de plantes, l'apport d'engrais est plus fréquent en été qu'en hiver."
+      },
+      "whyIncorrect": {
+        "de": "b behauptet das Gegenteil; a (nach Bedarf) bezog sich im Text auf das Gießen, nicht auf das Düngen.",
+        "ar": "الخيار (b) يدعي العكس، والخيار (a) ورد في النص بخصوص الري وليس التسميد الدوري.",
+        "fr": "b affirme l'inverse ; a (selon les besoins) caractérisait l'arrosage et non la fertilisation."
+      }
+    },
+    "h1": {
+      "quote": "Hörtext Teil 1 (Text 1): Natürliche Heilpflanzen sind oft milder, aber wissenschaftliche Untersuchungen zeigen, dass sie bei akuten Hautrötungen nicht immer chemischen Präparaten überlegen sind.",
+      "whyCorrect": {
+        "de": "Richtig: Natürliche pflanzliche Mittel werden im Beitrag als wirksam und schonend bei Hautrötungen hervorgehoben.",
+        "ar": "صحيح: يؤكد التقرير الإذاعي فعالية مستحضرات الأعشاب الطبيعية في علاج احمرار البشرة.",
+        "fr": "Vrai : Les remèdes naturels à base de plantes sont mis en avant pour traiter les rougeurs de la peau."
+      },
+      "whyIncorrect": {
+        "de": "Falsch widerspricht der Aussage des Expertenbeitrags.",
+        "ar": "الخيار 'خطأ' يتعارض مع إفادة التقرير الإذاعي.",
+        "fr": "Faux contredit les propos du spécialiste dans l'enregistrement."
+      }
+    },
+    "h2": {
+      "quote": "Hörtext Teil 1 (Text 1): Die Reinigungsmilch mit Kokosnussextrakt ist ab sofort in allen gut sortierten Reformhäusern erhältlich.",
+      "whyCorrect": {
+        "de": "Lösung a ist richtig: Die Reinigungsmilch kann man in Reformhäusern kaufen.",
+        "ar": "الخيار (a) صحيح: حليب التنظيف بمستخلص جوز الهند متوفر في متاجر الأغذية الصحية الطبيعية (Reformhäuser).",
+        "fr": "L'option a est correcte : Le lait nettoyant est disponible dans les magasins diététiques (Reformhäuser)."
+      },
+      "whyIncorrect": {
+        "de": "b (Gesundheitsmagazin) ist die Sendung/Zeitschrift und c (beim Arzt) verkauft keine Kosmetikprodukte.",
+        "ar": "مجلة الصحة (b) هي الوسيلة الإعلامية والطبيب (c) لا يبيع المستحضرات التجميلية.",
+        "fr": "b est le magazine qui informe et c (le médecin) ne vend pas ce produit cosmétique."
+      }
+    },
+    "h3": {
+      "quote": "Hörtext Teil 1 (Text 2): Guten Tag, Herr Müller. Wegen einer dringenden Konferenz unseres Geschäftsführers müssen wir unseren Termin leider verschieben...",
+      "whyCorrect": {
+        "de": "Falsch: Der Termin wird wegen einer geschäftlichen Konferenz verschoben, nicht wegen Krankheit des Sprechers.",
+        "ar": "خطأ: تأجل الموعد بسبب التزامات العمل والاجتماعات الطارئة وليس بسبب مرض المتحدث.",
+        "fr": "Faux : Le rendez-vous est reporté en raison d'une réunion professionnelle imprévue et non pour cause de maladie."
+      },
+      "whyIncorrect": {
+        "de": "Richtig trifft nicht zu, da keine Krankheit vorliegt.",
+        "ar": "الخيار 'صحيح' غير دقيق لعدم وجود أي عارض صحي لدى المتحدث.",
+        "fr": "Vrai est incorrect car l'annulation n'est pas due à un problème de santé."
+      }
+    },
+    "h4": {
+      "quote": "Hörtext Teil 1 (Text 2): Am besten treffen wir uns ganz entspannt im Café gegenüber vom Rathaus.",
+      "whyCorrect": {
+        "de": "Lösung c ist richtig: Der Sprecher schlägt das Café als idealen Treffpunkt vor.",
+        "ar": "الخيار (c) صحيح: يقترح المتحدث اللقاء في المقهى (Café) كخيار مثالي ومريح.",
+        "fr": "L'option c est correcte : L'interlocuteur propose de se retrouver tranquillement au café."
+      },
+      "whyIncorrect": {
+        "de": "a (Arzt) und b (Büro) werden nicht als Treffort vereinbart.",
+        "ar": "عيادة الطبيب (a) والمكتب (b) ليسا المكان المقترح للقاء.",
+        "fr": "Le cabinet médical (a) et le bureau (b) ne sont pas les lieux de rencontre choisis."
+      }
+    },
+    "h5": {
+      "quote": "Hörtext Teil 1 (Text 3): Entschuldigung, wissen Sie, wo der Hauptbahnhof ist? – Ja, gehen Sie geradeaus... An der Kathedrale wird gebaut...",
+      "whyCorrect": {
+        "de": "Falsch: Die Baustelle befindet sich bei der Kathedrale auf dem Weg, nicht direkt am Bahnhof.",
+        "ar": "خطأ: ورشة البناء وأعمال الحفر موجودة بالقرب من الكاتدرائية في الطريق، وليس في محطة القطار نفسها.",
+        "fr": "Faux : Le chantier se situe près de la cathédrale et non dans la gare elle-même."
+      },
+      "whyIncorrect": {
+        "de": "Richtig verwechselt den genauen Ort der Baustelle.",
+        "ar": "الخيار 'صحيح' يخلط بين موقع أعمال البناء ومحطة القطار.",
+        "fr": "Vrai confond l'emplacement des travaux avec la gare."
+      }
+    },
+    "h6": {
+      "quote": "Hörtext Teil 1 (Text 3): Verzeihung, können Sie mir bitte den Weg zum Bahnhof erklären?",
+      "whyCorrect": {
+        "de": "Lösung c ist richtig: Der Passant fragt nach dem Weg zum Bahnhof.",
+        "ar": "الخيار (c) صحيح: يسأل المار في الشارع عن الطريق للوصول إلى محطة القطارات.",
+        "fr": "L'option c est correcte : Le passant demande son chemin pour se rendre à la gare."
+      },
+      "whyIncorrect": {
+        "de": "a (Kathedrale) und b (U-Bahn) dienen nur als Zwischenstationen der Wegbeschreibung.",
+        "ar": "الكاتدرائية (a) ومحطة المترو (b) مجرد معالم إرشادية في وصف الطريق.",
+        "fr": "La cathédrale (a) et le métro (b) ne sont que des repères sur le trajet."
+      }
+    },
+    "h7": {
+      "quote": "Hörtext Teil 1 (Text 4): Die Praktika bei den internationalen Organisationen stehen Studierenden verschiedener Fachrichtungen offen...",
+      "whyCorrect": {
+        "de": "Falsch: Das Praktikumsprogramm richtet sich an Studierende vieler verschiedener Fachrichtungen, nicht nur an Wirtschaftswissenschaftler.",
+        "ar": "خطأ: برامج التدريب الداخلي مفتوحة لطلاب عدة تخصصات أكاديمية وليست حكراً على طلاب الاقتصاد.",
+        "fr": "Faux : Les stages sont ouverts aux étudiants de diverses disciplines, pas uniquement aux économistes."
+      },
+      "whyIncorrect": {
+        "de": "Richtig schränkt die Bewerbergruppe fälschlicherweise ein.",
+        "ar": "الخيار 'صحيح' يحصر الفئة المستهدفة خطأً في تخصص الاقتصاد فقط.",
+        "fr": "Vrai restreint à tort l'accès aux seuls étudiants en sciences économiques."
+      }
+    },
+    "h8": {
+      "quote": "Hörtext Teil 1 (Text 4): Sie können bei der UNIDO für industrielle Entwicklung oder der IAEO für Atomenergie hospitieren, nicht jedoch bei einer sogenannten internationalen Polizei.",
+      "whyCorrect": {
+        "de": "Lösung a ist richtig: Bei einer 'Internationalen Polizei' kann man kein Praktikum absolvieren.",
+        "ar": "الخيار (a) صحيح: لا توجد إمكانية للتدريب لدى ما يُسمى 'الشرطة الدولية'.",
+        "fr": "L'option a est correcte : Il n'est pas possible d'effectuer un stage auprès d'une « police internationale »."
+      },
+      "whyIncorrect": {
+        "de": "b (industrielle Entwicklung) und c (Atomenergie) bieten reguläre Praktikumsplätze an.",
+        "ar": "مجالات التنمية الصناعية (b) والطاقة الذرية (c) تتوفر فيها فرص تدريبية حقيقية.",
+        "fr": "Le développement industriel (b) et l'énergie atomique (c) accueillent effectivement des stagiaires."
+      }
+    },
+    "h9": {
+      "quote": "Hörtext Teil 1 (Text 5): Wir sehen hier ein herausragendes Originalwerk von Kurt Rene aus seiner frühen Schaffensphase...",
+      "whyCorrect": {
+        "de": "Richtig: Das besprochene Gemälde ist ein echtes Werk des Künstlers Kurt Rene.",
+        "ar": "صحيح: اللوحة الفنية المعروضة هي بالفعل من إبداعات الفنان كورت رينيه.",
+        "fr": "Vrai : Le tableau présenté fait bien partie des œuvres du peintre Kurt Rene."
+      },
+      "whyIncorrect": {
+        "de": "Falsch widerspricht der eindeutigen Werkzuschreibung der Museumsführung.",
+        "ar": "الخيار 'خطأ' يناقض ما أكده المرشد في المعرض الفني.",
+        "fr": "Faux contredit la présentation de l'œuvre par le guide du musée."
+      }
+    },
+    "h10": {
+      "quote": "Hörtext Teil 1 (Text 5): In seinen ersten Schaffensjahren widmete sich Rene vor allem romantischen Liebesszenen, bevor er zu symbolischen Motiven überging.",
+      "whyCorrect": {
+        "de": "Lösung a ist richtig: In seiner ersten künstlerischen Phase malte Kurt Rene Liebesszenen.",
+        "ar": "الخيار (a) صحيح: في بداية مسيرته الفنية رسم كورت رينيه مشاهد رومانسية عاطفية (Liebesszenen).",
+        "fr": "L'option a est correcte : À ses débuts, Kurt Rene peignait principalement des scènes amoureuses."
+      },
+      "whyIncorrect": {
+        "de": "b (versteckte Symbolik) und c (Menschen im Alltag) prägten erst seine späteren Schaffensperioden.",
+        "ar": "الرمزية الخفية (b) ومشاهد الحياة اليومية (c) جاءت في مراحل فنية لاحقة.",
+        "fr": "La symbolique cachée (b) et les scènes du quotidien (c) appartiennent à des périodes ultérieures."
+      }
+    },
+    "h11": {
+      "quote": "Hörtext Teil 2: Wie Sie beim Hereinkommen bemerkt haben, herrscht in den Museumsräumen genau dieselbe Temperatur wie draußen im Freien...",
+      "whyCorrect": {
+        "de": "Lösung c ist richtig: Die Temperatur im Schokoladenmuseum gleicht der Außentemperatur.",
+        "ar": "الخيار (c) صحيح: درجة الحرارة داخل المتحف مماثلة تماماً لدرجة الحرارة في الخارج.",
+        "fr": "L'option c est correcte : La température dans le musée est égale à celle de l'extérieur."
+      },
+      "whyIncorrect": {
+        "de": "a (niedriger) und b (höher) entsprechen nicht den Angaben der Museumsleitung.",
+        "ar": "درجة الحرارة ليست أبرد (a) ولا أدفأ (b) من الجو الخارجي.",
+        "fr": "La température n'est ni plus basse (a) ni plus élevée (b)."
+      }
+    },
+    "h12": {
+      "quote": "Hörtext Teil 2: Historische Funde belegen, dass der Kakaoanbau bereits um 2000 vor Christus bei den indigenen Völkern Mittelamerikas begann...",
+      "whyCorrect": {
+        "de": "Lösung c ist richtig: Der Kakao ist seit etwa 2000 vor Christus bekannt.",
+        "ar": "الخيار (c) صحيح: تؤكد الأدلة التاريخية أن الكاكاو معروف منذ حوالي عام 2000 قبل الميلاد.",
+        "fr": "L'option c est correcte : Le cacao est connu depuis environ 2000 avant J.-C."
+      },
+      "whyIncorrect": {
+        "de": "a und b nennen historisch unzutreffende Jahreszahlen.",
+        "ar": "التاريخان في (a) و(b) غير دقيقين تاريخياً.",
+        "fr": "Les dates a et b sont incorrectes."
+      }
+    },
+    "h13": {
+      "quote": "Hörtext Teil 2: Die Völker des alten Amerika schätzten die Kakaobohne nicht nur als Nahrungsmittel, sondern nutzten sie vor allem wegen ihrer heilenden Wirkung als Medizin...",
+      "whyCorrect": {
+        "de": "Lösung a ist richtig: Die altamerikanischen Völker (Mayas und Azteken) waren als Erste von den heilenden Eigenschaften des Kakaos überzeugt.",
+        "ar": "الخيار (a) صحيح: كانت الشعوب الأمريكية القديمة هي الأولى التي آمنت بالفوائد والخصائص العلاجية والطبية لنبتة الكاكاو.",
+        "fr": "L'option a est correcte : Les peuples précolombiens d'Amérique ont été les premiers à utiliser le cacao pour ses vertus médicinales."
+      },
+      "whyIncorrect": {
+        "de": "b (spanische Könige) und c (Apotheker) entdeckten diese Wirkung erst Jahrhunderte später.",
+        "ar": "ملوك إسبانيا (b) والصيادلة الأوروبيون (c) لم يعرفوا الكاكاو إلا بعد قرون طويلة.",
+        "fr": "Les rois espagnols (b) et les apothicaires (c) ne l'ont découvert que bien plus tard."
+      }
+    },
+    "h14": {
+      "quote": "Hörtext Teil 2: Im 17. Jahrhundert brachten spanische Seefahrer und Eroberer die ersten Bohnen über den Atlantik an die europäischen Königshöfe...",
+      "whyCorrect": {
+        "de": "Lösung a ist richtig: Spanische Eroberer brachten den Kakao im 17. Jahrhundert nach Europa.",
+        "ar": "الخيار (a) صحيح: دخل الكاكاو إلى أوروبا في القرن السابع عشر عن طريق المستكشفين والفاتحين الإسبان.",
+        "fr": "L'option a est correcte : Le cacao a été introduit en Europe au XVIIe siècle par les conquistadors espagnols."
+      },
+      "whyIncorrect": {
+        "de": "b (französische Adlige) und c (deutsche Händler) übernahmen den Kakao erst nach den Spaniern.",
+        "ar": "النبلاء الفرنسيون (b) والتجار الألمان (c) تعرفوا عليه لاحقاً عبر إسبانيا.",
+        "fr": "Les nobles français (b) et les marchands allemands (c) ne sont intervenus qu'ultérieurement."
+      }
+    },
+    "h15": {
+      "quote": "Hörtext Teil 2: Bis zum Jahr 1830 konsumierte man Kakao fast ausschließlich flüssig. Erst dann gelang es, feste Schokolade herzustellen, sodass Kakao in Deutschland zur Essware wurde...",
+      "whyCorrect": {
+        "de": "Lösung c ist richtig: Ab ca. 1830 wurde Kakao in Deutschland als feste Speise (Schokolade) gegessen.",
+        "ar": "الخيار (c) صحيح: تحول الكاكاو في ألمانيا بحلول عام 1830 إلى مادة غذائية تؤكل كشوكولاتة صلبة.",
+        "fr": "L'option c est correcte : Vers 1830, le cacao est devenu en Allemagne un aliment solide (chocolat à croquer)."
+      },
+      "whyIncorrect": {
+        "de": "a (Getränk) war Kakao vor 1830; b (Medikament) war seine ursprüngliche medizinische Verwendung.",
+        "ar": "كمشروب سائل (a) كان قبل عام 1830، واستخدامه كدواء (b) كان في فترات سابقة.",
+        "fr": "La consommation sous forme de boisson (a) prévalait avant 1830 ; la forme médicale (b) est antérieure."
+      }
+    },
+    "h16": {
+      "quote": "Hörtext Teil 3: Unsere Sendung hat sich darauf spezialisiert, aus den Augen verlorene Angehörige und Freunde nach Jahren oder Jahrzehnten wieder zusammenzubringen...",
+      "whyCorrect": {
+        "de": "Richtig: In der Radiosendung geht es darum, Menschen wiederzufinden, die den Kontakt zueinander verloren haben.",
+        "ar": "صحيح: يتخصص البرنامج في مساعدة الأشخاص والأقارب على العثور على بعضهم وإعادة التواصل بعد فراق طويل.",
+        "fr": "Vrai : L'émission a pour vocation de permettre à des proches séparés depuis longtemps de se retrouver."
+      },
+      "whyIncorrect": {
+        "de": "Falsch widerspricht dem Hauptthema und dem Zweck der Sendung.",
+        "ar": "الخيار 'خطأ' يتعارض مع الهدف الأساسي للبرنامج الإذاعي.",
+        "fr": "Faux est contraire au concept même de l'émission."
+      }
+    },
+    "h17": {
+      "quote": "Hörtext Teil 3: Moderator: Ermitteln Sie denn auch bei Verbrechen? – Gast: Nein, keineswegs! Wir sind keine Kriminalsendung und übernehmen keine polizeilichen Ermittlungen.",
+      "whyCorrect": {
+        "de": "Falsch: Die Sendung untersucht ausdrücklich keine Kriminalfälle, sondern ausschließlich private Kontaktsuchen.",
+        "ar": "خطأ: تؤكد الضيفة أن البرنامج لا يحقق في الجرائم أو القضايا الجنائية بل يقتصر على لم الشمل الإنساني.",
+        "fr": "Faux : L'invitée précise bien qu'ils ne traitent aucune affaire criminelle ni policière."
+      },
+      "whyIncorrect": {
+        "de": "Richtig trifft nicht zu, da polizeiliche Kriminalfälle tabu sind.",
+        "ar": "الخيار 'صحيح' غير دقيق لأن الجرائم مستبعدة تماماً من نطاق عمل البرنامج.",
+        "fr": "Vrai est démenti catégoriquement par la responsable de l'émission."
+      }
+    },
+    "h18": {
+      "quote": "Hörtext Teil 3: Wer unsere Hilfe in Anspruch nehmen möchte, muss uns zunächst einen ausführlichen schriftlichen Brief oder Antrag mit allen bekannten Daten schicken.",
+      "whyCorrect": {
+        "de": "Richtig: Interessenten müssen sich zwingend schriftlich mit allen Detailangaben an das Sendeteam wenden.",
+        "ar": "صحيح: يُشترط على الراغبين في البحث عن أشخاص إرسال طلب خطي مفصل إلى فريق البرنامج.",
+        "fr": "Vrai : Il est obligatoire d'envoyer une demande écrite détaillée à l'équipe de l'émission."
+      },
+      "whyIncorrect": {
+        "de": "Falsch widerspricht der vorgegebenen schriftlichen Anmeldeprozedur.",
+        "ar": "الخيار 'خطأ' يناقض الشرط الصريح بضرورة المراسلة الكتابية.",
+        "fr": "Faux contredit la règle explicite d'inscription par écrit."
+      }
+    },
+    "h19": {
+      "quote": "Hörtext Teil 3: Moderator: Arbeiten Sie mit Privatdetektiven zusammen? – Gast: Nein, unsere Redakteure recherchieren ausschließlich selbst über offizielle Archive und Behörden.",
+      "whyCorrect": {
+        "de": "Falsch: Das Redaktionsteam arbeitet selbstständig über Archive und Ämter und engagiert keine Detektive.",
+        "ar": "خطأ: فريق الإعداد يعتمد على جهوده الذاتية والأرشيفات الرسمية ولا يستعين بمحققين خصوصيين.",
+        "fr": "Faux : L'équipe effectue elle-même ses recherches sans faire appel à des détectives privés."
+      },
+      "whyIncorrect": {
+        "de": "Richtig trifft nicht zu, da Detektive nicht beauftragt werden.",
+        "ar": "الخيار 'صحيح' غير صحيح لأن الاستعانة بالمحققين تم نفيها تماماً.",
+        "fr": "Vrai est erroné car l'usage de détectives est explicitement réfuté."
+      }
+    },
+    "h20": {
+      "quote": "Hörtext Teil 3: Leider führt nicht jede Recherche zum Erfolg. Manchmal wollen Gefundene keinen Kontakt oder sind bereits verstorben.",
+      "whyCorrect": {
+        "de": "Falsch: Es gibt keineswegs immer ein Happy End, da manche Suchen erfolglos bleiben oder die Person keinen Kontakt mehr wünscht.",
+        "ar": "خطأ: لا تنتهي كل الحالات بنهاية سعيدة، ففي بعض الأحيان لا يرغب الطرف الآخر في اللقاء أو يتعذر الوصول إليه.",
+        "fr": "Faux : Il n'y a malheureusement pas toujours de dénouement heureux ; certaines recherches échouent."
+      },
+      "whyIncorrect": {
+        "de": "Richtig ignoriert die traurigen oder ergebnislosen Fälle.",
+        "ar": "الخيار 'صحيح' يتجاهل الحالات التي تفشل فيها جهود الوساطة.",
+        "fr": "Vrai fait l'impasse sur les cas d'échec mentionnés."
+      }
+    },
+    "h21": {
+      "quote": "Hörtext Teil 3: Wir stellen lediglich den ersten Kontakt her und übergeben die Telefonnummer. Wenn es Konflikte gibt, mischen wir uns nicht als Schlichter ein.",
+      "whyCorrect": {
+        "de": "Falsch: Das Sendeteam fungiert nicht als Vermittler oder Streitschlichter bei Familienproblemen, sondern vermittelt nur den Kontakt.",
+        "ar": "خطأ: يقتصر دور البرنامج على تمرير بيانات الاتصال الأولى ولا يتدخل كوسيط لفض النزاعات والخلافات العائلية.",
+        "fr": "Faux : L'équipe se contente d'établir la mise en relation et n'intervient pas comme médiatrice en cas de conflit."
+      },
+      "whyIncorrect": {
+        "de": "Richtig überdehnt die reine Vermittlung von Kontaktdaten zu einer Streitschlichtung.",
+        "ar": "الخيار 'صحيح' يحمل الفريق دور الوساطة التحكيمية وهو ما تم نفيه.",
+        "fr": "Vrai attribue à l'équipe un rôle de médiateur familial qu'elle refuse."
+      }
+    },
+    "h22": {
+      "quote": "Hörtext Teil 3: Moderatorin: Ich verfolge Ihr deutsches TV-Pendant schon seit vielen Jahren mit großer Begeisterung...",
+      "whyCorrect": {
+        "de": "Falsch: Die Moderatorin kennt die deutsche Sendung sehr wohl und schaut sie seit Jahren.",
+        "ar": "خطأ: المذيعة تعرف النسخة الألمانية جيداً وتتابعها باهتمام منذ سنوات عديدة.",
+        "fr": "Faux : L'animatrice connaît parfaitement l'émission allemande et affirme la suivre depuis des années."
+      },
+      "whyIncorrect": {
+        "de": "Richtig steht im Widerspruch zur Begrüßung der Moderatorin.",
+        "ar": "الخيار 'صحيح' يناقض ما قالته المذيعة في مستهل حديثها.",
+        "fr": "Vrai est réfuté par l'introduction même de la présentatrice."
+      }
+    },
+    "h23": {
+      "quote": "Hörtext Teil 4: Daniel Krawitzky: Schauen Sie sich die Schwerindustrie oder die Stahlproduktion an, dort trifft man so gut wie keine Frauen an...",
+      "whyCorrect": {
+        "de": "Lösung c (Daniel Krawitzky): Daniel stellt fest, dass in der Stahlindustrie extrem wenige Frauen tätig sind.",
+        "ar": "الخيار (c) دانييل كرافيتسكي: يشير دانييل إلى أن قطاع صناعة الحديد والصلب يكاد يخلو من النساء.",
+        "fr": "Option c (Daniel Krawitzky) : Daniel fait remarquer que les femmes sont quasi absentes de l'industrie sidérurgique."
+      },
+      "whyIncorrect": {
+        "de": "a (Moderatorin) und b (Emanuela Wagner) äußern diese spezifische Branchenaussage nicht.",
+        "ar": "المذيعة (a) وإيمانويلا فاغنر (b) لم تتحدثا عن صناعة الصلب.",
+        "fr": "L'animatrice (a) et Emanuela Wagner (b) ne sont pas les auteures de ce constat."
+      }
+    },
+    "h24": {
+      "quote": "Hörtext Teil 4: Emanuela Wagner: Dass Spitzenköche fast immer Männer sind, ist ein Klischee. In Wahrheit kochen Köchinnen oft präziser und mindestens genauso exzellent...",
+      "whyCorrect": {
+        "de": "Lösung b (Emanuela Wagner): Emanuela verteidigt die Qualifikation von Köchinnen gegenüber männlichen Spitzenköchen.",
+        "ar": "الخيار (b) إيمانويلا فاغنر: ترى إيمانويلا أن الطاهيات لا يقللن مهارة بل يتفوقن أحياناً في الدقة على الطهاة الرجال.",
+        "fr": "Option b (Emanuela Wagner) : Emanuela soutient que les femmes chefs sont en réalité tout aussi douées, voire plus précises que les hommes."
+      },
+      "whyIncorrect": {
+        "de": "a und c teilen diesen Standpunkt in der Diskussion nicht.",
+        "ar": "المذيعة (a) ودانييل (c) لم يدافعا عن تفوق الطاهيات.",
+        "fr": "a et c n'ont pas défendu cette idée sur les cuisinières."
+      }
+    },
+    "h25": {
+      "quote": "Hörtext Teil 4: Moderatorin: Aber ist es nicht oft so, dass Frauen unbewusst Berufe bevorzugen, bei denen sie saubere Kleidung behalten und nicht im Schmutz arbeiten?",
+      "whyCorrect": {
+        "de": "Lösung a (Moderatorin): Die Moderatorin wirft die Frage auf, ob Frauen eher saubere Berufsfelder bevorzugen.",
+        "ar": "الخيار (a) مقدمة البرنامج (Moderatorin): تطرح المذيعة تساؤل أن النساء يملن لاختيار وظائف لا يتعرضن فيها للاتساخ.",
+        "fr": "Option a (L'animatrice) : La présentatrice pose la question du choix féminin orienté vers des métiers moins salissants."
+      },
+      "whyIncorrect": {
+        "de": "b und c reagieren lediglich auf diesen Einwurf der Moderatorin.",
+        "ar": "إيمانويلا ودانييل علقا على السؤال الذي بادرت المذيعة بطرحه.",
+        "fr": "b et c n'ont fait que rebondir sur la remarque de l'animatrice."
+      }
+    },
+    "h26": {
+      "quote": "Hörtext Teil 4: Daniel Krawitzky: Wissenschaftliche Tests zeigen nun mal, dass Männer Geschwindigkeiten im Straßenverkehr anders und oft rascher einschätzen als Frauen...",
+      "whyCorrect": {
+        "de": "Lösung c (Daniel Krawitzky): Daniel behauptet, Frauen hätten angeblich eine schwächere Geschwindigkeitswahrnehmung.",
+        "ar": "الخيار (c) دانييل كرافيتسكي: يدعي دانييل أن إدراك السرعة لدى النساء أضعف مقارنة بالرجال مستنداً لاختبارات معينة.",
+        "fr": "Option c (Daniel Krawitzky) : Daniel prétend que les femmes auraient une moins bonne appréciation des vitesses."
+      },
+      "whyIncorrect": {
+        "de": "a und b widersprechen dieser Behauptung von Daniel vehement.",
+        "ar": "المذيعة وإيمانويلا عارضتا ادعاء دانييل هذا بشدة.",
+        "fr": "a et b contestent énergiquement l'affirmation de Daniel."
+      }
+    },
+    "h27": {
+      "quote": "Hörtext Teil 4: Daniel Krawitzky: Ich muss allerdings zugeben, dass die Kolleginnen am Arbeitsplatz oft deutlich mehr Struktur und Ordnung halten.",
+      "whyCorrect": {
+        "de": "Lösung c (Daniel Krawitzky): Daniel räumt ein, dass Frauen im Arbeitsalltag häufig mehr Ordnung halten als Männer.",
+        "ar": "الخيار (c) دانييل كرافيتسكي: يعترف دانييل بأن الزميلات في العمل غالباً ما يحافظن على النظام والترتيب أفضل من الرجال.",
+        "fr": "Option c (Daniel Krawitzky) : Daniel concède que les femmes font souvent preuve de plus d'ordre et de méthode que les hommes."
+      },
+      "whyIncorrect": {
+        "de": "a und b haben diese Aussage über die Arbeitsplatzordnung nicht formuliert.",
+        "ar": "المذيعة (a) وإيمانويلا (b) لم تدليا بهذا الاعتراف الصريح.",
+        "fr": "Cette concession émane spécifiquement de Daniel."
+      }
+    },
+    "h28": {
+      "quote": "Hörtext Teil 4: Emanuela Wagner: Schauen Sie sich die Bahn und den Nahverkehr an – dort haben weibliche Lokführerinnen bereits hohe Auszeichnungen für Zuverlässigkeit erhalten!",
+      "whyCorrect": {
+        "de": "Lösung b (Emanuela Wagner): Emanuela weist auf die offiziellen Auszeichnungen für Frauen im Verkehrsbereich hin.",
+        "ar": "الخيار (b) إيمانويلا فاغنر: تؤكد إيمانويلا أن سائقات القطارات في النقل العام نلن جوائز وتقديرات رفيعة لتميزهن.",
+        "fr": "Option b (Emanuela Wagner) : Emanuela rappelle que des conductrices de transport ont reçu de prestigieuses distinctions."
+      },
+      "whyIncorrect": {
+        "de": "a und c nennen dieses konkrete Beispiel aus dem Transportwesen nicht.",
+        "ar": "المذيعة ودانييل لم يذكرا مثال الجوائز التقديرية في قطاع النقل.",
+        "fr": "Ce rappel précis n'est pas le fait de l'animatrice ni de Daniel."
+      }
+    },
+    "h29": {
+      "quote": "Hörtext Teil 4: Emanuela Wagner: Es ist vor allem die Aufgabe der Medien und Werbespots, mit diesen verstaubten Rollenklischees endlich aufzuräumen!",
+      "whyCorrect": {
+        "de": "Lösung b (Emanuela Wagner): Emanuela fordert von den Medien, überholte Rollenklischees abzubauen.",
+        "ar": "الخيار (b) إيمانويلا فاغنر: تطالب إيمانويلا وسائل الإعلام بالقضاء على الصور النمطية البالية وتغيير المفاهيم السائدة.",
+        "fr": "Option b (Emanuela Wagner) : Emanuela exige que les médias fassent disparaître ces clichés sexistes obsolètes."
+      },
+      "whyIncorrect": {
+        "de": "a und c richten diesen Appell nicht an die Medienbranche.",
+        "ar": "المذيعة ودانييل لم يوجها هذا النداء المباشر للإعلام.",
+        "fr": "Cet appel aux médias est formulé par Emanuela."
+      }
+    },
+    "h30": {
+      "quote": "Hörtext Teil 4: Moderatorin: Am Ende können wir wohl festhalten: Das Allerwichtigste bei der Berufswahl muss immer das eigene Talent und die persönliche Freude am Beruf bleiben.",
+      "whyCorrect": {
+        "de": "Lösung a (Moderatorin): Die Moderatorin zieht das Fazit, dass das persönliche Interesse und die Begeisterung ausschlaggebend sind.",
+        "ar": "الخيار (a) مقدمة البرنامج (Moderatorin): تختتم المذيعة النقاش بالتأكيد على أن الشغف والاهتمام الشخصي هما الأهم عند اختيار المهنة.",
+        "fr": "Option a (L'animatrice) : En guise de synthèse finale, la présentatrice conclut que le choix d'un métier doit reposer sur l'intérêt personnel."
+      },
+      "whyIncorrect": {
+        "de": "b und c stimmen diesem Fazit zu, die Schlussfolgerung formuliert aber die Moderatorin.",
+        "ar": "إيمانويلا ودانييل وافقا على النتيجة، ولكن الصياغة الختامية كانت للمذيعة.",
+        "fr": "C'est l'animatrice qui tire cette conclusion finale de l'émission."
+      }
+    }
+  },
+  "translations": {
+    "parts": {
+      "1": {
+        "instructions": {
+          "ar": "اقرأ النص والمهام من 1 إلى 6. اختر: هل العبارات صحيحة أم خاطئة؟",
+          "fr": "Lisez le texte et les tâches 1 à 6 correspondantes. Choisissez : les affirmations sont-elles Vraies ou Fausses ?"
+        },
+        "articles": [
+          {
+            "heading": {
+              "ar": "الممارسة المدرسية: „المدرسة“ – كلمة تثير التوتر؟",
+              "fr": "Pratique scolaire : « L'école » – un mot source de stress ?"
+            },
+            "sub": {
+              "ar": "لا يتعين على أطفالنا فقط تعلم الطريق الخارجي للوصول إلى المدرسة، بل يجب عليهم قبل كل شيء تعلم طريق داخلي يجتازون به مسيرتهم المدرسية.",
+              "fr": "Nos enfants ne doivent pas seulement apprendre le chemin extérieur de l'école. Ils doivent surtout apprendre un cheminement intérieur à travers leur scolarité."
+            },
+            "body": {
+              "ar": [
+                "يعد التوتر المدرسي موضوعاً يشغل أولياء الأمور والتربويين على حد سواء. وفي الأصل يوجد نوعان من التوتر: من جهة هناك التوتر الإيجابي الذي يجعلنا قادرين على تقديم إنجازات استثنائية عندما يتطلب الأمر ذلك. ومن جهة أخرى يتميز عنه التوتر السلبي الذي يؤثر سلباً على صحة الجسد والروح. وفيما يخص التوتر المدرسي – للأسف – فإنه غالباً ما يكون توتراً سلبياً ينشأ عندما يواجه الأطفال والمراهقون مواقف تفوق طاقتهم وقدراتهم.",
+                "هناك أشكال وأسباب متعددة للتوتر المدرسي. على سبيل المثال، ينشأ توتر الأداء عندما يتعين على التلميذ تعلم كميات هائلة في أوقات محددة أو عندما يعجز الأطفال والشباب عن فهم المادة التعليمية المطلوبة. وخاصة الخوف من الدرجات السيئة يلعب دوراً هاماً في ذلك.",
+                "ويُقصد بالتوتر المدرسي أيضاً التوتر الاجتماعي الذي قد يظهر نتيجة أسباب متعددة في البيئة المدرسية. وبذلك يشكل الأمر ضغطاً كبيراً على الطفل إذا جعله زملاؤه منعزلاً مهمشاً أو عجز عن فرض نفسه أمام زملائه (التنمر). وكذلك العلاقات غير المنسجمة بين الطالب والمعلم تمثل عبئاً وتوتراً كبيراً للأطفال واليافعين.",
+                "ولكن بمجرد أن يعبر الأطفال أو اليافعون عن شكاوى وآلام جسدية على مدى فترة زمنية طويلة، فينبغي أخذ ذلك بجدية تامة. ففي معظم الحالات يشكو الأطفال من آلام في المعدة أو صداع في الرأس؛ حيث تعتبر منطقة البطن حساسة للغاية وسريعة التأثر بالضغوط النفسية. ومن المفيد بالتأكيد مراقبة متى تظهر هذه الأعراض بالضبط لدى طفلكم: هل هي كل يوم قبل الذهاب للمدرسة، أم دائماً يوم الخميس قبل حصة الرياضيات، أم عندما يتواجد ذلك الفتى من الفصل المجاور في حصة الرياضة؟ ومن هنا يمكنكم غالباً استنتاج المسببات الدقيقة لتوتر طفلكم. ولكن حتى عندما يلاحظ الأهل أن طفلهم لم يعد يحكي الكثير عن المدرسة أو أوقات فراغه كما في السابق أو أصبح أكثر هدوءاً وانعزالاً، فيجب أن ينتبهوا ويسارعوا حتماً للحديث معه.",
+                "ومن المفيد أيضاً التواصل الوثيق مع معلمي طفلكم للاستفسار عن مستواه الدراسي والبحث عن إمكانيات المساعدة المناسبة (مثل حصص الدعم الإضافية أو الدروس الخصوصية). وإذا شعرتم كأولياء أمور بأنكم عاجزون عن مساعدة طفلكم في مشاكله المدرسية بمفردكم، فتوجهوا إلى المختصين في مدرسة طفلكم كالأخصائيين الاجتماعيين وعلماء النفس المدرسي أو إلى مراكز الاستشارة الخارجية."
+              ],
+              "fr": [
+                "Le stress scolaire est un sujet qui préoccupe autant les parents que les pédagogues. En soi, il existe deux types de stress : d'une part le stress positif, qui nous pousse à accomplir des performances remarquables lorsque c'est nécessaire ; d'autre part le stress négatif, qui nuit à la santé du corps et de l'esprit. Dans le cadre scolaire, il s'agit malheureusement le plus souvent d'un stress négatif qui apparaît lorsque les enfants et adolescents sont confrontés à des situations qui les dépassent.",
+                "Les formes et les causes du stress scolaire sont multiples. Par exemple, le stress de performance apparaît lorsqu'il faut assimiler une quantité importante de matière en peu de temps ou lorsque les élèves ne comprennent pas les notions enseignées. La peur des mauvaises notes joue ici un rôle prépondérant.",
+                "Le stress scolaire englobe également le stress social, susceptible de survenir pour diverses raisons dans l'environnement de l'école. C'est ainsi une épreuve très lourde pour un enfant lorsqu'il est marginalisé par ses camarades ou qu'il ne parvient pas à s'imposer face à eux (harcèlement). De mauvaises relations entre élèves et enseignants représentent également une source majeure de stress.",
+                "Toutefois, dès lors que les enfants expriment des douleurs physiques sur une longue période, la situation doit être prise très au sérieux. La plupart du temps, ils se plaignent de maux de ventre ou de tête ; le ventre est une zone particulièrement sensible qui réagit très vite aux tensions psychologiques. Il est assurément utile d'observer avec précision quand ces symptômes se manifestent : tous les jours avant l'école, chaque jeudi avant le cours de maths ou quand le garçon de la classe voisine est présent en cours de sport ? Vous pourrez souvent en déduire les éléments déclencheurs du stress chez votre enfant. Même si les parents constatent simplement que leur enfant ne raconte plus ses journées d'école ou devient de plus en plus silencieux, ils doivent se montrer vigilants et chercher sans tarder le dialogue.",
+                "Il est tout aussi bénéfique de garder un contact étroit avec les enseignants afin de faire le point sur le niveau de l'élève et d'envisager d'éventuelles mesures de soutien (cours de rattrapage, soutien scolaire). Si vous sentez que vous ne pouvez plus aider votre enfant par vous-mêmes, adressez-vous à des professionnels au sein de l'établissement (éducateurs, psychologues scolaires) ou à des centres d'orientation externes."
+              ]
+            }
+          }
+        ],
+        "example": {
+          "ar": {
+            "text": "يتناول النص موضوع المشاكل المدرسية.",
+            "answer": "صحيح"
+          },
+          "fr": {
+            "text": "Le texte traite du sujet des difficultés scolaires.",
+            "answer": "vrai"
+          }
+        },
+        "questions": {
+          "1": {
+            "text": {
+              "ar": "التوتر ليس سلبياً دائماً، فهناك أيضاً توتر إيجابي.",
+              "fr": "Le stress n'est pas toujours négatif, il existe aussi un stress positif."
+            }
+          },
+          "2": {
+            "text": {
+              "ar": "توتر الأداء والتحصيل يصيب بالدرجة الأولى الأطفال أصحاب العلامات الجيدة.",
+              "fr": "Le stress de performance concerne surtout les enfants ayant de bonnes notes."
+            }
+          },
+          "3": {
+            "text": {
+              "ar": "يمكن أن يتسبب زملاء الدراسة أيضاً في حدوث التوتر.",
+              "fr": "Le stress peut également être provoqué par les camarades de classe."
+            }
+          },
+          "4": {
+            "text": {
+              "ar": "حصص الرياضيات تسبب التوتر دائماً.",
+              "fr": "Les cours de mathématiques provoquent du stress."
+            }
+          },
+          "5": {
+            "text": {
+              "ar": "نادراً ما تتاح للوالدين الفرصة لمعرفة أسباب التوتر.",
+              "fr": "Les parents ont rarement la possibilité d'en découvrir les causes."
+            }
+          },
+          "6": {
+            "text": {
+              "ar": "ينبغي لأولياء الأمور طلب المشورة من المتخصصين عند وجود مشاكل.",
+              "fr": "En cas de problèmes, les parents devraient se faire conseiller par des spécialistes."
+            }
+          }
+        }
+      },
+      "2": {
+        "instructions": {
+          "ar": "اقرأ النص الصحفي والمهام من 7 إلى 9. اختر عند كل مهمة الحل الصحيح a أو b أو c.",
+          "fr": "Lisez l'article de presse et les tâches 7 à 9. Choisissez pour chaque tâche la bonne réponse a, b ou c."
+        },
+        "articles": [
+          {
+            "heading": {
+              "ar": "شاركوا معنا! جائزة العصفور الذهبي (GOLDENER SPATZ) تبحث عن لجنة تحكيم أطفال للسينما والتلفزيون",
+              "fr": "Participez ! Le MOINEAU D'OR recherche un jury d'enfants pour le cinéma et la télévision"
+            },
+            "sub": {
+              "ar": "يمكن للفتيان والفتيات من سن 9 إلى 13 عاماً من ألمانيا والمنطقة الناطقة بالألمانية في بلجيكا وليختنشتاين والنمسا وجنوب تيرول وسويسرا التقدم الآن لعضوية لجنة التحكيم!",
+              "fr": "Les filles et garçons de 9 à 13 ans résidant en Allemagne, dans la communauté germanophone de Belgique, au Liechtenstein, en Autriche, dans le Tyrol du Sud et en Suisse peuvent dès maintenant postuler !"
+            },
+            "body": {
+              "ar": [
+                "يبحث مهرجان العصفور الذهبي عن عشاق السينما والتلفزيون ممن تتراوح أعمارهم بين 9 و13 عاماً. الجلوس لمرة واحدة في لجنة تحكيم حقيقية، وتقييم الأفلام، والنقاش، ومنح الجوائز – هذا بالتحديد ما يميز لجنة تحكيم الأطفال في المهرجان الكبير المخصص لأفلام وبرامج الأطفال ومنصات الإنترنت. ويُقام المهرجان نفسه في مدينتي غيرا وإرفورت للمرة الحادية والعشرين بالفعل.",
+                "في مهرجان العصفور الذهبي يلعب الأطفال دوراً محورياً، لأن آراءهم هي الأهم. وفي مسابقة السينما والتلفزيون بالمهرجان يتم عرض أفلام ومواد تلفزيونية عبر ست فئات مختلفة، بدءاً من الوثائقيات والرسوم المتحركة وصولاً إلى الأفلام الروائية الطويلة والتلفزيونية. وجميع المشاركين يأملون في نيل جائزة العصفور الذهبي المنشودة.",
+                "ينتظر أعضاء لجنة التحكيم الـ 25 خلال أسبوع المهرجان قدر كبير من العمل الجاد: على مدار ستة أيام متتالية، سيتم أولاً في غيرا ثم لاحقاً في إرفورت مشاهدة وتقييم مختلف البرامج التلفزيونية والأفلام، واتخاذ قرار جماعي حول منح الجوائز. فمن لديه الرغبة في المشاركة وخوض هذه التجربة، يمكنه التقدم الآن."
+              ],
+              "fr": [
+                "Le MOINEAU D'OR recherche des passionnés de cinéma et de télévision âgés de 9 à 13 ans. Siéger pour une fois au sein d'un véritable jury, évaluer des films, débattre et décerner des prix : c'est précisément ce qui fait la spécificité du jury d'enfants de ce grand festival dédié aux œuvres audiovisuelles et en ligne pour la jeunesse. Le festival se tient pour la 21e fois déjà à Gera et à Erfurt.",
+                "Au MOINEAU D'OR, les enfants jouent un rôle prépondérant car leur avis est capital. La compétition cinéma-TV présente des œuvres réparties en six catégories, allant du documentaire à l'animation jusqu'aux longs-métrages de cinéma et téléfilms. Tous espèrent décrocher le prestigieux trophée.",
+                "Une semaine intense attend les 25 membres du jury : durant six jours, à Gera puis à Erfurt, ils visionneront et analyseront les productions les plus diverses avant de délibérer ensemble pour attribuer les récompenses. Avis aux amateurs désireux de relever ce défi : les candidatures sont ouvertes."
+              ]
+            }
+          }
+        ],
+        "example": {
+          "ar": {
+            "text": "البحث جارٍ عن أطفال من أجل ...",
+            "options": [
+              "فيلم جديد.",
+              "ورشة عمل سينمائية.",
+              "لجنة تحكيم لتوزيع الجوائز."
+            ],
+            "answer": 2
+          },
+          "fr": {
+            "text": "On recherche des enfants pour...",
+            "options": [
+              "un nouveau film.",
+              "un atelier de cinéma.",
+              "un jury de remise de prix."
+            ],
+            "answer": 2
+          }
+        },
+        "questions": {
+          "7": {
+            "text": {
+              "ar": "إن مهرجان أفلام الأطفال ...",
+              "fr": "Le festival du film pour enfants..."
+            },
+            "options": {
+              "ar": [
+                "يُقام في مدينتين ألمانيتين.",
+                "ينعقد في 21 مايو.",
+                "يقام في 6 دول مختلفة."
+              ],
+              "fr": [
+                "se déroule dans deux villes allemandes.",
+                "a lieu le 21 mai.",
+                "se tient dans 6 pays."
+              ]
+            }
+          },
+          "8": {
+            "text": {
+              "ar": "تُمنح جائزة العصفور الذهبي لـ ...",
+              "fr": "Le MOINEAU D'OR est attribué à..."
+            },
+            "options": {
+              "ar": [
+                "أفضل فيلم وثائقي فقط.",
+                "أفضل طفل في لجنة التحكيم.",
+                "أفضل فيلم أو عمل تلفزيوني."
+              ],
+              "fr": [
+                "au meilleur film documentaire.",
+                "au meilleur enfant du jury.",
+                "au meilleur film ou programme télévisé."
+              ]
+            }
+          },
+          "9": {
+            "text": {
+              "ar": "يتعين على الأطفال في لجنة التحكيم ...",
+              "fr": "Les enfants doivent..."
+            },
+            "options": {
+              "ar": [
+                "مشاهدة الأفلام في منازلهم.",
+                "اختيار الجهة التي تمنح الجائزة.",
+                "مشاهدة الأفلام وتقييمها بصورة جماعية."
+              ],
+              "fr": [
+                "regarder les films chez eux.",
+                "choisir qui décerne le prix.",
+                "regarder et évaluer les films ensemble."
+              ]
+            }
+          },
+          "10": {
+            "text": {
+              "ar": "في احتفال كرنفال الثقافات ...",
+              "fr": "Au Carnaval des cultures..."
+            },
+            "options": {
+              "ar": [
+                "شارك آلاف الأشخاص.",
+                "حضر مليون مشاهد.",
+                "التقت 90 دولة مختلفة."
+              ],
+              "fr": [
+                "des milliers de participants ont défilé.",
+                "un million de spectateurs sont venus.",
+                "90 nations se sont réunies."
+              ]
+            }
+          },
+          "11": {
+            "text": {
+              "ar": "إن الموكب الاستعراضي الملون ...",
+              "fr": "Le défilé haut en couleur..."
+            },
+            "options": {
+              "ar": [
+                "جاء من تايوان ونيبال فقط.",
+                "رقص حول ميدان هيرمان فقط.",
+                "يمر عبر حيين من أحياء برلين."
+              ],
+              "fr": [
+                "venait de Taïwan et du Népal.",
+                "a dansé autour de la place Hermannplatz.",
+                "traverse deux quartiers de Berlin."
+              ]
+            }
+          },
+          "12": {
+            "text": {
+              "ar": "خُصصت الجوائز السبع لـ ...",
+              "fr": "Sept prix ont récompensé..."
+            },
+            "options": {
+              "ar": [
+                "الجمهور الحاضر.",
+                "الفرق المشاركة الأفضل.",
+                "المهرجان متعدد الثقافات ككل."
+              ],
+              "fr": [
+                "le public.",
+                "les meilleurs groupes.",
+                "le festival multiculturel."
+              ]
+            }
+          }
+        },
+        "instructions2": {
+          "ar": "اقرأ النص الصحفي والمهام من 10 إلى 12. اختر عند كل مهمة الحل الصحيح a أو b أو c.",
+          "fr": "Lisez l'article de presse et les tâches 10 à 12. Choisissez pour chaque tâche la bonne réponse a, b ou c."
+        },
+        "articles2": [
+          {
+            "heading": {
+              "ar": "حفل ضخم في كرنفال الثقافات ببرلين",
+              "fr": "Grande fête au Carnaval des cultures à Berlin"
+            },
+            "sub": {
+              "ar": "تحت أشعة الشمس الساطعة، جاب كرنفال الثقافات شوارع برلين يوم الأحد برفقة الراقصين وضاربي الطبول والموسيقيين.",
+              "fr": "Sous un ciel ensoleillé, le Carnaval des cultures a de nouveau arpenté Berlin dimanche au son des percussions et de la musique."
+            },
+            "body": {
+              "ar": [
+                "رقصوا، وصفقوا، وقرعوا الطبول: يوم الأحد، وفي ذروة هذا الاحتفال الهائل لكرنفال الثقافات، سار آلاف المشاركين مجدداً في شوارع برلين. الأحمر والأصفر والأزرق والأخضر والبنفسجي – لم يكن هناك تقريباً أي لون غائباً بين الفرق التسعين التي شاركت في الموكب التقليدي لهذا المهرجان متعدد الثقافات.",
+                "وقد توافد نحو 700 ألف زائر لم يفوتوا متعة الاستمتاع بهذا المشهد المهيب. وانطلق الموكب الذي عبر حيي نويكولن وكرويتسبرغ من ميدان هيرمان بلاتس متجهاً عبر شارع غنايزناو باتجاه شارع يورك شتراسه.",
+                "وتقدمت الاستعراض فرقة سامبا ارتدت قبعات زرقاء على شكل ضفادع، وتلتها فرقة من كوريا الجنوبية بأغطية رأس كروية ملونة. وقد قدم نحو 4800 مشارك هذا العام من 70 دولة مختلفة، وشاركت للمرة الأولى فرق من تايوان ونيبال.",
+                "وعند محطة 'سود شتيرن'، انتظرت لجنة التحكيم الفرق المشاركة. وكان نحو 60 من أصل 90 فرقة قد سجلوا في المسابقة؛ حيث كان عليهم في وقت وجيز للغاية إظهار براعتهم من خلال الموسيقى والرقص والأزياء الاستعراضية، وكانت بانتظار الأفضل سبع جوائز في ثلاث فئات.",
+                "وفي الشوارع الجانبية، أقيمت عروض لمسارح الشارع، وتناول الكثيرون طعامهم في نزهات على الأرصفة. وكما كان المشاركون من شتى بقاع الأرض، جاء الجمهور أيضاً من كل أنحاء العالم."
+              ],
+              "fr": [
+                "Ils ont dansé, applaudi et battu le tambour : dimanche, pour le point d'orgue de cette immense fête, des milliers de personnes ont défilé dans les rues de la capitale. Rouge, jaune, bleu, vert, violet : rares étaient les couleurs absentes des quelque 90 groupes du traditionnel cortège multiculturel.",
+                "Près de 700 000 spectateurs s'étaient massés le long du parcours pour ne rien manquer du spectacle. Le défilé reliant les quartiers de Neukölln et Kreuzberg a démarré place Hermannplatz avant de s'engager sur la Gneisenaustraße en direction de la Yorckstraße.",
+                "La parade était ouverte par une troupe de samba coiffée de bonnets de grenouilles bleues, suivie d'un groupe sud-coréen aux chapeaux ronds multicolores. Au total, 4 800 participants issus de 70 pays ont pris part à la fête cette année, avec pour la première fois des délégations de Taïwan et du Népal.",
+                "À Südstern, le jury attendait les troupes inscrites au concours, soit une soixantaine sur les 90 présentes. En un temps record, danseurs et musiciens devaient prouver leur talent par leurs chorégraphies et costumes. Sept trophées répartis en trois catégories venaient récompenser les meilleures prestations.",
+                "Dans les ruelles adjacentes, du théâtre de rue animait les trottoirs où beaucoup pique-niquaient. À l'image des participants, le public venait des quatre coins du globe."
+              ]
+            }
+          }
+        ]
+      },
+      "3": {
+        "instructions": {
+          "ar": "اقرأ المواقف من 13 إلى 19 والإعلانات من A إلى J. اختر: أي إعلان يناسب أي موقف؟ يمكنك استخدام كل إعلان مرة واحدة فقط. لموقف واحد لا يوجد إعلان مناسب، وفي هذه الحالة اختر 0.",
+          "fr": "Lisez les situations 13 à 19 et les annonces A à J. Choisissez l'annonce qui correspond à chaque situation. Chaque annonce ne sert qu'une fois. Pour une situation, il n'y a pas d'annonce (notez 0)."
+        },
+        "example": {
+          "ar": {
+            "text": "كريستيان مدرس موسيقى. ونظراً لأن دخله قليل، فهو يبحث عن عمل إضافي لتحسين راتبه.",
+            "ad": "B"
+          },
+          "fr": {
+            "text": "Christian est professeur de musique. Comme il gagne peu, il cherche un travail d'appoint pour arrondir ses fins de mois.",
+            "ad": "B"
+          }
+        },
+        "ads": {
+          "A": {
+            "ar": "جديد في الوظيفة: الموضوع الرئيسي لعدد مجلة S-Trip لشهر سبتمبر. نصائح وإرشادات حول اختيار المهنة وللراغبين في تغيير مسارهم الوظيفي.",
+            "fr": "Nouveau dans l'emploi : Thème principal de l'édition de septembre de S-Trip. Conseils pour l'orientation et les personnes en reconversion."
+          },
+          "B": {
+            "ar": "معهد تعليمي يبحث عن معلم/معلمة لتدريس الغيتار للمبتدئين في الفترات المسائية.",
+            "fr": "Institut de formation recherche professeur de guitare pour débutants en soirée."
+          },
+          "C": {
+            "ar": "مطلوب موزعو صحف لمناطق شتوتغارت: هواء نقي وحركة وكسب للمال. دخل إضافي ممتاز للطلاب والمتقاعدين والتلاميذ من سن 13 عاماً.",
+            "fr": "Recherche distributeurs de journaux à Stuttgart. Grand air et rémunération. Idéal pour étudiants, retraités et élèves dès 13 ans."
+          },
+          "D": {
+            "ar": "مطلوب مدربو قيادة سيارات في جميع أنحاء ألمانيا. نقوم بتدريبكم وتأمين فرصة عمل فورية في مدرسة لتعليم القيادة.",
+            "fr": "Moniteurs d'auto-école recherchés dans toute l'Allemagne. Formation assurée et placement en auto-école."
+          },
+          "E": {
+            "ar": "هل تبحث عن مصور؟ صور احترافية لحفلات الزفاف والتعميد واحتفالات الشركات والمناسبات الخاصة.",
+            "fr": "Photographe professionnel pour mariages, baptêmes et fêtes d'entreprise."
+          },
+          "F": {
+            "ar": "مطلوب نادل/نادلة في ملهى ليلي بشروط ممتازة. فرصة ممتازة لعطلات نهاية الأسبوع.",
+            "fr": "Serveur/serveuse en discothèque avec de bonnes conditions. Idéal pour les week-ends."
+          },
+          "G": {
+            "ar": "مطلوب مساعدة لسيدة مسنة في شتوتغارت-ديغيرلوخ: عناية شخصية وتنظيف منزل نحو 3 ساعات يومياً دون اشتراط مؤهل مهني.",
+            "fr": "Aide recherchée pour dame âgée à Stuttgart : soins d'hygiène et ménage, environ 3 heures par jour."
+          },
+          "H": {
+            "ar": "مطلوب قارئ بصوت عالٍ من دور رعاية المسنين والخواص لكبار السن ضعاف البصر. الأجر: 12-24 يورو للقراءة الواحدة.",
+            "fr": "Lecteur/lectrice demandé(e) par maisons de retraite et particuliers pour personnes malvoyantes. 12 à 24 € par séance."
+          },
+          "I": {
+            "ar": "مطلوب عاملة نظافة موثوقة لمطعم يومياً لمدة 4 ساعات في الفترة الصباحية.",
+            "fr": "Aide-ménagère fiable recherchée pour un restaurant, 4 heures par jour le matin."
+          },
+          "J": {
+            "ar": "أعمال التدفئة والغاز والوقود: تحديث وصيانة وإصلاحات وتدفئة مركزية في شتوتغارت.",
+            "fr": "Chauffage, fioul et gaz : modernisation, service après-vente et réparations à Stuttgart."
+          }
+        },
+        "questions": {
+          "13": {
+            "text": {
+              "ar": "ديفيد طالب جامعي ويبحث بشكل عاجل عن عمل بجانب دراسته. ولديه ثلاثة فترات بعد الظهر أسبوعياً متفرغ فيها.",
+              "fr": "David est étudiant et cherche d'urgence un job en parallèle de ses études. Il est libre trois après-midis par semaine."
+            }
+          },
+          "14": {
+            "text": {
+              "ar": "تعاني السيدة كانت من مشاكل مالية وترغب في الحصول على وظيفة بدوام جزئي، ولكنها لا تملك أي تدريب أو مؤهل مهني.",
+              "fr": "Mme Kant a des difficultés financières et aimerait prendre un emploi à temps partiel, mais n'a pas de formation professionnelle."
+            }
+          },
+          "15": {
+            "text": {
+              "ar": "تبحث كلاوديا عن وظيفة صيفية في العطلة تجني منها مالاً وفيراً وتتيح لها أيضاً السفر بالمجان.",
+              "fr": "Claudia cherche un job de vacances qui lui permette de gagner beaucoup d'argent et de voyager gratuitement."
+            }
+          },
+          "16": {
+            "text": {
+              "ar": "تينا طالبة في معهد علوم الرياضة وتبحث عن عمل لعطلات نهاية الأسبوع.",
+              "fr": "Tina est étudiante en sport et cherche un travail pour les week-ends."
+            }
+          },
+          "17": {
+            "text": {
+              "ar": "ترغب السيدة فريش في العمل لبضع ساعات صباحاً عندما يكون أطفالها في المدرسة.",
+              "fr": "Mme Frisch aimerait travailler quelques heures pendant que ses enfants sont à l'école."
+            }
+          },
+          "18": {
+            "text": {
+              "ar": "تشعر كليو بعدم الرضا عن مهنتها الحالية وتريد الاستفسار عن إمكانيات وخيارات مهنية بديلة.",
+              "fr": "Klio n'est pas satisfaite de son métier et souhaite se renseigner sur d'autres possibilités de carrière."
+            }
+          },
+          "19": {
+            "text": {
+              "ar": "يرغب فابيان في العمل لكسب المال لأنه يريد شراء دراجة هوائية جديدة، إلا أنه ما زال في سن 14 عاماً وتلميذاً بالمدرسة.",
+              "fr": "Fabian veut travailler pour s'acheter un nouveau vélo, mais il n'a que 14 ans et est encore collégien."
+            }
+          }
+        }
+      },
+      "4": {
+        "instructions": {
+          "ar": "اقرأ النصوص من 20 إلى 26. اختر: أي من هؤلاء الأشخاص يعبر عن رأي إيجابي حول المطبخ الجزيئي؟",
+          "fr": "Lisez les textes 20 à 26. Choisissez : quelles personnes expriment un avis favorable sur la cuisine moléculaire ?"
+        },
+        "topic": {
+          "ar": "قيّم تعليقات القراء التالية حول مقال بعنوان: „ما سر سحر المطبخ الجزيئي؟“",
+          "fr": "Évaluez les commentaires de lecteurs à propos d'un article intitulé « Que vaut vraiment la magie de la cuisine moléculaire ? »"
+        },
+        "example": {
+          "who": "شميدت، 39 عاماً، مونستر / Schmidt, 39, Münster",
+          "text": {
+            "ar": "لا أفهم لماذا استغرق الأمر كل هذا الوقت حتى نصل إلى المطبخ الجزيئي. فالطهي لطالما كان جزيئياً بطبيعته، غير أن أحداً لم يكن يهتم بالتفاعلات والعمليات التي تحدث أثناء إعداد الطعام. أنا على أي حال منفتح تماماً على مفاجآت المذاق الجديدة.",
+            "fr": "Je ne comprends pas pourquoi il a fallu attendre si longtemps avant d'en arriver à la cuisine moléculaire. La cuisine a toujours été moléculaire, sauf que personne ne se souciait des processus chimiques en jeu. Pour ma part, je reste très ouvert aux surprises gustatives."
+          },
+          "answer": "ja"
+        },
+        "letters": {
+          "20": {
+            "who": "تيريزا، 41 عاماً، غرايفسفالد / Theresa, 41, Greifswald",
+            "text": {
+              "ar": "هكذا يندمج عالمان معاً في النهاية: مطبخ الجدة والصناعات الغذائية، موقد المنزل هنا ومصنع الأغذية هناك. ليس جريمة أبداً أن نعرف لماذا تكون شريحة اللحم طرية شهية وحلوى السوفليه خفيفة وهشة. وإذا كانت المعرفة تخدم المذاق الجيد، فأنا أرحب بها بكل سرور، فالطعام اللذيذ لم يعد وليد الصدفة.",
+              "fr": "Deux univers se rencontrent enfin : la cuisine de grand-mère et l'industrie agroalimentaire. Ce n'est pas un crime de comprendre pourquoi un steak reste tendre et un soufflé si aérien. Si la science sert la saveur, cela me va parfaitement : le bon goût n'est plus le fruit du hasard."
+            }
+          },
+          "21": {
+            "who": "بي. هوفر، 56 عاماً، سالزبورغ / B. Hofer, 56, Salzburg",
+            "text": {
+              "ar": "المطبخ الجزيئي مجرد دجل وشعوذة كبيرة. فهل بمجرد أن يتعامل الطاهي بالنيتروجين يتحول الغذاء إلى طبق شهي؟ هل يدرك حقاً مدى خطورة التعامل مع الغازات المسالة كالنيتروجين؟ أرى أن ما يحدث في مطابخ التجارب هذه تصرف بالغ انعدام المسؤولية.",
+              "fr": "La cuisine moléculaire est une grande supercherie. Parce qu'un chef manipule de l'azote liquide, la nourriture deviendrait-elle soudain gastronomique ? Mesure-t-il le danger de ces gaz liquéfiés ? Je trouve tout ce qui se passe dans ces laboratoires culinaires profondément irresponsable."
+            }
+          },
+          "22": {
+            "who": "إيرين ت.، 27 عاماً، إنسبروك / Irene T., 27, Innsbruck",
+            "text": {
+              "ar": "المطبخ الجزيئي ليس أكثر من مجرد بهرجة ومطبخ ترفيهي استعراضي. لكن المتعة تنتهي عندي تماماً عندما أجهل ما يوضع في طعامي. فما يدخل في تلك القدور لا يعلمه المستهلك العادي في الغالب. وتلك المواد العجيبة تأتي مباشرة من كيمياء الأغذية ويجب تمييزها بالرمز E للمضافات. لا، شكراً!",
+              "fr": "La cuisine moléculaire n'est qu'un gadget tape-à-l'œil. Pour moi, le plaisir s'arrête net quand j'ignore ce qu'il y a dans mon assiette. Le consommateur moyen ne sait jamais ce qui atterrit dans ses casseroles. Ces poudres magiques relèvent de la chimie alimentaire et portent des codes E. Non merci !"
+            }
+          },
+          "23": {
+            "who": "بلوم، 28 عاماً، إنسخيده / Bloom, 28, Enschede",
+            "text": {
+              "ar": "الطهي الجزيئي مجرد مطبخ عروض مسرحية لا يبخل بالبخار والدخان، ويستعين بالكيمياء ليصنع على الأطباق طعاماً يبدو مستقبلياً وغريباً. مدججون بنظارات واقية وقفازات وأنابيب اختبار وقطارات، في زي مختبر كامل. لكنني لست مستعداً للعب دور فأر التجارب!",
+              "fr": "La cuisine moléculaire est un pur spectacle qui abuse de fumée et de brouillard pour inventer des plats futuristes à coups de chimie. Lunettes, gants, éprouvettes et pipettes : la panoplie de laboratoire est complète. Mais je refuse de servir de cobaye !"
+            }
+          },
+          "24": {
+            "who": "زيلتل، 36 عاماً، برن / Zeltl, 36, Bern",
+            "text": {
+              "ar": "كيف يمكن للتجارب المعملية أن تثمر أطباقاً صحية للغاية؟ يتضح ذلك بجلاء من خلال 'طريقة الفراغ' (طهي تحت تفريغ الهواء) التي ابتكرها طهاة المطبخ الجزيئي عند درجات حرارة منخفضة. فبهذه الطريقة تظل النكهات والفيتامينات والبروتينات محفوظة أكثر بكثير مقارنة بالطرق التقليدية. أمر منطقي! والجديد بالنسبة لي هنا هو استخدام الفراغ.",
+              "fr": "La cuisson sous vide à basse température montre bien comment la recherche permet de créer des plats très sains. Elle préserve beaucoup mieux les arômes, vitamines et protéines que les recettes traditionnelles. Logique ! Le sous-vide est pour moi une vraie découverte."
+            }
+          },
+          "25": {
+            "who": "فيستر، 40 عاماً، نورنبرغ / Pfister, 40, Nürnberg",
+            "text": {
+              "ar": "كطاهية في مطعم حائز على 3 نجوم، تستهويني تماماً فكرة تنويع قائمة طعامي بأصناف فاخرة جديدة. والاستثمار في الأجهزة اللازمة مجدٍ ومربح بالتأكيد، لأن المنازل العادية لا تستطيع شراءها. لقد سجلت بالفعل في دورة تدريبية وأتطلع بشغف لخوض التجارب الجديدة.",
+              "fr": "En tant que chef dans un restaurant 3 étoiles, je suis fascinée à l'idée d'enrichir ma carte avec tant de délicatesses. L'investissement dans ces appareils en vaut la peine, car les ménages ne peuvent se les offrir. Je me suis déjà inscrite à une formation et j'ai hâte d'expérimenter."
+            }
+          },
+          "26": {
+            "who": "كلاين، 63 عاماً، بوتسدام / Klein, 63, Potsdam",
+            "text": {
+              "ar": "أرى أيضاً أن إعداد الأطعمة ينجح بصورة أفضل عندما يفهم المرء بدقة ما يجري داخل القدور والأوعية. ومع ذلك، أعتبر مصطلح المطبخ الجزيئي مبالغاً فيه. فأنا أفضل الاعتماد على خبرتي وتجربة الأعشاب والتوابل، ولطالما حاز طعامي على إعجاب ضيوفي دائماً.",
+              "fr": "Je conçois qu'un plat réussisse mieux lorsqu'on comprend ce qui se passe dans la casserole. Pour autant, je trouve le mot 'moléculaire' très exagéré. Je préfère faire confiance à mon expérience et composer avec des herbes et des épices. Mes convives se sont toujours régalés."
+            }
+          }
+        }
+      },
+      "5": {
+        "instructions": {
+          "ar": "اقرأ المهام من 27 إلى 30 والنص المرفق حول العناية بالنباتات من خدمة Euroflorist. اختر الحل الصحيح a أو b أو c.",
+          "fr": "Lisez les tâches 27 à 30 et le guide d'entretien des plantes d'Euroflorist. Choisissez la bonne réponse a, b ou c."
+        },
+        "articles": [
+          {
+            "heading": {
+              "ar": "العناية بالنباتات: نصائح من خدمة شحن الزهور Euroflorist",
+              "fr": "Entretien des plantes : Conseils d'Euroflorist"
+            },
+            "sub": {
+              "ar": "إليكم نصائحنا الاحترافية والمجربة لنباتات صحية وجميلة في منازلكم:",
+              "fr": "Découvrez nos conseils éprouvés pour garder de belles plantes en bonne santé :"
+            },
+            "body": {
+              "ar": [
+                "احرصوا على حصول نباتاتكم على قدر كافٍ من الضوء: تحتاج النباتات المزهرة إلى ضوء أكثر بكثير مقارنة بالنباتات الخضراء. وكقاعدة عامة، يجب وضع النباتات ذات الزهور بالقرب من النافذة، بينما ينبغي ألا توضع النباتات الخضراء مباشرة تحت أشعة الشمس.",
+                "سمّدوا نباتاتكم بالمغذيات النباتية: يجب تسميد النباتات المزهرة خلال فصل الصيف مع كل عملية ري، بينما تُسمد في الشتاء أسبوعياً. أما النباتات الخضراء فتُسمد صيفاً كل أسبوع، وفي الشتاء مرة واحدة شهرياً.",
+                "اسقوا نباتاتكم حسب الحاجة: تتطلب النباتات المزهرة السقي كل يوم تقريباً إذا كانت موضوعة بالقرب من الشمس المباشرة. تجنبوا الإفراط في ري النباتات، وافحصوا تربة الأصيص للتأكد مما إذا كانت جافة. لا تتركوا الماء راكداً في الصحن السفلي لفترة طويلة، بل تخلصوا من الماء الزائد بعد ساعة واحدة من الري. وكقاعدة عامة، ينبغي أن تكون النباتات الخضراء جافة بعض الشيء، ويكفي سقيها مرة أو مرتين أسبوعياً.",
+                "احرصوا على صحة نباتاتكم وخلوها من الآفات: المشكلة الأكثر شيوعاً هي عث العنكبوت الأحمر. قوموا بإبعاد النباتات المصابة عن النافذة، ونظفوا إطار النافذة والأصيص جيداً قبل وضع نباتات جديدة."
+              ],
+              "fr": [
+                "Veillez à offrir une lumière abondante : Les plantes fleuries demandent beaucoup plus de lumière que les plantes vertes. En règle générale, placez les plantes à fleurs près d'une fenêtre, tandis que les plantes vertes ne doivent pas être exposées en plein soleil.",
+                "Apportez de l'engrais à vos plantes : Les plantes à fleurs doivent être fertilisées à chaque arrosage en été, et une fois par semaine en hiver. Les plantes vertes recevront de l'engrais chaque semaine en été et une fois par mois en hiver.",
+                "Arrosez selon les besoins : Les plantes fleuries doivent être arrosées presque quotidiennement lorsqu'elles sont proches d'un ensoleillement direct. Ne noyez pas vos plantes et vérifiez l'état de la motte de terreau. Ne laissez pas d'eau stagner dans la soucoupe : videz-la une heure après l'arrosage. En principe, les plantes vertes doivent rester légèrement sèches ; un à deux arrosages par semaine suffisent.",
+                "Assurez-vous de la bonne santé de vos plantes : L'araignée rouge représente le problème le plus fréquent. Éloignez les plantes infestées de la fenêtre et désinfectez soigneusement le rebord et le pot avant d'y installer de nouvelles plantes."
+              ]
+            }
+          }
+        ],
+        "questions": {
+          "27": {
+            "text": {
+              "ar": "يقدم النص نصائح وإرشادات حول ...",
+              "fr": "Le texte donne des conseils sur..."
+            },
+            "options": {
+              "ar": [
+                "كيفية شحن وإرسال الزهور بالبريد.",
+                "كيفية العناية بنباتات الأصص المنزلية.",
+                "كيفية الحفاظ على نضارة باقات الورد المقطوفة لفترة أطول."
+              ],
+              "fr": [
+                "la manière d'expédier des fleurs.",
+                "l'entretien des plantes en pot.",
+                "la façon de conserver plus longtemps des bouquets de fleurs."
+              ]
+            }
+          },
+          "28": {
+            "text": {
+              "ar": "تحتاج النباتات المزهرة إلى ...",
+              "fr": "Les plantes fleuries ont besoin..."
+            },
+            "options": {
+              "ar": [
+                "الشمس الحارقة المباشرة.",
+                "قدر وافر من الضوء.",
+                "نافذة مخصصة."
+              ],
+              "fr": [
+                "de soleil direct.",
+                "de beaucoup de lumière.",
+                "d'une fenêtre."
+              ]
+            }
+          },
+          "29": {
+            "text": {
+              "ar": "يجب ري النباتات ...",
+              "fr": "L'arrosage doit s'effectuer..."
+            },
+            "options": {
+              "ar": [
+                "عندما تصبح التربة جافة.",
+                "يومياً وبشكل دوري.",
+                "مرتين في الأسبوع حتماً."
+              ],
+              "fr": [
+                "lorsque la terre est sèche.",
+                "quotidiennement.",
+                "deux fois par semaine."
+              ]
+            }
+          },
+          "30": {
+            "text": {
+              "ar": "يجب تسميد النباتات ...",
+              "fr": "Il faut apporter de l'engrais..."
+            },
+            "options": {
+              "ar": [
+                "حسب الحاجة فقط.",
+                "في فصل الشتاء أكثر من الصيف.",
+                "في فصل الصيف أكثر من الشتاء."
+              ],
+              "fr": [
+                "selon les besoins.",
+                "davantage en hiver qu'en été.",
+                "davantage en été qu'en hiver."
+              ]
+            }
+          }
+        }
+      },
+      "6": {
+        "instructions": {
+          "ar": "يتكون قسم الاستماع من أربعة أجزاء. ستستمع إلى عدة نصوص وتقوم بحل المهام المرتبطة بها.",
+          "fr": "Le module Compréhension orale se compose de quatre parties. Vous écouterez plusieurs textes et résoudrez les tâches correspondantes."
+        },
+        "teile": {
+          "1": {
+            "ar": "الجزء 1: خمسة نصوص قصيرة",
+            "fr": "Partie 1 : Cinq textes courts"
+          },
+          "2": {
+            "ar": "الجزء 2: جولة في متحف الشوكولاتة",
+            "fr": "Partie 2 : Visite guidée au musée du chocolat"
+          },
+          "3": {
+            "ar": "الجزء 3: حوار إذاعي: العثور على المفقودين بعد سنوات",
+            "fr": "Partie 3 : Entretien à la radio : Retrouvailles après des années"
+          },
+          "4": {
+            "ar": "الجزء 4: نقاش: مهن للرجال وأخرى للنساء – صورة نمطية أم حقيقة؟",
+            "fr": "Partie 4 : Débat : Métiers typiques d'hommes ou de femmes – cliché ou réalité ?"
+          }
+        },
+        "questions": {
+          "h1": {
+            "text": {
+              "ar": "المستحضرات النباتية الطبيعية أفضل لعلاج احمرار الجلد مقارنة بالمنتجات الكيميائية.",
+              "fr": "Les remèdes naturels à base de plantes sont plus efficaces contre les rougeurs que les produits chimiques."
+            }
+          },
+          "h2": {
+            "text": {
+              "ar": "يتوفر حليب التنظيف المستخلص من جوز الهند في ...",
+              "fr": "Le lait nettoyant aux extraits de noix de coco est disponible..."
+            },
+            "options": {
+              "ar": [
+                "متاجر الأغذية الصحية الطبيعية (Reformhäuser).",
+                "المجلة الصحية.",
+                "عيادة الطبيب."
+              ],
+              "fr": [
+                "dans les magasins de diététique (Reformhäuser).",
+                "dans le magazine de santé.",
+                "chez le médecin."
+              ]
+            }
+          },
+          "h3": {
+            "text": {
+              "ar": "تأجل الموعد بسبب مرض المتحدث.",
+              "fr": "Le rendez-vous est reporté en raison d'une maladie de l'interlocuteur."
+            }
+          },
+          "h4": {
+            "text": {
+              "ar": "المكان المثالي للقاء سيكون ...",
+              "fr": "Le lieu de rencontre idéal serait..."
+            },
+            "options": {
+              "ar": [
+                "عيادة الطبيب.",
+                "المكتب.",
+                "المقهى (Café)."
+              ],
+              "fr": [
+                "le cabinet médical.",
+                "le bureau.",
+                "le café."
+              ]
+            }
+          },
+          "h5": {
+            "text": {
+              "ar": "توجد ورشة أعمال بناء في محطة القطارات.",
+              "fr": "Il y a un chantier dans la gare."
+            }
+          },
+          "h6": {
+            "text": {
+              "ar": "يريد عابر السبيل الوصول إلى ...",
+              "fr": "Le passant souhaite se rendre..."
+            },
+            "options": {
+              "ar": [
+                "الكاتدرائية.",
+                "محطة قطار الأنفاق (U-Bahn).",
+                "محطة القطارات الرئيسية."
+              ],
+              "fr": [
+                "à la cathédrale.",
+                "au métro.",
+                "à la gare."
+              ]
+            }
+          },
+          "h7": {
+            "text": {
+              "ar": "فترة التدريب العملي مخصصة فقط لطلاب العلوم الاقتصادية.",
+              "fr": "Le stage s'adresse uniquement aux étudiants en sciences économiques."
+            }
+          },
+          "h8": {
+            "text": {
+              "ar": "لا يمكن القيام بالتدريب العملي في ...",
+              "fr": "On ne peut pas effectuer de stage..."
+            },
+            "options": {
+              "ar": [
+                "جهاز 'الشرطة الدولية'.",
+                "مجال التنمية الصناعية (UNIDO).",
+                "مجال الطاقة الذرية الدولية (IAEO)."
+              ],
+              "fr": [
+                "auprès de la « Police internationale ».",
+                "dans le domaine du développement industriel.",
+                "dans le secteur de l'énergie atomique."
+              ]
+            }
+          },
+          "h9": {
+            "text": {
+              "ar": "هذه اللوحة تنتمي إلى أعمال الفنان كورت رينيه.",
+              "fr": "Ce tableau fait partie des œuvres de Kurt Rene."
+            }
+          },
+          "h10": {
+            "text": {
+              "ar": "رسم كورت رينيه في بداياته ...",
+              "fr": "Kurt Rene a d'abord peint..."
+            },
+            "options": {
+              "ar": [
+                "مشاهد غرامية رومانسية.",
+                "لوحات ذات رمزية خفية.",
+                "أشخاصاً في حياتهم اليومية."
+              ],
+              "fr": [
+                "des scènes d'amour.",
+                "des tableaux à la symbolique cachée.",
+                "des gens dans leur vie quotidienne."
+              ]
+            }
+          },
+          "h11": {
+            "text": {
+              "ar": "درجة الحرارة داخل المتحف ...",
+              "fr": "La température dans le musée est..."
+            },
+            "options": {
+              "ar": [
+                "أقل انخفاضاً من الخارج.",
+                "أعلى دفئاً من الخارج.",
+                "مماثلة تماماً لدرجة الحرارة في الخارج."
+              ],
+              "fr": [
+                "plus basse qu'à l'extérieur.",
+                "plus élevée qu'à l'extérieur.",
+                "identique à la température extérieure."
+              ]
+            }
+          },
+          "h12": {
+            "text": {
+              "ar": "الكاكاو معروف منذ ...",
+              "fr": "Le cacao est connu depuis..."
+            },
+            "options": {
+              "ar": [
+                "عام 1831 قبل الميلاد.",
+                "عام 1992 قبل الميلاد.",
+                "عام 2000 قبل الميلاد."
+              ],
+              "fr": [
+                "1831 avant J.-C.",
+                "1992 avant J.-C.",
+                "2000 avant J.-C."
+              ]
+            }
+          },
+          "h13": {
+            "text": {
+              "ar": "من كان أول من اقتنع بالتأثير العلاجي الطبي للكاكاو؟",
+              "fr": "Qui a été le premier convaincu des vertus thérapeutiques du cacao ?"
+            },
+            "options": {
+              "ar": [
+                "الشعوب الأمريكية القديمة (حضارات المايا والأزتيك).",
+                "ملوك إسبانيا.",
+                "الصيادلة الأوروبيون."
+              ],
+              "fr": [
+                "Les peuples amérindiens anciens.",
+                "Les rois d'Espagne.",
+                "Les apothicaires."
+              ]
+            }
+          },
+          "h14": {
+            "text": {
+              "ar": "في القرن السابع عشر وصل الكاكاو إلى أوروبا عن طريق ...",
+              "fr": "Au XVIIe siècle, le cacao est arrivé en Europe grâce à..."
+            },
+            "options": {
+              "ar": [
+                "الفاتحين والمستكشفين الإسبان.",
+                "النبلاء الفرنسيين.",
+                "التجار الألمان."
+              ],
+              "fr": [
+                "des conquistadors espagnols.",
+                "des aristocrates français.",
+                "des marchands allemands."
+              ]
+            }
+          },
+          "h15": {
+            "text": {
+              "ar": "في عام 1830 كان الكاكاو في ألمانيا يعتبر ...",
+              "fr": "En 1830, le cacao était considéré en Allemagne comme..."
+            },
+            "options": {
+              "ar": [
+                "مشروباً سائلاً.",
+                "دواءً علاجياً.",
+                "مادة غذائية صلبة تؤكل."
+              ],
+              "fr": [
+                "une boisson.",
+                "un médicament.",
+                "un aliment solide à croquer."
+              ]
+            }
+          },
+          "h16": {
+            "text": {
+              "ar": "في هذا البرنامج يلتقي الناس بأقاربهم وأحبائهم من جديد.",
+              "fr": "Dans cette émission, des personnes se retrouvent après une longue séparation."
+            }
+          },
+          "h17": {
+            "text": {
+              "ar": "يتم في هذا البرنامج التحقيق في قضايا وجرائم جنائية.",
+              "fr": "L'émission enquête sur des affaires criminelles."
+            }
+          },
+          "h18": {
+            "text": {
+              "ar": "يجب التواصل مع فريق إعداد البرنامج كتابياً.",
+              "fr": "Il faut s'inscrire par écrit auprès de l'équipe de l'émission."
+            }
+          },
+          "h19": {
+            "text": {
+              "ar": "يستعين فريق البرنامج بخدمات محققين خصوصيين.",
+              "fr": "L'équipe de l'émission fait appel à des détectives privés."
+            }
+          },
+          "h20": {
+            "text": {
+              "ar": "توجد دائماً نهاية سعيدة في ختام كل حلقة.",
+              "fr": "Il y a toujours une issue heureuse à la fin."
+            }
+          },
+          "h21": {
+            "text": {
+              "ar": "في الحالات المعقدة يتدخل فريق البرنامج كوسيط لفض النزاع.",
+              "fr": "Dans les cas complexes, l'équipe intervient comme médiateur."
+            }
+          },
+          "h22": {
+            "text": {
+              "ar": "مقدمة البرنامج لا تعرف النسخة الألمانية من البرنامج.",
+              "fr": "L'animatrice ne connaît pas l'émission allemande."
+            }
+          },
+          "h23": {
+            "text": {
+              "ar": "القليل جداً من النساء يعملن في صناعة الصلب والحديد.",
+              "fr": "Peu de femmes travaillent dans la sidérurgie."
+            },
+            "options": {
+              "ar": [
+                "مقدمة البرنامج (Moderatorin)",
+                "إيمانويلا فاغنر (Emanuela Wagner)",
+                "دانييل كرافيتسكي (Daniel Krawitzky)"
+              ],
+              "fr": [
+                "L'animatrice (Moderatorin)",
+                "Emanuela Wagner",
+                "Daniel Krawitzky"
+              ]
+            }
+          },
+          "h24": {
+            "text": {
+              "ar": "الطهاة الرجال في الحقيقة ليسوا بمهارة الطاهيات النساء.",
+              "fr": "En réalité, les cuisiniers ne sont pas aussi doués que les cuisinières."
+            },
+            "options": {
+              "ar": [
+                "مقدمة البرنامج (Moderatorin)",
+                "إيمانويلا فاغنر (Emanuela Wagner)",
+                "دانييل كرافيتسكي (Daniel Krawitzky)"
+              ],
+              "fr": [
+                "L'animatrice (Moderatorin)",
+                "Emanuela Wagner",
+                "Daniel Krawitzky"
+              ]
+            }
+          },
+          "h25": {
+            "text": {
+              "ar": "تميل النساء بالأحرى لاختيار مهن لا تتسخ فيها ملابسهن.",
+              "fr": "Les femmes choisissent plutôt des métiers où elles ne se salissent pas."
+            },
+            "options": {
+              "ar": [
+                "مقدمة البرنامج (Moderatorin)",
+                "إيمانويلا فاغنر (Emanuela Wagner)",
+                "دانييل كرافيتسكي (Daniel Krawitzky)"
+              ],
+              "fr": [
+                "L'animatrice (Moderatorin)",
+                "Emanuela Wagner",
+                "Daniel Krawitzky"
+              ]
+            }
+          },
+          "h26": {
+            "text": {
+              "ar": "النساء لا يمتلكن تقديراً وإدراكاً جيداً للسرعة.",
+              "fr": "Les femmes n'ont pas une bonne appréciation de la vitesse."
+            },
+            "options": {
+              "ar": [
+                "مقدمة البرنامج (Moderatorin)",
+                "إيمانويلا فاغنر (Emanuela Wagner)",
+                "دانييل كرافيتسكي (Daniel Krawitzky)"
+              ],
+              "fr": [
+                "L'animatrice (Moderatorin)",
+                "Emanuela Wagner",
+                "Daniel Krawitzky"
+              ]
+            }
+          },
+          "h27": {
+            "text": {
+              "ar": "تستطيع النساء الحفاظ على النظام في العمل أكثر من الرجال.",
+              "fr": "Les femmes savent mieux maintenir l'ordre au travail que les hommes."
+            },
+            "options": {
+              "ar": [
+                "مقدمة البرنامج (Moderatorin)",
+                "إيمانويلا فاغنر (Emanuela Wagner)",
+                "دانييل كرافيتسكي (Daniel Krawitzky)"
+              ],
+              "fr": [
+                "L'animatrice (Moderatorin)",
+                "Emanuela Wagner",
+                "Daniel Krawitzky"
+              ]
+            }
+          },
+          "h28": {
+            "text": {
+              "ar": "حصلت نساء بالفعل على أوسمة وجوائز تقدير في قطاع النقل والمواصلات.",
+              "fr": "Des femmes ont déjà été primées dans le secteur des transports."
+            },
+            "options": {
+              "ar": [
+                "مقدمة البرنامج (Moderatorin)",
+                "إيمانويلا فاغنر (Emanuela Wagner)",
+                "دانييل كرافيتسكي (Daniel Krawitzky)"
+              ],
+              "fr": [
+                "L'animatrice (Moderatorin)",
+                "Emanuela Wagner",
+                "Daniel Krawitzky"
+              ]
+            }
+          },
+          "h29": {
+            "text": {
+              "ar": "ينبغي على وسائل الإعلام التخلص من هذه الصور النمطية البالية.",
+              "fr": "Les médias devraient éradiquer ces stéréotypes."
+            },
+            "options": {
+              "ar": [
+                "مقدمة البرنامج (Moderatorin)",
+                "إيمانويلا فاغنر (Emanuela Wagner)",
+                "دانييل كرافيتسكي (Daniel Krawitzky)"
+              ],
+              "fr": [
+                "L'animatrice (Moderatorin)",
+                "Emanuela Wagner",
+                "Daniel Krawitzky"
+              ]
+            }
+          },
+          "h30": {
+            "text": {
+              "ar": "الأمر الأكثر أهمية عند اختيار المهنة هو الشغف والاهتمام الشخصي.",
+              "fr": "Le plus important dans le choix professionnel reste l'intérêt personnel."
+            },
+            "options": {
+              "ar": [
+                "مقدمة البرنامج (Moderatorin)",
+                "إيمانويلا فاغنر (Emanuela Wagner)",
+                "دانييل كرافيتسكي (Daniel Krawitzky)"
+              ],
+              "fr": [
+                "L'animatrice (Moderatorin)",
+                "Emanuela Wagner",
+                "Daniel Krawitzky"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

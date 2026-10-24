@@ -186,50 +186,205 @@ function showEmailSentToast(msg, isAlert = false) {
   }, isAlert ? 5000 : 3500);
 }
 
-function formatTeilAnswersSummary(t, qs) {
-  let lines = [];
-  qs.forEach(q => {
-    const userVal = userAnswers[q.id];
-    const hasAnswered = userVal !== undefined && userVal !== '';
-    const isCorrect = hasAnswered && String(userVal).toLowerCase() === String(q.answer).toLowerCase();
-    const userDisplay = formatAnswerDisplay(q, userVal);
-    const correctDisplay = formatAnswerDisplay(q, q.answer);
+function getEnglishTeilTitle(t) {
+  if (!t) return 'Exam Section';
+  if (t.isHoren || t.id === 6) return 'Listening – Full Module (Parts 1–4)';
+  switch (t.id) {
+    case 1: return 'Reading – Part 1 (Blog / Text — True/False)';
+    case 2: return 'Reading – Part 2 (Press Articles — Multiple Choice)';
+    case 3: return 'Reading – Part 3 (Classified Ads — Matching)';
+    case 4: return 'Reading – Part 4 (Reader Comments — Yes/No)';
+    case 5: return 'Reading – Part 5 (Rules / Instructions — Multiple Choice)';
+    default: return t.title || `Part ${t.id}`;
+  }
+}
 
-    const statusMark = !hasAnswered ? '[– Unbeantwortet]' : (isCorrect ? '[✓ Richtig]' : '[✗ Falsch]');
+function getEnglishListeningSubpartTitle(partNum) {
+  switch (Number(partNum)) {
+    case 1: return 'Listening – Part 1 (Short Announcements, Q1–10)';
+    case 2: return 'Listening – Part 2 (Guided Tour / Presentation, Q11–15)';
+    case 3: return 'Listening – Part 3 (Everyday Conversation, Q16–22)';
+    case 4: return 'Listening – Part 4 (Radio Discussion, Q23–30)';
+    default: return `Listening – Part ${partNum}`;
+  }
+}
 
-    lines.push(`• Aufgabe ${q.id}: ${statusMark}`);
-    lines.push(`   Kandidat: ${userDisplay}`);
-    if (!isCorrect) {
-      lines.push(`   Lösung:   ${correctDisplay}`);
+function getEnglishListeningSubpartHeader(partNum) {
+  switch (Number(partNum)) {
+    case 1: return '── LISTENING PART 1: Short Announcements (Q1–10) ──';
+    case 2: return '── LISTENING PART 2: Guided Tour / Presentation (Q11–15) ──';
+    case 3: return '── LISTENING PART 3: Everyday Conversation (Q16–22) ──';
+    case 4: return '── LISTENING PART 4: Radio Discussion (Q23–30) ──';
+    default: return `── LISTENING PART ${partNum} ──`;
+  }
+}
+
+function formatAnswerDisplayForEmail(q, val, t) {
+  if (val === undefined || val === null || val === '') return '— (No answer)';
+  if ((q.type === 'mcq' || q.type === 'speaker') && Array.isArray(q.options)) {
+    const idx = parseInt(val, 10);
+    const letter = ['A', 'B', 'C'][idx] || String(val).toUpperCase();
+    const text = q.options[idx] || '';
+    return text ? `${letter}) ${text}` : String(val);
+  }
+  if (q.type === 'tf') {
+    return String(val).toLowerCase() === 'richtig' ? 'Richtig (True)' : 'Falsch (False)';
+  }
+  if (q.type === 'letter') {
+    return String(val).toLowerCase() === 'ja' ? 'Ja (Yes — In favor)' : 'Nein (No — Against)';
+  }
+  if (q.type === 'match') {
+    const v = String(val).trim().toUpperCase();
+    if (v === '0' || v === 'X') return '0 / X (No matching ad)';
+    if (t && Array.isArray(t.adsFormatted)) {
+      const ad = t.adsFormatted.find(a => String(a.code).toUpperCase() === v);
+      if (ad && ad.html) {
+        const headlineMatch = ad.html.match(/<div class="anzeige-headline">([\s\S]*?)<\/div>/i);
+        const headline = headlineMatch ? headlineMatch[1].replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim() : '';
+        if (headline) return `Ad ${v} ("${headline}")`;
+      }
     }
-    if (q.text) {
-      const cleanText = q.text.replace(/\s+/g, ' ').trim();
-      lines.push(`   Text:     ${cleanText}`);
+    return `Ad ${v}`;
+  }
+  return String(val).toUpperCase();
+}
+
+function formatQuestionPromptForEmail(q, t) {
+  if (!q) return '';
+  if (q.type === 'letter' && t && Array.isArray(t.letters)) {
+    const letterObj = t.letters.find(l => String(l.id) === String(q.id));
+    if (letterObj && letterObj.who) {
+      return `Reader Comment by ${letterObj.who}`;
+    }
+  }
+  if (q.text) {
+    return q.text.replace(/^Kommentar von\s+/i, 'Reader Comment by ').replace(/\s+/g, ' ').trim();
+  }
+  return '';
+}
+
+function getEmailEvidenceNote(qId) {
+  if (typeof getExplanation !== 'function' || !currentTest) return '';
+  const exp = getExplanation(currentTest.id, qId, 'de');
+  if (!exp || !exp.quote) return '';
+  return exp.quote.replace(/\s+/g, ' ').trim();
+}
+
+function formatTeilAnswersSummary(t, qs, meta = {}) {
+  const evaluated = qs.map(q => {
+    const userVal = userAnswers[q.id];
+    const hasAnswered = userVal !== undefined && userVal !== null && userVal !== '';
+    const isCorrect = hasAnswered && isMatchOrTfCorrect(userVal, q.answer);
+    const displayNum = q.num || q.id;
+    return {
+      q,
+      displayNum,
+      hasAnswered,
+      isCorrect,
+      userDisplay: formatAnswerDisplayForEmail(q, userVal, t),
+      correctDisplay: formatAnswerDisplayForEmail(q, q.answer, t),
+      promptText: formatQuestionPromptForEmail(q, t),
+      evidence: !isCorrect ? getEmailEvidenceNote(q.id) : ''
+    };
+  });
+
+  const correctCount = evaluated.filter(e => e.isCorrect).length;
+  const unansweredCount = evaluated.filter(e => !e.hasAnswered).length;
+  const wrongCount = evaluated.length - correctCount - unansweredCount;
+  const pct = evaluated.length > 0 ? Math.round((correctCount / evaluated.length) * 100) : 0;
+  const passStatus = pct >= 60 ? 'PASSED ✅ (≥ 60%)' : 'NEEDS REVIEW ⚠️ (< 60%)';
+
+  const lines = [];
+
+  lines.push('========================================================');
+  lines.push('📊 EXAM SECTION REPORT');
+  lines.push('========================================================');
+  if (meta.candidateName) lines.push(`Candidate:       ${meta.candidateName}`);
+  if (meta.testTitle)     lines.push(`Exam:            ${meta.testTitle}`);
+  if (meta.sectionTitle)  lines.push(`Section:         ${meta.sectionTitle}`);
+  lines.push(`Score:           ${correctCount} / ${evaluated.length} (${pct}%) — ${passStatus}`);
+  lines.push(`Breakdown:       ${correctCount} Correct  |  ${wrongCount} Wrong  |  ${unansweredCount} Unanswered`);
+  if (meta.timeLeftStr)   lines.push(`Time Remaining:  ${meta.timeLeftStr}`);
+  if (meta.timestampStr)  lines.push(`Submitted At:    ${meta.timestampStr}`);
+  lines.push('========================================================');
+  lines.push('');
+
+  const issues = evaluated.filter(e => !e.isCorrect);
+  if (issues.length === 0) {
+    lines.push(`🎉 PERFECT SCORE! All ${evaluated.length} questions were answered correctly.`);
+    lines.push('');
+  } else {
+    lines.push(`⚠️ MISTAKES & UNANSWERED AT A GLANCE (${issues.length} ${issues.length === 1 ? 'Item' : 'Items'})`);
+    lines.push('--------------------------------------------------------');
+    issues.forEach(item => {
+      const badge = item.hasAnswered ? '❌ WRONG' : '⚪ UNANSWERED';
+      lines.push(`• Question ${item.displayNum} [${badge}]`);
+      if (item.promptText) {
+        lines.push(`    Prompt:           ${item.promptText}`);
+      }
+      lines.push(`    Candidate Answer: ${item.userDisplay}`);
+      lines.push(`    Correct Answer:   ${item.correctDisplay}`);
+      if (item.evidence) {
+        lines.push(`    Text Evidence:    "${item.evidence}"`);
+      }
+      lines.push('');
+    });
+  }
+
+  lines.push('========================================================');
+  lines.push('📋 FULL QUESTION-BY-QUESTION BREAKDOWN');
+  lines.push('========================================================');
+
+  let currentSubpart = null;
+  evaluated.forEach(item => {
+    if (!meta.isSingleListeningSubpart && (t.isHoren || t.id === 6) && item.q.teilPart && item.q.teilPart !== currentSubpart) {
+      currentSubpart = item.q.teilPart;
+      lines.push('');
+      lines.push(getEnglishListeningSubpartHeader(currentSubpart));
+      lines.push('');
+    }
+
+    const statusBadge = !item.hasAnswered
+      ? '⚪ UNANSWERED'
+      : (item.isCorrect ? '✅ CORRECT' : '❌ WRONG');
+
+    lines.push(`[Question ${item.displayNum}] — ${statusBadge}`);
+    if (item.promptText) {
+      lines.push(`  • Prompt:           ${item.promptText}`);
+    }
+    lines.push(`  • Candidate Answer: ${item.userDisplay}`);
+    if (!item.isCorrect) {
+      lines.push(`  • Correct Answer:   ${item.correctDisplay}`);
+      if (item.evidence) {
+        lines.push(`  • Text Evidence:    "${item.evidence}"`);
+      }
     }
     lines.push('');
   });
+
   return lines.join('\n');
 }
 
-function sendTeilResultsEmail(teilId) {
+function sendTeilResultsEmail(teilId, horenPartNum = null) {
   if (typeof emailjs === 'undefined') {
     console.warn('[EmailJS] Library not available, skipping email send.');
     return;
   }
 
-  const t = testData.find(x => x.id === teilId);
+  const t = testData.find(x => (teilId === 6 && x.isHoren) ? true : x.id === teilId);
   if (!t) return;
 
-  const qs = allQuestionsOf(t);
+  let qs = allQuestionsOf(t);
+  if (horenPartNum !== null) {
+    qs = qs.filter(q => Number(q.teilPart) === Number(horenPartNum));
+  }
   if (!qs || qs.length === 0) return;
 
-  const answeredList = qs.filter(q => userAnswers[q.id] !== undefined && userAnswers[q.id] !== '');
-  if (answeredList.length === 0) {
-    return;
-  }
-
   const answersSnapshot = JSON.stringify(qs.map(q => ({ id: q.id, ans: userAnswers[q.id] ?? null })));
-  const cacheKey = `${currentTest.id || currentTestIndex}_teil_${teilId}`;
+  const cacheKey = horenPartNum !== null
+    ? `${currentTest.id || currentTestIndex}_horen_part_${horenPartNum}`
+    : `${currentTest.id || currentTestIndex}_teil_${teilId}`;
+
   if (sentTeileSnapshots.get(cacheKey) === answersSnapshot) {
     return;
   }
@@ -237,31 +392,48 @@ function sendTeilResultsEmail(teilId) {
   let teilCorrect = 0;
   qs.forEach(q => {
     const userVal = userAnswers[q.id];
-    if (userVal !== undefined && String(userVal).toLowerCase() === String(q.answer).toLowerCase()) {
+    if (userVal !== undefined && isMatchOrTfCorrect(userVal, q.answer)) {
       teilCorrect++;
     }
   });
 
   const pct = Math.round((teilCorrect / qs.length) * 100);
+  const passBadge = pct >= 60 ? 'PASSED' : 'NEEDS REVIEW';
   const rawName = document.getElementById('friendName')?.value?.trim();
   const candidateName = rawName || 'Sirin';
 
   const minutes = Math.floor(timeLeft / 60);
   const seconds = (timeLeft % 60).toString().padStart(2, '0');
-  const timeLeftStr = `${minutes}:${seconds} Min.`;
+  let timeLeftStr = `${minutes}m ${seconds}s remaining`;
+  const partTimer = teilTimers[teilId];
+  if (partTimer && partTimer.started) {
+    const pMin = Math.floor(Math.abs(partTimer.remaining) / 60);
+    const pSec = (Math.abs(partTimer.remaining) % 60).toString().padStart(2, '0');
+    timeLeftStr += ` (Section timer: ${pMin}m ${pSec}s left)`;
+  }
 
   const now = new Date();
-  const timestampStr = `${now.toLocaleDateString('de-DE')} um ${now.toLocaleTimeString('de-DE', { hour: '2-digit', minute: '2-digit' })} Uhr`;
+  const timestampStr = `${now.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })} at ${now.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' })}`;
+  const englishTeilTitle = horenPartNum !== null
+    ? getEnglishListeningSubpartTitle(horenPartNum)
+    : getEnglishTeilTitle(t);
 
-  const summary = formatTeilAnswersSummary(t, qs);
+  const summary = formatTeilAnswersSummary(t, qs, {
+    candidateName,
+    testTitle: currentTest.title,
+    sectionTitle: englishTeilTitle,
+    timeLeftStr,
+    timestampStr,
+    isSingleListeningSubpart: horenPartNum !== null
+  });
 
   const templateParams = {
     candidate_name: candidateName,
     name: candidateName,
     email: 'houssemjouini3@gmail.com',
     test_title: currentTest.title,
-    teil_title: t.title,
-    teil_score: `${teilCorrect} / ${qs.length} (${pct}%)`,
+    teil_title: englishTeilTitle,
+    teil_score: `${teilCorrect} / ${qs.length} (${pct}% — ${passBadge})`,
     time_left: timeLeftStr,
     timestamp: timestampStr,
     answers_summary: summary
@@ -269,13 +441,256 @@ function sendTeilResultsEmail(teilId) {
 
   sentTeileSnapshots.set(cacheKey, answersSnapshot);
 
+  const toastLabel = horenPartNum !== null ? `Hören Teil ${horenPartNum}` : t.title;
   emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, templateParams)
     .then((response) => {
-      console.log(`[EmailJS] Successfully sent results for ${t.title} (${response.status}: ${response.text})`);
-      showEmailSentToast(`${t.title}: Antworten übermittelt`);
+      console.log(`[EmailJS] Successfully sent results for ${toastLabel} (${response.status}: ${response.text})`);
+      showEmailSentToast(`${toastLabel}: Results sent`);
     })
     .catch((error) => {
-      console.error(`[EmailJS] Failed to send email for ${t.title}:`, error);
+      console.error(`[EmailJS] Failed to send email for ${toastLabel}:`, error);
+      sentTeileSnapshots.delete(cacheKey);
+    });
+}
+
+function formatModuleExamEmailSummary(moduleType, moduleParts, meta = {}) {
+  const isHoren = moduleType === 'horen';
+  const moduleLabel = isHoren
+    ? '🎧 LISTENING MODULE (Hören — Parts 1–4)'
+    : '📖 READING MODULE (Lesen — Parts 1–5)';
+
+  const sectionGroups = [];
+  if (isHoren) {
+    const horenPart = moduleParts[0];
+    const allHorenQs = horenPart ? allQuestionsOf(horenPart) : [];
+    for (let p = 1; p <= 4; p++) {
+      const pQs = allHorenQs.filter(q => Number(q.teilPart) === p);
+      if (pQs.length > 0) {
+        sectionGroups.push({
+          shortLabel: `Part ${p}`,
+          fullTitle: getEnglishListeningSubpartTitle(p),
+          partObj: horenPart,
+          questions: pQs
+        });
+      }
+    }
+  } else {
+    moduleParts.forEach(t => {
+      sectionGroups.push({
+        shortLabel: `Part ${t.id}`,
+        fullTitle: getEnglishTeilTitle(t),
+        partObj: t,
+        questions: allQuestionsOf(t)
+      });
+    });
+  }
+
+  let totalQuestions = 0;
+  let totalCorrect = 0;
+  let totalUnanswered = 0;
+  const allEvaluated = [];
+
+  const sectionStats = sectionGroups.map(group => {
+    let secCorrect = 0;
+    let secUnanswered = 0;
+    const secItems = group.questions.map(q => {
+      const userVal = userAnswers[q.id];
+      const hasAnswered = userVal !== undefined && userVal !== null && userVal !== '';
+      const isCorrect = hasAnswered && isMatchOrTfCorrect(userVal, q.answer);
+      if (isCorrect) secCorrect++;
+      if (!hasAnswered) secUnanswered++;
+      const item = {
+        q,
+        sectionShort: group.shortLabel,
+        sectionTitle: group.fullTitle,
+        displayNum: q.num || q.id,
+        hasAnswered,
+        isCorrect,
+        userDisplay: formatAnswerDisplayForEmail(q, userVal, group.partObj),
+        correctDisplay: formatAnswerDisplayForEmail(q, q.answer, group.partObj),
+        promptText: formatQuestionPromptForEmail(q, group.partObj),
+        evidence: !isCorrect ? getEmailEvidenceNote(q.id) : ''
+      };
+      allEvaluated.push(item);
+      return item;
+    });
+
+    totalQuestions += group.questions.length;
+    totalCorrect += secCorrect;
+    totalUnanswered += secUnanswered;
+
+    const secPct = group.questions.length > 0 ? Math.round((secCorrect / group.questions.length) * 100) : 0;
+    return {
+      ...group,
+      secCorrect,
+      secTotal: group.questions.length,
+      secPct,
+      secItems
+    };
+  });
+
+  const totalWrong = totalQuestions - totalCorrect - totalUnanswered;
+  const points = totalQuestions > 0 ? Math.round((totalCorrect / totalQuestions) * 100) : 0;
+  const passed = points >= 60;
+  const officialResult = passed
+    ? '✅ PASSED (Minimum required: 60 / 100 Points)'
+    : '❌ NOT PASSED (Minimum required: 60 / 100 Points)';
+
+  const lines = [];
+  lines.push('╔════════════════════════════════════════════════════════╗');
+  lines.push('║       🏆 FINAL MODULE EXAM SCORE REPORT (100 PTS)      ║');
+  lines.push('╚════════════════════════════════════════════════════════╝');
+  if (meta.candidateName) lines.push(`Candidate:         ${meta.candidateName}`);
+  if (meta.testTitle)     lines.push(`Exam:              ${meta.testTitle}`);
+  lines.push(`Module:            ${moduleLabel}`);
+  lines.push(`Final Exam Score:  ${points} / 100 Points (${points}%)`);
+  lines.push(`Official Result:   ${officialResult}`);
+  lines.push(`Raw Accuracy:      ${totalCorrect} / ${totalQuestions} Questions Correct`);
+  lines.push(`Answer Breakdown:  ${totalCorrect} Correct  |  ${totalWrong} Wrong  |  ${totalUnanswered} Unanswered`);
+  if (meta.timeLeftStr)   lines.push(`Time Remaining:    ${meta.timeLeftStr}`);
+  if (meta.timestampStr)  lines.push(`Submitted At:      ${meta.timestampStr}`);
+  lines.push('');
+
+  lines.push('========================================================');
+  lines.push('📈 SCORE BREAKDOWN BY PART');
+  lines.push('========================================================');
+  sectionStats.forEach(sec => {
+    const icon = sec.secPct >= 60 ? '✅' : '⚠️';
+    const paddedTitle = sec.fullTitle.padEnd(48, ' ');
+    lines.push(`• ${paddedTitle} ${sec.secCorrect}/${sec.secTotal} (${sec.secPct}%) ${icon}`);
+  });
+  lines.push('--------------------------------------------------------');
+  lines.push(`TOTAL MODULE SCORE:                                ${totalCorrect}/${totalQuestions}  →  ${points} / 100 Points`);
+  lines.push('');
+
+  const issues = allEvaluated.filter(e => !e.isCorrect);
+  if (issues.length === 0) {
+    lines.push(`🎉 FLAWLESS EXAM! All ${totalQuestions} questions in this module were answered 100% correctly!`);
+    lines.push('');
+  } else {
+    lines.push('========================================================');
+    lines.push(`⚠️ ALL MODULE MISTAKES & UNANSWERED (${issues.length} ${issues.length === 1 ? 'Item' : 'Items'})`);
+    lines.push('========================================================');
+    issues.forEach(item => {
+      const badge = item.hasAnswered ? '❌ WRONG' : '⚪ UNANSWERED';
+      lines.push(`• [${item.sectionShort} · Question ${item.displayNum}] — ${badge}`);
+      if (item.promptText) {
+        lines.push(`    Prompt:           ${item.promptText}`);
+      }
+      lines.push(`    Candidate Answer: ${item.userDisplay}`);
+      lines.push(`    Correct Answer:   ${item.correctDisplay}`);
+      if (item.evidence) {
+        lines.push(`    Text Evidence:    "${item.evidence}"`);
+      }
+      lines.push('');
+    });
+  }
+
+  lines.push('========================================================');
+  lines.push('📋 COMPLETE EXAM TRANSCRIPT (ALL QUESTIONS BY PART)');
+  lines.push('========================================================');
+
+  sectionStats.forEach(sec => {
+    lines.push('');
+    lines.push(`── ${sec.fullTitle.toUpperCase()} [Score: ${sec.secCorrect}/${sec.secTotal} · ${sec.secPct}%] ──`);
+    lines.push('');
+    sec.secItems.forEach(item => {
+      const statusBadge = !item.hasAnswered
+        ? '⚪ UNANSWERED'
+        : (item.isCorrect ? '✅ CORRECT' : '❌ WRONG');
+      lines.push(`[Question ${item.displayNum}] — ${statusBadge}`);
+      if (item.promptText) {
+        lines.push(`  • Prompt:           ${item.promptText}`);
+      }
+      lines.push(`  • Candidate Answer: ${item.userDisplay}`);
+      if (!item.isCorrect) {
+        lines.push(`  • Correct Answer:   ${item.correctDisplay}`);
+        if (item.evidence) {
+          lines.push(`  • Text Evidence:    "${item.evidence}"`);
+        }
+      }
+      lines.push('');
+    });
+  });
+
+  return lines.join('\n');
+}
+
+function sendModuleResultsEmail(moduleType) {
+  if (typeof emailjs === 'undefined') {
+    console.warn('[EmailJS] Library not available, skipping module email send.');
+    return;
+  }
+
+  const isHoren = moduleType === 'horen';
+  const moduleParts = testData.filter(t => isHoren ? (t.isHoren || t.id === 6) : (!t.isHoren && t.id !== 6));
+  if (!moduleParts || moduleParts.length === 0) return;
+
+  const allQs = [];
+  moduleParts.forEach(t => {
+    allQs.push(...allQuestionsOf(t));
+  });
+  if (allQs.length === 0) return;
+
+  const answersSnapshot = JSON.stringify(allQs.map(q => ({ id: q.id, ans: userAnswers[q.id] ?? null })));
+  const cacheKey = `${currentTest.id || currentTestIndex}_full_module_${moduleType}`;
+  if (sentTeileSnapshots.get(cacheKey) === answersSnapshot) {
+    return;
+  }
+
+  let totalCorrect = 0;
+  allQs.forEach(q => {
+    if (isMatchOrTfCorrect(userAnswers[q.id], q.answer)) {
+      totalCorrect++;
+    }
+  });
+
+  const points = Math.round((totalCorrect / allQs.length) * 100);
+  const passed = points >= 60;
+  const passBadge = passed ? 'PASSED ✅' : 'NOT PASSED ❌';
+  const rawName = document.getElementById('friendName')?.value?.trim();
+  const candidateName = rawName || 'Sirin';
+
+  const minutes = Math.floor(timeLeft / 60);
+  const seconds = (timeLeft % 60).toString().padStart(2, '0');
+  const timeLeftStr = `${minutes}m ${seconds}s remaining`;
+
+  const now = new Date();
+  const timestampStr = `${now.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })} at ${now.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' })}`;
+
+  const moduleTitle = isHoren
+    ? '🏆 FULL EXAM SCORE: Listening Module (100 Points)'
+    : '🏆 FULL EXAM SCORE: Reading Module (100 Points)';
+
+  const summary = formatModuleExamEmailSummary(moduleType, moduleParts, {
+    candidateName,
+    testTitle: currentTest.title,
+    timeLeftStr,
+    timestampStr
+  });
+
+  const templateParams = {
+    candidate_name: candidateName,
+    name: candidateName,
+    email: 'houssemjouini3@gmail.com',
+    test_title: currentTest.title,
+    teil_title: moduleTitle,
+    teil_score: `${points} / 100 Points (${totalCorrect}/${allQs.length} correct — ${passBadge})`,
+    time_left: timeLeftStr,
+    timestamp: timestampStr,
+    answers_summary: summary
+  };
+
+  sentTeileSnapshots.set(cacheKey, answersSnapshot);
+
+  const label = isHoren ? 'Listening Module (100 Pts)' : 'Reading Module (100 Pts)';
+  emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, templateParams)
+    .then((response) => {
+      console.log(`[EmailJS] Successfully sent full module score for ${label} (${response.status}: ${response.text})`);
+      showEmailSentToast(`${label}: Full Exam Score sent`);
+    })
+    .catch((error) => {
+      console.error(`[EmailJS] Failed to send full module score for ${label}:`, error);
       sentTeileSnapshots.delete(cacheKey);
     });
 }
@@ -898,9 +1313,6 @@ function renderTabs() {
       <span class="tab-badge">${answeredCount}/${qs.length}</span>
     `;
     btn.onclick = () => {
-      if (t.id !== activeTeil) {
-        sendTeilResultsEmail(activeTeil);
-      }
       activeTeil = t.id;
       renderCurrentTeil();
       saveSession();
@@ -1079,6 +1491,7 @@ window.revealTeilSolutions = function(teilId) {
   if (typeof syncMistakesForTeil === 'function') {
     syncMistakesForTeil(teilId);
   }
+  sendTeilResultsEmail(teilId);
   renderCurrentTeil();
   saveSession();
   const qp = document.getElementById('questionsPanel');
@@ -1098,6 +1511,7 @@ window.revealHorenTeilSolutions = function(partNum) {
   if (typeof syncMistakesForHorenTeil === 'function') {
     syncMistakesForHorenTeil(partNum);
   }
+  sendTeilResultsEmail(6, partNum);
   renderCurrentTeil();
   saveSession();
 
@@ -3504,10 +3918,20 @@ function initVocabModal() {
 }
 
 function updateSavedVocabCountBadge() {
-  const badge = document.getElementById('savedVocabCountBadge');
-  if (!badge) return;
   const count = typeof getSavedVocabIds === 'function' ? getSavedVocabIds().length : 0;
-  badge.textContent = count;
+  const badge = document.getElementById('savedVocabCountBadge');
+  if (badge) {
+    badge.textContent = count;
+  }
+  const fcBadge = document.getElementById('b1FcHandleBadge');
+  if (fcBadge) {
+    if (count > 0) {
+      fcBadge.textContent = count;
+      fcBadge.style.display = 'flex';
+    } else {
+      fcBadge.style.display = 'none';
+    }
+  }
 }
 
 function openVocabModal(tab = 'current') {
@@ -4645,7 +5069,6 @@ function initFooterNavigation() {
     prevBtn.addEventListener('click', () => {
       const idx = testData.findIndex(x => x.id === activeTeil);
       if (idx > 0) {
-        sendTeilResultsEmail(activeTeil);
         activeTeil = testData[idx - 1].id;
         renderCurrentTeil();
         saveSession();
@@ -4658,7 +5081,6 @@ function initFooterNavigation() {
     nextBtn.addEventListener('click', () => {
       const idx = testData.findIndex(x => x.id === activeTeil);
       if (idx !== -1 && idx < testData.length - 1) {
-        sendTeilResultsEmail(activeTeil);
         activeTeil = testData[idx + 1].id;
         renderCurrentTeil();
         saveSession();
@@ -4690,7 +5112,6 @@ function initFooterNavigation() {
         if (!confirm(msg)) return;
       }
 
-      sendTeilResultsEmail(activeTeil);
       showResults(targetModule);
     });
   }
@@ -4774,7 +5195,6 @@ function renderMatrixGrid() {
 function jumpToQuestion(teilId, qid) {
   closeMatrixModal();
   if (activeTeil !== teilId) {
-    sendTeilResultsEmail(activeTeil);
     activeTeil = teilId;
     renderCurrentTeil();
     saveSession();
@@ -4825,6 +5245,7 @@ function showResults(moduleType) {
 
   timerRunning = false;
   syncAllMistakes();
+  sendModuleResultsEmail(moduleType);
 
   document.getElementById('tabsWrapper').style.display = 'none';
   document.getElementById('testAreaContainer').style.display = 'none';
@@ -5353,9 +5774,6 @@ function initUiDesignUpgrades() {
 
 /* ---------------- GLOBAL WINDOW EXPORTS ---------------- */
 function switchTeil(id) {
-  if (id !== activeTeil) {
-    sendTeilResultsEmail(activeTeil);
-  }
   activeTeil = id;
   renderCurrentTeil();
   saveSession();

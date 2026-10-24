@@ -363,12 +363,22 @@ Antworte AUSSCHLIESSLICH als valides JSON-Objekt mit Schlüsseln: term, display,
     wrap.setAttribute('aria-label', 'Schnell-Wortschatz & Übersetzer');
 
     wrap.innerHTML = `
-      <!-- Sticky Sidebar Handle (Left Edge) -->
-      <button type="button" class="b1-qw-handle" id="b1QwHandle" title="Schnell-Wortschatz & Übersetzer öffnen (Wort nachschlagen & merken)" aria-expanded="false" aria-controls="b1QwPanel">
-        <span class="b1-qw-handle-icon">📖</span>
-        <span class="b1-qw-handle-text">Wort?</span>
-        <span class="b1-qw-handle-badge" id="b1QwHandleBadge" style="display:none;">✓</span>
-      </button>
+      <!-- Sticky Sidebar Handles (Left Edge) -->
+      <div class="b1-sidebar-handles" id="b1SidebarHandles">
+        <!-- 1. Flashcards Companion Handle (Top) -->
+        <button type="button" class="b1-qw-handle b1-fc-handle" id="b1FcHandle" title="B1-Lernkarten (Flashcards) öffnen" aria-label="B1-Lernkarten öffnen">
+          <span class="b1-qw-handle-icon">🃏</span>
+          <span class="b1-qw-handle-text">Karten</span>
+          <span class="b1-qw-handle-badge" id="b1FcHandleBadge" style="display:none;">0</span>
+        </button>
+
+        <!-- 2. Quick Word Handle (Bottom) -->
+        <button type="button" class="b1-qw-handle" id="b1QwHandle" title="Schnell-Wortschatz & Übersetzer öffnen (Wort nachschlagen & merken)" aria-expanded="false" aria-controls="b1QwPanel">
+          <span class="b1-qw-handle-icon">📖</span>
+          <span class="b1-qw-handle-text">Wort?</span>
+          <span class="b1-qw-handle-badge" id="b1QwHandleBadge" style="display:none;">✓</span>
+        </button>
+      </div>
 
       <!-- Expandable Pop-up Panel -->
       <section class="b1-qw-panel" id="b1QwPanel" style="display:none;" role="region" aria-label="Wort nachschlagen & merken">
@@ -510,6 +520,7 @@ Antworte AUSSCHLIESSLICH als valides JSON-Objekt mit Schlüsseln: term, display,
 
   function bindWidgetEvents() {
     const handle = document.getElementById('b1QwHandle');
+    const fcHandle = document.getElementById('b1FcHandle');
     const panel = document.getElementById('b1QwPanel');
     const closeBtn = document.getElementById('b1QwCloseBtn');
     const form = document.getElementById('b1QwForm');
@@ -519,6 +530,33 @@ Antworte AUSSCHLIESSLICH als valides JSON-Objekt mit Schlüsseln: term, display,
     const saveBtn = document.getElementById('b1QwSaveBtn');
     const vocabModalLink = document.getElementById('b1QwVocabModalLink');
     const flashcardLink = document.getElementById('b1QwFlashcardLink');
+
+    // Flashcards handle click
+    if (fcHandle) {
+      fcHandle.addEventListener('click', () => {
+        if (typeof window.openVocabModal === 'function') {
+          window.openVocabModal('flashcards');
+        } else {
+          const btn = document.getElementById('vocabModalBtn');
+          if (btn) btn.click();
+        }
+      });
+    }
+
+    // Flashcard badge updater
+    function updateFcHandleBadge() {
+      const badge = document.getElementById('b1FcHandleBadge');
+      if (!badge) return;
+      const count = typeof window.getSavedVocabIds === 'function' ? window.getSavedVocabIds().length : 0;
+      if (count > 0) {
+        badge.textContent = count;
+        badge.style.display = 'flex';
+      } else {
+        badge.style.display = 'none';
+      }
+    }
+    updateFcHandleBadge();
+    window.addEventListener('b1-vocab-updated', updateFcHandleBadge);
 
     // Handle toggle
     if (handle) {

@@ -457,36 +457,54 @@
       "title": "🎧 Hören",
       "badge": "Hören (Teile 1–4)",
       "isHoren": true,
-      "time": 30,
+      "time": 40,
       "instructions": "Sie hören vier Teile. Sie hören jeden Text einmal oder zweimal. Lösen Sie die Aufgaben zu jedem Teil.",
       "audioSrc": "audio/modellsatz-8-hoeren.mp3",
       "audioFallbacks": [
-        "/run/media/houssem/HDD Disk/work/germany/So geht's noch besser B1/2/horen/modellsatz-2-hoeren-complete.mp3"
+        "audio/modellsatz-8-hoeren.mp3",
+        "/run/media/houssem/HDD Disk/work/germany/horen fix/modellsatz-8-hoeren.mp3",
+        "audio/hoeren.mp3"
       ],
       "audioChapters": [
         {
+          "time": 0,
+          "label": "00:00 Teil 1 (Beispiel)",
+          "part": 1,
+          "title": "Teil 1 · Beispiel",
+          "start": 0,
+          "end": 77
+        },
+        {
+          "time": 77,
+          "label": "01:17 Teil 1 (Texte 1–5)",
           "part": 1,
           "title": "Teil 1 · Fünf kurze Texte",
-          "start": 0,
-          "end": 425.32
+          "start": 77,
+          "end": 769
         },
         {
+          "time": 769,
+          "label": "12:49 Teil 2 (Burgführung)",
           "part": 2,
           "title": "Teil 2 · Burgführung",
-          "start": 425.32,
-          "end": 632.92
+          "start": 769,
+          "end": 1036
         },
         {
+          "time": 1036,
+          "label": "17:16 Teil 3 (Dschungelwanderer)",
           "part": 3,
           "title": "Teil 3 · Dschungelwanderer Reportage",
-          "start": 632.92,
-          "end": 861.6
+          "start": 1036,
+          "end": 1327
         },
         {
+          "time": 1327,
+          "label": "22:07 Teil 4 (Diskussion)",
           "part": 4,
           "title": "Teil 4 · Diskussion: Deutsche im Ausland",
-          "start": 861.6,
-          "end": 1679.32
+          "start": 1327,
+          "end": 2206.04
         }
       ],
       "horenSections": [
@@ -670,7 +688,7 @@
             "der Handwerker."
           ],
           "answer": 1,
-          "audioStart": 425.32,
+          "audioStart": 769,
           "num": 11
         },
         {
@@ -684,7 +702,7 @@
             "in der Neuzeit."
           ],
           "answer": 1,
-          "audioStart": 425.32,
+          "audioStart": 769,
           "num": 12
         },
         {
@@ -698,7 +716,7 @@
             "nachdem er in den Graben gefallen war."
           ],
           "answer": 1,
-          "audioStart": 425.32,
+          "audioStart": 769,
           "num": 13
         },
         {
@@ -712,7 +730,7 @@
             "Er wollte ein Märchenbuch schreiben."
           ],
           "answer": 0,
-          "audioStart": 425.32,
+          "audioStart": 769,
           "num": 14
         },
         {
@@ -726,7 +744,7 @@
             "Zwiebelsuppe."
           ],
           "answer": 2,
-          "audioStart": 425.32,
+          "audioStart": 769,
           "num": 15
         },
         {
@@ -735,7 +753,7 @@
           "type": "tf",
           "text": "Die Dschungelwanderung war eine spontane Entscheidung.",
           "answer": "richtig",
-          "audioStart": 632.92,
+          "audioStart": 1036,
           "num": 16
         },
         {
@@ -744,7 +762,7 @@
           "type": "tf",
           "text": "Die Dschungelwanderer waren nicht immer in Begleitung.",
           "answer": "falsch",
-          "audioStart": 632.92,
+          "audioStart": 1036,
           "num": 17
         },
         {
@@ -753,7 +771,7 @@
           "type": "tf",
           "text": "Der Sonnenuntergang in den Anden war wunderschön.",
           "answer": "richtig",
-          "audioStart": 632.92,
+          "audioStart": 1036,
           "num": 18
         },
         {
@@ -762,7 +780,7 @@
           "type": "tf",
           "text": "Die Dschungelwanderer mussten Lebensmittel besorgen.",
           "answer": "richtig",
-          "audioStart": 632.92,
+          "audioStart": 1036,
           "num": 19
         },
         {
@@ -771,7 +789,7 @@
           "type": "tf",
           "text": "In der Nacht bewachten sie abwechselnd das Lager.",
           "answer": "richtig",
-          "audioStart": 632.92,
+          "audioStart": 1036,
           "num": 20
         },
         {
@@ -780,7 +798,7 @@
           "type": "tf",
           "text": "Der Schlangenbiss wurde sofort ärztlich behandelt.",
           "answer": "falsch",
-          "audioStart": 632.92,
+          "audioStart": 1036,
           "num": 21
         },
         {
@@ -789,7 +807,7 @@
           "type": "tf",
           "text": "Die Dschungelwanderer haben eine zweite Reise geplant.",
           "answer": "falsch",
-          "audioStart": 632.92,
+          "audioStart": 1036,
           "num": 22
         },
         {
@@ -803,7 +821,7 @@
             "Ulrike Meyer"
           ],
           "answer": 2,
-          "audioStart": 861.6,
+          "audioStart": 1327,
           "num": 23
         },
         {
@@ -817,7 +835,7 @@
             "Ulrike Meyer"
           ],
           "answer": 1,
-          "audioStart": 861.6,
+          "audioStart": 1327,
           "num": 24
         },
         {
@@ -831,7 +849,7 @@
             "Ulrike Meyer"
           ],
           "answer": 1,
-          "audioStart": 861.6,
+          "audioStart": 1327,
           "num": 25
         },
         {
@@ -845,7 +863,7 @@
             "Ulrike Meyer"
           ],
           "answer": 2,
-          "audioStart": 861.6,
+          "audioStart": 1327,
           "num": 26
         },
         {
@@ -859,7 +877,7 @@
             "Ulrike Meyer"
           ],
           "answer": 0,
-          "audioStart": 861.6,
+          "audioStart": 1327,
           "num": 27
         },
         {
@@ -873,7 +891,7 @@
             "Ulrike Meyer"
           ],
           "answer": 2,
-          "audioStart": 861.6,
+          "audioStart": 1327,
           "num": 28
         },
         {
@@ -887,7 +905,7 @@
             "Ulrike Meyer"
           ],
           "answer": 1,
-          "audioStart": 861.6,
+          "audioStart": 1327,
           "num": 29
         },
         {
@@ -901,7 +919,7 @@
             "Ulrike Meyer"
           ],
           "answer": 2,
-          "audioStart": 861.6,
+          "audioStart": 1327,
           "num": 30
         }
       ]

@@ -1863,6 +1863,394 @@ const b1VocabData = [
     "defFr": "La notice de montage / d'assemblage.",
     "example": "Die beigefügte Montageanleitung macht Ihnen den Aufbau des Qualitätsmöbels einfach.",
     "tip": "Schlüsselwort für Aufgabe 27."
+  },
+  {
+    "id": "v-m5-t1-1",
+    "testId": "modellsatz-11",
+    "term": "der Schulstress",
+    "display": "der Schulstress (Sg.)",
+    "pos": "Nomen, m.",
+    "teil": 1,
+    "level": "B1",
+    "forms": [
+      "Schulstress",
+      "Schulstresses"
+    ],
+    "defDe": "Körperlicher und psychischer Druck, der durch schulische Anforderungen, Prüfungen oder Konflikte entsteht.",
+    "defAr": "التوتر المدرسي والضغط النفسي الناتج عن متطلبات المدرسة.",
+    "defFr": "Le stress scolaire lié aux exigences et examens.",
+    "example": "Schulstress ist ein Thema, das Eltern und Pädagogen gleichermaßen beschäftigt.",
+    "tip": "Zentrales Thema von Lesen Teil 1."
+  },
+  {
+    "id": "v-m5-t1-2",
+    "testId": "modellsatz-11",
+    "term": "überfordern",
+    "display": "überfordern (überforderte, hat überfordert)",
+    "pos": "Verb",
+    "teil": 1,
+    "level": "B1",
+    "forms": [
+      "überfordern",
+      "überfordert",
+      "überforderte",
+      "überfordert"
+    ],
+    "defDe": "Mehr Leistung, Kraft oder Wissen von jemandem verlangen, als er erbringen kann.",
+    "defAr": "يرهق، يحمّل فوق الطاقة.",
+    "defFr": "Dépasser les capacités de quelqu'un, surmener.",
+    "example": "Negativer Stress entsteht, wenn Kinder mit Situationen konfrontiert werden, die sie überfordern.",
+    "tip": "Wichtiges B1-Verb für Schule und Beruf."
+  },
+  {
+    "id": "v-m5-t1-3",
+    "testId": "modellsatz-11",
+    "term": "das Mobbing",
+    "display": "das Mobbing (Sg.)",
+    "pos": "Nomen, n.",
+    "teil": 1,
+    "level": "B1",
+    "forms": [
+      "Mobbing",
+      "Mobbings"
+    ],
+    "defDe": "Wiederholtes, gezieltes Schikanieren, Ausgrenzen oder Belästigen einer Person in Schule oder Arbeit.",
+    "defAr": "التنمر أو المضايقة النفسية المتكررة.",
+    "defFr": "Le harcèlement moral ou scolaire (mobbing).",
+    "example": "Großen Stress bedeutet es für ein Kind, wenn es sich gegen Mitschüler nicht durchsetzen kann (Mobbing).",
+    "tip": "Schlüsselwort für Aufgabe 3."
+  },
+  {
+    "id": "v-m5-t1-4",
+    "testId": "modellsatz-11",
+    "term": "der Außenseiter",
+    "display": "der Außenseiter, -",
+    "pos": "Nomen, m.",
+    "teil": 1,
+    "level": "B1",
+    "forms": [
+      "Außenseiter",
+      "Außenseiters",
+      "Außenseiter"
+    ],
+    "defDe": "Eine Person, die nicht in eine soziale Gemeinschaft oder Gruppe integriert ist und am Rande steht.",
+    "defAr": "المنعزل، المهمش في جماعة أو صف.",
+    "defFr": "L'exclu, le marginal dans un groupe.",
+    "example": "Es bedeutet großen Stress, wenn ein Kind von Mitschülern zum Außenseiter gemacht wird.",
+    "tip": "Wichtiger Begriff für soziale Beziehungen."
+  },
+  {
+    "id": "v-m5-t1-5",
+    "testId": "modellsatz-11",
+    "term": "der Förderunterricht",
+    "display": "der Förderunterricht, -e",
+    "pos": "Nomen, m.",
+    "teil": 1,
+    "level": "B1",
+    "forms": [
+      "Förderunterricht",
+      "Förderunterrichts",
+      "Förderunterrichte"
+    ],
+    "defDe": "Zusätzlicher Schulunterricht zur Unterstützung von Schülern mit Lernschwierigkeiten.",
+    "defAr": "دروس الدعم والتقوية المدرسية.",
+    "defFr": "Les cours de soutien scolaire / de rattrapage.",
+    "example": "Eltern suchen nach Hilfsmöglichkeiten wie Förderunterricht oder Nachhilfe.",
+    "tip": "Häufiges B1-Wort im Bildungsbereich."
+  },
+  {
+    "id": "v-m5-t2-1",
+    "testId": "modellsatz-11",
+    "term": "die Kinderjury",
+    "display": "die Kinderjury, -s",
+    "pos": "Nomen, f.",
+    "teil": 2,
+    "level": "B1",
+    "forms": [
+      "Kinderjury",
+      "Kinderjurys"
+    ],
+    "defDe": "Eine Gruppe von Kindern, die als offizielle Preisrichter Filme oder Bücher bewerten.",
+    "defAr": "لجنة تحكيم مشكّلة من الأطفال.",
+    "defFr": "Le jury d'enfants (dans un festival).",
+    "example": "Genau das zeichnet die Kinderjury Kino-TV beim großen Festival für Kinder aus.",
+    "tip": "Schlüsselbegriff für Teil 2a (Aufgabe 7-9)."
+  },
+  {
+    "id": "v-m5-t2-2",
+    "testId": "modellsatz-11",
+    "term": "begehrt",
+    "display": "begehrt (begehrter, am begehrtesten)",
+    "pos": "Adjektiv",
+    "teil": 2,
+    "level": "B1",
+    "forms": [
+      "begehrt",
+      "begehrter",
+      "begehrteste"
+    ],
+    "defDe": "Von sehr vielen Menschen gewünscht, geschätzt oder angestrebt.",
+    "defAr": "مرغوب ومطلوب بشدة، محط الأنظار.",
+    "defFr": "Très convoité, très recherché.",
+    "example": "Sie alle hoffen auf den begehrten GOLDENEN SPATZEN.",
+    "tip": "Häufiges B1-Prüfungsadjektiv."
+  },
+  {
+    "id": "v-m5-t2-3",
+    "testId": "modellsatz-11",
+    "term": "der Umzug",
+    "display": "der Umzug, -züge",
+    "pos": "Nomen, m.",
+    "teil": 2,
+    "level": "B1",
+    "forms": [
+      "Umzug",
+      "Umzugs",
+      "Umzüge"
+    ],
+    "defDe": "1. Festlicher Zug / Parade von Menschen durch Straßen. 2. Wohnungswechsel.",
+    "defAr": "1. الموكب أو الاستعراض الاحتفالي في الشوارع. 2. الانتقال إلى مسكن جديد.",
+    "defFr": "1. Le défilé, la parade festive. 2. Le déménagement.",
+    "example": "Der traditionelle Umzug des Multikulti-Festes zog mit Tänzern durch Berlin.",
+    "tip": "Wichtig: Hier im Sinne von 'Parade / Festzug' (Teil 2b)."
+  },
+  {
+    "id": "v-m5-t2-4",
+    "testId": "modellsatz-11",
+    "term": "das Spektakel",
+    "display": "das Spektakel, -",
+    "pos": "Nomen, n.",
+    "teil": 2,
+    "level": "B1",
+    "forms": [
+      "Spektakel",
+      "Spektakels"
+    ],
+    "defDe": "Ein außergewöhnliches, farbenfrohes und beeindruckendes Schauspiel oder Ereignis.",
+    "defAr": "استعراض مبهر أو مشهد احتفالي رائع.",
+    "defFr": "Le spectacle grandiose, l'événement impressionnant.",
+    "example": "Rund 700 000 Besucher ließen sich das Spektakel nicht entgehen.",
+    "tip": "Oft im Zusammenhang mit Kulturfesten."
+  },
+  {
+    "id": "v-m5-t3-1",
+    "testId": "modellsatz-11",
+    "term": "der Nebenverdienst",
+    "display": "der Nebenverdienst, -e",
+    "pos": "Nomen, m.",
+    "teil": 3,
+    "level": "B1",
+    "forms": [
+      "Nebenverdienst",
+      "Nebenverdiensts",
+      "Nebenverdienste"
+    ],
+    "defDe": "Geld, das man durch eine zusätzliche Nebentätigkeit neben Beruf, Schule oder Studium verdient.",
+    "defAr": "الدخل الإضافي أو الكسب الثانوي.",
+    "defFr": "Le revenu d'appoint, le gain accessoire.",
+    "example": "Prima Nebenverdienst für Studenten, Rentner und Schüler ab 13 Jahre.",
+    "tip": "Schlüsselwort für Jobanzeigen (Aufgabe 19)."
+  },
+  {
+    "id": "v-m5-t3-2",
+    "testId": "modellsatz-11",
+    "term": "der Umsteiger",
+    "display": "der Umsteiger, -",
+    "pos": "Nomen, m.",
+    "teil": 3,
+    "level": "B1",
+    "forms": [
+      "Umsteiger",
+      "Umsteigers",
+      "Umsteiger"
+    ],
+    "defDe": "Eine Person, die ihren bisherigen Beruf aufgibt und in ein völlig neues Berufsfeld wechselt.",
+    "defAr": "الراغب في تغيير مهنته أو مساره الوظيفي.",
+    "defFr": "La personne en reconversion professionnelle.",
+    "example": "Mit Tipps und Hinweisen zur Berufswahl und für „Umsteiger“.",
+    "tip": "Schlüsselwort für Aufgabe 18 (Klio sucht Orientierung)."
+  },
+  {
+    "id": "v-m5-t3-3",
+    "testId": "modellsatz-11",
+    "term": "der Vorleser",
+    "display": "der Vorleser, -",
+    "pos": "Nomen, m.",
+    "teil": 3,
+    "level": "B1",
+    "forms": [
+      "Vorleser",
+      "Vorlesers",
+      "Vorleser"
+    ],
+    "defDe": "Jemand, der anderen Personen (z. B. sehbehinderten Senioren oder Kindern) laut aus Büchern vorliest.",
+    "defAr": "القارئ بصوت مسموع لغيره (مثل المسنين ضعاف البصر).",
+    "defFr": "Le lecteur à haute voix (pour personnes malvoyantes).",
+    "example": "Vorleser gesucht von Seniorenheimen und privat für ältere Leute.",
+    "tip": "Schlüsselwort für Aufgabe 13 (David)."
+  },
+  {
+    "id": "v-m5-t4-1",
+    "testId": "modellsatz-11",
+    "term": "die Molekularküche",
+    "display": "die Molekularküche (Sg.)",
+    "pos": "Nomen, f.",
+    "teil": 4,
+    "level": "B1",
+    "forms": [
+      "Molekularküche",
+      "Molekularküchen"
+    ],
+    "defDe": "Eine moderne Kochkunst, die chemische und physikalische Prozesse bei der Zubereitung nutzt.",
+    "defAr": "المطبخ الجزيئي (فن الطهي بالاعتماد على التفاعلات الكيميائية والفيزيائية).",
+    "defFr": "La cuisine moléculaire.",
+    "example": "Ich verstehe nicht, warum es so lange gedauert hat, bis wir auf die molekulare Küche gekommen sind.",
+    "tip": "Hauptthema von Lesen Teil 4."
+  },
+  {
+    "id": "v-m5-t4-2",
+    "testId": "modellsatz-11",
+    "term": "veranschaulichen",
+    "display": "veranschaulichen (veranschaulichte, hat veranschaulicht)",
+    "pos": "Verb",
+    "teil": 4,
+    "level": "B1",
+    "forms": [
+      "veranschaulichen",
+      "veranschaulicht",
+      "veranschaulichte",
+      "veranschaulicht"
+    ],
+    "defDe": "Einen abstrakten Sachverhalt durch Beispiele, Bilder oder Vergleiche anschaulich und verständlich machen.",
+    "defAr": "يوضح، يجسد بالأمثلة والشواهد.",
+    "defFr": "Illustrer, rendre concret et compréhensible.",
+    "example": "Das veranschaulicht die von Molekularköchen entwickelte Vakuum-Methode.",
+    "tip": "Wichtiges akademisches Verb auf B1/B2-Niveau."
+  },
+  {
+    "id": "v-m5-t4-3",
+    "testId": "modellsatz-11",
+    "term": "die Delikatesse",
+    "display": "die Delikatesse, -n",
+    "pos": "Nomen, f.",
+    "teil": 4,
+    "level": "B1",
+    "forms": [
+      "Delikatesse",
+      "Delikatessen"
+    ],
+    "defDe": "Eine exquisite, besonders feine und wohlschmeckende Speise.",
+    "defAr": "طعام شهي فاخر ونادر.",
+    "defFr": "Le mets délicat, la friandise raffinée.",
+    "example": "Als Köchin fasziniert mich die Idee, um wie viele Delikatessen ich meine Speisekarte erweitern kann.",
+    "tip": "Wortschatz für Gastronomie und Genuss."
+  },
+  {
+    "id": "v-m5-t5-1",
+    "testId": "modellsatz-11",
+    "term": "die Pflanzenpflege",
+    "display": "die Pflanzenpflege (Sg.)",
+    "pos": "Nomen, f.",
+    "teil": 5,
+    "level": "B1",
+    "forms": [
+      "Pflanzenpflege"
+    ],
+    "defDe": "Die Gesamtheit aller Maßnahmen wie Gießen, Düngen und Schneiden, um Pflanzen gesund zu halten.",
+    "defAr": "رعاية النباتات المنزلية والاهتمام بها.",
+    "defFr": "L'entretien des plantes.",
+    "example": "Pflanzenpflege: Tipps vom Euroflorist Blumenversand.",
+    "tip": "Titel und Thema von Lesen Teil 5."
+  },
+  {
+    "id": "v-m5-t5-2",
+    "testId": "modellsatz-11",
+    "term": "düngen",
+    "display": "düngen (düngte, hat gedüngt)",
+    "pos": "Verb",
+    "teil": 5,
+    "level": "B1",
+    "forms": [
+      "düngen",
+      "düngt",
+      "düngte",
+      "gedüngt"
+    ],
+    "defDe": "Den Boden oder die Pflanzerde mit Nährstoffen anreichern, um das Pflanzenwachstum zu fördern.",
+    "defAr": "يسمّد الأرض أو النبات.",
+    "defFr": "Fertiliser, apporter de l'engrais.",
+    "example": "Blütenpflanzen sollten während des Sommers bei jedem Gießen gedüngt werden.",
+    "tip": "Schlüsselwort für Aufgabe 30."
+  },
+  {
+    "id": "v-m5-t5-3",
+    "testId": "modellsatz-11",
+    "term": "die Topferde",
+    "display": "die Topferde (Sg.)",
+    "pos": "Nomen, f.",
+    "teil": 5,
+    "level": "B1",
+    "forms": [
+      "Topferde"
+    ],
+    "defDe": "Mit Nährstoffen angereicherte Erde für Pflanzen in Blumentöpfen.",
+    "defAr": "تربة الأصص أو التربة الزراعية المخصصة للزهور المنزلية.",
+    "defFr": "Le terreau pour plantes en pot.",
+    "example": "Prüfen Sie die Topferde, um festzustellen, ob die Pflanzen trocken sind.",
+    "tip": "Wichtig für Aufgabe 29."
+  },
+  {
+    "id": "v-m5-t6-1",
+    "testId": "modellsatz-11",
+    "term": "die Heilpflanze",
+    "display": "die Heilpflanze, -n",
+    "pos": "Nomen, f.",
+    "teil": 6,
+    "level": "B1",
+    "forms": [
+      "Heilpflanze",
+      "Heilpflanzen"
+    ],
+    "defDe": "Eine Pflanze, die wegen ihrer heilenden oder lindernden Inhaltsstoffe in der Medizin verwendet wird.",
+    "defAr": "النبتة أو العشبة الطبية العلاجية.",
+    "defFr": "La plante médicinale.",
+    "example": "Natürliche Heilpflanzen sind oft milder bei Hautrötungen.",
+    "tip": "Thema in Hören Teil 1 (Aufgabe 1)."
+  },
+  {
+    "id": "v-m5-t6-2",
+    "testId": "modellsatz-11",
+    "term": "das Klischee",
+    "display": "das Klischee, -s",
+    "pos": "Nomen, n.",
+    "teil": 6,
+    "level": "B1",
+    "forms": [
+      "Klischee",
+      "Klischees"
+    ],
+    "defDe": "Eine überkommene, stereotype Vorstellung oder vorgefasste Meinung über Personen oder Gruppen.",
+    "defAr": "الصورة النمطية، الكليشيه المسبق.",
+    "defFr": "Le cliché, l'idée reçue stéréotypée.",
+    "example": "Gibt es typische Männer- oder Frauenberufe – Klischee oder Wahrheit?",
+    "tip": "Zentraler Diskussionsbegriff in Hören Teil 4."
+  },
+  {
+    "id": "v-m5-t6-3",
+    "testId": "modellsatz-11",
+    "term": "die Geschwindigkeitswahrnehmung",
+    "display": "die Geschwindigkeitswahrnehmung, -en",
+    "pos": "Nomen, f.",
+    "teil": 6,
+    "level": "B1",
+    "forms": [
+      "Geschwindigkeitswahrnehmung"
+    ],
+    "defDe": "Die sensorische Fähigkeit, Geschwindigkeiten von sich bewegenden Objekten richtig einzuschätzen.",
+    "defAr": "إدراك السرعة وتقديرها حركياً وبصرياً.",
+    "defFr": "La perception et l'évaluation de la vitesse.",
+    "example": "Frauen haben angeblich keine gute Geschwindigkeitswahrnehmung.",
+    "tip": "Schlüsselbegriff in Hören Teil 4 (Aufgabe 26)."
   }
 ];
 

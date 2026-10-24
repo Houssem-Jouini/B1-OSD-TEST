@@ -1,0 +1,5 @@
+Beispiel = 0 to 1m and 17s
+teil 1 = 1m and 17s
+teil 2 = 12m and 49s
+teil 3 = 17m and 16s
+teil 4 = 22m and 7s
