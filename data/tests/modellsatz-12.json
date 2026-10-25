@@ -197,58 +197,79 @@
       "example": {
         "text": "Herr Wieland plant eine Reise nach Afrika und möchte wissen, was er zum Schutz seiner Gesundheit tun muss.",
         "match": "C",
-        "answer": "C"
+        "answer": "C",
+        "ad": "C"
       },
       "adsFormatted": [
         {
-          "id": "A",
-          "title": "Schönheitsfarm Bella",
-          "text": "Verwöhnprogramme für Damen\nAroma-Massagen · Hallenbad · Sonnenterrasse · Sauna\nFeine leichte Küche zum Abnehmen. Fitnessangebote.\nZeit für Ruhe in entspannter Atmosphäre."
+          "code": "A",
+          "tagPos": "left",
+          "hasPin": true,
+          "cardClass": "anzeige-style-a",
+          "html": "<div class=\"anzeige-headline\">Schönheitsfarm Bella</div><div class=\"anzeige-sub\">Verwöhnprogramme für Damen</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">Aroma-Massagen · Hallenbad · Sonnenterrasse · Sauna<br>Feine leichte Küche zum Abnehmen · Fitnessangebote.<br>Zeit für Ruhe in entspannter Atmosphäre.</div>"
         },
         {
-          "id": "B",
-          "title": "Reiseprogramm für Herzkranke",
-          "text": "Zum Radwandern nach Kreta oder zum Golfen nach Mallorca?\nMedizinische Betreuung rund um die Uhr.\nGymnastik, Entspannungsübungen und Herz-Seminare.\nDen Katalog «Reisen für Herz und Kreislauf» anfordern bei: Deutsche Herzstiftung e.V., Vogtstraße 50, 60322 Frankfurt / Main"
+          "code": "B",
+          "tagPos": "right",
+          "hasPin": true,
+          "cardClass": "anzeige-style-b",
+          "html": "<div class=\"anzeige-headline\">Reiseprogramm für Herzkranke</div><div class=\"anzeige-sub\">Zum Radwandern nach Kreta oder Golfen nach Mallorca?</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">Medizinische Betreuung rund um die Uhr.<br>Gymnastik, Entspannungsübungen und Herz-Seminare.<br>Katalog anfordern bei: Deutsche Herzstiftung e.V., Vogtstraße 50, 60322 Frankfurt / Main</div>"
         },
         {
-          "id": "C",
-          "title": "Optimale Vorbereitung auf Fernreisen",
-          "text": "Welche Impfungen für welches Land? Welche Medikamente mitnehmen? Wo gibt es spezielle Informationen?\nwww.medizin.at/Schwerpunkte/SP_Reise/reise.htm"
+          "code": "C",
+          "tagPos": "left",
+          "hasPin": true,
+          "cardClass": "anzeige-style-c",
+          "html": "<div class=\"anzeige-headline\">Optimale Vorbereitung auf Fernreisen</div><div class=\"anzeige-sub\">Reisemedizin & Impfberatung</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">Welche Impfungen für welches Land? Welche Medikamente mitnehmen? Wo gibt es spezielle Informationen?<br><strong>www.medizin.at/Schwerpunkte/SP_Reise/reise.htm</strong></div>"
         },
         {
-          "id": "D",
-          "title": "Deutsche Krebshilfe",
-          "text": "Warum jedes Jahr 2.000 Kinder an Krebs erkranken, ist bis heute nicht geklärt. Sicher ist, dass wir Ihre aktive Hilfe brauchen, um Diagnose, Behandlung und Forschung ständig weiterentwickeln und verbessern zu können. Damit unsere Kleinen eine große Zukunft haben.\nDeutsche Krebshilfe 90 90 93"
+          "code": "D",
+          "tagPos": "right",
+          "hasPin": true,
+          "cardClass": "anzeige-style-d",
+          "html": "<div class=\"anzeige-headline\">Deutsche Krebshilfe</div><div class=\"anzeige-sub\">Hilfe für krebskranke Kinder</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">Warum jedes Jahr 2.000 Kinder an Krebs erkranken, ist bis heute nicht geklärt. Sicher ist, dass wir Ihre aktive Hilfe brauchen, um Diagnose, Behandlung und Forschung ständig weiterzuentwickeln.<br><strong>Deutsche Krebshilfe 90 90 93</strong></div>"
         },
         {
-          "id": "E",
-          "title": "Das ELTERN-Buch „Gesunde Kinder – Kinderkrankheiten von A - Z“",
-          "text": "Es enthält über 200 Stichwörter zu Krankheiten und gesundheitlichen Problemen von Kindern. Ein gesonderter Teil bietet wichtige Informationen für Notfälle – Erste Hilfe.\nNaumann & Göbel Verlag. Im Buchhandel und in Kaufhäusern. (Empfohlener Preis: 18 Euro)"
+          "code": "E",
+          "tagPos": "left",
+          "hasPin": true,
+          "cardClass": "anzeige-style-e",
+          "html": "<div class=\"anzeige-headline\">Das ELTERN-Buch</div><div class=\"anzeige-sub\">„Gesunde Kinder – Kinderkrankheiten von A - Z“</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">Über 200 Stichwörter zu Krankheiten und Problemen von Kindern. Gesonderter Teil mit Notfall- und Erste-Hilfe-Informationen.<br>Naumann & Göbel Verlag · Buchhandel (Empfohlener Preis: 18 Euro)</div>"
         },
         {
-          "id": "F",
-          "title": "Heilklima: Das Allgäu",
-          "text": "Das Allgäu hat 14 anerkannte Kurorte, sieben davon sind „Heilklimatische Kurorte“. Temperaturreize, Sonne, Licht und Bewegung. Zur Klimatherapie gehören... Sie hat sich vor allem bei Erkrankungen von Atemwegen und Haut bewährt.\nMehr Informationen über Kuren beim Tourismusverband Allgäu / Bayerisch-Schwaben, Tel.: 0821 / 33335"
+          "code": "F",
+          "tagPos": "right",
+          "hasPin": true,
+          "cardClass": "anzeige-style-f",
+          "html": "<div class=\"anzeige-headline\">Heilklima: Das Allgäu</div><div class=\"anzeige-sub\">14 anerkannte Kurorte, 7 heilklimatische Kurorte</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">Temperaturreize, Sonne, Licht und Bewegung. Bewährt bei Atemwegs- und Hauterkrankungen.<br>Infos: Tourismusverband Allgäu / Bayerisch-Schwaben, Tel.: 0821 / 33335</div>"
         },
         {
-          "id": "G",
-          "title": "Tempur Matratzen und Schlafkissen",
-          "text": "Für die Raumfahrt entwickelt – gegen Rückenschmerzen bewährt. Fördern die Durchblutung – sorgen für ruhigen, entspannten Schlaf. Fühlen Sie den Unterschied zu Hause – testen Sie die Tempur Matratzen 30 Nächte unverbindlich. Fragen Sie Ihren Arzt, Apotheker oder Physiotherapeuten.\nTempur Gefinex GmbH, Rote Erde 6, 33803 Steinhagen"
+          "code": "G",
+          "tagPos": "left",
+          "hasPin": true,
+          "cardClass": "anzeige-style-g",
+          "html": "<div class=\"anzeige-headline\">Tempur Matratzen & Schlafkissen</div><div class=\"anzeige-sub\">Für die Raumfahrt entwickelt – gegen Rückenschmerzen bewährt</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">Fördern die Durchblutung – sorgen für ruhigen Schlaf. Testen Sie 30 Nächte unverbindlich zu Hause.<br>Tempur Gefinex GmbH, Rote Erde 6, 33803 Steinhagen</div>"
         },
         {
-          "id": "H",
-          "title": "Schlauer Knopf: der Lexikon-Button von GesundheitPro.de",
-          "text": "Drei neue Lexika warten im Internet auf Sie:\n• das Wörterbuch medizinischer Fachausdrücke\n• das Fremdwörterbuch\n• das Universalwörterbuch\nKostenlose Informationen in Sekundenschnelle! Schauen Sie mal rein: www.GesundheitPro.de"
+          "code": "H",
+          "tagPos": "right",
+          "hasPin": true,
+          "cardClass": "anzeige-style-h",
+          "html": "<div class=\"anzeige-headline\">Schlauer Knopf: GesundheitPro.de</div><div class=\"anzeige-sub\">Drei neue Online-Lexika</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">• Wörterbuch medizinischer Fachausdrücke<br>• Fremdwörterbuch · Universalwörterbuch<br>Kostenlose Informationen in Sekundenschnelle: <strong>www.GesundheitPro.de</strong></div>"
         },
         {
-          "id": "I",
-          "title": "Apotheken-Aktionswochen zur Raucherentwöhnung",
-          "text": "Dem blauen Dunst Ade zu sagen, ist nicht ganz einfach. TROTZDEM: Jeder kann es schaffen! Auch Sie! Dabei können wir Ihnen helfen. Nutzen Sie unsere Aktionswochen zur Raucherentwöhnung! Tipps, wie man Rauchen reduziert und von der Zigarette loskommt.\nInformationen in Ihrer Apotheke."
+          "code": "I",
+          "tagPos": "left",
+          "hasPin": true,
+          "cardClass": "anzeige-style-i",
+          "html": "<div class=\"anzeige-headline\">Raucherentwöhnung in der Apotheke</div><div class=\"anzeige-sub\">Apotheken-Aktionswochen</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">Dem blauen Dunst Ade sagen: Jeder kann es schaffen! Nutzen Sie unsere Aktionswochen mit bewährten Tipps zur Reduzierung und Entwöhnung.<br>Informationen in Ihrer Apotheke.</div>"
         },
         {
-          "id": "J",
-          "title": "Hörpille Akustin",
-          "text": "Aktiver hören! Hörzellen stärken! Nebengeräusche verringern! Mehr Sicherheit. Hilfe bei altersbedingten Hörproblemen. Rezeptfrei in allen Apotheken."
+          "code": "J",
+          "tagPos": "right",
+          "hasPin": true,
+          "cardClass": "anzeige-style-j",
+          "html": "<div class=\"anzeige-headline\">Hörpille Akustin</div><div class=\"anzeige-sub\">Hilfe bei altersbedingten Hörproblemen</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">Aktiver hören! Hörzellen stärken! Nebengeräusche verringern! Mehr Sicherheit.<br>Rezeptfrei in allen Apotheken erhältlich.</div>"
         }
       ],
       "questions": [

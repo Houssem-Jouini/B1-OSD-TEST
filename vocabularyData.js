@@ -2607,6 +2607,365 @@ const b1VocabData = [
     "defFr": "L'autonomie et l'indépendance dans la vie quotidienne.",
     "example": "Die Kinder müssen ausziehen und lernen, selbstständig zu sein.",
     "tip": "Schlussargument in Hören Teil 4 (Aufgabe 30)."
+  },
+  {
+    "id": "v-m7-t1-1",
+    "testId": "modellsatz-13",
+    "term": "das Informationszeitalter",
+    "display": "das Informationszeitalter (Sg.)",
+    "pos": "Nomen, n.",
+    "teil": 1,
+    "level": "B1",
+    "forms": [
+      "Informationszeitalter",
+      "Informationszeitalters"
+    ],
+    "defDe": "Die gegenwärtige Epoche, die durch die Allgegenwart von digitalen Daten, Computern und weltweiter Vernetzung geprägt ist.",
+    "defAr": "عصر المعلومات والتكنولوجيا الرقمية والاتصالات العالمية.",
+    "defFr": "L'ère de l'information caractérisée par la prédominance du numérique et des réseaux.",
+    "example": "Wir befinden uns im Informationszeitalter und hinterlassen überall Spuren im Netz.",
+    "tip": "Schlüsselbegriff in Lesen Teil 1."
+  },
+  {
+    "id": "v-m7-t1-2",
+    "testId": "modellsatz-13",
+    "term": "der Vormarsch",
+    "display": "auf dem Vormarsch sein",
+    "pos": "Redewendung",
+    "teil": 1,
+    "level": "B1",
+    "forms": [
+      "auf dem Vormarsch"
+    ],
+    "defDe": "Sich rasch ausbreiten, an Bedeutung und Einfluss gewinnen.",
+    "defAr": "في تقدم وانتشار مستمر، يكتسب نفوذاً ورواجاً متزايداً.",
+    "defFr": "Être en plein essor, gagner rapidement du terrain.",
+    "example": "Der gläserne Mensch ist auf dem Vormarsch.",
+    "tip": "Häufige Redewendung in B1-Lesetexten."
+  },
+  {
+    "id": "v-m7-t1-3",
+    "testId": "modellsatz-13",
+    "term": "die Meinungsfreiheit",
+    "display": "die Meinungsfreiheit (Sg.)",
+    "pos": "Nomen, f.",
+    "teil": 1,
+    "level": "B1",
+    "forms": [
+      "Meinungsfreiheit"
+    ],
+    "defDe": "Das verfassungsmäßige Grundrecht, die eigene Meinung in Wort, Schrift und Bild frei zu äußern.",
+    "defAr": "حرية الرأي والتعبير المكفولة دستورياً.",
+    "defFr": "La liberté d'expression et d'opinion garantie par la loi.",
+    "example": "Dem Gericht war die Meinungsfreiheit der Schüler wichtiger als die Einwände der Lehrerin.",
+    "tip": "Zentraler gesellschaftspolitischer Begriff."
+  },
+  {
+    "id": "v-m7-t1-4",
+    "testId": "modellsatz-13",
+    "term": "das Konsumverhalten",
+    "display": "das Konsumverhalten (Sg.)",
+    "pos": "Nomen, n.",
+    "teil": 1,
+    "level": "B1",
+    "forms": [
+      "Konsumverhalten",
+      "Konsumverhaltens"
+    ],
+    "defDe": "Die Gewohnheiten und Verhaltensweisen der Verbraucher beim Kauf und der Nutzung von Gütern und Dienstleistungen.",
+    "defAr": "السلوك الاستهلاكي والأنماط الشرائية لدى المستهلكين.",
+    "defFr": "Le comportement de consommation et les habitudes d'achat des clients.",
+    "example": "Kundenkarten erfassen detailliert das Konsumverhalten der Kunden.",
+    "tip": "Wichtig in Lesen Teil 1 (Aufgabe 5)."
+  },
+  {
+    "id": "v-m7-t2-1",
+    "testId": "modellsatz-13",
+    "term": "das Lebenskonzept",
+    "display": "das Lebenskonzept, -e",
+    "pos": "Nomen, n.",
+    "teil": 2,
+    "level": "B1",
+    "forms": [
+      "Lebenskonzept",
+      "Lebenskonzepte",
+      "Lebenskonzepts"
+    ],
+    "defDe": "Der persönliche Plan und die Wertvorstellungen, nach denen jemand sein Leben gestaltet.",
+    "defAr": "الخطة الحياتية أو نمط الحياة والخيارات الشخصية التي يحددها الفرد لنفسه.",
+    "defFr": "Le projet de vie et les valeurs personnelles qui guident l'existence.",
+    "example": "Bewerber überlegen genau, ob eine neue Stelle in ihr Lebenskonzept passt.",
+    "tip": "Hauptmotiv in Lesen Teil 2a (Aufgabe 7)."
+  },
+  {
+    "id": "v-m7-t2-2",
+    "testId": "modellsatz-13",
+    "term": "die Work-Life-Balance",
+    "display": "die Work-Life-Balance (Sg.)",
+    "pos": "Nomen, f.",
+    "teil": 2,
+    "level": "B1",
+    "forms": [
+      "Work-Life-Balance"
+    ],
+    "defDe": "Ein ausgewogenes und gesundes Verhältnis zwischen beruflicher Arbeitsbelastung und privater Freizeit.",
+    "defAr": "التوازن الصحي بين متطلبات العمل ومشاغل الحياة الشخصية والراحة.",
+    "defFr": "L'équilibre sain entre vie professionnelle et vie privée.",
+    "example": "Eine ausgeglichene Work-Life-Balance ist vielen jungen Menschen wichtiger als ein hohes Gehalt.",
+    "tip": "Moderne Arbeitswelt in B1."
+  },
+  {
+    "id": "v-m7-t2-3",
+    "testId": "modellsatz-13",
+    "term": "die Mitbestimmung",
+    "display": "die Mitbestimmung, -en",
+    "pos": "Nomen, f.",
+    "teil": 2,
+    "level": "B1",
+    "forms": [
+      "Mitbestimmung",
+      "Mitbestimmungen"
+    ],
+    "defDe": "Das Recht und die Möglichkeit, bei betrieblichen oder gesellschaftlichen Entscheidungen mitzusprechen und mitzuentscheiden.",
+    "defAr": "حق المشاركة في اتخاذ القرار وإبداء الرأي المؤسسي.",
+    "defFr": "La participation aux décisions et la cogestion.",
+    "example": "Auf Mitsprache und Mitbestimmung legen die Beschäftigten heute großen Wert.",
+    "tip": "Schlüsselwort für moderne Arbeitsverhältnisse."
+  },
+  {
+    "id": "v-m7-t2-4",
+    "testId": "modellsatz-13",
+    "term": "das Jubiläumsjahr",
+    "display": "das Jubiläumsjahr, -e",
+    "pos": "Nomen, n.",
+    "teil": 2,
+    "level": "B1",
+    "forms": [
+      "Jubiläumsjahr",
+      "Jubiläumsjahre",
+      "Jubiläumsjahres"
+    ],
+    "defDe": "Das Jahr, in dem an ein besonderes historisches Ereignis oder die Wiederkehr eines Geburtstages feierlich erinnert wird.",
+    "defAr": "عام اليوبيل أو السنة التذكارية للاحتفال بمرور ذكرى هامة.",
+    "defFr": "L'année jubilaire commémorant un anniversaire marquant.",
+    "example": "Bayreuth feiert 2013 das Wagner-Jubiläumsjahr mit Festspielen.",
+    "tip": "Kulturwort in Lesen Teil 2b."
+  },
+  {
+    "id": "v-m7-t3-1",
+    "testId": "modellsatz-13",
+    "term": "der Nachhilfeunterricht",
+    "display": "der Nachhilfeunterricht (Sg.)",
+    "pos": "Nomen, m.",
+    "teil": 3,
+    "level": "B1",
+    "forms": [
+      "Nachhilfeunterricht",
+      "Nachhilfe"
+    ],
+    "defDe": "Zusätzlicher privater Unterricht zur Unterstützung von Schülern bei Verständnisschwierigkeiten in einzelnen Schulfächern.",
+    "defAr": "دروس الدعم والتقوية الإضافية للطلاب ذوي الصعوبات الدراسية.",
+    "defFr": "Les cours de soutien scolaire et de rattrapage.",
+    "example": "Nachhilfeunterricht hilft Schülern mit Rechtschreib- und Grammatikproblemen.",
+    "tip": "Passende Anzeige H in Lesen Teil 3."
+  },
+  {
+    "id": "v-m7-t3-2",
+    "testId": "modellsatz-13",
+    "term": "der Fernunterricht",
+    "display": "der Fernunterricht (Sg.)",
+    "pos": "Nomen, m.",
+    "teil": 3,
+    "level": "B1",
+    "forms": [
+      "Fernunterricht",
+      "Fernunterrichts"
+    ],
+    "defDe": "Unterricht, bei dem Lehrende und Lernende räumlich getrennt sind und der über Lehrmaterialien und digitale Medien stattfindet.",
+    "defAr": "التعليم عن بعد والدراسة المنزلية المنظمة بالمراسلة أو عبر الإنترنت.",
+    "defFr": "L'enseignement à distance par correspondance ou numérique.",
+    "example": "Weiterbildung durch Fernunterricht ermöglicht den Schulabschluss von zu Hause.",
+    "tip": "Anzeige D in Lesen Teil 3."
+  },
+  {
+    "id": "v-m7-t4-1",
+    "testId": "modellsatz-13",
+    "term": "die Kernfusion",
+    "display": "die Kernfusion, -en",
+    "pos": "Nomen, f.",
+    "teil": 4,
+    "level": "B1",
+    "forms": [
+      "Kernfusion",
+      "Kernfusionen"
+    ],
+    "defDe": "Die Verschmelzung leichter Atomkerne zu schwereren Kernen unter Freisetzung enormer Energiemengen.",
+    "defAr": "الاندماج النووي لإنتاج طاقة هائلة من اتحاد الذرات.",
+    "defFr": "La fusion thermonucléaire dégageant une énergie colossale.",
+    "example": "Die Erforschung der Kernfusion als Zukunftsenergie macht weltweit Fortschritte.",
+    "tip": "Lesen Teil 4 (Aufgabe 20)."
+  },
+  {
+    "id": "v-m7-t4-2",
+    "testId": "modellsatz-13",
+    "term": "die Energiewende",
+    "display": "die Energiewende (Sg.)",
+    "pos": "Nomen, f.",
+    "teil": 4,
+    "level": "B1",
+    "forms": [
+      "Energiewende"
+    ],
+    "defDe": "Der grundlegende Übergang von fossilen und nuklearen Brennstoffen hin zu erneuerbaren Energien wie Sonne und Wind.",
+    "defAr": "التحول الطاقي والانتقال الشامل إلى الطاقات المتجددة والنظيفة.",
+    "defFr": "La transition énergétique vers des sources d'énergie renouvelables.",
+    "example": "Die Energiewende fordert Politik, Wirtschaft und Verbraucher heraus.",
+    "tip": "Zentraler Begriff in der deutschen Umwelt- und Energiepolitik."
+  },
+  {
+    "id": "v-m7-t4-3",
+    "testId": "modellsatz-13",
+    "term": "der Atomausstieg",
+    "display": "der Atomausstieg (Sg.)",
+    "pos": "Nomen, m.",
+    "teil": 4,
+    "level": "B1",
+    "forms": [
+      "Atomausstieg",
+      "Kernenergieausstieg"
+    ],
+    "defDe": "Die geplante und gesetzliche Stilllegung aller Kernkraftwerke zur Stromerzeugung.",
+    "defAr": "التخلي التدريجي والنهائي عن الطاقة النووية وإغلاق المفاعلات.",
+    "defFr": "La sortie programmée du nucléaire civil.",
+    "example": "Wir sollten so schnell wie möglich den Ausstieg aus der Kernenergie schaffen.",
+    "tip": "Forderung von Umweltschützern in Lesen Teil 4."
+  },
+  {
+    "id": "v-m7-t5-1",
+    "testId": "modellsatz-13",
+    "term": "der Knigge",
+    "display": "der Badeknigge / Knigge, -s",
+    "pos": "Nomen, m.",
+    "teil": 5,
+    "level": "B1",
+    "forms": [
+      "Knigge",
+      "Badeknigge"
+    ],
+    "defDe": "Ein Verhaltenskodex oder Leitfaden für höfliches und sicheres Verhalten in einer bestimmten Situation.",
+    "defAr": "دليل قواعد السلوك وآداب التصرف السليم (الإتيكيت).",
+    "defFr": "Le code de savoir-vivre et les règles de bonne conduite.",
+    "example": "Der Badeknigge fasst die wichtigsten Sicherheitsregeln am Strand zusammen.",
+    "tip": "Kultureller Begriff nach Adolph Freiherr Knigge."
+  },
+  {
+    "id": "v-m7-t5-2",
+    "testId": "modellsatz-13",
+    "term": "die Verdauung",
+    "display": "die Verdauung (Sg.)",
+    "pos": "Nomen, f.",
+    "teil": 5,
+    "level": "B1",
+    "forms": [
+      "Verdauung"
+    ],
+    "defDe": "Die biologische Zersetzung und Verwertung von Nahrungsmitteln im Magen-Darm-Trakt.",
+    "defAr": "عملية الهضم وتحليل الأغذية في الجهاز الهضمي.",
+    "defFr": "La digestion et l'assimilation des aliments dans l'organisme.",
+    "example": "Nach dem Essen hat für den Körper die Verdauung Vorrang vor sportlicher Anstrengung.",
+    "tip": "Medizinischer Grundsatz in Lesen Teil 5."
+  },
+  {
+    "id": "v-m7-t5-3",
+    "testId": "modellsatz-13",
+    "term": "die Strömung",
+    "display": "die Strömung, -en",
+    "pos": "Nomen, f.",
+    "teil": 5,
+    "level": "B1",
+    "forms": [
+      "Strömung",
+      "Strömungen"
+    ],
+    "defDe": "Die gerichtete Bewegung von Wasser oder Luft, die erhebliche Kräfte entwickeln kann.",
+    "defAr": "التيار المائي أو الهوائي وسرعة تدفق المياه.",
+    "defFr": "Le courant marin ou fluvial pouvant présenter un danger.",
+    "example": "Die Kraft der Wellen und Strömungen in der Ostsee wird oft unterschätzt.",
+    "tip": "Wichtig für Baderegeln und Wassersicherheit."
+  },
+  {
+    "id": "v-m7-t6-1",
+    "testId": "modellsatz-13",
+    "term": "der Speisewagen",
+    "display": "der Speisewagen, -",
+    "pos": "Nomen, m.",
+    "teil": 6,
+    "level": "B1",
+    "forms": [
+      "Speisewagen",
+      "Bordbistro"
+    ],
+    "defDe": "Ein Reisezugwagen, der als rollendes Restaurant Mahlzeiten und Erfrischungen anbietet.",
+    "defAr": "عربة المطعم في القطار لتقديم المأكولات والمشروبات للركاب.",
+    "defFr": "La voiture-restaurant aménagée à bord d'un train.",
+    "example": "Für das Mittagessen im Speisewagen des Intercitys muss man reservieren.",
+    "tip": "Hören Teil 1 (Aufgabe 1 & 2)."
+  },
+  {
+    "id": "v-m7-t6-2",
+    "testId": "modellsatz-13",
+    "term": "das Löschfahrzeug",
+    "display": "das Löschfahrzeug, -e",
+    "pos": "Nomen, n.",
+    "teil": 6,
+    "level": "B1",
+    "forms": [
+      "Löschfahrzeug",
+      "Löschfahrzeuge"
+    ],
+    "defDe": "Ein speziell ausgerüstetes Feuerwehrfahrzeug zur Bekämpfung von Bränden.",
+    "defAr": "سيارة إطفاء الحرائق المجهزة بالمعدات وخراطيم المياه.",
+    "defFr": "Le camion de pompiers et véhicule d'extinction des incendies.",
+    "example": "Löschfahrzeuge der Flughafenfeuerwehr begleiten scheidende Piloten oft mit einer Wassertaufe.",
+    "tip": "Hören Teil 2 (Aufgabe 13)."
+  },
+  {
+    "id": "v-m7-t6-3",
+    "testId": "modellsatz-13",
+    "term": "die Linienfluggesellschaft",
+    "display": "die Linienfluggesellschaft, -en",
+    "pos": "Nomen, f.",
+    "teil": 6,
+    "level": "B1",
+    "forms": [
+      "Linienfluggesellschaft",
+      "Linienfluggesellschaften",
+      "Linienflug"
+    ],
+    "defDe": "Ein Luftfahrtunternehmen, das regelmäßige Flüge nach einem festen, veröffentlichten Flugplan durchführt.",
+    "defAr": "شركة طيران منتظم تسير رحلات مجدولة وفق جدول زمني محدد ومعلن.",
+    "defFr": "Une compagnie aérienne régulière opérant selon un plan de vol fixe.",
+    "example": "Linienfluggesellschaften bieten oft umfassenderen Bordservice als Billigflieger.",
+    "tip": "Thema in Hören Teil 4."
+  },
+  {
+    "id": "v-m7-t6-4",
+    "testId": "modellsatz-13",
+    "term": "die Billigfluglinie",
+    "display": "die Billigfluglinie, -n",
+    "pos": "Nomen, f.",
+    "teil": 6,
+    "level": "B1",
+    "forms": [
+      "Billigfluglinie",
+      "Billigfluglinien",
+      "Billigflieger"
+    ],
+    "defDe": "Eine Fluggesellschaft, die Flugreisen zu sehr niedrigen Basispreisen anbietet, dafür jedoch Zusatzleistungen berechnet.",
+    "defAr": "شركة طيران اقتصادي منخفض التكلفة تقدم تذاكر رخيصة مع فرض رسوم على الخدمات الإضافية.",
+    "defFr": "Une compagnie aérienne à bas coût (low-cost) proposant des tarifs de base très attractifs.",
+    "example": "Billigfluglinien fliegen meist kleinere, abgelegene Regionalflughäfen an.",
+    "tip": "Schwerpunkt in Hören Teil 4 (Aufgaben 23-30)."
   }
 ];
 

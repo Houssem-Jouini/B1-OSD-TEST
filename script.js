@@ -1408,22 +1408,43 @@ function renderPassage(t) {
     const assignedLabel = isAr ? 'في رقم' : (passageLang === 'fr' ? 'Dans n°' : 'In Nr.');
 
     html += `<div class="anzeigen-board">`;
-    t.adsFormatted.forEach(ad => {
-      const assignedQid = assignedMap[ad.code];
+    t.adsFormatted.forEach((ad, adIdx) => {
+      const code = ad.code || ad.id || String.fromCharCode(65 + adIdx);
+      const assignedQid = assignedMap[code];
       const isAssigned = !!assignedQid;
-      const trAdText = trPart?.ads?.[ad.code]?.[passageLang];
-
-      let adContent = ad.html;
-      if (trAdText) {
-        adContent = `<div class="anzeige-headline" style="font-size:14.5px; font-weight:800; margin-bottom:6px;">${isAr ? `إعلان ${ad.code}` : `Annonce ${ad.code}`}</div><div style="font-size:13.5px; line-height:1.55;">${trAdText}</div>`;
+      const trAd = trPart?.ads?.[code];
+      let trAdText = '';
+      if (trAd) {
+        if (typeof trAd === 'string') {
+          trAdText = trAd;
+        } else if (trAd[passageLang]) {
+          trAdText = trAd[passageLang];
+        } else if (trAd.text && trAd.text[passageLang]) {
+          const tHead = trAd.title && trAd.title[passageLang] ? `<strong>${trAd.title[passageLang]}</strong><br>` : '';
+          trAdText = tHead + trAd.text[passageLang];
+        }
       }
 
+      let adContent = ad.html;
+      if (!adContent) {
+        const titleHtml = ad.title ? `<div class="anzeige-headline">${ad.title}</div>` : '';
+        const textHtml = ad.text ? `<div style="font-size:13.5px; line-height:1.5; margin-top:8px;">${String(ad.text).replace(/\n/g, '<br>')}</div>` : '';
+        adContent = titleHtml + textHtml;
+      }
+      if (trAdText) {
+        adContent = `<div class="anzeige-headline" style="font-size:14.5px; font-weight:800; margin-bottom:6px;">${isAr ? `إعلان ${code}` : `Annonce ${code}`}</div><div style="font-size:13.5px; line-height:1.55;">${trAdText}</div>`;
+      }
+
+      const tagPos = ad.tagPos || (adIdx % 2 === 0 ? 'left' : 'right');
+      const hasPin = ad.hasPin !== undefined ? ad.hasPin : true;
+      const cardClass = ad.cardClass || `anzeige-style-${code.toLowerCase()}`;
+
       html += `
-        <div class="anzeige-wrapper ${ad.tagPos === 'left' ? 'tag-left' : 'tag-right'} ${isAssigned ? 'anzeige-assigned' : ''}" id="anzeige-card-${ad.code}">
-          <div class="anzeige-letter-tag">${ad.code}</div>
-          ${ad.hasPin ? '<div class="pushpin"></div>' : ''}
+        <div class="anzeige-wrapper ${tagPos === 'left' ? 'tag-left' : 'tag-right'} ${isAssigned ? 'anzeige-assigned' : ''}" id="anzeige-card-${code}">
+          <div class="anzeige-letter-tag">${code}</div>
+          ${hasPin ? '<div class="pushpin"></div>' : ''}
           ${isAssigned ? `<div class="anzeige-assigned-badge"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> ${assignedLabel} ${assignedQid}</div>` : ''}
-          <div class="anzeige-item ${ad.cardClass || ''}">
+          <div class="anzeige-item ${cardClass}">
             ${adContent}
           </div>
         </div>
@@ -2158,7 +2179,7 @@ function renderQuestions(t) {
   }
 
   if (t.id === 3 && t.adsFormatted) {
-    const codes = t.adsFormatted.map(a => a.code);
+    const codes = t.adsFormatted.map((a, i) => a.code || a.id || String.fromCharCode(65 + i));
     const assignedMap = getTeil3Assignments(t);
     const selectPrompt = isAr ? '– اختر الإعلان –' : (questionsLang === 'fr' ? '– Choisir une annonce –' : '– Anzeige wählen –');
     const adWord = isAr ? 'إعلان' : (questionsLang === 'fr' ? 'Annonce' : 'Anzeige');
@@ -4834,16 +4855,33 @@ function renderFocusReaderContent() {
       </div>
       <div class="anzeigen-board" style="grid-template-columns: 1fr;">
     `;
-    t.adsFormatted.forEach(ad => {
-      const trAdText = trPart?.ads?.[ad.code]?.[focusReaderLang];
+    t.adsFormatted.forEach((ad, adIdx) => {
+      const code = ad.code || ad.id || String.fromCharCode(65 + adIdx);
+      const trAd = trPart?.ads?.[code];
+      let trAdText = '';
+      if (trAd) {
+        if (typeof trAd === 'string') {
+          trAdText = trAd;
+        } else if (trAd[focusReaderLang]) {
+          trAdText = trAd[focusReaderLang];
+        } else if (trAd.text && trAd.text[focusReaderLang]) {
+          const tHead = trAd.title && trAd.title[focusReaderLang] ? `<strong>${trAd.title[focusReaderLang]}</strong><br>` : '';
+          trAdText = tHead + trAd.text[focusReaderLang];
+        }
+      }
+
       let adContent = ad.html;
+      if (!adContent) {
+        const titleHtml = ad.title ? `<div class="anzeige-headline" style="font-size:16px; font-weight:800; margin-bottom:8px;">${ad.title}</div>` : '';
+        const textHtml = ad.text ? `<div style="font-size:15px; line-height:1.6;">${String(ad.text).replace(/\n/g, '<br>')}</div>` : '';
+        adContent = titleHtml + textHtml;
+      }
       if (trAdText) {
-        adContent = `<div class="anzeige-headline" style="font-size:16px; font-weight:800; margin-bottom:8px;">${isAr ? `إعلان ${ad.code}` : `Annonce ${ad.code}`}</div><div style="font-size:15px; line-height:1.6;">${trAdText}</div>`;
+        adContent = `<div class="anzeige-headline" style="font-size:16px; font-weight:800; margin-bottom:8px;">${isAr ? `إعلان ${code}` : `Annonce ${code}`}</div><div style="font-size:15px; line-height:1.6;">${trAdText}</div>`;
       }
       html += `
         <div class="anzeige-wrapper tag-left" style="margin-bottom:18px;">
-          <div class="anzeige-letter-tag">${ad.code}</div>
-          <div class="anzeige-item" style="padding:22
+          <div class="anzeige-letter-tag">${code}</div>
           <div class="anzeige-item" style="padding:22px 24px; background:var(--bg-card-subtle); border:1px solid var(--border); border-radius:12px;">
             ${adContent}
           </div>

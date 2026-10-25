@@ -1,0 +1,2628 @@
+{
+  "id": "modellsatz-13",
+  "title": "Modelltest 7 — So geht's noch besser B1",
+  "badge": "Modelltest 7",
+  "examTitle": "Goethe / ÖSD B1 Prüfungssimulation — Modelltest 7",
+  "examSub": "Lesen (5 Teile) & Hören (4 Teile) · So geht's noch besser (Klett)",
+  "timeTotal": 65,
+  "parts": [
+    {
+      "id": 1,
+      "title": "Teil 1",
+      "time": 10,
+      "instructions": "Lesen Sie den Text und die Aufgaben 1 bis 6 dazu. Wählen Sie: Sind die Aussagen Richtig oder Falsch?",
+      "articles": [
+        {
+          "heading": "Der gläserne Mensch",
+          "sub": "Wir befinden uns im Informationszeitalter. Ohne zu wollen und meist ohne zu wissen, hinterlassen wir Spuren im Netz – weltweit. Im Netz sind wir alles und nichts. Das Netz bestimmt unsere Identität.",
+          "body": [
+            "Der gläserne Mensch ist auf dem Vormarsch. Wie viel das www schon über mich weiß, konnte man auf der Ausstellung „Außer Kontrolle – Was das Netz über dich weiß“ im Ars Electronica Center in Linz erleben. Dort war eine Hacker-Station eingerichtet, die in kürzester Zeit alle meine Passwörter knackte, von denen ich glaubte, dass sie sicher seien. Unser digitales Leben ist ein offenes Buch, trotz Passwörtern, trotz Sicherheitsabfragen, trotz Datenschutz.",
+            "Wer im Internet einkauft, kann feststellen, dass die Meinung des Kunden gefragt ist. Kunden können ihre Meinung zum Anbieter hinterlassen. Dies hat jedoch zur Folge, dass sich die Kaufkraft mehr und mehr nach diesen Bewertungen richtet, die durch bösartige Menschen manipuliert werden können. Wie sozial sind denn die sogenannten sozialen Netzwerke? Auf der Schüler-Plattform „spickmich.de“ bewerten Schüler ihre Schule. Dabei wird auch der Lehrer benotet und kommentiert. Einer Lehrerin gefiel das nicht und sie klagte vor Gericht dagegen. Sie hat den Prozess verloren. Dem Gericht waren die Interessen der Schüler und die Meinungsfreiheit wichtiger als die persönlichen Rechte der Lehrerin.",
+            "Wir leben in einem virtuellen Schaufenster. Genau das war das Thema der „Aktion Analog“ mit Studenten in Karlsruhe. Um darauf aufmerksam zu machen, wie gläsern wir durch unsere Klicks, Likes und Posts geworden sind, sollte die Projektgruppe ihre virtuelle Welt analog auf Papier und Pappe sichtbar machen und zwar öffentlich. Die Studenten lebten eine Woche lang im Schaufenster einer Galerie und die Öffentlichkeit konnte sie dort besuchen, sich zu ihnen setzen und plaudern. Aber anders als in der digitalen Welt, wurden danach alle Dokumente zerrissen und vernichtet.",
+            "Was mir heute noch gut vorkommt, um vergleichen zu können, kann mir morgen schon zum Verhängnis werden. Mit meinen Daten werden Geschäfte gemacht. Egal wo ich hinklicke, überall werden meine Daten abgespeichert, und überall können sie ausspioniert werden. Wundern wir uns also nicht, wenn wir plötzlich Anrufe für Umfragen oder Telefonanrufe für Werbezwecke bekommen. Der gläserne Mensch ist auf dem Vormarsch. Auch von meiner Kundenkarte vom Supermarkt oder von der Tankstelle werden meine Daten gespeichert. Damit lässt sich leicht ein Profil über mein Kaufverhalten, meine Vorlieben und Abneigungen erstellen.",
+            "Wir leben im scheinbar grenzenlosen Informationszeitalter, nutzen mehr und mehr digitale Kommunikationskanäle für virtuelle Begegnungen und müssen nach neuen ethischen Werten suchen, um uns nicht vollkommen zu verlieren."
+          ]
+        }
+      ],
+      "example": {
+        "text": "Der Blogger ist von den vielen Möglichkeiten im Internet begeistert.",
+        "answer": "falsch"
+      },
+      "questions": [
+        {
+          "id": 1,
+          "type": "tf",
+          "text": "Ein Passwort ist durch Datenschutz und Sicherheitsfragen vor Hackern geschützt.",
+          "answer": "falsch",
+          "num": 1
+        },
+        {
+          "id": 2,
+          "type": "tf",
+          "text": "Eine Lehrerin klagte gerichtlich gegen Schüler.",
+          "answer": "richtig",
+          "num": 2
+        },
+        {
+          "id": 3,
+          "type": "tf",
+          "text": "Karlsruher Studenten zeigten in einer Aktion die Grenzen einer digitalen Welt.",
+          "answer": "falsch",
+          "num": 3
+        },
+        {
+          "id": 4,
+          "type": "tf",
+          "text": "Die Ergebnisse des Versuchs „Virtuelles Schaufenster“ sind leider verloren gegangen.",
+          "answer": "falsch",
+          "num": 4
+        },
+        {
+          "id": 5,
+          "type": "tf",
+          "text": "Kundenkarten geben Auskunft über Konsumverhalten.",
+          "answer": "richtig",
+          "num": 5
+        },
+        {
+          "id": 6,
+          "type": "tf",
+          "text": "Wir brauchen im Netz eine neue Ethik.",
+          "answer": "richtig",
+          "num": 6
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Teil 2",
+      "time": 20,
+      "instructions": "Lesen Sie den Text aus der Presse und die Aufgaben 7 bis 9 dazu. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+      "articles": [
+        {
+          "heading": "Generation Weichei",
+          "sub": "Freizeit statt Karriere, Sabbatical statt Stress: Die jungen Leute geben für den Beruf nicht mehr alles. Fortschritt oder Verfall?",
+          "body": [
+            "Es ist zum Verrücktwerden mit den jungen Menschen. Da hat eine große deutsche Firma einen Posten in New York zu besetzen. Trotzdem schlägt keiner der Kandidaten gleich zu. Ein Job in New York – vor zehn Jahren hätten die Mitarbeiter sich darum gerissen. Heute überlegen die Kandidaten: Passt das in mein Lebenskonzept? Was sagt mein Partner dazu? Habe ich noch Zeit für Sport und Musik, für die Familie, für mich? Wenn zu viel auf der Strecke bleibt, ziehen weder Top-Gehalt noch New York City.",
+            "Man fragt sich, ob das nun gut ist oder schlecht: Sind das alles Weicheier, die sich vor Karriere und Chefsein drücken? Oder haben wir es mit einem cleveren Nachwuchs zu tun, jungen Leuten, die ein erfülltes Leben neben der Arbeit wollen? Eines ist klar: Die Prioritäten haben sich verschoben. Zwei Drittel, so belegen Umfragen, sind nicht mehr bereit, berufliche Ziele über Privates zu stellen. Eine ausgeglichene „Work-Life-Balance“ ist wichtig. Auf Mitbestimmung legen sie großen Wert, auch auf eine angenehme Arbeitsatmosphäre und flexible Arbeitszeiten. Sie arbeiten am liebsten im Team. Da zeigen sie dann durchaus Leistung."
+          ]
+        }
+      ],
+      "example": {
+        "text": "Die junge Generation ...",
+        "options": [
+          "träumt von der großen Karriere.",
+          "hat ein anderes Verhältnis zur Arbeit.",
+          "ist unfähig, Arbeit zu finden."
+        ],
+        "answer": 1
+      },
+      "questions": [
+        {
+          "id": 7,
+          "type": "mcq",
+          "text": "Die Kandidaten ...",
+          "options": [
+            "haben ein klares Lebenskonzept.",
+            "heiraten auf jeden Fall.",
+            "wollen nach New York."
+          ],
+          "answer": 0,
+          "num": 7
+        },
+        {
+          "id": 8,
+          "type": "mcq",
+          "text": "Man fragt sich, ...",
+          "options": [
+            "ob die jungen Leute klug handeln.",
+            "ob der Druck zu groß ist.",
+            "ob ihr Leben erfüllt ist."
+          ],
+          "answer": 0,
+          "num": 8
+        },
+        {
+          "id": 9,
+          "type": "mcq",
+          "text": "Wichtig ist ...",
+          "options": [
+            "das Berufsziel.",
+            "die Leistung im Team.",
+            "eine gute Bezahlung."
+          ],
+          "answer": 1,
+          "num": 9
+        }
+      ],
+      "instructions2": "Lesen Sie den Text aus der Presse und die Aufgaben 10 bis 12 dazu. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+      "articles2": [
+        {
+          "heading": "Bayreuth feiert 2013 das Wagner-Jubiläumsjahr",
+          "sub": "„Wagner für alle“ lautet das Motto der Festspiele, die zum 200. Geburtstag des Komponisten ihr Programm auf alle Generationen auslegen. Von Frühwerken über Rap bis Textinterpretationen ist für jeden etwas dabei.",
+          "body": [
+            "Zum Wagner-Jubiläumsjahr 2013 sollen Klassik-Begeisterte aus aller Welt nach Bayreuth gelockt werden. Auf dem Programm steht ein Geburtstagskonzert am 22. Mai im Festspielhaus.",
+            "In Kooperation mit der Oper und dem Gewandhausorchester Leipzig werden zudem die drei Wagnerschen Frühwerke „Rienzi“, „Das Liebesverbot“ und „Die Feen“ inszeniert und in der Geburtsstadt Leipzig wie auch in Bayreuth aufgeführt.",
+            "Auftritte von Spitzenorchestern wie den Bamberger Symphonikern unter Jonathan Nott, dem Symphonieorchester des Bayerischen Rundfunks unter Andris Nelsons und der Sächsischen Staatskapelle Dresden unter Thielemann sind Höhepunkte der Festspiele.",
+            "Unter dem Motto „Wagner für alle“ wird die Staatskapelle Weimar bei freiem Eintritt auf dem Bayreuther Marktplatz spielen. Nicht nur Klassik wird im Rahmen der Festspiele zu hören sein. Um das junge Publikum anzusprechen, wird es auch einen Kurzfilm-Wettbewerb und Wagner-Texte als Rap geben.",
+            "Die Bayreuther Festspiele gelten als die „Mutter aller Festspiele der Neuzeit“ und bilden einen Fixpunkt im Programm jedes Klassik-Liebhabers. Als Protest gegen den zeitgenössischen Opernbetrieb entwickelte der Komponist nach der Revolution 1848 die Festspielidee."
+          ]
+        }
+      ],
+      "questions2": [
+        {
+          "id": 10,
+          "type": "mcq",
+          "text": "Bayreuth ...",
+          "options": [
+            "feiert das Wagner-Jubiläum.",
+            "ist die Geburtsstadt Wagners.",
+            "verbietet Rap-Interpretationen."
+          ],
+          "answer": 0,
+          "num": 10
+        },
+        {
+          "id": 11,
+          "type": "mcq",
+          "text": "Zum Programm ...",
+          "options": [
+            "gehören nur klassische Werke.",
+            "wird ein Film gezeigt.",
+            "gehört ein Gratiskonzert im Freien."
+          ],
+          "answer": 2,
+          "num": 11
+        },
+        {
+          "id": 12,
+          "type": "mcq",
+          "text": "Die Festspielidee ...",
+          "options": [
+            "ist eine neue Entwicklung.",
+            "gab es schon vor der Revolution.",
+            "kam von Richard Wagner."
+          ],
+          "answer": 2,
+          "num": 12
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Teil 3",
+      "time": 10,
+      "instructions": "Lesen Sie die Situationen 13 bis 19 und die Anzeigen A bis J aus verschiedenen deutschsprachigen Medien. Wählen Sie: Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Die Anzeige aus dem Beispiel können Sie nicht mehr verwenden. Für eine Situation gibt es keine passende Anzeige. In diesem Fall schreiben Sie 0.",
+      "example": {
+        "text": "Herr Preez ist berufstätig und möchte sich zu Hause auf das Abitur vorbereiten.",
+        "match": "D",
+        "answer": "D",
+        "ad": "D"
+      },
+      "adsFormatted": [
+        {
+          "code": "A",
+          "tagPos": "left",
+          "hasPin": true,
+          "cardClass": "anzeige-style-a",
+          "html": "<div class=\"anzeige-headline\">Privatschule König</div><div class=\"anzeige-sub\">Grundschule und Gymnasium</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">• Ganztagsschule<br>• Hausaufgabenbetreuung<br>• 5-Tage-Woche<br>• kleine Klassen<br>• ab 1. Klasse Englisch<br><br><strong>Relenbergstr. 25 · 70174 Stuttgart</strong><br>Tel.: 603986</div>"
+        },
+        {
+          "code": "B",
+          "tagPos": "right",
+          "hasPin": true,
+          "cardClass": "anzeige-style-b",
+          "html": "<div class=\"anzeige-headline\">Privatunterricht</div><div class=\"anzeige-sub\">Spanisch-Lehrer/in gesucht</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">Juli / August auf Mallorca, auch für Kinder.<br><br><strong>Tel.:</strong> 0034 / 622 / 507833</div>"
+        },
+        {
+          "code": "C",
+          "tagPos": "left",
+          "hasPin": true,
+          "cardClass": "anzeige-style-c",
+          "html": "<div class=\"anzeige-headline\">Kosmetikstudio Grüner</div><div class=\"anzeige-sub\">Mitarbeiter gesucht</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">Junges Team sucht nette Mitarbeiter für leichte Anlerntätigkeit.<br><br><strong>Tel.:</strong> 0711 / 26 35 828</div>"
+        },
+        {
+          "code": "D",
+          "tagPos": "right",
+          "hasPin": true,
+          "cardClass": "anzeige-style-d",
+          "html": "<div class=\"anzeige-headline\">Beruf und Studium zu Hause</div><div class=\"anzeige-sub\">Institut für Fernbildung IFF</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">Einstieg jederzeit möglich. Weiterbildung durch Fernunterricht. Über 130 Fernkurse.<br><strong>Realschulabschluss und Abitur.</strong><br>Fordern Sie unseren Prospekt an.<br><br>Bopserstr. 8 · 70180 Stuttgart · Tel.: 24 36 06</div>"
+        },
+        {
+          "code": "E",
+          "tagPos": "left",
+          "hasPin": true,
+          "cardClass": "anzeige-style-e",
+          "html": "<div class=\"anzeige-headline\">FREMDSPRACHENHOSTESS</div><div class=\"anzeige-sub\">für Fluglinien, Messe, Tourismus & internationale Events</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">• Englisch, Französisch, Spanisch<br>• Training in Rhetorik, Stil<br>• EDV · Geografie, Tourismus, Wirtschaft<br><br>Königstr. 35 · 70174 Stuttgart<br>Tel. 0711 / 49 06 75 · E-Mail: ifs@inter.de</div>"
+        },
+        {
+          "code": "F",
+          "tagPos": "right",
+          "hasPin": true,
+          "cardClass": "anzeige-style-f",
+          "html": "<div class=\"anzeige-headline\">Schuljahr im Ausland</div><div class=\"anzeige-sub\">Gastschülerprogramm in England</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">mit pädagogischer Begleitung für Schülerinnen ab der 10. Klasse.<br>Gastfamilie und Besuch der örtlichen Secondary School.<br><br><strong>Auskunft:</strong> Tel. 089 / 360341</div>"
+        },
+        {
+          "code": "G",
+          "tagPos": "left",
+          "hasPin": true,
+          "cardClass": "anzeige-style-g",
+          "html": "<div class=\"anzeige-headline\">FERIENANGEBOT: LINGUA</div><div class=\"anzeige-sub\">Sprachseminare München</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\"><strong>Deutsch-Intensivkurse:</strong> Mo–Do 9.30–12.45 Uhr<br><strong>Minigruppen Englisch:</strong> Anfänger mit Vorkenntnissen Do 9 Uhr, Konversation Di 18 Uhr, Business Mi 19 Uhr.<br>Immer der richtige Kurs für Freizeit, Schule und Beruf!<br><br>Lutzstr. 54 · München · Tel. 089 / 771965</div>"
+        },
+        {
+          "code": "H",
+          "tagPos": "right",
+          "hasPin": true,
+          "cardClass": "anzeige-style-h",
+          "html": "<div class=\"anzeige-headline\">Probleme in der Schule?</div><div class=\"anzeige-sub\">Nachhilfeunterricht durch erfahrene Fachlehrer</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">in Mathematik, Physik, Chemie, Deutsch, Latein, Englisch, Französisch. Alle Klassenstufen.<br><br><strong>Nähere Informationen:</strong><br>Rainer Probst · Tel.: 99 76 567</div>"
+        },
+        {
+          "code": "I",
+          "tagPos": "left",
+          "hasPin": true,
+          "cardClass": "anzeige-style-i",
+          "html": "<div class=\"anzeige-headline\">FERIENANGEBOT: Sprachreisen</div><div class=\"anzeige-sub\">Tellert-Reisen</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">Sprachreisen nach Großbritannien (GB), Irland (IRL), Neuseeland (NZ), USA für Jugendliche und Erwachsene.<br><br><strong>Tellert-Reisen</strong><br>Tel.: 089 / 66731</div>"
+        },
+        {
+          "code": "J",
+          "tagPos": "right",
+          "hasPin": true,
+          "cardClass": "anzeige-style-j",
+          "html": "<div class=\"anzeige-headline\">Spanisch lernen und erleben</div><div class=\"anzeige-sub\">in Galicien – Andalusien – Ecuador</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">inkl. Appartement / Gastfamilie / Hotel<br>• ganzjährig, alle Niveaustufen<br>• 2 Wochen ab 279 Euro<br><br>Reinbeckstr. 199 · 22299 Hamburg<br>Tel. 040 / 47 83 69 · E-Mail: info@ispanica.net</div>"
+        }
+      ],
+      "questions": [
+        {
+          "id": 13,
+          "type": "match",
+          "text": "Melanie hat Probleme mit der deutschen Orthografie und sucht einen Privatlehrer.",
+          "answer": "H",
+          "num": 13
+        },
+        {
+          "id": 14,
+          "type": "match",
+          "text": "Herr und Frau Wolf sind berufstätig und suchen eine geeignete Schule für ihre 10-jährige Tochter.",
+          "answer": "A",
+          "num": 14
+        },
+        {
+          "id": 15,
+          "type": "match",
+          "text": "Herr Noll möchte, dass seine Tochter mehr Spaß an Englisch findet und will sie zu Sprachferien anmelden.",
+          "answer": "I",
+          "num": 15
+        },
+        {
+          "id": 16,
+          "type": "match",
+          "text": "Feriduns großer Bruder macht Abitur. Bevor er mit dem Studium anfängt, will er ein Jahr jobben.",
+          "answer": "0",
+          "num": 16
+        },
+        {
+          "id": 17,
+          "type": "match",
+          "text": "Familie Simm hat ein Häuschen auf Mallorca. Sie möchten, dass die Kinder in den Ferien gleich Spanisch lernen.",
+          "answer": "B",
+          "num": 17
+        },
+        {
+          "id": 18,
+          "type": "match",
+          "text": "Niklas möchte einen Spanischkurs machen, den er mit einem international anerkannten Diplom abschließen kann.",
+          "answer": "J",
+          "num": 18
+        },
+        {
+          "id": 19,
+          "type": "match",
+          "text": "Der 16-jährige Sohn von Familie Bohr möchte ein Schuljahr im Ausland machen.",
+          "answer": "F",
+          "num": 19
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Teil 4",
+      "time": 15,
+      "instructions": "Lesen Sie die Texte 20 bis 26. Wählen Sie: Welche Personen argumentieren gegen die Atomenergie?",
+      "topic": "Was kommt da aus der Steckdose? Beurteilen Sie folgende Beiträge in einer Diskussion um die Energiepolitik in Deutschland.",
+      "example": {
+        "who": "Thomas, 53, Bonn",
+        "text": "Die Atomkraft ist für die Bundesrepublik keine dauerhafte Option mehr. Egal, welche Fortschritte die Technologie in diesem Bereich machen wird, ich gebe der Renaissance der Kernkraft hierzulande keine Chance, egal unter welcher politischen Konstellation. Es ist nur eine Frage der Zeit, dass wir die Atommeiler vom Netz nehmen.",
+        "answer": "ja"
+      },
+      "letters": [
+        {
+          "id": 20,
+          "who": "A. Klee, 39, Jülich",
+          "text": "Es ist absurd, sich einfach vor der Zukunft zu verschließen und mögliche Entwicklungen unberücksichtigt zu lassen. Die Erforschung der Kernfusion, die ebenfalls eine Form von Kernenergie ist, macht gerade große Fortschritte. Vielleicht wird diese Technik eines Tages in Deutschland akzeptiert. Warten wir es ab!",
+          "answer": "nein",
+          "num": 20
+        },
+        {
+          "id": 21,
+          "who": "Francesca, 35, Wolfsburg",
+          "text": "Wir brauchen keine Kurswende in der Energiepolitik. Wenn wir so weitermachen, sind wir die Atomenergie vielleicht sogar schon vor der Zeit los. Mag sein, dass die Energiepreise noch weiter steigen, aber der Ökostrom-Anteil muss weiter ausgebaut werden, koste es was es will!",
+          "answer": "ja",
+          "num": 21
+        },
+        {
+          "id": 22,
+          "who": "Lummer, 30, Ahrensburg",
+          "text": "Bei uns kommt der Strom aus der Steckdose: Ich kann nicht nachvollziehen, wie man eine solche Haltung haben kann. So nach dem Motto, wir haben schon so lange Atomstrom und bei uns in Deutschland ist noch nie was passiert und deswegen können wir uns getrost weiter der Gefahr aussetzen. Das ist doch naiv!",
+          "answer": "ja",
+          "num": 22
+        },
+        {
+          "id": 23,
+          "who": "Claudia, 47, Braunschweig",
+          "text": "Ich verstehe nicht, dass wir angesichts der vorhandenen Technik nicht einen schnelleren Aus- bzw. Umstieg schaffen. Statt in die zweifelhafte Sicherheit nuklearer Energie zu investieren, sollte das Geld besser in den Ausbau alternativer Energieressourcen fließen. In Wind und Sonne liegt noch eine Menge Potential.",
+          "answer": "ja",
+          "num": 23
+        },
+        {
+          "id": 24,
+          "who": "Roser, 56, Tübingen",
+          "text": "Auch wenn wir alle Atomkraftwerke in Deutschland ausschalten, bedeutet das noch lange keine Sicherheit für die Bürger, solange sich in den Nachbarländern nicht auch etwas tut. Das Problem muss globaler betrachtet werden und zumindest europaweit gelöst werden. Solange das nicht geklärt ist, sollte auf die Kernenergie nicht verzichtet werden.",
+          "answer": "nein",
+          "num": 24
+        },
+        {
+          "id": 25,
+          "who": "Petzold, 61, Gera",
+          "text": "Die Energiewende befindet sich im Chaos. Wir verwechseln Weg und Ziel. Das Ziel ist die optimale Energieversorgung. Der Weg, das sind die unterschiedlichen Energiequellen. Wir können über Atomenergie diskutieren, aber solange die Versorgung nicht gesichert ist, so lange können wir nicht auf sie verzichten.",
+          "answer": "nein",
+          "num": 25
+        },
+        {
+          "id": 26,
+          "who": "Fink, 59, Aachen",
+          "text": "Uns droht eine Klimakatastrophe! Um unseren schönen blauen Planeten nicht vollkommen zugrunde zu richten und für kommende Generationen unbrauchbar zu machen, sollten wir so schnell wie nur irgend möglich den Ausstieg aus der Kernenergie schaffen. Das sind wir unseren Kindern und Kindeskindern schuldig.",
+          "answer": "ja",
+          "num": 26
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Teil 5",
+      "time": 10,
+      "instructions": "Lesen Sie die Aufgaben 27 bis 30 und den Text dazu. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+      "articles": [
+        {
+          "heading": "Der Badeknigge",
+          "sub": "Wer an der Ostsee Urlaub macht, möchte natürlich baden oder einfach mal faul in der Sonne liegen.",
+          "body": [
+            "Bade nie mit vollem oder ganz leerem Magen! Nach dem Essen hat für den Körper die Verdauung Vorrang, erst zwei Stunden nach der Mahlzeit sollte man in das Wasser springen.",
+            "Kühle dich ab, bevor du ins Wasser gehst! Vorher duschen und den Körper langsam auf das kalte Wasser vorbereiten. Wer Kreislaufprobleme und niedrigen Blutdruck hat, in folgender Reihenfolge: Unterarme, Oberarme, Schultern, Herzgegend.",
+            "Verlasse das Wasser sofort, wenn du frierst; ziehe nach dem Baden deine nassen Sachen aus und trockne dich ab!",
+            "Überschätze nicht deine Kraft und dein Können! Die Kraft der Wellen und Strömungen in der Ostsee wird leicht unterschätzt. Lange Strecken nie alleine schwimmen! Auch der besttrainierte Körper kann zwischendurch schwächeln.",
+            "Schifffahrtswege, Buhnen und Brückenpfeiler sind keine Schwimm- und Badezonen! Nichtschwimmer sollten nur bis zur Brust ins Wasser gehen.",
+            "Verlasse bei Gewitter sofort das Wasser! Baden unter Blitz und Donner mag stimmungsvoll sein, ist aber lebensgefährlich.",
+            "Rufe nie um Hilfe, wenn du nicht in Gefahr bist!",
+            "Für jeden Strandbesucher und Badegast sei erwähnt, dass an den Stränden entlang der Ostseeküste die Strandordnung zu beachten ist und lassen Sie Müll nicht am Strand liegen."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": 27,
+          "type": "mcq",
+          "text": "Die Regeln gelten für ...",
+          "options": [
+            "Nutzer der Bibliothek.",
+            "Gäste an der Ostsee.",
+            "Besucher im Schwimmbad."
+          ],
+          "answer": 1,
+          "num": 27
+        },
+        {
+          "id": 28,
+          "type": "mcq",
+          "text": "Nach dem Essen sollte man ...",
+          "options": [
+            "zwei Stunden warten.",
+            "sich an den Strand legen.",
+            "ins Wasser springen."
+          ],
+          "answer": 0,
+          "num": 28
+        },
+        {
+          "id": 29,
+          "type": "mcq",
+          "text": "Man sollte duschen, ...",
+          "options": [
+            "wenn man schmutzig ist.",
+            "um sich abzuhärten.",
+            "um sich an die Wassertemperatur zu gewöhnen."
+          ],
+          "answer": 2,
+          "num": 29
+        },
+        {
+          "id": 30,
+          "type": "mcq",
+          "text": "Wer nicht schwimmen kann, ...",
+          "options": [
+            "sollte einen Schwimmkurs machen.",
+            "darf nicht ins tiefe Wasser.",
+            "soll das Wasser verlassen."
+          ],
+          "answer": 1,
+          "num": 30
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "🎧 Hören",
+      "badge": "Hören",
+      "isHoren": true,
+      "time": 40,
+      "instructions": "Sie hören 4 Teile. Zu jedem Teil lösen Sie Aufgaben. Sie hören jeden Text ein- oder zweimal.",
+      "audioSrc": "audio/modellsatz-13-hoeren.mp3",
+      "audioFallbacks": [
+        "audio/modellsatz-13-hoeren.mp3"
+      ],
+      "audioChapters": [
+        {
+          "time": 0,
+          "label": "00:00 Teil 1 (Beispiel · 2x)",
+          "part": 1,
+          "title": "Teil 1 · Beispiel (2x hören)",
+          "start": 0,
+          "end": 68
+        },
+        {
+          "time": 68,
+          "label": "01:08 Teil 1 (Texte 1–5 · 2x)",
+          "part": 1,
+          "title": "Teil 1 · Fünf kurze Texte (2x hören)",
+          "start": 68,
+          "end": 709
+        },
+        {
+          "time": 709,
+          "label": "11:49 Teil 2 (Korsika-Flug · 1x)",
+          "part": 2,
+          "title": "Teil 2 · Ansage im Flugzeug nach Korsika (1x hören)",
+          "start": 709,
+          "end": 978
+        },
+        {
+          "time": 978,
+          "label": "16:18 Teil 3 (Bushaltestelle · 1x)",
+          "part": 3,
+          "title": "Teil 3 · Gespräch an einer Bushaltestelle (1x hören)",
+          "start": 978,
+          "end": 1210
+        },
+        {
+          "time": 1210,
+          "label": "20:10 Teil 4 (1. Durchgang)",
+          "part": 4,
+          "title": "Teil 4 · Diskussion: Billigfluglinien (1. Durchgang)",
+          "start": 1210,
+          "end": 1709
+        },
+        {
+          "time": 1709,
+          "label": "28:29 Teil 4 (2. Durchgang — Wiederholung)",
+          "part": 4,
+          "title": "Teil 4 · Diskussion: Billigfluglinien (2. Durchgang)",
+          "start": 1709,
+          "end": 2127
+        }
+      ],
+      "horenSections": [
+        {
+          "id": 1,
+          "title": "Teil 1: Fünf kurze Texte"
+        },
+        {
+          "id": 2,
+          "title": "Teil 2: Ansage im Flugzeug nach Korsika"
+        },
+        {
+          "id": 3,
+          "title": "Teil 3: Gespräch an einer Bushaltestelle über eine Mykonos-Reise"
+        },
+        {
+          "id": 4,
+          "title": "Teil 4: Diskussion: Billigfluglinien gegen Linienfluggesellschaften"
+        }
+      ],
+      "questions": [
+        {
+          "id": "h1",
+          "teilPart": 1,
+          "type": "tf",
+          "text": "Man muss einen Tisch im Speisewagen reservieren.",
+          "answer": "richtig",
+          "num": 1,
+          "textNum": 1,
+          "audioStart": 68
+        },
+        {
+          "id": "h2",
+          "teilPart": 1,
+          "type": "mcq",
+          "text": "Im Speisewagen gibt es heute ...",
+          "options": [
+            "nur bayerische Spezialitäten.",
+            "nur schwäbische Torten.",
+            "einen französischen Wein."
+          ],
+          "answer": 2,
+          "num": 2,
+          "textNum": 1,
+          "audioStart": 68
+        },
+        {
+          "id": "h3",
+          "teilPart": 1,
+          "type": "tf",
+          "text": "Die ersten Partneranzeigen bekommt man bereits einen Tag später.",
+          "answer": "richtig",
+          "num": 3,
+          "textNum": 2,
+          "audioStart": 208
+        },
+        {
+          "id": "h4",
+          "teilPart": 1,
+          "type": "mcq",
+          "text": "Eine Sitzplatzreservierung im Dating-Bus ...",
+          "options": [
+            "kostet etwas.",
+            "ist verpflichtend.",
+            "ist online buchbar."
+          ],
+          "answer": 2,
+          "num": 4,
+          "textNum": 2,
+          "audioStart": 208
+        },
+        {
+          "id": "h5",
+          "teilPart": 1,
+          "type": "tf",
+          "text": "Der Tierpark feiert ein Jubiläum.",
+          "answer": "richtig",
+          "num": 5,
+          "textNum": 3,
+          "audioStart": 349
+        },
+        {
+          "id": "h6",
+          "teilPart": 1,
+          "type": "mcq",
+          "text": "Im Tierpark kann man heute nicht ...",
+          "options": [
+            "das Wildrehgehege befahren.",
+            "die Adlershow sehen.",
+            "die Schafe besuchen."
+          ],
+          "answer": 1,
+          "num": 6,
+          "textNum": 3,
+          "audioStart": 349
+        },
+        {
+          "id": "h7",
+          "teilPart": 1,
+          "type": "tf",
+          "text": "Die Spielwarenfirma kann nicht pünktlich liefern.",
+          "answer": "falsch",
+          "num": 7,
+          "textNum": 4,
+          "audioStart": 478
+        },
+        {
+          "id": "h8",
+          "teilPart": 1,
+          "type": "mcq",
+          "text": "Beim Brand gab es keine ...",
+          "options": [
+            "Polizei.",
+            "Schwerverletzten.",
+            "Sachschäden."
+          ],
+          "answer": 1,
+          "num": 8,
+          "textNum": 4,
+          "audioStart": 478
+        },
+        {
+          "id": "h9",
+          "teilPart": 1,
+          "type": "tf",
+          "text": "Der Mann hatte einen Unfall mit seinem Mofa.",
+          "answer": "falsch",
+          "num": 9,
+          "textNum": 5,
+          "audioStart": 599
+        },
+        {
+          "id": "h10",
+          "teilPart": 1,
+          "type": "mcq",
+          "text": "Der Mann hat ...",
+          "options": [
+            "einen Mofafahrer angefahren.",
+            "ein parkendes Auto gerammt.",
+            "eine Frau mit einem Kind angefahren."
+          ],
+          "answer": 1,
+          "num": 10,
+          "textNum": 5,
+          "audioStart": 599
+        },
+        {
+          "id": "h11",
+          "teilPart": 2,
+          "type": "mcq",
+          "text": "Rainer Koch war 40 Jahre lang ...",
+          "options": [
+            "ein faszinierender Mensch.",
+            "für die Airline tätig.",
+            "Fluglehrer."
+          ],
+          "answer": 1,
+          "num": 11,
+          "audioStart": 709
+        },
+        {
+          "id": "h12",
+          "teilPart": 2,
+          "type": "mcq",
+          "text": "Das Geschenk der Luftsicherheitszentrale ist für ...",
+          "options": [
+            "seine Rente und seinen Geburtstag.",
+            "seine Arbeit als Fluglehrer.",
+            "sein kollegiales und loyales Verhalten."
+          ],
+          "answer": 0,
+          "num": 12,
+          "audioStart": 709
+        },
+        {
+          "id": "h13",
+          "teilPart": 2,
+          "type": "mcq",
+          "text": "Piloten verabschieden sich auf ihrem letzten Flug, ...",
+          "options": [
+            "indem sie ein Löschfahrzeug der Feuerwehr fahren.",
+            "indem sie sich durch die Lautsprecher des Flugzeugs verabschieden.",
+            "indem sie die Flügel ihres Flugzeugs bewegen."
+          ],
+          "answer": 2,
+          "num": 13,
+          "audioStart": 709
+        },
+        {
+          "id": "h14",
+          "teilPart": 2,
+          "type": "mcq",
+          "text": "Die Maschine darf zum Abschied über Frankfurt in ...",
+          "options": [
+            "15 Meter Höhe fliegen.",
+            "300 Meter Höhe fliegen.",
+            "1000 Meter Höhe fliegen."
+          ],
+          "answer": 2,
+          "num": 14,
+          "audioStart": 709
+        },
+        {
+          "id": "h15",
+          "teilPart": 2,
+          "type": "mcq",
+          "text": "Die Maschine landet ...",
+          "options": [
+            "pünktlich.",
+            "15 Minuten später.",
+            "nur wenige Minuten später."
+          ],
+          "answer": 0,
+          "num": 15,
+          "audioStart": 709
+        },
+        {
+          "id": "h16",
+          "teilPart": 3,
+          "type": "tf",
+          "text": "Beim Abflug in Deutschland war schönes Wetter.",
+          "answer": "falsch",
+          "num": 16,
+          "audioStart": 978
+        },
+        {
+          "id": "h17",
+          "teilPart": 3,
+          "type": "tf",
+          "text": "Natali hat im Hotel zuerst ihren Koffer ausgepackt.",
+          "answer": "falsch",
+          "num": 17,
+          "audioStart": 978
+        },
+        {
+          "id": "h18",
+          "teilPart": 3,
+          "type": "tf",
+          "text": "Marie hat ihren Traummann gesucht.",
+          "answer": "richtig",
+          "num": 18,
+          "audioStart": 978
+        },
+        {
+          "id": "h19",
+          "teilPart": 3,
+          "type": "tf",
+          "text": "Marie hat Kostas sehr schnell gefunden.",
+          "answer": "falsch",
+          "num": 19,
+          "audioStart": 978
+        },
+        {
+          "id": "h20",
+          "teilPart": 3,
+          "type": "tf",
+          "text": "Natali musste vor Glück weinen.",
+          "answer": "richtig",
+          "num": 20,
+          "audioStart": 978
+        },
+        {
+          "id": "h21",
+          "teilPart": 3,
+          "type": "tf",
+          "text": "Kostas hat Natali allein die Sehenswürdigkeiten gezeigt.",
+          "answer": "falsch",
+          "num": 21,
+          "audioStart": 978
+        },
+        {
+          "id": "h22",
+          "teilPart": 3,
+          "type": "tf",
+          "text": "Marie ist auf Mykonos krank geworden.",
+          "answer": "falsch",
+          "num": 22,
+          "audioStart": 978
+        },
+        {
+          "id": "h23",
+          "teilPart": 4,
+          "type": "speaker",
+          "text": "Die Gelder werden in die Sicherheit der Flugzeuge investiert.",
+          "options": [
+            "Moderator",
+            "Bettina Wedel",
+            "Michael Krutschke"
+          ],
+          "answer": 1,
+          "num": 23,
+          "audioStart": 1210
+        },
+        {
+          "id": "h24",
+          "teilPart": 4,
+          "type": "speaker",
+          "text": "Die Flugzeuge der Billigfluglinien sind sicher.",
+          "options": [
+            "Moderator",
+            "Bettina Wedel",
+            "Michael Krutschke"
+          ],
+          "answer": 2,
+          "num": 24,
+          "audioStart": 1210
+        },
+        {
+          "id": "h25",
+          "teilPart": 4,
+          "type": "speaker",
+          "text": "Es gab bei der Airline noch nie einen schlimmen Vorfall.",
+          "options": [
+            "Moderator",
+            "Bettina Wedel",
+            "Michael Krutschke"
+          ],
+          "answer": 2,
+          "num": 25,
+          "audioStart": 1210
+        },
+        {
+          "id": "h26",
+          "teilPart": 4,
+          "type": "speaker",
+          "text": "Eine Airline verlangt nicht, dass man die Bordkarte selbst ausdruckt.",
+          "options": [
+            "Moderator",
+            "Bettina Wedel",
+            "Michael Krutschke"
+          ],
+          "answer": 0,
+          "num": 26,
+          "audioStart": 1210
+        },
+        {
+          "id": "h27",
+          "teilPart": 4,
+          "type": "speaker",
+          "text": "Die Kosten für Kerosin steigen aufgrund der Krisensituation im Nahen Osten.",
+          "options": [
+            "Moderator",
+            "Bettina Wedel",
+            "Michael Krutschke"
+          ],
+          "answer": 2,
+          "num": 27,
+          "audioStart": 1210
+        },
+        {
+          "id": "h28",
+          "teilPart": 4,
+          "type": "speaker",
+          "text": "Billigfluglinien fliegen keine zentralen Flughäfen an.",
+          "options": [
+            "Moderator",
+            "Bettina Wedel",
+            "Michael Krutschke"
+          ],
+          "answer": 1,
+          "num": 28,
+          "audioStart": 1210
+        },
+        {
+          "id": "h29",
+          "teilPart": 4,
+          "type": "speaker",
+          "text": "Durch die dezentralen Flughäfen wird die Wirtschaft mancher Orte gefördert.",
+          "options": [
+            "Moderator",
+            "Bettina Wedel",
+            "Michael Krutschke"
+          ],
+          "answer": 2,
+          "num": 29,
+          "audioStart": 1210
+        },
+        {
+          "id": "h30",
+          "teilPart": 4,
+          "type": "speaker",
+          "text": "Einige Fluglinien dürfen in Deutschland nicht landen.",
+          "options": [
+            "Moderator",
+            "Bettina Wedel",
+            "Michael Krutschke"
+          ],
+          "answer": 1,
+          "num": 30,
+          "audioStart": 1210
+        }
+      ]
+    }
+  ],
+  "explanations": {
+    "1": {
+      "quote": "Dort war eine Hacker-Station eingerichtet, die in kürzester Zeit alle meine Passwörter knackte, von denen ich glaubte, dass sie sicher seien. Unser digitales Leben ist ein offenes Buch, trotz Passwörtern, trotz Sicherheitsabfragen, trotz Datenschutz.",
+      "whyCorrect": {
+        "de": "Falsch: Passwörter und Sicherheitsabfragen bieten keinen absoluten Schutz vor versierten Hackern; das digitale Leben bleibt angreifbar.",
+        "ar": "خطأ: كلمات المرور وأسئلة الأمان لا توفر حماية مطلقة أمام القراصنة المتمرسين؛ فالحياة الرقمية مكشوفة وقابلة للاختراق.",
+        "fr": "Faux : Les mots de passe et questions de sécurité n'offrent pas une protection infaillible contre les pirates ; la vie numérique reste vulnérable."
+      },
+      "whyIncorrect": {
+        "de": "Richtig widerspricht der Schilderung, dass die Passwörter in kürzester Zeit geknackt wurden.",
+        "ar": "الخيار 'صحيح' يناقض ما ذكره الكاتب عن كسر جميع كلماته السرية في وقت قياسي.",
+        "fr": "Vrai contredit l'expérience de l'auteur dont les mots de passe ont été piratés en un instant."
+      }
+    },
+    "2": {
+      "quote": "Auf der Schüler-Plattform „spickmich.de“ bewerten Schüler ihre Schule. Dabei wird auch der Lehrer benotet und kommentiert. Einer Lehrerin gefiel das nicht und sie klagte vor Gericht dagegen.",
+      "whyCorrect": {
+        "de": "Richtig: Eine Lehrerin reichte Klage vor Gericht gegen die Bewertung und Kommentierung durch Schüler auf dem Portal ein.",
+        "ar": "صحيح: رفعت إحدى المعلمات دعوى قضائية أمام المحكمة ضد تقييم الطلاب لها وللمدرسة على المنصة الإلكترونية.",
+        "fr": "Vrai : Une enseignante a intenté une action en justice contre la notation et les commentaires laissés par des élèves sur le portail."
+      },
+      "whyIncorrect": {
+        "de": "Falsch trifft nicht zu, da die gerichtliche Klage der Lehrerin ausdrücklich im Text erwähnt wird.",
+        "ar": "الخيار 'خطأ' غير صحيح لأن الدعوى القضائية التي رفعتها المعلمة مذكورة بنص صريح.",
+        "fr": "Faux est inexact car la démarche judiciaire de l'enseignante est explicitement mentionnée."
+      }
+    },
+    "3": {
+      "quote": "Um darauf aufmerksam zu machen, wie gläsern wir durch unsere Klicks, Likes und Posts geworden sind, sollte die Projektgruppe ihre virtuelle Welt analog auf Papier und Pappe sichtbar machen...",
+      "whyCorrect": {
+        "de": "Falsch: Ziel der Aktion war es nicht, Grenzen aufzuzeigen, sondern öffentlich zu veranschaulichen, wie gläsern und überwacht der Mensch im Netz ist.",
+        "ar": "خطأ: لم يكن الهدف إظهار حدود العالم الرقمي، بل لفت الانتباه إلى مدى انكشاف الإنسان وتحوله إلى شخص 'زجاجي' شفاف بسبب النقرات والمنشورات.",
+        "fr": "Faux : L'action visait à montrer à quel point nous sommes devenus transparents et espionnés via nos clics, et non à en définir les frontières."
+      },
+      "whyIncorrect": {
+        "de": "Richtig verdreht das Hauptanliegen der Aktion zur Offenlegung der Gläsernheit.",
+        "ar": "الخيار 'صحيح' يحرف الهدف التوعوي للحملة حول الشفافية والانكشاف الرقمي.",
+        "fr": "Vrai déforme l'objectif de sensibilisation à la transparence numérique de l'individu."
+      }
+    },
+    "4": {
+      "quote": "Die Studenten lebten eine Woche lang im Schaufenster einer Galerie... Aber anders als in der digitalen Welt, wurden danach alle Dokumente zerrissen und vernichtet.",
+      "whyCorrect": {
+        "de": "Falsch: Die Dokumente sind nicht verloren gegangen, sondern wurden nach Ablauf der Aktion ganz bewusst zerrissen und vernichtet.",
+        "ar": "خطأ: الوثائق والنتائج لم تضع أو تفقد بالصدفة، بل تم تمزيقها وإتلافها عمداً وبشكل مقصود بعد انتهاء الفعالية.",
+        "fr": "Faux : Les documents n'ont pas été égarés par mégarde, mais délibérément déchirés et détruits à l'issue de l'expérience."
+      },
+      "whyIncorrect": {
+        "de": "Richtig ist falsch, weil die Vernichtung der Daten eine geplante symbolische Handlung war.",
+        "ar": "الخيار 'صحيح' خاطئ لأن إتلاف الأوراق كان إجراءً متعمداً ومخططاً له.",
+        "fr": "Vrai est incorrect car la destruction des documents était un acte symbolique délibéré."
+      }
+    },
+    "5": {
+      "quote": "Auch von meiner Kundenkarte vom Supermarkt oder von der Tankstelle werden meine Daten gespeichert. Damit lässt sich leicht ein Profil über mein Kaufverhalten, meine Vorlieben und Abneigungen erstellen.",
+      "whyCorrect": {
+        "de": "Richtig: Über Kundenkarten gespeicherte Daten ermöglichen die Erstellung genauer Profile über das Konsum- und Kaufverhalten.",
+        "ar": "صحيح: تتيح البيانات المخزنة عبر بطاقات العملاء في المتاجر ومحطات الوقود تكوين ملف دقيق عن السلوك الاستهلاكي والشرائي.",
+        "fr": "Vrai : Les données enregistrées via les cartes de fidélité permettent d'établir un profil précis des habitudes de consommation."
+      },
+      "whyIncorrect": {
+        "de": "Falsch widerspricht dem Text, der die Erstellung von Profilen über Vorlieben und Kaufverhalten belegt.",
+        "ar": "الخيار 'خطأ' يناقض ما ورد في النص حول رصد عادات الشراء والتفضيلات الشخصية.",
+        "fr": "Faux contredit le texte qui explique le profilage des préférences et des achats."
+      }
+    },
+    "6": {
+      "quote": "Wir leben im scheinbar grenzenlosen Informationszeitalter, nutzen mehr und mehr digitale Kommunikationskanäle für virtuelle Begegnungen und müssen nach neuen ethischen Werten suchen...",
+      "whyCorrect": {
+        "de": "Richtig: Der Autor fordert ausdrücklich die Suche nach neuen ethischen Werten, um im Informationszeitalter nicht die Orientierung zu verlieren.",
+        "ar": "صحيح: يطالب الكاتب صراحة بضرورة البحث عن قيم وأخلاقيات جديدة للتعامل مع تحديات العصر الرقمي.",
+        "fr": "Vrai : L'auteur insiste sur la nécessité d'établir de nouvelles valeurs éthiques face à la dérive du monde virtuel."
+      },
+      "whyIncorrect": {
+        "de": "Falsch ignoriert den abschließenden Appell des Autors nach ethischer Reflexion.",
+        "ar": "الخيار 'خطأ' يتجاهل الدعوة الختامية للكاتب بوجوب الالتزام بمنظومة أخلاقية مستحدثة.",
+        "fr": "Faux ignore l'appel conclusif de l'auteur en faveur de repères éthiques indispensables."
+      }
+    },
+    "7": {
+      "quote": "Heute überlegen die Kandidaten: Passt das in mein Lebenskonzept? Was sagt mein Partner dazu? Habe ich noch Zeit für Sport und Musik, für die Familie, für mich? Wenn zu viel auf der Strecke bleibt, ziehen weder Top-Gehalt noch New York City.",
+      "whyCorrect": {
+        "de": "Lösung a ist richtig: Die jungen Bewerber haben klare Vorstellungen von ihrem Leben und prüfen genau, ob ein Angebot in ihr persönliches Lebenskonzept passt.",
+        "ar": "الخيار (a) صحيح: لدى المرشحين الشباب تصور واضح لنمط حياتهم، ويفحصون بدقة ما إذا كانت الوظيفة تتوافق مع أولوياتهم الشخصية.",
+        "fr": "L'option a est correcte : Les jeunes candidats ont une conception claire de leur existence et vérifient l'adéquation du poste avec leur projet personnel."
+      },
+      "whyIncorrect": {
+        "de": "b (heiraten) und c (wollen unbedingt nach NY) entsprechen nicht den im Text betonten Bedenken der Kandidaten.",
+        "ar": "الزواج المؤكد (b) أو الرغبة المطلقة في الذهاب إلى نيويورك (c) لا يتفقان مع تحفظات وتردد المرشحين في النص.",
+        "fr": "Le mariage impératif (b) et l'envie absolue de partir à NY (c) contredisent les hésitations décrites dans l'article."
+      }
+    },
+    "8": {
+      "quote": "Man fragt sich, ob das nun gut ist oder schlecht: Sind das alles Weicheier, die sich vor Karriere und Chefsein drücken? Oder haben wir es mit einem cleveren Nachwuchs zu tun, jungen Leuten, die ein erfülltes Leben neben der Arbeit wollen?",
+      "whyCorrect": {
+        "de": "Lösung a ist richtig: Man stellt sich die Frage, ob diese Generation verweichlicht ist oder im Gegenteil besonders klug und clever handelt.",
+        "ar": "الخيار (a) صحيح: يطرح المقال تساؤلاً عما إذا كان تصرف هؤلاء الشباب ذكياً وحكيماً أم دليلاً على الضعف والهروب من المسؤولية.",
+        "fr": "L'option a est correcte : La question posée est de savoir si ces jeunes agissent avec sagesse et clairvoyance ou s'ils manquent simplement d'ambition."
+      },
+      "whyIncorrect": {
+        "de": "b (zu großer Druck) und c (ihr Leben erfüllt ist) sind nicht Gegenstand der im Text aufgeworfenen Grundsatzfrage.",
+        "ar": "شدة الضغط (b) أو تحقق الامتلاء الحياتي (c) ليسا محور التساؤل المباشر المطروح في المقال.",
+        "fr": "La pression excessive (b) et l'épanouissement personnel (c) ne sont pas au centre de l'interrogation formulée."
+      }
+    },
+    "9": {
+      "quote": "Auf Mitbestimmung legen sie großen Wert, auch auf eine angenehme Arbeitsatmosphäre und flexible Arbeitszeiten. Sie arbeiten am liebsten im Team. Da zeigen sie dann durchaus Leistung.",
+      "whyCorrect": {
+        "de": "Lösung b ist richtig: Für die jungen Beschäftigten ist kollegiale Teamarbeit besonders wichtig, in der sie gerne Leistung erbringen.",
+        "ar": "الخيار (b) صحيح: يحظى العمل الجماعي وروح الفريق بأهمية كبرى لدى هؤلاء الشباب، حيث يقدمون أفضل أداء في بيئة تعاونية.",
+        "fr": "L'option b est correcte : Le travail au sein d'une équipe soudée est primordial pour eux et leur permet de donner leur plein potentiel."
+      },
+      "whyIncorrect": {
+        "de": "a (Berufsziel) und c (Bezahlung) stehen laut Text hinter der Ausgewogenheit und Teamatmosphäre zurück.",
+        "ar": "الهدف المهني الصرف (a) والأجر المرتفع (c) لم يعودا يحتلان الصدارة على حساب بيئة العمل والتوازن الأسري.",
+        "fr": "Les ambitions de carrière (a) et les hautes rémunérations (c) passent après l'atmosphère d'équipe et l'équilibre de vie."
+      }
+    },
+    "10": {
+      "quote": "Bayreuth feiert 2013 das Wagner-Jubiläumsjahr... Zum Wagner-Jubiläumsjahr 2013 sollen Klassik-Begeisterte aus aller Welt nach Bayreuth gelockt werden.",
+      "whyCorrect": {
+        "de": "Lösung a ist richtig: Bayreuth feiert 2013 mit umfangreichen Festspielen das 200. Jubiläumsjahr von Richard Wagner.",
+        "ar": "الخيار (a) صحيح: تحتفي مدينة بايرويت في عام 2013 بالذكرى المئوية الثانية لميلاد الموسيقار ريخارد فاغنر.",
+        "fr": "L'option a est correcte : La ville de Bayreuth commémore en 2013 le bicentenaire de la naissance de Richard Wagner avec un programme exceptionnel."
+      },
+      "whyIncorrect": {
+        "de": "b ist falsch, da Wagners Geburtsstadt Leipzig ist; c ist falsch, weil Wagner-Texte auch als Rap dargeboten werden.",
+        "ar": "الخيار (b) خاطئ لأن مسقط رأسه لايبزيغ، و(c) خاطئ لأن المهرجان يقدم نصوص فاغنر بأسلوب الراب وليس ممنوعاً.",
+        "fr": "b est erroné (sa ville natale est Leipzig) et c est faux (le rap est au contraire mis à l'honneur)."
+      }
+    },
+    "11": {
+      "quote": "Unter dem Motto „Wagner für alle“ wird die Staatskapelle Weimar bei freiem Eintritt auf dem Bayreuther Marktplatz spielen.",
+      "whyCorrect": {
+        "de": "Lösung c ist richtig: Auf dem Marktplatz von Bayreuth findet unter freiem Himmel ein kostenloses Konzert bei freiem Eintritt statt.",
+        "ar": "الخيار (c) صحيح: يتضمن البرنامج حفلاً موسيقياً مجانياً في الهواء الطلق بساحة السوق في بايرويت دون رسوم دخول.",
+        "fr": "L'option c est correcte : Un concert gratuit en plein air est programmé sur la place du marché de Bayreuth par la Staatskapelle Weimar."
+      },
+      "whyIncorrect": {
+        "de": "a ist falsch, da es auch Rap und Kurzfilme gibt; b ist ungenau, da es sich um einen Wettbewerb handelt.",
+        "ar": "الخيار (a) غير صحيح لتواجد الراب والأفلام القصيرة، و(b) غير دقيق لأنه مسابقة للأفلام وليس مجرد عرض فيلم.",
+        "fr": "a est faux car le festival intègre aussi du rap et de la vidéo ; b est incomplet car il s'agit d'un concours de courts métrages."
+      }
+    },
+    "12": {
+      "quote": "Als Protest gegen den zeitgenössischen Opernbetrieb, entwickelte der Komponist nach der Revolution 1848 die Festspielidee.",
+      "whyCorrect": {
+        "de": "Lösung c ist richtig: Der Komponist Richard Wagner selbst entwickelte nach der Revolution von 1848 das Konzept für die Festspiele.",
+        "ar": "الخيار (c) صحيح: ابتكر الموسيقار ريخارد فاغنر فكرة المهرجان بنفسه احتجاجاً على تقاليد عروض الأوبرا في عصره بعد ثورة 1848.",
+        "fr": "L'option c est correcte : C'est le compositeur Richard Wagner lui-même qui a conçu l'idée du festival après la révolution de 1848."
+      },
+      "whyIncorrect": {
+        "de": "a und b widersprechen den historischen Tatsachen im Text, wonach Wagner die Festspiele nach 1848 konzipierte.",
+        "ar": "الخياران (a) و(b) يتعارضان مع ما ذكره النص بأن الفكرة تعود إلى ما بعد ثورة 1848 من قبل فاغنر.",
+        "fr": "a et b contredisent la genèse historique précisée dans le texte (conception par Wagner après 1848)."
+      }
+    },
+    "13": {
+      "quote": "Probleme in der Schule? Nachhilfeunterricht durch erfahrene Fachlehrer in Mathematik, Physik, Chemie, Deutsch, Latein, Englisch, Französisch. Alle Klassenstufen. Rainer Probst...",
+      "whyCorrect": {
+        "de": "Anzeige H passt: Hier bietet ein erfahrener Fachlehrer gezielten Nachhilfeunterricht im Fach Deutsch an.",
+        "ar": "الإعلان H هو المناسب: يقدم مدرس متخصص دروس دعم وتقوية خصوصية في اللغة الألمانية لكافة المستويات.",
+        "fr": "L'annonce H convient : Elle propose des cours particuliers de soutien en allemand dispensés par des enseignants chevronnés."
+      },
+      "whyIncorrect": {
+        "de": "Andere Anzeigen bieten Sprachreisen, Kosmetikjobs oder Fernabitur, keine individuelle Deutschnachhilfe.",
+        "ar": "الإعلانات الأخرى مخصصة للرحلات اللغوية أو دورات التجميل أو التعليم عن بعد.",
+        "fr": "Les autres annonces concernent des séjours linguistiques, du secrétariat ou le bac par correspondance."
+      }
+    },
+    "14": {
+      "quote": "Privatschule König: Grundschule und Gymnasium – Ganztagsschule, Hausaufgabenbetreuung, 5-Tage-Woche, kleine Klassen...",
+      "whyCorrect": {
+        "de": "Anzeige A passt: Eine Ganztagsschule mit verlässlicher Hausaufgabenbetreuung ist für berufstätige Eltern einer 10-Jährigen ideal.",
+        "ar": "الإعلان A هو المناسب: مدرسة خاصة بنظام اليوم الكامل ورعاية الواجبات المدرسية تناسب تماماً احتياجات الوالدين العاملين لطفلتهما.",
+        "fr": "L'annonce A convient : Cette école privée à temps plein avec garderie et aide aux devoirs est parfaitement adaptée aux parents qui travaillent."
+      },
+      "whyIncorrect": {
+        "de": "Bietet als einzige Anzeige eine reguläre Schule mit Ganztagsangebot für Kinder ab Klasse 5.",
+        "ar": "هو الإعلان الوحيد الذي يوفر مدرسة ابتدائية وثانوية نظامية برعاية كاملة للأطفال.",
+        "fr": "C'est la seule annonce proposant un cursus scolaire complet avec encadrement journalier."
+      }
+    },
+    "15": {
+      "quote": "Tellert-Reisen: FERIENANGEBOT: Sprachreisen nach GB, IRL, NZ, USA für Jugendliche und Erwachsene...",
+      "whyCorrect": {
+        "de": "Anzeige I passt: Sprachreisen in englischsprachige Länder (Großbritannien, Irland, USA) speziell in den Ferien für Jugendliche.",
+        "ar": "الإعلان I هو المناسب: ينظم رحلات لغوية إلى بريطانيا وأيرلندا وأمريكا في العطلات مخصصة لليافعين لتعلم الإنجليزية بمتعة.",
+        "fr": "L'annonce I convient : Des séjours linguistiques de vacances vers les pays anglophones (UK, Irlande, USA) destinés aux adolescents."
+      },
+      "whyIncorrect": {
+        "de": "G bietet reguläre Kurse in München, aber keine organisierten Ferien-Sprachreisen ins Ausland.",
+        "ar": "الإعلان G يقدم دورات محلية في ميونخ ولا يقدم رحلات لغوية وسياحية متكاملة للخارج.",
+        "fr": "L'annonce G propose des cours en ville mais pas de séjour linguistique immersif à l'étranger."
+      }
+    },
+    "16": {
+      "quote": "Für einen einjährigen Job vor dem Studium gibt es in den Anzeigen kein passendes Vollzeit-Arbeitsangebot.",
+      "whyCorrect": {
+        "de": "Lösung 0 ist richtig: Keine der vorliegenden Anzeigen bietet ein geeignetes Vollzeit-Arbeitsverhältnis für ein Überbrückungsjahr.",
+        "ar": "الحل هو (0): لا يوجد في الإعلانات المتاحة أي عرض عمل مناسب لشاب في سن التخرج من الثانوية يرغب في العمل لمدة عام.",
+        "fr": "La réponse 0 est correcte : Aucune annonce ne propose un emploi adapté pour effectuer une année de césure avant l'université."
+      },
+      "whyIncorrect": {
+        "de": "Anzeige C sucht lediglich Teilzeitkräfte für leichte Anlerntätigkeiten im Kosmetikstudio, nicht als einjährige Orientierung.",
+        "ar": "الإعلان C يتعلق بمركز تجميل لأعمال بسيطة وغير ملائم لخريج ثانوية يبحث عن وظيفة تحضيرية لسنة كاملة.",
+        "fr": "L'annonce C ne concerne qu'un petit travail d'appoint dans un institut de beauté et non un emploi structurant de césure."
+      }
+    },
+    "17": {
+      "quote": "Privatunterricht: Spanisch-Lehrer/in, Juli/August auf Mallorca, auch für Kinder. Tel.: 0034/622/507833",
+      "whyCorrect": {
+        "de": "Anzeige B passt: Ein Privatlehrer erteilt im Juli/August auf Mallorca Spanischunterricht speziell auch für Kinder.",
+        "ar": "الإعلان B هو المناسب: يقدم مدرس خصوصي دروساً في اللغة الإسبانية خلال شهري يوليو وأغسطس في مايوركا للأطفال.",
+        "fr": "L'annonce B convient : Un enseignant particulier propose des cours d'espagnol en juillet-août sur l'île de Majorque, y compris pour enfants."
+      },
+      "whyIncorrect": {
+        "de": "Andere Angebote für Spanisch (J) finden in Galicien oder Südamerika statt, nicht privat vor Ort auf Mallorca.",
+        "ar": "الإعلان J خاص بمدارس لغات في مناطق أخرى بإسبانيا والإكوادور وليس دروساً خاصة في جزيرة مايوركا.",
+        "fr": "L'annonce J organise des séjours en Galice ou en Équateur, et non un professeur à domicile à Majorque."
+      }
+    },
+    "18": {
+      "quote": "Spanisch lernen und erleben in Galicien – Andalusien – Ecuador... ganzjährig, alle Niveaustufen, 2 Wochen ab 279 Euro...",
+      "whyCorrect": {
+        "de": "Anzeige J passt: Umfassendes Programm mit zertifizierten Niveaustufen für Sprachkurse in Spanien und Lateinamerika.",
+        "ar": "الإعلان J هو المناسب: يقدم دورات لغة إسبانية شاملة تغطي كافة المستويات التعليمية وتؤهل للحصول على شهادات معتمدة.",
+        "fr": "L'annonce J convient : Des cours d'espagnol certifiants tous niveaux proposés toute l'année en Espagne et en Équateur."
+      },
+      "whyIncorrect": {
+        "de": "B ist lediglich privater Ferienunterricht für Kinder auf Mallorca ohne offizielle Prüfungszertifikate.",
+        "ar": "الإعلان B يقتصر على دروس صيفية خاصة للأطفال في مايوركا ولا يمنح دبلومات معتمدة دولياً.",
+        "fr": "L'annonce B n'est qu'un dépannage de vacances sans préparation à des diplômes d'État reconnus."
+      }
+    },
+    "19": {
+      "quote": "Schuljahr im Ausland: Gastschülerprogramm in England mit pädagogischer Begleitung für Schülerinnen ab der 10. Klasse. Gastfamilie und Besuch der örtlichen Secondary School.",
+      "whyCorrect": {
+        "de": "Anzeige F passt: Spezielles Austauschprogramm für ein ganzes Schuljahr in England mit Gastfamilie und Schulbesuch ab der 10. Klasse.",
+        "ar": "الإعلان F هو المناسب: برنامج لتمضية عام دراسي كامل في إنجلترا مع الإقامة لدى عائلة مضيفة للطلاب بدءاً من الصف العاشر.",
+        "fr": "L'annonce F convient : Programme officiel pour passer une année scolaire en Angleterre en famille d'accueil pour les élèves de seconde (10e classe)."
+      },
+      "whyIncorrect": {
+        "de": "Andere Anzeigen bieten lediglich Ferien-Sprachreisen von wenigen Wochen (I) oder örtliche Kurse.",
+        "ar": "الإعلانات الأخرى تقدم رحلات صيفية قصيرة لأسابيع معدودة وليست سنة دراسية نظامية كاملة.",
+        "fr": "Les autres propositions ne sont que des séjours estivaux de courte durée et non une scolarité annuelle complète."
+      }
+    },
+    "20": {
+      "quote": "Es ist absurd, sich einfach vor der Zukunft zu verschließen und mögliche Entwicklungen unberücksichtigt zu lassen. Die Erforschung der Kernfusion, die ebenfalls eine Form von Kernenergie ist, macht gerade große Fortschritte... Warten wir es ab! |A. Klee, 39, Jülich",
+      "whyCorrect": {
+        "de": "Nein: Herr Klee plädiert dafür, offen für neue nukleare Entwicklungen wie die Kernfusion zu bleiben, und argumentiert somit nicht gegen Atomenergie.",
+        "ar": "لا (Nein): يدعو السيد كلي إلى الانفتاح على تقنيات الطاقة النووية الحديثة مثل الاندماج النووي والانتظار دون رفض متسرع، فهو لا يعارضها.",
+        "fr": "Non : M. Klee plaide pour garder l'esprit ouvert aux avancées de la fusion nucléaire et ne s'oppose pas à l'énergie atomique."
+      },
+      "whyIncorrect": {
+        "de": "Ja trifft nicht zu, weil er Fortschritte in der Kernfusion hervorhebt und Abwarten empfiehlt.",
+        "ar": "الخيار 'نعم' غير صحيح لأنه يدافع عن التقدم العلمي في الطاقة النووية ويرفض إغلاق الباب أمامها.",
+        "fr": "Oui est incorrect car il met en valeur les bénéfices potentiels de la technologie nucléaire future."
+      }
+    },
+    "21": {
+      "quote": "Wenn wir so weitermachen, sind wir die Atomenergie vielleicht sogar schon vor der Zeit los. Mag sein, dass die Energiepreise noch weiter steigen, aber der Ökostrom-Anteil muss weiter ausgebaut werden, koste es was es will! |Francesca, 35, Wolfsburg",
+      "whyCorrect": {
+        "de": "Ja: Francesca fordert einen schnellen Abschied von der Atomenergie und den bedingungslosen Ausbau erneuerbarer Energien.",
+        "ar": "نعم (Ja): تطالب فرانشيسكا بالتخلص السريع من الطاقة النووية وزيادة حصة الكهرباء الخضراء النظيفة مهما كانت التكاليف.",
+        "fr": "Oui : Francesca souhaite se débarrasser au plus vite du nucléaire au profit du développement massif de l'électricité verte."
+      },
+      "whyIncorrect": {
+        "de": "Nein ist falsch, da sie die Atomkraft klar ablehnt und Ökostrom priorisiert.",
+        "ar": "الخيار 'لا' خاطئ لأنها ترفض الطاقة النووية وتصر على إحلال الطاقات المتجددة مكانها.",
+        "fr": "Non est faux puisqu'elle rejette expressément l'atome au profit des énergies renouvelables."
+      }
+    },
+    "22": {
+      "quote": "So nach dem Motto, wir haben schon so lange Atomstrom und bei uns in Deutschland ist noch nie was passiert und deswegen können wir uns getrost weiter der Gefahr aussetzen. Das ist doch naiv! |Lummer, 30, Ahrensburg",
+      "whyCorrect": {
+        "de": "Ja: Herr Lummer bezeichnet es als naiv und leichtsinnig, sich den Gefahren des Atomstroms weiter auszusetzen.",
+        "ar": "نعم (Ja): يعتبر لومر الاستمرار في الاعتماد على الطاقة النووية وتعريض المواطنين لمخاطرها سذاجة لا مبرر لها.",
+        "fr": "Oui : M. Lummer qualifie de naïve l'illusion de sécurité et dénonce les risques majeurs inhérents à l'énergie nucléaire."
+      },
+      "whyIncorrect": {
+        "de": "Nein trifft nicht zu, da er die Verharmlosung der Atomkraft scharf kritisiert.",
+        "ar": "الخيار 'لا' غير دقيق لأنه ينتقد بشدة التهاون في تقدير كوارث المحطات النووية.",
+        "fr": "Non ne convient pas car il s'insurge vivement contre l'inconscience entourant le risque atomique."
+      }
+    },
+    "23": {
+      "quote": "Statt in die zweifelhafte Sicherheit nuklearer Energie zu investieren, sollte das Geld besser in den Ausbau alternativer Energieressourcen fließen. In Wind und Sonne liegt noch eine Menge Potential. |Claudia, 47, Braunschweig",
+      "whyCorrect": {
+        "de": "Ja: Claudia fordert einen schnelleren Ausstieg aus der Kernenergie und Investitionen in Wind- und Solarkraft.",
+        "ar": "نعم (Ja): تدعو كلاوديا إلى تسريع التحول والاستثمار في الطاقات البديلة كالرياح والشمس بدلاً من أمان الطاقة النووية المشكوك فيه.",
+        "fr": "Oui : Claudia réclame une sortie accélérée du nucléaire pour consacrer les fonds au solaire et à l'éolien."
+      },
+      "whyIncorrect": {
+        "de": "Nein widerspricht ihrer eindeutigen Forderung nach Ausstieg und alternativen Energien.",
+        "ar": "الخيار 'لا' يناقض دعوتها الصريحة لوقف الدعم النووي والاعتماد على مصادر الطاقة المتجددة.",
+        "fr": "Non contredit sa demande claire de réorientation financière vers les énergies renouvelables."
+      }
+    },
+    "24": {
+      "quote": "Das Problem muss globaler betrachtet werden und zumindest europaweit gelöst werden. Solange das nicht geklärt ist, sollte auf die Kernenergie nicht verzichtet werden. |Roser, 56, Tübingen",
+      "whyCorrect": {
+        "de": "Nein: Herr Roser ist gegen einen Alleingang Deutschlands und spricht sich dafür aus, vorerst nicht auf Kernenergie zu verzichten.",
+        "ar": "لا (Nein): يعارض روزر تخلي ألمانيا المنفرد عن الطاقة النووية ويرى وجوب الاستمرار في استخدامها ما دامت دول الجوار تعتمد عليها.",
+        "fr": "Non : M. Roser s'oppose à l'abandon du nucléaire tant qu'une solution coordonnée à l'échelle européenne n'est pas trouvée."
+      },
+      "whyIncorrect": {
+        "de": "Ja ist nicht zutreffend, da er Kernenergie im aktuellen Kontext für unverzichtbar hält.",
+        "ar": "الخيار 'نعم' خاطئ لأنه يرى أن الطاقة النووية لا غنى عنها في الوقت الراهن.",
+        "fr": "Oui est incorrect car il juge le maintien de la filière nucléaire indispensable à court terme."
+      }
+    },
+    "25": {
+      "quote": "Das Ziel ist die optimale Energieversorgung... Wir können über Atomenergie diskutieren, aber solange die Versorgung nicht gesichert ist, so lange können wir nicht auf sie verzichten. |Petzold, 61, Gera",
+      "whyCorrect": {
+        "de": "Nein: Herr Petzold betont die Priorität der Versorgungssicherheit und lehnt einen Verzicht auf Atomenergie ab, solange keine verlässliche Alternative besteht.",
+        "ar": "لا (Nein): يركز بيتزولد على ضمان إمدادات الطاقة، ويؤكد عدم إمكانية الاستغناء عن الطاقة النووية حالياً.",
+        "fr": "Non : M. Petzold estime impossible de renoncer à l'énergie nucléaire tant que la sécurité de l'approvisionnement énergétique n'est pas garantie."
+      },
+      "whyIncorrect": {
+        "de": "Ja trifft nicht zu, weil er die Kernkraft als notwendige Brückentechnologie verteidigt.",
+        "ar": "الخيار 'نعم' لا يصح لأنه يدافع عن استمرار المحطات النووية لضمان استقرار الشبكة الكهربائية.",
+        "fr": "Oui ne s'applique pas car il défend le recours à l'atome pour sécuriser le réseau."
+      }
+    },
+    "26": {
+      "quote": "Um unseren schönen blauen Planeten nicht vollkommen zugrunde zu richten... sollten wir so schnell wie nur irgend möglich den Ausstieg aus der Kernenergie schaffen. |Fink, 59, Aachen",
+      "whyCorrect": {
+        "de": "Ja: Herr Fink verlangt zum Schutz künftiger Generationen und des Planeten einen schnellstmöglichen Ausstieg aus der Kernenergie.",
+        "ar": "نعم (Ja): يطالب فينك بالخروج العاجل والنهائي من الطاقة النووية حمايةً للأجيال القادمة ولكوكب الأرض من الكوارث.",
+        "fr": "Oui : M. Fink exhorte à sortir au plus vite du nucléaire pour préserver la Terre pour les générations futures."
+      },
+      "whyIncorrect": {
+        "de": "Nein widerspricht seiner eindringlichen Mahnung zur Stilllegung der Atomkraftwerke.",
+        "ar": "الخيار 'لا' يتناقض مع دعوته الحازمة لإنهاء عصر المحطات النووية في أقرب وقت.",
+        "fr": "Non est erroné car son plaidoyer anti-nucléaire est particulièrement ferme et urgent."
+      }
+    },
+    "27": {
+      "quote": "Für jeden Strandbesucher und Badegast sei erwähnt, dass an den Stränden entlang der Ostseeküste die Strandordnung zu beachten ist...",
+      "whyCorrect": {
+        "de": "Lösung b ist richtig: Der Verhaltenskodex richtet sich ausdrücklich an Feriengäste und Badende an den Stränden der Ostsee.",
+        "ar": "الخيار (b) صحيح: وضعت هذه القواعد والإرشادات خصيصاً لزوار الشواطئ والمصطافين على سواحل بحر البلطيق.",
+        "fr": "L'option b est correcte : Ce code de bonne conduite s'adresse aux vacanciers et baigneurs des plages de la mer Baltique."
+      },
+      "whyIncorrect": {
+        "de": "a (Bibliothek) und c (Schwimmbad) sind nicht die im Text angesprochene Zielgruppe des Badeknigge.",
+        "ar": "رواد المكتبة (a) وزوار حمامات السباحة المغلقة (c) لا علاقة لهم بدليل شواطئ بحر البلطيق المفتوحة.",
+        "fr": "Les bibliothèques (a) et piscines intérieures (c) ne sont absolument pas le public visé par ce règlement balnéaire."
+      }
+    },
+    "28": {
+      "quote": "Nach dem Essen hat für den Körper die Verdauung Vorrang, erst zwei Stunden nach der Mahlzeit sollte man in das Wasser springen.",
+      "whyCorrect": {
+        "de": "Lösung a ist richtig: Man sollte nach dem Essen zwei Stunden abwarten, bevor man ins Wasser geht, um den Körper nicht zu überlasten.",
+        "ar": "الخيار (a) صحيح: ينبغي الانتظار ساعتين كاملتين بعد تناول الطعام لإتمام الهضم قبل النزول إلى الماء.",
+        "fr": "L'option a est correcte : Il est recommandé de patienter deux heures après un repas pour permettre la digestion avant de se baigner."
+      },
+      "whyIncorrect": {
+        "de": "b und c ignorieren die zweistündige Schonfrist für den Magen vor dem Schwimmen.",
+        "ar": "الاستلقاء الشمسي الفوري (b) أو القفز المباشر في الماء (c) يتنافيان مع قاعدة الانتظار لمدة ساعتين.",
+        "fr": "Le saut immédiat (c) est expressément déconseillé avant l'écoulement d'un délai de deux heures."
+      }
+    },
+    "29": {
+      "quote": "Vorher duschen und den Körper langsam auf das kalte Wasser vorbereiten. Wer Kreislaufprobleme und niedrigen Blutdruck hat, in folgender Reihenfolge: Unterarme, Oberarme, Schultern, Herzgegend.",
+      "whyCorrect": {
+        "de": "Lösung c ist richtig: Das Abduschen dient dazu, den Kreislauf schrittweise an die Wassertemperatur zu gewöhnen und Kälteschocks zu vermeiden.",
+        "ar": "الخيار (c) صحيح: الهدف من الاستحمام المسبق هو تعويد الجسم والدورة الدموية تدريجياً على برودة ماء البحر وتجنب الصدمة الحرارية.",
+        "fr": "L'option c est correcte : Prendre une douche préalable permet d'habituer progressivement l'organisme à la température de l'eau."
+      },
+      "whyIncorrect": {
+        "de": "a (Schmutz) und b (Abhärtung) sind nicht der primäre medizinisch-präventive Grund im Regelwerk.",
+        "ar": "النظافة من الأوساخ (a) أو تعويد النفس على المشاق (b) ليسا السبب الوقائي الطبي المذكور في القواعد.",
+        "fr": "La saleté (a) ou l'endurcissement corporel (b) ne constituent pas la justification sanitaire fournie."
+      }
+    },
+    "30": {
+      "quote": "Schifffahrtswege, Buhnen und Brückenpfeiler sind keine Schwimm- und Badezonen! Nichtschwimmer sollten nur bis zur Brust ins Wasser gehen.",
+      "whyCorrect": {
+        "de": "Lösung b ist richtig: Nichtschwimmer dürfen sich nur in den flachen Bereich wagen und höchstens bis zur Brust ins Wasser gehen.",
+        "ar": "الخيار (b) صحيح: لا يجوز لغير السباحين النزول إلى الأعماق بل يجب أن يقفوا في مياه ضحلة لا تتجاوز مستوى الصدر.",
+        "fr": "L'option b est correcte : Les personnes qui ne savent pas nager ne doivent pas s'aventurer en eau profonde et s'arrêter au niveau de la poitrine."
+      },
+      "whyIncorrect": {
+        "de": "a (Schwimmkurs) und c (Wasser verlassen) sind keine Vorschriften dieser Regel.",
+        "ar": "أخذ دورة سباحة (a) أو مغادرة الماء كلياً (c) لم يرد ذكرهما كشرط لمن لا يجيدون السباحة.",
+        "fr": "Prendre des leçons (a) ou quitter immédiatement l'eau (c) ne figurent pas dans la recommandation."
+      }
+    },
+    "h1": {
+      "quote": "Zugdurchsage: Verehrte Fahrgäste, bitte beachten Sie, dass Sie für das Mittagessen im Speisewagen vorab einen Tisch reservieren müssen...",
+      "whyCorrect": {
+        "de": "Richtig: Für den Besuch des Speisewagens ist eine vorherige Tischreservierung zwingend erforderlich.",
+        "ar": "صحيح: يؤكد الإعلان الصوتي في القطار وجوب حجز طاولة مسبقاً لتناول وجبة الغداء في عربة المطعم.",
+        "fr": "Vrai : L'annonce à bord du train précise qu'il est indispensable de réserver sa table au wagon-restaurant à l'avance."
+      },
+      "whyIncorrect": {
+        "de": "Falsch widerspricht der eindeutigen Durchsage über die Reservierungspflicht.",
+        "ar": "الخيار 'خطأ' ينافي التعليمات الواضحة بضرورة الحجز المسبق للمقاعد.",
+        "fr": "Faux est contraire à la consigne explicite demandant une réservation obligatoire."
+      }
+    },
+    "h2": {
+      "quote": "Zugdurchsage: Heute empfehlen wir Ihnen zu unserem feinen Menü einen erlesenen französischen Rotwein aus dem Bordeaux-Gebiet...",
+      "whyCorrect": {
+        "de": "Lösung c ist richtig: Der Speisewagen bietet heute einen französischen Wein passend zum Menü an.",
+        "ar": "الخيار (c) صحيح: تقترح قائمة المشروبات اليوم نبيذاً فرنسياً مميزاً مرافقاً لوجبات الطعام.",
+        "fr": "L'option c est correcte : Le wagon-restaurant propose aujourd'hui un vin rouge français pour accompagner le repas."
+      },
+      "whyIncorrect": {
+        "de": "a und b sind falsch, da nicht ausschließlich bayerische Speisen oder schwäbische Kuchen serviert werden.",
+        "ar": "الخياران (a) و(b) خاطئان لأن القائمة لا تقتصر حصراً على الأطباق البافارية أو الكعك الشوابي.",
+        "fr": "a et b sont erronés car la carte ne se restreint pas aux spécialités bavaroises ou souabes."
+      }
+    },
+    "h3": {
+      "quote": "Radiobeitrag zum Dating-Bus: Bereits am Tag nach der aufregenden Fahrt erhalten alle Teilnehmer die ersten Kontaktanzeigen und Übereinstimmungen per E-Mail...",
+      "whyCorrect": {
+        "de": "Richtig: Schon am nächsten Tag werden den Teilnehmenden die passenden Partnerprofile zugestellt.",
+        "ar": "صحيح: يتلقى المشاركون إشعارات التعارف ومطابقات الشركاء المحتملين عبر البريد الإلكتروني في اليوم التالي مباشرة.",
+        "fr": "Vrai : Dès le lendemain de l'excursion, les participants reçoivent les premiers profils correspondants par courriel."
+      },
+      "whyIncorrect": {
+        "de": "Falsch trifft nicht zu, da die zügige Zustellung am Folgetag im Beitrag bestätigt wird.",
+        "ar": "الخيار 'خطأ' يناقض ما ذكره التقرير عن سرعة إرسال الملفات في اليوم التالي.",
+        "fr": "Faux contredit la promesse d'une transmission dès le surlendemain."
+      }
+    },
+    "h4": {
+      "quote": "Radiobeitrag: Die Reservierung der Plätze für unsere Single-Touren können Sie ganz bequem und kostenfrei auf unserer Website online buchen...",
+      "whyCorrect": {
+        "de": "Lösung c ist richtig: Die Sitzplätze im Bus für die Partnersuche lassen sich bequem online über das Internet buchen.",
+        "ar": "الخيار (c) صحيح: يمكن للمشاركين حجز مقاعدهم في حافلة التعارف بسهولة عبر الموقع الإلكتروني.",
+        "fr": "L'option c est correcte : La réservation des places à bord de l'autocar de rencontres s'effectue en ligne sur Internet."
+      },
+      "whyIncorrect": {
+        "de": "a (kostenpflichtig) und b (verpflichtend) treffen nicht auf die flexiblen Buchungsoptionen zu.",
+        "ar": "الرسوم الإضافية (a) أو الإلزامية المطلقة (b) لا تطابقان شروط الحجز المعلنة.",
+        "fr": "a et b ne correspondent pas aux modalités de réservation précisées."
+      }
+    },
+    "h5": {
+      "quote": "Ansage am Eingang: Herzlich willkommen im Wild- und Tierpark! Anlässlich unseres 50-jährigen Jubiläums bieten wir heute besondere Attraktionen für Groß und Klein...",
+      "whyCorrect": {
+        "de": "Richtig: Der Tierpark begeht an diesem Tag sein 50. Jubiläum mit Sonderaktionen.",
+        "ar": "صحيح: يحتفل منتزه الحيوانات البرية بذكرى تأسيسه الخمسين مع عروض خاصة للزوار.",
+        "fr": "Vrai : Le parc animalier célèbre son cinquantième anniversaire avec des animations exceptionnelles."
+      },
+      "whyIncorrect": {
+        "de": "Falsch widerspricht dem Anlass der Veranstaltung.",
+        "ar": "الخيار 'خطأ' يناقض الإعلان الصريح عن الاحتفال باليوبيل.",
+        "fr": "Faux ignore la mention du jubilé des 50 ans du parc."
+      }
+    },
+    "h6": {
+      "quote": "Ansage am Eingang: Bitte beachten Sie, dass die beliebte Adlershow wegen der Sanierung der Flugtribüne heute leider entfallen muss.",
+      "whyCorrect": {
+        "de": "Lösung b ist richtig: Die bekannte Flugschau der Adler kann heute wegen Bauarbeiten nicht stattfinden.",
+        "ar": "الخيار (b) صحيح: تم إلغاء عرض النسور الجارحة اليوم نظراً لأعمال الترميم في مدرج الطيران.",
+        "fr": "L'option b est correcte : Le spectacle des aigles est annulé aujourd'hui en raison de travaux sur les gradins."
+      },
+      "whyIncorrect": {
+        "de": "a (Wildrehgehege) und c (Schafe) sind für Besucher regulär geöffnet.",
+        "ar": "حظيرة الغزلان (a) ومزرعة الخراف (c) متاحة ومفتوحة كالمعتاد للزيارة.",
+        "fr": "L'enclos des chevreuils (a) et la bergerie (c) restent normalement accessibles."
+      }
+    },
+    "h7": {
+      "quote": "Nachrichtensprecher: Die Spielwarenfirma teilt mit, dass trotz des Zwischenfalls im Lager alle Bestellungen zum Weihnachtsfest absolut planmäßig ausgeliefert werden.",
+      "whyCorrect": {
+        "de": "Falsch: Die Firma garantiert die pünktliche und termingerechte Lieferung aller Aufträge.",
+        "ar": "خطأ: تؤكد شركة الألعاب قدرتها على تسليم كافة الطلبيات في مواعيدها المحددة دون تأخير رغم الحادث.",
+        "fr": "Faux : L'entreprise assure que toutes les commandes seront expédiées et livrées dans les délais prévus."
+      },
+      "whyIncorrect": {
+        "de": "Richtig verwechselt die Lage, da die termingerechte Belieferung ausdrücklich zugesichert wird.",
+        "ar": "الخيار 'صحيح' خاطئ لأن الشركة طمأنت العملاء بضمان وصول الهدايا في موعدها.",
+        "fr": "Vrai est incorrect car le fabricant garantit la ponctualité de ses livraisons."
+      }
+    },
+    "h8": {
+      "quote": "Nachrichtensprecher: Bei dem Brand in der Lagerhalle entstand zwar beträchtlicher Sachschaden, glücklicherweise gab es jedoch keine Schwerverletzten...",
+      "whyCorrect": {
+        "de": "Lösung b ist richtig: Der Brand forderte keine schwer verletzten Personen.",
+        "ar": "الخيار (b) صحيح: أسفر الحريق عن خسائر مادية لكن لحسن الحظ لم تسجل أي إصابات خطيرة أو حرجة بين الأفراد.",
+        "fr": "L'option b est correcte : L'incendie n'a fait aucun blessé grave, bien que les dégâts matériels soient importants."
+      },
+      "whyIncorrect": {
+        "de": "a (Polizei) war vor Ort und c (Sachschaden) entstand in großer Höhe.",
+        "ar": "تواجدت الشرطة في المكان (a) ووقعت أضرار مادية واسعة (c).",
+        "fr": "La police est intervenue (a) et d'importants dégâts matériels ont été constatés (c)."
+      }
+    },
+    "h9": {
+      "quote": "Polizeimeldung: Ein betrunkener Autofahrer verlor die Kontrolle über sein Fahrzeug und streifte ein am Straßenrand abgestelltes Mofa...",
+      "whyCorrect": {
+        "de": "Falsch: Der Fahrer war nicht mit dem Mofa unterwegs, sondern rammte ein fremdes parkendes Fahrzeug mit seinem Auto.",
+        "ar": "خطأ: لم يكن الرجل يقود دراجة نارية نارية، بل كان يقود سيارة واصطدم بمركبات متوقفة في الطريق.",
+        "fr": "Faux : L'homme n'était pas sur une mobylette, il conduisait une voiture lorsqu'il a causé l'accident."
+      },
+      "whyIncorrect": {
+        "de": "Richtig verwechselt das beteiligte Mofa mit dem Fahrzeug des Unfallverursachers.",
+        "ar": "الخيار 'صحيح' يخلط بين الدراجة النارية الواقفة وسيارة المتسبب في الحادث.",
+        "fr": "Vrai confond la moto stationnée avec le véhicule conduit par l'automobiliste."
+      }
+    },
+    "h10": {
+      "quote": "Polizeimeldung: Beim Rangieren rammte der 45-jährige Fahrer zunächst ein am Straßenrand ordnungsgemäß parkendes Auto...",
+      "whyCorrect": {
+        "de": "Lösung b ist richtig: Der Verursacher prallte mit seinem Pkw gegen ein am Straßenrand parkendes Auto.",
+        "ar": "الخيار (b) صحيح: اصطدم السائق بسيارة أخرى كانت متوقفة بشكل نظامي على جانب الطريق.",
+        "fr": "L'option b est correcte : Le conducteur a embouti une voiture qui était stationnée sur le bas-côté."
+      },
+      "whyIncorrect": {
+        "de": "a und c sind unzutreffend, da weder ein Mofafahrer noch Fußgänger angefahren wurden.",
+        "ar": "الخياران (a) و(c) غير صحيحين لعدم إصابة سائق دراجة أو مشاة في الحادث.",
+        "fr": "a et c sont faux car ni motard ni piéton n'ont été heurtés."
+      }
+    },
+    "h11": {
+      "quote": "Flugbegleiterin / Kapitän: Kapitän Rainer Koch blickt heute auf eine stolze Dienstzeit von vier Jahrzehnten für unsere Airline zurück...",
+      "whyCorrect": {
+        "de": "Lösung b ist richtig: Rainer Koch war 40 Jahre lang als Pilot im Dienst der Fluggesellschaft tätig.",
+        "ar": "الخيار (b) صحيح: أمضى الطيار راينر كوخ 40 عاماً متواصلة في العمل لدى شركة الطيران.",
+        "fr": "L'option b est correcte : Le commandant Rainer Koch a servi au sein de la compagnie aérienne pendant 40 ans."
+      },
+      "whyIncorrect": {
+        "de": "a und c sind Nebenaspekte, die nicht die 40-jährige Betriebszugehörigkeit beschreiben.",
+        "ar": "كونه إنساناً ملهماً (a) أو مدرباً (c) لا يصفان جوهر السنوات الأربعين من الخدمة للشركة.",
+        "fr": "a et c ne traduisent pas le fait marquant de ses 40 années de carrière pour la compagnie."
+      }
+    },
+    "h12": {
+      "quote": "Durchsage: Als besondere Überraschung zu seinem heutigen 65. Geburtstag und dem Beginn des wohlverdienten Ruhestands schenkt ihm die Flugsicherung einen Ehrenüberflug...",
+      "whyCorrect": {
+        "de": "Lösung a ist richtig: Das feierliche Abschiedsgeschenk erfolgt anlässlich seines 65. Geburtstags und seines Eintritts in die Rente.",
+        "ar": "الخيار (a) صحيح: منحت سلطات الطيران هذه الهدية الشرفية بمناسبة عيد ميلاده الخامس والستين وبلوغه سن التقاعد.",
+        "fr": "L'option a est correcte : Cette attention prestigieuse lui est offerte à l'occasion de son 65e anniversaire et de son départ en retraite."
+      },
+      "whyIncorrect": {
+        "de": "b und c erfassen nicht den doppelten Anlass aus Renteneintritt und Geburtstag.",
+        "ar": "الخياران (b) و(c) يغفلان المناسبة المزدوجة المتمثلة في عيد الميلاد والإحالة على المعاش.",
+        "fr": "b et c omettent la double occasion conjointe de la retraite et de son anniversaire."
+      }
+    },
+    "h13": {
+      "quote": "Erlaubnis des Towers: Zum traditionellen Fliegergruß bewegen scheidende Piloten beim Überflug leicht die Tragflächen ihres Flugzeugs...",
+      "whyCorrect": {
+        "de": "Lösung c ist richtig: Die Maschine verabschiedet sich mit dem traditionellen Wackeln bzw. Neigen der Tragflächen.",
+        "ar": "الخيار (c) صحيح: يودع الطيارون برج المراقبة والركاب بتحريك أجنحة الطائرة وإمالتها يميناً ويساراً كتحية وداع جوية تقليدية.",
+        "fr": "L'option c est correcte : L'au revoir traditionnel des pilotes consiste à incliner alternativement les ailes de l'appareil."
+      },
+      "whyIncorrect": {
+        "de": "a (Feuerwehrfahrzeug) und b (Lautsprecher) sind nicht die Form des traditionellen Abschiedsfluges in der Luft.",
+        "ar": "سيارات الإطفاء (a) والمكبرات الصوتية (b) لا تمثلان التحية الجوية الرسمية للطائرة المحلقة.",
+        "fr": "a et b ne correspondent pas à la manœuvre d'adieu exécutée par l'avion en vol."
+      }
+    },
+    "h14": {
+      "quote": "Bordansage: Wir haben von der Luftsicherheitszentrale die Ausnahmegenehmigung erhalten, Frankfurt in einer Tiefe von 1000 Metern zu überqueren...",
+      "whyCorrect": {
+        "de": "Lösung c ist richtig: Das Flugzeug erhielt die Genehmigung für einen Tiefflug in exakt 1000 Meter Höhe über Frankfurt.",
+        "ar": "الخيار (c) صحيح: حصلت الطائرة على تصريح استثنائي للتحليق الشرفي المنخفض فوق فرانكفورت على علو 1000 متر.",
+        "fr": "L'option c est correcte : L'appareil a reçu l'autorisation spéciale de survoler Francfort à 1 000 mètres d'altitude."
+      },
+      "whyIncorrect": {
+        "de": "a (15 Meter) und b (300 Meter) sind unrealistische und sicherheitswidrige Flughöhen.",
+        "ar": "ارتفاع 15 متراً (a) أو 300 متر (b) ارتفاعات غير دقيقة وخطرة جوياً.",
+        "fr": "15 mètres (a) et 300 mètres (b) sont des altitudes erronées et dangereuses."
+      }
+    },
+    "h15": {
+      "quote": "Bordansage: Trotz dieses kleinen Schlenkers über die Skyline landen wir nach den Berechnungen absolut pünktlich auf dem Flughafen von Bastia...",
+      "whyCorrect": {
+        "de": "Lösung a ist richtig: Das Flugzeug erreicht sein Ziel auf Korsika vollkommen pünktlich nach Flugplan.",
+        "ar": "الخيار (a) صحيح: تهبط الطائرة في وجهتها بجزيرة كورسيكا في الموعد المحدد تماماً دون أي تأخير.",
+        "fr": "L'option a est correcte : L'avion atterrira parfaitement à l'heure prévue à destination en Corse."
+      },
+      "whyIncorrect": {
+        "de": "b und c treffen nicht zu, da keine Verspätung entsteht.",
+        "ar": "الخياران (b) و(c) خاطئان لأن الرحلة لم تسجل أي تأخير في الوصول.",
+        "fr": "b et c sont faux car le vol n'a accumulé aucun retard."
+      }
+    },
+    "h16": {
+      "quote": "Gespräch an der Haltestelle: Weißt du noch, als wir in München gestartet sind? Es hat in Strömen geregnet und war eiskalt...",
+      "whyCorrect": {
+        "de": "Falsch: Beim Abflug in Deutschland herrschte regnerisches, ungemütliches und kaltes Wetter.",
+        "ar": "خطأ: كان الطقس عند الإقلاع من ألمانيا ممطراً بغزارة وشديد البرودة وليس جميلاً.",
+        "fr": "Faux : Lors du décollage en Allemagne, le temps était froid et très pluvieux."
+      },
+      "whyIncorrect": {
+        "de": "Richtig ignoriert die Schilderung des Dauerregens beim Abflug.",
+        "ar": "الخيار 'صحيح' يتجاهل ذكر المطر الغزير وسوء الأحوال الجوية في ألمانيا.",
+        "fr": "Vrai ignore les propos sur la pluie battante au départ de Munich."
+      }
+    },
+    "h17": {
+      "quote": "Natali: Kaum waren wir im Hotelzimmer angekommen, habe ich den Koffer einfach in die Ecke geworfen und bin sofort an den Strand gerannt...",
+      "whyCorrect": {
+        "de": "Falsch: Natali hat ihren Koffer nicht ausgepackt, sondern ist sofort direkt an den Strand gelaufen.",
+        "ar": "خطأ: لم تقم نتالي بتفريغ حقيبتها، بل تركتها جانباً وركضت تواً إلى الشاطئ للاستمتاع بالبحر.",
+        "fr": "Faux : Natali a jeté sa valise dans un coin et s'est précipitée à la plage sans la déballer."
+      },
+      "whyIncorrect": {
+        "de": "Richtig entspricht nicht ihrer Schilderung des sofortigen Aufbruchs zum Meer.",
+        "ar": "الخيار 'صحيح' يناقض تصرفها السريع بالذهاب فوراً للسباحة دون ترتيب الأمتعة.",
+        "fr": "Vrai contredit son empressement à rejoindre la plage sans ranger ses affaires."
+      }
+    },
+    "h18": {
+      "quote": "Natali: Und Marie hatte sich ja fest vorgenommen, auf Mykonos endlich die große Liebe, ihren griechischen Traummann zu finden...",
+      "whyCorrect": {
+        "de": "Richtig: Marie reiste mit der festen Absicht nach Mykonos, dort ihren Traummann kennenzulernen.",
+        "ar": "صحيح: كانت ماري عازمة تماماً على العثور على فتى أحلامها وشريك حياتها في رحلتها إلى ميكونوس.",
+        "fr": "Vrai : Marie s'était juré de trouver l'homme de sa vie durant son séjour à Mykonos."
+      },
+      "whyIncorrect": {
+        "de": "Falsch widerspricht Maries offen geäußertem Urlaubsziel der Partnersuche.",
+        "ar": "الخيار 'خطأ' ينافي رغبة ماري المعلنة والصريحة في البحث عن الحب.",
+        "fr": "Faux contredit le projet sentimental avoué de Marie."
+      }
+    },
+    "h19": {
+      "quote": "Natali: Aber es hat ewig gedauert! Tagelang haben wir alle Lokale abgeklappert, bis sie Kostas am letzten Abend endlich begegnet ist...",
+      "whyCorrect": {
+        "de": "Falsch: Sie fand Kostas keineswegs schnell, sondern erst nach vielen vergeblichen Versuchen am letzten Abend.",
+        "ar": "خطأ: لم تجد كوستاس بسرعة على الإطلاق، بل بعد أيام طويلة من البحث ولم تلتقِ به إلا في الليلة الأخيرة.",
+        "fr": "Faux : Elle a cherché pendant des jours et n'a rencontré Kostas que lors de leur toute dernière soirée."
+      },
+      "whyIncorrect": {
+        "de": "Richtig verkennt die lange Suche bis zum letzten Urlaubstag.",
+        "ar": "الخيار 'صحيح' يتجاهل حقيقة أن اللقاء لم يتم إلا قبيل انتهاء الرحلة بأيام.",
+        "fr": "Vrai contredit le fait que la rencontre s'est produite in extremis."
+      }
+    },
+    "h20": {
+      "quote": "Natali: Als Kostas dann tatsächlich am Flughafen stand, um sich zu verabschieden, kamen mir vor Rührung und Freude die Tränen...",
+      "whyCorrect": {
+        "de": "Richtig: Natali war von der Szene am Flughafen so gerührt und glücklich, dass sie weinen musste.",
+        "ar": "صحيح: تأثرت نتالي بشدة وبكت من فرط السعادة والتأثر بوداع كوستاس الرومانسي في المطار.",
+        "fr": "Vrai : Natali a été submergée par l'émotion et a pleuré de joie lors des adieux à l'aéroport."
+      },
+      "whyIncorrect": {
+        "de": "Falsch widerspricht ihren Tränen der Rührung und Freude.",
+        "ar": "الخيار 'خطأ' ينافي اعترافها الصريح بالبكاء فرحاً وتأثراً بالموقف.",
+        "fr": "Faux ignore ses larmes de bonheur avouées lors du départ."
+      }
+    },
+    "h21": {
+      "quote": "Natali: Kostas hat uns beide, Marie und mich, in seinem alten Jeep über die ganze Insel gefahren und die schönsten Ecken gezeigt...",
+      "whyCorrect": {
+        "de": "Falsch: Kostas hat die Sehenswürdigkeiten nicht Natali alleine gezeigt, sondern beiden Frauen gemeinsam.",
+        "ar": "خطأ: لم يرافق كوستاس نتالي وحدها، بل اصطحب نتالي وماري معاً في جولة بالسيارة عبر الجزيرة.",
+        "fr": "Faux : Kostas a guidé et emmené les deux amies ensemble, et non Natali seule."
+      },
+      "whyIncorrect": {
+        "de": "Richtig übersieht, dass Marie die ganze Zeit mit dabei war.",
+        "ar": "الخيار 'صحيح' يغفل وجود ماري معهما طوال الجولة الاستكشافية.",
+        "fr": "Vrai oublie la présence constante de Marie lors des visites de l'île."
+      }
+    },
+    "h22": {
+      "quote": "Natali: Wir waren kerngesund, braungebrannt und haben uns vom ersten bis zum letzten Tag pudelwohl gefühlt...",
+      "whyCorrect": {
+        "de": "Falsch: Niemand ist krank geworden; alle waren bei bester Gesundheit und voller Energie.",
+        "ar": "خطأ: لم تمرض ماري أو تعاني من أي وعكة، بل كانت في أتم الصحة والعافية طوال العطلة.",
+        "fr": "Faux : Personne n'est tombé malade ; Marie et Natali étaient en excellente forme."
+      },
+      "whyIncorrect": {
+        "de": "Richtig erfindet eine Krankheit, die der Text ausdrücklich verneint.",
+        "ar": "الخيار 'صحيح' يختلق مرضاً لم يحدث إطلاقاً وفقاً لرواية نتالي.",
+        "fr": "Vrai invente un problème de santé alors que le texte affirme une forme éclatante."
+      }
+    },
+    "h23": {
+      "quote": "Bettina Wedel: Als Leiterin der Flugsicherung stelle ich klar: Ein beachtlicher Teil der Einnahmen und Gebühren fließt direkt in strenge Sicherheitskontrollen und die Modernisierung der Technik.",
+      "whyCorrect": {
+        "de": "Lösung b (Bettina Wedel): Frau Wedel betont, dass substanzielle Gelder vorschriftsmäßig in die Sicherheit und technische Überwachung der Flugzeuge fließen.",
+        "ar": "الخيار (b) بيتينا فيديل: توضح بيتينا فيديل أن الرسوم والأموال تستثمر في مراقبة السلامة وتطوير معايير أمان الطائرات.",
+        "fr": "Option b (Bettina Wedel) : Mme Wedel souligne que des sommes substantielles sont directement réinvesties dans la sécurité et les équipements aéronautiques."
+      },
+      "whyIncorrect": {
+        "de": "Moderator (a) stellt die Frage und Krutschke (c) spricht vor allem über Ticketpreise und Betriebskosten.",
+        "ar": "المذيع (a) طرح السؤال، وكروتشكه (c) ركز على المنافسة السعرية وتكاليف الوقود.",
+        "fr": "Le présentateur (a) pose la question et Krutschke (c) aborde principalement les bas tarifs."
+      }
+    },
+    "h24": {
+      "quote": "Michael Krutschke: Ich wehre mich vehement gegen das Vorurteil, günstige Preise bedeuteten mangelnde Sicherheit. Unsere Flotte erfüllt ausnahmslos höchste europäische Sicherheitsstandards.",
+      "whyCorrect": {
+        "de": "Lösung c (Michael Krutschke): Herr Krutschke verteidigt seine Billigfluglinie und garantiert die einwandfreie Sicherheit aller Maschinen.",
+        "ar": "الخيار (c) ميشائيل كروتشكه: يؤكد رئيس الشركة الاقتصادية التزام طائراته الصارم بأعلى معايير الأمان والسلامة الجوية.",
+        "fr": "Option c (Michael Krutschke) : M. Krutschke affirme haut et fort que les appareils des compagnies low-cost respectent les normes les plus sévères."
+      },
+      "whyIncorrect": {
+        "de": "a und b betrachten die Situation aus journalistischer bzw. regulatorischer Perspektive.",
+        "ar": "المذيع (a) وبيتينا فيديل (b) لا يمثلان إدارة شركة الطيران منخفض التكلفة.",
+        "fr": "Ni le modérateur (a) ni la contrôleuse (b) ne portent la parole des compagnies à bas coût."
+      }
+    },
+    "h25": {
+      "quote": "Michael Krutschke: In den gesamten fünfzehn Jahren unseres Bestehens hat unsere Airline noch keinen einzigen schwerwiegenden Zwischenfall verzeichnet.",
+      "whyCorrect": {
+        "de": "Lösung c (Michael Krutschke): Krutschke belegt die Zuverlässigkeit seiner Airline mit der unfallfreien Bilanz seit der Unternehmensgründung.",
+        "ar": "الخيار (c) ميشائيل كروتشكه: يفتخر كروتشكه بعدم تسجيل شركته لأي حادث خطير أو طارئ مقلق طوال 15 عاماً من العمل.",
+        "fr": "Option c (Michael Krutschke) : M. Krutschke fait valoir le bilan de vol immaculé de sa compagnie, exempte de tout incident grave."
+      },
+      "whyIncorrect": {
+        "de": "a und b verfügen nicht über diese internen Unternehmensstatistiken der Schnellflug GmbH.",
+        "ar": "البيانات التاريخية للشركة يعرضها رئيسها التنفيذي فقط دون الضيوف الآخرين.",
+        "fr": "Les autres intervenants n'ont pas à dresser le bilan historique de la société."
+      }
+    },
+    "h26": {
+      "quote": "Moderator: Bei den traditionellen Linienflügen gehört es zum Selbstverständnis, dass der Passagier seine Bordkarte noch am Schalter erhält und nicht selbst ausdrucken muss...",
+      "whyCorrect": {
+        "de": "Lösung a (Moderator): Der Moderator verweist im Vergleich darauf, dass klassische Linienfluggesellschaften den Bordkartendruck am Schalter ohne Aufpreis übernehmen.",
+        "ar": "الخيار (a) المذيع: يوضح المذيع أن شركات الطيران المنتظم لا تلزم المسافر بطباعة تذكرة الصعود بنفسه بل توفرها في المطار.",
+        "fr": "Option a (le modérateur) : Le journaliste rappelle qu'une compagnie régulière traditionnelle ne contraint pas l'usager à imprimer sa carte d'embarquement."
+      },
+      "whyIncorrect": {
+        "de": "b und c diskutieren die Gebührenpolitik, formulierten diesen Servicevergleich aber nicht.",
+        "ar": "فيديل وكروتشكه علقا على التكاليف الإضافية لكن المذيع هو من طرح هذه المفارقة الخدمية.",
+        "fr": "Les invités se concentrent sur la rentabilité plutôt que sur cet exemple de service."
+      }
+    },
+    "h27": {
+      "quote": "Michael Krutschke: Was uns derzeit allen zu schaffen macht, sind die drastisch gestiegenen Kerosinpreise infolge der politischen Spannungen im Nahen Osten.",
+      "whyCorrect": {
+        "de": "Lösung c (Michael Krutschke): Krutschke erklärt den Kostendruck für Airlines durch die Verteuerung des Flugtreibstoffs wegen Nahost-Krisen.",
+        "ar": "الخيار (c) ميشائيل كروتشكه: يوضح كروتشكه ارتفاع تكاليف وقود الطائرات (الكيروسين) بسبب الأزمات والتوترات في الشرق الأوسط.",
+        "fr": "Option c (Michael Krutschke) : M. Krutschke justifie la pression sur les prix par la flambée du kérosène liée aux tensions géopolitiques au Moyen-Orient."
+      },
+      "whyIncorrect": {
+        "de": "a und b sprachen über Passagiergebühren und Flughafenentgelte, nicht über Treibstoffpreise.",
+        "ar": "فيديل والمذيع لم يتحدثا عن تفاصيل أسعار الكيروسين والاضطرابات النفطية العالمية.",
+        "fr": "Ni l'animatrice ni la responsable du contrôle aérien n'ont abordé le coût direct du combustible."
+      }
+    },
+    "h28": {
+      "quote": "Bettina Wedel: Man muss den Bürgern ehrlich sagen: Billiganbieter nutzen fast ausschließlich kleinere, regionale Flughäfen weit außerhalb der Ballungszentren.",
+      "whyCorrect": {
+        "de": "Lösung b (Bettina Wedel): Frau Wedel weist darauf hin, dass Low-Cost-Airlines zentrale Drehkreuze meiden und abgelegene Regionalflughäfen ansteuern.",
+        "ar": "الخيار (b) بيتينا فيديل: تؤكد بيتينا فيديل أن خطوط الطيران الاقتصادي تتجنب المطارات المركزية الكبرى وتلجأ لمطارات فرعية بعيدة.",
+        "fr": "Option b (Bettina Wedel) : Mme Wedel fait observer que les transporteurs low-cost évitent les grands hubs pour privilégier des aéroports périphériques."
+      },
+      "whyIncorrect": {
+        "de": "Krutschke (c) rechtfertigt diese Praxis nachträglich, doch den Kritikpunkt brachte Wedel ein.",
+        "ar": "كروتشكه دافع عن ذلك لاحقاً بالحديث عن التنمية، لكن الملاحظة حول غياب المطارات المركزية جاءت من فيديل.",
+        "fr": "Krutschke défend ce choix économique, mais c'est bien Mme Wedel qui a soulevé cette caractéristique."
+      }
+    },
+    "h29": {
+      "quote": "Michael Krutschke: Diese dezentralen Regionalflughäfen sind ein Segen! Sie beleben die regionale Wirtschaft, schaffen hunderte Arbeitsplätze und bringen Tourismus in strukturschwache Regionen.",
+      "whyCorrect": {
+        "de": "Lösung c (Michael Krutschke): Krutschke argumentiert, dass Regionalflughäfen der lokalen Wirtschaft und dem Tourismus einen enormen Aufschwung verleihen.",
+        "ar": "الخيار (c) ميشائيل كروتشكه: يدافع كروتشكه بحماس عن المطارات الإقليمية لأنها تنعش الاقتصاد المحلي وتخلق فرص عمل وسياحة.",
+        "fr": "Option c (Michael Krutschke) : M. Krutschke met en avant l'impact économique très positif des aéroports secondaires sur l'emploi et l'attractivité des régions."
+      },
+      "whyIncorrect": {
+        "de": "a und b betonen eher die langen Anfahrtswege für Passagiere.",
+        "ar": "المذيع وبيتينا ركزا على بعد المسافة ومشقة السفر للركاب.",
+        "fr": "Le modérateur et Mme Wedel ont insisté sur l'éloignement et les trajets fastidieux pour les usagers."
+      }
+    },
+    "h30": {
+      "quote": "Bettina Wedel: Wir führen eine schwarze Liste unsicherer Fluggesellschaften, und Gesellschaften mit gravierenden Mängeln erhalten striktes Start- und Landeverbot im deutschen Luftraum.",
+      "whyCorrect": {
+        "de": "Lösung b (Bettina Wedel): Als Vertreterin der Behörde erklärt sie, dass Fluglinien mit unzureichenden Sicherheitsstandards in Deutschland Flugverbot haben.",
+        "ar": "الخيار (b) بيتينا فيديل: تؤكد بيتينا بصفتها مسؤولة سلامة الطيران وجود قائمة سوداء تحظر هبوط أو إقلاع شركات الطيران غير الآمنة في ألمانيا.",
+        "fr": "Option b (Bettina Wedel) : Mme Wedel rappelle l'existence de la liste noire interdisant d'atterrir en Allemagne aux compagnies ne respectant pas les normes."
+      },
+      "whyIncorrect": {
+        "de": "a moderiert nur und c vertritt eine zugelassene Gesellschaft.",
+        "ar": "المذيع (a) يدير الحوار، وكروتشكه (c) يمثل شركة طيران مرخصة ومعتمدة.",
+        "fr": "Le journaliste anime le débat et M. Krutschke représente une compagnie opérant légalement."
+      }
+    }
+  },
+  "translations": {
+    "parts": {
+      "1": {
+        "instructions": {
+          "ar": "اقرأ النص والمهام من 1 إلى 6. اختر: هل العبارات صحيحة أم خاطئة؟",
+          "fr": "Lisez le texte et les tâches 1 à 6 correspondantes. Choisissez : les affirmations sont-elles Vraies ou Fausses ?"
+        },
+        "articles": [
+          {
+            "heading": {
+              "ar": "الإنسان الزجاجي",
+              "fr": "L'homme de verre (la transparence numérique)"
+            },
+            "sub": {
+              "ar": "نحن نعيش في عصر المعلومات. ودون أن نريد وغالباً دون أن ندري، نترك وراءنا آثاراً في الشبكة العنكبوتية حول العالم. في الإنترنت نحن كل شيء ولا شيء. والشبكة باتت تحدد هويتنا.",
+              "fr": "Nous vivons dans l'ère de l'information. Sans le vouloir et le plus souvent sans le savoir, nous laissons des traces sur le réseau, partout dans le monde. Sur Internet, nous sommes tout et rien. C'est le réseau qui façonne notre identité."
+            },
+            "body": {
+              "ar": [
+                "إن الإنسان الزجاجي في تقدم مستمر. ويمكن للمرء أن يكتشف مدى ما يعرفه الويب عنه في معرض «خارج السيطرة – ماذا تعرف الشبكة عنك» في مركز أرس إلكترونيكا في لينتس. لقد أُقيمت هناك محطة قرصنة تمكنت في أقصر وقت من كسر جميع كلماتي السرية التي كنت أظن أنها آمنة تماماً. إن حياتنا الرقمية كتاب مفتوح للجميع، رغم كلمات المرور، ورغم أسئلة الأمان، ورغم قوانين حماية البيانات.",
+                "من يتسوق عبر الإنترنت يلاحظ أن رأي العميل مطلوب ومرغوب فيه؛ إذ يمكن للمشترين كتابة تقييماتهم للبائع. ولكن هذا يؤدي إلى توجيه القوة الشرائية واختيارات الزبائن بناءً على تقييمات قد تتعرض للتلاعب من قِبل أشخاص خبيثين. وما مدى الطابع الاجتماعي لما يسمى بشبكات التواصل؟ ففي منصة الطلاب «spickmich.de» يقيم التلاميذ مدارسهم، حيث يمنحون علامات ويكتبون تعليقات حول المعلمين. لم يعجب هذا إحدى المعلمات فرفعت دعوى قضائية أمام المحكمة، إلا أنها خسرت القضية. فقد رأت المحكمة أن مصالح الطلاب وحرية التعبير تفوق الحقوق الشخصية للمعلمة.",
+                "إننا نعيش في واجهة عرض افتراضية. وكان هذا تحديداً موضوع مبادرة «الحملة التناظرية» التي نظمها طلاب في كارلسروه. ومن أجل لفت الانتباه إلى مدى انكشافنا بسبب نقراتنا وإعجاباتنا ومنشوراتنا، طُلب من فريق المشروع تجسيد عالمهم الافتراضي بصورة ورقية وكرتونية ملموسة وعلنية. عاش الطلاب لمدة أسبوع كامل داخل واجهة عرض أحد المعارض، وكان بوسع الجمهور زيارتهم والجلوس معهم والحديث إليهم. ولكن خلافاً للعالم الرقمي، تم بعد ذلك تمزيق جميع تلك الوثائق وإتلافها كلياً.",
+                "ما يبدو لي اليوم وسيلة ممتازة للمقارنة والتسوق، قد ينقلب غداً إلى مصيبة ومأزق حقيقي. فبياناتي الشخصية تُستغل في صفقات وأعمال تجارية؛ فأينما ضغطت وحيثما نقرت، تُخزن بياناتي ويمكن التجسس عليها. فلا داعي للاستغراب إن تلقينا فجأة مكالمات لإجراء استطلاعات أو اتصالات لأغراض دعائية. الإنسان الزجاجي في انتشار؛ فحتى بطاقة العميل الخاصة بي في السوبرماركت أو محطة الوقود تحفظ بياناتي وتسمح ببناء ملف دقيق حول سلوكي الاستهلاكي وما أفضله وما أنفر منه.",
+                "إننا نعيش في عصر معلومات يبدو بلا حدود، ونستخدم قنوات اتصال رقمية متزايدة للقاءات افتراضية، وعلينا أن نبحث عن قيم أخلاقية جديدة كي لا نفقد أنفسنا وإنسانيتنا بالكامل."
+              ],
+              "fr": [
+                "L'homme de verre gagne du terrain. L'exposition « Hors de contrôle – Ce que le web sait de toi » au centre Ars Electronica de Linz a révélé l'étendue des données collectées. Un stand de piratage y cassait en un éclair tous mes mots de passe présumés sécurisés. Notre vie numérique est un livre grand ouvert, malgré les mots de passe, les vérifications et la protection des données.",
+                "En achetant sur Internet, l'avis des clients est sollicité et influe grandement sur les décisions d'achat, au risque d'être manipulé par des personnes malveillantes. Qu'en est-il du caractère social des réseaux ? Sur la plateforme scolaire « spickmich.de », les élèves notent leurs écoles et leurs professeurs. Une enseignante a porté plainte contre ces évaluations, mais a perdu son procès : la liberté d'expression des élèves a prévalu sur son droit individuel.",
+                "Nous vivons dans une vitrine virtuelle. Tel était le thème de « l'Action Analogique » menée par des étudiants à Karlsruhe. Pour sensibiliser à notre transparence due aux clics, likes et publications, ils ont matérialisé leur monde virtuel sur carton et papier. Durant une semaine, ils ont vécu dans la vitrine d'une galerie où les passants pouvaient venir discuter. Mais contrairement au numérique, tous les documents ont ensuite été déchirés et détruits.",
+                "Ce qui me paraît aujourd'hui pratique pour comparer des offres peut demain devenir mon piège. Nos données font l'objet d'un commerce lucratif et sont pistées partout. Ne nous étonnons pas de recevoir des appels publicitaires ou des sondages inattendus. Même les cartes de fidélité enregistrent nos habitudes de consommation pour dresser notre profil d'acheteur.",
+                "À l'ère de l'information sans frontières et des relations virtuelles, nous devons définir de nouveaux repères éthiques pour ne pas perdre notre humanité."
+              ]
+            }
+          }
+        ],
+        "example": {
+          "text": {
+            "ar": "المدون معجب بالفرص والإمكانات المتعددة على الإنترنت.",
+            "fr": "Le blogueur est enthousiasmé par les nombreuses possibilités offertes par Internet."
+          }
+        },
+        "questions": {
+          "1": {
+            "text": {
+              "ar": "كلمة المرور محمية تماماً من القراصنة بفضل حماية البيانات وأسئلة الأمان.",
+              "fr": "Un mot de passe est protégé contre les hackers grâce à la protection des données et aux questions de sécurité."
+            }
+          },
+          "2": {
+            "text": {
+              "ar": "قامت إحدى المعلمات بمقاضاة الطلاب قضائياً.",
+              "fr": "Une enseignante a engagé des poursuites judiciaires contre des élèves."
+            }
+          },
+          "3": {
+            "text": {
+              "ar": "أظهر طلاب كارلسروه في مبادرتهم حدود العالم الرقمي.",
+              "fr": "Des étudiants de Karlsruhe ont mis en évidence les limites d'un monde numérique."
+            }
+          },
+          "4": {
+            "text": {
+              "ar": "فُقدت نتائج تجربة «واجهة العرض الافتراضية» للأسف.",
+              "fr": "Les résultats de l'expérience « Vitrine virtuelle » ont malheureusement été égarés."
+            }
+          },
+          "5": {
+            "text": {
+              "ar": "تقدم بطاقات العملاء معلومات دقيقة حول السلوك الاستهلاكي للمشتري.",
+              "fr": "Les cartes de fidélité fournissent des indications sur les habitudes de consommation."
+            }
+          },
+          "6": {
+            "text": {
+              "ar": "نحن بحاجة إلى منظومة أخلاقية جديدة على شبكة الإنترنت.",
+              "fr": "Nous avons besoin d'une nouvelle éthique sur le réseau."
+            }
+          }
+        }
+      },
+      "2": {
+        "instructions": {
+          "ar": "اقرأ المقال الصحفي والمهام من 7 إلى 9. اختر الإجابة الصحيحة a أو b أو c.",
+          "fr": "Lisez l'article de presse et les tâches 7 à 9 correspondantes. Choisissez la bonne réponse a, b ou c."
+        },
+        "articles": [
+          {
+            "heading": {
+              "ar": "جيل الرخاوة (جيل الراحة)",
+              "fr": "Génération douillette"
+            },
+            "sub": {
+              "ar": "أوقات الفراغ بدلاً من تسلق السلم الوظيفي، وعطلة التفرغ بدلاً من الإجهاد: لم يعد الشباب يضحون بكل شيء من أجل العمل. هل هذا تقدم أم تراجع؟",
+              "fr": "Temps libre plutôt que carrière, congé sabbatique plutôt que stress : les jeunes ne se donnent plus corps et âme pour leur travail. Évolution positive ou déclin ?"
+            },
+            "body": {
+              "ar": [
+                "إنه أمر يدعو للدهشة مع هذا الجيل الشاب. ها هي شركة ألمانية كبرى تبحث عن مرشح لشغل منصب في نيويورك، ومع ذلك لا أحد يقبل العرض فوراً. قبل عشر سنوات كان الموظفون يتسابقون ويتنافسون بضراوة على وظيفة في نيويورك. أما اليوم فيفكر المرشحون ملياً: هل يلائم ذلك نمط حياتي الشخصي؟ ما هو رأي شريكي في الأمر؟ هل سيبقى لدي وقت للرياضة والموسيقى، ولعائلتي ولنفسي؟ وإذا كان التضحية بهذه الأمور كبيرة، فلا الراتب المرتفع ولا بريق نيويورك يفلحان في إغرائهم.",
+                "ويتساءل المرء إن كان ذلك جيداً أم سيئاً: هل هم حقاً جيل مدلل يتهرب من المسؤولية والمناصب القيادية؟ أم أننا أمام جيل شاب بارع وذكي يطمح إلى حياة متكاملة وهانئة إلى جانب العمل؟ أمر واحد بات مؤكداً: الأولويات قد تغيرت. فقد أظهرت استطلاعات الرأي أن ثلثي الشباب لم يعودوا مستعدين للتضحية بحياتهم الخاصة من أجل أهداف مهنية. فتحقيق التوازن بين العمل والحياة الخاصة أمر جوهري. كما يحرصون على المشاركة في اتخاذ القرار، ويهتمون بأجواء عمل مريحة وأوقات دوام مرنة، ويفضلون العمل ضمن فريق حيث يقدمون حينها أداءً ممتازاً."
+              ],
+              "fr": [
+                "L'attitude des jeunes générations a de quoi surprendre. Une grande entreprise allemande propose un poste à New York, mais aucun candidat ne se précipite. Il y a dix ans, les collaborateurs se seraient battus pour une telle opportunité. Aujourd'hui, ils réfléchissent : est-ce compatible avec mon projet de vie ? Qu'en pense mon conjoint ? Me restera-t-il du temps pour le sport, la musique, ma famille et moi-même ? Si le sacrifice est trop grand, ni salaire princier ni statut prestigieux à Manhattan ne parviennent à les convaincre.",
+                "Faut-il y voir une régression ou un progrès ? S'agit-il de jeunes paresseux fuyant responsabilités et postes de direction, ou d'une relève avisée qui privilégie un équilibre de vie épanoui ? Deux tiers des sondés refusent désormais de subordonner leur vie privée à leur carrière. L'équilibre entre travail et vie personnelle est devenu primordial. Ils accordent une grande importance à la participation aux décisions, à une ambiance bienveillante et à la flexibilité des horaires, excellant tout particulièrement dans le travail d'équipe."
+              ]
+            }
+          }
+        ],
+        "example": {
+          "text": {
+            "ar": "الجيل الشاب ...",
+            "fr": "La jeune génération..."
+          },
+          "options": {
+            "ar": [
+              "يحلم بالمسيرة المهنية الكبرى.",
+              "لديه علاقة ورؤية مختلفة للعمل.",
+              "عاجز عن العثور على وظيفة."
+            ],
+            "fr": [
+              "rêve d'une grande carrière.",
+              "a un autre rapport au travail.",
+              "est incapable de trouver un emploi."
+            ]
+          }
+        },
+        "questions": {
+          "7": {
+            "text": {
+              "ar": "المرشحون للوظيفة ...",
+              "fr": "Les candidats..."
+            },
+            "options": {
+              "ar": [
+                "لديهم مفهوم وتصور واضح لنمط حياتهم.",
+                "سيتزوجون على أي حال وبكل تأكيد.",
+                "يرغبون في السفر إلى نيويورك."
+              ],
+              "fr": [
+                "ont un projet de vie bien défini.",
+                "se marient dans tous les cas.",
+                "veulent absolument partir à New York."
+              ]
+            }
+          },
+          "8": {
+            "text": {
+              "ar": "يتساءل المرء ...",
+              "fr": "On se demande..."
+            },
+            "options": {
+              "ar": [
+                "ما إذا كان تصرف هؤلاء الشباب حكيماً وذكياً.",
+                "ما إذا كان ضغط العمل كبيراً للغاية.",
+                "ما إذا كانت حياتهم مليئة بالإنجازات."
+              ],
+              "fr": [
+                "si les jeunes gens agissent judicieusement.",
+                "si la pression est trop forte.",
+                "si leur vie est épanouie."
+              ]
+            }
+          },
+          "9": {
+            "text": {
+              "ar": "المهم بالنسبة لهم هو ...",
+              "fr": "Ce qui compte pour eux, c'est..."
+            },
+            "options": {
+              "ar": [
+                "الهدف والمنصب الوظيفي.",
+                "الأداء والإنتاجية ضمن فريق عمل.",
+                "الراتب المرتفع والأجر الجيد."
+              ],
+              "fr": [
+                "l'objectif de carrière.",
+                "le travail et l'efficacité en équipe.",
+                "une excellente rémunération."
+              ]
+            }
+          }
+        },
+        "instructions2": {
+          "ar": "اقرأ النص الصحفي والمهام من 10 إلى 12. اختر الإجابة الصحيحة a أو b أو c.",
+          "fr": "Lisez l'article de presse et les tâches 10 à 12 correspondantes. Choisissez la bonne réponse a, b ou c."
+        },
+        "articles2": [
+          {
+            "heading": {
+              "ar": "بايرويت تحتفل في 2013 بالعام التذكاري للموسيقار فاغنر",
+              "fr": "Bayreuth célèbre l'année du jubilé Wagner en 2013"
+            },
+            "sub": {
+              "ar": "«فاغنر للجميع» هو شعار المهرجان الذي يفتح برنامجه لكافة الأجيال بمناسبة الذكرى المئوية الثانية لميلاد الموسيقار، جامعاً بين الأعمال المبكرة والراب والتحليلات النصية.",
+              "fr": "« Wagner pour tous » : tel est le slogan des festivités qui, à l'occasion du 200e anniversaire de la naissance du compositeur, s'ouvrent à toutes les générations."
+            },
+            "body": {
+              "ar": [
+                "بمناسبة العام التذكاري لفاغنر 2013، تستعد مدينة بايرويت لاستقطاب عشاق الموسيقى الكلاسيكية من جميع أنحاء العالم. ويتضمن البرنامج حفلاً موسيقياً بمناسبة عيد ميلاده يُقام في 22 مايو في قصر المهرجانات.",
+                "وبالتعاون مع دار الأوبرا وأوركسترا غيفاندهاوس في لايبزيغ، سيتم عرض أعمال فاغنر الثلاثة الأولى: «رينزي»، و«تحريم الحب»، و«الجنيات»، حيث ستُقدم في مسقط رأسه لايبزيغ وفي بايرويت أيضاً.",
+                "وتشكل مشاركة فرق أوركسترا بارزة، مثل سيمفونية بامبرغ بقيادة جوناثان نوت، وأوركسترا الإذاعة البافارية السيمفونية بقيادة أندريس نيلسون، وكابيلا ولاية ساكسونيا في دريسدن بقيادة تيليمان، أبرز محطات المهرجان.",
+                "وتحت شعار «فاغنر للجميع»، ستقدم كابيلا ولاية فايمار حفلاً مجانياً في ساحة السوق في بايرويت. ولن تقتصر الفعاليات على الموسيقى الكلاسيكية فقط؛ فمن أجل جذب فئة الشباب، ستُنظم مسابقة للأفلام القصيرة وستُؤدى نصوص فاغنر بأسلوب أغاني الراب.",
+                "يُعتبر مهرجان بايرويت «أم المهرجانات في العصر الحديث» وموعداً ثابتاً لكل محب للموسيقى الكلاسيكية. وقد وُلدت فكرة المهرجان لدى الموسيقار بعد ثورة 1848 كحركة احتجاجية وتجديدية ضد عروض الأوبرا السائدة في عصره."
+              ],
+              "fr": [
+                "À l'occasion du bicentenaire en 2013, Bayreuth attend des mélomanes du monde entier. Au programme figure un grand concert d'anniversaire le 22 mai au Festspielhaus.",
+                "En coopération avec l'Opéra et l'Orchestre du Gewandhaus de Leipzig, trois œuvres de jeunesse de Wagner seront mises en scène et jouées tant dans sa ville natale de Leipzig qu'à Bayreuth.",
+                "La participation d'orchestres de premier rang constitue l'un des sommets des festivités.",
+                "Sous le slogan « Wagner pour tous », la Staatskapelle de Weimar se produira gratuitement sur la place du marché. Pour séduire un public jeune, un concours de courts métrages et des interprétations rap de textes de Wagner sont également organisés.",
+                "Considéré comme la matrice des grands festivals modernes, l'événement est né après la révolution de 1848 de la volonté de Wagner de renouveler les codes traditionnels de l'opéra."
+              ]
+            }
+          }
+        ],
+        "questions2": {
+          "10": {
+            "text": {
+              "ar": "مدينة بايرويت ...",
+              "fr": "Bayreuth..."
+            },
+            "options": {
+              "ar": [
+                "تحتفل بذكرى اليوبيل الموسيقي لفاغنر.",
+                "هي مسقط رأس الموسيقار ريخارد فاغنر.",
+                "تمنع وتعارض عروض الراب لأعمال فاغنر."
+              ],
+              "fr": [
+                "fête le jubilé de Wagner.",
+                "est la ville de naissance de Wagner.",
+                "interdit les adaptations sous forme de rap."
+              ]
+            }
+          },
+          "11": {
+            "text": {
+              "ar": "يتضمن برنامج الاحتفالات ...",
+              "fr": "Le programme officiel inclut..."
+            },
+            "options": {
+              "ar": [
+                "الأعمال الكلاسيكية حصراً دون غيرها.",
+                "عرض فيلم سينمائي طويل.",
+                "حفلاً موسيقياً مجانياً في الهواء الطلق."
+              ],
+              "fr": [
+                "uniquement des œuvres classiques.",
+                "la projection d'un film.",
+                "un concert gratuit en plein air."
+              ]
+            }
+          },
+          "12": {
+            "text": {
+              "ar": "فكرة المهرجان ...",
+              "fr": "L'idée initiale du festival..."
+            },
+            "options": {
+              "ar": [
+                "تعتبر ابتكاراً حديثاً معاصراً.",
+                "كانت موجودة بالفعل قبل اندلاع الثورة.",
+                "جاءت وابتُكرت من الموسيقار ريخارد فاغنر نفسه."
+              ],
+              "fr": [
+                "est un concept moderne récent.",
+                "existait déjà avant la révolution.",
+                "a été initiée par Richard Wagner."
+              ]
+            }
+          }
+        }
+      },
+      "3": {
+        "instructions": {
+          "ar": "اقرأ المواقف من 13 إلى 19 والإعلانات من A إلى J. اختر: أي إعلان يناسب كل موقف؟ إذا لم يكن هناك إعلان مناسب فاكتب 0.",
+          "fr": "Lisez les situations 13 à 19 et les annonces A à J. Choisissez l'annonce qui convient à chaque situation. S'il n'y en a aucune, écrivez 0."
+        },
+        "example": {
+          "text": {
+            "ar": "السيد بريتس موظف عامل ويرغب في الاستعداد لشهادة الثانوية العامة (البكالوريا) من المنزل.",
+            "fr": "M. Preez travaille et aimerait préparer son baccalauréat à domicile."
+          }
+        },
+        "questions": {
+          "13": {
+            "text": {
+              "ar": "ميلاني لديها صعوبات في الإملاء وقواعد الكتابة الألمانية وتبحث عن معلم خاص.",
+              "fr": "Melanie a des difficultés en orthographe allemande et recherche un professeur particulier."
+            }
+          },
+          "14": {
+            "text": {
+              "ar": "السيد والسيدة فولف عاملان ويبحثان عن مدرسة مناسبة لابنتهما البالغة من العمر 10 سنوات.",
+              "fr": "M. et Mme Wolf sont tous deux salariés et cherchent une école adaptée pour leur fille de 10 ans."
+            }
+          },
+          "15": {
+            "text": {
+              "ar": "يرغب السيد نول في أن تجد ابنته متعة أكبر في اللغة الإنجليزية ويريد تسجيلها في رحلة لغوية صيفية.",
+              "fr": "M. Noll souhaite que sa fille prenne goût à l'anglais et envisage de l'inscrire à un séjour linguistique de vacances."
+            }
+          },
+          "16": {
+            "text": {
+              "ar": "شقيق فريدون الأكبر يجتاز البكالوريا، ويرغب في العمل لمدة عام قبل أن يبدأ دراسته الجامعية.",
+              "fr": "Le grand frère de Feridun passe son baccalauréat et souhaite travailler pendant un an avant d'entamer ses études supérieures."
+            }
+          },
+          "17": {
+            "text": {
+              "ar": "تمتلك عائلة سيم منزلاً صغيراً في مايوركا، ويرغبون في أن يتعلم أطفالهم الإسبانية خلال العطلة الصيفية.",
+              "fr": "La famille Simm possède une petite maison à Majorque et désire que les enfants apprennent l'espagnol sur place pendant les vacances."
+            }
+          },
+          "18": {
+            "text": {
+              "ar": "يرغب نيكلاس في أخذ دورة في اللغة الإسبانية يمكنه اختتامها والحصول على دبلوم معترف به دولياً.",
+              "fr": "Niklas veut suivre une formation en espagnol lui permettant d'obtenir un diplôme officiellement reconnu."
+            }
+          },
+          "19": {
+            "text": {
+              "ar": "ابن عائلة بور البالغ من العمر 16 عاماً يرغب في قضاء سنة دراسية كاملة في الخارج.",
+              "fr": "Le fils de la famille Bohr, âgé de 16 ans, aimerait effectuer une année scolaire complète à l'étranger."
+            }
+          }
+        },
+        "ads": {
+          "A": {
+            "ar": "مدرسة كونيغ الخاصة: مدرسة ابتدائية وثانوية، دوام كامل، رعاية الواجبات المنزلية، أسبوع من 5 أيام، فصول صغيرة، واللغة الإنجليزية ابتداءً من الصف الأول.",
+            "fr": "École privée König : École primaire et collège/lycée, journée continue, aide aux devoirs, semaine de 5 jours, effectifs réduits, anglais dès le CP."
+          },
+          "B": {
+            "ar": "دروس خصوصية: مطلوب معلم/معلمة للغة الإسبانية خلال شهري يوليو وأغسطس في مايوركا، ومناسبة أيضاً للأطفال.",
+            "fr": "Cours particuliers : Professeur d'espagnol en juillet/août à Majorque, également pour les enfants."
+          },
+          "C": {
+            "ar": "استوديو التجميل غرونر: فريق عمل شاب يبحث عن موظفين لأعمال تدريبية خفيفة وبسيطة.",
+            "fr": "Institut de beauté Grüner : Équipe jeune recrute employés pour tâches d'initiation simples."
+          },
+          "D": {
+            "ar": "التعليم والتدريب من المنزل: معهد التعليم عن بعد IFF، إمكانية البدء في أي وقت، أكثر من 130 دورة، شهادة الإعدادية والثانوية العامة (البكالوريا).",
+            "fr": "Formation et études à distance : Institut IFF, rentrée permanente, plus de 130 cours à distance, préparation du brevet et du baccalauréat."
+          },
+          "E": {
+            "ar": "مضيفة لغات أجنبية: لشركات الطيران والمعارض والسياحة والمؤتمرات الدولية (إنجليزية، فرنسية، إسبانية، تدريب على الخطابة، معلوميات).",
+            "fr": "Hôtesse trilingue : Pour compagnies aériennes, foires, tourisme et événements internationaux (anglais, français, espagnol, bureautique)."
+          },
+          "F": {
+            "ar": "سنة دراسية في الخارج: برنامج التبادل للطلاب في إنجلترا مع إشراف تربوي وعائلة مضيفة للفتيات ابتداءً من الصف العاشر.",
+            "fr": "Une année scolaire à l'étranger : Programme d'échange en Angleterre avec encadrement pédagogique et famille d'accueil dès la classe de seconde."
+          },
+          "G": {
+            "ar": "عروض العطلات من لينغوا ميونخ: دورات ألمانية مكثفة من الإثنين إلى الخميس، ومجموعات مصغرة للإنجليزية للمبتدئين والمحادثة والأعمال.",
+            "fr": "Offre vacances LINGUA Munich : Cours intensifs d'allemand du lundi au jeudi, et petits groupes d'anglais (débutants, conversation, affaires)."
+          },
+          "H": {
+            "ar": "صعوبات في المدرسة؟ دروس خصوصية ودعم مدرسي على يد معلمين متخصصين في الرياضيات والفيزياء والكيمياء والألمانية والفرنسية والإنجليزية لكافة المستويات.",
+            "fr": "Difficultés scolaires ? Cours de soutien assurés par des enseignants expérimentés en maths, physique, chimie, allemand, langues. Tous niveaux."
+          },
+          "I": {
+            "ar": "عروض العطلات من تيلرت: رحلات لغوية إلى بريطانيا وإيرلندا ونيوزيلندا والولايات المتحدة الأمريكية للشباب والكبار.",
+            "fr": "Séjours linguistiques Tellert : Voyages linguistiques en Grande-Bretagne, Irlande, Nouvelle-Zélande et États-Unis pour ados et adultes."
+          },
+          "J": {
+            "ar": "تعلم الإسبانية وعش تجارب رائعة في غاليسيا والأندلس والإكوادور: إقامة شاملة، جميع المستويات على مدار السنة، أسبوعان ابتداءً من 279 يورو.",
+            "fr": "Apprendre l'espagnol en Galice, Andalousie ou Équateur : Hébergement compris, tous niveaux toute l'année, 2 semaines dès 279 euros."
+          }
+        }
+      },
+      "4": {
+        "instructions": {
+          "ar": "اقرأ النصوص من 20 إلى 26. اختر: من من الأشخاص يقدم حججاً ضد الطاقة النووية؟",
+          "fr": "Lisez les avis 20 à 26. Choisissez : quelles personnes argumentent contre l'énergie nucléaire ?"
+        },
+        "topic": {
+          "ar": "ما الذي يأتي من مقبس الكهرباء؟ قيّم المشاركات التالية في مناقشة حول سياسة الطاقة في ألمانيا.",
+          "fr": "D'où vient l'électricité de nos prises ? Évaluez les contributions suivantes à un débat sur la politique énergétique en Allemagne."
+        },
+        "example": {
+          "who": "Thomas, 53, Bonn",
+          "text": {
+            "ar": "الطاقة النووية لم تعد خياراً مستداماً لجمهورية ألمانيا الاتحادية. وبغض النظر عن أي تقدم تقني، فإنني لا أعطي أي فرصة لنهضة الطاقة الذرية هنا. إنها مسألة وقت فقط قبل فصل جميع المفاعلات عن الشبكة.",
+            "fr": "L'atome n'est plus une option viable en Allemagne. Quels que soient les progrès techniques, le retour du nucléaire n'a aucune chance ici. Ce n'est qu'une question de temps avant la fermeture définitive des réacteurs."
+          }
+        },
+        "questions": {
+          "20": {
+            "who": "A. Klee, 39, Jülich",
+            "text": {
+              "ar": "من السخف أن نغلق الأبواب أمام المستقبل ونتجاهل التطورات الممكنة. فالأبحاث في الاندماج النووي، وهو أيضاً شكل من أشكال الطاقة النووية، تحرز تقدماً كبيراً. ربما تحظى هذه التقنية بالقبول يوماً ما في ألمانيا؛ فلننتظر ونر!",
+              "fr": "Il est absurde de se fermer à l'avenir. La recherche sur la fusion nucléaire progresse à grands pas. Attendons de voir avant de juger !"
+            }
+          },
+          "21": {
+            "who": "Francesca, 35, Wolfsburg",
+            "text": {
+              "ar": "لا نحتاج إلى تغيير المسار في سياسة الطاقة. إذا استمررنا على هذا النحو، فربما نتخلص من الطاقة النووية حتى قبل الموعد المحدد. حتى وإن ارتفعت أسعار الطاقة، يجب توسيع حصة الكهرباء النظيفة مهما كلف الثمن!",
+              "fr": "Nous devons continuer sur notre lancée et nous séparer au plus vite de l'énergie nucléaire, en développant massivement l'électricité verte quel qu'en soit le coût !"
+            }
+          },
+          "22": {
+            "who": "Lummer, 30, Ahrensburg",
+            "text": {
+              "ar": "الكهرباء تأتينا من المقبس: لا أستطيع أن أفهم من يتبنى مثل هذا الموقف. وكأن لسان حالهم يقول: لطالما اعتمدنا على الطاقة النووية ولم يحدث مكروه في ألمانيا، لذا يمكننا الاستمرار في تعريض أنفسنا للخطر. هذه سذاجة مطلقة!",
+              "fr": "Croire que le nucléaire ne présente aucun risque sous prétexte qu'aucun accident majeur n'a encore eu lieu en Allemagne est d'une grande naïveté !"
+            }
+          },
+          "23": {
+            "who": "Claudia, 47, Braunschweig",
+            "text": {
+              "ar": "لا أفهم لماذا لا نحقق تحولاً أسرع في ظل التقنيات المتوفرة حالياً. وبدلاً من الاستثمار في الأمان المشكوك فيه للطاقة النووية، يجدر توجيه الأموال لتطوير مصادر الطاقة البديلة، فطاقة الرياح والشمس تملكان إمكانات هائلة.",
+              "fr": "Au lieu d'investir dans une sécurité nucléaire incertaine, l'argent public devrait servir à financer le solaire et l'éolien qui regorgent de potentiel."
+            }
+          },
+          "24": {
+            "who": "Roser, 56, Tübingen",
+            "text": {
+              "ar": "حتى وإن أغلقنا جميع المحطات النووية في ألمانيا، فلن يحقق ذلك الأمان للمواطنين ما دامت الدول المجاورة لم تحذُ حذونا. يجب التعامل مع المشكلة أوروبياً على الأقل، وما لم يُحسم ذلك فلا ينبغي التخلي عن الطاقة النووية.",
+              "fr": "Fermer nos centrales n'apportera aucune sécurité si les pays voisins continuent d'en exploiter. Tant qu'une solution européenne n'est pas actée, nous ne devons pas renoncer à l'atome."
+            }
+          },
+          "25": {
+            "who": "Petzold, 61, Gera",
+            "text": {
+              "ar": "التحول في الطاقة يعيش حالة من الفوضى. إننا نخلط بين الوسيلة والغاية؛ فالهدف هو ضمان إمداد مثالي بالطاقة، والوسيلة هي مصادر الطاقة المختلفة. يمكننا نقاش الطاقة النووية، لكن ما دامت الإمدادات غير مضمونة فلا يمكننا الاستغناء عنها.",
+              "fr": "Tant que l'approvisionnement général en électricité n'est pas garanti à 100 %, nous ne pouvons pas nous passer de la filière nucléaire."
+            }
+          },
+          "26": {
+            "who": "Fink, 59, Aachen",
+            "text": {
+              "ar": "كارثة مناخية تهددنا! ولكي لا ندمر كوكبنا الأزرق الجميل تماماً ونجعله غير صالح للأجيال القادمة، ينبغي أن ننجز الخروج من الطاقة النووية في أسرع وقت ممكن. هذا واجب ندين به لأبنائنا وأحفادنا.",
+              "fr": "Pour sauver notre planète et léguer un monde vivable aux générations futures, nous devons sortir du nucléaire sans attendre. Nous le devons à nos enfants."
+            }
+          }
+        }
+      },
+      "5": {
+        "instructions": {
+          "ar": "اقرأ المهام من 27 إلى 30 والنص المرفق. اختر الإجابة الصحيحة a أو b أو c.",
+          "fr": "Lisez les tâches 27 à 30 et le texte associé. Choisissez la bonne réponse a, b ou c."
+        },
+        "article": {
+          "heading": {
+            "ar": "دليل آداب وقواعد السباحة الشاطئية (Badeknigge)",
+            "fr": "Le code de bonne conduite des baigneurs"
+          },
+          "intro": {
+            "ar": "من يقضي عطلته على ساحل بحر البلطيق يرغب بالطبع في السباحة أو الاسترخاء تحت أشعة الشمس.",
+            "fr": "Les vacanciers sur les côtes de la mer Baltique souhaitent naturellement nager et profiter du soleil."
+          }
+        },
+        "questions": {
+          "27": {
+            "text": {
+              "ar": "هذه القواعد مخصصة لـ ...",
+              "fr": "Ces règles s'appliquent aux..."
+            },
+            "options": {
+              "ar": [
+                "رواد المكتبات العامة.",
+                "زوار ومصطافي بحر البلطيق.",
+                "رواد المسابح المغلقة."
+              ],
+              "fr": [
+                "usagers des bibliothèques.",
+                "vacanciers de la mer Baltique.",
+                "visiteurs de piscines publiques."
+              ]
+            }
+          },
+          "28": {
+            "text": {
+              "ar": "بعد تناول وجبة الطعام ينبغي على المرء ...",
+              "fr": "Après le repas, il convient de..."
+            },
+            "options": {
+              "ar": [
+                "الانتظار لمدة ساعتين قبل السباحة.",
+                "الاستلقاء مباشرة على الرمال تحت الشمس.",
+                "القفز الفوري إلى مياه البحر."
+              ],
+              "fr": [
+                "patienter deux heures.",
+                "s'allonger sur la plage.",
+                "plonger dans l'eau."
+              ]
+            }
+          },
+          "29": {
+            "text": {
+              "ar": "يجب على الشخص الاستحمام قبل النزول ...",
+              "fr": "On doit prendre une douche préalable..."
+            },
+            "options": {
+              "ar": [
+                "إذا كان جسمه متسخاً فقط.",
+                "لتقوية وتحمل الجسم.",
+                "للتعود تدريجياً على درجة حرارة مياه البحر."
+              ],
+              "fr": [
+                "quand on est sale.",
+                "pour endurcir son corps.",
+                "pour s'habituer à la température de l'eau."
+              ]
+            }
+          },
+          "30": {
+            "text": {
+              "ar": "من لا يجيد السباحة ...",
+              "fr": "Celui qui ne sait pas nager..."
+            },
+            "options": {
+              "ar": [
+                "ينبغي عليه التسجيل في دورة سباحة.",
+                "يُمنع عليه النزول إلى المياه العميقة.",
+                "يجب عليه مغادرة المياه والامتناع عن الاستحمام."
+              ],
+              "fr": [
+                "devrait prendre des cours de natation.",
+                "ne doit pas aller là où l'eau est profonde.",
+                "doit immédiatement sortir de l'eau."
+              ]
+            }
+          }
+        }
+      },
+      "6": {
+        "instructions": {
+          "ar": "ستستمع إلى 4 أجزاء. قم بحل المهام المرافقة لكل جزء بعد الاستماع إلى المقاطع مرة أو مرتين.",
+          "fr": "Vous écoutez 4 parties. Vous résolvez les tâches associées. Vous entendez chaque enregistrement une ou deux fois."
+        },
+        "questions": {
+          "h1": {
+            "text": {
+              "ar": "يجب على الراكب حجز طاولة مسبقاً في عربة المطعم.",
+              "fr": "Il faut réserver une table au wagon-restaurant."
+            }
+          },
+          "h2": {
+            "text": {
+              "ar": "يتوفر في عربة المطعم اليوم ...",
+              "fr": "Au wagon-restaurant, il y a aujourd'hui..."
+            },
+            "options": {
+              "ar": [
+                "مأكولات وأطباق بافارية فقط.",
+                "كعكات وحلويات شوابية فقط.",
+                "نبيذ فرنسي مميز."
+              ],
+              "fr": [
+                "uniquement des spécialités bavaroises.",
+                "uniquement des tartes souabes.",
+                "un vin français de qualité."
+              ]
+            }
+          },
+          "h3": {
+            "text": {
+              "ar": "يحصل المشتركون على إعلانات الشركاء الأولى في اليوم التالي مباشرة.",
+              "fr": "On reçoit les premières annonces de partenaires dès le lendemain."
+            }
+          },
+          "h4": {
+            "text": {
+              "ar": "حجز المقعد في حافلة التعارف ...",
+              "fr": "La réservation d'une place dans le bus de rencontres..."
+            },
+            "options": {
+              "ar": [
+                "يتطلب دفع رسوم إضافية.",
+                "إلزامي وإجباري لكافة الركاب.",
+                "متاح ويمكن حجزه عبر الإنترنت."
+              ],
+              "fr": [
+                "est payante.",
+                "est obligatoire.",
+                "peut être effectuée en ligne."
+              ]
+            }
+          },
+          "h5": {
+            "text": {
+              "ar": "حديقة الحيوانات والطرائد تحتفل بذكرى تأسيسها السنوية (اليوبيل).",
+              "fr": "Le parc animalier fête un jubilé."
+            }
+          },
+          "h6": {
+            "text": {
+              "ar": "لا يمكن للزوار في حديقة الحيوانات اليوم ...",
+              "fr": "Aujourd'hui, au parc animalier, on ne peut pas..."
+            },
+            "options": {
+              "ar": [
+                "المرور بالسيارة داخل محمية الغزلان.",
+                "مشاهدة عرض النسور الجارحة.",
+                "زيارة حظيرة الخراف وإطعامها."
+              ],
+              "fr": [
+                "circuler dans l'enclos des chevreuils.",
+                "assister au spectacle des aigles.",
+                "rendre visite aux moutons."
+              ]
+            }
+          },
+          "h7": {
+            "text": {
+              "ar": "لا تستطيع شركة الألعاب تسليم البضائع في الوقت المحدد.",
+              "fr": "L'entreprise de jouets ne peut pas livrer à temps."
+            }
+          },
+          "h8": {
+            "text": {
+              "ar": "لم يسفر حادث الحريق عن وقوع أي ...",
+              "fr": "Lors de l'incendie, il n'y a eu aucun(e)..."
+            },
+            "options": {
+              "ar": [
+                "تدخل لقوات الشرطة.",
+                "إصابات خطيرة أو حرجة بين الأفراد.",
+                "أضرار وخسائر مادية."
+              ],
+              "fr": [
+                "présence policière.",
+                "blessé grave.",
+                "dégât matériel."
+              ]
+            }
+          },
+          "h9": {
+            "text": {
+              "ar": "تعرض الرجل لحادث أثناء قيادته لدراجته النارية الخفيفة (الموفا).",
+              "fr": "L'homme a eu un accident avec sa mobylette."
+            }
+          },
+          "h10": {
+            "text": {
+              "ar": "قام الرجل بـ ...",
+              "fr": "L'homme a..."
+            },
+            "options": {
+              "ar": [
+                "صدم سائق دراجة نارية.",
+                "الاصطدام بسيارة كانت متوقفة في المكان.",
+                "صدم سيدة ترافق طفلاً صغيراً."
+              ],
+              "fr": [
+                "renversé un conducteur de mobylette.",
+                "embouti une voiture en stationnement.",
+                "heurté une femme accompagnée d'un enfant."
+              ]
+            }
+          },
+          "h11": {
+            "text": {
+              "ar": "عمل راينر كوخ لمدة 40 عاماً ...",
+              "fr": "Rainer Koch a exercé pendant 40 ans..."
+            },
+            "options": {
+              "ar": [
+                "كشخصية ملهمة ومحبوبة.",
+                "في خدمة شركة الطيران كطيار رسمي.",
+                "كمدرب طيران متخصص."
+              ],
+              "fr": [
+                "comme une personnalité fascinante.",
+                "au service de la compagnie aérienne.",
+                "comme instructeur de vol."
+              ]
+            }
+          },
+          "h12": {
+            "text": {
+              "ar": "هدية مركز أمن وسلامة الطيران مقدمة بمناسبة ...",
+              "fr": "Le cadeau du centre de contrôle aérien récompense..."
+            },
+            "options": {
+              "ar": [
+                "إحالته على التقاعد وبلوغ عيد ميلاده.",
+                "عمله وإخلاصه كمدرب طيران.",
+                "أخلاقه العالية وولائه لزملائه."
+              ],
+              "fr": [
+                "son départ en retraite et son anniversaire.",
+                "son travail d'instructeur de vol.",
+                "son dévouement et son esprit d'équipe."
+              ]
+            }
+          },
+          "h13": {
+            "text": {
+              "ar": "يودع الطيارون برج المراقبة والركاب في رحلتهم الأخيرة ...",
+              "fr": "Les pilotes font leurs adieux lors de leur dernier vol..."
+            },
+            "options": {
+              "ar": [
+                "بقيادة شاحنة إطفاء مطارات على المدرج.",
+                "بإلقاء كلمة وداع عبر مكبرات صوت الطائرة.",
+                "بتحريك أجنحة طائرتهم وإمالتها في الجو كتحية شرفية."
+              ],
+              "fr": [
+                "en conduisant un camion de pompiers.",
+                "en parlant dans les haut-parleurs de l'appareil.",
+                "en faisant bouger les ailes de leur avion en vol."
+              ]
+            }
+          },
+          "h14": {
+            "text": {
+              "ar": "سُمح للطائرة بالتحليق الشرفي التوديعي فوق فرانكفورت على ارتفاع ...",
+              "fr": "Pour ses adieux, l'appareil est autorisé à survoler Francfort à..."
+            },
+            "options": {
+              "ar": [
+                "15 متراً فقط.",
+                "300 متر.",
+                "1000 متر."
+              ],
+              "fr": [
+                "15 mètres d'altitude.",
+                "300 mètres d'altitude.",
+                "1000 mètres d'altitude."
+              ]
+            }
+          },
+          "h15": {
+            "text": {
+              "ar": "تهبط الطائرة في وجهتها ...",
+              "fr": "L'avion atterrit..."
+            },
+            "options": {
+              "ar": [
+                "في الموعد المحدد تماماً.",
+                "متأخرة بـ 15 دقيقة.",
+                "متأخرة بدقائق معدودة فقط."
+              ],
+              "fr": [
+                "à l'heure exacte.",
+                "avec 15 minutes de retard.",
+                "avec seulement quelques minutes de retard."
+              ]
+            }
+          },
+          "h16": {
+            "text": {
+              "ar": "كان الطقس جميلاً ومشجعاً عند الإقلاع من ألمانيا.",
+              "fr": "Il faisait beau en Allemagne au moment du décollage."
+            }
+          },
+          "h17": {
+            "text": {
+              "ar": "قامت نتالي أولاً بتفريغ حقيبتها وترتيبها في الفندق.",
+              "fr": "À l'hôtel, Natali a d'abord déballé sa valise."
+            }
+          },
+          "h18": {
+            "text": {
+              "ar": "كانت ماري تبحث عن فتى أحلامها في الرحلة.",
+              "fr": "Marie était à la recherche de l'homme idéal."
+            }
+          },
+          "h19": {
+            "text": {
+              "ar": "عثرت ماري على كوستاس بسرعة كبيرة.",
+              "fr": "Marie a fait la connaissance de Kostas très rapidement."
+            }
+          },
+          "h20": {
+            "text": {
+              "ar": "ذرفت نتالي الدموع من شدة السعادة والتأثر.",
+              "fr": "Natali a pleuré de joie."
+            }
+          },
+          "h21": {
+            "text": {
+              "ar": "أخذ كوستاس نتالي بمفردها ليعرفها على معالم الجزيرة.",
+              "fr": "Kostas a fait visiter les sites touristiques à Natali toute seule."
+            }
+          },
+          "h22": {
+            "text": {
+              "ar": "أصيبت ماري بوعكة صحية ومرضت أثناء وجودها في ميكونوس.",
+              "fr": "Marie est tombée malade à Mykonos."
+            }
+          },
+          "h23": {
+            "text": {
+              "ar": "يتم استثمار الأموال المحصلة مباشرة في سلامة وأمن الطائرات.",
+              "fr": "Les fonds sont directement réinvestis dans la sécurité des avions."
+            },
+            "options": {
+              "ar": [
+                "مقدم البرنامج (المذيع)",
+                "بيتينا فيديل (رئيسة مراقبة الملاحة الجوية)",
+                "ميشائيل كروتشكه (رئيس شركة الطيران الاقتصادي)"
+              ],
+              "fr": [
+                "Le modérateur",
+                "Bettina Wedel",
+                "Michael Krutschke"
+              ]
+            }
+          },
+          "h24": {
+            "text": {
+              "ar": "طائرات خطوط الطيران الاقتصادي (منخفضة التكلفة) آمنة تماماً وتطابق المعايير.",
+              "fr": "Les avions des compagnies low-cost sont parfaitement sûrs."
+            },
+            "options": {
+              "ar": [
+                "مقدم البرنامج (المذيع)",
+                "بيتينا فيديل (رئيسة مراقبة الملاحة الجوية)",
+                "ميشائيل كروتشكه (رئيس شركة الطيران الاقتصادي)"
+              ],
+              "fr": [
+                "Le modérateur",
+                "Bettina Wedel",
+                "Michael Krutschke"
+              ]
+            }
+          },
+          "h25": {
+            "text": {
+              "ar": "لم تشهد شركة الطيران أي حادث أو طارئ خطير طوال تاريخها.",
+              "fr": "La compagnie aérienne n'a jamais connu le moindre incident grave."
+            },
+            "options": {
+              "ar": [
+                "مقدم البرنامج (المذيع)",
+                "بيتينا فيديل (رئيسة مراقبة الملاحة الجوية)",
+                "ميشائيل كروتشكه (رئيس شركة الطيران الاقتصادي)"
+              ],
+              "fr": [
+                "Le modérateur",
+                "Bettina Wedel",
+                "Michael Krutschke"
+              ]
+            }
+          },
+          "h26": {
+            "text": {
+              "ar": "شركات الطيران المنتظم لا تطالب الراكب بطباعة بطاقة الصعود بنفسه.",
+              "fr": "Une compagnie régulière n'exige pas que le client imprime lui-même sa carte d'embarquement."
+            },
+            "options": {
+              "ar": [
+                "مقدم البرنامج (المذيع)",
+                "بيتينا فيديل (رئيسة مراقبة الملاحة الجوية)",
+                "ميشائيل كروتشكه (رئيس شركة الطيران الاقتصادي)"
+              ],
+              "fr": [
+                "Le modérateur",
+                "Bettina Wedel",
+                "Michael Krutschke"
+              ]
+            }
+          },
+          "h27": {
+            "text": {
+              "ar": "تكاليف وقود الطائرات (الكيروسين) ترتفع نتيجة التوترات والأزمات في الشرق الأوسط.",
+              "fr": "Le coût du kérosène grimpe en raison de la situation de crise au Proche-Orient."
+            },
+            "options": {
+              "ar": [
+                "مقدم البرنامج (المذيع)",
+                "بيتينا فيديل (رئيسة مراقبة الملاحة الجوية)",
+                "ميشائيل كروتشكه (رئيس شركة الطيران الاقتصادي)"
+              ],
+              "fr": [
+                "Le modérateur",
+                "Bettina Wedel",
+                "Michael Krutschke"
+              ]
+            }
+          },
+          "h28": {
+            "text": {
+              "ar": "شركات الطيران منخفضة التكلفة لا تهبط في المطارات المركزية الكبرى.",
+              "fr": "Les compagnies à bas coût ne desservent pas les aéroports centraux."
+            },
+            "options": {
+              "ar": [
+                "مقدم البرنامج (المذيع)",
+                "بيتينا فيديل (رئيسة مراقبة الملاحة الجوية)",
+                "ميشائيل كروتشكه (رئيس شركة الطيران الاقتصادي)"
+              ],
+              "fr": [
+                "Le modérateur",
+                "Bettina Wedel",
+                "Michael Krutschke"
+              ]
+            }
+          },
+          "h29": {
+            "text": {
+              "ar": "تسهم المطارات الإقليمية اللامركزية في تنشيط اقتصاد بعض المناطق المجاورة.",
+              "fr": "Les aéroports régionaux décentralisés favorisent l'économie locale."
+            },
+            "options": {
+              "ar": [
+                "مقدم البرنامج (المذيع)",
+                "بيتينا فيديل (رئيسة مراقبة الملاحة الجوية)",
+                "ميشائيل كروتشكه (رئيس شركة الطيران الاقتصادي)"
+              ],
+              "fr": [
+                "Le modérateur",
+                "Bettina Wedel",
+                "Michael Krutschke"
+              ]
+            }
+          },
+          "h30": {
+            "text": {
+              "ar": "تُمنع بعض شركات الطيران من الهبوط في المطارات الألمانية بسبب شروط السلامة.",
+              "fr": "Certaines compagnies aériennes n'ont pas l'autorisation d'atterrir en Allemagne."
+            },
+            "options": {
+              "ar": [
+                "مقدم البرنامج (المذيع)",
+                "بيتينا فيديل (رئيسة مراقبة الملاحة الجوية)",
+                "ميشائيل كروتشكه (رئيس شركة الطيران الاقتصادي)"
+              ],
+              "fr": [
+                "Le modérateur",
+                "Bettina Wedel",
+                "Michael Krutschke"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}
