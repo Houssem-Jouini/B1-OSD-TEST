@@ -3910,7 +3910,7 @@ function initVocabModal() {
     });
   }
 
-  const tabBtns = document.querySelectorAll('#vocabTabButtons .filter-btn');
+  const tabBtns = document.querySelectorAll('#vocabTabButtons .filter-btn[data-vtab]');
   tabBtns.forEach(btn => {
     btn.addEventListener('click', () => {
       tabBtns.forEach(b => b.classList.remove('active'));
@@ -3984,9 +3984,26 @@ function renderVocabModalContent() {
   const query = searchInput ? searchInput.value : '';
   const cardsGrid = document.getElementById('vocabCardsGrid');
   const fcContainer = document.getElementById('vocabFlashcardContainer');
+  const trainerContainer = document.getElementById('vocabTrainerContainer');
   const statsText = document.getElementById('vocabStatsText');
 
   if (!cardsGrid || !fcContainer) return;
+
+  if (activeVocabTab === 'trainer') {
+    cardsGrid.style.display = 'none';
+    fcContainer.style.display = 'none';
+    if (trainerContainer) {
+      trainerContainer.style.display = 'block';
+      if (typeof window.renderFrequentWordsTrainer === 'function') {
+        window.renderFrequentWordsTrainer(query);
+      }
+    }
+    return;
+  }
+
+  if (trainerContainer) {
+    trainerContainer.style.display = 'none';
+  }
 
   if (activeVocabTab === 'flashcards') {
     cardsGrid.style.display = 'none';

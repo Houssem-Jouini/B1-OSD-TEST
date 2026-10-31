@@ -1,8 +1,8 @@
 # 🇩🇪 Goethe / ÖSD Zertifikat B1 — Simulation d'Examen Interactive
 
-[![Tests](https://img.shields.io/badge/tests-6%2F6%20valid-success?style=for-the-badge&logo=node.js)](scripts/validate-tests.js)
+[![Tests](https://img.shields.io/badge/tests-14%2F14%20valid-success?style=for-the-badge&logo=node.js)](scripts/validate-tests.js)
 [![PWA Ready](https://img.shields.io/badge/PWA-100%25%20Offline-blue?style=for-the-badge&logo=pwa)](manifest.json)
-[![UI Languages](https://img.shields.io/badge/UI%20Languages-FR%20%7C%20DE%20%7C%20EN-orange?style=for-the-badge)](uiLocalization.js)
+[![UI Languages](https://img.shields.io/badge/UI%20Languages-FR%20%7C%20DE%20%7C%20EN-orange?style=for-the-badge)](js/uiLocalization.js)
 [![License](https://img.shields.io/badge/license-ISC-green?style=for-the-badge)](package.json)
 
 Une plateforme web moderne, réactive et complète pour préparer et simuler dans les conditions réelles les examens officiels du **Goethe-Zertifikat B1** et de l'**ÖSD Zertifikat B1** (Modules *Lesen* & *Hören*).
@@ -55,44 +55,49 @@ Une plateforme web moderne, réactive et complète pour préparer et simuler dan
 ```text
 B1-OSD-TEST/
 ├── index.html                   # Application principale SPA & structure HTML5
-├── style.css                    # Système de design CSS réactif & thèmes
-├── script.js                    # Moteur de test, minuterie, scoring & navigation
-├── uiLocalization.js            # Système de localisation UI (FR / DE / EN)
-├── dataLoader.js                # Chargeur dynamique modulaire des examens
-├── examManager.js               # Gestionnaire d'examens & interface d'import/export
-├── aiTutor.js                   # Assistant IA pédagogique (Gemini / Groq)
-├── vocabularyData.js            # Dictionnaire et glossaire B1
+├── fiche-b1.html                # Fiche de révision Allemand B1 ÖSD pleine page
 ├── sw.js                        # Service Worker PWA pour cache 100% hors-ligne
 ├── manifest.json                # Métadonnées PWA pour installation native
+├── package.json                 # Définition du projet et commandes npm
+│
+├── css/
+│   └── style.css                # Système de design CSS réactif & thèmes
+│
+├── js/
+│   ├── script.js                # Moteur de test, minuterie, scoring & navigation
+│   ├── uiLocalization.js        # Système de localisation UI (FR / DE / EN)
+│   ├── dataLoader.js            # Chargeur dynamique modulaire des examens
+│   ├── examManager.js           # Gestionnaire d'examens & interface d'import/export
+│   ├── aiTutor.js               # Assistant IA pédagogique (Gemini / Groq)
+│   ├── quickWord.js             # Traduction instantanée au clic
+│   ├── vocabularyData.js        # Dictionnaire et glossaire B1
+│   └── b1FrequentWords.js       # Mots fréquents B1 & jeux interactifs
 │
 ├── data/
 │   ├── tests-manifest.json      # Registre officiel des séries d'examens
 │   ├── tests-bundle.js          # Bundle autonome pour utilisation locale
 │   ├── exam-template.json       # Modèle type pour créer un nouvel examen
 │   ├── translations-common.json # Dictionnaires de traduction
-│   ├── tests/                   # Séries d'examens actives et archivées
-│   │   ├── modellsatz-1.json    # (Archivé) Modellsatz 1 Original
-│   │   ├── modellsatz-2.json    # (Archivé) Modellsatz 2 Set A
-│   │   ├── modellsatz-3.json    # (Archivé) Modellsatz 3 Set B
-│   │   ├── modellsatz-4.json    # Modelltest 13 — Hueber Zertifikat B1
-│   │   ├── modellsatz-5.json    # Modelltest 14 — Hueber Zertifikat B1
-│   │   ├── modellsatz-6.json    # Modelltest 15 — Hueber Zertifikat B1
-│   │   ├── modellsatz-7.json    # Modelltest 1 — So geht's noch besser B1
-│   │   ├── modellsatz-8.json    # Modelltest 2 — So geht's noch besser B1
-│   │   └── modellsatz-9.json    # Modelltest 3 — So geht's noch besser B1
-│   └── archive/                 # Archives sécurisées des anciens examens
+│   ├── tests/                   # Séries d'examens modulaires (modellsatz-1 à 14)
+│   └── archive/                 # Archives des anciens examens et fichiers monolithiques
 │       ├── archived-manifest.json
 │       ├── README.md
+│       ├── legacy/
 │       └── tests/
+│
+├── docs/
+│   ├── ALL_EXAMS_CORRECTIONS.md # Corrections complètes des examens
+│   └── MODULAR_EXAM_GUIDE.md    # Guide développeur & architecture modulaire
 │
 ├── scripts/
 │   ├── validate-tests.js        # Script de validation automatique de schéma
 │   ├── build-data.js            # Reconstructeur du bundle data/tests-bundle.js
-│   └── extract-modular-tests.js # Outil d'extraction des anciens modules
+│   ├── extract-modular-tests.js # Outil d'extraction des anciens modules
+│   ├── verify-memory-and-scoring.js # Vérification automatisée du scoring et mémoire
+│   └── cloudflare-ai-proxy.js   # Worker Cloudflare optionnel pour le proxy IA
 │
 ├── icons/                       # Icônes de l'application et favicon PWA
-├── audio/                       # Pistes audio pour les modules Hören
-└── package.json                 # Définition du projet et commandes npm
+└── audio/                       # Pistes audio pour les modules Hören & timers/
 ```
 
 ---
@@ -147,7 +152,7 @@ Ce script vérifie automatiquement :
    npm run build:data
    npm test
    ```
-Pour plus de détails, consultez le [Guide Modulaire Complet (MODULAR_EXAM_GUIDE.md)](MODULAR_EXAM_GUIDE.md).
+Pour plus de détails, consultez le [Guide Modulaire Complet (docs/MODULAR_EXAM_GUIDE.md)](docs/MODULAR_EXAM_GUIDE.md).
 
 ---
 

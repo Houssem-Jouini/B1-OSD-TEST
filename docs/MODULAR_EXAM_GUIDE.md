@@ -15,38 +15,41 @@ Früher waren Testfragen, Übersetzungen und Erklärungen auf 4 riesige monolith
 ```text
 B1-OSD-TEST/
 ├── index.html                   # Haupt-App (HTML5 / PWA)
-├── script.js                    # Prüfungslogik & Auswertung
-├── style.css                    # Styling & Responsive Design
-├── dataLoader.js                # Dynamischer Modul-Loader & Sync
-├── examManager.js               # Benutzeroberfläche zur Prüfungsverwaltung
+├── fiche-b1.html                # Vollbild-Lernkartei B1 Häufige Wörter
+├── css/
+│   └── style.css                # Styling & Responsive Design
+├── js/
+│   ├── script.js                # Prüfungslogik & Auswertung
+│   ├── dataLoader.js            # Dynamischer Modul-Loader & Sync
+│   ├── examManager.js           # Benutzeroberfläche zur Prüfungsverwaltung
+│   ├── uiLocalization.js        # Mehrsprachige Oberfläche (FR/DE/EN)
+│   ├── aiTutor.js               # KI-Tutor Integration
+│   ├── quickWord.js             # Sofort-Wortübersetzung
+│   ├── vocabularyData.js        # B1 Glossar & Wortschatz
+│   └── b1FrequentWords.js       # 205 Häufige Wörter & interaktive Spiele
 │
 ├── data/
 │   ├── tests-manifest.json      # Katalog aller registrierten Tests
 │   ├── tests-bundle.js          # Automatisch generiertes Offline-Bundle
 │   ├── exam-template.json       # Muster-Vorlage für neue Prüfungen
 │   ├── translations-common.json # Gemeinsame UI-Übersetzungen (AR/FR)
-│   ├── tests/                   # Aktive und modular registrierte Tests
-│   │   ├── modellsatz-1.json    # (Archiviert)
-│   │   ├── modellsatz-2.json    # (Archiviert)
-│   │   ├── modellsatz-3.json    # (Archiviert)
-│   │   ├── modellsatz-4.json    # Hueber Test 13
-│   │   ├── modellsatz-5.json    # Hueber Test 14
-│   │   ├── modellsatz-6.json    # Hueber Test 15
-│   │   ├── modellsatz-7.json    # So geht's noch besser 1
-│   │   ├── modellsatz-8.json    # So geht's noch besser 2
-│   │   └── modellsatz-9.json    # So geht's noch besser 3
-│   └── archive/                 # Archivierte Datensätze
+│   ├── tests/                   # Aktive und modular registrierte Tests (modellsatz-1..14)
+│   └── archive/                 # Archivierte Datensätze & Legacy-Dateien
 │       ├── archived-manifest.json
 │       ├── README.md
+│       ├── legacy/
 │       └── tests/
-│           ├── modellsatz-1.json
-│           ├── modellsatz-2.json
-│           └── modellsatz-3.json
+│
+├── docs/
+│   ├── ALL_EXAMS_CORRECTIONS.md
+│   └── MODULAR_EXAM_GUIDE.md
 │
 └── scripts/
     ├── validate-tests.js        # Validiert alle Tests auf Vollständigkeit
     ├── build-data.js            # Erzeugt data/tests-bundle.js
-    └── extract-modular-tests.js # Re-Extraktor aus Altdaten
+    ├── extract-modular-tests.js # Re-Extraktor aus Altdaten
+    ├── verify-memory-and-scoring.js
+    └── cloudflare-ai-proxy.js
 ```
 
 ---

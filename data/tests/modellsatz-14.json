@@ -1,0 +1,2988 @@
+{
+  "id": "modellsatz-14",
+  "title": "Modelltest 8 — So geht's noch besser B1",
+  "badge": "Modelltest 8",
+  "examTitle": "Goethe / ÖSD B1 Prüfungssimulation — Modelltest 8",
+  "examSub": "Lesen (5 Teile) & Hören (4 Teile) · So geht's noch besser (Klett)",
+  "timeTotal": 65,
+  "parts": [
+    {
+      "id": 1,
+      "title": "Teil 1",
+      "time": 10,
+      "instructions": "Lesen Sie den Text und die Aufgaben 1 bis 6 dazu. Wählen Sie: Sind die Aussagen Richtig oder Falsch?",
+      "articles": [
+        {
+          "heading": "Von Angesicht zu Angesicht – mein Körper gehört mir!",
+          "sub": "Bin ich mit den Gaben der Natur nicht zufrieden, dann sage ich einfach: Kopf ab, wie die Herzkönigin in Alices Wunderland und forme mit Hilfe der Plasmachirurgie meine Identität nach meinen Vorstellungen.",
+          "body": [
+            "Schon immer betrachteten sich die Menschen kritisch im Spiegel, aber es war noch nie so leicht das Aussehen zu manipulieren. Und ich frage mich: Wo fängt das an, wo hört das auf? Es wird zwischen medizinischen und ästhetischen Eingriffen unterschieden. Aber so einfach lässt sich die Grenze nicht ziehen. Was, wenn ein Schönheitsmakel mich so stark stört, dass ich psychisch darunter leide? Schönheit ist vor allem eine Sache der Mode, aber sie ist auch sehr subjektiv.",
+            "Mit einem attraktiven Aussehen kann man punkten. Ob privat oder im Beruf, immer steht eines im Mittelpunkt: Man will gefallen. Für Schönheit wird eine Menge Geld ausgegeben. Davon leben die Kosmetikbranche, ein ganzer Industriezweig und die plastische Chirurgie. Sind wir dem Traum der ewigen Jugend ein Stückchen näher? Faust hat seine Seele dafür gegeben, so kostbar schien sie ihm. Was ist sie uns Wert, welche Risiken gehen wir dafür ein?",
+            "Bislang galt Schönheitspflege als Domäne der Frauen. Neuerdings stellt man fest, dass es mehr und mehr Produkte auch für Männer gibt. Bevor man(n) sich unter das Messer legt, geht er zwar lieber zum Bodybuilding, aber die Zahlen steigen auch hier. Schönheitsoperationen sind keine Seltenheit mehr. Unterschiede gibt es allerdings darin, was Männer und Frauen korrigiert haben wollen. Frauen stören vor allem die Falten und wollen mehr Busen. Männer wünschen sich eine andere Nase oder ein Toupet als Ersatz für fehlende Haare.",
+            "Die plastische Chirurgie scheint für mehr und mehr Menschen eine Lösung zu sein. Die Zahlen lassen glauben, dass es sich um Routine-Eingriffe handelt. Aber man muss wissen, dass jede Operation und sei sie auch noch so klein, ein Risiko birgt. Wer trägt die Verantwortung, wenn etwas schief geht? Und dennoch boomt die Branche. Auch Jugendliche schrecken nicht davor zurück oder sind es deren Eltern? Da stellt sich die Frage: Wer darf über meinen Körper bestimmen?",
+            "Unsere Schönheitsideale werden häufig durch Stars und Promis geprägt. Oft wissen wir dabei gar nicht, was von ihnen echt und was kunstvolle Botox-Kreation ist. Durch den modernen Körperkult reduziert sich der Mensch auf ein Abziehbild seiner selbst, statt sich der Individualität zu erfreuen und diese zu stärken."
+          ]
+        }
+      ],
+      "example": {
+        "text": "Die Bloggerin schreibt über eine Schönheitsoperation, die sie gemacht hat.",
+        "answer": "falsch"
+      },
+      "questions": [
+        {
+          "id": 1,
+          "type": "tf",
+          "text": "Ein Schönheitsfehler kann psychisch krank machen.",
+          "answer": "richtig",
+          "num": 1
+        },
+        {
+          "id": 2,
+          "type": "tf",
+          "text": "Auch bei der Arbeit wird auf gutes Aussehen geachtet.",
+          "answer": "richtig",
+          "num": 2
+        },
+        {
+          "id": 3,
+          "type": "tf",
+          "text": "Männer sind häufig ungepflegt.",
+          "answer": "falsch",
+          "num": 3
+        },
+        {
+          "id": 4,
+          "type": "tf",
+          "text": "Männern gefällt die eigene Nase nicht.",
+          "answer": "richtig",
+          "num": 4
+        },
+        {
+          "id": 5,
+          "type": "tf",
+          "text": "Schönheitsoperationen sind heute nicht mehr riskant.",
+          "answer": "falsch",
+          "num": 5
+        },
+        {
+          "id": 6,
+          "type": "tf",
+          "text": "In Hollywood gibt es einen neuen Körperkult.",
+          "answer": "falsch",
+          "num": 6
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Teil 2",
+      "time": 20,
+      "instructions": "Lesen Sie den Text aus der Presse und die Aufgaben 7 bis 9 dazu. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+      "articles": [
+        {
+          "heading": "Talentförderung – auf dem Sportplatz und in der Schule!",
+          "sub": "Der erfolgreiche Ansatz des Konzeptes der Jugend-Fußball-Akademie liegt in der Verknüpfung der Förderung von Fußball und Lernkompetenzen.",
+          "body": [
+            "Kinder und Jugendliche machen in kurzer Zeit enorme Entwicklungen durch. In dieser Zeit ist auch das Bedürfnis nach Bewegung besonders groß. Das Sportministerium unterstützt mit einem vielfältigen Angebot den Breiten- und Freizeitsport gerade auch für junge Bürger. So kann jeder etwas finden, das ihm gefällt und Spaß macht.",
+            "Sport trainiert Beweglichkeit und Ausdauer und fördert die Gesundheit von Geist und Psyche. Darüber hinaus lernen die Jugendlichen auch soziales Verhalten, Respekt vor Leistung und die Integration von Schwächeren, indem z.B. Wert auf Fairness gelegt wird.",
+            "Die Jugend-Fußballakademie ist davon überzeugt, dass durch Sport lebenswichtige Werte wie Respekt, Teamgeist, Konfliktfähigkeit und Kreativität entwickelt werden. Hilfsbereitschaft, Disziplin, Fairness, Zielstrebigkeit und Enthusiasmus sind Fähigkeiten, die auch in der privaten, schulischen und beruflichen Karriere von großer Bedeutung sind.",
+            "Sport hat neben der positiven Wirkung auf die physische und psychische Gesundheit auch eine wichtige Bedeutung für das Lernverhalten der Kinder. Wissenschaftler haben bewiesen: Kinder, die sich viel bewegen, trainieren gleichzeitig ihr Gehirn und werden dadurch klüger. Die Jugend-Fußball-Akademie ist neben der Talentförderung ein Integrationsprojekt, das zusätzliche Bildung und das Erlangen sozialer Kompetenzen garantiert."
+          ]
+        }
+      ],
+      "example": {
+        "text": "Der Artikel handelt von ...",
+        "options": [
+          "dem positiven Einfluss von Sport und Schule.",
+          "der außerschulischen Talentförderung.",
+          "der missglückten Verknüpfung von Sport und Schule."
+        ],
+        "answer": 0
+      },
+      "questions": [
+        {
+          "id": 7,
+          "type": "mcq",
+          "text": "Jugendliche haben das Bedürfnis ...",
+          "options": [
+            "aufregende Dinge zu tun.",
+            "Sport zu treiben.",
+            "sich zu entwickeln."
+          ],
+          "answer": 1,
+          "num": 7
+        },
+        {
+          "id": 8,
+          "type": "mcq",
+          "text": "Durch den Sport trainieren Jugendliche ...",
+          "options": [
+            "soziale Kompetenzen.",
+            "Kraft und Ausdauer.",
+            "ihren Körper."
+          ],
+          "answer": 0,
+          "num": 8
+        },
+        {
+          "id": 9,
+          "type": "mcq",
+          "text": "Es wurde nachgewiesen, dass ...",
+          "options": [
+            "Kinder zusätzliche Bildung brauchen.",
+            "das Integrationsprojekt nichts bewegt.",
+            "Sport die Intelligenz fördert."
+          ],
+          "answer": 2,
+          "num": 9
+        }
+      ],
+      "instructions2": "Lesen Sie den Text aus der Presse und die Aufgaben 10 bis 12 dazu. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+      "articles2": [
+        {
+          "heading": "Deutsche Hörbücher – beliebt und ausgezeichnet",
+          "sub": "Erfreulich sind sowohl Nachfrage als auch Qualität in der deutschen Hörbuchlandschaft.",
+          "body": [
+            "Wie jedes Jahr vergibt der Verein Deutsche Hörbuchpreis Auszeichnungen für hervorragende Leistungen und Qualität. Die Gewinner bestimmt eine Preisjury, die aus Journalisten, Wissenschaftlern, Hörspielregisseuren und Buchhändlern besteht. Außerdem ist ein interessierter Hörer dabei, der bei einer gemeinsamen Aktion des Deutschen Hörbuchpreises e.V. mit dem Westdeutschen Rundfunk (WDR 5) als Gewinner hervorgegangen ist.",
+            "Die Preisträger verteilen sich auf sieben Kategorien. Mit dem „Hörbuch des Jahres“ wurde Klaus Buhlert für die Hörspielfassung von James Joyces Ulysses ausgezeichnet. Der Hörverlag wurde für die enorme Leistung, einen 56stündigen Querschnitt durch Originallesungen deutscher Autoren geehrt und erhielt dafür den Preis für die „Beste verlegerische Leistung“. Stimmen können verzaubern. Das erleben wir Gustav Peter Wöhler und Dagmar Manzel, die für ihre besonderen Gaben den Preis für „Bester Interpret“ und „Beste Interpretin“ erhielten.",
+            "Jean-Henri Fabre führt uns in die Welt der Insekten und gewann mit Der heilige Pillendreher. Ein elektroakustisches Hörbuch den Preis für das „Beste Sachhörbuch“. Die Zeit Leo-Kinderjury wählte mit Zorganzoo von Robert Paul Weston das „Beste Kinderhörbuch“. Danke an alle Preisträger für den Ohrenschmaus vom Feinsten!"
+          ]
+        }
+      ],
+      "questions2": [
+        {
+          "id": 10,
+          "type": "mcq",
+          "text": "Der Artikel berichtet ...",
+          "options": [
+            "darüber, wie viele Hörbücher verkauft werden.",
+            "über eine Preisverleihung.",
+            "über steigende Zahlen im Buchhandel."
+          ],
+          "answer": 1,
+          "num": 10
+        },
+        {
+          "id": 11,
+          "type": "mcq",
+          "text": "Die Gewinner ...",
+          "options": [
+            "erhalten Karten für ein Konzert.",
+            "bekommen sieben Hörbücher.",
+            "verteilen sich auf mehrere Teilbereiche."
+          ],
+          "answer": 2,
+          "num": 11
+        },
+        {
+          "id": 12,
+          "type": "mcq",
+          "text": "Gelobt wird ...",
+          "options": [
+            "die Arbeit der Jury.",
+            "die hohe Qualität in der Hörbuchlandschaft.",
+            "der Westdeutsche Rundfunk."
+          ],
+          "answer": 1,
+          "num": 12
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Teil 3",
+      "time": 10,
+      "instructions": "Lesen Sie die Situation 13 bis 19 und die Anzeigen A bis J aus verschiedenen deutschsprachigen Medien. Wählen Sie: Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Die Anzeige aus dem Beispiel können Sie nicht mehr verwenden. Für eine Situation gibt es keine passende Anzeige. In diesem Fall schreiben Sie 0.\n\nFolgende Personen machen an der Volkshochschule einen Computerkurs. Herr Lenger hat eine Fachzeitschrift mitgebracht und alle blättern darin.",
+      "example": {
+        "text": "Frau Keller will sich einen neuen Fernseher kaufen.",
+        "answer": "I"
+      },
+      "adsFormatted": [
+        {
+          "code": "A",
+          "tagPos": "left",
+          "hasPin": true,
+          "cardClass": "anzeige-style-a",
+          "title": "Wissen, wo was ist?",
+          "text": "Dabei hilft der „Auto-Navigator 00012 von VISION“. Mit der elektronischen Stadtkarte findet jeder seinen Weg. Der PC auf dem Beifahrersitz zeigt nicht nur den Weg, sondern sagt Abzweigungen auch über den PC-Lautsprecher an. Satellitenempfänger und Software ab 450 Euro.\n\nVISION-Produkte gibt es in Kaufhäusern, Fachmärkten und im Fachhandel.",
+          "html": "<div class=\"anzeige-headline\">Wissen, wo was ist?</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">Dabei hilft der „Auto-Navigator 00012 von VISION“. Mit der elektronischen Stadtkarte findet jeder seinen Weg. Der PC auf dem Beifahrersitz zeigt nicht nur den Weg, sondern sagt Abzweigungen auch über den PC-Lautsprecher an. Satellitenempfänger und Software ab 450 Euro.<br><br><strong>VISION-Produkte gibt es in Kaufhäusern, Fachmärkten und im Fachhandel.</strong></div>"
+        },
+        {
+          "code": "B",
+          "tagPos": "right",
+          "hasPin": true,
+          "cardClass": "anzeige-style-b",
+          "title": "Noten- und Schülerverwaltung am PC: KLASSENDATEI Tausendfach bewährt!",
+          "text": "Klassen-, Kurslisten, alle Durchschnitte, einfache Bedienung, für jedes Fach. Alle Informationen im Internet – schauen Sie rein: www.klassendatei.de",
+          "html": "<div class=\"anzeige-headline\">Noten- und Schülerverwaltung am PC: KLASSENDATEI Tausendfach bewährt!</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">Klassen-, Kurslisten, alle Durchschnitte, einfache Bedienung, für jedes Fach. Alle Informationen im Internet – schauen Sie rein: <strong>www.klassendatei.de</strong></div>"
+        },
+        {
+          "code": "C",
+          "tagPos": "left",
+          "hasPin": true,
+          "cardClass": "anzeige-style-c",
+          "title": "Flachbildschirme",
+          "text": "Wenn Sie häufig einschalten, sollte Ihr Bildschirm erstklassig sein. Erstklassige Bilder, naturgetreue Farben und die nötige Schärfe: Mit Flachbildschirmen haben Sie stets Qualität vor Augen. Nr. 1 bei der Herstellung von Monitoren. Ihr Computerspezialist.\nInformationen: 030/399 56 90",
+          "html": "<div class=\"anzeige-headline\">Flachbildschirme</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">Wenn Sie häufig einschalten, sollte Ihr Bildschirm erstklassig sein. Erstklassige Bilder, naturgetreue Farben und die nötige Schärfe: Mit Flachbildschirmen haben Sie stets Qualität vor Augen. Nr. 1 bei der Herstellung von Monitoren. Ihr Computerspezialist.<br><strong>Informationen: 030/399 56 90</strong></div>"
+        },
+        {
+          "code": "D",
+          "tagPos": "right",
+          "hasPin": true,
+          "cardClass": "anzeige-style-d",
+          "title": "Lehrer/in für Informatik",
+          "text": "für den Unterricht in den Jahrgangsstufen 7–12. Voraussetzungen: einschlägige Fachausbildung, Unterrichtserfahrung, große Bereitschaft zur Teamarbeit.\nBewerbungen mit den üblichen Unterlagen an Privatschule Kiel, Brunswicker Straße 18",
+          "html": "<div class=\"anzeige-headline\">Lehrer/in für Informatik</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">für den Unterricht in den Jahrgangsstufen 7–12. Voraussetzungen: einschlägige Fachausbildung, Unterrichtserfahrung, große Bereitschaft zur Teamarbeit.<br><strong>Bewerbungen mit den üblichen Unterlagen an Privatschule Kiel, Brunswicker Straße 18</strong></div>"
+        },
+        {
+          "code": "E",
+          "tagPos": "left",
+          "hasPin": true,
+          "cardClass": "anzeige-style-e",
+          "title": "Mit 60 ins Internet?",
+          "text": "Alles klar, denn an der Volkshochschule kann man fast alles lernen. Noch leichter geht es mit den Lehr- und Fachbüchern zu den Kursen. Für Computerkurse und alles, was Sie lernen möchten. Für jedes Alter und jeden Geschmack.\nMountain Bücher in Tegel, direkt am Schlossplatz",
+          "html": "<div class=\"anzeige-headline\">Mit 60 ins Internet?</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">Alles klar, denn an der Volkshochschule kann man fast alles lernen. Noch leichter geht es mit den Lehr- und Fachbüchern zu den Kursen. Für Computerkurse und alles, was Sie lernen möchten. Für jedes Alter und jeden Geschmack.<br><strong>Mountain Bücher in Tegel, direkt am Schlossplatz</strong></div>"
+        },
+        {
+          "code": "F",
+          "tagPos": "right",
+          "hasPin": true,
+          "cardClass": "anzeige-style-f",
+          "title": "TV neu – jung und preiswert.",
+          "text": "Jede Woche aktuell! Programmtipps und Infos. Nur 70 Eurocents.\nBei Ihrem Zeitungshändler",
+          "html": "<div class=\"anzeige-headline\">TV neu – jung und preiswert.</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">Jede Woche aktuell! Programmtipps und Infos. Nur 70 Eurocents.<br><strong>Bei Ihrem Zeitungshändler</strong></div>"
+        },
+        {
+          "code": "G",
+          "tagPos": "left",
+          "hasPin": true,
+          "cardClass": "anzeige-style-g",
+          "title": "Ein „lebendes Lexikon“, das immer wieder aktualisiert wird:",
+          "text": "Das elektronische Kunststoff-Wörterbuch CD-ROM PolyVoc. Insgesamt 92.000 Einträge. Begriffe aus Maschinen- und Werkzeugbau sowie Elektrotechnik. Deutsch-Englisch und umgekehrt.\nInfo.: 06162/91 23 23",
+          "html": "<div class=\"anzeige-headline\">Ein „lebendes Lexikon“, das immer wieder aktualisiert wird:</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">Das elektronische Kunststoff-Wörterbuch <strong>CD-ROM PolyVoc</strong>. Insgesamt 92.000 Einträge. Begriffe aus Maschinen- und Werkzeugbau sowie Elektrotechnik. Deutsch-Englisch und umgekehrt.<br><strong>Info.: 06162/91 23 23</strong></div>"
+        },
+        {
+          "code": "H",
+          "tagPos": "right",
+          "hasPin": true,
+          "cardClass": "anzeige-style-h",
+          "title": "Neues Internetcafé!",
+          "text": "Täglich geöffnet. 10.00–24.00 Uhr.\nSchillerstr. 25 · Tel. 433 9060",
+          "html": "<div class=\"anzeige-headline\">Neues Internetcafé!</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">Täglich geöffnet. 10.00–24.00 Uhr.<br><strong>Schillerstr. 25 · Tel. 433 9060</strong></div>"
+        },
+        {
+          "code": "I",
+          "tagPos": "left",
+          "hasPin": true,
+          "cardClass": "anzeige-style-i",
+          "title": "Zukunftssicher. Bedienungsfreundlich. Individuell.",
+          "text": "sehen – hören – erleben. Augenfreundlicher Fernsehgenuss. Feinste Technik für die digitale Zukunft.\nIhr Tonhaus Heiser · Im Borsig-Center · Immer das Neueste!",
+          "html": "<div class=\"anzeige-headline\">Zukunftssicher. Bedienungsfreundlich. Individuell.</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">sehen – hören – erleben. Augenfreundlicher Fernsehgenuss. Feinste Technik für die digitale Zukunft.<br><strong>Ihr Tonhaus Heiser · Im Borsig-Center · Immer das Neueste!</strong></div>"
+        },
+        {
+          "code": "J",
+          "tagPos": "right",
+          "hasPin": true,
+          "cardClass": "anzeige-style-j",
+          "title": "Ihr Handy funktioniert nicht?",
+          "text": "Dann kommen Sie zu uns! Mobilfunk-Reparaturdienst bei Easy-Tel.\nInformationen unter 0180 / 36 50 522",
+          "html": "<div class=\"anzeige-headline\">Ihr Handy funktioniert nicht?</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">Dann kommen Sie zu uns! Mobilfunk-Reparaturdienst bei Easy-Tel.<br><strong>Informationen unter 0180 / 36 50 522</strong></div>"
+        }
+      ],
+      "questions": [
+        {
+          "id": 13,
+          "type": "match",
+          "text": "Jan will seiner 15-jährigen Kusine ein Buch für ihren Computerkurs schenken.",
+          "answer": "0",
+          "num": 13
+        },
+        {
+          "id": 14,
+          "type": "match",
+          "text": "Herr Clement ist viel mit dem Auto unterwegs und sucht nach einem Gerät, das ihm hilft, sich in der Stadt zu orientieren.",
+          "answer": "A",
+          "num": 14
+        },
+        {
+          "id": 15,
+          "type": "match",
+          "text": "Herr Maurer arbeitet viel am Computer und sucht ein neues Gerät, das seinen Augen nicht schadet.",
+          "answer": "C",
+          "num": 15
+        },
+        {
+          "id": 16,
+          "type": "match",
+          "text": "Evelyns Computer ist kaputt. Sie muss unbedingt E-Mails schicken und nach Informationen suchen.",
+          "answer": "H",
+          "num": 16
+        },
+        {
+          "id": 17,
+          "type": "match",
+          "text": "Alex sucht nach einem Programm für seinen Computer, das ihm hilft, technischen Wortschatz in englischen Fachbüchern zu verstehen.",
+          "answer": "G",
+          "num": 17
+        },
+        {
+          "id": 18,
+          "type": "match",
+          "text": "Lillys Handy funktioniert nicht. Sie sucht einen Reparaturdienst.",
+          "answer": "J",
+          "num": 18
+        },
+        {
+          "id": 19,
+          "type": "match",
+          "text": "Frau Frey will sich regelmäßig über das Fernsehprogramm informieren.",
+          "answer": "F",
+          "num": 19
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Teil 4",
+      "time": 15,
+      "instructions": "Lesen Sie die Texte 20 bis 26. Wählen Sie: Welche Personen haben eine positive Einstellung zum Thema „Flexibilität am Arbeitsplatz“?\n\nVergleichen Sie die Leserbriefe aus einer Zeitschrift zum Thema.",
+      "topic": "Welche Personen haben eine positive Einstellung zum Thema „Flexibilität am Arbeitsplatz“?",
+      "example": {
+        "who": "Moser, 42, St. Anton",
+        "text": "Ich habe für die Kinder mehrmonatige Pausen vom Berufsleben eingelegt. Der Karriere hat das nicht geschadet. Ich glaube, wenn man die Auszeiten gut begründen kann, ist das beim nächsten Jobwechsel sogar ein Pluspunkt, denn es beweist, dass man Mut zu Veränderungen hat.",
+        "answer": "ja"
+      },
+      "letters": [
+        {
+          "id": 20,
+          "who": "Pfeifer, 58, Mainz",
+          "text": "Ich bin ein moderner Unternehmer und sehe mich als Partner meiner Angestellten. Ein guter Mitarbeiter muss es mir Wert sein, auf dessen persönliche Zeitanliegen Rücksicht zu nehmen. Ein zufriedener Mitarbeiter ist für die Firma sicher effektiver als einer, der nur mit halbem Herzen bei der Sache ist.",
+          "answer": "ja",
+          "num": 20
+        },
+        {
+          "id": 21,
+          "who": "Vollmer, 36, Reutlingen",
+          "text": "Die heutige Zeit ist von Arbeitgeberwechseln gekennzeichnet. Kletterkarrieren sind an die Stelle von Kaminkarrieren getreten. Ein Grund: Es gibt immer weniger klassische Arbeitsverhältnisse – also unbefristete Vollzeitstellen. Im Gegensatz zur normalen Leiter „fällt“ man hier aber in der Regel nach oben und nicht nach unten.",
+          "answer": "ja",
+          "num": 21
+        },
+        {
+          "id": 22,
+          "who": "R. Thiel, 47, Husum",
+          "text": "Das so als modern angesehene „Jobhopping“ bringt doch überhaupt nichts. Kaum dass sich ein neuer Kollege eingearbeitet hat und endlich Leistung bringt, denkt er schon wieder an einen Wechsel. Bei den hoch komplizierten Abläufen in der Firma kann das nicht von Vorteil sein. Ich bin für mehr Kontinuität.",
+          "answer": "nein",
+          "num": 22
+        },
+        {
+          "id": 23,
+          "who": "Roswitha, 38, CH",
+          "text": "Um Familie und Beruf unter einen Hut zu bringen, habe ich mich dazu entschlossen, meinen Arbeitsplatz nach zu Hause zu verlegen. Mein Job als Teleberaterin macht es mir dabei leicht, denn mit dem Laptop kann ich überall arbeiten. Und mit etwas Disziplin kriege ich auch das Zeitmanagement hin. Für meine Kinder ist das jedenfalls optimal.",
+          "answer": "ja",
+          "num": 23
+        },
+        {
+          "id": 24,
+          "who": "Menrot, 50, Luxemburg",
+          "text": "Für viele ist Vorwärtskommen der zentrale Kick und das Arbeitsleben wie ein Computerspiel, in dem man sich Level für Level vorarbeitet. Wer fragt schon nach der Spielfigur, die sich da abzappelt, wie es ihr geht, wie sie sich fühlt. Im Blickfeld ist nur die Karriere und das Leben bleibt auf der Strecke. Ein geregeltes Arbeitsverhältnis ist da bestimmt gesünder.",
+          "answer": "nein",
+          "num": 24
+        },
+        {
+          "id": 25,
+          "who": "Struck, 64, Erfurt",
+          "text": "Der neuzeitliche „Turbokapitalismus“ führte zu neuen Job-Bedingungen. Ich glaube, dass der flexible Kapitalismus und die neuen Arbeitsformen den Charakter der Leute zunehmend beeinflussen werden. Werte wie Treue, gegenseitiges Engagement oder das Verfolgen langfristiger Ziele gehen dabei verloren.",
+          "answer": "nein",
+          "num": 25
+        },
+        {
+          "id": 26,
+          "who": "Thorsten, 59, Emden",
+          "text": "„Burnout“ und „Workaholic“ begleiten in zunehmendem Maß unsere heutige Leistungsgesellschaft. Aber es gibt ein Leben außerhalb des Arbeitsplatzes und wir sollten nach gesunden Wegen zur Gestaltung der Arbeitszeiten suchen. Darum bin ich für flexible Arbeitszeitmodelle.",
+          "answer": "ja",
+          "num": 26
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Teil 5",
+      "time": 10,
+      "instructions": "Lesen Sie die Aufgaben 27 bis 30 und den Text dazu. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+      "articles": [
+        {
+          "heading": "Rezept: Wiener Sachertorte",
+          "sub": "Das berühmte Sachertorte Rezept ist wohl eines der bestgehüteten Geheimnisse der Wiener Mehlspeisküche. Aber mit diesem Rezept gelingt auf jeden Fall purer Wiener Tortengenuss und man kann ein bisschen das Flair der berühmten Sachertorte schmecken! Vergessen Sie auch nicht: Diese Torte liebt eine große Portion Schlagobers als Begleitung.",
+          "body": [
+            "Zubereitung:",
+            "❖ Zuerst die Eier trennen, Butter auf Zimmertemperatur bringen.",
+            "❖ In einer Schüssel Butter mit Staubzucker schaumig rühren und Eigelb sowie Vanillezucker einrühren.",
+            "❖ Schokolade in einem Wasserbad schmelzen, aber keinesfalls zu heiß werden lassen und ebenfalls einmengen.",
+            "❖ Eiweiß schlagen, mit Kristallzucker steif schlagen und vorsichtig unter die übrige Masse heben. Zuletzt das Mehl behutsam einrühren.",
+            "❖ Eine Tortenspringform gut mit Butter ausstreichen und mit Mehl bestäuben, Tortenteig einfüllen und im auf 180 °C vorgeheizten Backrohr etwa 1 Stunde lang backen.",
+            "❖ Torte erkalten lassen, dann durchschneiden. Die beiden Tortenböden mit der leicht erwärmten Marmelade hauchdünn bestreichen und wieder zusammensetzen.",
+            "❖ Anschließend auch die Außenseite der Sachertorte bestreichen, bevor man sie mit Schokoladenglasur überzieht.",
+            "Guten Appetit!"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": 27,
+          "type": "mcq",
+          "text": "Das Original-Rezept ...",
+          "options": [
+            "ist ein Geheimnis.",
+            "steht in jedem Kochbuch.",
+            "kennen nur die Wiener."
+          ],
+          "answer": 0,
+          "num": 27
+        },
+        {
+          "id": 28,
+          "type": "mcq",
+          "text": "Die Eier muss man ...",
+          "options": [
+            "auf Zimmertemperatur bringen.",
+            "vorsichtig trennen.",
+            "eine halbe Stunde verrühren."
+          ],
+          "answer": 1,
+          "num": 28
+        },
+        {
+          "id": 29,
+          "type": "mcq",
+          "text": "Die Backform muss man ...",
+          "options": [
+            "erwärmen.",
+            "mit Fett bestreichen.",
+            "60 Minuten lang backen."
+          ],
+          "answer": 1,
+          "num": 29
+        },
+        {
+          "id": 30,
+          "type": "mcq",
+          "text": "Auf die Torte kommt ...",
+          "options": [
+            "Speisemehl.",
+            "Staubzucker.",
+            "Schokoglasur."
+          ],
+          "answer": 2,
+          "num": 30
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "🎧 Hören",
+      "badge": "Modul Hören",
+      "isHoren": true,
+      "time": 40,
+      "instructions": "Modul Hören: 4 Teile, 30 Aufgaben. Klicken Sie auf den Play-Button, um die Original-Audiodatei abzuspielen. Die Aufgaben werden automatisch mit dem Audio-Fortschritt synchronisiert.",
+      "audioSrc": "audio/modellsatz-14-hoeren.mp3",
+      "audioFallbacks": [
+        "audio/modellsatz-14-hoeren.mp3"
+      ],
+      "audioChapters": [
+        {
+          "time": 0,
+          "label": "00:00 Teil 1 (Beispiel · 2x)",
+          "part": 1,
+          "title": "Teil 1 · Beispiel (2x hören)",
+          "start": 0,
+          "end": 68
+        },
+        {
+          "time": 68,
+          "label": "01:08 Teil 1 (Texte 1–5 · 2x)",
+          "part": 1,
+          "title": "Teil 1 · Fünf kurze Texte (2x hören)",
+          "start": 68,
+          "end": 709
+        },
+        {
+          "time": 709,
+          "label": "11:49 Teil 2 (Heiratsantrag im Stadion · 1x)",
+          "part": 2,
+          "title": "Teil 2 · Heiratsantrag im Stadion (1x hören)",
+          "start": 709,
+          "end": 950
+        },
+        {
+          "time": 950,
+          "label": "15:50 Teil 3 (Supermarkt & Leuchtturm · 1x)",
+          "part": 3,
+          "title": "Teil 3 · Gespräch im Supermarkt mit Leuchtturmwärter (1x hören)",
+          "start": 950,
+          "end": 1300
+        },
+        {
+          "time": 1300,
+          "label": "21:40 Teil 4 (1. Durchgang)",
+          "part": 4,
+          "title": "Teil 4 · Diskussion: Englisch in der Grundschule (1. Durchgang)",
+          "start": 1300,
+          "end": 1797
+        },
+        {
+          "time": 1797,
+          "label": "29:57 Teil 4 (2. Durchgang — Wiederholung)",
+          "part": 4,
+          "title": "Teil 4 · Diskussion: Englisch in der Grundschule (2. Durchgang)",
+          "start": 1797,
+          "end": 2221
+        }
+      ],
+      "horenSections": [
+        {
+          "id": 1,
+          "partNumber": 1,
+          "title": "Teil 1: Fünf kurze Texte",
+          "badge": "Aufgaben 1 – 10",
+          "intro": "Sie hören nun fünf kurze Texte. Sie hören jeden Text zweimal. Zu jedem Text lösen Sie zwei Aufgaben. Wählen Sie bei jeder Aufgabe die richtige Lösung. Lesen Sie zuerst das Beispiel. Dazu haben Sie 10 Sekunden Zeit.",
+          "example": {
+            "ex01": {
+              "num": "01",
+              "text": "Das Flugzeug aus Frankfurt ist bereits gelandet.",
+              "type": "tf",
+              "answer": "richtig"
+            },
+            "ex02": {
+              "num": "02",
+              "text": "Die Passagiere sollen sich bitte melden bei ...",
+              "options": [
+                "der Information.",
+                "dem Schalter der Fluggesellschaft.",
+                "der Gepäckausgabe."
+              ],
+              "type": "mcq",
+              "answer": 0
+            }
+          },
+          "texts": [
+            {
+              "number": 1,
+              "title": "Text 1",
+              "qIds": [
+                "h1",
+                "h2"
+              ]
+            },
+            {
+              "number": 2,
+              "title": "Text 2",
+              "qIds": [
+                "h3",
+                "h4"
+              ]
+            },
+            {
+              "number": 3,
+              "title": "Text 3",
+              "qIds": [
+                "h5",
+                "h6"
+              ]
+            },
+            {
+              "number": 4,
+              "title": "Text 4",
+              "qIds": [
+                "h7",
+                "h8"
+              ]
+            },
+            {
+              "number": 5,
+              "title": "Text 5",
+              "qIds": [
+                "h9",
+                "h10"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "partNumber": 2,
+          "title": "Teil 2: Heiratsantrag im Stadion",
+          "badge": "Aufgaben 11 – 15",
+          "intro": "Sie hören nun einen Text. Sie hören den Text einmal. Dazu lösen Sie fünf Aufgaben. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c. Lesen Sie jetzt die Aufgaben 11 bis 15. Dazu haben Sie 60 Sekunden Zeit.",
+          "context": "Sie sitzen im Stadion und hören, wie ein Fußballfan einer Dame einen Heiratsantrag macht.",
+          "qIds": [
+            "h11",
+            "h12",
+            "h13",
+            "h14",
+            "h15"
+          ]
+        },
+        {
+          "id": 3,
+          "partNumber": 3,
+          "title": "Teil 3: Gespräch im Supermarkt mit Leuchtturmwärter",
+          "badge": "Aufgaben 16 – 22",
+          "intro": "Sie hören nun ein Gespräch. Sie hören das Gespräch einmal. Dazu lösen Sie sieben Aufgaben. Wählen Sie: Sind die Aussagen Richtig oder Falsch? Lesen Sie jetzt die Aufgaben 16 bis 22. Dazu haben Sie 60 Sekunden Zeit.",
+          "context": "Sie hören, wie sich die Händlerin mit einem einheimischen Leuchtturmwärter im Supermarkt eines kleinen Dorfes unterhält.",
+          "qIds": [
+            "h16",
+            "h17",
+            "h18",
+            "h19",
+            "h20",
+            "h21",
+            "h22"
+          ]
+        },
+        {
+          "id": 4,
+          "partNumber": 4,
+          "title": "Teil 4: Diskussion: Englisch in der Grundschule",
+          "badge": "Aufgaben 23 – 30",
+          "intro": "Sie hören nun eine Diskussion. Sie hören die Diskussion zweimal. Dazu lösen Sie acht Aufgaben. Ordnen Sie die Aussagen zu: Wer sagt was? Lesen Sie jetzt die Aussagen 23 bis 30. Dazu haben Sie 60 Sekunden Zeit.",
+          "context": "Die Moderatorin der Sendung „Aktuell“ diskutiert mit Elisabeth Danzinger und Kurt Wausch zum Thema „Die Einführung der englischen Sprache in der Grundschule!“",
+          "speakers": [
+            {
+              "code": "a",
+              "name": "Moderatorin"
+            },
+            {
+              "code": "b",
+              "name": "Elisabeth Danzinger"
+            },
+            {
+              "code": "c",
+              "name": "Kurt Wausch"
+            }
+          ],
+          "example": {
+            "num": "0",
+            "text": "Es ist für Grundschulkinder zu früh, ein anderes Sprachensystem zu lernen.",
+            "answerCode": "c",
+            "answerSpeaker": "Kurt Wausch"
+          },
+          "qIds": [
+            "h23",
+            "h24",
+            "h25",
+            "h26",
+            "h27",
+            "h28",
+            "h29",
+            "h30"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "h1",
+          "teilPart": 1,
+          "type": "tf",
+          "text": "Die Gäste wollen um 21:30 Uhr kommen.",
+          "answer": "falsch",
+          "num": 1,
+          "textNum": 1,
+          "audioStart": 68
+        },
+        {
+          "id": "h2",
+          "teilPart": 1,
+          "type": "mcq",
+          "text": "Die Gäste wollen ...",
+          "options": [
+            "für Freitag reservieren.",
+            "am Samstag später essen.",
+            "am Sonntag kommen."
+          ],
+          "answer": 2,
+          "num": 2,
+          "textNum": 1,
+          "audioStart": 68
+        },
+        {
+          "id": "h3",
+          "teilPart": 1,
+          "type": "tf",
+          "text": "Das Spanienprogramm umfasst nur Sprachunterricht.",
+          "answer": "falsch",
+          "num": 3,
+          "textNum": 2,
+          "audioStart": 172
+        },
+        {
+          "id": "h4",
+          "teilPart": 1,
+          "type": "mcq",
+          "text": "Die Spezialkurse für Fachsprachen werden ...",
+          "options": [
+            "in Schottland angeboten.",
+            "in Spanien angeboten.",
+            "in den Firmen vor Ort angeboten."
+          ],
+          "answer": 2,
+          "num": 4,
+          "textNum": 2,
+          "audioStart": 172
+        },
+        {
+          "id": "h5",
+          "teilPart": 1,
+          "type": "tf",
+          "text": "Morgen ist es den ganzen Tag sonnig und warm.",
+          "answer": "falsch",
+          "num": 5,
+          "textNum": 3,
+          "audioStart": 302
+        },
+        {
+          "id": "h6",
+          "teilPart": 1,
+          "type": "mcq",
+          "text": "Das Wetter ist heute ...",
+          "options": [
+            "sonnig.",
+            "bewölkt.",
+            "regnerisch."
+          ],
+          "answer": 0,
+          "num": 6,
+          "textNum": 3,
+          "audioStart": 302
+        },
+        {
+          "id": "h7",
+          "teilPart": 1,
+          "type": "tf",
+          "text": "Es stehen drei Tanzkurse zur Auswahl.",
+          "answer": "richtig",
+          "num": 7,
+          "textNum": 4,
+          "audioStart": 437
+        },
+        {
+          "id": "h8",
+          "teilPart": 1,
+          "type": "mcq",
+          "text": "Der Kurs in der Volkshochschule kostet ...",
+          "options": [
+            "144 Euro.",
+            "150 Euro.",
+            "90 Euro."
+          ],
+          "answer": 2,
+          "num": 8,
+          "textNum": 4,
+          "audioStart": 437
+        },
+        {
+          "id": "h9",
+          "teilPart": 1,
+          "type": "tf",
+          "text": "Auf dem Handy ist noch ein Guthaben von 9 €.",
+          "answer": "falsch",
+          "num": 9,
+          "textNum": 5,
+          "audioStart": 578
+        },
+        {
+          "id": "h10",
+          "teilPart": 1,
+          "type": "mcq",
+          "text": "Wenn man abfragen will, wie viel Einheiten man noch hat, drückt man die ...",
+          "options": [
+            "1.",
+            "2.",
+            "9."
+          ],
+          "answer": 0,
+          "num": 10,
+          "textNum": 5,
+          "audioStart": 578
+        },
+        {
+          "id": "h11",
+          "teilPart": 2,
+          "type": "mcq",
+          "text": "Der Mann wollte mit Susi eigentlich ...",
+          "options": [
+            "nicht Geburtstag feiern.",
+            "nur ins Stadion gehen.",
+            "im Fernsehen eine Fußballübertragung sehen."
+          ],
+          "answer": 2,
+          "num": 11,
+          "audioStart": 709
+        },
+        {
+          "id": "h12",
+          "teilPart": 2,
+          "type": "mcq",
+          "text": "Der Mann hat ...",
+          "options": [
+            "sich sofort in Susi verliebt.",
+            "sich nicht sofort in Susi verliebt.",
+            "Susi gar nicht beachtet."
+          ],
+          "answer": 0,
+          "num": 12,
+          "audioStart": 709
+        },
+        {
+          "id": "h13",
+          "teilPart": 2,
+          "type": "mcq",
+          "text": "Susi trug ein Trikot mit der Nummer ...",
+          "options": [
+            "4.",
+            "5.",
+            "8."
+          ],
+          "answer": 2,
+          "num": 13,
+          "audioStart": 709
+        },
+        {
+          "id": "h14",
+          "teilPart": 2,
+          "type": "mcq",
+          "text": "Der Mann hat Susi zum ersten Mal ...",
+          "options": [
+            "auf dem Spielfeld gesehen.",
+            "auf der Tribüne gesehen.",
+            "am Kiosk gesehen."
+          ],
+          "answer": 1,
+          "num": 14,
+          "audioStart": 709
+        },
+        {
+          "id": "h15",
+          "teilPart": 2,
+          "type": "mcq",
+          "text": "Susi soll ihm antworten, indem ...",
+          "options": [
+            "sie aufs Spielfeld kommt.",
+            "sie zur Tribüne geht.",
+            "sie zum Ausgang läuft."
+          ],
+          "answer": 1,
+          "num": 15,
+          "audioStart": 709
+        },
+        {
+          "id": "h16",
+          "teilPart": 3,
+          "type": "tf",
+          "text": "Egon bekommt Besuch von seinem Enkel.",
+          "answer": "richtig",
+          "num": 16,
+          "audioStart": 950
+        },
+        {
+          "id": "h17",
+          "teilPart": 3,
+          "type": "tf",
+          "text": "Egons Frau ist bereits tot.",
+          "answer": "richtig",
+          "num": 17,
+          "audioStart": 950
+        },
+        {
+          "id": "h18",
+          "teilPart": 3,
+          "type": "tf",
+          "text": "Nachts ist das Meer für die Schiffe gefährlich.",
+          "answer": "richtig",
+          "num": 18,
+          "audioStart": 950
+        },
+        {
+          "id": "h19",
+          "teilPart": 3,
+          "type": "tf",
+          "text": "Egon war Seemann von Beruf.",
+          "answer": "richtig",
+          "num": 19,
+          "audioStart": 950
+        },
+        {
+          "id": "h20",
+          "teilPart": 3,
+          "type": "tf",
+          "text": "Egons Leben auf der Insel ist nie langweilig.",
+          "answer": "richtig",
+          "num": 20,
+          "audioStart": 950
+        },
+        {
+          "id": "h21",
+          "teilPart": 3,
+          "type": "tf",
+          "text": "Die Händlerin kennt das Buch und seinen Autor.",
+          "answer": "falsch",
+          "num": 21,
+          "audioStart": 950
+        },
+        {
+          "id": "h22",
+          "teilPart": 3,
+          "type": "tf",
+          "text": "Zurzeit liest Egon ein Buch von Kempen.",
+          "answer": "falsch",
+          "num": 22,
+          "audioStart": 950
+        },
+        {
+          "id": "h23",
+          "teilPart": 4,
+          "type": "speaker",
+          "text": "Die Erstklässler lernen im Englischunterricht nur Vokale und Konsonanten.",
+          "options": [
+            "Moderatorin",
+            "Elisabeth Danzinger",
+            "Kurt Wausch"
+          ],
+          "answer": 1,
+          "num": 23,
+          "audioStart": 1300
+        },
+        {
+          "id": "h24",
+          "teilPart": 4,
+          "type": "speaker",
+          "text": "In der Grundschule muss man weitere 13 Vokale lernen.",
+          "options": [
+            "Moderatorin",
+            "Elisabeth Danzinger",
+            "Kurt Wausch"
+          ],
+          "answer": 2,
+          "num": 24,
+          "audioStart": 1300
+        },
+        {
+          "id": "h25",
+          "teilPart": 4,
+          "type": "speaker",
+          "text": "Man spricht bestimmte Vokale im Englischen anders aus.",
+          "options": [
+            "Moderatorin",
+            "Elisabeth Danzinger",
+            "Kurt Wausch"
+          ],
+          "answer": 0,
+          "num": 25,
+          "audioStart": 1300
+        },
+        {
+          "id": "h26",
+          "teilPart": 4,
+          "type": "speaker",
+          "text": "Kinder wachsen in einem multikulturellen Umfeld auf.",
+          "options": [
+            "Moderatorin",
+            "Elisabeth Danzinger",
+            "Kurt Wausch"
+          ],
+          "answer": 1,
+          "num": 26,
+          "audioStart": 1300
+        },
+        {
+          "id": "h27",
+          "teilPart": 4,
+          "type": "speaker",
+          "text": "Englisch bieten nur einige Schulen an.",
+          "options": [
+            "Moderatorin",
+            "Elisabeth Danzinger",
+            "Kurt Wausch"
+          ],
+          "answer": 1,
+          "num": 27,
+          "audioStart": 1300
+        },
+        {
+          "id": "h28",
+          "teilPart": 4,
+          "type": "speaker",
+          "text": "Informationen über das Schulprogramm bekommt man bei der Einschreibung.",
+          "options": [
+            "Moderatorin",
+            "Elisabeth Danzinger",
+            "Kurt Wausch"
+          ],
+          "answer": 1,
+          "num": 28,
+          "audioStart": 1300
+        },
+        {
+          "id": "h29",
+          "teilPart": 4,
+          "type": "speaker",
+          "text": "Es gab immer schon Pilotschulen im Erziehungsbereich.",
+          "options": [
+            "Moderatorin",
+            "Elisabeth Danzinger",
+            "Kurt Wausch"
+          ],
+          "answer": 1,
+          "num": 29,
+          "audioStart": 1300
+        },
+        {
+          "id": "h30",
+          "teilPart": 4,
+          "type": "speaker",
+          "text": "Die Diskussion hat Befürworter und Gegner.",
+          "options": [
+            "Moderatorin",
+            "Elisabeth Danzinger",
+            "Kurt Wausch"
+          ],
+          "answer": 0,
+          "num": 30,
+          "audioStart": 1300
+        }
+      ]
+    }
+  ],
+  "explanations": {
+    "1": {
+      "quote": "Was, wenn ein Schönheitsmakel mich so stark stört, dass ich psychisch darunter leide?",
+      "whyCorrect": {
+        "de": "Richtig: Der Text bestätigt ausdrücklich, dass Schönheitsmakel zu starkem psychischem Leiden führen können.",
+        "ar": "صحيح: يؤكد النص صراحة أن العيوب الجمالية يمكن أن تسبب معاناة نفسية للمرء.",
+        "fr": "Vrai : Le texte indique expressément qu'un défaut esthétique peut causer de réelles souffrances psychologiques."
+      },
+      "whyIncorrect": {
+        "de": "Falsch widerspricht der Aussage, dass man psychisch darunter leiden kann.",
+        "ar": "الخيار \"خطأ\" يناقض ما ورد في النص من أن العيوب الجمالية تسبب معاناة نفسية.",
+        "fr": "Faux contredit l'affirmation du texte selon laquelle les défauts peuvent faire souffrir psychiquement."
+      }
+    },
+    "2": {
+      "quote": "Mit einem attraktiven Aussehen kann man punkten. Ob privat oder im Beruf, immer steht eines im Mittelpunkt: Man will gefallen.",
+      "whyCorrect": {
+        "de": "Richtig: Im Beruf wie auch privat kann man mit attraktivem Aussehen punkten und gefallen.",
+        "ar": "صحيح: في العمل كما في الحياة الشخصية، يساعد المظهر الجذاب على كسب النقاط ونيل الإعجاب.",
+        "fr": "Vrai : Que ce soit dans la vie privée ou au travail, une apparence soignée et attrayante permet de marquer des points."
+      },
+      "whyIncorrect": {
+        "de": "Falsch widerspricht der Erwähnung des Berufslebens.",
+        "ar": "الخيار \"خطأ\" غير صحيح لأن النص ذكر صراحة أن المظهر مطلوب أيضاً في العمل.",
+        "fr": "Faux contredit la mention explicite de la vie professionnelle."
+      }
+    },
+    "3": {
+      "quote": "Neuerdings stellt man fest, dass es mehr und mehr Produkte auch für Männer gibt. Bevor man(n) sich unter das Messer legt, geht er zwar lieber zum Bodybuilding, aber die Zahlen steigen auch hier.",
+      "whyCorrect": {
+        "de": "Falsch: Männer achten immer mehr auf Schönheitspflege, Produkte und Fitness, sie sind keineswegs häufig ungepflegt.",
+        "ar": "خطأ: الرجال يهتمون بمظهرهم وبمنتجات العناية والرياضة أكثر فأكثر، وليسوا غير مهندمين.",
+        "fr": "Faux : Les hommes font de plus en plus attention à leurs soins et à leur forme physique, ils ne sont pas négligés."
+      },
+      "whyIncorrect": {
+        "de": "Richtig wird im Text nicht gestützt; Männer investieren zunehmend in Aussehen und Pflege.",
+        "ar": "الخيار \"صحيح\" غير سليم فالنص يوضح إقبال الرجال المتزايد على العناية بمظهرهم.",
+        "fr": "Vrai n'est pas soutenu par le texte ; les hommes investissent de plus en plus dans leur apparence."
+      }
+    },
+    "4": {
+      "quote": "Männer wünschen sich eine andere Nase oder ein Toupet als Ersatz für fehlende Haare.",
+      "whyCorrect": {
+        "de": "Richtig: Der Text erwähnt explizit, dass Männer sich oft eine andere Nase wünschen, weil ihnen die eigene nicht gefällt.",
+        "ar": "صحيح: يذكر النص أن الرجال يتمنون أنوفاً أخرى بدلاً من أنوفهم التي لا تعجبهم.",
+        "fr": "Vrai : Le texte mentionne explicitement que les hommes souhaitent souvent avoir un autre nez."
+      },
+      "whyIncorrect": {
+        "de": "Falsch widerspricht dem Wunsch der Männer nach einer anderen Nase.",
+        "ar": "الخيار \"خطأ\" يناقض رغبة الرجال المذكورة في تغيير شكل أنوفهم.",
+        "fr": "Faux contredit le souhait explicite des hommes d'avoir un autre nez."
+      }
+    },
+    "5": {
+      "quote": "Aber man muss wissen, dass jede Operation und sei sie auch noch so klein, ein Risiko birgt.",
+      "whyCorrect": {
+        "de": "Falsch: Jede Operation birgt laut Text nach wie vor ein Risiko, sie sind also nicht risikolos.",
+        "ar": "خطأ: يؤكد النص أن كل عملية جراحية، مهما صغرت، تنطوي على مخاطر حقيقية.",
+        "fr": "Faux : Toute opération chirurgicale comporte toujours des risques d'après le texte."
+      },
+      "whyIncorrect": {
+        "de": "Richtig widerspricht der Feststellung, dass Operationen immer Risiken bergen.",
+        "ar": "الخيار \"صحيح\" غير صحيح فالعمليات ما تزال محفوفة بالمخاطر.",
+        "fr": "Vrai contredit le fait que les opérations comportent toujours des risques."
+      }
+    },
+    "6": {
+      "quote": "Durch den modernen Körperkult reduziert sich der Mensch auf ein Abziehbild seiner selbst...",
+      "whyCorrect": {
+        "de": "Falsch: Der Text kritisiert den allgemeinen modernen Körperkult, behauptet aber nicht, dass es in Hollywood einen neu entstandenen Kult gibt.",
+        "ar": "خطأ: النص ينتقد هوس الجسد العصري عموماً، ولم يقل إن هوليوود تشهد عبادة جسدية جديدة خاصة بها.",
+        "fr": "Faux : Le texte critique le culte moderne du corps en général, et non pas l'apparition d'un nouveau culte exclusif à Hollywood."
+      },
+      "whyIncorrect": {
+        "de": "Richtig lässt sich aus dem Text nicht ableiten.",
+        "ar": "الخيار \"صحيح\" غير صحيح لعدم وجود دليل عليه بالنص.",
+        "fr": "Vrai n'est pas justifié par le texte."
+      }
+    },
+    "7": {
+      "quote": "In dieser Zeit ist auch das Bedürfnis nach Bewegung besonders groß.",
+      "whyCorrect": {
+        "de": "b ist richtig: Das Bedürfnis nach Bewegung bedeutet Sport zu treiben.",
+        "ar": "الخيار b صحيح: الحاجة إلى الحركة تعني ممارسة الرياضة.",
+        "fr": "b est correct : Le besoin de mouvement correspond à la pratique du sport."
+      },
+      "whyIncorrect": {
+        "de": "a und c treffen den Kern des Textabschnitts über das Bewegungsbedürfnis nicht.",
+        "ar": "الخيارات الأخرى لا تطابق عبارة الحاجة إلى الحركة والرياضة.",
+        "fr": "Les autres options ne traduisent pas le besoin de mouvement."
+      }
+    },
+    "8": {
+      "quote": "Darüber hinaus lernen die Jugendlichen auch soziales Verhalten, Respekt vor Leistung und die Integration von Schwächeren...",
+      "whyCorrect": {
+        "de": "a ist richtig: Soziales Verhalten, Respekt und Integration sind soziale Kompetenzen.",
+        "ar": "الخيار a صحيح: السلوك الاجتماعي والاحترام ودمج الضعفاء كلها كفاءات اجتماعية.",
+        "fr": "a est correct : Le comportement social, le respect et l'intégration constituent des compétences sociales."
+      },
+      "whyIncorrect": {
+        "de": "Kraft und Körper werden nicht im Fokus dieses Abschnitts über Werte genannt.",
+        "ar": "الخيارات الأخرى لا تركز على القيم الاجتماعية المعنية.",
+        "fr": "Les autres options ne correspondent pas aux valeurs sociales évoquées."
+      }
+    },
+    "9": {
+      "quote": "Kinder, die sich viel bewegen, trainieren gleichzeitig ihr Gehirn und werden dadurch klüger.",
+      "whyCorrect": {
+        "de": "c ist richtig: Wer sein Gehirn trainiert und klüger wird, fördert seine Intelligenz.",
+        "ar": "الخيار c صحيح: تدريب الدماغ والتحول لذكاء أكبر يعني تعزيز القدرات العقلية والذكاء.",
+        "fr": "c est correct : Entraîner son cerveau et devenir plus intelligent correspond à développer l'intelligence."
+      },
+      "whyIncorrect": {
+        "de": "a und b widersprechen den positiven Forschungsergebnissen.",
+        "ar": "الخيارات الأخرى تناقض النتائج العلمية المثبتة.",
+        "fr": "Les autres options contredisent les résultats scientifiques."
+      }
+    },
+    "10": {
+      "quote": "Wie jedes Jahr vergibt der Verein Deutsche Hörbuchpreis Auszeichnungen für hervorragende Leistungen und Qualität.",
+      "whyCorrect": {
+        "de": "b ist richtig: Der gesamte Artikel schildert die Verleihung des Deutschen Hörbuchpreises.",
+        "ar": "الخيار b صحيح: المقال يغطي حفل توزيع جوائز الكتب الصوتية الألمانية.",
+        "fr": "b est correct : L'article traite de la cérémonie de remise des prix du livre audio allemand."
+      },
+      "whyIncorrect": {
+        "de": "a und c sind nicht das Hauptthema des Artikels.",
+        "ar": "الخيارات الأخرى ليست الموضوع الرئيسي للتقرير.",
+        "fr": "Les autres options ne sont pas le sujet principal du texte."
+      }
+    },
+    "11": {
+      "quote": "Die Preisträger verteilen sich auf sieben Kategorien.",
+      "whyCorrect": {
+        "de": "c ist richtig: Die Gewinner teilen sich auf sieben verschiedene Kategorien (Teilbereiche) auf.",
+        "ar": "الخيار c صحيح: الفائزون موزعون على سبع فئات ومجالات مختلفة.",
+        "fr": "c est correct : Les lauréats se répartissent dans sept catégories différentes."
+      },
+      "whyIncorrect": {
+        "de": "a und b sind falsch: Sie erhalten keine Konzertkarten und es werden nicht sieben Hörbücher verschenkt.",
+        "ar": "الخيارات a و b لا أساس لها في النص.",
+        "fr": "a et b sont erronés."
+      }
+    },
+    "12": {
+      "quote": "Erfreulich sind sowohl Nachfrage als auch Qualität in der deutschen Hörbuchlandschaft... Ohrenschmaus vom Feinsten!",
+      "whyCorrect": {
+        "de": "b ist richtig: Die hohe Qualität der deutschen Hörbuchlandschaft wird ausdrücklich gelobt.",
+        "ar": "الخيار b صحيح: النص يشيد بالجودة العالية في عالم الكتب الصوتية الألمانية.",
+        "fr": "b est correct : La grande qualité du paysage des livres audio allemands est expressément saluée."
+      },
+      "whyIncorrect": {
+        "de": "a und c heben nicht den Hauptlobaspekt hervor.",
+        "ar": "الخيارات الأخرى لا تمثل الثناء الرئيسي الموجه للإنتاج الصوتي.",
+        "fr": "Les autres options ne constituent pas l'éloge principal."
+      }
+    },
+    "13": {
+      "quote": "Jan will seiner 15-jährigen Kusine ein Buch für ihren Computerkurs schenken.",
+      "whyCorrect": {
+        "de": "0: Es gibt in den Anzeigen kein Angebot für ein passendes Jugend-Computerlehrbuch (Anzeige E richtet sich an Senioren 60+).",
+        "ar": "0: لا يوجد إعلان مناسب لكتاب كمبيوتر لليافعين (الإعلان E مخصص لكبار السن فوق الستين).",
+        "fr": "0 : Aucune annonce ne propose un manuel informatique pour adolescente (l'annonce E s'adresse aux seniors)."
+      },
+      "whyIncorrect": {
+        "de": "Keine Anzeige passt genau auf das Anliegen.",
+        "ar": "لا يوجد إعلان ملائم.",
+        "fr": "Aucune annonce ne convient."
+      }
+    },
+    "14": {
+      "quote": "Dabei hilft der „Auto-Navigator 00012 von VISION“. Mit der elektronischen Stadtkarte findet jeder seinen Weg.",
+      "whyCorrect": {
+        "de": "A ist richtig: Der Auto-Navigator hilft Autofahrern bei der Orientierung in der Stadt.",
+        "ar": "A هو الإعلان الصحيح: نظام ملاحة للسيارة يساعد في التوجيه داخل المدينة.",
+        "fr": "A est correct : L'Auto-Navigator aide à s'orienter en voiture en ville."
+      },
+      "whyIncorrect": {
+        "de": "Andere Anzeigen bieten keine Navigationsgeräte für Autos.",
+        "ar": "الإعلانات الأخرى لا تقدم أجهزة ملاحة للسيارات.",
+        "fr": "Les autres annonces ne proposent pas de système de navigation automobile."
+      }
+    },
+    "15": {
+      "quote": "Erstklassige Bilder, naturgetreue Farben und die nötige Schärfe: Mit Flachbildschirmen haben Sie stets Qualität vor Augen.",
+      "whyCorrect": {
+        "de": "C ist richtig: Anzeige C bietet Flachbildschirme an, die augenschonend und erstklassig sind.",
+        "ar": "C هو الإعلان الصحيح: يقدم شاشات مسطحة مريحة للعين وعالية الجودة.",
+        "fr": "C est correct : L'annonce C propose des écrans plats préservant la vue."
+      },
+      "whyIncorrect": {
+        "de": "Nur Anzeige C befasst sich mit PC-Monitoren.",
+        "ar": "الإعلان C وحده مخصص لشاشات الحواسيب.",
+        "fr": "Seule l'annonce C concerne les écrans d'ordinateur."
+      }
+    },
+    "16": {
+      "quote": "Neues Internetcafé! Täglich geöffnet. 10.00-24.00 Uhr. Schillerstr. 25.",
+      "whyCorrect": {
+        "de": "H ist richtig: Im Internetcafé kann Evelyn E-Mails versenden und surfen, solange ihr PC defekt ist.",
+        "ar": "H هو الإعلان الصحيح: مقهى إنترنت يتيح إرسال البريد والبحث عندما يكون حاسوبها معطلاً.",
+        "fr": "H est correct : Le cybercafé permet d'envoyer des e-mails et naviguer sur le web."
+      },
+      "whyIncorrect": {
+        "de": "Andere Anzeigen bieten keinen öffentlichen Internetzugang.",
+        "ar": "الإعلانات الأخرى لا تقدم وصولاً للإنترنت.",
+        "fr": "Les autres annonces n'offrent pas d'accès internet public."
+      }
+    },
+    "17": {
+      "quote": "Das elektronische Kunststoff-Wörterbuch CD-ROM PolyVoc... Begriffe aus Maschinen- und Werkzeugbau... Deutsch-Englisch...",
+      "whyCorrect": {
+        "de": "G ist richtig: CD-ROM Fachwörterbuch für technische Begriffe Deutsch-Englisch.",
+        "ar": "G هو الإعلان الصحيح: قرص مدمج يحتوي على معجم للمصطلحات التقنية بالألمانية والإنجليزية.",
+        "fr": "G est correct : Dictionnaire technique CD-ROM allemand-anglais."
+      },
+      "whyIncorrect": {
+        "de": "Andere Anzeigen bieten kein technisches Englisch-Wörterbuchprogramm.",
+        "ar": "الإعلانات الأخرى لا تقدم برامج معاجم تقنية إنجليزية.",
+        "fr": "Les autres annonces ne concernent pas de dictionnaire technique."
+      }
+    },
+    "18": {
+      "quote": "Ihr Handy funktioniert nicht? Dann kommen Sie zu uns! Mobilfunk-Reparaturdienst bei Easy-Tel.",
+      "whyCorrect": {
+        "de": "J ist richtig: Reparaturdienst für defekte Mobiltelefone.",
+        "ar": "J هو الإعلان الصحيح: خدمة تصليح الهواتف المحمولة المعطلة.",
+        "fr": "J est correct : Service de réparation pour téléphones mobiles."
+      },
+      "whyIncorrect": {
+        "de": "Nur J bietet Handy-Reparaturen an.",
+        "ar": "الإعلان J وحده يقدم إصلاح الهواتف.",
+        "fr": "Seule l'annonce J propose la réparation de mobiles."
+      }
+    },
+    "19": {
+      "quote": "TV neu - jung und preiswert. Jede Woche aktuell! Programmtipps und Infos. Nur 70 Eurocents.",
+      "whyCorrect": {
+        "de": "F ist richtig: Eine wöchentliche Fernsehzeitschrift für Programminformationen.",
+        "ar": "F هو الإعلان الصحيح: مجلة تلفزيون أسبوعية تتضمن دليلاً ومعلومات عن البرامج.",
+        "fr": "F est correct : Un magazine hebdomadaire fournissant le programme TV."
+      },
+      "whyIncorrect": {
+        "de": "Anzeige I verkauft Fernsehgeräte, bietet aber keine Zeitschrift mit dem wöchentlichen TV-Programm.",
+        "ar": "الإعلان I يبيع أجهزة تلفاز ولا يقدم دليلاً للبرامج التلفزيونية.",
+        "fr": "L'annonce I vend des téléviseurs et ne fournit pas de magazine des programmes."
+      }
+    },
+    "20": {
+      "quote": "Ein guter Mitarbeiter muss es mir Wert sein, auf dessen persönliche Zeitanliegen Rücksicht zu nehmen.",
+      "whyCorrect": {
+        "de": "Ja: Pfeifer befürwortet Flexibilität und geht gern auf persönliche Zeitanliegen der Mitarbeiter ein.",
+        "ar": "نعم: فايفر يؤيد المرونة ويراعي رغبات موظفيه الزمنية.",
+        "fr": "Oui : Pfeifer soutient la flexibilité et respecte les besoins d'horaires de ses employés."
+      },
+      "whyIncorrect": {
+        "de": "Nein widerspricht seiner positiven Haltung als moderner Arbeitgeber.",
+        "ar": "لا تناقض موقفه الإيجابي كصاحب عمل حديث.",
+        "fr": "Non contredit son attitude positive."
+      }
+    },
+    "21": {
+      "quote": "Kletterkarrieren sind an die Stelle von Kaminkarrieren getreten... Im Gegensatz zur normalen Leiter „fällt“ man hier aber in der Regel nach oben...",
+      "whyCorrect": {
+        "de": "Ja: Vollmer sieht in flexiblen Wechseln eine Chance, nach oben aufzusteigen.",
+        "ar": "نعم: فولمر يرى في تغيير جهة العمل فرصة للارتقاء في المسار المهني.",
+        "fr": "Oui : Vollmer considère les changements fréquents d'emploi comme une opportunité de progression."
+      },
+      "whyIncorrect": {
+        "de": "Nein widerspricht seiner positiven Einschätzung des beruflichen Aufstiegs.",
+        "ar": "لا تناقض رؤيته الإيجابية للترقي الوظيفي.",
+        "fr": "Non contredit sa vision positive."
+      }
+    },
+    "22": {
+      "quote": "Das so als modern angesehene „Jobhopping“ bringt doch überhaupt nichts... Ich bin für mehr Kontinuität.",
+      "whyCorrect": {
+        "de": "Nein: R. Thiel lehnt Jobhopping ab und fordert mehr Kontinuität.",
+        "ar": "لا: تيل يرفض التنقل المستمر بين الوظائف ويطالب بالمزيد من الاستقرار والاستمرار.",
+        "fr": "Non : R. Thiel s'oppose au papillonnage professionnel et privilégie la continuité."
+      },
+      "whyIncorrect": {
+        "de": "Ja widerspricht seiner klaren Ablehnung von Jobhopping.",
+        "ar": "نعم تناقض رفضه الصريح للتنقل بين الوظائف.",
+        "fr": "Oui contredit son rejet clair du changement fréquent d'emploi."
+      }
+    },
+    "23": {
+      "quote": "Mein Job als Teleberaterin macht es mir dabei leicht, denn mit dem Laptop kann ich überall arbeiten... Für meine Kinder ist das jedenfalls optimal.",
+      "whyCorrect": {
+        "de": "Ja: Roswitha schätzt Telearbeit und flexible Arbeitsorte als optimal für ihre Familie.",
+        "ar": "نعم: روزفيتا تقدر العمل عن بعد والمرونة المكانية كحل مثالي لعائلتها.",
+        "fr": "Oui : Roswitha apprécie le télétravail et la flexibilité pour concilier travail et vie de famille."
+      },
+      "whyIncorrect": {
+        "de": "Nein widerspricht ihrer Begeisterung für das Tele-Modell.",
+        "ar": "لا تناقض رضاها عن العمل المرن من المنزل.",
+        "fr": "Non contredit sa satisfaction concernant le télétravail."
+      }
+    },
+    "24": {
+      "quote": "Im Blickfeld ist nur die Karriere und das Leben bleibt auf der Strecke. Ein geregeltes Arbeitsverhältnis ist da bestimmt gesünder.",
+      "whyCorrect": {
+        "de": "Nein: Menrot kritisiert die ständige Karrierejagd und plädiert für feste, geregelte Arbeitsverhältnisse.",
+        "ar": "لا: مينرو ينتقد الهوس الوظيفي ويفضل علاقة العمل المستقرة والمنظمة.",
+        "fr": "Non : Menrot critique la course effrénée à la carrière et préfère un emploi régulier."
+      },
+      "whyIncorrect": {
+        "de": "Ja widerspricht seiner Kritik an der Flexibilität.",
+        "ar": "نعم تناقض نقده للمرونة الزائدة في العمل.",
+        "fr": "Oui contredit sa critique des conditions de travail flexibles."
+      }
+    },
+    "25": {
+      "quote": "Werte wie Treue, gegenseitiges Engagement oder das Verfolgen langfristiger Ziele gehen dabei verloren.",
+      "whyCorrect": {
+        "de": "Nein: Struck sieht in den flexiblen Arbeitsformen den Verlust wichtiger Werte wie Treue und Engagement.",
+        "ar": "لا: شتروك يرى أن المرونة تتسبب في فقدان قيم هامة كالوفاء والالتزام.",
+        "fr": "Non : Struck estime que la flexibilité détruit des valeurs comme la fidélité et l'engagement."
+      },
+      "whyIncorrect": {
+        "de": "Ja widerspricht seiner skeptischen Sichtweise.",
+        "ar": "نعم تناقض موقفه المعارض للرأسمالية المرنة.",
+        "fr": "Oui contredit sa position très critique."
+      }
+    },
+    "26": {
+      "quote": "Darum bin ich für flexible Arbeitszeitmodelle.",
+      "whyCorrect": {
+        "de": "Ja: Thorsten spricht sich ausdrücklich für flexible Arbeitszeitmodelle aus, um Burnout zu vermeiden.",
+        "ar": "نعم: تورستن يؤيد نماذج أوقات العمل المرنة لحماية الصحة وتجنب الإرهاق.",
+        "fr": "Oui : Thorsten se déclare explicitement en faveur des horaires flexibles pour préserver sa santé."
+      },
+      "whyIncorrect": {
+        "de": "Nein widerspricht seiner direkten Befürwortung.",
+        "ar": "لا تناقض تأييده المباشر لأوقات العمل المرنة.",
+        "fr": "Non contredit son approbation explicite."
+      }
+    },
+    "27": {
+      "quote": "Das berühmte Sachertorte Rezept ist wohl eines der bestgehüteten Geheimnisse der Wiener Mehlspeisküche.",
+      "whyCorrect": {
+        "de": "a ist richtig: Das Originalrezept ist eines der bestgehüteten Geheimnisse.",
+        "ar": "a صحيح: الوصفة الأصلية تعد من أكثر الأسرار حفظاً وكتماناً.",
+        "fr": "a est correct : La recette originale est l'un des secrets les mieux gardés."
+      },
+      "whyIncorrect": {
+        "de": "b und c stimmen nicht mit dem Text überein.",
+        "ar": "الخيارات الأخرى لا تتفق مع ما ورد في النص.",
+        "fr": "b et c ne correspondent pas au texte."
+      }
+    },
+    "28": {
+      "quote": "Zuerst die Eier trennen, Butter auf Zimmertemperatur bringen.",
+      "whyCorrect": {
+        "de": "b ist richtig: Die Eier muss man trennen (nicht die Eier auf Zimmertemperatur bringen, sondern die Butter!).",
+        "ar": "b صحيح: يجب فصل صفار البيض عن بياضه (بينما الزبدة هي التي تُترك في حرارة الغرفة).",
+        "fr": "b est correct : Il faut séparer les blancs des jaunes (c'est le beurre qui doit être à température ambiante)."
+      },
+      "whyIncorrect": {
+        "de": "a bezieht sich auf die Butter, nicht auf die Eier.",
+        "ar": "الخيار a يتعلق بالزبدة وليس بالبيض.",
+        "fr": "a concerne le beurre et non les œufs."
+      }
+    },
+    "29": {
+      "quote": "Eine Tortenspringform gut mit Butter ausstreichen und mit Mehl bestäuben...",
+      "whyCorrect": {
+        "de": "b ist richtig: Die Form mit Butter ausstreichen bedeutet, sie mit Fett einzureiben.",
+        "ar": "b صحيح: دهن القالب بالزبدة يعني دهنه بالمادة الدسمة.",
+        "fr": "b est correct : Beurrer le moule signifie le graisser."
+      },
+      "whyIncorrect": {
+        "de": "a und c sind falsche Schritte für die Form.",
+        "ar": "الخيارات الأخرى غير صحيحة بخصوص قالب الكعكة.",
+        "fr": "a et c ne sont pas appropriés pour le moule."
+      }
+    },
+    "30": {
+      "quote": "bevor man sie mit Schokoladenglasur überzieht.",
+      "whyCorrect": {
+        "de": "c ist richtig: Die Torte wird mit Schokoladenglasur überzogen.",
+        "ar": "c صحيح: يتم تغطية الكعكة بطبقة من صقيل الشوكولاتة.",
+        "fr": "c est correct : Le gâteau est nappé d'un glaçage au chocolat."
+      },
+      "whyIncorrect": {
+        "de": "a und b kommen in den Teig, nicht als Glasur auf die Torte.",
+        "ar": "الخيارات a و b تدخل في مكونات العجينة وليست الغطاء الخارجي.",
+        "fr": "a et b entrent dans la pâte et ne servent pas de glaçage."
+      }
+    },
+    "h1": {
+      "quote": "Telefonische Tischreservierung: Wir möchten gern am Sonntagabend gegen halb acht (19:30 Uhr) mit vier Personen zum Essen kommen...",
+      "whyCorrect": {
+        "de": "Falsch: Die Gäste möchten nicht um 21:30 Uhr kommen, sondern am Sonntagabend früher zu Abend essen.",
+        "ar": "خطأ: الضيوف لا يريدون القدوم في الساعة 21:30، بل يرغبون في الحجز لتناول العشاء يوم الأحد.",
+        "fr": "Faux : Les clients ne veulent pas venir à 21h30, mais réserver une table pour le dimanche soir."
+      },
+      "whyIncorrect": {
+        "de": "Richtig ist unzutreffend, da 21:30 Uhr nicht die gewünschte Ankunftszeit der Gäste ist.",
+        "ar": "الخيار 'صحيح' غير دقيق لأن الساعة 21:30 ليست موعد قدوم الضيوف المطلوب.",
+        "fr": "Vrai est inexact car 21h30 n'est pas l'heure d'arrivée souhaitée par les clients."
+      }
+    },
+    "h2": {
+      "quote": "Am Freitag und Samstag sind wir leider komplett ausgebucht ... Dann kommen wir gern am Sonntag!",
+      "whyCorrect": {
+        "de": "Lösung c ist richtig: Die Gäste entscheiden sich dafür, am Sonntag ins Restaurant zu kommen.",
+        "ar": "الخيار (c) صحيح: يقرر الضيوف القدوم إلى المطعم يوم الأحد.",
+        "fr": "L'option c est correcte : Les clients décident de venir au restaurant le dimanche."
+      },
+      "whyIncorrect": {
+        "de": "a und b sind falsch, da Freitag und Samstag nicht mehr frei bzw. zu spät sind.",
+        "ar": "الخياران (a) و(b) خاطئان لأن الحجز يستقر في النهاية على يوم الأحد.",
+        "fr": "a et b sont faux car la réservation est finalement prise pour le dimanche."
+      }
+    },
+    "h3": {
+      "quote": "Neben dem intensiven Sprachunterricht bieten wir in Spanien auch ein abwechslungsreiches Kultur- und Freizeitprogramm mit Ausflügen an...",
+      "whyCorrect": {
+        "de": "Falsch: Das Spanienprogramm umfasst nicht nur Sprachunterricht, sondern auch ein Freizeit- und Kulturprogramm.",
+        "ar": "خطأ: لا يقتصر برنامج إسبانيا على دروس اللغة فحسب، بل يشمل أيضاً أنشطة ثقافية وترفيهية.",
+        "fr": "Faux : Le programme en Espagne ne comprend pas uniquement des cours de langue, mais aussi des activités culturelles et de loisirs."
+      },
+      "whyIncorrect": {
+        "de": "Richtig widerspricht dem Hörtext, der ausdrücklich weitere Programmangebote nennt.",
+        "ar": "الخيار 'صحيح' يتعارض مع النص المسموع الذي يذكر أنشطة إضافية إلى جانب دروس اللغة.",
+        "fr": "Vrai contredit l'enregistrement qui mentionne explicitement d'autres activités."
+      }
+    },
+    "h4": {
+      "quote": "Unsere Spezialkurse für Fachsprachen führen wir direkt bei Ihnen in den Firmen vor Ort durch.",
+      "whyCorrect": {
+        "de": "Lösung c ist richtig: Die Spezialkurse für Fachsprachen werden direkt in den Firmen vor Ort angeboten.",
+        "ar": "الخيار (c) صحيح: تُقام الدورات الخاصة للغات التخصصية مباشرة داخل الشركات في عين المكان.",
+        "fr": "L'option c est correcte : Les cours spéciaux de langues de spécialité sont organisés directement sur place dans les entreprises."
+      },
+      "whyIncorrect": {
+        "de": "a und b beziehen sich auf die allgemeinen Sprachreisen nach Schottland und Spanien, nicht auf die Firmen-Fachsprachkurse.",
+        "ar": "الخياران (a) و(b) يتعلقان بالرحلات اللغوية العامة إلى اسكتلندا وإسبانيا وليس بدورات اللغات التخصصية للشركات.",
+        "fr": "a et b concernent les séjours linguistiques généraux en Écosse et en Espagne, pas les cours spécialisés en entreprise."
+      }
+    },
+    "h5": {
+      "quote": "Wetterbericht: Morgen ziehen bereits am Vormittag dichte Wolken auf und am Nachmittag muss verbreitet mit Regenschauern gerechnet werden...",
+      "whyCorrect": {
+        "de": "Falsch: Morgen bleibt es nicht den ganzen Tag sonnig und warm, sondern das Wetter schlägt um.",
+        "ar": "خطأ: لن يكون الطقس غداً مشمساً ودافئاً طوال اليوم، بل ستتلبد الغيوم وتهطل أمطار.",
+        "fr": "Faux : Demain, le temps ne restera pas ensoleillé et chaud toute la journée."
+      },
+      "whyIncorrect": {
+        "de": "Richtig trifft nur auf das heutige Wetter zu, nicht auf den morgigen Tag.",
+        "ar": "الخيار 'صحيح' ينطبق على طقس اليوم وليس على طقس الغد.",
+        "fr": "Vrai s'applique uniquement à la météo d'aujourd'hui, pas à celle de demain."
+      }
+    },
+    "h6": {
+      "quote": "Heute dürfen wir uns noch einmal über strahlenden Sonnenschein und sommerliche Temperaturen freuen...",
+      "whyCorrect": {
+        "de": "Lösung a ist richtig: Heute ist das Wetter noch sonnig.",
+        "ar": "الخيار (a) صحيح: الطقس اليوم مشمس.",
+        "fr": "L'option a est correcte : Aujourd'hui, le temps est ensoleillé."
+      },
+      "whyIncorrect": {
+        "de": "b und c beschreiben die Wetterverschlechterung der kommenden Tage, nicht das heutige Wetter.",
+        "ar": "الخياران (b) و(c) يصفان تقلبات الطقس القادمة وليس طقس اليوم المشمس.",
+        "fr": "b et c décrivent la dégradation météo à venir, pas le temps d'aujourd'hui."
+      }
+    },
+    "h7": {
+      "quote": "Ich habe mich informiert: Wir haben insgesamt drei verschiedene Tanzkurse zur Auswahl...",
+      "whyCorrect": {
+        "de": "Richtig: Es werden genau drei Tanzkurse zur Auswahl genannt.",
+        "ar": "صحيح: توجد ثلاث دورات رقص مختلفة للاختيار من بينها.",
+        "fr": "Vrai : Trois cours de danse différents sont proposés au choix."
+      },
+      "whyIncorrect": {
+        "de": "Falsch widerspricht der Nennung der drei Tanzkurs-Angebote.",
+        "ar": "الخيار 'خطأ' يتعارض مع ما ورد في التسجيل حول وجود ثلاثة عروض لدورات الرقص.",
+        "fr": "Faux contredit la mention explicite des trois cours de danse."
+      }
+    },
+    "h8": {
+      "quote": "An der Volkshochschule ist der Tanzkurs am günstigsten, dort kostet er nur 90 Euro.",
+      "whyCorrect": {
+        "de": "Lösung c ist richtig: Der Kurs in der Volkshochschule kostet 90 Euro.",
+        "ar": "الخيار (c) صحيح: تبلغ تكلفة الدورة في جامعة الشعب (Volkshochschule) 90 يورو.",
+        "fr": "L'option c est correcte : Le cours à l'université populaire coûte 90 euros."
+      },
+      "whyIncorrect": {
+        "de": "a (144 Euro) und b (150 Euro) sind die Preise der privaten Tanzschulen.",
+        "ar": "الخياران (a) و(b) يمثلان أسعار مدارس الرقص الخاصة الأخرى.",
+        "fr": "a (144 €) et b (150 €) correspondent aux tarifs des écoles de danse privées."
+      }
+    },
+    "h9": {
+      "quote": "Automatische Ansage: Ihr aktuelles Gesprächsguthaben beträgt 0 Euro und 9 Cent...",
+      "whyCorrect": {
+        "de": "Falsch: Auf dem Handy sind nicht 9 Euro, sondern nur noch wenige Cent Guthaben.",
+        "ar": "خطأ: الرصيد المتبقي في الهاتف ليس 9 يورو.",
+        "fr": "Faux : Il ne reste pas 9 euros de crédit sur le téléphone portable."
+      },
+      "whyIncorrect": {
+        "de": "Richtig verwechselt den genannten Betrag bzw. die Tastennummer 9 mit 9 Euro Guthaben.",
+        "ar": "الخيار 'صحيح' يخلط بين الرقم المذكور وبين وجود رصيد قدره 9 يورو.",
+        "fr": "Vrai confond le chiffre mentionné avec un crédit de 9 euros."
+      }
+    },
+    "h10": {
+      "quote": "Um abzufragen, wie viele Einheiten Sie noch haben, drücken Sie bitte die 1.",
+      "whyCorrect": {
+        "de": "Lösung a ist richtig: Für die Abfrage der verbleibenden Einheiten drückt man die Taste 1.",
+        "ar": "الخيار (a) صحيح: للاستعلام عن عدد الوحدات المتبقية يجب الضغط على الرقم 1.",
+        "fr": "L'option a est correcte : Pour consulter le nombre d'unités restantes, il faut appuyer sur la touche 1."
+      },
+      "whyIncorrect": {
+        "de": "Die Tasten 2 und 9 dienen im Sprachmenü anderen Funktionen.",
+        "ar": "الرقمان 2 و9 مخصصان لوظائف أخرى في القائمة الصوتية.",
+        "fr": "Les touches 2 et 9 servent à d'autres fonctions dans le menu vocal."
+      }
+    },
+    "h11": {
+      "quote": "Stadiondurchsage: Eigentlich wollte ich mir an jenem Abend nur gemütlich im Fernsehen eine Fußballübertragung ansehen...",
+      "whyCorrect": {
+        "de": "Lösung c ist richtig: Der Mann wollte ursprünglich das Fußballspiel im Fernsehen anschauen.",
+        "ar": "الخيار (c) صحيح: كان الرجل يريد في الأصل مشاهدة مباراة كرة القدم في التلفزيون.",
+        "fr": "L'option c est correcte : L'homme voulait à l'origine regarder une retransmission de football à la télévision."
+      },
+      "whyIncorrect": {
+        "de": "a und b stimmen nicht mit seiner Schilderung überein.",
+        "ar": "الخياران (a) و(b) لا يتفقان مع ما رواه الرجل في التسجيل.",
+        "fr": "a et b ne correspondent pas à son récit."
+      }
+    },
+    "h12": {
+      "quote": "Als ich dich dann dort sah, war es um mich geschehen – ich habe mich auf den ersten Blick sofort in dich verliebt!",
+      "whyCorrect": {
+        "de": "Lösung a ist richtig: Er hat sich sofort auf den ersten Blick in Susi verliebt.",
+        "ar": "الخيار (a) صحيح: وقع الرجل في حب سوزي على الفور من النظرة الأولى.",
+        "fr": "L'option a est correcte : Il est tombé immédiatement amoureux de Susi au premier regard."
+      },
+      "whyIncorrect": {
+        "de": "b und c widersprechen seiner begeisterten Liebeserklärung.",
+        "ar": "الخياران (b) و(c) يتناقضان مع اعترافه الصريح بحبه لها من اللحظة الأولى.",
+        "fr": "b et c contredisent sa déclaration d'amour passionnée."
+      }
+    },
+    "h13": {
+      "quote": "Du trugst damals dieses Trikot mit der Nummer 8 auf dem Rücken...",
+      "whyCorrect": {
+        "de": "Lösung c ist richtig: Susi trug ein Trikot mit der Rückennummer 8.",
+        "ar": "الخيار (c) صحيح: كانت سوزي ترتدي قميصاً رياضياً يحمل الرقم 8.",
+        "fr": "L'option c est correcte : Susi portait un maillot avec le numéro 8."
+      },
+      "whyIncorrect": {
+        "de": "Die Nummern 4 (a) und 5 (b) sind falsch.",
+        "ar": "الرقمان 4 و5 غير صحيحين.",
+        "fr": "Les numéros 4 (a) et 5 (b) sont inexacts."
+      }
+    },
+    "h14": {
+      "quote": "Ich saß im Stadion und habe dich zum allerersten Mal drüben auf der Tribüne gesehen...",
+      "whyCorrect": {
+        "de": "Lösung b ist richtig: Er hat Susi zum ersten Mal auf der Tribüne gesehen.",
+        "ar": "الخيار (b) صحيح: رأى الرجلُ سوزي لأول مرة في المدرجات (على المنصة).",
+        "fr": "L'option b est correcte : Il a vu Susi pour la première fois dans les tribunes."
+      },
+      "whyIncorrect": {
+        "de": "Weder auf dem Spielfeld (a) noch am Kiosk (c) hat er sie zuerst gesehen.",
+        "ar": "لم يرها لأول مرة على أرض الملعب (a) ولا عند الكشك (c).",
+        "fr": "Il ne l'a vue pour la première fois ni sur le terrain (a) ni au kiosque (c)."
+      }
+    },
+    "h15": {
+      "quote": "Wenn du Ja sagst und mich heiraten willst, dann komm jetzt bitte hierher zur Tribüne!",
+      "whyCorrect": {
+        "de": "Lösung b ist richtig: Susi soll zur Tribüne gehen, um ihm ihre Zustimmung zu zeigen.",
+        "ar": "الخيار (b) صحيح: يطلب من سوزي أن تتوجه إلى المدرجات إذا كانت موافقة على الزواج منه.",
+        "fr": "L'option b est correcte : Susi doit se rendre vers la tribune pour lui donner sa réponse."
+      },
+      "whyIncorrect": {
+        "de": "Sie soll weder aufs Spielfeld (a) noch zum Ausgang (c) laufen.",
+        "ar": "الخياران (a) و(c) خاطئان لأنه طلب منها المجيء إلى المدرجات.",
+        "fr": "Elle ne doit aller ni sur le terrain (a) ni vers la sortie (c)."
+      }
+    },
+    "h16": {
+      "quote": "Egon im Supermarkt: Ich kaufe heute etwas mehr ein, denn mein Enkel kommt mich übers Wochenende auf der Insel besuchen.",
+      "whyCorrect": {
+        "de": "Richtig: Egon erzählt der Händlerin, dass er Besuch von seinem Enkel bekommt.",
+        "ar": "صحيح: يخبر إيغون البائعة بأنه سيتلقى زيارة من حفيده.",
+        "fr": "Vrai : Egon raconte à la commerçante qu'il reçoit la visite de son petit-fils."
+      },
+      "whyIncorrect": {
+        "de": "Falsch widerspricht Egons Aussage über den bevorstehenden Besuch seines Enkels.",
+        "ar": "الخيار 'خطأ' يتعارض مع ما ذكره إيغون حول زيارة حفيده.",
+        "fr": "Faux contredit les propos d'Egon concernant la visite de son petit-fils."
+      }
+    },
+    "h17": {
+      "quote": "Seit meine liebe Frau vor einigen Jahren gestorben ist, lebe ich allein draußen im Leuchtturm...",
+      "whyCorrect": {
+        "de": "Richtig: Egons Ehefrau ist bereits verstorben.",
+        "ar": "صحيح: زوجة إيغون متوفاة بالفعل.",
+        "fr": "Vrai : L'épouse d'Egon est déjà décédée."
+      },
+      "whyIncorrect": {
+        "de": "Falsch ist unzutreffend, da Egon erwähnt, dass er verwitwet ist.",
+        "ar": "الخيار 'خطأ' غير صحيح لأن إيغون يذكر أن زوجته توفيت.",
+        "fr": "Faux est inexact car Egon mentionne qu'il est veuf."
+      }
+    },
+    "h18": {
+      "quote": "Gerade nachts und bei Sturm ist die Küste hier voller Untiefen und das Meer für die Schiffe sehr gefährlich.",
+      "whyCorrect": {
+        "de": "Richtig: Nachts ist das Meer in dieser Gegend für die Schiffe gefährlich, weshalb der Leuchtturm so wichtig ist.",
+        "ar": "صحيح: في الليل يكون البحر خطيراً على السفن، ولهذا السبب تبرز أهمية المنارة.",
+        "fr": "Vrai : La nuit, la mer est dangereuse pour les navires, d'où l'importance du phare."
+      },
+      "whyIncorrect": {
+        "de": "Falsch widerspricht seiner Beschreibung der Gefahren für die Schifffahrt bei Nacht.",
+        "ar": "الخيار 'خطأ' يناقض وصف إيغون لمخاطر البحر ليلاً على السفن.",
+        "fr": "Faux contredit sa description des dangers maritimes nocturnes."
+      }
+    },
+    "h19": {
+      "quote": "Bevor ich Leuchtturmwärter wurde, bin ich selbst Jahrzehnte als Seemann zur See gefahren.",
+      "whyCorrect": {
+        "de": "Richtig: Egon war früher Seemann von Beruf.",
+        "ar": "صحيح: كان إيغون يعمل بحاراً في السابق.",
+        "fr": "Vrai : Egon était marin de profession auparavant."
+      },
+      "whyIncorrect": {
+        "de": "Falsch trifft nicht zu, da er seine Vergangenheit als Seemann ausdrücklich erwähnt.",
+        "ar": "الخيار 'خطأ' غير صحيح لأنه ذكر صراحة عمله السابق كبحار.",
+        "fr": "Faux est inexact car il mentionne explicitement son passé de marin."
+      }
+    },
+    "h20": {
+      "quote": "Langweilig wird es mir auf der Insel nie – es gibt am Turm immer etwas zu tun und ich lese sehr viel.",
+      "whyCorrect": {
+        "de": "Richtig: Egon betont, dass ihm auf der Insel niemals langweilig wird.",
+        "ar": "صحيح: يؤكد إيغون أن حياته على الجزيرة لا تعرف الملل أبداً.",
+        "fr": "Vrai : Egon souligne qu'il ne s'ennuie jamais sur l'île."
+      },
+      "whyIncorrect": {
+        "de": "Falsch widerspricht seiner Aussage über sein abwechslungsreiches Inselleben.",
+        "ar": "الخيار 'خطأ' يتعارض مع تأكيده بأنه لا يشعر بالملل أبداً.",
+        "fr": "Faux contredit son affirmation selon laquelle il ne s'ennuie jamais."
+      }
+    },
+    "h21": {
+      "quote": "Händlerin: Von diesem Buch und dem Schriftsteller habe ich ehrlich gesagt noch nie gehört!",
+      "whyCorrect": {
+        "de": "Falsch: Die Händlerin kennt weder das Buch noch dessen Autor.",
+        "ar": "خطأ: البائعة لا تعرف ذلك الكتاب ولا مؤلفه.",
+        "fr": "Faux : La commerçante ne connaît ni le livre ni son auteur."
+      },
+      "whyIncorrect": {
+        "de": "Richtig ist falsch, da die Händlerin zugibt, den Titel und Autor nicht zu kennen.",
+        "ar": "الخيار 'صحيح' غير دقيق لأن البائعة تعترف بأنها لم تسمع بالكتاب أو المؤلف من قبل.",
+        "fr": "Vrai est inexact car la commerçante avoue ne pas connaître l'ouvrage ni l'auteur."
+      }
+    },
+    "h22": {
+      "quote": "Das Buch von Kempen habe ich schon letzte Woche ausgelesen, zurzeit lese ich einen historischen Roman über...",
+      "whyCorrect": {
+        "de": "Falsch: Egon hat das Buch von Kempen bereits beendet und liest zurzeit ein anderes Buch.",
+        "ar": "خطأ: لقد أنهى إيغون قراءة كتاب كيمبن بالفعل، وهو يقرأ حالياً كتاباً آخر.",
+        "fr": "Faux : Egon a déjà terminé le livre de Kempen et lit actuellement un autre ouvrage."
+      },
+      "whyIncorrect": {
+        "de": "Richtig übersieht, dass er das Buch von Kempen nicht mehr aktuell liest.",
+        "ar": "الخيار 'صحيح' يغفل أنه انتهى من كتاب كيمبن سابقاً ولا يقرأه في الوقت الحالي.",
+        "fr": "Vrai ignore qu'il ne lit plus le livre de Kempen actuellement."
+      }
+    },
+    "h23": {
+      "quote": "Elisabeth Danzinger: In der ersten Klasse lernen die Kinder im Englischunterricht zunächst spielerisch nur die Laute, also Vokale und Konsonanten...",
+      "whyCorrect": {
+        "de": "Lösung b (Elisabeth Danzinger) ist richtig: Sie erklärt, dass Erstklässler zunächst nur Vokale und Konsonanten kennenlernen.",
+        "ar": "الخيار (b - إليزابيث دانتسينغر) صحيح: هي التي توضح أن تلاميذ الصف الأول يتعلمون في البداية حروف العلة والحروف الساكنة فقط.",
+        "fr": "L'option b (Elisabeth Danzinger) est correcte : Elle explique que les élèves de première année apprennent d'abord uniquement les voyelles et les consonnes."
+      },
+      "whyIncorrect": {
+        "de": "Weder die Moderatorin (a) noch Kurt Wausch (c) machen diese Aussage.",
+        "ar": "لم تصدر هذه العبارة عن المذيعة (a) ولا عن كورت فاوش (c).",
+        "fr": "Ni la présentatrice (a) ni Kurt Wausch (c) ne font cette déclaration."
+      }
+    },
+    "h24": {
+      "quote": "Kurt Wausch: Bedenken Sie doch, dass die Kinder in der Grundschule im Englischen noch weitere 13 Vokallaute lernen müssen, was sie völlig überfordert!",
+      "whyCorrect": {
+        "de": "Lösung c (Kurt Wausch) ist richtig: Er führt als Gegenargument an, dass man 13 weitere Vokale lernen muss.",
+        "ar": "الخيار (c - كورت فاوش) صحيح: هو الذي يشير إلى أنه يجب تعلم 13 صوت علة إضافياً في المدرسة الابتدائية.",
+        "fr": "L'option c (Kurt Wausch) est correcte : Il avance l'argument selon lequel il faut apprendre 13 voyelles supplémentaires."
+      },
+      "whyIncorrect": {
+        "de": "a und b haben dieses Argument nicht vorgebracht.",
+        "ar": "الخياران (a) و(b) لم يذكرا هذه الحجة.",
+        "fr": "a et b n'ont pas avancé cet argument."
+      }
+    },
+    "h25": {
+      "quote": "Moderatorin: Ja, im Englischen spricht man bestimmte Vokale natürlich ganz anders aus als im Deutschen...",
+      "whyCorrect": {
+        "de": "Lösung a (Moderatorin) ist richtig: Die Moderatorin weist darauf hin, dass bestimmte Vokale im Englischen anders ausgesprochen werden.",
+        "ar": "الخيار (a - المذيعة) صحيح: تشير المذيعة إلى أن بعض حروف العلة تُنطق في الإنجليزية بطريقة مختلفة.",
+        "fr": "L'option a (La présentatrice) est correcte : Elle souligne que certaines voyelles se prononcent différemment en anglais."
+      },
+      "whyIncorrect": {
+        "de": "Diese Bemerkung stammt von der Moderatorin (a), nicht von den Gästen (b/c).",
+        "ar": "صدرت هذه الملاحظة عن المذيعة (a) وليس عن الضيفين (b أو c).",
+        "fr": "Cette remarque provient de la présentatrice (a) et non des invités (b/c)."
+      }
+    },
+    "h26": {
+      "quote": "Elisabeth Danzinger: Unsere Kinder wachsen heute ganz selbstverständlich in einem multikulturellen Umfeld auf...",
+      "whyCorrect": {
+        "de": "Lösung b (Elisabeth Danzinger) ist richtig: Sie betont, dass Kinder heute in einem multikulturellen Umfeld aufwachsen.",
+        "ar": "الخيار (b - إليزابيث دانتسينغر) صحيح: تؤكد أن الأطفال ينشؤون اليوم في بيئة متعددة الثقافات.",
+        "fr": "L'option b (Elisabeth Danzinger) est correcte : Elle souligne que les enfants grandissent dans un environnement multiculturel."
+      },
+      "whyIncorrect": {
+        "de": "Weder die Moderatorin (a) noch Kurt Wausch (c) äußern diesen Punkt.",
+        "ar": "لم يذكر هذه النقطة كل من المذيعة (a) وكورت فاوش (c).",
+        "fr": "Ni la présentatrice (a) ni Kurt Wausch (c) n'expriment ce point."
+      }
+    },
+    "h27": {
+      "quote": "Elisabeth Danzinger: Bisher bieten leider nur einige Grundschulen Englisch ab der ersten Klasse an.",
+      "whyCorrect": {
+        "de": "Lösung b (Elisabeth Danzinger) ist richtig: Sie erwähnt, dass derzeit nur einige Schulen Englisch anbieten.",
+        "ar": "الخيار (b - إليزابيث دانتسينغر) صحيح: تذكر أن بعض المدارس فقط تقدم حالياً دروس اللغة الإنجليزية.",
+        "fr": "L'option b (Elisabeth Danzinger) est correcte : Elle mentionne que seules quelques écoles proposent actuellement l'anglais."
+      },
+      "whyIncorrect": {
+        "de": "a und c treffen diese Aussage nicht.",
+        "ar": "الخياران (a) و(c) لم يدليا بهذه العبارة.",
+        "fr": "a et c ne font pas cette affirmation."
+      }
+    },
+    "h28": {
+      "quote": "Elisabeth Danzinger: Alle genauen Informationen über das Schulprogramm bekommen die Eltern direkt bei der Einschreibung.",
+      "whyCorrect": {
+        "de": "Lösung b (Elisabeth Danzinger) ist richtig: Sie erklärt, dass Eltern die Informationen zum Schulprogramm bei der Einschreibung erhalten.",
+        "ar": "الخيار (b - إليزابيث دانتسينغر) صحيح: توضح أن أولياء الأمور يحصلون على المعلومات حول البرنامج المدرسي عند التسجيل.",
+        "fr": "L'option b (Elisabeth Danzinger) est correcte : Elle précise que l'on obtient les informations sur le programme scolaire lors de l'inscription."
+      },
+      "whyIncorrect": {
+        "de": "Dieser Hinweis kommt von Elisabeth Danzinger (b), nicht von a oder c.",
+        "ar": "جاءت هذه المعلومة على لسان إليزابيث دانتسينغر (b) وليس (a) أو (c).",
+        "fr": "Cette information vient d'Elisabeth Danzinger (b), pas de a ou c."
+      }
+    },
+    "h29": {
+      "quote": "Elisabeth Danzinger: Es gab doch im Erziehungsbereich schon immer Pilotschulen, die neue Wege erfolgreich erprobt haben.",
+      "whyCorrect": {
+        "de": "Lösung b (Elisabeth Danzinger) ist richtig: Sie verweist darauf, dass es im Bildungsbereich schon immer Pilotschulen gab.",
+        "ar": "الخيار (b - إليزابيث دانتسينغر) صحيح: تشير إلى أنه كانت هناك دائماً مدارس نموذجية رائدة في مجال التربية والتعليم.",
+        "fr": "L'option b (Elisabeth Danzinger) est correcte : Elle rappelle qu'il y a toujours eu des écoles pilotes dans le domaine de l'éducation."
+      },
+      "whyIncorrect": {
+        "de": "Weder die Moderatorin (a) noch Kurt Wausch (c) sagen dies.",
+        "ar": "لم تصدر هذه العبارة عن المذيعة (a) ولا عن كورت فاوش (c).",
+        "fr": "Ni la présentatrice (a) ni Kurt Wausch (c) ne disent cela."
+      }
+    },
+    "h30": {
+      "quote": "Moderatorin: Wie wir sehen, hat diese Diskussion sowohl leidenschaftliche Befürworter als auch entschiedene Gegner...",
+      "whyCorrect": {
+        "de": "Lösung a (Moderatorin) ist richtig: Zum Abschluss fasst die Moderatorin zusammen, dass die Diskussion Befürworter und Gegner hat.",
+        "ar": "الخيار (a - المذيعة) صحيح: تختتم المذيعة النقاش بالإشارة إلى أن للموضوع مؤيدين ومعارضين.",
+        "fr": "L'option a (La présentatrice) est correcte : En conclusion, la présentatrice résume que le débat a des partisans et des opposants."
+      },
+      "whyIncorrect": {
+        "de": "Dieses zusammenfassende Fazit spricht die Moderatorin (a), nicht b oder c.",
+        "ar": "هذه الخلاصة الختامية قالتها المذيعة (a) وليس (b) أو (c).",
+        "fr": "Cette conclusion finale est prononcée par la présentatrice (a), pas par b ou c."
+      }
+    }
+  },
+  "translations": {
+    "parts": {
+      "1": {
+        "instructions": {
+          "ar": "اقرأ النص والمهام من 1 إلى 6 المتعلقة به. اختر: هل العبارات صحيحة أم خاطئة؟",
+          "fr": "Lisez le texte et les tâches 1 à 6 correspondantes. Choisissez : les affirmations sont-elles Vraies ou Fausses ?"
+        },
+        "articles": [
+          {
+            "heading": {
+              "ar": "وجهاً لوجه – جسدي ملكٌ لي!",
+              "fr": "Face à face – mon corps m'appartient !"
+            },
+            "sub": {
+              "ar": "إذا لم أكن راضية عن هبات الطبيعة، أقول ببساطة مثل ملكة القلوب في «أليس في بلاد العجائب» وأشكّل هويتي بمساعدة الجراحة التجميلية وفقاً لتصوراتي.",
+              "fr": "Si je ne suis pas satisfaite des dons de la nature, je façonne tout simplement mon identité selon mes propres idées à l'aide de la chirurgie esthétique."
+            },
+            "body": {
+              "ar": [
+                "منذ القدم كان الناس ينظرون إلى أنفسهم بعين ناقدة في المرآة، لكن لم يكن من السهل أبداً التلاعب بالمظهر كما هو الحال اليوم. وأتساءل: أين يبدأ ذلك وأين ينتهي؟ يتم التمييز بين التدخلات الطبية والجمالية، لكن رسم الحدود ليس بهذه البساطة. ماذا لو كان عيبٌ جمالي يزعجني بشدة إلى درجة أنني أعاني نفسياً بسببه؟ الجمال هو قبل كل شيء مسألة موضة، لكنه أيضاً نسبي وشخصي للغاية.",
+                "بفضل المظهر الجذاب يمكن للمرء أن يكسب نقاطاً إيجابية. سواء في الحياة الخاصة أو في العمل، هناك دائماً شيء واحد في المركز: الرغبة في نيل الإعجاب. يُنفق الكثير من المال من أجل الجمال، وتعيش على ذلك صناعة مستحضرات التجميل والجراحة التجميلية. هل اقتربنا خطوة من حلم الشباب الدائم؟ فاوست باع روحه من أجله، فكم يساوي بالنسبة لنا، وما المخاطر التي نخوضها في سبيله؟",
+                "حتى وقت قريب كانت العناية بالجمال تُعدّ مجالاً خاصاً بالنساء. لكن لوحظ مؤخراً وجود المزيد والمزيد من المنتجات المخصصة للرجال أيضاً. وقبل أن يخضع الرجل لمبضع الجراح يفضل الذهاب إلى كمال الأجسام، إلا أن الأرقام ترتفع هنا أيضاً. لم تعد عمليات التجميل أمراً نادراً، غير أن هناك اختلافات فيما يرغب الرجال والنساء في تصحيحه: فالنساء تزعجهن التجاعيد بالدرجة الأولى ويرغبن في تكبير الصدر، بينما يتمنى الرجال أنفاً مختلفاً أو شعرًا مستعارًا لتعويض الشعر المفقود.",
+                "يبدو أن الجراحة التجميلية أصبحت حلاً للمزيد من الناس. وتوحي الأرقام وكأنها تدخلات روتينية، لكن يجب أن نعلم أن كل عملية مهما كانت صغيرة تنطوي على مخاطر. من يتحمل المسؤولية إذا ساءت الأمور؟ ومع ذلك يزدهر هذا القطاع، وحتى المراهقون لا يترددون في الإقدام عليه أو ربما آباؤهم؟ وهنا يُطرح السؤال: من يحق له أن يقرر بشأن جسدي؟",
+                "غالباً ما تتشكل معايير الجمال لدينا من خلال النجوم والمشاهير، وفي كثير من الأحيان لا نعرف ما هو حقيقي فيهم وما هو من إبداع البوتوكس. ومن خلال هوس الجسد الحديث يختزل الإنسان نفسه في صورة مقلدة بدلاً من الاستمتاع بفرديته وتعزيزها."
+              ],
+              "fr": [
+                "De tout temps, les êtres humains se sont regardés d'un œil critique dans le miroir, mais il n'a jamais été aussi facile de manipuler son apparence. Et je me demande : où cela commence-t-il, où cela s'arrête-t-il ? On distingue les interventions médicales des interventions esthétiques, mais la frontière n'est pas si simple à tracer. Que faire si un défaut physique me gêne au point d'en souffrir psychologiquement ? La beauté est avant tout une question de mode, mais elle est aussi très subjective.",
+                "Avec une apparence attrayante, on peut marquer des points. Que ce soit dans la vie privée ou au travail, une chose est toujours au centre : on veut plaire. On dépense énormément d'argent pour la beauté. L'industrie cosmétique et la chirurgie plastique en vivent. Sommes-nous un peu plus proches du rêve de la jeunesse éternelle ? Quels risques sommes-nous prêts à prendre pour elle ?",
+                "Jusqu'à présent, les soins de beauté étaient considérés comme le domaine des femmes. Récemment, on constate qu'il existe de plus en plus de produits pour les hommes. Avant de passer sous le bistouri, l'homme préfère certes faire de la musculation, mais les chiffres augmentent là aussi. Les opérations esthétiques ne sont plus rares. Il existe toutefois des différences dans ce que les hommes et les femmes souhaitent corriger : les femmes sont surtout gênées par les rides et veulent plus de poitrine, tandis que les hommes souhaitent un autre nez ou un toupet pour remplacer les cheveux manquants.",
+                "La chirurgie plastique semble être une solution pour de plus en plus de personnes. Les chiffres laissent croire qu'il s'agit d'interventions de routine. Mais il faut savoir que chaque opération, aussi petite soit-elle, comporte un risque. Qui porte la responsabilité si quelque chose tourne mal ? Et pourtant le secteur est en plein essor. Même les adolescents n'hésitent pas, ou est-ce leurs parents ? La question se pose alors : qui a le droit de décider de mon corps ?",
+                "Nos idéaux de beauté sont souvent façonnés par les stars et les célébrités. Souvent, nous ne savons même pas ce qui est vrai chez eux et ce qui est une création artificielle au Botox. À travers le culte moderne du corps, l'être humain se réduit à une copie superficielle au lieu de se réjouir de son individualité et de la renforcer."
+              ]
+            }
+          }
+        ],
+        "example": {
+          "text": {
+            "ar": "تكتب المدونة عن عملية تجميل أجرتها بنفسها.",
+            "fr": "La blogueuse écrit à propos d'une opération esthétique qu'elle a subie."
+          },
+          "ar": {
+            "text": "تكتب المدونة عن عملية تجميل أجرتها بنفسها."
+          },
+          "fr": {
+            "text": "La blogueuse écrit à propos d'une opération esthétique qu'elle a subie."
+          }
+        },
+        "questions": {
+          "1": {
+            "ar": "يمكن لعيب جمالي أن يسبب معاناة أو مرضاً نفسياً.",
+            "fr": "Un défaut esthétique peut rendre psychologiquement malade.",
+            "text": {
+              "ar": "يمكن لعيب جمالي أن يسبب معاناة أو مرضاً نفسياً.",
+              "fr": "Un défaut esthétique peut rendre psychologiquement malade."
+            }
+          },
+          "2": {
+            "ar": "يتم الاهتمام بالمظهر الجيد في العمل أيضاً.",
+            "fr": "Au travail aussi, on prête attention à une bonne apparence.",
+            "text": {
+              "ar": "يتم الاهتمام بالمظهر الجيد في العمل أيضاً.",
+              "fr": "Au travail aussi, on prête attention à une bonne apparence."
+            }
+          },
+          "3": {
+            "ar": "الرجال غالباً لا يعتنون بمظهرهم.",
+            "fr": "Les hommes sont souvent négligés.",
+            "text": {
+              "ar": "الرجال غالباً لا يعتنون بمظهرهم.",
+              "fr": "Les hommes sont souvent négligés."
+            }
+          },
+          "4": {
+            "ar": "لا يعجب الرجالَ شكلُ أنفهم.",
+            "fr": "Les hommes n'aiment pas leur propre nez.",
+            "text": {
+              "ar": "لا يعجب الرجالَ شكلُ أنفهم.",
+              "fr": "Les hommes n'aiment pas leur propre nez."
+            }
+          },
+          "5": {
+            "ar": "لم تعد عمليات التجميل تنطوي على مخاطر اليوم.",
+            "fr": "Les opérations de chirurgie esthétique ne sont plus risquées aujourd'hui.",
+            "text": {
+              "ar": "لم تعد عمليات التجميل تنطوي على مخاطر اليوم.",
+              "fr": "Les opérations de chirurgie esthétique ne sont plus risquées aujourd'hui."
+            }
+          },
+          "6": {
+            "ar": "يوجد في هوليوود هوس جديد بالجسد.",
+            "fr": "À Hollywood, il y a un nouveau culte du corps.",
+            "text": {
+              "ar": "يوجد في هوليوود هوس جديد بالجسد.",
+              "fr": "À Hollywood, il y a un nouveau culte du corps."
+            }
+          }
+        }
+      },
+      "2": {
+        "instructions": {
+          "ar": "اقرأ النص الصحفي والمهام من 7 إلى 9 المتعلقة به. اختر عند كل مهمة الإجابة الصحيحة a أو b أو c.",
+          "fr": "Lisez l'article de presse et les tâches 7 à 9 correspondantes. Choisissez pour chaque tâche la bonne réponse a, b ou c."
+        },
+        "articles": [
+          {
+            "heading": {
+              "ar": "رعاية المواهب – في الملعب الرياضي وفي المدرسة!",
+              "fr": "Encourager les talents – sur le terrain de sport et à l'école !"
+            },
+            "sub": {
+              "ar": "يكمن النهج الناجح لمفهوم أكاديمية كرة القدم للشباب في الربط بين دعم كرة القدم ومهارات التعلم.",
+              "fr": "L'approche réussie du concept de l'Académie de football pour jeunes réside dans l'association de la promotion du football et des compétences d'apprentissage."
+            },
+            "body": {
+              "ar": [
+                "يمر الأطفال والشباب بتطورات هائلة في وقت قصير. وفي هذه المرحلة تكون الحاجة إلى الحركة كبيرة بشكل خاص. تدعم وزارة الرياضة من خلال عروض متنوعة الرياضة للجميع ورياضة أوقات الفراغ خاصةً للشباب، بحيث يجد كل شخص ما يعجبه ويمتعه.",
+                "الرياضة تدرب المرونة وقوة التحمل وتعزز صحة العقل والنفس. وعلاوة على ذلك يتعلم الشباب السلوك الاجتماعي واحترام الإنجاز ودمج الأضعف، من خلال التركيز على اللعب النظيف مثلاً.",
+                "تؤمن أكاديمية كرة القدم للشباب بأن الرياضة تطور قيماً حيوية مثل الاحترام وروح الفريق والقدرة على حل النزاعات والإبداع. فحب المساعدة والانضباط والإنصاف والمثابرة والحماس هي قدرات ذات أهمية كبرى في المسيرة الخاصة والمدرسية والمهنية.",
+                "للرياضة إلى جانب تأثيرها الإيجابي على الصحة الجسدية والنفسية أهمية كبيرة أيضاً في سلوك التعلم لدى الأطفال. فقد أثبت العلماء أن الأطفال الذين يتحركون كثيراً يدربون أدمغتهم في الوقت نفسه ويصبحون بالتالي أكثر ذكاءً. وتعد أكاديمية كرة القدم للشباب إلى جانب رعاية المواهب مشروع دمج يضمن تعليماً إضافياً واكتساب مهارات اجتماعية."
+              ],
+              "fr": [
+                "Les enfants et les adolescents connaissent d'énormes évolutions en peu de temps. Durant cette période, le besoin de mouvement est particulièrement grand. Le ministère des Sports soutient par une offre variée le sport de masse et de loisir, en particulier pour les jeunes citoyens. Ainsi, chacun peut trouver quelque chose qui lui plaît et l'amuse.",
+                "Le sport entraîne la souplesse et l'endurance et favorise la santé de l'esprit et du psychisme. De plus, les jeunes apprennent le comportement social, le respect de la performance et l'intégration des plus faibles, en mettant par exemple l'accent sur le fair-play.",
+                "L'Académie de football pour jeunes est convaincue que le sport développe des valeurs essentielles telles que le respect, l'esprit d'équipe, la capacité à gérer les conflits et la créativité. L'entraide, la discipline, le fair-play, la détermination et l'enthousiasme sont des compétences qui revêtent également une grande importance dans la vie privée, scolaire et professionnelle.",
+                "Outre son effet positif sur la santé physique et psychique, le sport joue également un rôle important dans le comportement d'apprentissage des enfants. Les scientifiques l'ont prouvé : les enfants qui bougent beaucoup entraînent simultanément leur cerveau et deviennent ainsi plus intelligents. L'Académie de football pour jeunes est, en plus de la promotion des talents, un projet d'intégration qui garantit une formation complémentaire et l'acquisition de compétences sociales."
+              ]
+            }
+          }
+        ],
+        "example": {
+          "text": {
+            "ar": "يدور المقال حول ...",
+            "fr": "L'article traite de..."
+          },
+          "options": {
+            "ar": [
+              "التأثير الإيجابي للرياضة والمدرسة.",
+              "رعاية المواهب خارج المدرسة فقط.",
+              "الفشل في الربط بين الرياضة والمدرسة."
+            ],
+            "fr": [
+              "l'influence positive du sport et de l'école.",
+              "la promotion extrascolaire des talents.",
+              "l'échec de l'association entre sport et école."
+            ]
+          },
+          "ar": {
+            "text": "يدور المقال حول ...",
+            "options": [
+              "التأثير الإيجابي للرياضة والمدرسة.",
+              "رعاية المواهب خارج المدرسة فقط.",
+              "الفشل في الربط بين الرياضة والمدرسة."
+            ]
+          },
+          "fr": {
+            "text": "L'article traite de...",
+            "options": [
+              "l'influence positive du sport et de l'école.",
+              "la promotion extrascolaire des talents.",
+              "l'échec de l'association entre sport et école."
+            ]
+          }
+        },
+        "questions": {
+          "7": {
+            "text": {
+              "ar": "لدى الشباب حاجة إلى ...",
+              "fr": "Les jeunes ont besoin de..."
+            },
+            "options": {
+              "ar": [
+                "القيام بأشياء مثيرة.",
+                "ممارسة الرياضة والحركة.",
+                "تطوير أنفسهم."
+              ],
+              "fr": [
+                "faire des choses passionnantes.",
+                "faire du sport.",
+                "se développer."
+              ]
+            }
+          },
+          "8": {
+            "text": {
+              "ar": "من خلال الرياضة يدرّب الشباب ...",
+              "fr": "Grâce au sport, les jeunes entraînent..."
+            },
+            "options": {
+              "ar": [
+                "المهارات الاجتماعية.",
+                "القوة والتحمل.",
+                "أجسادهم."
+              ],
+              "fr": [
+                "des compétences sociales.",
+                "la force et l'endurance.",
+                "leur corps."
+              ]
+            }
+          },
+          "9": {
+            "text": {
+              "ar": "تم إثبات أن ...",
+              "fr": "Il a été prouvé que..."
+            },
+            "options": {
+              "ar": [
+                "الأطفال يحتاجون إلى تعليم إضافي.",
+                "مشروع الدمج لا يحرك شيئاً.",
+                "الرياضة تعزز الذكاء."
+              ],
+              "fr": [
+                "les enfants ont besoin d'une éducation supplémentaire.",
+                "le projet d'intégration ne change rien.",
+                "le sport favorise l'intelligence."
+              ]
+            }
+          }
+        },
+        "instructions2": {
+          "ar": "اقرأ النص الصحفي الثاني والمهام من 10 إلى 12 المتعلقة به. اختر عند كل مهمة الإجابة الصحيحة a أو b أو c.",
+          "fr": "Lisez le deuxième article de presse et les tâches 10 à 12 correspondantes. Choisissez pour chaque tâche la bonne réponse a, b ou c."
+        },
+        "articles2": [
+          {
+            "heading": {
+              "ar": "الكتب الصوتية الألمانية – محبوبة وحائزة على جوائز",
+              "fr": "Les livres audio allemands – populaires et primés"
+            },
+            "sub": {
+              "ar": "من المفرح ارتفاع كل من الطلب والجودة في عالم الكتب الصوتية الألمانية.",
+              "fr": "La demande tout comme la qualité sont réjouissantes dans le paysage du livre audio allemand."
+            },
+            "body": {
+              "ar": [
+                "كما في كل عام تمنح جمعية جائزة الكتاب الصوتي الألماني جوائز للإنجازات المتميزة والجودة العالية. وتحدد الفائزين لجنة تحكيم تتكون من صحفيين وعلماء ومخرجي تمثيليات إذاعية وبائعي كتب، بالإضافة إلى مستمع مهتم فاز في مبادرة مشتركة مع إذاعة غرب ألمانيا (WDR 5).",
+                "يتوزع الفائزون بالجوائز على سبع فئات. ففي فئة «الكتاب الصوتي للعام» كُرّم كلاوس بولرت عن النسخة الإذاعية لرواية جيمس جويس «عوليس». كما كُرّمت دار النشر الصوتية (Der Hörverlag) عن إنجازها الضخم المتمثل في 56 ساعة من القراءات الأصلية لمؤلفين ألمان وحصلت على جائزة «أفضل إنجاز في النشر». وحصل غوستاف بيتر فولر وداغمار مانتسل على جائزتي «أفضل مؤدٍّ» و«أفضل مؤدية».",
+                "ويقودنا جان هنري فابر إلى عالم الحشرات ليفوز بجائزة «أفضل كتاب صوتي علمي/غير روائي». كما اختارت لجنة تحكيم الأطفال كتاب «Zorganzoo» لروبرت بول ويستون كـ«أفضل كتاب صوتي للأطفال». شكراً لجميع الفائزين على هذه المتعة السمعية الراقية!"
+              ],
+              "fr": [
+                "Comme chaque année, l'association du Prix allemand du livre audio décerne des distinctions pour des réalisations exceptionnelles et de grande qualité. Les lauréats sont désignés par un jury composé de journalistes, de scientifiques, de réalisateurs de pièces radiophoniques et de libraires, ainsi que d'un auditeur passionné sélectionné lors d'une action commune avec la radio WDR 5.",
+                "Les lauréats se répartissent dans sept catégories. Klaus Buhlert a reçu le prix du « Livre audio de l'année » pour l'adaptation radiophonique d'Ulysse de James Joyce. La maison d'édition Der Hörverlag a été honorée pour la « Meilleure performance éditoriale » grâce à une anthologie de 56 heures de lectures originales d'auteurs allemands. Gustav Peter Wöhler et Dagmar Manzel ont reçu les prix de « Meilleur interprète » et « Meilleure interprète ».",
+                "Jean-Henri Fabre nous emmène dans le monde des insectes et a remporté le prix du « Meilleur livre audio documentaire ». Le jury d'enfants Zeit Leo a élu Zorganzoo de Robert Paul Weston comme « Meilleur livre audio pour enfants ». Merci à tous les lauréats pour ce régal auditif !"
+              ]
+            }
+          }
+        ],
+        "questions2": {
+          "10": {
+            "text": {
+              "ar": "يتحدث المقال ...",
+              "fr": "L'article parle..."
+            },
+            "options": {
+              "ar": [
+                "عن عدد الكتب الصوتية التي يتم بيعها.",
+                "عن حفل توزيع جوائز.",
+                "عن الأرقام المتزايدة في تجارة الكتب."
+              ],
+              "fr": [
+                "du nombre de livres audio vendus.",
+                "d'une remise de prix.",
+                "de chiffres en hausse dans le commerce du livre."
+              ]
+            }
+          },
+          "11": {
+            "text": {
+              "ar": "الفائزون ...",
+              "fr": "Les gagnants..."
+            },
+            "options": {
+              "ar": [
+                "يحصلون على تذاكر لحفل موسيقي.",
+                "يحصلون على سبعة كتب صوتية.",
+                "يتوزعون على عدة مجالات وفئات."
+              ],
+              "fr": [
+                "reçoivent des billets pour un concert.",
+                "reçoivent sept livres audio.",
+                "se répartissent dans plusieurs catégories."
+              ]
+            }
+          },
+          "12": {
+            "text": {
+              "ar": "يتم الإشادة بـ ...",
+              "fr": "On fait l'éloge de..."
+            },
+            "options": {
+              "ar": [
+                "عمل لجنة التحكيم.",
+                "الجودة العالية في عالم الكتب الصوتية.",
+                "إذاعة غرب ألمانيا (WDR)."
+              ],
+              "fr": [
+                "du travail du jury.",
+                "de la haute qualité dans le paysage du livre audio.",
+                "de la radio ouest-allemande (WDR)."
+              ]
+            }
+          }
+        }
+      },
+      "3": {
+        "instructions": {
+          "ar": "اقرأ المواقف من 13 إلى 19 والإعلانات من A إلى J من وسائل إعلام ناطقة بالألمانية. اختر: أي إعلان يناسب كل موقف؟ يمكنك استخدام كل إعلان مرة واحدة فقط. بالنسبة لأحد المواقف لا يوجد إعلان مناسب، وفي هذه الحالة اختر 0 / X.",
+          "fr": "Lisez les situations 13 à 19 et les annonces A à J issues de différents médias germanophones. Choisissez quelle annonce correspond à quelle situation. Pour une situation, il n'y a pas d'annonce correspondante (choisissez 0 / X)."
+        },
+        "example": {
+          "text": {
+            "ar": "تريد السيدة كيلر شراء جهاز تلفزيون جديد.",
+            "fr": "Mme Keller veut s'acheter un nouveau téléviseur."
+          },
+          "ar": {
+            "text": "تريد السيدة كيلر شراء جهاز تلفزيون جديد."
+          },
+          "fr": {
+            "text": "Mme Keller veut s'acheter un nouveau téléviseur."
+          }
+        },
+        "questions": {
+          "13": {
+            "ar": "يريد يان أن يهدي ابنة عمه البالغة من العمر 15 عاماً كتاباً لدورة الحاسوب الخاصة بها.",
+            "fr": "Jan veut offrir à sa cousine de 15 ans un livre pour son cours d'informatique.",
+            "text": {
+              "ar": "يريد يان أن يهدي ابنة عمه البالغة من العمر 15 عاماً كتاباً لدورة الحاسوب الخاصة بها.",
+              "fr": "Jan veut offrir à sa cousine de 15 ans un livre pour son cours d'informatique."
+            }
+          },
+          "14": {
+            "ar": "يتنقل السيد كليمنت كثيراً بالسيارة ويبحث عن جهاز يساعده على تحديد الاتجاهات في المدينة.",
+            "fr": "M. Clement se déplace beaucoup en voiture et cherche un appareil qui l'aide à s'orienter en ville.",
+            "text": {
+              "ar": "يتنقل السيد كليمنت كثيراً بالسيارة ويبحث عن جهاز يساعده على تحديد الاتجاهات في المدينة.",
+              "fr": "M. Clement se déplace beaucoup en voiture et cherche un appareil qui l'aide à s'orienter en ville."
+            }
+          },
+          "15": {
+            "ar": "يعمل السيد ماورر كثيراً على الحاسوب ويبحث عن جهاز شاشة جديد لا يضر عينيه.",
+            "fr": "M. Maurer travaille beaucoup sur ordinateur et cherche un nouvel écran qui n'abîme pas ses yeux.",
+            "text": {
+              "ar": "يعمل السيد ماورر كثيراً على الحاسوب ويبحث عن جهاز شاشة جديد لا يضر عينيه.",
+              "fr": "M. Maurer travaille beaucoup sur ordinateur et cherche un nouvel écran qui n'abîme pas ses yeux."
+            }
+          },
+          "16": {
+            "ar": "تعطل حاسوب إيفلين، وهي مضطرة لإرسال رسائل بريد إلكتروني والبحث عن معلومات.",
+            "fr": "L'ordinateur d'Evelyn est en panne. Elle doit absolument envoyer des e-mails et chercher des informations.",
+            "text": {
+              "ar": "تعطل حاسوب إيفلين، وهي مضطرة لإرسال رسائل بريد إلكتروني والبحث عن معلومات.",
+              "fr": "L'ordinateur d'Evelyn est en panne. Elle doit absolument envoyer des e-mails et chercher des informations."
+            }
+          },
+          "17": {
+            "ar": "يبحث أليكس عن برنامج لحاسوبه يساعده على فهم المصطلحات التقنية في الكتب المتخصصة الإنجليزية.",
+            "fr": "Alex cherche un programme pour son ordinateur qui l'aide à comprendre le vocabulaire technique dans des livres spécialisés en anglais.",
+            "text": {
+              "ar": "يبحث أليكس عن برنامج لحاسوبه يساعده على فهم المصطلحات التقنية في الكتب المتخصصة الإنجليزية.",
+              "fr": "Alex cherche un programme pour son ordinateur qui l'aide à comprendre le vocabulaire technique dans des livres spécialisés en anglais."
+            }
+          },
+          "18": {
+            "ar": "هاتف ليلي المحمول لا يعمل، وهي تبحث عن خدمة تصليح.",
+            "fr": "Le téléphone portable de Lilly ne fonctionne pas. Elle cherche un service de réparation.",
+            "text": {
+              "ar": "هاتف ليلي المحمول لا يعمل، وهي تبحث عن خدمة تصليح.",
+              "fr": "Le téléphone portable de Lilly ne fonctionne pas. Elle cherche un service de réparation."
+            }
+          },
+          "19": {
+            "ar": "ترغب السيدة فراي في الاطلاع بانتظام على برنامج التلفزيون.",
+            "fr": "Mme Frey veut s'informer régulièrement sur le programme télévisé.",
+            "text": {
+              "ar": "ترغب السيدة فراي في الاطلاع بانتظام على برنامج التلفزيون.",
+              "fr": "Mme Frey veut s'informer régulièrement sur le programme télévisé."
+            }
+          }
+        },
+        "ads": {
+          "A": {
+            "ar": "أتريد معرفة أين يوجد كل شيء؟ يساعدك في ذلك جهاز الملاحة للسيارة «Auto-Navigator 00012 من VISION». بفضل خريطة المدينة الإلكترونية يجد كل شخص طريقه، كما يعلن الحاسوب عن المنعطفات عبر مكبر الصوت. جهاز استقبال الأقمار الصناعية والبرنامج ابتداءً من 450 يورو.",
+            "fr": "Savoir où tout se trouve ? Le « Auto-Navigator 00012 de VISION » vous y aide. Grâce à la carte électronique de la ville, chacun trouve son chemin et les bifurcations sont annoncées par haut-parleur. Récepteur satellite et logiciel à partir de 450 euros."
+          },
+          "B": {
+            "ar": "إدارة الدرجات والتلاميذ على الحاسوب: برنامج KLASSENDATEI المجرّب آلاف المرات! قوائم الفصول والدورات، جميع المعدلات، سهولة الاستخدام لكل مادة دراسية. جميع المعلومات على الإنترنت: www.klassendatei.de",
+            "fr": "Gestion des notes et des élèves sur PC : KLASSENDATEI, éprouvé des milliers de fois ! Listes de classes et de cours, toutes les moyennes, utilisation simple pour chaque matière. Infos sur www.klassendatei.de"
+          },
+          "C": {
+            "ar": "شاشات مسطحة (Flachbildschirme): إذا كنت تشغل حاسوبك كثيراً فيجب أن تكون شاشتك من الدرجة الأولى. صور ممتازة وألوان طبيعية وحدة عالية: مع الشاشات المسطحة لديك دائماً الجودة أمام عينيك. رقم 1 في صناعة شاشات الحاسوب. أخصائي الحاسوب لديكم.",
+            "fr": "Écrans plats (Flachbildschirme) : Si vous utilisez souvent votre ordinateur, votre écran doit être de première classe. Images impeccables, couleurs naturelles et netteté optimale. N° 1 de la fabrication de moniteurs. Votre spécialiste informatique."
+          },
+          "D": {
+            "ar": "مطلوب معلم/معلمة للمعلوميات (Informatik) للتدريس في الصفوف 7 إلى 12. الشروط: تأهيل متخصص، خبرة تدريسية، استعداد كبير للعمل الجماعي. ترسل الطلبات إلى مدرسة كيل الخاصة.",
+            "fr": "Enseignant(e) d'informatique recherché(e) pour les classes de la 7e à la 12e année. Prérequis : formation spécialisée, expérience d'enseignement, esprit d'équipe. Candidatures à l'école privée de Kiel."
+          },
+          "E": {
+            "ar": "إلى الإنترنت في سن الستين؟ في جامعة الشعب (Volkshochschule) يمكن تعلم كل شيء تقريباً، ويصبح الأمر أسهل مع الكتب التعليمية والكتب المتخصصة المرافقة للدورات. لدورات الحاسوب ولكل ما ترغبون في تعلمه، لكل الأعمار والأذواق. مكتبة Mountain Bücher في تيغل.",
+            "fr": "Sur Internet à 60 ans ? À l'université populaire (Volkshochschule), on peut presque tout apprendre, et c'est encore plus facile avec les manuels accompagnant les cours. Pour les cours d'informatique et tout ce que vous souhaitez apprendre, pour tout âge. Librairie Mountain Bücher à Tegel."
+          },
+          "F": {
+            "ar": "مجلة TV neu – شابة وبسعر مناسب. متجددة كل أسبوع! نصائح ومعلومات عن برامج التلفزيون. بـ 70 سنتاً فقط لدى بائع الصحف.",
+            "fr": "TV neu – jeune et abordable. Chaque semaine à jour ! Conseils de programmes télévisés et infos. Seulement 70 centimes d'euro chez votre marchand de journaux."
+          },
+          "G": {
+            "ar": "«قاموس حي» يتم تحديثه باستمرار: القاموس الإلكتروني على قرص CD-ROM PolyVoc. يضم 92,000 مصطلح من مجالات بناء الآلات والأدوات والهندسة الكهربائية. ألماني-إنجليزي وبالعكس.",
+            "fr": "Un « dictionnaire vivant » régulièrement mis à jour : le dictionnaire électronique sur CD-ROM PolyVoc. 92 000 entrées au total. Termes de la construction mécanique, de l'outillage et de l'électrotechnique. Allemand-anglais et inversement."
+          },
+          "H": {
+            "ar": "مقهى إنترنت جديد (Neues Internetcafé)! مفتوح يومياً من الساعة 10:00 صباحاً حتى 24:00 ليلاً. شارع شيلر 25.",
+            "fr": "Nouveau cybercafé (Neues Internetcafé) ! Ouvert tous les jours de 10h00 à 24h00. Schillerstr. 25."
+          },
+          "I": {
+            "ar": "مضمون للمستقبل، سهل الاستخدام، ومتميز: مشاهدة – استماع – معايشة. متعة مشاهدة تلفزيونية مريحة للعين. أرقى التقنيات للمستقبل الرقمي لدى متجر Tonhaus Heiser.",
+            "fr": "Prêt pour l'avenir, convivial, individuel : voir – écouter – vivre. Le plaisir de la télévision agréable pour les yeux. La meilleure technologie pour l'avenir numérique chez Tonhaus Heiser."
+          },
+          "J": {
+            "ar": "هاتفك المحمول لا يعمل؟ إذن تفضل بزيارتنا! خدمة تصليح الهواتف المحمولة لدى Easy-Tel.",
+            "fr": "Votre téléphone portable ne fonctionne pas ? Alors venez chez nous ! Service de réparation de téléphones mobiles chez Easy-Tel."
+          }
+        }
+      },
+      "4": {
+        "instructions": {
+          "ar": "اقرأ النصوص من 20 إلى 26. اختر: أي الأشخاص لديهم موقف إيجابي تجاه موضوع «المرونة في مكان العمل»؟",
+          "fr": "Lisez les textes 20 à 26. Choisissez : quelles personnes ont une attitude positive envers le thème « La flexibilité au travail » ?"
+        },
+        "topic": {
+          "ar": "أي الأشخاص لديهم موقف إيجابي تجاه موضوع «المرونة في مكان العمل»؟",
+          "fr": "Quelles personnes ont une attitude positive envers le thème « La flexibilité au travail » ?"
+        },
+        "example": {
+          "who": "Moser, 42, St. Anton",
+          "text": {
+            "ar": "لقد أخذت فترات توقف لعدة أشهر عن الحياة المهنية من أجل الأطفال، ولم يضر ذلك بمسيرتي المهنية. أعتقد أنه إذا استطاع المرء تبرير فترات التوقف جيداً، فإن ذلك يُعد نقطة إيجابية عند تغيير العمل لأن فيه دليلاً على الشجاعة للتغيير.",
+            "fr": "J'ai pris des pauses de plusieurs mois dans ma vie professionnelle pour mes enfants. Cela n'a pas nui à ma carrière. Je pense que si l'on peut bien justifier ces interruptions, c'est même un atout lors d'un changement d'emploi car cela prouve qu'on a le courage du changement."
+          }
+        },
+        "letters": {
+          "20": {
+            "who": "Pfeifer, 58, Mainz",
+            "text": {
+              "ar": "أنا رجل أعمال عصري وأرى نفسي شريكاً لموظفيّ. الموظف الجيد يستحق مني مراعاة احتياجاته الزمنية الشخصية، فالموظف الراضي يكون بالتأكيد أكثر فعالية للشركة من موظف يعمل بنصف قلب.",
+              "fr": "Je suis un entrepreneur moderne et je me considère comme le partenaire de mes employés. Un bon collaborateur mérite que je prenne en compte ses besoins personnels en matière d'horaires. Un employé satisfait est certainement plus efficace pour l'entreprise."
+            }
+          },
+          "21": {
+            "who": "Vollmer, 36, Reutlingen",
+            "text": {
+              "ar": "يتسم عصرنا الحالي بتغيير أصحاب العمل. فقد حلت المسارات المهنية المتسلقة محل المسارات التقليدية الثابتة، والسبب هو تراجع الوظائف الدائمة الكلاسيكية. وعلى عكس السلم العادي، فإن المرء هنا غالباً ما يرتقي إلى الأعلى ولا يسقط إلى الأسفل.",
+              "fr": "Notre époque est marquée par les changements d'employeurs. Les carrières évolutives ont remplacé les carrières linéaires classiques. Contrairement à une échelle normale, on « tombe » ici généralement vers le haut et non vers le bas."
+            }
+          },
+          "22": {
+            "who": "R. Thiel, 47, Husum",
+            "text": {
+              "ar": "إن التنقل المستمر بين الوظائف (Jobhopping) الذي يُنظر إليه على أنه عصري لا يجلب أي فائدة على الإطلاق. فما إن يتأقلم زميل جديد في العمل ويبدأ في الإنجاز حتى يفكر مجدداً في التغيير. مع العمليات المعقدة في الشركة لا يمكن أن يكون ذلك مفيداً. أنا مع المزيد من الاستمرارية.",
+              "fr": "Le « jobhopping » considéré comme si moderne n'apporte absolument rien. À peine un nouveau collègue s'est-il formé et devient-il performant qu'il pense déjà à changer. Avec les processus très complexes de l'entreprise, cela ne peut pas être avantageux. Je suis pour plus de continuité."
+            }
+          },
+          "23": {
+            "who": "Roswitha, 38, CH",
+            "text": {
+              "ar": "من أجل التوفيق بين الأسرة والعمل قررت نقل مكان عملي إلى المنزل. وظيفتي كمستشارة عن بُعد تسهل عليّ ذلك، فبفضل الحاسوب المحمول يمكنني العمل في أي مكان، ومع بعض الانضباط أنجح في إدارة الوقت. بالنسبة لأطفالي هذا مثالي على أي حال.",
+              "fr": "Pour concilier famille et travail, j'ai décidé de transférer mon lieu de travail à la maison. Mon métier de téléconseillère me facilite la tâche car avec un ordinateur portable, je peux travailler partout. Avec un peu de discipline, je gère bien mon temps. Pour mes enfants, c'est optimal."
+            }
+          },
+          "24": {
+            "who": "Menrot, 50, Luxemburg",
+            "text": {
+              "ar": "بالنسبة للكثيرين فإن التقدم المهني هو المتعة الأساسية والحياة العملية مثل لعبة حاسوب يتقدم فيها المرء مرحلة بعد أخرى. لكن من يسأل عن الشخصية التي تتخبط هناك وكيف تشعر؟ التركيز ينصب فقط على المهنة وتضيع الحياة. إن علاقة العمل المنظمة والثابتة هي بالتأكيد أكثر صحة.",
+              "fr": "Pour beaucoup, l'avancement est le moteur central et la vie professionnelle ressemble à un jeu vidéo où l'on progresse de niveau en niveau. Qui se soucie de savoir comment se sent le personnage qui s'agite ? Seule la carrière compte et la vie passe à la trappe. Un emploi régulier est certainement plus sain."
+            }
+          },
+          "25": {
+            "who": "Struck, 64, Erfurt",
+            "text": {
+              "ar": "أدت «الرأسمالية الفائقة» الحديثة إلى ظروف عمل جديدة. أعتقد أن الرأسمالية المرنة وأشكال العمل الجديدة ستؤثر بشكل متزايد سلباً على طباع الناس، حيث تضيع قيم مثل الوفاء والالتزام المتبادل والسعي وراء أهداف طويلة الأمد.",
+              "fr": "Le « turbocapitalisme » moderne a entraîné de nouvelles conditions de travail. Je pense que le capitalisme flexible et les nouvelles formes de travail influenceront de plus en plus le caractère des gens. Des valeurs telles que la fidélité, l'engagement mutuel ou la poursuite d'objectifs à long terme se perdent."
+            }
+          },
+          "26": {
+            "who": "Thorsten, 59, Emden",
+            "text": {
+              "ar": "يرافق «الاحتراق النفسي» و«إدمان العمل» مجتمع الإنجاز الحالي بشكل متزايد. لكن هناك حياة خارج مكان العمل وعلينا البحث عن طرق صحية لتنظيم أوقات العمل، ولهذا السبب أنا أؤيد نماذج أوقات العمل المرنة.",
+              "fr": "Le « burn-out » et le « workaholisme » accompagnent de plus en plus notre société de performance actuelle. Mais il y a une vie en dehors du travail et nous devrions chercher des moyens sains d'aménager le temps de travail. C'est pourquoi je suis favorable aux modèles d'horaires flexibles."
+            }
+          }
+        },
+        "questions": {
+          "20": {
+            "who": "Pfeifer, 58, Mainz",
+            "text": {
+              "ar": "أنا رجل أعمال عصري وأرى نفسي شريكاً لموظفيّ. الموظف الجيد يستحق مني مراعاة احتياجاته الزمنية الشخصية، فالموظف الراضي يكون بالتأكيد أكثر فعالية للشركة من موظف يعمل بنصف قلب.",
+              "fr": "Je suis un entrepreneur moderne et je me considère comme le partenaire de mes employés. Un bon collaborateur mérite que je prenne en compte ses besoins personnels en matière d'horaires. Un employé satisfait est certainement plus efficace pour l'entreprise."
+            }
+          },
+          "21": {
+            "who": "Vollmer, 36, Reutlingen",
+            "text": {
+              "ar": "يتسم عصرنا الحالي بتغيير أصحاب العمل. فقد حلت المسارات المهنية المتسلقة محل المسارات التقليدية الثابتة، والسبب هو تراجع الوظائف الدائمة الكلاسيكية. وعلى عكس السلم العادي، فإن المرء هنا غالباً ما يرتقي إلى الأعلى ولا يسقط إلى الأسفل.",
+              "fr": "Notre époque est marquée par les changements d'employeurs. Les carrières évolutives ont remplacé les carrières linéaires classiques. Contrairement à une échelle normale, on « tombe » ici généralement vers le haut et non vers le bas."
+            }
+          },
+          "22": {
+            "who": "R. Thiel, 47, Husum",
+            "text": {
+              "ar": "إن التنقل المستمر بين الوظائف (Jobhopping) الذي يُنظر إليه على أنه عصري لا يجلب أي فائدة على الإطلاق. فما إن يتأقلم زميل جديد في العمل ويبدأ في الإنجاز حتى يفكر مجدداً في التغيير. مع العمليات المعقدة في الشركة لا يمكن أن يكون ذلك مفيداً. أنا مع المزيد من الاستمرارية.",
+              "fr": "Le « jobhopping » considéré comme si moderne n'apporte absolument rien. À peine un nouveau collègue s'est-il formé et devient-il performant qu'il pense déjà à changer. Avec les processus très complexes de l'entreprise, cela ne peut pas être avantageux. Je suis pour plus de continuité."
+            }
+          },
+          "23": {
+            "who": "Roswitha, 38, CH",
+            "text": {
+              "ar": "من أجل التوفيق بين الأسرة والعمل قررت نقل مكان عملي إلى المنزل. وظيفتي كمستشارة عن بُعد تسهل عليّ ذلك، فبفضل الحاسوب المحمول يمكنني العمل في أي مكان، ومع بعض الانضباط أنجح في إدارة الوقت. بالنسبة لأطفالي هذا مثالي على أي حال.",
+              "fr": "Pour concilier famille et travail, j'ai décidé de transférer mon lieu de travail à la maison. Mon métier de téléconseillère me facilite la tâche car avec un ordinateur portable, je peux travailler partout. Avec un peu de discipline, je gère bien mon temps. Pour mes enfants, c'est optimal."
+            }
+          },
+          "24": {
+            "who": "Menrot, 50, Luxemburg",
+            "text": {
+              "ar": "بالنسبة للكثيرين فإن التقدم المهني هو المتعة الأساسية والحياة العملية مثل لعبة حاسوب يتقدم فيها المرء مرحلة بعد أخرى. لكن من يسأل عن الشخصية التي تتخبط هناك وكيف تشعر؟ التركيز ينصب فقط على المهنة وتضيع الحياة. إن علاقة العمل المنظمة والثابتة هي بالتأكيد أكثر صحة.",
+              "fr": "Pour beaucoup, l'avancement est le moteur central et la vie professionnelle ressemble à un jeu vidéo où l'on progresse de niveau en niveau. Qui se soucie de savoir comment se sent le personnage qui s'agite ? Seule la carrière compte et la vie passe à la trappe. Un emploi régulier est certainement plus sain."
+            }
+          },
+          "25": {
+            "who": "Struck, 64, Erfurt",
+            "text": {
+              "ar": "أدت «الرأسمالية الفائقة» الحديثة إلى ظروف عمل جديدة. أعتقد أن الرأسمالية المرنة وأشكال العمل الجديدة ستؤثر بشكل متزايد سلباً على طباع الناس، حيث تضيع قيم مثل الوفاء والالتزام المتبادل والسعي وراء أهداف طويلة الأمد.",
+              "fr": "Le « turbocapitalisme » moderne a entraîné de nouvelles conditions de travail. Je pense que le capitalisme flexible et les nouvelles formes de travail influenceront de plus en plus le caractère des gens. Des valeurs telles que la fidélité, l'engagement mutuel ou la poursuite d'objectifs à long terme se perdent."
+            }
+          },
+          "26": {
+            "who": "Thorsten, 59, Emden",
+            "text": {
+              "ar": "يرافق «الاحتراق النفسي» و«إدمان العمل» مجتمع الإنجاز الحالي بشكل متزايد. لكن هناك حياة خارج مكان العمل وعلينا البحث عن طرق صحية لتنظيم أوقات العمل، ولهذا السبب أنا أؤيد نماذج أوقات العمل المرنة.",
+              "fr": "Le « burn-out » et le « workaholisme » accompagnent de plus en plus notre société de performance actuelle. Mais il y a une vie en dehors du travail et nous devrions chercher des moyens sains d'aménager le temps de travail. C'est pourquoi je suis favorable aux modèles d'horaires flexibles."
+            }
+          }
+        }
+      },
+      "5": {
+        "instructions": {
+          "ar": "اقرأ المهام من 27 إلى 30 والنص المرفق. اختر عند كل مهمة الإجابة الصحيحة a أو b أو c.",
+          "fr": "Lisez les tâches 27 à 30 et le texte associé. Choisissez pour chaque tâche la bonne réponse a, b ou c."
+        },
+        "article": {
+          "heading": {
+            "ar": "وصفة: كعكة زآخر الفييناوية (Wiener Sachertorte)",
+            "fr": "Recette : Sachertorte viennoise (Wiener Sachertorte)"
+          },
+          "intro": {
+            "ar": "تُعدّ وصفة كعكة زآخر الشهيرة أحد أكثر الأسرار المحفوظة في مطبخ الحلويات الفييناوي. ولكن مع هذه الوصفة ستحصلون بالتأكيد على متعة الكعك الفييناوي الخالص! ولا تنسوا أن هذه الكعكة تحب حصة كبيرة من القشدة المخفوقة (Schlagobers) إلى جانبها.",
+            "fr": "La célèbre recette de la Sachertorte est sans doute l'un des secrets les mieux gardés de la pâtisserie viennoise. Mais avec cette recette, vous réussirez à coup sûr un pur délice viennois ! N'oubliez pas non plus que ce gâteau adore être accompagné d'une généreuse portion de crème fouettée."
+          }
+        },
+        "articles": [
+          {
+            "heading": {
+              "ar": "وصفة: كعكة زآخر الفييناوية (Wiener Sachertorte)",
+              "fr": "Recette : Sachertorte viennoise (Wiener Sachertorte)"
+            },
+            "sub": {
+              "ar": "تُعدّ وصفة كعكة زآخر الشهيرة أحد أكثر الأسرار المحفوظة في مطبخ الحلويات الفييناوي. ولكن مع هذه الوصفة ستحصلون بالتأكيد على متعة الكعك الفييناوي الخالص! ولا تنسوا أن هذه الكعكة تحب حصة كبيرة من القشدة المخفوقة (Schlagobers) إلى جانبها.",
+              "fr": "La célèbre recette de la Sachertorte est sans doute l'un des secrets les mieux gardés de la pâtisserie viennoise. Mais avec cette recette, vous réussirez à coup sûr un pur délice viennois ! N'oubliez pas non plus que ce gâteau adore être accompagné d'une généreuse portion de crème fouettée."
+            },
+            "body": {
+              "ar": [
+                "طريقة التحضير:",
+                "❖ أولاً: افصل البيض (الصفار عن البياض)، واجعل الزبدة في درجة حرارة الغرفة.",
+                "❖ في وعاء، اخفق الزبدة مع السكر البودرة حتى تصبح رغوية، ثم أضف صفار البيض وسكر الفانيليا وقلّبها.",
+                "❖ قم بإذابة الشوكولاتة في حمام مائي، مع الحرص على ألا تصبح ساخنة جداً، ثم أضفها إلى الخليط.",
+                "❖ اخفق بياض البيض مع السكر الخشن حتى يصبح متماسكاً، ثم أضفه بحذر إلى باقي الخليط. وفي النهاية أضف الدقيق برفق.",
+                "❖ ادهن قالب الكعك جيداً بالزبدة ورشه بالدقيق، ثم اسكب عجينة الكعك واخبزها في فرن مسخن مسبقاً على حرارة 180 درجة مئوية لمدة ساعة تقريباً.",
+                "❖ اترك الكعكة حتى تبرد، ثم اقطعها أفقياً إلى نصفين. ادهن طبقتي الكعكة بطبقة رقيقة من المربى الدافئ قليلاً ثم أعد تركيبهما معاً.",
+                "❖ بعد ذلك ادهن السطح الخارجي لكعكة زآخر أيضاً بالمربى قبل تغطيتها بطبقة طلاء الشوكولاتة (Schokoladenglasur).",
+                "شهية طيبة!"
+              ],
+              "fr": [
+                "Préparation :",
+                "❖ Tout d'abord, séparer les blancs des jaunes d'œufs et amener le beurre à température ambiante.",
+                "❖ Dans un saladier, battre le beurre en mousse avec le sucre glace, puis incorporer les jaunes d'œufs et le sucre vanillé.",
+                "❖ Faire fondre le chocolat au bain-marie sans jamais le laisser devenir trop chaud, puis l'incorporer également.",
+                "❖ Battre les blancs d'œufs en neige ferme avec le sucre cristallisé et les incorporer délicatement au reste de la préparation. Enfin, incorporer doucement la farine.",
+                "❖ Bien beurrer un moule à manqué et le saupoudrer de farine, y verser la pâte et cuire au four préchauffé à 180 °C pendant environ 1 heure.",
+                "❖ Laisser refroidir le gâteau, puis le couper en deux dans l'épaisseur. Tartiner très finement les deux fonds de gâteau avec la confiture légèrement tiédie et les réassembler.",
+                "❖ Badigeonner ensuite également l'extérieur de la Sachertorte de confiture avant de la recouvrir d'un glaçage au chocolat.",
+                "Bon appétit !"
+              ]
+            }
+          }
+        ],
+        "questions": {
+          "27": {
+            "text": {
+              "ar": "الوصفة الأصلية ...",
+              "fr": "La recette originale..."
+            },
+            "options": {
+              "ar": [
+                "هي سرّ محفوظ.",
+                "موجودة في كل كتاب طبخ.",
+                "يعرفها سكان فيينا فقط."
+              ],
+              "fr": [
+                "est un secret.",
+                "se trouve dans tous les livres de cuisine.",
+                "n'est connue que des Viennois."
+              ]
+            }
+          },
+          "28": {
+            "text": {
+              "ar": "يجب على المرء بخصوص البيض أن ...",
+              "fr": "Les œufs, il faut..."
+            },
+            "options": {
+              "ar": [
+                "يجعله في درجة حرارة الغرفة.",
+                "يفصله (الصفار عن البياض).",
+                "يخفقه لمدة نصف ساعة."
+              ],
+              "fr": [
+                "les amener à température ambiante.",
+                "les séparer soigneusement.",
+                "les mélanger pendant une demi-heure."
+              ]
+            }
+          },
+          "29": {
+            "text": {
+              "ar": "يجب على المرء بخصوص قالب الخبز أن ...",
+              "fr": "Le moule à gâteau, il faut..."
+            },
+            "options": {
+              "ar": [
+                "يسخنه.",
+                "يدهنه بالدهن (الزبدة).",
+                "يخبزه لمدة 60 دقيقة فارغاً."
+              ],
+              "fr": [
+                "le chauffer.",
+                "l'enduire de matière grasse (beurre).",
+                "le cuire pendant 60 minutes."
+              ]
+            }
+          },
+          "30": {
+            "text": {
+              "ar": "يوضع فوق الكعكة في النهاية ...",
+              "fr": "Sur le gâteau, on met..."
+            },
+            "options": {
+              "ar": [
+                "دقيق الطعام.",
+                "سكر البودرة.",
+                "طلاء الشوكولاتة (Schokoglasur)."
+              ],
+              "fr": [
+                "de la farine.",
+                "du sucre glace.",
+                "un glaçage au chocolat."
+              ]
+            }
+          }
+        }
+      },
+      "6": {
+        "instructions": {
+          "ar": "ستستمع إلى 4 أجزاء. قم بحل المهام المرافقة لكل جزء بعد الاستماع إلى المقاطع الصوتية.",
+          "fr": "Vous allez écouter 4 parties. Résolvez les tâches correspondantes pour chaque partie."
+        },
+        "teile": {
+          "1": {
+            "title": {
+              "ar": "خمسة نصوص قصيرة · المهام من 1 إلى 10",
+              "fr": "Cinq courts textes · Tâches 1 à 10"
+            },
+            "desc": {
+              "ar": "ستستمع الآن إلى خمسة نصوص قصيرة. ستستمع إلى كل نص مرتين. لكل نص ستقوم بحل مهمتين. اختر الحل الصحيح لكل مهمة.",
+              "fr": "Vous allez entendre cinq courts textes. Vous écouterez chaque texte deux fois. Pour chaque texte, résolvez deux tâches."
+            }
+          },
+          "2": {
+            "title": {
+              "ar": "طلب زواج في الملعب · المهام من 11 إلى 15",
+              "fr": "Demande en mariage au stade · Tâches 11 à 15"
+            },
+            "desc": {
+              "ar": "ستستمع الآن إلى نص واحد مرة واحدة فقط. اختر الإجابة الصحيحة a أو b أو c للمهام من 11 إلى 15.",
+              "fr": "Vous allez entendre un texte une seule fois. Choisissez la bonne réponse a, b ou c pour les tâches 11 à 15."
+            },
+            "context": {
+              "ar": "أنت تجلس في الملعب وتستمع إلى مشجع كرة قدم يتقدم بطلب زواج لسيدة عبر الميكروفون.",
+              "fr": "Vous êtes assis dans le stade et entendez un supporter de football faire une demande en mariage à une dame."
+            }
+          },
+          "3": {
+            "title": {
+              "ar": "محادثة في السوبرماركت مع حارس المنارة · المهام من 16 إلى 22",
+              "fr": "Conversation au supermarché avec un gardien de phare · Tâches 16 à 22"
+            },
+            "desc": {
+              "ar": "ستستمع الآن إلى محادثة مرة واحدة فقط. حدد ما إذا كانت العبارات من 16 إلى 22 صحيحة أم خاطئة.",
+              "fr": "Vous allez entendre une conversation une seule fois. Choisissez si les affirmations 16 à 22 sont Vraies ou Fausses."
+            },
+            "context": {
+              "ar": "تستمع إلى بائعة تتحدث مع حارس منارة محلي في سوبرماركت بقرية صغيرة.",
+              "fr": "Vous entendez une commerçante discuter avec un gardien de phare local dans le supermarché d'un petit village."
+            }
+          },
+          "4": {
+            "title": {
+              "ar": "نقاش إذاعي: إدخال اللغة الإنجليزية في المدرسة الابتدائية · المهام من 23 إلى 30",
+              "fr": "Débat : L'introduction de l'anglais à l'école primaire · Tâches 23 à 30"
+            },
+            "desc": {
+              "ar": "ستستمع الآن إلى نقاش مرتين. انسب العبارات من 23 إلى 30: من قال ماذا؟",
+              "fr": "Vous allez entendre un débat deux fois. Associez les affirmations 23 à 30 : qui dit quoi ?"
+            },
+            "context": {
+              "ar": "تناقش مذيعة برنامج «Aktuell» مع إليزابيث دانتسينغر وكورت فاوش موضوع: «إدخال اللغة الإنجليزية في المدرسة الابتدائية!».",
+              "fr": "La présentatrice de l'émission « Aktuell » discute avec Elisabeth Danzinger et Kurt Wausch sur le thème « L'introduction de la langue anglaise à l'école primaire ! »."
+            }
+          }
+        },
+        "questions": {
+          "h1": {
+            "ar": "يريد الضيوف القدوم في الساعة 21:30.",
+            "fr": "Les clients veulent venir à 21h30.",
+            "text": {
+              "ar": "يريد الضيوف القدوم في الساعة 21:30.",
+              "fr": "Les clients veulent venir à 21h30."
+            }
+          },
+          "h2": {
+            "text": {
+              "ar": "يريد الضيوف ...",
+              "fr": "Les clients veulent..."
+            },
+            "options": {
+              "ar": [
+                "الحجز ليوم الجمعة.",
+                "تناول الطعام في وقت متأخر يوم السبت.",
+                "القدوم يوم الأحد."
+              ],
+              "fr": [
+                "réserver pour vendredi.",
+                "manger plus tard le samedi.",
+                "venir le dimanche."
+              ]
+            }
+          },
+          "h3": {
+            "ar": "يشمل برنامج إسبانيا دروس اللغة فقط.",
+            "fr": "Le programme en Espagne comprend uniquement des cours de langue.",
+            "text": {
+              "ar": "يشمل برنامج إسبانيا دروس اللغة فقط.",
+              "fr": "Le programme en Espagne comprend uniquement des cours de langue."
+            }
+          },
+          "h4": {
+            "text": {
+              "ar": "تُقدَّم الدورات الخاصة للغات التخصصية ...",
+              "fr": "Les cours spéciaux de langues de spécialité sont..."
+            },
+            "options": {
+              "ar": [
+                "في اسكتلندا.",
+                "في إسبانيا.",
+                "في الشركات في عين المكان."
+              ],
+              "fr": [
+                "proposés en Écosse.",
+                "proposés en Espagne.",
+                "proposés sur place dans les entreprises."
+              ]
+            }
+          },
+          "h5": {
+            "ar": "غداً سيكون الطقس مشمساً ودافئاً طوال اليوم.",
+            "fr": "Demain, le temps sera ensoleillé et chaud toute la journée.",
+            "text": {
+              "ar": "غداً سيكون الطقس مشمساً ودافئاً طوال اليوم.",
+              "fr": "Demain, le temps sera ensoleillé et chaud toute la journée."
+            }
+          },
+          "h6": {
+            "text": {
+              "ar": "الطقس اليوم ...",
+              "fr": "Aujourd'hui, le temps est..."
+            },
+            "options": {
+              "ar": [
+                "مشمس.",
+                "غائم.",
+                "ممطر."
+              ],
+              "fr": [
+                "ensoleillé.",
+                "nuageux.",
+                "pluvieux."
+              ]
+            }
+          },
+          "h7": {
+            "ar": "تتوفر ثلاث دورات رقص للاختيار من بينها.",
+            "fr": "Il y a trois cours de danse au choix.",
+            "text": {
+              "ar": "تتوفر ثلاث دورات رقص للاختيار من بينها.",
+              "fr": "Il y a trois cours de danse au choix."
+            }
+          },
+          "h8": {
+            "text": {
+              "ar": "تبلغ تكلفة الدورة في جامعة الشعب (Volkshochschule) ...",
+              "fr": "Le cours à l'université populaire (Volkshochschule) coûte..."
+            },
+            "options": {
+              "ar": [
+                "144 يورو.",
+                "150 يورو.",
+                "90 يورو."
+              ],
+              "fr": [
+                "144 euros.",
+                "150 euros.",
+                "90 euros."
+              ]
+            }
+          },
+          "h9": {
+            "ar": "لا يزال في الهاتف المحمول رصيد بقيمة 9 يورو.",
+            "fr": "Il reste encore un crédit de 9 € sur le téléphone portable.",
+            "text": {
+              "ar": "لا يزال في الهاتف المحمول رصيد بقيمة 9 يورو.",
+              "fr": "Il reste encore un crédit de 9 € sur le téléphone portable."
+            }
+          },
+          "h10": {
+            "text": {
+              "ar": "إذا أراد المرء الاستعلام عن عدد الوحدات المتبقية لديه، فإنه يضغط على الرقم ...",
+              "fr": "Si l'on veut consulter le nombre d'unités restantes, on appuie sur le..."
+            },
+            "options": {
+              "ar": [
+                "1.",
+                "2.",
+                "9."
+              ],
+              "fr": [
+                "1.",
+                "2.",
+                "9."
+              ]
+            }
+          },
+          "h11": {
+            "text": {
+              "ar": "كان الرجل يريد في الأصل مع سوزي أن ...",
+              "fr": "L'homme voulait en fait avec Susi..."
+            },
+            "options": {
+              "ar": [
+                "لا يحتفل بعيد الميلاد.",
+                "يذهب إلى الملعب فقط.",
+                "يشاهد مباراة كرة قدم في التلفزيون."
+              ],
+              "fr": [
+                "ne pas fêter d'anniversaire.",
+                "seulement aller au stade.",
+                "regarder une retransmission de football à la télévision."
+              ]
+            }
+          },
+          "h12": {
+            "text": {
+              "ar": "الرجل ...",
+              "fr": "L'homme..."
+            },
+            "options": {
+              "ar": [
+                "وقع في حب سوزي على الفور.",
+                "لم يقع في حب سوزي فوراً.",
+                "لم ينتبه إلى سوزي إطلاقاً."
+              ],
+              "fr": [
+                "est tombé immédiatement amoureux de Susi.",
+                "n'est pas tombé tout de suite amoureux de Susi.",
+                "n'a pas du tout prêté attention à Susi."
+              ]
+            }
+          },
+          "h13": {
+            "text": {
+              "ar": "كانت سوزي ترتدي قميصاً رياضياً يحمل الرقم ...",
+              "fr": "Susi portait un maillot avec le numéro..."
+            },
+            "options": {
+              "ar": [
+                "4.",
+                "5.",
+                "8."
+              ],
+              "fr": [
+                "4.",
+                "5.",
+                "8."
+              ]
+            }
+          },
+          "h14": {
+            "text": {
+              "ar": "رأى الرجل سوزي لأول مرة ...",
+              "fr": "L'homme a vu Susi pour la première fois..."
+            },
+            "options": {
+              "ar": [
+                "على أرض الملعب.",
+                "في المدرجات (على المنصة).",
+                "عند الكشك."
+              ],
+              "fr": [
+                "sur le terrain.",
+                "dans les tribunes.",
+                "au kiosque."
+              ]
+            }
+          },
+          "h15": {
+            "text": {
+              "ar": "يجب على سوزي أن تجيبه من خلال ...",
+              "fr": "Susi doit lui répondre..."
+            },
+            "options": {
+              "ar": [
+                "النزول إلى أرض الملعب.",
+                "التوجه إلى المدرجات.",
+                "الذهاب إلى المخرج."
+              ],
+              "fr": [
+                "en venant sur le terrain.",
+                "en allant vers la tribune.",
+                "en courant vers la sortie."
+              ]
+            }
+          },
+          "h16": {
+            "ar": "يتلقى إيغون زيارة من حفيده.",
+            "fr": "Egon reçoit la visite de son petit-fils.",
+            "text": {
+              "ar": "يتلقى إيغون زيارة من حفيده.",
+              "fr": "Egon reçoit la visite de son petit-fils."
+            }
+          },
+          "h17": {
+            "ar": "زوجة إيغون متوفاة بالفعل.",
+            "fr": "La femme d'Egon est déjà décédée.",
+            "text": {
+              "ar": "زوجة إيغون متوفاة بالفعل.",
+              "fr": "La femme d'Egon est déjà décédée."
+            }
+          },
+          "h18": {
+            "ar": "في الليل يكون البحر خطيراً على السفن.",
+            "fr": "La nuit, la mer est dangereuse pour les bateaux.",
+            "text": {
+              "ar": "في الليل يكون البحر خطيراً على السفن.",
+              "fr": "La nuit, la mer est dangereuse pour les bateaux."
+            }
+          },
+          "h19": {
+            "ar": "كان إيغون بحاراً في مهنته السابقة.",
+            "fr": "Egon était marin de profession.",
+            "text": {
+              "ar": "كان إيغون بحاراً في مهنته السابقة.",
+              "fr": "Egon était marin de profession."
+            }
+          },
+          "h20": {
+            "ar": "حياة إيغون على الجزيرة ليست مملة أبداً.",
+            "fr": "La vie d'Egon sur l'île n'est jamais ennuyeuse.",
+            "text": {
+              "ar": "حياة إيغون على الجزيرة ليست مملة أبداً.",
+              "fr": "La vie d'Egon sur l'île n'est jamais ennuyeuse."
+            }
+          },
+          "h21": {
+            "ar": "تعرف البائعةُ الكتابَ ومؤلفَه.",
+            "fr": "La commerçante connaît le livre et son auteur.",
+            "text": {
+              "ar": "تعرف البائعةُ الكتابَ ومؤلفَه.",
+              "fr": "La commerçante connaît le livre et son auteur."
+            }
+          },
+          "h22": {
+            "ar": "يقرأ إيغون حالياً كتاباً للمؤلف كيمبن (Kempen).",
+            "fr": "En ce moment, Egon lit un livre de Kempen.",
+            "text": {
+              "ar": "يقرأ إيغون حالياً كتاباً للمؤلف كيمبن (Kempen).",
+              "fr": "En ce moment, Egon lit un livre de Kempen."
+            }
+          },
+          "h23": {
+            "text": {
+              "ar": "يتعلم تلاميذ الصف الأول في درس الإنجليزية حروف العلة والحروف الساكنة فقط.",
+              "fr": "Les élèves de première année n'apprennent que les voyelles et les consonnes en cours d'anglais."
+            },
+            "options": {
+              "ar": [
+                "المذيعة (Moderatorin)",
+                "إليزابيث دانتسينغر (Elisabeth Danzinger)",
+                "كورت فاوش (Kurt Wausch)"
+              ],
+              "fr": [
+                "La présentatrice (Moderatorin)",
+                "Elisabeth Danzinger",
+                "Kurt Wausch"
+              ]
+            }
+          },
+          "h24": {
+            "text": {
+              "ar": "في المدرسة الابتدائية يجب على المرء تعلم 13 حرف علة إضافياً.",
+              "fr": "À l'école primaire, il faut apprendre 13 voyelles supplémentaires."
+            },
+            "options": {
+              "ar": [
+                "المذيعة (Moderatorin)",
+                "إليزابيث دانتسينغر (Elisabeth Danzinger)",
+                "كورت فاوش (Kurt Wausch)"
+              ],
+              "fr": [
+                "La présentatrice (Moderatorin)",
+                "Elisabeth Danzinger",
+                "Kurt Wausch"
+              ]
+            }
+          },
+          "h25": {
+            "text": {
+              "ar": "ينطق المرء بعض حروف العلة في اللغة الإنجليزية بطريقة مختلفة.",
+              "fr": "On prononce certaines voyelles différemment en anglais."
+            },
+            "options": {
+              "ar": [
+                "المذيعة (Moderatorin)",
+                "إليزابيث دانتسينغر (Elisabeth Danzinger)",
+                "كورت فاوش (Kurt Wausch)"
+              ],
+              "fr": [
+                "La présentatrice (Moderatorin)",
+                "Elisabeth Danzinger",
+                "Kurt Wausch"
+              ]
+            }
+          },
+          "h26": {
+            "text": {
+              "ar": "ينشأ الأطفال في بيئة متعددة الثقافات.",
+              "fr": "Les enfants grandissent dans un environnement multiculturel."
+            },
+            "options": {
+              "ar": [
+                "المذيعة (Moderatorin)",
+                "إليزابيث دانتسينغر (Elisabeth Danzinger)",
+                "كورت فاوش (Kurt Wausch)"
+              ],
+              "fr": [
+                "La présentatrice (Moderatorin)",
+                "Elisabeth Danzinger",
+                "Kurt Wausch"
+              ]
+            }
+          },
+          "h27": {
+            "text": {
+              "ar": "تقدّم بعض المدارس فقط اللغة الإنجليزية.",
+              "fr": "Seules quelques écoles proposent l'anglais."
+            },
+            "options": {
+              "ar": [
+                "المذيعة (Moderatorin)",
+                "إليزابيث دانتسينغر (Elisabeth Danzinger)",
+                "كورت فاوش (Kurt Wausch)"
+              ],
+              "fr": [
+                "La présentatrice (Moderatorin)",
+                "Elisabeth Danzinger",
+                "Kurt Wausch"
+              ]
+            }
+          },
+          "h28": {
+            "text": {
+              "ar": "يحصل المرء على معلومات حول البرنامج المدرسي عند التسجيل.",
+              "fr": "On obtient des informations sur le programme scolaire lors de l'inscription."
+            },
+            "options": {
+              "ar": [
+                "المذيعة (Moderatorin)",
+                "إليزابيث دانتسينغر (Elisabeth Danzinger)",
+                "كورت فاوش (Kurt Wausch)"
+              ],
+              "fr": [
+                "La présentatrice (Moderatorin)",
+                "Elisabeth Danzinger",
+                "Kurt Wausch"
+              ]
+            }
+          },
+          "h29": {
+            "text": {
+              "ar": "كانت هناك دائماً مدارس نموذجية رائدة في مجال التربية والتعليم.",
+              "fr": "Il y a toujours eu des écoles pilotes dans le domaine de l'éducation."
+            },
+            "options": {
+              "ar": [
+                "المذيعة (Moderatorin)",
+                "إليزابيث دانتسينغر (Elisabeth Danzinger)",
+                "كورت فاوش (Kurt Wausch)"
+              ],
+              "fr": [
+                "La présentatrice (Moderatorin)",
+                "Elisabeth Danzinger",
+                "Kurt Wausch"
+              ]
+            }
+          },
+          "h30": {
+            "text": {
+              "ar": "النقاش له مؤيدون ومعارضون.",
+              "fr": "Le débat a des partisans et des opposants."
+            },
+            "options": {
+              "ar": [
+                "المذيعة (Moderatorin)",
+                "إليزابيث دانتسينغر (Elisabeth Danzinger)",
+                "كورت فاوش (Kurt Wausch)"
+              ],
+              "fr": [
+                "La présentatrice (Moderatorin)",
+                "Elisabeth Danzinger",
+                "Kurt Wausch"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -94,7 +94,7 @@ global.passageLang = 'de';
 global.reviewFilter = 'all';
 
 // Load script.js content into environment
-const scriptCode = fs.readFileSync(path.join(__dirname, '../script.js'), 'utf8');
+const scriptCode = fs.readFileSync(path.join(__dirname, '../js/script.js'), 'utf8');
 
 // Execute script within context
 const vm = require('vm');

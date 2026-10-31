@@ -12,9 +12,9 @@ function runFile(fileName) {
   vm.runInContext(code, sandbox);
 }
 
-runFile('testsData.js');
-runFile('translationsData.js');
-runFile('explanationsData.js');
+runFile('data/archive/legacy/testsData.js');
+runFile('data/archive/legacy/translationsData.js');
+runFile('data/archive/legacy/explanationsData.js');
 
 const dataDir = path.join(baseDir, 'data');
 const testsDir = path.join(dataDir, 'tests');
