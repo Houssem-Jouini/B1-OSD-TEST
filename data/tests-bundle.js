@@ -170,6 +170,17 @@
     "partsCount": 6,
     "questionsCount": 50,
     "fileName": "data/tests/modellsatz-14.json"
+  },
+  {
+    "id": "modellsatz-15",
+    "title": "Modelltest 9 — So geht's noch besser B1",
+    "badge": "Modelltest 9",
+    "examTitle": "Goethe / ÖSD B1 Prüfungssimulation — Modelltest 9",
+    "examSub": "Lesen (5 Teile) & Hören (4 Teile) · So geht's noch besser (Klett)",
+    "timeTotal": 65,
+    "partsCount": 6,
+    "questionsCount": 50,
+    "fileName": "data/tests/modellsatz-15.json"
   }
 ];
   root.__B1_ARCHIVED_MANIFEST__ = [
@@ -29327,6 +29338,3030 @@
                   "Kurt Wausch"
                 ]
               }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "modellsatz-15",
+    "title": "Modelltest 9 — So geht's noch besser B1",
+    "badge": "Modelltest 9",
+    "examTitle": "Goethe / ÖSD B1 Prüfungssimulation — Modelltest 9",
+    "examSub": "Lesen (5 Teile) & Hören (4 Teile) · So geht's noch besser (Klett)",
+    "timeTotal": 65,
+    "parts": [
+      {
+        "id": 1,
+        "title": "Teil 1",
+        "time": 10,
+        "instructions": "Lesen Sie den Text und die Aufgaben 1 bis 6 dazu. Wählen Sie: Sind die Aussagen Richtig oder Falsch?",
+        "articles": [
+          {
+            "heading": "Kaufrausch",
+            "sub": "Ein Phänomen unserer Zeit scheint ein phasenweise unkontrolliertes Kaufverhalten zu sein. Vielleicht eine „Ventil-Funktion“ für Probleme verschiedenster Art. Das klingt nach Sucht, was die Krankenkassen aber bislang nicht so sehen und für eine Behandlung nicht bezahlen.",
+            "body": [
+              "Der Kaufrausch, Kaufzwang, das zwanghafte Konsumverhalten oder die „Kauforgie“ gehören (noch) nicht zu den Impulshandlungen, jedenfalls nicht laut psychiatrischer Lehrbücher. Sie werden aber wohl eines Tages in diese Kategorie aufgenommen. Tatsächlich überkommt schon heute viele, sogenannte „klinisch gesunde“ Mitbürger beiderlei Geschlechts immer öfter ein fast anfallsweise auftretender Kaufdrang. Manche überziehen dabei ihr Konto, andere verschulden sich sogar ganz erheblich. Man schätzt, dass es jeden 20. Bundesbürger trifft, also Millionen Menschen. Dabei handelt es sich nicht nur um eine „typisch weibliche Eigenheit“, denn es belastet auch häufig Männer.",
+              "Schon immer ist das Schlaraffenland der Traum der Menschheit. Ein Land, in dem gebratene Gänse in den Mund fliegen, in dessen Flüssen Milch und Honig fließen. Aber der Traum ist eine Utopie und wird wohl nie Realität werden. Oder vielleicht doch? Das Kaufparadies ist nur einen Klick weit von mir entfernt. Ist der E-Kommerz also die Idee des Schlaraffenland-Traumes? Unschön, dass auch digital bestellte Waren bezahlt werden müssen und zwar real.",
+              "Einkaufen vom Sofa aus. Der Gedanke ist gar nicht so neu. Schon vor 100 Jahren wurden Versandhäuser gegründet, die dafür sorgten, dass vor allem ländliche Gebiete mit Konsumartikeln versorgt wurden. Bequem von zu Hause aus konnte man die Waren bestellen. Doch Kaufparadiese konnte man das noch nicht nennen. Die Kunden mussten sich in den dicken Katalogen durch Hunderte von Seiten arbeiten. Den Überblick zu bewahren war schwer, ein Vergleich von Preis und Qualität erst recht. Die wahre Revolution des Einkaufens findet erst jetzt statt.",
+              "In einer Studie zur Marktforschung wurde das Kaufverhalten von Männern und Frauen untersucht. Es sollten Kriterien gefunden werden, Frauen vom digitalen Kaufraum zu überzeugen. Wir beobachten, dass Frauen gerne Einkaufsbummel mit Freundinnen machen. Männer begleiten dabei seltener, sie werden leicht nervös und rollen die Augen, wenn frau schon wieder stehen bleibt, um eine Ware zu betrachten und zu prüfen. Werden Marketing-Experten in Online-Shops für die Frauen so etwas wie soziale Verweilzonen einbauen oder regelt sich das Kaufverhalten durch die Tatsache, dass berufstätige Frauen heute immer weniger Zeit haben?",
+              "Das Suchtrisiko wird sich wahrscheinlich durch das digitale Kaufparadies für Männer und Frauen erhöhen. Unkontrollierte und sinnlose Einkäufe sind noch leichter geworden, während sich die Sucht besser verheimlichen lässt, denn es kommt die Ware ja gleich nach Hause. Nun gut, uns Therapeuten, Psychologen und Psychiatern wird dabei die Arbeit nicht ausgehen."
+            ]
+          }
+        ],
+        "example": {
+          "text": "Der Blogger schreibt über das Thema Kaufsucht.",
+          "answer": "richtig"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "type": "tf",
+            "text": "Das zwanghafte Konsumverhalten wird als Sucht anerkannt.",
+            "answer": "falsch",
+            "num": 1
+          },
+          {
+            "id": 2,
+            "type": "tf",
+            "text": "Das Problem betrifft fast ausschließlich Frauen.",
+            "answer": "falsch",
+            "num": 2
+          },
+          {
+            "id": 3,
+            "type": "tf",
+            "text": "Der Kaufrausch kann große finanzielle Probleme verursachen.",
+            "answer": "richtig",
+            "num": 3
+          },
+          {
+            "id": 4,
+            "type": "tf",
+            "text": "Online-Shops sind das moderne Schlaraffenland.",
+            "answer": "falsch",
+            "num": 4
+          },
+          {
+            "id": 5,
+            "type": "tf",
+            "text": "Menschen auf dem Land konnten früher bei Versandhäusern bestellen.",
+            "answer": "richtig",
+            "num": 5
+          },
+          {
+            "id": 6,
+            "type": "tf",
+            "text": "Frauen haben immer weniger Zeit und müssen online bestellen.",
+            "answer": "falsch",
+            "num": 6
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Teil 2",
+        "time": 20,
+        "instructions": "Lesen Sie den Text aus der Presse und die Aufgaben 7 bis 9 dazu. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+        "articles": [
+          {
+            "heading": "Straßenzeitungen in Deutschland",
+            "sub": "Sie heißen z.B. motz – Kippe – Parkbank – strassenfeger – Abseits!?",
+            "body": [
+              "Es gibt ca. 35 bis 40 Straßenzeitungen in Deutschland. Beinahe alle von ihnen entstanden Anfang bis Mitte der 90er Jahre als soziale Projekte im Kampf gegen Wohnungslosigkeit. Jede Zeitung hat ihr eigenes Profil. Berichtet wird über die Situation von obdachlosen Menschen: Die Zeitungen geben aktuelle Informationen über soziale Einrichtungen und diskutieren Alltagsprobleme – meist nicht nur von Wohnungslosen, sondern auch Hartz IV-Empfängern und anderen Menschen mit geringem Einkommen.",
+              "Die Redaktion der Straßenzeitungen besteht meist aus einem oder zwei Festangestellten (mit sozialpädagogischer oder journalistischer Ausbildung) und ehrenamtlichen Mitarbeitern. Dazu kommen die freien Autoren, je nach Zeitung ehrenamtlich oder bezahlt. Der Anteil der Wohnungslosen, die sich an der Produktion der Zeitung beteiligen, variiert von Stadt zu Stadt.",
+              "Allen Straßenzeitungen ist gemein, dass sie direkt auf der Straße verkauft werden, in manchen Städten wie Stuttgart oder Hamburg an festen Plätzen, in anderen, wie Berlin, überall. Dabei bleiben den Verkäufern je nach Zeitung mindestens fünfzig Prozent des Verkaufspreises als Gewinn.",
+              "Möglichen Klagen über Belästigung auf der Straße versuchen einige Straßenzeitungen zuvorzukommen, indem sie Ausweise an die Verkaufenden ausgeben. Manche Straßenzeitungen überprüfen die soziale Not ihrer Verkäufer: 500 Euro im Monat ist eine übliche Grenze. Andere Städte gehen davon aus, dass diesen Job sowieso nur macht, wer sonst nichts anderes hat."
+            ]
+          }
+        ],
+        "example": {
+          "text": "Der Artikel handelt von ...",
+          "options": [
+            "Alltagsproblemen in Deutschland.",
+            "alternativen Zeitungsprojekten in Deutschland.",
+            "Problemen der Zeitung in Deutschland."
+          ],
+          "answer": 1
+        },
+        "questions": [
+          {
+            "id": 7,
+            "type": "mcq",
+            "text": "Die Zeitungen gibt es seit etwa ...",
+            "options": [
+              "zwanzig Jahren.",
+              "dreißig Jahren.",
+              "vierzig Jahren."
+            ],
+            "answer": 0,
+            "num": 7
+          },
+          {
+            "id": 8,
+            "type": "mcq",
+            "text": "Die Artikel schreiben ...",
+            "options": [
+              "nur Sozialpädagogen.",
+              "nur ausgebildete Journalisten.",
+              "verschiedene Autoren."
+            ],
+            "answer": 2,
+            "num": 8
+          },
+          {
+            "id": 9,
+            "type": "mcq",
+            "text": "Die Zeitungsverkäufer ...",
+            "options": [
+              "werden am Gewinn beteiligt.",
+              "verdienen fünfhundert Euro im Monat.",
+              "klagen über Belästigungen."
+            ],
+            "answer": 0,
+            "num": 9
+          }
+        ],
+        "instructions2": "Lesen Sie den Text aus der Presse und die Aufgaben 10 bis 12 dazu. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+        "articles2": [
+          {
+            "heading": "Der Wetterfrosch für das iPhone",
+            "sub": "Schneestürme, extreme Hitze oder starke Gewitter – jetzt kann sich jeder die Warnungen auf sein iPhone schicken lassen, sogar postleitzahlengenau.",
+            "body": [
+              "Das Katastrophen-Warnsystem „Katwarn“, das vom Fraunhofer-Institut für Offene Kommunikations-Systeme FOKUS und dem Verband Öffentlicher Versicherer entwickelt wurde, übermittelt die Warnungen an angemeldete Nutzer über eine kostenlose App. In mehreren Städten warnte „Katwarn“ bereits bei Unglücksfällen. Mit dem Warnkanal des Deutschen Wetterdienstes deckt „Katwarn“ eine große Bandbreite an Gefahrensituationen ab. Das ist ein wichtiger Schritt hin zu einem umfassenden kommunalen Warndienst. Das Besondere an „Katwarn“: Es übermittelt die Warnungen postleitzahlengenau an die angemeldeten Nutzer. Auf diese Weise würden Menschen etwa zu Hause, im Büro oder unterwegs erreicht. So könnten sie rechtzeitig Fenster schließen oder sich an einen sicheren Ort begeben.",
+              "Der renommierte Wetterdienstleister Meteomedia – zu Beginn der 90er-Jahre von Jörg Kachelmann gegründet – stellt sein gesamtes Datenmaterial mit „Kachelmann Unwetter-Warnungen“ als übersichtliche App zur Verfügung. Egal ob Gewitter, Windböen oder Regenfronten – eine Radarkarte zeigt Ihnen nicht nur die aktuellen Gefahrengebiete, sondern auch den voraussichtlichen Verlauf der Regenwolken.",
+              "Auf Wunsch lassen Sie sich per Push-Nachricht vor Unwetter-Gefahr an Ihrem Standort oder an einer festgelegten Adresse warnen. Die ausführlichen Warntexte bezüglich Zugbahn und Intensität stellen selbst besonders wissbegierige Nutzer zufrieden. Fazit: Keine Angst mehr vor bösen Überraschungen!"
+            ]
+          }
+        ],
+        "questions2": [
+          {
+            "id": 10,
+            "type": "mcq",
+            "text": "Für Mobiltelefone der neuen Generation gibt es Warnsysteme für ...",
+            "options": [
+              "Kommunikationsprobleme.",
+              "Unwetter.",
+              "Versicherungen."
+            ],
+            "answer": 1,
+            "num": 10
+          },
+          {
+            "id": 11,
+            "type": "mcq",
+            "text": "Der Warnkanal funktioniert ...",
+            "options": [
+              "auf die Postleitzahl genau.",
+              "nur in bestimmten Orten.",
+              "nur bei geschlossenen Fenstern."
+            ],
+            "answer": 0,
+            "num": 11
+          },
+          {
+            "id": 12,
+            "type": "mcq",
+            "text": "Das System gefällt auch ...",
+            "options": [
+              "anspruchsvollen Menschen.",
+              "dem Wetterfrosch.",
+              "dem iPhone."
+            ],
+            "answer": 0,
+            "num": 12
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Teil 3",
+        "time": 10,
+        "instructions": "Lesen Sie die Situation 13 bis 19 und die Anzeigen A bis J aus verschiedenen deutschsprachigen Medien. Wählen Sie: Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Die Anzeige aus dem Beispiel können Sie nicht mehr verwenden. Für eine Situation gibt es keine passende Anzeige. In diesem Fall schreiben Sie 0.",
+        "example": {
+          "text": "Frau Bayer hatte eine Operation, jetzt beginnt sie wieder mit dem Training. Sie sucht nach Informationen, wie sie sich vor Überanstrengung und Verletzungen schützen kann.",
+          "answer": "B"
+        },
+        "adsFormatted": [
+          {
+            "code": "A",
+            "tagPos": "left",
+            "hasPin": true,
+            "cardClass": "anzeige-style-a",
+            "title": "Im Internet gibt es ein großes Sportangebot.",
+            "text": "Egal, ob Sie an aktuellen Informationen, Hintergrundanalysen oder Kontaktadressen interessiert sind – hier werden Sie fast alles finden.\n\nBei www.sport.de halten Sie die „Ticker-News“ über das aktuelle Sportgeschehen auf dem Laufenden.",
+            "html": "<div class=\"anzeige-headline\">Im Internet gibt es ein großes Sportangebot.</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">Egal, ob Sie an aktuellen Informationen, Hintergrundanalysen oder Kontaktadressen interessiert sind – hier werden Sie fast alles finden.<br><br>Bei <strong>www.sport.de</strong> halten Sie die „Ticker-News“ über das aktuelle Sportgeschehen auf dem Laufenden.</div>"
+          },
+          {
+            "code": "B",
+            "tagPos": "right",
+            "hasPin": true,
+            "cardClass": "anzeige-style-b",
+            "title": "Klug und praktisch.",
+            "text": "Nicht nur für Gesunde, auch für chronisch Kranke ist das praxisnahe Buch von Sportmediziner Reinhard Bast interessant. Es beantwortet kompetent, wer, wann, wie viel, welchen Sport treiben darf.\n\nHansen Vlg. Im Buchhandel.",
+            "html": "<div class=\"anzeige-headline\">Klug und praktisch.</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">Nicht nur für Gesunde, auch für chronisch Kranke ist das praxisnahe Buch von Sportmediziner Reinhard Bast interessant. Es beantwortet kompetent, wer, wann, wie viel, welchen Sport treiben darf.<br><br><strong>Hansen Vlg. Im Buchhandel.</strong></div>"
+          },
+          {
+            "code": "C",
+            "tagPos": "left",
+            "hasPin": true,
+            "cardClass": "anzeige-style-c",
+            "title": "F - S - X: Aktivreisen für Sportbegeisterte",
+            "text": "• Inlineskating\n• Mountainbiking\n• Streetdance/HipHop\n• Alle Wassersportarten\n\nwww.f-s-x.de · Tel. 030-61484022",
+            "html": "<div class=\"anzeige-headline\">F - S - X · Aktivreisen für Sportbegeisterte</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">• Inlineskating<br>• Mountainbiking<br>• Streetdance/HipHop<br>• Alle Wassersportarten<br><br><strong>www.f-s-x.de</strong> · Tel. 030-61484022</div>"
+          },
+          {
+            "code": "D",
+            "tagPos": "right",
+            "hasPin": true,
+            "cardClass": "anzeige-style-d",
+            "title": "Fahrradspaß aber nie „oben ohne“!",
+            "text": "Viele Kopfverletzungen können durch wirksamen Kopfschutz verhindert werden. ABUS-Fahrradhelme für Kinder, Jugendliche und Erwachsene sind TÜV-geprüft.\n\nGratis-Infopaket anfordern:\nABUS Aug. Bremicker Söhne KG\nAltenhofer Weg 25, 58300 Wetter",
+            "html": "<div class=\"anzeige-headline\">Fahrradspaß aber nie „oben ohne“!</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">Viele Kopfverletzungen können durch wirksamen Kopfschutz verhindert werden. ABUS-Fahrradhelme für Kinder, Jugendliche und Erwachsene sind TÜV-geprüft.<br><br>Gratis-Infopaket anfordern:<br><strong>ABUS Aug. Bremicker Söhne KG</strong><br>Altenhofer Weg 25, 58300 Wetter</div>"
+          },
+          {
+            "code": "E",
+            "tagPos": "left",
+            "hasPin": true,
+            "cardClass": "anzeige-style-e",
+            "title": "In Heidis Winterwelt auf der Heidi-Alm am Falkert",
+            "text": "In Kärnten in 1900 m Seehöhe lernt ihr, wie einfach Skilaufen ist. Auf absolut sicheren Pisten garantieren wir Winterfreuden in Sonne und Schnee von Dezember bis April. Kinder bis 6 Jahre haben die ganze Saison GRATISSKILIFT-BENUTZUNG.\n\nGratis Info von DER KINDERBERG FALKERT; A-9564 Falkert-Patergasse",
+            "html": "<div class=\"anzeige-headline\">In Heidis Winterwelt auf der Heidi-Alm</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">In Kärnten in 1900 m Seehöhe lernt ihr, wie einfach Skilaufen ist. Auf absolut sicheren Pisten garantieren wir Winterfreuden in Sonne und Schnee von Dezember bis April. Kinder bis 6 Jahre haben die ganze Saison GRATISSKILIFT-BENUTZUNG.<br><br><strong>Gratis Info von DER KINDERBERG FALKERT</strong><br>A-9564 Falkert-Patergasse</div>"
+          },
+          {
+            "code": "F",
+            "tagPos": "right",
+            "hasPin": true,
+            "cardClass": "anzeige-style-f",
+            "title": "Sportland Österreich — aktiver Heimaturlaub",
+            "text": "Nordic Walking, Laufen, Biken oder Golfen: die besten Sommer-Adressen – Veranstaltungen, Hotels, Pensionen – im Reise-Extra von „News“.",
+            "html": "<div class=\"anzeige-headline\">Sportland Österreich — aktiver Heimaturlaub</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">Nordic Walking, Laufen, Biken oder Golfen: die besten Sommer-Adressen – Veranstaltungen, Hotels, Pensionen – im Reise-Extra von „News“.</div>"
+          },
+          {
+            "code": "G",
+            "tagPos": "left",
+            "hasPin": true,
+            "cardClass": "anzeige-style-g",
+            "title": "100.000fach bewährt! Original Bad Würzacher Gelenkschmiere",
+            "text": "Bei Rheuma, Arthritis, Arthrose, Ischias, Bandscheibenschmerzen und Hexenschuss.\n\nIn Ihrer Apotheke.",
+            "html": "<div class=\"anzeige-headline\">100.000fach bewährt! Bad Würzacher Gelenkschmiere</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">Bei Rheuma, Arthritis, Arthrose, Ischias, Bandscheibenschmerzen und Hexenschuss.<br><br><strong>In Ihrer Apotheke.</strong></div>"
+          },
+          {
+            "code": "H",
+            "tagPos": "right",
+            "hasPin": true,
+            "cardClass": "anzeige-style-h",
+            "title": "Das neue FORMAT Fahrrad von Sinora",
+            "text": "In Deutschland produziert. Einzigartiger Look. Hundertprozentige Sicherheit. Alle Teile kind- und jugendgerecht. Absolute Markenqualität. Mit dem FORMAT Rad ist man „in“ – auf dem Schulhof und im Straßenverkehr.\n\nErhältlich über den Fahrradfachhandel.",
+            "html": "<div class=\"anzeige-headline\">Das neue FORMAT Fahrrad von Sinora</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">In Deutschland produziert. Einzigartiger Look. Hundertprozentige Sicherheit. Alle Teile kind- und jugendgerecht. Absolute Markenqualität. Mit dem FORMAT Rad ist man „in“ – auf dem Schulhof und im Straßenverkehr.<br><br><strong>Erhältlich über den Fahrradfachhandel.</strong></div>"
+          },
+          {
+            "code": "I",
+            "tagPos": "left",
+            "hasPin": true,
+            "cardClass": "anzeige-style-i",
+            "title": "fit und beweglich: Mit dem neuartigen Ski-Simulator",
+            "text": "Mit dem neuartigen Ski-Simulator von Galaxy Sport können Sie alle Bewegungsabläufe des Skifahrens auch ohne Schnee trainieren. „Super G“ hat Platz auf 100x160 Zentimetern. 1700 Euro.\n\nInfos über Lampe, Tel.: 089/677926",
+            "html": "<div class=\"anzeige-headline\">fit und beweglich: Mit dem neuartigen Ski-Simulator</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">Mit dem neuartigen Ski-Simulator von Galaxy Sport können Sie alle Bewegungsabläufe des Skifahrens auch ohne Schnee trainieren. „Super G“ hat Platz auf 100x160 Zentimetern. 1700 Euro.<br><br><strong>Infos über Lampe</strong>, Tel.: 089/677926</div>"
+          },
+          {
+            "code": "J",
+            "tagPos": "right",
+            "hasPin": true,
+            "cardClass": "anzeige-style-j",
+            "title": "Bewegung verbessert die Haltung.",
+            "text": "Besonders günstige Sportarten sind Tanzen, Reiten, Skilanglauf oder Schwimmen. Aber auch Yoga ist ein idealer Weg, die Haltung und die Beweglichkeit zu verbessern.\n\nInformationen: Bund der Yoga-/Vidya-Lehrer, Gut Hoffnungstal, 57641 Oberlahr",
+            "html": "<div class=\"anzeige-headline\">Bewegung verbessert die Haltung.</div><div style=\"font-size:13.5px; line-height:1.5; margin-top:8px;\">Besonders günstige Sportarten sind Tanzen, Reiten, Skilanglauf oder Schwimmen. Aber auch Yoga ist ein idealer Weg, die Haltung und die Beweglichkeit zu verbessern.<br><br><strong>Informationen: Bund der Yoga-/Vidya-Lehrer</strong><br>Gut Hoffnungstal, 57641 Oberlahr</div>"
+          }
+        ],
+        "questions": [
+          {
+            "id": 13,
+            "type": "match",
+            "text": "Herr Winkler möchte sich möglichst ausführlich über aktuelle Sportereignisse informieren.",
+            "answer": "A",
+            "num": 13
+          },
+          {
+            "id": 14,
+            "type": "match",
+            "text": "Tanja möchte gerne Reiten lernen und sucht nach entsprechenden Informationen.",
+            "answer": "J",
+            "num": 14
+          },
+          {
+            "id": 15,
+            "type": "match",
+            "text": "Herr Emmerich möchte zu Hause für den Skiurlaub trainieren und sucht nach einem geeigneten Sportgerät.",
+            "answer": "I",
+            "num": 15
+          },
+          {
+            "id": 16,
+            "type": "match",
+            "text": "Frau Rühl möchte ihre Körperhaltung verbessern und beweglicher werden. Da sie keine Lust auf Sport hat, sucht sie nach Alternativen.",
+            "answer": "G",
+            "num": 16
+          },
+          {
+            "id": 17,
+            "type": "match",
+            "text": "Andy weiß, dass es bei Fahrradunfällen oft zu Kopfverletzungen kommt. Er fährt oft Rad und möchte sich schützen.",
+            "answer": "D",
+            "num": 17
+          },
+          {
+            "id": 18,
+            "type": "match",
+            "text": "Ellen und Uwe sind begeisterte Wintersportler und möchten, dass auch ihr fünfjähriger Sohn Skilaufen lernt.",
+            "answer": "0",
+            "num": 18
+          },
+          {
+            "id": 19,
+            "type": "match",
+            "text": "Frau Ziegler will für ihren Neffen ein gutes Fahrrad kaufen.",
+            "answer": "H",
+            "num": 19
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Teil 4",
+        "time": 15,
+        "instructions": "Lesen Sie die Texte 20 bis 26. Wählen Sie: Welche Personen sind gegen Massentierhaltung? Beurteilen Sie folgende Leserbriefe zu einem Aufsatz über Fleischproduktions-Betriebe in Deutschland.",
+        "topic": "Welche Personen sind gegen Massentierhaltung?",
+        "example": {
+          "who": "Schneider, 45, Ulm",
+          "text": "Wie groß ein Betrieb ist, macht noch keine Aussage darüber, wie gut oder schlecht es die Tiere haben. Gerade Großbetriebe sind oft modern und entsprechen den strengen Vorschriften. Es ist darum absolut unfair, Massentierhaltung generell in ein schlechtes Licht zu setzen.",
+          "answer": "nein"
+        },
+        "letters": [
+          {
+            "id": 20,
+            "who": "Riechert, 37, Magdeburg",
+            "text": "Die Massenproduktion von Fleisch hat jedoch noch einen anderen Nachteil: Es entstehen Unmengen von Gülle, die Böden und Grundwasser belasten. In der Massentierhaltung füttern wir Tiere mit Lebensmitteln, wir machen sie zu Nahrungskonkurrenten. Sie fressen, was wir essen könnten, und machen daraus Fleisch – aber vor allem produzieren sie Exkremente.",
+            "answer": "ja",
+            "num": 20
+          },
+          {
+            "id": 21,
+            "who": "J. Stoll, 41, Meppen",
+            "text": "Millionen von Tieren leben in Ställen von Tiermastanlagen. Die Platzverhältnisse sind oft sehr beengt. Das führt bei vielen Tieren zwangsläufig zu Stress, der gestörtes Verhalten und Krankheiten verursachen kann. In meinen Augen ist die Massentierhaltung reine Tierquälerei.",
+            "answer": "ja",
+            "num": 21
+          },
+          {
+            "id": 22,
+            "who": "Eva-Maria, 29, Jena",
+            "text": "Rund 40 Prozent der Kalorien, die wir täglich essen, sind Fleisch und Wurst und stammen also aus tierischen Lebensmitteln. Bevor wir über die Tierhaltung sprechen, sollten wir vielleicht zuerst die Ernährungsgewohnheiten der Bürger diskutieren. Die Landwirte produzieren schließlich für einen tatsächlich vorhandenen Bedarf.",
+            "answer": "nein",
+            "num": 22
+          },
+          {
+            "id": 23,
+            "who": "Dr. Mayer, 56, Kufstein",
+            "text": "In einem Betrieb, in dem massenhaft Tiere gehalten werden, treten selbstverständlich auch massenhaft Krankheiten auf, die behandelt werden müssen. Versteht sich von selbst, dass das nicht individuell zu machen ist. Darum werden prophylaktisch allen Tieren Medikamente, wie z.B. Antibiotika gegeben. Das schließt leider auch eine Wirkung auf den Menschen nicht aus: Nein Danke!",
+            "answer": "ja",
+            "num": 23
+          },
+          {
+            "id": 24,
+            "who": "Köhler, 33, Essen",
+            "text": "Ich halte nichts von der Massenhysterie gegen die Massentierhaltung. Keime, die auf dem Fleisch von Supermärkten gefunden worden sein sollen, machen nicht krank, wenn einfache Hygieneregeln befolgt werden. Sauberkeit ist das oberste Gebot sowohl im Umgang mit dem Fleisch als auch mit den Küchengeräten.",
+            "answer": "nein",
+            "num": 24
+          },
+          {
+            "id": 25,
+            "who": "Weiß, 68, Berlin",
+            "text": "Folgen wir Herrn Schmidingers Beispiel und leben von nun an vegan! Erstmals hat ein Forscher auch die Flächen, die für die Tierhaltung gerodet werden, in die Klimabilanz von Fleisch eingerechnet – mit erschreckendem Ergebnis. Ein Kilo Fleisch ist demnach für das Klima so schädlich wie eine Autofahrt von Berlin nach Rom.",
+            "answer": "ja",
+            "num": 25
+          },
+          {
+            "id": 26,
+            "who": "Ewald, 42, Reutte",
+            "text": "Allerdings stellen auch die Arbeitskräfte in großen Betrieben ein Risiko dar. Während sich bei kleineren Beständen der geschulte Landwirt selbst um die Tiere kümmert, machen das in Riesenbetrieben andere Arbeitskräfte. Diese sind oft nicht gut geschult und es gibt schnell Probleme mit dem Tierschutz.",
+            "answer": "ja",
+            "num": 26
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Teil 5",
+        "time": 10,
+        "instructions": "Lesen Sie die Aufgaben 27 bis 30 und den Text dazu. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+        "articles": [
+          {
+            "heading": "Beipackzettel",
+            "sub": "Der Beipackzettel informiert über Wirkung und mögliche Nebenwirkungen und Risiken des Arzneimittels, damit Sie es richtig anwenden können. Der Beipackzettel kann Ihr Gespräch mit einem Arzt oder Apotheker nicht ersetzen. Nur diese können entscheiden, ob und warum Sie ein Arzneimittel einnehmen müssen.",
+            "body": [
+              "Die Arzneimittelhersteller sind laut Gesetz dazu verpflichtet, für ihre Arzneimittel einen Beipackzettel zu verfassen und ihn den Medikamenten beizulegen. Sie finden die Informationen im Beipackzettel genau in der Reihenfolge, wie Sie die Informationen in Zusammenhang mit der Medikamenteneinnahme benötigen:",
+              "• Es ist wichtig, dass Sie den gesamten Beipackzettel schon vor der erstmaligen Einnahme bzw. Anwendung des Medikamentes sorgfältig durchlesen.",
+              "• An erster Stelle stehen die Hinweise, was Sie vor der Behandlung wissen müssen, z. B. gegen welche Krankheiten ein Medikament wirksam ist und wann Sie es nicht einnehmen dürfen.",
+              "• Danach folgen Informationen, die für Sie kurz bevor und während der Behandlung wichtig sind, z. B. mit welchen anderen Arzneimitteln sich das Medikament nicht verträgt oder in welcher Menge das Medikament eingenommen wird.",
+              "• Zuletzt stehen Hinweise, die während und nach der Behandlung für Sie wichtig sind, z. B. ob und welche Nebenwirkungen auftreten können und wie Sie ein Arzneimittel am besten aufbewahren."
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "id": 27,
+            "type": "mcq",
+            "text": "Der Beipackzettel ...",
+            "options": [
+              "macht den Gang zum Arzt überflüssig.",
+              "muss jedem Medikament beigelegt werden.",
+              "erklärt, warum man das Mittel braucht."
+            ],
+            "answer": 1,
+            "num": 27
+          },
+          {
+            "id": 28,
+            "type": "mcq",
+            "text": "Den Beipackzettel sollte man ...",
+            "options": [
+              "lesen, bevor man das Medikament einnimmt.",
+              "aufbewahren.",
+              "dem Apotheker geben."
+            ],
+            "answer": 0,
+            "num": 28
+          },
+          {
+            "id": 29,
+            "type": "mcq",
+            "text": "Auf dem Beipackzettel steht, ...",
+            "options": [
+              "was es kostet.",
+              "wann es hergestellt wurde.",
+              "wogegen das Mittel hilft."
+            ],
+            "answer": 2,
+            "num": 29
+          },
+          {
+            "id": 30,
+            "type": "mcq",
+            "text": "Auf dem Beipackzettel steht auch, ...",
+            "options": [
+              "wie man das Medikament lagern sollte.",
+              "wie lange das Medikament hält.",
+              "woraus das Medikament besteht."
+            ],
+            "answer": 0,
+            "num": 30
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "title": "🎧 Hören",
+        "badge": "Modul Hören",
+        "isHoren": true,
+        "time": 40,
+        "instructions": "Modul Hören: 4 Teile, 30 Aufgaben. Klicken Sie auf den Play-Button, um die Original-Audiodatei zu starten. Die Aufgaben folgen dem Ablauf der Audioaufnahme.",
+        "audioSrc": "audio/modellsatz-15-hoeren.mp3",
+        "audioFallbacks": [
+          "audio/modellsatz-15-hoeren.mp3"
+        ],
+        "audioChapters": [
+          {
+            "time": 0,
+            "label": "00:00 Teil 1 (Beispiel · 2x)",
+            "part": 1,
+            "title": "Teil 1 · Beispiel (2x hören)",
+            "start": 0,
+            "end": 64
+          },
+          {
+            "time": 64,
+            "label": "01:04 Teil 1 (Texte 1–5 · 2x)",
+            "part": 1,
+            "title": "Teil 1 · Fünf kurze Texte (2x hören)",
+            "start": 64,
+            "end": 729
+          },
+          {
+            "time": 729,
+            "label": "12:09 Teil 2 (AIRSQUAWK001 Museum · 1x)",
+            "part": 2,
+            "title": "Teil 2 · Führung im technologischen Museum (1x hören)",
+            "start": 729,
+            "end": 989
+          },
+          {
+            "time": 989,
+            "label": "16:29 Teil 3 (Gespräch im Café über Amerika · 1x)",
+            "part": 3,
+            "title": "Teil 3 · Gespräch im Café über Amerika (1x hören)",
+            "start": 989,
+            "end": 1267
+          },
+          {
+            "time": 1267,
+            "label": "21:07 Teil 4 (1. Durchgang)",
+            "part": 4,
+            "title": "Teil 4 · Diskussion: Binationale Ehen (1. Durchgang)",
+            "start": 1267,
+            "end": 1788
+          },
+          {
+            "time": 1788,
+            "label": "29:48 Teil 4 (2. Durchgang — Wiederholung)",
+            "part": 4,
+            "title": "Teil 4 · Diskussion: Binationale Ehen (2. Durchgang)",
+            "start": 1788,
+            "end": 2236
+          }
+        ],
+        "horenSections": [
+          {
+            "id": 1,
+            "partNumber": 1,
+            "title": "Teil 1: Fünf kurze Texte",
+            "badge": "Aufgaben 1 – 10",
+            "intro": "Sie hören nun fünf kurze Texte. Sie hören jeden Text zweimal. Zu jedem Text lösen Sie zwei Aufgaben. Wählen Sie bei jeder Aufgabe die richtige Lösung. Lesen Sie zuerst das Beispiel. Dazu haben Sie 10 Sekunden Zeit.",
+            "example": {
+              "ex01": {
+                "num": "01",
+                "text": "Wenn man mit einem Mitarbeiter sprechen will, wählt man die 9.",
+                "type": "tf",
+                "answer": "richtig"
+              },
+              "ex02": {
+                "num": "02",
+                "text": "Für Ersatzteile und Zubehör wählt man die ...",
+                "options": [
+                  "1.",
+                  "2.",
+                  "3."
+                ],
+                "type": "mcq",
+                "answer": 1
+              }
+            },
+            "texts": [
+              {
+                "number": 1,
+                "title": "Text 1",
+                "qIds": [
+                  "h1",
+                  "h2"
+                ]
+              },
+              {
+                "number": 2,
+                "title": "Text 2",
+                "qIds": [
+                  "h3",
+                  "h4"
+                ]
+              },
+              {
+                "number": 3,
+                "title": "Text 3",
+                "qIds": [
+                  "h5",
+                  "h6"
+                ]
+              },
+              {
+                "number": 4,
+                "title": "Text 4",
+                "qIds": [
+                  "h7",
+                  "h8"
+                ]
+              },
+              {
+                "number": 5,
+                "title": "Text 5",
+                "qIds": [
+                  "h9",
+                  "h10"
+                ]
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "partNumber": 2,
+            "title": "Teil 2: Führung im technologischen Museum (AIRSQUAWK001)",
+            "badge": "Aufgaben 11 – 15",
+            "intro": "Sie hören nun einen Text. Sie hören den Text einmal. Dazu lösen Sie fünf Aufgaben. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c. Lesen Sie jetzt die Aufgaben 11 bis 15. Dazu haben Sie 60 Sekunden Zeit.",
+            "context": "Sie sind in einem technologischen Museum und hören eine Führung.",
+            "qIds": [
+              "h11",
+              "h12",
+              "h13",
+              "h14",
+              "h15"
+            ]
+          },
+          {
+            "id": 3,
+            "partNumber": 3,
+            "title": "Teil 3: Gespräch im Café über Amerika",
+            "badge": "Aufgaben 16 – 22",
+            "intro": "Sie hören nun ein Gespräch. Sie hören das Gespräch einmal. Dazu lösen Sie sieben Aufgaben. Wählen Sie: Sind die Aufgaben richtig oder falsch? Lesen Sie jetzt die Aufgaben 16 bis 22. Dazu haben Sie 60 Sekunden Zeit.",
+            "context": "Sie sitzen in einem Café und hören, wie sich zwei Personen unterhalten.",
+            "qIds": [
+              "h16",
+              "h17",
+              "h18",
+              "h19",
+              "h20",
+              "h21",
+              "h22"
+            ]
+          },
+          {
+            "id": 4,
+            "partNumber": 4,
+            "title": "Teil 4: Diskussion: Binationale Ehen und ihre Schwierigkeiten",
+            "badge": "Aufgaben 23 – 30",
+            "intro": "Sie hören nun eine Diskussion. Sie hören die Diskussion zweimal. Dazu lösen Sie acht Aufgaben. Ordnen Sie die Aussagen zu: Wer sagt was? Lesen Sie jetzt die Aussagen 23 bis 30. Dazu haben Sie 60 Sekunden Zeit.",
+            "context": "Die Moderatorin der Sendung „Aktuell“ diskutiert mit Frau Giannoulakis und Herrn Kleischner das Thema „Binationale Ehen und ihre Schwierigkeiten“.",
+            "speakers": [
+              {
+                "code": "a",
+                "name": "Moderatorin"
+              },
+              {
+                "code": "b",
+                "name": "Frau Giannoulakis"
+              },
+              {
+                "code": "c",
+                "name": "Max Kleischner"
+              }
+            ],
+            "example": {
+              "num": "0",
+              "text": "Sie hat ihren Mann im Urlaub kennen gelernt.",
+              "answerCode": "b",
+              "answerSpeaker": "Frau Giannoulakis"
+            },
+            "qIds": [
+              "h23",
+              "h24",
+              "h25",
+              "h26",
+              "h27",
+              "h28",
+              "h29",
+              "h30"
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "id": "h1",
+            "teilPart": 1,
+            "type": "tf",
+            "text": "Das Ernährungsprogramm gilt nur für Rentner.",
+            "answer": "falsch",
+            "num": 1,
+            "textNum": 1,
+            "audioStart": 64
+          },
+          {
+            "id": "h2",
+            "teilPart": 1,
+            "type": "mcq",
+            "text": "Rentner bekommen laut Krankenkassenangebot ...",
+            "options": [
+              "eine Massage.",
+              "Ausdauer- und Kräftigungstraining.",
+              "Krankengymnastik."
+            ],
+            "answer": 1,
+            "num": 2,
+            "textNum": 1,
+            "audioStart": 64
+          },
+          {
+            "id": "h3",
+            "teilPart": 1,
+            "type": "tf",
+            "text": "Der Name der gesuchten Teilnehmerin ist dreimal im Katalog vermerkt.",
+            "answer": "richtig",
+            "num": 3,
+            "textNum": 2,
+            "audioStart": 192
+          },
+          {
+            "id": "h4",
+            "teilPart": 1,
+            "type": "mcq",
+            "text": "Die Nummer des Friseursalons lautet ...",
+            "options": [
+              "0221-67453320.",
+              "0221-5025674.",
+              "0171-34504078."
+            ],
+            "answer": 0,
+            "num": 4,
+            "textNum": 2,
+            "audioStart": 192
+          },
+          {
+            "id": "h5",
+            "teilPart": 1,
+            "type": "tf",
+            "text": "Die zwei Damen wollen ins Theater gehen.",
+            "answer": "falsch",
+            "num": 5,
+            "textNum": 3,
+            "audioStart": 362
+          },
+          {
+            "id": "h6",
+            "teilPart": 1,
+            "type": "mcq",
+            "text": "Die Anruferin möchte vor der Abendvorstellung ...",
+            "options": [
+              "kurz nach Hause gehen.",
+              "noch etwas essen.",
+              "nochmal kurz bei ihrer Arbeit anhalten."
+            ],
+            "answer": 1,
+            "num": 6,
+            "textNum": 3,
+            "audioStart": 362
+          },
+          {
+            "id": "h7",
+            "teilPart": 1,
+            "type": "tf",
+            "text": "Das Angebot der Backwarenabteilung gilt nur für einen Tag.",
+            "answer": "richtig",
+            "num": 7,
+            "textNum": 4,
+            "audioStart": 464
+          },
+          {
+            "id": "h8",
+            "teilPart": 1,
+            "type": "mcq",
+            "text": "Ein Stück Kuchen kostet ...",
+            "options": [
+              "50 Cent.",
+              "75 Cent.",
+              "1,50 Euro."
+            ],
+            "answer": 1,
+            "num": 8,
+            "textNum": 4,
+            "audioStart": 464
+          },
+          {
+            "id": "h9",
+            "teilPart": 1,
+            "type": "tf",
+            "text": "Die Seminare werden von Fluggesellschaften durchgeführt.",
+            "answer": "falsch",
+            "num": 9,
+            "textNum": 5,
+            "audioStart": 590
+          },
+          {
+            "id": "h10",
+            "teilPart": 1,
+            "type": "mcq",
+            "text": "Im Seminar lernt man nichts ...",
+            "options": [
+              "über technische Dinge.",
+              "über Atem- und Entspannungsübungen.",
+              "über die Alpen."
+            ],
+            "answer": 2,
+            "num": 10,
+            "textNum": 5,
+            "audioStart": 590
+          },
+          {
+            "id": "h11",
+            "teilPart": 2,
+            "type": "mcq",
+            "text": "AIRSQUAWK001 ist ...",
+            "options": [
+              "ein richtiges Flugzeug.",
+              "ein Bild auf einer Zeittafel.",
+              "eine Attrappe."
+            ],
+            "answer": 2,
+            "num": 11,
+            "audioStart": 729
+          },
+          {
+            "id": "h12",
+            "teilPart": 2,
+            "type": "mcq",
+            "text": "Man kann das Flugzeug ...",
+            "options": [
+              "oben durch das Fenster besteigen.",
+              "hinten durch eine Tür betreten.",
+              "durch mehrere Eingänge betreten."
+            ],
+            "answer": 1,
+            "num": 12,
+            "audioStart": 729
+          },
+          {
+            "id": "h13",
+            "teilPart": 2,
+            "type": "mcq",
+            "text": "Die Sitzplätze im neuen Flugzeug sind ...",
+            "options": [
+              "erster Klasse.",
+              "zweiter Klasse.",
+              "Luxussitze."
+            ],
+            "answer": 2,
+            "num": 13,
+            "audioStart": 729
+          },
+          {
+            "id": "h14",
+            "teilPart": 2,
+            "type": "mcq",
+            "text": "Im AIRSQUAWK001 gibt es ...",
+            "options": [
+              "keine Sitze mit Massageeinstellung.",
+              "einen Konferenzraum.",
+              "eine Bar."
+            ],
+            "answer": 2,
+            "num": 14,
+            "audioStart": 729
+          },
+          {
+            "id": "h15",
+            "teilPart": 2,
+            "type": "mcq",
+            "text": "Ein Flug nach New York wird ...",
+            "options": [
+              "zwei Stunden dauern.",
+              "acht Stunden dauern.",
+              "zehn Stunden dauern."
+            ],
+            "answer": 0,
+            "num": 15,
+            "audioStart": 729
+          },
+          {
+            "id": "h16",
+            "teilPart": 3,
+            "type": "tf",
+            "text": "In Amerika kann man seine Träume verwirklichen.",
+            "answer": "richtig",
+            "num": 16,
+            "audioStart": 989
+          },
+          {
+            "id": "h17",
+            "teilPart": 3,
+            "type": "tf",
+            "text": "Bernadettes Studium war interessant.",
+            "answer": "falsch",
+            "num": 17,
+            "audioStart": 989
+          },
+          {
+            "id": "h18",
+            "teilPart": 3,
+            "type": "tf",
+            "text": "Die Lebenshaltungskosten in Amerika sind sehr hoch.",
+            "answer": "richtig",
+            "num": 18,
+            "audioStart": 989
+          },
+          {
+            "id": "h19",
+            "teilPart": 3,
+            "type": "tf",
+            "text": "In Amerika muss man sehr oft eine zweite Arbeit haben.",
+            "answer": "richtig",
+            "num": 19,
+            "audioStart": 989
+          },
+          {
+            "id": "h20",
+            "teilPart": 3,
+            "type": "tf",
+            "text": "Die Idee zu Bernadettes Würstchenbude entstand spontan.",
+            "answer": "richtig",
+            "num": 20,
+            "audioStart": 989
+          },
+          {
+            "id": "h21",
+            "teilPart": 3,
+            "type": "tf",
+            "text": "Die Amerikaner haben Würstchen wie „verrückt“ gekauft.",
+            "answer": "richtig",
+            "num": 21,
+            "audioStart": 989
+          },
+          {
+            "id": "h22",
+            "teilPart": 3,
+            "type": "tf",
+            "text": "Bernadette hat für ihre Familie nie Zeit.",
+            "answer": "falsch",
+            "num": 22,
+            "audioStart": 989
+          },
+          {
+            "id": "h23",
+            "teilPart": 4,
+            "type": "speaker",
+            "text": "Sie haben erst drei Jahre nach der Verlobung geheiratet.",
+            "options": [
+              "Moderatorin",
+              "Frau Giannoulakis",
+              "Max Kleischner"
+            ],
+            "answer": 2,
+            "num": 23,
+            "audioStart": 1267
+          },
+          {
+            "id": "h24",
+            "teilPart": 4,
+            "type": "speaker",
+            "text": "Die Eltern waren zuerst gegen eine Ehe mit einem Ausländer.",
+            "options": [
+              "Moderatorin",
+              "Frau Giannoulakis",
+              "Max Kleischner"
+            ],
+            "answer": 1,
+            "num": 24,
+            "audioStart": 1267
+          },
+          {
+            "id": "h25",
+            "teilPart": 4,
+            "type": "speaker",
+            "text": "Die unterschiedliche Mentalität kann zu einem Streit führen.",
+            "options": [
+              "Moderatorin",
+              "Frau Giannoulakis",
+              "Max Kleischner"
+            ],
+            "answer": 2,
+            "num": 25,
+            "audioStart": 1267
+          },
+          {
+            "id": "h26",
+            "teilPart": 4,
+            "type": "speaker",
+            "text": "In einer binationalen Ehe sollte man über die Unterschiede sprechen.",
+            "options": [
+              "Moderatorin",
+              "Frau Giannoulakis",
+              "Max Kleischner"
+            ],
+            "answer": 1,
+            "num": 26,
+            "audioStart": 1267
+          },
+          {
+            "id": "h27",
+            "teilPart": 4,
+            "type": "speaker",
+            "text": "Bei Ausländern mit europäischem Hintergrund gibt es keine großen Unterschiede.",
+            "options": [
+              "Moderatorin",
+              "Frau Giannoulakis",
+              "Max Kleischner"
+            ],
+            "answer": 2,
+            "num": 27,
+            "audioStart": 1267
+          },
+          {
+            "id": "h28",
+            "teilPart": 4,
+            "type": "speaker",
+            "text": "Weihnachten war für das Ehepaar nicht erfreulich.",
+            "options": [
+              "Moderatorin",
+              "Frau Giannoulakis",
+              "Max Kleischner"
+            ],
+            "answer": 2,
+            "num": 28,
+            "audioStart": 1267
+          },
+          {
+            "id": "h29",
+            "teilPart": 4,
+            "type": "speaker",
+            "text": "Kinder aus binationalen Ehen sollen beide Sprachen lernen.",
+            "options": [
+              "Moderatorin",
+              "Frau Giannoulakis",
+              "Max Kleischner"
+            ],
+            "answer": 1,
+            "num": 29,
+            "audioStart": 1267
+          },
+          {
+            "id": "h30",
+            "teilPart": 4,
+            "type": "speaker",
+            "text": "Man muss sich über die Folgen einer binationalen Ehe bewusst sein.",
+            "options": [
+              "Moderatorin",
+              "Frau Giannoulakis",
+              "Max Kleischner"
+            ],
+            "answer": 0,
+            "num": 30,
+            "audioStart": 1267
+          }
+        ]
+      }
+    ],
+    "explanations": {
+      "1": {
+        "quote": "Das klingt nach Sucht, was die Krankenkassen aber bislang nicht so sehen und für eine Behandlung nicht bezahlen. Der Kaufrausch, Kaufzwang, das zwanghafte Konsumverhalten... gehören (noch) nicht zu den Impulshandlungen...",
+        "whyCorrect": {
+          "de": "Falsch: Krankenkassen und psychiatrische Lehrbücher stufen das zwanghafte Kaufverhalten bislang nicht offiziell als Sucht ein.",
+          "ar": "خطأ: شركات التأمين الصحي والمراجع النفسية لا تعترف بالسلوك الشرائي القهري كإدمان رسمي حتى الآن.",
+          "fr": "Faux : Les caisses d'assurance maladie et les manuels psychiatriques ne reconnaissent pas encore les achats compulsifs comme une addiction."
+        },
+        "whyIncorrect": {
+          "de": "Richtig widerspricht der Aussage, dass Krankenkassen dies bislang nicht so sehen.",
+          "ar": "صحيح يناقض النص الذي يوضح أن التأمين الصحي لا يصنفه كإدمان حتى الآن.",
+          "fr": "Vrai contredit l'affirmation selon laquelle les assurances ne le considèrent pas encore ainsi."
+        }
+      },
+      "2": {
+        "quote": "Dabei handelt es sich nicht nur um eine „typisch weibliche Eigenheit“, denn es belastet auch häufig Männer.",
+        "whyCorrect": {
+          "de": "Falsch: Das Problem betrifft keineswegs fast nur Frauen, sondern belastet gleichermaßen auch viele Männer.",
+          "ar": "خطأ: المشكلة لا تخص النساء فقط بل يعاني منها الكثير من الرجال أيضاً.",
+          "fr": "Faux : Le problème ne concerne pas uniquement les femmes, il touche également de nombreux hommes."
+        },
+        "whyIncorrect": {
+          "de": "Richtig ist unzutreffend, da der Text ausdrücklich Männer einbezieht.",
+          "ar": "صحيح غير دقيق لأن النص يشمل الرجال صراحة.",
+          "fr": "Vrai est inexact car le texte mentionne expressément les hommes."
+        }
+      },
+      "3": {
+        "quote": "Manche überziehen dabei ihr Konto, andere verschulden sich sogar ganz erheblich.",
+        "whyCorrect": {
+          "de": "Richtig: Überzogene Konten und erhebliche Schulden belegen gravierende finanzielle Folgen des Kaufrauschs.",
+          "ar": "صحيح: السحب على المكشوف وتراكم الديون الكبيرة يثبتان العواقب المالية الوخيمة لهوس الشراء.",
+          "fr": "Vrai : Le découvert bancaire et l'endettement important prouvent de graves difficultés financières."
+        },
+        "whyIncorrect": {
+          "de": "Falsch widerspricht der Feststellung, dass sich Betroffene erheblich verschulden.",
+          "ar": "خطأ يناقض حقيقة تراكم الديون بشكل كبير على المصابين.",
+          "fr": "Faux contredit le constat selon lequel les personnes concernées s'endettent considérablement."
+        }
+      },
+      "4": {
+        "quote": "Aber der Traum ist eine Utopie und wird wohl nie Realität werden... Unschön, dass auch digital bestellte Waren bezahlt werden müssen und zwar real.",
+        "whyCorrect": {
+          "de": "Falsch: Online-Shops sind kein Schlaraffenland, da die Waren real bezahlt werden müssen und das Schlaraffenland eine Utopie bleibt.",
+          "ar": "خطأ: المتاجر الإلكترونية ليست أرض الأحلام المجانية، إذ يجب دفع ثمن البضائع بأموال حقيقية ويبقى الحلم طوباوياً.",
+          "fr": "Faux : Les boutiques en ligne ne sont pas le pays de Cocagne car il faut réellement payer les marchandises."
+        },
+        "whyIncorrect": {
+          "de": "Richtig verkennt, dass der Autor den Vergleich als Utopie entlarvt.",
+          "ar": "صحيح يتجاهل أن الكاتب يعتبر الفكرة مجرد وهم وطوباوية.",
+          "fr": "Vrai ignore que l'auteur qualifie cette comparaison d'utopie."
+        }
+      },
+      "5": {
+        "quote": "Schon vor 100 Jahren wurden Versandhäuser gegründet, die dafür sorgten, dass vor allem ländliche Gebiete mit Konsumartikeln versorgt wurden.",
+        "whyCorrect": {
+          "de": "Richtig: Vor 100 Jahren ermöglichten Versandhäuser den Menschen auf dem Land, Waren per Katalog zu bestellen.",
+          "ar": "صحيح: قبل 100 عام مكنت شركات البيع بالمراسلة سكان الأرياف من طلب السلع من منازلهم.",
+          "fr": "Vrai : Il y a 100 ans, la vente par correspondance permettait déjà aux ruraux de commander des articles."
+        },
+        "whyIncorrect": {
+          "de": "Falsch widerspricht der geschichtlichen Erwähnung der Versandhäuser für ländliche Gebiete.",
+          "ar": "خطأ يناقض الإشارة التاريخية لخدمة البيع بالمراسلة للمناطق الريفية.",
+          "fr": "Faux contredit le rappel historique sur l'approvisionnement des zones rurales."
+        }
+      },
+      "6": {
+        "quote": "Werden Marketing-Experten in Online-Shops für die Frauen so etwas wie soziale Verweilzonen einbauen oder regelt sich das Kaufverhalten durch die Tatsache, dass berufstätige Frauen heute immer weniger Zeit haben?",
+        "whyCorrect": {
+          "de": "Falsch: Der Text formuliert eine offene Frage und Überlegung; es besteht keine Pflicht oder zwingende Notwendigkeit für Frauen, online zu bestellen.",
+          "ar": "خطأ: النص يطرح تساؤلاً مفتوحاً حول سلوك الشراء ولا يفرض على النساء إلزامية الشراء عبر الإنترنت.",
+          "fr": "Faux : Le texte pose une question ouverte et n'impose aucune obligation aux femmes de commander en ligne."
+        },
+        "whyIncorrect": {
+          "de": "Richtig ist falsch, da der Text kein 'Müssen' behauptet.",
+          "ar": "صحيح غير صحيح لأن النص لا يدعي وجود أي إجبار.",
+          "fr": "Vrai est incorrect car le texte ne mentionne aucune obligation impérative."
+        }
+      },
+      "7": {
+        "quote": "Beinahe alle von ihnen entstanden Anfang bis Mitte der 90er Jahre als soziale Projekte im Kampf gegen Wohnungslosigkeit.",
+        "whyCorrect": {
+          "de": "Lösung a ist richtig: Von Mitte der 1990er-Jahre bis zur Veröffentlichung des Testbuchs vergehen etwa 20 Jahre.",
+          "ar": "الخيار a صحيح: منذ منتصف التسعينيات حتى تاريخ نشر كتاب الاختبارات مرت حوالي 20 سنة.",
+          "fr": "L'option a est correcte : Depuis le milieu des années 90, cela fait environ une vingtaine d'années."
+        },
+        "whyIncorrect": {
+          "de": "Dreißig (b) oder vierzig Jahre (c) sind zeitlich viel zu weit in der Vergangenheit.",
+          "ar": "ثلاثون أو أربعون عاماً فترة زمنية طويلة جداً ومخالفة لتاريخ التسعينيات.",
+          "fr": "Trente ou quarante ans renverraient à une période bien trop ancienne."
+        }
+      },
+      "8": {
+        "quote": "Die Redaktion... besteht meist aus einem oder zwei Festangestellten... und ehrenamtlichen Mitarbeitern. Dazu kommen die freien Autoren... Der Anteil der Wohnungslosen...",
+        "whyCorrect": {
+          "de": "Lösung c ist richtig: Verschiedene Autoren (Festangestellte, Ehrenamtliche, freie Autoren und Betroffene) verfassen die Artikel.",
+          "ar": "الخيار c صحيح: كُتاب متنوعون (موظفون، متطوعون، كُتاب مستقلون ومشردون) يشاركون في كتابة المقالات.",
+          "fr": "L'option c est correcte : Des auteurs variés (salariés, bénévoles, pigistes et sans-abris) rédigent les articles."
+        },
+        "whyIncorrect": {
+          "de": "Nur Sozialpädagogen (a) oder nur Journalisten (b) schließt die anderen beteiligten Autoren fälschlich aus.",
+          "ar": "حصر الكتابة بالأخصائيين فقط (a) أو الصحفيين فقط (b) يتناقض مع تنوع المشاركين.",
+          "fr": "Limiter la rédaction aux seuls pédagogues (a) ou journalistes (b) contredit la diversité des auteurs."
+        }
+      },
+      "9": {
+        "quote": "Dabei bleiben den Verkäufern je nach Zeitung mindestens fünfzig Prozent des Verkaufspreises als Gewinn.",
+        "whyCorrect": {
+          "de": "Lösung a ist richtig: Die Verkäufer werden direkt am Erlös beteiligt und behalten mindestens 50 % als Gewinn.",
+          "ar": "الخيار a صحيح: البائعون يشاركون في الربح ويحتفظون بنصف سعر البيع على الأقل.",
+          "fr": "L'option a est correcte : Les vendeurs touchent une part du gain en gardant au moins 50 % du prix de vente."
+        },
+        "whyIncorrect": {
+          "de": "500 Euro (b) ist eine Hilfsgrenze für soziale Not; über Belästigungen (c) klagen Bürger, nicht die Verkäufer.",
+          "ar": "500 يورو (b) هي معيار للفقر وليست راتباً ثابتاً، والشكاوى (c) تصدر عن المارة وليس الباعة.",
+          "fr": "500 euros est un seuil d'éligibilité et les plaintes émanent des passants, non des vendeurs."
+        }
+      },
+      "10": {
+        "quote": "Schneestürme, extreme Hitze oder starke Gewitter – jetzt kann sich jeder die Warnungen auf sein iPhone schicken lassen...",
+        "whyCorrect": {
+          "de": "Lösung b ist richtig: Die Applikationen warnen gezielt vor schweren Unwettern und Extremwetterlagen.",
+          "ar": "الخيار b صحيح: التطبيقات تقدم إنذارات ضد العواصف الشديدة والظواهر الجوية القاسية.",
+          "fr": "L'option b est correcte : Les systèmes alertent spécifiquement contre les intempéries et tempêtes."
+        },
+        "whyIncorrect": {
+          "de": "Kommunikationsprobleme (a) oder Versicherungen (c) sind nicht der Inhalt der Warnmeldungen.",
+          "ar": "مشكلات الاتصال أو التأمين ليست هي موضوع التنبيهات.",
+          "fr": "Les problèmes de communication ou les assurances ne sont pas l'objet des alertes."
+        }
+      },
+      "11": {
+        "quote": "Das Besondere an „Katwarn“: Es übermittelt die Warnungen postleitzahlengenau an die angemeldeten Nutzer.",
+        "whyCorrect": {
+          "de": "Lösung a ist richtig: Katwarn sendet Unwetterwarnungen millimetergenau abgestimmt auf die jeweilige Postleitzahl.",
+          "ar": "الخيار a صحيح: نظام كات فارن يرسل التحذيرات بدقة وفق الرمز البريدي للمستخدم.",
+          "fr": "L'option a est correcte : Katwarn transmet les alertes précisément en fonction du code postal."
+        },
+        "whyIncorrect": {
+          "de": "Nur in bestimmten Orten (b) oder nur bei geschlossenen Fenstern (c) sind sachlich unzutreffend.",
+          "ar": "حصر النظام بأماكن معينة فقط أو بنوافذ مغلقة غير صحيح.",
+          "fr": "Se limiter à certains lieux ou aux fenêtres fermées est factuellement faux."
+        }
+      },
+      "12": {
+        "quote": "Die ausführlichen Warntexte bezüglich Zugbahn und Intensität stellen selbst besonders wissbegierige Nutzer zufrieden.",
+        "whyCorrect": {
+          "de": "Lösung a ist richtig: Durch die detaillierten Informationen über Zugbahn und Intensität werden auch anspruchsvolle, wissbegierige Nutzer überzeugt.",
+          "ar": "الخيار a صحيح: التفاصيل الدقيقة حول مسار العاصفة وشدتها ترضي المستخدمين أصحاب المتطلبات العالية.",
+          "fr": "L'option a est correcte : Les détails précis sur la trajectoire et l'intensité satisfont les utilisateurs exigeants."
+        },
+        "whyIncorrect": {
+          "de": "Dem Wetterfrosch (b) ist ein Sprichwort/Symbol; dem iPhone (c) ist ein technisches Gerät.",
+          "ar": "الضفدع تعبير مجازي والآيفون جهاز تقني لا يشعر بالرضا.",
+          "fr": "La grenouille est métaphorique et l'iPhone est un simple appareil."
+        }
+      },
+      "13": {
+        "quote": "Bei www.sport.de halten Sie die „Ticker-News“ über das aktuelle Sportgeschehen auf dem Laufenden.",
+        "whyCorrect": {
+          "de": "Anzeige A ist passend: Die Sport-Website liefert aktuelle Live-Nachrichten und Ticker-News über Sportereignisse.",
+          "ar": "الإعلان A مناسب: الموقع الرياضي يقدم أخباراً حية ومحدثة حول الأحداث الرياضية.",
+          "fr": "L'annonce A convient : Le site web offre des actualités et un fil d'informations sur les événements sportifs."
+        },
+        "whyIncorrect": {
+          "de": "Andere Anzeigen bieten Sportgeräte, Bücher oder Reisen, aber keine aktuellen Live-Ticker.",
+          "ar": "الإعلانات الأخرى تقدم معدات أو كتباً وليس متابعة فورية للأحداث الرياضية.",
+          "fr": "Les autres annonces concernent des équipements ou livres, pas un fil d'actualités sportives."
+        }
+      },
+      "14": {
+        "quote": "Besonders günstige Sportarten sind Tanzen, Reiten, Skilanglauf oder Schwimmen... Informationen: Bund der Yoga-/Vidya-Lehrer...",
+        "whyCorrect": {
+          "de": "Anzeige J ist zugeordnet: Anzeige J führt Reiten als förderliche Sportart für Haltung und Bewegung auf.",
+          "ar": "الإعلان J مرتبط: يذكر الإعلان ركوب الخيل كرياضة مفيدة للقوام والحركة.",
+          "fr": "L'annonce J correspond : Elle mentionne l'équitation parmi les disciplines bénéfiques pour la posture."
+        },
+        "whyIncorrect": {
+          "de": "Keine andere Anzeige nimmt Bezug auf Reitsport.",
+          "ar": "لا يوجد أي إعلان آخر يشير إلى رياضة الفروسية.",
+          "fr": "Aucune autre annonce ne mentionne l'équitation."
+        }
+      },
+      "15": {
+        "quote": "Mit dem neuartigen Ski-Simulator von Galaxy Sport können Sie alle Bewegungsabläufe des Skifahrens auch ohne Schnee trainieren. „Super G“ hat Platz auf 100x160 Zentimetern.",
+        "whyCorrect": {
+          "de": "Anzeige I ist passend: Der Ski-Simulator ist ein Heimtrainingsgerät für Skifahrer ohne Schnee.",
+          "ar": "الإعلان I مناسب: جهاز محاكاة التزلج المنزلي يتيح التدريب على حركات التزلج بدون ثلج في المنزل.",
+          "fr": "L'annonce I convient : Le simulateur de ski est un appareil d'entraînement à domicile sans neige."
+        },
+        "whyIncorrect": {
+          "de": "Anzeige E ist ein echtes Skigebiet und kein Trainingsgerät für die Wohnung.",
+          "ar": "الإعلان E هو منتجع تزلج حقيقي وليس جهازاً تدريبياً للمنزل.",
+          "fr": "L'annonce E est une station de ski réelle et non un appareil pour la maison."
+        }
+      },
+      "16": {
+        "quote": "100.000fach bewährt! Original Bad Würzacher Gelenkschmiere. Bei Rheuma, Arthritis, Arthrose, Ischias, Bandscheibenschmerzen und Hexenschuss.",
+        "whyCorrect": {
+          "de": "Anzeige G ist passend: Die Gelenkschmiere aus der Apotheke bietet eine Alternative ohne sportliche Betätigung zur Linderung von Beschwerden und Steigerung der Beweglichkeit.",
+          "ar": "الإعلان G مناسب: مرهم المفاصل من الصيدلية يوفر بديلاً بدون رياضة لتحسين الحركة وعلاج الآلام.",
+          "fr": "L'annonce G convient : Cette pommade articulaire offre une alternative sans sport pour améliorer la mobilité."
+        },
+        "whyIncorrect": {
+          "de": "Frau Rühl lehnt Sport ab; sportliche Aktivitätsangebote scheiden für sie aus.",
+          "ar": "السيدة رول ترفض ممارسة الرياضة، لذلك لا تناسبها العروض الرياضية النشطة.",
+          "fr": "Madame Rühl refuse le sport, les offres d'activités physiques ne conviennent donc pas."
+        }
+      },
+      "17": {
+        "quote": "Viele Kopfverletzungen können durch wirksamen Kopfschutz verhindert werden. ABUS-Fahrradhelme für Kinder, Jugendliche und Erwachsene sind TÜV-geprüft.",
+        "whyCorrect": {
+          "de": "Anzeige D ist passend: Die TÜV-geprüften ABUS-Fahrradhelme schützen effektiv vor Kopfverletzungen beim Radfahren.",
+          "ar": "الإعلان D مناسب: خوذات الدراجات المعتمدة تحمي الرأس بفعالية من الإصابات أثناء القيادة.",
+          "fr": "L'annonce D convient : Les casques certifiés protègent efficacement la tête en vélo."
+        },
+        "whyIncorrect": {
+          "de": "Anzeige H bewirbt Fahrräder, bietet jedoch keinen speziellen Kopfschutz.",
+          "ar": "الإعلان H يروج للدراجات وليس لخوذات حماية الرأس.",
+          "fr": "L'annonce H vend des vélos mais ne propose pas de protection pour la tête."
+        }
+      },
+      "18": {
+        "quote": "In Heidis Winterwelt... Kinder bis 6 Jahre haben die ganze Saison GRATISSKILIFT-BENUTZUNG.",
+        "whyCorrect": {
+          "de": "0 ist richtig: Keine Anzeige bietet Skikurse oder eine Skischule für einen fünfjährigen Anfänger an.",
+          "ar": "0 هو الصحيح: لا يوجد إعلان يقدم دورة تدريبية أو مدرسة لتعليم التزلج لطفل في سن الخامسة.",
+          "fr": "0 est correct : Aucune annonce ne propose de cours de ski pour un enfant débutant de cinq ans."
+        },
+        "whyIncorrect": {
+          "de": "Anzeige E gewährt zwar Gratisfahrten am Lift, offeriert jedoch keinen organisierten Skikurs.",
+          "ar": "الإعلان E يوفر استخدام المصعد مجاناً فقط ولا يشمل دروساً لتعليم التزلج.",
+          "fr": "L'annonce E propose le forfait gratuit mais aucun cours d'apprentissage."
+        }
+      },
+      "19": {
+        "quote": "Das neue FORMAT Fahrrad von Sinora, in Deutschland produziert... Alle Teile kind- und jugendgerecht. Absolute Markenqualität.",
+        "whyCorrect": {
+          "de": "Anzeige H ist passend: Das jugendgerechte Qualitätsfahrrad ist das gesuchte Geschenk für den Neffen.",
+          "ar": "الإعلان H مناسب: الدراجة المخصصة للناشئين وعالية الجودة هي الهدية المثالية لابن الأخ.",
+          "fr": "L'annonce H convient : Ce vélo de qualité adapté aux jeunes est le cadeau parfait pour le neveu."
+        },
+        "whyIncorrect": {
+          "de": "Anzeige D bietet Helme und Zubehör, aber keine Fahrräder.",
+          "ar": "الإعلان D مخصص للخوذات وليس لبيع الدراجات الهوائية.",
+          "fr": "L'annonce D propose des casques, pas des bicyclettes."
+        }
+      },
+      "20": {
+        "quote": "In der Massentierhaltung füttern wir Tiere mit Lebensmitteln, wir machen sie zu Nahrungskonkurrenten... aber vor allem produzieren sie Exkremente.",
+        "whyCorrect": {
+          "de": "Ja: Riechert prangert Güllebelastungen, Nahrungskonkurrenz und Umweltzerstörung durch Massentierhaltung an.",
+          "ar": "نعم: ريشرت ينتقد تلوث التربة والمياه وهدر الغذاء الناتج عن تربية الماشية المكثفة.",
+          "fr": "Oui : Riechert dénonce la pollution et le gaspillage de nourriture liés aux élevages intensifs."
+        },
+        "whyIncorrect": {
+          "de": "Nein widerspricht seiner klaren Ablehnung der industriellen Fleischproduktion.",
+          "ar": "لا يناقض موقفه الواضح الرافض للإنتاج الحيواني الصناعي المكثف.",
+          "fr": "Non contredit sa critique sévère de l'élevage intensif."
+        }
+      },
+      "21": {
+        "quote": "Millionen von Tieren leben in Ställen von Tiermastanlagen... In meinen Augen ist die Massentierhaltung reine Tierquälerei.",
+        "whyCorrect": {
+          "de": "Ja: J. Stoll bezeichnet beengte Haltung und Stress in Mastanlagen unmissverständlich als reine Tierquälerei.",
+          "ar": "نعم: ي. شتول يعتبر تربية الحيوانات في مزارع التسمين الضيقة تعذيباً صريحاً للحيوانات.",
+          "fr": "Oui : J. Stoll qualifie sans ambiguïté l'élevage intensif de pure maltraitance animale."
+        },
+        "whyIncorrect": {
+          "de": "Nein widerspricht seiner eindeutigen Verurteilung als Tierquälerei.",
+          "ar": "لا يناقض إدانته الشديدة لهذه المزارع بوصفها تعذيباً للحيوان.",
+          "fr": "Non contredit sa condamnation sans appel de ces pratiques."
+        }
+      },
+      "22": {
+        "quote": "Die Landwirte produzieren schließlich für einen tatsächlich vorhandenen Bedarf.",
+        "whyCorrect": {
+          "de": "Nein: Eva-Maria ist nicht gegen die Betriebe; sie nimmt die Bauern in Schutz und verweist auf die Nachfrage der Konsumenten.",
+          "ar": "لا: إيفا ماريا لا تعارض مزارع التربية المكثفة، بل تدافع عن المزارعين وتُرجع السبب لاستهلاك المواطنين.",
+          "fr": "Non : Eva-Maria ne s'oppose pas aux élevages, elle défend les agriculteurs répondant à la demande des consommateurs."
+        },
+        "whyIncorrect": {
+          "de": "Ja widerspricht ihrer wohlwollenden Haltung gegenüber den Landwirten.",
+          "ar": "نعم يناقض موقفها المتفهم لعمل المزارعين.",
+          "fr": "Oui contredit sa position compréhensive envers les producteurs."
+        }
+      },
+      "23": {
+        "quote": "Darum werden prophylaktisch allen Tieren Medikamente, wie z.B. Antibiotika gegeben. Das schließt leider auch eine Wirkung auf den Menschen nicht aus: Nein Danke!",
+        "whyCorrect": {
+          "de": "Ja: Dr. Mayer lehnt Massentierhaltung wegen des massiven, präventiven Antibiotikaeinsatzes und der Gefahren für die Gesundheit entschieden ab.",
+          "ar": "نعم: د. ماير يرفض التربية المكثفة تماماً بسبب الاستخدام المفرط للمضادات الحيوية ومخاطرها الصحية.",
+          "fr": "Oui : Le Dr Mayer rejette fermement l'élevage intensif en raison de l'usage préventif massif d'antibiotiques."
+        },
+        "whyIncorrect": {
+          "de": "Nein widerspricht seinem deutlichen Fazit 'Nein Danke!'.",
+          "ar": "لا يناقض عبارته الحاسمة 'لا شكراً!'.",
+          "fr": "Non contredit sa conclusion explicite 'Non merci !'."
+        }
+      },
+      "24": {
+        "quote": "Ich halte nichts von der Massenhysterie gegen die Massentierhaltung.",
+        "whyCorrect": {
+          "de": "Nein: Köhler hält die Vorwürfe für Hysterie und sieht bei Einhaltung normaler Hygiene kein Problem.",
+          "ar": "لا: كولر يرى في الانتقادات هستيريا مبالغاً فيها ويؤكد كفاية النظافة المنزلية المعتادة.",
+          "fr": "Non : Köhler considère les critiques comme une hystérie et estime que l'hygiène de base suffit."
+        },
+        "whyIncorrect": {
+          "de": "Ja widerspricht seiner klaren Position gegen die Kritik an der Massentierhaltung.",
+          "ar": "نعم يناقض دفاعه الصريح عن استهلاك اللحوم ورفضه للهستيريا.",
+          "fr": "Oui contredit sa défense ouverte de la filière face aux critiques."
+        }
+      },
+      "25": {
+        "quote": "Ein Kilo Fleisch ist demnach für das Klima so schädlich wie eine Autofahrt von Berlin nach Rom.",
+        "whyCorrect": {
+          "de": "Ja: Weiß fordert eine vegane Lebensweise und weist auf die verheerende Klimabilanz der industriellen Tierhaltung hin.",
+          "ar": "نعم: فايس يدعو للنظام النباتي وينتقد بشدة الأثر المناخي الكارثي لإنتاج اللحوم.",
+          "fr": "Oui : Weiß prône le véganisme et souligne le bilan climatique désastreux de la viande."
+        },
+        "whyIncorrect": {
+          "de": "Nein ignoriert seinen energischen Aufruf zur Abkehr vom Fleischkonsum.",
+          "ar": "لا يتجاهل دعوته الحماسية للإقلاع عن استهلاك اللحوم.",
+          "fr": "Non ignore son appel clair à abandonner la viande."
+        }
+      },
+      "26": {
+        "quote": "Diese sind oft nicht gut geschult und es gibt schnell Probleme mit dem Tierschutz.",
+        "whyCorrect": {
+          "de": "Ja: Ewald sieht in Riesenbetrieben wegen unqualifizierter Arbeitskräfte erhebliche Gefahren für das Tierwohl.",
+          "ar": "نعم: إيفالد يرى خطراً كبيراً على رعاية الحيوان في المزارع الضخمة بسبب نقص تدريب العمال.",
+          "fr": "Oui : Ewald s'inquiète du bien-être animal dans les structures géantes employant du personnel mal formé."
+        },
+        "whyIncorrect": {
+          "de": "Nein widerspricht seinen Bedenken bezüglich des Tierschutzes in Großbetrieben.",
+          "ar": "لا يناقض قلقه الصريح بشأن رعاية الحيوانات في الشركات الكبرى.",
+          "fr": "Non contredit ses réserves sur le respect de la protection animale."
+        }
+      },
+      "27": {
+        "quote": "Die Arzneimittelhersteller sind laut Gesetz dazu verpflichtet, für ihre Arzneimittel einen Beipackzettel zu verfassen und ihn den Medikamenten beizulegen.",
+        "whyCorrect": {
+          "de": "Lösung b ist richtig: Der Hersteller muss gesetzlich vorgeschrieben jedem Medikament eine Packungsbeilage beifügen.",
+          "ar": "الخيار b صحيح: يُلزم القانون شركات الأدوية بإرفاق النشرة الطبية مع كل دواء.",
+          "fr": "L'option b est correcte : La loi oblige les fabricants à joindre une notice à chaque médicament."
+        },
+        "whyIncorrect": {
+          "de": "Der Zettel ersetzt den Arzt keineswegs (a); warum man das Mittel braucht, entscheidet der Arzt (c).",
+          "ar": "النشرة لا تغني عن زيارة الطبيب، وتحديد سبب الحاجة للدواء هو قرار الطبيب فقط.",
+          "fr": "La notice ne remplace pas le médecin et seul ce dernier décide du bien-fondé du traitement."
+        }
+      },
+      "28": {
+        "quote": "Es ist wichtig, dass Sie den gesamten Beipackzettel schon vor der erstmaligen Einnahme bzw. Anwendung des Medikamentes sorgfältig durchlesen.",
+        "whyCorrect": {
+          "de": "Lösung a ist richtig: Man soll den Beipackzettel vor der ersten Medikamenteneinnahme gründlich studieren.",
+          "ar": "الخيار a صحيح: يجب قراءة النشرة الطبية بعناية قبل البدء بتناول الدواء لأول مرة.",
+          "fr": "L'option a est correcte : Il est recommandé de lire attentivement la notice avant toute première prise."
+        },
+        "whyIncorrect": {
+          "de": "Das bloße Aufbewahren (b) genügt nicht vorab; dem Apotheker geben (c) ist abwegig.",
+          "ar": "مجرد الاحتفاظ بها لا يكفي، وتسليمها للصيدلي تصرف غير منطقي.",
+          "fr": "Conserver la notice ne dispense pas de la lire, et la donner au pharmacien est absurde."
+        }
+      },
+      "29": {
+        "quote": "An erster Stelle stehen die Hinweise... z. B. gegen welche Krankheiten ein Medikament wirksam ist...",
+        "whyCorrect": {
+          "de": "Lösung c ist richtig: Der Beipackzettel nennt die Anwendungsgebiete und Krankheiten, gegen die das Mittel wirkt.",
+          "ar": "الخيار c صحيح: النشرة توضح دواعي الاستعمال والأمراض التي يعالجها الدواء.",
+          "fr": "L'option c est correcte : La notice précise les affections contre lesquelles le médicament est efficace."
+        },
+        "whyIncorrect": {
+          "de": "Preis (a) und Herstellungszeitpunkt (b) stehen nicht im Beipackzettel.",
+          "ar": "السعر وتاريخ الصنع ليسا من محتويات النشرة الدوائية المذكورة.",
+          "fr": "Le prix et la date de fabrication ne figurent pas parmi ces mentions obligatoires."
+        }
+      },
+      "30": {
+        "quote": "...und wie Sie ein Arzneimittel am besten aufbewahren.",
+        "whyCorrect": {
+          "de": "Lösung a ist richtig: Die Packungsbeilage beschreibt, wie und bei welchen Bedingungen das Medikament gelagert werden soll.",
+          "ar": "الخيار a صحيح: تتضمن النشرة إرشادات حول شروط التخزين والحفظ الصحيح للدواء.",
+          "fr": "L'option a est correcte : La notice explique comment conserver et stocker le médicament."
+        },
+        "whyIncorrect": {
+          "de": "Genaue Haltbarkeitsdauer (b) oder detaillierte Rezepturbestandteile (c) sind hier nicht die gesuchte Aussage.",
+          "ar": "مدة الصلاحية الدقيقة أو التركيبة المفصلة ليست هي النقطة الأساسية المذكورة هنا.",
+          "fr": "La durée de conservation exacte ou la composition chimique détaillée ne sont pas la réponse visée."
+        }
+      },
+      "h1": {
+        "quote": "Unser spezielles Ernährungsprogramm steht allen Mitgliedern offen, ganz gleich welchen Alters...",
+        "whyCorrect": {
+          "de": "Falsch: Das Programm steht allen Versicherten offen und ist nicht auf Rentner beschränkt.",
+          "ar": "خطأ: البرنامج الغذائي متاح لجميع الأعضاء بغض النظر عن سنهم وليس فقط للمتقاعدين.",
+          "fr": "Faux : Le programme alimentaire s'adresse à tous les adhérents, quel que soit leur âge."
+        },
+        "whyIncorrect": {
+          "de": "Richtig ist unzutreffend, da es sich an alle Altersstufen richtet.",
+          "ar": "صحيح غير دقيق لأن العرض يشمل جميع الفئات العمرية.",
+          "fr": "Vrai est inexact car l'offre vise toutes les générations."
+        }
+      },
+      "h2": {
+        "quote": "Für unsere Senioren und Rentner bieten wir speziell geförderte Ausdauer- und Kräftigungskurse an.",
+        "whyCorrect": {
+          "de": "Lösung b ist richtig: Für Rentner werden Ausdauer- und Kräftigungstrainings angeboten.",
+          "ar": "الخيار b صحيح: يُقدم للمتقاعدين تدريب على التحمل وتقوية العضلات.",
+          "fr": "L'option b est correcte : Les seniors bénéficient de séances d'endurance et de renforcement musculaire."
+        },
+        "whyIncorrect": {
+          "de": "Massage (a) oder Krankengymnastik (c) sind nicht das genannte Seniorenangebot.",
+          "ar": "المساج أو العلاج الطبيعي ليسا هما التدريب المخصص لكبار السن في هذا العرض.",
+          "fr": "Les massages ou la kinésithérapie ne constituent pas cette offre spécifique."
+        }
+      },
+      "h3": {
+        "quote": "Frau Schneider, Ihr Name ist tatsächlich gleich an drei Stellen im Teilnehmerverzeichnis aufgeführt.",
+        "whyCorrect": {
+          "de": "Richtig: Die Lautsprecherdurchsage bestätigt, dass der gesuchte Name dreimal im Katalog steht.",
+          "ar": "صحيح: الإعلان الصوتي يؤكد تسجيل اسم المشاركة ثلاث مرات في الدليل.",
+          "fr": "Vrai : Le message confirme que le nom de la participante apparaît à trois reprises dans le catalogue."
+        },
+        "whyIncorrect": {
+          "de": "Falsch widerspricht der klaren Bestätigung der dreifachen Nennung.",
+          "ar": "خطأ يناقض التأكيد الواضح لذكر الاسم ثلاث مرات.",
+          "fr": "Faux contredit la confirmation explicite des trois occurrences du nom."
+        }
+      },
+      "h4": {
+        "quote": "Sie erreichen unseren Salon unter der Kölner Festnetznummer 0221-67453320.",
+        "whyCorrect": {
+          "de": "Lösung a ist richtig: Die durchgegebene Festnetznummer lautet 0221-67453320.",
+          "ar": "الخيار a صحيح: رقم صالون الحلاقة هو 0221-67453320.",
+          "fr": "L'option a est correcte : Le numéro communiqué pour le salon de coiffure est le 0221-67453320."
+        },
+        "whyIncorrect": {
+          "de": "Die Ziffernfolgen b und c weichen von der genannten Telefonnummer ab.",
+          "ar": "الأرقام الأخرى تختلف عن الرقم المذكور في الإعلان الصوتي.",
+          "fr": "Les options b et c ne correspondent pas au numéro dicté."
+        }
+      },
+      "h5": {
+        "quote": "Hallo Petra, ich rufe wegen unserer Kinokarten heute Abend an...",
+        "whyCorrect": {
+          "de": "Falsch: Die Damen haben Karten fürs Kino und wollen nicht ins Theater gehen.",
+          "ar": "خطأ: السيدتان تنويان الذهاب إلى السينما وليس إلى المسرح.",
+          "fr": "Faux : Les deux femmes prévoient d'aller au cinéma et non au théâtre."
+        },
+        "whyIncorrect": {
+          "de": "Richtig ist unzutreffend, da der Kinobesuch geplant ist.",
+          "ar": "صحيح غير دقيق لأن الحديث يدور عن السينما.",
+          "fr": "Vrai est inexact car la sortie concerne une séance de cinéma."
+        }
+      },
+      "h6": {
+        "quote": "Lass uns doch vor der Vorstellung noch gemütlich eine Kleinigkeit essen gehen.",
+        "whyCorrect": {
+          "de": "Lösung b ist richtig: Die Anruferin schlägt vor, vor dem Film noch gemeinsam essen zu gehen.",
+          "ar": "الخيار b صحيح: المتصلة تقترح تناول وجبة طعام خفيفة قبل بدء العرض.",
+          "fr": "L'option b est correcte : L'interlocutrice propose de manger un morceau avant la séance."
+        },
+        "whyIncorrect": {
+          "de": "Nach Hause gehen (a) oder bei der Arbeit halten (c) werden nicht vorgeschlagen.",
+          "ar": "الذهاب للمنزل أو التوقف عند العمل ليسا هما الاقتراح المقدم.",
+          "fr": "Rentrer à la maison ou passer au bureau ne sont pas proposés."
+        }
+      },
+      "h7": {
+        "quote": "Nur heute am Freitag erhalten Sie alle Kuchenspezialitäten zum halben Preis.",
+        "whyCorrect": {
+          "de": "Richtig: Die Durchsage im Kaufhaus betont die Gültigkeit des Kuchenangebots nur für den heutigen Tag.",
+          "ar": "صحيح: الإعلان في المتجر يوضح أن عرض الكعك يسري لليوم فقط.",
+          "fr": "Vrai : L'annonce au magasin précise que la promotion sur les gâteaux n'est valable qu'aujourd'hui."
+        },
+        "whyIncorrect": {
+          "de": "Falsch ignoriert die Beschränkung 'nur heute am Freitag'.",
+          "ar": "خطأ يتجاهل عبارة 'اليوم فقط يوم الجمعة'.",
+          "fr": "Faux ignore la mention 'uniquement aujourd'hui vendredi'."
+        }
+      },
+      "h8": {
+        "quote": "Jedes Stück Kuchen kostet heute statt 1,50 Euro nur unschlagbare 75 Cent.",
+        "whyCorrect": {
+          "de": "Lösung b ist richtig: Ein Stück Kuchen wird im Aktionsangebot für 75 Cent verkauft.",
+          "ar": "الخيار b صحيح: سعر قطعة الكعك ضمن العرض هو 75 سنتاً.",
+          "fr": "L'option b est correcte : La part de gâteau en promotion est à 75 centimes."
+        },
+        "whyIncorrect": {
+          "de": "50 Cent (a) ist falsch; 1,50 Euro (c) war der reguläre Originalpreis.",
+          "ar": "50 سنتاً غير صحيح، و1.50 يورو هو السعر الأصلي السابق.",
+          "fr": "50 centimes est inexact et 1,50 euro correspond au prix standard d'origine."
+        }
+      },
+      "h9": {
+        "quote": "Die Seminare werden von einem unabhängigen psychologischen Institut durchgeführt, nicht von Airlines.",
+        "whyCorrect": {
+          "de": "Falsch: Die Flugangst-Seminare veranstaltet ein privates Institut und nicht die Fluggesellschaften selbst.",
+          "ar": "خطأ: دورات التغلب على الخوف من الطيران ينظمها معهد نفسي خاص وليس شركات الطيران.",
+          "fr": "Faux : Les stages contre la peur de l'avion sont menés par un institut indépendant et non par des compagnies."
+        },
+        "whyIncorrect": {
+          "de": "Richtig widerspricht der Angabe über den eigentlichen Veranstalter.",
+          "ar": "صحيح يناقض المعلومة الخاصة بالجهة المنظمة.",
+          "fr": "Vrai contredit l'information relative à l'organisateur."
+        }
+      },
+      "h10": {
+        "quote": "Im Seminar behandeln wir Flugzeugtechnik, Flugphysik und Atemübungen, aber keine Geografie oder Alpenüberquerungen.",
+        "whyCorrect": {
+          "de": "Lösung c ist richtig: Über die Alpen wird im Seminar nichts vermittelt; Technik und Atemübungen stehen auf dem Plan.",
+          "ar": "الخيار c صحيح: لا تتضمن الدورة معلومات عن جبال الألب، بينما يتم تدريس التقنيات وتمارين التنفس.",
+          "fr": "L'option c est correcte : Le stage n'aborde pas les Alpes, contrairement à la technique et aux exercices de respiration."
+        },
+        "whyIncorrect": {
+          "de": "Technische Details (a) und Atemübungen (b) sind ausdrücklich Teil des Programms.",
+          "ar": "الأمور التقنية وتمارين التنفس جزء أساسي من الدورة.",
+          "fr": "Les éléments techniques et les exercices respiratoires figurent bien au programme."
+        }
+      },
+      "h11": {
+        "quote": "Vor uns sehen Sie das Zukunftsmodell AIRSQUAWK001 – es handelt sich hierbei um eine begehbare Attrappe im Maßstab 1:1...",
+        "whyCorrect": {
+          "de": "Lösung c ist richtig: Das Ausstellungsstück ist eine maßstabsgetreue Attrappe und kein echtes Flugzeug.",
+          "ar": "الخيار c صحيح: النموذج المعروض هو مجسم بالحجم الطبيعي وليس طائرة حقيقية.",
+          "fr": "L'option c est correcte : Il s'agit d'une maquette grandeur nature et non d'un avion réel."
+        },
+        "whyIncorrect": {
+          "de": "Ein echtes Flugzeug (a) oder ein Zeittafel-Bild (b) sind unzutreffend.",
+          "ar": "الطائرة الحقيقية أو اللوحة الجدارية خياران غير صحيحين.",
+          "fr": "Un avion fonctionnel ou un simple panneau mural sont faux."
+        }
+      },
+      "h12": {
+        "quote": "Über die Außentreppe an der hinteren Tür können Sie die Flugzeugkabine betreten.",
+        "whyCorrect": {
+          "de": "Lösung b ist richtig: Besucher steigen hinten durch eine Tür in die Attrappe ein.",
+          "ar": "الخيار b صحيح: يدخل الزوار إلى المجسم من الباب الخلفي عبر سلم خارجي.",
+          "fr": "L'option b est correcte : Les visiteurs accèdent à l'intérieur par la porte arrière."
+        },
+        "whyIncorrect": {
+          "de": "Einstieg durch Fenster (a) oder mehrere Eingänge (c) ist falsch.",
+          "ar": "الدخول من النافذة أو عبر عدة مداخل معلومات غير واردة.",
+          "fr": "L'entrée par la fenêtre ou par plusieurs portes est fausse."
+        }
+      },
+      "h13": {
+        "quote": "Alle Sitze in dieser visionären Passagierkabine sind als ergonomische Luxussitze ausgestattet.",
+        "whyCorrect": {
+          "de": "Lösung c ist richtig: Sämtliche Sitze sind hochwertige Luxussitze.",
+          "ar": "الخيار c صحيح: جميع المقاعد في هذه الطائرة المستقبلية هي مقاعد فاخرة ومريحة.",
+          "fr": "L'option c est correcte : Tous les sièges sont conçus comme des sièges de grand luxe."
+        },
+        "whyIncorrect": {
+          "de": "Standardmäßige 1. Klasse (a) oder 2. Klasse (b) gibt es in dieser Konfiguration nicht.",
+          "ar": "لا يوجد تقسيم تقليدي لدرجة أولى أو ثانية في هذا التصميم.",
+          "fr": "Il n'y a pas de répartition classique en 1ère ou 2nde classe."
+        }
+      },
+      "h14": {
+        "quote": "Im Heckbereich lädt eine Lounge mit einer eleganten Bar zum Verweilen ein.",
+        "whyCorrect": {
+          "de": "Lösung c ist richtig: Im Flugzeugmodell befindet sich eine exklusive Bar für die Passagiere.",
+          "ar": "الخيار c صحيح: يحتوي المجسم على ركن استراحة مع بار أنيق للمسافرين.",
+          "fr": "L'option c est correcte : L'appareil intègre un bar élégant pour les passagers."
+        },
+        "whyIncorrect": {
+          "de": "Massagefunktionen sind vorhanden (a entfällt); ein Konferenzraum (b) existiert nicht.",
+          "ar": "وظائف التدليك متوفرة بالمقاعد، ولا توجد قاعة مؤتمرات.",
+          "fr": "Les sièges massants existent bel et bien, et il n'y a pas de salle de conférence."
+        }
+      },
+      "h15": {
+        "quote": "Mit neuem Überschallantrieb wird der Flug nach New York künftig gerade einmal zwei Stunden dauern.",
+        "whyCorrect": {
+          "de": "Lösung a ist richtig: Die geplante Reisedauer nach New York beträgt lediglich zwei Stunden.",
+          "ar": "الخيار a صحيح: ستستغرق الرحلة إلى نيويورك ساعتين فقط بفضل سرعة الصوت.",
+          "fr": "L'option a est correcte : Le vol vers New York ne devrait durer que deux heures."
+        },
+        "whyIncorrect": {
+          "de": "Acht (b) oder zehn Stunden (c) sind die Flugzeiten herkömmlicher Maschinen.",
+          "ar": "ثماني أو عشر ساعات هي أوقات الرحلات التقليدية الحالية.",
+          "fr": "Huit ou dix heures correspondent aux vols subsoniques conventionnels."
+        }
+      },
+      "h16": {
+        "quote": "Amerika ist wirklich der Ort, an dem man seine Träume durch Fleiß verwirklichen kann.",
+        "whyCorrect": {
+          "de": "Richtig: Im Dialog wird bekräftigt, dass man in Amerika seine Lebensträume realisieren kann.",
+          "ar": "صحيح: يؤكد الحوار إمكانية تحقيق الأحلام في أمريكا بالعمل الجاد.",
+          "fr": "Vrai : La discussion confirme qu'en Amérique on peut réaliser ses rêves."
+        },
+        "whyIncorrect": {
+          "de": "Falsch widerspricht der getroffenen Aussage über die Chancen in den USA.",
+          "ar": "خطأ يناقض ما قيل في الحوار حول الفرص المتاحة في الولايات المتحدة.",
+          "fr": "Faux contredit les propos tenus sur les opportunités outre-Atlantique."
+        }
+      },
+      "h17": {
+        "quote": "Mein Studium an der Universität war leider ziemlich trocken und langweilig, ganz anders als erhofft.",
+        "whyCorrect": {
+          "de": "Falsch: Bernadette berichtet, dass ihr Studium langweilig und nicht interessant war.",
+          "ar": "خطأ: برناديت تذكر أن دراستها الجامعية كانت جافة ومملة وليست ممتعة.",
+          "fr": "Faux : Bernadette explique que ses études étaient ennuyeuses et sans grand intérêt."
+        },
+        "whyIncorrect": {
+          "de": "Richtig widerspricht ihrer Aussage über das langweilige Studium.",
+          "ar": "صحيح يناقض تصريحها الواضح بملل الدراسة.",
+          "fr": "Vrai contredit son témoignage sur le manque d'attrait de ses cours."
+        }
+      },
+      "h18": {
+        "quote": "Die Mieten und Lebenshaltungskosten in amerikanischen Metropolen sind extrem hoch.",
+        "whyCorrect": {
+          "de": "Richtig: Das Gespräch thematisiert die sehr hohen Kosten für Miete und Lebensunterhalt.",
+          "ar": "صحيح: الحوار يؤكد الارتفاع الكبير في تكاليف المعيشة والإيجارات في المدن الأمريكية.",
+          "fr": "Vrai : L'échange souligne le coût de la vie et des loyers particulièrement élevé."
+        },
+        "whyIncorrect": {
+          "de": "Falsch steht im Widerspruch zur geschilderten Teuerung.",
+          "ar": "خطأ يتعارض مع الغلاء الشديد المذكور في الحوار.",
+          "fr": "Faux s'oppose au constat de cherté de la vie évoqué."
+        }
+      },
+      "h19": {
+        "quote": "Fast jeder, den ich kenne, hat nebenbei noch einen Zweitjob, um alles bezahlen zu können.",
+        "whyCorrect": {
+          "de": "Richtig: Es wird bestätigt, dass viele Menschen in den USA auf eine zweite Beschäftigung angewiesen sind.",
+          "ar": "صحيح: يتم تأكيد اضطرار الكثير من الناس في أمريكا للعمل في وظيفة ثانية لتغطية النفقات.",
+          "fr": "Vrai : Il est attesté que nombre d'Américains doivent cumuler deux emplois."
+        },
+        "whyIncorrect": {
+          "de": "Falsch ignoriert den Verweis auf die Notwendigkeit von Zweitjobs.",
+          "ar": "خطأ يتجاهل الإشارة إلى ضرورة العمل الإضافي.",
+          "fr": "Faux ignore la mention récurrente du cumul d'emplois."
+        }
+      },
+      "h20": {
+        "quote": "Die Idee für den Bratwurststand entstand ganz spontan bei einer Grillfeier mit Freunden.",
+        "whyCorrect": {
+          "de": "Richtig: Der Einfall zur Würstchenbude kam spontan und war nicht lange im Voraus geplant.",
+          "ar": "صحيح: خطرت فكرة كشك النقانق بشكل عفوي ومفاجئ خلال حفل شواء.",
+          "fr": "Vrai : L'idée du stand de saucisses est née spontanément lors d'un barbecue entre amis."
+        },
+        "whyIncorrect": {
+          "de": "Falsch widerspricht der Schilderung der spontanen Idee.",
+          "ar": "خطأ يناقض ولادة الفكرة بشكل عفوي وسريع.",
+          "fr": "Faux contredit la genèse spontanée du projet."
+        }
+      },
+      "h21": {
+        "quote": "Die Leute standen Schlange und haben uns die Bratwürste wie verrückt abgekauft.",
+        "whyCorrect": {
+          "de": "Richtig: Die Würstchen wurden von den Kunden in riesigen Mengen förmlich 'wie verrückt' gekauft.",
+          "ar": "صحيح: أقبل الأمريكيون على شراء النقانق بأعداد هائلة وإقبال شديد للغاية.",
+          "fr": "Vrai : Les clients ont acheté les saucisses avec un enthousiasme délirant."
+        },
+        "whyIncorrect": {
+          "de": "Falsch steht im Widerspruch zum enormen Verkaufserfolg.",
+          "ar": "خطأ يناقض الإقبال القياسي والنجاح التجاري الكبير.",
+          "fr": "Faux s'inscrit en faux contre le grand succès commercial décrit."
+        }
+      },
+      "h22": {
+        "quote": "Ich achte strikt darauf, dass die Wochenenden fest für meine Familie und Kinder reserviert sind.",
+        "whyCorrect": {
+          "de": "Falsch: Bernadette nimmt sich regelmäßig Zeit für ihre Familie; sie hat keineswegs 'nie' Zeit.",
+          "ar": "خطأ: برناديت تحرص على تخصيص عطلات نهاية الأسبوع لعائلتها، فليس صحيحاً أنها لا تجد وقتاً لهم أبداً.",
+          "fr": "Faux : Bernadette réserve scrupuleusement ses week-ends pour sa famille et ses enfants."
+        },
+        "whyIncorrect": {
+          "de": "Richtig übersieht, dass sie ihren Wochenenden fest der Familie widmet.",
+          "ar": "صحيح يتجاهل تخصيصها وقتاً ثابتاً لأسرتها في نهاية كل أسبوع.",
+          "fr": "Vrai néglige le temps qu'elle consacre chaque fin de semaine à ses proches."
+        }
+      },
+      "h23": {
+        "quote": "Max Kleischner: Wir haben uns verlobt und dann tatsächlich noch drei Jahre gewartet, bis wir geheiratet haben.",
+        "whyCorrect": {
+          "de": "Lösung c (Max Kleischner) ist richtig: Herr Kleischner berichtet, dass zwischen Verlobung und Hochzeit drei Jahre vergingen.",
+          "ar": "الخيار c (ماكس كلايشنر) صحيح: هو الذي يوضح مرور ثلاث سنوات بين الخطوبة والزواج.",
+          "fr": "L'option c (Max Kleischner) est correcte : Il indique qu'ils ont attendu trois ans après les fiançailles pour se marier."
+        },
+        "whyIncorrect": {
+          "de": "Die Moderatorin (a) und Frau Giannoulakis (b) haben diese Zeitspanne nicht geschildert.",
+          "ar": "المذيعة والسيدة يانولاكيس لم تذكرا هذه المعلومة.",
+          "fr": "La présentatrice et Mme Giannoulakis n'ont pas formulé cette remarque temporelle."
+        }
+      },
+      "h24": {
+        "quote": "Frau Giannoulakis: Meine Eltern waren anfangs überhaupt nicht begeistert, dass ich einen Ausländer heiraten wollte.",
+        "whyCorrect": {
+          "de": "Lösung b (Frau Giannoulakis) ist richtig: Sie erzählt von der anfänglichen Skepsis ihrer Eltern gegenüber einem ausländischen Schwiegersohn.",
+          "ar": "الخيار b (السيدة يانولاكيس) صحيح: هي التي تتحدث عن معارضة والديها الأولية للزواج من أجنبي.",
+          "fr": "L'option b (Mme Giannoulakis) est correcte : Elle relate les réticences initiales de ses parents face à un conjoint étranger."
+        },
+        "whyIncorrect": {
+          "de": "Moderatorin (a) und Herr Kleischner (c) äußern dies nicht.",
+          "ar": "المذيعة والسيد كلايشنر لم يصرحا بذلك عن عائلتيهما.",
+          "fr": "La présentatrice et M. Kleischner ne mentionnent pas leurs parents sur ce point."
+        }
+      },
+      "h25": {
+        "quote": "Max Kleischner: Im Alltag merkt man die unterschiedlichen Mentalitäten, und das führt schnell mal zu Konflikten und Streit.",
+        "whyCorrect": {
+          "de": "Lösung c (Max Kleischner) ist richtig: Er weist darauf hin, dass kulturelle Mentalitätsunterschiede Streitigkeiten hervorrufen können.",
+          "ar": "الخيار c (ماكس كلايشنر) صحيح: هو الذي يوضح أن اختلاف الطباع والذهنية قد يسبب الخلافات والمشاحنات.",
+          "fr": "L'option c (Max Kleischner) est correcte : Il souligne que les différences de mentalité peuvent générer des conflits."
+        },
+        "whyIncorrect": {
+          "de": "Weder Moderatorin (a) noch Frau Giannoulakis (b) formulieren diesen Satz so.",
+          "ar": "لم يصدر هذا الطرح عن المذيعة أو السيدة يانولاكيس.",
+          "fr": "Ni l'animatrice ni Mme Giannoulakis n'émettent ce point de vue de cette manière."
+        }
+      },
+      "h26": {
+        "quote": "Frau Giannoulakis: Der Schlüssel ist Kommunikation – man muss in einer binationalen Partnerschaft offen über kulturelle Differenzen sprechen.",
+        "whyCorrect": {
+          "de": "Lösung b (Frau Giannoulakis) ist richtig: Sie plädiert dafür, Unterschiede in der Ehe aktiv anzusprechen.",
+          "ar": "الخيار b (السيدة يانولاكيس) صحيح: هي التي تؤكد ضرورة الحوار والتحدث بصراحة عن الفروق الثقافية في الزواج.",
+          "fr": "L'option b (Mme Giannoulakis) est correcte : Elle préconise de dialoguer ouvertement au sujet des différences culturelles."
+        },
+        "whyIncorrect": {
+          "de": "Dieser Ratschlag stammt nicht von der Moderatorin (a) oder Herrn Kleischner (c).",
+          "ar": "هذه النصيحة لم تقدمها المذيعة أو السيد كلايشنر.",
+          "fr": "Ce conseil n'émane pas de la présentatrice ni de M. Kleischner."
+        }
+      },
+      "h27": {
+        "quote": "Max Kleischner: Wenn beide aus europäischen Ländern kommen, sind die Unterschiede meist gar nicht so gravierend.",
+        "whyCorrect": {
+          "de": "Lösung c (Max Kleischner) ist richtig: Er ist der Ansicht, dass Partner aus Europa oft ähnliche Wertvorstellungen teilen.",
+          "ar": "الخيار c (ماكس كلايشنر) صحيح: يرى أن الفروقات الثقافية بين الأوروبيين ليست كبيرة جداً في العادة.",
+          "fr": "L'option c (Max Kleischner) est correcte : Il estime que les différences entre Européens restent minimes."
+        },
+        "whyIncorrect": {
+          "de": "Frau Giannoulakis (b) und Moderatorin (a) tätigen diese Einschätzung nicht.",
+          "ar": "السيدة يانولاكيس والمذيعة لم تبديا هذا التقييم.",
+          "fr": "Mme Giannoulakis et la présentatrice n'ont pas soutenu cette thèse."
+        }
+      },
+      "h28": {
+        "quote": "Max Kleischner: Unser erstes gemeinsames Weihnachtsfest war ein echtes Desaster wegen der völlig unterschiedlichen Familientraditionen.",
+        "whyCorrect": {
+          "de": "Lösung c (Max Kleischner) ist richtig: Er schildert die Enttäuschung beim ersten Weihnachtsfest aufgrund unvereinbarer Bräuche.",
+          "ar": "الخيار c (ماكس كلايشنر) صحيح: يروي كيف كان الاحتفال بعيد الميلاد مخيباً للآمال بسبب تباين التقاليد.",
+          "fr": "L'option c (Max Kleischner) est correcte : Il raconte que leur premier Noël fut décevant à cause de traditions divergentes."
+        },
+        "whyIncorrect": {
+          "de": "Die anderen Beteiligten erzählen nicht von einem unerfreulichen Weihnachtsfest.",
+          "ar": "المشاركون الآخرون لم يتحدثوا عن تجربة عيد ميلاد سلبية.",
+          "fr": "Les autres intervenants ne relatent aucune fête de Noël contrariée."
+        }
+      },
+      "h29": {
+        "quote": "Frau Giannoulakis: Für uns war von vornherein klar, dass unsere Kinder zweisprachig aufwachsen und beide Sprachen beherrschen sollen.",
+        "whyCorrect": {
+          "de": "Lösung b (Frau Giannoulakis) ist richtig: Sie betont die Bedeutung der Zweisprachigkeit für Kinder aus binationalen Familien.",
+          "ar": "الخيار b (السيدة يانولاكيس) صحيح: تشدد على ضرورة تعلم الأطفال اللغتين في الزيجات ثنائية القومية.",
+          "fr": "L'option b (Mme Giannoulakis) est correcte : Elle insiste pour que les enfants apprennent les deux langues maternelles."
+        },
+        "whyIncorrect": {
+          "de": "Moderatorin (a) und Herr Kleischner (c) formulieren diesen Grundsatz nicht.",
+          "ar": "المذيعة والسيد كلايشنر لم يطرحا هذا المبدأ اللغوي.",
+          "fr": "L'animatrice et M. Kleischner n'ont pas abordé l'éducation bilingue ainsi."
+        }
+      },
+      "h30": {
+        "quote": "Moderatorin: Man sollte sich also vorher genau im Klaren sein, welche Herausforderungen eine binationale Ehe mit sich bringt.",
+        "whyCorrect": {
+          "de": "Lösung a (Moderatorin) ist richtig: Die Moderatorin resümiert die Sendung mit dem Hinweis auf das Bewusstsein über mögliche Konsequenzen.",
+          "ar": "الخيار a (المذيعة) صحيح: تختم المذيعة النقاش بالتأكيد على وجوب إدراك تبعات وتحديات الزواج المختلط مسبقاً.",
+          "fr": "L'option a (Animatrice) est correcte : La présentatrice conclut en rappelant l'importance d'être conscient des conséquences."
+        },
+        "whyIncorrect": {
+          "de": "Die Gäste (b und c) haben diese zusammenfassende Schlussfolgerung nicht ausgesprochen.",
+          "ar": "الضيفان لم يطلقا هذه العبارة الختامية الجامعة.",
+          "fr": "Les invités n'ont pas formulé cette synthèse finale."
+        }
+      }
+    },
+    "translations": {
+      "parts": {
+        "1": {
+          "instructions": {
+            "ar": "اقرأ النص والمهام من 1 إلى 6 المتعلقة به. اختر: هل العبارات صحيحة أم خاطئة؟",
+            "fr": "Lisez le texte et les exercices 1 à 6 associés. Choisissez : les affirmations sont-elles vraies ou fausses ?"
+          },
+          "articles": [
+            {
+              "heading": {
+                "ar": "هوس الشراء (حمى الشراء)",
+                "fr": "La frénésie d'achats"
+              },
+              "sub": {
+                "ar": "يبدو أن أحد ظواهر عصرنا هو السلوك الشرائي غير المنضبط على فترات. ربما هو «صمام أمان» لمشاكل منوعة. يبدو كإدمان، لكن التأمين الصحي لا يراه كذلك حتى الآن ولا يدفع ثمن علاجه.",
+                "fr": "Un comportement d'achat par phases incontrôlé semble être un phénomène de notre époque. Peut-être une « soupape de sécurité » pour des problèmes divers. Cela ressemble à une addiction, ce que les caisses maladie ne reconnaissent pas encore et ne remboursent pas."
+              },
+              "body": {
+                "ar": [
+                  "حمى الشراء، أو الشراء القهري، أو السلوك الاستهلاكي الإجباري، أو «عربدة الشراء» لا تنتمي (حتى الآن) إلى اضطرابات الاندفاع، على الأقل وفقاً لكتب الطب النفسي. لكن من المرجح أن تُدرج يوماً ما ضمن هذه الفئة. في الواقع، يصيب اليوم العديد من المواطنين «الأصحاء سريرياً» من كلا الجنسين اندفاعٌ للشراء يظهر بشكل نوبات متكررة. يتجاوز بعضهم رصيد حسابه، بينما يستدين آخرون بشكل كبير جداً. وتشير التقديرات إلى أن هذا يؤثر على واحد من كل 20 مواطناً، أي ملايين الأشخاص. ولا يتعلق الأمر بمجرد «طبع نسائي بحت»، بل يثقل كاهل الرجال كثيراً أيضاً.",
+                  "طالما كانت «أرض الأحلام والنعيم» حلم البشرية على الدوام؛ أرض تطير فيها الطيور المشوية إلى الأفواه، وتتدفق في أنهارها ألبان وعسل. غير أن هذا الحلم مجرد طوباوية ولن يصبح حقيقة واقعة على الأرجح. أم ربما يتحقق؟ ففردوس التسوق لا يبعد عني سوى نقرة زر واحدة. فهل التجارة الإلكترونية هي تجسيد لحلم أرض الأحلام؟ غير اللطيف في الأمر أن السلع المطلوبة رقمياً يجب دفع ثمنها، وبأموال حقيقية وواقعية.",
+                  "التسوق من الأريكة المنزلية: فكرة ليست بالجديدة بتاتاً. فقبل 100 عام تأسست شركات البيع بالمراسلة، والتي حرصت على تزويد المناطق الريفية بالسلع الاستهلاكية بالدرجة الأولى. كان بإمكان المرء طلب السلع براحة تامة من المنزل. لكن لم يكن بالإمكان تسمية ذلك بعد بفردوس التسوق؛ إذ كان على الزبائن تصفح مئات الصفحات في كتالوجات ضخمة. كان الحفاظ على نظرة شاملة أمراً شاقاً، ومقارنة الأسعار والجودة أكثر صعوبة. إن ثورة التسوق الحقيقية تحدث في عصرنا الآن فقط.",
+                  "في دراسة لبحوث السوق، تم فحص السلوك الشرائي للرجال والنساء بهدف إيجاد معايير لإقناع النساء بفضاء التسوق الرقمي. نلاحظ أن النساء يفضلن جولات التسوق والتنزه بصحبة الصديقات. نادراً ما يرافقهن الرجال؛ إذ يشعرون بالتوتر سريعاً ويديرون أعينهم استياءً عندما تتوقف المرأة مجدداً لتفحص بضاعة وتفقدها بعناية. فهل سيقوم خبراء التسويق في المتاجر الإلكترونية بإنشاء مناطق استراحة اجتماعية للنساء، أم أن السلوك الشرائي سيتحدد بحكم أن النساء العاملات لديهن وقت أقل باستمرار اليوم؟",
+                  "من المرجح أن خطر الإدمان سيزداد عبر فردوس التسوق الرقمي لكل من الرجال والنساء. فقد أصبحت المشتريات العشوائية وغير المنضبطة أسهل بكثير، في حين بات إخفاء الإدمان أكثر يسراً، حيث تصل البضائع مباشرة إلى باب المنزل. حسناً، يبدو أن عملنا نحن المعالجين والأطباء النفسيين لن ينفد أبداً!"
+                ],
+                "fr": [
+                  "La frénésie d'achat, la compulsion d'achat, le comportement de consommation compulsif ou « l'orgie d'achats » ne font pas (encore) partie des troubles du contrôle des impulsions, du moins selon les manuels psychiatriques. Ils seront sans doute intégrés à cette catégorie un jour. En réalité, un désir d'acheter quasi paroxystique s'empare déjà de plus en plus souvent de nombreux concitoyens dits « cliniquement sains » des deux sexes. Certains dépassent leur découvert bancaire, d'autres s'endettent très lourdement. On estime qu'un citoyen sur 20 est touché, soit des millions de personnes. Il ne s'agit pas d'une particularité typiquement féminine, car les hommes sont également souvent concernés.",
+                  "Le pays de Cocagne a toujours été le rêve de l'humanité. Un pays où les oies rôties vous volent dans la bouche, où le lait et le miel coulent à flots. Mais ce rêve est une utopie et ne deviendra probablement jamais réalité. Ou peut-être que si ? Le paradis des achats n'est qu'à un clic. L'e-commerce incarne-t-il cette idée de Cocagne ? Seul bémol : les articles commandés en ligne doivent être réglés, et ce en argent bien réel.",
+                  "Faire ses achats depuis son canapé n'est pas si nouveau. Il y a 100 ans, des sociétés de vente par correspondance étaient déjà créées pour approvisionner les zones rurales en biens de consommation. On pouvait commander confortablement depuis chez soi. Mais on ne pouvait pas encore appeler cela le paradis des achats : les clients devaient éplucher des centaines de pages dans d'épais catalogues. Il était difficile d'avoir une vue d'ensemble, et plus encore de comparer prix et qualité. La véritable révolution des achats n'a lieu que maintenant.",
+                  "Une étude de marché a examiné le comportement d'achat des hommes et des femmes afin d'identifier des critères incitant les femmes à adopter le shopping en ligne. Nous constatons que les femmes aiment faire les boutiques entre amies. Les hommes les accompagnent plus rarement, s'impatientant et levant les yeux au ciel dès que madame s'arrête une nouvelle fois pour observer et examiner un article. Les experts en marketing intègreront-ils des zones d'attente et d'échange social sur les sites web, ou bien le comportement sera-t-il simplement dicté par le fait que les femmes actives disposent d'un temps de plus en plus restreint ?",
+                  "Le risque d'addiction augmentera probablement avec ce paradis numérique pour les hommes et les femmes. Les achats incontrôlés et futiles sont devenus encore plus aisés, tandis que l'addiction est plus facile à dissimuler puisque les colis sont livrés directement au domicile. Eh bien, pour nous thérapeutes, psychologues et psychiatres, le travail ne manquera pas !"
+                ]
+              }
+            }
+          ],
+          "example": {
+            "ar": "يكتب المدون حول موضوع إدمان الشراء.",
+            "fr": "Le blogueur écrit sur le thème de la dépendance aux achats.",
+            "text": {
+              "ar": "يكتب المدون حول موضوع إدمان الشراء.",
+              "fr": "Le blogueur écrit sur le thème de la dépendance aux achats."
+            }
+          },
+          "questions": {
+            "1": {
+              "ar": "يُعترف بالسلوك الشرائي القهري كإدمان رسمي.",
+              "fr": "Le comportement d'achat compulsif est officiellement reconnu comme une addiction.",
+              "text": {
+                "ar": "يُعترف بالسلوك الشرائي القهري كإدمان رسمي.",
+                "fr": "Le comportement d'achat compulsif est officiellement reconnu comme une addiction."
+              }
+            },
+            "2": {
+              "ar": "المشكلة تصيب النساء بصورة شبه حصرية.",
+              "fr": "Le problème concerne presque exclusivement les femmes.",
+              "text": {
+                "ar": "المشكلة تصيب النساء بصورة شبه حصرية.",
+                "fr": "Le problème concerne presque exclusivement les femmes."
+              }
+            },
+            "3": {
+              "ar": "يمكن أن يسبب هوس الشراء مشكلات مالية كبيرة.",
+              "fr": "La frénésie d'achats peut provoquer de graves difficultés financières.",
+              "text": {
+                "ar": "يمكن أن يسبب هوس الشراء مشكلات مالية كبيرة.",
+                "fr": "La frénésie d'achats peut provoquer de graves difficultés financières."
+              }
+            },
+            "4": {
+              "ar": "المتاجر الإلكترونية هي أرض الأحلام والنعيم الحديثة.",
+              "fr": "Les boutiques en ligne représentent le pays de Cocagne moderne.",
+              "text": {
+                "ar": "المتاجر الإلكترونية هي أرض الأحلام والنعيم الحديثة.",
+                "fr": "Les boutiques en ligne représentent le pays de Cocagne moderne."
+              }
+            },
+            "5": {
+              "ar": "استطاع سكان الأرياف قديماً الطلب عبر شركات البيع بالمراسلة.",
+              "fr": "Autrefois, les habitants des campagnes pouvaient commander auprès de maisons de vente par correspondance.",
+              "text": {
+                "ar": "استطاع سكان الأرياف قديماً الطلب عبر شركات البيع بالمراسلة.",
+                "fr": "Autrefois, les habitants des campagnes pouvaient commander auprès de maisons de vente par correspondance."
+              }
+            },
+            "6": {
+              "ar": "تملك النساء وقتاً أقل باستمرار ويجب عليهن الطلب عبر الإنترنت.",
+              "fr": "Les femmes ont de moins en moins de temps et doivent commander en ligne.",
+              "text": {
+                "ar": "تملك النساء وقتاً أقل باستمرار ويجب عليهن الطلب عبر الإنترنت.",
+                "fr": "Les femmes ont de moins en moins de temps et doivent commander en ligne."
+              }
+            }
+          }
+        },
+        "2": {
+          "instructions": {
+            "ar": "اقرأ النص الصحفي والمهام من 7 إلى 9 المتعلقة به. اختر عند كل مهمة الإجابة الصحيحة a أو b أو c.",
+            "fr": "Lisez le texte de presse et les exercices 7 à 9 associés. Choisissez la bonne réponse a, b ou c pour chaque exercice."
+          },
+          "articles": [
+            {
+              "heading": {
+                "ar": "صحف الشوارع في ألمانيا",
+                "fr": "Les journaux de rue en Allemagne"
+              },
+              "sub": {
+                "ar": "تسمى مثلاً motz – Kippe – Parkbank – strassenfeger – Abseits!?",
+                "fr": "Ils s'intitulent par exemple motz – Kippe – Parkbank – strassenfeger – Abseits!?"
+              },
+              "body": {
+                "ar": [
+                  "توجد حوالي 35 إلى 40 صحيفة شوارع في ألمانيا. نشأت جميعها تقريباً في مطلع إلى منتصف التسعينيات كمشاريع اجتماعية في إطار مكافحة التشرد. لكل صحيفة طابعها الخاص؛ إذ تنقل تقارير عن أوضاع المشردين، وتقدم معلومات حديثة حول المرافق الاجتماعية، وتناقش مشكلات الحياة اليومية ليس فقط للمشردين، بل أيضاً لمستحقي إعانات هارتس 4 وغيرهم من ذوي الدخل المنخفض.",
+                  "تتألف هيئة تحرير صحف الشوارع عادة من موظف أو اثنين دائمين (من ذوي التأهيل الاجتماعي التربوي أو الصحفي) وموظفين متطوعين. يضاف إليهم كتاب مستقلون يعملون تطوعاً أو بأجر وفقاً لكل صحيفة. وتختلف نسبة المشردين الذين يشاركون في إنتاج الصحيفة من مدينة لأخرى.",
+                  "تشترك جميع صحف الشوارع في بيعها مباشرة على قارعة الطريق، إما في أماكن محددة كمدينتي شتوتغارت وهامبورغ، أو في كل مكان كبرلين. ويتبقى للبائعين، بحسب الصحيفة، 50 بالمائة على الأقل من ثمن البيع كربح خالص لهم.",
+                  "تسعى بعض صحف الشوارع لتفادي الشكاوى المحتملة حول المضايقات في الشارع عبر منح بطاقات تعريفية للبائعين. وتقوم بعض الصحف بفحص الحاجة الاجتماعية للباعة: ويعتبر دخل 500 يورو شهرياً حداً معتاداً. بينما تنطلق مدن أخرى من مبدأ أن هذه الوظيفة لا يمارسها إلا من ليس لديه بديل آخر على الإطلاق."
+                ],
+                "fr": [
+                  "Il existe environ 35 à 40 journaux de rue en Allemagne. Presque tous ont vu le jour au début ou au milieu des années 90 en tant que projets sociaux de lutte contre le sans-abrisme. Chaque journal possède sa propre identité : ils informent sur la situation des sans-abri, donnent des renseignements actuels sur les structures sociales et débattent des tracas du quotidien des démunis et allocataires sociaux.",
+                  "La rédaction de ces journaux se compose généralement d'un ou deux salariés permanents (avec formation socio-pédagogique ou journalistique) et de collaborateurs bénévoles. S'y ajoutent des auteurs pigistes, bénévoles ou rémunérés selon le journal. La part des sans-abri participant à la conception du journal varie d'une ville à l'autre.",
+                  "Le point commun à tous ces journaux est la vente directe dans la rue, à des emplacements fixes dans des villes comme Stuttgart ou Hambourg, ou partout comme à Berlin. Les vendeurs conservent au moins 50 % du prix de vente sous forme de bénéfice.",
+                  "Pour prévenir d'éventuelles plaintes pour démarchage importun, certains journaux délivrent des cartes officielles aux vendeurs. Certains vérifient la précarité sociale : 500 euros par mois est un plafond usuel. D'autres villes partent du principe que cette activité n'est exercée que par ceux qui n'ont rien d'autre."
+                ]
+              }
+            }
+          ],
+          "example": {
+            "text": {
+              "ar": "يدور المقال حول ...",
+              "fr": "L'article traite de..."
+            },
+            "options": {
+              "ar": [
+                "المشكلات اليومية في ألمانيا.",
+                "مشاريع الصحف البديلة في ألمانيا.",
+                "مشكلات الصحافة في ألمانيا."
+              ],
+              "fr": [
+                "des problèmes quotidiens en Allemagne.",
+                "des projets de presse alternative en Allemagne.",
+                "des difficultés de la presse en Allemagne."
+              ]
+            },
+            "ar": {
+              "text": "يدور المقال حول ...",
+              "options": [
+                "المشكلات اليومية في ألمانيا.",
+                "مشاريع الصحف البديلة في ألمانيا.",
+                "مشكلات الصحافة في ألمانيا."
+              ]
+            },
+            "fr": {
+              "text": "L'article traite de...",
+              "options": [
+                "des problèmes quotidiens en Allemagne.",
+                "des projets de presse alternative en Allemagne.",
+                "des difficultés de la presse en Allemagne."
+              ]
+            }
+          },
+          "questions": {
+            "7": {
+              "text": {
+                "ar": "توجد هذه الصحف منذ حوالي ...",
+                "fr": "Ces journaux existent depuis environ ..."
+              },
+              "options": {
+                "ar": [
+                  "عشرين عاماً.",
+                  "ثلاثين عاماً.",
+                  "أربعين عاماً."
+                ],
+                "fr": [
+                  "vingt ans.",
+                  "trente ans.",
+                  "quarante ans."
+                ]
+              },
+              "ar": "توجد هذه الصحف منذ حوالي ...",
+              "fr": "Ces journaux existent depuis environ ..."
+            },
+            "8": {
+              "text": {
+                "ar": "يكتب المقالات ...",
+                "fr": "Les articles sont rédigés par ..."
+              },
+              "options": {
+                "ar": [
+                  "أخصائيون اجتماعيون فقط.",
+                  "صحفيون مؤهلون فقط.",
+                  "كُتاب متنوعون."
+                ],
+                "fr": [
+                  "uniquement des éducateurs sociaux.",
+                  "uniquement des journalistes formés.",
+                  "différents auteurs."
+                ]
+              },
+              "ar": "يكتب المقالات ...",
+              "fr": "Les articles sont rédigés par ..."
+            },
+            "9": {
+              "text": {
+                "ar": "بائعو الصحف ...",
+                "fr": "Les vendeurs de journaux ..."
+              },
+              "options": {
+                "ar": [
+                  "يشاركون في الأرباح.",
+                  "يكسبون خمسمائة يورو شهرياً.",
+                  "يشتكون من المضايقات."
+                ],
+                "fr": [
+                  "participent aux bénéfices.",
+                  "gagnent cinq cents euros par mois.",
+                  "se plaignent de harcèlement."
+                ]
+              },
+              "ar": "بائعو الصحف ...",
+              "fr": "Les vendeurs de journaux ..."
+            }
+          },
+          "instructions2": {
+            "ar": "اقرأ النص الصحفي والمهام من 10 إلى 12 المتعلقة به. اختر عند كل مهمة الإجابة الصحيحة a أو b أو c.",
+            "fr": "Lisez le texte de presse et les exercices 10 à 12 associés. Choisissez la bonne réponse a, b ou c pour chaque exercice."
+          },
+          "articles2": [
+            {
+              "heading": {
+                "ar": "ضفدع الطقس لجهاز الآيفون",
+                "fr": "La grenouille météo pour l'iPhone"
+              },
+              "sub": {
+                "ar": "عواصف ثلجية، حرارة شديدة أو عواصف رعدية قوية – الآن يمكن للجميع تلقي التحذيرات على الآيفون، حتى بدقة الرمز البريدي.",
+                "fr": "Tempêtes de neige, canicule ou violents orages – chacun peut désormais recevoir des alertes météo géolocalisées sur son iPhone."
+              },
+              "body": {
+                "ar": [
+                  "نظام التحذير من الكوارث «Katwarn»، الذي طوره معهد فراونهوفر لأنظمة الاتصالات المفتوحة واتحاد شركات التأمين العامة، ينقل التحذيرات للمستخدمين المسجلين عبر تطبيق مجاني. وقد حذر التطبيق بالفعل في العديد من المدن أثناء الحوادث الكبرى. وبفضل قناة الإنذار التابعة لهيئة الأرصاد الجوية الألمانية، يغطي «Katwarn» نطاقاً عريضاً من مواقف الخطر. وهذه خطوة مهمة نحو خدمة إنذار بلدية شاملة. الميزة الاستثنائية لـ «Katwarn» تكمن في إرسال التحذيرات بدقة الرمز البريدي للمستخدمين، مما يتيح الوصول إليهم سواء في المنزل أو المكتب أو أثناء التنقل لإغلاق النوافذ أو التوجه لمكان آمن في الوقت المناسب.",
+                  "كما تقدم شركة خدمات الأرصاد الجوية الشهيرة Meteomedia بياناتها الشاملة عبر تطبيق منظم تحت اسم «تحذيرات كاتشلمان للعواصف». وسواء كانت عواصف رعدية أو رياحاً عاتية أو جبهات ماطرة، تعرض لك خريطة الرادار مناطق الخطر الحالية والمسار المتوقع لسحب الأمطار.",
+                  "وحسب الرغبة، يمكنك تلقي إشعارات فورية تحذرك من مخاطر العواصف في موقعك الحالي أو في عنوان محدد تختاره. وتلبي النصوص التحذيرية المفصلة حول مسار العاصفة وشدتها متطلبات أكثر المستخدمين شغفاً بالمعرفة. الخلاصة: وداعاً للمفاجآت غير السارة!"
+                ],
+                "fr": [
+                  "Le système d'alerte aux catastrophes « Katwarn », conçu par l'Institut Fraunhofer FOKUS et la Fédération des assureurs publics, transmet des avertissements aux utilisateurs enregistrés via une application gratuite. Dans plusieurs villes, Katwarn a déjà alerté lors de sinistres. Avec le canal du service météorologique allemand, Katwarn couvre un large éventail de situations à risque. La particularité de Katwarn : il transmet les alertes au code postal près aux utilisateurs, touchant les personnes à domicile, au bureau ou en déplacement pour fermer les fenêtres ou se mettre en lieu sûr.",
+                  "Le réputé prestataire météorologique Meteomedia met également l'ensemble de ses données à disposition via une application claire baptisée « Alertes intempéries Kachelmann ». Orages, rafales de vent ou fronts de pluie : une carte radar affiche non seulement les zones menacées, mais aussi la trajectoire prévue des nuages.",
+                  "Sur demande, vous pouvez vous faire alerter par notification push du danger à votre position ou à une adresse définie. Les descriptifs détaillés sur la trajectoire et l'intensité satisfont même les usagers les plus curieux et exigeants. Bilan : plus de mauvaises surprises !"
+                ]
+              }
+            }
+          ],
+          "questions2": {
+            "10": {
+              "text": {
+                "ar": "توجد للهواتف المحمولة من الجيل الجديد أنظمة إنذار ضد ...",
+                "fr": "Pour les téléphones mobiles de nouvelle génération, il existe des alertes pour ..."
+              },
+              "options": {
+                "ar": [
+                  "مشكلات الاتصال.",
+                  "العواصف وسوء الأحوال الجوية.",
+                  "التأمينات."
+                ],
+                "fr": [
+                  "les problèmes de communication.",
+                  "les intempéries.",
+                  "les assurances."
+                ]
+              },
+              "ar": "توجد للهواتف المحمولة من الجيل الجديد أنظمة إنذار ضد ...",
+              "fr": "Pour les téléphones mobiles de nouvelle génération, il existe des alertes pour ..."
+            },
+            "11": {
+              "text": {
+                "ar": "تعمل قناة الإنذار ...",
+                "fr": "Le canal d'alerte fonctionne ..."
+              },
+              "options": {
+                "ar": [
+                  "بدقة وفق الرمز البريدي.",
+                  "في أماكن محددة فقط.",
+                  "عندما تكون النوافذ مغلقة فقط."
+                ],
+                "fr": [
+                  "au code postal près.",
+                  "uniquement dans certains endroits.",
+                  "uniquement les fenêtres fermées."
+                ]
+              },
+              "ar": "تعمل قناة الإنذار ...",
+              "fr": "Le canal d'alerte fonctionne ..."
+            },
+            "12": {
+              "text": {
+                "ar": "يعجب النظام أيضاً ...",
+                "fr": "Ce système plaît également ..."
+              },
+              "options": {
+                "ar": [
+                  "الأشخاص ذوي التطلعات العالية.",
+                  "ضفدع الطقس.",
+                  "هاتف الآيفون."
+                ],
+                "fr": [
+                  "aux personnes exigeantes.",
+                  "à la grenouille météo.",
+                  "à l'iPhone."
+                ]
+              },
+              "ar": "يعجب النظام أيضاً ...",
+              "fr": "Ce système plaît également ..."
+            }
+          }
+        },
+        "3": {
+          "instructions": {
+            "ar": "اقرأ المواقف من 13 إلى 19 والإعلانات من A إلى J من مختلف وسائل الإعلام الناطقة بالألمانية. اختر: أي إعلان يناسب أي موقف؟ يمكنك استخدام كل إعلان مرة واحدة فقط. لا يمكنك استخدام الإعلان الوارد في المثال مجدداً. إذا لم تجد إعلاناً مناسباً لإحدى الحالات، فاكتب الرقم 0.",
+            "fr": "Lisez les situations 13 à 19 et les annonces A à J issues de différents médias germanophones. Choisissez : quelle annonce correspond à quelle situation ? Chaque annonce ne s'utilise qu'une seule fois. Si aucune annonce ne convient, inscrivez 0."
+          },
+          "example": {
+            "ar": "أجرت السيدة باير عملية جراحية، والآن تبدأ من جديد بالتدريب. وتبحث عن معلومات حول كيفية حماية نفسها من الإجهاد المفرط والإصابات.",
+            "fr": "Mme Bayer a subi une opération et reprend l'entraînement. Elle cherche des informations pour se préserver du surmenage et des blessures.",
+            "text": {
+              "ar": "أجرت السيدة باير عملية جراحية، والآن تبدأ من جديد بالتدريب. وتبحث عن معلومات حول كيفية حماية نفسها من الإجهاد المفرط والإصابات.",
+              "fr": "Mme Bayer a subi une opération et reprend l'entraînement. Elle cherche des informations pour se préserver du surmenage et des blessures."
+            }
+          },
+          "questions": {
+            "13": {
+              "ar": "يريد السيد فينكلر الاطلاع بأكبر قدر ممكن من التفصيل على الأحداث الرياضية الحالية.",
+              "fr": "M. Winkler souhaite s'informer le plus en détail possible sur les événements sportifs actuels.",
+              "text": {
+                "ar": "يريد السيد فينكلر الاطلاع بأكبر قدر ممكن من التفصيل على الأحداث الرياضية الحالية.",
+                "fr": "M. Winkler souhaite s'informer le plus en détail possible sur les événements sportifs actuels."
+              }
+            },
+            "14": {
+              "ar": "ترغب تانيا في تعلم ركوب الخيل وتبحث عن معلومات مناسبة لذلك.",
+              "fr": "Tanja aimerait apprendre l'équitation et recherche les informations appropriées.",
+              "text": {
+                "ar": "ترغب تانيا في تعلم ركوب الخيل وتبحث عن معلومات مناسبة لذلك.",
+                "fr": "Tanja aimerait apprendre l'équitation et recherche les informations appropriées."
+              }
+            },
+            "15": {
+              "ar": "يرغب السيد إمريش في التدرب في المنزل استعداداً لعطلة التزلج ويبحث عن جهاز رياضي مناسب.",
+              "fr": "M. Emmerich souhaite s'entraîner chez lui pour son séjour de ski et cherche un appareil de sport adapté.",
+              "text": {
+                "ar": "يرغب السيد إمريش في التدرب في المنزل استعداداً لعطلة التزلج ويبحث عن جهاز رياضي مناسب.",
+                "fr": "M. Emmerich souhaite s'entraîner chez lui pour son séjour de ski et cherche un appareil de sport adapté."
+              }
+            },
+            "16": {
+              "ar": "ترغب السيدة رول في تحسين قوامها واكتساب المزيد من المرونة، وبما أنها لا رغبة لديها في ممارسة الرياضة فهي تبحث عن بدائل.",
+              "fr": "Mme Rühl souhaite améliorer sa posture et gagner en souplesse. N'ayant pas envie de faire du sport, elle cherche des alternatives.",
+              "text": {
+                "ar": "ترغب السيدة رول في تحسين قوامها واكتساب المزيد من المرونة، وبما أنها لا رغبة لديها في ممارسة الرياضة فهي تبحث عن بدائل.",
+                "fr": "Mme Rühl souhaite améliorer sa posture et gagner en souplesse. N'ayant pas envie de faire du sport, elle cherche des alternatives."
+              }
+            },
+            "17": {
+              "ar": "يعلم أندي أن حوادث الدراجات الهوائية غالباً ما تؤدي إلى إصابات في الرأس. وهو يقود الدراجة كثيراً ويريد حماية نفسه.",
+              "fr": "Andy sait que les accidents de vélo provoquent souvent des traumatismes crâniens. Il roule souvent à vélo et veut se protéger.",
+              "text": {
+                "ar": "يعلم أندي أن حوادث الدراجات الهوائية غالباً ما تؤدي إلى إصابات في الرأس. وهو يقود الدراجة كثيراً ويريد حماية نفسه.",
+                "fr": "Andy sait que les accidents de vélo provoquent souvent des traumatismes crâniens. Il roule souvent à vélo et veut se protéger."
+              }
+            },
+            "18": {
+              "ar": "إيلين وأوفي من هواة الرياضات الشتوية المتحمسين، ويرغبان في أن يتعلم ابنهما البالغ من العمر خمس سنوات التزلج على الجليد.",
+              "fr": "Ellen et Uwe sont des passionnés de sports d'hiver et souhaitent que leur fils de cinq ans apprenne le ski.",
+              "text": {
+                "ar": "إيلين وأوفي من هواة الرياضات الشتوية المتحمسين، ويرغبان في أن يتعلم ابنهما البالغ من العمر خمس سنوات التزلج على الجليد.",
+                "fr": "Ellen et Uwe sont des passionnés de sports d'hiver et souhaitent que leur fils de cinq ans apprenne le ski."
+              }
+            },
+            "19": {
+              "ar": "تريد السيدة تسيغلر شراء دراجة هوائية جيدة لابن أخيها.",
+              "fr": "Mme Ziegler veut acheter un bon vélo pour son neveu.",
+              "text": {
+                "ar": "تريد السيدة تسيغلر شراء دراجة هوائية جيدة لابن أخيها.",
+                "fr": "Mme Ziegler veut acheter un bon vélo pour son neveu."
+              }
+            }
+          },
+          "ads": {
+            "A": {
+              "ar": "عرض رياضي ضخم على الإنترنت: سواء أكنت مهتماً بأحدث المعلومات أو التحليلات العميقة أو عناوين الاتصال، ستجد كل شيء هنا. على موقع www.sport.de تبقيك خدمة الأخبار العاجلة على اطلاع دائم بجميع مجريات الرياضة.",
+              "fr": "Grande offre sportive sur Internet : que vous recherchiez des actualités, des analyses de fond ou des contacts, vous trouverez presque tout ici. Sur www.sport.de, les actualités en continu vous informent du sport en direct."
+            },
+            "B": {
+              "ar": "ذكي وعملي: ليس للأصحاء فحسب، بل للمرضى المزمنين أيضاً، يقدم الطبيب الرياضي راينهارد باست كتابه التطبيقي للإجابة باقتدار عن: من يمارس الرياضة، ومتى، وبأي مقدار، وما هو النوع المسموح به. دار نشر هانسن. متوفر في المكتبات.",
+              "fr": "Pratique et judicieux : le livre du médecin du sport Reinhard Bast s'adresse aux personnes saines comme aux malades chroniques. Il répond avec compétence : qui peut faire quel sport, quand et à quelle dose ? Éditions Hansen, en librairie."
+            },
+            "C": {
+              "ar": "رحلات F - S - X النشطة لهواة الرياضة: تزلج بالعجلات، ركوب الدراجات الجبلية، رقص الشوارع/هيب هوب، وجميع الرياضات المائية. الموقع: www.f-s-x.de هاتف: 030-61484022.",
+              "fr": "Voyages actifs F - S - X pour sportifs : roller, VTT, streetdance/hip-hop, tous sports nautiques. www.f-s-x.de · Tél. 030-61484022."
+            },
+            "D": {
+              "ar": "متعة ركوب الدراجة ولكن أبداً ليس بدون خوذة! يمكن تفادي العديد من إصابات الرأس بواسطة خوذة واقية فعالة. خوذات الدراجات ABUS للأطفال والشباب والبالغين معتمدة من TÜV. اطلب باقة المعلومات المجانية: شركة أبوس فيشر هيندرك كيه جي، فيتر.",
+              "fr": "Le plaisir du vélo, jamais tête nue ! Beaucoup de blessures peuvent être évitées grâce à une protection efficace. Les casques de vélo ABUS enfants, ados et adultes sont certifiés TÜV. Brochure gratuite : ABUS KG, Wetter."
+            },
+            "E": {
+              "ar": "في عالم هايدي الشتوي على هضبة هايدي فلكرت في كارينثيا على ارتفاع 1900 متر، تتعلمون مدى سهولة التزلج. نضمن متعة الشتاء على منحدرات آمنة تماماً من ديسمبر إلى أبريل. استخدام مجاني لمصاعد التزلج للأطفال حتى سن 6 سنوات طوال الموسم.",
+              "fr": "Dans le monde hivernal de Heidi sur l'alpage du Falkert en Carinthie (1900 m), découvrez la facilité du ski sur des pistes sécurisées. Gratuité des remontées mécaniques toute la saison pour les enfants jusqu'à 6 ans."
+            },
+            "F": {
+              "ar": "النمسا بلد الرياضة — عطلة محلية مفعمة بالحيوية: مشي الشمال بالنورديك، جري، دراجات أو غولف: أفضل العناوين الصيفية والفعاليات والفنادق والنزل في ملحق السفر لصحيفة نيوز.",
+              "fr": "L'Autriche, terre de sport : marche nordique, course à pied, vélo ou golf. Retrouvez les meilleures adresses estivales, événements et hôtels dans le supplément voyage de « News »."
+            },
+            "G": {
+              "ar": "أثبتت فعاليتها 100 ألف مرة! مرهم المفاصل الأصلي باد فورتساخر: للروماتيزم، والتهاب المفاصل، وتآكل الغضاريف، وعرق النسا، وآلام الديسك والفقرات. متوفر في صيدليتك.",
+              "fr": "Approuvée 100 000 fois ! Véritable pommade articulaire de Bad Würzach. Efficace en cas de rhumatismes, arthrite, arthrose, sciatique, hernie discale et lumbago. En pharmacie."
+            },
+            "H": {
+              "ar": "دراجة FORMAT الجديدة من سينورا المصنعة في ألمانيا: مظهر فريد وأمان بنسبة مائة بالمائة. جميع الأجزاء مصممة بما يناسب الأطفال والشباب بجودة ممتازة لمواكبة الموضة في المدرسة وعلى الطريق. متوفرة لدى متاجر الدراجات المتخصصة.",
+              "fr": "Le nouveau vélo FORMAT de Sinora, produit en Allemagne : look unique, sécurité absolue, composants adaptés aux jeunes. Qualité de marque. Disponible chez les spécialistes du cycle."
+            },
+            "I": {
+              "ar": "لياقة وحركة: مع جهاز محاكاة التزلج الحديث من جالاكسي سبورت، يمكنك التدرب على جميع حركات التزلج بدون ثلج. جهاز «Super G» بمقاس 100×160 سم. السعر 1700 يورو. معلومات عبر لامبي، هاتف: 089/677926.",
+              "fr": "En forme et mobile : avec le nouveau simulateur de ski de Galaxy Sport, entraînez tous vos mouvements même sans neige. Encombrement compact 100x160 cm. 1700 €. Infos : 089/677926."
+            },
+            "J": {
+              "ar": "الحركة تحسن القوام: الرياضات المفيدة بشكل خاص هي الرقص، وركوب الخيل، والتزلج الريفي أو السباحة. كما تعد اليوغا وسيلة مثالية لتحسين القوام والليونة والمرونة. معلومات: اتحاد معلمي اليوغا، غوت هوفننغستال.",
+              "fr": "Le mouvement améliore la posture. Les disciplines idéales sont la danse, l'équitation, le ski de fond ou la natation. Le yoga est également parfait pour la posture et la souplesse. Infos : Association des professeurs de yoga."
+            }
+          }
+        },
+        "4": {
+          "instructions": {
+            "ar": "اقرأ النصوص من 20 إلى 26. اختر: أي الأشخاص يعارض التربية المكثفة للماشية (مزارع التسمين الضخمة)؟ قيّم رسائل القراء التالية حول مقال عن منشآت إنتاج اللحوم في ألمانيا.",
+            "fr": "Lisez les textes 20 à 26. Choisissez : quelles personnes sont opposées à l'élevage intensif ? Évaluez les courriers des lecteurs suivants."
+          },
+          "topic": {
+            "ar": "أي الأشخاص يعارض تربية الماشية المكثفة؟",
+            "fr": "Quelles personnes sont opposées à l'élevage intensif ?"
+          },
+          "example": {
+            "who": "Schneider, 45, Ulm",
+            "text": {
+              "ar": "حجم المنشأة لا يعبر إطلاقاً عن مدى جودة أو سوء رعاية الحيوانات. فالمنشآت الكبرى تحديداً تكون حديثة ومتوافقة مع المعايير الصارمة. ومن غير المنصف تماماً وضع تربية الماشية المكثفة عموماً في موضع الشبهة.",
+              "fr": "La taille d'une exploitation ne détermine en rien le traitement réservé aux bêtes. Les grandes fermes sont souvent modernes et respectent les normes strictes. Il est injuste de dénigrer systématiquement l'élevage intensif."
+            }
+          },
+          "letters": {
+            "20": {
+              "who": "Riechert, 37, Magdeburg",
+              "text": {
+                "ar": "إنتاج اللحوم الضخم ينطوي على سلبية أخرى: إنتاج كميات هائلة من الروث التي تلوث التربة والمياه الجوفية. كما أننا نطعم الحيوانات أغذية تجعلها منافسة للإنسان على الغذاء؛ فهي تأكل ما يمكننا تناوله، لتحوله إلى لحم، وقبل كل شيء إلى مخلفات.",
+                "fr": "La production de masse présente un autre défaut : elle génère d'immenses quantités de lisier polluant les sols et nappes phréatiques. Nous nourrissons les bêtes avec des denrées comestibles pour l'homme, en faisant des concurrents alimentaires produisant surtout des excréments."
+              }
+            },
+            "21": {
+              "who": "J. Stoll, 41, Meppen",
+              "text": {
+                "ar": "ملايين الحيوانات تعيش في حظائر منشآت التسمين ضمن مساحات ضيقة للغاية. وهذا يؤدي حتماً إلى توتر مفرط وسلوكيات مضطربة وأمراض. في نظري، فإن تربية الماشية المكثفة تعذيب خالص للحيوانات.",
+                "fr": "Des millions d'animaux vivent entassés dans des hangars d'engraissement. Cette promiscuité engendre stress, comportements anormaux et maladies. À mes yeux, l'élevage intensif est une pure maltraitance animale."
+              }
+            },
+            "22": {
+              "who": "Eva-Maria, 29, Jena",
+              "text": {
+                "ar": "حوالي 40 بالمائة من السعرات الحرارية التي نتناولها يومياً تأتي من اللحوم والنقانق. وقبل التحدث عن تربية الحيوانات، ينبغي أولاً مناقشة العادات الغذائية للمواطنين، فالمزارعون ينتجون في النهاية لتلبية طلب موجود فعلياً.",
+                "fr": "Environ 40 % de nos calories quotidiennes proviennent de la viande et de la charcuterie. Avant de parler de l'élevage, interrogeons nos habitudes alimentaires : les éleveurs produisent pour répondre à un besoin réel."
+              }
+            },
+            "23": {
+              "who": "Dr. Mayer, 56, Kufstein",
+              "text": {
+                "ar": "في المنشأة التي تضم أعداداً هائلة من الحيوانات، تظهر بطبيعة الحال أمراض بالجملة تحتاج للعلاج، ويتعذر تقديم علاج فردي لكل حيوان، ولذلك يتم إعطاء جميع الحيوانات أدوية ومضادات حيوية وقائياً. وهذا لا يستبعد تأثيراً على الإنسان: لا شكراً!",
+                "fr": "Dans un élevage concentrant tant d'animaux, les maladies prolifèrent inévitablement et ne peuvent être traitées au cas par cas. On administre donc massivement des antibiotiques à titre préventif, ce qui présente des risques pour l'homme : non merci !"
+              }
+            },
+            "24": {
+              "who": "Köhler, 33, Essen",
+              "text": {
+                "ar": "أنا لا أؤيد الهستيريا الجماعية ضد تربية الماشية المكثفة؛ فالجراثيم التي يُزعم العثور عليها في لحوم المتاجر لا تسبب المرض إذا روعيت قواعد النظافة البسيطة. النظافة هي المبدأ الأهم في التعامل مع اللحوم وأدوات المطبخ.",
+                "fr": "Je ne partage pas cette hystérie collective anti-élevage intensif. Les germes retrouvés sur la viande en supermarché ne rendent pas malade si l'on applique de simples règles d'hygiène en cuisine."
+              }
+            },
+            "25": {
+              "who": "Weiß, 68, Berlin",
+              "text": {
+                "ar": "لنتبع نمط الحياة النباتي! لأول مرة أدرج باحث المساحات التي تُقطع أشجارها من أجل تربية الحيوانات ضمن الميزانية المناخية للحوم، بنتيجة صادمة: إنتاج كيلو واحد من اللحم يضر بالمناخ بقدر رحلة بالسيارة من برلين إلى روما.",
+                "fr": "Suivons l'exemple végan ! Pour la première fois, un chercheur a intégré la déforestation liée à l'élevage dans le bilan carbone : un kilo de viande est aussi nocif pour le climat qu'un trajet en voiture de Berlin à Rome."
+              }
+            },
+            "26": {
+              "who": "Ewald, 42, Reutte",
+              "text": {
+                "ar": "مع ذلك، تشكل اليد العاملة في المزارع الكبيرة خطراً؛ فبينما يعتني المزارع المدرب بنفسه بالحيوانات في الحيازات الصغيرة، يقوم عمال آخرون بذلك في الشركات العملاقة. وهؤلاء غالباً لا يملكون تدريباً كافياً مما يثير مشكلات في رعاية الحيوان.",
+                "fr": "La main-d'œuvre des méga-fermes représente un risque : alors que le petit éleveur veille personnellement sur ses bêtes, les géants emploient du personnel souvent peu qualifié, compromettant le bien-être animal."
+              }
+            }
+          },
+          "questions": {
+            "20": {
+              "who": "Riechert, 37, Magdeburg",
+              "text": {
+                "ar": "إنتاج اللحوم الضخم ينطوي على سلبية أخرى: إنتاج كميات هائلة من الروث التي تلوث التربة والمياه الجوفية. كما أننا نطعم الحيوانات أغذية تجعلها منافسة للإنسان على الغذاء؛ فهي تأكل ما يمكننا تناوله، لتحوله إلى لحم، وقبل كل شيء إلى مخلفات.",
+                "fr": "La production de masse présente un autre défaut : elle génère d'immenses quantités de lisier polluant les sols et nappes phréatiques. Nous nourrissons les bêtes avec des denrées comestibles pour l'homme, en faisant des concurrents alimentaires produisant surtout des excréments."
+              }
+            },
+            "21": {
+              "who": "J. Stoll, 41, Meppen",
+              "text": {
+                "ar": "ملايين الحيوانات تعيش في حظائر منشآت التسمين ضمن مساحات ضيقة للغاية. وهذا يؤدي حتماً إلى توتر مفرط وسلوكيات مضطربة وأمراض. في نظري، فإن تربية الماشية المكثفة تعذيب خالص للحيوانات.",
+                "fr": "Des millions d'animaux vivent entassés dans des hangars d'engraissement. Cette promiscuité engendre stress, comportements anormaux et maladies. À mes yeux, l'élevage intensif est une pure maltraitance animale."
+              }
+            },
+            "22": {
+              "who": "Eva-Maria, 29, Jena",
+              "text": {
+                "ar": "حوالي 40 بالمائة من السعرات الحرارية التي نتناولها يومياً تأتي من اللحوم والنقانق. وقبل التحدث عن تربية الحيوانات، ينبغي أولاً مناقشة العادات الغذائية للمواطنين، فالمزارعون ينتجون في النهاية لتلبية طلب موجود فعلياً.",
+                "fr": "Environ 40 % de nos calories quotidiennes proviennent de la viande et de la charcuterie. Avant de parler de l'élevage, interrogeons nos habitudes alimentaires : les éleveurs produisent pour répondre à un besoin réel."
+              }
+            },
+            "23": {
+              "who": "Dr. Mayer, 56, Kufstein",
+              "text": {
+                "ar": "في المنشأة التي تضم أعداداً هائلة من الحيوانات، تظهر بطبيعة الحال أمراض بالجملة تحتاج للعلاج، ويتعذر تقديم علاج فردي لكل حيوان، ولذلك يتم إعطاء جميع الحيوانات أدوية ومضادات حيوية وقائياً. وهذا لا يستبعد تأثيراً على الإنسان: لا شكراً!",
+                "fr": "Dans un élevage concentrant tant d'animaux, les maladies prolifèrent inévitablement et ne peuvent être traitées au cas par cas. On administre donc massivement des antibiotiques à titre préventif, ce qui présente des risques pour l'homme : non merci !"
+              }
+            },
+            "24": {
+              "who": "Köhler, 33, Essen",
+              "text": {
+                "ar": "أنا لا أؤيد الهستيريا الجماعية ضد تربية الماشية المكثفة؛ فالجراثيم التي يُزعم العثور عليها في لحوم المتاجر لا تسبب المرض إذا روعيت قواعد النظافة البسيطة. النظافة هي المبدأ الأهم في التعامل مع اللحوم وأدوات المطبخ.",
+                "fr": "Je ne partage pas cette hystérie collective anti-élevage intensif. Les germes retrouvés sur la viande en supermarché ne rendent pas malade si l'on applique de simples règles d'hygiène en cuisine."
+              }
+            },
+            "25": {
+              "who": "Weiß, 68, Berlin",
+              "text": {
+                "ar": "لنتبع نمط الحياة النباتي! لأول مرة أدرج باحث المساحات التي تُقطع أشجارها من أجل تربية الحيوانات ضمن الميزانية المناخية للحوم، بنتيجة صادمة: إنتاج كيلو واحد من اللحم يضر بالمناخ بقدر رحلة بالسيارة من برلين إلى روما.",
+                "fr": "Suivons l'exemple végan ! Pour la première fois, un chercheur a intégré la déforestation liée à l'élevage dans le bilan carbone : un kilo de viande est aussi nocif pour le climat qu'un trajet en voiture de Berlin à Rome."
+              }
+            },
+            "26": {
+              "who": "Ewald, 42, Reutte",
+              "text": {
+                "ar": "مع ذلك، تشكل اليد العاملة في المزارع الكبيرة خطراً؛ فبينما يعتني المزارع المدرب بنفسه بالحيوانات في الحيازات الصغيرة، يقوم عمال آخرون بذلك في الشركات العملاقة. وهؤلاء غالباً لا يملكون تدريباً كافياً مما يثير مشكلات في رعاية الحيوان.",
+                "fr": "La main-d'œuvre des méga-fermes représente un risque : alors que le petit éleveur veille personnellement sur ses bêtes, les géants emploient du personnel souvent peu qualifié, compromettant le bien-être animal."
+              }
+            }
+          }
+        },
+        "5": {
+          "instructions": {
+            "ar": "اقرأ المهام من 27 إلى 30 والنص المرفق. اختر عند كل مهمة الإجابة الصحيحة a أو b أو c.",
+            "fr": "Lisez les exercices 27 à 30 et le texte associé. Choisissez la bonne réponse a, b ou c pour chaque exercice."
+          },
+          "article": {
+            "heading": {
+              "ar": "النشرة الطبية المرفقة (Beipackzettel)",
+              "fr": "La notice d'emballage (Beipackzettel)"
+            },
+            "intro": {
+              "ar": "معلومات حول الاستعمال الصحيح للدواء والآثار الجانبية والمخاطر.",
+              "fr": "Informations sur l'utilisation correcte du médicament, les effets indésirables et les risques."
+            }
+          },
+          "articles": [
+            {
+              "heading": {
+                "ar": "النشرة الطبية المرفقة",
+                "fr": "La notice d'emballage"
+              },
+              "sub": {
+                "ar": "تقدم النشرة الطبية معلومات عن التأثير والآثار الجانبية والمخاطر المحتملة للدواء لتتمكن من استخدامه بصورة صحيحة. ولا يمكن للنشرة أن تحل محل حديثك مع الطبيب أو الصيدلي؛ فهما وحدهما القادران على تقرير ضرورة وسبب تناولك للدواء.",
+                "fr": "La notice informe sur les effets, les effets indésirables possibles et les risques du médicament afin que vous puissiez l'utiliser correctement. La notice ne peut remplacer une consultation médicale."
+              },
+              "body": {
+                "ar": [
+                  "يُلزم القانون مصنعي الأدوية بصياغة نشرة طبية وإرفاقها مع عبوات الأدوية. وتجدون المعلومات داخل النشرة مرتبة تماماً وفق تسلسل احتياجكم إليها بالتزامن مع تناول الدواء:",
+                  "• من المهم للغاية أن تقرأ النشرة الطبية بأكملها بعناية فائقة قبل تناول أو استخدام الدواء للمرة الأولى.",
+                  "• تأتي في المقام الأول الإرشادات الواجب معرفتها قبل العلاج، مثل الأمراض التي يكون الدواء فعالاً ضدها، والحالات التي يُحظر فيها تناوله.",
+                  "• تلي ذلك معلومات هامة قبيل وأثناء فترة العلاج، مثل مدى توافق الدواء أو تعارضه مع أدوية أخرى، أو المقدار والجرعة المحددة للتناول.",
+                  "• وأخيراً تأتي الإرشادات الهامة أثناء العلاج وبعده، مثل الأعراض والآثار الجانبية المحتملة، وكيفية تخزين وحفظ الدواء بأفضل طريقة."
+                ],
+                "fr": [
+                  "Les fabricants de médicaments sont légalement tenus de rédiger une notice et de la joindre aux médicaments. Vous y trouverez les informations présentées dans l'ordre chronologique de vos besoins :",
+                  "• Il est primordial de lire attentivement l'intégralité de la notice avant toute première prise ou application du médicament.",
+                  "• En premier lieu figurent les indications préalables au traitement, par exemple les pathologies ciblées et les contre-indications formelles.",
+                  "• Viennent ensuite les informations cruciales juste avant et pendant le traitement, telles que les interactions médicamenteuses et la posologie.",
+                  "• Enfin, sont mentionnées les précautions pendant et après le traitement, notamment les effets secondaires éventuels et les modalités optimales de conservation."
+                ]
+              }
+            }
+          ],
+          "questions": {
+            "27": {
+              "text": {
+                "ar": "النشرة الطبية المرفقة ...",
+                "fr": "La notice d'emballage ..."
+              },
+              "options": {
+                "ar": [
+                  "تغني عن مراجعة الطبيب.",
+                  "يجب إرفاقها مع كل دواء.",
+                  "توضح لماذا يحتاج المريض للدواء."
+                ],
+                "fr": [
+                  "rend la consultation médicale superflue.",
+                  "doit être jointe à chaque médicament.",
+                  "explique pourquoi on a besoin du remède."
+                ]
+              },
+              "ar": "النشرة الطبية المرفقة ...",
+              "fr": "La notice d'emballage ..."
+            },
+            "28": {
+              "text": {
+                "ar": "ينبغي على المرء ...",
+                "fr": "On devrait ..."
+              },
+              "options": {
+                "ar": [
+                  "قراءة النشرة قبل تناول الدواء.",
+                  "الاحتفاظ بالنشرة.",
+                  "إعطاء النشرة للصيدلي."
+                ],
+                "fr": [
+                  "lire la notice avant de prendre le médicament.",
+                  "conserver la notice.",
+                  "remettre la notice au pharmacien."
+                ]
+              },
+              "ar": "ينبغي على المرء ...",
+              "fr": "On devrait ..."
+            },
+            "29": {
+              "text": {
+                "ar": "تذكر النشرة الطبية ...",
+                "fr": "Sur la notice, il est indiqué ..."
+              },
+              "options": {
+                "ar": [
+                  "سعر الدواء.",
+                  "تاريخ إنتاج الدواء.",
+                  "الأمراض التي يعالجها الدواء."
+                ],
+                "fr": [
+                  "combien coûte le produit.",
+                  "quand il a été fabriqué.",
+                  "contre quoi le médicament est efficace."
+                ]
+              },
+              "ar": "تذكر النشرة الطبية ...",
+              "fr": "Sur la notice, il est indiqué ..."
+            },
+            "30": {
+              "text": {
+                "ar": "تذكر النشرة الطبية أيضاً ...",
+                "fr": "La notice indique également ..."
+              },
+              "options": {
+                "ar": [
+                  "كيفية تخزين وحفظ الدواء.",
+                  "مدة صلاحية الدواء.",
+                  "المكونات المصنوع منها الدواء."
+                ],
+                "fr": [
+                  "comment conserver le médicament.",
+                  "combien de temps le médicament se garde.",
+                  "de quoi est composé le médicament."
+                ]
+              },
+              "ar": "تذكر النشرة الطبية أيضاً ...",
+              "fr": "La notice indique également ..."
+            }
+          }
+        },
+        "6": {
+          "instructions": {
+            "ar": "قسم الاستماع: 4 أجزاء، 30 مهمة. انقر على زر التشغيل لبدء المقطع الصوتي ومتابعة الأسئلة بالتزامن مع التسجيل.",
+            "fr": "Module Compréhension orale : 4 parties, 30 exercices. Cliquez sur Play pour démarrer l'enregistrement et répondre aux questions."
+          },
+          "teile": {
+            "1": {
+              "title": {
+                "ar": "خمسة نصوص قصيرة · المهام من 1 إلى 10",
+                "fr": "Cinq courts textes · Questions 1 à 10"
+              },
+              "desc": {
+                "ar": "ستستمع الآن إلى خمسة نصوص قصيرة. ستستمع إلى كل نص مرتين. لكل نص ستقوم بحل مهمتين. اختر الحل الصحيح لكل مهمة.",
+                "fr": "Vous allez entendre cinq courts textes. Vous écouterez chaque texte deux fois. Pour chaque texte, résolvez deux tâches."
+              }
+            },
+            "2": {
+              "title": {
+                "ar": "جولة في المتحف التكنولوجي (AIRSQUAWK001) · المهام من 11 إلى 15",
+                "fr": "Visite du musée technologique (AIRSQUAWK001) · Questions 11 à 15"
+              },
+              "desc": {
+                "ar": "ستستمع الآن إلى نص واحد مرة واحدة فقط. اختر الإجابة الصحيحة a أو b أو c للمهام من 11 إلى 15.",
+                "fr": "Vous allez entendre un texte une seule fois. Choisissez la bonne réponse a, b ou c pour les tâches 11 à 15."
+              },
+              "context": {
+                "ar": "أنت في متحف تكنولوجي وتستمع إلى جولة إرشادية.",
+                "fr": "Vous êtes dans un musée technologique et écoutez une visite guidée."
+              }
+            },
+            "3": {
+              "title": {
+                "ar": "محادثة في المقهى حول الحياة في أمريكا · المهام من 16 إلى 22",
+                "fr": "Conversation au café sur la vie en Amérique · Questions 16 à 22"
+              },
+              "desc": {
+                "ar": "ستستمع الآن إلى محادثة مرة واحدة فقط. حدد ما إذا كانت العبارات من 16 إلى 22 صحيحة أم خاطئة.",
+                "fr": "Vous allez entendre une conversation une seule fois. Choisissez si les affirmations 16 à 22 sont Vraies ou Fausses."
+              },
+              "context": {
+                "ar": "أنت جالس في مقهى وتستمع إلى شخصين يتحدثان.",
+                "fr": "Vous êtes assis dans un café et entendez deux personnes discuter."
+              }
+            },
+            "4": {
+              "title": {
+                "ar": "حلقة نقاش: الزيجات ثنائية القومية وصعوباتها · المهام من 23 إلى 30",
+                "fr": "Débat : Les couples binationaux et leurs défis · Questions 23 à 30"
+              },
+              "desc": {
+                "ar": "ستستمع الآن إلى نقاش مرتين. انسب العبارات من 23 إلى 30: من قال ماذا؟",
+                "fr": "Vous allez entendre un débat deux fois. Associez les affirmations 23 à 30 : qui dit quoi ?"
+              },
+              "context": {
+                "ar": "تناقش مذيعة برنامج «Aktuell» مع السيدة يانولاكيس والسيد كلايشنر موضوع «الزيجات ثنائية القومية وصعوباتها».",
+                "fr": "L'animatrice de l'émission « Aktuell » débat avec Mme Giannoulakis et M. Kleischner sur le thème « Les mariages binationaux et leurs difficultés »."
+              }
+            }
+          },
+          "questions": {
+            "h1": {
+              "ar": "البرنامج الغذائي مخصص للمتقاعدين فقط.",
+              "fr": "Le programme nutritionnel est réservé aux retraités.",
+              "text": {
+                "ar": "البرنامج الغذائي مخصص للمتقاعدين فقط.",
+                "fr": "Le programme nutritionnel est réservé aux retraités."
+              }
+            },
+            "h2": {
+              "text": {
+                "ar": "يحصل المتقاعدون وفق عرض التأمين الصحي على ...",
+                "fr": "Les retraités bénéficient selon l'offre de l'assurance de ..."
+              },
+              "options": {
+                "ar": [
+                  "جلسة تدليك.",
+                  "تدريب على التحمل وتقوية العضلات.",
+                  "علاج طبيعي فيزيائي."
+                ],
+                "fr": [
+                  "un massage.",
+                  "un entraînement d'endurance et de renforcement.",
+                  "de la kinésithérapie."
+                ]
+              },
+              "ar": "يحصل المتقاعدون وفق عرض التأمين الصحي على ...",
+              "fr": "Les retraités bénéficient selon l'offre de l'assurance de ..."
+            },
+            "h3": {
+              "ar": "اسم المشتركة المطلوبة مسجل ثلاث مرات في الكتالوج.",
+              "fr": "Le nom de la participante recherchée figure trois fois dans le catalogue.",
+              "text": {
+                "ar": "اسم المشتركة المطلوبة مسجل ثلاث مرات في الكتالوج.",
+                "fr": "Le nom de la participante recherchée figure trois fois dans le catalogue."
+              }
+            },
+            "h4": {
+              "text": {
+                "ar": "رقم هاتف صالون الحلاقة هو ...",
+                "fr": "Le numéro du salon de coiffure est ..."
+              },
+              "options": {
+                "ar": [
+                  "0221-67453320.",
+                  "0221-5025674.",
+                  "0171-34504078."
+                ],
+                "fr": [
+                  "0221-67453320.",
+                  "0221-5025674.",
+                  "0171-34504078."
+                ]
+              },
+              "ar": "رقم هاتف صالون الحلاقة هو ...",
+              "fr": "Le numéro du salon de coiffure est ..."
+            },
+            "h5": {
+              "ar": "تريد السيدتان الذهاب إلى المسرح.",
+              "fr": "Les deux dames veulent aller au théâtre.",
+              "text": {
+                "ar": "تريد السيدتان الذهاب إلى المسرح.",
+                "fr": "Les deux dames veulent aller au théâtre."
+              }
+            },
+            "h6": {
+              "text": {
+                "ar": "ترغب المتصلة قبل العرض المسائي في ...",
+                "fr": "Avant la représentation du soir, l'appelante aimerait ..."
+              },
+              "options": {
+                "ar": [
+                  "الذهاب للمنزل لفترة وجيزة.",
+                  "تناول شيء من الطعام.",
+                  "التوقف مجدداً عند مقر عملها."
+                ],
+                "fr": [
+                  "rentrer brièvement chez elle.",
+                  "manger encore un morceau.",
+                  "repasser rapidement à son travail."
+                ]
+              },
+              "ar": "ترغب المتصلة قبل العرض المسائي في ...",
+              "fr": "Avant la représentation du soir, l'appelante aimerait ..."
+            },
+            "h7": {
+              "ar": "يسري عرض قسم المخبوزات ليوم واحد فقط.",
+              "fr": "L'offre du rayon boulangerie n'est valable qu'une seule journée.",
+              "text": {
+                "ar": "يسري عرض قسم المخبوزات ليوم واحد فقط.",
+                "fr": "L'offre du rayon boulangerie n'est valable qu'une seule journée."
+              }
+            },
+            "h8": {
+              "text": {
+                "ar": "سعر قطعة الكعك هو ...",
+                "fr": "Une part de gâteau coûte ..."
+              },
+              "options": {
+                "ar": [
+                  "50 سنتاً.",
+                  "75 سنتاً.",
+                  "1.50 يورو."
+                ],
+                "fr": [
+                  "50 centimes.",
+                  "75 centimes.",
+                  "1,50 euro."
+                ]
+              },
+              "ar": "سعر قطعة الكعك هو ...",
+              "fr": "Une part de gâteau coûte ..."
+            },
+            "h9": {
+              "ar": "تُنظم هذه الدورات من قبل شركات الطيران.",
+              "fr": "Ces stages sont organisés par des compagnies aériennes.",
+              "text": {
+                "ar": "تُنظم هذه الدورات من قبل شركات الطيران.",
+                "fr": "Ces stages sont organisés par des compagnies aériennes."
+              }
+            },
+            "h10": {
+              "text": {
+                "ar": "لا يتعلم المرء في هذه الدورة أي شيء ...",
+                "fr": "Pendant le stage, on n'apprend rien sur ..."
+              },
+              "options": {
+                "ar": [
+                  "عن الأمور التقنية.",
+                  "عن تمارين التنفس والاسترخاء.",
+                  "عن جبال الألب."
+                ],
+                "fr": [
+                  "les aspects techniques.",
+                  "les exercices de respiration et de relaxation.",
+                  "les Alpes."
+                ]
+              },
+              "ar": "لا يتعلم المرء في هذه الدورة أي شيء ...",
+              "fr": "Pendant le stage, on n'apprend rien sur ..."
+            },
+            "h11": {
+              "text": {
+                "ar": "AIRSQUAWK001 هو عبارة عن ...",
+                "fr": "AIRSQUAWK001 est ..."
+              },
+              "options": {
+                "ar": [
+                  "طائرة حقيقية.",
+                  "صورة على لوحة عرض زمنية.",
+                  "مجسم بالحجم الطبيعي (نموذج محاكاة)."
+                ],
+                "fr": [
+                  "un véritable avion.",
+                  "une image sur un panneau chronologique.",
+                  "une maquette grandeur nature."
+                ]
+              },
+              "ar": "AIRSQUAWK001 هو عبارة عن ...",
+              "fr": "AIRSQUAWK001 est ..."
+            },
+            "h12": {
+              "text": {
+                "ar": "يمكن صعود الطائرة ...",
+                "fr": "On peut entrer dans l'avion ..."
+              },
+              "options": {
+                "ar": [
+                  "من الأعلى عبر النافذة.",
+                  "من الخلف عبر باب.",
+                  "من خلال عدة مداخل."
+                ],
+                "fr": [
+                  "par le haut à travers la fenêtre.",
+                  "par l'arrière par une porte.",
+                  "par plusieurs entrées."
+                ]
+              },
+              "ar": "يمكن صعود الطائرة ...",
+              "fr": "On peut entrer dans l'avion ..."
+            },
+            "h13": {
+              "text": {
+                "ar": "المقاعد في الطائرة الجديدة هي ...",
+                "fr": "Les sièges dans le nouvel avion sont ..."
+              },
+              "options": {
+                "ar": [
+                  "درجة أولى.",
+                  "درجة ثانية.",
+                  "مقاعد فاخرة."
+                ],
+                "fr": [
+                  "de première classe.",
+                  "de deuxième classe.",
+                  "des sièges de luxe."
+                ]
+              },
+              "ar": "المقاعد في الطائرة الجديدة هي ...",
+              "fr": "Les sièges dans le nouvel avion sont ..."
+            },
+            "h14": {
+              "text": {
+                "ar": "يوجد في AIRSQUAWK001 ...",
+                "fr": "Dans l'AIRSQUAWK001, il y a ..."
+              },
+              "options": {
+                "ar": [
+                  "مقاعد بدون خاصية التدليك.",
+                  "قاعة مؤتمرات.",
+                  "بار للمشروبات."
+                ],
+                "fr": [
+                  "aucun siège à réglage massant.",
+                  "une salle de conférence.",
+                  "un bar."
+                ]
+              },
+              "ar": "يوجد في AIRSQUAWK001 ...",
+              "fr": "Dans l'AIRSQUAWK001, il y a ..."
+            },
+            "h15": {
+              "text": {
+                "ar": "الرحلة إلى نيويورك ستستغرق ...",
+                "fr": "Un vol pour New York durera ..."
+              },
+              "options": {
+                "ar": [
+                  "ساعتين.",
+                  "ثماني ساعات.",
+                  "عشر ساعات."
+                ],
+                "fr": [
+                  "deux heures.",
+                  "huit heures.",
+                  "dix heures."
+                ]
+              },
+              "ar": "الرحلة إلى نيويورك ستستغرق ...",
+              "fr": "Un vol pour New York durera ..."
+            },
+            "h16": {
+              "ar": "في أمريكا يستطيع المرء تحقيق أحلامه.",
+              "fr": "En Amérique, on peut réaliser ses rêves.",
+              "text": {
+                "ar": "في أمريكا يستطيع المرء تحقيق أحلامه.",
+                "fr": "En Amérique, on peut réaliser ses rêves."
+              }
+            },
+            "h17": {
+              "ar": "كانت دراسة برناديت الجامعية شيقة وممتعة.",
+              "fr": "Les études de Bernadette étaient passionnantes.",
+              "text": {
+                "ar": "كانت دراسة برناديت الجامعية شيقة وممتعة.",
+                "fr": "Les études de Bernadette étaient passionnantes."
+              }
+            },
+            "h18": {
+              "ar": "تكاليف المعيشة في أمريكا مرتفعة للغاية.",
+              "fr": "Le coût de la vie en Amérique est très élevé.",
+              "text": {
+                "ar": "تكاليف المعيشة في أمريكا مرتفعة للغاية.",
+                "fr": "Le coût de la vie en Amérique est très élevé."
+              }
+            },
+            "h19": {
+              "ar": "في أمريكا يضطر المرء في كثير من الأحيان للعمل في وظيفة ثانية.",
+              "fr": "En Amérique, il faut très souvent avoir un second travail.",
+              "text": {
+                "ar": "في أمريكا يضطر المرء في كثير من الأحيان للعمل في وظيفة ثانية.",
+                "fr": "En Amérique, il faut très souvent avoir un second travail."
+              }
+            },
+            "h20": {
+              "ar": "نشأت فكرة كشك النقانق لبرناديت بشكل عفوي وتلقائي.",
+              "fr": "L'idée du stand de saucisses de Bernadette est venue spontanément.",
+              "text": {
+                "ar": "نشأت فكرة كشك النقانق لبرناديت بشكل عفوي وتلقائي.",
+                "fr": "L'idée du stand de saucisses de Bernadette est venue spontanément."
+              }
+            },
+            "h21": {
+              "ar": "اشترى الأمريكيون النقانق بإقبال جنوني كبير.",
+              "fr": "Les Américains ont acheté des saucisses comme des fous.",
+              "text": {
+                "ar": "اشترى الأمريكيون النقانق بإقبال جنوني كبير.",
+                "fr": "Les Américains ont acheté des saucisses comme des fous."
+              }
+            },
+            "h22": {
+              "ar": "لا تجد برناديت أي وقت على الإطلاق لعائلتها.",
+              "fr": "Bernadette n'a jamais de temps pour sa famille.",
+              "text": {
+                "ar": "لا تجد برناديت أي وقت على الإطلاق لعائلتها.",
+                "fr": "Bernadette n'a jamais de temps pour sa famille."
+              }
+            },
+            "h23": {
+              "text": {
+                "ar": "تزوجا بعد ثلاث سنوات فقط من خطوبتهما.",
+                "fr": "Ils ne se sont mariés que trois ans après leurs fiançailles."
+              },
+              "options": {
+                "ar": [
+                  "المذيعة (Moderatorin)",
+                  "السيدة يانولاكيس (Frau Giannoulakis)",
+                  "ماكس كلايشنر (Max Kleischner)"
+                ],
+                "fr": [
+                  "La présentatrice",
+                  "Mme Giannoulakis",
+                  "Max Kleischner"
+                ]
+              },
+              "ar": "تزوجا بعد ثلاث سنوات فقط من خطوبتهما.",
+              "fr": "Ils ne se sont mariés que trois ans بعد خطوبتهما."
+            },
+            "h24": {
+              "text": {
+                "ar": "كان الوالدان في البداية ضد الزواج من شخص أجنبي.",
+                "fr": "Les parents étaient au départ contre un mariage avec un étranger."
+              },
+              "options": {
+                "ar": [
+                  "المذيعة (Moderatorin)",
+                  "السيدة يانولاكيس (Frau Giannoulakis)",
+                  "ماكس كلايشنر (Max Kleischner)"
+                ],
+                "fr": [
+                  "La présentatrice",
+                  "Mme Giannoulakis",
+                  "Max Kleischner"
+                ]
+              },
+              "ar": "كان الوالدان في البداية ضد الزواج من شخص أجنبي.",
+              "fr": "Les parents étaient au départ contre un mariage avec un étranger."
+            },
+            "h25": {
+              "text": {
+                "ar": "اختلاف الطباع والذهنية قد يؤدي إلى نشوب خلافات.",
+                "fr": "La différence de mentalité peut engendrer une dispute."
+              },
+              "options": {
+                "ar": [
+                  "المذيعة (Moderatorin)",
+                  "السيدة يانولاكيس (Frau Giannoulakis)",
+                  "ماكس كلايشنر (Max Kleischner)"
+                ],
+                "fr": [
+                  "La présentatrice",
+                  "Mme Giannoulakis",
+                  "Max Kleischner"
+                ]
+              },
+              "ar": "اختلاف الطباع والذهنية قد يؤدي إلى نشوب خلافات.",
+              "fr": "La différence de mentalité peut engendrer une dispute."
+            },
+            "h26": {
+              "text": {
+                "ar": "في الزواج ثنائي القومية ينبغي التحدث بصراحة حول الفروق الثقافية.",
+                "fr": "Dans un couple binational, on devrait aborder les différences ouvertement."
+              },
+              "options": {
+                "ar": [
+                  "المذيعة (Moderatorin)",
+                  "السيدة يانولاكيس (Frau Giannoulakis)",
+                  "ماكس كلايشنر (Max Kleischner)"
+                ],
+                "fr": [
+                  "La présentatrice",
+                  "Mme Giannoulakis",
+                  "Max Kleischner"
+                ]
+              },
+              "ar": "في الزواج ثنائي القومية ينبغي التحدث بصراحة حول الفروق الثقافية.",
+              "fr": "Dans un couple binational, on devrait aborder les différences ouvertement."
+            },
+            "h27": {
+              "text": {
+                "ar": "مع الأجانب ذوي الأصول الأوروبية لا توجد اختلافات كبيرة.",
+                "fr": "Chez les étrangers d'origine européenne, il n'y a pas de grandes divergences."
+              },
+              "options": {
+                "ar": [
+                  "المذيعة (Moderatorin)",
+                  "السيدة يانولاكيس (Frau Giannoulakis)",
+                  "ماكس كلايشنر (Max Kleischner)"
+                ],
+                "fr": [
+                  "La présentatrice",
+                  "Mme Giannoulakis",
+                  "Max Kleischner"
+                ]
+              },
+              "ar": "مع الأجانب ذوي الأصول الأوروبية لا توجد اختلافات كبيرة.",
+              "fr": "Chez les étrangers d'origine européenne, il n'y a pas de grandes divergences."
+            },
+            "h28": {
+              "text": {
+                "ar": "لم يكن الاحتفال بعيد الميلاد مناسبة مفرحة للزوجين.",
+                "fr": "Noël n'a pas été réjouissant pour le couple."
+              },
+              "options": {
+                "ar": [
+                  "المذيعة (Moderatorin)",
+                  "السيدة يانولاكيس (Frau Giannoulakis)",
+                  "ماكس كلايشنر (Max Kleischner)"
+                ],
+                "fr": [
+                  "La présentatrice",
+                  "Mme Giannoulakis",
+                  "Max Kleischner"
+                ]
+              },
+              "ar": "لم يكن الاحتفال بعيد الميلاد مناسبة مفرحة للزوجين.",
+              "fr": "Noël n'a pas été réjouissant pour le couple."
+            },
+            "h29": {
+              "text": {
+                "ar": "ينبغي لأطفال الزيجات ثنائية القومية تعلم اللغتين معاً.",
+                "fr": "Les enfants de couples binationaux doivent apprendre les deux langues."
+              },
+              "options": {
+                "ar": [
+                  "المذيعة (Moderatorin)",
+                  "السيدة يانولاكيس (Frau Giannoulakis)",
+                  "ماكس كلايشنر (Max Kleischner)"
+                ],
+                "fr": [
+                  "La présentatrice",
+                  "Mme Giannoulakis",
+                  "Max Kleischner"
+                ]
+              },
+              "ar": "ينبغي لأطفال الزيجات ثنائية القومية تعلم اللغتين معاً.",
+              "fr": "Les enfants de couples binationaux doivent apprendre les deux langues."
+            },
+            "h30": {
+              "text": {
+                "ar": "يجب على المرء أن يكون مدركاً تماماً لتبعات وتحديات الزواج ثنائي القومية.",
+                "fr": "Il faut être conscient des implications d'un mariage binational."
+              },
+              "options": {
+                "ar": [
+                  "المذيعة (Moderatorin)",
+                  "السيدة يانولاكيس (Frau Giannoulakis)",
+                  "ماكس كلايشنر (Max Kleischner)"
+                ],
+                "fr": [
+                  "La présentatrice",
+                  "Mme Giannoulakis",
+                  "Max Kleischner"
+                ]
+              },
+              "ar": "يجب على المرء أن يكون مدركاً تماماً لتبعات وتحديات الزواج ثنائي القومية.",
+              "fr": "Il faut être conscient des implications d'un mariage binational."
             }
           }
         }

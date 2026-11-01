@@ -701,6 +701,22 @@ function getTrPart(testId, partId, lang) {
   return translationsData?.[testId]?.parts?.[String(partId)] || null;
 }
 
+function resolveTrBody(trArt, lang, defaultBody) {
+  if (!trArt || !trArt.body) return defaultBody;
+  if (Array.isArray(trArt.body)) {
+    return trArt.body.map(item => (typeof item === 'object' && item !== null ? (item[lang] || item.text?.[lang] || '') : item));
+  }
+  return trArt.body[lang] || defaultBody;
+}
+
+function resolveTrOptions(trQ, lang, defaultOptions) {
+  if (!trQ || !trQ.options) return defaultOptions;
+  if (Array.isArray(trQ.options)) {
+    return trQ.options.map(item => (typeof item === 'object' && item !== null ? (item[lang] || item.text?.[lang] || '') : item));
+  }
+  return trQ.options[lang] || defaultOptions;
+}
+
 function renderLangSwitcherHtml(target, currentLang) {
   return `
     <div class="lang-switch-group" data-target="${target}">
@@ -1366,7 +1382,7 @@ function renderPassage(t) {
       const heading = trArt?.heading?.[passageLang] || a.heading;
       const sub = trArt?.sub?.[passageLang] || a.sub;
       const meta = trArt?.meta?.[passageLang] || a.meta;
-      const bodyParas = trArt?.body?.[passageLang] || a.body;
+      const bodyParas = resolveTrBody(trArt, passageLang, a.body);
       const signature = trArt?.signature?.[passageLang] || a.signature;
       const source = trArt?.source?.[passageLang] || a.source;
 
@@ -1462,7 +1478,7 @@ function renderPassage(t) {
       const trArt2 = trPart?.articles2?.[aIdx];
       const heading = trArt2?.heading?.[passageLang] || a.heading;
       const sub = trArt2?.sub?.[passageLang] || a.sub;
-      const bodyParas = trArt2?.body?.[passageLang] || a.body;
+      const bodyParas = resolveTrBody(trArt2, passageLang, a.body);
       const source = trArt2?.source?.[passageLang] || a.source;
 
       html += `<div class="reading-text">`;
@@ -2191,7 +2207,8 @@ function renderQuestions(t) {
       const val = userAnswers[q.id] || '';
       const isAnswered = val !== '';
       const isFlagged = flaggedQuestions.has(q.id);
-      const qText = trPart?.questions?.[String(q.id)]?.[questionsLang] || q.text;
+      const qTr = trPart?.questions?.[String(q.id)];
+      const qText = qTr?.[questionsLang] || qTr?.text?.[questionsLang] || q.text;
 
       const isCorrect = isRevealed && isAnswered && isMatchOrTfCorrect(val, q.answer);
 
@@ -2509,7 +2526,7 @@ function renderSingleQuestionCard(q, trPart, isBatch2 = false, isRevealed = fals
 
   const trQ = isBatch2 ? trPart?.questions2?.[String(q.id)] : trPart?.questions?.[String(q.id)];
   const qText = trQ?.text?.[questionsLang] || trQ?.[questionsLang] || q.text;
-  const optionsArr = trQ?.options?.[questionsLang] || q.options;
+  const optionsArr = resolveTrOptions(trQ, questionsLang, q.options);
 
   const trueLabel = isAr ? 'صحيح' : (questionsLang === 'fr' ? 'Vrai' : 'Richtig');
   const falseLabel = isAr ? 'خطأ' : (questionsLang === 'fr' ? 'Faux' : 'Falsch');
@@ -3024,7 +3041,7 @@ function renderHorenQuestionCard(q) {
   const trQ = trPart?.questions?.[q.id];
 
   const qText = trQ?.text?.[questionsLang] || trQ?.[questionsLang] || q.text;
-  const rawOpts = trQ?.options?.[questionsLang] || q.options;
+  const rawOpts = resolveTrOptions(trQ, questionsLang, q.options);
 
   const isRevealed = revealedTeils.has(`horen-${q.teilPart}`);
   const isCorrect = isRevealed && isAnswered && isMatchOrTfCorrect(val, q.answer);
@@ -3122,7 +3139,7 @@ function renderHorenQuestionCard(q) {
 
     const horenPart = testData.find(x => x.isHoren);
     const sec4Speakers = horenPart?.horenSections?.[3]?.speakers?.map(s => s.name);
-    let speakerNames = trQ?.options?.[questionsLang] || q.options || sec4Speakers || ['a', 'b', 'c'];
+    let speakerNames = resolveTrOptions(trQ, questionsLang, q.options) || sec4Speakers || ['a', 'b', 'c'];
     if (currentTest.id === 'modellsatz-1') {
       if (isAr) {
         speakerNames = ['منسق الحوار (Moderator)', 'دانا شنايدر (Dana Schneider)', 'فلوريان بادر (Florian Bader)'];
@@ -4809,7 +4826,7 @@ function renderFocusReaderContent() {
       const heading = trArt?.heading?.[focusReaderLang] || a.heading;
       const sub = trArt?.sub?.[focusReaderLang] || a.sub;
       const meta = trArt?.meta?.[focusReaderLang] || a.meta;
-      const bodyParas = trArt?.body?.[focusReaderLang] || a.body;
+      const bodyParas = resolveTrBody(trArt, focusReaderLang, a.body);
       const signature = trArt?.signature?.[focusReaderLang] || a.signature;
       const source = trArt?.source?.[focusReaderLang] || a.source;
 
@@ -4852,7 +4869,7 @@ function renderFocusReaderContent() {
       const trArt2 = trPart?.articles2?.[aIdx];
       const heading = trArt2?.heading?.[focusReaderLang] || a.heading;
       const sub = trArt2?.sub?.[focusReaderLang] || a.sub;
-      const bodyParas = trArt2?.body?.[focusReaderLang] || a.body;
+      const bodyParas = resolveTrBody(trArt2, focusReaderLang, a.body);
       const source = trArt2?.source?.[focusReaderLang] || a.source;
 
       if (heading) html += `<h2>${heading}</h2>`;

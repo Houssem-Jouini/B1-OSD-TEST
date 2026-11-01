@@ -35,3 +35,45 @@ Interactive Goethe / ÖSD Zertifikat B1 Exam Simulator (Lesen & Hören) built as
 1. **Modifying or Adding Exams:** Edit or add JSON files in `data/tests/`, update `data/tests-manifest.json` if adding/archiving a test, and always run `npm run build:data && npm test` afterwards so `data/tests-bundle.js` stays in sync.
 2. **Adding New Static Assets:** When adding new JS/CSS/HTML files, update `STATIC_ASSETS` and bump `CACHE_NAME` in `sw.js`.
 3. **Avoid Legacy Files:** Never read or edit `data/archive/legacy/*` unless specifically asked about legacy data extraction.
+4. **Exam Translation & Advertisement Invariants (Crucial for DE/FR/AR & Ads):**
+   When adding or editing exams (`data/tests/modellsatz-*.json`), the `translations` object must strictly follow the expected dictionary schema so the DE/FR/AR switchers and advertisements work without fallback errors:
+   - **Article Bodies (`articles[].body` & `articles2[].body`):**
+     Must be a dictionary mapping language codes to arrays of paragraph strings:
+     ```json
+     "body": {
+       "ar": ["فقرة 1...", "فقرة 2..."],
+       "fr": ["Paragraphe 1...", "Paragraphe 2..."]
+     }
+     ```
+     *(Never use an array of objects `[{"ar": "...", "fr": "..."}]`)*
+   - **Multiple-Choice Options (`questions[].options` & `questions2[].options`):**
+     Must be a dictionary mapping language codes to arrays of 3 options:
+     ```json
+     "options": {
+       "ar": ["خيار أ", "خيار ب", "خيار ج"],
+       "fr": ["Option A", "Option B", "Option C"]
+     }
+     ```
+   - **Teil 3 Advertisements (`ads` on Notice Board):**
+     - The exam part `parts.find(p => p.id === 3)` must define `adsFormatted`: array of objects with `{ "code": "A", "title": "...", "text": "...", ... }`.
+     - The translations `translations.parts["3"].ads` must map every ad letter code to `{ "ar": "...", "fr": "..." }`:
+     ```json
+     "ads": {
+       "A": { "ar": "نص الإعلان بالعربية...", "fr": "Texte de l'annonce en français..." },
+       "B": { "ar": "...", "fr": "..." }
+     }
+     ```
+     - Questions in Teil 3 must provide both `text` and top-level language keys:
+     ```json
+     "13": {
+       "ar": "...", "fr": "...",
+       "text": { "ar": "...", "fr": "..." }
+     }
+     ```
+   - **Teil 4 Reader Comments (`letters`):**
+     Must map question IDs to `{ "who": "...", "text": { "ar": "...", "fr": "..." } }`.
+   - **Teil 6 Hören Structure:**
+     - `translations.parts["6"].teile`: Provide `title`, `desc`, and `context` (`ar` and `fr`) for parts 1 through 4.
+     - `translations.parts["6"].questions`: Every question ID (`h1`–`h30`) must have `ar` and `fr` text, and MCQs/speakers must have `options: { "ar": [...], "fr": [...] }`.
+   - **Translation Verification Script:**
+     After creating or updating any test, run `node scripts/test-translations-ui.js` alongside `npm test` to verify that all 6 Teile render correctly in German, French, and Arabic.
