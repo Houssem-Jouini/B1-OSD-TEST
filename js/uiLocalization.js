@@ -30,6 +30,7 @@
       'nav.aiTutorBtn': 'KI-Tutor',
       'nav.aiTutorTitle': 'KI-Tutor & B1-Sprachassistent',
       'nav.timerToggleTitle': 'Timer Pause/Play',
+      'nav.timerResetTitle': 'Timer zurücksetzen',
       'nav.fullscreenTitle': 'Vollbildmodus an/aus',
       'nav.themeTitle': 'Farbschema wechseln: Hell · Papier/Sepia · Dunkel',
       'nav.uiLangTitle': 'UI-Sprache wechseln (Deutsch / English / Français)',
@@ -163,6 +164,7 @@
       'nav.aiTutorBtn': 'AI Tutor',
       'nav.aiTutorTitle': 'AI Tutor & B1 language assistant',
       'nav.timerToggleTitle': 'Timer Pause/Play',
+      'nav.timerResetTitle': 'Reset timer',
       'nav.fullscreenTitle': 'Fullscreen on/off',
       'nav.themeTitle': 'Switch color theme: Light · Paper/Sepia · Dark',
       'nav.uiLangTitle': 'Change UI language (German / English / French)',
@@ -296,6 +298,7 @@
       'nav.aiTutorBtn': 'Tuteur IA',
       'nav.aiTutorTitle': 'Tuteur IA & assistant de langue B1',
       'nav.timerToggleTitle': 'Minuteur Pause/Reprendre',
+      'nav.timerResetTitle': 'Réinitialiser le minuteur',
       'nav.fullscreenTitle': 'Plein écran activé/désactivé',
       'nav.themeTitle': 'Changer de thème : Clair · Papier/Sépia · Sombre',
       'nav.uiLangTitle': 'Changer la langue de l\'interface (Deutsch / English / Français)',
@@ -519,29 +522,28 @@
       if (span) span.textContent = t('nav.vocabBtn');
     }
 
-    const mistakesModalBtn = document.getElementById('mistakesModalBtn');
-    if (mistakesModalBtn) {
-      mistakesModalBtn.title = t('nav.mistakesTitle');
-      const spans = mistakesModalBtn.querySelectorAll('span');
-      if (spans.length > 0 && !spans[0].classList.contains('nav-badge')) {
-        spans[0].textContent = t('nav.mistakesBtn');
-      }
-    }
-
     const aiTutorNavBtn = document.getElementById('aiTutorNavBtn');
     if (aiTutorNavBtn) {
       aiTutorNavBtn.title = t('nav.aiTutorTitle');
-      const spans = aiTutorNavBtn.querySelectorAll('span');
-      spans.forEach(s => {
-        if (!s.classList.contains('ai-sparkle-icon')) {
-          s.textContent = t('nav.aiTutorBtn');
-        }
-      });
+      const textSpan = aiTutorNavBtn.querySelector('.b1-ai-handle-text');
+      if (textSpan) {
+        textSpan.textContent = t('nav.aiTutorBtn');
+      } else {
+        const spans = aiTutorNavBtn.querySelectorAll('span');
+        spans.forEach(s => {
+          if (!s.classList.contains('ai-sparkle-icon') && !s.classList.contains('b1-ai-handle-badge')) {
+            s.textContent = t('nav.aiTutorBtn');
+          }
+        });
+      }
     }
 
     // Controls
     const timerToggle = document.getElementById('timerToggle');
     if (timerToggle) timerToggle.title = t('nav.timerToggleTitle');
+
+    const timerReset = document.getElementById('timerReset');
+    if (timerReset) timerReset.title = t('nav.timerResetTitle');
 
     const fullscreenToggle = document.getElementById('fullscreenToggle');
     if (fullscreenToggle) fullscreenToggle.title = t('nav.fullscreenTitle');
@@ -779,25 +781,6 @@
 
     const vocabConfirmClose = document.getElementById('vocabConfirmClose');
     if (vocabConfirmClose) vocabConfirmClose.textContent = t('vocab.closeBtn');
-
-    // 9. Mistakes Modal
-    const mistakesModalTitle = document.getElementById('mistakesModalTitle');
-    if (mistakesModalTitle) mistakesModalTitle.textContent = t('mistakes.title');
-
-    const mistakesModalSub = document.querySelector('#mistakesModal .modal-header p');
-    if (mistakesModalSub) mistakesModalSub.textContent = t('mistakes.sub');
-
-    const mtabDrill = document.querySelector('#mistakesTabButtons button[data-mtab="drill"]');
-    if (mtabDrill) mtabDrill.textContent = t('mistakes.tabDrill');
-
-    const mtabList = document.querySelector('#mistakesTabButtons button[data-mtab="list"]');
-    if (mtabList) mtabList.textContent = t('mistakes.tabList');
-
-    const clearAllMistakesBtn = document.getElementById('clearAllMistakesBtn');
-    if (clearAllMistakesBtn) clearAllMistakesBtn.textContent = t('mistakes.clearBtn');
-
-    const mistakesConfirmClose = document.getElementById('mistakesConfirmClose');
-    if (mistakesConfirmClose) mistakesConfirmClose.textContent = t('mistakes.closeBtn');
 
     // 10. Focus Reader Modal
     const focusReaderHeading = document.getElementById('focusReaderHeading');

@@ -166,5 +166,38 @@
     "partsCount": 6,
     "questionsCount": 50,
     "fileName": "data/tests/modellsatz-15.json"
+  },
+  {
+    "id": "modellsatz-16",
+    "title": "Modelltest 10 — Hueber Zertifikat B1",
+    "badge": "Modelltest 10",
+    "examTitle": "Goethe / ÖSD B1 Prüfungssimulation — Modelltest 10",
+    "examSub": "Lesen (5 Teile) & Hören (4 Teile) · Modelltest 10 (Hueber)",
+    "timeTotal": 65,
+    "partsCount": 6,
+    "questionsCount": 50,
+    "fileName": "data/tests/modellsatz-16.json"
+  },
+  {
+    "id": "modellsatz-17",
+    "title": "Modelltest 11 — Hueber Zertifikat B1",
+    "badge": "Modelltest 11",
+    "examTitle": "Goethe / ÖSD B1 Prüfungssimulation — Modelltest 11",
+    "examSub": "Lesen (5 Teile) & Hören (4 Teile) · Modelltest 11 (Hueber)",
+    "timeTotal": 65,
+    "partsCount": 6,
+    "questionsCount": 50,
+    "fileName": "data/tests/modellsatz-17.json"
+  },
+  {
+    "id": "modellsatz-18",
+    "title": "Modelltest 12 — Hueber Zertifikat B1",
+    "badge": "Modelltest 12",
+    "examTitle": "Goethe / ÖSD B1 Prüfungssimulation — Modelltest 12",
+    "examSub": "Lesen (5 Teile) & Hören (4 Teile) · Modelltest 12 (Hueber)",
+    "timeTotal": 65,
+    "partsCount": 6,
+    "questionsCount": 50,
+    "fileName": "data/tests/modellsatz-18.json"
   }
 ]

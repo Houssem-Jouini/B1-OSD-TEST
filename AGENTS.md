@@ -33,6 +33,12 @@ Interactive Goethe / ÖSD Zertifikat B1 Exam Simulator (Lesen & Hören) built as
 
 ## Key Invariants & Workflows
 1. **Modifying or Adding Exams:** Edit or add JSON files in `data/tests/`, update `data/tests-manifest.json` if adding/archiving a test, and always run `npm run build:data && npm test` afterwards so `data/tests-bundle.js` stays in sync.
+   - **Sequential Exam Numbering Rule:** When adding a new exam to the site, always assign it the next sequential `Modelltest <N>` display number after the last entry in `data/tests-manifest.json` (and the next `modellsatz-<M>` ID), regardless of the source exam's internal number. For example, since `modellsatz-15` is `Modelltest 9`, source exam `1` from `OSD JUIL/1` becomes `Modelltest 10` (`modellsatz-16`), source exam `2` becomes `Modelltest 11` (`modellsatz-17`), and so on.
+   - **Default Exam Source Directory (`OSD JUIL` — Hueber Zertifikat B1 neu):**
+     When asked to add an exam without a full path, use `/run/media/houssem/HDD Disk/work/germany/Zertifikat B1 -Modelltest B1/`:
+     - **Exams (sorted 1 to 15):** `/run/media/houssem/HDD Disk/work/germany/Zertifikat B1 -Modelltest B1/OSD JUIL/<1..15>/` (each folder contains the exam PDF `EX<N>-OSD.pdf` and audio `mt<NN>.mp3`).
+     - **Correction / Answer Key (outside `OSD JUIL`):** `/run/media/houssem/HDD Disk/work/germany/Zertifikat B1 -Modelltest B1/zertifikat_B1_neu_15__Uebungspruefungen_Loesungen.pdf` (match answers by the source folder number `Modelltest <1..15>` in the answer key).
+     - **Full Book / Transcripts Reference (outside `OSD JUIL`):** `/run/media/houssem/HDD Disk/work/germany/Zertifikat B1 -Modelltest B1/Zertifikat B1 neu 15 Übungsprüfungen hueber-ocr.pdf`.
 2. **Adding New Static Assets:** When adding new JS/CSS/HTML files, update `STATIC_ASSETS` and bump `CACHE_NAME` in `sw.js`.
 3. **Avoid Legacy Files:** Never read or edit `data/archive/legacy/*` unless specifically asked about legacy data extraction.
 4. **Exam Translation & Advertisement Invariants (Crucial for DE/FR/AR & Ads):**

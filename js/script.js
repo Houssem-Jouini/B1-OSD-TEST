@@ -28,7 +28,7 @@ let questionsLang = localStorage.getItem('b1_questions_lang') || 'de'; // 'de' |
 /* ---------------- TIMER STATE ---------------- */
 let timeLeft = (currentTest.timeTotal || 65) * 60;
 let timerInterval = null;
-let timerRunning = true;
+let timerRunning = false;
 const teilTimers = {}; // { [partId]: { total, remaining, running, started, expiredNotified } }
 
 /* ---------------- HIGHLIGHTER STATE ---------------- */
@@ -834,7 +834,11 @@ function loadModelTest(index) {
     selEl.value = currentTestIndex;
   }
 
-  timerRunning = true;
+  timerRunning = false;
+  const timerIcon = document.getElementById('timerIcon');
+  if (timerIcon) {
+    timerIcon.innerHTML = '<polygon points="5 3 19 12 5 21 5 3"/>';
+  }
   updateTimerDisplay();
 
   const brandBadge = document.getElementById('brandBadge');
@@ -887,16 +891,34 @@ function updateTimerDisplay() {
   }
 }
 
-document.getElementById('timerToggle').addEventListener('click', () => {
-  timerRunning = !timerRunning;
-  const icon = document.getElementById('timerIcon');
-  if (timerRunning) {
-    icon.innerHTML = '<rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/>';
-  } else {
-    icon.innerHTML = '<polygon points="5 3 19 12 5 21 5 3"/>';
-  }
-  updateActiveTeilTimerDom();
-});
+const timerToggleBtn = document.getElementById('timerToggle');
+if (timerToggleBtn) {
+  timerToggleBtn.addEventListener('click', () => {
+    timerRunning = !timerRunning;
+    const icon = document.getElementById('timerIcon');
+    if (timerRunning) {
+      icon.innerHTML = '<rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/>';
+    } else {
+      icon.innerHTML = '<polygon points="5 3 19 12 5 21 5 3"/>';
+    }
+    updateActiveTeilTimerDom();
+  });
+}
+
+const timerResetBtn = document.getElementById('timerReset');
+if (timerResetBtn) {
+  timerResetBtn.addEventListener('click', () => {
+    timerRunning = false;
+    timeLeft = (currentTest?.timeTotal || 65) * 60;
+    const icon = document.getElementById('timerIcon');
+    if (icon) {
+      icon.innerHTML = '<polygon points="5 3 19 12 5 21 5 3"/>';
+    }
+    updateTimerDisplay();
+    updateActiveTeilTimerDom();
+    saveSession();
+  });
+}
 
 /* ---------------- TEIL-SPECIFIC COUNTDOWN TIMER ---------------- */
 function getTeilTimerState(teilId, defaultMinutes) {
@@ -1958,11 +1980,6 @@ function renderTeilScoreBannerHtml(t, qs) {
   const nextBtnText = isAr ? 'الانتقال إلى الجزء التالي ←' : (isFr ? 'Partie suivante →' : 'Weiter zum nächsten Teil →');
 
   const hasNext = activeTeil < testData.length;
-  const wrongCount = qs.length - correctCount;
-  const mistakeBtnText = isAr
-    ? `📓 تدريب الأخطاء (${wrongCount})`
-    : (isFr ? `📓 Réviser les erreurs (${wrongCount})` : `📓 Fehler wiederholen (${wrongCount})`);
-  const mistakeBtnHtml = wrongCount > 0 ? `<button type="button" class="btn btn-sm btn-outline text-danger" onclick="openMistakesModal('drill')">${mistakeBtnText}</button>` : '';
 
   return `
     <div class="teil-score-banner">
@@ -1971,7 +1988,6 @@ function renderTeilScoreBannerHtml(t, qs) {
         <span class="teil-score-title">${title}</span>
       </div>
       <div class="teil-score-actions">
-        ${mistakeBtnHtml}
         <button type="button" class="btn btn-sm btn-outline" onclick="hideTeilSolutions(${t.id})">${hideBtnText}</button>
         ${hasNext ? `<button type="button" class="btn btn-sm btn-primary" onclick="document.getElementById('nextTeilBtn').click()">${nextBtnText}</button>` : ''}
       </div>
@@ -2077,12 +2093,6 @@ function renderHorenTeilScoreBannerHtml(teilPart) {
     ? (isAr ? `الانتقال إلى الجزء ${teilPart + 1} ↓` : (isFr ? `Aller à la Partie ${teilPart + 1} ↓` : `Weiter zu Teil ${teilPart + 1} ↓`))
     : (isAr ? 'عرض النتيجة النهائية والتقرير' : (isFr ? 'Voir le résultat final' : 'Zum Gesamtergebnis'));
 
-  const wrongCount = qs.length - correctCount;
-  const mistakeBtnText = isAr
-    ? `📓 تدريب الأخطاء (${wrongCount})`
-    : (isFr ? `📓 Réviser les erreurs (${wrongCount})` : `📓 Fehler wiederholen (${wrongCount})`);
-  const mistakeBtnHtml = wrongCount > 0 ? `<button type="button" class="btn btn-sm btn-outline text-danger" onclick="openMistakesModal('drill')">${mistakeBtnText}</button>` : '';
-
   return `
     <div class="teil-score-banner horen-score-banner" id="horen-score-banner-${teilPart}">
       <div class="teil-score-left">
@@ -2090,7 +2100,6 @@ function renderHorenTeilScoreBannerHtml(teilPart) {
         <span class="teil-score-title">${title}</span>
       </div>
       <div class="teil-score-actions">
-        ${mistakeBtnHtml}
         <button type="button" class="btn btn-sm btn-outline" onclick="hideHorenTeilSolutions(${teilPart})">${hideBtnText}</button>
         ${teilPart < 4
           ? `<button type="button" class="btn btn-sm btn-primary" onclick="scrollToHorenTeil(${teilPart + 1})">${nextBtnText}</button>`

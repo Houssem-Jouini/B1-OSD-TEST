@@ -67,25 +67,17 @@
           <span>🔥</span>
           <span>Fiche B1</span>
         </a>
-
-        <button class="nav-action-btn mistakes-nav-btn" id="mistakesModalBtn" title="Mein persönliches Fehlerheft">
-          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/><line x1="9" y1="7" x2="15" y2="7"/><line x1="9" y1="11" x2="15" y2="11"/></svg>
-          <span>Fehlerheft</span>
-          <span class="nav-badge" id="mistakesBadge" style="display:none;">0</span>
-        </button>
-
-        <button class="nav-action-btn ai-tutor-nav-btn" id="aiTutorNavBtn" title="KI-Tutor & B1-Sprachassistent">
-          <span class="ai-sparkle-icon">✨</span>
-          <span>KI-Tutor</span>
-        </button>
       </div>
 
       <div class="nav-controls-group">
         <div class="timer-box" id="timerBox">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
           <span id="timerDisplay">65:00</span>
-          <button class="flag-btn" id="timerToggle" title="Timer Pause/Play" style="margin-left:2px;">
-            <svg id="timerIcon" width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>
+          <button class="flag-btn timer-ctrl-btn" id="timerToggle" title="Timer Pause/Play" aria-label="Timer starten oder pausieren">
+            <svg id="timerIcon" width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+          </button>
+          <button class="flag-btn timer-ctrl-btn" id="timerReset" title="Timer zurücksetzen" aria-label="Timer zurücksetzen">
+            <svg id="timerResetIcon" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg>
           </button>
         </div>
 
@@ -327,44 +319,6 @@
       <div class="modal-footer">
         <div class="matrix-stats" id="vocabStatsText">0 Wörter geladen</div>
         <button class="btn btn-primary" id="vocabConfirmClose">Schließen</button>
-      </div>
-    </div>
-  </div>
-
-  <!-- Personalized Mistake Notebook Modal -->
-  <div class="modal-overlay" id="mistakesModal" style="display:none;" role="dialog" aria-modal="true" aria-labelledby="mistakesModalTitle">
-    <div class="modal-card modal-card-lg">
-      <div class="modal-header">
-        <div style="display:flex; align-items:center; gap:10px;">
-          <div class="modal-icon-badge" style="background:#fee2e2; color:#ef4444;">📓</div>
-          <div>
-            <h3 id="mistakesModalTitle" style="font-size:18px; font-weight:700; color:var(--text-main);">Mein persönliches Fehlerheft</h3>
-            <p style="font-size:13px; color:var(--text-muted); margin-top:2px;">Wiederhole gezielt deine Fehler aus den Prüfungsteilen, bis du sie gemeistert hast.</p>
-          </div>
-        </div>
-        <button class="icon-btn modal-close-btn" id="mistakesModalCloseBtn" title="Schließen">
-          <svg width="18" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
-        </button>
-      </div>
-
-      <!-- Mistake Stats and Mode Switcher -->
-      <div class="mistakes-toolbar">
-        <div class="mistakes-stats-banner">
-          <span class="mistake-stat-pill open" id="openMistakesBadge">0 zu wiederholen</span>
-          <span class="mistake-stat-pill mastered" id="masteredMistakesBadge">0 gemeistert</span>
-        </div>
-        <div class="filter-pills mistakes-tabs" id="mistakesTabButtons">
-          <button class="filter-btn active" data-mtab="drill">🎯 Fehler wiederholen (Drill)</button>
-          <button class="filter-btn" data-mtab="list">📋 Fehlerliste ansehen</button>
-        </div>
-      </div>
-
-      <!-- Mistake Modal Body -->
-      <div class="mistakes-modal-body" id="mistakesModalBody"></div>
-
-      <div class="modal-footer">
-        <button class="btn btn-outline btn-sm text-danger" id="clearAllMistakesBtn">Fehlerheft leeren</button>
-        <button class="btn btn-primary" id="mistakesConfirmClose">Zurück zum Test</button>
       </div>
     </div>
   </div>
@@ -635,6 +589,15 @@
       </div>
     </div>
   </div>
+
+  <!-- Sticky Sidebar Handle for AI Tutor (Right Edge - Mirrors Wort? & Karten) -->
+  <aside class="b1-right-handles" id="b1RightHandles" aria-label="Tuteur IA / KI-Tutor">
+    <button type="button" class="b1-ai-handle" id="aiTutorNavBtn" title="KI-Tutor &amp; B1-Sprachassistent" aria-label="KI-Tutor öffnen">
+      <span class="b1-ai-handle-icon ai-sparkle-icon">✨</span>
+      <span class="b1-ai-handle-text">KI-Tutor</span>
+      <span class="b1-ai-handle-badge">AI</span>
+    </button>
+  </aside>
 
 <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 <script src="data/tests-bundle.js?v=3.3"></script>
