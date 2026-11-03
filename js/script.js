@@ -827,6 +827,23 @@ function loadModelTest(index) {
   currentTest = modelTests[currentTestIndex];
   testData = currentTest.parts;
 
+  // Defensively ensure Hören questions have teilPart and textNum populated
+  const hPart = testData?.find(x => x.isHoren || x.id === 6);
+  if (hPart && Array.isArray(hPart.questions)) {
+    hPart.questions.forEach((q, idx) => {
+      const num = q.num !== undefined ? Number(q.num) : (idx + 1);
+      if (!q.teilPart) {
+        if (num <= 10) q.teilPart = 1;
+        else if (num <= 15) q.teilPart = 2;
+        else if (num <= 22) q.teilPart = 3;
+        else q.teilPart = 4;
+      }
+      if (q.teilPart === 1 && !q.textNum) {
+        q.textNum = Math.ceil(num / 2);
+      }
+    });
+  }
+
   restoreTestMemory(currentTest.id);
 
   const selEl = document.getElementById('modelTestSelect');
@@ -3274,6 +3291,21 @@ function buildHorenTeilsHtml(t) {
     answerCode: "b",
     answerSpeaker: "Dana Schneider"
   };
+
+  if (t && Array.isArray(t.questions)) {
+    t.questions.forEach((q, idx) => {
+      const num = q.num !== undefined ? Number(q.num) : (idx + 1);
+      if (!q.teilPart) {
+        if (num <= 10) q.teilPart = 1;
+        else if (num <= 15) q.teilPart = 2;
+        else if (num <= 22) q.teilPart = 3;
+        else q.teilPart = 4;
+      }
+      if (q.teilPart === 1 && !q.textNum) {
+        q.textNum = Math.ceil(num / 2);
+      }
+    });
+  }
 
   const q1 = t.questions.filter(q => q.teilPart === 1);
   const q2 = t.questions.filter(q => q.teilPart === 2);

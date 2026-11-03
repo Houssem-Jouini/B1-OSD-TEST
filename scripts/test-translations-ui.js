@@ -103,6 +103,11 @@ function testExam(examId) {
       if (part === 1 && (!qHtml.includes("Richtig") && !qHtml.includes("صحيح") && !qHtml.includes("Vrai"))) {
         throw new Error("Teil 1 True/False options missing in questions HTML!");
       }
+      if (part === 6) {
+        if (!qHtml.includes('data-qid="h1"') || !qHtml.includes('data-qid="h30"')) {
+          throw new Error("Teil 6 listening questions missing from questionsPanel HTML!");
+        }
+      }
       console.log("  ✓ Teil " + part + " [" + lang.toUpperCase() + "] UI rendered successfully (passage: " + pHtml.length + " chars, questions: " + qHtml.length + " chars)!");
     }
   }
@@ -113,6 +118,7 @@ testExam("modellsatz-16");
 testExam("modellsatz-17");
 testExam("modellsatz-18");
 testExam("modellsatz-19");
+testExam("modellsatz-20");
 console.log("\\n🎉 ALL 6 TEILE FULLY TESTED AND VERIFIED IN GERMAN, FRENCH AND ARABIC!");
 `;
 

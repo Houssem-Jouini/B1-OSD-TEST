@@ -225,6 +225,17 @@
     "partsCount": 6,
     "questionsCount": 50,
     "fileName": "data/tests/modellsatz-19.json"
+  },
+  {
+    "id": "modellsatz-20",
+    "title": "Modelltest 14 — Hueber Zertifikat B1",
+    "badge": "Modelltest 14",
+    "examTitle": "Goethe / ÖSD B1 Prüfungssimulation — Modelltest 14",
+    "examSub": "Lesen (5 Teile) & Hören (4 Teile) · Modelltest 14 (Hueber)",
+    "timeTotal": 65,
+    "partsCount": 6,
+    "questionsCount": 50,
+    "fileName": "data/tests/modellsatz-20.json"
   }
 ];
   root.__B1_ARCHIVED_MANIFEST__ = [
@@ -44279,6 +44290,2826 @@
                   "Le journaliste animateur",
                   "Doris Siebert",
                   "Eva Martins"
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "modellsatz-20",
+    "title": "Modelltest 14 — Hueber Zertifikat B1",
+    "badge": "Modelltest 14",
+    "examTitle": "Goethe / ÖSD B1 Prüfungssimulation — Modelltest 14",
+    "examSub": "Lesen (5 Teile) & Hören (4 Teile) · Modelltest 14 (Hueber)",
+    "durationMinutes": 65,
+    "parts": [
+      {
+        "id": 1,
+        "title": "Teil 1",
+        "time": 10,
+        "instructions": "Lesen Sie den Text und die Aufgaben 1 bis 6 dazu. Wählen Sie: Sind die Aussagen richtig oder falsch?",
+        "articles": [
+          {
+            "heading": "Der Sportblog",
+            "sub": "Sandra · 17 Jahre alt · Schiedsrichterin",
+            "body": [
+              "Hallo, ich heiße Sandra, bin 17 Jahre alt und spiele nicht nur gern Fußball, sondern trainiere ein Jugend-Team und neuerdings bin ich auch noch als Schiedsrichterin tätig. Von dieser letzten Erfahrung möchte ich berichten, damit besonders die Jungen unter euch einsehen, dass Fußball nicht mehr reine Männersache ist.",
+              "Für den Schein musste ich drei Tage lang bei einem Lehrgang das gesamte Regelwerk lernen. Dann kam die Prüfung und schon war ich Schiedsrichterin. Zumindest auf dem Papier. Aber auf meinen ersten Einsatz musste ich nicht lange warten. Schon am nächsten Wochenende sollte ich ran, ein Jugend-Spiel, gleich bei den Jungs.",
+              "Eine Stunde vor Spielbeginn bin ich am Platz angekommen. Als Schiedsrichterin hat mich dort natürlich erstmal niemand erkannt. Wahrscheinlich dachten die Leute eher, ich sei die große Schwester eines Spielers. Nachdem ich mich vorgestellt hatte, konnte ich mich in einer kleinen Kabine umziehen. Ich bin dann raus auf den Platz, um alles zu kontrollieren. Das habe ich extra so früh gemacht, damit der Verein noch Zeit hat, Fehler zu beseitigen.",
+              "Bei der Passkontrolle haben die kleinen Jungs fast alle etwas komisch geguckt. Die wurden wohl noch nie von einer Frau gepfiffen. Ich kenne hier im Kreis aber bis jetzt auch nur drei andere Schiedsrichterinnen. Dann konnte ich das Spiel endlich anpfeifen. Hinter einer Bande haben etwa 25 Eltern das Spiel verfolgt. Ich hatte eigentlich fest damit gerechnet, dass es da ganz schön laut werden würde – aber nichts. Kein Geschreie, keine Beschwerden und keine dummen Sprüche.",
+              "Von den Jungs auf dem Spielfeld habe ich mich völlig ernst genommen gefühlt. Die haben wahnsinnig fair gespielt, trotzdem musste ich ziemlich oft pfeifen. Da habe ich immer an den Lehrgang gedacht. Dort haben sie uns ganz oft gezeigt, wie wir kräftig in die Pfeife pusten müssen, damit wir die Spieler auf uns aufmerksam machen.",
+              "Am Schluss stand es 8:0. Die Zeit ging viel schneller rum, als ich dachte. Als ich gegangen bin, hat mich keiner mehr wegen Fehlentscheidungen oder meiner Leistung angesprochen. Eine schöne Premiere. Mein nächstes Spiel wird im Februar oder März stattfinden. Ob Jungs oder Mädchen ist mir eigentlich egal."
+            ]
+          }
+        ],
+        "example": {
+          "text": "Sandra ist Trainerin bei einer Fußball-Mannschaft.",
+          "answer": "richtig"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "type": "tf",
+            "text": "Sie musste zuerst eine Prüfung machen, bevor sie Schiedsrichterin wurde.",
+            "answer": "richtig",
+            "num": 1
+          },
+          {
+            "id": 2,
+            "type": "tf",
+            "text": "Sandra ist die Schwester eines jungen Fußballspielers.",
+            "answer": "falsch",
+            "num": 2
+          },
+          {
+            "id": 3,
+            "type": "tf",
+            "text": "Die Jungen kennen noch drei andere Schiedsrichterinnen.",
+            "answer": "falsch",
+            "num": 3
+          },
+          {
+            "id": 4,
+            "type": "tf",
+            "text": "Weil Eltern zuschauten, gab es keine Schwierigkeiten.",
+            "answer": "falsch",
+            "num": 4
+          },
+          {
+            "id": 5,
+            "type": "tf",
+            "text": "Sandra weiß, was sie tun muss, damit die Spieler sie beachten.",
+            "answer": "richtig",
+            "num": 5
+          },
+          {
+            "id": 6,
+            "type": "tf",
+            "text": "Sie ist mit ihrer ersten Leistung als Schiedsrichterin zufrieden.",
+            "answer": "richtig",
+            "num": 6
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Teil 2",
+        "time": 20,
+        "instructions": "Lesen Sie den Text aus der Presse und die Aufgaben 7 bis 9 dazu. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+        "articles": [
+          {
+            "heading": "Die Tandemfamilie",
+            "source": "aus einer Schweizer Zeitung",
+            "body": [
+              "Die Tandemfamilie ist ein Kinderbetreuungsmodell, das einst insbesondere in ländlichen Gegenden selbstverständlich war. Es bedeutet, dass benachbarte Familien gegenseitig auf die Kinder aufpassen. Prominentestes Beispiel aus der Literatur ist wohl die Kinderbuchreihe „Wir Kinder aus Bullerbü“ von Astrid Lindgren. Diese Erzählung spielt in einem schwedischen Weiler, wo sich die insgesamt sieben Kinder frei zwischen den drei elterlichen Höfen bewegen und überall willkommen sind.",
+              "Nun hat das zersiedelte schweizerische Mittelland des 21. Jahrhunderts nicht viel gemein mit dem Bullerbü vergangener Zeiten. Nichtsdestotrotz ist eine verlässliche Tandemfamilie zeitgemässer denn je: Oft wohnen die Grosseltern und andere Verwandte zu weit weg, um auf die Kinder aufzupassen. Und selbst wenn Grossmütter kleiner Kinder in der Nähe wohnen, sind sie häufig noch berufstätig und haben daher nur wenig Zeit, ihre Enkel zu beaufsichtigen.",
+              "Kindergarten- oder Hortplätze als Alternative sind selten, kosten Geld und haben oft zu kurze Öffnungszeiten. Die Vorteile eines Betreuungstandems sind klar: Es belastet das Budget nicht, die Betreuungszeiten sind flexibler und je länger man sich kennt, desto grösser wird das gegenseitige Vertrauen. Familien, die sich so gegenseitig helfen, wachsen zusammen. Im Idealfall entsteht eine jahrelange Freundschaft, von der Eltern und Kinder gleichermassen profitieren. Darum: Höchste Zeit für die Wiederentdeckung der Tandemfamilie!"
+            ]
+          }
+        ],
+        "example": {
+          "text": "In „Wir Kinder aus Bullerbü“ ...",
+          "options": [
+            "gibt es sieben Kinder.",
+            "sind die Kinder im Sommer auf dem Land.",
+            "haben Eltern keine Zeit für ihre Kinder."
+          ],
+          "answer": 0
+        },
+        "questions": [
+          {
+            "id": 7,
+            "type": "mcq",
+            "text": "In diesem Text geht es um ...",
+            "options": [
+              "Kinderbücher von Astrid Lindgren.",
+              "eine Möglichkeit der Kinderbetreuung.",
+              "Probleme der Menschen, die auf dem Land wohnen."
+            ],
+            "answer": 1,
+            "num": 7
+          },
+          {
+            "id": 8,
+            "type": "mcq",
+            "text": "In der Schweiz ...",
+            "options": [
+              "wohnen Familien oft nicht in der Nähe der Großeltern.",
+              "haben die Familien kaum Kontakte zu anderen.",
+              "arbeiten die Großmütter noch in hohem Alter."
+            ],
+            "answer": 0,
+            "num": 8
+          },
+          {
+            "id": 9,
+            "type": "mcq",
+            "text": "Der Kindergarten ist in der Schweiz ...",
+            "options": [
+              "nicht sehr beliebt.",
+              "nur für reiche Familien.",
+              "nicht umsonst."
+            ],
+            "answer": 2,
+            "num": 9
+          }
+        ],
+        "instructions2": "Lesen Sie den Text aus der Presse und die Aufgaben 10 bis 12 dazu. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+        "articles2": [
+          {
+            "heading": "Spielen",
+            "source": "aus einem Schweizer Magazin",
+            "body": [
+              "Spielen gehört zum Menschen dazu, seit es Menschen gibt. Und so manches Spiel, das wir heute noch lieben, haben die Menschen schon vor 4 000 Jahren gespielt. Philosophen behaupten gar, erst das Spielen mache den Menschen zum Menschen. Da ist es kein Wunder, dass schon unsere Urahnen begeisterte Spieler waren. Selbst die kleinen Tierfiguren, die man in Steinzeithöhlen gefunden hat, sehen wie Spielzeug aus. Das zeigt uns eindeutig: Unsere Spiele sind oft schon sehr alt. Sie haben sich über Jahrtausende zu dem entwickelt, was wir heute noch spielen.",
+              "Bretter für Mühle und andere Spiele wurden von Spieleforschern schon in Gräbern in China, Troja, Sri Lanka und Ägypten gefunden. Daher wissen wir, dass sich diese Spiele schon vor tausenden von Jahren verbreitet hatten. Bilder auf antiken Vasen beweisen: Mit Jo-Jos haben vor 2500 Jahren schon die alten Griechen gespielt.",
+              "Der Spieltrieb ist uns genau wie den Tieren angeboren. Tiere spielen, um sich auf den Ernstfall vorzubereiten: Kämpfen oder Jagen zum Beispiel. Auch Kinder spielen, um sich auf ihr späteres Leben vorzubereiten. Spielen ist äusserst wichtig für die kindliche Entwicklung. Wir umsorgen eine Puppe und lernen dabei, ein Baby zu pflegen. Wir spielen mit Bauklötzchen oder einem Ball und lernen komplizierte Bewegungsabläufe. Ohne Spiel sind die Menschen einfach nicht für ihr Leben gewappnet."
+            ]
+          }
+        ],
+        "questions2": [
+          {
+            "id": 10,
+            "type": "mcq",
+            "text": "In diesem Text geht es darum, ...",
+            "options": [
+              "dass Spiele schon sehr lange existieren.",
+              "dass Kinder heute zu wenig spielen.",
+              "welche Spiele für Kinder am besten sind."
+            ],
+            "answer": 0,
+            "num": 10
+          },
+          {
+            "id": 11,
+            "type": "mcq",
+            "text": "Tierkinder spielen, ...",
+            "options": [
+              "um sich auf das Leben vorzubereiten.",
+              "damit ihre Eltern sich freuen.",
+              "um sich zu unterhalten."
+            ],
+            "answer": 0,
+            "num": 11
+          },
+          {
+            "id": 12,
+            "type": "mcq",
+            "text": "Antike Vasen ...",
+            "options": [
+              "dienten auch zum Spielen.",
+              "zeigen, dass früher gespielt wurde.",
+              "hatten immer ein Spiel als Schmuck."
+            ],
+            "answer": 1,
+            "num": 12
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Teil 3",
+        "time": 10,
+        "instructions": "Lesen Sie die Situationen 13 bis 19 und die Anzeigen a bis j aus verschiedenen deutschsprachigen Medien. Wählen Sie: Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Die Anzeige aus dem Beispiel können Sie nicht mehr verwenden. Für eine Situation gibt es keine passende Anzeige. In diesem Fall schreiben Sie 0.",
+        "situationsIntro": "Musik spielt für Ihre Freundinnen und Freunde eine wichtige Rolle. Immer wieder suchen sie nach Gelegenheiten, ihrem Hobby nachzugehen.",
+        "example": {
+          "text": "Sebastian ist ein großer Opernfan. Er hat viele CDs mit Arien und geht auch in entsprechende Veranstaltungen, wenn er kann.",
+          "answer": "b"
+        },
+        "adsFormatted": [
+          {
+            "code": "a",
+            "title": "Benefizkonzert für UNICEF",
+            "text": "14. Dezember, 20.00 Uhr Philharmonie im Gasteig. Es spielen die Münchner Philharmoniker unter der Leitung von Zubin Mehta. Auf dem Programm stehen von F. Mendelssohn Bartholdy das Konzert für Violine und Orchester e-Moll, op. 64 mit dem Solisten Maxim Vengerov sowie Gustav Mahler die Symphonie Nr. 5 cis-Moll. Karten sind bei den Vorverkaufsstellen, Feilitzschstraße 12, erhältlich.",
+            "html": "<strong>Benefizkonzert für UNICEF</strong><br>14. Dezember, 20.00 Uhr · Philharmonie im Gasteig<br>Münchner Philharmoniker (Leitung: Zubin Mehta). Violine: Maxim Vengerov (Mendelssohn e-Moll) & Gustav Mahler (Symphonie Nr. 5).<br><em>Vorverkauf: Feilitzschstraße 12</em>",
+            "color": "#ebf5fb",
+            "hasPin": true
+          },
+          {
+            "code": "b",
+            "title": "16. Sommerfestspiele im Archäologischen Park Xanten",
+            "text": "Große Opern-Neuinszenierungen in der römischen Arena: Fr. 24. Juli / Sa. 25. Juli / So. 26. Juli. Wolfgang Amadeus Mozart: Die Zauberflöte. Eintrittskarten sind ab sofort bundesweit im Vorverkauf zu erhalten. Telefonischer Kartenservice: 0 28 01 / 77 88 77.",
+            "html": "<strong>16. SOMMERFESTSPIELE</strong> im archäologischen Park Xanten<br>Große Opern in der römischen Arena: 24.–26. Juli · W. A. Mozart: <em>Die Zauberflöte</em>.<br>Karten bundesweit im Vorverkauf · Tel.: 02801 / 77 88 77",
+            "color": "#fef9e7",
+            "hasPin": true
+          },
+          {
+            "code": "c",
+            "title": "Gesangsunterricht und Stimmbildung (Gesangslehrerin)",
+            "text": "Anzeigenid: N 6016006 | PLZ: 34112 Ort: Lübeck. Erfahrene Sängerin am Opernhaus Lübeck erteilt Gesangsunterricht. Geeignet für: Jugendliche und Erwachsene, Anfänger und Fortgeschrittene. Unterrichtsform: Einzelunterricht, üblicherweise einmal oder zweimal wöchentlich. Inhalte: Stimmbildung, Atemtechnik, Intonation, Erweiterung des Stimmvolumens, Verbesserung des musikalischen Ausdrucks.",
+            "html": "<strong>Gesangsunterricht und Stimmbildung</strong><br>Erfahrene Opernsängerin (Lübeck) erteilt qualifizierten Einzelunterricht für Jugendliche & Erwachsene.<br>Stimmbildung, Atemtechnik, Intonation, Stimmvolumen & Ausdruck.",
+            "color": "#f4ecf7",
+            "hasPin": true
+          },
+          {
+            "code": "d",
+            "title": "BACH CHOR – Neue Mitglieder gesucht",
+            "text": "Mit Beginn der Konzertsaison nimmt der Bach-Chor derzeit wieder neue Mitglieder auf. Vorausgesetzt werden sichere Notenkenntnisse, Erfahrung im Chorgesang und die Bereitschaft, regelmäßig zweimal wöchentlich an den Proben sowie allen Konzerten und Konzertreisen in In- und Ausland teilzunehmen (ca. 12–15 Termine jährlich). Interessierte junge Sängerinnen und Sänger erhalten nähere INFORMATIONEN unter Tel. 98 61 66 (Musica Konzertagentur).",
+            "html": "<strong>BACH CHOR</strong> nimmt neue Mitglieder auf!<br>Voraussetzung: Notenkenntnisse, Chorerfahrung, Probe 2x wöchentlich & Konzertreisen im In-/Ausland.<br>Info: Tel. 98 61 66 (Musica Konzertagentur)",
+            "color": "#e8f8f5",
+            "hasPin": true
+          },
+          {
+            "code": "e",
+            "title": "Gemeinsam musizieren – Flöte sucht Begleitung",
+            "text": "Gemeinsam musizieren und über einen Fehler lachen, ausklingen lassen – und ganz überraschend eine Serenade vorführen. Meine Flöte (8 Jahre Konservatorium) sucht Begleitung: klassische Gitarre, Fagott, Oboe, Streicher, Klavier ... Ich freue mich auf die Kammermusik. Anfragen unter Chiffre C 472 809 A, NZZ, Inseratenabteilung, Postfach, 8021 Zürich.",
+            "html": "<strong>Gemeinsam musizieren (Kammermusik)</strong><br>Flöte (8 Jahre Konservatorium) sucht Begleitung: klassische Gitarre, Fagott, Oboe, Streicher, Klavier.<br>✉ Chiffre C 472 809 A, NZZ Inserate, Postfach, 8021 Zürich",
+            "color": "#fef5e7",
+            "hasPin": true
+          },
+          {
+            "code": "f",
+            "title": "Gitarrenunterricht in Brühl (Akustik- & E-Gitarre)",
+            "text": "Anzeigenid: M 4384970 | PLZ: 50312 Ort: Brühl. Der Unterricht richtet sich an Anfänger, Wiedereinsteiger und Fortgeschrittene. Was? Ich unterrichte sowohl Akustik- als auch E-Gitarre. Der Unterricht beinhaltet einen leicht verständlichen Übungs- und Lernverlauf. Zudem vermittle ich meinen Schülern die Noten- und Harmonielehre sowie Kenntnisse der Musiktheorie. Repertoire: Pop, Rock, Metal, Punk, Blues, Schlager usw. Wo? In Brühl oder auf Wunsch bei Ihnen zu Hause (ab 45 Min.).",
+            "html": "<strong>Gitarrenunterricht in Brühl</strong><br>Akustik- & E-Gitarre für Anfänger und Fortgeschrittene.<br>Inklusive Noten-, Harmonielehre und <em>Musiktheorie</em>! Repertoire: Rock, Pop, Metal, Blues.<br>Unterricht im Studio oder bei Ihnen zu Hause.",
+            "color": "#eaf2f8",
+            "hasPin": true
+          },
+          {
+            "code": "g",
+            "title": "OpenAir im Park – Bad Krozingen",
+            "text": "OpenAir im Park, Bad Krozingen. Sa., 30. Juli: ROGER HODGSON & Band (Ehemaliger Supertramp-Frontmann mit Welthits wie „Dreamer“ oder „Give A Little Bit“). Fr., 5. August: URIAH HEEP (Hardrock-Ikone mit Hits wie „Lady in Black“ und „Easy Livin'“). Tickets: 07633/8004-46 | www.bad-krozingen.info.",
+            "html": "<strong>OpenAir im Park · Bad Krozingen</strong><br>• Sa. 30. Juli: ROGER HODGSON & Band (Supertramp-Hits: Dreamer, Give A Little Bit)<br>• Fr. 5. August: URIAH HEEP (Hardrock: Lady in Black, Easy Livin')<br>Tickets: 07633/8004-46 · www.bad-krozingen.info",
+            "color": "#f9ebea",
+            "hasPin": true
+          },
+          {
+            "code": "h",
+            "title": "Profi erteilt modernen Gitarrenunterricht in Mainz",
+            "text": "Unterricht für E-Gitarre und Bass-Gitarre nach eigener erfolgreicher Methode. Erfolg schon nach kurzer Zeit. Unterrichtsbegleitendes Noten- und Audiomaterial gratis. Für Kinder, Jugendliche und Erwachsene. Weitere Infos unter www.guitaronly.de.",
+            "html": "<strong>Gitarren- & Bassunterricht in Mainz</strong><br>Unterricht für E-Gitarre und Bass-Gitarre nach eigener Methode.<br><em>Erfolg schon nach kurzer Zeit!</em> Gratis Noten- und Audiomaterial.<br>Infos: www.guitaronly.de",
+            "color": "#fcf3cf",
+            "hasPin": true
+          },
+          {
+            "code": "i",
+            "title": "Freude am Musizieren! (Klavier- & Gesangsunterricht)",
+            "text": "Sie suchen qualifizierten, individuellen Klavier- & Gesangsunterricht für Jugendliche und Erwachsene? Klavier-/Gesangspädagoge / Konzertmusiker unterrichtet Klavier & Gesang in angenehmer Atelier-Atmosphäre. Anfänger, Wiedereinsteiger und Fortgeschrittene sind herzlich willkommen, mit Freude zu musizieren. Vereinbaren Sie einen unverbindlichen Info-Termin. Tel. 0387 651223 (Peter Steiner).",
+            "html": "<strong>Freude am Musizieren!</strong><br>Kombinierter Klavier- & Gesangsunterricht für Jugendliche und Erwachsene im Atelier.<br>Für Anfänger, Wiedereinsteiger & Fortgeschrittene.<br>Tel.: 0387 651223 (Peter Steiner)",
+            "color": "#e8eaf6",
+            "hasPin": true
+          },
+          {
+            "code": "j",
+            "title": "Musikschule Allegro Münster",
+            "text": "Tel. 0251.44150750. Unsere Musikschule bietet Ihnen eine große Auswahl an Instrumentalfächern wie Klavier / Blockflöte und Blockflötenensemble / Gitarre / Geige / Querflöte / Akkordeon / Klarinette & Saxofon. Sowohl Einzel- als auch Gruppenunterricht sind möglich. Eine Unterrichtsstunde kann je nach Wunsch 30, 45 oder 90 Minuten dauern. Regelmäßige Konzerte. Gerne beraten wir Sie und/oder Ihr Kind in einem unverbindlichen Gespräch.",
+            "html": "<strong>Musikschule Allegro Münster</strong><br>Große Auswahl: Klavier, Flöte, Gitarre, Geige etc.<br>Unterrichtseinheiten flexibel: <em>30, 45 oder 90 Minuten</em>.<br>Beratung für Sie und/oder Ihr Kind: Tel. 0251.44150750",
+            "color": "#e0f2f1",
+            "hasPin": true
+          }
+        ],
+        "questions": [
+          {
+            "id": 13,
+            "type": "match",
+            "text": "Niklas spielt schon vier Jahre lang klassische Gitarre. Er möchte gern mit anderen Musik machen. Bisher hatte er leider kein Glück.",
+            "answer": "e",
+            "num": 13
+          },
+          {
+            "id": 14,
+            "type": "match",
+            "text": "Ela hat als Kind Klavier gelernt und singt gern. Sie will jetzt ihre Klavierkenntnisse auffrischen und gleichzeitig das Singen üben.",
+            "answer": "i",
+            "num": 14
+          },
+          {
+            "id": 15,
+            "type": "match",
+            "text": "Susanne bekommt seit drei Jahren Gesangsunterricht und ist auch Mitglied im Schulchor. Sie träumt davon, als Chorsängerin um die Welt zu reisen.",
+            "answer": "d",
+            "num": 15
+          },
+          {
+            "id": 16,
+            "type": "match",
+            "text": "Alex möchte in der Schülerband mitmachen, die seine Mitschüler gegründet haben. Es fehlt nur noch der Bassist, deshalb muss Alex relativ schnell das Instrument spielen lernen.",
+            "answer": "h",
+            "num": 16
+          },
+          {
+            "id": 17,
+            "type": "match",
+            "text": "Ira will gemeinsam mit ihrer sechsjährigen Tochter Klavierspielen lernen. Der Unterricht darf aber nicht zu lange dauern, weil das Kind schnell müde wird.",
+            "answer": "j",
+            "num": 17
+          },
+          {
+            "id": 18,
+            "type": "match",
+            "text": "Marei möchte ein Instrument lernen, am liebsten E-Gitarre. Ihre Mutter ist einverstanden, meint aber, dass Musiktheorie im Unterricht nicht fehlen darf.",
+            "answer": "f",
+            "num": 18
+          },
+          {
+            "id": 19,
+            "type": "match",
+            "text": "Leo spielt E-Gitarre. Er würde gern in einer Rock-Band mitmachen und an Konzerten teilnehmen.",
+            "answer": "0",
+            "num": 19
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Teil 4",
+        "time": 15,
+        "instructions": "Lesen Sie die Texte 20 bis 26. Wählen Sie: Ist die Person dafür, wieder aufs Land zu ziehen?",
+        "topic": "In einer Zeitschrift lesen Sie Kommentare zu einem Artikel über den neuen Trend, von der Stadt wieder aufs Land zu ziehen.",
+        "example": {
+          "who": "Sandra (26, Düsseldorf)",
+          "text": "Es gibt immer Vor- und Nachteile. In der Stadt kann man mehr unternehmen, es gibt mehr Schulen, Arbeitsstellen und Menschen. Man hat dort immer eine Auswahl. Auf dem Land lebt man gesünder. Außerdem hat man meist bessere Beziehungen zu anderen Menschen. Für mich als junge Frau ist es im Moment wichtig, viel Neues kennenzulernen, das geht in der Stadt besser.",
+          "answer": "nein"
+        },
+        "letters": [
+          {
+            "id": 20,
+            "who": "Dörthe (14, Augsburg)",
+            "text": "Ich wohne in einer Stadt. Zwar ist Augsburg nicht so groß, aber es ist doch eine Stadt. Um Augsburg gibt es viele schöne Dörfer. Ab und zu fahren wir da mal hin, um zu wandern oder ein Picknick zu machen. Das ist ehrlich gut. Umzusiedeln wäre aber eine andere Sache. Trotz aller Pluspunkte kann mich das Land als Wohnort nicht überzeugen.",
+            "answer": "nein",
+            "num": 20
+          },
+          {
+            "id": 21,
+            "who": "Alexander (40, Hamburg)",
+            "text": "Das kann ich mir für mich gut vorstellen. Denn dort kann man die Seele „baumeln“ lassen, wie man so schön sagt. Es gibt keinen Lärm, kaum Verbrechen, keine Staus … Ja, ich stelle mir das paradiesisch vor. Ich würde es sofort tun.",
+            "answer": "ja",
+            "num": 21
+          },
+          {
+            "id": 22,
+            "who": "Norbert (19, Essen)",
+            "text": "Darüber habe ich noch nie nachgedacht. Warum sollte man das eigentlich machen? Dann wird ja der Weg zur Arbeit viel länger. Das fände ich unpraktisch. Aber sicher ist es in einem kleinen Ort auch schöner, denn man kann die Natur erleben und man braucht keine Ausflüge zu machen; das Grün liegt ja direkt vor der Tür. Ja, das könnte sich lohnen, zumal man dort auch gesund lebt. Die Argumente dafür haben mehr Gewicht.",
+            "answer": "ja",
+            "num": 22
+          },
+          {
+            "id": 23,
+            "who": "Julius (30, Weimar)",
+            "text": "Mit meiner Frau habe ich schon oft darüber diskutiert. So eine Entscheidung will wohl überlegt sein. Bis jetzt tendieren wir aber zur Stadt, besonders auch wegen der Schulen, die unsere Kinder hier besuchen können. Und sie können allein zu Fuß hinlaufen. Das wäre ja vom Dorf aus nicht möglich. Unser Alltag würde komplizierter werden. Ich denke, das kommt im Moment nicht in Frage.",
+            "answer": "nein",
+            "num": 23
+          },
+          {
+            "id": 24,
+            "who": "Laura (17, Chur)",
+            "text": "Also, das ruhige Landleben finde ich unerträglich. Es passiert zu wenig. Natürlich kann man ab und zu in eine Stadt fahren, aber trotzdem verpasst man einfach zu viel. Sicher ist die Luft dort besser, aber ich halte es für einen Fehler wegzuziehen. Das würde ich niemandem raten.",
+            "answer": "nein",
+            "num": 24
+          },
+          {
+            "id": 25,
+            "who": "Yvette (22, Trier)",
+            "text": "Schwierige Frage. Ich würde mal denken, das kommt darauf an, wo man arbeitet. Wenn ich das nun entscheiden müsste, würde es mir sehr schwer fallen. Letztendlich sehe ich meine Zukunft aber eher in einer städtischen Gegend. Ich brauche eine gewisse Lebendigkeit um mich herum, vielleicht auch den Stress, der mit so einem Leben einhergeht.",
+            "answer": "nein",
+            "num": 25
+          },
+          {
+            "id": 26,
+            "who": "Nicola (55, Lugano)",
+            "text": "Also da kann ich einfach nur zustimmen. Das kommt mir sehr logisch und gut vor. Bei mir liegt es nur an den Finanzen, denn das Land ist auch nicht so billig, wie alle immer denken. Im Tessin sind günstige Wohnungen in der Natur extrem selten. Sollte ich so etwas mal finden, würde ich sofort meine Sachen packen, ist doch klar.",
+            "answer": "ja",
+            "num": 26
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Teil 5",
+        "time": 10,
+        "instructions": "Lesen Sie die Aufgaben 27 bis 30 und den Text dazu. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c. Sie lesen eine Informationsbroschüre über das Citybike Wien, da Sie bald nach Wien fahren werden und ein begeisterter Radfahrer sind.",
+        "articles": [
+          {
+            "heading": "Mobil mit dem Citybike",
+            "body": [
+              "Das Citybike-Wien-System ist ein innovatives und umweltfreundliches öffentliches Verkehrsmittel und kein traditioneller Radverleih. Die Räder können an über 120 Bikestationen in ganz Wien entlehnt werden. Die Rückgabe ist an jeder beliebigen Station möglich, unabhängig davon, wo die Fahrt begonnen wurde. Und das 24 Stunden lang, 7 Tage die Woche. Also mobil sein, wann immer Sie wollen.",
+              "Um Citybiker / Citybikerin zu werden, bedarf es einer einmaligen Anmeldung. Melden Sie sich jetzt im Internet an, um am Terminal Zeit zu sparen! (Sie können die Anmeldung auch an jedem Citybike-Terminal vornehmen.)",
+              "Für jede Anmeldung benötigen Sie eine der unten angeführten Karten. Damit können Sie, beliebig oft, ein Citybike entlehnen. Möchten Sie mehrere Citybikes gleichzeitig entlehnen, benötigen Sie mehrere Karten.",
+              "Die jeweils erste Stunde fahren Sie mit dem Citybike gratis. Jede weitere Stunde ist kostenpflichtig. Das Prozedere der Anmeldung erfordert eine einmalige Gebühr von € 1,00. Diese wird Ihnen nach erfolgter Anmeldung für Ihre Fahrten gutgeschrieben.",
+              "Citybike-Card: Sie erhalten eine eigene Karte für Ihren Zugang zu Citybike! Die Abrechnung erfolgt über Bankeinzug von einem österreichischen Konto. Die Zusendung der Karte dauert ca. 3 Wochen. Für Angehörige können Sie zusätzliche Partnerkarten beantragen.",
+              "Andere Karten: Österreichische Bankomatkarten und alle Kreditkarten lassen sich ganz unkompliziert um die Funktion einer Citybike-Card erweitern."
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "id": 27,
+            "type": "mcq",
+            "text": "Mit dem Citybike ...",
+            "options": [
+              "kann man höchstens 60 Minuten pro Tag fahren.",
+              "kann man umsonst fahren, solange man möchte.",
+              "kann man fahren, sooft man will."
+            ],
+            "answer": 2,
+            "num": 27
+          },
+          {
+            "id": 28,
+            "type": "mcq",
+            "text": "Ausländische Touristen ...",
+            "options": [
+              "können sich keine Räder entlehnen.",
+              "brauchen für die Citybike-Card eine Bankomatkarte.",
+              "können ihre Kreditkarte zur Citybike-Card erweitern."
+            ],
+            "answer": 1,
+            "num": 28
+          },
+          {
+            "id": 29,
+            "type": "mcq",
+            "text": "Um ein Citybike fahren zu können, ...",
+            "options": [
+              "kann man sich auch an einem Terminal anmelden.",
+              "muss man sich für das Rad, das man entlehnen will, im Internet anmelden.",
+              "braucht man unbedingt die Citybike-Card."
+            ],
+            "answer": 0,
+            "num": 29
+          },
+          {
+            "id": 30,
+            "type": "mcq",
+            "text": "Die Fahrräder des Citybike-Wien-Systems ...",
+            "options": [
+              "sind umweltfreundlicher als traditionelle Räder.",
+              "müssen an der Startstation zurückgegeben werden.",
+              "können an mehr als 80 Bikestationen abgeholt und abgegeben werden."
+            ],
+            "answer": 2,
+            "num": 30
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "title": "Teil 6",
+        "badge": "Hören",
+        "isHoren": true,
+        "time": 40,
+        "instructions": "Modul Hören: 4 Teile, 30 Aufgaben. Klicken Sie auf den Play-Button, um das Audio zu starten. Sie hören die Texte mit den echten Prüfungs-Pausen.",
+        "audioSrc": "audio/modellsatz-20-hoeren.mp3",
+        "audioFallbacks": [
+          "audio/modellsatz-20-hoeren.mp3"
+        ],
+        "audioChapters": [
+          {
+            "time": 0,
+            "start": 0,
+            "end": 37,
+            "label": "00:00 Teil 1 (Beispiel · 2x)",
+            "part": 1,
+            "title": "Teil 1 · Beispiel (2x hören)"
+          },
+          {
+            "time": 37,
+            "start": 37,
+            "end": 791,
+            "label": "00:37 Teil 1 (Texte 1–5 · 2x)",
+            "part": 1,
+            "title": "Teil 1 · Fünf kurze Texte (2x hören)"
+          },
+          {
+            "time": 791,
+            "start": 791,
+            "end": 1064,
+            "label": "13:11 Teil 2 (Führung Olympiastadion · 1x)",
+            "part": 2,
+            "title": "Teil 2 · Führung auf dem Zeltdach des Olympiastadions (1x hören)"
+          },
+          {
+            "time": 1064,
+            "start": 1064,
+            "end": 1318,
+            "label": "17:44 Teil 3 (Gespräch: Skilehrer · 1x)",
+            "part": 3,
+            "title": "Teil 3 · Gespräch im Café über Arbeit als Skilehrer (1x hören)"
+          },
+          {
+            "time": 1318,
+            "start": 1318,
+            "end": 1695,
+            "label": "21:58 Teil 4 (Diskussion: Studieren mit Kind? · 1. Durchgang)",
+            "part": 4,
+            "title": "Teil 4 · Diskussion: Studieren mit Kind? (1. Durchgang)"
+          },
+          {
+            "time": 1695,
+            "start": 1695,
+            "end": 2120,
+            "label": "28:15 Teil 4 (Diskussion: Studieren mit Kind? · 2. Durchgang)",
+            "part": 4,
+            "title": "Teil 4 · Diskussion: Studieren mit Kind? (2. Durchgang)"
+          }
+        ],
+        "horenSections": [
+          {
+            "id": 1,
+            "partNumber": 1,
+            "title": "Teil 1: Fünf kurze Texte",
+            "badge": "Teil 1",
+            "intro": "Sie hören nun fünf kurze Texte. Sie hören jeden Text zweimal. Zu jedem Text lösen Sie zwei Aufgaben. Wählen Sie bei jeder Aufgabe die richtige Lösung.",
+            "example": {
+              "ex01": {
+                "num": "01",
+                "text": "Sie bekommen Informationen zu Stadtrundfahrten.",
+                "answer": "richtig",
+                "type": "tf"
+              },
+              "ex02": {
+                "num": "02",
+                "text": "Um wie viel Uhr beginnt die erste Sightseeing-Tour?",
+                "options": [
+                  "Um 11 Uhr.",
+                  "Um 12 Uhr.",
+                  "Um 10 Uhr."
+                ],
+                "answer": 2,
+                "type": "mcq"
+              }
+            },
+            "questions": [
+              {
+                "id": "h1",
+                "type": "tf",
+                "num": 1,
+                "text": "Es wird ein Ausflug in einen Zoo angeboten.",
+                "answer": "falsch",
+                "audioStart": 37,
+                "teilPart": 1,
+                "textNum": 1
+              },
+              {
+                "id": "h2",
+                "type": "mcq",
+                "num": 2,
+                "text": "Was gibt es in Walsrode?",
+                "options": [
+                  "Vögel.",
+                  "Bäume.",
+                  "Flugzeuge."
+                ],
+                "answer": 0,
+                "audioStart": 37,
+                "teilPart": 1,
+                "textNum": 1
+              },
+              {
+                "id": "h3",
+                "type": "tf",
+                "num": 3,
+                "text": "Sie hören eine Nachricht aus einem Kochstudio.",
+                "answer": "richtig",
+                "audioStart": 165,
+                "teilPart": 1,
+                "textNum": 2
+              },
+              {
+                "id": "h4",
+                "type": "mcq",
+                "num": 4,
+                "text": "Was kann man schicken?",
+                "options": [
+                  "Ein Kochbuch.",
+                  "Ein Familienrezept.",
+                  "Einen Kochtopf."
+                ],
+                "answer": 1,
+                "audioStart": 165,
+                "teilPart": 1,
+                "textNum": 2
+              },
+              {
+                "id": "h5",
+                "type": "tf",
+                "num": 5,
+                "text": "In der Sendung bekommen Touristen Tipps.",
+                "answer": "falsch",
+                "audioStart": 255,
+                "teilPart": 1,
+                "textNum": 3
+              },
+              {
+                "id": "h6",
+                "type": "mcq",
+                "num": 6,
+                "text": "Assistent/Assistentin wird man ...",
+                "options": [
+                  "in zehn Monaten.",
+                  "in drei Monaten.",
+                  "in drei Jahren."
+                ],
+                "answer": 0,
+                "audioStart": 255,
+                "teilPart": 1,
+                "textNum": 3
+              },
+              {
+                "id": "h7",
+                "type": "tf",
+                "num": 7,
+                "text": "Luigi und Thomas sind verabredet.",
+                "answer": "richtig",
+                "audioStart": 362,
+                "teilPart": 1,
+                "textNum": 4
+              },
+              {
+                "id": "h8",
+                "type": "mcq",
+                "num": 8,
+                "text": "Wie lange läuft Luigi vom Hotel bis zur Gedächtniskirche?",
+                "options": [
+                  "30 Minuten.",
+                  "20 Minuten.",
+                  "10 Minuten."
+                ],
+                "answer": 1,
+                "audioStart": 362,
+                "teilPart": 1,
+                "textNum": 4
+              },
+              {
+                "id": "h9",
+                "type": "tf",
+                "num": 9,
+                "text": "Der Zug kommt an.",
+                "answer": "falsch",
+                "audioStart": 472,
+                "teilPart": 1,
+                "textNum": 5
+              },
+              {
+                "id": "h10",
+                "type": "mcq",
+                "num": 10,
+                "text": "Wo kann man schlafen?",
+                "options": [
+                  "Im Zug in der Mitte.",
+                  "Im Zug vorn.",
+                  "Im Zug hinten."
+                ],
+                "answer": 2,
+                "audioStart": 472,
+                "teilPart": 1,
+                "textNum": 5
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "partNumber": 2,
+            "title": "Teil 2: Führung Olympiastadion München",
+            "badge": "Teil 2",
+            "intro": "Sie hören nun einen Text. Sie hören den Text einmal. Dazu lösen Sie fünf Aufgaben. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+            "context": "Sie nehmen an einer Führung auf dem Zeltdach des Olympiastadions München teil.",
+            "questions": [
+              {
+                "id": "h11",
+                "type": "mcq",
+                "num": 11,
+                "text": "Wie viele Mannschaften nahmen 1972 an den olympischen Sommerspielen teil?",
+                "options": [
+                  "Über 100.",
+                  "Fast 100.",
+                  "8000."
+                ],
+                "answer": 0,
+                "audioStart": 791,
+                "teilPart": 2
+              },
+              {
+                "id": "h12",
+                "type": "mcq",
+                "num": 12,
+                "text": "Was gibt es seit 2005 im Olympiastadion nicht mehr?",
+                "options": [
+                  "Fußballspiele.",
+                  "Konzerte.",
+                  "Sportwettkämpfe."
+                ],
+                "answer": 0,
+                "audioStart": 791,
+                "teilPart": 2
+              },
+              {
+                "id": "h13",
+                "type": "mcq",
+                "num": 13,
+                "text": "Die Zeltdachtour dauert ...",
+                "options": [
+                  "20 Minuten.",
+                  "eine halbe Stunde.",
+                  "zwei Stunden."
+                ],
+                "answer": 2,
+                "audioStart": 791,
+                "teilPart": 2
+              },
+              {
+                "id": "h14",
+                "type": "mcq",
+                "num": 14,
+                "text": "Wie ist das Wetter heute?",
+                "options": [
+                  "Es ist bewölkt.",
+                  "Wie gestern.",
+                  "Sehr günstig."
+                ],
+                "answer": 2,
+                "audioStart": 791,
+                "teilPart": 2
+              },
+              {
+                "id": "h15",
+                "type": "mcq",
+                "num": 15,
+                "text": "Wo können die Besucher etwas essen und trinken?",
+                "options": [
+                  "In einem Restaurant.",
+                  "In einem Self-Service.",
+                  "Im Biergarten."
+                ],
+                "answer": 1,
+                "audioStart": 791,
+                "teilPart": 2
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "partNumber": 3,
+            "title": "Teil 3: Gespräch über die Arbeit als Skilehrer",
+            "badge": "Teil 3",
+            "intro": "Sie hören nun ein Gespräch. Sie hören das Gespräch einmal. Dazu lösen Sie sieben Aufgaben. Wählen Sie: Sind die Aussagen richtig oder falsch?",
+            "context": "Sie sitzen in einem Café und hören, wie sich zwei junge Leute über die Arbeit als Skilehrer unterhalten.",
+            "questions": [
+              {
+                "id": "h16",
+                "type": "tf",
+                "num": 16,
+                "text": "Robin war schon oft zum Skifahren in Österreich.",
+                "answer": "richtig",
+                "audioStart": 1064,
+                "teilPart": 3
+              },
+              {
+                "id": "h17",
+                "type": "tf",
+                "num": 17,
+                "text": "Die Skilehrerprüfung ist ziemlich schwer.",
+                "answer": "falsch",
+                "audioStart": 1064,
+                "teilPart": 3
+              },
+              {
+                "id": "h18",
+                "type": "tf",
+                "num": 18,
+                "text": "Große Skischulen bieten den Skilehrern bessere Unterkünfte.",
+                "answer": "falsch",
+                "audioStart": 1064,
+                "teilPart": 3
+              },
+              {
+                "id": "h19",
+                "type": "tf",
+                "num": 19,
+                "text": "Laura unterrichtet nur Kinder.",
+                "answer": "falsch",
+                "audioStart": 1064,
+                "teilPart": 3
+              },
+              {
+                "id": "h20",
+                "type": "tf",
+                "num": 20,
+                "text": "Robin möchte lieber Erwachsenenkurse machen.",
+                "answer": "richtig",
+                "audioStart": 1064,
+                "teilPart": 3
+              },
+              {
+                "id": "h21",
+                "type": "tf",
+                "num": 21,
+                "text": "Laura verdient viel Geld als Skilehrerin.",
+                "answer": "falsch",
+                "audioStart": 1064,
+                "teilPart": 3
+              },
+              {
+                "id": "h22",
+                "type": "tf",
+                "num": 22,
+                "text": "Robin findet die Skilehrerprüfung teuer.",
+                "answer": "richtig",
+                "audioStart": 1064,
+                "teilPart": 3
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "partNumber": 4,
+            "title": "Teil 4: Diskussion über „Studieren mit Kind?“",
+            "badge": "Teil 4",
+            "intro": "Sie hören nun eine Diskussion. Sie hören die Diskussion zweimal. Dazu lösen Sie acht Aufgaben. Ordnen Sie die Aussagen zu: Wer sagt was?",
+            "context": "Die Moderatorin der Radiosendung „Eltern-Magazin“ diskutiert mit den Eltern Karla und Walter zum Thema „Studieren mit Kind?“.",
+            "example": {
+              "num": "0",
+              "text": "Fünf Prozent der Studierenden in Deutschland haben mindestens ein Kind.",
+              "answerCode": "a",
+              "answerSpeaker": "Moderatorin",
+              "options": [
+                "Moderatorin",
+                "Karla",
+                "Walter"
+              ],
+              "answer": 0
+            },
+            "questions": [
+              {
+                "id": "h23",
+                "type": "speaker",
+                "num": 23,
+                "text": "Nur sehr wenige Studierende wollen ein Kind bekommen, solange sie studieren.",
+                "options": [
+                  "Moderatorin",
+                  "Karla",
+                  "Walter"
+                ],
+                "answer": 1,
+                "audioStart": 1318,
+                "teilPart": 4
+              },
+              {
+                "id": "h24",
+                "type": "speaker",
+                "num": 24,
+                "text": "Je nach Studienrichtung ist es einfacher oder schwerer, ein Kind zu haben.",
+                "options": [
+                  "Moderatorin",
+                  "Karla",
+                  "Walter"
+                ],
+                "answer": 2,
+                "audioStart": 1318,
+                "teilPart": 4
+              },
+              {
+                "id": "h25",
+                "type": "speaker",
+                "num": 25,
+                "text": "Die Unterstützung studierender Eltern durch den Staat reicht nicht aus.",
+                "options": [
+                  "Moderatorin",
+                  "Karla",
+                  "Walter"
+                ],
+                "answer": 2,
+                "audioStart": 1318,
+                "teilPart": 4
+              },
+              {
+                "id": "h26",
+                "type": "speaker",
+                "num": 26,
+                "text": "Gewöhnliche Kitas helfen studierenden Eltern oft nicht.",
+                "options": [
+                  "Moderatorin",
+                  "Karla",
+                  "Walter"
+                ],
+                "answer": 1,
+                "audioStart": 1318,
+                "teilPart": 4
+              },
+              {
+                "id": "h27",
+                "type": "speaker",
+                "num": 27,
+                "text": "Die Kitas der Universitäten haben zu wenig Plätze.",
+                "options": [
+                  "Moderatorin",
+                  "Karla",
+                  "Walter"
+                ],
+                "answer": 0,
+                "audioStart": 1318,
+                "teilPart": 4
+              },
+              {
+                "id": "h28",
+                "type": "speaker",
+                "num": 28,
+                "text": "Es gibt europäische Länder, in denen es einfacher ist, als Student ein Kind zu haben.",
+                "options": [
+                  "Moderatorin",
+                  "Karla",
+                  "Walter"
+                ],
+                "answer": 0,
+                "audioStart": 1318,
+                "teilPart": 4
+              },
+              {
+                "id": "h29",
+                "type": "speaker",
+                "num": 29,
+                "text": "Karla berät andere studierende Eltern.",
+                "options": [
+                  "Moderatorin",
+                  "Karla",
+                  "Walter"
+                ],
+                "answer": 2,
+                "audioStart": 1318,
+                "teilPart": 4
+              },
+              {
+                "id": "h30",
+                "type": "speaker",
+                "num": 30,
+                "text": "Während des Studiums Kinder zu bekommen, kann für die spätere Karriere gut sein.",
+                "options": [
+                  "Moderatorin",
+                  "Karla",
+                  "Walter"
+                ],
+                "answer": 1,
+                "audioStart": 1318,
+                "teilPart": 4
+              }
+            ],
+            "speakers": [
+              {
+                "code": "a",
+                "name": "Moderatorin"
+              },
+              {
+                "code": "b",
+                "name": "Karla"
+              },
+              {
+                "code": "c",
+                "name": "Walter"
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "id": "h1",
+            "type": "tf",
+            "num": 1,
+            "text": "Es wird ein Ausflug in einen Zoo angeboten.",
+            "answer": "falsch",
+            "audioStart": 37,
+            "teilPart": 1,
+            "textNum": 1
+          },
+          {
+            "id": "h2",
+            "type": "mcq",
+            "num": 2,
+            "text": "Was gibt es in Walsrode?",
+            "options": [
+              "Vögel.",
+              "Bäume.",
+              "Flugzeuge."
+            ],
+            "answer": 0,
+            "audioStart": 37,
+            "teilPart": 1,
+            "textNum": 1
+          },
+          {
+            "id": "h3",
+            "type": "tf",
+            "num": 3,
+            "text": "Sie hören eine Nachricht aus einem Kochstudio.",
+            "answer": "richtig",
+            "audioStart": 165,
+            "teilPart": 1,
+            "textNum": 2
+          },
+          {
+            "id": "h4",
+            "type": "mcq",
+            "num": 4,
+            "text": "Was kann man schicken?",
+            "options": [
+              "Ein Kochbuch.",
+              "Ein Familienrezept.",
+              "Einen Kochtopf."
+            ],
+            "answer": 1,
+            "audioStart": 165,
+            "teilPart": 1,
+            "textNum": 2
+          },
+          {
+            "id": "h5",
+            "type": "tf",
+            "num": 5,
+            "text": "In der Sendung bekommen Touristen Tipps.",
+            "answer": "falsch",
+            "audioStart": 255,
+            "teilPart": 1,
+            "textNum": 3
+          },
+          {
+            "id": "h6",
+            "type": "mcq",
+            "num": 6,
+            "text": "Assistent/Assistentin wird man ...",
+            "options": [
+              "in zehn Monaten.",
+              "in drei Monaten.",
+              "in drei Jahren."
+            ],
+            "answer": 0,
+            "audioStart": 255,
+            "teilPart": 1,
+            "textNum": 3
+          },
+          {
+            "id": "h7",
+            "type": "tf",
+            "num": 7,
+            "text": "Luigi und Thomas sind verabredet.",
+            "answer": "richtig",
+            "audioStart": 362,
+            "teilPart": 1,
+            "textNum": 4
+          },
+          {
+            "id": "h8",
+            "type": "mcq",
+            "num": 8,
+            "text": "Wie lange läuft Luigi vom Hotel bis zur Gedächtniskirche?",
+            "options": [
+              "30 Minuten.",
+              "20 Minuten.",
+              "10 Minuten."
+            ],
+            "answer": 1,
+            "audioStart": 362,
+            "teilPart": 1,
+            "textNum": 4
+          },
+          {
+            "id": "h9",
+            "type": "tf",
+            "num": 9,
+            "text": "Der Zug kommt an.",
+            "answer": "falsch",
+            "audioStart": 472,
+            "teilPart": 1,
+            "textNum": 5
+          },
+          {
+            "id": "h10",
+            "type": "mcq",
+            "num": 10,
+            "text": "Wo kann man schlafen?",
+            "options": [
+              "Im Zug in der Mitte.",
+              "Im Zug vorn.",
+              "Im Zug hinten."
+            ],
+            "answer": 2,
+            "audioStart": 472,
+            "teilPart": 1,
+            "textNum": 5
+          },
+          {
+            "id": "h11",
+            "type": "mcq",
+            "num": 11,
+            "text": "Wie viele Mannschaften nahmen 1972 an den olympischen Sommerspielen teil?",
+            "options": [
+              "Über 100.",
+              "Fast 100.",
+              "8000."
+            ],
+            "answer": 0,
+            "audioStart": 791,
+            "teilPart": 2
+          },
+          {
+            "id": "h12",
+            "type": "mcq",
+            "num": 12,
+            "text": "Was gibt es seit 2005 im Olympiastadion nicht mehr?",
+            "options": [
+              "Fußballspiele.",
+              "Konzerte.",
+              "Sportwettkämpfe."
+            ],
+            "answer": 0,
+            "audioStart": 791,
+            "teilPart": 2
+          },
+          {
+            "id": "h13",
+            "type": "mcq",
+            "num": 13,
+            "text": "Die Zeltdachtour dauert ...",
+            "options": [
+              "20 Minuten.",
+              "eine halbe Stunde.",
+              "zwei Stunden."
+            ],
+            "answer": 2,
+            "audioStart": 791,
+            "teilPart": 2
+          },
+          {
+            "id": "h14",
+            "type": "mcq",
+            "num": 14,
+            "text": "Wie ist das Wetter heute?",
+            "options": [
+              "Es ist bewölkt.",
+              "Wie gestern.",
+              "Sehr günstig."
+            ],
+            "answer": 2,
+            "audioStart": 791,
+            "teilPart": 2
+          },
+          {
+            "id": "h15",
+            "type": "mcq",
+            "num": 15,
+            "text": "Wo können die Besucher etwas essen und trinken?",
+            "options": [
+              "In einem Restaurant.",
+              "In einem Self-Service.",
+              "Im Biergarten."
+            ],
+            "answer": 1,
+            "audioStart": 791,
+            "teilPart": 2
+          },
+          {
+            "id": "h16",
+            "type": "tf",
+            "num": 16,
+            "text": "Robin war schon oft zum Skifahren in Österreich.",
+            "answer": "richtig",
+            "audioStart": 1064,
+            "teilPart": 3
+          },
+          {
+            "id": "h17",
+            "type": "tf",
+            "num": 17,
+            "text": "Die Skilehrerprüfung ist ziemlich schwer.",
+            "answer": "falsch",
+            "audioStart": 1064,
+            "teilPart": 3
+          },
+          {
+            "id": "h18",
+            "type": "tf",
+            "num": 18,
+            "text": "Große Skischulen bieten den Skilehrern bessere Unterkünfte.",
+            "answer": "falsch",
+            "audioStart": 1064,
+            "teilPart": 3
+          },
+          {
+            "id": "h19",
+            "type": "tf",
+            "num": 19,
+            "text": "Laura unterrichtet nur Kinder.",
+            "answer": "falsch",
+            "audioStart": 1064,
+            "teilPart": 3
+          },
+          {
+            "id": "h20",
+            "type": "tf",
+            "num": 20,
+            "text": "Robin möchte lieber Erwachsenenkurse machen.",
+            "answer": "richtig",
+            "audioStart": 1064,
+            "teilPart": 3
+          },
+          {
+            "id": "h21",
+            "type": "tf",
+            "num": 21,
+            "text": "Laura verdient viel Geld als Skilehrerin.",
+            "answer": "falsch",
+            "audioStart": 1064,
+            "teilPart": 3
+          },
+          {
+            "id": "h22",
+            "type": "tf",
+            "num": 22,
+            "text": "Robin findet die Skilehrerprüfung teuer.",
+            "answer": "richtig",
+            "audioStart": 1064,
+            "teilPart": 3
+          },
+          {
+            "id": "h23",
+            "type": "speaker",
+            "num": 23,
+            "text": "Nur sehr wenige Studierende wollen ein Kind bekommen, solange sie studieren.",
+            "options": [
+              "Moderatorin",
+              "Karla",
+              "Walter"
+            ],
+            "answer": 1,
+            "audioStart": 1318,
+            "teilPart": 4
+          },
+          {
+            "id": "h24",
+            "type": "speaker",
+            "num": 24,
+            "text": "Je nach Studienrichtung ist es einfacher oder schwerer, ein Kind zu haben.",
+            "options": [
+              "Moderatorin",
+              "Karla",
+              "Walter"
+            ],
+            "answer": 2,
+            "audioStart": 1318,
+            "teilPart": 4
+          },
+          {
+            "id": "h25",
+            "type": "speaker",
+            "num": 25,
+            "text": "Die Unterstützung studierender Eltern durch den Staat reicht nicht aus.",
+            "options": [
+              "Moderatorin",
+              "Karla",
+              "Walter"
+            ],
+            "answer": 2,
+            "audioStart": 1318,
+            "teilPart": 4
+          },
+          {
+            "id": "h26",
+            "type": "speaker",
+            "num": 26,
+            "text": "Gewöhnliche Kitas helfen studierenden Eltern oft nicht.",
+            "options": [
+              "Moderatorin",
+              "Karla",
+              "Walter"
+            ],
+            "answer": 1,
+            "audioStart": 1318,
+            "teilPart": 4
+          },
+          {
+            "id": "h27",
+            "type": "speaker",
+            "num": 27,
+            "text": "Die Kitas der Universitäten haben zu wenig Plätze.",
+            "options": [
+              "Moderatorin",
+              "Karla",
+              "Walter"
+            ],
+            "answer": 0,
+            "audioStart": 1318,
+            "teilPart": 4
+          },
+          {
+            "id": "h28",
+            "type": "speaker",
+            "num": 28,
+            "text": "Es gibt europäische Länder, in denen es einfacher ist, als Student ein Kind zu haben.",
+            "options": [
+              "Moderatorin",
+              "Karla",
+              "Walter"
+            ],
+            "answer": 0,
+            "audioStart": 1318,
+            "teilPart": 4
+          },
+          {
+            "id": "h29",
+            "type": "speaker",
+            "num": 29,
+            "text": "Karla berät andere studierende Eltern.",
+            "options": [
+              "Moderatorin",
+              "Karla",
+              "Walter"
+            ],
+            "answer": 2,
+            "audioStart": 1318,
+            "teilPart": 4
+          },
+          {
+            "id": "h30",
+            "type": "speaker",
+            "num": 30,
+            "text": "Während des Studiums Kinder zu bekommen, kann für die spätere Karriere gut sein.",
+            "options": [
+              "Moderatorin",
+              "Karla",
+              "Walter"
+            ],
+            "answer": 1,
+            "audioStart": 1318,
+            "teilPart": 4
+          }
+        ]
+      }
+    ],
+    "explanations": {
+      "1": {
+        "text": "💡 Lösung: Richtig.\nIm Text steht ausdrücklich: „Für den Schein musste ich drei Tage lang bei einem Lehrgang das gesamte Regelwerk lernen. Dann kam die Prüfung und schon war ich Schiedsrichterin.“ Sie musste also zuerst eine Prüfung bestehen.",
+        "fr": "💡 Solution : Vrai (Richtig).\nLe texte indique explicitement : « Pour obtenir le diplôme, j'ai dû apprendre l'ensemble du règlement pendant un stage de trois jours. Ensuite a eu lieu l'examen et je suis devenue arbitre. » Elle a donc bien dû passer un examen au préalable.",
+        "ar": "💡 الحل: صحيح (Richtig).\nورد في النص بوضوح: «للحصول على الشهادة، كان عليّ تعلم القوانين كاملة خلال دورة تدريبية دامت ثلاثة أيام. ثم جاء الامتحان وأصبحت حَكَمة». وبالتالي كان عليها اجتياز اختبار أولاً."
+      },
+      "2": {
+        "text": "💡 Lösung: Falsch.\nSandra ist nicht die Schwester eines Spielers. Die Leute dachten das nur irrtümlich: „Wahrscheinlich dachten die Leute eher, ich sei die große Schwester eines Spielers.“",
+        "fr": "💡 Solution : Faux (Falsch).\nSandra n'est pas la sœur d'un joueur ; les spectateurs ont seulement supposé cela par erreur : « Les gens pensaient sans doute plutôt que j'étais la grande sœur d'un joueur. »",
+        "ar": "💡 الحل: خطأ (Falsch).\nساندرا ليست أخت أحد اللاعبين، بل ظن الناس ذلك خطأً فقط: «من المحتمل أن الناس اعتقدوا أنني الأخت الكبرى لأحد اللاعبين»."
+      },
+      "3": {
+        "text": "💡 Lösung: Falsch.\nNicht die Jungen kennen drei andere Schiedsrichterinnen, sondern Sandra selbst: „Ich kenne hier im Kreis aber bis jetzt auch nur drei andere Schiedsrichterinnen.“",
+        "fr": "💡 Solution : Faux (Falsch).\nCe ne sont pas les garçons qui connaissent trois autres arbitres féminines, mais Sandra elle-même : « Dans le district, je ne connais moi-même jusqu'à présent que trois autres arbitres féminines. »",
+        "ar": "💡 الحل: خطأ (Falsch).\nليس الفتيان هم من يعرفون ثلاث حَكَمات أخريات، بل ساندرا نفسها: «أنا شخصياً لا أعرف في هذه الدائرة حتى الآن سوى ثلاث حَكَمات أخريات»."
+      },
+      "4": {
+        "text": "💡 Lösung: Falsch.\nDie Aussage behauptet fälschlicherweise einen Kausalzusammenhang. Sandra hatte mit lautem Geschrei der Eltern gerechnet („Ich hatte eigentlich fest damit gerechnet, dass es da ganz schön laut werden würde – aber nichts“). Dass es ruhig blieb, lag nicht daran, dass Eltern zuschauten.",
+        "fr": "💡 Solution : Faux (Falsch).\nL'affirmation établit un lien de cause à effet inexistant. Sandra s'attendait à ce que les parents crient, mais tout est resté calme. Ce n'est pas la présence des parents qui a empêché les difficultés.",
+        "ar": "💡 الحل: خطأ (Falsch).\nالجملة تدعي سببية غير صحيحة. كانت ساندرا تتوقع صراخاً واعتراضات من أولياء الأمور لكن الجو ظل هادئاً، ولم يكن وجودهم سبباً في عدم حدوث مشكلات."
+      },
+      "5": {
+        "text": "💡 Lösung: Richtig.\nSandra weiß genau, wie sie sich Gehör verschafft: „Dort haben sie uns ganz oft gezeigt, wie wir kräftig in die Pfeife pusten müssen, damit wir die Spieler auf uns aufmerksam machen.“",
+        "fr": "💡 Solution : Vrai (Richtig).\nSandra sait précisément comment capter l'attention des joueurs : « Là-bas, ils nous ont souvent montré comment souffler vigoureusement dans le sifflet pour attirer l'attention des joueurs sur nous. »",
+        "ar": "💡 الحل: صحيح (Richtig).\nتعلمت ساندرا كيفية لفت انتباه اللاعبين: «أظهروا لنا هناك مراراً كيف يجب أن نطلق الصافرة بقوة حتى ينتبه إلينا اللاعبون»."
+      },
+      "6": {
+        "text": "💡 Lösung: Richtig.\nSandra zieht ein sehr positives Fazit: „Als ich gegangen bin, hat mich keiner mehr wegen Fehlentscheidungen oder meiner Leistung angesprochen. Eine schöne Premiere.“",
+        "fr": "💡 Solution : Vrai (Richtig).\nSandra tire un bilan très positif de son premier match : « Quand je suis partie, personne ne m'a fait de reproche sur mes décisions ou ma prestation. Une belle première. »",
+        "ar": "💡 الحل: صحيح (Richtig).\nساندرا راضية جداً عن أدائها الأول: «عندما غادرت، لم يوجه إليّ أحد أي لوم بخصوص قرارات خاطئة أو بخصوص أدائي. لقد كانت بداية رائعة»."
+      },
+      "7": {
+        "text": "💡 Lösung: b (eine Möglichkeit der Kinderbetreuung).\nDer Text stellt das Betreuungsmodell der Tandemfamilie vor: „Die Tandemfamilie ist ein Kinderbetreuungsmodell, das einst insbesondere in ländlichen Gegenden selbstverständlich war. Es bedeutet, dass benachbarte Familien gegenseitig auf die Kinder aufpassen.“",
+        "fr": "💡 Solution : b (une possibilité de garde d'enfants).\nL'article présente le modèle de garde partagée entre familles : « La famille tandem est un modèle de garde d'enfants... Cela signifie que des familles voisines gardent mutuellement leurs enfants. »",
+        "ar": "💡 الحل: b (إحدى طرق رعاية الأطفال).\nيقدم المقال نموذج رعاية الأطفال المشتركة بين العائلات: «العائلة التبادلية (التاندوم) هي نموذج لرعاية الأطفال... يعتمد على تبادل رعاية الأطفال بين العائلات المتجاورة»."
+      },
+      "8": {
+        "text": "💡 Lösung: a (wohnen Familien oft nicht in der Nähe der Großeltern).\nIm Text wird erläutert: „Oft wohnen die Grosseltern und andere Verwandte zu weit weg, um auf die Kinder aufzupassen.“",
+        "fr": "💡 Solution : a (les familles n'habitent souvent pas près des grands-parents).\nLe texte précise : « Souvent, les grands-parents et les autres proches habitent trop loin pour garder les enfants. »",
+        "ar": "💡 الحل: a (غالباً لا تعيش العائلات بالقرب من الأجداد).\nيوضح النص: «غالباً ما يسكن الأجداد والأقارب في أماكن بعيدة جداً تحول دون قدرتهم على رعاية الأطفال»."
+      },
+      "9": {
+        "text": "💡 Lösung: c (nicht umsonst).\nIm Text heißt es über Kindergarten- und Hortplätze: „Kindergarten- oder Hortplätze als Alternative sind selten, kosten Geld und haben oft zu kurze Öffnungszeiten.“ Sie sind also kostenpflichtig („nicht umsonst“).",
+        "fr": "💡 Solution : c (pas gratuit).\nLe texte indique à propos des places en crèche et garderie : « Les places en jardin d'enfants ou en garderie sont rares, coûtent de l'argent et ont souvent des horaires trop restreints. » Elles sont donc payantes (« nicht umsonst »).",
+        "ar": "💡 الحل: c (ليس مجانياً).\nيذكر النص عن روضات الأطفال ومراكز الرعاية: «أماكن رياض الأطفال ومراكز الرعاية نادرة، وتكلف مالاً (ليست مجانية)، وغالباً ما تكون ساعات عملها قصيرة جداً»."
+      },
+      "10": {
+        "text": "💡 Lösung: a (dass Spiele schon sehr lange existieren).\nDer Kern des Textes lautet: „Spielen gehört zum Menschen dazu, seit es Menschen gibt... Das zeigt uns eindeutig: Unsere Spiele sind oft schon sehr alt. Sie haben sich über Jahrtausende zu dem entwickelt, was wir heute noch spielen.“",
+        "fr": "💡 Solution : a (que les jeux existent depuis très longtemps).\nLe thème principal est l'ancienneté du jeu chez l'être humain : « Le jeu fait partie de l'homme depuis que l'homme existe... Cela nous montre clairement : nos jeux sont souvent déjà très anciens. »",
+        "ar": "💡 الحل: a (أن الألعاب موجودة منذ زمن طويل جداً).\nيدور النص حول قدم الألعاب في تاريخ البشرية: «اللعب جزء ملازم للإنسان منذ نشأته... وهذا يوضح لنا بوضوح أن ألعابنا قديمة جداً وتطورت عبر آلاف السنين»."
+      },
+      "11": {
+        "text": "💡 Lösung: a (um sich auf das Leben vorzubereiten).\nDer Text stellt fest: „Tiere spielen, um sich auf den Ernstfall vorzubereiten: Kämpfen oder Jagen zum Beispiel. Auch Kinder spielen, um sich auf ihr späteres Leben vorzubereiten.“",
+        "fr": "💡 Solution : a (pour se préparer à la vie future / aux exigences de la vie).\nLe texte affirme : « Les animaux jouent pour se préparer aux situations d'urgence : se battre ou chasser par exemple. De même, les enfants jouent pour se préparer à leur vie future. »",
+        "ar": "💡 الحل: a (للاستعداد لمتطلبات الحياة الواقعية).\nيؤكد النص: «تلعب الحيوانات للاستعداد لمواقف الحياة الجدية، كالقتال أو الصيد مثلاً. كما يلعب الأطفال للاستعداد لحياتهم المستقبلية»."
+      },
+      "12": {
+        "text": "💡 Lösung: b (zeigen, dass früher gespielt wurde).\nIm Text heißt es: „Bilder auf antiken Vasen beweisen: Mit Jo-Jos haben vor 2500 Jahren schon die alten Griechen gespielt.“",
+        "fr": "💡 Solution : b (montrent que l'on jouait déjà autrefois).\nLe texte précise : « Les peintures sur les vases antiques le prouvent : il y a 2500 ans déjà, les Grecs anciens jouaient avec des yoyos. »",
+        "ar": "💡 الحل: b (توضح أن الناس كانوا يلعبون في العصور القديمة).\nورد في النص: «تثبت الرسوم الموجودة على المزهريات القديمة أن الإغريق القدماء كانوا يلعبون باليويو قبل 2500 عام»."
+      },
+      "13": {
+        "text": "💡 Lösung: e (Gemeinsam musizieren).\nNiklas spielt klassische Gitarre und möchte mit anderen zusammen musizieren. Anzeige e passt perfekt: Eine Flötistin sucht Begleitung durch klassische Gitarre, Fagott, Streicher oder Klavier für Kammermusik.",
+        "fr": "💡 Solution : e (Jouer de la musique ensemble).\nNiklas joue de la guitare classique et souhaite faire de la musique à plusieurs. L'annonce e correspond exactement : une flûtiste cherche un accompagnement (guitare classique, basson, etc.) pour faire de la musique de chambre.",
+        "ar": "💡 الحل: e (العزف الموسيقي المشترك).\nنيكلاس يعزف على الغيتار الكلاسيكي منذ 4 سنوات ويريد العزف مع آخرين. الإعلان e يطابق طلبه تماماً: عازفة فلوت تبحث عن مرافقة غيتار كلاسيكي أو بيانو للموسيقى الكلاسيكية المشتركة."
+      },
+      "14": {
+        "text": "💡 Lösung: i (Freude am Musizieren!).\nEla möchte ihre Klavierkenntnisse auffrischen und gleichzeitig Gesang üben. Anzeige i bietet kombinierten Klavier- und Gesangsunterricht bei einem Konzertmusiker/Gesangspädagogen für Wiedereinsteiger.",
+        "fr": "💡 Solution : i (Le plaisir de faire de la musique !).\nEla veut rafraîchir son piano et travailler le chant simultanément. L'annonce i propose des cours combinés de piano et de chant par un pianiste/pédagogue pour adultes et personnes reprenant la pratique.",
+        "ar": "💡 الحل: i (متعة العزف الموسيقي!).\nإيلا تريد تنشيط مهاراتها في البيانو وممارسة الغناء في نفس الوقت. الإعلان i يقدم دروساً تجمع بين البيانو والغناء للمبتدئين والراغبين في استئناف العزف والغناء."
+      },
+      "15": {
+        "text": "💡 Lösung: d (Bach-Chor).\nSusanne singt im Schulchor und träumt von internationalen Chorreisen. Anzeige d sucht neue Chorsänger für den Bach-Chor und bietet regelmäßige Konzerte und weltweite Konzertreisen im In- und Ausland.",
+        "fr": "💡 Solution : d (Chœur Bach).\nSusanne chante en chorale et rêve de voyager dans le monde entier en chantant. L'annonce d recrute de nouveaux membres pour le chœur Bach et inclut des tournées de concerts en Allemagne et à l'étranger.",
+        "ar": "💡 الحل: d (جوقة باخ).\nسوزان تتلقى دروس غناء وتغني في جوقة مدرسية وتحلم بالسفر حول العالم كمغنية كورال. الإعلان d يبحث عن أعضاء جدد لجوقة باخ ويشمل جولات وحفلات غنائية داخل البلاد وخارجها."
+      },
+      "16": {
+        "text": "💡 Lösung: h (Gitarren- & Bassunterricht in Mainz).\nAlex muss für die Schülerband schnell Bassgitarre lernen. Anzeige h bietet modernen Unterricht für Bass-Gitarre mit Erfolgsgarantie schon nach kurzer Zeit.",
+        "fr": "💡 Solution : h (Cours de guitare et basse à Mayence).\nAlex doit apprendre la guitare basse rapidement pour rejoindre le groupe de son école. L'annonce h propose des cours de basse selon une méthode efficace avec des résultats probants après peu de temps.",
+        "ar": "💡 الحل: h (دروس غيتار وباس في ماينتس).\nأليكس يحتاج لتعلم عزف غيتار الباس بسرعة للانضمام لفرقة المدرسة. الإعلان h يقدم تعليماً متخصصاً لغيتار الباس بطريقة ناجحة تضمن إحراز تقدم وعزف سريع في وقت قصير."
+      },
+      "17": {
+        "text": "💡 Lösung: j (Musikschule Allegro Münster).\nIra sucht Klavierunterricht für sich und ihre 6-jährige Tochter mit kurzen Einheiten (30 Minuten). Anzeige j bietet Klavierunterricht mit flexibler Unterrichtsdauer ab 30 Minuten und Beratung für Eltern und Kind.",
+        "fr": "💡 Solution : j (École de musique Allegro à Münster).\nIra cherche des cours de piano avec sa fille de 6 ans, avec des séances courtes pour ne pas fatiguer l'enfant. L'école Allegro (j) propose des leçons de 30 minutes et des conseils personnalisés pour l'enfant et le parent.",
+        "ar": "💡 الحل: j (مدرسة أليغرو الموسيقية في مونستر).\nإيرا تريد تعلم البيانو مع طفلتها ذات الـ 6 سنوات، وتشترط ألا تطول الحصة. الإعلان j يتيح حصص بيانو بمدد مرنة تبدأ من 30 دقيقة مع استشارات ملائمة للأطفال."
+      },
+      "18": {
+        "text": "💡 Lösung: f (Gitarrenunterricht in Brühl).\nMarei möchte E-Gitarre lernen, und ihre Mutter besteht auf Musiktheorie. Anzeige f unterrichtet E-Gitarre und vermittelt ausdrücklich Noten- und Harmonielehre sowie fundierte Musiktheorie.",
+        "fr": "💡 Solution : f (Cours de guitare à Brühl).\nMarei veut apprendre la guitare électrique et sa mère exige l'apprentissage du solfège. L'annonce f propose des cours de guitare électrique incluant expressément l'harmonie et la théorie musicale.",
+        "ar": "💡 الحل: f (دروس غيتار في برول).\nماري ترغب بتعلم الغيتار الكهربائي وتشترط والدتها تعلم النظريات الموسيقية. الإعلان f يقدم تدريباً على الغيتار الكهربائي يشمل قراءة النوتة ونظرية الموسيقى والتناغم الصوتي."
+      },
+      "19": {
+        "text": "💡 Lösung: 0 (Keine passende Anzeige).\nLeo spielt E-Gitarre und möchte einer Rockband beitreten und bei Konzerten auftreten. Es gibt keine Kleinanzeige einer Band, die einen Gitarristen sucht (Anzeige g ist nur ein Konzert zum Zuschauen, h und f sind Unterrichtsangebote).",
+        "fr": "💡 Solution : 0 (Aucune annonce correspondante).\nLeo joue de la guitare électrique et souhaite intégrer un groupe de rock pour faire des concerts. Aucune annonce ne propose de recrutement de musicien pour un groupe (l'annonce g est un concert en tant que spectateur, f et h sont des cours).",
+        "ar": "💡 الحل: 0 (لا يوجد إعلان مناسب).\nليو يعزف الغيتار الكهربائي ويبحث عن فرقة روك ينضم إليها ويعزف في حفلات. لا يوجد إعلان لفرقة تطلب عازف غيتار (الإعلان g مجرد حضور مهرجان، و h و f عروض لدروس خاصة)."
+      },
+      "20": {
+        "text": "💡 Lösung: Nein.\nDörthe ist gegen das Leben auf dem Land: „Trotz aller Pluspunkte kann mich das Land als Wohnort nicht überzeugen.“",
+        "fr": "💡 Solution : Non (Nein).\nDörthe est opposée à l'installation à la campagne : « Malgré tous les points positifs, la campagne ne me convainc pas comme lieu de résidence. »",
+        "ar": "💡 الحل: لا (Nein).\nدورتي ضد الانتقال للريف: «على الرغم من كل المزايا، لا يمكن للريف أن يقنعني كمكان للعيش»."
+      },
+      "21": {
+        "text": "💡 Lösung: Ja.\nAlexander ist begeistert vom Landleben: „Es gibt keinen Lärm, kaum Verbrechen, keine Staus … Ja, ich stelle mir das paradiesisch vor. Ich würde es sofort tun.“",
+        "fr": "💡 Solution : Oui (Ja).\nAlexander est très enthousiaste : « Pas de bruit, presque pas de criminalité, pas d'embouteillages... C'est paradisiaque. Je le ferais immédiatement. »",
+        "ar": "💡 الحل: نعم (Ja).\nألكسندر يؤيد العيش في الريف بحماس: «لا ضوضاء، شبه منعدمة الجريمة، لا اختناقات مرورية... أتصور العيش هناك كالفردوس، سأفعل ذلك فوراً»."
+      },
+      "22": {
+        "text": "💡 Lösung: Ja.\nNorbert sieht nach anfänglichem Zögern mehr Vorteile im Landleben: „Ja, das könnte sich lohnen, zumal man dort auch gesund lebt. Die Argumente dafür haben mehr Gewicht.“",
+        "fr": "💡 Solution : Oui (Ja).\nNorbert estime que les avantages l'emportent : « Oui, cela pourrait en valoir la peine, d'autant qu'on y vit sainement. Les arguments en faveur du village ont plus de poids. »",
+        "ar": "💡 الحل: نعم (Ja).\nنوربرت يرى أن إيجابيات الريف تفوق سلبياته: «نعم، قد يستحق الأمر العناء، خاصة وأن المرء يعيش هناك بصحة أفضل. الحجج المؤيدة لها وزن أكبر»."
+      },
+      "23": {
+        "text": "💡 Lösung: Nein.\nJulius möchte wegen der Schulen und des Alltags der Kinder in der Stadt bleiben: „Unser Alltag würde komplizierter werden. Ich denke, das kommt im Moment nicht in Frage.“",
+        "fr": "💡 Solution : Non (Nein).\nJulius préfère la ville en raison de la scolarité de ses enfants : « Notre quotidien deviendrait plus compliqué. Je pense que c'est hors de question pour le moment. »",
+        "ar": "💡 الحل: لا (Nein).\nيوليوس يفضل البقاء في المدينة لسهولة ذهاب أطفاله إلى مدارسهم سيراً على الأقدام: «ستصبح حياتنا اليومية أكثر تعقيداً. لا أعتقد أن هذا وارد حالياً»."
+      },
+      "24": {
+        "text": "💡 Lösung: Nein.\nLaura findet das Landleben langweilig und unerträglich: „Also, das ruhige Landleben finde ich unerträglich... ich halte es für einen Fehler wegzuziehen. Das würde ich niemandem raten.“",
+        "fr": "💡 Solution : Non (Nein).\nLaura juge la campagne insupportable et monotone : « La vie calme à la campagne est insupportable... Je considère que c'est une erreur de partir. Je ne le conseillerais à personne. »",
+        "ar": "💡 الحل: لا (Nein).\nلاورا ترى حياة الريف الهادئة لا تُطاق ومملة: «أعتبر الانتقال من المدينة خطأ فادحاً، ولا أنصح أحداً بذلك أبداً»."
+      },
+      "25": {
+        "text": "💡 Lösung: Nein.\nYvette braucht das lebendige Stadtleben: „Letztendlich sehe ich meine Zukunft aber eher in einer städtischen Gegend. Ich brauche eine gewisse Lebendigkeit um mich herum...“",
+        "fr": "💡 Solution : Non (Nein).\nYvette préfère la ville pour son animation : « En fin de compte, je vois plutôt mon avenir dans une zone urbaine. J'ai besoin d'une certaine effervescence autour de moi... »",
+        "ar": "💡 الحل: لا (Nein).\nإيفيت ترى مستقبلها في المدينة: «في نهاية المطاف، أرى مستقبلي في بيئة حضرية بالمدينة، إذ أحتاج إلى حيوية ونشاط من حولي»."
+      },
+      "26": {
+        "text": "💡 Lösung: Ja.\nNicola stimmt dem Trend voll zu und sucht nach einer bezahlbaren Wohnung im Grünen: „Sollte ich so etwas mal finden, würde ich sofort meine Sachen packen, ist doch klar.“",
+        "fr": "💡 Solution : Oui (Ja).\nNicola est tout à fait favorable à la vie au vert : « Si je trouvais un logement abordable dans la nature, je ferais mes valises immédiatement, c'est évident. »",
+        "ar": "💡 الحل: نعم (Ja).\nنيكولا تؤيد الانتقال للريف تماماً: «إذا وجدت سكناً مناسباً بسعر معقول في الطبيعة، فسأحزم حقائبي على الفور دون تردد»."
+      },
+      "27": {
+        "text": "💡 Lösung: c (kann man fahren, sooft man will).\nIm Text steht ausdrücklich: „Damit können Sie, beliebig oft, ein Citybike entlehnen.“ Beliebig oft bedeutet sooft man will.",
+        "fr": "💡 Solution : c (on peut l'utiliser aussi souvent qu'on veut).\nLa brochure indique : « Vous pouvez emprunter un Citybike aussi souvent que vous le souhaitez (beliebig oft). »",
+        "ar": "💡 الحل: c (يمكن ركوبه واستئجاره كلما أراد المرء دون حد).\nيذكر النص بوضوح: «بواسطة البطاقة يمكنك استئجار دراجة سيتي بايك أي عدد تريده من المرات (beliebig oft)»."
+      },
+      "28": {
+        "text": "💡 Lösung: b (brauchen für die Citybike-Card eine Bankomatkarte).\nLaut offiziellem Lösungsschlüssel ist b korrekt. Der Text unterscheidet zwischen der offiziellen Citybike-Card (erfordert Bankeinzug von einem österreichischen Konto/Bankomatkarte) und der Freischaltung regulärer internationaler Kreditkarten.",
+        "fr": "💡 Solution : b (ont besoin d'une carte bancaire Bankomat pour la Citybike-Card).\nSelon le corrigé officiel, l'option b est retenue. La brochure précise les modalités liées aux cartes autrichiennes et aux cartes d'accès au système.",
+        "ar": "💡 الحل: b (يحتاجون إلى بطاقة بنكية مصرفية للحصول على بطاقة سيتي بايك).\nوفقاً لمفتاح التصحيح الرسمي لدار النشر هوبر، الخيار b هو المعتمد لاشتراطات البطاقة والارتباط بالحسابات البنكية."
+      },
+      "29": {
+        "text": "💡 Lösung: a (kann man sich auch an einem Terminal anmelden).\nIm Text steht: „Sie können die Anmeldung auch an jedem Citybike-Terminal vornehmen.“",
+        "fr": "💡 Solution : a (on peut aussi s'inscrire directement à une borne / un terminal).\nLe texte mentionne : « Vous pouvez également effectuer votre inscription à n'importe quelle borne Citybike (Terminal). »",
+        "ar": "💡 الحل: a (يمكن التسجيل أيضاً مباشرة عند المحطة الطرفية التابعة للدراجات).\nيصرح النص: «يمكنك أيضاً إجراء التسجيل عند أي جهاز محطة طرفية (Terminal) خاصة بسيتي بايك»."
+      },
+      "30": {
+        "text": "💡 Lösung: c (können an mehr als 80 Bikestationen abgeholt und abgegeben werden).\nIm Text heißt es: „Die Räder können an über 120 Bikestationen in ganz Wien entlehnt werden. Die Rückgabe ist an jeder beliebigen Station möglich...“ Da 120 mehr als 80 ist, trifft Aussage c genau zu.",
+        "fr": "💡 Solution : c (peuvent être prises et rendues dans plus de 80 stations).\nLe texte précise : « Les vélos peuvent être empruntés dans plus de 120 stations dans tout Vienne. Le retour est possible à n'importe quelle station. » 120 étant supérieur à 80, l'affirmation c est exacte.",
+        "ar": "💡 الحل: c (يمكن أخذها وإعادتها في أكثر من 80 محطة دراجات).\nيوضح النص: «يمكن استئجار الدراجات من أكثر من 120 محطة في أرجاء فيينا، والإعادة متاحة في أي محطة ترغب بها». وبما أن 120 أكثر من 80، فالخيار c صحيح تماماً."
+      },
+      "h1": {
+        "text": "💡 Lösung: Falsch.\nEs wird kein Ausflug in einen herkömmlichen Zoo angeboten, sondern ein Besuch im weltgrößten Vogel- und Gartenpark: „Der Weltvogelpark Walsrode... begeistert Tierliebhaber und Gartenfreunde. Wir können Ihnen einen Ausflug dorthin besonders empfehlen...“",
+        "fr": "💡 Solution : Faux (Falsch).\nIl ne s'agit pas d'un zoo classique généraliste, mais du parc ornithologique de Walsrode (Weltvogelpark Walsrode), réputé pour ses oiseaux et ses jardins fleuris.",
+        "ar": "💡 الحل: خطأ (Falsch).\nالعرض لا يخص حديقة حيوان عادية بل حديقة الطيور العالمية في فالسروده (Weltvogelpark Walsrode) المتخصصة في الطيور والزهور."
+      },
+      "h2": {
+        "text": "💡 Lösung: a (Vögel).\nIn Walsrode dreht sich alles um die Vogelwelt: „viele neue Vogelarten, eine erweiterte Flugshow... Weltvogelpark Walsrode“.",
+        "fr": "💡 Solution : a (Des oiseaux / Vögel).\nIl s'agit du Weltvogelpark, célèbre pour sa grande diversité d'espèces d'oiseaux et ses spectacles de vol en plein air.",
+        "ar": "💡 الحل: a (طيور).\nيتميز منتزه فالسروده باحتوائه على العديد من فصائل الطيور وعروض الطيران للطيور."
+      },
+      "h3": {
+        "text": "💡 Lösung: Richtig.\nDie Radiomoderatorin fordert die Zuhörer auf: „Melden Sie sich in unserem Kochstudio.“ Es handelt sich somit um eine Nachricht/Aktion aus dem Kochstudio.",
+        "fr": "💡 Solution : Vrai (Richtig).\nL'animatrice radio invite les auditeurs : « Contactez notre atelier de cuisine (Kochstudio). » Il s'agit donc bien d'un message émanant d'un studio de cuisine.",
+        "ar": "💡 الحل: صحيح (Richtig).\nتطلب المذيعة من المستمعين التواصل مع استوديو الطبخ التابع للإذاعة: «تواصلوا معنا في استوديو الطبخ الخاص بنا»."
+      },
+      "h4": {
+        "text": "💡 Lösung: b (Ein Familienrezept).\nGesucht werden persönliche Rezepte der Zuhörer: „Haben Sie ein besonderes Familienrezept, das von Generation zu Generation in Ihrer Familie weitergegeben wird? ... Wir sind neugierig auf Ihre Tipps und Tricks... Als kleines Dankeschön erhalten Sie von uns ein Kochbuch.“",
+        "fr": "💡 Solution : b (Une recette familiale / Ein Familienrezept).\nL'émission recherche des recettes de famille transmises de génération en génération. En contrepartie, les participants reçoivent un livre de cuisine en cadeau.",
+        "ar": "💡 الحل: b (وصفة عائلية خاصة).\nتبحث الإذاعة عن وصفات عائلية متوارثة عبر الأجيال يرسلها المستمعون، والمكافأة هي الحصول على كتاب طبخ هدية."
+      },
+      "h5": {
+        "text": "💡 Lösung: Falsch.\nDie Sendung richtet sich nicht an Touristen, sondern an Weiterbildungsinteressierte: „Sie hören wie an jedem Letzten des Monats Nachrichten und Werbung vom Bildungsmarkt. Die EAM School of International Business bietet...“",
+        "fr": "💡 Solution : Faux (Falsch).\nL'émission ne donne pas de conseils touristiques, mais informe sur les formations professionnelles et les études en commerce international (Bildungsmarkt).",
+        "ar": "💡 الحل: خطأ (Falsch).\nالبرنامج لا يقدم نصائح للسياح، بل يقدم أخباراً وإعلانات عن سوق التعليم العالي وبرامج إدارة الأعمال والسياحة."
+      },
+      "h6": {
+        "text": "💡 Lösung: a (in zehn Monaten).\nIm Radiobeitrag heißt es: „Die Ausbildung zum Assistenten im International Business dauert zehn Monate.“",
+        "fr": "💡 Solution : a (en dix mois / in zehn Monaten).\nLe message précise que la formation d'assistant en commerce international dure exactement 10 mois.",
+        "ar": "💡 الحل: a (في عشرة أشهر).\nأوضح الإعلان أن فترة التأهيل للحصول على دبلوم مساعد في إدارة الأعمال الدولية تستغرق عشرة أشهر."
+      },
+      "h7": {
+        "text": "💡 Lösung: Richtig.\nThomas spricht auf den Anrufbeantworter: „Mein lieber Luigi! Hier Thomas. Leider kann ich dich nicht wie verabredet zur Stadtrundfahrt um 11.30 Uhr vom Hotel abholen. Wir treffen uns direkt an der Abfahrtsstelle...“ Sie waren also verabredet.",
+        "fr": "💡 Solution : Vrai (Richtig).\nThomas laisse un message à Luigi expliquant qu'il ne peut pas le chercher à l'hôtel comme convenu : « ...nicht wie verabredet... » Ils avaient donc bien un rendez-vous fixé.",
+        "ar": "💡 الحل: صحيح (Richtig).\nتوماس يخبر لويجي في الرسالة الصوتية أنه لا يستطيع المرور عليه في الفندق كما كان متفقاً عليه في موعدهما، ويطلب منه اللقاء عند نقطة الانطلاق."
+      },
+      "h8": {
+        "text": "💡 Lösung: b (20 Minuten).\nThomas erklärt den Weg: „Geh einfach zu Fuß über den Kurfürstendamm. Da brauchst du vom Hotel höchstens zwanzig Minuten zu Fuß.“",
+        "fr": "💡 Solution : b (20 minutes).\nThomas indique que le trajet à pied de l'hôtel à l'église du Souvenir (Gedächtniskirche) prend au maximum 20 minutes.",
+        "ar": "💡 الحل: b (20 دقيقة).\nأوضح توماس أن المشي من الفندق إلى كنيسة الذكرى يستغرق على الأكثر عشرين دقيقة."
+      },
+      "h9": {
+        "text": "💡 Lösung: Falsch.\nEs handelt sich um eine Abfahrtsdurchsage: „Schnellzug I 459 ... mit der Planabfahrt um 22.05 Uhr fährt ab.“ Der Zug fährt ab, er kommt nicht an.",
+        "fr": "💡 Solution : Faux (Falsch).\nIl s'agit d'un train au départ et non à l'arrivée : le train rapide avec départ prévu à 22h05 s'apprête à partir (« fährt ab »).",
+        "ar": "💡 الحل: خطأ (Falsch).\nهذا الإعلان في محطة القطار يخص قطاراً يستعد للمغادرة والإنطلاق (fährt ab) وليس قطاراً قادماً وواصلاً."
+      },
+      "h10": {
+        "text": "💡 Lösung: c (Im Zug hinten).\nDie Durchsage informiert: „Die Schlafwagen befinden sich im hinteren Zugteil.“",
+        "fr": "💡 Solution : c (À l'arrière du train / Im Zug hinten).\nL'annonce indique clairement que les voitures-lits (Schlafwagen) se trouvent dans la partie arrière du train.",
+        "ar": "💡 الحل: c (في الجزء الخلفي من القطار).\nأفاد الإعلان الصوتي بأن عربات النوم تقع في الجزء الخلفي من القطار."
+      },
+      "h11": {
+        "text": "💡 Lösung: a (Über 100).\nDer Führer berichtet über Olympia 1972: „Damals nahmen Sportlerinnen und Sportler aus 121 Ländern an den Wettkämpfen teil.“ 121 Mannschaften sind über 100.",
+        "fr": "💡 Solution : a (Plus de 100 / Über 100).\nLe guide explique que 121 nations ont participé aux Jeux olympiques d'été de 1972, ce qui fait plus de 100 équipes.",
+        "ar": "💡 الحل: a (أكثر من 100 فريق).\nأوضح المرشد أن 121 دولة شاركت في أولمبياد ميونخ 1972، وهو ما يزيد عن 100 فريق."
+      },
+      "h12": {
+        "text": "💡 Lösung: a (Fußballspiele).\nDer Sprecher erklärt: „Seit dem Umzug der Vereine FC Bayern und TSV 1860 in die Allianz Arena im Jahr 2005 finden im Olympiastadion keine Fußballspiele mehr statt.“",
+        "fr": "💡 Solution : a (Les matchs de football / Fußballspiele).\nLe guide indique que depuis l'ouverture de l'Allianz Arena en 2005, plus aucun match de football n'est disputé au stade olympique.",
+        "ar": "💡 الحل: a (مباريات كرة القدم).\nأكد المرشد أنه منذ عام 2005 وانتقال الأندية إلى أليانز أرينا، لم تعد تقام أي مباريات كرة قدم في الاستاد الأولمبي."
+      },
+      "h13": {
+        "text": "💡 Lösung: c (zwei Stunden).\nDer Führer nennt die genaue Dauer: „Die Expedition auf das Zeltdach dauert insgesamt rund zwei Stunden.“",
+        "fr": "💡 Solution : c (Deux heures / zwei Stunden).\nLa visite guidée sur le toit en forme de tente dure au total environ deux heures.",
+        "ar": "💡 الحل: c (ساعتان).\nأوضح المرشد أن الجولة الاستكشافية على السقف الخيمي تستغرق بالمجمل قرابة ساعتين."
+      },
+      "h14": {
+        "text": "💡 Lösung: c (Sehr günstig).\nDer Führer freut sich über die Wetterbedingungen: „Heute haben wir Glück, das Wetter ist optimal – trocken, sonnig und windstill, also sehr günstig für unsere Klettertour.“",
+        "fr": "💡 Solution : c (Très favorable / Sehr günstig).\nLe guide souligne que la météo est idéale et très favorable aujourd'hui pour monter sur le toit (temps sec et sans vent).",
+        "ar": "💡 الحل: c (مناسب ومثالي جداً).\nأشار المرشد إلى أن الطقس اليوم ممتاز ومشمس ومناسب جداً للقيام بالجولة على السقف."
+      },
+      "h15": {
+        "text": "💡 Lösung: b (In einem Self-Service).\nDer Führer empfiehlt: „Ich empfehle Ihnen, in den Self-Service „Olympiasee“ zu gehen. Das Restaurant Coubertin öffnet erst ab 18 Uhr und der Biergarten wird gerade umgebaut.“",
+        "fr": "💡 Solution : b (Dans un restaurant en libre-service / In einem Self-Service).\nLe guide recommande le libre-service « Olympiasee », car le restaurant gastronomique n'ouvre qu'en soirée et la brasserie en plein air est en travaux.",
+        "ar": "💡 الحل: b (في مطعم الخدمة الذاتية / Self-Service).\nنصح المرشد بالذهاب إلى مطعم الخدمة الذاتية «أولمبيازيه»، نظراً لأن المطعم الفاخر لا يفتح إلا مساءً وحديقة المشروبات مغلقة للصيانة."
+      },
+      "h16": {
+        "text": "💡 Lösung: Richtig.\nRobin bestätigt: „In Österreich war ich schon oft beim Skifahren, die Pisten dort kenne ich wirklich gut.“",
+        "fr": "💡 Solution : Vrai (Richtig).\nRobin confirme qu'il est déjà allé skier de nombreuses fois en Autriche et qu'il connaît bien les pistes.",
+        "ar": "💡 الحل: صحيح (Richtig).\nأكد روبن أنه ذهب للتزلج في النمسا عدة مرات ويعرف منحدرات التزلج هناك جيداً."
+      },
+      "h17": {
+        "text": "💡 Lösung: Falsch.\nLaura stellt klar, dass die Prüfung nicht sehr schwer ist: „Die praktische und theoretische Skilehrerprüfung selbst ist eigentlich gar nicht so schwer, wenn man gut Ski fährt.“",
+        "fr": "💡 Solution : Faux (Falsch).\nLaura précise que l'examen de moniteur n'est pas particulièrement difficile pour quelqu'un qui sait déjà bien skier.",
+        "ar": "💡 الحل: خطأ (Falsch).\nأوضحت لاورا أن امتحان مدربي التزلج ليس صعباً جداً لمن يجيد التزلج بالفعل."
+      },
+      "h18": {
+        "text": "💡 Lösung: Falsch.\nLaura verneint das: „Bei den Unterkünften für die Skilehrer gibt es kaum Unterschiede zwischen kleinen und großen Skischulen. Meistens teilt man sich einfache Zimmer.“",
+        "fr": "💡 Solution : Faux (Falsch).\nLaura réfute cette idée : les grandes écoles de ski n'offrent pas de meilleurs logements, ce sont généralement de modestes chambres partagées.",
+        "ar": "💡 الحل: خطأ (Falsch).\nنفت لاورا ذلك، موضحة أن سكن المدربين متقارب وبسيط في كل من مدارس التزلج الكبيرة والصغيرة."
+      },
+      "h19": {
+        "text": "💡 Lösung: Falsch.\nLaura unterrichtet nicht nur Kinder: „Ich unterrichte sowohl Kinder als auch Anfängergruppen von Erwachsenen.“",
+        "fr": "💡 Solution : Faux (Falsch).\nLaura n'enseigne pas seulement aux enfants ; elle donne également des cours aux groupes d'adultes débutants.",
+        "ar": "💡 الحل: خطأ (Falsch).\nلاورا لا تدرب الأطفال فقط، بل تعطي دروساً للمبتدئين من الكبار أيضاً."
+      },
+      "h20": {
+        "text": "💡 Lösung: Richtig.\nRobin sagt ausdrücklich: „Ich würde sowieso viel lieber mit Erwachsenen arbeiten und Fortgeschrittenenkurse leiten.“",
+        "fr": "💡 Solution : Vrai (Richtig).\nRobin déclare expressément qu'il préférerait encadrer des adultes plutôt que des enfants.",
+        "ar": "💡 الحل: صحيح (Richtig).\nأكد روبن أنه يفضل كثيراً تدريب الكبار وتولي دورات المتقدمين."
+      },
+      "h21": {
+        "text": "💡 Lösung: Falsch.\nLaura widerspricht dem Eindruck, man verdiene viel: „Reich wird man davon ganz sicher nicht. Nach Abzug von Kost und Logis bleibt nicht viel übrig.“",
+        "fr": "💡 Solution : Faux (Falsch).\nLaura explique que ce travail ne rend pas riche du tout et qu'il reste peu d'argent après avoir payé le logement et les repas.",
+        "ar": "💡 الحل: خطأ (Falsch).\nأوضحت لاورا أن مهنة مدرب التزلج لا تدر أموالاً طائلة ولا تكاد تكفي بعد خصم نفقات المعيشة."
+      },
+      "h22": {
+        "text": "💡 Lösung: Richtig.\nAls Laura den Preis der Ausbildung nennt, reagiert Robin: „1 500 Euro? Das ist aber 'ne ganze Menge Geld! Das finde ich schon ziemlich teuer.“",
+        "fr": "💡 Solution : Vrai (Richtig).\nEn apprenant que la formation coûte 1500 euros, Robin s'exclame que c'est une somme considérable et qu'il trouve cela très cher.",
+        "ar": "💡 الحل: صحيح (Richtig).\nعندما سمع روبن أن تكلفة الدورة والامتحان تبلغ 1500 يورو، اعتبر ذلك مبلغاً كبيراً ومكلفاً جداً."
+      },
+      "h23": {
+        "text": "💡 Lösung: Karla (b).\nKarla erläutert: „Kaum jemand plant das während des Studiums. Fast alle Studierenden, die ich kenne, wollen eigentlich erst nach dem Abschluss Kinder bekommen.“",
+        "fr": "💡 Solution : Karla (b).\nKarla souligne que très peu d'étudiants planifient d'avoir un enfant pendant leurs études, préférant attendre la fin de leur cursus.",
+        "ar": "💡 الحل: كارلا (b).\nأكدت كارلا أن قلة نادرة من الطلاب يخططون لإنجاب أطفال أثناء فترة الدراسة، بل يفضل الغالبية الانتظار حتى التخرج."
+      },
+      "h24": {
+        "text": "💡 Lösung: Walter (c).\nWalter erklärt aus eigener Erfahrung: „Es macht einen riesigen Unterschied, was man studiert. In Fächern mit vielen Pflichtpraktika und Laborterminen ist es extrem hart, in manchen geisteswissenschaftlichen Studiengängen flexibler.“",
+        "fr": "💡 Solution : Walter (c).\nWalter explique que la difficulté dépend fortement de la filière d'études (laboratoires obligatoires vs filières plus flexibles).",
+        "ar": "💡 الحل: فالتر (c).\nأوضح فالتر أن التوفيق بين الدراسة والطفل يعتمد على التخصص، فالتخصصات التي تتطلب حضوراً معملياً شاقة جداً مقارنة بالعلوم الإنسانية."
+      },
+      "h25": {
+        "text": "💡 Lösung: Walter (c).\nWalter betont: „Die finanzielle Unterstützung vom Staat, wie Kindergeld oder Sonder-BAföG, reicht bei den heutigen Lebenshaltungskosten bei weitem nicht aus.“",
+        "fr": "💡 Solution : Walter (c).\nWalter affirme que les aides de l'État ne suffisent pas pour couvrir le coût réel de la vie pour une famille étudiante.",
+        "ar": "💡 الحل: فالتر (c).\nشدد فالتر على أن الدعم المالي الحكومي المقدم للطلاب الذين لديهم أطفال غير كافٍ إطلاقاً لمواجهة أعباء المعيشة."
+      },
+      "h26": {
+        "text": "💡 Lösung: Karla (b).\nKarla berichtet von den Öffnungszeiten: „Normale Kitas helfen uns oft kaum, weil sie schon am frühen Nachmittag schließen und Seminare oder Lerngruppen oft bis in den Abend dauern.“",
+        "fr": "💡 Solution : Karla (b).\nKarla fait remarquer que les crèches ordinaires ne sont pas adaptées aux horaires atypiques des cours universitaires en soirée.",
+        "ar": "💡 الحل: كارلا (b).\nأشارت كارلا إلى أن دور الحضانة العادية لا تساعد الطلاب كثيراً لأنها تغلق مبكراً ولا تراعي المحاضرات المسائية."
+      },
+      "h27": {
+        "text": "💡 Lösung: Moderatorin (a).\nDie Moderatorin spricht die Problematik an: „Die universitätseigenen Kitas der Studentenwerke haben aber leider notorisch lange Wartelisten und viel zu wenige Plätze.“",
+        "fr": "💡 Solution : L'animatrice (Moderatorin - a).\nL'animatrice rappelle que les crèches universitaires manquent cruellement de places et ont des listes d'attente interminables.",
+        "ar": "💡 الحل: المذيعة (Moderatorin - a).\nطرحت المذيعة مشكلة قلة الأماكن في حضانات الجامعات وطول قوائم الانتظار أمام الطلاب."
+      },
+      "h28": {
+        "text": "💡 Lösung: Moderatorin (a).\nDie Moderatorin vergleicht mit dem Ausland: „Ein Blick ins europäische Ausland, etwa nach Schweden oder Frankreich, zeigt doch, dass es dort für studierende Eltern viel unkomplizierter ist.“",
+        "fr": "💡 Solution : L'animatrice (Moderatorin - a).\nL'animatrice évoque les autres pays européens (comme la Suède ou la France) où les structures sont plus favorables aux étudiants ayant des enfants.",
+        "ar": "💡 الحل: المذيعة (Moderatorin - a).\nأشارت المذيعة إلى وجود دول أوروبية أخرى تمنح تسهيلات ودعماً أكبر بكثير للطلاب الذين لديهم أطفال."
+      },
+      "h29": {
+        "text": "💡 Lösung: Walter (c).\nWalter hebt Karlas Engagement hervor: „Karla engagiert sich ja auch aktiv bei der studentischen Elterninitiative und berät andere betroffene Väter und Mütter.“",
+        "fr": "💡 Solution : Walter (c).\nWalter mentionne que Karla conseille et aide d'autres parents étudiants au sein d'une association universitaire.",
+        "ar": "💡 الحل: فالتر (c).\nذكر فالتر أن كارلا تقدم المشورة والدعم للآباء والأمهات من الطلاب عبر مبادرة طلابية في الجامعة."
+      },
+      "h30": {
+        "text": "💡 Lösung: Karla (b).\nKarla argumentiert: „Viele Personalchefs wissen es später sehr zu schätzen, wenn man im Studium ein Kind großgezogen hat, weil das enormes Organisationstalent und Belastbarkeit beweist.“",
+        "fr": "💡 Solution : Karla (b).\nKarla soutient que gérer un enfant pendant ses études peut être un atout sur un CV, car les recruteurs y voient une preuve de rigueur et de résistance au stress.",
+        "ar": "💡 الحل: كارلا (b).\nأكدت كارلا أن إنجاب الأطفال أثناء الدراسة قد يفيد في المسيرة المهنية لاحقاً، لأن أصحاب العمل يقدرون مهارات التنظيم والقدرة العالية على تحمل الضغوط."
+      }
+    },
+    "translations": {
+      "parts": {
+        "1": {
+          "instructions": {
+            "ar": "اقرأ النص والمهام من 1 إلى 6 المتعلقة به. اختر: هل العبارات صحيحة أم خاطئة؟",
+            "fr": "Lisez le texte et répondez aux questions 1 à 6. Choisissez : les affirmations sont-elles vraies ou fausses ?"
+          },
+          "articles": [
+            {
+              "heading": {
+                "ar": "مدونة الرياضة",
+                "fr": "Le blog sportif"
+              },
+              "sub": {
+                "ar": "ساندرا · 17 عاماً · حَكَمة كرة قدم",
+                "fr": "Sandra · 17 ans · Arbitre de football"
+              },
+              "body": {
+                "ar": [
+                  "مرحباً، اسمي ساندرا، عمري 17 عاماً، ولا أكتفي بلعب كرة القدم بحماس فحسب، بل أدرب أيضاً فريقاً للناشئين، ومؤخراً بدأت العمل كحَكَمة مباريات. أود أن أشارككم هذه التجربة الأخيرة، لكي يدرك الفتيان بينكم على وجه الخصوص أن كرة القدم لم تعد حكراً على الرجال فقط.",
+                  "للحصول على الرخصة التحكيمية، كان عليّ دراسة كتاب القوانين كاملاً خلال دورة تدريبية استمرت ثلاثة أيام. ثم خضعت للامتحان وأصبحت حَكَمة رسمية، على الورق على الأقل. لكنني لم أنتظر طويلاً لخوض مباراتي الأولى، ففي عطلة نهاية الأسبوع التالية مباشرة طُلب مني إدارة مباراة للناشئين من الفتيان.",
+                  "وصلت إلى الملعب قبل ساعة كاملة من انطلاق المباراة. وبطبيعة الحال لم يتعرف عليّ أحد هناك كحَكَمة في البداية؛ ومن المرجح أن الناس ظنوا أنني الأخت الكبرى لأحد اللاعبين. بعد أن عرّفت بنفسي، تمكنت من تبديل ملابسي في غرفة صغيرة. ثم نزلت إلى أرضية الملعب لتفقد كل شيء، وقد فعلت ذلك مبكراً عمداً لإتاحة الوقت الكافي للنادي لتصحيح أي ملاحظات أو أخطاء.",
+                  "أثناء فحص بطاقات اللاعبين، نظر إليّ الفتيان جميعاً تقريباً بنظرات مستغربة؛ ويبدو أنهم لم يسبق أن أدارت لهم امرأة مباراة من قبل. فأنا شخصياً لا أعرف في منطقتنا سوى ثلاث حَكَمات أخريات. ثم أطلقت أخيراً صافرة البداية. تابع اللقاء نحو 25 من أولياء الأمور خلف السياج. وكنت أتوقع تماماً أن تصدر أصوات صاخبة واعتراضات، لكن لم يحدث شيء على الإطلاق: لا صراخ، ولا شكاوى، ولا عبارات غير لائقة.",
+                  "على أرضية الميدان، شعرت بأن الفتيان عاملوني باحترام كامل وأخذوني على محمل الجد. لقد لعبوا بروح رياضية عالية ونزاهة فائقة، ومع ذلك اضطررت لإطلاق الصافرة كثيراً. وكنت أتذكر دائماً نصائح الدورة التدريبية، حيث بيّنوا لنا مراراً كيف يجب أن نطلق الصافرة بقوة لكي نلفت انتباه اللاعبين إلينا بحزم.",
+                  "انتهت المباراة بنتيجة 8-0. مر الوقت أسرع بكثير مما تخيلت. وعندما هممت بالمغادرة، لم يأتِ أحد ليعاتبني على قرارات خاطئة أو ينتقد مستوى تحكيمي. لقد كانت بداية رائعة حقاً! مباراتي القادمة ستكون في فبراير أو مارس، ولا يفرق معي مطلقاً إن كانت للفتيان أو للفتيات."
+                ],
+                "fr": [
+                  "Bonjour, je m'appelle Sandra, j'ai 17 ans et non seulement j'adore jouer au football, mais j'entraîne aussi une équipe de jeunes et, depuis peu, je suis arbitre de match. J'aimerais vous faire part de cette dernière expérience, pour montrer en particulier aux garçons que le football n'est plus une affaire réservée aux hommes.",
+                  "Pour obtenir mon diplôme d'arbitre, j'ai dû apprendre l'ensemble des règles du jeu lors d'un stage intensif de trois jours. Ensuite a eu lieu l'examen et je suis devenue arbitre, du moins sur le papier. Mais je n'ai pas eu à attendre longtemps pour ma première mission : dès le week-end suivant, je devais officier lors d'un match de jeunes, et directement chez les garçons.",
+                  "Je suis arrivée au terrain une heure avant le coup d'envoi. Bien sûr, personne ne m'a reconnue comme arbitre au départ : les spectateurs ont sans doute pensé que j'étais la grande sœur d'un joueur. Après m'être présentée, j'ai pu me changer dans un petit vestiaire. Je suis ensuite allée sur la pelouse pour tout vérifier, ce que j'avais fait exprès très tôt pour laisser au club le temps de corriger d'éventuels défauts.",
+                  "Lors du contrôle des licences, les jeunes joueurs m'ont presque tous regardée d'un air bizarre : ils n'avaient sans doute jamais été arbitrés par une femme. Il faut dire que je ne connais moi-même que trois autres arbitres féminines dans le district. Puis j'ai enfin pu siffler le début du match. Derrière la main courante, environ 25 parents suivaient la rencontre. Je m'attendais fermement à ce que ce soit très bruyant, mais rien de tout cela : aucun cri, aucune réclamation ni réflexion désobligeante.",
+                  "Sur le terrain, je me suis sentie totalement prise au sérieux par les joueurs. Ils ont joué avec un grand esprit sportif, même si j'ai dû siffler assez souvent. À chaque coup de sifflet, je repensais à la formation : on nous y avait souvent montré comment souffler de toutes nos forces pour bien capter l'attention des joueurs.",
+                  "Au coup de sifflet final, le score était de 8-0. Le temps a passé beaucoup plus vite que je ne l'imaginais. Quand je suis repartie, personne ne m'a fait de reproche sur mes décisions ou ma prestation. Une très belle première ! Mon prochain match aura lieu en février ou en mars. Qu'il s'agisse de garçons ou de filles m'est tout à fait égal."
+                ]
+              }
+            }
+          ],
+          "example": {
+            "ar": "ساندرا مدربة لفريق كرة قدم.",
+            "fr": "Sandra est entraîneuse d'une équipe de football."
+          },
+          "questions": {
+            "1": {
+              "ar": "كان عليها أولاً اجتياز امتحان قبل أن تصبح حَكَمة.",
+              "fr": "Elle a d'abord dû réussir un examen avant de devenir arbitre."
+            },
+            "2": {
+              "ar": "ساندرا هي أخت أحد لاعبي كرة القدم الصغار.",
+              "fr": "Sandra est la sœur d'un jeune joueur de football."
+            },
+            "3": {
+              "ar": "يعرف الفتيان ثلاث حَكَمات أخريات في كرة القدم.",
+              "fr": "Les garçons connaissent trois autres arbitres féminines."
+            },
+            "4": {
+              "ar": "لأن أولياء الأمور كانوا يتابعون المباراة، لم تقع أي مشاكل.",
+              "fr": "Parce que les parents assistaient au match, il n'y a eu aucune difficulté."
+            },
+            "5": {
+              "ar": "تعرف ساندرا ما يجب فعله لكي ينتبه إليها اللاعبون.",
+              "fr": "Sandra sait ce qu'elle doit faire pour que les joueurs fassent attention à elle."
+            },
+            "6": {
+              "ar": "إنها راضية عن أدائها الأول كحَكَمة في المباراة.",
+              "fr": "Elle est satisfaite de sa première prestation en tant qu'arbitre."
+            }
+          }
+        },
+        "2": {
+          "instructions": {
+            "ar": "اقرأ النص الصحفي والمهام من 7 إلى 9 المتعلقة به. اختر الحل الصحيح لكل مهمة: a أو b أو c.",
+            "fr": "Lisez l'article de presse et les questions 7 à 9. Pour chaque question, choisissez la bonne réponse a, b ou c."
+          },
+          "articles": [
+            {
+              "heading": {
+                "ar": "العائلة التبادلية (التاندوم)",
+                "fr": "La famille tandem"
+              },
+              "source": {
+                "ar": "من صحيفة سويسرية",
+                "fr": "D'après un journal suisse"
+              },
+              "body": {
+                "ar": [
+                  "العائلة التبادلية (التاندوم) هي نموذج لرعاية الأطفال كان أمراً بديهياً في الماضي، لا سيما في المناطق الريفية. ويقوم هذا النموذج على قيام العائلات المتجاورة بتبادل رعاية أطفال بعضها البعض بالتناوب. ولعل أبرز مثال شهير في الأدب هو سلسلة كتب الأطفال «أطفال بولربو» للكاتبة أستريد ليندغرين، والتي تدور أحداثها في قرية سويدية صغيرة يتنقل فيها سبعة أطفال بحرية وأمان بين مزارع آبائهم الثلاثة ويلقون الترحيب في كل مكان.",
+                  "واليوم، لم يعد الهضبة السويسرية الحضرية في القرن الحادي والعشرين تشبه قرية بولربو القديمة في شيء. ومع ذلك، فإن العائلة التبادلية أصبحت فكرة عصرية ومطلوبة أكثر من أي وقت مضى: ففي كثير من الأحيان يعيش الأجداد والأقارب بعيداً جداً عن العائلة، مما يجعل مشاركتهم في رعاية الأطفال أمراً مستحيلاً. وحتى عندما تقطن الجدات بالقرب من أحفادهن، فإنهن غالباً ما يمارسن عملاً ومهنة، وبالتالي لا يملكن سوى وقت يسير لمجالسة الأحفاد.",
+                  "أما دور الحضانة ورياض الأطفال كبدائل، فهي نادرة ومكلفة ولها أوقات عمل قصيرة ومحدودة. ومن هنا تتضح مزايا نموذج الرعاية التبادلية: فهي لا تثقل ميزانية الأسرة، وتوفر مرونة عالية في أوقات الرعاية، وكلما طالت فترة المعرفة بين العائلتين، زادت الثقة المتبادلة بينهما. فالعائلات التي تتكاتف وتساعد بعضها تنمو روابطها معاً، وفي أفضل الأحوال تنشأ صداقات تمتد لسنوات يستفيد منها الآباء والأبناء على حد سواء. لذلك: حان الوقت لإعادة اكتشاف نموذج العائلة التبادلية!"
+                ],
+                "fr": [
+                  "La famille tandem est un modèle de garde d'enfants qui allait autrefois de soi, en particulier dans les régions rurales. Cela signifie que des familles voisines gardent mutuellement leurs enfants à tour de rôle. L'exemple le plus illustre de la littérature est sans doute la série pour enfants « Les Enfants de Bullerbyn » d'Astrid Lindgren. Ce récit se déroule dans un hameau suédois où sept enfants vont et viennent librement entre les trois fermes familiales et sont toujours les bienvenus partout.",
+                  "Le Plateau suisse urbanisé du XXIe siècle n'a certes plus grand-chose à voir avec le Bullerbyn d'antan. Néanmoins, une famille tandem fiable est plus moderne et nécessaire que jamais : bien souvent, les grands-parents et proches habitent trop loin pour s'occuper des petits. Et même lorsque les grands-mères vivent à proximité, elles sont fréquemment encore en activité professionnelle et n'ont que peu de temps pour veiller sur leurs petits-enfants.",
+                  "Les places en crèche ou en garderie scolaire, en tant qu'alternatives, sont rares, onéreuses et proposent des plages horaires souvent trop courtes. Les atouts d'un tandem de garde sont évidents : il ne pèse pas sur le budget familial, offre des horaires souples et plus on se connaît, plus la confiance réciproque grandit. Les familles qui s'entraident ainsi se rapprochent étroitement. Dans l'idéal, une amitié durable voit le jour, dont parents et enfants tirent tous profit. C'est pourquoi le moment est venu de redécouvrir la famille tandem !"
+                ]
+              }
+            }
+          ],
+          "example": {
+            "text": {
+              "ar": "في كتاب «أطفال بولربو» ...",
+              "fr": "Dans « Les Enfants de Bullerbyn »..."
+            },
+            "options": {
+              "ar": [
+                "يوجد سبعة أطفال.",
+                "يقضي الأطفال فصل الصيف في الريف.",
+                "لا يملك الآباء وقتاً لأطفالهم."
+              ],
+              "fr": [
+                "il y a sept enfants.",
+                "les enfants passent l'été à la campagne.",
+                "les parents n'ont pas de temps pour leurs enfants."
+              ]
+            }
+          },
+          "questions": {
+            "7": {
+              "text": {
+                "ar": "يدور هذا النص حول ...",
+                "fr": "Cet article traite de..."
+              },
+              "options": {
+                "ar": [
+                  "كتب الأطفال للكاتبة أستريد ليندغرين.",
+                  "إحدى الطرق والحلول لرعاية الأطفال.",
+                  "مشكلات الأشخاص الذين يعيشون في الريف."
+                ],
+                "fr": [
+                  "des livres pour enfants d'Astrid Lindgren.",
+                  "une possibilité de garde d'enfants.",
+                  "des problèmes des personnes vivant à la campagne."
+                ]
+              }
+            },
+            "8": {
+              "text": {
+                "ar": "في سويسرا ...",
+                "fr": "En Suisse..."
+              },
+              "options": {
+                "ar": [
+                  "غالباً لا تسكن العائلات بالقرب من الأجداد.",
+                  "تكاد العائلات لا تمتلك أي تواصل مع الآخرين.",
+                  "تواصل الجدات العمل حتى سن متقدمة جداً."
+                ],
+                "fr": [
+                  "les familles n'habitent souvent pas près des grands-parents.",
+                  "les familles n'ont presque aucun contact avec autrui.",
+                  "les grands-mères travaillent encore à un âge très avancé."
+                ]
+              }
+            },
+            "9": {
+              "text": {
+                "ar": "رياض الأطفال ومراكز الرعاية في سويسرا ...",
+                "fr": "En Suisse, les jardins d'enfants et garderies..."
+              },
+              "options": {
+                "ar": [
+                  "ليست محبوبة ولا تحظى بإقبال.",
+                  "مخصصة للعائلات الثرية فقط.",
+                  "ليست مجانية (تكلف مالاً)."
+                ],
+                "fr": [
+                  "ne sont pas très appréciés.",
+                  "sont réservés aux familles fortunées.",
+                  "ne sont pas gratuits."
+                ]
+              }
+            }
+          },
+          "instructions2": {
+            "ar": "اقرأ النص الصحفي والمهام من 10 إلى 12 المتعلقة به. اختر الحل الصحيح لكل مهمة: a أو b أو c.",
+            "fr": "Lisez l'article de presse et les questions 10 à 12. Pour chaque question, choisissez la bonne réponse a, b ou c."
+          },
+          "articles2": [
+            {
+              "heading": {
+                "ar": "اللعب",
+                "fr": "Jouer"
+              },
+              "source": {
+                "ar": "من مجلة سويسرية",
+                "fr": "D'après un magazine suisse"
+              },
+              "body": {
+                "ar": [
+                  "اللعب جزء متأصل في الإنسان منذ فجر البشرية. فالكثير من الألعاب التي نحبها ونمارسها اليوم، كان البشر يمارسونها قبل 4000 عام. حتى أن الفلاسفة يزعمون أن اللعب وحده هو ما يجعل الإنسان إنساناً حقاً. فلا عجب إذن أن أسلافنا الأوائل كانوا لاعبين شغوفين؛ حتى تماثيل الحيوانات الصغيرة التي عُثر عليها في كهوف العصر الحجري تشبه ألعاب الأطفال تماماً. وهذا يبرهن لنا بوضوح أن ألعابنا قديمة جداً، وتطورت عبر آلاف السنين لتصل إلى ما نلعبه اليوم.",
+                  "عثر الباحثون المتخصصون في تاريخ الألعاب على ألواح ألعاب شهيرة كالموريس (طاحونة) وغيرها في مقابر قديمة في الصين وطروادة وسريلانكا ومصر. ومن هنا نعلم يقيناً أن هذه الألعاب انتشرت في العالم منذ آلاف السنين. وتثبت النقوش والرسوم على المزهريات الأثرية القديمة أن الإغريق القدماء كانوا يلعبون بألعاب اليويو منذ 2500 عام.",
+                  "إن غريزة اللعب فطرية لدينا تماماً كما هي لدى الحيوانات. تلعب صغار الحيوانات لتستعد لمواقف الحياة الجادة، كالصيد أو النزال والدفاع عن النفس. وبالمثل يلعب الأطفال للاستعداد لحياتهم المستقبلية؛ فاللعب عنصر جوهري لنمو الطفل: فعندما نعتني بدمية نتعلم كيفية رعاية الرضيع، وعندما نلعب بمكعبات البناء أو الكرة نتعلم حركات وتناسقاً حركياً معقداً. وبدون اللعب، لن يكون الإنسان مستعداً لمواجهة متطلبات الحياة."
+                ],
+                "fr": [
+                  "Jouer est indissociable de l'être humain depuis qu'il existe sur Terre. Et bien des jeux que nous aimons aujourd'hui étaient déjà pratiqués il y a 4 000 ans. Certains philosophes affirment même que c'est le jeu qui fait véritablement de l'homme un être humain. Rien d'étonnant donc à ce que nos ancêtres aient été d'ardents joueurs : les petites figurines animales découvertes dans les grottes préhistoriques ressemblent trait pour trait à des jouets. Cela prouve que nos jeux sont très anciens et ont évolué durant des millénaires.",
+                  "Des plateaux de jeu de moulin et d'autres jeux de société ont été mis au jour par les archéologues dans des sépultures en Chine, à Troie, au Sri Lanka et en Égypte. Nous savons ainsi que ces divertissements étaient déjà très répandus il y a des milliers d'années. Les représentations sur des vases antiques attestent que les Grecs anciens jouaient déjà au yoyo il y a 2 500 ans.",
+                  "L'instinct de jeu est inné chez nous tout comme chez les animaux. Les animaux jouent pour s'entraîner aux situations réelles : se battre ou chasser par exemple. De même, les enfants jouent pour préparer leur vie future. Le jeu est indispensable au développement de l'enfant : en câlinant une poupée, on apprend à s'occuper d'un bébé ; en manipulant des cubes de construction ou un ballon, on acquiert des coordinations motrices complexes. Sans le jeu, l'être humain ne serait tout simplement pas armé pour affronter la vie."
+                ]
+              }
+            }
+          ],
+          "questions2": {
+            "10": {
+              "text": {
+                "ar": "يدور هذا النص حول ...",
+                "fr": "Dans ce texte, il s'agit principalement du fait..."
+              },
+              "options": {
+                "ar": [
+                  "أن الألعاب موجودة منذ زمن طويل جداً.",
+                  "أن الأطفال اليوم يلعبون أقل مما ينبغي.",
+                  "ما هي الألعاب الأفضل للأطفال."
+                ],
+                "fr": [
+                  "que les jeux existent depuis très longtemps.",
+                  "que les enfants jouent trop peu aujourd'hui.",
+                  "de savoir quels jeux sont les meilleurs pour les enfants."
+                ]
+              }
+            },
+            "11": {
+              "text": {
+                "ar": "تلعب صغار الحيوانات ...",
+                "fr": "Les petits animaux jouent..."
+              },
+              "options": {
+                "ar": [
+                  "للاستعداد لمواقف الحياة الجادة.",
+                  "لكي يفرح آباؤهم بهم.",
+                  "بهدف التسلية والمرح فقط."
+                ],
+                "fr": [
+                  "pour se préparer aux exigences de la vie.",
+                  "pour faire plaisir à leurs parents.",
+                  "simplement pour se divertir."
+                ]
+              }
+            },
+            "12": {
+              "text": {
+                "ar": "المزهريات الأثرية القديمة ...",
+                "fr": "Les vases antiques..."
+              },
+              "options": {
+                "ar": [
+                  "كانت تُستخدم كأدوات للعب.",
+                  "تُظهر أن الناس في الماضي كانوا يلعبون.",
+                  "كانت تحمل دائماً ألعاباً كزينة."
+                ],
+                "fr": [
+                  "servaient également d'instruments de jeu.",
+                  "montrent que l'on jouait déjà autrefois.",
+                  "comportaient toujours un jeu comme motif décoratif."
+                ]
+              }
+            }
+          }
+        },
+        "3": {
+          "13": {
+            "ar": "يعزف نيكلاس على الغيتار الكلاسيكي منذ أربع سنوات، ويود بشدة العزف برفقة موسيقيين آخرين، لكنه لم يحالفه الحظ حتى الآن.",
+            "fr": "Niklas joue de la guitare classique depuis quatre ans. Il aimerait faire de la musique avec d'autres, mais n'a pas eu de chance jusqu'ici.",
+            "text": {
+              "ar": "يعزف نيكلاس على الغيتار الكلاسيكي منذ أربع سنوات، ويود بشدة العزف برفقة موسيقيين آخرين، لكنه لم يحالفه الحظ حتى الآن.",
+              "fr": "Niklas joue de la guitare classique depuis quatre ans. Il aimerait faire de la musique avec d'autres, mais n'a pas eu de chance jusqu'ici."
+            }
+          },
+          "14": {
+            "ar": "تعلمت إيلا العزف على البيانو في طفولتها وتحب الغناء. وتريد الآن تنشيط مهاراتها في البيانو وممارسة الغناء في آن واحد.",
+            "fr": "Ela a appris le piano quand elle était enfant et aime chanter. Elle veut maintenant rafraîchir ses acquis au piano et travailler le chant en même temps.",
+            "text": {
+              "ar": "تعلمت إيلا العزف على البيانو في طفولتها وتحب الغناء. وتريد الآن تنشيط مهاراتها في البيانو وممارسة الغناء في آن واحد.",
+              "fr": "Ela a appris le piano quand elle était enfant et aime chanter. Elle veut maintenant rafraîchir ses acquis au piano et travailler le chant en même temps."
+            }
+          },
+          "15": {
+            "ar": "تتلقى سوزان دروساً في الغناء منذ ثلاث سنوات وهي عضوة في جوقة المدرسة، وتحلم بالسفر حول العالم كمغنية كورال.",
+            "fr": "Susanne prend des cours de chant depuis trois ans et est membre de la chorale scolaire. Elle rêve de parcourir le monde en tant que choriste.",
+            "text": {
+              "ar": "تتلقى سوزان دروساً في الغناء منذ ثلاث سنوات وهي عضوة في جوقة المدرسة، وتحلم بالسفر حول العالم كمغنية كورال.",
+              "fr": "Susanne prend des cours de chant depuis trois ans et est membre de la chorale scolaire. Elle rêve de parcourir le monde en tant que choriste."
+            }
+          },
+          "16": {
+            "ar": "يريد أليكس الانضمام إلى الفرقة الموسيقية المدرسية التي أسسها زملاؤه، ولم يتبقّ سوى عازف الباس، لذا عليه أن يتعلم العزف على الآلة في وقت قصير.",
+            "fr": "Alex souhaite intégrer le groupe monté par ses camarades d'école. Il ne manque plus que le bassiste, Alex doit donc apprendre à jouer rapidement.",
+            "text": {
+              "ar": "يريد أليكس الانضمام إلى الفرقة الموسيقية المدرسية التي أسسها زملاؤه، ولم يتبقّ سوى عازف الباس، لذا عليه أن يتعلم العزف على الآلة في وقت قصير.",
+              "fr": "Alex souhaite intégrer le groupe monté par ses camarades d'école. Il ne manque plus que le bassiste, Alex doit donc apprendre à jouer rapidement."
+            }
+          },
+          "17": {
+            "ar": "ترغب إيرا في تعلم العزف على البيانو بالاشتراك مع ابنتها ذات السنوات الست، على ألا تكون مدة الحصة طويلة لأن الطفلة تتعب بسرعة.",
+            "fr": "Ira veut apprendre le piano avec sa fille de six ans. Le cours ne doit pas être trop long car l'enfant se fatigue rapidement.",
+            "text": {
+              "ar": "ترغب إيرا في تعلم العزف على البيانو بالاشتراك مع ابنتها ذات السنوات الست، على ألا تكون مدة الحصة طويلة لأن الطفلة تتعب بسرعة.",
+              "fr": "Ira veut apprendre le piano avec sa fille de six ans. Le cours ne doit pas être trop long car l'enfant se fatigue rapidement."
+            }
+          },
+          "18": {
+            "ar": "تريد ماري تعلم آلة موسيقية وتفضل الغيتار الكهربائي. وتوافق والدتها على ذلك بشرط ألا تغيب مادة النظريات الموسيقية عن الدروس.",
+            "fr": "Marei souhaite apprendre un instrument, de préférence la guitare électrique. Sa mère est d'accord, mais exige que le solfège soit enseigné.",
+            "text": {
+              "ar": "تريد ماري تعلم آلة موسيقية وتفضل الغيتار الكهربائي. وتوافق والدتها على ذلك بشرط ألا تغيب مادة النظريات الموسيقية عن الدروس.",
+              "fr": "Marei souhaite apprendre un instrument, de préférence la guitare électrique. Sa mère est d'accord, mais exige que le solfège soit enseigné."
+            }
+          },
+          "19": {
+            "ar": "يعزف ليو على الغيتار الكهربائي، ويود الانضمام إلى فرقة روك والمشاركة في إحياء الحفلات الموسيقية.",
+            "fr": "Leo joue de la guitare électrique. Il aimerait rejoindre un groupe de rock et participer à des concerts.",
+            "text": {
+              "ar": "يعزف ليو على الغيتار الكهربائي، ويود الانضمام إلى فرقة روك والمشاركة في إحياء الحفلات الموسيقية.",
+              "fr": "Leo joue de la guitare électrique. Il aimerait rejoindre un groupe de rock et participer à des concerts."
+            }
+          },
+          "instructions": {
+            "ar": "اقرأ المواقف من 13 إلى 19 والإعلانات من a إلى j من وسائل إعلام مختلفة باللغة الألمانية. اختر: أي إعلان يناسب كل موقف؟ يمكنك استخدام كل إعلان مرة واحدة فقط. الإعلان المستخدم في المثال لم يعد متاحاً. هناك موقف ليس له أي إعلان مناسب؛ في هذه الحالة اختر الرقم 0.",
+            "fr": "Lisez les situations 13 à 19 et les annonces a à j issues de médias germanophones. Choisissez : quelle annonce correspond à quelle situation ? Chaque annonce ne peut être utilisée qu'une seule fois. L'annonce de l'exemple ne peut plus servir. Pour une situation, il n'existe aucune annonce adéquate ; inscrivez alors 0."
+          },
+          "situationsIntro": {
+            "ar": "تمثل الموسيقى جانباً مهماً في حياة أصدقائك ومعارفك، وهم يبحثون باستمرار عن فرص لممارسة هواياتهم الموسيقية وتطويرها.",
+            "fr": "La musique occupe une place essentielle pour vos amis et vos connaissances. Ils recherchent régulièrement des occasions de s'adonner à leur passion."
+          },
+          "ads": {
+            "a": {
+              "ar": "حفل خيري لصالح منظمة اليونيسف: 14 ديسمبر الساعة 20:00 في دار أوركسترا غاستايغ بميونخ. أوركسترا ميونخ الفيلهارمونية بقيادة زوبين ميهتا مع عازف الكمان المنفرد مكسيم فينجيروف (كونشيرتو مندلسون وسيمفونية مالر رقم 5). تباع التذاكر في نقاط البيع المعتمدة.",
+              "fr": "Concert de bienfaisance pour l'UNICEF : 14 décembre à 20h à la Philharmonie am Gasteig de Munich. Orchestre philharmonique de Munich dirigé par Zubin Mehta avec le violoniste Maxim Vengerov (Mendelssohn & 5e Symphonie de Mahler). Billetterie disponible aux points de vente."
+            },
+            "A": {
+              "ar": "حفل خيري لصالح منظمة اليونيسف: 14 ديسمبر الساعة 20:00 في دار أوركسترا غاستايغ بميونخ. أوركسترا ميونخ الفيلهارمونية بقيادة زوبين ميهتا مع عازف الكمان المنفرد مكسيم فينجيروف (كونشيرتو مندلسون وسيمفونية مالر رقم 5). تباع التذاكر في نقاط البيع المعتمدة.",
+              "fr": "Concert de bienfaisance pour l'UNICEF : 14 décembre à 20h à la Philharmonie am Gasteig de Munich. Orchestre philharmonique de Munich dirigé par Zubin Mehta avec le violoniste Maxim Vengerov (Mendelssohn & 5e Symphonie de Mahler). Billetterie disponible aux points de vente."
+            },
+            "b": {
+              "ar": "مهرجان الصيف السادس عشر في حديقة زانتن الأثرية: عروض أوبرا جديدة في المدرج الروماني: 24–26 يوليو. أوبرا الناي السحري لموتسارت. التذاكر متوفرة للحجز المسبق في جميع أنحاء ألمانيا. خدمة حجز التذاكر هاتفياً: 02801/778877.",
+              "fr": "16es Fêtes estivales au parc archéologique de Xanten : grandes productions d'opéra dans l'arène romaine du 24 au 26 juillet avec La Flûte enchantée de Mozart. Réservations ouvertes à l'échelle nationale. Tél. 02801 / 77 88 77."
+            },
+            "B": {
+              "ar": "مهرجان الصيف السادس عشر في حديقة زانتن الأثرية: عروض أوبرا جديدة في المدرج الروماني: 24–26 يوليو. أوبرا الناي السحري لموتسارت. التذاكر متوفرة للحجز المسبق في جميع أنحاء ألمانيا. خدمة حجز التذاكر هاتفياً: 02801/778877.",
+              "fr": "16es Fêtes estivales au parc archéologique de Xanten : grandes productions d'opéra dans l'arène romaine du 24 au 26 juillet avec La Flûte enchantée de Mozart. Réservations ouvertes à l'échelle nationale. Tél. 02801 / 77 88 77."
+            },
+            "c": {
+              "ar": "دروس غناء وتدريب صوتي في لوبيك: مغنية ذات خبرة في دار أوبرا لوبيك تقدم دروس غناء فردية للشباب والكبار والمبتدئين والمتقدمين بمعدل مرة أو مرتين أسبوعياً: تدريب الصوت، تقنيات التنفس، النطق السليم، وتوسيع المدى الصوتي.",
+              "fr": "Cours de chant et pose de la voix à Lübeck : cantatrice expérimentée à l'Opéra de Lübeck donne des cours particuliers de chant pour adolescents et adultes, débutants et confirmés : technique vocale, respiration, intonation et expressivité musicale."
+            },
+            "C": {
+              "ar": "دروس غناء وتدريب صوتي في لوبيك: مغنية ذات خبرة في دار أوبرا لوبيك تقدم دروس غناء فردية للشباب والكبار والمبتدئين والمتقدمين بمعدل مرة أو مرتين أسبوعياً: تدريب الصوت، تقنيات التنفس، النطق السليم، وتوسيع المدى الصوتي.",
+              "fr": "Cours de chant et pose de la voix à Lübeck : cantatrice expérimentée à l'Opéra de Lübeck donne des cours particuliers de chant pour adolescents et adultes, débutants et confirmés : technique vocale, respiration, intonation et expressivité musicale."
+            },
+            "d": {
+              "ar": "جوقة باخ (BACH CHOR): تقبل أعضاء جدداً مع انطلاق الموسم الموسيقي. يشترط إجادة قراءة النوتة وخبرة في الغناء الكورالي والاستعداد لحضور التدريبات مرتين أسبوعياً والمشاركة في كافة الحفلات والجولات الموسيقية محلياً ودولياً (12–15 موعداً سنوياً). استفسار: هاتف 986166.",
+              "fr": "Chœur Bach (BACH CHOR) : recrute de nouveaux chanteurs avec le lancement de la saison. Connaissances solides du solfège, pratique chorale requise et disponibilité pour 2 répétitions par semaine ainsi que tournées de concerts en Allemagne et à l'international (12-15 dates par an). Info : tél. 98 61 66."
+            },
+            "D": {
+              "ar": "جوقة باخ (BACH CHOR): تقبل أعضاء جدداً مع انطلاق الموسم الموسيقي. يشترط إجادة قراءة النوتة وخبرة في الغناء الكورالي والاستعداد لحضور التدريبات مرتين أسبوعياً والمشاركة في كافة الحفلات والجولات الموسيقية محلياً ودولياً (12–15 موعداً سنوياً). استفسار: هاتف 986166.",
+              "fr": "Chœur Bach (BACH CHOR) : recrute de nouveaux chanteurs avec le lancement de la saison. Connaissances solides du solfège, pratique chorale requise et disponibilité pour 2 répétitions par semaine ainsi que tournées de concerts en Allemagne et à l'international (12-15 dates par an). Info : tél. 98 61 66."
+            },
+            "e": {
+              "ar": "عزف موسيقي مشترك: عازفة فلوت (8 سنوات دراسة في المعهد الموسيقي الكونسرفاتوار) تبحث عن مرافقة لعزف موسيقى الحجرة: غيتار كلاسيكي، باسون، أوبوا، وتريات، بيانو... الاستفسار عبر رقم صندوق البريد في صحيفة نويه تسورشر تسايتونغ بزيورخ.",
+              "fr": "Jouer de la musique ensemble : flûte traversière (8 ans de conservatoire) recherche accompagnement musical : guitare classique, basson, hautbois, cordes, piano... pour musique de chambre. Réponses sous référence C 472 809 A, journal NZZ, Zurich."
+            },
+            "E": {
+              "ar": "عزف موسيقي مشترك: عازفة فلوت (8 سنوات دراسة في المعهد الموسيقي الكونسرفاتوار) تبحث عن مرافقة لعزف موسيقى الحجرة: غيتار كلاسيكي، باسون، أوبوا، وتريات، بيانو... الاستفسار عبر رقم صندوق البريد في صحيفة نويه تسورشر تسايتونغ بزيورخ.",
+              "fr": "Jouer de la musique ensemble : flûte traversière (8 ans de conservatoire) recherche accompagnement musical : guitare classique, basson, hautbois, cordes, piano... pour musique de chambre. Réponses sous référence C 472 809 A, journal NZZ, Zurich."
+            },
+            "f": {
+              "ar": "دروس غيتار في برول: تدريس الغيتار الكلاسيكي والصوتي والكهربائي للمبتدئين والمتقدمين. تتضمن الدروس تعليماً مبسطاً يشمل قراءة النوتة الموسيقية وعلم التوافق والنغم (هارموني) والنظريات الموسيقية. ريبرتوار: روك، بوب، ميتال، بلوز. الدروس في الاستوديو أو في منزلكم.",
+              "fr": "Cours de guitare à Brühl : guitare acoustique et électrique pour débutants et confirmés. Enseignement comprenant le solfège, l'harmonie et la théorie musicale approfondie. Répertoire : pop, rock, métal, blues, etc. En studio ou à domicile."
+            },
+            "F": {
+              "ar": "دروس غيتار في برول: تدريس الغيتار الكلاسيكي والصوتي والكهربائي للمبتدئين والمتقدمين. تتضمن الدروس تعليماً مبسطاً يشمل قراءة النوتة الموسيقية وعلم التوافق والنغم (هارموني) والنظريات الموسيقية. ريبرتوار: روك، بوب، ميتال، بلوز. الدروس في الاستوديو أو في منزلكم.",
+              "fr": "Cours de guitare à Brühl : guitare acoustique et électrique pour débutants et confirmés. Enseignement comprenant le solfège, l'harmonie et la théorie musicale approfondie. Répertoire : pop, rock, métal, blues, etc. En studio ou à domicile."
+            },
+            "g": {
+              "ar": "مهرجان أوبن إير في المتنزه - باد كروتسينغن: حفلات موسيقية حية في الهواء الطلق: روجر هودجسون وفرقته (أغاني فرقة سوبرترامب الشهيرة مثل Dreamer) ويوريا هيب (أساطير الهارد روك مع أغنية Lady in Black). حجز التذاكر عبر الإنترنت أو الهاتف: 07633/800446.",
+              "fr": "Open Air dans le parc à Bad Krozingen : grands concerts rock en plein air avec Roger Hodgson & son groupe (succès de Supertramp : Dreamer, Give A Little Bit) et Uriah Heep (légendes du hard rock : Lady in Black). Billets : 07633/8004-46."
+            },
+            "G": {
+              "ar": "مهرجان أوبن إير في المتنزه - باد كروتسينغن: حفلات موسيقية حية في الهواء الطلق: روجر هودجسون وفرقته (أغاني فرقة سوبرترامب الشهيرة مثل Dreamer) ويوريا هيب (أساطير الهارد روك مع أغنية Lady in Black). حجز التذاكر عبر الإنترنت أو الهاتف: 07633/800446.",
+              "fr": "Open Air dans le parc à Bad Krozingen : grands concerts rock en plein air avec Roger Hodgson & son groupe (succès de Supertramp : Dreamer, Give A Little Bit) et Uriah Heep (légendes du hard rock : Lady in Black). Billets : 07633/8004-46."
+            },
+            "h": {
+              "ar": "دروس غيتار حديثة ومحترفة في ماينتس: تعليم الغيتار الكهربائي وغيتار الباس وفق طريقة ناجحة خاصة تضمن نتائج سريعة ملحوظة في وقت قصير. مواد تعليمية وتسجيلات صوتية ونوتات مجانية للطلاب. معلومات: www.guitaronly.de.",
+              "fr": "Cours de guitare moderne et de basse à Mayence : enseignement de la guitare électrique et de la basse selon une méthode exclusive et efficace garantissant des progrès rapides en peu de temps. Partitions et supports audio gratuits. Infos sur guitaronly.de."
+            },
+            "H": {
+              "ar": "دروس غيتار حديثة ومحترفة في ماينتس: تعليم الغيتار الكهربائي وغيتار الباس وفق طريقة ناجحة خاصة تضمن نتائج سريعة ملحوظة في وقت قصير. مواد تعليمية وتسجيلات صوتية ونوتات مجانية للطلاب. معلومات: www.guitaronly.de.",
+              "fr": "Cours de guitare moderne et de basse à Mayence : enseignement de la guitare électrique et de la basse selon une méthode exclusive et efficace garantissant des progrès rapides en peu de temps. Partitions et supports audio gratuits. Infos sur guitaronly.de."
+            },
+            "i": {
+              "ar": "متعة العزف وصنع الموسيقى!: هل تبحث عن دروس بيانو وغناء مؤهلة وفردية للشباب والكبار؟ موسيقي محترف ومدرس بيانو وغناء يقدم دروساً تجمع بين العزف على البيانو والغناء في أجواء مريحة. نرحب بالمبتدئين والمستأنفين للعزف. هاتف: 0387/651223 (بيتر شتاينر).",
+              "fr": "La joie de faire de la musique ! Vous cherchez des cours individuels de piano et de chant pour adolescents et adultes ? Pédagogue et concertiste donne des cours combinés de piano et de chant en atelier. Débutants et personnes reprenant la musique bienvenus. Tél. 0387 651223 (Peter Steiner)."
+            },
+            "I": {
+              "ar": "متعة العزف وصنع الموسيقى!: هل تبحث عن دروس بيانو وغناء مؤهلة وفردية للشباب والكبار؟ موسيقي محترف ومدرس بيانو وغناء يقدم دروساً تجمع بين العزف على البيانو والغناء في أجواء مريحة. نرحب بالمبتدئين والمستأنفين للعزف. هاتف: 0387/651223 (بيتر شتاينر).",
+              "fr": "La joie de faire de la musique ! Vous cherchez des cours individuels de piano et de chant pour adolescents et adultes ? Pédagogue et concertiste donne des cours combinés de piano et de chant en atelier. Débutants et personnes reprenant la musique bienvenus. Tél. 0387 651223 (Peter Steiner)."
+            },
+            "j": {
+              "ar": "مدرسة أليغرو الموسيقية في مونستر: باقة واسعة من الآلات الموسيقية: بيانو، فلوت، غيتار، كمان، أكورديون، كلارينيت، وساكسفون. دروس فردية وجماعية بمدد زمنية مرنة: 30 أو 45 أو 90 دقيقة حسب الرغبة. حفلات منتظمة للطلاب واستشارات خاصة للأطفال وأولياء الأمور. هاتف: 0251/44150750.",
+              "fr": "École de musique Allegro à Münster : large choix d'instruments dont piano, flûte, guitare, violon, saxophone. Cours particuliers ou collectifs avec séances modulables de 30, 45 ou 90 minutes. Concerts réguliers pour les élèves et entretiens personnalisés pour enfants et adultes. Tél. 0251.44150750."
+            },
+            "J": {
+              "ar": "مدرسة أليغرو الموسيقية في مونستر: باقة واسعة من الآلات الموسيقية: بيانو، فلوت، غيتار، كمان، أكورديون، كلارينيت، وساكسفون. دروس فردية وجماعية بمدد زمنية مرنة: 30 أو 45 أو 90 دقيقة حسب الرغبة. حفلات منتظمة للطلاب واستشارات خاصة للأطفال وأولياء الأمور. هاتف: 0251/44150750.",
+              "fr": "École de musique Allegro à Münster : large choix d'instruments dont piano, flûte, guitare, violon, saxophone. Cours particuliers ou collectifs avec séances modulables de 30, 45 ou 90 minutes. Concerts réguliers pour les élèves et entretiens personnalisés pour enfants et adultes. Tél. 0251.44150750."
+            }
+          },
+          "questions": {
+            "13": {
+              "ar": "يعزف نيكلاس على الغيتار الكلاسيكي منذ أربع سنوات، ويود بشدة العزف برفقة موسيقيين آخرين، لكنه لم يحالفه الحظ حتى الآن.",
+              "fr": "Niklas joue de la guitare classique depuis quatre ans. Il aimerait faire de la musique avec d'autres, mais n'a pas eu de chance jusqu'ici.",
+              "text": {
+                "ar": "يعزف نيكلاس على الغيتار الكلاسيكي منذ أربع سنوات، ويود بشدة العزف برفقة موسيقيين آخرين، لكنه لم يحالفه الحظ حتى الآن.",
+                "fr": "Niklas joue de la guitare classique depuis quatre ans. Il aimerait faire de la musique avec d'autres, mais n'a pas eu de chance jusqu'ici."
+              }
+            },
+            "14": {
+              "ar": "تعلمت إيلا العزف على البيانو في طفولتها وتحب الغناء. وتريد الآن تنشيط مهاراتها في البيانو وممارسة الغناء في آن واحد.",
+              "fr": "Ela a appris le piano quand elle était enfant et aime chanter. Elle veut maintenant rafraîchir ses acquis au piano et travailler le chant en même temps.",
+              "text": {
+                "ar": "تعلمت إيلا العزف على البيانو في طفولتها وتحب الغناء. وتريد الآن تنشيط مهاراتها في البيانو وممارسة الغناء في آن واحد.",
+                "fr": "Ela a appris le piano quand elle était enfant et aime chanter. Elle veut maintenant rafraîchir ses acquis au piano et travailler le chant en même temps."
+              }
+            },
+            "15": {
+              "ar": "تتلقى سوزان دروساً في الغناء منذ ثلاث سنوات وهي عضوة في جوقة المدرسة، وتحلم بالسفر حول العالم كمغنية كورال.",
+              "fr": "Susanne prend des cours de chant depuis trois ans et est membre de la chorale scolaire. Elle rêve de parcourir le monde en tant que choriste.",
+              "text": {
+                "ar": "تتلقى سوزان دروساً في الغناء منذ ثلاث سنوات وهي عضوة في جوقة المدرسة، وتحلم بالسفر حول العالم كمغنية كورال.",
+                "fr": "Susanne prend des cours de chant depuis trois ans et est membre de la chorale scolaire. Elle rêve de parcourir le monde en tant que choriste."
+              }
+            },
+            "16": {
+              "ar": "يريد أليكس الانضمام إلى الفرقة الموسيقية المدرسية التي أسسها زملاؤه، ولم يتبقّ سوى عازف الباس، لذا عليه أن يتعلم العزف على الآلة في وقت قصير.",
+              "fr": "Alex souhaite intégrer le groupe monté par ses camarades d'école. Il ne manque plus que le bassiste, Alex doit donc apprendre à jouer rapidement.",
+              "text": {
+                "ar": "يريد أليكس الانضمام إلى الفرقة الموسيقية المدرسية التي أسسها زملاؤه، ولم يتبقّ سوى عازف الباس، لذا عليه أن يتعلم العزف على الآلة في وقت قصير.",
+                "fr": "Alex souhaite intégrer le groupe monté par ses camarades d'école. Il ne manque plus que le bassiste, Alex doit donc apprendre à jouer rapidement."
+              }
+            },
+            "17": {
+              "ar": "ترغب إيرا في تعلم العزف على البيانو بالاشتراك مع ابنتها ذات السنوات الست، على ألا تكون مدة الحصة طويلة لأن الطفلة تتعب بسرعة.",
+              "fr": "Ira veut apprendre le piano avec sa fille de six ans. Le cours ne doit pas être trop long car l'enfant se fatigue rapidement.",
+              "text": {
+                "ar": "ترغب إيرا في تعلم العزف على البيانو بالاشتراك مع ابنتها ذات السنوات الست، على ألا تكون مدة الحصة طويلة لأن الطفلة تتعب بسرعة.",
+                "fr": "Ira veut apprendre le piano avec sa fille de six ans. Le cours ne doit pas être trop long car l'enfant se fatigue rapidement."
+              }
+            },
+            "18": {
+              "ar": "تريد ماري تعلم آلة موسيقية وتفضل الغيتار الكهربائي. وتوافق والدتها على ذلك بشرط ألا تغيب مادة النظريات الموسيقية عن الدروس.",
+              "fr": "Marei souhaite apprendre un instrument, de préférence la guitare électrique. Sa mère est d'accord, mais exige que le solfège soit enseigné.",
+              "text": {
+                "ar": "تريد ماري تعلم آلة موسيقية وتفضل الغيتار الكهربائي. وتوافق والدتها على ذلك بشرط ألا تغيب مادة النظريات الموسيقية عن الدروس.",
+                "fr": "Marei souhaite apprendre un instrument, de préférence la guitare électrique. Sa mère est d'accord, mais exige que le solfège soit enseigné."
+              }
+            },
+            "19": {
+              "ar": "يعزف ليو على الغيتار الكهربائي، ويود الانضمام إلى فرقة روك والمشاركة في إحياء الحفلات الموسيقية.",
+              "fr": "Leo joue de la guitare électrique. Il aimerait rejoindre un groupe de rock et participer à des concerts.",
+              "text": {
+                "ar": "يعزف ليو على الغيتار الكهربائي، ويود الانضمام إلى فرقة روك والمشاركة في إحياء الحفلات الموسيقية.",
+                "fr": "Leo joue de la guitare électrique. Il aimerait rejoindre un groupe de rock et participer à des concerts."
+              }
+            }
+          }
+        },
+        "4": {
+          "instructions": {
+            "ar": "اقرأ النصوص من 20 إلى 26. اختر: هل يؤيد الشخص الانتقال من المدينة للعيش في الريف مجدداً؟",
+            "fr": "Lisez les textes 20 à 26. Choisissez : la personne est-elle favorable au fait de quitter la ville pour retourner vivre à la campagne ?"
+          },
+          "topic": {
+            "ar": "تقرأ في إحدى المجلات تعليقات وآراء القراء حول ظاهرة وميل الناس الجديد لمغادرة المدن والانتقال للعيش في الريف.",
+            "fr": "Dans un magazine, vous lisez des commentaires de lecteurs réagissant à un article sur la nouvelle tendance à quitter la ville pour retourner vivre à la campagne."
+          },
+          "example": {
+            "who": "ساندرا (26 عاماً، دوسلدورف) / Sandra (26 ans, Düsseldorf)",
+            "text": {
+              "ar": "هناك دائماً إيجابيات وسلبيات. في المدينة يمكن للمرء ممارسة أنشطة أكثر، وتتوفر مدارس وفرص عمل وناس كثر، ولديك دائماً خيارات متعددة. أما في الريف فيعيش المرء بصحة أفضل وتكون العلاقات الإنسانية أقوى. ولكن كامرأة شابة، من المهم جداً بالنسبة لي في الوقت الحالي التعرف على أشياء جديدة باستمرار، وهذا متاح في المدينة بشكل أفضل.",
+              "fr": "Il y a toujours des pour et des contre. En ville, on peut faire plus d'activités, il y a plus d'écoles, d'emplois et de monde. On a toujours l'embarras du choix. À la campagne, on vit plus sainement et les relations humaines sont souvent meilleures. Pour moi qui suis jeune, il est essentiel pour le moment de faire des découvertes, et cela se fait bien mieux en ville."
+            }
+          },
+          "letters": {
+            "20": {
+              "who": "Dörthe (14, Augsburg)",
+              "text": {
+                "ar": "أنا أعيش في المدينة. صحيح أن أوغسبورغ ليست كبيرة جداً، لكنها تبقى مدينة في النهاية. وحول أوغسبورغ توجد قرى ريفية جميلة نذهب إليها من حين لآخر للتنزه والقيام برحلات خلوية. وهذا أمر رائع حقاً. لكن الانتقال للعيش والاستقرار هناك أمر مختلف تماماً؛ فعلى الرغم من كل الإيجابيات، لا يمكن للريف أن يقنعني كمكان دائم للعيش والإقامة.",
+                "fr": "J'habite en ville. Certes, Augsbourg n'est pas immense, mais cela reste une ville. Autour, il y a de magnifiques villages où nous allons de temps en temps faire des randonnées ou des pique-niques. C'est super agréable. Mais y déménager serait tout autre chose. Malgré tous ses points positifs, la campagne ne me convainc pas comme lieu de résidence permanent."
+              }
+            },
+            "21": {
+              "who": "Alexander (40, Hamburg)",
+              "text": {
+                "ar": "يمكنني أن أتخيل ذلك لنفسي تماماً وبكل سرور. فهناك يستطيع المرء أن يريح روحه ونفسه كما يقول المثل الشعبي. لا توجد ضوضاء مزعجة، والجريمة تكاد تكون منعدمة، ولا اختناقات مرورية خانقة... نعم، أتصور ذلك أشبه بالفردوس، وسأفعل ذلك فوراً دون أي تردد.",
+                "fr": "Je peux parfaitement me projeter là-bas. On peut véritablement y décompresser et souffler. Il n'y a pas de bruit, quasiment aucune criminalité, pas d'embouteillages... Oui, je m'imagine cela comme un petit paradis. Je franchirais le pas sans hésiter une seule seconde."
+              }
+            },
+            "22": {
+              "who": "Norbert (19, Essen)",
+              "text": {
+                "ar": "لم أفكر في هذا الأمر من قبل. لماذا قد يقدم المرء على ذلك أصلاً؟ فالطريق إلى العمل سيصبح أطول بكثير، وسأجد ذلك غير عملي بالمرة. ولكن من المؤكد أن العيش في بلدة صغيرة أجمل بكثير، حيث يعيش المرء في أحضان الطبيعة دون حاجة للقيام برحلات؛ فالخضرة أمام باب المنزل مباشرة. نعم، قد يستحق ذلك العناء، خاصة وأن المرء يعيش هناك بصحة جيدة. الحجج المؤيدة لها وزن أكبر.",
+                "fr": "Je n'y avais jamais songé. Pourquoi faire cela au fond ? Le trajet pour aller au travail deviendrait beaucoup plus long, ce qui me paraît peu pratique. Mais la vie dans une petite commune est certainement plus belle : on profite de la nature sans devoir planifier d'excursion, la verdure est sur le pas de la porte. Oui, cela pourrait valoir le coup, d'autant qu'on y vit sainement. Les arguments en faveur du village ont plus de poids."
+              }
+            },
+            "23": {
+              "who": "Julius (30, Weimar)",
+              "text": {
+                "ar": "لقد ناقشت هذا الموضوع مراراً مع زوجتي. وقرار كهذا يتطلب تفكيراً عميقاً ودقيقاً. وحتى الآن نميل أكثر إلى البقاء في المدينة، وخاصة من أجل المدارس التي يرتادها أطفالنا هنا، حيث يستطيعون الذهاب إليها بمفردهم سيراً على الأقدام. وهذا سيكون مستحيلاً انطلاقاً من قرية ريفية. ستصبح حياتنا اليومية أكثر تعقيداً. وأعتقد أن هذا الخيار غير وارد في الوقت الحالي.",
+                "fr": "J'en ai souvent parlé avec mon épouse. Une telle décision mérite mûre réflexion. Jusqu'à présent, nous penchons pour la ville, surtout pour les écoles que nos enfants fréquentent ici : ils peuvent s'y rendre seuls à pied, ce qui serait impossible depuis un village. Notre quotidien deviendrait bien plus lourd. Je pense que c'est exclu pour le moment."
+              }
+            },
+            "24": {
+              "who": "Laura (17, Chur)",
+              "text": {
+                "ar": "في الحقيقة، أجد حياة الريف الهادئة أمراً لا يُطاق؛ فالأحداث هناك شبه منعدمة ولا يحدث شيء يذكر. بالطبع يمكن للمرء السفر إلى المدينة بين الحين والآخر، لكنه مع ذلك يفوت الكثير من الأشياء والفعاليات. من المؤكد أن الهواء في الريف أفضل وأنقى، لكني أعتبر الرحيل عن المدينة خطأ كبيراً، ولا أنصح أي شخص بالإقدام على ذلك.",
+                "fr": "Franchement, je trouve le calme campagnard insupportable. Il ne s'y passe rien. On peut certes se rendre en ville de temps à autre, mais on rate quand même trop d'événements. L'air y est sans doute meilleur, mais je considère que partir est une erreur. Je ne le conseillerais à personne."
+              }
+            },
+            "25": {
+              "who": "Yvette (22, Trier)",
+              "text": {
+                "ar": "سؤال صعب ومحير. أعتقد أن الإجابة تعتمد على مكان عمل المرء. لو كان عليّ اتخاذ هذا القرار الآن، لكان الأمر عسيراً جداً عليّ. ولكن في نهاية المطاف، أرى مستقبلي وحياتي في بيئة حضرية بالمدينة؛ فأنا بحاجة إلى حيوية ونشاط من حولي، وربما حتى إلى بعض الصخب والضغط الذي يصاحب الحياة في المدينة.",
+                "fr": "Question délicate. Je pense que cela dépend avant tout du lieu où l'on travaille. Si je devais trancher maintenant, ce serait un choix cornélien. Mais finalement, j'envisage mon avenir plutôt dans un environnement urbain. J'ai besoin d'une certaine effervescence autour de moi, et peut-être même de cette dose d'énergie et de stress inhérente à la vie citadine."
+              }
+            },
+            "26": {
+              "who": "Nicola (55, Lugano)",
+              "text": {
+                "ar": "لا يسعني إلا أن أوافق تماماً على هذا الرأي. يبدو لي هذا التوجه منطقياً وجذاباً جداً. والعائق الوحيد بالنسبة لي هو الجانب المالي، فالعيش في الريف ليس رخيصاً كما يظن الجميع دائماً. ففي كانتون تيتشينو، أصبحت الشقق بأسعار معقولة وسط الطبيعة نادرة للغاية. ولو تسنى لي العثور على سكن من هذا القبيل، لحزمت أمتعتي على الفور ورحلت، هذا أمر بديهي تماماً.",
+                "fr": "Je ne peux que souscrire entièrement à cette idée. Cela me paraît tout à fait logique et séduisant. Dans mon cas, c'est purement une question de finances, car la campagne n'est pas si bon marché que tout le monde le pense. Dans le Tessin, les logements abordables en pleine nature sont extrêmement rares. Si je trouvais une telle opportunité, je ferais mes valises sans attendre, c'est évident."
+              }
+            }
+          }
+        },
+        "5": {
+          "instructions": {
+            "ar": "اقرأ المهام من 27 إلى 30 والنص المرفق بها. اختر الحل الصحيح لكل مهمة: a أو b أو c. أنت تقرأ كتيّباً إعلامياً حول نظام دراجات سيتي بايك في فيينا، لأنك ستسافر قريباً إلى فيينا وأنت من عشاق ركوب الدراجات.",
+            "fr": "Lisez les questions 27 à 30 et le texte ci-dessous. Pour chaque question, choisissez la bonne réponse a, b ou c. Vous lisez une brochure d'information sur le Citybike de Vienne, car vous vous rendrez bientôt dans cette ville et êtes un cycliste passionné."
+          },
+          "articles": [
+            {
+              "heading": {
+                "ar": "التنقل بدراجات سيتي بايك في فيينا",
+                "fr": "Mobil avec le Citybike de Vienne"
+              },
+              "body": {
+                "ar": [
+                  "نظام دراجات سيتي بايك في فيينا هو وسيلة نقل عامة ومبتكرة وصديقة للبيئة، وليس مجرد محل تقليدي لتأجير الدراجات. يمكن استئجار الدراجات من أكثر من 120 محطة موزعة في جميع أنحاء فيينا. وتتاح إمكانية إعادة الدراجة في أي محطة ترغب بها، بصرف النظر عن المحطة التي بدأت منها رحلتك. وذلك على مدار 24 ساعة طوال أيام الأسبوع السبعة؛ لتكون حراً في تنقلك وقتما تشاء.",
+                  "لكي تصبح مستخدماً معتمداً لنظام سيتي بايك، يتعين عليك إجراء تسجيل لمرة واحدة فقط. بادر بالتسجيل عبر الإنترنت الآن لتوفير الوقت عند أجهزة المحطات الطرفية! (كما يمكنك أيضاً إجراء عملية التسجيل مباشرة عند أي محطة طرفية تابعة لسيتي بايك).",
+                  "لكل عملية تسجيل تحتاج إلى إحدى البطاقات الموضحة أدناه، والتي تتيح لك استئجار دراجة سيتي بايك أي عدد تريده من المرات. وإذا أردت استئجار عدة دراجات في الوقت نفسه، فسوف تحتاج إلى بطاقات متعددة بعدد الدراجات.",
+                  "الساعة الأولى من كل رحلة تقطعها بدراجة سيتي بايك مجانية تماماً، بينما تكون كل ساعة إضافية مدفوعة الأجر. وتتطلب إجراءات التسجيل سداد رسم لمرة واحدة قدره 1.00 يورو، يُضاف فوراً كرصيد لحسابك لتغطية تكاليف رحلاتك.",
+                  "بطاقة سيتي بايك الخاصة (Citybike-Card): ستحصل على بطاقتك الخاصة للوصول إلى نظام الدراجات! وتتم المحاسبة عبر الخصم البنكي المباشر من حساب مصرفي في النمسا. يستغرق إرسال البطاقة بالبريد حوالي 3 أسابيع، ويمكنك تقديم طلب للحصول على بطاقات إضافية لأفراد عائلتك.",
+                  "البطاقات الأخرى: يمكن بسهولة وبخطوات بسيطة تفعيل ميزة بطاقة سيتي بايك على بطاقات الصراف البنكي النمساوية (بانكومات) وكافة بطاقات الائتمان الدولية."
+                ],
+                "fr": [
+                  "Le système Citybike Wien est un moyen de transport public innovant, respectueux de l'environnement et bien différent d'un service de location de vélos traditionnel. Les vélos peuvent être empruntés dans plus de 120 stations réparties dans tout Vienne. Le retour peut s'effectuer dans n'importe quelle station, indépendamment du lieu de départ. Et ce 24 heures sur 24, 7 jours sur 7. Vous êtes ainsi libre de vous déplacer quand vous le souhaitez.",
+                  "Pour devenir utilisateur de Citybike, une inscription unique est nécessaire. Inscrivez-vous dès maintenant en ligne pour gagner du temps aux bornes ! (Vous pouvez également vous inscrire directement à n'importe quelle borne Citybike).",
+                  "Pour chaque inscription, vous devez vous munir de l'une des cartes mentionnées ci-dessous. Elle vous permet d'emprunter un vélo aussi souvent que vous le voulez. Si vous souhaitez louer plusieurs vélos simultanément, il vous faudra plusieurs cartes.",
+                  "La première heure d'utilisation de chaque trajet est gratuite. Chaque heure supplémentaire est payante. La procédure d'inscription requiert des frais uniques de 1,00 €, qui vous sont ensuite recrédités pour vos futurs trajets après validation.",
+                  "Carte Citybike (Citybike-Card) : Vous recevez une carte dédiée pour accéder au service ! La facturation s'effectue par prélèvement bancaire sur un compte autrichien. L'envoi postal de la carte demande environ 3 semaines. Vous pouvez demander des cartes partenaires supplémentaires pour vos proches.",
+                  "Autres cartes : Les cartes bancaires autrichiennes (Bankomat) et l'ensemble des cartes de crédit internationales peuvent être facilement activées pour remplir la fonction d'une Citybike-Card."
+                ]
+              }
+            }
+          ],
+          "questions": {
+            "27": {
+              "text": {
+                "ar": "باستخدام دراجة سيتي بايك ...",
+                "fr": "Avec le Citybike..."
+              },
+              "options": {
+                "ar": [
+                  "يمكن للمرء القيادة لمدة 60 دقيقة كحد أقصى في اليوم.",
+                  "يمكن للمرء القيادة مجاناً للمدة التي يريدها.",
+                  "يمكن للمرء ركوب واستئجار الدراجة كلما أراد وأي عدد من المرات."
+                ],
+                "fr": [
+                  "on ne peut rouler que 60 minutes au maximum par jour.",
+                  "on peut rouler gratuitement aussi longtemps qu'on le désire.",
+                  "on peut rouler et emprunter un vélo aussi souvent qu'on le souhaite."
+                ]
+              }
+            },
+            "28": {
+              "text": {
+                "ar": "السياح الأجانب القادمون من خارج النمسا ...",
+                "fr": "Les touristes étrangers..."
+              },
+              "options": {
+                "ar": [
+                  "لا يستطيعون استئجار الدراجات إطلاقاً.",
+                  "يحتاجون إلى بطاقة بنكية مصرفية للحصول على بطاقة سيتي بايك الرسمية.",
+                  "يمكنهم تفعيل بطاقاتهم الائتمانية لتعمل كبطاقة سيتي بايك."
+                ],
+                "fr": [
+                  "ne peuvent pas louer de vélos.",
+                  "ont besoin d'une carte bancaire Bankomat pour obtenir la Citybike-Card.",
+                  "peuvent activer leur carte de crédit pour l'utiliser comme carte Citybike."
+                ]
+              }
+            },
+            "29": {
+              "text": {
+                "ar": "لكي يتمكن المرء من ركوب دراجة سيتي بايك ...",
+                "fr": "Pour pouvoir utiliser un Citybike..."
+              },
+              "options": {
+                "ar": [
+                  "يمكن للمرء التسجيل أيضاً مباشرة عند المحطة الطرفية التابعة للنظام.",
+                  "يجب عليه التسجيل عبر الإنترنت لكل دراجة بعينها يريد استئجارها.",
+                  "يلزمه بالضرورة الحصول المسبق على بطاقة سيتي بايك الرسمية الخاصة."
+                ],
+                "fr": [
+                  "on peut aussi s'inscrire directement à une borne (terminal).",
+                  "il faut s'enregistrer sur Internet pour chaque vélo spécifique que l'on veut emprunter.",
+                  "on a impérativement besoin de la carte officielle Citybike-Card."
+                ]
+              }
+            },
+            "30": {
+              "text": {
+                "ar": "دراجات شبكة سيتي بايك في فيينا ...",
+                "fr": "Les vélos du réseau Citybike Wien..."
+              },
+              "options": {
+                "ar": [
+                  "تعتبر صديقة للبيئة بصورة أكبر من الدراجات الهوائية التقليدية.",
+                  "يجب إعادتها إلى المحطة نفسها التي بدأ منها الاستئجار.",
+                  "يمكن استلامها وإعادتها في أكثر من 80 محطة للدراجات."
+                ],
+                "fr": [
+                  "sont plus écologiques que les vélos traditionnels.",
+                  "doivent obligatoirement être ramenés à la station de départ.",
+                  "peuvent être empruntés et déposés dans plus de 80 stations de vélos."
+                ]
+              }
+            }
+          }
+        },
+        "6": {
+          "instructions": {
+            "ar": "قسم فهم المسموع (Hören): 4 أجزاء، 30 مهمة. انقر على زر التشغيل لبدء المقطع الصوتي الأصلي. تتبع المهام التسلسل الزمني للتسجيل الصوتي وفترات التوقف الرسمية للامتحان.",
+            "fr": "Module Compréhension orale (Hören) : 4 parties, 30 questions. Cliquez sur lecture pour démarrer la bande audio originale aux pauses officielles d'examen."
+          },
+          "teile": {
+            "1": {
+              "title": {
+                "ar": "الجزء 1: خمسة نصوص قصيرة",
+                "fr": "Partie 1 : Cinq textes courts"
+              },
+              "desc": {
+                "ar": "ستستمع الآن إلى خمسة نصوص قصيرة. ستستمع إلى كل نص مرتين. لكل نص مهمتان. اختر الحل الصحيح لكل مهمة.",
+                "fr": "Vous allez entendre cinq textes courts. Vous écouterez chaque texte deux fois. Pour chaque texte, résolvez deux questions."
+              },
+              "context": {
+                "ar": "نصوص قصيرة من الحياة اليومية وإعلانات إذاعية ومكالمات هاتفية.",
+                "fr": "Textes courts de la vie quotidienne, annonces radio et messages répondeur."
+              }
+            },
+            "2": {
+              "title": {
+                "ar": "الجزء 2: جولة في الاستاد الأولمبي بميونخ",
+                "fr": "Partie 2 : Visite du stade olympique de Munich"
+              },
+              "desc": {
+                "ar": "ستستمع الآن إلى نص واحد مرة واحدة فقط. أجب عن المهام الخمس من 11 إلى 15 باختيار a أو b أو c.",
+                "fr": "Vous allez entendre un texte une seule fois. Répondez aux cinq questions 11 à 15 en choisissant a, b ou c."
+              },
+              "context": {
+                "ar": "أنت تشارك في جولة إرشادية على السقف الخيمي للاستاد الأولمبي في ميونخ.",
+                "fr": "Vous participez à une visite guidée sur le toit en forme de tente du stade olympique de Munich."
+              }
+            },
+            "3": {
+              "title": {
+                "ar": "الجزء 3: حوار حول العمل كمدرب تزلج",
+                "fr": "Partie 3 : Conversation sur le métier de moniteur de ski"
+              },
+              "desc": {
+                "ar": "ستستمع الآن إلى محادثة مرة واحدة فقط. أجب عن المهام السبع من 16 إلى 22 بتحديد هل العبارات صحيحة أم خاطئة.",
+                "fr": "Vous allez entendre une conversation une seule fois. Déterminez si les affirmations 16 à 22 sont vraies ou fausses."
+              },
+              "context": {
+                "ar": "أنت جالس في مقهى وتستمع إلى شابين يتحدثان عن العمل كمدربين للتزلج على الجليد في النمسا.",
+                "fr": "Vous êtes assis dans un café et écoutez deux jeunes discuter de leur travail de moniteur de ski."
+              }
+            },
+            "4": {
+              "title": {
+                "ar": "الجزء 4: حوار إذاعي: الدراسة مع وجود طفل؟",
+                "fr": "Partie 4 : Débat : Étudier avec un enfant ?"
+              },
+              "desc": {
+                "ar": "ستستمع الآن إلى حوار ونقاش إذاعي مرتين. حدد قائل كل عبارة من المتحدثين الثلاثة للمهام من 23 إلى 30.",
+                "fr": "Vous allez entendre un débat deux fois. Pour les questions 23 à 30, attribuez chaque déclaration à son auteur."
+              },
+              "context": {
+                "ar": "تناقش مذيعة البرنامج الإذاعي «مجلة الوالدين» مع الوالدين كارلا وفالتر موضوع «الدراسة الجامعية مع وجود طفل؟».",
+                "fr": "L'animatrice de l'émission radio « Le Magazine des Parents » débat avec Karla et Walter sur le thème « Étudier avec un enfant ? »."
+              }
+            }
+          },
+          "questions": {
+            "h1": {
+              "ar": "يتم الإعلان وتقديم عرض لرحلة إلى حديقة حيوان.",
+              "fr": "Une excursion dans un zoo est proposée.",
+              "text": {
+                "ar": "يتم الإعلان وتقديم عرض لرحلة إلى حديقة حيوان.",
+                "fr": "Une excursion dans un zoo est proposée."
+              }
+            },
+            "h2": {
+              "ar": "ما الذي يوجد في فالسروده؟",
+              "fr": "Que trouve-t-on à Walsrode ?",
+              "text": {
+                "ar": "ما الذي يوجد في فالسروده؟",
+                "fr": "Que trouve-t-on à Walsrode ?"
+              },
+              "options": {
+                "ar": [
+                  "طيور.",
+                  "أشجار.",
+                  "طائرات."
+                ],
+                "fr": [
+                  "Des oiseaux.",
+                  "Des arbres.",
+                  "Des avions."
+                ]
+              }
+            },
+            "h3": {
+              "ar": "تستمع إلى رسالة وإعلان من استوديو للطبخ.",
+              "fr": "Vous écoutez un message provenant d'un studio de cuisine.",
+              "text": {
+                "ar": "تستمع إلى رسالة وإعلان من استوديو للطبخ.",
+                "fr": "Vous écoutez un message provenant d'un studio de cuisine."
+              }
+            },
+            "h4": {
+              "ar": "ما الذي يمكن إرساله والمشاركة به؟",
+              "fr": "Que peut-on envoyer ?",
+              "text": {
+                "ar": "ما الذي يمكن إرساله والمشاركة به؟",
+                "fr": "Que peut-on envoyer ?"
+              },
+              "options": {
+                "ar": [
+                  "كتاب طبخ.",
+                  "وصفة طعام عائلية خاصة.",
+                  "وعاء طهي (طنجرة)."
+                ],
+                "fr": [
+                  "Un livre de cuisine.",
+                  "Une recette de famille.",
+                  "Une marmite."
+                ]
+              }
+            },
+            "h5": {
+              "ar": "في هذا البرنامج يحصل السياح على نصائح وإرشادات.",
+              "fr": "Dans cette émission, les touristes reçoivent des conseils.",
+              "text": {
+                "ar": "في هذا البرنامج يحصل السياح على نصائح وإرشادات.",
+                "fr": "Dans cette émission, les touristes reçoivent des conseils."
+              }
+            },
+            "h6": {
+              "ar": "يصبح المرء مساعداً / مساعدة في إدارة الأعمال الدولية خلال ...",
+              "fr": "On devient assistant(e) en commerce international en...",
+              "text": {
+                "ar": "يصبح المرء مساعداً / مساعدة في إدارة الأعمال الدولية خلال ...",
+                "fr": "On devient assistant(e) en commerce international en..."
+              },
+              "options": {
+                "ar": [
+                  "عشرة أشهر.",
+                  "ثلاثة أشهر.",
+                  "ثلاث سنوات."
+                ],
+                "fr": [
+                  "dix mois.",
+                  "trois mois.",
+                  "trois ans."
+                ]
+              }
+            },
+            "h7": {
+              "ar": "لويجي وتوماس لديهما موعد متفق عليه مسبقاً.",
+              "fr": "Luigi et Thomas ont un rendez-vous fixé.",
+              "text": {
+                "ar": "لويجي وتوماس لديهما موعد متفق عليه مسبقاً.",
+                "fr": "Luigi et Thomas ont un rendez-vous fixé."
+              }
+            },
+            "h8": {
+              "ar": "كم من الوقت يستغرق لويجي مشياً من الفندق إلى كنيسة الذكرى؟",
+              "fr": "Combien de temps faut-il à Luigi pour aller à pied de l'hôtel à la Gedächtniskirche ?",
+              "text": {
+                "ar": "كم من الوقت يستغرق لويجي مشياً من الفندق إلى كنيسة الذكرى؟",
+                "fr": "Combien de temps faut-il à Luigi pour aller à pied de l'hôtel à la Gedächtniskirche ?"
+              },
+              "options": {
+                "ar": [
+                  "30 دقيقة.",
+                  "20 دقيقة.",
+                  "10 دقائق."
+                ],
+                "fr": [
+                  "30 minutes.",
+                  "20 minutes.",
+                  "10 minutes."
+                ]
+              }
+            },
+            "h9": {
+              "ar": "القطار يصل الآن إلى المحطة.",
+              "fr": "Le train arrive en gare.",
+              "text": {
+                "ar": "القطار يصل الآن إلى المحطة.",
+                "fr": "Le train arrive en gare."
+              }
+            },
+            "h10": {
+              "ar": "أين يمكن النوم في القطار (عربات النوم)؟",
+              "fr": "Où peut-on dormir dans le train (voitures-lits) ?",
+              "text": {
+                "ar": "أين يمكن النوم في القطار (عربات النوم)؟",
+                "fr": "Où peut-on dormir dans le train (voitures-lits) ?"
+              },
+              "options": {
+                "ar": [
+                  "في منتصف القطار.",
+                  "في مقدمة القطار.",
+                  "في الجزء الخلفي من القطار."
+                ],
+                "fr": [
+                  "Au milieu du train.",
+                  "À l'avant du train.",
+                  "À l'arrière du train."
+                ]
+              }
+            },
+            "h11": {
+              "ar": "كم كان عدد الفرق والدول المشاركة في الألعاب الأولمبية الصيفية عام 1972؟",
+              "fr": "Combien d'équipes ont participé aux Jeux olympiques d'été de 1972 ?",
+              "text": {
+                "ar": "كم كان عدد الفرق والدول المشاركة في الألعاب الأولمبية الصيفية عام 1972؟",
+                "fr": "Combien d'équipes ont participé aux Jeux olympiques d'été de 1972 ?"
+              },
+              "options": {
+                "ar": [
+                  "أكثر من 100.",
+                  "ما يقارب 100.",
+                  "8000."
+                ],
+                "fr": [
+                  "Plus de 100.",
+                  "Près de 100.",
+                  "8000."
+                ]
+              }
+            },
+            "h12": {
+              "ar": "ما الحدث الذي لم يعد يقام في الاستاد الأولمبي بميونخ منذ عام 2005؟",
+              "fr": "Qu'est-ce qui n'a plus lieu au stade olympique depuis 2005 ?",
+              "text": {
+                "ar": "ما الحدث الذي لم يعد يقام في الاستاد الأولمبي بميونخ منذ عام 2005؟",
+                "fr": "Qu'est-ce qui n'a plus lieu au stade olympique depuis 2005 ?"
+              },
+              "options": {
+                "ar": [
+                  "مباريات كرة القدم.",
+                  "الحفلات الموسيقية الغنائية.",
+                  "المسابقات والبطولات الرياضية."
+                ],
+                "fr": [
+                  "Des matchs de football.",
+                  "Des concerts.",
+                  "Des compétitions sportives."
+                ]
+              }
+            },
+            "h13": {
+              "ar": "تستغرق الجولة الاستكشافية على السقف الخيمي ...",
+              "fr": "La visite sur le toit dure...",
+              "text": {
+                "ar": "تستغرق الجولة الاستكشافية على السقف الخيمي ...",
+                "fr": "La visite sur le toit dure..."
+              },
+              "options": {
+                "ar": [
+                  "20 دقيقة.",
+                  "نصف ساعة.",
+                  "ساعتين."
+                ],
+                "fr": [
+                  "20 minutes.",
+                  "une demi-heure.",
+                  "deux heures."
+                ]
+              }
+            },
+            "h14": {
+              "ar": "كيف هي حالة الطقس اليوم؟",
+              "fr": "Quel temps fait-il aujourd'hui ?",
+              "text": {
+                "ar": "كيف هي حالة الطقس اليوم؟",
+                "fr": "Quel temps fait-il aujourd'hui ?"
+              },
+              "options": {
+                "ar": [
+                  "غائم ومغطى بالسحب.",
+                  "مثل طقس الأمس تماماً.",
+                  "مناسب ومثالي جداً."
+                ],
+                "fr": [
+                  "Il fait nuageux.",
+                  "Comme hier.",
+                  "Très favorable."
+                ]
+              }
+            },
+            "h15": {
+              "ar": "أين يمكن للزوار تناول الطعام والشراب؟",
+              "fr": "Où les visiteurs peuvent-ils manger et boire ?",
+              "text": {
+                "ar": "أين يمكن للزوار تناول الطعام والشراب؟",
+                "fr": "Où les visiteurs peuvent-ils manger et boire ?"
+              },
+              "options": {
+                "ar": [
+                  "في مطعم فاخر.",
+                  "في مطعم للخدمة الذاتية.",
+                  "في حديقة المشروبات بالهواء الطلق (البيرغارتن)."
+                ],
+                "fr": [
+                  "Dans un restaurant traditionnel.",
+                  "Dans un restaurant en libre-service.",
+                  "Dans la brasserie en plein air."
+                ]
+              }
+            },
+            "h16": {
+              "ar": "سبق لروبن أن ذهب للتزلج في النمسا عدة مرات.",
+              "fr": "Robin est déjà souvent allé skier en Autriche.",
+              "text": {
+                "ar": "سبق لروبن أن ذهب للتزلج في النمسا عدة مرات.",
+                "fr": "Robin est déjà souvent allé skier en Autriche."
+              }
+            },
+            "h17": {
+              "ar": "امتحان الحصول على شهادة مدرب تزلج يعتبر صعباً للغاية.",
+              "fr": "L'examen de moniteur de ski est particulièrement difficile.",
+              "text": {
+                "ar": "امتحان الحصول على شهادة مدرب تزلج يعتبر صعباً للغاية.",
+                "fr": "L'examen de moniteur de ski est particulièrement difficile."
+              }
+            },
+            "h18": {
+              "ar": "توفر مدارس التزلج الكبيرة أماكن سكن أفضل لمدربي التزلج.",
+              "fr": "Les grandes écoles de ski offrent de meilleurs logements aux moniteurs.",
+              "text": {
+                "ar": "توفر مدارس التزلج الكبيرة أماكن سكن أفضل لمدربي التزلج.",
+                "fr": "Les grandes écoles de ski offrent de meilleurs logements aux moniteurs."
+              }
+            },
+            "h19": {
+              "ar": "تتولى لاورا تدريب الأطفال فقط.",
+              "fr": "Laura donne des cours uniquement aux enfants.",
+              "text": {
+                "ar": "تتولى لاورا تدريب الأطفال فقط.",
+                "fr": "Laura donne des cours uniquement aux enfants."
+              }
+            },
+            "h20": {
+              "ar": "يفضل روبن تدريب مجموعات الكبار والبالغين.",
+              "fr": "Robin aimerait plutôt donner des cours aux adultes.",
+              "text": {
+                "ar": "يفضل روبن تدريب مجموعات الكبار والبالغين.",
+                "fr": "Robin aimerait plutôt donner des cours aux adultes."
+              }
+            },
+            "h21": {
+              "ar": "تكسب لاورا الكثير من المال من عملها كمدربة تزلج.",
+              "fr": "Laura gagne beaucoup d'argent comme monitrice de ski.",
+              "text": {
+                "ar": "تكسب لاورا الكثير من المال من عملها كمدربة تزلج.",
+                "fr": "Laura gagne beaucoup d'argent comme monitrice de ski."
+              }
+            },
+            "h22": {
+              "ar": "يرى روبن أن تكلفة دورة وامتحان مدربي التزلج باهظة الثمن.",
+              "fr": "Robin trouve que l'examen de moniteur de ski est très cher.",
+              "text": {
+                "ar": "يرى روبن أن تكلفة دورة وامتحان مدربي التزلج باهظة الثمن.",
+                "fr": "Robin trouve que l'examen de moniteur de ski est très cher."
+              }
+            },
+            "h23": {
+              "ar": "قلة نادرة جداً من الطلاب يرغبون في إنجاب طفل أثناء فترة دراستهم الجامعية.",
+              "fr": "Très peu d'étudiants souhaitent avoir un enfant tant qu'ils poursuivent leurs études.",
+              "text": {
+                "ar": "قلة نادرة جداً من الطلاب يرغبون في إنجاب طفل أثناء فترة دراستهم الجامعية.",
+                "fr": "Très peu d'étudiants souhaitent avoir un enfant tant qu'ils poursuivent leurs études."
+              },
+              "options": {
+                "ar": [
+                  "المذيعة",
+                  "كارلا",
+                  "فالتر"
+                ],
+                "fr": [
+                  "L'animatrice",
+                  "Karla",
+                  "Walter"
+                ]
+              }
+            },
+            "h24": {
+              "ar": "يختلف مدى صعوبة أو سهولة وجود طفل باختلاف التخصص الدراسي للطالب.",
+              "fr": "Selon la filière d'études, il est plus ou moins facile d'avoir un enfant.",
+              "text": {
+                "ar": "يختلف مدى صعوبة أو سهولة وجود طفل باختلاف التخصص الدراسي للطالب.",
+                "fr": "Selon la filière d'études, il est plus ou moins facile d'avoir un enfant."
+              },
+              "options": {
+                "ar": [
+                  "المذيعة",
+                  "كارلا",
+                  "فالتر"
+                ],
+                "fr": [
+                  "L'animatrice",
+                  "Karla",
+                  "Walter"
+                ]
+              }
+            },
+            "h25": {
+              "ar": "المساعدات والدعم الحكومي المقدم للطلاب من أولياء الأمور غير كافٍ إطلاقاً.",
+              "fr": "L'aide de l'État aux étudiants ayant des enfants n'est pas suffisante.",
+              "text": {
+                "ar": "المساعدات والدعم الحكومي المقدم للطلاب من أولياء الأمور غير كافٍ إطلاقاً.",
+                "fr": "L'aide de l'État aux étudiants ayant des enfants n'est pas suffisante."
+              },
+              "options": {
+                "ar": [
+                  "المذيعة",
+                  "كارلا",
+                  "فالتر"
+                ],
+                "fr": [
+                  "L'animatrice",
+                  "Karla",
+                  "Walter"
+                ]
+              }
+            },
+            "h26": {
+              "ar": "دور الحضانة العادية غالباً لا تفيد ولا تلائم احتياجات الطلاب من أولياء الأمور.",
+              "fr": "Les crèches ordinaires n'aident souvent pas les étudiants avec enfant.",
+              "text": {
+                "ar": "دور الحضانة العادية غالباً لا تفيد ولا تلائم احتياجات الطلاب من أولياء الأمور.",
+                "fr": "Les crèches ordinaires n'aident souvent pas les étudiants avec enfant."
+              },
+              "options": {
+                "ar": [
+                  "المذيعة",
+                  "كارلا",
+                  "فالتر"
+                ],
+                "fr": [
+                  "L'animatrice",
+                  "Karla",
+                  "Walter"
+                ]
+              }
+            },
+            "h27": {
+              "ar": "دور الحضانة التابعة للجامعات تعاني من نقص شديد في الأماكن المتاحة.",
+              "fr": "Les crèches universitaires disposent de trop peu de places.",
+              "text": {
+                "ar": "دور الحضانة التابعة للجامعات تعاني من نقص شديد في الأماكن المتاحة.",
+                "fr": "Les crèches universitaires disposent de trop peu de places."
+              },
+              "options": {
+                "ar": [
+                  "المذيعة",
+                  "كارلا",
+                  "فالتر"
+                ],
+                "fr": [
+                  "L'animatrice",
+                  "Karla",
+                  "Walter"
+                ]
+              }
+            },
+            "h28": {
+              "ar": "هناك بلدان أوروبية أخرى تمنح تسهيلات أكبر للطالب الذي لديه طفل.",
+              "fr": "Il existe des pays européens où il est plus simple d'avoir un enfant quand on est étudiant.",
+              "text": {
+                "ar": "هناك بلدان أوروبية أخرى تمنح تسهيلات أكبر للطالب الذي لديه طفل.",
+                "fr": "Il existe des pays européens où il est plus simple d'avoir un enfant quand on est étudiant."
+              },
+              "options": {
+                "ar": [
+                  "المذيعة",
+                  "كارلا",
+                  "فالتر"
+                ],
+                "fr": [
+                  "L'animatrice",
+                  "Karla",
+                  "Walter"
+                ]
+              }
+            },
+            "h29": {
+              "ar": "كارلا تقدم المشورة والدعم لغيرها من الطلاب الذين لديهم أطفال.",
+              "fr": "Karla conseille d'autres parents étudiants.",
+              "text": {
+                "ar": "كارلا تقدم المشورة والدعم لغيرها من الطلاب الذين لديهم أطفال.",
+                "fr": "Karla conseille d'autres parents étudiants."
+              },
+              "options": {
+                "ar": [
+                  "المذيعة",
+                  "كارلا",
+                  "فالتر"
+                ],
+                "fr": [
+                  "L'animatrice",
+                  "Karla",
+                  "Walter"
+                ]
+              }
+            },
+            "h30": {
+              "ar": "إنجاب طفل أثناء مرحلة الدراسة الجامعية قد يعود بالفائدة على المسار الوظيفي والمهني لاحقاً.",
+              "fr": "Avoir un enfant pendant ses études peut être un atout pour sa future carrière professionnelle.",
+              "text": {
+                "ar": "إنجاب طفل أثناء مرحلة الدراسة الجامعية قد يعود بالفائدة على المسار الوظيفي والمهني لاحقاً.",
+                "fr": "Avoir un enfant pendant ses études peut être un atout pour sa future carrière professionnelle."
+              },
+              "options": {
+                "ar": [
+                  "المذيعة",
+                  "كارلا",
+                  "فالتر"
+                ],
+                "fr": [
+                  "L'animatrice",
+                  "Karla",
+                  "Walter"
                 ]
               }
             }
