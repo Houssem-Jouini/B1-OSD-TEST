@@ -5405,7 +5405,7 @@ function showResults(moduleType) {
   if (congratsEl) {
     congratsEl.textContent = passed
       ? `Herzlichen Glückwunsch, ${candidateName}! Du hast das ${modTitle} (${currentTest.title}) mit ${points}/100 Punkten erfolgreich bestanden!`
-      : `Kopf hoch, ${candidateName}! Im ${modTitle} hast du ${points}/100 Punkte erreicht (mindestens 60 erforderlich). Schau dir die Fehler im Fehlerheft an.`;
+      : `Kopf hoch, ${candidateName}! Im ${modTitle} hast du ${points}/100 Punkte erreicht (mindestens 60 erforderlich). Schau dir die Lösungen in der Überprüfung an.`;
   }
 
   if (teilGrid) {

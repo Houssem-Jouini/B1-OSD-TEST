@@ -1,0 +1,3182 @@
+{
+  "id": "modellsatz-19",
+  "title": "Modelltest 13 — Hueber Zertifikat B1",
+  "badge": "Modelltest 13",
+  "examTitle": "Goethe / ÖSD B1 Prüfungssimulation — Modelltest 13",
+  "examSub": "Lesen (5 Teile) & Hören (4 Teile) · Modelltest 13 (Hueber)",
+  "durationMinutes": 65,
+  "parts": [
+    {
+      "id": 1,
+      "title": "Teil 1",
+      "time": 10,
+      "instructions": "Lesen Sie den Text und die Aufgaben 1 bis 6 dazu. Wählen Sie: Sind die Aussagen richtig oder falsch?",
+      "articles": [
+        {
+          "heading": "Mein Tokio-Hotel-Konzert in Erfurt",
+          "sub": "Kiara Wenzel · 10. März",
+          "body": [
+            "Hallo TH-Fans, ich und meine Freundin waren im Tokio-Hotel-Konzert in Erfurt dabei. Wir hatten uns rechtzeitig Karten geholt. Schon viele Wochen vor dem Konzert war ich tierisch happy. Am 6. März stand ich um 5 Uhr morgens auf, ging zu meiner Freundin und gemeinsam fuhren wir nach Erfurt. Als wir so ca. gegen 8 Uhr vor der Thüringenhalle ankamen, waren wir erstaunt, dass zum Glück gerade mal 20 Leute oder so da waren. Das hieß für uns, wir waren mit im ersten Block und damit war uns die erste Reihe sicher.",
+            "Nach endlosen Stunden Warten, es war ungefähr um 12, kamen einige Fernsehteams und fragten uns, wen wir am besten finden, wie lange wir schon stehen usw. Die letzte Stunde vor dem Einlass kam uns unendlich lang vor. In dieser Zeit wurde uns erzählt, wie das dann alles abläuft. Nun war es endlich so weit. Eine Dreiviertelstunde vor dem offiziellen Einlass (es war 16.45 Uhr) durften wir in die Halle. Meine Freundin und ich rannten sofort zur Bühne und standen schließlich direkt davor. Jetzt hieß es wieder warten, aber in der Halle war es ganz lustig. Wir sprachen mit der Security und machten Witze.",
+            "Dann ging es los. In der Halle wurde es dunkel. Alle schrien. Jetzt kamen die Jungs. Als Tom anfing zu spielen, gab es kein Halten mehr. Die Stimmung war einfach nur Wahnsinn!! Dann, als Bill auf die Bühne kam, wurde noch lauter geschrien. Der sah aber auch wieder mal voll cool aus. Zahlreiche Lieder später wurden immer mehr Mädchen rausgetragen. Zum Glück bin ich nicht umgekippt. Dann kamen Georg und Tom nach vorne. Ich dachte mir: In echt sind die noch hübscher und vor allem … die waren so nah!!!",
+            "Als das Konzert zu Ende war, kamen sie alle nach vorne und fassten uns an. Ja, geschafft! Ich hab die Hände von allen Vieren berührt. Ich war so ober-glücklich. Dieses Konzert werde ich nie vergessen. Danke, Jungs. Viele Grüße an alle Fans!!!!!!"
+          ]
+        }
+      ],
+      "example": {
+        "text": "Kiara ist nicht allein ins Konzert gegangen.",
+        "answer": "richtig"
+      },
+      "questions": [
+        {
+          "id": 1,
+          "type": "tf",
+          "text": "Kiara musste lange vor der Konzerthalle warten.",
+          "answer": "richtig",
+          "num": 1
+        },
+        {
+          "id": 2,
+          "type": "tf",
+          "text": "Die Band wurde von Fernsehreportern interviewt.",
+          "answer": "falsch",
+          "num": 2
+        },
+        {
+          "id": 3,
+          "type": "tf",
+          "text": "Kiara schaffte es schließlich, ganz vorn zu stehen.",
+          "answer": "richtig",
+          "num": 3
+        },
+        {
+          "id": 4,
+          "type": "tf",
+          "text": "Als es in der Halle dunkel wurde, schrien alle vor Angst.",
+          "answer": "falsch",
+          "num": 4
+        },
+        {
+          "id": 5,
+          "type": "tf",
+          "text": "Bill kam und schrie am lautesten.",
+          "answer": "falsch",
+          "num": 5
+        },
+        {
+          "id": 6,
+          "type": "tf",
+          "text": "Die Bandmitglieder haben Kiara die Hand gegeben.",
+          "answer": "richtig",
+          "num": 6
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Teil 2",
+      "time": 20,
+      "instructions": "Lesen Sie den Text aus der Presse und die Aufgaben 7 bis 9 dazu. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+      "articles": [
+        {
+          "heading": "Können Tiere träumen?",
+          "source": "aus einer deutschen Zeitung",
+          "body": [
+            "Wer Mensch, Hund und Katze beim Schlafen beobachtet, stellt gewisse Ähnlichkeiten fest. Denn auch Tiere bewegen sich dabei und geben Laute von sich. Träumen Tiere also?",
+            "Weckt man Menschen in der Schlafphase, in der sich die Muskeln kaum bewegen und nur die Augen aktiv sind, während des sogenannten „Rapid Eye Movement“-Schlafes oder der REM-Phase, berichten sie, dass sie gerade einen Traum hatten. Gilt das auch für Tiere, wenn sich ihre Augen im Schlaf ganz schnell bewegen? Als sicher gilt: Hunde, Katzen oder Gorillas verbringen zwischen 10 und 25 Prozent ihrer Ruhezeit im REM-Schlaf – genauso viel wie der Mensch. „Schon aus einer evolutionären Perspektive ist es wahrscheinlich, dass die Fähigkeit zu träumen in der Evolution schon vor dem Menschen entwickelt wurde“, sagt ein Schlafwissenschaftler. Die Schwierigkeit besteht darin, diese Theorie heute zu beweisen.",
+            "Bei einem Experiment hatte man den REM-Schlaf einer Katze beobachtet, nachdem man ihr ein Medikament gegeben hatte, damit sie ihren übrigen Körper frei bewegen konnte. Während des REM-Schlafes lief diese Katze dann im Käfig umher, fauchte und sträubte auch ihr Fell. Es sah aus, als würde sie mit einem Feind kämpfen. Auch der Geruch von Futter konnte sie nicht wecken, sie schlief fest. Trotz dieser Beobachtung bleibt das Problem, dass Tiere uns nicht von ihren Träumen erzählen können. Deshalb zweifelt man immer noch daran, ob Tiere wirklich wie die Menschen träumen."
+          ]
+        }
+      ],
+      "example": {
+        "text": "Katzen ...",
+        "options": [
+          "können im Traum kämpfen.",
+          "schlafen so lange wie Menschen.",
+          "bewegen im Schlaf ihre Augen."
+        ],
+        "answer": 2
+      },
+      "questions": [
+        {
+          "id": 7,
+          "type": "mcq",
+          "text": "In diesem Text geht es um die Frage, ...",
+          "options": [
+            "ob Tiere wie Menschen träumen.",
+            "ob Tiere besser schlafen als Menschen.",
+            "warum Tiere auch eine REM-Phase im Schlaf haben."
+          ],
+          "answer": 0,
+          "num": 7
+        },
+        {
+          "id": 8,
+          "type": "mcq",
+          "text": "In der REM-Phase ...",
+          "options": [
+            "bewegen sich immer alle Körperteile.",
+            "bewegen sich die Augen.",
+            "schläft man nicht so gut."
+          ],
+          "answer": 1,
+          "num": 8
+        },
+        {
+          "id": 9,
+          "type": "mcq",
+          "text": "Gorillas ...",
+          "options": [
+            "schlafen unruhiger als die Menschen.",
+            "haben prozentual eine genauso lange REM-Phase wie die Menschen.",
+            "lassen sich nicht untersuchen."
+          ],
+          "answer": 1,
+          "num": 9
+        }
+      ],
+      "instructions2": "Lesen Sie den Text aus der Presse und die Aufgaben 10 bis 12 dazu. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+      "articles2": [
+        {
+          "heading": "In der Schule schwitzen!",
+          "source": "aus einer österreichischen Zeitung",
+          "body": [
+            "In einer Gesamtschule in Oulu nördlich von Helsinki haben Wissenschaftler und Lehrer kürzlich einen heißen Test mit ihren Schülern gemacht: Auf dem Schulhof stellten sie mobile Sauna-Wagen auf. Darin ließen sie ihre Schüler in der Früh vor dem Unterricht ordentlich schwitzen, je nach Verfassung der Kinder zehn bis 15 Minuten lang. Erst dann begannen sie mit Mathe, Finnisch, Englisch, Physik und ihren anderen Unterrichtsfächern. Das Ergebnis überraschte alle, denn 314 der 340 Schüler, die an dem sechsmonatigen Versuch teilgenommen hatten, konnten ihre Noten deutlich verbessern! Manche Schüler wurden sogar um eine ganze Note besser.",
+            "„Das Sitzen in der Sauna regt den Kreislauf und die Durchblutung an, dadurch steigt dann die Konzentrationsfähigkeit. Man kann auch sagen, dass die Schüler so einfach wacher und viel bereiter sind, Wissen aufzunehmen“, erläutert Arttu Häkkinen von der Universität Helsinki. Dass die Ergebnisse so gut waren, überraschte aber auch die Pädagogen. Das Experiment mit den Sauna-Wagen soll nun landesweit wiederholt werden. Wenn es auch an anderen Schulen erfolgreich ist, soll morgendliches Schwitzen in den finnischen Stundenplan aufgenommen werden."
+          ]
+        }
+      ],
+      "questions2": [
+        {
+          "id": 10,
+          "type": "mcq",
+          "text": "In diesem Text geht es darum, ...",
+          "options": [
+            "warum finnische Schüler so gute Noten haben.",
+            "wie die Wirkung der Sauna auf Schüler ist.",
+            "warum Schüler gern in die Sauna gehen."
+          ],
+          "answer": 1,
+          "num": 10
+        },
+        {
+          "id": 11,
+          "type": "mcq",
+          "text": "Die Schüler in Oulu ...",
+          "options": [
+            "konnten sich nach der Sauna besser konzentrieren.",
+            "hatten wegen der Sauna weniger Probleme.",
+            "mussten mindestens 15 Minuten in die Sauna."
+          ],
+          "answer": 0,
+          "num": 11
+        },
+        {
+          "id": 12,
+          "type": "mcq",
+          "text": "Der Versuch ...",
+          "options": [
+            "hat eine Theorie bewiesen.",
+            "beeinflusste die Noten der Schüler nur wenig.",
+            "dauerte ein halbes Jahr lang."
+          ],
+          "answer": 2,
+          "num": 12
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Teil 3",
+      "time": 10,
+      "instructions": "Lesen Sie die Situationen 13 bis 19 und die Anzeigen a bis j aus verschiedenen deutschsprachigen Medien. Wählen Sie: Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Die Anzeige aus dem Beispiel können Sie nicht mehr verwenden. Für eine Situation gibt es keine passende Anzeige. In diesem Fall schreiben Sie 0.",
+      "situationsIntro": "Schule, gute Noten, Nachhilfeunterricht: Das alles sind Themen, die Ihre Bekannten zurzeit aus verschiedenen Gründen sehr beschäftigen – und sie suchen nach Lösungen.",
+      "example": {
+        "text": "Laura Ramazzotti studiert in Graz. Sie will Nachhilfeunterricht in Italienisch geben, denn sie braucht Geld, weil sie öfter zu ihren Eltern nach Süditalien fahren möchte.",
+        "answer": "i"
+      },
+      "adsFormatted": [
+        {
+          "code": "a",
+          "title": "Leiter/innen für Arbeitsgemeinschaften gesucht",
+          "text": "Leiter/innen für Arbeitsgemeinschaften (AGs) auf Honorarbasis gesucht für offene Ganztagsschulen (Mo.-Fr. 14-16 Uhr) sowie für Gymnasien (Mi. 14-16 Uhr): Sport/Bewegung, Tanz, Kunst/Kreativ, Kochen, Musik, Theater, Hausaufgabenbetreuung etc. Kurzbewerbung per Mail bitte an den: Verein zur Bildungsförderung e.V, Aachener Str. 23 - Berlin-Lichtenberg, verein@vzbildungsfoerderung.de",
+          "html": "<strong>Leiter/innen für Arbeitsgemeinschaften (AGs)</strong> auf Honorarbasis gesucht für offene Ganztagsschulen (Mo.–Fr. 14–16 Uhr) sowie für Gymnasien (Mi. 14–16 Uhr):<br>Sport, Tanz, Kunst, Kochen, Musik, Theater, Hausaufgabenbetreuung.<br><em>Verein zur Bildungsförderung e.V.</em>, Aachener Str. 23, Berlin-Lichtenberg.<br>✉ verein@vzbildungsfoerderung.de",
+          "color": "#eaf2f8",
+          "hasPin": true
+        },
+        {
+          "code": "b",
+          "title": "Mathematik Intelligentes Lernen Klasse 9-12",
+          "text": "Mathematik, Intelligentes Lernen, Klasse 9-12. 1 CD-ROM, von: S.A.E. Mit dieser Software schaffst du Mathe problemlos: Der ganze Lernstoff von Klasse 9-12, Übungsaufgaben und Erklärungen der Lösungen. Info und Bestellungen unter: www.sae-mathematik.at",
+          "html": "<strong>Mathematik – Intelligentes Lernen (Kl. 9–12)</strong><br>1 CD-ROM von S.A.E.<br>Mit dieser Software schaffst du Mathe problemlos: Kompletter Lernstoff, Übungsaufgaben & Erklärungen der Lösungen.<br>🌐 www.sae-mathematik.at",
+          "color": "#fef9e7",
+          "hasPin": true
+        },
+        {
+          "code": "c",
+          "title": "Nachhilfe gesucht für Latein/Mathe",
+          "text": "Nachhilfe gesucht für Latein / Mathe, 10. Kl., Schülerin o. Studentin, Tel. 030/09115025",
+          "html": "<strong>Nachhilfe gesucht für Latein/Mathe</strong><br>10. Klasse, Schülerin oder Studentin gesucht.<br>📞 030/09115025",
+          "color": "#fbfcfc",
+          "hasPin": true
+        },
+        {
+          "code": "d",
+          "title": "Einzelnachhilfe zu Hause für Gymnasium",
+          "text": "Wir bieten Einzelnachhilfe zu Hause für Gymnasium / spezielle Abivorbereitung in Deutsch, alten und modernen Fremdsprachen. Tel. 034 / 85 97 558, www.schoolgood.de",
+          "html": "<strong>Wir bieten Einzelnachhilfe zu Hause</strong><br>Für Gymnasium / spezielle Abivorbereitung in <em>Deutsch, alten und modernen Fremdsprachen</em>.<br>📞 034 / 85 97 558 · 🌐 www.schoolgood.de",
+          "color": "#eef9f1",
+          "hasPin": true
+        },
+        {
+          "code": "e",
+          "title": "Schülerhilfe Bern sucht Nachhilfelehrer/in",
+          "text": "Schülerhilfe Bern sucht Nachhilfelehrer/in (mit abgeschl. Studium) für Mathematik und Latein. Tel. +41(0)3192344 44, bern@schuelerhilfe.ch",
+          "html": "<strong>Schülerhilfe Bern sucht Nachhilfelehrer/in</strong><br>(mit abgeschlossenem Studium) für <em>Mathematik und Latein</em>.<br>📞 +41(0)3192344 44 · ✉ bern@schuelerhilfe.ch",
+          "color": "#fef5e7",
+          "hasPin": true
+        },
+        {
+          "code": "f",
+          "title": "Hausaufgabenbetreuung im Hause des DKSB",
+          "text": "Hausaufgabenbetreuung im Hause des DKSB, Mo-Do 12.30-16.30, Berlin-Mitte, Geraldstraße 57, Tel. 021 62 72 17 98. Deutscher Kinderschutzbund - Ortsverband Berlin. Alle unsere Angebote sind kostenlos – um unsere Arbeit fortsetzen zu können, brauchen wir Ihre Hilfe: Spendenkonto: Sparkasse Berlin, Konto Nr.: 75108644",
+          "html": "<strong>Hausaufgabenbetreuung im Hause des DKSB</strong><br>Mo.–Do. 12.30–16.30 Uhr, Berlin-Mitte, Geraldstraße 57.<br><em>Deutscher Kinderschutzbund Berlin</em><br><strong>Alle Angebote sind kostenlos!</strong> Spendenkonto: Sparkasse Berlin 75108644.<br>📞 021 62 72 17 98",
+          "color": "#fdedec",
+          "hasPin": true
+        },
+        {
+          "code": "g",
+          "title": "Einfach gute Noten! Profi-Nachhilfe",
+          "text": "Einfach gute Noten! Profi-Nachhilfe für alle Klassen und Schultypen. TÜV-geprüfte Qualität. Werderstr. 45, Berlin-Kreuzberg. Inh. Nils Lehmann – Tel. 030/14008945",
+          "html": "<strong>Einfach gute Noten! Profi-Nachhilfe</strong><br>Für alle Klassen und Schultypen. <em>TÜV-geprüfte Qualität</em>.<br>Werderstr. 45, Berlin-Kreuzberg, Inh. Nils Lehmann.<br>📞 030/14008945",
+          "color": "#f4f6f7",
+          "hasPin": true
+        },
+        {
+          "code": "h",
+          "title": "Der PLÖTZ-Schulführer Berlin",
+          "text": "Der PLÖTZ-Schulführer stellt alle Schulen der Stadt mit kurzen Porträts dar, gibt Tipps zu Schultypen und Schulreform, hilft Eltern, die richtige Entscheidung zu treffen. Plötz, Schulführer Berlin, 408 Seiten, EUR 14,80, auch als CD oder E-Book erhältlich.",
+          "html": "<strong>Der PLÖTZ-Schulführer</strong><br>Stellt alle Schulen der Stadt vor, gibt Tipps zu Schultypen & Schulreform, hilft Eltern bei der richtigen Schulwahl.<br>408 Seiten, EUR 14,80 (Buch, CD oder E-Book).",
+          "color": "#ebf5fb",
+          "hasPin": true
+        },
+        {
+          "code": "i",
+          "title": "Graz-Zentrum: Nachhilfelehrer/in für Ital. gesucht",
+          "text": "Graz-Zentrum: Nachhilfelehrer/in für Ital. gesucht, Gute Bezahlung, Tel. 316/28 85 217",
+          "html": "<strong>Graz-Zentrum:</strong><br>Nachhilfelehrer/in für Italienisch gesucht.<br>Gute Bezahlung.<br>📞 316/28 85 217",
+          "color": "#f9ebea",
+          "hasPin": true
+        },
+        {
+          "code": "j",
+          "title": "Nachhilfe und mehr! – Mini-Lernkreis",
+          "text": "Nachhilfe und mehr! – alle Fächer, Schultypen und Klassen. Mini-Lernkreis – Kompetenz seit 1974. Info und Anmeldung: 036-92214115 Christiane Hidding, ch.hidding@minilernkreis.de. Mini-Gruppen, Einzelunterricht, spezifisches Training für Kinder mit Rechtschreibschwierigkeiten, Rechen- und Konzentrationsschwäche, spezielle Lernmaterialien.",
+          "html": "<strong>Nachhilfe und mehr! – Mini-Lernkreis</strong><br>Alle Fächer, Schultypen und Klassen.<br>• Mini-Gruppen & Einzelunterricht<br>• Spezifisches Training bei Rechen- und <em>Konzentrationsschwäche</em><br>📞 036-92214115 Christiane Hidding · ✉ ch.hidding@minilernkreis.de",
+          "color": "#f5eef8",
+          "hasPin": true
+        }
+      ],
+      "questions": [
+        {
+          "id": 13,
+          "type": "match",
+          "text": "Emmas Sohn Ferdinand hat keine schlechten Noten, aber sie macht sich Sorgen, weil er sich nicht gut konzentrieren kann.",
+          "answer": "j",
+          "num": 13
+        },
+        {
+          "id": 14,
+          "type": "match",
+          "text": "Wegen ihrer Arbeit kann Frau Beisle ihrem Sohn nicht bei den Hausaufgaben helfen. Doch ein Nachhilfeinstitut oder einen Privatlehrer kann sie sich nicht leisten.",
+          "answer": "f",
+          "num": 14
+        },
+        {
+          "id": 15,
+          "type": "match",
+          "text": "Herr und Frau Horn überlegen, ob ihre Tochter aufs Gymnasium oder lieber auf die Realschule gehen sollte.",
+          "answer": "h",
+          "num": 15
+        },
+        {
+          "id": 16,
+          "type": "match",
+          "text": "Alexander macht nächstes Jahr Abitur und braucht unbedingt Nachhilfe in Chemie und Physik. Er sucht einen Lehrer, der zu ihm nach Hause kommt.",
+          "answer": "0",
+          "num": 16
+        },
+        {
+          "id": 17,
+          "type": "match",
+          "text": "Corinna hat gerade ihr Mathematikstudium abgeschlossen und sucht Arbeit in einem Nachhilfeinstitut.",
+          "answer": "e",
+          "num": 17
+        },
+        {
+          "id": 18,
+          "type": "match",
+          "text": "Markus braucht unbedingt bessere Noten, wenn er das Abitur schaffen will. Aber bevor er sich für ein Nachhilfeinstitut entscheidet, möchte er gucken, ob die Lehrer dort gut erklären können.",
+          "answer": "g",
+          "num": 18
+        },
+        {
+          "id": 19,
+          "type": "match",
+          "text": "Lena geht in Klasse 9 und hat schlechte Noten in Mathe. Sie sucht ein Computerprogramm, das ihr helfen kann.",
+          "answer": "b",
+          "num": 19
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Teil 4",
+      "time": 15,
+      "instructions": "Lesen Sie die Texte 20 bis 26. Wählen Sie: Findet die Person, dass es Einzelkinder besser haben?",
+      "topic": "Findet die Person, dass es Einzelkinder besser haben?",
+      "example": {
+        "who": "Tim, 37, Wolfsburg",
+        "text": "Das ist einfach zu beantworten. Mit Geschwistern übt man – ob man es will oder nicht – soziales Verhalten. Man muss ständig alles teilen. Das fängt beim Spielzeug an und endet bei der Aufmerksamkeit der Eltern. Außerdem lernt man von Geburt an, sich in eine Gruppe einzugliedern. Ich meine, dies alles zu können, ist von Vorteil für das Leben in einer Gesellschaft. Wenn möglich, sollte jeder mit Geschwistern aufwachsen. Einzelkind zu sein, ist deshalb in meinen Augen ein Nachteil.",
+        "answer": "nein"
+      },
+      "letters": [
+        {
+          "id": 20,
+          "type": "letter",
+          "who": "Angela, 35, Bad Gastein",
+          "text": "Natürlich habe ich eine Meinung dazu, denn ich bin ein Einzelkind. Ich kann mir keine schönere Form der Kindheit und des Familienlebens vorstellen. Alles ist harmonisch und als Kind muss man sich viel mehr auf die Eltern einlassen, denn man hat ja keine anderen Familienmitglieder. Man bildet eine Einheit mit den Eltern und das hilft dem Kind, reif und vernünftig zu werden.",
+          "answer": "ja",
+          "num": 20
+        },
+        {
+          "id": 21,
+          "type": "letter",
+          "who": "Frank, 16, Schaffhausen",
+          "text": "Ich war jahrelang allein. Dann hat meine Mutter wieder geheiratet und schon hatte ich zwei Halbgeschwister. Ich vermisse es immer noch, dass meine Mutter mal länger nur für mich Zeit hat oder dass ich nicht ständig alle meine CDs ausleihen oder den anderen bei irgendetwas helfen muss. Die Freude darüber, nicht allein zu sein, ist bei mir nicht so gross.",
+          "answer": "ja",
+          "num": 21
+        },
+        {
+          "id": 22,
+          "type": "letter",
+          "who": "Zoe, 17, Westerland",
+          "text": "Man muss nur an diese Einsamkeit bei Familienurlauben oder -festen denken, dann beantwortet sich die Frage von allein. Egal, wie viel man mit einem Bruder oder einer Schwester teilen muss, man ist nicht allein. Allein zu sein ist immer negativ.",
+          "answer": "nein",
+          "num": 22
+        },
+        {
+          "id": 23,
+          "type": "letter",
+          "who": "Nikolaus, 43, Davos",
+          "text": "Wenn man erstmal erwachsen und bei den Eltern ausgezogen ist, bekommen Geschwister eine andere Wichtigkeit. Geschwister sind im späteren Leben immer bereit, einander zu helfen. Sollten die gemeinsamen Eltern Pflege brauchen, kann man sich diese Aufgabe teilen. Und man hat immer Personen aus der eigenen Generation, die Zeuge unserer Kindheit und Jugend waren. All das hat ein Einzelkind nicht.",
+          "answer": "nein",
+          "num": 23
+        },
+        {
+          "id": 24,
+          "type": "letter",
+          "who": "Andi, 29, Wels",
+          "text": "Mit meinen Geschwistern habe ich mich nie gut verstanden. Weder als Kind, noch als Erwachsener. All die Streite und Auseinandersetzungen haben mich sehr viel Kraft gekostet. Diese Kraft hätte ich gut für andere Dinge brauchen können. Als Einzelkind muss man seine Zeit und Kraft nicht bei solchen Kämpfen verlieren.",
+          "answer": "ja",
+          "num": 24
+        },
+        {
+          "id": 25,
+          "type": "letter",
+          "who": "Doris, 21, Schleswig",
+          "text": "Kinder erleben es als Druck und Stress, dass ihre Eltern viel von ihnen erwarten. Wenn es in der Familie nur ein Kind gibt, dann muss dieses all die Erwartungen allein erfüllen oder zumindest ist das ein unerklärtes Ziel. Bei Geschwistern verteilt sich dieser Druck, deshalb ist das Leben für Kinder, die Geschwister haben, einfacher.",
+          "answer": "nein",
+          "num": 25
+        },
+        {
+          "id": 26,
+          "type": "letter",
+          "who": "Lukas, 26, Nürnberg",
+          "text": "Die pädagogische Forschung gibt uns da eine eindeutige Antwort. Ein Einzelkind kann sich von der Intelligenz her viel besser entwickeln, weil es gewissermaßen von zwei Erwachsenen „trainiert“ wird. Ihm wird ununterbrochen geholfen und das schlägt sich im Wissen, Schulwissen und Allgemeinwissen positiv nieder. Kinder ohne Geschwister haben also eine günstigere Ausgangssituation.",
+          "answer": "ja",
+          "num": 26
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Teil 5",
+      "time": 10,
+      "instructions": "Lesen Sie die Aufgaben 27 bis 30 und den Text dazu. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+      "articles": [
+        {
+          "heading": "Nutzungsordnung Campingplatz am Freibad Altenau",
+          "sub": "Sie informieren sich über die Nutzungsordnung des Campingplatzes Altenau, wo Sie campen wollen.",
+          "body": [
+            "<strong>§ 1</strong><br>Das Campingplatzgelände am Freibad Altenau darf zum Ent- und Beladen befahren werden. Danach sind die Fahrzeuge auf dem Parkplatz vor dem Freibad abzustellen. Jedes auf dem Campingplatz abgestellte Auto kostet pro Nacht 10 €. Andere Regelungen sind mit den Verantwortlichen abzusprechen.",
+            "<strong>§ 2</strong><br>Das Betreten der Uferzone ist aus Naturschutzgründen untersagt. Diese sollte auch nicht verunreinigt werden: weder als Toilette noch als Müllkippe. Angeln im Fluss ist verboten! (Anzeige des Fischerei-Vereins)",
+            "<strong>§ 3</strong><br>Lagerfeuer und Grillen sind nur an den dafür vorgesehenen Feuerstellen erlaubt. Neue Feuerstellen dürfen nicht errichtet werden. Bei Missachtung droht eine Strafe von 50 €.",
+            "<strong>§ 4</strong><br>Zur Müllbeseitigung ist ein Container neben dem Wohnhaus aufgestellt. Grob- und Sperrmüll-Entsorgungen, also auch Campingstühle und Luftmatratzen, sind nicht gestattet. Zuwiderhandlungen ziehen eine Geldbuße nach sich.",
+            "<strong>§ 5</strong><br>Die Toiletten sind über die Treppe zu erreichen. Sie befinden sich links von den Duschräumen, direkt neben dem Kiosk. Es sollte selbstverständlich sein, dass sie sauber verlassen werden. Verstopfungen durch Essensreste, zu viel Papier u. Ä. sind zu vermeiden. Die Gruppenleiter sollten diesbezüglich ihre Gruppe informieren.<br>In den Duschräumen können die Warmduschen mit Duschmarken / Wert 1 € (an Kasse/Kiosk) für ca. 10 Minuten genutzt werden.",
+            "<strong>§ 6</strong><br>Ab 24 Uhr ist Platzruhe einzuhalten. Um Rücksicht auf Mitcamper wird gebeten. Keine Lärmbelästigung!",
+            "<strong>§ 7</strong><br>Hunde sind im Freibadgelände nicht erlaubt. Auf dem Campingplatz müssen sie angeleint bleiben und dürfen keinen Camper gefährden. Ihr Mitaufenthalt kostet 5 €/Tag.",
+            "<strong>§ 8</strong><br>Im gesamten Bereich des Freibadgeländes haften Eltern oder Betreuer für ihre Kinder."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": 27,
+          "type": "mcq",
+          "text": "Für Hunde ...",
+          "options": [
+            "ist der Aufenthalt im Bereich des Freibads nicht zugelassen.",
+            "ist der Campingplatz nicht vorgesehen.",
+            "muss man einmalig 5 € bezahlen."
+          ],
+          "answer": 0,
+          "num": 27
+        },
+        {
+          "id": 28,
+          "type": "mcq",
+          "text": "Um zu grillen, muss man ...",
+          "options": [
+            "eine neue Feuerstelle bewilligt bekommen.",
+            "an bestimmten Stellen Feuer machen.",
+            "um Erlaubnis bitten."
+          ],
+          "answer": 1,
+          "num": 28
+        },
+        {
+          "id": 29,
+          "type": "mcq",
+          "text": "Die Toiletten ...",
+          "options": [
+            "liegen neben dem Kiosk.",
+            "sollten von den Gruppenleitern sauber gemacht werden.",
+            "haben auch Duschen."
+          ],
+          "answer": 0,
+          "num": 29
+        },
+        {
+          "id": 30,
+          "type": "mcq",
+          "text": "Für die Uferzone gilt:",
+          "options": [
+            "Es gibt dort auch Toiletten.",
+            "Nur dort ist man verpflichtet, die Natur zu schützen.",
+            "Der Aufenthalt dort ist verboten."
+          ],
+          "answer": 2,
+          "num": 30
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Teil 6",
+      "badge": "Hören",
+      "isHoren": true,
+      "time": 40,
+      "instructions": "Modul Hören: 4 Teile, 30 Aufgaben. Klicken Sie auf den Play-Button, um das Audio zu starten. Sie hören die Texte mit den echten Prüfungs-Pausen.",
+      "audioSrc": "audio/modellsatz-19-hoeren.mp3",
+      "audioFallbacks": [
+        "audio/modellsatz-19-hoeren.mp3"
+      ],
+      "audioChapters": [
+        {
+          "time": 0,
+          "start": 0,
+          "end": 35,
+          "label": "00:00 Teil 1 (Beispiel · 2x)",
+          "part": 1,
+          "title": "Teil 1 · Beispiel (2x hören)"
+        },
+        {
+          "time": 35,
+          "start": 35,
+          "end": 845,
+          "label": "00:35 Teil 1 (Texte 1–5 · 2x)",
+          "part": 1,
+          "title": "Teil 1 · Fünf kurze Texte (2x hören)"
+        },
+        {
+          "time": 845,
+          "start": 845,
+          "end": 1170,
+          "label": "14:05 Teil 2 (Swarovskis Kristallwelten · 1x)",
+          "part": 2,
+          "title": "Teil 2 · Führung Kristallwelten Wattens (1x hören)"
+        },
+        {
+          "time": 1170,
+          "start": 1170,
+          "end": 1430,
+          "label": "19:30 Teil 3 (Gespräch: Internetsucht · 1x)",
+          "part": 3,
+          "title": "Teil 3 · Gespräch im Fast-Food-Restaurant (1x hören)"
+        },
+        {
+          "time": 1430,
+          "start": 1430,
+          "end": 1823,
+          "label": "23:50 Teil 4 (Diskussion: Mode · 1. Durchgang)",
+          "part": 4,
+          "title": "Teil 4 · Diskussion über Mode (1. Durchgang)"
+        },
+        {
+          "time": 1823,
+          "start": 1823,
+          "end": 2196,
+          "label": "30:23 Teil 4 (Diskussion: Mode · 2. Durchgang)",
+          "part": 4,
+          "title": "Teil 4 · Diskussion über Mode (2. Durchgang)"
+        }
+      ],
+      "horenSections": [
+        {
+          "id": 1,
+          "partNumber": 1,
+          "title": "Teil 1: Fünf kurze Texte",
+          "badge": "Aufgaben 1 – 10",
+          "intro": "Sie hören nun fünf kurze Texte. Sie hören jeden Text zweimal. Zu jedem Text lösen Sie zwei Aufgaben. Wählen Sie bei jeder Aufgabe die richtige Lösung. Lesen Sie zuerst das Beispiel. Dazu haben Sie 10 Sekunden Zeit.",
+          "example": {
+            "ex01": {
+              "num": "01",
+              "text": "Sie hören ein Reisemagazin über Berlin.",
+              "answer": "falsch",
+              "type": "tf"
+            },
+            "ex02": {
+              "num": "02",
+              "text": "Wann können Sie an einen See fahren?",
+              "options": [
+                "Im Januar.",
+                "Im Oktober.",
+                "Im Dezember."
+              ],
+              "answer": 1,
+              "type": "mcq"
+            }
+          },
+          "questions": [
+            {
+              "id": "h1",
+              "teilPart": 1,
+              "type": "tf",
+              "text": "Sie sind mit dem Kundenservice einer Buchhandlung verbunden.",
+              "answer": "falsch",
+              "num": 1,
+              "textNum": 1,
+              "audioStart": 35
+            },
+            {
+              "id": "h2",
+              "teilPart": 1,
+              "type": "mcq",
+              "text": "Wer Fragen hat, ...",
+              "options": [
+                "soll eine Postkarte schreiben.",
+                "kann auch am Wochenende anrufen.",
+                "kann eine E-Mail schreiben."
+              ],
+              "answer": 2,
+              "num": 2,
+              "textNum": 1,
+              "audioStart": 35
+            },
+            {
+              "id": "h3",
+              "teilPart": 1,
+              "type": "tf",
+              "text": "Der Zug kommt früher.",
+              "answer": "falsch",
+              "num": 3,
+              "textNum": 2,
+              "audioStart": 224
+            },
+            {
+              "id": "h4",
+              "teilPart": 1,
+              "type": "mcq",
+              "text": "Wann kommen die Reisenden in München an?",
+              "options": [
+                "Um 20.00 Uhr.",
+                "Gegen 17.00 Uhr.",
+                "Nach 23.00 Uhr."
+              ],
+              "answer": 2,
+              "num": 4,
+              "textNum": 2,
+              "audioStart": 224
+            },
+            {
+              "id": "h5",
+              "teilPart": 1,
+              "type": "tf",
+              "text": "Es gibt eine Theatervorstellung für Kinder.",
+              "answer": "falsch",
+              "num": 5,
+              "textNum": 3,
+              "audioStart": 377
+            },
+            {
+              "id": "h6",
+              "teilPart": 1,
+              "type": "mcq",
+              "text": "Der Besuch der Veranstaltung ...",
+              "options": [
+                "ist kostenlos.",
+                "kostet für Kinder und Erwachsene gleich viel.",
+                "ist für Erwachsene teurer als für Kinder."
+              ],
+              "answer": 1,
+              "num": 6,
+              "textNum": 3,
+              "audioStart": 377
+            },
+            {
+              "id": "h7",
+              "teilPart": 1,
+              "type": "tf",
+              "text": "Paula ist am Nachmittag nicht zu Hause.",
+              "answer": "richtig",
+              "num": 7,
+              "textNum": 4,
+              "audioStart": 464
+            },
+            {
+              "id": "h8",
+              "teilPart": 1,
+              "type": "mcq",
+              "text": "Wann kann Viola Paula zurückrufen?",
+              "options": [
+                "In den nächsten ein bis zwei Stunden.",
+                "Heute Abend um 20 Uhr.",
+                "Heute Abend zu Hause oder morgen in der Firma."
+              ],
+              "answer": 2,
+              "num": 8,
+              "textNum": 4,
+              "audioStart": 464
+            },
+            {
+              "id": "h9",
+              "teilPart": 1,
+              "type": "tf",
+              "text": "Sie hören Tipps für Einkäufe im Supermarkt.",
+              "answer": "falsch",
+              "num": 9,
+              "textNum": 5,
+              "audioStart": 603
+            },
+            {
+              "id": "h10",
+              "teilPart": 1,
+              "type": "mcq",
+              "text": "An wie vielen Tagen kann man Bioprodukte kaufen?",
+              "options": [
+                "An drei Tagen.",
+                "An zwei Tagen.",
+                "An einem Tag."
+              ],
+              "answer": 1,
+              "num": 10,
+              "textNum": 5,
+              "audioStart": 603
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "partNumber": 2,
+          "title": "Teil 2: Führung Swarovskis Kristallwelten",
+          "badge": "Aufgaben 11 – 15",
+          "intro": "Sie hören nun einen Text. Sie hören den Text einmal. Dazu lösen Sie fünf Aufgaben. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c. Lesen Sie jetzt die Aufgaben 11 bis 15. Dazu haben Sie 60 Sekunden Zeit.",
+          "context": "Sie nehmen an einer Führung in Swarovskis Kristallwelten teil.",
+          "questions": [
+            {
+              "id": "h11",
+              "teilPart": 2,
+              "type": "mcq",
+              "text": "Swarovskis Kristallwelten liegen in ...",
+              "options": [
+                "Innsbruck.",
+                "Wattens.",
+                "Wattenbach."
+              ],
+              "answer": 1,
+              "num": 11,
+              "audioStart": 845
+            },
+            {
+              "id": "h12",
+              "teilPart": 2,
+              "type": "mcq",
+              "text": "Wie viele Mitarbeiter hat Swarovski?",
+              "options": [
+                "5000.",
+                "2000.",
+                "25000."
+              ],
+              "answer": 2,
+              "num": 12,
+              "audioStart": 845
+            },
+            {
+              "id": "h13",
+              "teilPart": 2,
+              "type": "mcq",
+              "text": "Von wem wurden die Räume in Swarovskis Kristallwelten geplant?",
+              "options": [
+                "Von Daniel Swarovski.",
+                "Von Kindern und Enkeln der Familie Swarovski.",
+                "Von einem österreichischen Künstler."
+              ],
+              "answer": 2,
+              "num": 13,
+              "audioStart": 845
+            },
+            {
+              "id": "h14",
+              "teilPart": 2,
+              "type": "mcq",
+              "text": "Wer im Einkaufszentrum Produkte kauft, ...",
+              "options": [
+                "kann sich seine Einkäufe per Post schicken lassen.",
+                "muss in Euro bezahlen.",
+                "muss mit dem Personal sprechen."
+              ],
+              "answer": 0,
+              "num": 14,
+              "audioStart": 845
+            },
+            {
+              "id": "h15",
+              "teilPart": 2,
+              "type": "mcq",
+              "text": "Wer einen Hund hat, ...",
+              "options": [
+                "kann mit ihm im Park spazieren gehen.",
+                "muss sich im Empfangszelt melden.",
+                "kann ihn kostenlos in die Räume mitnehmen."
+              ],
+              "answer": 0,
+              "num": 15,
+              "audioStart": 845
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "partNumber": 3,
+          "title": "Teil 3: Gespräch über Internetsucht",
+          "badge": "Aufgaben 16 – 22",
+          "intro": "Sie hören nun ein Gespräch. Sie hören das Gespräch einmal. Dazu lösen Sie sieben Aufgaben. Wählen Sie: Sind die Aussagen richtig oder falsch? Lesen Sie jetzt die Aufgaben 16 bis 22. Dazu haben Sie 60 Sekunden Zeit.",
+          "context": "Sie sitzen in einem Fast-Food-Restaurant und hören, wie sich drei Jugendliche über jemanden unterhalten, der vom Internet abhängig ist.",
+          "questions": [
+            {
+              "id": "h16",
+              "teilPart": 3,
+              "type": "tf",
+              "text": "Julia ist die Freundin von Erik.",
+              "answer": "falsch",
+              "num": 16,
+              "audioStart": 1170
+            },
+            {
+              "id": "h17",
+              "teilPart": 3,
+              "type": "tf",
+              "text": "Julia ist allein ins Fast-Food-Restaurant gekommen.",
+              "answer": "falsch",
+              "num": 17,
+              "audioStart": 1170
+            },
+            {
+              "id": "h18",
+              "teilPart": 3,
+              "type": "tf",
+              "text": "Erik hat auch nachts am Computer gespielt.",
+              "answer": "richtig",
+              "num": 18,
+              "audioStart": 1170
+            },
+            {
+              "id": "h19",
+              "teilPart": 3,
+              "type": "tf",
+              "text": "Nele ist jetzt die Freundin von Erik.",
+              "answer": "falsch",
+              "num": 19,
+              "audioStart": 1170
+            },
+            {
+              "id": "h20",
+              "teilPart": 3,
+              "type": "tf",
+              "text": "Die Familie wusste nichts von Eriks Problemen mit Nele.",
+              "answer": "richtig",
+              "num": 20,
+              "audioStart": 1170
+            },
+            {
+              "id": "h21",
+              "teilPart": 3,
+              "type": "tf",
+              "text": "Er wollte nicht mit dem Arzt über sein Problem sprechen.",
+              "answer": "falsch",
+              "num": 21,
+              "audioStart": 1170
+            },
+            {
+              "id": "h22",
+              "teilPart": 3,
+              "type": "tf",
+              "text": "Sebastian und Tom wollen Erik helfen.",
+              "answer": "richtig",
+              "num": 22,
+              "audioStart": 1170
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "partNumber": 4,
+          "title": "Teil 4: Diskussion über Mode",
+          "badge": "Aufgaben 23 – 30",
+          "intro": "Sie hören nun eine Diskussion. Sie hören die Diskussion zweimal. Dazu lösen Sie acht Aufgaben. Ordnen Sie die Aussagen zu: Wer sagt was? Lesen Sie jetzt die Aussagen 23 bis 30. Dazu haben Sie 60 Sekunden Zeit.",
+          "context": "Der Moderator der Radiosendung „Aktuelle Themen“ diskutiert mit der Modeberaterin Doris Siebert und der 14-jährigen Schülerin Eva Martins über Mode in unserem Leben.",
+          "example": {
+            "text": "Der Beruf der Modeberaterin ist toll.",
+            "options": [
+              "Moderator",
+              "Doris Siebert",
+              "Eva Martins"
+            ],
+            "answer": 0
+          },
+          "questions": [
+            {
+              "id": "h23",
+              "teilPart": 4,
+              "type": "speaker",
+              "text": "Modeberater informieren die Kunden, wie man Stoffe pflegt.",
+              "options": [
+                "Moderator",
+                "Doris Siebert",
+                "Eva Martins"
+              ],
+              "answer": 1,
+              "num": 23,
+              "audioStart": 1430
+            },
+            {
+              "id": "h24",
+              "teilPart": 4,
+              "type": "speaker",
+              "text": "Nicht alle Jugendlichen achten auf die Mode.",
+              "options": [
+                "Moderator",
+                "Doris Siebert",
+                "Eva Martins"
+              ],
+              "answer": 2,
+              "num": 24,
+              "audioStart": 1430
+            },
+            {
+              "id": "h25",
+              "teilPart": 4,
+              "type": "speaker",
+              "text": "In zu sein, kostet viel.",
+              "options": [
+                "Moderator",
+                "Doris Siebert",
+                "Eva Martins"
+              ],
+              "answer": 0,
+              "num": 25,
+              "audioStart": 1430
+            },
+            {
+              "id": "h26",
+              "teilPart": 4,
+              "type": "speaker",
+              "text": "Für ein modisches Aussehen braucht man nicht unbedingt viel Geld.",
+              "options": [
+                "Moderator",
+                "Doris Siebert",
+                "Eva Martins"
+              ],
+              "answer": 1,
+              "num": 26,
+              "audioStart": 1430
+            },
+            {
+              "id": "h27",
+              "teilPart": 4,
+              "type": "speaker",
+              "text": "Man kann wegen schlechter Qualität Hautprobleme bekommen.",
+              "options": [
+                "Moderator",
+                "Doris Siebert",
+                "Eva Martins"
+              ],
+              "answer": 1,
+              "num": 27,
+              "audioStart": 1430
+            },
+            {
+              "id": "h28",
+              "teilPart": 4,
+              "type": "speaker",
+              "text": "Wer Bio auf der Haut will, muss mehr zahlen.",
+              "options": [
+                "Moderator",
+                "Doris Siebert",
+                "Eva Martins"
+              ],
+              "answer": 1,
+              "num": 28,
+              "audioStart": 1430
+            },
+            {
+              "id": "h29",
+              "teilPart": 4,
+              "type": "speaker",
+              "text": "Kritik an dem Aussehen von Jugendlichen ist nicht selten.",
+              "options": [
+                "Moderator",
+                "Doris Siebert",
+                "Eva Martins"
+              ],
+              "answer": 0,
+              "num": 29,
+              "audioStart": 1430
+            },
+            {
+              "id": "h30",
+              "teilPart": 4,
+              "type": "speaker",
+              "text": "So ein Verhalten ist zu erwarten.",
+              "options": [
+                "Moderator",
+                "Doris Siebert",
+                "Eva Martins"
+              ],
+              "answer": 1,
+              "num": 30,
+              "audioStart": 1430
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "h1",
+          "teilPart": 1,
+          "type": "tf",
+          "text": "Sie sind mit dem Kundenservice einer Buchhandlung verbunden.",
+          "answer": "falsch",
+          "num": 1,
+          "textNum": 1,
+          "audioStart": 35
+        },
+        {
+          "id": "h2",
+          "teilPart": 1,
+          "type": "mcq",
+          "text": "Wer Fragen hat, ...",
+          "options": [
+            "soll eine Postkarte schreiben.",
+            "kann auch am Wochenende anrufen.",
+            "kann eine E-Mail schreiben."
+          ],
+          "answer": 2,
+          "num": 2,
+          "textNum": 1,
+          "audioStart": 35
+        },
+        {
+          "id": "h3",
+          "teilPart": 1,
+          "type": "tf",
+          "text": "Der Zug kommt früher.",
+          "answer": "falsch",
+          "num": 3,
+          "textNum": 2,
+          "audioStart": 224
+        },
+        {
+          "id": "h4",
+          "teilPart": 1,
+          "type": "mcq",
+          "text": "Wann kommen die Reisenden in München an?",
+          "options": [
+            "Um 20.00 Uhr.",
+            "Gegen 17.00 Uhr.",
+            "Nach 23.00 Uhr."
+          ],
+          "answer": 2,
+          "num": 4,
+          "textNum": 2,
+          "audioStart": 224
+        },
+        {
+          "id": "h5",
+          "teilPart": 1,
+          "type": "tf",
+          "text": "Es gibt eine Theatervorstellung für Kinder.",
+          "answer": "falsch",
+          "num": 5,
+          "textNum": 3,
+          "audioStart": 377
+        },
+        {
+          "id": "h6",
+          "teilPart": 1,
+          "type": "mcq",
+          "text": "Der Besuch der Veranstaltung ...",
+          "options": [
+            "ist kostenlos.",
+            "kostet für Kinder und Erwachsene gleich viel.",
+            "ist für Erwachsene teurer als für Kinder."
+          ],
+          "answer": 1,
+          "num": 6,
+          "textNum": 3,
+          "audioStart": 377
+        },
+        {
+          "id": "h7",
+          "teilPart": 1,
+          "type": "tf",
+          "text": "Paula ist am Nachmittag nicht zu Hause.",
+          "answer": "richtig",
+          "num": 7,
+          "textNum": 4,
+          "audioStart": 464
+        },
+        {
+          "id": "h8",
+          "teilPart": 1,
+          "type": "mcq",
+          "text": "Wann kann Viola Paula zurückrufen?",
+          "options": [
+            "In den nächsten ein bis zwei Stunden.",
+            "Heute Abend um 20 Uhr.",
+            "Heute Abend zu Hause oder morgen in der Firma."
+          ],
+          "answer": 2,
+          "num": 8,
+          "textNum": 4,
+          "audioStart": 464
+        },
+        {
+          "id": "h9",
+          "teilPart": 1,
+          "type": "tf",
+          "text": "Sie hören Tipps für Einkäufe im Supermarkt.",
+          "answer": "falsch",
+          "num": 9,
+          "textNum": 5,
+          "audioStart": 603
+        },
+        {
+          "id": "h10",
+          "teilPart": 1,
+          "type": "mcq",
+          "text": "An wie vielen Tagen kann man Bioprodukte kaufen?",
+          "options": [
+            "An drei Tagen.",
+            "An zwei Tagen.",
+            "An einem Tag."
+          ],
+          "answer": 1,
+          "num": 10,
+          "textNum": 5,
+          "audioStart": 603
+        },
+        {
+          "id": "h11",
+          "teilPart": 2,
+          "type": "mcq",
+          "text": "Swarovskis Kristallwelten liegen in ...",
+          "options": [
+            "Innsbruck.",
+            "Wattens.",
+            "Wattenbach."
+          ],
+          "answer": 1,
+          "num": 11,
+          "audioStart": 845
+        },
+        {
+          "id": "h12",
+          "teilPart": 2,
+          "type": "mcq",
+          "text": "Wie viele Mitarbeiter hat Swarovski?",
+          "options": [
+            "5000.",
+            "2000.",
+            "25000."
+          ],
+          "answer": 2,
+          "num": 12,
+          "audioStart": 845
+        },
+        {
+          "id": "h13",
+          "teilPart": 2,
+          "type": "mcq",
+          "text": "Von wem wurden die Räume in Swarovskis Kristallwelten geplant?",
+          "options": [
+            "Von Daniel Swarovski.",
+            "Von Kindern und Enkeln der Familie Swarovski.",
+            "Von einem österreichischen Künstler."
+          ],
+          "answer": 2,
+          "num": 13,
+          "audioStart": 845
+        },
+        {
+          "id": "h14",
+          "teilPart": 2,
+          "type": "mcq",
+          "text": "Wer im Einkaufszentrum Produkte kauft, ...",
+          "options": [
+            "kann sich seine Einkäufe per Post schicken lassen.",
+            "muss in Euro bezahlen.",
+            "muss mit dem Personal sprechen."
+          ],
+          "answer": 0,
+          "num": 14,
+          "audioStart": 845
+        },
+        {
+          "id": "h15",
+          "teilPart": 2,
+          "type": "mcq",
+          "text": "Wer einen Hund hat, ...",
+          "options": [
+            "kann mit ihm im Park spazieren gehen.",
+            "muss sich im Empfangszelt melden.",
+            "kann ihn kostenlos in die Räume mitnehmen."
+          ],
+          "answer": 0,
+          "num": 15,
+          "audioStart": 845
+        },
+        {
+          "id": "h16",
+          "teilPart": 3,
+          "type": "tf",
+          "text": "Julia ist die Freundin von Erik.",
+          "answer": "falsch",
+          "num": 16,
+          "audioStart": 1170
+        },
+        {
+          "id": "h17",
+          "teilPart": 3,
+          "type": "tf",
+          "text": "Julia ist allein ins Fast-Food-Restaurant gekommen.",
+          "answer": "falsch",
+          "num": 17,
+          "audioStart": 1170
+        },
+        {
+          "id": "h18",
+          "teilPart": 3,
+          "type": "tf",
+          "text": "Erik hat auch nachts am Computer gespielt.",
+          "answer": "richtig",
+          "num": 18,
+          "audioStart": 1170
+        },
+        {
+          "id": "h19",
+          "teilPart": 3,
+          "type": "tf",
+          "text": "Nele ist jetzt die Freundin von Erik.",
+          "answer": "falsch",
+          "num": 19,
+          "audioStart": 1170
+        },
+        {
+          "id": "h20",
+          "teilPart": 3,
+          "type": "tf",
+          "text": "Die Familie wusste nichts von Eriks Problemen mit Nele.",
+          "answer": "richtig",
+          "num": 20,
+          "audioStart": 1170
+        },
+        {
+          "id": "h21",
+          "teilPart": 3,
+          "type": "tf",
+          "text": "Er wollte nicht mit dem Arzt über sein Problem sprechen.",
+          "answer": "falsch",
+          "num": 21,
+          "audioStart": 1170
+        },
+        {
+          "id": "h22",
+          "teilPart": 3,
+          "type": "tf",
+          "text": "Sebastian und Tom wollen Erik helfen.",
+          "answer": "richtig",
+          "num": 22,
+          "audioStart": 1170
+        },
+        {
+          "id": "h23",
+          "teilPart": 4,
+          "type": "speaker",
+          "text": "Modeberater informieren die Kunden, wie man Stoffe pflegt.",
+          "options": [
+            "Moderator",
+            "Doris Siebert",
+            "Eva Martins"
+          ],
+          "answer": 1,
+          "num": 23,
+          "audioStart": 1430
+        },
+        {
+          "id": "h24",
+          "teilPart": 4,
+          "type": "speaker",
+          "text": "Nicht alle Jugendlichen achten auf die Mode.",
+          "options": [
+            "Moderator",
+            "Doris Siebert",
+            "Eva Martins"
+          ],
+          "answer": 2,
+          "num": 24,
+          "audioStart": 1430
+        },
+        {
+          "id": "h25",
+          "teilPart": 4,
+          "type": "speaker",
+          "text": "In zu sein, kostet viel.",
+          "options": [
+            "Moderator",
+            "Doris Siebert",
+            "Eva Martins"
+          ],
+          "answer": 0,
+          "num": 25,
+          "audioStart": 1430
+        },
+        {
+          "id": "h26",
+          "teilPart": 4,
+          "type": "speaker",
+          "text": "Für ein modisches Aussehen braucht man nicht unbedingt viel Geld.",
+          "options": [
+            "Moderator",
+            "Doris Siebert",
+            "Eva Martins"
+          ],
+          "answer": 1,
+          "num": 26,
+          "audioStart": 1430
+        },
+        {
+          "id": "h27",
+          "teilPart": 4,
+          "type": "speaker",
+          "text": "Man kann wegen schlechter Qualität Hautprobleme bekommen.",
+          "options": [
+            "Moderator",
+            "Doris Siebert",
+            "Eva Martins"
+          ],
+          "answer": 1,
+          "num": 27,
+          "audioStart": 1430
+        },
+        {
+          "id": "h28",
+          "teilPart": 4,
+          "type": "speaker",
+          "text": "Wer Bio auf der Haut will, muss mehr zahlen.",
+          "options": [
+            "Moderator",
+            "Doris Siebert",
+            "Eva Martins"
+          ],
+          "answer": 1,
+          "num": 28,
+          "audioStart": 1430
+        },
+        {
+          "id": "h29",
+          "teilPart": 4,
+          "type": "speaker",
+          "text": "Kritik an dem Aussehen von Jugendlichen ist nicht selten.",
+          "options": [
+            "Moderator",
+            "Doris Siebert",
+            "Eva Martins"
+          ],
+          "answer": 0,
+          "num": 29,
+          "audioStart": 1430
+        },
+        {
+          "id": "h30",
+          "teilPart": 4,
+          "type": "speaker",
+          "text": "So ein Verhalten ist zu erwarten.",
+          "options": [
+            "Moderator",
+            "Doris Siebert",
+            "Eva Martins"
+          ],
+          "answer": 1,
+          "num": 30,
+          "audioStart": 1430
+        }
+      ]
+    }
+  ],
+  "explanations": {
+    "1": {
+      "quote": "Als wir so ca. gegen 8 Uhr vor der Thüringenhalle ankamen... Eine Dreiviertelstunde vor dem offiziellen Einlass (es war 16.45 Uhr) durften wir in die Halle.",
+      "whyCorrect": {
+        "de": "Aussage 1 ist RICHTIG: Kiara kam gegen 8 Uhr morgens an und durfte erst um 16.45 Uhr in die Halle, musste also fast 9 Stunden warten.",
+        "ar": "العبارة 1 صحيحة: وصلت كيارا حوالي الساعة الثامنة صباحاً ولم يُسمح لها بالدخول إلا في تمام الساعة 16:45، أي أنها انتظرت نحو 9 ساعات.",
+        "fr": "L'énoncé 1 est VRAI : Kiara est arrivée vers 8 h du matin et n'a pu entrer qu'à 16 h 45, attendant ainsi près de 9 heures."
+      },
+      "whyIncorrect": {
+        "de": "Die Wartezeit von 8 Uhr bis 16.45 Uhr vor der Halle war sehr lang.",
+        "ar": "كانت فترة الانتظار أمام القاعة طويلة جداً من الصباح الباكر حتى العصر.",
+        "fr": "La période d'attente devant la salle était effectivement très longue."
+      }
+    },
+    "2": {
+      "quote": "Nach endlosen Stunden Warten, es war ungefähr um 12, kamen einige Fernsehteams und fragten uns, wen wir am besten finden, wie lange wir schon stehen usw.",
+      "whyCorrect": {
+        "de": "Aussage 2 ist FALSCH: Die Fernsehreporter interviewten Kiara und die anderen wartenden Fans („uns“), nicht die Bandmitglieder.",
+        "ar": "العبارة 2 خاطئة: فرق التلفزيون أجرت مقابلات مع المعجبين المنتظرين («نحن»)، وليس مع أعضاء الفرقة الموسيقية.",
+        "fr": "L'énoncé 2 est FAUX : Les équipes de télévision ont interrogé les fans qui faisaient la queue (« nous ») et non le groupe lui-même."
+      },
+      "whyIncorrect": {
+        "de": "Die Reporter stellten den Fans in der Schlange Fragen.",
+        "ar": "وجّه المراسلون أسئلتهم إلى الجمهور المصطف في طابور الانتظار.",
+        "fr": "Les journalistes ont questionné le public présent dans la file."
+      }
+    },
+    "3": {
+      "quote": "Meine Freundin und ich rannten sofort zur Bühne und standen schließlich direkt davor.",
+      "whyCorrect": {
+        "de": "Aussage 3 ist RICHTIG: Die beiden Mädchen rannten direkt zur Bühne und sicherten sich Plätze ganz vorne in der ersten Reihe.",
+        "ar": "العبارة 3 صحيحة: ركضت الفتاتان مباشرة صوب المسرح ووقفتا أمامه تماماً في الصف الأول.",
+        "fr": "L'énoncé 3 est VRAI : Les deux amies ont couru vers la scène et se sont installées tout devant au premier rang."
+      },
+      "whyIncorrect": {
+        "de": "Sie standen direkt vor der Bühne im ersten Block.",
+        "ar": "تمكنت كيارا وصديقتها من الوقوف مباشرة أمام المسرح.",
+        "fr": "Elles ont réussi à se placer juste devant la scène."
+      }
+    },
+    "4": {
+      "quote": "In der Halle wurde es dunkel. Alle schrien. Jetzt kamen die Jungs. Als Tom anfing zu spielen, gab es kein Halten mehr. Die Stimmung war einfach nur Wahnsinn!!",
+      "whyCorrect": {
+        "de": "Aussage 4 ist FALSCH: Das Publikum schrie vor Freude und Begeisterung über den Beginn des Konzerts, nicht vor Angst.",
+        "ar": "العبارة 4 خاطئة: صرخ الجميع من شدة الفرح والحماس لبدء الحفل الموسيقي، وليس بدافع الخوف.",
+        "fr": "L'énoncé 4 est FAUX : Tout le monde criait d'euphorie et d'enthousiasme à l'entrée du groupe, absolument pas de peur."
+      },
+      "whyIncorrect": {
+        "de": "Die Schreie drückten Fan-Begeisterung aus.",
+        "ar": "الصراخ كان تعبيراً عن حماس وهتاف المعجبين.",
+        "fr": "Les cris exprimaient l'excitation et la joie des admirateurs."
+      }
+    },
+    "5": {
+      "quote": "Dann, als Bill auf die Bühne kam, wurde noch lauter geschrien.",
+      "whyCorrect": {
+        "de": "Aussage 5 ist FALSCH: Die Fans im Saal schrien noch lauter, als Bill erschien. Bill selbst hat nicht am lautesten geschrien.",
+        "ar": "العبارة 5 خاطئة: تعالت صيحات الجمهور وهتافاتهم بصوت أعلى عند ظهور بيل، ولم يكن بيل هو من يصرخ.",
+        "fr": "L'énoncé 5 est FAUX : C'est la foule qui a crié encore plus fort à l'apparition de Bill, et non Bill lui-même."
+      },
+      "whyIncorrect": {
+        "de": "Die Fans schrien lauter, nicht der Sänger Bill.",
+        "ar": "الجمهور هو من صرخ بحماس أكبر لدى صعود بيل للمسرح.",
+        "fr": "Le public criait plus fort pour saluer l'arrivée du chanteur."
+      }
+    },
+    "6": {
+      "quote": "Als das Konzert zu Ende war, kamen sie alle nach vorne und fassten uns an. Ja, geschafft! Ich hab die Hände von allen Vieren berührt.",
+      "whyCorrect": {
+        "de": "Aussage 6 ist RICHTIG: Alle vier Bandmitglieder kamen nach vorne und Kiara konnte ihnen die Hand geben.",
+        "ar": "العبارة 6 صحيحة: تقدم جميع أعضاء الفرقة للأمام ولمسوا أيدي المعجبين، وتمكنت كيارا من مصافحة الأربعة جميعاً.",
+        "fr": "L'énoncé 6 est VRAI : Les musiciens sont venus saluer les spectateurs du premier rang et Kiara a touché la main des quatre membres."
+      },
+      "whyIncorrect": {
+        "de": "Kiara hat die Hände aller Bandmitglieder berührt.",
+        "ar": "لمست كيارا بالفعل أيدي جميع أفراد الفرقة بعد انتهاء الحفل.",
+        "fr": "Kiara a bien pu serrer la main des membres du groupe."
+      }
+    },
+    "7": {
+      "quote": "Wer Mensch, Hund und Katze beim Schlafen beobachtet, stellt gewisse Ähnlichkeiten fest... Träumen Tiere also? ... Deshalb zweifelt man immer noch daran, ob Tiere wirklich wie die Menschen träumen.",
+      "whyCorrect": {
+        "de": "Lösung a ist richtig: Der gesamte Artikel widmet sich der Kernfrage, ob Tiere ähnlich wie Menschen träumen können.",
+        "ar": "الخيار a هو الصحيح: يتمحور المقال بأكمله حول التساؤل عما إذا كانت الحيوانات تحلم مثل البشر.",
+        "fr": "L'option a est correcte : L'article traite principalement de la question de savoir si les animaux rêvent comme les humains."
+      },
+      "whyIncorrect": {
+        "de": "Es geht weder um die Schlafqualität noch um den Zweck der REM-Phase.",
+        "ar": "لا يناقش النص جودة نوم الحيوانات ولا أسباب نشأة مرحلة حركة العين السريعة.",
+        "fr": "Le sujet n'est ni la qualité du sommeil animal ni la finalité biologique du sommeil paradoxal."
+      }
+    },
+    "8": {
+      "quote": "Weckt man Menschen in der Schlafphase, in der sich die Muskeln kaum bewegen und nur die Augen aktiv sind, während des sogenannten „Rapid Eye Movement“-Schlafes oder der REM-Phase...",
+      "whyCorrect": {
+        "de": "Lösung b ist richtig: In der REM-Phase bewegen sich die Augen der Schlafenden rasch, während die restliche Muskulatur ruhig bleibt.",
+        "ar": "الخيار b هو الصحيح: في مرحلة النوم هذه، تتحرك العينان بسرعة بينما تكاد عضلات الجسم الأخرى لا تتحرك.",
+        "fr": "L'option b est correcte : Pendant la phase de sommeil paradoxal (REM), les yeux bougent activement tandis que les muscles sont immobiles."
+      },
+      "whyIncorrect": {
+        "de": "Die Muskeln bewegen sich kaum, also bewegen sich nicht alle Körperteile.",
+        "ar": "عضلات الجسم لا تتحرك في هذه المرحلة باستثناء العينين.",
+        "fr": "Seuls les yeux s'activent, le reste du corps restant presque immobile."
+      }
+    },
+    "9": {
+      "quote": "Als sicher gilt: Hunde, Katzen oder Gorillas verbringen zwischen 10 und 25 Prozent ihrer Ruhezeit im REM-Schlaf – genauso viel wie der Mensch.",
+      "whyCorrect": {
+        "de": "Lösung b ist richtig: Gorillas verbringen mit 10 bis 25 Prozent ihrer Schlafzeit anteilig genau so viel im REM-Schlaf wie Menschen.",
+        "ar": "الخيار b هو الصحيح: تقضي الغوريلا ما بين 10 و25 بالمائة من وقت نومها في مرحلة حركة العين السريعة، وهي نفس النسبة المئوية لدى الإنسان.",
+        "fr": "L'option b est correcte : Les gorilles passent proportionnellement autant de temps en phase REM que l'homme (entre 10 et 25 %)."
+      },
+      "whyIncorrect": {
+        "de": "Gorillas schlafen nicht unruhiger und lassen sich sehr wohl untersuchen.",
+        "ar": "نوم الغوريلا ليس أكثر اضطراباً، وقد تمكن العلماء من فحصها وملاحظتها.",
+        "fr": "Le texte n'affirme ni qu'ils dorment plus mal ni qu'il est impossible de les étudier."
+      }
+    },
+    "10": {
+      "quote": "In einer Gesamtschule in Oulu nördlich von Helsinki haben Wissenschaftler und Lehrer kürzlich einen heißen Test mit ihren Schülern gemacht... Das Sitzen in der Sauna regt den Kreislauf und die Durchblutung an, dadurch steigt dann die Konzentrationsfähigkeit.",
+      "whyCorrect": {
+        "de": "Lösung b ist richtig: Der Bericht schildert die positiven Auswirkungen des morgendlichen Saunabadens auf Konzentration und Lernerfolg von Schülern.",
+        "ar": "الخيار b هو الصحيح: يوضح المقال تأثير حمام الساونا الإيجابي على نشاط الدورة الدموية وتركيز التلاميذ والنتائج المدرسية.",
+        "fr": "L'option b est correcte : L'article détaille les effets bénéfiques du sauna sur la concentration et les résultats des élèves."
+      },
+      "whyIncorrect": {
+        "de": "Es geht um die experimentelle Wirkung des Saunierens, nicht um allgemeine Vorlieben oder finnische Noten allgemein.",
+        "ar": "الموضوع لا يتحدث عن حب الطلاب للساونا بل عن التجربة العلمية لقياس أثرها.",
+        "fr": "Le texte se focalise sur l'expérience scientifique et ses répercussions sur l'attention des élèves."
+      }
+    },
+    "11": {
+      "quote": "Das Sitzen in der Sauna regt den Kreislauf und die Durchblutung an, dadurch steigt dann die Konzentrationsfähigkeit.",
+      "whyCorrect": {
+        "de": "Lösung a ist richtig: Durch die angeregte Durchblutung verbesserte sich die Konzentrationsfähigkeit der Schüler.",
+        "ar": "الخيار a هو الصحيح: زادت قدرة الطلاب على التركيز بعد حمام الساونا بسبب تنشيط الدورة الدموية.",
+        "fr": "L'option a est correcte : La stimulation de la circulation sanguine a nettement amélioré la concentration des élèves."
+      },
+      "whyIncorrect": {
+        "de": "Die Verweildauer betrug je nach Schüler 10 bis 15 Minuten, nicht mindestens 15 Minuten.",
+        "ar": "مكث التلاميذ من 10 إلى 15 دقيقة فقط حسب طاقتهم، وليس 15 دقيقة على الأقل.",
+        "fr": "La durée était de 10 à 15 minutes selon les enfants, et non d'au moins 15 minutes."
+      }
+    },
+    "12": {
+      "quote": "...denn 314 der 340 Schüler, die an dem sechsmonatigen Versuch teilgenommen hatten, konnten ihre Noten deutlich verbessern!",
+      "whyCorrect": {
+        "de": "Lösung c ist richtig: Der Versuch dauerte sechs Monate, was genau einem halben Jahr entspricht.",
+        "ar": "الخيار c هو الصحيح: استمرت التجربة المدرسية ستة أشهر، وهو ما يعادل تماماً نصف عام.",
+        "fr": "L'option c est correcte : L'expérimentation s'est étendue sur six mois, c'est-à-dire une demi-année."
+      },
+      "whyIncorrect": {
+        "de": "Die Noten verbesserten sich deutlich (sogar um eine ganze Note), nicht nur wenig.",
+        "ar": "تحسنت درجات الطلاب بشكل ملحوظ ولم يكن التأثير طفيفاً.",
+        "fr": "Les notes ont progressé de manière très sensible, parfois d'une note entière."
+      }
+    },
+    "13": {
+      "quote": "j: Mini-Lernkreis ... spezifisches Training für Kinder mit Rechtschreibschwierigkeiten, Rechen- und Konzentrationsschwäche.",
+      "whyCorrect": {
+        "de": "Anzeige j passt: Ferdinand hat Konzentrationsprobleme, und der Mini-Lernkreis bietet gezieltes Training bei Konzentrationsschwäche.",
+        "ar": "الإعلان j مناسب: يعاني فرديناند من ضعف التركيز، ومعهد ميني-ليرنكرايس يقدم تدريباً خاصاً لعلاج ضعف التركيز.",
+        "fr": "L'annonce j convient : Ferdinand a des soucis de concentration, et le centre Mini-Lernkreis propose un entraînement spécialisé."
+      },
+      "whyIncorrect": {
+        "de": "Andere Anzeigen bieten Standardunterricht oder Sprachen, aber kein Konzentrationstraining.",
+        "ar": "الإعلانات الأخرى لا تقدم برامج علاجية مخصصة لمشاكل تشتت الذهن.",
+        "fr": "Les autres annonces offrent du soutien classique sans cibler les troubles de la concentration."
+      }
+    },
+    "14": {
+      "quote": "f: Hausaufgabenbetreuung im Hause des DKSB ... Alle unsere Angebote sind kostenlos",
+      "whyCorrect": {
+        "de": "Anzeige f passt: Der Deutsche Kinderschutzbund bietet Hausaufgabenbetreuung komplett kostenlos an, was perfekt für die finanzielle Lage von Frau Beisle ist.",
+        "ar": "الإعلان f مناسب: يقدم اتحاد حماية الأطفال رعاية مجانية تماماً للواجبات المدرسية، وهو ما يناسب دخل السيدة بايزله.",
+        "fr": "L'annonce f convient : La fédération de protection de l'enfance propose une aide aux devoirs entièrement gratuite."
+      },
+      "whyIncorrect": {
+        "de": "Kommerzielle Nachhilfeinstitute kosten Geld, das sich Frau Beisle nicht leisten kann.",
+        "ar": "معاهد التدريس الخاصة تتقاضى رسوماً لا تستطيع السيدة دفعها.",
+        "fr": "Les autres organismes de soutien sont payants, ce que cette maman ne peut s'offrir."
+      }
+    },
+    "15": {
+      "quote": "h: Der PLÖTZ-Schulführer stellt alle Schulen der Stadt mit kurzen Porträts dar, gibt Tipps zu Schultypen und Schulreform, hilft Eltern, die richtige Entscheidung zu treffen",
+      "whyCorrect": {
+        "de": "Anzeige h passt: Der Ratgeber vergleicht die verschiedenen Schultypen und unterstützt Eltern bei der Wahl zwischen Realschule und Gymnasium.",
+        "ar": "الإعلان h مناسب: يقدم دليل بلوتس المدرسي معلومات شاملة عن مختلف أنواع المدارس لمساعدة الأولياء في اتخاذ القرار المناسب.",
+        "fr": "L'annonce h convient : Ce guide des écoles présente les différentes filières et aide les parents à orienter leur enfant."
+      },
+      "whyIncorrect": {
+        "de": "Kein Nachhilfeunterricht gesucht, sondern Orientierungshilfe bei der Schulwahl.",
+        "ar": "تبحث الأسرة عن دليل يوجهها في اختيار نوع المدرسة وليس عن حصص دعم.",
+        "fr": "La famille cherche des conseils d'orientation scolaire et non des cours particuliers."
+      }
+    },
+    "16": {
+      "quote": "d: Wir bieten Einzelnachhilfe zu Hause für Gymnasium ... in Deutsch, alten und modernen Fremdsprachen",
+      "whyCorrect": {
+        "de": "Lösung 0 ist richtig: Alexander sucht Hausunterricht in Chemie und Physik. Anzeige d bietet zwar Hausunterricht, aber nur für Sprachen. Eine Anzeige für Naturwissenschaften daheim gibt es nicht.",
+        "ar": "الحل 0 هو الصحيح: يبحث ألكسندر عن مدرس كيمياء وفيزياء يأتي لمنزله؛ بينما الإعلان d يقدم حصصاً منزلية في اللغات فقط. لا يوجد إعلان يطابق طلبه.",
+        "fr": "La réponse 0 est correcte : Alexandre cherche un professeur à domicile pour la chimie et la physique ; or l'annonce d ne propose que les langues. Aucune annonce ne correspond."
+      },
+      "whyIncorrect": {
+        "de": "Keine passende Anzeige für Hausunterricht in Chemie und Physik vorhanden.",
+        "ar": "لا توجد أي إعلانات تلبي احتياجه في مادتَي الكيمياء والفيزياء بالمنزل.",
+        "fr": "Aucune annonce ne répond à sa double exigence de matières scientifiques et de cours à domicile."
+      }
+    },
+    "17": {
+      "quote": "e: Schülerhilfe Bern sucht Nachhilfelehrer/in (mit abgeschl. Studium) für Mathematik und Latein.",
+      "whyCorrect": {
+        "de": "Anzeige e passt: Schülerhilfe Bern sucht Lehrkräfte mit abgeschlossenem Studium für Mathematik, was genau auf Corinnas Profil zutrifft.",
+        "ar": "الإعلان e مناسب: تبحث مؤسسة شولرهيلفه في برن عن معلمين جامعيين متخصصين في الرياضيات واللاتينية، وهو ما يلائم مؤهل كورينا تماماً.",
+        "fr": "L'annonce e convient : Cet organisme de Bern recherche des enseignants diplômés en mathématiques, profil exact de Corinna."
+      },
+      "whyIncorrect": {
+        "de": "Anzeige c sucht Schülerinnen oder Studentinnen für Latein/Mathe, während Corinna ihr Studium bereits abgeschlossen hat.",
+        "ar": "الإعلان c يطلب طالبة غير متخرجة، بينما تملك كورينا شهادة جامعية وتبحث عن عمل في معهد.",
+        "fr": "L'annonce c cherche une étudiante en cours d'études, alors que Corinna a déjà son diplôme."
+      }
+    },
+    "18": {
+      "quote": "g: Einfach gute Noten! Profi-Nachhilfe für alle Klassen und Schultypen. TÜV-geprüfte Qualität.",
+      "whyCorrect": {
+        "de": "Anzeige g passt: Markus legt Wert auf verlässliche Lehrqualität; das Institut wirbt mit TÜV-geprüfter Qualität und professioneller Nachhilfe.",
+        "ar": "الإعلان g مناسب: يريد ماركوس التأكد من كفاءة المعلمين وطرق شرحهم، والمعهد يبرز اعتماده بجودة معترف بها من هيئة الفحص الفني TÜV.",
+        "fr": "L'annonce g convient : Markus souhaite vérifier la pédagogie des professeurs ; ce centre met en avant sa qualité certifiée par le TÜV."
+      },
+      "whyIncorrect": {
+        "de": "Die TÜV-Zertifizierung bürgt für geprüfte Standards bei Unterricht und Lehrkräften.",
+        "ar": "شهادة الجودة TÜV تضمن التدريس الاحترافي وكفاءة الطاقم التعليمي.",
+        "fr": "La mention d'une qualité certifiée répond au besoin d'assurance pédagogique de Markus."
+      }
+    },
+    "19": {
+      "quote": "b: Mathematik, Intelligentes Lernen, Klasse 9-12. 1 CD-ROM, von: S.A.E. Mit dieser Software schaffst du Mathe problemlos",
+      "whyCorrect": {
+        "de": "Anzeige b passt: Lena sucht eine Software für Klasse 9 in Mathematik; die CD-ROM deckt genau die Klassen 9 bis 12 ab.",
+        "ar": "الإعلان b مناسب: تبحث لينا عن برنامج حاسوبي لمساعدتها في رياضيات الصف التاسع، وهذا القرص المدمج مخصص لصفوف 9-12.",
+        "fr": "L'annonce b convient : Léna cherche un logiciel pour les maths en 9e classe ; le CD-ROM couvre spécifiquement le programme de la 9e à la 12e."
+      },
+      "whyIncorrect": {
+        "de": "Anzeige b ist die einzige Anzeige für Lernsoftware / Computerprogramme im Fach Mathematik.",
+        "ar": "هذا الإعلان هو الوحيد الذي يقدم برمجيات تعليمية رقمية في الرياضيات.",
+        "fr": "C'est la seule annonce proposant un support logiciel pour l'apprentissage des mathématiques."
+      }
+    },
+    "20": {
+      "quote": "Angela: Natürlich habe ich eine Meinung dazu, denn ich bin ein Einzelkind. Ich kann mir keine schönere Form der Kindheit und des Familienlebens vorstellen... reif und vernünftig zu werden.",
+      "whyCorrect": {
+        "de": "Antwort JA ist richtig: Angela erlebte ihre Kindheit als Einzelkind als die schönste Form des Familienlebens und betont die Harmonie und frühe Reife.",
+        "ar": "الإجابة «نعم» صحيحة: ترى أنجيلا أن طفولتها كطفلة وحيدة كانت أروع أشكال الحياة الأسرية وأنها ساعدتها على النضج.",
+        "fr": "La réponse OUI est correcte : Angela considère sa condition d'enfant unique comme la plus belle forme d'enfance et de vie familiale."
+      },
+      "whyIncorrect": {
+        "de": "Sie befürwortet das Aufwachsen als Einzelkind eindeutig.",
+        "ar": "تؤيد أنجيلا بوضوح نشأة الطفل وحيداً في الأسرة.",
+        "fr": "Elle défend ouvertement les mérites d'une enfance sans frères et sœurs."
+      }
+    },
+    "21": {
+      "quote": "Frank: Ich war jahrelang allein... Ich vermisse es immer noch, dass meine Mutter mal länger nur für mich Zeit hat... Die Freude darüber, nicht allein zu sein, ist bei mir nicht so gross.",
+      "whyCorrect": {
+        "de": "Antwort JA ist richtig: Frank fand seine frühere Zeit als Einzelkind schöner und vermisst die ungeteilte Aufmerksamkeit der Mutter.",
+        "ar": "الإجابة «نعم» صحيحة: يفضل فرانك الفترة التي كان فيها طفلاً وحيداً ويفتقد تخصيص والدته كامل وقتها له دون مشاركة إخوته غير الأشقاء.",
+        "fr": "La réponse OUI est correcte : Frank regrette l'époque où il était seul avec sa mère et estime que les enfants uniques ont une meilleure situation."
+      },
+      "whyIncorrect": {
+        "de": "Er freut sich nicht über Geschwister und empfindet das Teilen als Belastung.",
+        "ar": "لا يشعر فرانك بسعادة بوجود إخوة يتقاسمون معه أوقات والدته وأغراضه.",
+        "fr": "Il ne voit pas d'un bon œil le partage obligatoire de son espace et de ses affaires."
+      }
+    },
+    "22": {
+      "quote": "Zoe: Man muss nur an diese Einsamkeit bei Familienurlauben oder -festen denken... Allein zu sein ist immer negativ.",
+      "whyCorrect": {
+        "de": "Antwort NEIN ist richtig: Zoe hält das Alleinsein für durchweg negativ und betont, wie wichtig Geschwister gegen die Einsamkeit sind.",
+        "ar": "الإجابة «لا» صحيحة: ترى زوي أن الوحدة أمر سلبي دائماً وتعتبر أن وجود إخوة يحمي من العزلة في الرحلات والمناسبات.",
+        "fr": "La réponse NON est correcte : Zoé considère que la solitude est toujours négative et que grandir sans frères et sœurs est un désavantage."
+      },
+      "whyIncorrect": {
+        "de": "Zoe sieht im Einzelkind-Dasein vor allem Einsamkeit.",
+        "ar": "تربط زوي صفة الطفل الوحيد بالعزلة والوحدة السلبية.",
+        "fr": "Pour Zoé, l'enfant unique souffre d'un manque de compagnie évident."
+      }
+    },
+    "23": {
+      "quote": "Nikolaus: Sollten die gemeinsamen Eltern Pflege brauchen, kann man sich diese Aufgabe teilen... All das hat ein Einzelkind nicht.",
+      "whyCorrect": {
+        "de": "Antwort NEIN ist richtig: Nikolaus hebt hervor, dass Geschwister im Erwachsenenalter unverzichtbar sind, etwa bei der Pflege der Eltern.",
+        "ar": "الإجابة «لا» صحيحة: يرى نيكولاوس أن الإخوة سند عظيم في مرحلة البلوغ للمساعدة في رعاية الوالدين، وهو ما يفتقر إليه الطفل الوحيد.",
+        "fr": "La réponse NON est correcte : Nikolaus souligne l'importance vitale des frères et sœurs à l'âge adulte, notamment pour épauler les parents vieillissants."
+      },
+      "whyIncorrect": {
+        "de": "Nikolaus sieht deutliche Nachteile für Einzelkinder im späteren Leben.",
+        "ar": "يؤكد نيكولاوس أن الطفل الوحيد يتحمل أعباء ثقيلة بمفرده في المستقبل.",
+        "fr": "Il insiste sur le poids qui pèse sur l'enfant unique lorsque les parents avancent en âge."
+      }
+    },
+    "24": {
+      "quote": "Andi: All die Streite und Auseinandersetzungen haben mich sehr viel Kraft gekostet... Als Einzelkind muss man seine Zeit und Kraft nicht bei solchen Kämpfen verlieren.",
+      "whyCorrect": {
+        "de": "Antwort JA ist richtig: Andi empfindet ständige Geschwisterstreits als Kraftverschwendung und meint, Einzelkinder haben es ohne solche Konflikte besser.",
+        "ar": "الإجابة «نعم» صحيحة: يرى آندي أن الشجار المستمر مع الإخوة يستنزف الطاقة، وأن الأطفال الوحيدين أسعد حظاً بعدم خوض هذه النزاعات.",
+        "fr": "La réponse OUI est correcte : Andi estime que les disputes entre frères et sœurs gaspillent une énergie précieuse et qu'un enfant unique est préservé de ces tensions."
+      },
+      "whyIncorrect": {
+        "de": "Andi sieht ein friedlicheres Leben für Kinder ohne Geschwister.",
+        "ar": "يعتبر آندي حياة الطفل الوحيد أكثر هدوءاً وراحة دون شجار.",
+        "fr": "Il juge l'absence de conflits fraternels comme un atout majeur."
+      }
+    },
+    "25": {
+      "quote": "Doris: Wenn es in der Familie nur ein Kind gibt, dann muss dieses all die Erwartungen allein erfüllen... Bei Geschwistern verteilt sich dieser Druck, deshalb ist das Leben für Kinder, die Geschwister haben, einfacher.",
+      "whyCorrect": {
+        "de": "Antwort NEIN ist richtig: Doris betont, dass auf Einzelkindern der gesamte elterliche Leistungsdruck lastet, während sich dieser bei Geschwistern verteilt.",
+        "ar": "الإجابة «لا» صحيحة: توضح دوريس أن الطفل الوحيد يتحمل بمفرده كل توقعات الوالدين وضغوطهما، في حين يتوزع هذا العبء بوجود إخوة.",
+        "fr": "La réponse NON est correcte : Doris explique que les attentes parentales pèsent lourdement sur l'enfant unique, alors que la pression se répartit entre frères et sœurs."
+      },
+      "whyIncorrect": {
+        "de": "Doris findet das Leben für Kinder mit Geschwistern einfacher.",
+        "ar": "ترى دوريس أن حياة الأطفال الذين لديهم إخوة أسهل بكثير.",
+        "fr": "Elle soutient que la fratrie allège la charge mentale et les exigences familiales."
+      }
+    },
+    "26": {
+      "quote": "Lukas: Ein Einzelkind kann sich von der Intelligenz her viel besser entwickeln, weil es gewissermaßen von zwei Erwachsenen „trainiert“ wird... Kinder ohne Geschwister haben also eine günstigere Ausgangssituation.",
+      "whyCorrect": {
+        "de": "Antwort JA ist richtig: Lukas verweist auf Forschungsergebnisse, wonach Einzelkinder durch die ständige elterliche Förderung intellektuell im Vorteil sind.",
+        "ar": "الإجابة «نعم» صحيحة: يستشهد لوكاس بدراسات تربوية تؤكد أن الطفل الوحيد يتطور ذكاؤه ومعرفته بشكل أفضل بفضل تركيز الوالدين في تعليمه.",
+        "fr": "La réponse OUI est correcte : Lukas s'appuie sur la pédagogie pour affirmer que l'enfant unique bénéficie d'une meilleure stimulation intellectuelle par ses parents."
+      },
+      "whyIncorrect": {
+        "de": "Lukas sieht eine klare intellektuelle Bevorzugung für Einzelkinder.",
+        "ar": "يؤكد لوكاس التفوق التعليمي والمعرفي للأطفال الذين ينشؤون بلا إخوة.",
+        "fr": "Il conclut que la situation de départ est plus favorable pour l'enfant unique."
+      }
+    },
+    "27": {
+      "quote": "§ 7: Hunde sind im Freibadgelände nicht erlaubt. Auf dem Campingplatz müssen sie angeleint bleiben...",
+      "whyCorrect": {
+        "de": "Lösung a ist richtig: In § 7 heißt es ausdrücklich, dass Hunde auf dem Gelände des Freibads verboten sind.",
+        "ar": "الخيار a هو الصحيح: تنص الفقرة 7 صراحة على منع اصطحاب الكلاب إلى منطقة المسبح المفتوح (Freibad).",
+        "fr": "L'option a est correcte : Le paragraphe 7 précise expressément que les chiens sont interdits dans l'enceinte de la piscine de plein air."
+      },
+      "whyIncorrect": {
+        "de": "Auf dem Campingplatz sind Hunde an der Leine erlaubt (5 € pro Tag, nicht einmalig).",
+        "ar": "يُسمح بالكلاب في المخيم بشرط ربطها مقابل 5 يورو يومياً وليس لمرة واحدة.",
+        "fr": "Les chiens sont acceptés sur le camping en laisse au tarif de 5 € par jour et non en paiement unique."
+      }
+    },
+    "28": {
+      "quote": "§ 3: Lagerfeuer und Grillen sind nur an den dafür vorgesehenen Feuerstellen erlaubt. Neue Feuerstellen dürfen nicht errichtet werden.",
+      "whyCorrect": {
+        "de": "Lösung b ist richtig: Grillen und Feuer machen ist ausschließlich an den dafür gekennzeichneten Stellen gestattet.",
+        "ar": "الخيار b هو الصحيح: يُسمح بإشعال النار والشواء فقط في الأماكن المخصصة لذلك بموجب الفقرة 3.",
+        "fr": "L'option b est correcte : Faire du feu et griller n'est autorisé qu'aux emplacements expressément prévus à cet effet."
+      },
+      "whyIncorrect": {
+        "de": "Neue Feuerstellen dürfen überhaupt nicht eingerichtet werden (auch nicht mit Bewilligung).",
+        "ar": "يُحظر تماماً إنشاء مواقد نار جديدة ولا يُسمح بها بتاتاً.",
+        "fr": "Il est formellement interdit de créer de nouveaux foyers, même avec accord."
+      }
+    },
+    "29": {
+      "quote": "§ 5: Die Toiletten sind über die Treppe zu erreichen. Sie befinden sich links von den Duschräumen, direkt neben dem Kiosk.",
+      "whyCorrect": {
+        "de": "Lösung a ist richtig: Die Toiletten liegen unmittelbar neben dem Kiosk (links neben den Duschräumen).",
+        "ar": "الخيار a هو الصحيح: تقع دورات المياه مباشرة بجوار كشك البيع (إلى يسار غرف الاستحمام).",
+        "fr": "L'option a est correcte : Les toilettes se trouvent directement à côté du kiosque, à gauche des douches."
+      },
+      "whyIncorrect": {
+        "de": "Die Duschräume sind getrennt von den Toiletten, und Gruppenleiter sollen nur informieren, nicht selbst putzen.",
+        "ar": "غرف الاستحمام منفصلة، ومسؤولو المجموعات مكلفون فقط بتوجيه أفرادهم للحفاظ على النظافة.",
+        "fr": "Les douches sont séparées et les responsables de groupe doivent simplement sensibiliser leurs membres."
+      }
+    },
+    "30": {
+      "quote": "§ 2: Das Betreten der Uferzone ist aus Naturschutzgründen untersagt.",
+      "whyCorrect": {
+        "de": "Lösung c ist richtig: Das Betreten des Uferbereichs ist aus Gründen des Naturschutzes komplett verboten („untersagt“).",
+        "ar": "الخيار c هو الصحيح: يحظر تماماً الدخول إلى منطقة ضفاف النهر أو التواجد فيها لحماية الطبيعة والبيئة.",
+        "fr": "L'option c est correcte : L'accès à la zone des berges est strictement interdit pour des motifs de protection de la nature."
+      },
+      "whyIncorrect": {
+        "de": "Dort gibt es keine Toiletten, und Naturschutz gilt überall, nicht nur am Ufer.",
+        "ar": "لا توجد دورات مياه هناك، ولا يُسمح حتى بالاقتراب من النهر.",
+        "fr": "Il n'y a pas de sanitaires et l'interdiction d'accès y est totale."
+      }
+    },
+    "h1": {
+      "quote": "Sie hören eine automatische Telefonauskunft. Sie sind mit der Hotline der Zeitschrift „stern“ verbunden.",
+      "whyCorrect": {
+        "de": "Aussage h1 ist FALSCH: Die Anruferin ist mit der Hotline des Magazins „stern“ verbunden, nicht mit einer Buchhandlung.",
+        "ar": "العبارة h1 خاطئة: المتصل يتحدث إلى الخط الساخن لمجلة «شتيرن»، وليس لخدمة عملاء مكتبة لبيع الكتب.",
+        "fr": "L'énoncé h1 est FAUX : L'appelant est en relation avec la hotline du magazine « stern », et non avec une librairie."
+      },
+      "whyIncorrect": {
+        "de": "Die Ansage nennt den „stern“ als Zeitschriftenredaktion.",
+        "ar": "توضح الرسالة المسجلة بوضوح أنها خاصة بمجلة «شتيرن».",
+        "fr": "Le répondeur annonce clairement le service du magazine « stern »."
+      }
+    },
+    "h2": {
+      "quote": "Oder schicken Sie Ihre Mail an leserdienst@stern.de",
+      "whyCorrect": {
+        "de": "Lösung c ist richtig: Bei Fragen kann man sich per E-Mail an den Leserdienst wenden.",
+        "ar": "الخيار c هو الصحيح: يمكن لمن لديه استفسارات إرسال بريد إلكتروني إلى خدمة القراء.",
+        "fr": "L'option c est correcte : En cas de questions, il est possible d'envoyer un e-mail au service des lecteurs."
+      },
+      "whyIncorrect": {
+        "de": "Postkarten sind für Einzelheftbestellungen gedacht, und telefonisch erreichbar ist man nur montags bis freitags.",
+        "ar": "تُستخدم البطاقات البريدية لطلب أعداد مفردة، والاتصال متاح من الاثنين إلى الجمعة فقط.",
+        "fr": "Les cartes postales servent aux commandes de numéros isolés et la ligne téléphonique est fermée le week-end."
+      }
+    },
+    "h3": {
+      "quote": "Der D-Zug 212 aus Berlin Richtung München über Nürnberg hat voraussichtlich 35 Minuten Verspätung.",
+      "whyCorrect": {
+        "de": "Aussage h3 ist FALSCH: Der Zug hat 35 Minuten Verspätung, kommt also später und nicht früher an.",
+        "ar": "العبارة h3 خاطئة: القطار متأخر بنحو 35 دقيقة، أي أنه سيصل متأخراً وليس مبكراً.",
+        "fr": "L'énoncé h3 est FAUX : Le train a environ 35 minutes de retard, il arrive donc plus tard et non plus tôt."
+      },
+      "whyIncorrect": {
+        "de": "Eine Verspätung bedeutet eine verspätete Ankunft.",
+        "ar": "التأخير يعني الوصول بعد الموعد المحدد سلفاً.",
+        "fr": "Le retard annoncé reporte l'heure d'arrivée."
+      }
+    },
+    "h4": {
+      "quote": "Geschätzte Ankunftszeit München Hauptbahnhof: 23.55 Uhr.",
+      "whyCorrect": {
+        "de": "Lösung c ist richtig: 23.55 Uhr liegt nach 23.00 Uhr.",
+        "ar": "الخيار c هو الصحيح: الموعد المتوقع للوصول إلى محطة ميونيخ هو 23:55، أي بعد الساعة الحادية عشرة ليلاً.",
+        "fr": "L'option c est correcte : L'arrivée à Munich est estimée à 23 h 55, ce qui est bien après 23 h 00."
+      },
+      "whyIncorrect": {
+        "de": "17.25 Uhr ist die Abfahrt nach dem Halt, nicht die Ankunft in München.",
+        "ar": "الساعة 17:25 هي موعد مواصلة السير وليست موعد الوصول لميونيخ.",
+        "fr": "17 h 25 correspond au départ du train en gare intermédiaire et non à l'arrivée."
+      }
+    },
+    "h5": {
+      "quote": "Im Puppentheater-Museum Berlin können Kinder mit der Taschenlampe in der Hand Pinocchio und seine Freunde entdecken... Weil manche Puppengesichter im Dunkeln aber ein wenig unheimlich aussehen, ist die Führung erst ab acht Jahren empfohlen.",
+      "whyCorrect": {
+        "de": "Aussage h5 ist FALSCH: Es handelt sich um eine nächtliche Museumsführung mit Taschenlampe, nicht um ein Theaterstück.",
+        "ar": "العبارة h5 خاطئة: الفعالية عبارة عن جولة استكشافية ليلية في المتحف باستخدام مصابيح الجيب، وليست عرضاً مسرحياً.",
+        "fr": "L'énoncé h5 est FAUX : Il s'agit d'une visite guidée du musée à la lampe torche et non d'une représentation théâtrale."
+      },
+      "whyIncorrect": {
+        "de": "Das Puppentheater-Museum bietet eine Führung durch die Ausstellung, keine Aufführung.",
+        "ar": "يقدم متحف مسرح الدمى جولة تعريفية وليس مسرحية للأطفال.",
+        "fr": "L'activité proposée est une exploration guidée dans les salles du musée."
+      }
+    },
+    "h6": {
+      "quote": "Eintritt für Kinder und Erwachsene 3 Euro.",
+      "whyCorrect": {
+        "de": "Lösung b ist richtig: Der Eintrittspreis ist für Kinder und Erwachsene mit jeweils 3 Euro genau gleich.",
+        "ar": "الخيار b هو الصحيح: تبلغ رسوم الدخول 3 يورو للأطفال والبالغين على حد سواء وبنفس التكلفة.",
+        "fr": "L'option b est correcte : Le prix d'entrée est identique pour les enfants et les adultes (3 euros pour tous)."
+      },
+      "whyIncorrect": {
+        "de": "Der Eintritt ist weder kostenlos noch für Erwachsene teurer.",
+        "ar": "الدخول ليس مجانياً كما أن تذكرة الكبار لا تزيد سعراً عن تذكرة الأطفال.",
+        "fr": "L'entrée n'est pas gratuite et ne fait l'objet d'aucun supplément pour les adultes."
+      }
+    },
+    "h7": {
+      "quote": "Weil ich in den nächsten ein, zwei Stunden verschiedene Einkäufe erledigen muss, versuch ich es dann später noch mal. Oder, wenn du möchtest, kannst du mich heute Abend nach 20 Uhr erreichen.",
+      "whyCorrect": {
+        "de": "Aussage h7 ist RICHTIG: Paula ist nachmittags für Besorgungen unterwegs und erst abends nach 20 Uhr wieder zu Hause.",
+        "ar": "العبارة h7 صحيحة: باولا خارج المنزل بعد الظهر للقيام ببعض المشتريات ولن تعود لبيتها إلا بعد الثامنة مساءً.",
+        "fr": "L'énoncé h7 est VRAI : Paula fait des courses pendant l'après-midi et ne rentre chez elle que dans la soirée après 20 h."
+      },
+      "whyIncorrect": {
+        "de": "Sie kündigt Besorgungen an und ist erst ab 20 Uhr zu Hause.",
+        "ar": "ذكرت باولا صراحة أنها ستقضي الساعات القادمة في التسوق خارج البيت.",
+        "fr": "Elle précise devoir faire des achats dans les deux prochaines heures."
+      }
+    },
+    "h8": {
+      "quote": "Oder, wenn du möchtest, kannst du mich heute Abend nach 20 Uhr erreichen. Dann bin ich wieder zu Hause. Natürlich auch morgen in der Firma.",
+      "whyCorrect": {
+        "de": "Lösung c ist richtig: Viola kann Paula heute Abend daheim (nach 20 Uhr) oder morgen am Arbeitsplatz anrufen.",
+        "ar": "الخيار c هو الصحيح: تستطيع فيولا الاتصال بباولا هذا المساء في المنزل (بعد الثامنة) أو غداً بمقر العمل.",
+        "fr": "L'option c est correcte : Viola peut la joindre ce soir chez elle après 20 h ou demain au bureau."
+      },
+      "whyIncorrect": {
+        "de": "In den nächsten ein bis zwei Stunden ist Paula beim Einkaufen und um Punkt 20 Uhr noch nicht zwingend daheim.",
+        "ar": "خلال الساعتين القادمتين ستكون باولا في السوق ولن تكون متاحة.",
+        "fr": "Paula est absente pendant l'après-midi et n'est disponible qu'après 20 h ou le lendemain."
+      }
+    },
+    "h9": {
+      "quote": "In unserem Verbraucher-Service, liebe Zuhörer, stellen wir Ihnen diesmal wieder einen Wochenmarkt mit originellen und gesunden Angeboten vor.",
+      "whyCorrect": {
+        "de": "Aussage h9 ist FALSCH: Die Radiosendung gibt Tipps für einen Besuch auf dem Wochenmarkt am Maybachufer, nicht im Supermarkt.",
+        "ar": "العبارة h9 خاطئة: يقدم البرنامج نصائح ومعلومات عن سوق أسبوعي في الهواء الطلق وليس عن متجر سوبرماركت.",
+        "fr": "L'énoncé h9 est FAUX : L'émission présente un marché hebdomadaire en plein air et non les rayons d'un supermarché."
+      },
+      "whyIncorrect": {
+        "de": "Es geht um den sogenannten „Türkenmarkt“ am Kanal.",
+        "ar": "الحديث يدور حول السوق الأسبوعي المفتوح عند القناة المائية.",
+        "fr": "Le sujet porte sur le célèbre marché hebdomadaire du canal de Neukölln."
+      }
+    },
+    "h10": {
+      "quote": "120 bis 150 Händler sind hier jeden Dienstag und Freitag von 11.00 bis 18.30 Uhr am U-Bahnhof Schönleinstraße am Maybachufer zu finden.",
+      "whyCorrect": {
+        "de": "Lösung b ist richtig: Der Markt mit Bioprodukten („BiOriental“) findet an zwei Tagen in der Woche statt: dienstags und freitags.",
+        "ar": "الخيار b هو الصحيح: يقام سوق المنتجات العضوية في يومين من كل أسبوع: الثلاثاء والجمعة.",
+        "fr": "L'option b est correcte : Le marché biologique se tient deux jours par semaine, le mardi et le vendredi."
+      },
+      "whyIncorrect": {
+        "de": "Am Samstag findet ein Modemarkt statt, kein Bioproduktemarkt.",
+        "ar": "يوم السبت مخصص لسوق الأقمشة والموضة وليس للأغذية العضوية.",
+        "fr": "Le samedi est réservé au marché des tissus et non aux produits bio."
+      }
+    },
+    "h11": {
+      "quote": "Herzlich willkommen, meine Damen und Herren, in Swarovskis Kristallwelten in Wattens, nahe Innsbruck.",
+      "whyCorrect": {
+        "de": "Lösung b ist richtig: Die Kristallwelten befinden sich in der Tiroler Ortschaft Wattens.",
+        "ar": "الخيار b هو الصحيح: تقع «عوالم سواروفسكي الكريستالية» في بلدة فاتنز بالقرب من إنسبروك.",
+        "fr": "L'option b est correcte : Les Mondes du Cristal Swarovski sont situés dans la commune de Wattens."
+      },
+      "whyIncorrect": {
+        "de": "Innsbruck liegt nur in der Nähe, und der Wattenbach ist der Fluss, der den Ort durchfließt.",
+        "ar": "إنسبروك مدينة مجاورة، وفاتنباخ هو اسم المجرى المائي الذي وفّر الطاقة للمصنع.",
+        "fr": "Innsbruck est une ville voisine et Wattenbach désigne le cours d'eau local."
+      }
+    },
+    "h12": {
+      "quote": "Heute beschäftigt Swarovski weltweit 25.000 Mitarbeiter in 40 Ländern.",
+      "whyCorrect": {
+        "de": "Lösung c ist richtig: Der Konzern beschäftigt weltweit 25.000 Angestellte.",
+        "ar": "الخيار c هو الصحيح: توظف شركة سواروفسكي 25,000 موظف وموظفة حول العالم في 40 دولة.",
+        "fr": "L'option c est correcte : L'entreprise emploie 25 000 salariés à travers le monde."
+      },
+      "whyIncorrect": {
+        "de": "5.000 ist die Anzahl der Kristalle am Zürcher Weihnachtsbaum.",
+        "ar": "العدد 5,000 يرمز لعدد قطع الكريستال التي تزين شجرة عيد الميلاد في زيورخ.",
+        "fr": "5 000 correspond au nombre de cristaux qui ornent le sapin de la gare de Zurich."
+      }
+    },
+    "h13": {
+      "quote": "Der österreichische Multimediakünstler André Heller hat hier vierzehn verschiedene unterirdische Räume entworfen, die alle dem Kristall gewidmet sind.",
+      "whyCorrect": {
+        "de": "Lösung c ist richtig: Die unterirdischen Schauräume wurden von dem österreichischen Künstler André Heller gestaltet.",
+        "ar": "الخيار c هو الصحيح: قام الفنان النمساوي متعدد الوسائط أندريه هيلر بتصميم القاعات الأربع عشرة تحت الأرض.",
+        "fr": "L'option c est correcte : Les quatorze salles souterraines ont été conçues par l'artiste autrichien André Heller."
+      },
+      "whyIncorrect": {
+        "de": "Daniel Swarovski gründete die Firma 1895, entwarf aber nicht die Kristallwelten von 1995.",
+        "ar": "أسس دانييل سواروفسكي الشركة عام 1895 ولم يكن هو مصمم العوالم الكريستالية الحديثة.",
+        "fr": "Daniel Swarovski a fondé l'entreprise au XIXe siècle, bien avant la création du site touristique."
+      }
+    },
+    "h14": {
+      "quote": "Wir versenden auch gern Ihre Einkäufe per Post an Ihre Adresse.",
+      "whyCorrect": {
+        "de": "Lösung a ist richtig: Kunden können gekaufte Artikel bequem auf dem Postweg nach Hause senden lassen.",
+        "ar": "الخيار a هو الصحيح: يمكن للمشترين طلب إرسال مشترياتهم عبر البريد إلى عناوينهم الخاصة.",
+        "fr": "L'option a est correcte : Les visiteurs peuvent faire expédier leurs achats directement à domicile par voie postale."
+      },
+      "whyIncorrect": {
+        "de": "Man kann neben Euro auch mit Dollar, Yen, Kreditkarte oder Reisescheck zahlen.",
+        "ar": "الدفع متاح بعملات متعددة كالدولار والين والبطاقات الائتمانية وليس باليورو فقط.",
+        "fr": "Les paiements sont acceptés en devises étrangères (dollars, yens) et par cartes bancaires."
+      }
+    },
+    "h15": {
+      "quote": "...können Sie anschließend mit Ihrem vierbeinigen Liebling einen Spaziergang im Park machen.",
+      "whyCorrect": {
+        "de": "Lösung a ist richtig: Im Außenpark darf man mit seinem Hund spazieren gehen, während für die Innenräume ein Warteplatz im Zelt bereitsteht.",
+        "ar": "الخيار a هو الصحيح: يمكن للزوار التنزه برفقة كلابهم في الحديقة الخارجية للمجمع.",
+        "fr": "L'option a est correcte : Les visiteurs peuvent promener leur chien dans les allées du parc extérieur."
+      },
+      "whyIncorrect": {
+        "de": "In den Innenräumen der Kristallwelten sind Hunde verboten.",
+        "ar": "يُمنع دخول الكلاب منعاً باتاً إلى القاعات الداخلية لعوالم الكريستال.",
+        "fr": "Les animaux de compagnie sont strictement interdits dans les salles d'exposition."
+      }
+    },
+    "h16": {
+      "quote": "T: Aber Sebastian, das ist doch die kleine Schwester von Erik.",
+      "whyCorrect": {
+        "de": "Aussage h16 ist FALSCH: Julia ist nicht die Freundin, sondern die jüngere Schwester von Erik.",
+        "ar": "العبارة h16 خاطئة: جوليا هي الأخت الصغرى لإريك وليست صديقته أو حبيبته.",
+        "fr": "L'énoncé h16 est FAUX : Julia est la petite sœur d'Erik et non sa petite amie."
+      },
+      "whyIncorrect": {
+        "de": "Tom spricht sie direkt als Eriks Schwester an.",
+        "ar": "أكد توم في بداية الحديث أن جوليا هي أخت إريك الصغرى.",
+        "fr": "Tom l'identifie immédiatement comme la jeune sœur d'Erik."
+      }
+    },
+    "h17": {
+      "quote": "J: Mara, geh schon mal zu einem Tisch. Ich komme gleich. M: Ist gut.",
+      "whyCorrect": {
+        "de": "Aussage h17 ist FALSCH: Julia kam zusammen mit ihrer Freundin Mara ins Restaurant.",
+        "ar": "العبارة h17 خاطئة: لم تأتِ جوليا بمفردها بل كانت بصحبة صديقتها مارا.",
+        "fr": "L'énoncé h17 est FAUX : Julia est venue accompagnée de sa copine Mara."
+      },
+      "whyIncorrect": {
+        "de": "Mara begleitet sie und sucht bereits einen Tisch aus.",
+        "ar": "طلبت جوليا من رفيقتها مارا أن تسبقها إلى إحدى الطاولات.",
+        "fr": "Julia demande à Mara de s'installer à une table en l'attendant."
+      }
+    },
+    "h18": {
+      "quote": "S: Ich meine, O.K., er hat echt immer lange vorm Computer gesessen und gespielt. Der hat kaum noch geschlafen.",
+      "whyCorrect": {
+        "de": "Aussage h18 ist RICHTIG: Erik saß extrem lange am PC und hat vor lauter Spielen kaum noch geschlafen, also auch nachts gespielt.",
+        "ar": "العبارة h18 صحيحة: كان إريك يقضي ساعات طويلة أمام الحاسوب ويمارس الألعاب ليلاً لدرجة أنه بالكاد ينام.",
+        "fr": "L'énoncé h18 est VRAI : Erik passait des nuits blanches devant son ordinateur et ne dormait presque plus."
+      },
+      "whyIncorrect": {
+        "de": "Sebastian bestätigt, dass Erik kaum noch schlief und ständig spielte.",
+        "ar": "أكد سيباستيان قلة نوم إريك وإدمانه على الألعاب الرقمية.",
+        "fr": "Sebastian témoigne du manque de sommeil d'Erik lié aux jeux en ligne."
+      }
+    },
+    "h19": {
+      "quote": "T: Ja, seine Freundin, besser seine Ex-Freundin... nach den Sommerferien hat sie mit ihm Schluss gemacht.",
+      "whyCorrect": {
+        "de": "Aussage h19 ist FALSCH: Nele ist Eriks Ex-Freundin; sie hat nach den Sommerferien die Beziehung beendet.",
+        "ar": "العبارة h19 خاطئة: نيله هي صديقته السابقة وليست الحالية؛ فقد انفصلت عنه بعد العطلة الصيفية.",
+        "fr": "L'énoncé h19 est FAUX : Nele est son ex-petite amie, ayant rompu après les vacances d'été."
+      },
+      "whyIncorrect": {
+        "de": "Nele hat sich in einen anderen verliebt und mit ihm Schluss gemacht.",
+        "ar": "أنهت نيله العلاقة بعدما أعجبت بشخص آخر في المعسكر الرياضي.",
+        "fr": "Nele a rompu avec lui au retour d'un camp de sport."
+      }
+    },
+    "h20": {
+      "quote": "J: Das wusste ich ja alles gar nicht … und meine Eltern auch nicht.",
+      "whyCorrect": {
+        "de": "Aussage h20 ist RICHTIG: Weder Julia noch ihre Eltern wussten von der Trennung und Eriks Kummer mit Nele.",
+        "ar": "العبارة h20 صحيحة: لم تكن جوليا ولا والداها على علم بانفصال إريك ونيله ومشاكلهما العاطفية.",
+        "fr": "L'énoncé h20 est VRAI : Ni Julia ni ses parents n'étaient au courant de la rupture d'Erik avec Nele."
+      },
+      "whyIncorrect": {
+        "de": "Julia bestätigt ausdrücklich, dass die Familie ahnungslos war.",
+        "ar": "أكدت جوليا صراحة جهل العائلة التام بكل ما جرى مع نيله.",
+        "fr": "Julia affirme clairement que la famille ignorait toute cette histoire."
+      }
+    },
+    "h21": {
+      "quote": "J: Ein Arzt von der Beratungsstelle ist auch zu uns nach Hause gekommen. Er hat lange mit Erik geredet und jetzt macht Erik bei einem Therapieprogramm mit.",
+      "whyCorrect": {
+        "de": "Aussage h21 ist FALSCH: Erik hat lange und offen mit dem Arzt gesprochen und nimmt nun freiwillig an einer Therapie teil.",
+        "ar": "العبارة h21 خاطئة: تحدث إريك مطولاً مع الطبيب الذي زاره بالمنزل ويشارك حالياً في برنامج علاجي.",
+        "fr": "L'énoncé h21 est FAUX : Erik a longuement discuté avec le médecin venu à domicile et suit un traitement thérapeutique."
+      },
+      "whyIncorrect": {
+        "de": "Der Arzt konnte Erik überzeugen, sich helfen zu lassen.",
+        "ar": "تجاوب إريك مع الطبيب وتقبل تلقي المساعدة العلاجية.",
+        "fr": "Le médecin a dialogué avec succès avec le jeune homme."
+      }
+    },
+    "h22": {
+      "quote": "S: Übermorgen ist doch die Grillparty im Fußballverein. Da nehmen wir ihn mit … T: … ja, und dann kriegt er vielleicht auch wieder Lust auf Fußball.",
+      "whyCorrect": {
+        "de": "Aussage h22 ist RICHTIG: Sebastian und Tom beschließen sofort, Erik zur Grillparty mitzunehmen und ihn wieder ins Team einzubinden.",
+        "ar": "العبارة h22 صحيحة: قرر توم وسيباستيان مساعدة إريك ودعوته لحفل شواء نادي كرة القدم لإخراجه من عزلته.",
+        "fr": "L'énoncé h22 est VRAI : Sebastian et Tom décident d'emmener Erik au barbecue du club pour le soutenir amicalement."
+      },
+      "whyIncorrect": {
+        "de": "Die beiden Freunde bieten sofort konkrete Hilfe und Unterstützung an.",
+        "ar": "وافق الصديقان على تقديم المساعدة لإعادة إدماجه اجتماعياً.",
+        "fr": "Les deux copains s'engagent immédiatement à lui remonter le moral."
+      }
+    },
+    "h23": {
+      "quote": "S (Doris Siebert): Zu meinen Aufgaben gehört, Produkte aufgrund der Bedürfnisse der Kundschaft vorzuschlagen, Auskunft zur Pflege der verschiedenen Materialien zu geben...",
+      "whyCorrect": {
+        "de": "Doris Siebert (b) sagt dies: Sie erklärt, dass die Beratung zur Pflege der Stoffe und Materialien zu ihrem beruflichen Alltag gehört.",
+        "ar": "دوريس زيبرت (b) هي من صرحت بذلك: أوضحت أن تقديم نصائح للعناية بالأقمشة والمواد يدخل ضمن مهام عملها كمستشارة مظهر.",
+        "fr": "Doris Siebert (b) l'exprime : Elle indique que renseigner les clients sur l'entretien des matières textiles fait partie de son métier."
+      },
+      "whyIncorrect": {
+        "de": "Doris Siebert berichtet aus ihrer Praxis als Modeberaterin.",
+        "ar": "تتحدث خبيرة الموضة عن تفاصيل وظيفتها اليومية في المتاجر.",
+        "fr": "C'est l'experte de la mode qui décrit les facettes de son activité professionnelle."
+      }
+    },
+    "h24": {
+      "quote": "E (Eva Martins): Mode ist schon wichtig, aber nicht für alle. Ich ziehe mich an, wie es mir passt... Und ich bin nicht die Einzige in meiner Schule, die auf Mode pfeift.",
+      "whyCorrect": {
+        "de": "Eva Martins (c) sagt dies: Die Schülerin berichtet, dass sie und viele Jugendliche an ihrer Schule nicht auf Modetrends achten.",
+        "ar": "إيفا مارتينز (c) هي من قالت ذلك: أكدت التلميذة أنها ليست الوحيدة في مدرستها التي لا تعير أي اهتمام للموضة وصيحاتها.",
+        "fr": "Eva Martins (c) affirme cela : La collégienne souligne que de nombreux jeunes dans son établissement scolaire se désintéressent de la mode."
+      },
+      "whyIncorrect": {
+        "de": "Eva spricht über ihre Mitschüler und ihre eigene Einstellung.",
+        "ar": "تتحدث إيفا عن تجربتها الشخصية ومحيط زملائها في المدرسة.",
+        "fr": "Eva exprime le point de vue d'une adolescente indifférente aux diktats vestimentaires."
+      }
+    },
+    "h25": {
+      "quote": "M (Moderator): Mit der Mode zu gehen, das kann ganz schön teuer werden. Vor allem auch, weil die Mode sich ständig ändert.",
+      "whyCorrect": {
+        "de": "Der Moderator (a) sagt dies: Er leitet mit dem Hinweis ein, dass es sehr kostspielig sein kann, modisch aktuell zu sein.",
+        "ar": "المذيع (a) هو من قال ذلك: بدأ بطرح فكرة أن مواكبة الموضة قد تكون مكلفة للغاية لأن صيحاتها تتغير باستمرار.",
+        "fr": "Le journaliste animateur (a) déclare cela : Il fait observer que suivre la mode peut représenter un budget considérable."
+      },
+      "whyIncorrect": {
+        "de": "Der Moderator führt Zahlen zu Ausgaben für Kleidung in die Diskussion ein.",
+        "ar": "طرح المذيع هذه النقطة متطرقاً إلى نفقات الأسرة على الملابس.",
+        "fr": "L'animateur introduit ce constat économique pour relancer le débat."
+      }
+    },
+    "h26": {
+      "quote": "S (Doris Siebert): Modisches Aussehen geht auch ohne viel Geld. Wenn man ein oder zwei neue Kleidungsstücke und ein paar Accessoires kauft, kann man toll kombinieren und modisch aussehen.",
+      "whyCorrect": {
+        "de": "Doris Siebert (b) sagt dies: Sie meint, dass man durch geschicktes Kombinieren auch mit wenig Geld modisch wirken kann.",
+        "ar": "دوريس زيبرت (b) هي من صرحت بذلك: ترى أنه من الممكن الظهور بمظهر أنيق وعصري دون إنفاق الكثير من المال عبر التنسيق الذكي للملابس والإكسسوارات.",
+        "fr": "Doris Siebert (b) exprime cette idée : Elle soutient qu'un look soigné et tendance est parfaitement accessible avec un petit budget grâce aux assortiments."
+      },
+      "whyIncorrect": {
+        "de": "Frau Siebert plädiert für Stil statt teurem Kaufrausch.",
+        "ar": "تدافع مستشارة الموضة عن الأناقة المعتمدة على الابتكار بدلاً من التكاليف الباهظة.",
+        "fr": "La styliste montre qu'il suffit de quelques pièces et accessoires bien choisis."
+      }
+    },
+    "h27": {
+      "quote": "S (Doris Siebert): Man sollte mehr auf die Qualität als auf den Namen achten... Denn bestimmte Materialien, wie z.B. Plastik oder Farben mit Giftstoffen können Haut-Allergien auslösen.",
+      "whyCorrect": {
+        "de": "Doris Siebert (b) sagt dies: Sie warnt vor giftigen Farbstoffen und minderwertigen Kunststoffen, die Hautallergien hervorrufen können.",
+        "ar": "دوريس زيبرت (b) هي من قالت ذلك: حذرت من أن المواد الرديئة كالبلاستيك والأصباغ الكيميائية السامة قد تسبب حساسية جلدية ومشاكل صحية.",
+        "fr": "Doris Siebert (b) met en garde : Elle explique que les matières plastiques ou teintures toxiques de mauvaise qualité provoquent des allergies cutanées."
+      },
+      "whyIncorrect": {
+        "de": "Frau Siebert betont die gesundheitlichen Risiken billiger synthetischer Stoffe.",
+        "ar": "أشارت خبيرة المظهر للمخاطر الصحية التي تهدد البشرة الحساسة.",
+        "fr": "C'est la spécialiste qui souligne les risques dermatologiques liés aux produits synthétiques."
+      }
+    },
+    "h28": {
+      "quote": "S (Doris Siebert): Wer ganz sicher sein will, kann natürlich echte Bio-Produkte kaufen. Aber da steigen die Preise wieder.",
+      "whyCorrect": {
+        "de": "Doris Siebert (b) sagt dies: Sie stellt klar, dass Kleidung aus echten Bio-Naturfasern im Laden deutlich teurer ist.",
+        "ar": "دوريس زيبرت (b) هي من ذكرت ذلك: بينت أن من يريد ملابس عضوية خالية تماماً من الكيماويات فعليه دفع أسعار أعلى.",
+        "fr": "Doris Siebert (b) constate cela : Elle précise que les vêtements biologiques garantis sans chimie coûtent nettement plus cher."
+      },
+      "whyIncorrect": {
+        "de": "Doris Siebert verknüpft Bio-Qualität mit höheren Anschaffungspreisen.",
+        "ar": "ربطت دوريس بين المنسوجات الحيوية وارتفاع تكلفتها في الأسواق.",
+        "fr": "La conseillère reconnaît le surcoût financier des textiles biologiques."
+      }
+    },
+    "h29": {
+      "quote": "M (Moderator): Unter Jugendlichen sieht man manchmal Leute mit einem ganz verrückten Outfit... So was kritisieren die Erwachsenen oft. Zu Recht?",
+      "whyCorrect": {
+        "de": "Der Moderator (a) sagt dies: Er spricht an, dass Erwachsene das auffällige Aussehen und Outfit Jugendlicher häufig kritisieren.",
+        "ar": "المذيع (a) هو من طرح هذا الطرح: أشار إلى أن الكبار غالباً ما يوجهون انتقادات لمظهر المراهقين وأزيائهم غير المألوفة.",
+        "fr": "Le journaliste (a) pose cette question : Il relève que les adultes critiquent fréquemment les tenues excentriques des adolescents."
+      },
+      "whyIncorrect": {
+        "de": "Der Moderator leitet die Frage über die Reaktionen der Erwachsenen ein.",
+        "ar": "المذيع هو من فتح باب النقاش حول نظرة المجتمع واعتراض الكبار على لباس المراهقين.",
+        "fr": "C'est l'animateur qui interroge ses invitées sur ce phénomène récurrent de critique parentale."
+      }
+    },
+    "h30": {
+      "quote": "S (Doris Siebert): Auf sich aufmerksam machen – manchmal sogar provozieren – wollen sie auch. Das ist aber völlig normal und gehört zu diesem Lebensabschnitt.",
+      "whyCorrect": {
+        "de": "Doris Siebert (b) sagt dies: Sie betont, dass Provokation und Gruppenabgrenzung ein völlig normales Verhalten in diesem Alter sind.",
+        "ar": "دوريس زيبرت (b) هي من قالت ذلك: أكدت أن رغبة المراهقين في لفت الانتباه والتميز بسلوكهم وأزيائهم أمر طبيعي ومتوقع في هذه المرحلة العمرية.",
+        "fr": "Doris Siebert (b) conclut ainsi : Elle affirme que vouloir provoquer ou s'affirmer par son look est un comportement tout à fait normal et prévisible à cet âge."
+      },
+      "whyIncorrect": {
+        "de": "Frau Siebert zeigt Verständnis für das typische Entwicklungsverhalten Jugendlicher.",
+        "ar": "أبدت دوريس تفهماً كاملاً لنزعة التمرد وإثبات الهوية لدى فئة الشباب.",
+        "fr": "La styliste dédramatise cette étape classique de construction de l'identité chez les jeunes."
+      }
+    }
+  },
+  "translations": {
+    "parts": {
+      "1": {
+        "instructions": {
+          "ar": "اقرأ النص والمهام من 1 إلى 6 المتعلقة به. اختر: هل العبارات صحيحة أم خاطئة؟",
+          "fr": "Lisez le texte et les questions 1 à 6 correspondantes. Choisissez : les affirmations sont-elles vraies ou fausses ?"
+        },
+        "articles": [
+          {
+            "heading": {
+              "ar": "حفلي الموسيقي لفرقة طوكيو هوتيل في إرفورت",
+              "fr": "Mon concert de Tokio Hotel à Erfurt"
+            },
+            "sub": {
+              "ar": "كيارا فينتسل · 10 مارس",
+              "fr": "Kiara Wenzel · 10 mars"
+            },
+            "body": {
+              "ar": [
+                "مرحباً بجميع عشاق فرقة طوكيو هوتيل، لقد حضرت أنا وصديقتي حفل فرقة طوكيو هوتيل في مدينة إرفورت. كنا قد اشترينا التذاكر في وقت مبكر جداً. قبل موعد الحفل بأسابيع طويلة، كنت في غاية السعادة والحماس. في السادس من مارس، استيقظت في تمام الساعة الخامسة صباحاً، وتوجهت إلى منزل صديقتي ثم سافرنا معاً إلى إرفورت. عندما وصلنا أمام قاعة تورينغن في حوالي الساعة الثامنة صباحاً، تفاجأنا ولحسن الحظ بأنه لم يكن هناك سوى نحو 20 شخصاً فقط. وكان ذلك يعني بالنسبة لنا أننا سنكون ضمن المجموعة الأولى في الدخول، وبالتالي ضمنا الوقوف في الصف الأول.",
+                "بعد ساعات طويلة لا تنتهي من الانتظار، في حوالي الساعة الثانية عشرة ظهراً، وصلت بعض فرق التلفزيون وسألونا عمن نعتبره المفضل لدينا، وكم من الوقت نقف هنا، وغير ذلك. مرت الساعة الأخيرة قبل فتح الأبواب وكأنها دهر. وخلال ذلك الوقت تم إبلاغنا بكيفية سير الأمور وتنظيم الدخول. وأخيراً حانت اللحظة المنتظرة؛ قبل ثلاثة أرباع الساعة من موعد الدخول الرسمي (كانت الساعة 16:45) سمحوا لنا بالدخول إلى القاعة. ركضت أنا وصديقتي على الفور نحو المسرح ووقفنا أمامه مباشرة. والآن بدأ الانتظار مجدداً، ولكن الأجواء داخل الصالة كانت ممتعة للغاية ومسلية؛ تبادلنا الحديث مع رجال الأمن ومزحنا معهم.",
+                "ثم انطلق الحفل! خيّم الظلام على القاعة، وصرخ الجميع. والآن صعد الفتيان إلى المسرح. عندما بدأ توم في العزف، لم يعد هناك ما يوقف الحماس. كانت الأجواء جنونية بكل ما تحمله الكلمة من معنى!! ثم عندما صعد بيل إلى المسرح، تعالت الصيحات بصوت أعلى وأقوى. وبدا كعادته في غاية الروعة والجاذبية. وبعد عدة أغانٍ متتالية، بدأ إخراج المزيد والمزيد من الفتيات بسبب الإغماء. ولحسن الحظ لم أفقد وعيي. ثم تقدم جورج وتوم إلى مقدمة المسرح. وفكرت في نفسي: في الواقع هم أكثر وسامة وبهاءً من الشاشة، وقبل كل شيء... كانوا قريبين منا إلى هذا الحد!!!",
+                "عندما انتهى الحفل، تقدموا جميعاً إلى حافة المسرح ولمسوا أيدينا. نعم، لقد نجحت! لمست أيدي الأعضاء الأربعة جميعاً. كنت في قمة السعادة والنشوة. لن أنسى هذا الحفل أبداً طوال حياتي. شكراً لكم يا شباب. وأطيب التحيات لكل المعجبين والمعجبات!!!!!!"
+              ],
+              "fr": [
+                "Salut aux fans de TH ! Mon amie et moi avons assisté au concert de Tokio Hotel à Erfurt. Nous avions acheté nos billets bien à l'avance. Des semaines avant le concert, j'étais déjà folle de joie. Le 6 mars, je me suis levée à 5 heures du matin, je suis passée prendre mon amie et nous sommes parties ensemble pour Erfurt. Arrivées vers 8 heures devant la Thüringenhalle, nous avons été très étonnées de voir qu'il n'y avait qu'une vingtaine de personnes. Cela signifiait que nous ferions partie du premier groupe et que le premier rang nous était assuré.",
+                "Après d'interminables heures d'attente, vers midi, des équipes de télévision sont arrivées et nous ont demandé qui était notre membre préféré, depuis combien de temps nous attendions, etc. La dernière heure avant l'ouverture nous a paru infinie. Pendant ce temps, on nous a expliqué le déroulement des opérations. Le moment tant attendu est enfin arrivé : trois quarts d'heure avant l'ouverture officielle (il était 16 h 45), nous avons pu entrer dans la salle. Mon amie et moi avons couru droit vers la scène et nous nous sommes postées juste devant. Il a fallu attendre à nouveau, mais l'ambiance était très sympa : on discutait avec les agents de sécurité en faisant des blagues.",
+                "Puis le spectacle a commencé. L'obscurité s'est faite dans la salle. Tout le monde a hurlé. Les garçons sont entrés en scène. Dès que Tom a commencé à jouer de la guitare, c'était l'explosion totale ! L'ambiance était tout simplement incroyable ! Puis, quand Bill est monté sur scène, les cris ont redoublé d'intensité. Il avait une fois de plus un look d'enfer. De nombreux morceaux plus tard, on a commencé à évacuer de plus en plus de filles évanouies. Heureusement, je n'ai pas tourné de l'œil. Ensuite Georg et Tom se sont avancés vers nous. Je me suis dit : en vrai, ils sont encore plus beaux qu'en photo et surtout… ils étaient si proches de nous !!!",
+                "À la fin du concert, ils sont tous venus au bord de la scène pour nous toucher les mains. Oui, pari réussi ! J'ai touché les mains de tous les quatre. J'étais sur un nuage de bonheur. Je n'oublierai jamais ce concert. Merci les gars ! Grosses bises à tous les fans !!!!!!"
+              ]
+            }
+          }
+        ],
+        "example": {
+          "text": {
+            "ar": "لم تذهب كيارا وحدها إلى الحفل الموسيقي.",
+            "fr": "Kiara n'est pas allée seule au concert."
+          }
+        },
+        "questions": {
+          "1": {
+            "text": {
+              "ar": "اضطرت كيارا للانتظار وقتاً طويلاً أمام قاعة الحفلات.",
+              "fr": "Kiara a dû attendre longtemps devant la salle de concert."
+            }
+          },
+          "2": {
+            "text": {
+              "ar": "أجرى مراسلو التلفزيون مقابلة مع أعضاء الفرقة الموسيقية.",
+              "fr": "Le groupe a été interviewé par des journalistes de télévision."
+            }
+          },
+          "3": {
+            "text": {
+              "ar": "نجحت كيارا أخيراً في الوقوف في الصفوف الأمامية تماماً.",
+              "fr": "Kiara a finalement réussi à se placer tout devant."
+            }
+          },
+          "4": {
+            "text": {
+              "ar": "عندما خيّم الظلام على القاعة، صرخ الجميع من الخوف والرعب.",
+              "fr": "Quand la salle est devenue sombre, tout le monde a crié de peur."
+            }
+          },
+          "5": {
+            "text": {
+              "ar": "صعد بيل إلى المسرح وكان هو من يصرخ بصوت أعلى من الجميع.",
+              "fr": "Bill est entré sur scène et c'est lui qui a crié le plus fort."
+            }
+          },
+          "6": {
+            "text": {
+              "ar": "قام أعضاء الفرقة الموسيقية بمصافحة كيارا ولمس يدها.",
+              "fr": "Les membres du groupe ont serré la main de Kiara."
+            }
+          }
+        }
+      },
+      "2": {
+        "instructions": {
+          "ar": "اقرأ النص الصحفي والمهام من 7 إلى 9 المتعلقة به. اختر لكل مهمة الحل الصحيح a أو b أو c.",
+          "fr": "Lisez le texte de presse et les questions 7 à 9 correspondantes. Choisissez pour chaque question la bonne solution a, b ou c."
+        },
+        "articles": [
+          {
+            "heading": {
+              "ar": "هل تستطيع الحيوانات أن تحلم؟",
+              "fr": "Les animaux peuvent-ils rêver ?"
+            },
+            "body": {
+              "ar": [
+                "كل من يراقب الإنسان والكلاب والقطط أثناء نومها يلاحظ تشابهات واضحة؛ فالحيوانات تتحرك أيضاً وتصدر أصواتاً خلال النوم. فهل تحلم الحيوانات إذاً؟",
+                "عند إيقاظ البشر خلال مرحلة النوم التي تكاد لا تتحرك فيها العضلات وتكون فيها الأعين فقط في حالة نشاط مستمر، وهي ما يُعرف بنوم حركة العين السريعة (REM)، يُفيدون بأنهم كانوا للتو يرون حلماً. فهل ينطبق هذا الأمر أيضاً على الحيوانات عندما تتحرك أعينها بسرعة فائقة أثناء النوم؟ المؤكد علمياً هو أن الكلاب أو القطط أو حيوانات الغوريلا تقضي ما بين 10 إلى 25 بالمائة من وقت راحتها في مرحلة نوم حركة العين السريعة، وهي النسبة المئوية ذاتها المسجلة لدى بني البشر. ويقول أحد علماء أبحاث النوم: «من منظور تطوري، يبدو من المرجح جداً أن القدرة على الحلم قد نشأت وتطورت بيولوجياً قبل ظهور الإنسان بوقت طويل». وتكمن الصعوبة الراهنة في إثبات هذه النظرية بشكل قاطع.",
+                "وفي إحدى التجارب المعملية، تمت مراقبة نوم قطة في مرحلة حركة العين السريعة بعد إعطائها عقاراً يسمح لبقية جسدها بالحركة بحرية. وأثناء تلك المرحلة، قامت القطة بالدوران في القفص والزمجرة ونفش فرائها، وكان يبدو كأنها تخوض معركة ضد عدو مفترس. وحتى رائحة الطعام لم تفلح في إيقاظها، فقد كانت غارقة في نوم عميق. وعلى الرغم من هذه الملاحظات العلمية، تبقى المعضلة قائمة في أن الحيوانات تعجز عن إخبارنا بما يدور في أحلامها، ولذلك لا يزال الشك يساور العلماء حول ما إذا كانت الحيوانات تحلم بالفعل كما يحلم الإنسان."
+              ],
+              "fr": [
+                "Quiconque observe un être humain, un chien ou un chat en train de dormir constate des ressemblances frappantes : les animaux bougent aussi et émettent des sons pendant leur sommeil. Les animaux rêvent-ils donc ?",
+                "Lorsqu'on réveille des personnes dans la phase où les muscles sont immobiles et seuls les yeux s'activent – le sommeil dit à mouvements oculaires rapides ou phase REM –, elles rapportent qu'elles faisaient un rêve. En va-t-il de même pour les animaux lorsque leurs yeux s'agitent vivement sous leurs paupières ? Une certitude : les chiens, les chats ou les gorilles passent entre 10 et 25 % de leur temps de repos en sommeil paradoxal (REM), soit exactement la même proportion que l'être humain. « D'un point de vue évolutif, il est probable que la faculté de rêver s'est développée bien avant l'apparition de l'homme », souligne un chercheur spécialiste du sommeil. La difficulté consiste aujourd'hui à prouver scientifiquement cette théorie.",
+                "Lors d'une expérience, on a observé le sommeil paradoxal d'une chatte après lui avoir administré une molécule lui permettant de mouvoir le reste de son corps. Pendant cette phase REM, la chatte tournait en rond dans sa cage, crachait et hérissait ses poils, donnant l'impression de lutter contre un ennemi imaginaire. Même l'odeur de nourriture ne put la réveiller, tant son sommeil était profond. Malgré ces observations, le problème persiste : les animaux ne peuvent nous raconter leurs songes. On continue donc d'ignorer s'ils rêvent réellement à la façon des humains."
+              ]
+            }
+          }
+        ],
+        "example": {
+          "text": {
+            "ar": "القطط ...",
+            "fr": "Les chats..."
+          },
+          "options": {
+            "ar": [
+              "تستطيع القتال أثناء الحلم.",
+              "تنام لنفس عدد ساعات نوم البشر.",
+              "تحرك أعينها أثناء النوم."
+            ],
+            "fr": [
+              "peuvent se battre en rêve.",
+              "dorment aussi longtemps que les humains.",
+              "bougent leurs yeux pendant leur sommeil."
+            ]
+          }
+        },
+        "questions": {
+          "7": {
+            "text": {
+              "ar": "يدور هذا النص حول مسألة ...",
+              "fr": "Dans ce texte, il s'agit de savoir..."
+            },
+            "options": {
+              "ar": [
+                "ما إذا كانت الحيوانات تحلم مثل البشر.",
+                "ما إذا كانت الحيوانات تنام بشكل أفضل من البشر.",
+                "لماذا تمر الحيوانات أيضاً بمرحلة نوم حركة العين السريعة."
+              ],
+              "fr": [
+                "si les animaux rêvent comme les humains.",
+                "si les animaux dorment mieux que les humains.",
+                "pourquoi les animaux ont aussi une phase REM pendant leur sommeil."
+              ]
+            }
+          },
+          "8": {
+            "text": {
+              "ar": "في مرحلة نوم حركة العين السريعة (REM) ...",
+              "fr": "Pendant la phase de sommeil paradoxal (REM)..."
+            },
+            "options": {
+              "ar": [
+                "تتحرك دائماً جميع أجزاء الجسم.",
+                "تتحرك العينان بنشاط وسرعة.",
+                "لا ينام المرء نوماً عميقاً وجيداً."
+              ],
+              "fr": [
+                "toutes les parties du corps bougent constamment.",
+                "les yeux bougent.",
+                "on ne dort pas très bien."
+              ]
+            }
+          },
+          "9": {
+            "text": {
+              "ar": "حيوانات الغوريلا ...",
+              "fr": "Les gorilles..."
+            },
+            "options": {
+              "ar": [
+                "تنام نوماً أكثر اضطراباً من البشر.",
+                "تمتلك من حيث النسبة المئوية مرحلة نوم حركة عين سريعة مساوية للإنسان.",
+                "لا يمكن فحصها وإجراء الدراسات عليها."
+              ],
+              "fr": [
+                "dorment de manière plus agitée que les humains.",
+                "ont proportionnellement une phase REM aussi longue que les humains.",
+                "ne peuvent pas être examinés."
+              ]
+            }
+          }
+        },
+        "instructions2": {
+          "ar": "اقرأ النص الصحفي والمهام من 10 إلى 12 المتعلقة به. اختر لكل مهمة الحل الصحيح a أو b أو c.",
+          "fr": "Lisez le texte de presse et les questions 10 à 12 correspondantes. Choisissez pour chaque question la bonne solution a, b ou c."
+        },
+        "articles2": [
+          {
+            "heading": {
+              "ar": "التعرق في المدرسة!",
+              "fr": "Transpirer à l'école !"
+            },
+            "body": {
+              "ar": [
+                "في إحدى المدارس الشاملة في مدينة أولو الواقعة شمال العاصمة الفنلندية هلسنكي، أجرى العلماء والمعلمون مؤخراً اختباراً مثيراً مع طلابهم: حيث قاموا بوضع عربات ساونا متنقلة في باحة المدرسة. وهناك جعلوا التلاميذ يتعرقون جيداً في الصباح الباكر قبل انطلاق الحصص الدراسية، لمدة تتراوح بين 10 إلى 15 دقيقة وفقاً للياقة واستعداد كل طفل. وبعد ذلك فقط يبدأ التلاميذ في دراسة مواد الرياضيات والفنلندية والإنجليزية والفيزياء وغيرها من المواد. وجاءت النتيجة مفاجئة للجميع؛ حيث تمكن 314 طالباً من أصل 340 تلميذاً شاركوا في هذه التجربة التي امتدت ستة أشهر من تحسين درجاتهم المدرسية بشكل ملحوظ! بل إن بعض الطلاب رفعوا تحصيلهم بمقدار درجة كاملة.",
+                "ويوضح أرتو هاكينن، الباحث في جامعة هلسنكي: «إن الجلوس في الساونا يحفز الدورة الدموية وتدفق الدم، مما يؤدي بدوره إلى رفع قدرة الاستيعاب والتركيز. ويمكن القول ببساطة إن الطلاب يصبحون أكثر يقظة ونشاطاً واستعداداً لتلقي المعرفة والمعلومات». كما أن هذه النتائج المبهرة فاجأت حتى خبراء التربية والتعليم. ومن المقرر الآن تعميم تجربة عربات الساونا في مدارس أخرى بشتى أنحاء البلاد. وإذا ما أثبتت نجاحها على نطاق واسع، فسيتم إدراج التعرق الصباحي رسمياً ضمن الجدول المدرسي الأسبوعي في فنلندا."
+              ],
+              "fr": [
+                "Dans une école polyvalente d'Oulu, au nord d'Helsinki, des chercheurs et des enseignants ont récemment mené une expérience inédite auprès de leurs élèves : ils ont installé des roulottes-saunas mobiles dans la cour de récréation. Les élèves devaient y transpirer de bon matin avant les cours, pendant 10 à 15 minutes selon leur forme physique, avant d'aborder les cours de mathématiques, de finnois, d'anglais ou de physique. Le résultat a stupéfié tout le monde : 314 des 340 élèves ayant participé à cet essai de six mois ont nettement amélioré leurs notes, certains progressant même d'une note entière !",
+                "« Rester dans le sauna stimule la circulation sanguine, ce qui accroît la capacité de concentration. Les élèves sont tout simplement plus éveillés et bien plus disposés à enregistrer les connaissances », explique Arttu Häkkinen de l'université d'Helsinki. De tels résultats ont surpris les pédagogues eux-mêmes. L'expérience des roulottes-saunas doit désormais être étendue à d'autres établissements du pays. En cas de succès confirmé, la séance de transpiration matinale pourrait être intégrée officiellement aux emplois du temps des écoles finlandaises."
+              ]
+            }
+          }
+        ],
+        "questions2": {
+          "10": {
+            "text": {
+              "ar": "يتناول هذا النص مسألة ...",
+              "fr": "Ce texte explique principalement..."
+            },
+            "options": {
+              "ar": [
+                "لماذا يحصل الطلاب الفنلنديون على درجات دراسية ممتازة.",
+                "ما هو تأثير حمام الساونا على التلاميذ واستيعابهم.",
+                "لماذا يحب الطلاب الذهاب إلى الساونا والاستمتاع بها."
+              ],
+              "fr": [
+                "pourquoi les élèves finlandais ont de si bonnes notes.",
+                "quel est l'effet du sauna sur les élèves.",
+                "pourquoi les élèves aiment aller au sauna."
+              ]
+            }
+          },
+          "11": {
+            "text": {
+              "ar": "الطلاب في مدينة أولو ...",
+              "fr": "Les élèves d'Oulu..."
+            },
+            "options": {
+              "ar": [
+                "تمكنوا من التركيز بشكل أفضل بعد قضاء وقت في الساونا.",
+                "واجهوا مشاكل أقل بسبب الساونا.",
+                "كان عليهم البقاء في الساونا لمدة 15 دقيقة على الأقل."
+              ],
+              "fr": [
+                "ont pu mieux se concentrer après la séance de sauna.",
+                "ont eu moins de problèmes grâce au sauna.",
+                "devaient rester au moins 15 minutes dans le sauna."
+              ]
+            }
+          },
+          "12": {
+            "text": {
+              "ar": "التجربة المدرسية ...",
+              "fr": "L'expérience scolaire..."
+            },
+            "options": {
+              "ar": [
+                "أثبتت صحة نظرية علمية سابقة.",
+                "أثرت على درجات الطلاب بشكل طفيف وغير ملحوظ.",
+                "استمرت لمدة نصف عام كامل."
+              ],
+              "fr": [
+                "a validé une théorie.",
+                "n'a que très peu influencé les notes des élèves.",
+                "a duré six mois (une demi-année)."
+              ]
+            }
+          }
+        }
+      },
+      "3": {
+        "instructions": {
+          "ar": "اقرأ المواقف من 13 إلى 19 والإعلانات من a إلى j من وسائل إعلام مختلفة باللغة الألمانية. اختر: أي إعلان يناسب كل موقف؟ يمكنك استخدام كل إعلان مرة واحدة فقط. الإعلان المستخدم في المثال لم يعد متاحاً. هناك موقف ليس له أي إعلان مناسب؛ في هذه الحالة اختر الرقم 0.",
+          "fr": "Lisez les situations 13 à 19 et les annonces a à j issues de médias germanophones. Choisissez : quelle annonce correspond à quelle situation ? Chaque annonce ne peut être utilisée qu'une seule fois. L'annonce de l'exemple ne peut plus servir. Pour une situation, il n'existe aucune annonce adéquate ; inscrivez alors 0."
+        },
+        "situationsIntro": {
+          "ar": "المدرسة، الدرجات الجيدة، دروس التقوية: كل هذه موضوعات تشغل بال معارفك في الوقت الحالي لأسباب متباينة، وهم يبحثون عن حلول مناسبة.",
+          "fr": "École, bonnes notes, cours particuliers : autant de sujets qui préoccupent beaucoup vos connaissances actuellement pour diverses raisons, et ils recherchent des solutions."
+        },
+        "ads": {
+          "a": {
+            "ar": "مطلوب مشرفون ومشرفات لأنشطة المدارس النهارية المفتوحة والمدارس الثانوية بنظام المكافأة: رياضة، رقص، فن وإبداع، طبخ، موسيقى، مسرح، ومساعدة في الواجبات المدرسية. إرسال الطلبات بالبريد الإلكتروني إلى جمعية دعم التعليم ببرلين.",
+            "fr": "Recherche d'animateurs et animatrices d'ateliers périscolaires sous statut d'honoraires pour écoles ouvertes toute la journée et lycées : sport, danse, arts, cuisine, musique, théâtre, aide aux devoirs. Candidatures à adresser par courriel à l'Association de soutien éducatif de Berlin."
+          },
+          "A": {
+            "ar": "مطلوب مشرفون ومشرفات لأنشطة المدارس النهارية المفتوحة والمدارس الثانوية بنظام المكافأة: رياضة، رقص، فن وإبداع، طبخ، موسيقى، مسرح، ومساعدة في الواجبات المدرسية. إرسال الطلبات بالبريد الإلكتروني إلى جمعية دعم التعليم ببرلين.",
+            "fr": "Recherche d'animateurs et animatrices d'ateliers périscolaires sous statut d'honoraires pour écoles ouvertes toute la journée et lycées : sport, danse, arts, cuisine, musique, théâtre, aide aux devoirs. Candidatures à adresser par courriel à l'Association de soutien éducatif de Berlin."
+          },
+          "b": {
+            "ar": "رياضيات، تعلم ذكي للصفوف 9-12. قرص مدمج (CD-ROM) من شركة S.A.E. مع هذا البرنامج تتقن الرياضيات بسهولة: كامل المنهج التعليمي، تمارين وتدريبات، وشروحات تفصيلية للحلول.",
+            "fr": "Mathématiques, apprentissage intelligent de la 9e à la 12e classe. 1 CD-ROM édité par S.A.E. Maîtrisez le programme de maths sans difficulté : cours complet, exercices d'entraînement et solutions expliquées pas à pas."
+          },
+          "B": {
+            "ar": "رياضيات، تعلم ذكي للصفوف 9-12. قرص مدمج (CD-ROM) من شركة S.A.E. مع هذا البرنامج تتقن الرياضيات بسهولة: كامل المنهج التعليمي، تمارين وتدريبات، وشروحات تفصيلية للحلول.",
+            "fr": "Mathématiques, apprentissage intelligent de la 9e à la 12e classe. 1 CD-ROM édité par S.A.E. Maîtrisez le programme de maths sans difficulté : cours complet, exercices d'entraînement et solutions expliquées pas à pas."
+          },
+          "c": {
+            "ar": "مطلوب دروس تقوية في اللاتينية والرياضيات، للصف العاشر، طالبة مدرسية أو طالبة جامعية. هاتف: 030/09115025.",
+            "fr": "Recherche cours de soutien en latin et mathématiques pour élève de 10e classe, par lycéenne ou étudiante. Tél. 030/09115025."
+          },
+          "C": {
+            "ar": "مطلوب دروس تقوية في اللاتينية والرياضيات، للصف العاشر، طالبة مدرسية أو طالبة جامعية. هاتف: 030/09115025.",
+            "fr": "Recherche cours de soutien en latin et mathématiques pour élève de 10e classe, par lycéenne ou étudiante. Tél. 030/09115025."
+          },
+          "d": {
+            "ar": "نقدم دروس تقوية فردية في المنزل لطلاب المرحلة الثانوية / إعداد خاص لامتحانات البكالوريا (Abitur) في مادة اللغة الألمانية، واللغات القديمة والحديثة. هاتف: 034/8597558.",
+            "fr": "Cours particuliers à domicile pour lycéens / préparation spécifique au baccalauréat en allemand, langues anciennes et vivantes. Tél. 034 / 85 97 558."
+          },
+          "D": {
+            "ar": "نقدم دروس تقوية فردية في المنزل لطلاب المرحلة الثانوية / إعداد خاص لامتحانات البكالوريا (Abitur) في مادة اللغة الألمانية، واللغات القديمة والحديثة. هاتف: 034/8597558.",
+            "fr": "Cours particuliers à domicile pour lycéens / préparation spécifique au baccalauréat en allemand, langues anciennes et vivantes. Tél. 034 / 85 97 558."
+          },
+          "e": {
+            "ar": "معهد شولرهيلفه برن يبحث عن معلمين ومعلمات لدروس التقوية (مع شهادة جامعية مكتملة) لمادتي الرياضيات واللاتينية. هاتف: +41(0)319234444.",
+            "fr": "L'institut Schülerhilfe de Berne recherche des enseignants de soutien (diplômés universitaires) pour les mathématiques et le latin. Tél. +41(0)3192344 44."
+          },
+          "E": {
+            "ar": "معهد شولرهيلفه برن يبحث عن معلمين ومعلمات لدروس التقوية (مع شهادة جامعية مكتملة) لمادتي الرياضيات واللاتينية. هاتف: +41(0)319234444.",
+            "fr": "L'institut Schülerhilfe de Berne recherche des enseignants de soutien (diplômés universitaires) pour les mathématiques et le latin. Tél. +41(0)3192344 44."
+          },
+          "f": {
+            "ar": "رعاية ومتابعة الواجبات المدرسية بمقر اتحاد حماية الأطفال في برلين، من الإثنين إلى الخميس. جميع خدماتنا مجانية تماماً للمحتاجين إليها. هاتف: 02162721798.",
+            "fr": "Aide aux devoirs dans les locaux de l'Association allemande de protection de l'enfance (DKSB) à Berlin-Mitte. Toutes nos offres sont entièrement gratuites. Tél. 021 62 72 17 98."
+          },
+          "F": {
+            "ar": "رعاية ومتابعة الواجبات المدرسية بمقر اتحاد حماية الأطفال في برلين، من الإثنين إلى الخميس. جميع خدماتنا مجانية تماماً للمحتاجين إليها. هاتف: 02162721798.",
+            "fr": "Aide aux devoirs dans les locaux de l'Association allemande de protection de l'enfance (DKSB) à Berlin-Mitte. Toutes nos offres sont entièrement gratuites. Tél. 021 62 72 17 98."
+          },
+          "g": {
+            "ar": "درجات جيدة ببساطة! دروس تقوية احترافية لجميع المراحل والصفوف وأنواع المدارس. جودة معتمدة ومفحوصة من هيئة TÜV. برلين-كرويتسبرغ. هاتف: 030/14008945.",
+            "fr": "De bonnes notes en toute simplicité ! Soutien scolaire professionnel pour tous niveaux et filières. Qualité certifiée conforme par le TÜV. Berlin-Kreuzberg. Tél. 030/14008945."
+          },
+          "G": {
+            "ar": "درجات جيدة ببساطة! دروس تقوية احترافية لجميع المراحل والصفوف وأنواع المدارس. جودة معتمدة ومفحوصة من هيئة TÜV. برلين-كرويتسبرغ. هاتف: 030/14008945.",
+            "fr": "De bonnes notes en toute simplicité ! Soutien scolaire professionnel pour tous niveaux et filières. Qualité certifiée conforme par le TÜV. Berlin-Kreuzberg. Tél. 030/14008945."
+          },
+          "h": {
+            "ar": "دليل بلوتس للمدارس يعرض جميع مدارس المدينة مع نبذات تعريفية وافية، ويقدم نصائح حول أنواع المدارس وإصلاح التعليم، لمساعدة أولياء الأمور في اتخاذ القرار الصائب. 408 صفحة، 14.80 يورو.",
+            "fr": "Le Guide des écoles PLÖTZ présente tous les établissements scolaires de la ville avec des fiches détaillées, donne des conseils sur les filières et les réformes pour guider les parents dans leur choix. 408 pages, 14,80 €."
+          },
+          "H": {
+            "ar": "دليل بلوتس للمدارس يعرض جميع مدارس المدينة مع نبذات تعريفية وافية، ويقدم نصائح حول أنواع المدارس وإصلاح التعليم، لمساعدة أولياء الأمور في اتخاذ القرار الصائب. 408 صفحة، 14.80 يورو.",
+            "fr": "Le Guide des écoles PLÖTZ présente tous les établissements scolaires de la ville avec des fiches détaillées, donne des conseils sur les filières et les réformes pour guider les parents dans leur choix. 408 pages, 14,80 €."
+          },
+          "i": {
+            "ar": "غراتس-المركز: مطلوب معلم أو معلمة لدروس تقوية في اللغة الإيطالية، بأجر جيد ومجزٍ. هاتف: 316/2885217.",
+            "fr": "Graz-Centre : Recherche professeur de soutien en italien, très bonne rémunération. Tél. 316/28 85 217."
+          },
+          "I": {
+            "ar": "غراتس-المركز: مطلوب معلم أو معلمة لدروس تقوية في اللغة الإيطالية، بأجر جيد ومجزٍ. هاتف: 316/2885217.",
+            "fr": "Graz-Centre : Recherche professeur de soutien en italien, très bonne rémunération. Tél. 316/28 85 217."
+          },
+          "j": {
+            "ar": "دروس تقوية وأكثر! لجميع المواد والمراحل الدراسية. ميني-ليرنكرايس (خبرة منذ 1974): مجموعات صغيرة، دروس فردية، وتدريب متخصص للأطفال الذين يعانون من صعوبات الإملاء والحساب وضعف التركيز.",
+            "fr": "Soutien scolaire et bien plus ! Toutes matières et niveaux. Mini-Lernkreis (expertise depuis 1974) : mini-groupes, cours particuliers et entraînement ciblé pour enfants ayant des troubles de l'orthographe, du calcul ou un déficit de concentration."
+          },
+          "J": {
+            "ar": "دروس تقوية وأكثر! لجميع المواد والمراحل الدراسية. ميني-ليرنكرايس (خبرة منذ 1974): مجموعات صغيرة، دروس فردية، وتدريب متخصص للأطفال الذين يعانون من صعوبات الإملاء والحساب وضعف التركيز.",
+            "fr": "Soutien scolaire et bien plus ! Toutes matières et niveaux. Mini-Lernkreis (expertise depuis 1974) : mini-groupes, cours particuliers et entraînement ciblé pour enfants ayant des troubles de l'orthographe, du calcul ou un déficit de concentration."
+          }
+        },
+        "questions": {
+          "13": {
+            "ar": "ابن إيما، فرديناند، ليس لديه درجات سيئة، لكنها قلقة عليه لأنه لا يستطيع التركيز بشكل جيد.",
+            "fr": "Ferdinand, le fils d'Emma, n'a pas de mauvaises notes, mais elle s'inquiète car il a du mal à se concentrer.",
+            "text": {
+              "ar": "ابن إيما، فرديناند، ليس لديه درجات سيئة، لكنها قلقة عليه لأنه لا يستطيع التركيز بشكل جيد.",
+              "fr": "Ferdinand, le fils d'Emma, n'a pas de mauvaises notes, mais elle s'inquiète car il a du mal à se concentrer."
+            }
+          },
+          "14": {
+            "ar": "بسبب ظروف عملها، لا تستطيع السيدة بايزله مساعدة ابنها في أداء واجباته المدرسية، لكنها لا تملك القدرة المالية لتحمل تكاليف معهد تقوية أو مدرس خصوصي.",
+            "fr": "En raison de son travail, Mme Beisle ne peut pas aider son fils à faire ses devoirs, mais elle n'a pas les moyens de payer un institut de soutien ou un précepteur privé.",
+            "text": {
+              "ar": "بسبب ظروف عملها، لا تستطيع السيدة بايزله مساعدة ابنها في أداء واجباته المدرسية، لكنها لا تملك القدرة المالية لتحمل تكاليف معهد تقوية أو مدرس خصوصي.",
+              "fr": "En raison de son travail, Mme Beisle ne peut pas aider son fils à faire ses devoirs, mais elle n'a pas les moyens de payer un institut de soutien ou un précepteur privé."
+            }
+          },
+          "15": {
+            "ar": "يفكر السيد والسيدة هورن فيما إذا كان من الأفضل لابنتهما الالتحاق بالمدرسة الثانوية العامة (Gymnasium) أو المدرسة الإعدادية (Realschule).",
+            "fr": "M. et Mme Horn se demandent si leur fille devrait entrer au lycée général (Gymnasium) ou plutôt au collège d'enseignement général (Realschule).",
+            "text": {
+              "ar": "يفكر السيد والسيدة هورن فيما إذا كان من الأفضل لابنتهما الالتحاق بالمدرسة الثانوية العامة (Gymnasium) أو المدرسة الإعدادية (Realschule).",
+              "fr": "M. et Mme Horn se demandent si leur fille devrait entrer au lycée général (Gymnasium) ou plutôt au collège d'enseignement général (Realschule)."
+            }
+          },
+          "16": {
+            "ar": "ألكسندر سيؤدي امتحانات الشهادة الثانوية (Abitur) العام المقبل، ويحتاج ماسة لدروس خصوصية في الكيمياء والفيزياء، ويبحث عن مدرس يأتي إليه في منزله.",
+            "fr": "Alexandre passe son baccalauréat l'année prochaine et a absolument besoin de cours de soutien en chimie et en physique. Il cherche un professeur qui se déplace chez lui.",
+            "text": {
+              "ar": "ألكسندر سيؤدي امتحانات الشهادة الثانوية (Abitur) العام المقبل، ويحتاج ماسة لدروس خصوصية في الكيمياء والفيزياء، ويبحث عن مدرس يأتي إليه في منزله.",
+              "fr": "Alexandre passe son baccalauréat l'année prochaine et a absolument besoin de cours de soutien en chimie et en physique. Il cherche un professeur qui se déplace chez lui."
+            }
+          },
+          "17": {
+            "ar": "أنهت كورينا للتو دراستها الجامعية في الرياضيات وتبحث عن عمل في أحد معاهد دروس التقوية.",
+            "fr": "Corinna vient de terminer ses études universitaires de mathématiques et cherche un emploi dans un institut de soutien scolaire.",
+            "text": {
+              "ar": "أنهت كورينا للتو دراستها الجامعية في الرياضيات وتبحث عن عمل في أحد معاهد دروس التقوية.",
+              "fr": "Corinna vient de terminer ses études universitaires de mathématiques et cherche un emploi dans un institut de soutien scolaire."
+            }
+          },
+          "18": {
+            "ar": "يحتاج ماركوس بشدة إلى تحسين درجاته لاجتياز الشهادة الثانوية بنجاح، لكنه يريد التأكد أولاً من جودة شرح المعلمين وأسلوبهم قبل التسجيل في معهد معين.",
+            "fr": "Markus a absolument besoin d'obtenir de meilleures notes pour réussir son baccalauréat, mais avant de choisir un institut, il souhaite s'assurer que les enseignants expliquent bien la matière.",
+            "text": {
+              "ar": "يحتاج ماركوس بشدة إلى تحسين درجاته لاجتياز الشهادة الثانوية بنجاح، لكنه يريد التأكد أولاً من جودة شرح المعلمين وأسلوبهم قبل التسجيل في معهد معين.",
+              "fr": "Markus a absolument besoin d'obtenir de meilleures notes pour réussir son baccalauréat, mais avant de choisir un institut, il souhaite s'assurer que les enseignants expliquent bien la matière."
+            }
+          },
+          "19": {
+            "ar": "لينا في الصف التاسع ولديها درجات متدنية في الرياضيات، وتبحث عن برنامج حاسوبي يمكنه مساعدتها في التعلم.",
+            "fr": "Léna est en 9e classe et a de mauvaises notes en mathématiques. Elle cherche un logiciel informatique capable de l'aider.",
+            "text": {
+              "ar": "لينا في الصف التاسع ولديها درجات متدنية في الرياضيات، وتبحث عن برنامج حاسوبي يمكنه مساعدتها في التعلم.",
+              "fr": "Léna est en 9e classe et a de mauvaises notes en mathématiques. Elle cherche un logiciel informatique capable de l'aider."
+            }
+          }
+        }
+      },
+      "4": {
+        "instructions": {
+          "ar": "اقرأ التعليقات من 20 إلى 26. اختر: هل يرى الشخص المعني أن الأطفال الذين ينشؤون بلا إخوة (الطفل الوحيد) أفضل حالاً؟",
+          "fr": "Lisez les avis 20 à 26. Choisissez : la personne estime-t-elle que les enfants uniques ont une meilleure situation ?"
+        },
+        "topic": {
+          "ar": "هل يتمتع الطفل الوحيد بوضع وظروف أفضل في الحياة؟",
+          "fr": "Les enfants uniques ont-ils une situation plus enviable ?"
+        },
+        "example": {
+          "who": "تيم، 37 عاماً، فولفسبورغ",
+          "text": {
+            "ar": "الإجابة على هذا السؤال بسيطة للغاية. فمع وجود إخوة، يتدرب المرء شتاءً وصيفاً ورضي أم أبى على السلوك الاجتماعي. وعليه أن يتقاسم كل شيء باستمرار، بدءاً من الألعاب وصولاً إلى اهتمام الوالدين ورعايتهما. علاوة على ذلك، يتعلم المرء منذ نعومة أظفاره كيفية الاندماج في جماعة. وأرى أن امتلاك هذه المهارات ميزة كبرى للحياة في المجتمع. ولذلك ينبغي للجميع إن أمكن أن ينشؤوا مع إخوة. وكون المرء طفلاً وحيداً يمثل في نظري نقطة سلبية وعيباً حقيقياً.",
+            "fr": "La réponse est très simple. Avec des frères et sœurs, on s'exerce bon gré mal gré au comportement social. On doit continuellement tout partager, depuis les jouets jusqu'à l'attention des parents. De plus, on apprend dès le berceau à s'intégrer dans un groupe, ce qui constitue un atout précieux pour la vie en société. Dans la mesure du possible, tout le monde devrait grandir entouré d'une fratrie. Être enfant unique est à mes yeux un désavantage."
+          }
+        },
+        "letters": {
+          "20": {
+            "who": "أنجيلا، 35 عاماً، باد غاشتاين",
+            "text": {
+              "ar": "بالتأكيد لدي رأي واضح في هذا الموضوع، لأنني نشأت طفلة وحيدة. لا يمكنني تصور شكل أجمل لطفولة مفعمة بالدفء والحياة الأسرية؛ فكل شيء متناغم ويسوده الهدوء، وكطفل يكرس المرء كل وقته للتعلق بوالديه والتفاعل معهما لعدم وجود أفراد أسرة آخرين. فيتشكل كيان أسري متماسك يعين الطفل على النضج والتعقل مبكراً.",
+              "fr": "J'ai évidemment un avis tranché sur la question, étant moi-même fille unique. Je ne peux imaginer de plus belle forme d'enfance et de vie de famille. Tout est harmonieux, et l'enfant s'investit bien plus auprès de ses parents, n'ayant pas d'autres membres dans le foyer. On forme une véritable unité avec eux, ce qui aide grandement l'enfant à devenir mature et raisonnable."
+            }
+          },
+          "21": {
+            "who": "فرانك، 16 عاماً، شافهاوزن",
+            "text": {
+              "ar": "عشت لسنوات طويلة طفلاً وحيداً بمفردي. ثم تزوجت والدتي مجدداً وأصبح لدي فجأة شقيقان من زواجها الثاني. وما زلت حتى اليوم أفتقد الأوقات التي كانت والدتي تخصصها لي وحدي لساعات طويلة دون مقاطعة، أو عدم اضطراري الدائم لإعارة كل أسطواناتي أو مساعدة الآخرين في كل شاردة وواردة. فرحتي بوجود رفقاء معي في المنزل ليست كبيرة على الإطلاق.",
+              "fr": "J'ai été enfant unique pendant des années. Puis ma mère s'est remariée et je me suis retrouvé avec deux demi-frères. Je regrette toujours l'époque où ma mère avait de longs moments consacrés uniquement à moi, sans que je sois obligé de prêter mes CD en permanence ou d'aider les autres à tout bout de champ. Le bonheur de ne plus être seul ne me saute pas aux yeux."
+            }
+          },
+          "22": {
+            "who": "زوي، 17 عاماً، فيسترلاند",
+            "text": {
+              "ar": "يكفي للمرء أن يستحضر تلك المشاعر القاسية من الوحدة والعزلة في العطلات الصيفية والاحتفالات العائلية لكي يجد إجابة فورية عن هذا السؤال. ومهما كان حجم ما يتوجب على المرء تقاسمه مع أخيه أو أخته، فإن الأهم أنه لا يشعر بالوحدة أبداً. والوحدة في نظري أمر سلبي ومؤلم دوماً.",
+              "fr": "Il suffit de songer à la solitude pesante ressentie lors des vacances en famille ou des fêtes de fin d'année pour que la réponse s'impose d'elle-même. Peu importe ce que l'on doit partager avec un frère ou une sœur, l'essentiel est de ne pas être seul. Rester seul est invariablement une épreuve négative."
+            }
+          },
+          "23": {
+            "who": "نيكولاوس، 43 عاماً، دافوس",
+            "text": {
+              "ar": "عندما يبلغ الإنسان مرحلة الرشد وينفصل عن والديه ليعيش بمفرده، يكتسب الإخوة أهمية ومكانة مختلفة كلياً؛ إذ يكون الإخوة في المراحل المتقدمة من العمر على أتم الاستعداد لمد يد العون لبعضهم البعض. وإذا ما احتاج الوالدان الطاعنان في السن إلى رعاية وتمريض، أمكن تقاسم هذه المهمة النبيلة بين الإخوة. كما يمتلك المرء دائماً أشخاصاً من نفس جيله عاصروا طفولته وشبابه، وكل هذا يحرم منه الطفل الوحيد.",
+              "fr": "Une fois adulte et parti du domicile parental, les frères et sœurs prennent une toute autre importance. Plus tard dans la vie, ils sont toujours là pour s'entraider. Si nos parents communs viennent à avoir besoin d'aide ou de soins, on peut se répartir ce devoir. De plus, on conserve des personnes de sa propre génération, témoins fidèles de notre enfance et de notre jeunesse. L'enfant unique n'a pas cette chance."
+            }
+          },
+          "24": {
+            "who": "آندي، 29 عاماً، فيلز",
+            "text": {
+              "ar": "لم أتفق قط مع إخوتي على الإطلاق، لا وأنا طفل صغير ولا بعدما أصبحت رجلاً راشداً. كل تلك الخلافات والمشاحنات الدائمة استنزفت جزءاً هائلاً من طاقتي ووقتي وجهدي، وهي طاقة كان بإمكاني استثمارها في أمور أكثر نفعاً وإيجابية. وباعتبار المرء طفلاً وحيداً، فإنه لا يضيع طاقته ووقته في مثل هذه الصراعات العقيمة.",
+              "fr": "Je ne me suis jamais bien entendu avec mes frères et sœurs, ni enfant, ni adulte. Tous ces conflits et disputes continuelles m'ont coûté une énergie considérable, que j'aurais bien mieux employée ailleurs. En grandissant comme enfant unique, on ne gaspille ni son temps ni ses forces dans de telles querelles."
+            }
+          },
+          "25": {
+            "who": "دوريس، 21 عاماً، شليسفيغ",
+            "text": {
+              "ar": "يعاني الأطفال من الضغط النفسي والتوتر الناجم عن التوقعات الكبيرة التي يضعها الآباء على كاهلهم. وإذا لم يكن في العائلة سوى طفل واحد، فإنه يضطر لتحمل عبء تحقيق كل تلك الطموحات بمفرده، أو على الأقل يكون هذا هو الهدف غير المعلن. بينما في حال وجود إخوة يتوزع هذا العبء والضغط النفسي، ولذلك تكون حياة الأطفال الذين لديهم إخوة أكثر بساطة وراحة.",
+              "fr": "Les enfants subissent comme une pression et un stress intenses le fait que leurs parents attendent énormément d'eux. Lorsqu'il n'y a qu'un enfant dans le foyer, c'est à lui seul qu'il revient de combler toutes ces exigences. Au sein d'une fratrie, cette charge se répartit, de sorte que la vie s'avère bien plus facile pour les enfants qui ont des frères et sœurs."
+            }
+          },
+          "26": {
+            "who": "لوكاس، 26 عاماً، نورنبرغ",
+            "text": {
+              "ar": "تقدم لنا الأبحاث والدراسات التربوية إجابة قاطعة في هذا الصدد؛ فالطفل الوحيد يستطيع أن ينمي ذكاءه وقدراته العقلية بصورة أفضل بكثير، لأنه يتلقى تدريباً ورعاية مباشرة من شخصين بالغين هما والداه، ويتوفر له الدعم والإرشاد دون انقطاع، مما ينعكس بشكل إيجابي ملموس على معارفه وتحصيله المدرسي وثقافته العامة. ولذلك يتمتع الأطفال الذين ينشؤون بلا إخوة بفرصة انطلاق ووضع أولي أكثر ملاءمة ونجاحاً.",
+              "fr": "La recherche pédagogique apporte une réponse sans équivoque. Un enfant unique est en mesure de développer son intelligence bien plus harmonieusement car il est pour ainsi dire « entraîné » par deux adultes. Il bénéficie d'une aide ininterrompue, ce qui se traduit très positivement sur sa culture générale et ses résultats scolaires. Les enfants sans frères et sœurs disposent donc d'une situation de départ bien plus avantageuse."
+            }
+          }
+        }
+      },
+      "5": {
+        "instructions": {
+          "ar": "اقرأ المهام من 27 إلى 30 والنص المرفق بها. اختر لكل مهمة الحل الصحيح a أو b أو c.",
+          "fr": "Lisez les questions 27 à 30 et le texte correspondant. Choisissez pour chaque question la bonne solution a, b ou c."
+        },
+        "articles": [
+          {
+            "heading": {
+              "ar": "لائحة استخدام المخيم التابع للمسبح المكشوف ألتناو",
+              "fr": "Règlement intérieur du terrain de camping près de la piscine d'Altenau"
+            },
+            "sub": {
+              "ar": "أنت تطلع على لائحة استخدام مخيم ألتناو حيث ترغب في التخييم وقضاء الإجازة.",
+              "fr": "Vous vous informez sur le règlement d'utilisation du terrain de camping d'Altenau où vous souhaitez séjourner."
+            },
+            "body": {
+              "ar": [
+                "<strong>البند 1 (§ 1)</strong><br>يُسمح بالدخول بالسيارات إلى أرض المخيم بالقرب من المسبح المكشوف بغرض تحميل وتفريغ الأمتعة فقط. وبعد ذلك يجب ركن المركبات في ساحة انتظار السيارات الواقعة أمام المسبح. وتكلفة كل سيارة متوقفة داخل أرض المخيم 10 يورو لكل ليلة. وأي ترتيبات أخرى يجب التنسيق بشأنها مسبقاً مع المسؤولين.",
+                "<strong>البند 2 (§ 2)</strong><br>يُحظر الدخول إلى منطقة ضفاف النهر لأسباب تتعلق بحماية البيئة والطبيعة، ويجب عدم تلويثها مطلقاً سواء باستخدامها كدورات مياه أو إلقاء القمامة فيها. كما يُمنع صيد الأسماك في النهر منعاً باتاً (بإشعار من جمعية الصيد).",
+                "<strong>البند 3 (§ 3)</strong><br>يُسمح بإشعال نيران التخييم والشواء فقط في المواقد والأماكن المخصصة لذلك حصراً. ويُحظر تماماً إنشاء مواقد نيران جديدة. وفي حال مخالفة ذلك تفرض غرامة مالية قدرها 50 يورو.",
+                "<strong>البند 4 (§ 4)</strong><br>للتخلص من النفايات، توجد حاوية كبيرة موضوعة بجوار المبنى السكني. ولا يُسمح بالتخلص من النفايات الكبيرة الحجم أو الأثاث التالف، مثل كراسي التخييم والمراتب الهوائية. والمخالفات تستوجب فرض غرامة مالية.",
+                "<strong>البند 5 (§ 5)</strong><br>يمكن الوصول إلى دورات المياه عبر الدرج؛ وتقع على يسار غرف الاستحمام، وبجوار الكشك مباشرة. ومن البديهي تركها نظيفة بعد الاستخدام، مع تجنب انسداد المجاري ببقايا الطعام أو الإفراط في المناديل. ويُرجى من مشرفي المجموعات توجيه أفرادهم بهذا الشأن.<br>كما يمكن في غرف الاستحمام استخدام المياه الدافئة بواسطة فيشات استحمام بقيمة 1 يورو (تباع في شباك التذاكر/الكشك) لمدة 10 دقائق تقريباً.",
+                "<strong>البند 6 (§ 6)</strong><br>يجب الالتزام بالهدوء التام في المخيم بدءاً من منتصف الليل (الساعة 24). ويُرجى مراعاة راحة باقي رواد المخيم والامتناع عن إحداث أي ضوضاء أو إزعاج.",
+                "<strong>البند 7 (§ 7)</strong><br>يُمنع اصطحاب الكلاب داخل منطقة المسبح المكشوف. وفي أرض المخيم يجب أن تظل الكلاب مقيدة بحبل ولا تشكل أي خطر على رواد المخيم. وتبلغ تكلفة إقامتها 5 يورو في اليوم.",
+                "<strong>البند 8 (§ 8)</strong><br>في كامل منطقة المسبح المكشوف والمخيم، يتحمل الآباء أو المشرفون المسؤولية القانونية الكاملة عن أطفالهم وسلامتهم."
+              ],
+              "fr": [
+                "<strong>Article 1 (§ 1)</strong><br>Il est autorisé de pénétrer en véhicule sur le terrain du camping afin de charger ou décharger les bagages. Les véhicules doivent ensuite être stationnés sur le parking situé devant la piscine. Toute voiture garée sur le camping coûte 10 € par nuit. Toute autre disposition doit être convenue avec les responsables.",
+                "<strong>Article 2 (§ 2)</strong><br>L'accès à la zone des berges est formellement interdit pour des raisons de protection de la nature. Il convient de ne pas la souiller, que ce soit en guise de toilettes ou de décharge. La pêche en rivière est interdite (avis de la société de pêche) !",
+                "<strong>Article 3 (§ 3)</strong><br>Les feux de camp et barbecues ne sont autorisés qu'aux seuls emplacements prévus à cet effet. La création de nouveaux foyers est proscrite sous peine d'une amende de 50 €.",
+                "<strong>Article 4 (§ 4)</strong><br>Pour l'évacuation des déchets, un conteneur est disposé à côté du bâtiment d'habitation. Le dépôt d'encombrants, tels que chaises de camping et matelas pneumatiques, n'est pas autorisé et sera sanctionné d'une amende.",
+                "<strong>Article 5 (§ 5)</strong><br>Les toilettes sont accessibles par l'escalier ; elles se situent à gauche des douches, directement à côté du kiosque. Il va de soi de les laisser propres. Les engorgements dus à des restes alimentaires ou au papier sont à éviter. Les responsables de groupe doivent en informer leurs membres.<br>Les douches chaudes fonctionnent avec des jetons d'une valeur de 1 € (en vente à la caisse/au kiosque) pour environ 10 minutes.",
+                "<strong>Article 6 (§ 6)</strong><br>Le calme absolu doit être respecté sur le camp à partir de minuit (24 h). Nous vous prions d'avoir des égards pour vos voisins campeurs. Pas de nuisances sonores !",
+                "<strong>Article 7 (§ 7)</strong><br>Les chiens ne sont pas admis dans l'enceinte de la piscine. Sur le terrain de camping, ils doivent obligatoirement être tenus en laisse et ne présenter aucun danger. Leur séjour est facturé 5 € par jour.",
+                "<strong>Article 8 (§ 8)</strong><br>Sur l'ensemble du site de la piscine et du camping, les parents ou accompagnateurs sont pleinement responsables de leurs enfants."
+              ]
+            }
+          }
+        ],
+        "questions": {
+          "27": {
+            "text": {
+              "ar": "بالنسبة للكلاب ...",
+              "fr": "Concernant les chiens..."
+            },
+            "options": {
+              "ar": [
+                "لا يُسمح بتواجدها في منطقة المسبح المكشوف.",
+                "المخيم غير مخصص لاستقبالها.",
+                "يجب دفع رسوم قدرها 5 يورو تدفع لمرة واحدة فقط."
+              ],
+              "fr": [
+                "leur présence est interdite dans le secteur de la piscine.",
+                "le camping ne les accepte pas.",
+                "il faut s'acquitter d'un forfait unique de 5 €."
+              ]
+            }
+          },
+          "28": {
+            "text": {
+              "ar": "من أجل الشواء وإشعال النار، يجب ...",
+              "fr": "Pour faire un barbecue, il faut..."
+            },
+            "options": {
+              "ar": [
+                "الحصول على موافقة لإنشاء موقد نار جديد.",
+                "إشعال النار فقط في الأماكن المحددة والمخصصة لذلك.",
+                "طلب إذن خاص في كل مرة."
+              ],
+              "fr": [
+                "obtenir l'autorisation pour un nouvel emplacement de feu.",
+                "faire du feu uniquement aux endroits prévus.",
+                "demander une permission préalable."
+              ]
+            }
+          },
+          "29": {
+            "text": {
+              "ar": "دورات المياه ...",
+              "fr": "Les toilettes..."
+            },
+            "options": {
+              "ar": [
+                "تقع بجوار الكشك مباشرة.",
+                "ينبغي تنظيفها بواسطة مسؤولي المجموعات.",
+                "تحتوي أيضاً على مرافق الاستحمام في نفس الحجرة."
+              ],
+              "fr": [
+                "se trouvent à côté du kiosque.",
+                "doivent être nettoyées par les chefs de groupe.",
+                "comprennent également les douches."
+              ]
+            }
+          },
+          "30": {
+            "text": {
+              "ar": "بالنسبة لمنطقة ضفاف النهر يسري ما يلي:",
+              "fr": "Pour la zone riveraine des berges :"
+            },
+            "options": {
+              "ar": [
+                "توجد هناك أيضاً دورات مياه.",
+                "هناك فقط يلتزم المرء بحماية الطبيعة.",
+                "يُحظر التواجد أو الدخول إلى تلك المنطقة."
+              ],
+              "fr": [
+                "des toilettes y sont également installées.",
+                "c'est le seul endroit où l'on est tenu de protéger la nature.",
+                "l'accès et le séjour y sont formellement interdits."
+              ]
+            }
+          }
+        }
+      },
+      "6": {
+        "instructions": {
+          "ar": "وحدة الاستماع (Hören): تتكون من 4 أجزاء و30 مهمة. انقر فوق زر التشغيل للاستماع إلى الملف الصوتي الأصلي المسجل بفترات التوقف المعتمدة في الامتحان.",
+          "fr": "Module Compréhension orale (Hören) : 4 parties, 30 questions. Cliquez sur lecture pour démarrer la bande audio originale aux pauses officielles d'examen."
+        },
+        "teile": {
+          "1": {
+            "title": {
+              "ar": "الجزء 1: خمسة نصوص قصيرة",
+              "fr": "Partie 1 : Cinq textes courts"
+            },
+            "desc": {
+              "ar": "ستستمع الآن إلى خمسة نصوص قصيرة، وستسمع كل نص مرتين. لكل نص ستقوم بحل مهمتين.",
+              "fr": "Vous allez entendre cinq textes courts, chacun diffusé deux fois. Pour chaque texte, répondez à deux questions."
+            },
+            "context": {
+              "ar": "إعلانات ورسائل هاتفية وتوجيهات إذاعية متنوعة.",
+              "fr": "Annonces radio, répondeurs et messages d'information publique."
+            }
+          },
+          "2": {
+            "title": {
+              "ar": "الجزء 2: جولة في عوالم سواروفسكي الكريستالية",
+              "fr": "Partie 2 : Visite guidée des Mondes du Cristal Swarovski"
+            },
+            "desc": {
+              "ar": "ستستمع الآن إلى نص لمرة واحدة فقط، وستحل خمس مهام باختيار الإجابة الصحيحة a أو b أو c.",
+              "fr": "Vous allez entendre un texte diffusé une seule fois, puis répondre à cinq questions à choix multiple."
+            },
+            "context": {
+              "ar": "أنت تشارك في جولة إرشادية داخل عوالم سواروفسكي الكريستالية في فاتنز بالنمسا.",
+              "fr": "Vous participez à une visite guidée des Mondes du Cristal Swarovski à Wattens en Autriche."
+            }
+          },
+          "3": {
+            "title": {
+              "ar": "الجزء 3: محادثة حول إدمان الإنترنت",
+              "fr": "Partie 3 : Discussion sur l'addiction à Internet"
+            },
+            "desc": {
+              "ar": "ستستمع الآن إلى محادثة لمرة واحدة فقط، وتحدد ما إذا كانت العبارات السبع صحيحة أم خاطئة.",
+              "fr": "Vous allez écouter une conversation diffusée une seule fois et déterminer si les sept affirmations sont vraies ou fausses."
+            },
+            "context": {
+              "ar": "أنت جالس في مطعم للوجبات السريعة وتسمع ثلاثة شباب يتحدثون عن شخص يعاني من إدمان الإنترنت وألعابه.",
+              "fr": "Vous êtes assis dans un fast-food et entendez trois jeunes discuter d'un ami souffrant d'addiction aux jeux vidéo en ligne."
+            }
+          },
+          "4": {
+            "title": {
+              "ar": "الجزء 4: حلقة نقاشية إذاعية حول الموضة وتأثيرها",
+              "fr": "Partie 4 : Débat radiophonique sur la mode et les tendances"
+            },
+            "desc": {
+              "ar": "ستستمع الآن إلى مناقشة حوارية مرتين، وتنسب كل رأي إلى المتحدث صاحب العبارة.",
+              "fr": "Vous allez écouter un débat diffusé deux fois et attribuer chaque déclaration à son auteur."
+            },
+            "context": {
+              "ar": "يناقش مذيع برنامج «قضايا راهنة» مع مستشارة المظهر دوريس زيبرت والتلميذة إيفا مارتينز موضوع الموضة والأزياء في حياتنا اليومية.",
+              "fr": "L'animateur de l'émission « Thèmes d'actualité » débat de l'importance de la mode avec la styliste Doris Siebert et la collégienne Eva Martins."
+            }
+          }
+        },
+        "questions": {
+          "h1": {
+            "text": {
+              "ar": "أنت متصل بخدمة عملاء إحدى المكتبات لبيع الكتب.",
+              "fr": "Vous êtes en ligne avec le service clientèle d'une librairie."
+            }
+          },
+          "h2": {
+            "text": {
+              "ar": "من لديه أسئلة واستفسارات، ...",
+              "fr": "Pour toute question, on peut..."
+            },
+            "options": {
+              "ar": [
+                "عليه كتابة بطاقة بريدية.",
+                "يمكنه الاتصال هاتفياً أيضاً خلال عطلة نهاية الأسبوع.",
+                "يمكنه إرسال بريد إلكتروني."
+              ],
+              "fr": [
+                "envoyer une carte postale.",
+                "téléphoner également pendant le week-end.",
+                "envoyer un courriel."
+              ]
+            }
+          },
+          "h3": {
+            "text": {
+              "ar": "القطار سيصل في موعد مبكر عن المعتاد.",
+              "fr": "Le train arrivera plus tôt que prévu."
+            }
+          },
+          "h4": {
+            "text": {
+              "ar": "متى سيصل المسافرون إلى مدينة ميونيخ؟",
+              "fr": "À quelle heure les voyageurs arriveront-ils à Munich ?"
+            },
+            "options": {
+              "ar": [
+                "في تمام الساعة 20:00.",
+                "حوالي الساعة 17:00.",
+                "بعد الساعة 23:00 ليلاً."
+              ],
+              "fr": [
+                "À 20 h 00.",
+                "Vers 17 h 00.",
+                "Après 23 h 00."
+              ]
+            }
+          },
+          "h5": {
+            "text": {
+              "ar": "هناك عرض مسرحي مخصص للأطفال.",
+              "fr": "Il y a une représentation théâtrale pour les enfants."
+            }
+          },
+          "h6": {
+            "text": {
+              "ar": "حضور هذه الفعالية ...",
+              "fr": "L'entrée à cet événement..."
+            },
+            "options": {
+              "ar": [
+                "مجاني بدون أي رسوم.",
+                "يكلف نفس المبلغ للأطفال والبالغين على حد سواء.",
+                "أكثر كلفة للبالغين مقارنة بالأطفال."
+              ],
+              "fr": [
+                "est gratuite.",
+                "coûte le même tarif pour enfants et adultes.",
+                "est plus chère pour les adultes que pour les enfants."
+              ]
+            }
+          },
+          "h7": {
+            "text": {
+              "ar": "باولا ليست موجودة في منزلها فترة بعد الظهر.",
+              "fr": "Paula n'est pas chez elle cet après-midi."
+            }
+          },
+          "h8": {
+            "text": {
+              "ar": "متى يمكن لفيولا معاودة الاتصال بباولا؟",
+              "fr": "Quand Viola peut-elle rappeler Paula ?"
+            },
+            "options": {
+              "ar": [
+                "خلال الساعة إلى الساعتين القادمتين.",
+                "هذا المساء في تمام الساعة الثامنة بالضبط.",
+                "هذا المساء في المنزل أو غداً بمقر العمل."
+              ],
+              "fr": [
+                "Dans les une à deux prochaines heures.",
+                "Ce soir à 20 h tapantes.",
+                "Ce soir chez elle ou demain à l'entreprise."
+              ]
+            }
+          },
+          "h9": {
+            "text": {
+              "ar": "تستمع إلى نصائح وتوجيهات للتسوق في السوبرماركت.",
+              "fr": "Vous écoutez des conseils pour faire ses courses au supermarché."
+            }
+          },
+          "h10": {
+            "text": {
+              "ar": "كم يوماً في الأسبوع يمكن للمرء شراء المنتجات العضوية؟",
+              "fr": "Combien de jours par semaine peut-on acheter des produits bio ?"
+            },
+            "options": {
+              "ar": [
+                "خلال ثلاثة أيام.",
+                "خلال يومين.",
+                "خلال يوم واحد فقط."
+              ],
+              "fr": [
+                "Trois jours par semaine.",
+                "Deux jours par semaine.",
+                "Un seul jour par semaine."
+              ]
+            }
+          },
+          "h11": {
+            "text": {
+              "ar": "تقع عوالم سواروفسكي الكريستالية في ...",
+              "fr": "Les Mondes du Cristal Swarovski se trouvent à..."
+            },
+            "options": {
+              "ar": [
+                "إنسبروك.",
+                "فاتنز.",
+                "فاتنباخ."
+              ],
+              "fr": [
+                "Innsbruck.",
+                "Wattens.",
+                "Wattenbach."
+              ]
+            }
+          },
+          "h12": {
+            "text": {
+              "ar": "كم عدد موظفي شركة سواروفسكي؟",
+              "fr": "Combien de collaborateurs emploie Swarovski ?"
+            },
+            "options": {
+              "ar": [
+                "5000 موظف.",
+                "2000 موظف.",
+                "25000 موظف."
+              ],
+              "fr": [
+                "5 000 salariés.",
+                "2 000 salariés.",
+                "25 000 salariés."
+              ]
+            }
+          },
+          "h13": {
+            "text": {
+              "ar": "من الذي صمم قاعات العرض في عوالم سواروفسكي الكريستالية؟",
+              "fr": "Par qui les salles des Mondes du Cristal ont-elles été conçues ?"
+            },
+            "options": {
+              "ar": [
+                "دانييل سواروفسكي.",
+                "أبناء وأحفاد عائلة سواروفسكي.",
+                "فنان تشكيلي نمساوي."
+              ],
+              "fr": [
+                "Par Daniel Swarovski.",
+                "Par les enfants et petits-enfants de la famille Swarovski.",
+                "Par un artiste contemporain autrichien."
+              ]
+            }
+          },
+          "h14": {
+            "text": {
+              "ar": "من يشتري منتجات من المركز التجاري الملحق، ...",
+              "fr": "Toute personne qui achète des articles dans le centre commercial..."
+            },
+            "options": {
+              "ar": [
+                "يمكنه طلب إرسال مشترياته عبر البريد.",
+                "يجب عليه الدفع بعملة اليورو حصراً.",
+                "يجب عليه التحدث مباشرة إلى موظفي المبيعات."
+              ],
+              "fr": [
+                "peut se faire expédier ses achats par la poste.",
+                "doit obligatoirement régler en euros.",
+                "doit s'adresser au personnel."
+              ]
+            }
+          },
+          "h15": {
+            "text": {
+              "ar": "من يصطحب معه كلباً، ...",
+              "fr": "Quiconque a un chien..."
+            },
+            "options": {
+              "ar": [
+                "يمكنه التنزه برفقته في الحديقة الخارجية.",
+                "يجب عليه تسجيل نفسه في خيمة الاستقبال.",
+                "يمكنه إدخاله مجاناً إلى قاعات المعرض."
+              ],
+              "fr": [
+                "peut aller se promener avec lui dans le parc.",
+                "doit obligatoirement se présenter sous la tente d'accueil.",
+                "peut l'emmener gratuitement dans les salles d'exposition."
+              ]
+            }
+          },
+          "h16": {
+            "text": {
+              "ar": "جوليا هي صديقة إريك وحبيبته.",
+              "fr": "Julia est la petite amie d'Erik."
+            }
+          },
+          "h17": {
+            "text": {
+              "ar": "جاءت جوليا بمفردها إلى مطعم الوجبات السريعة.",
+              "fr": "Julia est venue seule dans le restaurant rapide."
+            }
+          },
+          "h18": {
+            "text": {
+              "ar": "كان إريك يقضي أوقات الليل أيضاً في اللعب على الكمبيوتر.",
+              "fr": "Erik jouait aussi sur son ordinateur pendant la nuit."
+            }
+          },
+          "h19": {
+            "text": {
+              "ar": "نيله هي صديقة إريك الحالية.",
+              "fr": "Nele est actuellement la petite amie d'Erik."
+            }
+          },
+          "h20": {
+            "text": {
+              "ar": "لم تكن العائلة تعلم شيئاً عن مشاكل إريك العاطفية مع نيله.",
+              "fr": "La famille ignorait tout des déboires d'Erik avec Nele."
+            }
+          },
+          "h21": {
+            "text": {
+              "ar": "رفض إريك التحدث إلى الطبيب بشأن مشكلته.",
+              "fr": "Erik a refusé d'aborder son problème avec le médecin."
+            }
+          },
+          "h22": {
+            "text": {
+              "ar": "سيباستيان وتوم يرغبان في مساعدة صديقهما إريك.",
+              "fr": "Sebastian et Tom souhaitent apporter leur aide à Erik."
+            }
+          },
+          "h23": {
+            "text": {
+              "ar": "مستشارو المظهر يزودون الزبائن بمعلومات عن كيفية العناية بالأقمشة.",
+              "fr": "Les conseillers en style informent les clients sur l'entretien des textiles."
+            },
+            "options": {
+              "ar": [
+                "المذيع",
+                "دوريس زيبرت",
+                "إيفا مارتينز"
+              ],
+              "fr": [
+                "Le journaliste animateur",
+                "Doris Siebert",
+                "Eva Martins"
+              ]
+            }
+          },
+          "h24": {
+            "text": {
+              "ar": "ليس كل المراهقين والشباب يكترثون بصرعات الموضة.",
+              "fr": "Tous les adolescents ne prêtent pas attention à la mode."
+            },
+            "options": {
+              "ar": [
+                "المذيع",
+                "دوريس زيبرت",
+                "إيفا مارتينز"
+              ],
+              "fr": [
+                "Le journaliste animateur",
+                "Doris Siebert",
+                "Eva Martins"
+              ]
+            }
+          },
+          "h25": {
+            "text": {
+              "ar": "مواكبة الموضة والظهور بمظهر عصري يكلف أموالاً طائلة.",
+              "fr": "Être à la mode et branché coûte très cher."
+            },
+            "options": {
+              "ar": [
+                "المذيع",
+                "دوريس زيبرت",
+                "إيفا مارتينز"
+              ],
+              "fr": [
+                "Le journaliste animateur",
+                "Doris Siebert",
+                "Eva Martins"
+              ]
+            }
+          },
+          "h26": {
+            "text": {
+              "ar": "لا يحتاج المرء بالضرورة إلى أموال طائلة ليبدو بمظهر أنيق وعصري.",
+              "fr": "Un look soigné et tendance ne nécessite pas forcément beaucoup d'argent."
+            },
+            "options": {
+              "ar": [
+                "المذيع",
+                "دوريس زيبرت",
+                "إيفا مارتينز"
+              ],
+              "fr": [
+                "Le journaliste animateur",
+                "Doris Siebert",
+                "Eva Martins"
+              ]
+            }
+          },
+          "h27": {
+            "text": {
+              "ar": "قد يصاب المرء بمشاكل وحساسية جلدية بسبب رداءة جودة الملابس.",
+              "fr": "Des matières de mauvaise qualité peuvent provoquer des réactions cutanées."
+            },
+            "options": {
+              "ar": [
+                "المذيع",
+                "دوريس زيبرت",
+                "إيفا مارتينز"
+              ],
+              "fr": [
+                "Le journaliste animateur",
+                "Doris Siebert",
+                "Eva Martins"
+              ]
+            }
+          },
+          "h28": {
+            "text": {
+              "ar": "من يرغب في ارتداء ملابس عضوية طبيعية على بشرته، فعليه دفع مبالغ إضافية.",
+              "fr": "Quiconque recherche du textile 100 % bio doit payer plus cher."
+            },
+            "options": {
+              "ar": [
+                "المذيع",
+                "دوريس زيبرت",
+                "إيفا مارتينز"
+              ],
+              "fr": [
+                "Le journaliste animateur",
+                "Doris Siebert",
+                "Eva Martins"
+              ]
+            }
+          },
+          "h29": {
+            "text": {
+              "ar": "انتقاد مظهر الشباب وملابسهم من قِبل الكبار أمر شائع ومتكرر.",
+              "fr": "Les critiques des adultes envers le look des jeunes sont fréquentes."
+            },
+            "options": {
+              "ar": [
+                "المذيع",
+                "دوريس زيبرت",
+                "إيفا مارتينز"
+              ],
+              "fr": [
+                "Le journaliste animateur",
+                "Doris Siebert",
+                "Eva Martins"
+              ]
+            }
+          },
+          "h30": {
+            "text": {
+              "ar": "مثل هذا السلوك المتمرد في اللباس أمر متوقع وطبيعي في هذه السن.",
+              "fr": "Une telle attitude vestimentaire est tout à fait prévisible et normale à cet âge."
+            },
+            "options": {
+              "ar": [
+                "المذيع",
+                "دوريس زيبرت",
+                "إيفا مارتينز"
+              ],
+              "fr": [
+                "Le journaliste animateur",
+                "Doris Siebert",
+                "Eva Martins"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}
