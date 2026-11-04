@@ -1564,12 +1564,35 @@ function getTeil3Assignments(t) {
 }
 
 /* ---------------- TEIL SOLUTIONS & EXPLANATIONS ENGINE ---------------- */
+function isReadingModuleCompleteForEmail() {
+  const readingParts = testData.filter(t => !t.isHoren && t.id !== 6);
+  if (readingParts.length === 0) return false;
+  const allRevealed = readingParts.every(t => revealedTeils.has(t.id));
+  const lastReadingPart = readingParts[readingParts.length - 1];
+  const allAnswered = readingParts.every(t =>
+    allQuestionsOf(t).every(q => userAnswers[q.id] !== undefined && userAnswers[q.id] !== null && userAnswers[q.id] !== '')
+  );
+  return allRevealed || (revealedTeils.has(lastReadingPart.id) && allAnswered);
+}
+
+function isListeningModuleCompleteForEmail() {
+  const horenPart = testData.find(t => t.isHoren || t.id === 6);
+  if (!horenPart) return false;
+  const allRevealed = [1, 2, 3, 4].every(p => revealedTeils.has(`horen-${p}`));
+  const allAnswered = allQuestionsOf(horenPart).every(q =>
+    userAnswers[q.id] !== undefined && userAnswers[q.id] !== null && userAnswers[q.id] !== ''
+  );
+  return allRevealed || (revealedTeils.has('horen-4') && allAnswered);
+}
+
 window.revealTeilSolutions = function(teilId) {
   revealedTeils.add(teilId);
   if (typeof syncMistakesForTeil === 'function') {
     syncMistakesForTeil(teilId);
   }
-  sendTeilResultsEmail(teilId);
+  if (isReadingModuleCompleteForEmail()) {
+    sendModuleResultsEmail('lesen');
+  }
   renderCurrentTeil();
   saveSession();
   const qp = document.getElementById('questionsPanel');
@@ -1589,7 +1612,9 @@ window.revealHorenTeilSolutions = function(partNum) {
   if (typeof syncMistakesForHorenTeil === 'function') {
     syncMistakesForHorenTeil(partNum);
   }
-  sendTeilResultsEmail(6, partNum);
+  if (isListeningModuleCompleteForEmail()) {
+    sendModuleResultsEmail('horen');
+  }
   renderCurrentTeil();
   saveSession();
 
@@ -1997,7 +2022,10 @@ function renderTeilScoreBannerHtml(t, qs) {
 
   const hideBtnText = isAr ? 'إخفاء الإجابات / إعادة المحاولة' : (isFr ? 'Masquer / Réessayer' : 'Lösungen ausblenden / Wiederholen');
   const nextBtnText = isAr ? 'الانتقال إلى الجزء التالي ←' : (isFr ? 'Partie suivante →' : 'Weiter zum nächsten Teil →');
+  const finishReadingBtnText = isAr ? 'عرض النتيجة النهائية (100 نقطة)' : (isFr ? 'Voir le résultat final (100 P.)' : 'Zum Gesamtergebnis (100 P.)');
 
+  const readingParts = testData.filter(x => !x.isHoren && x.id !== 6);
+  const isLastReadingTeil = readingParts.length > 0 && readingParts[readingParts.length - 1].id === t.id;
   const hasNext = activeTeil < testData.length;
 
   return `
@@ -2008,7 +2036,10 @@ function renderTeilScoreBannerHtml(t, qs) {
       </div>
       <div class="teil-score-actions">
         <button type="button" class="btn btn-sm btn-outline" onclick="hideTeilSolutions(${t.id})">${hideBtnText}</button>
-        ${hasNext ? `<button type="button" class="btn btn-sm btn-primary" onclick="document.getElementById('nextTeilBtn').click()">${nextBtnText}</button>` : ''}
+        ${isLastReadingTeil
+          ? `<button type="button" class="btn btn-sm btn-success" onclick="showResults('lesen')">${finishReadingBtnText}</button>`
+          : (hasNext ? `<button type="button" class="btn btn-sm btn-primary" onclick="document.getElementById('nextTeilBtn').click()">${nextBtnText}</button>` : '')
+        }
       </div>
     </div>
   `;
