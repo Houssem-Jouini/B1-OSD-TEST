@@ -1,0 +1,2473 @@
+{
+  "id": "modellsatz-23",
+  "title": "Modelltest 17 — Hueber Zertifikat B1",
+  "badge": "Modelltest 17",
+  "examTitle": "Goethe / ÖSD B1 Prüfungssimulation — Modelltest 17",
+  "examSub": "Lesen (5 Teile) & Hören (4 Teile) · Modelltest 17 (Hueber)",
+  "durationMinutes": 65,
+  "parts": [
+    {
+      "id": 1,
+      "title": "Teil 1",
+      "time": 10,
+      "instructions": "Lesen Sie den Text und die Aufgaben 1 bis 6 dazu. Wählen Sie: Sind die Aussagen richtig oder falsch?",
+      "articles": [
+        {
+          "title": "AloisBlog.at · Blogeintrag von Alois",
+          "author": "Alois",
+          "date": "23. Oktober",
+          "body": [
+            "Servus, Blogfans! Weil viele von euch vor dem Problem der Jobsuche stehen, interessiert euch sicherlich, was mein Freund Herbert darüber zu berichten hat. Herbert ist leicht gehbehindert und nahm an einem Job-Coaching-Projekt teil.",
+            "„Mein Name ist Herbert Ziegler, ich bin 24 Jahre alt und wohne in Innsbruck. Nach dem Hauptschulabschluss versuchte ich mich in einigen Lehrstellen, alle drei Lehrlingsverhältnisse wurden aber aufgelöst.",
+            "In das Job-Coaching kam ich vor 18 Monaten. Nach einigen Gesprächen lernte ich meinen jetzigen Job-Coach kennen. Ich startete mit einem Schnupperpraktikum in einer Werkstatt für Fahrräder. Das war mein Wunsch, denn ich hatte ein Interesse an einem Arbeitsplatz in Richtung Reparatur oder Mechanik. Nach diesen drei Wochen war ich aber nicht mehr überzeugt, dass ich in diesem Bereich arbeiten wollte. Ich war in dieser Zeit sehr verunsichert, aber mein Job-Coach und ich saßen in vielen Gesprächen zusammen und er motivierte mich, neue Arbeitsgebiete auszuprobieren. Schließlich begann ich ein Schnupperpraktikum in einem Veranstaltungshaus als Hausmeisterhilfskraft. Ich wurde zur Unterstützung des Hausmeisters Markus gebraucht.",
+            "In einem Veranstaltungshaus geht die Arbeit nie aus. Die abwechslungsreichen Tätigkeiten haben mir gut gefallen, alle Angestellten im Haus waren sehr freundlich zu mir. Im Anschluss an das Praktikum saßen Markus, die Hausleitung Manuela, mein Job-Coach und ich zusammen und besprachen die Schnupperzeit und ich wurde eingestellt.",
+            "Zusammen haben wir meine Arbeitsaufträge ganz genau beschrieben und einige Ziele vereinbart, die wir bis Ende des ersten Arbeitsjahres erreichen wollen. Ich möchte zum Beispiel bis dahin die komplizierte Heiztechnik im Keller so weit kennenlernen, dass ich auch ohne die direkte Hilfe von Markus kleinere Probleme weitgehend selbstständig lösen kann.",
+            "Die Arbeit im Ganzen ist nicht immer einfach, manchmal auch richtig stressig. Aber mit Unterstützung von Markus und dem Job-Coach lerne ich diese kritischen Situationen immer besser bewältigen. Meine jetzige Arbeit gefällt mir sehr gut, besonders die technischen Aufgaben interessieren mich und ich will in diesem Bereich noch viel lernen und weiterkommen. Wichtig ist mir auch das geregelte Einkommen, denn mit dem verdienten Geld kann ich mir endlich einige meiner Wünsche erfüllen.“",
+            "Prima Idee das Job-Coaching, oder? Euer Alois"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "tf",
+          "num": 1,
+          "text": "Herberts erste Versuche, eine Ausbildung zu machen, hatten keinen Erfolg.",
+          "answer": "richtig"
+        },
+        {
+          "id": 2,
+          "type": "tf",
+          "num": 2,
+          "text": "Herbert machte ein Praktikum in einer Fahrradwerkstatt, da er gern Rad fährt.",
+          "answer": "falsch"
+        },
+        {
+          "id": 3,
+          "type": "tf",
+          "num": 3,
+          "text": "Nach dem Praktikum im Veranstaltungshaus bekam Herbert eine Arbeitsstelle.",
+          "answer": "richtig"
+        },
+        {
+          "id": 4,
+          "type": "tf",
+          "num": 4,
+          "text": "Die Aufgaben, die Herbert erledigen muss, sind ziemlich leicht.",
+          "answer": "falsch"
+        },
+        {
+          "id": 5,
+          "type": "tf",
+          "num": 5,
+          "text": "Die Arbeit im Veranstaltungshaus findet Herbert interessant.",
+          "answer": "richtig"
+        },
+        {
+          "id": 6,
+          "type": "tf",
+          "num": 6,
+          "text": "Der Lohn spielt für Herbert eine geringe Rolle.",
+          "answer": "falsch"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Teil 2",
+      "time": 20,
+      "instructions": "Lesen Sie die Texte aus der Presse und die Aufgaben 7 bis 12 dazu. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+      "articles": [
+        {
+          "title": "Regeln der Freundschaft",
+          "source": "aus einer deutschen Zeitung",
+          "body": [
+            "Das soziale Medium Facebook ändert die Regeln der Kommunikation und der Freundschaft. Allein in Deutschland will Facebook 20 Millionen aktive Nutzer haben; eine Generation wächst mit der Plattform auf. Auch in den Lehrerzimmern sitzen technikbegeisterte Pädagogen, die sich mit Facebook beschäftigen. Es ist sicher, dass sich Lehrer und Schüler nicht nur in der Schule, sondern auch in Facebook treffen. Das wirft neue Fragen auf: Wie sollen Schüler und Lehrer im Netz miteinander umgehen? Dürfen sie sich virtuell befreunden? Dürfen Lehrer erfahren, was ihre Schüler in ihrer Freizeit in dem sozialen Netzwerk veröffentlichen? Und wie ist es umgekehrt? Dazu gibt es bisher kaum Empfehlungen.",
+            "Eine Hauptschule in Hamm (Nordrhein-Westfalen) hat Regeln für die Facebook-Nutzung ihrer Lehrer festgelegt. Wenn ein Lehrer der Schule mit seinen Schülern interagiert, muss er dafür ein zweites Profil anlegen. Nicht jeder im Kollegium ist damit glücklich, denn das ist umständlich und zeitaufwendig. Woanders haben manche Lehrer selbst entschieden, dass sie Facebook nur als Kommunikations- und Unterhaltungsmedium benutzen, nicht um private Probleme zu diskutieren. So können auch Schüler die neutralen Inhalte des Lehrerprofils lesen. Lehrer sind sich einig darüber, dass sich Facebook besonders eignet, um mit Schülern, die die Schule abgeschlossen haben, in Kontakt zu bleiben."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": 7,
+          "type": "mcq",
+          "num": 7,
+          "text": "In diesem Text geht es um …",
+          "options": [
+            "Verhaltensregeln zwischen Freunden.",
+            "die Kommunikation in sozialen Medien.",
+            "die Kommunikation zwischen Schülern und Lehrern auf Facebook."
+          ],
+          "answer": 2
+        },
+        {
+          "id": 8,
+          "type": "mcq",
+          "num": 8,
+          "text": "Manche Lehrer …",
+          "options": [
+            "finden Facebook anstrengend.",
+            "wollen auf Facebook keine persönlichen Probleme diskutieren.",
+            "wollen mehr über die Freizeitaktivitäten der Schüler wissen."
+          ],
+          "answer": 1
+        },
+        {
+          "id": 9,
+          "type": "mcq",
+          "num": 9,
+          "text": "Eine Schule in Hamm …",
+          "options": [
+            "hat Vorschriften für die Facebook-Kommunikation der Lehrer gemacht.",
+            "verbietet den Lehrern, Facebook zu benutzen.",
+            "kontrolliert das Facebook-Profil von Lehrern."
+          ],
+          "answer": 0
+        }
+      ],
+      "articles2": [
+        {
+          "title": "Gesund mit dem Roboter",
+          "source": "aus einem österreichischen Magazin",
+          "body": [
+            "Nao, ein neuer Roboter aus Frankreich, kann weder die Stirn runzeln noch lächeln oder Grimassen schneiden, denn er hat ein Gesicht aus Plastik. Aber Nao kann Menschen wiedererkennen, mit denen er schon mal zu tun hatte. Außerdem merkt er, wie ihre Stimmung ist, und reagiert darauf. Wenn er zum Beispiel angelächelt wird, hebt er den Kopf und breitet die Arme aus: ein Zeichen für Freude. Der Roboter kann sich recht gut bewegen. Es fällt ihm auch nicht schwer, etwas vom Boden aufzuheben und wegzuschmeißen, so gelenkig ist er.",
+            "Wissenschaftler haben den Roboter weiterentwickelt, um ihn in Spitälern (Spital = österreichisch für „Krankenhaus“) einzusetzen – als Robo-Doktor. Die Forscher glauben, dass Nao kranke Kinder aufmuntern kann, weil viele Kinder einen Roboter als Spielzeug sehen, etwas Schönes zur Unterhaltung, vor dem sie keine Angst haben. Nao soll außerdem den Kindern die Behandlung ihrer Krankheit erklären, denn sprechen kann er sogar gut und geduldig ist er auch. Eine andere seiner Aufgaben ist, den kranken Kleinen die Angst vor Operationen zu nehmen. Der neue Robo-Doktor ist nur 58 cm groß und wiegt gerade mal 5,2 kg. Seine Maße sind für die kleinen Patienten angenehm, sie erinnern sie an ein übergroßes Stofftier."
+          ]
+        }
+      ],
+      "questions2": [
+        {
+          "id": 10,
+          "type": "mcq",
+          "num": 10,
+          "text": "In diesem Text geht es um …",
+          "options": [
+            "einen Roboter, der lächeln kann.",
+            "die Therapie kranker Kinder.",
+            "einen Roboter, der im Spital benutzt werden soll."
+          ],
+          "answer": 2
+        },
+        {
+          "id": 11,
+          "type": "mcq",
+          "num": 11,
+          "text": "Nao kann …",
+          "options": [
+            "mit Menschen sprechen.",
+            "ein Kind gesund machen.",
+            "mit Kindern spielen."
+          ],
+          "answer": 0
+        },
+        {
+          "id": 12,
+          "type": "mcq",
+          "num": 12,
+          "text": "Kranke Kinder …",
+          "options": [
+            "langweilen sich und brauchen etwas zum Spielen.",
+            "sehen in Nao ein Spielzeug, vor dem sie keine Angst haben.",
+            "lieben Stofftiere."
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Teil 3",
+      "time": 10,
+      "instructions": "Lesen Sie die Situationen 13 bis 19 und die Anzeigen a bis j aus verschiedenen deutschsprachigen Medien. Wählen Sie: Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es keine passende Anzeige; wählen Sie in diesem Fall 0.",
+      "situationContext": "Bekannte von Ihnen möchten ihre Fremdsprachenkenntnisse erweitern und suchen dafür passende Möglichkeiten.",
+      "adsFormatted": [
+        {
+          "code": "a",
+          "title": "Sprachenschule Köln · Intensiv- & Ferienkurse",
+          "text": "Intensiv-Tageskurse in Englisch / Französisch / Italienisch: 2 Wochen, tägl. 6 Stunden 19.06.–30.06. Schülerkurse in den Sommerferien: 2 Wochen, täglich 4 Stunden 03.07.–14.07. Am Büchel 24, 50678 Köln. Tel. 2 75 82 75 / 76. www.sprachenschule.koeln.de",
+          "html": "<strong>Sprachenschule Köln</strong><br>Intensiv-Tageskurse in Englisch / Französisch / Italienisch: 2 Wochen, tägl. 6 Std. (19.06.–30.06.)<br>Schülerkurse in den Sommerferien: 2 Wochen, tägl. 4 Std. (03.07.–14.07.)<br><em>Am Büchel 24, Köln · Tel.: 2 75 82 75/76 · www.sprachenschule.koeln.de</em>",
+          "color": "#ebf5fb",
+          "hasPin": true
+        },
+        {
+          "code": "b",
+          "title": "Meike, 25 Jahre, Österreich · Brieffreunde gesucht",
+          "text": "Hallo, ich bin Meike und komme aus Österreich. Ich hätte gerne Brieffreunde aus anderen Ländern. Ich interessiere mich für Fremdsprachen, auch wenn ich leider nur Französisch spreche und ein wenig Englisch. Ansonsten lese ich gerne, treffe mich mit Freunden und schaue mir Filme an. Ich schreibe entweder in Deutsch oder Französisch.",
+          "html": "<strong>Meike, 25 Jahre, Österreich (Villach)</strong><br>Suche Brieffreunde aus anderen Ländern! Interessiere mich für Fremdsprachen.<br><em>Schreibe gerne in Deutsch oder Französisch.</em>",
+          "color": "#fef9e7",
+          "hasPin": false
+        },
+        {
+          "code": "c",
+          "title": "Gymnasiallehrerin erteilt Nachhilfe",
+          "text": "Gymnasiallehrerin erteilt Nachhilfeunterricht in Engl./Franz. (Gymnasium u. Realschule). Tel. 0761-6102292.",
+          "html": "<strong>Gymnasiallehrerin erteilt Nachhilfeunterricht</strong><br>In Englisch und Französisch (Gymnasium & Realschule).<br><em>Tel.: 0761-6102292</em>",
+          "color": "#e8f8f5",
+          "hasPin": true
+        },
+        {
+          "code": "d",
+          "title": "Englisch lernen mit Learn & Fun - Sprachreisen",
+          "text": "Englisch gilt heutzutage als Weltsprache Nummer Eins, mit der Sie sich fast überall verständlich machen können. Auch im Beruf wird ein guter Umgang mit der englischen Sprache immer wichtiger. Ein Sprachkurs in einem englischsprachigen Land bietet die einzigartige Gelegenheit, die Sprache richtig zu sprechen und sich in sie „einzuleben“. Alle unsere Reiseziele sind sorgfältig ausgewählt und bieten für alle Ihre Interessen den entsprechenden Rahmen. Rufen Sie uns an, wir beraten Sie gerne ausführlich. Learn & Fun-Sprachreisen. Tel. 0221 - 29 49 90 21, Fax 0221 - 29 49 90 22, info@learnandfun.de.",
+          "html": "<strong>Englisch lernen mit Learn & Fun - Sprachreisen</strong><br>Sprachkurse direkt im englischsprachigen Ausland: Intensives Lernen & Eintauchen in die Kultur.<br><em>Tel.: 0221 - 29 49 90 21 · info@learnandfun.de</em>",
+          "color": "#fdfefe",
+          "hasPin": false
+        },
+        {
+          "code": "e",
+          "title": "Nachhilfelehrer(in) für Französisch gesucht",
+          "text": "Ich suche eine(n) Nachhilfelehrer(in) für meinen Sohn (6. Klasse Gymnasium, 2. Lernjahr) für das Fach Französisch. Vorzugsweise Studentinnen bzw. Lehrerinnen und Unterricht bei uns zu Hause. VB 15 €/Stunde. Kontakt bitte per Mail: Andrea, E-Mail-Adresse: andrea.weber@yahoo.de.",
+          "html": "<strong>Nachhilfelehrer(in) für Französisch gesucht</strong><br>Für Schüler 6. Klasse Gymnasium (2. Lernjahr), Unterricht bei uns zu Hause (15 €/Std.).<br><em>Kontakt: andrea.weber@yahoo.de</em>",
+          "color": "#f5eef8",
+          "hasPin": false
+        },
+        {
+          "code": "f",
+          "title": "Online-Magazin Bonjour · Französisch perfektionieren",
+          "text": "Das Online-Magazin Bonjour ermöglicht es fortgeschrittenen Französischlernenden ihre Kenntnisse zu perfektionieren, indem sie über untertitelte Kurzvideos in die Sprache eintauchen. Es erscheinen laufend neue Videos von Muttersprachlern, wie Interviews, Reportagen, Fernsehserien, Reiseberichte und Musikvideos. Melden Sie sich heute noch an unter: www.bonjour-online.com.",
+          "html": "<strong>Online-Magazin Bonjour</strong><br>Für Fortgeschrittene: Französisch perfektionieren mit aktuellen, untertitelten Kurzvideos (Interviews, Serien, Reportagen, Musik).<br><em>www.bonjour-online.com</em>",
+          "color": "#f4ecf7",
+          "hasPin": true
+        },
+        {
+          "code": "g",
+          "title": "Sprachaustausch Französisch / Deutsch (Luz Kinard)",
+          "text": "Grüezi, ich lerne Deutsch und suche nun Muttersprachler, die Lust haben (und evtl. auch Französisch lernen wollen als Gegenleistung von mir) uns mal zu treffen und einfach drauflos zu sprechen – Fehler sind ja da, um verlernt zu werden ;) Wäre sehr gerne auch bereit für jemanden, der Französisch lernt, auch so zu helfen. Luz Kinard · Tel. 0671-89 54 36.",
+          "html": "<strong>Sprachtandem Deutsch / Französisch · Luz Kinard</strong><br>Grüezi! Suche Muttersprachler für Konversationsaustausch: einfach drauflos sprechen!<br><em>Tel.: 0671-89 54 36</em>",
+          "color": "#eafaf1",
+          "hasPin": false
+        },
+        {
+          "code": "h",
+          "title": "Lernen Sie Griechisch jetzt im Urlaub - MANI",
+          "text": "Lernen Sie Griechisch, während Sie in Ihrem Traum-Ferienhaus leben, alles Griechische genießen – die Kurse, die Menschen, das Essen, das Meer und die Natur – und dabei die Sprache mit allen Sinnen aufnehmen. Allein oder mit Freunden in einer Gruppe oder mit Ihrem Partner. Erforschen Sie die zahlreichen bedeutenden Sehenswürdigkeiten und Schätze dieser einzigartigen Gegend, der MANI, und erholen Sie sich im Land der Götter. Nutzen Sie die Gelegenheit – Buchen Sie jetzt! www.ellinikamani.com.",
+          "html": "<strong>Lernen Sie Griechisch jetzt im Urlaub · Mani</strong><br>Griechisch lernen im Traum-Ferienhaus am Meer: Kurse, Kultur & Entspannung.<br><em>www.ellinikamani.com</em>",
+          "color": "#fdedec",
+          "hasPin": true
+        },
+        {
+          "code": "i",
+          "title": "Spanischunterricht · Herr Gonzales",
+          "text": "Ich unterrichte seit 8 Jahren Spanisch. Egal ob Konversation, schriftlicher Ausdruck, Lese- oder Hörverstehen – Sie können alles bei mir lernen. Wir können den Unterricht je nach Bedarf flexibel gestalten. Bei Interesse rufen Sie einfach an. Tel. 0875-78 12 43 (Herr Gonzales).",
+          "html": "<strong>Spanischunterricht · Herr Gonzales</strong><br>Seit 8 Jahren Unterricht: Konversation, Schreiben, Lese- und Hörverstehen.<br><em>Flexibler Einzelunterricht nach Bedarf · Tel.: 0875-78 12 43</em>",
+          "color": "#eaf2f8",
+          "hasPin": true
+        },
+        {
+          "code": "j",
+          "title": "Welner Sprachreisen · Frankreich, Spanien, Polen, Russland",
+          "text": "Welner Sprachreisen: Examenskurse, Spezial- und Einzelunterricht, Ferienkurse für Erwachsene, Jugendliche, für die ganze Familie nach Frankreich, Spanien, Polen, Russland. 20 Jahre Qualitäts-Sprachreisen. Emser Str. 34, 60599 Frankfurt, Tel. (069) 97 68 10 09, Fax: (069) 97 68 10 11.",
+          "html": "<strong>Welner Sprachreisen · 20 Jahre Qualität</strong><br>Ferienkurse & Sprachreisen für Jugendliche und Familien nach Spanien, Frankreich, Polen etc.<br><em>Frankfurt · Tel.: (069) 97 68 10 09</em>",
+          "color": "#fbfcfc",
+          "hasPin": true
+        }
+      ],
+      "questions": [
+        {
+          "id": 13,
+          "type": "match",
+          "num": 13,
+          "text": "Steffi war als Austauschschülerin ein Jahr lang in Frankreich. Sie möchte nun in ihrer Freizeit ihre Sprachkenntnisse pflegen und Kontakt zu Land und Kultur halten.",
+          "answer": "f"
+        },
+        {
+          "id": 14,
+          "type": "match",
+          "num": 14,
+          "text": "Natalie will schnell Französisch lernen, weil sie ab September mit ihrem Ehemann nach Paris zieht.",
+          "answer": "a"
+        },
+        {
+          "id": 15,
+          "type": "match",
+          "num": 15,
+          "text": "Herr Fuchs besucht einen Englischkurs, ist aber schwach im Schriftlichen. Er muss also das Schreiben üben.",
+          "answer": "0"
+        },
+        {
+          "id": 16,
+          "type": "match",
+          "num": 16,
+          "text": "Alinas Englisch ist nicht so gut. Sie meint, man lernt eine Fremdsprache am besten im Land, wo sie gesprochen wird.",
+          "answer": "d"
+        },
+        {
+          "id": 17,
+          "type": "match",
+          "num": 17,
+          "text": "Urs möchte Spanisch lernen. Er lernt aber nicht gern mit anderen zusammen.",
+          "answer": "i"
+        },
+        {
+          "id": 18,
+          "type": "match",
+          "num": 18,
+          "text": "Frau Kilmer hat in der Schule Französisch gelernt. Wegen ihres Berufs muss sie nun ihren mündlichen Ausdruck verbessern.",
+          "answer": "g"
+        },
+        {
+          "id": 19,
+          "type": "match",
+          "num": 19,
+          "text": "Ben und Ali haben in der Schule als Wahlfach Spanisch. Sie haben sich entschlossen, im Sommer gemeinsam eine Sprachreise nach Spanien zu unternehmen.",
+          "answer": "j"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Teil 4",
+      "time": 15,
+      "instructions": "Lesen Sie die Texte 20 bis 26. Wählen Sie: Ist die Person dafür, dass 16-Jährige wählen dürfen? Wählen Sie Ja oder Nein.",
+      "topic": "Sollten 16-Jährige schon wählen dürfen? (Wahlrecht ab 16)",
+      "letters": [
+        {
+          "id": 20,
+          "num": 20,
+          "who": "Magnus (37, Biel)",
+          "text": "Jugendliche lassen sich viel zu sehr von der Meinung anderer beeinflussen. Die wählen dann das, was ihr bester Freund wählt. Ich kann mir nicht vorstellen, dass sie die Programme von Parteien kritisch durchlesen oder sich ernsthaft mit der Politik beschäftigen. 16 ist zu früh.",
+          "answer": "Nein"
+        },
+        {
+          "id": 21,
+          "num": 21,
+          "who": "Cornelius (24, Traiskirchen)",
+          "text": "Man hat doch schon ganz gute Erfahrungen mit dem Wahlrecht bei Kommunalwahlen gemacht, also für Bürgermeister usw. Warum sollte das nicht genauso gut bei den Regierungswahlen funktionieren? Ich denke, die Zeit dafür ist gekommen.",
+          "answer": "Ja"
+        },
+        {
+          "id": 22,
+          "num": 22,
+          "who": "Marianne (16, Frankfurt)",
+          "text": "Das bedeutet, dass ich ab jetzt auch eine Regierung wählen dürfte. Dadurch wäre ich auch irgendwie verpflichtet, mich mit Politik zu beschäftigen, um informiert zu sein. Natürlich wäre das eine große Motivation, mal ein bisschen genauer bei den politischen Diskussionen zuzuhören, was ich im Moment nicht mache. Ich hätte dann auch eher das Gefühl, ernst genommen zu werden, und das ist mir wichtig.",
+          "answer": "Ja"
+        },
+        {
+          "id": 23,
+          "num": 23,
+          "who": "Caroline (38, Cuxhaven)",
+          "text": "Wenn ich über das Wahlrecht nachdenke, meine ich, es sollte wieder auf 21 hochgesetzt werden. Die Gründe liegen auf der Hand. Mit 21 ist man voll straffähig, also für alle, aber auch alle Taten vor dem Gesetz verantwortlich und mit 21 ist der junge Mensch sicher mit der Schule fertig und studiert oder lernt einen Beruf, befindet sich also auch in einem „erwachsenen“ Umfeld. Das ist das richtige Alter.",
+          "answer": "Nein"
+        },
+        {
+          "id": 24,
+          "num": 24,
+          "who": "Christoph (30, Saarbrücken)",
+          "text": "Es gibt einen Grund, warum schon seit so vielen Jahren das Wahlrecht erst ab 18 gilt. Vorher fehlt es den Menschen einfach an Lebenserfahrung, um bei so einer wichtigen Sache mitzumachen. Ich glaube nicht, dass ein Jugendlicher schon genug von komplexen, politischen Entscheidungen verstehen kann, besonders wenn es sich um die Wahl auf nationaler Ebene handelt.",
+          "answer": "Nein"
+        },
+        {
+          "id": 25,
+          "num": 25,
+          "who": "Michelle (18, Kloten)",
+          "text": "In der Schweiz wird die Bevölkerung immer älter. Die Statistik sagt, dass die über 55-Jährigen bald über die Hälfte der Wähler ausmachen. Aber wir können doch nicht alles nur von älteren Menschen bestimmen lassen! Die Jungen brauchen auch eine Stimme. Ein richtiger Schritt wäre für mich das Wahlrecht ab 16, auf allen Ebenen. So würde sich das Übergewicht der Älteren ausgleichen.",
+          "answer": "Ja"
+        },
+        {
+          "id": 26,
+          "num": 26,
+          "who": "Karsten (24, Neumünster)",
+          "text": "Damit würde man ein falsches Signal geben, denn wenn die jungen Leute erstmal mit 16 wählen dürfen, wollen sie dann bestimmt auch Auto fahren und andere Dinge mit 16 machen dürfen. Viel wichtiger wäre, dass die Menschen, die schon 18 sind, sich wieder mehr für Politik interessieren und wählen gehen.",
+          "answer": "Nein"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Teil 5",
+      "time": 10,
+      "instructions": "Lesen Sie die Aufgaben 27 bis 30 und den Text dazu. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+      "article": {
+        "title": "Flohmarkt „Ottofloh“ · Dornum",
+        "subtitle": "Teilnahme- & Verkaufsbedingungen",
+        "paragraphs": [
+          "Der Flohmarkt „Ottofloh“ wird zweimal jährlich von einer privaten Elterninitiative ehrenamtlich in der Wandelhalle in 27637 Dornum organisiert.",
+          "<strong>ANMELDUNG</strong><br>1. Jeder Verkäufer muss sich rechtzeitig vor jedem Flohmarkttermin anmelden und erhält als Bestätigung eine Verkäufernummer. Anmeldungen werden nur auf unserer Homepage unter: www.ottofloh.de, sowie bei Vertretern der Flohmarktleitung per Telefon oder persönlich entgegengenommen.",
+          "<strong>WAREN - VERKAUF</strong><br>2. Es werden nur Kinderbekleidungen jeweils passend zur Jahreszeit, Kinderzubehör (Möbel usw.), Spielsachen und Schulsachen für Kinder angenommen. Größere und sperrige Artikel werden nur nach vorheriger Rücksprache und Bestätigung angenommen.<br>3. Alle Waren müssen in einem sauberen und ordentlichen Zustand ohne Beschädigungen und funktionstüchtig sein. Die Flohmarktleitung behält sich das Recht vor, Waren, die nicht den Anforderungen entsprechen, nicht zum Verkauf anzubieten.",
+          "4. Bei Abgabe der Waren ist pro Verkäufer ein Unkostenbeitrag von 1,50 Euro als Startgeld zu entrichten. Die Abgabe ist auf 50 Teile pro Verkäufer begrenzt! Bei höherer Teilezahl wird ein zusätzliches Aufgeld berechnet.<br>5. Alle nicht verkauften Waren sind nach Beendigung des Flohmarktes zu den bekannt gegebenen Zeiten abzuholen. Waren, die nicht spätestens eine Woche nach dem jeweiligen Flohmarkttermin abgeholt worden sind, werden dem Roten Kreuz oder einer anderen Hilfsorganisation übergeben.",
+          "<strong>PERSÖNLICHE DATEN</strong><br>6. Hinweis gem. § 23 BDSG: Persönliche Daten der Teilnehmer wie Name, Ort und Telefonnummer werden nur zum Zweck der Durchführung der Flohmärkte auf elektronischen Datenträgern gespeichert. Eine Weitergabe der persönlichen Daten an Dritte erfolgt zu keinem Zeitpunkt."
+        ]
+      },
+      "questions": [
+        {
+          "id": 27,
+          "type": "mcq",
+          "num": 27,
+          "text": "Alle nicht verkauften Waren …",
+          "options": [
+            "müssen die Verkäufer innerhalb einer Woche abholen.",
+            "werden an eine Hilfsorganisation verschenkt.",
+            "werden beim nächsten Flohmarkt erneut zum Verkauf angeboten."
+          ],
+          "answer": 0
+        },
+        {
+          "id": 28,
+          "type": "mcq",
+          "num": 28,
+          "text": "Die persönlichen Daten der Verkäufer …",
+          "options": [
+            "werden elektronisch geschützt.",
+            "können den Käufern bei Problemen mit der gekauften Ware von der Flohmarktleitung bekannt gegeben werden.",
+            "werden nicht an Leute weitergegeben, die nichts mit der Flohmarktorganisation zu tun haben."
+          ],
+          "answer": 2
+        },
+        {
+          "id": 29,
+          "type": "mcq",
+          "num": 29,
+          "text": "Um sich anzumelden, …",
+          "options": [
+            "braucht man eine Verkäufernummer.",
+            "kann man bei der Flohmarktleitung anrufen.",
+            "muss man 1,50 Euro bezahlen."
+          ],
+          "answer": 1
+        },
+        {
+          "id": 30,
+          "type": "mcq",
+          "num": 30,
+          "text": "Als Verkäufer darf man …",
+          "options": [
+            "auf keinen Fall mehr als 50 Teile verkaufen.",
+            "auch alte Sachen verkaufen, wenn sie problemlos funktionieren.",
+            "auf jedem Flohmarkt Sommer- und Winterbekleidung anbieten."
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Teil 6 (Hören)",
+      "badge": "Hören",
+      "isHoren": true,
+      "time": 35,
+      "instructions": "Sie hören nun die vier Teile des Moduls Hören. Wählen Sie bei jeder Aufgabe die richtige Lösung.",
+      "audioSrc": "audio/modellsatz-23-hoeren.mp3",
+      "audioFallbacks": [
+        "audio/modellsatz-23-hoeren.mp3"
+      ],
+      "audioChapters": [
+        {
+          "time": 0,
+          "start": 0,
+          "end": 35,
+          "label": "00:00 Teil 1 (Beispiel · 2x)",
+          "part": 1,
+          "title": "Teil 1 · Beispiel (2x hören)"
+        },
+        {
+          "time": 35,
+          "start": 35,
+          "end": 703,
+          "label": "00:35 Teil 1 (Texte 1–5 · 2x)",
+          "part": 1,
+          "title": "Teil 1 · Fünf kurze Texte (2x hören)"
+        },
+        {
+          "time": 703,
+          "start": 703,
+          "end": 1001,
+          "label": "11:43 Teil 2 (Rundfahrt auf dem Vierwaldstättersee · 1x)",
+          "part": 2,
+          "title": "Teil 2 · Rundfahrt auf dem Vierwaldstättersee (1x hören)"
+        },
+        {
+          "time": 1001,
+          "start": 1001,
+          "end": 1256,
+          "label": "16:41 Teil 3 (Gespräch im Kino: Gewichtsprobleme · 1x)",
+          "part": 3,
+          "title": "Teil 3 · Gespräch im Kino: Gewichtsprobleme (1x hören)"
+        },
+        {
+          "time": 1256,
+          "start": 1256,
+          "end": 1716,
+          "label": "20:56 Teil 4 (Diskussion: Umzug · 1. Durchgang)",
+          "part": 4,
+          "title": "Teil 4 · Diskussion: Umzug (1. Durchgang)"
+        },
+        {
+          "time": 1716,
+          "start": 1716,
+          "end": 2112,
+          "label": "28:36 Teil 4 (Diskussion: Umzug · 2. Durchgang)",
+          "part": 4,
+          "title": "Teil 4 · Diskussion: Umzug (2. Durchgang)"
+        }
+      ],
+      "questions": [
+        {
+          "id": "h1",
+          "type": "tf",
+          "num": 1,
+          "text": "Sie hören eine Reklame.",
+          "answer": "richtig",
+          "audioStart": 35,
+          "teilPart": 1,
+          "textNum": 1
+        },
+        {
+          "id": "h2",
+          "type": "mcq",
+          "num": 2,
+          "text": "Die Zeitschrift erscheint …",
+          "options": [
+            "einmal im Monat.",
+            "einmal in der Woche.",
+            "alle 14 Tage."
+          ],
+          "answer": 0,
+          "audioStart": 35,
+          "teilPart": 1,
+          "textNum": 1
+        },
+        {
+          "id": "h3",
+          "type": "tf",
+          "num": 3,
+          "text": "Sie sind mit einer Berufsschule verbunden.",
+          "answer": "falsch",
+          "audioStart": 154,
+          "teilPart": 1,
+          "textNum": 2
+        },
+        {
+          "id": "h4",
+          "type": "mcq",
+          "num": 4,
+          "text": "Wer die Schule besuchen möchte, …",
+          "options": [
+            "muss eine Aufnahmeprüfung machen.",
+            "sollte an einer Informationsveranstaltung teilnehmen.",
+            "muss Latein können."
+          ],
+          "answer": 1,
+          "audioStart": 154,
+          "teilPart": 1,
+          "textNum": 2
+        },
+        {
+          "id": "h5",
+          "type": "tf",
+          "num": 5,
+          "text": "Sie hören die Sportnachrichten.",
+          "answer": "falsch",
+          "audioStart": 273,
+          "teilPart": 1,
+          "textNum": 3
+        },
+        {
+          "id": "h6",
+          "type": "mcq",
+          "num": 6,
+          "text": "Was erfahren Sie auf dem Video?",
+          "options": [
+            "Wie lange Sie Rad fahren sollen.",
+            "Welche Kleidung Sie beim Radfahren am besten tragen.",
+            "Wie man Rennradler wird."
+          ],
+          "answer": 1,
+          "audioStart": 273,
+          "teilPart": 1,
+          "textNum": 3
+        },
+        {
+          "id": "h7",
+          "type": "tf",
+          "num": 7,
+          "text": "Das Flugzeug wird gleich landen.",
+          "answer": "falsch",
+          "audioStart": 456,
+          "teilPart": 1,
+          "textNum": 4
+        },
+        {
+          "id": "h8",
+          "type": "mcq",
+          "num": 8,
+          "text": "Während des Fluges …",
+          "options": [
+            "darf man keine elektronischen Geräte benutzen.",
+            "kann man sein Handy einschalten.",
+            "sollte man angeschnallt bleiben."
+          ],
+          "answer": 2,
+          "audioStart": 456,
+          "teilPart": 1,
+          "textNum": 4
+        },
+        {
+          "id": "h9",
+          "type": "tf",
+          "num": 9,
+          "text": "Sie hören eine Meldung über einen Verkehrsstau.",
+          "answer": "falsch",
+          "audioStart": 582,
+          "teilPart": 1,
+          "textNum": 5
+        },
+        {
+          "id": "h10",
+          "type": "mcq",
+          "num": 10,
+          "text": "Der Autofahrer wurde …",
+          "options": [
+            "gar nicht verletzt.",
+            "schwer verletzt.",
+            "leicht verletzt."
+          ],
+          "answer": 2,
+          "audioStart": 582,
+          "teilPart": 1,
+          "textNum": 5
+        },
+        {
+          "id": "h11",
+          "type": "mcq",
+          "num": 11,
+          "text": "Wie viele Schiffe gehören der Schifffahrtsgesellschaft?",
+          "options": [
+            "Fünfzehn.",
+            "Einundzwanzig.",
+            "Fünf."
+          ],
+          "answer": 1,
+          "audioStart": 703,
+          "teilPart": 2
+        },
+        {
+          "id": "h12",
+          "type": "mcq",
+          "num": 12,
+          "text": "Wie schnell kann die Jacht fahren?",
+          "options": [
+            "Höchstens 28 Kilometer pro Stunde.",
+            "Ungefähr 49 Kilometer pro Stunde.",
+            "Fast 300 Kilometer pro Stunde."
+          ],
+          "answer": 0,
+          "audioStart": 703,
+          "teilPart": 2
+        },
+        {
+          "id": "h13",
+          "type": "mcq",
+          "num": 13,
+          "text": "Der Vierwaldstättersee liegt …",
+          "options": [
+            "im Kanton Uri.",
+            "an einem Schloss.",
+            "mitten in der Schweiz."
+          ],
+          "answer": 2,
+          "audioStart": 703,
+          "teilPart": 2
+        },
+        {
+          "id": "h14",
+          "type": "mcq",
+          "num": 14,
+          "text": "Um den See gibt es …",
+          "options": [
+            "mehrere Berge.",
+            "drei Wälder.",
+            "eine Handelsstraße."
+          ],
+          "answer": 0,
+          "audioStart": 703,
+          "teilPart": 2
+        },
+        {
+          "id": "h15",
+          "type": "mcq",
+          "num": 15,
+          "text": "Im Jahr 1871 …",
+          "options": [
+            "konnte man zum ersten Mal auf die Berge fahren.",
+            "entdeckten die Engländer die Berge in der Schweiz.",
+            "schrieb Marc Twain einen Artikel über die Schweiz."
+          ],
+          "answer": 0,
+          "audioStart": 703,
+          "teilPart": 2
+        },
+        {
+          "id": "h16",
+          "type": "tf",
+          "num": 16,
+          "text": "Hannes und Lara sind Geschwister.",
+          "answer": "richtig",
+          "audioStart": 1001,
+          "teilPart": 3
+        },
+        {
+          "id": "h17",
+          "type": "tf",
+          "num": 17,
+          "text": "Am Sonntag hat Hannes seinen Geburtstag gefeiert.",
+          "answer": "falsch",
+          "audioStart": 1001,
+          "teilPart": 3
+        },
+        {
+          "id": "h18",
+          "type": "tf",
+          "num": 18,
+          "text": "Jasmin findet Hannes zu dick.",
+          "answer": "richtig",
+          "audioStart": 1001,
+          "teilPart": 3
+        },
+        {
+          "id": "h19",
+          "type": "tf",
+          "num": 19,
+          "text": "Hannes macht viel Sport.",
+          "answer": "falsch",
+          "audioStart": 1001,
+          "teilPart": 3
+        },
+        {
+          "id": "h20",
+          "type": "tf",
+          "num": 20,
+          "text": "Hannes isst gerne Salat.",
+          "answer": "falsch",
+          "audioStart": 1001,
+          "teilPart": 3
+        },
+        {
+          "id": "h21",
+          "type": "tf",
+          "num": 21,
+          "text": "Lara hat schon immer Tennis gespielt.",
+          "answer": "falsch",
+          "audioStart": 1001,
+          "teilPart": 3
+        },
+        {
+          "id": "h22",
+          "type": "tf",
+          "num": 22,
+          "text": "Lara findet, dass Jasmin gut aussieht.",
+          "answer": "falsch",
+          "audioStart": 1001,
+          "teilPart": 3
+        },
+        {
+          "id": "h23",
+          "type": "speaker",
+          "num": 23,
+          "text": "Die Entfernung zwischen den Wohnorten spielt am Anfang eine Rolle.",
+          "options": [
+            "Moderatorin",
+            "Lena",
+            "Simon"
+          ],
+          "answer": 1,
+          "audioStart": 1256,
+          "teilPart": 4
+        },
+        {
+          "id": "h24",
+          "type": "speaker",
+          "num": 24,
+          "text": "Der Umzug findet aus beruflichen Gründen statt.",
+          "options": [
+            "Moderatorin",
+            "Lena",
+            "Simon"
+          ],
+          "answer": 2,
+          "audioStart": 1256,
+          "teilPart": 4
+        },
+        {
+          "id": "h25",
+          "type": "speaker",
+          "num": 25,
+          "text": "Einen neuen Liebespartner findet man nicht so schnell.",
+          "options": [
+            "Moderatorin",
+            "Lena",
+            "Simon"
+          ],
+          "answer": 1,
+          "audioStart": 1256,
+          "teilPart": 4
+        },
+        {
+          "id": "h26",
+          "type": "speaker",
+          "num": 26,
+          "text": "Kommunikationstechnologie bietet keine wahre Chance, eine Beziehung fortzusetzen.",
+          "options": [
+            "Moderatorin",
+            "Lena",
+            "Simon"
+          ],
+          "answer": 2,
+          "audioStart": 1256,
+          "teilPart": 4
+        },
+        {
+          "id": "h27",
+          "type": "speaker",
+          "num": 27,
+          "text": "Bei Problemen sollte man sich nicht nur auf die Nachteile einer Situation konzentrieren.",
+          "options": [
+            "Moderatorin",
+            "Lena",
+            "Simon"
+          ],
+          "answer": 0,
+          "audioStart": 1256,
+          "teilPart": 4
+        },
+        {
+          "id": "h28",
+          "type": "speaker",
+          "num": 28,
+          "text": "Auf dem Land gibt es nicht viele Unterhaltungsmöglichkeiten.",
+          "options": [
+            "Moderatorin",
+            "Lena",
+            "Simon"
+          ],
+          "answer": 1,
+          "audioStart": 1256,
+          "teilPart": 4
+        },
+        {
+          "id": "h29",
+          "type": "speaker",
+          "num": 29,
+          "text": "Im Dorf bleibt nichts geheim.",
+          "options": [
+            "Moderatorin",
+            "Lena",
+            "Simon"
+          ],
+          "answer": 0,
+          "audioStart": 1256,
+          "teilPart": 4
+        },
+        {
+          "id": "h30",
+          "type": "speaker",
+          "num": 30,
+          "text": "Man sollte optimistisch in die Zukunft schauen.",
+          "options": [
+            "Moderatorin",
+            "Lena",
+            "Simon"
+          ],
+          "answer": 0,
+          "audioStart": 1256,
+          "teilPart": 4
+        }
+      ],
+      "horenSections": [
+        {
+          "id": 1,
+          "title": "Teil 1: Fünf kurze Texte",
+          "desc": "Sie hören fünf kurze Texte. Sie hören jeden Text zweimal. Zu jedem Text lösen Sie zwei Aufgaben.",
+          "questions": [
+            {
+              "id": "h1",
+              "type": "tf",
+              "num": 1,
+              "text": "Sie hören eine Reklame.",
+              "answer": "richtig"
+            },
+            {
+              "id": "h2",
+              "type": "mcq",
+              "num": 2,
+              "text": "Die Zeitschrift erscheint …",
+              "options": [
+                "einmal im Monat.",
+                "einmal in der Woche.",
+                "alle 14 Tage."
+              ],
+              "answer": 0
+            },
+            {
+              "id": "h3",
+              "type": "tf",
+              "num": 3,
+              "text": "Sie sind mit einer Berufsschule verbunden.",
+              "answer": "falsch"
+            },
+            {
+              "id": "h4",
+              "type": "mcq",
+              "num": 4,
+              "text": "Wer die Schule besuchen möchte, …",
+              "options": [
+                "muss eine Aufnahmeprüfung machen.",
+                "sollte an einer Informationsveranstaltung teilnehmen.",
+                "muss Latein können."
+              ],
+              "answer": 1
+            },
+            {
+              "id": "h5",
+              "type": "tf",
+              "num": 5,
+              "text": "Sie hören die Sportnachrichten.",
+              "answer": "falsch"
+            },
+            {
+              "id": "h6",
+              "type": "mcq",
+              "num": 6,
+              "text": "Was erfahren Sie auf dem Video?",
+              "options": [
+                "Wie lange Sie Rad fahren sollen.",
+                "Welche Kleidung Sie beim Radfahren am besten tragen.",
+                "Wie man Rennradler wird."
+              ],
+              "answer": 1
+            },
+            {
+              "id": "h7",
+              "type": "tf",
+              "num": 7,
+              "text": "Das Flugzeug wird gleich landen.",
+              "answer": "falsch"
+            },
+            {
+              "id": "h8",
+              "type": "mcq",
+              "num": 8,
+              "text": "Während des Fluges …",
+              "options": [
+                "darf man keine elektronischen Geräte benutzen.",
+                "kann man sein Handy einschalten.",
+                "sollte man angeschnallt bleiben."
+              ],
+              "answer": 2
+            },
+            {
+              "id": "h9",
+              "type": "tf",
+              "num": 9,
+              "text": "Sie hören eine Meldung über einen Verkehrsstau.",
+              "answer": "falsch"
+            },
+            {
+              "id": "h10",
+              "type": "mcq",
+              "num": 10,
+              "text": "Der Autofahrer wurde …",
+              "options": [
+                "gar nicht verletzt.",
+                "schwer verletzt.",
+                "leicht verletzt."
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Teil 2: Rundfahrt auf dem Vierwaldstättersee",
+          "desc": "Sie hören einen Text. Sie hören den Text einmal. Dazu lösen Sie fünf Aufgaben (11 bis 15).",
+          "context": "Sie nehmen an einer Rundfahrt auf dem Vierwaldstättersee teil.",
+          "questions": [
+            {
+              "id": "h11",
+              "type": "mcq",
+              "num": 11,
+              "text": "Wie viele Schiffe gehören der Schifffahrtsgesellschaft?",
+              "options": [
+                "Fünfzehn.",
+                "Einundzwanzig.",
+                "Fünf."
+              ],
+              "answer": 1
+            },
+            {
+              "id": "h12",
+              "type": "mcq",
+              "num": 12,
+              "text": "Wie schnell kann die Jacht fahren?",
+              "options": [
+                "Höchstens 28 Kilometer pro Stunde.",
+                "Ungefähr 49 Kilometer pro Stunde.",
+                "Fast 300 Kilometer pro Stunde."
+              ],
+              "answer": 0
+            },
+            {
+              "id": "h13",
+              "type": "mcq",
+              "num": 13,
+              "text": "Der Vierwaldstättersee liegt …",
+              "options": [
+                "im Kanton Uri.",
+                "an einem Schloss.",
+                "mitten in der Schweiz."
+              ],
+              "answer": 2
+            },
+            {
+              "id": "h14",
+              "type": "mcq",
+              "num": 14,
+              "text": "Um den See gibt es …",
+              "options": [
+                "mehrere Berge.",
+                "drei Wälder.",
+                "eine Handelsstraße."
+              ],
+              "answer": 0
+            },
+            {
+              "id": "h15",
+              "type": "mcq",
+              "num": 15,
+              "text": "Im Jahr 1871 …",
+              "options": [
+                "konnte man zum ersten Mal auf die Berge fahren.",
+                "entdeckten die Engländer die Berge in der Schweiz.",
+                "schrieb Marc Twain einen Artikel über die Schweiz."
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Teil 3: Gespräch im Kino über Gewichtsprobleme",
+          "desc": "Sie hören ein Gespräch. Sie hören das Gespräch einmal. Dazu lösen Sie sieben Aufgaben (16 bis 22).",
+          "context": "Sie sitzen im Kino und hören, wie sich ein Junge (Hannes) und ein Mädchen (Lara) über Gewichtsprobleme unterhalten.",
+          "questions": [
+            {
+              "id": "h16",
+              "type": "tf",
+              "num": 16,
+              "text": "Hannes und Lara sind Geschwister.",
+              "answer": "richtig"
+            },
+            {
+              "id": "h17",
+              "type": "tf",
+              "num": 17,
+              "text": "Am Sonntag hat Hannes seinen Geburtstag gefeiert.",
+              "answer": "falsch"
+            },
+            {
+              "id": "h18",
+              "type": "tf",
+              "num": 18,
+              "text": "Jasmin findet Hannes zu dick.",
+              "answer": "richtig"
+            },
+            {
+              "id": "h19",
+              "type": "tf",
+              "num": 19,
+              "text": "Hannes macht viel Sport.",
+              "answer": "falsch"
+            },
+            {
+              "id": "h20",
+              "type": "tf",
+              "num": 20,
+              "text": "Hannes isst gerne Salat.",
+              "answer": "falsch"
+            },
+            {
+              "id": "h21",
+              "type": "tf",
+              "num": 21,
+              "text": "Lara hat schon immer Tennis gespielt.",
+              "answer": "falsch"
+            },
+            {
+              "id": "h22",
+              "type": "tf",
+              "num": 22,
+              "text": "Lara findet, dass Jasmin gut aussieht.",
+              "answer": "falsch"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Teil 4: Radiodiskussion über das Thema „Umzug“",
+          "desc": "Sie hören eine Diskussion. Sie hören die Diskussion zweimal. Dazu lösen Sie acht Aufgaben (23 bis 30). Ordnen Sie die Aussagen zu: Wer sagt was?",
+          "context": "Die Moderatorin der Radiosendung „heuteÖ“ diskutiert mit Lena und Simon über das Thema „Umzug“.",
+          "questions": [
+            {
+              "id": "h23",
+              "type": "speaker",
+              "num": 23,
+              "text": "Die Entfernung zwischen den Wohnorten spielt am Anfang eine Rolle.",
+              "options": [
+                "Moderatorin",
+                "Lena",
+                "Simon"
+              ],
+              "answer": 1
+            },
+            {
+              "id": "h24",
+              "type": "speaker",
+              "num": 24,
+              "text": "Der Umzug findet aus beruflichen Gründen statt.",
+              "options": [
+                "Moderatorin",
+                "Lena",
+                "Simon"
+              ],
+              "answer": 2
+            },
+            {
+              "id": "h25",
+              "type": "speaker",
+              "num": 25,
+              "text": "Einen neuen Liebespartner findet man nicht so schnell.",
+              "options": [
+                "Moderatorin",
+                "Lena",
+                "Simon"
+              ],
+              "answer": 1
+            },
+            {
+              "id": "h26",
+              "type": "speaker",
+              "num": 26,
+              "text": "Kommunikationstechnologie bietet keine wahre Chance, eine Beziehung fortzusetzen.",
+              "options": [
+                "Moderatorin",
+                "Lena",
+                "Simon"
+              ],
+              "answer": 2
+            },
+            {
+              "id": "h27",
+              "type": "speaker",
+              "num": 27,
+              "text": "Bei Problemen sollte man sich nicht nur auf die Nachteile einer Situation konzentrieren.",
+              "options": [
+                "Moderatorin",
+                "Lena",
+                "Simon"
+              ],
+              "answer": 0
+            },
+            {
+              "id": "h28",
+              "type": "speaker",
+              "num": 28,
+              "text": "Auf dem Land gibt es nicht viele Unterhaltungsmöglichkeiten.",
+              "options": [
+                "Moderatorin",
+                "Lena",
+                "Simon"
+              ],
+              "answer": 1
+            },
+            {
+              "id": "h29",
+              "type": "speaker",
+              "num": 29,
+              "text": "Im Dorf bleibt nichts geheim.",
+              "options": [
+                "Moderatorin",
+                "Lena",
+                "Simon"
+              ],
+              "answer": 0
+            },
+            {
+              "id": "h30",
+              "type": "speaker",
+              "num": 30,
+              "text": "Man sollte optimistisch in die Zukunft schauen.",
+              "options": [
+                "Moderatorin",
+                "Lena",
+                "Simon"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "explanations": {
+    "1": {
+      "text": "💡 Lösung: Richtig.\nHerbert berichtet: „Nach dem Hauptschulabschluss versuchte ich mich in einigen Lehrstellen, alle drei Lehrlingsverhältnisse wurden aber aufgelöst.“ Seine ersten Ausbildungsversuche blieben daher ohne dauerhaften Erfolg.",
+      "fr": "💡 Solution : Vrai (Richtig).\nHerbert explique : « Après le certificat de fin d'études secondaires, j'ai essayé plusieurs postes d'apprentissage, mais les trois contrats d'apprentissage ont été rompus. » Ses premières tentatives n'ont donc pas abouti.",
+      "ar": "💡 الحل: صحيح (Richtig).\nيوضح هربرت: «بعد التخرج من المدرسة الأساسية، حاولت العمل في عدة فرص تدريب مهني، لكن عهود التدريب الثلاثة تم فسخها جميعاً»، أي أن محاولاته الأولى للتدريب لم تنجح."
+    },
+    "2": {
+      "text": "💡 Lösung: Falsch.\nHerbert machte das Praktikum in der Fahrradwerkstatt nicht aus Freude am Radfahren, sondern weil er sich für Technik und Handwerk interessierte: „Das war mein Wunsch, denn ich hatte ein Interesse an einem Arbeitsplatz in Richtung Reparatur oder Mechanik.“",
+      "fr": "💡 Solution : Faux (Falsch).\nHerbert a fait ce stage non pas parce qu'il aimait faire du vélo, mais par intérêt technique : « C'était mon souhait, car je m'intéressais à un poste dans le domaine de la réparation ou de la mécanique. »",
+      "ar": "💡 الحل: خطأ (Falsch).\nلم يقم هربرت بالتدريب في ورشة الدراجات لأنه يحب ركوب الدراجات، بل لرغبته في مجال الصيانة والميكانيك: «كانت تلك رغبتي لأنني كنت مهتماً بوظيفة في مجال التصليح والميكانيك»."
+    },
+    "3": {
+      "text": "💡 Lösung: Richtig.\nHerbert schildert das positive Ergebnis des Schnupperpraktikums: „...besprachen die Schnupperzeit und ich wurde eingestellt.“ Er hat somit eine feste Anstellung erhalten.",
+      "fr": "💡 Solution : Vrai (Richtig).\nHerbert précise l'issue positive du stage d'initiation : « ...nous avons discuté de la période de stage et j'ai été embauché. » Il a donc bien obtenu un emploi.",
+      "ar": "💡 الحل: صحيح (Richtig).\nيؤكد هربرت: «...ناقشنا فترة التدريب الاستكشافي وتم توظيفي»، أي أنه حصل على وظيفة فعلية في دار الفعاليات بعد انتهاء التدريب."
+    },
+    "4": {
+      "text": "💡 Lösung: Falsch.\nDie Aufgaben sind nicht leicht: Herbert betont ausdrücklich: „Die Arbeit im Ganzen ist nicht immer einfach, manchmal auch richtig stressig.“ Zudem lernt er komplizierte Kellertechnik.",
+      "fr": "💡 Solution : Faux (Falsch).\nLes tâches ne sont pas faciles : Herbert insiste sur le fait que « dans l'ensemble, le travail n'est pas toujours facile, parfois même vraiment stressant », et il doit maîtriser des installations techniques complexes.",
+      "ar": "💡 الحل: خطأ (Falsch).\nالمهام ليست سهلة على الإطلاق؛ إذ يوضح هربرت: «العمل بشكل عام ليس سهلاً دائماً، وفي بعض الأحيان يكون مجهداً حقاً»، كما يتعامل مع تقنيات تدفئة معقدة."
+    },
+    "5": {
+      "text": "💡 Lösung: Richtig.\nHerbert schreibt mit Begeisterung: „Die abwechslungsreichen Tätigkeiten haben mir gut gefallen... Meine jetzige Arbeit gefällt mir sehr gut, besonders die technischen Aufgaben interessieren mich...“",
+      "fr": "💡 Solution : Vrai (Richtig).\nHerbert exprime son grand intérêt : « Les activités variées m'ont beaucoup plu... Mon travail actuel me plaît beaucoup, en particulier les missions techniques qui m'intéressent... »",
+      "ar": "💡 الحل: صحيح (Richtig).\nيصرح هربرت باهتمامه وشغفه بالعمل: «المهام المتنوعة أعجبتني كثيراً... وعملي الحالي يعجبني للغاية، لا سيما المهام التقنية التي تثير اهتمامي»."
+    },
+    "6": {
+      "text": "💡 Lösung: Falsch.\nDer Lohn ist Herbert sehr wohl wichtig: „Wichtig ist mir auch das geregelte Einkommen, denn mit dem verdienten Geld kann ich mir endlich einige meiner Wünsche erfüllen.“",
+      "fr": "💡 Solution : Faux (Falsch).\nLa rémunération est importante pour Herbert : « Ce qui est important pour moi aussi, c'est le revenu régulier, car avec l'argent gagné, je peux enfin réaliser certains de mes souhaits. »",
+      "ar": "💡 الحل: خطأ (Falsch).\nالدخل المالي مهم جداً بالنسبة لهربرت وليس أمراً ثانوياً: «المهم بالنسبة لي أيضاً هو الدخل المنتظم، فبفضل المال الذي أكسبه يمكنني أخيراً تحقيق بعض رغباتي»."
+    },
+    "7": {
+      "text": "💡 Lösung: c (die Kommunikation zwischen Schülern und Lehrern auf Facebook).\nDer Text befasst sich zentral mit den Verhaltensregeln und Herausforderungen der Interaktion zwischen Pädagogen und Schülern im sozialen Netzwerk Facebook.",
+      "fr": "💡 Solution : c (la communication entre élèves et professeurs sur Facebook).\nLe texte aborde principalement les règles et questionnements autour des relations et interactions virtuelles entre élèves et enseignants sur Facebook.",
+      "ar": "💡 الحل: c (التواصل بين الطلاب والمعلمين على فيسبوك).\nيتناول النص بشكل أساسي قواعد التعامل والتحديات المطروحة بشأن التواصل والتفاعل بين المعلمين والطلاب على منصة فيسبوك."
+    },
+    "8": {
+      "text": "💡 Lösung: b (wollen auf Facebook keine persönlichen Probleme diskutieren).\nIm Text heißt es: „Woanders haben manche Lehrer selbst entschieden, dass sie Facebook nur als Kommunikations- und Unterhaltungsmedium benutzen, nicht um private Probleme zu diskutieren.“",
+      "fr": "💡 Solution : b (ne souhaitent pas discuter de problèmes personnels sur Facebook).\nL'article précise : « Ailleurs, certains enseignants ont eux-mêmes décidé de n'utiliser Facebook que comme moyen de communication et de divertissement, et non pour discuter de problèmes privés. »",
+      "ar": "💡 الحل: b (لا يريدون مناقشة مشكلاتهم الشخصية على فيسبوك).\nينص المقال على أن: «في أماكن أخرى قرر بعض المعلمين بأنفسهم استخدام فيسبوك كوسيلة للتواصل والترفيه فقط، وليس لمناقشة المشاكل الشخصية والخاصة»."
+    },
+    "9": {
+      "text": "💡 Lösung: a (hat Vorschriften für die Facebook-Kommunikation der Lehrer gemacht).\nDer Artikel berichtet: „Eine Hauptschule in Hamm (Nordrhein-Westfalen) hat Regeln für die Facebook-Nutzung ihrer Lehrer festgelegt. Wenn ein Lehrer der Schule mit seinen Schülern interagiert, muss er dafür ein zweites Profil anlegen.“",
+      "fr": "💡 Solution : a (a fixé des règles pour la communication des enseignants sur Facebook).\nL'article relate : « Une école secondaire à Hamm a établi des règles pour l'utilisation de Facebook par ses enseignants : chaque enseignant souhaitant interagir avec des élèves doit créer un second profil. »",
+      "ar": "💡 الحل: a (وضعت قواعد لتواصل المعلمين عبر فيسبوك).\nيوضح المقال أن مدرسة في مدينة هام وضعت لوائح ملزمة لمعلميها، تفرض إنشاء حساب منفصل ومخصص في حال أراد المعلم التواصل مع طلابه على فيسبوك."
+    },
+    "10": {
+      "text": "💡 Lösung: c (einen Roboter, der im Spital benutzt werden soll).\nDer Text beschreibt die Entwicklung und den praktischen Einsatz des humanoiden Roboters Nao in Krankenhäusern (Spitälern) als „Robo-Doktor“ zur Unterstützung kranker Kinder.",
+      "fr": "💡 Solution : c (un robot destiné à être utilisé à l'hôpital).\nL'article présente le développement et l'intégration du robot Nao dans les hôpitaux (« Spitälern ») pour rassurer et assister les enfants malades.",
+      "ar": "💡 الحل: c (روبوت يُراد استخدامه في المستشفى).\nيركز النص على استخدام الروبوت نايو (Nao) في المستشفيات لمساعدة الأطفال المرضى، والتخفيف من خوفهم وشرح الإجراءات الطبية لهم."
+    },
+    "11": {
+      "text": "💡 Lösung: a (mit Menschen sprechen).\nIm Text wird hervorgehoben: „Nao soll außerdem den Kindern die Behandlung ihrer Krankheit erklären, denn sprechen kann er sogar gut und geduldig ist er auch.“",
+      "fr": "💡 Solution : a (parler avec les humains).\nL'article souligne ses aptitudes verbales : « Nao doit en outre expliquer aux enfants le traitement de leur maladie, car il parle vraiment bien et se montre très patient. »",
+      "ar": "💡 الحل: a (التحدث مع البشر).\nيؤكد النص أن الروبوت قادر على الكلام بوضوح: «يستطيع نايو أن يشرح للأطفال خطة علاج مرضهم، فهو يتحدث بشكل ممتاز ويتسم بالصبر»."
+    },
+    "12": {
+      "text": "💡 Lösung: b (sehen in Nao ein Spielzeug, vor dem sie keine Angst haben).\nDie Forscher begründen den Einsatz damit: „...weil viele Kinder einen Roboter als Spielzeug sehen, etwas Schönes zur Unterhaltung, vor dem sie keine Angst haben.“",
+      "fr": "💡 Solution : b (voient en Nao un jouet qui ne leur fait pas peur).\nLes chercheurs expliquent : « ...parce que beaucoup d'enfants considèrent le robot comme un jouet, un objet distrayant devant lequel ils n'éprouvent aucune crainte. »",
+      "ar": "💡 الحل: b (يرون في نايو لعبة لا يخافون منها).\nيعلل الباحثون استخدام نايو بكون الأطفال: «يرون في الروبوت لعبة جميلة للترفيه لا يشعرون بالخوف منها»."
+    },
+    "13": {
+      "text": "💡 Lösung: f (Online-Magazin Bonjour).\nSteffi möchte ihre Französischkenntnisse lebendig pflegen und Kontakt zu Land und Kultur halten. Anzeige f bietet dafür untertitelte Kurzvideos, Interviews, Reportagen und Kulturbeiträge für fortgeschrittene Französischlernende.",
+      "fr": "💡 Solution : f (Magazine en ligne Bonjour).\nSteffi souhaite entretenir son français et garder le contact avec la culture française. L'annonce f propose des vidéos sous-titrées, reportages et interviews spécialement conçus pour les apprenants avancés.",
+      "ar": "💡 الحل: f (مجلة بونجور الإلكترونية).\nتريد شتيفي الحفاظ على مستواها في اللغة الفرنسية ومتابعة ثقافة البلد؛ وهو ما توفره المجلة الإلكترونية f عبر مقاطع فيديو قصيرة مترجمة وتقارير ثقافية للمتعلمين المتقدمين."
+    },
+    "14": {
+      "text": "💡 Lösung: a (Sprachenschule Köln · Intensiv-Tageskurse).\nNatalie zieht bereits im September nach Paris und muss sehr schnell Französisch lernen. Anzeige a bietet kompakte 2-wöchige Intensiv-Tageskurse mit täglich 6 Stunden Unterricht an.",
+      "fr": "💡 Solution : a (École de langues de Cologne · Cours intensifs journaliers).\nNatalie devant s'installer à Paris dès septembre, elle a besoin d'un apprentissage accéléré. L'annonce a propose des cours intensifs journaliers de 6 heures par jour sur 2 semaines.",
+      "ar": "💡 الحل: a (مدرسة اللغات بكولونيا · دورات مكثفة يومية).\nتنتقل ناتالي إلى باريس في سبتمبر وتحتاج لتعلّم الفرنسية سريعاً. الإعلان a يقدم دورات مكثفة بمعدل 6 ساعات يومياً لمدة أسبوعين."
+    },
+    "15": {
+      "text": "💡 Lösung: 0 (Keine passende Anzeige).\nHerr Fuchs sucht gezielt ein Schreibtraining für Englisch (schriftlicher Ausdruck). Unter den Angeboten gibt es keinen passenden reinen Englisch-Schreibkurs.",
+      "fr": "💡 Solution : 0 (Aucune annonce correspondante).\nM. Fuchs cherche un cours pour améliorer sa rédaction et expression écrite en anglais. Aucune annonce ne propose un entraînement écrit en anglais.",
+      "ar": "💡 الحل: 0 (لا يوجد إعلان مناسب).\nيبحث السيد فوكس عن تدريب متخصص في الكتابة والتعبير الكتابي باللغة الإنجليزية، ولا يوجد أي إعلان يلبي هذا الطلب."
+    },
+    "16": {
+      "text": "💡 Lösung: d (Learn & Fun - Sprachreisen).\nAlina ist überzeugt, dass man Sprachen am besten im Zielland lernt. Anzeige d organisiert Sprachreisen in englischsprachige Länder, um die Sprache vor Ort intensiv zu erleben.",
+      "fr": "💡 Solution : d (Séjours linguistiques Learn & Fun).\nAlina estime qu'une langue s'apprend au mieux dans le pays où elle est parlée. L'annonce d organise des séjours linguistiques en immersion dans des pays anglophones.",
+      "ar": "💡 الحل: d (رحلات تعلم اللغة Learn & Fun).\nترى ألينا أن أفضل طريقة لتعلم الإنجليزية هي في البلد الذي يتحدث بها؛ والإعلان d يوفر رحلات لغوية إلى بلدان ناطقة بالإنجليزية للمعايشة والتعلم."
+    },
+    "17": {
+      "text": "💡 Lösung: i (Spanischunterricht · Herr Gonzales).\nUrs möchte Spanisch lernen, aber nicht in einer Gruppe. Herr Gonzales bietet flexibel gestaltbaren individuellen Einzelunterricht für Spanisch an.",
+      "fr": "💡 Solution : i (Cours d'espagnol · M. Gonzales).\nUrs souhaite apprendre l'espagnol seul et non en groupe. L'annonce i de M. Gonzales propose des cours particuliers adaptés aux besoins de chaque apprenant.",
+      "ar": "💡 الحل: i (دروس الإسبانية · السيد غونزاليس).\nيرغب أورس بتعلم الإسبانية بمفرده بعيداً عن المجموعات؛ ويعرض السيد غونزاليس في الإعلان i دروساً خاصة فردية ومرنة حسب رغبة المتعلم."
+    },
+    "18": {
+      "text": "💡 Lösung: g (Sprachaustausch / Sprachtandem · Luz Kinard).\nFrau Kilmer möchte für den Beruf ihr freies Sprechen auf Französisch trainieren. Luz Kinard sucht einen Partner für Konversationsaustausch auf Deutsch und Französisch, um einfach drauflos zu sprechen.",
+      "fr": "💡 Solution : g (Échange linguistique / Tandem · Luz Kinard).\nMme Kilmer a besoin de fluidifier son expression orale en français. Luz Kinard cherche un partenaire linguistique pour converser spontanément en français et en allemand.",
+      "ar": "💡 الحل: g (تبادل لغوي · لوز كينارد).\nترغب السيدة كيلمر في تحسين المحادثة والتعبير الشفهي بالفرنسية لعملها؛ ويبحث لوز كينارد في الإعلان g عن شريك للمحادثة والحديث المباشر بالفرنسية والألمانية."
+    },
+    "19": {
+      "text": "💡 Lösung: j (Welner Sprachreisen).\nBen und Ali wollen im Sommer eine gemeinsame Sprachreise nach Spanien machen. Anzeige j veranstaltet Ferienkurse und Sprachreisen für Jugendliche und Gruppen nach Spanien.",
+      "fr": "💡 Solution : j (Séjours linguistiques Welner).\nBen et Ali souhaitent partir en voyage linguistique en Espagne cet été. L'annonce j organise des séjours et cours de vacances pour adolescents vers l'Espagne.",
+      "ar": "💡 الحل: j (رحلات فيلنر اللغوية).\nيرغب بن وعلي في الذهاب معاً في رحلة لغوية إلى إسبانيا خلال العطلة الصيفية؛ والإعلان j يقدم رحلات ودورات صيفية للشباب إلى إسبانيا."
+    },
+    "20": {
+      "text": "💡 Lösung: Nein.\nMagnus hält Jugendliche mit 16 für zu leicht beeinflussbar und unvorbereitet auf politische Entscheidungen: „16 ist zu früh.“ Er ist gegen das Wahlrecht ab 16.",
+      "fr": "💡 Solution : Non (Nein).\nMagnus estime que les jeunes de 16 ans sont trop influençables et manquent de recul politique : « 16 ans, c'est trop tôt. »",
+      "ar": "💡 الحل: لا (Nein).\nيرى ماغنوس أن الشباب في سن 16 يتأثرون بسهولة بآراء غيرهم ولا يقرؤون برامج الأحزاب بجدية: «16 عاماً سن مبكرة جداً»."
+    },
+    "21": {
+      "text": "💡 Lösung: Ja.\nCornelius befürwortet das Wahlrecht ab 16 und verweist auf die guten Erfahrungen bei Kommunalwahlen: „Warum sollte das nicht genauso gut bei den Regierungswahlen funktionieren? Ich denke, die Zeit dafür ist gekommen.“",
+      "fr": "💡 Solution : Oui (Ja).\nCornelius est favorable au vote à 16 ans, s'appuyant sur les expériences positives aux élections municipales : « Je pense que le moment est venu. »",
+      "ar": "💡 الحل: نعم (Ja).\nيؤيد كورنيليوس منح حق الانتخاب لسن 16، مشيراً إلى التجربة الناجحة في الانتخابات البلدية ويرى أن الوقت قد حان لتطبيقها وطنياً."
+    },
+    "22": {
+      "text": "💡 Lösung: Ja.\nMarianne (selbst 16) sieht darin eine große Motivation, sich ernsthaft mit Politik zu beschäftigen und sich als junge Bürgerin ernst genommen zu fühlen: Sie ist klar dafür.",
+      "fr": "💡 Solution : Oui (Ja).\nMarianne (16 ans) y voit une motivation majeure pour s'intéresser à la vie politique et se sentir prise au sérieux par la société.",
+      "ar": "💡 الحل: نعم (Ja).\nتؤيد ماريان (16 عاماً) الفكرة لأنها ستحفز الشباب على متابعة النقاشات السياسية والشعور بأن أصواتهم مسموعة ومأخوذة على محمل الجد."
+    },
+    "23": {
+      "text": "💡 Lösung: Nein.\nCaroline plädiert sogar für eine Erhöhung des Wahlalters auf 21 Jahre und lehnt das Wahlrecht mit 16 kategorisch ab.",
+      "fr": "💡 Solution : Non (Nein).\nCaroline préconise de relever l'âge du vote à 21 ans et rejette formellement le droit de vote à 16 ans.",
+      "ar": "💡 الحل: لا (Nein).\nتعارض كارولين التصويت في سن 16 بشدة، وتطالب برفع سن الانتخاب إلى 21 عاماً لضمان النضج والمسؤولية القانونية الكاملة."
+    },
+    "24": {
+      "text": "💡 Lösung: Nein.\nChristoph begründet seine Ablehnung mit fehlender Lebenserfahrung: Vor 18 fehle es jungen Menschen an Erfahrung für komplexe nationale Entscheidungen.",
+      "fr": "💡 Solution : Non (Nein).\nChristoph s'oppose au vote à 16 ans en arguant du manque d'expérience de la vie face aux décisions politiques complexes.",
+      "ar": "💡 الحل: لا (Nein).\nيرفض كريستوف مقترح سن 16، مؤكداً أن الشباب قبل سن 18 يفتقرون للخبرة الحياتية الكافية لفهم القرارات السياسية المعقدة."
+    },
+    "25": {
+      "text": "💡 Lösung: Ja.\nMichelle betont die Notwendigkeit, der jüngeren Generation eine politische Stimme zu geben, um die Alterung der Gesellschaft auszugleichen: „Ein richtiger Schritt wäre für mich das Wahlrecht ab 16...“",
+      "fr": "💡 Solution : Oui (Ja).\nMichelle soutient le droit de vote à 16 ans pour compenser le vieillissement démographique et donner une voix aux jeunes.",
+      "ar": "💡 الحل: نعم (Ja).\nتؤيد ميشيل خفض سن الانتخاب إلى 16 عاماً لتحقيق التوازن مع فئة كبار السن وضمان تمثيل صوت الشباب في القرارات المصيرية."
+    },
+    "26": {
+      "text": "💡 Lösung: Nein.\nKarsten befürchtet falsche Signale und findet es wichtiger, dass Volljährige ab 18 wieder zur Wahl motiviert werden, statt das Alter auf 16 zu senken.",
+      "fr": "💡 Solution : Non (Nein).\nKarsten estime que cela enverrait un mauvais signal et préfère remobiliser les électeurs ayant déjà 18 ans.",
+      "ar": "💡 الحل: لا (Nein).\nيعارض كارستن المقترح معتبراً أنه يرسل إشارة خاطئة، والأولى تحفيز الشباب البالغين 18 عاماً على المشاركة السياسية والتصويت."
+    },
+    "27": {
+      "text": "💡 Lösung: a (müssen die Verkäufer innerhalb einer Woche abholen).\nPunkt 5 der Verkaufsbedingungen legt fest: „Waren, die nicht spätestens eine Woche nach dem jeweiligen Flohmarkttermin abgeholt worden sind, werden dem Roten Kreuz... übergeben.“ Verkäufer müssen nicht verkaufte Ware also innerhalb einer Woche abholen.",
+      "fr": "💡 Solution : a (doivent être récupérés par les vendeurs dans un délai d'une semaine).\nLe règlement stipule que les invendus non récupérés au plus tard une semaine après le marché seront donnés à la Croix-Rouge.",
+      "ar": "💡 الحل: a (يجب على البائعين استلامها خلال أسبوع واحد).\nتنص شروط البيع (البند 5) على أن البضائع غير المباعة التي لا يتم استلامها خلال أسبوع من موعد السوق كحد أقصى، سيتم التبرع بها للصليب الأحمر."
+    },
+    "28": {
+      "text": "💡 Lösung: c (werden nicht an Leute weitergegeben, die nichts mit der Flohmarktorganisation zu tun haben).\nPunkt 6 bestimmt gemäß Datenschutz: „Eine Weitergabe der persönlichen Daten an Dritte erfolgt zu keinem Zeitpunkt.“",
+      "fr": "💡 Solution : c (ne sont pas transmises à des tiers extérieurs à l'organisation du marché).\nL'article 6 relatif à la protection des données garantit qu'aucune transmission des données à des tiers n'aura lieu.",
+      "ar": "💡 الحل: c (لا يتم تمريرها إلى أشخاص لا علاقة لهم بتنظيم سوق السلع المستعملة).\nيؤكد البند 6 حول حماية البيانات الشخصية أنه لا يتم نقل البيانات الشخصية إلى أي طرف ثالث في أي وقت كان."
+    },
+    "29": {
+      "text": "💡 Lösung: b (kann man bei der Flohmarktleitung anrufen).\nIn Punkt 1 heißt es zur Anmeldung: „Anmeldungen werden nur auf unserer Homepage... sowie bei Vertretern der Flohmarktleitung per Telefon oder persönlich entgegengenommen.“ Telefonische Anmeldung ist also möglich.",
+      "fr": "💡 Solution : b (on peut téléphoner aux responsables du marché aux puces).\nLe point 1 indique que les inscriptions sont acceptées via le site web, mais aussi par téléphone ou en personne auprès des organisateurs.",
+      "ar": "💡 الحل: b (يمكن الاتصال هاتفياً بإدارة سوق السلع المستعملة).\nينص البند 1 على أن التسجيل يتم عبر الموقع الإلكتروني، وكذلك هاتفياً أو شخصياً لدى ممثلي إدارة السوق."
+    },
+    "30": {
+      "text": "💡 Lösung: b (auch alte Sachen verkaufen, wenn sie problemlos funktionieren).\nIn Punkt 3 wird gefordert: „Alle Waren müssen in einem sauberen und ordentlichen Zustand ohne Beschädigungen und funktionstüchtig sein.“ Gebrauchte Waren sind erlaubt, sofern sie intakt und funktionstüchtig sind.",
+      "fr": "💡 Solution : b (vendre aussi des objets anciens s'ils fonctionnent parfaitement).\nLe point 3 exige que tous les articles soient en bon état, propres et en parfait état de fonctionnement.",
+      "ar": "💡 الحل: b (بيع أغراض قديمة أيضاً بشرط أن تعمل دون مشاكل).\nيشترط البند 3 أن تكون البضائع في حالة نظيفة وسليمة وتعمل بشكل كامل دون أضرار، مما يسمح ببيع الأشياء المستعملة ما دامت تعمل بكفاءة."
+    },
+    "h1": {
+      "text": "💡 Lösung: Richtig.\nDie Ansage kündigt an: „Hören Sie nun bis zum Nachrichtenmagazin um 14.00 Uhr Werbebotschaften.“ Es handelt sich somit eindeutig um Werbung.",
+      "fr": "💡 Solution : Vrai (Richtig).\nLe message à la radio annonce explicitement la diffusion de messages publicitaires jusqu'au journal de 14h.",
+      "ar": "💡 الحل: صحيح (Richtig).\nيعلن المذيع بوضوح: «استمعوا الآن وحتى النشرة الإخبارية في تمام الساعة 14:00 إلى الرسائل الإعلانية»، وبالتالي فهي إعلانات تجارية."
+    },
+    "h2": {
+      "text": "💡 Lösung: a (einmal im Monat).\nIm Werbespot heißt es wörtlich: „Viva! Das neue Monatsmagazin im Pocketformat...“ Die Zeitschrift erscheint also monatlich.",
+      "fr": "💡 Solution : a (une fois par mois).\nLe spot présente : « Viva ! Le nouveau magazine mensuel au format de poche... »",
+      "ar": "💡 الحل: a (مرة في الشهر).\nيذكر الإعلان نصاً: «فيفا! المجلة الشهرية الجديدة بحجم الجيب...»، أي أنها تصدر مرة كل شهر."
+    },
+    "h3": {
+      "text": "💡 Lösung: Falsch.\nDie automatische Ansage begrüßt den Anrufer an einer Schule für Krankenpflege (oder Fachakademie), nicht an einer allgemeinen Berufsschule.",
+      "fr": "💡 Solution : Faux (Falsch).\nLe répondeur présente une école spécialisée de formation et non une école professionnelle classique.",
+      "ar": "💡 الحل: خطأ (Falsch).\nالمجيب الآلي يعرف بمدرسة تخصصية وليس بمدرسة مهنية عامة."
+    },
+    "h4": {
+      "text": "💡 Lösung: b (sollte an einer Informationsveranstaltung teilnehmen).\nIn der Ansage wird Interessenten empfohlen: „Besuchen Sie unsere monatliche Informationsveranstaltung...“",
+      "fr": "💡 Solution : b (devrait participer à une réunion d'information).\nLe message conseille aux candidats de venir assister à la séance d'information organisée chaque mois.",
+      "ar": "💡 الحل: b (ينبغي عليه حضور لقاء تعريفي إعلامي).\nتنصح الرسالة الصوتية الراغبين في الالتحاق بالمدرسة بحضور اللقاء التعريفي الشهري للاطلاع على التفاصيل."
+    },
+    "h5": {
+      "text": "💡 Lösung: Falsch.\nEs handelt sich nicht um Sportnachrichten, sondern um einen Ratgeber- oder Magazinbeitrag mit Praxistipps für Radfahrer.",
+      "fr": "💡 Solution : Faux (Falsch).\nIl ne s'agit pas du journal des sports, mais d'une chronique pratique donnant des conseils aux cyclistes.",
+      "ar": "💡 الحل: خطأ (Falsch).\nهذه ليست أخباراً رياضية، بل فقرة إرشادية تتضمن نصائح عملية لهواة ركوب الدراجات."
+    },
+    "h6": {
+      "text": "💡 Lösung: b (Welche Kleidung Sie beim Radfahren am besten tragen).\nIm Beitrag wird auf ein Video verwiesen, das die passende Bekleidung für wechselhafte Wetterlagen demonstriert.",
+      "fr": "💡 Solution : b (Quels vêtements porter de préférence à vélo).\nLa chronique renvoie vers une vidéo montrant l'équipement vestimentaire idéal selon la météo.",
+      "ar": "💡 الحل: b (ما هي الملابس الأنسب لارتدائها أثناء ركوب الدراجة).\nيوضح المقطع أن الفيديو المتاح يوضح نوعية الملابس المناسبة والعملية لركوب الدراجة."
+    },
+    "h7": {
+      "text": "💡 Lösung: Falsch.\nDer Pilot begrüßt die Gäste gerade erst nach dem Boarding: „Alle Gäste sind nun an Bord und wir fliegen pünktlich los.“ Das Flugzeug startet also gerade.",
+      "fr": "💡 Solution : Faux (Falsch).\nLe pilote prend la parole avant le décollage : « Tous les passagers sont à bord et nous allons décoller à l'heure. » L'avion ne va donc pas atterrir.",
+      "ar": "💡 الحل: خطأ (Falsch).\nيرحب الطيار بالركاب بعد صعودهم للطائرة معلناً بدء الإقلاع وليس الهبوط: «جميع الركاب على متن الطائرة وسنقلع في الوقت المحدد»."
+    },
+    "h8": {
+      "text": "💡 Lösung: c (sollte man angeschnallt bleiben).\nDer Pilot empfiehlt: „Wir empfehlen Ihnen, während des ganzen Fluges angeschnallt zu bleiben, falls unvorhergesehene Turbulenzen auftreten.“",
+      "fr": "💡 Solution : c (il est conseillé de rester attaché).\nLe commandant recommande de garder sa ceinture attachée tout au long du vol pour parer à d'éventuelles turbulences.",
+      "ar": "💡 الحل: c (ينبغي أن يظل مربوط حزام الأمان).\nيوصي الطيار الركاب بالبقاء مربوطي الأحزمة طوال مدة الرحلة تحسباً لأي مطبات هوائية مفاجئة."
+    },
+    "h9": {
+      "text": "💡 Lösung: Falsch.\nDie Meldung berichtet über einen schweren Verkehrsunfall auf der Schnellstraße, nicht über einen normalen Stau.",
+      "fr": "💡 Solution : Faux (Falsch).\nLe flash informe d'un accident de la circulation survenu sur la voie rapide, et non d'un simple embouteillage.",
+      "ar": "💡 الحل: خطأ (Falsch).\nالخبر الإذاعي ينقل وقوع حادث مروري وانقلاب سيارة على الطريق السريع وليس مجرد ازدحام مروري."
+    },
+    "h10": {
+      "text": "💡 Lösung: c (leicht verletzt).\nIn der Polizeimeldung heißt es: „Der Fahrer erlitt dabei leichte Verletzungen, die Beifahrerin wurde überhaupt nicht verletzt.“",
+      "fr": "💡 Solution : c (légèrement blessé).\nLe bulletin précise : « Le conducteur a subi de légères blessures, tandis que la passagère n'a pas du tout été blessée. »",
+      "ar": "💡 الحل: c (أصيب بجروح طفيفة).\nتذكر النشرة أن السائق تعرض لإصابات طفيفة فقط، في حين لم تصب الراكبة المرافقة بأي أذى."
+    },
+    "h11": {
+      "text": "💡 Lösung: b (Einundzwanzig).\nDer Schiffsführer zählt die Flotte auf: fünf Raddampfer, 15 Salon-Motorschiffe und die neue Panorama-Jacht: 5 + 15 + 1 = 21 Schiffe.",
+      "fr": "💡 Solution : b (Vingt-et-un).\nLe capitaine énumère la flotte : 5 bateaux à aubes, 15 bateaux à moteur et le nouveau yacht panoramique, soit 21 navires au total.",
+      "ar": "💡 الحل: b (واحد وعشرون سفينة).\nيوضح القبطان أن أسطول الشركة يتكون من 5 سفن بخارية و15 سفينة صالون بالإضافة إلى اليخت البانورامي الجديد (5 + 15 + 1 = 21)."
+    },
+    "h12": {
+      "text": "💡 Lösung: a (Höchstens 28 Kilometer pro Stunde).\nDer Kapitän nennt die technischen Daten: „Sie fährt mit maximal 28 Kilometern pro Stunde...“",
+      "fr": "💡 Solution : a (Au maximum 28 km/h).\nLe capitaine précise la vitesse maximale du navire : 28 kilomètres par heure.",
+      "ar": "💡 الحل: a (28 كيلومتراً في الساعة كحد أقصى).\nيذكر القبطان في البيانات الفنية: «تسير السفينة بسرعة قصوى تبلغ 28 كيلومتراً في الساعة»."
+    },
+    "h13": {
+      "text": "💡 Lösung: c (mitten in der Schweiz).\nIm Vortrag heißt es: „...der hier in der Zentralschweiz liegt...“ Zentralschweiz bedeutet mitten in der Schweiz.",
+      "fr": "💡 Solution : c (au cœur de la Suisse).\nL'exposé indique que le lac se trouve en Suisse centrale (« Zentralschweiz »), soit au cœur du pays.",
+      "ar": "💡 الحل: c (في قلب سويسرا / وسط سويسرا).\nيذكر المتحدث أن بحيرة لوزيرن (Vierwaldstättersee) تقع في وسط سويسرا (Zentralschweiz)."
+    },
+    "h14": {
+      "text": "💡 Lösung: a (mehrere Berge).\nDer Schiffsführer nennt die umgebenden Berge: „Die Berge, die Sie hier rundherum sehen, sind die Rigi, der Pilatus, das Stanser Horn und der Seelisberg.“",
+      "fr": "💡 Solution : a (plusieurs montagnes).\nLe guide cite les sommets environnants : le Rigi, le Pilate, le Stanserhorn et le Seelisberg.",
+      "ar": "💡 الحل: a (عدة جبال).\nيشير القبطان إلى الجبال المحيطة بالبحيرة بالاسم: جبل ريجي، وبيلاتوس، وستانسرهورن، وزيليسبرغ."
+    },
+    "h15": {
+      "text": "💡 Lösung: a (konnte man zum ersten Mal auf die Berge fahren).\nDer Sprecher erklärt zur Geschichte: „1871 eröffnete man die allererste Zahnradbahn Europas, mit der man hoch auf die Rigi fahren konnte...“",
+      "fr": "💡 Solution : a (on a pu monter pour la première fois sur les montagnes en train).\nEn 1871 a été inauguré le tout premier chemin de fer à crémaillère d'Europe pour grimper au sommet du Rigi.",
+      "ar": "💡 الحل: a (أصبح بالإمكان الصعود إلى الجبال بالقطار لأول مرة).\nيوضح المتحدث أنه في عام 1871 تم افتتاح أول قطار مسنن جبلي في أوروبا لصعود قمة جبل ريجي."
+    },
+    "h16": {
+      "text": "💡 Lösung: Richtig.\nLara spricht Hannes vertraut an: „...Mama macht sich schon Sorgen.“ Sie sind Bruder und Schwester.",
+      "fr": "💡 Solution : Vrai (Richtig).\nLara s'adresse à Hannes de manière fraternelle en mentionnant leur mère (« Maman s'inquiète déjà »).",
+      "ar": "💡 الحل: صحيح (Richtig).\nلارا وهانيس أخوان، وتخاطبه قائلة إن والدتهما قلقة بشأنه لعدم تناوله الطعام."
+    },
+    "h17": {
+      "text": "💡 Lösung: Falsch.\nDie Geburtstagsfeier fand am Samstag statt: „Samstag, auf deiner Geburtstagsfeier...“",
+      "fr": "💡 Solution : Faux (Falsch).\nLa fête d'anniversaire a eu lieu samedi et non dimanche : « Samedi, à ta fête d'anniversaire... »",
+      "ar": "💡 الحل: خطأ (Falsch).\nأقيم حفل عيد الميلاد يوم السبت وليس يوم الأحد: «يوم السبت، في حفل عيد ميلادك...»."
+    },
+    "h18": {
+      "text": "💡 Lösung: Richtig.\nLara erinnert Hannes daran, was Jasmin gesagt hat: „...dass es auch dir nicht schaden würde, ein bisschen auf deine Figur zu achten.“ Jasmin fand ihn also zu dick.",
+      "fr": "💡 Solution : Vrai (Richtig).\nLara rappelle à Hannes la remarque de Jasmin selon laquelle il ne lui ferait pas de mal de faire attention à sa ligne.",
+      "ar": "💡 الحل: صحيح (Richtig).\nقالت ياسمين لهانيس إنه لن يضره الانتباه إلى وزنه وقوامه، أي أنها تراه سميناً بعض الشيء."
+    },
+    "h19": {
+      "text": "💡 Lösung: Falsch.\nHannes gibt zu: „Im Winter habe ich kaum Sport gemacht und meine Jeans sind mir ziemlich eng.“",
+      "fr": "💡 Solution : Faux (Falsch).\nHannes avoue n'avoir presque pas fait de sport pendant l'hiver.",
+      "ar": "💡 الحل: خطأ (Falsch).\nيعترف هانيس بأنه نادراً ما مارس الرياضة خلال فصل الشتاء وأن ملابسه أصبحت ضيقة عليه."
+    },
+    "h20": {
+      "text": "💡 Lösung: Falsch.\nAls Lara vorschlägt, mehr Salat statt Pizza zu essen, reagiert Hannes abgeneigt mit „Urg...“, was sein Missfallen zeigt.",
+      "fr": "💡 Solution : Faux (Falsch).\nQuand Lara suggère de manger de la salade, Hannes réagit par un « Beurk... » de dégoût.",
+      "ar": "💡 الحل: خطأ (Falsch).\nعندما اقترحت عليه أخته تناول السلطة بدلاً من البيتزا، تأفف قائلاً «Urg...» تعبيراً عن عدم حبه للسلطة."
+    },
+    "h21": {
+      "text": "💡 Lösung: Falsch.\nLara hat früher Ballett getanzt und erst vor kurzem zu Tennis gewechselt: „Was glaubst du, warum ich jetzt nicht mehr Ballett mache, sondern Tennis?“",
+      "fr": "💡 Solution : Faux (Falsch).\nLara faisait de la danse classique auparavant et vient juste de se mettre au tennis.",
+      "ar": "💡 الحل: خطأ (Falsch).\nكانت لارا تمارس رقص الباليه سابقاً وانتقلت حديثاً للعب التنس ولم تكن تلعبه دائماً."
+    },
+    "h22": {
+      "text": "💡 Lösung: Falsch.\nAls Hannes sagt, Jasmin sehe gut aus, widerspricht Lara empört: „Was? Die ist doch viel zu dünn … wie diese Models …“",
+      "fr": "💡 Solution : Faux (Falsch).\nLara n'apprécie pas le physique de Jasmin et la trouve beaucoup trop maigre.",
+      "ar": "💡 الحل: خطأ (Falsch).\nلا ترى لارا أن ياسمين حسنة المظهر بل تنتقدها قائلة إنها نحيفة بشكل مفرط كعارضات الأزياء."
+    },
+    "h23": {
+      "text": "💡 Lösung: b (Lena).\nLena erzählt, dass die geringe Entfernung zu Wien anfangs half: „Stimmt, und in der ersten Zeit hat das auch geholfen. Meine Eltern haben mich einmal die Woche zu meinen Freunden gefahren.“",
+      "fr": "💡 Solution : b (Lena).\nLena confirme que la courte distance géographique a été un atout au début pour revoir ses anciens amis chaque semaine.",
+      "ar": "💡 الحل: b (لينا).\nتذكر لينا أن قصر المسافة بين سكنها الجديد وفيينا ساعدها في البداية لمقابلة أصدقائها أسبوعياً."
+    },
+    "h24": {
+      "text": "💡 Lösung: c (Simon).\nSimon erklärt die Umzugspläne seiner Familie: „Meine Eltern kann ich schon verstehen; mein Vater hat eben ein besseres Jobangebot bekommen...“",
+      "fr": "💡 Solution : c (Simon).\nSimon explique que le déménagement est motivé par la carrière de son père qui a reçu une meilleure offre d'emploi.",
+      "ar": "💡 الحل: c (سيمون).\nيوضح سيمون أن انتقال أسرته سببه حصول والده على فرصة عمل أفضل."
+    },
+    "h25": {
+      "text": "💡 Lösung: b (Lena).\nLena unterscheidet Freunde von der Liebe: „...In Sachen Liebe aber, das ist was total anderes... Einen neuen Liebespartner findet man eben nicht so schnell.“",
+      "fr": "💡 Solution : b (Lena).\nLena souligne qu'il est facile de se faire de simples amis, mais qu'en matière d'amour, on ne retrouve pas quelqu'un si facilement.",
+      "ar": "💡 الحل: b (لينا).\nترى لينا أن العثور على أصدقاء جدد قد يكون سهلاً في القرية، ولكن العثور على شريك حب جديد أمر لا يحدث بسرعة."
+    },
+    "h26": {
+      "text": "💡 Lösung: c (Simon).\nSimon betont gegen den Rat der Moderatorin: „Briefwechsel, Anruf, vielleicht, aber ein Kontakt...? Ich möchte meine Freundin sehen, riechen, küssen... Das kann mir keine Technologie ermöglichen.“",
+      "fr": "💡 Solution : c (Simon).\nSimon affirme que les technologies de communication ne remplacent pas la proximité physique réelle avec sa petite amie.",
+      "ar": "💡 الحل: c (سيمون).\nيؤكد سيمون أن التكنولوجيا والاتصالات لا يمكن أن تعوض اللقاء الحقيقي والقرب الجسدي من حبيبته."
+    },
+    "h27": {
+      "text": "💡 Lösung: a (Moderatorin).\nDie Moderatorin rät positiv zu denken: „Aus Erfahrung kann ich allerdings sagen: es hilft, mal auf andere Gedanken zu kommen, eine Sache auch von der positiven Seite zu betrachten.“",
+      "fr": "💡 Solution : a (L'animatrice).\nL'animatrice conseille de ne pas voir tout en noir et de toujours chercher les aspects positifs de chaque situation.",
+      "ar": "💡 الحل: a (المذيعة).\nتنصح المذيعة بعدم التركيز فقط على الجوانب السلبية، والبحث دائماً عن الإيجابيات في أي وضع جديد."
+    },
+    "h28": {
+      "text": "💡 Lösung: b (Lena).\nLena berichtet über das Landleben und vergleicht das Freizeitangebot mit der Großstadt: Im Dorf gibt es weniger Ausgehmöglichkeiten als in Wien.",
+      "fr": "💡 Solution : b (Lena).\nLena évoque la vie à la campagne où les possibilités de divertissement et de sorties sont bien plus restreintes qu'à Vienne.",
+      "ar": "💡 الحل: b (لينا).\nتتحدث لينا عن قلة خيارات الترفيه والخروج في الريف مقارنة بالحياة في العاصمة فيينا."
+    },
+    "h29": {
+      "text": "💡 Lösung: a (Moderatorin).\nDie Moderatorin wirft ein: „Lena, es wird so viel vom Klatsch auf dem Land erzählt. Stört es dich nicht, dass jeder alles über jeden weiß?“",
+      "fr": "💡 Solution : a (L'animatrice).\nL'animatrice souligne le manque de discrétion dans les villages où tout le monde sait tout sur tout le monde.",
+      "ar": "💡 الحل: a (المذيعة).\nتشير المذيعة إلى ظاهرة الشائعات والفضول في القرى قائلة إن الجميع يعرف كل شيء عن الجميع."
+    },
+    "h30": {
+      "text": "💡 Lösung: a (Moderatorin).\nDie Moderatorin schließt die Sendung optimistisch ab: „Den Mut dürfen wir nicht verlieren und die Hoffnung nie aufgeben. Wenn man neuen Situationen offen gegenübersteht, dann erlebt man auch Positives.“",
+      "fr": "💡 Solution : a (L'animatrice).\nL'animatrice conclut sur une note d'espoir en encourageant à rester courageux et ouvert au changement pour vivre des expériences positives.",
+      "ar": "💡 الحل: a (المذيعة).\nتختم المذيعة البرنامج برسالة تفاؤل قائلة: «يجب ألا نفقد الشجاعة وألا نتخلى عن الأمل، فالانفتاح على المواقف الجديدة يمنحنا تجارب إيجابية»."
+    }
+  },
+  "translations": {
+    "parts": {
+      "1": {
+        "title": {
+          "fr": "Partie 1 (Lecture)",
+          "ar": "الجزء 1 (القراءة)"
+        },
+        "instructions": {
+          "fr": "Lisez le texte et les questions 1 à 6. Choisissez si les affirmations sont vraies ou fausses.",
+          "ar": "اقرأ النص والمهام من 1 إلى 6. اختر: هل العبارات صحيحة أم خاطئة؟"
+        },
+        "article": {
+          "title": {
+            "fr": "AloisBlog.at · Billet de blog d'Alois",
+            "ar": "AloisBlog.at · تدوينة من ألويس"
+          },
+          "author": {
+            "fr": "Alois",
+            "ar": "ألويس"
+          },
+          "date": {
+            "fr": "23 octobre",
+            "ar": "23 أكتوبر"
+          },
+          "body": {
+            "fr": [
+              "Salut, chers lecteurs du blog ! Comme beaucoup d'entre vous sont confrontés à la recherche d'un emploi, ce que mon ami Herbert a à raconter vous intéressera certainement. Herbert a un léger handicap moteur et a participé à un projet de coaching professionnel.",
+              "« Je m'appelle Herbert Ziegler, j'ai 24 ans et j'habite à Innsbruck. Après le collège, j'ai tenté ma chance dans plusieurs apprentissages, mais les trois contrats ont été rompus.",
+              "Je suis entré dans le programme de coaching il y a 18 mois. Après plusieurs entretiens, j'ai fait la connaissance de mon coach actuel. J'ai commencé par un stage d'initiation dans un atelier de réparation de vélos. C'était mon souhait, car je voulais travailler dans la mécanique ou la réparation. Mais après trois semaines, je n'étais plus convaincu de vouloir faire carrière là-dedans. J'étais très déstabilisé, mais mon coach et moi avons eu de longues discussions et il m'a encouragé à explorer d'autres voies. J'ai finalement débuté un stage dans une salle événementielle comme aide-concierge, pour assister Markus.",
+              "Dans un centre événementiel, le travail ne manque jamais ! Ces tâches variées m'ont beaucoup plu, et tous les employés ont été très bienveillants. À la fin du stage, Markus, la directrice Manuela, mon coach et moi avons fait le bilan, et j'ai été embauché !",
+              "Ensemble, nous avons décrit précisément mes missions et fixé des objectifs pour la première année. Par exemple, je souhaite maîtriser le système de chauffage complexe au sous-sol pour pouvoir résoudre seul les petits incidents techniques.",
+              "Dans l'ensemble, le travail n'est pas toujours simple et s'avère parfois très stressant. Mais grâce au soutien de Markus et de mon coach, j'apprends à surmonter ces moments critiques. Mon emploi me plaît énormément, en particulier les missions techniques. Je tiens aussi à mon revenu régulier, qui me permet de réaliser enfin certains de mes projets. »",
+              "Une excellente idée, ce coaching pour l'emploi, n'est-ce pas ? Bien à vous, Alois"
+            ],
+            "ar": [
+              "مرحباً بكم يا أصدقاء المدونة! بما أن الكثير منكم يواجه مشكلة البحث عن عمل، فإن ما سيرويه صديقي هربرت سيهمكم بالتأكيد. يعاني هربرت من إعاقة حركية خفيفة وشارك في مشروع توجيه وظيفي.",
+              "«اسمي هربرت زيغلر، عمري 24 عاماً وأعيش في إنسبروك. بعد حصولي على الشهادة المدرسية، جربت عدة فرص تدريب مهني، لكن عقود التدريب الثلاثة فُسخت للأسف.",
+              "التحقت بمشروع التوجيه الوظيفي قبل 18 شهراً. بعد عدة جلسات، تعرفت على مدربي الوظيفي الحالي. بدأت بتدريب استكشافي في ورشة دراجات، وكانت تلك رغبتي لاهتمامي بالميكانيكا والتصليح. لكن بعد ثلاثة أسابيع لم أعد مقتنعاً بالعمل في هذا المجال. شعرت بالحيرة حينها، لكن مدربي جلس معي في جلسات عديدة وشجعني على تجربة مجالات جديدة. وأخيراً بدأت تدريباً في دار للفعاليات كمساعد لمسؤول الصيانة ماركوس.",
+              "في دار الفعاليات لا ينتهي العمل أبداً! نالت المهام المتنوعة إعجابي وكان جميع الموظفين لطفاء معي. بعد انتهاء فترة التدريب، اجتمعت مع ماركوس ومديرة الدار ومدربي الوظيفي وناقشنا التجربة، ثم تم توظيفي رسمياً!",
+              "حددنا معاً مهامي بدقة واتفقنا على أهداف نحققها بنهاية العام الأول. أود مثلاً أن أتعلم تقنية التدفئة المعقدة في القبو لأتمكن من حل المشكلات البسيطة بمفردي دون مساعدة ماركوس.",
+              "العمل عموماً ليس سهلاً دائماً، بل قد يكون مجهداً أحياناً. لكن مع دعم ماركوس والمدرب، أتعلم كيفية التعامل مع هذه المواقف الصعبة. يعجبني عملي الحالي كثيراً، وأرغب في التطور أكثر. كما يهمني الدخل المنتظم الذي يمكنني بفضله تحقيق بعض أمنياتي.»",
+              "فكرة رائعة هذا التوجيه الوظيفي، أليس كذلك؟ صديقكم ألويس"
+            ]
+          }
+        },
+        "questions": {
+          "1": {
+            "fr": "Les premières tentatives d'Herbert pour suivre une formation n'ont pas abouti.",
+            "ar": "المحاولات الأولى لهربرت للحصول على تدريب مهني لم تكلل بالنجاح."
+          },
+          "2": {
+            "fr": "Herbert a effectué un stage dans un atelier de vélos parce qu'il aime faire du vélo.",
+            "ar": "قام هربرت بتدريب في ورشة دراجات لأنه يحب ركوب الدراجات."
+          },
+          "3": {
+            "fr": "Après son stage dans le centre événementiel, Herbert a obtenu un emploi.",
+            "ar": "حصل هربرت على وظيفة بعد انتهاء تدريبه في دار الفعاليات."
+          },
+          "4": {
+            "fr": "Les tâches qu'Herbert doit accomplir sont plutôt faciles.",
+            "ar": "المهام التي يتعين على هربرت إنجازها سهلة للغاية."
+          },
+          "5": {
+            "fr": "Herbert trouve son travail dans le centre événementiel intéressant.",
+            "ar": "يجد هربرت العمل في دار الفعاليات ممتعاً ومثيراً للاهتمام."
+          },
+          "6": {
+            "fr": "Le salaire joue un rôle secondaire pour Herbert.",
+            "ar": "يلعب الراتب دوراً ثانوياً ضئيلاً بالنسبة لهربرت."
+          }
+        }
+      },
+      "2": {
+        "title": {
+          "fr": "Partie 2 (Lecture)",
+          "ar": "الجزء 2 (القراءة)"
+        },
+        "instructions": {
+          "fr": "Lisez les textes de presse et répondez aux questions 7 à 12. Choisissez la bonne réponse a, b ou c.",
+          "ar": "اقرأ النصوص الصحفية والمهام من 7 إلى 12. اختر الإجابة الصحيحة a أو b أو c لكل سؤال."
+        },
+        "articles": [
+          {
+            "title": {
+              "fr": "Règles de l'amitié",
+              "ar": "قواعد الصداقة"
+            },
+            "body": {
+              "fr": [
+                "Le réseau social Facebook transforme les règles de la communication et de l'amitié. Rien qu'en Allemagne, Facebook revendique 20 millions d'utilisateurs actifs ; toute une génération grandit avec la plateforme. Dans les salles des professeurs aussi, des pédagogues passionnés de technologie s'intéressent à Facebook. Il est certain que professeurs et élèves se croisent désormais tant à l'école que sur les réseaux sociaux. Cela soulève de nouvelles questions : comment élèves et enseignants doivent-ils interagir en ligne ? Peuvent-ils être amis virtuels ? Les professeurs doivent-ils voir ce que leurs élèves publient pendant leur temps libre ? Et inversement ? Il n'existe encore que très peu de recommandations officielles à ce sujet.",
+                "Une école secondaire à Hamm (Rhénanie-du-Nord-Westphalie) a établi des règles précises pour ses enseignants : tout professeur souhaitant interagir avec ses élèves doit obligatoirement créer un second profil distinct. Tout le corps professoral n'en est pas ravi, car c'est contraignant et chronophage. Ailleurs, certains enseignants ont eux-mêmes décidé de ne voir en Facebook qu'un simple canal d'information neutre et de divertissement, refusant d'y aborder des problèmes privés. Les élèves ne peuvent ainsi lire que des contenus neutres. Les enseignants s'accordent toutefois sur un point : Facebook est idéal pour garder le contact avec les anciens élèves ayant quitté l'établissement."
+              ],
+              "ar": [
+                "تغير منصة فيسبوك قواعد التواصل والصداقة. في ألمانيا وحدها، يمتلك فيسبوك نحو 20 مليون مستخدم نشط؛ وهناك جيل كامل ينشأ مع هذه المنصة. وفي غرف المعلمين أيضاً، يوجد تربويون شغوفون بالتكنولوجيا ويستخدمون فيسبوك. ومن المؤكد أن المعلمين والطلاب يلتقون ليس فقط في المدرسة، بل على فيسبوك أيضاً. يثير هذا تساؤلات جديدة: كيف ينبغي أن يتعامل الطلاب والمعلمون مع بعضهم على الإنترنت؟ هل يُسمح لهم بتبادل الصداقة افتراضياً؟ وهل يحق للمعلمين معرفة ما ينشره الطلاب في أوقات فراغهم؟ والعكس صحيح؟ لا توجد حتى الآن إرشادات كافية بهذا الخصوص.",
+                "حددت مدرسة أساسية في مدينة هام (شمال الراين وستفاليا) قواعد لاستخدام فيسبوك لمعلميها: إذا أراد المعلم التفاعل مع طلابه، يجب عليه إنشاء حساب ثانٍ مخصص لذلك. ولم يكن الجميع سعداء بهذا الإجراء لما يتطلبه من وقت وجهد إضافيين. وفي أماكن أخرى، قرر بعض المعلمين بأنفسهم استخدام فيسبوك فقط كوسيلة تواصل وترفيه عامة، دون مناقشة أي قضايا شخصية، مما يتيح للطلاب قراءة محتويات محايدة فقط. ويتفق المعلمون على أن فيسبوك وسيلة ممتازة للبقاء على اتصال مع الطلاب بعد تخرجهم من المدرسة."
+              ]
+            }
+          }
+        ],
+        "questions": [
+          {
+            "id": 7,
+            "text": {
+              "fr": "Ce texte traite de …",
+              "ar": "يدور هذا النص حول …"
+            },
+            "options": {
+              "fr": [
+                "des règles de conduite entre amis.",
+                "de la communication sur les réseaux sociaux en général.",
+                "de la communication entre élèves et professeurs sur Facebook."
+              ],
+              "ar": [
+                "قواعد السلوك بين الأصدقاء.",
+                "التواصل عبر وسائل التواصل الاجتماعي.",
+                "التواصل بين الطلاب والمعلمين على فيسبوك."
+              ]
+            }
+          },
+          {
+            "id": 8,
+            "text": {
+              "fr": "Certains professeurs …",
+              "ar": "بعض المعلمين …"
+            },
+            "options": {
+              "fr": [
+                "trouvent Facebook fatigant.",
+                "ne veulent pas discuter de problèmes personnels sur Facebook.",
+                "veulent en savoir plus sur les loisirs des élèves."
+              ],
+              "ar": [
+                "يجدون فيسبوك مرهقاً.",
+                "لا يريدون مناقشة مشكلات شخصية على فيسبوك.",
+                "يريدون معرفة المزيد عن أنشطة الطلاب في أوقات فراغهم."
+              ]
+            }
+          },
+          {
+            "id": 9,
+            "text": {
+              "fr": "Une école de Hamm …",
+              "ar": "مدرسة في مدينة هام …"
+            },
+            "options": {
+              "fr": [
+                "a fixé des règles pour la communication des enseignants sur Facebook.",
+                "interdit aux professeurs d'utiliser Facebook.",
+                "surveille le profil Facebook des professeurs."
+              ],
+              "ar": [
+                "وضعت تعليمات لتواصل المعلمين عبر فيسبوك.",
+                "تمنع المعلمين من استخدام فيسبوك.",
+                "تراقب الحسابات الشخصية للمعلمين على فيسبوك."
+              ]
+            }
+          }
+        ],
+        "articles2": [
+          {
+            "title": {
+              "fr": "La santé grâce au robot",
+              "ar": "الصحة بفضل الروبوت"
+            },
+            "body": {
+              "fr": [
+                "Nao, un nouveau robot originaire de France, ne peut ni froncer les sourcils, ni sourire, ni faire de grimaces, car son visage est en plastique. Pourtant, Nao sait reconnaître les visages des personnes qu'il a déjà rencontrées. Il perçoit également leur humeur et y réagit de façon adaptée. Si on lui sourit, par exemple, il lève la tête et écarte les bras en signe de joie. Le robot bouge avec une grande aisance : ramasser un objet au sol et le jeter ne lui pose aucune difficulté tellement il est articulé.",
+                "Des chercheurs ont perfectionné ce robot pour l'introduire dans les hôpitaux (« Spitälern » en autrichien) en tant que « robo-docteur ». Les scientifiques pensent que Nao peut redonner le moral aux enfants hospitalisés, car beaucoup d'entre eux le perçoivent comme un jouet attrayant devant lequel ils n'ont pas peur. Nao doit également leur expliquer avec bienveillance et patience le déroulement de leurs soins et apaiser leur angoisse avant une opération chirurgicale. Ce robot-médecin ne mesure que 58 cm et ne pèse que 5,2 kg : une taille idéale qui rappelle aux jeunes patients celle d'une peluche géante."
+              ],
+              "ar": [
+                "لا يستطيع الروبوت نايو (Nao)، القادم من فرنسا، أن يقطب جبينه أو يبتسم، لأن وجهه مصنوع من البلاستيك. لكنه قادر على التعرف على الأشخاص الذين تعامل معهم مسبقاً. كما أنه يشعر بمزاجهم ويتفاعل معه؛ فعندما يبتسم له شخص، يرفع رأسه ويبسط ذراعيه تعبيراً عن الفرح. ويتحرك الروبوت بمرونة ملحوظة، ولا يجد صعوبة في التقاط الأشياء عن الأرض أو رميها.",
+                "طوّر العلماء هذا الروبوت لاستخدامه في المستشفيات كروبوت-طبيب. ويعتقد الباحثون أن نايو قادر على الترويح عن الأطفال المرضى، لأن العديد من الأطفال ينظرون إليه كلعبة مسلية لا يشعرون بالخوف منها. كما كُلف نايو بمهمة شرح العلاج للأطفال نظراً لصبره وفصاحته في الحديث، ومن مهامه أيضاً تبديد خوف الصغار من العمليات الجراحية. يبلغ طول الروبوت 58 سم ووزنه 5.2 كغ فقط، مما يجعله محبباً للمرضى الصغار ويذكرهم بدمية قماشية كبيرة."
+              ]
+            }
+          }
+        ],
+        "questions2": [
+          {
+            "id": 10,
+            "text": {
+              "fr": "Ce texte traite de …",
+              "ar": "يدور هذا النص حول …"
+            },
+            "options": {
+              "fr": [
+                "un robot capable de sourire.",
+                "la thérapie des enfants malades.",
+                "un robot destiné à être utilisé à l'hôpital."
+              ],
+              "ar": [
+                "روبوت يمكنه الابتسام.",
+                "علاج الأطفال المرضى.",
+                "روبوت يُراد استخدامه في المستشفى."
+              ]
+            }
+          },
+          {
+            "id": 11,
+            "text": {
+              "fr": "Nao peut …",
+              "ar": "يستطيع نايو …"
+            },
+            "options": {
+              "fr": [
+                "parler avec les humains.",
+                "guérir un enfant malade.",
+                "jouer avec les enfants."
+              ],
+              "ar": [
+                "التحدث مع البشر.",
+                "شفاء طفل مريض.",
+                "اللعب مع الأطفال."
+              ]
+            }
+          },
+          {
+            "id": 12,
+            "text": {
+              "fr": "Les enfants malades …",
+              "ar": "الأطفال المرضى …"
+            },
+            "options": {
+              "fr": [
+                "s'ennuient et ont besoin de jouer.",
+                "voient en Nao un jouet qui ne leur fait pas peur.",
+                "adorent les peluches."
+              ],
+              "ar": [
+                "يشعرون بالملل وبحاجة إلى لعبة.",
+                "يرون في نايو لعبة لا يخافون منها.",
+                "يحبون الدمى المحشوة."
+              ]
+            }
+          }
+        ]
+      },
+      "3": {
+        "title": {
+          "fr": "Partie 3 (Petites annonces)",
+          "ar": "الجزء 3 (الإعلانات)"
+        },
+        "instructions": {
+          "fr": "Lisez les situations 13 à 19 et les annonces a à j. Associez chaque annonce à la situation qui convient. Si aucune annonce ne convient, choisissez 0.",
+          "ar": "اقرأ المواقف من 13 إلى 19 والإعلانات من a إلى j. اختر الإعلان المناسب لكل موقف. وإذا لم تجد إعلاناً مناسباً، فاختر 0."
+        },
+        "situationContext": {
+          "fr": "Des connaissances à vous souhaitent développer leurs compétences en langues étrangères et cherchent des opportunités adaptées.",
+          "ar": "معارف لكم يرغبون في تطوير مهاراتهم في اللغات الأجنبية ويبحثون عن عروض مناسبة."
+        },
+        "situations": {
+          "13": {
+            "fr": "Steffi a passé un an en France comme élève d'échange. Elle souhaite maintenant entretenir son français durant ses loisirs et garder le contact avec la culture.",
+            "ar": "قضت شتيفي عاماً كاملاً في فرنسا كطالبة تبادل. وترغب الآن في ممارسة لغتها الفرنسية في وقت فراغها والبقاء على صلة بثقافة البلد.",
+            "text": {
+              "fr": "Steffi a passé un an en France comme élève d'échange. Elle souhaite maintenant entretenir son français durant ses loisirs et garder le contact avec la culture.",
+              "ar": "قضت شتيفي عاماً كاملاً في فرنسا كطالبة تبادل. وترغب الآن في ممارسة لغتها الفرنسية في وقت فراغها والبقاء على صلة بثقافة البلد."
+            }
+          },
+          "14": {
+            "fr": "Natalie veut apprendre le français rapidement, car elle s'installe à Paris avec son époux dès le mois de septembre.",
+            "ar": "تريد ناتالي تعلم الفرنسية بسرعة لأنها ستنتقل مع زوجها للعيش في باريس ابتداءً من شهر سبتمبر.",
+            "text": {
+              "fr": "Natalie veut apprendre le français rapidement, car elle s'installe à Paris avec son époux dès le mois de septembre.",
+              "ar": "تريد ناتالي تعلم الفرنسية بسرعة لأنها ستنتقل مع زوجها للعيش في باريس ابتداءً من شهر سبتمبر."
+            }
+          },
+          "15": {
+            "fr": "M. Fuchs suit un cours d'anglais mais a des lacunes à l'écrit. Il a donc besoin de s'exercer à la rédaction.",
+            "ar": "يحضر السيد فوكس دورة لغة إنجليزية، لكنه ضعيف في التعبير الكتابي ويحتاج للتدرب على مهارات الكتابة.",
+            "text": {
+              "fr": "M. Fuchs suit un cours d'anglais mais a des lacunes à l'écrit. Il a donc besoin de s'exercer à la rédaction.",
+              "ar": "يحضر السيد فوكس دورة لغة إنجليزية، لكنه ضعيف في التعبير الكتابي ويحتاج للتدرب على مهارات الكتابة."
+            }
+          },
+          "16": {
+            "fr": "L'anglais d'Alina n'est pas très bon. Elle pense qu'on apprend le mieux une langue étrangère dans le pays où elle est parlée.",
+            "ar": "لغة ألينا الإنجليزية ليست جيدة جداً، وترى أن أفضل طريقة لتعلم اللغة الأجنبية هي في البلد الذي يتحدث بها سكانه.",
+            "text": {
+              "fr": "L'anglais d'Alina n'est pas très bon. Elle pense qu'on apprend le mieux une langue étrangère dans le pays où elle est parlée.",
+              "ar": "لغة ألينا الإنجليزية ليست جيدة جداً، وترى أن أفضل طريقة لتعلم اللغة الأجنبية هي في البلد الذي يتحدث بها سكانه."
+            }
+          },
+          "17": {
+            "fr": "Urs souhaite apprendre l'espagnol, Read mais n'aime pas apprendre en groupe avec d'autres personnes.",
+            "ar": "يرغب أورس في تعلم اللغة الإسبانية، لكنه لا يحب التعلم في مجموعات مع الآخرين.",
+            "text": {
+              "fr": "Urs souhaite apprendre l'espagnol, mais n'aime pas apprendre en groupe avec d'autres personnes.",
+              "ar": "يرغب أورس في تعلم اللغة الإسبانية، لكنه لا يحب التعلم في مجموعات مع الآخرين."
+            }
+          },
+          "18": {
+            "fr": "Mme Kilmer a appris le français à l'école. En raison de son travail, elle doit maintenant améliorer son expression orale.",
+            "ar": "تعلمت السيدة كيلمر الفرنسية في المدرسة، لكنها بحاجة الآن لتحسين التعبير الشفهي من أجل وظيفتها.",
+            "text": {
+              "fr": "Mme Kilmer a appris le français à l'école. En raison de son travail, elle doit maintenant améliorer son expression orale.",
+              "ar": "تعلمت السيدة كيلمر الفرنسية في المدرسة، لكنها بحاجة الآن لتحسين التعبير الشفهي من أجل وظيفتها."
+            }
+          },
+          "19": {
+            "fr": "Ben et Ali ont choisi l'espagnol en option à l'école. Ils ont décidé de faire ensemble un séjour linguistique en Espagne cet été.",
+            "ar": "يدرس بن وعلي الإسبانية كمادة اختيارية في المدرسة، وقررا السفر معاً في رحلة لغوية إلى إسبانيا خلال الصيف.",
+            "text": {
+              "fr": "Ben et Ali ont choisi l'espagnol en option à l'école. Ils ont décidé de faire ensemble un séjour linguistique en Espagne cet été.",
+              "ar": "يدرس بن وعلي الإسبانية كمادة اختيارية في المدرسة، وقررا السفر معاً في رحلة لغوية إلى إسبانيا خلال الصيف."
+            }
+          }
+        },
+        "ads": {
+          "a": {
+            "fr": "École de langues de Cologne : Cours intensifs journaliers d'anglais/français/italien (2 semaines, 6h/jour). Cours vacances pour élèves en été.",
+            "ar": "مدرسة اللغات بكولونيا: دورات مكثفة يومية في الإنجليزية/الفرنسية/الإيطالية (أسبوعان، 6 ساعات يومياً). دورات للطلاب في العطلة الصيفية."
+          },
+          "A": {
+            "fr": "École de langues de Cologne : Cours intensifs journaliers d'anglais/français/italien (2 semaines, 6h/jour).",
+            "ar": "مدرسة اللغات بكولونيا: دورات مكثفة يومية في الإنجليزية/الفرنسية/الإيطالية."
+          },
+          "b": {
+            "fr": "Meike, 25 ans, Autriche : Cherche correspondants internationaux pour échanger des lettres en allemand ou en français.",
+            "ar": "مايكي، 25 عاماً، النمسا: تبحث عن أصدقاء مراسلة لتبادل الرسائل بالألمانية أو الفرنسية."
+          },
+          "B": {
+            "fr": "Meike, 25 ans, Autriche : Correspondants en allemand ou en français.",
+            "ar": "مايكي، النمسا: أصدقاء مراسلة بالألمانية أو الفرنسية."
+          },
+          "c": {
+            "fr": "Professeure de lycée donne cours de soutien scolaire en anglais et français (collège et lycée).",
+            "ar": "معلمة بمدرسة ثانوية تقدم دروس دعم وتقوية في اللغتين الإنجليزية والفرنسية."
+          },
+          "C": {
+            "fr": "Professeure de lycée donne cours de soutien en anglais et français.",
+            "ar": "معلمة ثانوية تقدم دروس دعم في الإنجليزية والفرنسية."
+          },
+          "d": {
+            "fr": "Apprendre l'anglais avec Learn & Fun - Séjours linguistiques : Cours dans des pays anglophones pour une immersion culturelle totale.",
+            "ar": "تعلم الإنجليزية مع Learn & Fun - رحلات لغوية: دورات لغة في بلدان ناطقة بالإنجليزية لمعايشة اللغة واكتسابها."
+          },
+          "D": {
+            "fr": "Séjours linguistiques Learn & Fun : Immersion en pays anglophones.",
+            "ar": "رحلات لغوية Learn & Fun في بلدان ناطقة بالإنجليزية."
+          },
+          "e": {
+            "fr": "Recherche professeur particulier de français pour mon fils (classe de 6e, 2e année d'apprentissage). Cours à domicile.",
+            "ar": "مطلوب معلم(ة) دروس خصوصية في اللغة الفرنسية لابني في الصف السادس. الدروس في منزلنا."
+          },
+          "E": {
+            "fr": "Recherche professeur particulier de français à domicile.",
+            "ar": "مطلوب معلم خصوصي للفرنسية في المنزل."
+          },
+          "f": {
+            "fr": "Magazine en ligne Bonjour : Idéal pour perfectionner son français grâce à des vidéos courtes sous-titrées, reportages, interviews et séries.",
+            "ar": "مجلة بونجور الإلكترونية: لإتقان الفرنسية للمتعلمين المتقدمين عبر مقاطع فيديو قصيرة مترجمة، تقارير ومقابلات ومسلسلات."
+          },
+          "F": {
+            "fr": "Magazine en ligne Bonjour : Vidéos sous-titrées et reportages en français.",
+            "ar": "مجلة بونجور الإلكترونية: مقاطع فيديو مترجمة وتقارير بالفرنسية."
+          },
+          "g": {
+            "fr": "Tandem linguistique Luz Kinard : Cherche germanophones pour échanger et converser spontanément en allemand et français.",
+            "ar": "تبادل لغوي - لوز كينارد: أبحث عن ناطقين بالألمانية للقاء والتحدث بحرية لتبادل اللغتين الألمانية والفرنسية."
+          },
+          "G": {
+            "fr": "Tandem linguistique Luz Kinard : Échange et conversation spontanée.",
+            "ar": "تبادل لغوي وتحدث حر بالألمانية والفرنسية."
+          },
+          "h": {
+            "fr": "Apprenez le grec en vacances à Mani : Cours dans une maison de vacances de rêve au bord de la mer.",
+            "ar": "تعلم اليونانية أثناء عطلتك في ماني: دورات لغة في منزل عطلات ساحر على البحر."
+          },
+          "H": {
+            "fr": "Apprenez le grec en vacances à Mani : Maison de vacances et mer.",
+            "ar": "تعلم اليونانية في عطلة بماني."
+          },
+          "i": {
+            "fr": "Cours d'espagnol par M. Gonzales : Cours particuliers sur mesure (conversation, expression écrite, compréhension orale et écrite).",
+            "ar": "دروس إسبانية مع السيد غونزاليس: دروس فردية مرنة حسب الحاجة (محادثة، كتابة، فهم مقروء ومسموع)."
+          },
+          "I": {
+            "fr": "Cours d'espagnol par M. Gonzales : Cours particuliers flexibles.",
+            "ar": "دروس إسبانية فردية مرنة مع السيد غونزاليس."
+          },
+          "j": {
+            "fr": "Séjours linguistiques Welner : Cours de vacances et séjours pour jeunes et familles en Espagne, France, Pologne et Russie.",
+            "ar": "رحلات فيلنر اللغوية: دورات عطلات ورحلات لغوية للشباب والعائلات إلى إسبانيا وفرنسا وبولندا وروسيا."
+          },
+          "J": {
+            "fr": "Séjours linguistiques Welner : Espagne, France, Pologne, etc.",
+            "ar": "رحلات لغوية للشباب إلى إسبانيا وفرنسا."
+          }
+        }
+      },
+      "4": {
+        "title": {
+          "fr": "Partie 4 (Courrier des lecteurs)",
+          "ar": "الجزء 4 (آراء القراء)"
+        },
+        "instructions": {
+          "fr": "Lisez les avis 20 à 26. La personne est-elle favorable au droit de vote dès 16 ans ? Choisissez Oui ou Non.",
+          "ar": "اقرأ الآراء من 20 إلى 26. هل يؤيد الشخص حق الانتخاب في سن 16 عاماً؟ اختر نعم أو لا."
+        },
+        "topic": {
+          "fr": "Les jeunes de 16 ans devraient-ils avoir le droit de voter ? (Vote à 16 ans)",
+          "ar": "هل ينبغي السماح للشباب في سن 16 عاماً بالتصويت؟ (حق الانتخاب من سن 16)"
+        },
+        "letters": {
+          "20": {
+            "who": "Magnus, 37 ans, Bienne",
+            "text": {
+              "fr": "Les adolescents sont bien trop influençables. Ils votent comme leur meilleur ami. Je doute qu'ils étudient les programmes politiques avec un esprit critique. 16 ans, c'est bien trop tôt.",
+              "ar": "المراهقون يتأثرون بآراء الآخرين بشكل مفرط، ويصوتون مثل أصدقائهم المقربين. لا أتصور أنهم يقرؤون برامج الأحزاب بنقد ومسؤولية. سن 16 مبكرة جداً."
+            }
+          },
+          "21": {
+            "who": "Cornelius, 24 ans, Traiskirchen",
+            "text": {
+              "fr": "Nous avons eu de très bonnes expériences avec le vote à 16 ans lors des élections municipales. Pourquoi cela ne fonctionnerait-il pas aussi bien pour les élections législatives ? Le moment est venu.",
+              "ar": "لقد كانت تجربة التصويت في سن 16 ممتازة في الانتخابات البلدية. فلماذا لا تنجح بنفس القدر في الانتخابات الحكومية العامة؟ أعتقد أن الوقت قد حان."
+            }
+          },
+          "22": {
+            "who": "Marianne, 16 ans, Francfort",
+            "text": {
+              "fr": "Pouvoir voter me donnerait le devoir de m'intéresser à la politique pour être informée. Ce serait une immense motivation pour écouter attentivement les débats. J'aurais enfin le sentiment d'être prise au sérieux.",
+              "ar": "حق التصويت سيشعرني بمسؤولية متابعة السياسة والاطلاع عليها. سيكون دافعاً كبيراً لي للاستماع للنقاشات، وسيجعلني أشعر بأن صوتي يؤخذ على محمل الجد."
+            }
+          },
+          "23": {
+            "who": "Caroline, 38 ans, Cuxhaven",
+            "text": {
+              "fr": "Je pense que l'âge du vote devrait être relevé à 21 ans. À 21 ans, on est pleinement responsable pénalement, on a terminé l'école et on travaille ou étudie dans un milieu adulte.",
+              "ar": "أرى أنه ينبغي رفع سن الانتخاب مجدداً إلى 21 عاماً؛ ففي هذا السن يتحمل الشاب المسؤولية الجنائية الكاملة، ويكون قد أنهى دراسته وانخرط في بيئة الكبار."
+            }
+          },
+          "24": {
+            "who": "Christoph, 30 ans, Sarrebruck",
+            "text": {
+              "fr": "Ce n'est pas un hasard si le droit de vote commence à 18 ans. Avant cela, les jeunes manquent d'expérience de vie pour appréhender des décisions politiques complexes, surtout au niveau national.",
+              "ar": "هناك سبب وجيه لبقاء سن الانتخاب عند 18 عاماً منذ زمن؛ فالناس قبل هذا السن تنقصهم الخبرة الحياتية لفهم القرارات السياسية المعقدة على المستوى الوطني."
+            }
+          },
+          "25": {
+            "who": "Michelle, 18 ans, Kloten",
+            "text": {
+              "fr": "En Suisse, la population vieillit et les plus de 55 ans formeront bientôt la moitié des électeurs. On ne peut pas tout laisser décider par les aînés : les jeunes doivent avoir leur mot à dire !",
+              "ar": "في سويسرا يزداد السكان تقدماً في العمر، وسيشكل من هم فوق 55 عاماً نصف الناخبين قريباً. لا يمكننا ترك القرارات لكبار السن فقط، فالشباب بحاجة إلى صوت مسموع."
+            }
+          },
+          "26": {
+            "who": "Karsten, 24 ans, Neumünster",
+            "text": {
+              "fr": "Ce serait envoyer un mauvais signal. S'ils votent à 16 ans, ils voudront ensuite conduire une voiture à 16 ans. Il est bien plus urgent de remobiliser ceux qui ont déjà 18 ans.",
+              "ar": "هذه إشارة خاطئة، فالسماح بالتصويت في سن 16 سيدفعهم للمطالبة بقيادة السيارات وغيرها. الأهم هو تشجيع الشباب البالغين 18 عاماً على التصويت والاهتمام بالسياسة."
+            }
+          }
+        }
+      },
+      "5": {
+        "title": {
+          "fr": "Partie 5 (Règlement)",
+          "ar": "الجزء 5 (التعليمات واللوائح)"
+        },
+        "instructions": {
+          "fr": "Lisez les questions 27 à 30 et le règlement du marché aux puces « Ottofloh ». Choisissez la bonne solution a, b ou c.",
+          "ar": "اقرأ المهام من 27 إلى 30 والنص المرفق. اختر الحل الصحيح a أو b أو c لكل سؤال."
+        },
+        "article": {
+          "title": {
+            "fr": "Marché aux puces « Ottofloh » · Dornum",
+            "ar": "سوق السلع المستعملة «أوتوفلوه» · دورنوم"
+          },
+          "subtitle": {
+            "fr": "Conditions de participation et de vente",
+            "ar": "شروط المشاركة والبيع"
+          },
+          "paragraphs": {
+            "fr": [
+              "Le marché aux puces « Ottofloh » est organisé bénévolement deux fois par an par une initiative de parents dans la salle Wandelhalle à 27637 Dornum.",
+              "<strong>INSCRIPTION</strong><br>1. Chaque vendeur doit s'inscrire à l'avance avant chaque date de marché et reçoit un numéro de vendeur en guise de confirmation. Les inscriptions s'effectuent sur notre site internet www.ottofloh.de, ou bien par téléphone et en personne auprès des organisateurs.",
+              "<strong>VENTE D'ARTICLES</strong><br>2. Seuls les vêtements pour enfants adaptés à la saison, le matériel de puériculture (meubles, etc.), les jouets et les fournitures scolaires sont acceptés. Les objets volumineux nécessitent un accord préalable.<br>3. Tous les articles doivent être propres, soignés, en parfait état de fonctionnement et sans détérioration. La direction se réserve le droit de refuser les articles non conformes.",
+              "4. Lors du dépôt des articles, une contribution aux frais de 1,50 € est exigée par vendeur. Le dépôt est limité à 50 articles par vendeur ! Un supplément s'applique au-delà.<br>5. Tous les articles invendus doivent être récupérés aux horaires indiqués dès la fin du marché. Les marchandises non récupérées au plus tard une semaine après le marché seront remises à la Croix-Rouge ou à une autre œuvre caritative.",
+              "<strong>DONNÉES PERSONNELLES</strong><br>6. Conformément à la loi sur la protection des données (§ 23 BDSG), les données personnelles des participants (nom, commune, téléphone) sont exclusivement enregistrées pour l'organisation des marchés. Aucune transmission à des tiers n'a lieu à aucun moment."
+            ],
+            "ar": [
+              "يتم تنظيم سوق السلع المستعملة «أوتوفلوه» مرتين سنوياً بشكل تطوعي من قِبل مبادرة أولياء أمور في قاعة فاندل هاله في دورنوم.",
+              "<strong>التسجيل</strong><br>1. يجب على كل بائع التسجيل في الوقت المناسب قبل موعد كل سوق والحصول على رقم بائع لتأكيد التسجيل. تُقبل الطلبات عبر موقعنا الإلكتروني www.ottofloh.de، أو هاتفياً وشخصياً لدى مسؤولي السوق.",
+              "<strong>بيع البضائع</strong><br>2. يُقبل فقط ملابس الأطفال المناسبة لفصل السنة، ومستلزمات الأطفال (أثاث وغيره)، والألعاب والأدوات المدرسية. وتتطلب الأغراض الضخمة موافقة مسبقة.<br>3. يجب أن تكون جميع البضائع نظيفة ومرتبة وخالية من العيوب وتعمل بكفاءة تامة. وتحتفظ إدارة السوق بحق رفض أي بضاعة لا تستوفي المعايير.",
+              "4. يُدفع رسم مشاركة قدره 1.50 يورو عند تسليم البضائع. والحد الأقصى للتسليم هو 50 قطعة لكل بائع، مع فرض رسوم إضافية على كل قطعة زائدة.<br>5. يجب استلام البضائع غير المباعة فور انتهاء السوق في المواعيد المحددة. والبضائع التي لا تُستلم في موعد أقصاه أسبوع بعد انتهاء السوق ستُمنح للصليب الأحمر أو لمؤسسة خيرية أخرى.",
+              "<strong>البيانات الشخصية</strong><br>6. تنبيه وفقاً للمادة 23 من قانون حماية البيانات: تُحفظ بيانات المشاركين (الاسم والمكان ورقم الهاتف) إلكترونياً لغرض تنظيم السوق فقط، ولا يتم نقل هذه البيانات إلى أطراف ثالثة في أي وقت."
+            ]
+          }
+        },
+        "questions": {
+          "27": {
+            "fr": "Toutes les marchandises invendues …",
+            "ar": "جميع البضائع غير المباعة …",
+            "options": {
+              "fr": [
+                "doivent être récupérées par les vendeurs dans un délai d'une semaine.",
+                "sont données à une organisation caritative.",
+                "sont remises en vente lors du prochain marché aux puces."
+              ],
+              "ar": [
+                "يجب على البائعين استلامها خلال أسبوع واحد.",
+                "يتم التبرع بها لمنظمة خيرية.",
+                "يتم عرضها للبيع مرة أخرى في سوق السلع القادم."
+              ]
+            }
+          },
+          "28": {
+            "fr": "Les données personnelles des vendeurs …",
+            "ar": "البيانات الشخصية للبائعين …",
+            "options": {
+              "fr": [
+                "sont protégées électroniquement.",
+                "peuvent être transmises aux acheteurs en cas de litige.",
+                "ne sont pas transmises à des tiers extérieurs à l'organisation du marché."
+              ],
+              "ar": [
+                "محمية إلكترونياً.",
+                "يمكن إعطاؤها للمشترين عند حدوث مشكلة في البضاعة.",
+                "لا يتم تمريرها إلى أشخاص لا علاقة لهم بتنظيم السوق."
+              ]
+            }
+          },
+          "29": {
+            "fr": "Pour s'inscrire, …",
+            "ar": "للتسجيل والمشاركة، …",
+            "options": {
+              "fr": [
+                "on a besoin d'un numéro de vendeur.",
+                "on peut téléphoner à la direction du marché aux puces.",
+                "on doit payer 1,50 euro."
+              ],
+              "ar": [
+                "يحتاج المرء إلى رقم بائع مسبقاً.",
+                "يمكن الاتصال هاتفياً بإدارة سوق السلع.",
+                "يجب دفع 1.50 يورو أولاً."
+              ]
+            }
+          },
+          "30": {
+            "fr": "En tant que vendeur, on est autorisé à …",
+            "ar": "يُسمح للبائع بأن …",
+            "options": {
+              "fr": [
+                "ne vendre en aucun cas plus de 50 articles.",
+                "vendre aussi des objets d'occasion s'ils fonctionnent parfaitement.",
+                "proposer des vêtements d'été et d'hiver à chaque marché."
+              ],
+              "ar": [
+                "لا يبيع أكثر من 50 قطعة تحت أي ظرف.",
+                "يبيع أشياء قديمة أيضاً بشرط أن تعمل دون مشاكل.",
+                "يعرض ملابس صيفية وشتوية في كل سوق."
+              ]
+            }
+          }
+        }
+      },
+      "6": {
+        "title": {
+          "fr": "Module Écoute (Hören)",
+          "ar": "وحدة الاستماع (Hören)"
+        },
+        "instructions": {
+          "fr": "Vous allez entendre les quatre parties de l'épreuve de compréhension orale. Répondez aux questions correspondantes.",
+          "ar": "ستستمع الآن إلى الأجزاء الأربعة من اختبار الفهم المسموع. أجب عن الأسئلة المرفقة."
+        },
+        "teile": {
+          "1": {
+            "title": {
+              "fr": "Partie 1 : Cinq textes courts (écoutés 2 fois)",
+              "ar": "الجزء 1: خمسة نصوص قصيرة (تُسمع مرتين)"
+            },
+            "desc": {
+              "fr": "Vous entendez cinq textes courts. Vous entendez chaque texte deux fois. Pour chaque texte, résolvez deux tâches.",
+              "ar": "ستستمع إلى خمسة نصوص قصيرة. ستستمع إلى كل نص مرتين. أجب عن سؤالين لكل نص."
+            }
+          },
+          "2": {
+            "title": {
+              "fr": "Partie 2 : Croisière sur le lac des Quatre-Cantons (écouté 1 fois)",
+              "ar": "الجزء 2: جولة بحرية في بحيرة لوزيرن (تُسمع مرة واحدة)"
+            },
+            "desc": {
+              "fr": "Vous écoutez un texte d'un guide sur le bateau. Vous n'entendez le texte qu'une seule fois. Répondez aux tâches 11 à 15.",
+              "ar": "ستستمع إلى نص تعريفي على متن السفينة. ستستمع إليه مرة واحدة فقط. أجب عن الأسئلة من 11 إلى 15."
+            },
+            "context": {
+              "fr": "Vous participez à une visite guidée en bateau sur le lac des Quatre-Cantons.",
+              "ar": "أنت تشارك في جولة سياحية على متن سفينة في بحيرة لوزيرن (Vierwaldstättersee)."
+            }
+          },
+          "3": {
+            "title": {
+              "fr": "Partie 3 : Conversation au cinéma sur les régimes (écouté 1 fois)",
+              "ar": "الجزء 3: محادثة في السينما حول مشاكل الوزن (تُسمع مرة واحدة)"
+            },
+            "desc": {
+              "fr": "Vous entendez une conversation informelle au cinéma. Vous n'entendez le dialogue qu'une seule fois. Répondez aux tâches 16 à 22 (Vrai ou Faux).",
+              "ar": "ستستمع إلى محادثة عفوية في السينما. ستستمع إلى الحوار مرة واحدة فقط. أجب عن الأسئلة من 16 إلى 22 (صحيح أو خطأ)."
+            },
+            "context": {
+              "fr": "Vous êtes assis au cinéma et entendez un garçon (Hannes) et une fille (Lara) parler de problèmes de poids.",
+              "ar": "أنت جالس في السينما وتستمع إلى فتى (هانيس) وفتاة (لارا) يتحدثان عن مشاكل الوزن والحمية."
+            }
+          },
+          "4": {
+            "title": {
+              "fr": "Partie 4 : Débat radiophonique sur le déménagement (écouté 2 fois)",
+              "ar": "الجزء 4: نقاش إذاعي حول الانتقال وتغيير السكن (يُسمع مرتين)"
+            },
+            "desc": {
+              "fr": "Vous entendez un débat radiophonique entre l'animatrice, Lena et Simon sur le thème du déménagement. Associez chaque affirmation à la personne qui l'exprime.",
+              "ar": "ستستمع إلى حوار إذاعي بين المذيعة ولينا وسيمون حول موضوع الانتقال إلى سكن جديد. حدد قائل كل عبارة."
+            },
+            "context": {
+              "fr": "L'animatrice de l'émission « heuteÖ » discute avec Lena et Simon des conséquences d'un déménagement.",
+              "ar": "تناقش مذيعة برنامج «heuteÖ» مع ضيفيها لينا وسيمون موضوع الانتقال وتغيير محل السكن."
+            }
+          }
+        },
+        "questions": {
+          "h1": {
+            "fr": "Vous entendez une publicité.",
+            "ar": "تستمع إلى إعلان تجاري."
+          },
+          "h2": {
+            "fr": "Le magazine paraît …",
+            "ar": "تصدر المجلة …",
+            "options": {
+              "fr": [
+                "une fois par mois.",
+                "une fois par semaine.",
+                "toutes les deux semaines."
+              ],
+              "ar": [
+                "مرة في الشهر.",
+                "مرة في الأسبوع.",
+                "كل أسبوعين."
+              ]
+            }
+          },
+          "h3": {
+            "fr": "Vous êtes en communication avec un lycée professionnel.",
+            "ar": "أنت متصل بمدرسة مهنية."
+          },
+          "h4": {
+            "fr": "Quiconque souhaite s'inscrire à l'école …",
+            "ar": "من يرغب في الالتحاق بالمدرسة …",
+            "options": {
+              "fr": [
+                "doit passer un examen d'admission.",
+                "devrait participer à une réunion d'information.",
+                "doit connaître le latin."
+              ],
+              "ar": [
+                "يجب أن يجتاز اختبار قبول.",
+                "ينبغي أن يحضر لقاءً تعريفياً.",
+                "يجب أن يعرف اللغة اللاتينية."
+              ]
+            }
+          },
+          "h5": {
+            "fr": "Vous entendez les actualités sportives.",
+            "ar": "تستمع إلى الأخبار الرياضية."
+          },
+          "h6": {
+            "fr": "Qu'apprenez-vous dans cette vidéo ?",
+            "ar": "ما الذي تتعلمه في مقطع الفيديو؟",
+            "options": {
+              "fr": [
+                "Pendant combien de temps faire du vélo.",
+                "Quels vêtements porter de préférence à vélo.",
+                "Comment devenir cycliste de compétition."
+              ],
+              "ar": [
+                "كم المدة التي يجب أن تقود فيها الدراجة.",
+                "ما هي الملابس الأفضل لارتدائها أثناء ركوب الدراجة.",
+                "كيف تصبح متسابق دراجات محترفاً."
+              ]
+            }
+          },
+          "h7": {
+            "fr": "L'avion va bientôt atterrir.",
+            "ar": "الطائرة ستهبط بعد قليل."
+          },
+          "h8": {
+            "fr": "Durant le vol, …",
+            "ar": "أثناء الرحلة الجوية، …",
+            "options": {
+              "fr": [
+                "il est interdit d'utiliser des appareils électroniques.",
+                "on peut allumer son téléphone portable.",
+                "il est recommandé de garder sa ceinture attachée."
+              ],
+              "ar": [
+                "يُمنع استخدام الأجهزة الإلكترونية.",
+                "يمكن تشغيل الهاتف المحمول.",
+                "ينبغي أن يظل حزام الأمان مربوطاً."
+              ]
+            }
+          },
+          "h9": {
+            "fr": "Vous entendez un bulletin sur un embouteillage routier.",
+            "ar": "تستمع إلى تقرير عن ازدحام مروري."
+          },
+          "h10": {
+            "fr": "Le conducteur a été …",
+            "ar": "تعرض السائق إلى …",
+            "options": {
+              "fr": [
+                "indemne (pas du tout blessé).",
+                "grièvement blessé.",
+                "légèrement blessé."
+              ],
+              "ar": [
+                "لم يُصب بأي أذى إطلاقاً.",
+                "إصابة بالغة الخطورة.",
+                "إصابة طفيفة."
+              ]
+            }
+          },
+          "h11": {
+            "fr": "Combien de bateaux possède la compagnie maritime ?",
+            "ar": "كم عدد السفن التي تمتلكها شركة الملاحة البحرية؟",
+            "options": {
+              "fr": [
+                "Quinze.",
+                "Vingt-et-un.",
+                "Cinq."
+              ],
+              "ar": [
+                "خمس عشرة سفينة.",
+                "إحدى وعشرون سفينة.",
+                "خمس سفن."
+              ]
+            }
+          },
+          "h12": {
+            "fr": "À quelle vitesse le yacht peut-il naviguer ?",
+            "ar": "ما هي أقصى سرعة يستطيع اليخت الإبحار بها؟",
+            "options": {
+              "fr": [
+                "Au maximum 28 kilomètres par heure.",
+                "Environ 49 kilomètres par heure.",
+                "Près de 300 kilomètres par heure."
+              ],
+              "ar": [
+                "28 كيلومتراً في الساعة كحد أقصى.",
+                "حوالي 49 كيلومتراً في الساعة.",
+                "ما يقارب 300 كيلومتر في الساعة."
+              ]
+            }
+          },
+          "h13": {
+            "fr": "Le lac des Quatre-Cantons est situé …",
+            "ar": "تقع بحيرة لوزيرن (Vierwaldstättersee) …",
+            "options": {
+              "fr": [
+                "dans le canton d'Uri.",
+                "près d'un château.",
+                "au cœur de la Suisse."
+              ],
+              "ar": [
+                "في كانتون أوري.",
+                "بجوار قصر تاريخي.",
+                "في قلب سويسرا (وسط البلاد)."
+              ]
+            }
+          },
+          "h14": {
+            "fr": "Autour du lac, il y a …",
+            "ar": "يوجد حول البحيرة …",
+            "options": {
+              "fr": [
+                "plusieurs montagnes.",
+                "trois forêts.",
+                "une route commerciale."
+              ],
+              "ar": [
+                "عدة جبال.",
+                "ثلاث غابات.",
+                "طريق تجاري قديم."
+              ]
+            }
+          },
+          "h15": {
+            "fr": "En l'an 1871, …",
+            "ar": "في عام 1871، …",
+            "options": {
+              "fr": [
+                "on a pu monter pour la première fois en haut des montagnes en train.",
+                "les Anglais ont découvert les montagnes suisses.",
+                "Mark Twain a écrit un article sur la Suisse."
+              ],
+              "ar": [
+                "تمكن الناس لأول مرة من الصعود إلى الجبال بالقطار.",
+                "اكتشف الإنجليز جبال سويسرا.",
+                "كتب مارك توين مقالاً عن سويسرا."
+              ]
+            }
+          },
+          "h16": {
+            "fr": "Hannes et Lara sont frère et sœur.",
+            "ar": "هانيس ولارا أخوان."
+          },
+          "h17": {
+            "fr": "Dimanche, Hannes a célébré son anniversaire.",
+            "ar": "احتفل هانيس بعيد ميلاده يوم الأحد."
+          },
+          "h18": {
+            "fr": "Jasmin trouve que Hannes est trop gros.",
+            "ar": "ترى ياسمين أن هانيس سمين جداً."
+          },
+          "h19": {
+            "fr": "Hannes fait beaucoup de sport.",
+            "ar": "يمارس هانيس الكثير من الرياضة."
+          },
+          "h20": {
+            "fr": "Hannes mange volontiers de la salade.",
+            "ar": "يحب هانيس تناول السلطة."
+          },
+          "h21": {
+            "fr": "Lara a toujours joué au tennis.",
+            "ar": "تلعب لارا التنس منذ صغرها دائماً."
+          },
+          "h22": {
+            "fr": "Lara trouve que Jasmin est très jolie.",
+            "ar": "ترى لارا أن ياسمين فتاة جميلة المظهر."
+          },
+          "h23": {
+            "fr": "La distance entre les deux lieux de résidence joue un rôle au début.",
+            "ar": "تلعب المسافة بين السكنين دوراً مهماً في البداية.",
+            "options": {
+              "fr": [
+                "L'animatrice",
+                "Lena",
+                "Simon"
+              ],
+              "ar": [
+                "المذيعة",
+                "لينا",
+                "سيمون"
+              ]
+            }
+          },
+          "h24": {
+            "fr": "Le déménagement a lieu pour des motifs professionnels.",
+            "ar": "يتم الانتقال لأسباب مهنية تتعلق بالعمل.",
+            "options": {
+              "fr": [
+                "L'animatrice",
+                "Lena",
+                "Simon"
+              ],
+              "ar": [
+                "المذيعة",
+                "لينا",
+                "سيمون"
+              ]
+            }
+          },
+          "h25": {
+            "fr": "On ne retrouve pas un nouvel amour si rapidement.",
+            "ar": "لا يمكن للمرء أن يجد شريك حب جديد بسرعة.",
+            "options": {
+              "fr": [
+                "L'animatrice",
+                "Lena",
+                "Simon"
+              ],
+              "ar": [
+                "المذيعة",
+                "لينا",
+                "سيمون"
+              ]
+            }
+          },
+          "h26": {
+            "fr": "Les technologies de communication n'offrent pas de réelle opportunité de maintenir une relation amoureuse.",
+            "ar": "لا توفر تكنولوجيا الاتصالات فرصة حقيقية للحفاظ على العلاقة العاطفية واستمرارها.",
+            "options": {
+              "fr": [
+                "L'animatrice",
+                "Lena",
+                "Simon"
+              ],
+              "ar": [
+                "المذيعة",
+                "لينا",
+                "سيمون"
+              ]
+            }
+          },
+          "h27": {
+            "fr": "En cas de problème, il ne faut pas se concentrer uniquement sur les inconvénients d'une situation.",
+            "ar": "عند مواجهة المشاكل، ينبغي ألا يركز المرء فقط على الجوانب السلبية للموقف.",
+            "options": {
+              "fr": [
+                "L'animatrice",
+                "Lena",
+                "Simon"
+              ],
+              "ar": [
+                "المذيعة",
+                "لينا",
+                "سيمون"
+              ]
+            }
+          },
+          "h28": {
+            "fr": "À la campagne, il n'y a pas beaucoup d'activités de divertissement.",
+            "ar": "لا تتوفر في الريف الكثير من وسائل الترفيه والخروج.",
+            "options": {
+              "fr": [
+                "L'animatrice",
+                "Lena",
+                "Simon"
+              ],
+              "ar": [
+                "المذيعة",
+                "لينا",
+                "سيمون"
+              ]
+            }
+          },
+          "h29": {
+            "fr": "Au village, rien ne reste secret.",
+            "ar": "في القرية لا يبقى أي شيء سراً بين الناس.",
+            "options": {
+              "fr": [
+                "L'animatrice",
+                "Lena",
+                "Simon"
+              ],
+              "ar": [
+                "المذيعة",
+                "لينا",
+                "سيمون"
+              ]
+            }
+          },
+          "h30": {
+            "fr": "Il faut envisager l'avenir avec optimisme.",
+            "ar": "ينبغي النظر إلى المستقبل بتفاؤل وأمل.",
+            "options": {
+              "fr": [
+                "L'animatrice",
+                "Lena",
+                "Simon"
+              ],
+              "ar": [
+                "المذيعة",
+                "لينا",
+                "سيمون"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}
