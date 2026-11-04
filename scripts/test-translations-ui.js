@@ -97,6 +97,9 @@ function testExam(examId) {
       if (part <= 5 && (!pHtml || pHtml.length < 100)) {
         throw new Error("Passage HTML unexpectedly empty or too short in Teil " + part + " (" + lang + ")");
       }
+      if ((part === 1 || part === 2 || part === 5) && !pHtml.includes('class="reading-text"')) {
+        throw new Error("Teil " + part + " (" + lang + ") is missing reading-text container in passage!");
+      }
       if (!qHtml || qHtml.length < 100) {
         throw new Error("Questions HTML unexpectedly empty or too short in Teil " + part + " (" + lang + ")");
       }

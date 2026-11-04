@@ -53216,17 +53216,19 @@
         "title": "Teil 5",
         "time": 10,
         "instructions": "Lesen Sie die Aufgaben 27 bis 30 und den Text dazu. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
-        "article": {
-          "title": "Flohmarkt „Ottofloh“ · Dornum",
-          "subtitle": "Teilnahme- & Verkaufsbedingungen",
-          "paragraphs": [
-            "Der Flohmarkt „Ottofloh“ wird zweimal jährlich von einer privaten Elterninitiative ehrenamtlich in der Wandelhalle in 27637 Dornum organisiert.",
-            "<strong>ANMELDUNG</strong><br>1. Jeder Verkäufer muss sich rechtzeitig vor jedem Flohmarkttermin anmelden und erhält als Bestätigung eine Verkäufernummer. Anmeldungen werden nur auf unserer Homepage unter: www.ottofloh.de, sowie bei Vertretern der Flohmarktleitung per Telefon oder persönlich entgegengenommen.",
-            "<strong>WAREN - VERKAUF</strong><br>2. Es werden nur Kinderbekleidungen jeweils passend zur Jahreszeit, Kinderzubehör (Möbel usw.), Spielsachen und Schulsachen für Kinder angenommen. Größere und sperrige Artikel werden nur nach vorheriger Rücksprache und Bestätigung angenommen.<br>3. Alle Waren müssen in einem sauberen und ordentlichen Zustand ohne Beschädigungen und funktionstüchtig sein. Die Flohmarktleitung behält sich das Recht vor, Waren, die nicht den Anforderungen entsprechen, nicht zum Verkauf anzubieten.",
-            "4. Bei Abgabe der Waren ist pro Verkäufer ein Unkostenbeitrag von 1,50 Euro als Startgeld zu entrichten. Die Abgabe ist auf 50 Teile pro Verkäufer begrenzt! Bei höherer Teilezahl wird ein zusätzliches Aufgeld berechnet.<br>5. Alle nicht verkauften Waren sind nach Beendigung des Flohmarktes zu den bekannt gegebenen Zeiten abzuholen. Waren, die nicht spätestens eine Woche nach dem jeweiligen Flohmarkttermin abgeholt worden sind, werden dem Roten Kreuz oder einer anderen Hilfsorganisation übergeben.",
-            "<strong>PERSÖNLICHE DATEN</strong><br>6. Hinweis gem. § 23 BDSG: Persönliche Daten der Teilnehmer wie Name, Ort und Telefonnummer werden nur zum Zweck der Durchführung der Flohmärkte auf elektronischen Datenträgern gespeichert. Eine Weitergabe der persönlichen Daten an Dritte erfolgt zu keinem Zeitpunkt."
-          ]
-        },
+        "articles": [
+          {
+            "heading": "Flohmarkt „Ottofloh“ · Dornum",
+            "sub": "Teilnahme- & Verkaufsbedingungen",
+            "body": [
+              "Der Flohmarkt „Ottofloh“ wird zweimal jährlich von einer privaten Elterninitiative ehrenamtlich in der Wandelhalle in 27637 Dornum organisiert.",
+              "<strong>ANMELDUNG</strong><br>1. Jeder Verkäufer muss sich rechtzeitig vor jedem Flohmarkttermin anmelden und erhält als Bestätigung eine Verkäufernummer. Anmeldungen werden nur auf unserer Homepage unter: www.ottofloh.de, sowie bei Vertretern der Flohmarktleitung per Telefon oder persönlich entgegengenommen.",
+              "<strong>WAREN - VERKAUF</strong><br>2. Es werden nur Kinderbekleidungen jeweils passend zur Jahreszeit, Kinderzubehör (Möbel usw.), Spielsachen und Schulsachen für Kinder angenommen. Größere und sperrige Artikel werden nur nach vorheriger Rücksprache und Bestätigung angenommen.<br>3. Alle Waren müssen in einem sauberen und ordentlichen Zustand ohne Beschädigungen und funktionstüchtig sein. Die Flohmarktleitung behält sich das Recht vor, Waren, die nicht den Anforderungen entsprechen, nicht zum Verkauf anzubieten.",
+              "4. Bei Abgabe der Waren ist pro Verkäufer ein Unkostenbeitrag von 1,50 Euro als Startgeld zu entrichten. Die Abgabe ist auf 50 Teile pro Verkäufer begrenzt! Bei höherer Teilezahl wird ein zusätzliches Aufgeld berechnet.<br>5. Alle nicht verkauften Waren sind nach Beendigung des Flohmarktes zu den bekannt gegebenen Zeiten abzuholen. Waren, die nicht spätestens eine Woche nach dem jeweiligen Flohmarkttermin abgeholt worden sind, werden dem Roten Kreuz oder einer anderen Hilfsorganisation übergeben.",
+              "<strong>PERSÖNLICHE DATEN</strong><br>6. Hinweis gem. § 23 BDSG: Persönliche Daten der Teilnehmer wie Name, Ort und Telefonnummer werden nur zum Zweck der Durchführung der Flohmärkte auf elektronischen Datenträgern gespeichert. Eine Weitergabe der persönlichen Daten an Dritte erfolgt zu keinem Zeitpunkt."
+            ]
+          }
+        ],
         "questions": [
           {
             "id": 27,
@@ -54812,32 +54814,34 @@
             "fr": "Lisez les questions 27 à 30 et le règlement du marché aux puces « Ottofloh ». Choisissez la bonne solution a, b ou c.",
             "ar": "اقرأ المهام من 27 إلى 30 والنص المرفق. اختر الحل الصحيح a أو b أو c لكل سؤال."
           },
-          "article": {
-            "title": {
-              "fr": "Marché aux puces « Ottofloh » · Dornum",
-              "ar": "سوق السلع المستعملة «أوتوفلوه» · دورنوم"
-            },
-            "subtitle": {
-              "fr": "Conditions de participation et de vente",
-              "ar": "شروط المشاركة والبيع"
-            },
-            "paragraphs": {
-              "fr": [
-                "Le marché aux puces « Ottofloh » est organisé bénévolement deux fois par an par une initiative de parents dans la salle Wandelhalle à 27637 Dornum.",
-                "<strong>INSCRIPTION</strong><br>1. Chaque vendeur doit s'inscrire à l'avance avant chaque date de marché et reçoit un numéro de vendeur en guise de confirmation. Les inscriptions s'effectuent sur notre site internet www.ottofloh.de, ou bien par téléphone et en personne auprès des organisateurs.",
-                "<strong>VENTE D'ARTICLES</strong><br>2. Seuls les vêtements pour enfants adaptés à la saison, le matériel de puériculture (meubles, etc.), les jouets et les fournitures scolaires sont acceptés. Les objets volumineux nécessitent un accord préalable.<br>3. Tous les articles doivent être propres, soignés, en parfait état de fonctionnement et sans détérioration. La direction se réserve le droit de refuser les articles non conformes.",
-                "4. Lors du dépôt des articles, une contribution aux frais de 1,50 € est exigée par vendeur. Le dépôt est limité à 50 articles par vendeur ! Un supplément s'applique au-delà.<br>5. Tous les articles invendus doivent être récupérés aux horaires indiqués dès la fin du marché. Les marchandises non récupérées au plus tard une semaine après le marché seront remises à la Croix-Rouge ou à une autre œuvre caritative.",
-                "<strong>DONNÉES PERSONNELLES</strong><br>6. Conformément à la loi sur la protection des données (§ 23 BDSG), les données personnelles des participants (nom, commune, téléphone) sont exclusivement enregistrées pour l'organisation des marchés. Aucune transmission à des tiers n'a lieu à aucun moment."
-              ],
-              "ar": [
-                "يتم تنظيم سوق السلع المستعملة «أوتوفلوه» مرتين سنوياً بشكل تطوعي من قِبل مبادرة أولياء أمور في قاعة فاندل هاله في دورنوم.",
-                "<strong>التسجيل</strong><br>1. يجب على كل بائع التسجيل في الوقت المناسب قبل موعد كل سوق والحصول على رقم بائع لتأكيد التسجيل. تُقبل الطلبات عبر موقعنا الإلكتروني www.ottofloh.de، أو هاتفياً وشخصياً لدى مسؤولي السوق.",
-                "<strong>بيع البضائع</strong><br>2. يُقبل فقط ملابس الأطفال المناسبة لفصل السنة، ومستلزمات الأطفال (أثاث وغيره)، والألعاب والأدوات المدرسية. وتتطلب الأغراض الضخمة موافقة مسبقة.<br>3. يجب أن تكون جميع البضائع نظيفة ومرتبة وخالية من العيوب وتعمل بكفاءة تامة. وتحتفظ إدارة السوق بحق رفض أي بضاعة لا تستوفي المعايير.",
-                "4. يُدفع رسم مشاركة قدره 1.50 يورو عند تسليم البضائع. والحد الأقصى للتسليم هو 50 قطعة لكل بائع، مع فرض رسوم إضافية على كل قطعة زائدة.<br>5. يجب استلام البضائع غير المباعة فور انتهاء السوق في المواعيد المحددة. والبضائع التي لا تُستلم في موعد أقصاه أسبوع بعد انتهاء السوق ستُمنح للصليب الأحمر أو لمؤسسة خيرية أخرى.",
-                "<strong>البيانات الشخصية</strong><br>6. تنبيه وفقاً للمادة 23 من قانون حماية البيانات: تُحفظ بيانات المشاركين (الاسم والمكان ورقم الهاتف) إلكترونياً لغرض تنظيم السوق فقط، ولا يتم نقل هذه البيانات إلى أطراف ثالثة في أي وقت."
-              ]
+          "articles": [
+            {
+              "heading": {
+                "fr": "Marché aux puces « Ottofloh » · Dornum",
+                "ar": "سوق السلع المستعملة «أوتوفلوه» · دورنوم"
+              },
+              "sub": {
+                "fr": "Conditions de participation et de vente",
+                "ar": "شروط المشاركة والبيع"
+              },
+              "body": {
+                "fr": [
+                  "Le marché aux puces « Ottofloh » est organisé bénévolement deux fois par an par une initiative de parents dans la salle Wandelhalle à 27637 Dornum.",
+                  "<strong>INSCRIPTION</strong><br>1. Chaque vendeur doit s'inscrire à l'avance avant chaque date de marché et reçoit un numéro de vendeur en guise de confirmation. Les inscriptions s'effectuent sur notre site internet www.ottofloh.de, ou bien par téléphone et en personne auprès des organisateurs.",
+                  "<strong>VENTE D'ARTICLES</strong><br>2. Seuls les vêtements pour enfants adaptés à la saison, le matériel de puériculture (meubles, etc.), les jouets et les fournitures scolaires sont acceptés. Les objets volumineux nécessitent un accord préalable.<br>3. Tous les articles doivent être propres, soignés, en parfait état de fonctionnement et sans détérioration. La direction se réserve le droit de refuser les articles non conformes.",
+                  "4. Lors du dépôt des articles, une contribution aux frais de 1,50 € est exigée par vendeur. Le dépôt est limité à 50 articles par vendeur ! Un supplément s'applique au-delà.<br>5. Tous les articles invendus doivent être récupérés aux horaires indiqués dès la fin du marché. Les marchandises non récupérées au plus tard une semaine après le marché seront remises à la Croix-Rouge ou à une autre œuvre caritative.",
+                  "<strong>DONNÉES PERSONNELLES</strong><br>6. Conformément à la loi sur la protection des données (§ 23 BDSG), les données personnelles des participants (nom, commune, téléphone) sont exclusivement enregistrées pour l'organisation des marchés. Aucune transmission à des tiers n'a lieu à aucun moment."
+                ],
+                "ar": [
+                  "يتم تنظيم سوق السلع المستعملة «أوتوفلوه» مرتين سنوياً بشكل تطوعي من قِبل مبادرة أولياء أمور في قاعة فاندل هاله في دورنوم.",
+                  "<strong>التسجيل</strong><br>1. يجب على كل بائع التسجيل في الوقت المناسب قبل موعد كل سوق والحصول على رقم بائع لتأكيد التسجيل. تُقبل الطلبات عبر موقعنا الإلكتروني www.ottofloh.de، أو هاتفياً وشخصياً لدى مسؤولي السوق.",
+                  "<strong>بيع البضائع</strong><br>2. يُقبل فقط ملابس الأطفال المناسبة لفصل السنة، ومستلزمات الأطفال (أثاث وغيره)، والألعاب والأدوات المدرسية. وتتطلب الأغراض الضخمة موافقة مسبقة.<br>3. يجب أن تكون جميع البضائع نظيفة ومرتبة وخالية من العيوب وتعمل بكفاءة تامة. وتحتفظ إدارة السوق بحق رفض أي بضاعة لا تستوفي المعايير.",
+                  "4. يُدفع رسم مشاركة قدره 1.50 يورو عند تسليم البضائع. والحد الأقصى للتسليم هو 50 قطعة لكل بائع، مع فرض رسوم إضافية على كل قطعة زائدة.<br>5. يجب استلام البضائع غير المباعة فور انتهاء السوق في المواعيد المحددة. والبضائع التي لا تُستلم في موعد أقصاه أسبوع بعد انتهاء السوق ستُمنح للصليب الأحمر أو لمؤسسة خيرية أخرى.",
+                  "<strong>البيانات الشخصية</strong><br>6. تنبيه وفقاً للمادة 23 من قانون حماية البيانات: تُحفظ بيانات المشاركين (الاسم والمكان ورقم الهاتف) إلكترونياً لغرض تنظيم السوق فقط، ولا يتم نقل هذه البيانات إلى أطراف ثالثة في أي وقت."
+                ]
+              }
             }
-          },
+          ],
           "questions": {
             "27": {
               "fr": "Toutes les marchandises invendues …",

@@ -702,11 +702,12 @@ function getTrPart(testId, partId, lang) {
 }
 
 function resolveTrBody(trArt, lang, defaultBody) {
-  if (!trArt || !trArt.body) return defaultBody;
-  if (Array.isArray(trArt.body)) {
-    return trArt.body.map(item => (typeof item === 'object' && item !== null ? (item[lang] || item.text?.[lang] || '') : item));
+  const b = trArt ? (trArt.body || trArt.paragraphs) : null;
+  if (!b) return defaultBody;
+  if (Array.isArray(b)) {
+    return b.map(item => (typeof item === 'object' && item !== null ? (item[lang] || item.text?.[lang] || '') : item));
   }
-  return trArt.body[lang] || defaultBody;
+  return b[lang] || defaultBody;
 }
 
 function resolveTrOptions(trQ, lang, defaultOptions) {
@@ -1415,13 +1416,14 @@ function renderPassage(t) {
     <div class="instruction-box">${instructionsText}</div>
   `;
 
-  if (t.articles) {
-    t.articles.forEach((a, aIdx) => {
-      const trArt = trPart?.articles?.[aIdx];
-      const heading = trArt?.heading?.[passageLang] || a.heading;
-      const sub = trArt?.sub?.[passageLang] || a.sub;
+  const articlesList = t.articles || (t.article ? [t.article] : null);
+  if (articlesList) {
+    articlesList.forEach((a, aIdx) => {
+      const trArt = (trPart?.articles?.[aIdx]) || (aIdx === 0 ? trPart?.article : null);
+      const heading = trArt?.heading?.[passageLang] || trArt?.title?.[passageLang] || a.heading || a.title;
+      const sub = trArt?.sub?.[passageLang] || trArt?.subtitle?.[passageLang] || a.sub || a.subtitle;
       const meta = trArt?.meta?.[passageLang] || a.meta;
-      const bodyParas = resolveTrBody(trArt, passageLang, a.body);
+      const bodyParas = resolveTrBody(trArt, passageLang, a.body || a.paragraphs);
       const signature = trArt?.signature?.[passageLang] || a.signature;
       const source = trArt?.source?.[passageLang] || a.source;
 
@@ -4861,13 +4863,14 @@ function renderFocusReaderContent() {
   const trPart = typeof getTrPart === 'function' ? getTrPart(currentTest.id, t.id, focusReaderLang) : null;
   let html = '';
 
-  if (t.articles && Array.isArray(t.articles)) {
-    t.articles.forEach((a, aIdx) => {
-      const trArt = trPart?.articles?.[aIdx];
-      const heading = trArt?.heading?.[focusReaderLang] || a.heading;
-      const sub = trArt?.sub?.[focusReaderLang] || a.sub;
+  const articlesList = (t.articles && Array.isArray(t.articles)) ? t.articles : (t.article ? [t.article] : null);
+  if (articlesList) {
+    articlesList.forEach((a, aIdx) => {
+      const trArt = (trPart?.articles?.[aIdx]) || (aIdx === 0 ? trPart?.article : null);
+      const heading = trArt?.heading?.[focusReaderLang] || trArt?.title?.[focusReaderLang] || a.heading || a.title;
+      const sub = trArt?.sub?.[focusReaderLang] || trArt?.subtitle?.[focusReaderLang] || a.sub || a.subtitle;
       const meta = trArt?.meta?.[focusReaderLang] || a.meta;
-      const bodyParas = resolveTrBody(trArt, focusReaderLang, a.body);
+      const bodyParas = resolveTrBody(trArt, focusReaderLang, a.body || a.paragraphs);
       const signature = trArt?.signature?.[focusReaderLang] || a.signature;
       const source = trArt?.source?.[focusReaderLang] || a.source;
 
