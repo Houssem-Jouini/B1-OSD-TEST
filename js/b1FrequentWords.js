@@ -528,6 +528,13 @@
             </div>
 
             <div class="fiche-sidebar-heading">Catégories de la Fiche B1</div>
+            <select class="fiche-cat-select" aria-label="Choisir une catégorie" onchange="window.b1FwSelectCategory(this.value)">
+              ${CATEGORIES.map(cat => {
+                const cw = getWordsForCategory(cat.id);
+                const cm = cw.filter(w => masteredIds.includes(w.id)).length;
+                return `<option value="${cat.id}" ${activeCategory === cat.id ? 'selected' : ''}>${cat.icon}  ${cat.labelFr} (${cm}/${cw.length})</option>`;
+              }).join('')}
+            </select>
             <nav class="fiche-cat-nav" aria-label="Catégories du vocabulaire B1">
               ${CATEGORIES.map(cat => {
                 const catWords = getWordsForCategory(cat.id);
