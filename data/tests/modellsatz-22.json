@@ -1,0 +1,2840 @@
+{
+  "id": "modellsatz-22",
+  "title": "Modelltest 16 — Hueber Zertifikat B1",
+  "badge": "Modelltest 16",
+  "examTitle": "Goethe / ÖSD B1 Prüfungssimulation — Modelltest 16",
+  "examSub": "Lesen (5 Teile) & Hören (4 Teile) · Modelltest 16 (Hueber)",
+  "durationMinutes": 65,
+  "parts": [
+    {
+      "id": 1,
+      "title": "Teil 1",
+      "time": 10,
+      "instructions": "Lesen Sie den Text und die Aufgaben 1 bis 6 dazu. Wählen Sie: Sind die Aussagen richtig oder falsch?",
+      "articles": [
+        {
+          "heading": "Urs Merz",
+          "sub": "15. Mai",
+          "body": [
+            "Grüezi, Facebook-Freunde! Letzten Freitag fand unser Betriebsausflug statt. Ziel war der Freizeitpark am Atzmännig in der Nähe von Zürich. Als ich das hörte, war ich ehrlich gesagt etwas skeptisch. Freizeitpark? Das ist doch nichts für Erwachsene!! Die Kollegen waren aber schon letztes Jahr da gewesen und schwärmten davon. Und weil ich neu im Betrieb bin, habe ich mich mit meiner Meinung zurückgehalten. Teilnehmen wollte ich auf jeden Fall, um die Kollegen besser kennenzulernen.",
+            "Von Zürich aus erreichten wir den Vergnügungspark in nur 45 Minuten. Er liegt am Fusse eines Berges. Eine Seilbahn beförderte uns in die Höhe. Oben angekommen bot sich uns ein atemberaubendes Panorama. Da das Wetter mitspielte, konnten wir über den Zürichsee sehen. In der Ferne waren sogar die Berner Alpen zu erkennen. Dann begann das eigentliche Programm. Wir konnten zwischen zwei Alternativen wählen: Entweder eine dreistündige Wanderung ins Tal oder auf der Sommerrodelbahn bergab und dann einen Parcours im Seilpark. Ich entschied mich für Letzteres.",
+            "Die Rutschbahn war ziemlich lang: 700 Meter mit 17 Kurven. Es ging sehr schnell abwärts. Was für eine Adrenalin-Spritze! Schade nur, dass man so viel von der schönen Natur verpasste. Nachdem wir unten angekommen waren, ging es dann zum Kletterpark. Insgesamt gab es 7 Parcours mit unterschiedlichen Schwierigkeitsgraden. Meine Gruppe wählte einen mittleren Schwierigkeitsgrad, da alle (ausser mir) schon etwas Erfahrung damit hatten. Dass es für mich das erste Mal war, sagte ich nicht.",
+            "Es war wirklich ein tolles Erlebnis. Man muss aber geschickt sein und sich gut miteinander koordinieren können. An einer Stelle habe ich nicht aufgepasst und wäre fast gefallen, wenn ein Kollege mich nicht gehalten hätte. Ich habe mir den Arm leicht verletzt. Nichts Schlimmes. Am Schluss, als auch die Wandergruppe im Tal angekommen war, gab es im Restaurant ein warmes Menü. (Das Zürcher Geschnetzelte ist jedem zu empfehlen!!) Dann gab's noch Kaffee und Kuchen mit frischem Rahm auf der Sonnenterrasse. Ein wunderbarer Tag! Kommenden Samstag bin ich mit drei Kollegen wieder dort verabredet. Seid ihr auch da?"
+          ]
+        }
+      ],
+      "example": {
+        "text": "Der Ausflug fand an einem Arbeitstag statt.",
+        "answer": "richtig"
+      },
+      "questions": [
+        {
+          "id": 1,
+          "type": "tf",
+          "text": "Urs fand das Ausflugsziel zuerst nicht besonders gut.",
+          "answer": "richtig",
+          "num": 1
+        },
+        {
+          "id": 2,
+          "type": "tf",
+          "text": "Der Freizeitpark ist nicht weit von der Großstadt entfernt.",
+          "answer": "richtig",
+          "num": 2
+        },
+        {
+          "id": 3,
+          "type": "tf",
+          "text": "Sie wanderten drei Stunden den Berg hoch.",
+          "answer": "falsch",
+          "num": 3
+        },
+        {
+          "id": 4,
+          "type": "tf",
+          "text": "Urs hatte schon mal Parcours gemacht.",
+          "answer": "falsch",
+          "num": 4
+        },
+        {
+          "id": 5,
+          "type": "tf",
+          "text": "Als Urs fiel, half ihm ein Kollege aufzustehen.",
+          "answer": "falsch",
+          "num": 5
+        },
+        {
+          "id": 6,
+          "type": "tf",
+          "text": "Urs wird den Freizeitpark bald wieder besuchen.",
+          "answer": "richtig",
+          "num": 6
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Teil 2",
+      "time": 20,
+      "instructions": "Lesen Sie den Text aus der Presse und die Aufgaben 7 bis 9 dazu. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+      "articles": [
+        {
+          "heading": "Lernen in Slums",
+          "sub": "aus einer deutschen Zeitung",
+          "body": [
+            "Obwohl es eine Schulpflicht gibt, gehen Millionen Kinder in Indien nicht zur Schule. Besonders die Bewohner der Slums können das Geld für Schuluniform, Hefte und Bücher nicht aufbringen. Die Hilfsorganisation Boscome möchte die Bildung zu den Kindern bringen und hat daher vor einigen Jahren begonnen, in ganz einfachen Hütten Schulen mit jeweils zwei Lehrern einzurichten. Die Kinder lernen Lesen, Schreiben und Rechnen und haben auch in den Bastelstunden Gelegenheit, mal wirklich Kinder zu sein.",
+            "Obwohl die Schulen nichts kosten, kommen längst nicht alle zum Unterricht. Viele Eltern schämen sich, dass sie so arm sind. Die Organisation versucht deshalb, den Schulbesuch möglichst attraktiv zu machen. Der Unterricht dauert nur bis 11 Uhr, damit die Kinder den Eltern danach bei der Arbeit helfen können. Außerdem bekommen die Kinder nach dem Unterricht eine warme Mahlzeit – eine zusätzliche Motivation, die Kinder in die Schule zu schicken.",
+            "Boscome möchte die Kinder fit für eine staatliche Schule machen. Und der Erfolg zeigt sich: Viele Kinder besuchen inzwischen eine höhere Schule, während andere nach Ende der Schulpflicht mit 14 Jahren eine praktische Berufsausbildung beginnen."
+          ]
+        }
+      ],
+      "example": {
+        "text": "Der Verein Boscome ...",
+        "options": [
+          "gibt den Kindern Geld für Schulbücher.",
+          "kümmert sich auch um ein Mittagessen für die Kinder.",
+          "setzt sich für eine Verlängerung der Schulpflicht in Indien ein."
+        ],
+        "answer": 1
+      },
+      "questions": [
+        {
+          "id": 7,
+          "type": "mcq",
+          "text": "In diesem Text geht es um ...",
+          "options": [
+            "Unterricht für Kinder in Slums.",
+            "das staatliche Schulsystem in Indien.",
+            "die Ernährung von Kindern im Slum."
+          ],
+          "answer": 0,
+          "num": 7
+        },
+        {
+          "id": 8,
+          "type": "mcq",
+          "text": "Im Unterricht ...",
+          "options": [
+            "lernen die Kinder das Alphabet.",
+            "essen die Kinder.",
+            "basteln die Kinder auch."
+          ],
+          "answer": 2,
+          "num": 8
+        },
+        {
+          "id": 9,
+          "type": "mcq",
+          "text": "Die Hilfsorganisation ...",
+          "options": [
+            "besteht aus zwei Lehrern.",
+            "hat zum Ziel, Slumkinder für die staatliche Schule vorzubereiten.",
+            "wurde von Slum-Bewohnern gegründet."
+          ],
+          "answer": 1,
+          "num": 9
+        }
+      ],
+      "instructions2": "Lesen Sie den Text aus der Presse und die Aufgaben 10 bis 12 dazu. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+      "articles2": [
+        {
+          "heading": "Solarium-Verbot für Jugendliche",
+          "sub": "aus einer österreichischen Zeitung",
+          "body": [
+            "Jugendliche unter 18 Jahren dürfen nicht mehr ins Solarium. Das verlangt nun ein Gesetz in Österreich. Die Ärzte freuen sich, die Solarienbesitzer ärgern sich. Jugendliche dürfen ab 16 Jahren Alkohol trinken und rauchen, aber nicht ins Solarium? Darüber wundern sich auch die Betroffenen selbst.",
+            "Äußerst positiv sehen nur Dermatologen dieses Gesetz. Sie wissen, dass sich Hautschäden, die durch ultraviolette Strahlen verursacht werden, umso stärker bemerkbar machen, je früher sie im Leben stattfinden. Dabei spielt keine Rolle, ob die Strahlen von der Sonne oder vom Solarium gekommen sind. Wenn die Sonne in Kindheit und Jugend die Haut verbrannt hat, sei das der wichtigste Risikofaktor für die Entwicklung des Melanoms, sagen die Fachleute. Sie finden es gut, dass man die Jugendlichen vor dieser Gefahr schützt. Denn Jugendliche denken selten an die Folgen ihres Verhaltens und rechnen nicht damit, dass sie später krank werden und Hautkrebs bekommen könnten.",
+            "Teenager müssen jetzt aber nicht gänzlich auf einen braunen Teint verzichten. Immerhin gibt es die Möglichkeit, Selbstbräuner zu benutzen. Das ist eine Creme, die auf der Haut verteilt wird und dann bräunt, ohne Sonne oder Solarium. Der einzige Nachteil: Die Bräune aus der Tube hält nur einige Tage."
+          ]
+        }
+      ],
+      "questions2": [
+        {
+          "id": 10,
+          "type": "mcq",
+          "text": "In diesem Text geht es darum, ...",
+          "options": [
+            "was österreichische Jugendliche dürfen.",
+            "warum das Solarium für Jugendliche schädlich ist.",
+            "wie man sich vor der Sonne schützen kann."
+          ],
+          "answer": 1,
+          "num": 10
+        },
+        {
+          "id": 11,
+          "type": "mcq",
+          "text": "Die Ärzte ...",
+          "options": [
+            "empfehlen den Jugendlichen eine Creme, die selbst bräunt.",
+            "wollen, dass alle Solarien schließen.",
+            "meinen, dass Jugendliche nicht daran denken, was später passieren könnte."
+          ],
+          "answer": 2,
+          "num": 11
+        },
+        {
+          "id": 12,
+          "type": "mcq",
+          "text": "Die Sonne ...",
+          "options": [
+            "kann der Haut genauso schaden wie das Solarium.",
+            "tut der Haut gut.",
+            "schadet Jugendlichen weniger als Erwachsenen."
+          ],
+          "answer": 0,
+          "num": 12
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Teil 3",
+      "time": 10,
+      "instructions": "Lesen Sie die Situationen 13 bis 19 und die Anzeigen a bis j aus verschiedenen deutschsprachigen Medien. Wählen Sie: Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Die Anzeige aus dem Beispiel können Sie nicht mehr verwenden. Für eine Situation gibt es keine passende Anzeige. In diesem Fall schreiben Sie 0.",
+      "situationsIntro": "Sie haben einige ältere Bekannte, die Hilfe brauchen und nach passenden Angeboten suchen.",
+      "example": {
+        "text": "Frau Walters Nähmaschine ist kaputt. Doch kann sie die Maschine nicht selbst zur Reparatur bringen, denn sie ist zu schwer.",
+        "answer": "i"
+      },
+      "adsFormatted": [
+        {
+          "code": "a",
+          "title": "Wir suchen Zusteller",
+          "text": "Für das Münchner Wochenblatt und Werbe-Prospekte. Nur für Schüler, Rentner. Verdienst: ca. 5–6,- Euro/Std. Zeit: ca. 2–4 Std., 1–2mal pro Woche. Verteilung im Wohngebiet. Rufen Sie uns bitte an: 6 70 50 52. E-Mail: Zeitungsvertrieb-Stockmann@t-online.de. S. Stockmann Zeitungs- und Prospektvertrieb.",
+          "html": "<strong>Wir suchen Zusteller</strong><br>Für das Münchner Wochenblatt und Werbe-Prospekte.<br><em>Nur für Schüler, Rentner</em><br>• Verdienst: ca. 5–6 €/Std. · Zeit: 2–4 Std., 1–2x pro Woche<br>Tel.: 6 70 50 52 · Zeitungsvertrieb Stockmann",
+          "color": "#ebf5fb",
+          "hasPin": true
+        },
+        {
+          "code": "b",
+          "title": "Strickkurs: Wir führen Sie am langen Faden",
+          "text": "Lernen Sie unter fachlicher Leitung die Grundbegriffe des Strickens! Verschiedene Anschläge, Musterstricken, Pullover und Socken stricken usw. Frau Mertel führt Sie ein in die faszinierende Welt der modischen Garne. Termine: 8.11., 15.11., 22.11., 29.11. von 14–18 Uhr. TD Domer Textilhandel GmbH.",
+          "html": "<strong>Strickkurs: Wir führen Sie am langen Faden</strong><br>Grundbegriffe des Strickens unter fachlicher Leitung.<br>Musterstricken, Pullover & Socken stricken mit Frau Mertel.<br><em>Termine: 8.11., 15.11., 22.11., 29.11. (14–18 Uhr)</em><br>TD Domer Textilhandel GmbH",
+          "color": "#fef9e7",
+          "hasPin": false
+        },
+        {
+          "code": "c",
+          "title": "Alles aus einer Hand · Handwerker-Service",
+          "text": "Elektro- und Malerarbeiten, Wohnungsumbau, Badsanierung. Komplette Ausführung aller Arbeiten von Fachleuten. Übrigens ... wir sind auch für Ihre kleinen Probleme da, z.B. tropfende Wasserhähne, Lampenwechsel usw. Wir sind nie weiter entfernt als Ihr Telefon. Tel. 089/33 13 06, Fa. MAW.",
+          "html": "<strong>Alles aus einer Hand · Meisterbetrieb</strong><br>Elektro- und Malerarbeiten, Wohnungsumbau & Badsanierung.<br><em>Auch für kleine Reparaturen: Lampenwechsel, tropfende Wasserhähne etc.!</em><br>Tel.: 089 / 33 13 06 · Fa. MAW",
+          "color": "#e8f8f5",
+          "hasPin": true
+        },
+        {
+          "code": "d",
+          "title": "Pensionierte Pädagogen / Rentner gesucht",
+          "text": "Rentner (Ingenieure, Techniker, Informatiker), pensionierte Pädagogen bzw. Studenten für die Erteilung von Mathematik- bzw. Physik-(Mittel- und Oberstufe)-Nachhilfeunterricht bei freier Zeiteinteilung gesucht. Möchten Sie gerne unterrichten? Wir freuen uns auf Sie. Tel. 07153 / 83633, Mo–Fr 14–17 Uhr.",
+          "html": "<strong>Pensionierte Pädagogen & Rentner gesucht</strong><br>Erteilung von Mathe- bzw. Physik-Nachhilfe (Mittel- & Oberstufe).<br>Freie Zeiteinteilung! Möchten Sie gerne unterrichten?<br><em>Tel.: 07153 / 8 36 33 (Mo–Fr 14–17 Uhr)</em>",
+          "color": "#fef5e7",
+          "hasPin": false
+        },
+        {
+          "code": "e",
+          "title": "Gartenhilfe gesucht",
+          "text": "Gartenhilfe gesucht, mit entsprechender Erfahrung, ab sofort, flexible Arbeitszeit, deutsche Sprache erwünscht. Kontakt: 0160 9090 6947 oder bbnk@gmx.de.",
+          "html": "<strong>Gartenhilfe gesucht</strong><br>Mit Erfahrung, ab sofort, flexible Arbeitszeiten.<br><em>Kontakt: 0160 9090 6947 oder bbnk@gmx.de</em>",
+          "color": "#eaeded",
+          "hasPin": false
+        },
+        {
+          "code": "f",
+          "title": "Gärtner übernimmt sämtliche Arbeiten",
+          "text": "Gärtner übernimmt sämtliche anfallenden Arbeiten. Zuverlässig und fachgerecht. Tel. 0176-78152396.",
+          "html": "<strong>Gärtner übernimmt sämtliche Arbeiten</strong><br>Erfahrener Gärtner erledigt Gartenpflege und alle anfallenden Arbeiten.<br><em>Tel.: 0176-78152396</em>",
+          "color": "#f4ecf7",
+          "hasPin": true
+        },
+        {
+          "code": "g",
+          "title": "Haushaltshilfe gesucht",
+          "text": "Haushaltshilfe gesucht für älteres Ehepaar, ab sofort, dt. Sprachkenntnisse, 3 x pro Woche je 4–5 Std., für alle Hausarbeiten mit Kochen. Kontakt unter lfk19@gmx.de oder Zuschr. unt. 290113390Z an diese Zeitung.",
+          "html": "<strong>Haushaltshilfe gesucht</strong><br>Für älteres Ehepaar, 3x pro Woche je 4–5 Std., Hausarbeiten & Kochen.<br><em>Kontakt: lfk19@gmx.de</em>",
+          "color": "#f9ebea",
+          "hasPin": false
+        },
+        {
+          "code": "h",
+          "title": "Welt der Handarbeit · Wolle & Garne",
+          "text": "Das Handarbeitsgeschäft der besonderen Art. Wolle, Stickgarne u. Stoffe in großer Auswahl. Kurse in allen Stick- und Stricktechniken. Salzburger Straße 37–39, 79098 Freiburg, Tel. 0761/2712153.",
+          "html": "<strong>Welt der Handarbeit · Freiburg</strong><br>Große Auswahl an Wolle, Stickgarnen und edlen Stoffen.<br>Kurse in allen Handarbeitstechniken.<br><em>Salzburger Str. 37–39, Freiburg · Tel.: 0761 / 2712153</em>",
+          "color": "#fdedec",
+          "hasPin": true
+        },
+        {
+          "code": "i",
+          "title": "Bäckers Nähstudio · Nähmaschinen-Reparaturen",
+          "text": "Nähmaschinen-Reparaturen: schnell, preiswert, gut. Bergisch Gladbach-City, Tel. 0 22 02 / 4 30 50. Abholservice – Abholservice – Abholservice.",
+          "html": "<strong>Bäckers Nähstudio · Reparaturen</strong><br>Nähmaschinen-Reparaturen: schnell, preiswert, gut.<br><em>Kostenloser Abholservice!</em><br>Bergisch Gladbach · Tel.: 0 22 02 / 4 30 50",
+          "color": "#eaf2f8",
+          "hasPin": true
+        },
+        {
+          "code": "j",
+          "title": "Suche Job in Privathaushalt",
+          "text": "Suche Job in Privathaushalt: Betreuung ält. Menschen, Einkaufen, Spazieren, leichte Pflege. Tel. 0176-36880948 oder 0761-42997472.",
+          "html": "<strong>Suche Job in Privathaushalt</strong><br>Betreuung älterer Menschen, Einkaufen erledigen, Spaziergänge, leichte Pflege.<br><em>Tel.: 0176-36880948 oder 0761-42997472</em>",
+          "color": "#fbfcfc",
+          "hasPin": true
+        }
+      ],
+      "questions": [
+        {
+          "id": 13,
+          "type": "match",
+          "text": "Die Lampe im Wohnzimmer von Herrn Rathenau funktioniert nicht mehr. Allein schafft er es leider nicht, den Schaden zu reparieren.",
+          "answer": "c",
+          "num": 13
+        },
+        {
+          "id": 14,
+          "type": "match",
+          "text": "Frau Eggers war Mathematiklehrerin und ist jetzt in Pension. Sie würde gerne ab und zu wieder Unterricht geben.",
+          "answer": "d",
+          "num": 14
+        },
+        {
+          "id": 15,
+          "type": "match",
+          "text": "Frau Bäuerle hat oft Rückenschmerzen. Sie braucht jemanden, der ihre Einkäufe erledigt, weil sie nichts Schweres tragen darf.",
+          "answer": "j",
+          "num": 15
+        },
+        {
+          "id": 16,
+          "type": "match",
+          "text": "Das Ehepaar Schütte liebt seinen Garten über alles. Die zwei können ihn aber nicht mehr allein pflegen.",
+          "answer": "f",
+          "num": 16
+        },
+        {
+          "id": 17,
+          "type": "match",
+          "text": "Die Haushaltshilfe von Herrn Reuter ist in eine andere Stadt gezogen. Deshalb sucht er eine neue Haushaltshilfe.",
+          "answer": "0",
+          "num": 17
+        },
+        {
+          "id": 18,
+          "type": "match",
+          "text": "Herr Mayer war früher Briefträger. Er bekommt jetzt zwar eine gute Rente, aber er langweilt sich zu Hause und sucht einen Teilzeitjob.",
+          "answer": "a",
+          "num": 18
+        },
+        {
+          "id": 19,
+          "type": "match",
+          "text": "Frau Hetzel möchte für ihre Enkelkinder Pullover stricken. Sie braucht dafür blaue und weiße Mohair-Wolle.",
+          "answer": "h",
+          "num": 19
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Teil 4",
+      "time": 15,
+      "instructions": "Lesen Sie die Texte 20 bis 26. Wählen Sie: Ist die Person für ein Verbot von Plastiktüten? In einer Zeitung lesen Sie Kommentare zum Umweltschutz und der Verschmutzung, die durch Plastik entsteht.",
+      "topic": "Soll es ein gesetzliches Verbot von Plastiktüten geben?",
+      "example": {
+        "who": "Franz (37, Berlin)",
+        "text": "Menschen, die Plastiktüten benutzen oder rauchen, haben etwas gemeinsam: Sie wollen zu ihrem Glück gezwungen werden. Schon vor dem 1. Januar 2008 freuten sich viele Nikotinabhängige auf das Rauchverbot – weil sie vom Gesetz in ihrem Vorhaben, weniger zu rauchen, unterstützt werden. Dann frage ich mich konsequent: Warum sollten nicht auch Plastiktütenträger zu ihrem Glück gezwungen werden? Erscheint mir logisch.",
+        "answer": "Ja"
+      },
+      "letters": [
+        {
+          "id": 20,
+          "who": "Axel (26, Hameln)",
+          "text": "Verbieten der Tüten ist nicht die beste Lösung. Allerdings könnte man die Geschäfte dazu zwingen, sie nicht mehr kostenlos zu geben, so wie es in Supermärkten ist. Dann werden sich viele Leute genau überlegen, ob jede Tüte in jedem Geschäft wirklich sein muss oder ob sie lieber darauf verzichten. Auch so könnte man die Plastiktüten reduzieren.",
+          "answer": "Nein",
+          "num": 20
+        },
+        {
+          "id": 21,
+          "who": "Miriam (22, St. Moritz)",
+          "text": "Ich habe immer eine Tasche dabei, die sich sehr klein zusammenfalten lässt. Darin lassen sich Bücher aus der Bibliothek genauso wie Einkäufe oder alles andere transportieren. Ich meine, Plastiktüten sehen schrecklich aus. Ausserdem schmeisst man die dann auch irgendwann in den Müll. Diese Tüten sind nicht nur unnötig, sondern auch umweltschädlich.",
+          "answer": "Ja",
+          "num": 21
+        },
+        {
+          "id": 22,
+          "who": "Sarah (17, München)",
+          "text": "Aber was würden wir dann nehmen? Ich denke, dass auch Papiertüten schlecht für die Umwelt sind, weil dafür Bäume gefällt werden. Meiner Meinung nach sind Plastiktüten in Deutschland kein Problem mehr. Die Leute gehen damit sparsam um und benutzen sie immer wieder, bis sie auseinanderfallen. Danach werden sie dann recycelt. Was soll daran schädlich sein?",
+          "answer": "Nein",
+          "num": 22
+        },
+        {
+          "id": 23,
+          "who": "Tom (19, Salzburg)",
+          "text": "Habt ihr schon mal die Fotos von Delfinen und Wasserschildkröten gesehen, die an Plastiktüten erstickt sind? Spätestens dann sollte jedem klar sein, dass wir uns umstellen müssen und andere Formen der Verpackung benutzen sollten. Plastiktüten tragen nicht nur dazu bei, dass wir viel mehr Müll haben, sie bringen auch den Tod!",
+          "answer": "Ja",
+          "num": 23
+        },
+        {
+          "id": 24,
+          "who": "Madsen (50, Erlangen)",
+          "text": "Früher wurden die Supermarktplastiktüten praktisch vollständig als Mülltüten weiterverwendet. Seit es sie nicht mehr kostenlos gibt, kauft man sich nun Mülltüten, weil sie einfach gebraucht werden. Im Vergleich zu dem ganzen anderen Plastikmüll sind die Tüten übrigens nur ein relativ geringer Teil. Darum sollte nicht so viel Wirbel gemacht werden. Die paar Geschäfte, die sie noch so geben, können das meiner Meinung nach weiterhin tun.",
+          "answer": "Nein",
+          "num": 24
+        },
+        {
+          "id": 25,
+          "who": "Luisa (46, Konstanz)",
+          "text": "In Deutschland wird der Verpackungsmüll mit deutscher Gründlichkeit gesammelt, weiterverarbeitet und zu Blumenkübeln, Gartenbänken oder anderen Gegenständen gepresst. Deshalb liegen Strände und Wiesen bei uns nicht voller Tüten und deshalb ist das hier kein großes Problem. Noch ein Gesetz dafür brauchen wir nicht.",
+          "answer": "Nein",
+          "num": 25
+        },
+        {
+          "id": 26,
+          "who": "Frederike (27, Gera)",
+          "text": "Vor ein paar Tagen habe ich gelesen, dass es Leute gibt, die das Plastik ganz aus ihrem Leben verbannt haben. Die haben also zu Hause keinen einzigen Gegenstand mehr aus Plastik. Ich meine, das ist unser Ziel. So können wir sowohl die Umwelt schützen, als auch die Rohstoffe der Erde sparen. Ein Verbot von Plastiktüten wäre ein erster Schritt in die richtige Richtung.",
+          "answer": "Ja",
+          "num": 26
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Teil 5",
+      "time": 10,
+      "instructions": "Lesen Sie die Aufgaben 27 bis 30 und den Text dazu. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c. Sie möchten mit Ihrem Hund an Hundesportprüfungen teilnehmen. Voraussetzung dafür ist aber das Bestehen der Begleithundprüfung und deshalb lesen Sie die Bestimmungen des VDH für diese Prüfung.",
+      "articles": [
+        {
+          "heading": "Bestimmungen für die Begleithundprüfung (VDH)",
+          "body": [
+            "Prüfungstermine: Prüfungsveranstaltungen können das ganze Jahr hindurch durchgeführt werden, wenn die Wetterverhältnisse es erlauben und die Sicherheit und Gesundheit von Mensch und Tier nicht gefährdet sind. Ansonsten muss von der Durchführung einer Prüfungsveranstaltung Abstand genommen werden. Die Entscheidung darüber trifft der verantwortliche Prüfungsleiter.",
+            "Prüfungsteilnehmer: Der Prüfungsteilnehmer muss den Meldeschluss der Prüfungsveranstaltung einhalten. Mit Abgabe der Meldung verpflichtet sich der Teilnehmer, die Startgebühr zu bezahlen. Sollte ein Teilnehmer aus irgendwelchen Gründen am Erscheinen verhindert sein, muss er dies unverzüglich dem Prüfungsleiter mitteilen. Der Teilnehmer muss die für den Veranstaltungsort geltenden Veterinär- und Tierschutzbestimmungen einhalten.",
+            "Zugelassene Hunde: Zugelassen sind Hunde aller Rassen und Größen ab dem Alter von fünfzehn Monaten. Um eine Begleithundprüfung durchführen zu können, müssen mindestens vier Hunde teilnehmen. Die zulässige Teilnehmerzahl an einem Prüfungstag für einen Prüfungsleiter beträgt 12 Starter.",
+            "Bewertung: Hunde, die im Teil A (Begleithundprüfung auf dem Übungsgelände) nicht die erforderlichen 70 % der Punkte erreichen, werden nicht zu Teil B (Prüfung im Verkehr) mitgenommen.",
+            "Am Schluss der Prüfung werden keine Ergebnisse nach Punkten, sondern nur ein Werturteil „Bestanden“ oder „Nicht bestanden“ vom Richter bekannt gegeben. Die Prüfung ist bestanden, wenn im Teil A 70 % der zu erreichenden Punkte und im Teil B die Übungen vom Prüfungsleiter als ausreichend erachtet wurden."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": 27,
+          "type": "mcq",
+          "text": "Jeder Teilnehmer muss ...",
+          "options": [
+            "Mitglied in einem Tierschutzverein sein.",
+            "Geld für die Teilnahme an der Prüfung zahlen.",
+            "vor der Prüfung den Hund von einem Tierarzt untersuchen lassen."
+          ],
+          "answer": 1,
+          "num": 27
+        },
+        {
+          "id": 28,
+          "type": "mcq",
+          "text": "Für die Teilnahme an Prüfungsteil B ...",
+          "options": [
+            "muss der Hund zuerst Prüfungsteil A bestanden haben.",
+            "kann der Hund bis zu 70 Punkten erhalten.",
+            "kann man vor der Prüfung mit dem Hund auf einem Übungsplatz trainieren."
+          ],
+          "answer": 0,
+          "num": 28
+        },
+        {
+          "id": 29,
+          "type": "mcq",
+          "text": "Prüfungsveranstaltungen finden ...",
+          "options": [
+            "bei schlechtem Wetter nicht statt.",
+            "nur zu bestimmten Terminen statt.",
+            "jederzeit mit Erlaubnis des Prüfungsleiters statt."
+          ],
+          "answer": 0,
+          "num": 29
+        },
+        {
+          "id": 30,
+          "type": "mcq",
+          "text": "Für die Begleithundprüfung gilt: ...",
+          "options": [
+            "Es dürfen nur bestimmte Hunderassen teilnehmen.",
+            "Es gibt ein Mindestalter für die Hunde.",
+            "Bei weniger als zwölf Teilnehmern findet die Prüfung nicht statt."
+          ],
+          "answer": 1,
+          "num": 30
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Teil 6",
+      "badge": "Hören",
+      "isHoren": true,
+      "time": 35,
+      "instructions": "Modul Hören: 4 Teile, 30 Aufgaben. Hören Sie die Audioaufnahmen und lösen Sie die Aufgaben dazu.",
+      "audioSrc": "audio/modellsatz-22-hoeren.mp3",
+      "audioFallbacks": [
+        "audio/modellsatz-22-hoeren.mp3"
+      ],
+      "audioChapters": [
+        {
+          "time": 0,
+          "start": 0,
+          "end": 36,
+          "label": "00:00 Teil 1 (Beispiel · 2x)",
+          "part": 1,
+          "title": "Teil 1 · Beispiel (2x hören)"
+        },
+        {
+          "time": 36,
+          "start": 36,
+          "end": 703,
+          "label": "00:36 Teil 1 (Texte 1–5 · 2x)",
+          "part": 1,
+          "title": "Teil 1 · Fünf kurze Texte (2x hören)"
+        },
+        {
+          "time": 703,
+          "start": 703,
+          "end": 974,
+          "label": "11:43 Teil 2 (Tierpark Haag · 1x)",
+          "part": 2,
+          "title": "Teil 2 · Führung im Tierpark Haag (1x hören)"
+        },
+        {
+          "time": 974,
+          "start": 974,
+          "end": 1215,
+          "label": "16:14 Teil 3 (Gespräch: Hauskauf / Restaurant · 1x)",
+          "part": 3,
+          "title": "Teil 3 · Gespräch im Restaurant über Hauskauf (1x hören)"
+        },
+        {
+          "time": 1215,
+          "start": 1215,
+          "end": 1647,
+          "label": "20:15 Teil 4 (Diskussion: Geld sparen · 1. Durchgang)",
+          "part": 4,
+          "title": "Teil 4 · Diskussion: Geld sparen (1. Durchgang)"
+        },
+        {
+          "time": 1647,
+          "start": 1647,
+          "end": 1993,
+          "label": "27:27 Teil 4 (Diskussion: Geld sparen · 2. Durchgang)",
+          "part": 4,
+          "title": "Teil 4 · Diskussion: Geld sparen (2. Durchgang)"
+        }
+      ],
+      "horenSections": [
+        {
+          "id": 1,
+          "partNumber": 1,
+          "title": "Teil 1: Fünf kurze Texte",
+          "badge": "Teil 1",
+          "intro": "Sie hören nun fünf kurze Texte. Sie hören jeden Text zweimal. Zu jedem Text lösen Sie zwei Aufgaben. Wählen Sie bei jeder Aufgabe die richtige Lösung.",
+          "example": {
+            "ex01": {
+              "num": "01",
+              "text": "Das Reisebüro ist im Moment geschlossen.",
+              "answer": "richtig",
+              "type": "tf"
+            },
+            "ex02": {
+              "num": "02",
+              "text": "Wann ist das Reisebüro geöffnet?",
+              "options": [
+                "Von 9.00 Uhr bis 21.00 Uhr.",
+                "Von 9.00 Uhr bis 18.00 Uhr.",
+                "Von 10.00 Uhr bis 19.30 Uhr."
+              ],
+              "answer": 2,
+              "type": "mcq"
+            }
+          },
+          "questions": [
+            {
+              "id": "h1",
+              "type": "tf",
+              "num": 1,
+              "text": "Es gibt einen Wettbewerb für Schüler.",
+              "answer": "richtig",
+              "audioStart": 36,
+              "teilPart": 1,
+              "textNum": 1
+            },
+            {
+              "id": "h2",
+              "type": "mcq",
+              "num": 2,
+              "text": "Wer kann teilnehmen?",
+              "options": [
+                "Kinder im Alter von 8 bis 10 Jahren.",
+                "Die Eltern bayerischer Schüler.",
+                "Realschüler aus den Klassen 8, 9 und 10."
+              ],
+              "answer": 2,
+              "audioStart": 36,
+              "teilPart": 1,
+              "textNum": 1
+            },
+            {
+              "id": "h3",
+              "type": "tf",
+              "num": 3,
+              "text": "Sie hören das Konzertprogramm der Philharmonie.",
+              "answer": "falsch",
+              "audioStart": 144,
+              "teilPart": 1,
+              "textNum": 2
+            },
+            {
+              "id": "h4",
+              "type": "mcq",
+              "num": 4,
+              "text": "Wie kann man sich über Abonnements informieren?",
+              "options": [
+                "Telefonisch.",
+                "Über Internet.",
+                "Per E-Mail."
+              ],
+              "answer": 0,
+              "audioStart": 144,
+              "teilPart": 1,
+              "textNum": 2
+            },
+            {
+              "id": "h5",
+              "type": "tf",
+              "num": 5,
+              "text": "In Zürich wird ein Bahnhof gebaut.",
+              "answer": "falsch",
+              "audioStart": 265,
+              "teilPart": 1,
+              "textNum": 3
+            },
+            {
+              "id": "h6",
+              "type": "mcq",
+              "num": 6,
+              "text": "Die Bauarbeiten dauern ...",
+              "options": [
+                "weniger als ein Jahr.",
+                "länger als ein Jahr.",
+                "vier Jahre."
+              ],
+              "answer": 1,
+              "audioStart": 265,
+              "teilPart": 1,
+              "textNum": 3
+            },
+            {
+              "id": "h7",
+              "type": "tf",
+              "num": 7,
+              "text": "Sie hören eine Reisewerbung.",
+              "answer": "richtig",
+              "audioStart": 380,
+              "teilPart": 1,
+              "textNum": 4
+            },
+            {
+              "id": "h8",
+              "type": "mcq",
+              "num": 8,
+              "text": "Wo verbringt man den Urlaub?",
+              "options": [
+                "In Kolberg.",
+                "An der Ostsee.",
+                "An der Nordsee."
+              ],
+              "answer": 1,
+              "audioStart": 380,
+              "teilPart": 1,
+              "textNum": 4
+            },
+            {
+              "id": "h9",
+              "type": "tf",
+              "num": 9,
+              "text": "Sie hören Nachrichten über Deutschland.",
+              "answer": "falsch",
+              "audioStart": 466,
+              "teilPart": 1,
+              "textNum": 5
+            },
+            {
+              "id": "h10",
+              "type": "mcq",
+              "num": 10,
+              "text": "Wer hat das Nummernschild gefunden?",
+              "options": [
+                "Ein Mann aus München.",
+                "Ein Motorradfahrer.",
+                "Die Polizei."
+              ],
+              "answer": 1,
+              "audioStart": 466,
+              "teilPart": 1,
+              "textNum": 5
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "partNumber": 2,
+          "title": "Teil 2: Führung im Tierpark Haag",
+          "badge": "Teil 2",
+          "intro": "Sie hören nun einen Text. Sie hören den Text einmal. Dazu lösen Sie fünf Aufgaben. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+          "context": "Sie sind zu Besuch im Tierpark Haag.",
+          "questions": [
+            {
+              "id": "h11",
+              "type": "mcq",
+              "num": 11,
+              "text": "Den Tierpark gibt es seit ...",
+              "options": [
+                "1900.",
+                "1970.",
+                "1973."
+              ],
+              "answer": 2,
+              "audioStart": 703,
+              "teilPart": 2
+            },
+            {
+              "id": "h12",
+              "type": "mcq",
+              "num": 12,
+              "text": "Welche Tiere sehen Kinder am liebsten im Tierpark?",
+              "options": [
+                "Tiger.",
+                "Affen.",
+                "Vögel."
+              ],
+              "answer": 1,
+              "audioStart": 703,
+              "teilPart": 2
+            },
+            {
+              "id": "h13",
+              "type": "mcq",
+              "num": 13,
+              "text": "Der Sprecher verteilt ...",
+              "options": [
+                "Zeichenblöcke.",
+                "Malstifte.",
+                "Arbeitsblätter."
+              ],
+              "answer": 2,
+              "audioStart": 703,
+              "teilPart": 2
+            },
+            {
+              "id": "h14",
+              "type": "mcq",
+              "num": 14,
+              "text": "Etwas bezahlen muss man für ...",
+              "options": [
+                "das Klettern.",
+                "den Kinderspielplatz.",
+                "das Reiten."
+              ],
+              "answer": 2,
+              "audioStart": 703,
+              "teilPart": 2
+            },
+            {
+              "id": "h15",
+              "type": "mcq",
+              "num": 15,
+              "text": "Was sollte man im Tierpark machen?",
+              "options": [
+                "Musik spielen.",
+                "Die Schilder lesen.",
+                "Skateboard fahren."
+              ],
+              "answer": 1,
+              "audioStart": 703,
+              "teilPart": 2
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "partNumber": 3,
+          "title": "Teil 3: Gespräch im Restaurant",
+          "badge": "Teil 3",
+          "intro": "Sie hören nun ein Gespräch. Sie hören das Gespräch einmal. Dazu lösen Sie sieben Aufgaben. Wählen Sie: Sind die Aussagen richtig oder falsch?",
+          "context": "Sie sitzen in einem Restaurant und hören, wie sich zwei Eltern und ihr Sohn über den Kauf eines Hauses oder einer Wohnung unterhalten.",
+          "questions": [
+            {
+              "id": "h16",
+              "type": "tf",
+              "num": 16,
+              "text": "Das Haus ist viel teurer als die Wohnung.",
+              "answer": "falsch",
+              "audioStart": 974,
+              "teilPart": 3
+            },
+            {
+              "id": "h17",
+              "type": "tf",
+              "num": 17,
+              "text": "Die Wohnung ist neuer als das Haus.",
+              "answer": "richtig",
+              "audioStart": 974,
+              "teilPart": 3
+            },
+            {
+              "id": "h18",
+              "type": "tf",
+              "num": 18,
+              "text": "Die Familie hat einen Hund.",
+              "answer": "falsch",
+              "audioStart": 974,
+              "teilPart": 3
+            },
+            {
+              "id": "h19",
+              "type": "tf",
+              "num": 19,
+              "text": "Die Mutter findet Nachbarn im selben Haus positiv.",
+              "answer": "falsch",
+              "audioStart": 974,
+              "teilPart": 3
+            },
+            {
+              "id": "h20",
+              "type": "tf",
+              "num": 20,
+              "text": "Lennard verspricht, bei der Gartenarbeit zu helfen.",
+              "answer": "richtig",
+              "audioStart": 974,
+              "teilPart": 3
+            },
+            {
+              "id": "h21",
+              "type": "tf",
+              "num": 21,
+              "text": "Das Haus hat mehr Zimmer als die Wohnung.",
+              "answer": "richtig",
+              "audioStart": 974,
+              "teilPart": 3
+            },
+            {
+              "id": "h22",
+              "type": "tf",
+              "num": 22,
+              "text": "Der Vater von Lennard ist Architekt.",
+              "answer": "falsch",
+              "audioStart": 974,
+              "teilPart": 3
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "partNumber": 4,
+          "title": "Teil 4: Radiodiskussion",
+          "badge": "Teil 4",
+          "intro": "Sie hören nun eine Diskussion. Sie hören die Diskussion zweimal. Dazu lösen Sie acht Aufgaben. Ordnen Sie die Aussagen zu: Wer sagt was?",
+          "context": "Eine Journalistin diskutiert mit Alexander Klein, Finanzexperte bei einer Bank, und der 13-jährigen Katja Grewe über das Thema „Geld sparen“.",
+          "example": {
+            "text": "Den Weltspartag gibt es seit 1925.",
+            "answer": 1
+          },
+          "speakers": [
+            "Journalistin",
+            "Alexander Klein",
+            "Katja Grewe"
+          ],
+          "questions": [
+            {
+              "id": "h23",
+              "type": "speaker",
+              "num": 23,
+              "text": "Wer am Weltspartag sein Geld auf ein Konto einzahlt, bekommt ein kleines Geschenk.",
+              "options": [
+                "Journalistin",
+                "Alexander Klein",
+                "Katja Grewe"
+              ],
+              "answer": 1,
+              "audioStart": 1215,
+              "teilPart": 4
+            },
+            {
+              "id": "h24",
+              "type": "speaker",
+              "num": 24,
+              "text": "Die erste Erfahrung auf der Sparkasse war nicht angenehm.",
+              "options": [
+                "Journalistin",
+                "Alexander Klein",
+                "Katja Grewe"
+              ],
+              "answer": 2,
+              "audioStart": 1215,
+              "teilPart": 4
+            },
+            {
+              "id": "h25",
+              "type": "speaker",
+              "num": 25,
+              "text": "Kinder haben viele Fragen.",
+              "options": [
+                "Journalistin",
+                "Alexander Klein",
+                "Katja Grewe"
+              ],
+              "answer": 1,
+              "audioStart": 1215,
+              "teilPart": 4
+            },
+            {
+              "id": "h26",
+              "type": "speaker",
+              "num": 26,
+              "text": "Das Sparbuch war ein Geschenk vom Großvater.",
+              "options": [
+                "Journalistin",
+                "Alexander Klein",
+                "Katja Grewe"
+              ],
+              "answer": 1,
+              "audioStart": 1215,
+              "teilPart": 4
+            },
+            {
+              "id": "h27",
+              "type": "speaker",
+              "num": 27,
+              "text": "Viele Erwachsene kaufen auf Kredit ein.",
+              "options": [
+                "Journalistin",
+                "Alexander Klein",
+                "Katja Grewe"
+              ],
+              "answer": 0,
+              "audioStart": 1215,
+              "teilPart": 4
+            },
+            {
+              "id": "h28",
+              "type": "speaker",
+              "num": 28,
+              "text": "Man braucht sich keine Sorgen um das Geld auf der Bank zu machen.",
+              "options": [
+                "Journalistin",
+                "Alexander Klein",
+                "Katja Grewe"
+              ],
+              "answer": 1,
+              "audioStart": 1215,
+              "teilPart": 4
+            },
+            {
+              "id": "h29",
+              "type": "speaker",
+              "num": 29,
+              "text": "Euskirchen liegt in der Nähe von Bonn.",
+              "options": [
+                "Journalistin",
+                "Alexander Klein",
+                "Katja Grewe"
+              ],
+              "answer": 0,
+              "audioStart": 1215,
+              "teilPart": 4
+            },
+            {
+              "id": "h30",
+              "type": "speaker",
+              "num": 30,
+              "text": "Man bekommt mehr Geld von der Bank, wenn man viel spart.",
+              "options": [
+                "Journalistin",
+                "Alexander Klein",
+                "Katja Grewe"
+              ],
+              "answer": 1,
+              "audioStart": 1215,
+              "teilPart": 4
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "h1",
+          "type": "tf",
+          "num": 1,
+          "text": "Es gibt einen Wettbewerb für Schüler.",
+          "answer": "richtig",
+          "audioStart": 36,
+          "teilPart": 1,
+          "textNum": 1
+        },
+        {
+          "id": "h2",
+          "type": "mcq",
+          "num": 2,
+          "text": "Wer kann teilnehmen?",
+          "options": [
+            "Kinder im Alter von 8 bis 10 Jahren.",
+            "Die Eltern bayerischer Schüler.",
+            "Realschüler aus den Klassen 8, 9 und 10."
+          ],
+          "answer": 2,
+          "audioStart": 36,
+          "teilPart": 1,
+          "textNum": 1
+        },
+        {
+          "id": "h3",
+          "type": "tf",
+          "num": 3,
+          "text": "Sie hören das Konzertprogramm der Philharmonie.",
+          "answer": "falsch",
+          "audioStart": 144,
+          "teilPart": 1,
+          "textNum": 2
+        },
+        {
+          "id": "h4",
+          "type": "mcq",
+          "num": 4,
+          "text": "Wie kann man sich über Abonnements informieren?",
+          "options": [
+            "Telefonisch.",
+            "Über Internet.",
+            "Per E-Mail."
+          ],
+          "answer": 0,
+          "audioStart": 144,
+          "teilPart": 1,
+          "textNum": 2
+        },
+        {
+          "id": "h5",
+          "type": "tf",
+          "num": 5,
+          "text": "In Zürich wird ein Bahnhof gebaut.",
+          "answer": "falsch",
+          "audioStart": 265,
+          "teilPart": 1,
+          "textNum": 3
+        },
+        {
+          "id": "h6",
+          "type": "mcq",
+          "num": 6,
+          "text": "Die Bauarbeiten dauern ...",
+          "options": [
+            "weniger als ein Jahr.",
+            "länger als ein Jahr.",
+            "vier Jahre."
+          ],
+          "answer": 1,
+          "audioStart": 265,
+          "teilPart": 1,
+          "textNum": 3
+        },
+        {
+          "id": "h7",
+          "type": "tf",
+          "num": 7,
+          "text": "Sie hören eine Reisewerbung.",
+          "answer": "richtig",
+          "audioStart": 380,
+          "teilPart": 1,
+          "textNum": 4
+        },
+        {
+          "id": "h8",
+          "type": "mcq",
+          "num": 8,
+          "text": "Wo verbringt man den Urlaub?",
+          "options": [
+            "In Kolberg.",
+            "An der Ostsee.",
+            "An der Nordsee."
+          ],
+          "answer": 1,
+          "audioStart": 380,
+          "teilPart": 1,
+          "textNum": 4
+        },
+        {
+          "id": "h9",
+          "type": "tf",
+          "num": 9,
+          "text": "Sie hören Nachrichten über Deutschland.",
+          "answer": "falsch",
+          "audioStart": 466,
+          "teilPart": 1,
+          "textNum": 5
+        },
+        {
+          "id": "h10",
+          "type": "mcq",
+          "num": 10,
+          "text": "Wer hat das Nummernschild gefunden?",
+          "options": [
+            "Ein Mann aus München.",
+            "Ein Motorradfahrer.",
+            "Die Polizei."
+          ],
+          "answer": 1,
+          "audioStart": 466,
+          "teilPart": 1,
+          "textNum": 5
+        },
+        {
+          "id": "h11",
+          "type": "mcq",
+          "num": 11,
+          "text": "Den Tierpark gibt es seit ...",
+          "options": [
+            "1900.",
+            "1970.",
+            "1973."
+          ],
+          "answer": 2,
+          "audioStart": 703,
+          "teilPart": 2
+        },
+        {
+          "id": "h12",
+          "type": "mcq",
+          "num": 12,
+          "text": "Welche Tiere sehen Kinder am liebsten im Tierpark?",
+          "options": [
+            "Tiger.",
+            "Affen.",
+            "Vögel."
+          ],
+          "answer": 1,
+          "audioStart": 703,
+          "teilPart": 2
+        },
+        {
+          "id": "h13",
+          "type": "mcq",
+          "num": 13,
+          "text": "Der Sprecher verteilt ...",
+          "options": [
+            "Zeichenblöcke.",
+            "Malstifte.",
+            "Arbeitsblätter."
+          ],
+          "answer": 2,
+          "audioStart": 703,
+          "teilPart": 2
+        },
+        {
+          "id": "h14",
+          "type": "mcq",
+          "num": 14,
+          "text": "Etwas bezahlen muss man für ...",
+          "options": [
+            "das Klettern.",
+            "den Kinderspielplatz.",
+            "das Reiten."
+          ],
+          "answer": 2,
+          "audioStart": 703,
+          "teilPart": 2
+        },
+        {
+          "id": "h15",
+          "type": "mcq",
+          "num": 15,
+          "text": "Was sollte man im Tierpark machen?",
+          "options": [
+            "Musik spielen.",
+            "Die Schilder lesen.",
+            "Skateboard fahren."
+          ],
+          "answer": 1,
+          "audioStart": 703,
+          "teilPart": 2
+        },
+        {
+          "id": "h16",
+          "type": "tf",
+          "num": 16,
+          "text": "Das Haus ist viel teurer als die Wohnung.",
+          "answer": "falsch",
+          "audioStart": 974,
+          "teilPart": 3
+        },
+        {
+          "id": "h17",
+          "type": "tf",
+          "num": 17,
+          "text": "Die Wohnung ist neuer als das Haus.",
+          "answer": "richtig",
+          "audioStart": 974,
+          "teilPart": 3
+        },
+        {
+          "id": "h18",
+          "type": "tf",
+          "num": 18,
+          "text": "Die Familie hat einen Hund.",
+          "answer": "falsch",
+          "audioStart": 974,
+          "teilPart": 3
+        },
+        {
+          "id": "h19",
+          "type": "tf",
+          "num": 19,
+          "text": "Die Mutter findet Nachbarn im selben Haus positiv.",
+          "answer": "falsch",
+          "audioStart": 974,
+          "teilPart": 3
+        },
+        {
+          "id": "h20",
+          "type": "tf",
+          "num": 20,
+          "text": "Lennard verspricht, bei der Gartenarbeit zu helfen.",
+          "answer": "richtig",
+          "audioStart": 974,
+          "teilPart": 3
+        },
+        {
+          "id": "h21",
+          "type": "tf",
+          "num": 21,
+          "text": "Das Haus hat mehr Zimmer als die Wohnung.",
+          "answer": "richtig",
+          "audioStart": 974,
+          "teilPart": 3
+        },
+        {
+          "id": "h22",
+          "type": "tf",
+          "num": 22,
+          "text": "Der Vater von Lennard ist Architekt.",
+          "answer": "falsch",
+          "audioStart": 974,
+          "teilPart": 3
+        },
+        {
+          "id": "h23",
+          "type": "speaker",
+          "num": 23,
+          "text": "Wer am Weltspartag sein Geld auf ein Konto einzahlt, bekommt ein kleines Geschenk.",
+          "options": [
+            "Journalistin",
+            "Alexander Klein",
+            "Katja Grewe"
+          ],
+          "answer": 1,
+          "audioStart": 1215,
+          "teilPart": 4
+        },
+        {
+          "id": "h24",
+          "type": "speaker",
+          "num": 24,
+          "text": "Die erste Erfahrung auf der Sparkasse war nicht angenehm.",
+          "options": [
+            "Journalistin",
+            "Alexander Klein",
+            "Katja Grewe"
+          ],
+          "answer": 2,
+          "audioStart": 1215,
+          "teilPart": 4
+        },
+        {
+          "id": "h25",
+          "type": "speaker",
+          "num": 25,
+          "text": "Kinder haben viele Fragen.",
+          "options": [
+            "Journalistin",
+            "Alexander Klein",
+            "Katja Grewe"
+          ],
+          "answer": 1,
+          "audioStart": 1215,
+          "teilPart": 4
+        },
+        {
+          "id": "h26",
+          "type": "speaker",
+          "num": 26,
+          "text": "Das Sparbuch war ein Geschenk vom Großvater.",
+          "options": [
+            "Journalistin",
+            "Alexander Klein",
+            "Katja Grewe"
+          ],
+          "answer": 1,
+          "audioStart": 1215,
+          "teilPart": 4
+        },
+        {
+          "id": "h27",
+          "type": "speaker",
+          "num": 27,
+          "text": "Viele Erwachsene kaufen auf Kredit ein.",
+          "options": [
+            "Journalistin",
+            "Alexander Klein",
+            "Katja Grewe"
+          ],
+          "answer": 0,
+          "audioStart": 1215,
+          "teilPart": 4
+        },
+        {
+          "id": "h28",
+          "type": "speaker",
+          "num": 28,
+          "text": "Man braucht sich keine Sorgen um das Geld auf der Bank zu machen.",
+          "options": [
+            "Journalistin",
+            "Alexander Klein",
+            "Katja Grewe"
+          ],
+          "answer": 1,
+          "audioStart": 1215,
+          "teilPart": 4
+        },
+        {
+          "id": "h29",
+          "type": "speaker",
+          "num": 29,
+          "text": "Euskirchen liegt in der Nähe von Bonn.",
+          "options": [
+            "Journalistin",
+            "Alexander Klein",
+            "Katja Grewe"
+          ],
+          "answer": 0,
+          "audioStart": 1215,
+          "teilPart": 4
+        },
+        {
+          "id": "h30",
+          "type": "speaker",
+          "num": 30,
+          "text": "Man bekommt mehr Geld von der Bank, wenn man viel spart.",
+          "options": [
+            "Journalistin",
+            "Alexander Klein",
+            "Katja Grewe"
+          ],
+          "answer": 1,
+          "audioStart": 1215,
+          "teilPart": 4
+        }
+      ]
+    }
+  ],
+  "explanations": {
+    "1": {
+      "text": "💡 Lösung: Richtig.\nIm Text steht: „Als ich das hörte, war ich ehrlich gesagt etwas skeptisch. Freizeitpark? Das ist doch nichts für Erwachsene!!“ Urs fand das Ziel zunächst also nicht besonders gut.",
+      "fr": "💡 Solution : Vrai (Richtig).\nLe texte indique qu'Urs était sceptique au départ : « À vrai dire, j'étais un peu sceptique. Un parc d'attractions ? Ce n'est pas pour les adultes !! » Il n'appréciait donc pas particulièrement cette destination au début.",
+      "ar": "💡 الحل: صحيح (Richtig).\nورد في النص: «عندما سمعت ذلك، كنت بصراحة متشككاً بعض الشيء. مدينة ملاهٍ؟ هذا ليس للكبار إطلاقاً!!»، أي أن أورس لم يكن متحمساً أو راضياً عن الوجهة في البداية."
+    },
+    "2": {
+      "text": "💡 Lösung: Richtig.\nDer Park liegt ganz in der Nähe der Großstadt Zürich: „Von Zürich aus erreichten wir den Vergnügungspark in nur 45 Minuten.“",
+      "fr": "💡 Solution : Vrai (Richtig).\nLe parc d'attractions est situé non loin de la grande ville de Zurich : « Depuis Zurich, nous avons atteint le parc en seulement 45 minutes. »",
+      "ar": "💡 الحل: صحيح (Richtig).\nتبعد مدينة الملاهي مسافة قصيرة عن مدينة زيورخ الكبرى: «انطلاقاً من زيورخ، وصلنا إلى مدينة الملاهي في غضون 45 دقيقة فقط»."
+    },
+    "3": {
+      "text": "💡 Lösung: Falsch.\nSie fuhren mit der Seilbahn nach oben: „Eine Seilbahn beförderte uns in die Höhe.“ Die Wanderung ging nicht den Berg hoch, sondern eventuell „ins Tal“ bergab.",
+      "fr": "💡 Solution : Faux (Falsch).\nIls sont montés en téléphérique (« Eine Seilbahn beförderte uns in die Höhe »). La randonnée de trois heures descendait vers la vallée et ne montait pas la montagne.",
+      "ar": "💡 الحل: خطأ (Falsch).\nصعدوا الجبل بواسطة التلفريك (Seilbahn)؛ وكانت خيارات المشي نزولاً إلى الوادي (ins Tal) وليست صعوداً على الأقدام."
+    },
+    "4": {
+      "text": "💡 Lösung: Falsch.\nUrs hatte noch nie zuvor einen solchen Parcours gemacht: „...da alle (ausser mir) schon etwas Erfahrung damit hatten. Dass es für mich das erste Mal war, sagte ich nicht.“",
+      "fr": "💡 Solution : Faux (Falsch).\nUrs n'avait jamais fait de parcours d'accrobranche auparavant : « ...tous avaient déjà de l'expérience sauf moi. Je n'ai pas dit que c'était ma première fois. »",
+      "ar": "💡 الحل: خطأ (Falsch).\nلم يسبق لأورس ممارسة هذا المسار من قبل: «كان لدى الجميع (باستثنائي) خبرة سابقة... ولم أخبرهم أنها كانت المرة الأولى بالنسبة لي»."
+    },
+    "5": {
+      "text": "💡 Lösung: Falsch.\nUrs ist gar nicht gefallen: „...und wäre fast gefallen, wenn ein Kollege mich nicht gehalten hätte.“ Er stürzte also nicht zu Boden.",
+      "fr": "💡 Solution : Faux (Falsch).\nUrs n'est pas tombé : un collègue l'a retenu à temps (« j'ai failli tomber si un collègue ne m'avait pas retenu »). Il n'a donc pas eu besoin d'aide pour se relever.",
+      "ar": "💡 الحل: خطأ (Falsch).\nأورس لم يسقط على الأرض، بل كاد يسقط لولا أن زميله أمسك به ومنعه من السقوط («وكدت أسقط لولا أن زميلاً أمسك بي»)."
+    },
+    "6": {
+      "text": "💡 Lösung: Richtig.\nAm Ende kündigt Urs an: „Kommenden Samstag bin ich mit drei Kollegen wieder dort verabredet.“ Er besucht den Park also schon bald wieder.",
+      "fr": "💡 Solution : Vrai (Richtig).\nÀ la fin de son message, Urs écrit : « Samedi prochain, j'ai de nouveau rendez-vous là-bas avec trois collègues. » Il va donc y retourner très prochainement.",
+      "ar": "💡 الحل: صحيح (Richtig).\nيختم أورس منشوره بالقول: «السبت القادم لدي موعد هناك مجدداً مع ثلاثة زملاء»، مما يعني أنه سيزور الحديقة قريباً جداً."
+    },
+    "7": {
+      "text": "💡 Lösung: a (Unterricht für Kinder in Slums).\nDer Text schildert, wie die Organisation Boscome in einfachen Hüttenschulen Kindern in indischen Slums Grundbildung vermittelt.",
+      "fr": "💡 Solution : a (l'enseignement pour les enfants des bidonvilles).\nL'article relate les initiatives de l'organisation Boscome pour scolariser et instruire les enfants défavorisés des bidonvilles en Inde.",
+      "ar": "💡 الحل: a (تعليم الأطفال في الأحياء الفقيرة / العشوائيات).\nيتناول المقال جهود منظمة بوسكوم الإغاثية لتقديم التعليم الأساسي للأطفال في العشوائيات الهندية من خلال مدارس بسيطة."
+    },
+    "8": {
+      "text": "💡 Lösung: c (basteln die Kinder auch).\nIm Text steht wörtlich: „...und haben auch in den Bastelstunden Gelegenheit, mal wirklich Kinder zu sein.“",
+      "fr": "💡 Solution : c (les enfants font aussi du bricolage).\nLe texte mentionne expressément que les élèves ont des séances de travaux manuels/bricolage (Bastelstunden) pour s'épanouir comme de vrais enfants.",
+      "ar": "💡 الحل: c (يقوم الأطفال أيضاً بأعمال يدوية وأشغال فنية).\nيذكر النص بوضوح أن الأطفال يتعلمون القراءة والحساب ولديهم أيضاً حصص أشغال يدوية (Bastelstunden) ليعيشوا طفولتهم."
+    },
+    "9": {
+      "text": "💡 Lösung: b (hat zum Ziel, Slumkinder für die staatliche Schule vorzubereiten).\nIm Artikel heißt es: „Boscome möchte die Kinder fit für eine staatliche Schule machen. Und der Erfolg zeigt sich: Viele Kinder besuchen inzwischen eine höhere Schule...“",
+      "fr": "💡 Solution : b (a pour objectif de préparer les enfants des bidonvilles à intégrer l'école publique).\nLe texte précise que Boscome prépare les élèves pour qu'ils puissent poursuivre leur scolarité dans les écoles publiques de l'État.",
+      "ar": "💡 الحل: b (تهدف إلى تأهيل أطفال العشوائيات للالتحاق بالمدارس الحكومية).\nينص المقال على أن هدف المنظمة هو إعداد الأطفال وتأهيلهم للالتحاق بالمدارس الحكومية الرسمية (fit für eine staatliche Schule machen)."
+    },
+    "10": {
+      "text": "💡 Lösung: b (warum das Solarium für Jugendliche schädlich ist).\nDer Artikel erläutert das gesetzliche Verbot in Österreich und zitiert Dermatologen zu den schweren Hautschäden und dem Krebsrisiko durch Solarienbesuche im Jugendalter.",
+      "fr": "💡 Solution : b (pourquoi les cabines de bronzage sont nocives pour les adolescents).\nLe texte traite de la loi autrichienne interdisant les solariums aux mineurs et explique les dangers des rayons UV sur la peau des jeunes.",
+      "ar": "💡 الحل: b (لماذا يعتبر جهاز التسمير الاصطناعي ضاراً باليافعين).\nيشرح النص قانون الحظر في النمسا ويوضح تحذيرات أطباء الجلد من المخاطر الجسيمة للأشعة فوق البنفسجية وسرطان الجلد لدى المراهقين."
+    },
+    "11": {
+      "text": "💡 Lösung: c (meinen, dass Jugendliche nicht daran denken, was später passieren könnte).\nIm Text steht: „Denn Jugendliche denken selten an die Folgen ihres Verhaltens und rechnen nicht damit, dass sie später krank werden und Hautkrebs bekommen könnten.“",
+      "fr": "💡 Solution : c (estiment que les adolescents ne pensent pas aux conséquences futures possibles).\nLes spécialistes soulignent que les adolescents ont rarement conscience des répercussions à long terme et n'imaginent pas pouvoir développer un cancer de la peau plus tard.",
+      "ar": "💡 الحل: c (يرون أن اليافعين لا يفكرون في العواقب المستقبلية المحتملة).\nيوضح الأطباء أن المراهقين نادراً ما يفكرون في تبعات تصرفاتهم ولا يتوقعون إصابتهم بأمراض وسرطان الجلد لاحقاً."
+    },
+    "12": {
+      "text": "💡 Lösung: a (kann der Haut genauso schaden wie das Solarium).\nLaut Dermatologen „spielt keine Rolle, ob die Strahlen von der Sonne oder vom Solarium gekommen sind. Wenn die Sonne in Kindheit und Jugend die Haut verbrannt hat, sei das der wichtigste Risikofaktor...“",
+      "fr": "💡 Solution : a (peut endommager la peau tout autant que le solarium).\nLes dermatologues affirment qu'il importe peu que les rayons proviennent du soleil ou d'un solarium : les brûlures causées par le soleil dans l'enfance présentent le même risque majeur.",
+      "ar": "💡 الحل: a (يمكن أن تضر بالجلد تماماً مثل جهاز التسمير الاصطناعي).\nيؤكد الأطباء أنه لا فرق بين أشعة الشمس وأشعة السولاريوم، فكلاهما يسبب حروقاً وأضراراً تزيد خطر الإصابة بالأورام الجلدية."
+    },
+    "13": {
+      "text": "💡 Lösung: c (Alles aus einer Hand · Fa. MAW).\nHerr Rathenau benötigt Hilfe bei einer defekten Lampe. Anzeige c bietet Handwerkerarbeiten auch für kleinere Probleme im Haushalt an: „...z.B. tropfende Wasserhähne, Lampenwechsel usw.“",
+      "fr": "💡 Solution : c (Tout sous la même main · Entreprise MAW).\nM. Rathenau a besoin d'aide pour réparer son luminaire. L'annonce c propose des artisans qualifiés pour tous travaux et petits dépannages (changement de lampes, robinets, etc.).",
+      "ar": "💡 الحل: c (كل الخدمات من مصدر واحد – شركة MAW).\nيحتاج السيد راتيناو لمساعدة في إصلاح مصباح غرفته. يقدم الإعلان c خدمات حرفية منزلية للأعمال الكبيرة والصغيرة مثل تغيير المصابيح والصيانة الكهربائية."
+    },
+    "14": {
+      "text": "💡 Lösung: d (Pensionierte Pädagogen bzw. Studenten gesucht).\nFrau Eggers war Mathelehrerin und möchte wieder unterrichten. Anzeige d sucht pensionierte Pädagogen für Mathematik-Nachhilfe bei freier Zeiteinteilung.",
+      "fr": "💡 Solution : d (Enseignants retraités recherchés).\nMme Eggers, ancienne professeure de mathématiques à la retraite, souhaite redonner des cours. L'annonce d recherche des enseignants retraités pour du soutien scolaire en maths.",
+      "ar": "💡 الحل: d (مطلوب معلمون متقاعدون لدروس التقوية).\nالسيدة إيغرز معلمة رياضيات متقاعدة وترغب في التدريس أحياناً. يبحث الإعلان d عن تربويين متقاعدين لتقديم دروس خصوصية في الرياضيات مع حرية تنظيم الوقت."
+    },
+    "15": {
+      "text": "💡 Lösung: j (Suche Job in Privathaushalt).\nFrau Bäuerle braucht jemanden, der ihre Einkäufe erledigt. Anzeige j sucht eine Anstellung für „Betreuung ält. Menschen, Einkaufen, Spazieren, leichte Pflege“.",
+      "fr": "💡 Solution : j (Recherche emploi chez des particuliers).\nMme Bäuerle a mal au dos et cherche quelqu'un pour faire ses courses lourdes. L'annonce j émane d'une personne proposant ses services pour faire les courses et aider les personnes âgées.",
+      "ar": "💡 الحل: j (طلب عمل لدى أسرة خاصة).\nتعاني السيدة بويرله من آلام الظهر وتحتاج لمساعد في قضاء المشتريات الثقيلة. يعلن صاحب الإعلان j عن استعداده لرعاية المسنين وقضاء مشترياتهم والتنزه معهم."
+    },
+    "16": {
+      "text": "💡 Lösung: f (Gärtner übernimmt sämtliche anfallenden Arbeiten).\nEhepaar Schütte sucht jemanden, der ihren Garten pflegt. Anzeige f bietet professionelle Gartenpflege an: „Gärtner übernimmt sämtliche anfallenden Arbeiten. Tel. 0176-78152396.“",
+      "fr": "💡 Solution : f (Jardinier prend en charge tous travaux).\nLe couple Schütte ne peut plus entretenir seul son jardin. L'annonce f est celle d'un jardinier professionnel proposant d'effectuer tous les travaux d'entretien nécessaires.",
+      "ar": "💡 الحل: f (بستاني يتكفل بجميع أعمال الحديقة).\nيعشق الزوجان شوتيه حديقتهما ولا يستطيعان العناية بها بمفردهما. يعرض الإعلان f خدمات بستاني متمرس يتولى كافة أعمال الحديقة."
+    },
+    "17": {
+      "text": "💡 Lösung: 0 (Keine passende Anzeige).\nHerr Reuter sucht eine Haushaltshilfe. Anzeige g sucht selbst eine Haushaltshilfe für ein Ehepaar, bietet aber keine an. Daher gibt es kein passendes Angebot (0).",
+      "fr": "💡 Solution : 0 (Aucune annonce correspondante).\nM. Reuter cherche une aide ménagère. L'annonce g est une demande émanant d'un couple qui recrute une aide, et non une offre de service. Aucune annonce ne convient donc (0).",
+      "ar": "💡 الحل: 0 (لا يوجد إعلان مناسب).\nيبحث السيد رويتر عن مدبرة منزل. والإعلان g يبحث بدوره عن مدبرة منزل لزوجين ولا يقدم خدمة تدبير منزلي، لذا لا يوجد إعلان مطابق (0)."
+    },
+    "18": {
+      "text": "💡 Lösung: a (Wir suchen Zusteller · Stockmann Vertrieb).\nHerr Mayer, ehemaliger Briefträger und Rentner, sucht einen Teilzeitjob. Anzeige a sucht Zusteller für Zeitungen/Prospekte ausdrücklich für Rentner mit flexiblen 2–4 Wochenstunden.",
+      "fr": "💡 Solution : a (Recherche distributeurs de journaux).\nM. Mayer, ancien facteur désormais retraité, cherche un travail à temps partiel. L'annonce a recrute des distributeurs spécifiquement parmi les retraités pour quelques heures par semaine.",
+      "ar": "💡 الحل: a (مطلوب موزعو صحف ومنشورات).\nالسيد ماير ساعي بريد متقاعد ويبحث عن وظيفة بدوام جزئي. يطلب الإعلان a موزعين مخصصين للمتقاعدين والطلاب لمدة 2-4 ساعات أسبوعياً لتوزيع الصحف."
+    },
+    "19": {
+      "text": "💡 Lösung: h (Welt der Handarbeit).\nFrau Hetzel benötigt Mohair-Wolle zum Stricken. Anzeige h ist ein Fachgeschäft für Handarbeit mit einer großen Auswahl an Wolle, Stickgarnen und Stoffen in Freiburg.",
+      "fr": "💡 Solution : h (Le monde des travaux manuels).\nMme Hetzel cherche de la laine mohair pour tricoter des pulls. L'annonce h présente une boutique spécialisée offrant un large assortiment de laines et de fils.",
+      "ar": "💡 الحل: h (عالم الأشغال اليدوية والخياطة).\nتبحث السيدة هيتزل عن صوف الموهير لحياكة كنزات لأحفادها. يقدم الإعلان h متجراً متخصصاً يحتوي على تشكيلة واسعة من خيوط الصوف وأقمشة الحياكة."
+    },
+    "20": {
+      "text": "💡 Lösung: Nein.\nAxel hält Verbote nicht für den besten Weg: „Verbieten der Tüten ist nicht die beste Lösung.“ Er schlägt stattdessen Kostenpflicht vor.",
+      "fr": "💡 Solution : Non (Nein).\nAxel estime que l'interdiction pure et simple n'est pas la bonne solution (« Verbieten der Tüten ist nicht die beste Lösung ») et préconise de les rendre payantes.",
+      "ar": "💡 الحل: لا (Nein).\nيرى أكسل أن الحظر ليس الحل الأمثل («حظر الأكياس ليس الحل الأفضل»)، بل يقترح إلزام المتاجر بجعلها بمقابل مالي للحد منها."
+    },
+    "21": {
+      "text": "💡 Lösung: Ja.\nMiriam plädiert für wiederverwendbare Taschen und verurteilt Plastiktüten: „Diese Tüten sind nicht nur unnötig, sondern auch umweltschädlich.“ Sie befürwortet ein Verbot.",
+      "fr": "💡 Solution : Oui (Ja).\nMiriam utilise toujours un sac réutilisable pliable et critique sévèrement les sacs plastiques qu'elle juge inutiles et néfastes pour l'environnement.",
+      "ar": "💡 الحل: نعم (Ja).\nتستخدم ميريام حقيبة قماشية قابلة للطي وتؤكد أن الأكياس البلاستيكية غير ضرورية وتضر بالبيئة، وهي مؤيدة تماماً لمنعها."
+    },
+    "22": {
+      "text": "💡 Lösung: Nein.\nSarah sieht kein Problem in Plastiktüten und hält Papiertüten für schädlicher (Baumfällung): „Meiner Meinung nach sind Plastiktüten in Deutschland kein Problem mehr... Was soll daran schädlich sein?“",
+      "fr": "💡 Solution : Non (Nein).\nSarah considère que les sacs plastique ne posent plus problème en Allemagne car ils sont réutilisés puis recyclés, et craint la déforestation liée aux sacs en papier.",
+      "ar": "💡 الحل: لا (Nein).\nترى سارة أن الأكياس البلاستيكية يعاد استخدامها وتدويرها في ألمانيا ولا تشكل خطراً، وأن أكياس الورق تتطلب قطع الأشجار، لذا ترفض الحظر."
+    },
+    "23": {
+      "text": "💡 Lösung: Ja.\nTom erinnert an die im Plastikmüll erstickenden Meerestiere: „Plastiktüten tragen nicht nur dazu bei, dass wir viel mehr Müll haben, sie bringen auch den Tod!“ Er fordert ein Umdenken und Verbot.",
+      "fr": "💡 Solution : Oui (Ja).\nTom alerte sur le sort des animaux marins asphyxiés par les sacs plastiques et affirme qu'ils sont mortels : il est absolument pour leur interdiction.",
+      "ar": "💡 الحل: نعم (Ja).\nيشير توم إلى الصور المأساوية للدلافين والسلاحف البحرية التي تختنق بالبلاستيك ويؤكد أن هذه الأكياس تسبب الموت ويجب الاستغناء عنها وحظرها فوراً."
+    },
+    "24": {
+      "text": "💡 Lösung: Nein.\nMadsen findet die Debatte übertrieben: „Darum sollte nicht so viel Wirbel gemacht werden. Die paar Geschäfte, die sie noch so geben, können das meiner Meinung nach weiterhin tun.“",
+      "fr": "💡 Solution : Non (Nein).\nMadsen trouve le débat disproportionné (« Darum sollte nicht so viel Wirbel gemacht werden ») et pense que les magasins devraient pouvoir continuer à les distribuer.",
+      "ar": "💡 الحل: لا (Nein).\nيرى مادسن أن الجدل مبالغ فيه وأن الأكياس تمثل نسبة ضئيلة من النفايات وتستخدم كأكياس قمامة، ويؤيد استمرار المتاجر في تقديمها."
+    },
+    "25": {
+      "text": "💡 Lösung: Nein.\nLuisa lobt das deutsche Recyclingsystem und lehnt weitere Gesetze ab: „Deshalb liegen Strände und Wiesen bei uns nicht voller Tüten... Noch ein Gesetz dafür brauchen wir nicht.“",
+      "fr": "💡 Solution : Non (Nein).\nLuisa estime que le tri et le recyclage en Allemagne fonctionnent parfaitement et qu'une loi d'interdiction supplémentaire est totalement inutile.",
+      "ar": "💡 الحل: لا (Nein).\nتوضح لويزا أن النفايات البلاستيكية في ألمانيا تجمع وتفرز وتضغط بعناية، وترى أنه لا حاجة لسن قانون جديد لحظرها."
+    },
+    "26": {
+      "text": "💡 Lösung: Ja.\nFrederike fordert die Reduktion von Plastik und unterstützt das Verbot: „Ein Verbot von Plastiktüten wäre ein erster Schritt in die richtige Richtung.“",
+      "fr": "💡 Solution : Oui (Ja).\nFrederike affirme qu'une interdiction légale des sacs en plastique constituerait un premier pas indispensable pour protéger l'environnement.",
+      "ar": "💡 الحل: نعم (Ja).\nتؤكد فريدريكه أن حظر الأكياس البلاستيكية سيكون خطوة أولى ممتازة وفي الاتجاه الصحيح لحماية البيئة وتوفير موارد الأرض."
+    },
+    "27": {
+      "text": "💡 Lösung: b (Geld für die Teilnahme an der Prüfung zahlen).\nIn den Bestimmungen steht: „Mit Abgabe der Meldung verpflichtet sich der Teilnehmer, die Startgebühr zu bezahlen.“",
+      "fr": "💡 Solution : b (payer des frais pour participer à l'épreuve).\nLe règlement stipule explicitement que l'inscription engage le candidat à s'acquitter des droits d'engagement (Startgebühr).",
+      "ar": "💡 الحل: b (دفع رسوم مالية للمشاركة في الاختبار).\nتنص اللائحة بوضوح على أنه بمجرد تقديم طلب التسجيل، يلتزم المشارك بسداد رسوم الاشتراك (Startgebühr)."
+    },
+    "28": {
+      "text": "💡 Lösung: a (muss der Hund zuerst Prüfungsteil A bestanden haben).\nLaut Prüfungsordnung werden Hunde, die im Teil A nicht mindestens 70 % der Punkte erreichen, „nicht zu Teil B... mitgenommen“.",
+      "fr": "💡 Solution : a (le chien doit obligatoirement avoir réussi l'épreuve A au préalable).\nLe règlement précise que les chiens n'obtenant pas 70 % des points en partie A ne sont pas admis à l'épreuve pratique B.",
+      "ar": "💡 الحل: a (يجب أن يجتاز الكلب الجزء A من الاختبار أولاً).\nتوضح الشروط أن الكلاب التي لا تحقق 70% من النقاط في الجزء A تُحرم من الانتقال والمشاركة في الجزء B."
+    },
+    "29": {
+      "text": "💡 Lösung: a (bei schlechtem Wetter nicht statt).\nIn den Bestimmungen heißt es: Prüfungen finden statt, „wenn die Wetterverhältnisse es erlauben... Ansonsten muss von der Durchführung einer Prüfungsveranstaltung Abstand genommen werden.“",
+      "fr": "💡 Solution : a (n'ont pas lieu en cas de mauvais temps).\nLes épreuves ne peuvent être organisées que si les conditions météorologiques le permettent ; en cas d'intempéries, la session doit être annulée.",
+      "ar": "💡 الحل: a (لا تقام فعاليات الاختبار في حال سوء الأحوال الجوية).\nتنص التعليمات على إقامة الاختبارات فقط إذا سمحت الظروف الجوية، وفي حال تعذر ذلك وسوء الطقس يتم إلغاء الفعالية."
+    },
+    "30": {
+      "text": "💡 Lösung: b (Es gibt ein Mindestalter für die Hunde).\nUnter den Bestimmungen steht: „Zugelassen sind Hunde aller Rassen und Größen ab dem Alter von fünfzehn Monaten.“ Es gilt also ein Mindestalter von 15 Monaten.",
+      "fr": "💡 Solution : b (il existe un âge minimum requis pour les chiens).\nLe texte précise que les chiens sont admis à partir de l'âge de quinze mois révolus (ab dem Alter von 15 Monaten), ce qui impose un âge minimal.",
+      "ar": "💡 الحل: b (هناك حد أدنى لسن الكلب المسموح له بالمشاركة).\nتشترط التعليمات ألا يقل عمر الكلب عن خمسة عشر شهراً (ab dem Alter von 15 Monaten) من أي سلالة أو حجم."
+    },
+    "h1": {
+      "text": "💡 Lösung: Richtig.\nDie Radiomeldung berichtet über einen Schülerwettbewerb: „...lädt der Landeselternverband... zur Teilnahme am Wettbewerb 'Faszination Chemie' ein.“",
+      "fr": "💡 Solution : Vrai (Richtig).\nLe flash radio annonce l'organisation d'un concours scientifique destiné aux élèves intitulé « Faszination Chemie ».",
+      "ar": "💡 الحل: صحيح (Richtig).\nيعلن المذيع في الراديو عن مسابقة موجهة لطلاب المدارس بعنوان «سحر الكيمياء» (Wettbewerb 'Faszination Chemie')."
+    },
+    "h2": {
+      "text": "💡 Lösung: c (Realschüler aus den Klassen 8, 9 und 10).\nIn der Meldung heißt es wörtlich: „Bayerische Realschüler von der 8. bis zur 10. Jahrgangsstufe können dabei ihre Ideen einbringen...“",
+      "fr": "💡 Solution : c (les élèves de Realschule des classes de 8e, 9e et 10e).\nL'annonce précise que le concours est ouvert aux élèves de la 8e à la 10e classe des collèges techniques de Bavière.",
+      "ar": "💡 الحل: c (طلاب المرحلة الإعدادية التقنية من الصفوف 8 و9 و10).\nيذكر الإعلان حرفياً أن المشاركة متاحة لطلاب المدارس الإعدادية من الصف الثامن حتى العاشر."
+    },
+    "h3": {
+      "text": "💡 Lösung: Falsch.\nDie automatische Ansage nennt keine Konzertprogramme vor, sondern verweist darauf: „Unser Konzertprogramm finden Sie im Internet...“",
+      "fr": "💡 Solution : Faux (Falsch).\nLe message téléphonique ne donne pas le programme des concerts, mais renvoie vers le site internet pour le consulter.",
+      "ar": "💡 الحل: خطأ (Falsch).\nالرسالة الصوتية لا تتلو برنامج الحفلات الموسيقية بل تشير إلى أنه متاح للاطلاع عبر موقع الإنترنت."
+    },
+    "h4": {
+      "text": "💡 Lösung: a (Telefonisch).\nIn der Durchsage heißt es: „Informationen zu Einzelkonzerten und Abonnements unter Rufnummer 654965.“ Man informiert sich also per Telefon.",
+      "fr": "💡 Solution : a (Par téléphone).\nLe répondeur indique que les renseignements sur les abonnements s'obtiennent par téléphone au numéro 654965.",
+      "ar": "💡 الحل: a (عبر الهاتف).\nيوضح الرد الآلي أن الاستفسار عن الاشتراكات وتذاكر الحفلات يتم بالاتصال على رقم الهاتف المذكور."
+    },
+    "h5": {
+      "text": "💡 Lösung: Falsch.\nEs wird kein Bahnhof gebaut, sondern die berühmte Bahnhofstrasse in Zürich wird saniert: „Für die Aufwertung und Erneuerung der Zürcher Bahnhofstrasse hat der Stadtrat...“",
+      "fr": "💡 Solution : Faux (Falsch).\nIl ne s'agit pas de la construction d'une gare, mais de la rénovation de la célèbre avenue « Bahnhofstrasse » à Zurich.",
+      "ar": "💡 الحل: خطأ (Falsch).\nالمشروع لا يخص بناء محطة قطار جديدة، بل تجديد وتحديث شارع المحطة الشهير في زيورخ (Bahnhofstrasse)."
+    },
+    "h6": {
+      "text": "💡 Lösung: b (länger als ein Jahr).\nDie Meldung nennt die Dauer: „...und werden 18 Monate dauern.“ 18 Monate sind anderthalb Jahre, also länger als ein Jahr.",
+      "fr": "💡 Solution : b (plus d'un an).\nLes travaux d'aménagement sont prévus pour une durée de 18 mois, soit un an et demi (plus d'un an).",
+      "ar": "💡 الحل: b (أكثر من عام واحد).\nتذكر النشرة أن أعمال التجديد ستستغرق 18 شهراً، أي عاماً ونصف، وهو ما يزيد عن سنة واحدة."
+    },
+    "h7": {
+      "text": "💡 Lösung: Richtig.\nDie Radiodurchsage bewirbt eine Pauschalreise: „Trendtours Touristik lädt Sie ein zu einem herrlichen Ostseeurlaub mit einer erholsamen Kur...“",
+      "fr": "💡 Solution : Vrai (Richtig).\nIl s'agit d'une publicité radiophonique pour un voyage organisé au bord de la Baltique combiné à une cure thermale.",
+      "ar": "💡 الحل: صحيح (Richtig).\nالإذاعة تبث إعلاناً ترويجياً لرحلة سياحية وعلاجية على شاطئ بحر البلطيق تقدمها شركة ترند تورز."
+    },
+    "h8": {
+      "text": "💡 Lösung: b (An der Ostsee).\nDer Sprecher nennt das Ziel: „...lädt Sie ein zu einem herrlichen Ostseeurlaub... in der Nähe von Kolberg...“",
+      "fr": "💡 Solution : b (Au bord de la mer Baltique).\nLe séjour thermal de détente a lieu au bord de la mer Baltique (Ostsee), à proximité de Kołobrzeg.",
+      "ar": "💡 الحل: b (على ساحل بحر البلطيق).\nيقضي المسافرون عطلتهم على شواطئ بحر البلطيق (Ostsee) بالقرب من منتجع كولبرغ."
+    },
+    "h9": {
+      "text": "💡 Lösung: Falsch.\nDer Nachrichtensprecher leitet ein: „Hören Sie nun Nachrichten aus aller Welt.“ Es sind also weltweite Kurznachrichten, nicht nur über Deutschland.",
+      "fr": "💡 Solution : Faux (Falsch).\nLe journaliste annonce l'actualité internationale : « Écoutez maintenant des informations du monde entier » (Nachrichten aus aller Welt).",
+      "ar": "💡 الحل: خطأ (Falsch).\nيستهل المذيع النشرة بعبارة: «تستمعون الآن إلى أخبار من جميع أنحاء العالم»، وليست مقتصرة على ألمانيا فقط."
+    },
+    "h10": {
+      "text": "💡 Lösung: b (Ein Motorradfahrer).\nIm Bericht heißt es: „Ein anderer Motorradfahrer hatte es bei einer Wüstentour gefunden, mitgenommen und bei der Polizei abgeliefert.“",
+      "fr": "💡 Solution : b (Un motocycliste).\nC'est un autre motard traversant le désert qui a retrouvé la plaque d'immatriculation et l'a déposée à la police.",
+      "ar": "💡 الحل: b (سائق دراجة نارية آخر).\nيوضح التقرير الإخباري أن سائق دراجة نارية آخر عثر على لوحة الأرقام أثناء جولة صحراوية وسلمها للشرطة."
+    },
+    "h11": {
+      "text": "💡 Lösung: c (1973).\nDer Museumssprecher erklärt: „Erst seit 1970, als Wege angelegt wurden... Der Tierpark wurde dann 1973 eröffnet.“",
+      "fr": "💡 Solution : c (1973).\nLe guide du parc zoologique précise que le parc animalier a officiellement ouvert ses portes en 1973.",
+      "ar": "💡 الحل: c (1973).\nيذكر المرشد في الحديقة أن حديقة الحيوان هاغ تم افتتاحها رسمياً للجمهور عام 1973."
+    },
+    "h12": {
+      "text": "💡 Lösung: b (Affen).\nIm Vortrag heißt es über die Kinder: „...die schauen sich am liebsten Affen, Wölfe und Zebras an.“",
+      "fr": "💡 Solution : b (les singes).\nL'animateur mentionne que les jeunes visiteurs préfèrent observer les singes (Affen), les loups et les zèbres.",
+      "ar": "💡 الحل: b (القرود).\nيوضح المتحدث أن الأطفال يفضلون مشاهدة القرود والذئاب والحمار الوحشي على مشاهدة الحيوانات المفترسة كالنمور."
+    },
+    "h13": {
+      "text": "💡 Lösung: c (Arbeitsblätter).\nDer Führer kündigt an: „Von mir bekommt ihr dazu ein Arbeitsblatt mit Fragen, die euch helfen... Das verteile ich dann später.“",
+      "fr": "💡 Solution : c (des fiches de travail).\nLe guide distribue aux écoliers des fiches pédagogiques (Arbeitsblätter) avec des questions pour guider leurs observations.",
+      "ar": "💡 الحل: c (أوراق عمل وتدريبات).\nيعلن المرشد أنه سيوزع على التلاميذ أوراق عمل تحتوي على أسئلة توجيهية لمساعدتهم في مراقبة الطيور."
+    },
+    "h14": {
+      "text": "💡 Lösung: c (das Reiten).\nZur Spielplatznutzung erklärt er: „Die kann man umsonst nutzen. Nur, wenn ihr auf einem Pony reiten wollt, müsst ihr drei Euro... bezahlen.“",
+      "fr": "💡 Solution : c (les balades à poney).\nToutes les aires de jeux et d'escalade sont gratuites, à l'exception des promenades à poney payantes (3 euros la demi-heure).",
+      "ar": "💡 الحل: c (ركوب المهر / الخيل الصغير).\nألعاب الحديقة والتسلق والتسالي مجانية بالكامل، والشيء الوحيد الذي يتطلب دفع رسوم هو ركوب المهر (Pony reiten)."
+    },
+    "h15": {
+      "text": "💡 Lösung: b (Die Schilder lesen).\nDer Sprecher mahnt zur Beachtung der Regeln: „Achtet außerdem auf die Schilder an den Gehegen und Käfigen, vielleicht stehen da noch besondere Hinweise.“",
+      "fr": "💡 Solution : b (lire les panneaux d'information).\nLe responsable recommande expressément aux élèves de bien lire les panneaux explicatifs apposés sur les enclos des animaux.",
+      "ar": "💡 الحل: b (قراءة اللوحات الإرشادية واللافتات).\nيوصي المتحدث الزوار بقراءة اللافتات واللوحات المثبتة على أقفاص وحظائر الحيوانات للتعرف على الإرشادات الخاصة."
+    },
+    "h16": {
+      "text": "💡 Lösung: Falsch.\nDer Vater stellt klar: „Der Preis für das Haus und die Wohnung ist ja mehr oder weniger gleich... Wenn die Wohnung und das Haus also praktisch gleich viel kosten...“",
+      "fr": "💡 Solution : Faux (Falsch).\nLe père indique que la maison et l'appartement coûtent pratiquement le même prix (mehr oder weniger gleich). La maison n'est donc pas beaucoup plus chère.",
+      "ar": "💡 الحل: خطأ (Falsch).\nيوضح الأب أن سعر المنزل والشقة متقارب ومتماثل تقريباً («سعر المنزل والشقة متساوٍ تقريباً»)، وليس أغلى بكثير."
+    },
+    "h17": {
+      "text": "💡 Lösung: Richtig.\nDer Vater gibt zu bedenken: „Aber das Haus ist viel älter als die Wohnung.“ Folglich ist die Wohnung neuer als das Haus.",
+      "fr": "💡 Solution : Vrai (Richtig).\nLe père fait remarquer que la maison est beaucoup plus ancienne que l'appartement, ce qui signifie que l'appartement est plus récent.",
+      "ar": "💡 الحل: صحيح (Richtig).\nيؤكد الأب أن المنزل أقدم بكثير من الشقة («المنزل أقدم بكثير من الشقة»)، وبالتالي فإن الشقة أحدث بناءً من المنزل."
+    },
+    "h18": {
+      "text": "💡 Lösung: Falsch.\nDie Familie besitzt noch keinen Hund: Sohn Lennard erinnert: „Aber Papa, du hast doch gesagt, dass ich zu Weihnachten einen Hund bekomme.“",
+      "fr": "💡 Solution : Faux (Falsch).\nLa famille n'a pas encore de chien ; le fils Lennard rappelle seulement que son père lui a promis un chien pour Noël.",
+      "ar": "💡 الحل: خطأ (Falsch).\nالأسرة لا تملك كلباً في الوقت الحالي، بل يذكر الابن والده بأنه وعده بشراء كلب كهدية بمناسبة عيد الميلاد."
+    },
+    "h19": {
+      "text": "💡 Lösung: Falsch.\nDie Mutter will keine Nachbarn im selben Haus: „Wir hatten doch schon so viele Probleme mit Nachbarn... möchte ich solche Probleme nicht mehr haben.“ Sie sieht Nachbarn also negativ.",
+      "fr": "💡 Solution : Faux (Falsch).\nLa mère craint les nuisances de voisinage en immeuble collectif et préfère une maison individuelle pour éviter les conflits passés.",
+      "ar": "💡 الحل: خطأ (Falsch).\nلا ترى الأم وجود جيران في نفس المبنى أمراً إيجابياً، بل تشتكي من مشاكل الجيران السابقة وتفضل منزلاً مستقلاً لتفادي الإزعاج."
+    },
+    "h20": {
+      "text": "💡 Lösung: Richtig.\nAuf die Frage nach der Gartenarbeit verspricht Lennard: „Aber klar doch. Das macht doch Spaß.“",
+      "fr": "💡 Solution : Vrai (Richtig).\nInterrogé sur l'entretien du jardin, Lennard confirme avec enthousiasme : « Mais bien sûr ! C'est amusant en plus. »",
+      "ar": "💡 الحل: صحيح (Richtig).\nعندما تسأله والدته عما إذا كان سيساعد في الحديقة، يجيب لينارد بحماس وتأكيد: «بالتأكيد وبكل سرور، هذا ممتع!»."
+    },
+    "h21": {
+      "text": "💡 Lösung: Richtig.\nDer Vater hebt hervor: „...wenn wir das Haus nehmen, könnten wir uns ein Arbeitszimmer einrichten... Bei der Wohnung wäre das nicht möglich.“ Das Haus bietet also mehr Zimmer.",
+      "fr": "💡 Solution : Vrai (Richtig).\nLe père souligne que dans la maison, ils disposeraient d'une pièce supplémentaire pour aménager un bureau, ce qui est impossible dans l'appartement.",
+      "ar": "💡 الحل: صحيح (Richtig).\nيوضح الأب أن المنزل يوفر غرفة إضافية يمكن تخصيصها كمكتب للعمل وحفظ الكتب، وهو ما لا تتيحه الشقة."
+    },
+    "h22": {
+      "text": "💡 Lösung: Falsch.\nNicht Lennards Vater ist Architekt, sondern der Vater seines Freundes Frank: „...rufe ich Frank an. Vielleicht kann sein Vater sich das Haus mal anschaun. Der ist doch Architekt.“",
+      "fr": "💡 Solution : Faux (Falsch).\nLe père de Lennard n'est pas architecte : il compte appeler son ami Frank dont le père est architecte pour expertiser la maison.",
+      "ar": "💡 الحل: خطأ (Falsch).\nوالد لينارد ليس مهندساً معمارياً، بل والد صديقه فرانك هو المهندس المعماري الذي سيعاين المنزل ويفحصه."
+    },
+    "h23": {
+      "text": "💡 Lösung: Alexander Klein.\nBankexperte Klein erklärt: „...können Kinder an diesem Tag mit ihren gefüllten Sparschweinen zu einer Bank... gehen... Als Dankeschön bekommen sie Kuscheltiere, Spiele oder Süßigkeiten...“",
+      "fr": "💡 Solution : Alexander Klein.\nL'expert financier explique qu'à l'occasion de la Journée de l'épargne, les enfants qui déposent leur tirelire reçoivent des cadeaux et des friandises.",
+      "ar": "💡 الحل: ألكسندر كلاين (خبير مالي).\nيوضح الخبير المصرفي أن الأطفال الذين يودعون مدخراتهم في يوم الادخار العالمي يحصلون على هدايا وألعاب وحلوى تقديراً لهم."
+    },
+    "h24": {
+      "text": "💡 Lösung: Katja Grewe.\nKatja erzählt aus ihrer Kindheit: „Als dann aber der Kassierer mein Geld nahm, fing ich an zu weinen. Anscheinend dachte ich, er nimmt mir mein ganzes Geld weg.“",
+      "fr": "💡 Solution : Katja Grewe.\nKatja se souvient avoir éclaté en sanglots à 6 ans lorsque le guichetier a pris l'argent de sa tirelire, croyant qu'on le lui confisquait.",
+      "ar": "💡 الحل: كاتيا غريفه.\nتروي كاتيا تجربتها الأولى في سن السادسة حين بكت بحرقة عندما أخذ موظف البنك نقودها ظناً منها أنه يسلبها أموالها."
+    },
+    "h25": {
+      "text": "💡 Lösung: Alexander Klein.\nHerr Klein betont: „Das ist keine Selbstverständlichkeit und wirft natürlich viele Fragen auf. Aber so bietet sich die Gelegenheit, den Kindern diese Fragen zu beantworten...“",
+      "fr": "💡 Solution : Alexander Klein.\nAlexander Klein relève que le fonctionnement bancaire suscite naturellement de nombreuses interrogations chez les jeunes enfants.",
+      "ar": "💡 الحل: ألكسندر كلاين.\nيوضح السيد كلاين أن مفهوم الحساب المصرفي ليس بديهياً للأطفال ويطرح لديهم تساؤلات كثيرة تتطلب الشرح والتوضيح."
+    },
+    "h26": {
+      "text": "💡 Lösung: Alexander Klein.\nHerr Klein berichtet: „Mein erstes Sparbuch bekam ich dann mit 12 Jahren. Das hatte mir mein Opa geschenkt.“",
+      "fr": "💡 Solution : Alexander Klein.\nAlexander Klein confie avoir reçu son premier livret d'épargne à l'âge de 12 ans, offert en cadeau par son grand-père.",
+      "ar": "💡 الحل: ألكسندر كلاين.\nيذكر الخبير المصرفي كلاين أنه حصل على أول دفتر توفير له في سن الثانية عشرة كهدية من جده."
+    },
+    "h27": {
+      "text": "💡 Lösung: Journalistin.\nDie Journalistin stellt fest: „Weißt du, selbst Erwachsene schaffen das oft nicht. Statt vorher das Geld für etwas zusammenzusparen, nehmen sie einen Kredit auf.“",
+      "fr": "💡 Solution : La journaliste.\nL'animatrice fait remarquer que beaucoup d'adultes ont du mal à épargner et préfèrent recourir au crédit à la consommation.",
+      "ar": "💡 الحل: الصحفية / المذيعة.\nتلاحظ المذيعة أن الكثير من البالغين يعجزون عن الادخار ويلجأون بدلاً من ذلك إلى الشراء بالاقتراض وأخذ القروض."
+    },
+    "h28": {
+      "text": "💡 Lösung: Alexander Klein.\nHerr Klein beruhigt die Kunden: „Geld ist auf der Bank sicher, das hat sogar unser Finanzminister bestätigt. Man sollte also den Banken vertrauen.“",
+      "fr": "💡 Solution : Alexander Klein.\nLe banquier rassure en affirmant que les dépôts bancaires sont sûrs et garantis, comme l'a confirmé le ministre des Finances.",
+      "ar": "💡 الحل: ألكسندر كلاين.\nيطمئن الخبير المالي الجمهور بأن الأموال المودعة في البنوك آمنة تماماً وأنه لا داعي للقلق بشأنها."
+    },
+    "h29": {
+      "text": "💡 Lösung: Journalistin.\nDie Journalistin informiert über die Stadt Euskirchen: „Das ist eine Kleinstadt, so ungefähr 25 km von Bonn entfernt.“",
+      "fr": "💡 Solution : La journaliste.\nC'est la journaliste qui précise la situation géographique d'Euskirchen, petite ville située à environ 25 km de Bonn.",
+      "ar": "💡 الحل: الصحفية / المذيعة.\nتوضح المذيعة موقع مدينة أويسكيرشن الجغرافي بأنها بلدة صغيرة تبعد حوالي 25 كيلومتراً عن مدينة بون."
+    },
+    "h30": {
+      "text": "💡 Lösung: Alexander Klein.\nHerr Klein versichert: „Je mehr du sparst, desto mehr Zinsen bekommst du. Und darauf kannst du dich verlassen.“",
+      "fr": "💡 Solution : Alexander Klein.\nLe spécialiste financier conclut que plus l'on épargne, plus la banque verse d'intérêts sur le compte.",
+      "ar": "💡 الحل: ألكسندر كلاين.\nيؤكد الخبير المالي كلاين أنه كلما زاد ادخار المرء لأمواله في البنك، كلما حصل على فوائد وأرباح مالية أكثر."
+    }
+  },
+  "translations": {
+    "parts": {
+      "1": {
+        "instructions": {
+          "ar": "اقرأ النص والمهام من 1 إلى 6. اختر: هل العبارات صحيحة أم خاطئة؟",
+          "fr": "Lisez le texte et les questions 1 à 6. Choisissez : les affirmations sont-elles vraies ou fausses ?"
+        },
+        "articles": [
+          {
+            "heading": {
+              "ar": "أورس ميرتس (Urs Merz)",
+              "fr": "Urs Merz"
+            },
+            "sub": {
+              "ar": "15 مايو",
+              "fr": "15 mai"
+            },
+            "body": {
+              "ar": [
+                "مرحباً بكم أصدقائي على فيسبوك! يوم الجمعة الماضي أقيمت رحلتنا السنوية مع العمل. وكانت الوجهة هي مدينة الملاهي في أتسمنينغ بالقرب من زيورخ. عندما سمعت ذلك، كنت بصراحة متشككاً بعض الشيء. مدينة ملاهٍ؟ هذا ليس للكبار إطلاقاً!! لكن الزملاء كانوا قد ذهبوا إلى هناك في العام الماضي وتحدثوا عنها بحماس بالغ. ولأنني جديد في الشركة، فقد احتفظت برأيي لنفسي؛ وكنت أرغب بالتأكيد في المشاركة للتعرف على زملائي بشكل أفضل.",
+                "وصلنا إلى مدينة الملاهي انطلاقاً من زيورخ في 45 دقيقة فقط. وتقع الحديقة عند سفح جبل، حيث صعدنا إلى القمة بواسطة التلفريك. وعند وصولنا للأعلى ظهر أمامنا منظر بانورامي يخطف الأنفاس، ومع تحسن الطقس تمكنا من رؤية بحيرة زيورخ، وفي الأفق البعيد بدت جبال الألب في كانتون برن واضحة. ثم بدأ البرنامج الفعلي وكان بإمكاننا الاختيار بين مسارين: إما رحلة مشي مدتها ثلاث ساعات نزولاً إلى الوادي، أو النزول عبر مسار التزحلق الصيفي ثم خوض مسار الحبال المعلقة في حديقة التسلق. وقد اخترت المسار الثاني.",
+                "كان مسار التزحلق طويلاً جداً: 700 متر بـ 17 منعطفاً وكان الهبوط سريعاً للغاية. يا لها من جرعة أدرينالين حقيقية! المؤسف فقط هو أن المرء يفوّت الكثير من سحر الطبيعة من حوله بسبب السرعة. وعند وصولنا إلى الأسفل توجهنا إلى حديقة التسلق؛ وهناك 7 مسارات مختلفة الصعوبة، واختارت مجموعتي مساراً متوسط الصعوبة لامتلاك الجميع (باستثنائي) خبرة في ذلك، ولم أصرح بأنها تجربتي الأولى.",
+                "كانت تجربة رائعة حقاً، لكنها تتطلب مهارة وتنسيقاً دقيقاً مع الفريق. وفي إحدى المحطات لم أنتبه وكدت أسقط لولا أن زميلي أمسك بي في الوقت المناسب، وتعرضت ذراعي لإصابة طفيفة لا تدعو للقلق. وفي الختام، عندما وصلت مجموعة المشي إلى الوادي، تناولنا وجبة ساخنة في المطعم (طبق اللحم المقطع على طريقة زيورخ يستحق التجربة حتماً!!)، ثم شربنا القهوة مع الكعك والقشطة الطازجة على الشرفة المشمسة. لقد كان يوماً رائعاً، والسبت القادم لدي موعد هناك مجدداً مع ثلاثة زملاء، فهل ستكونون هناك أيضاً؟"
+              ],
+              "fr": [
+                "Bonjour à tous mes amis sur Facebook ! Vendredi dernier a eu lieu notre excursion d'entreprise. La destination était le parc de loisirs d'Atzmännig, près de Zurich. Quand j'ai appris cela, j'étais franchement un peu sceptique. Un parc d'attractions ? Ce n'est pas pour les adultes !! Mais mes collègues y étaient déjà allés l'année dernière et en parlaient avec un enthousiasme débordant. Comme je suis nouveau dans l'entreprise, j'ai gardé mon avis pour moi. Je tenais absolument à participer pour mieux faire connaissance avec mes collègues.",
+                "Depuis Zurich, nous avons rejoint le parc d'attractions en seulement 45 minutes. Il est niché au pied d'une montagne. Un téléphérique nous a hissés vers les hauteurs. Arrivés au sommet, un panorama à couper le souffle s'est offert à nous. Comme la météo était de la partie, nous pouvions apercevoir le lac de Zurich et distinguer au loin les Alpes bernoises. C'est alors qu'a débuté le véritable programme : nous avions le choix entre une randonnée de trois heures vers la vallée ou une descente en luge d'été suivie d'un parcours accrobranche dans le parc d'aventure. J'ai opté pour cette seconde formule.",
+                "La piste de luge était particulièrement longue : 700 mètres jalonnés de 17 virages serrés. La descente s'est faite à toute vitesse : une vraie poussée d'adrénaline ! Seul regret : la vitesse nous faisait rater une bonne part des superbes paysages naturels. Une fois en bas, nous nous sommes dirigés vers le parc d'accrobranche, qui compte au total 7 parcours de difficulté variable. Notre groupe a choisi un niveau intermédiaire, car tous mes collègues (sauf moi) avaient déjà une certaine expérience. Je n'ai pas avoué que c'était mon baptême du feu.",
+                "Ce fut une expérience véritablement formidable. Il faut toutefois faire preuve d'adresse et d'une bonne coordination avec les autres. À un moment, j'ai manqué de vigilance et j'ai failli chuter si un collègue ne m'avait pas retenu in extremis. Je me suis légèrement blessé au bras, rien de grave. Pour finir, une fois le groupe de randonneurs redescendu dans la vallée, nous avons partagé un bon repas chaud au restaurant (l'émincé de veau à la zurichoise est à recommander chaudement !), suivi d'un café et de gâteaux à la crème fraîche sur la terrasse ensoleillée. Une journée magnifique ! Samedi prochain, j'ai de nouveau rendez-vous là-bas avec trois collègues. Y serez-vous aussi ?"
+              ]
+            }
+          }
+        ],
+        "example": {
+          "text": {
+            "ar": "أقيمت الرحلة في يوم عمل عادي.",
+            "fr": "L'excursion a eu lieu lors d'un jour ouvrable."
+          }
+        },
+        "questions": {
+          "1": {
+            "ar": "لم يجد أورس وجهة الرحلة جيدة ومناسبة في البداية.",
+            "fr": "Au départ, Urs ne trouvait pas la destination particulièrement séduisante.",
+            "text": {
+              "ar": "لم يجد أورس وجهة الرحلة جيدة ومناسبة في البداية.",
+              "fr": "Au départ, Urs ne trouvait pas la destination particulièrement séduisante."
+            }
+          },
+          "2": {
+            "ar": "مدينة الملاهي ليست بعيدة عن المدينة الكبرى.",
+            "fr": "Le parc de loisirs n'est pas éloigné de la grande ville.",
+            "text": {
+              "ar": "مدينة الملاهي ليست بعيدة عن المدينة الكبرى.",
+              "fr": "Le parc de loisirs n'est pas éloigné de la grande ville."
+            }
+          },
+          "3": {
+            "ar": "ساروا على الأقدام لمدة ثلاث ساعات صعوداً إلى قمة الجبل.",
+            "fr": "Ils ont grimpé la montagne à pied pendant trois heures.",
+            "text": {
+              "ar": "ساروا على الأقدام لمدة ثلاث ساعات صعوداً إلى قمة الجبل.",
+              "fr": "Ils ont grimpé la montagne à pied pendant trois heures."
+            }
+          },
+          "4": {
+            "ar": "سبق لأورس خوض مسارات الحبال والتسلق من قبل.",
+            "fr": "Urs avait déjà fait des parcours accrobranche auparavant.",
+            "text": {
+              "ar": "سبق لأورس خوض مسارات الحبال والتسلق من قبل.",
+              "fr": "Urs avait déjà fait des parcours accrobranche auparavant."
+            }
+          },
+          "5": {
+            "ar": "عندما سقط أورس على الأرض، ساعده زميله على النهوض.",
+            "fr": "Quand Urs est tombé, un collègue l'a aidé à se relever.",
+            "text": {
+              "ar": "عندما سقط أورس على الأرض، ساعده زميله على النهوض.",
+              "fr": "Quand Urs est tombé, un collègue l'a aidé à se relever."
+            }
+          },
+          "6": {
+            "ar": "سيزور أورس مدينة الملاهي مجدداً في وقت قريب.",
+            "fr": "Urs va retourner visiter le parc de loisirs très bientôt.",
+            "text": {
+              "ar": "سيزور أورس مدينة الملاهي مجدداً في وقت قريب.",
+              "fr": "Urs va retourner visiter le parc de loisirs très bientôt."
+            }
+          }
+        }
+      },
+      "2": {
+        "instructions": {
+          "ar": "اقرأ النص الصحفي والمهام من 7 إلى 9. اختر لكل مهمة الحل الصحيح: أ، ب، أو ج.",
+          "fr": "Lisez le texte de presse et les questions 7 à 9. Choisissez la bonne solution a, b ou c pour chaque question."
+        },
+        "articles": [
+          {
+            "heading": {
+              "ar": "التعليم في الأحياء الفقيرة والعشوائيات",
+              "fr": "L'éducation dans les bidonvilles"
+            },
+            "sub": {
+              "ar": "من صحيفة ألمانية",
+              "fr": "Extrait d'un journal allemand"
+            },
+            "body": {
+              "ar": [
+                "على الرغم من وجود قانون للتعليم الإلزامي، لا يذهب ملايين الأطفال في الهند إلى المدرسة. ويعجز سكان الأحياء الفقيرة والعشوائيات بشكل خاص عن توفير تكاليف الزي المدرسي والكراريس والكتب. وترغب المنظمة الإغاثية «بوسكوم» في إيصال التعليم لهؤلاء الأطفال، ولذلك بدأت منذ عدة سنوات بإنشاء مدارس داخل أكواخ شديدة البساطة تضم معلمين اثنين في كل مدرسة. ويتعلم الأطفال فيها القراءة والكتابة والحساب، وتتاح لهم الفرصة أيضاً في حصص الأشغال اليدوية ليعيشوا طفولتهم الحقيقية.",
+                "وعلى الرغم من أن هذه المدارس مجانية تماماً، فإن الكثير من الأطفال لا يحضرون الدروس بسبب شعور ذويهم بالخجل من فقرهم الشديد. وتسعى المنظمة جاهدة لجعل الالتحاق بالمدرسة جذاباً قدر الإمكان، حيث تستمر الدروس حتى الساعة 11 صباحاً فقط حتى يتمكن الأطفال بعد ذلك من مساعدة آبائهم في العمل. بالإضافة إلى ذلك، يحصل الأطفال بعد انتهاء الحصص على وجبة طعام دافئة، وهو ما يشكل حافزاً إضافياً للأهالي لإرسال أطفالهم إلى المدرسة.",
+                "تهدف منظمة بوسكوم إلى تأهيل الأطفال ليكونوا مستعدين للالتحاق بالمدارس الحكومية الرسمية. وبدأت ثمار هذا النجاح تظهر بوضوح: فالعديد من الأطفال يرتادون حالياً مدارس عليا، بينما يبدأ آخرون تدريباً مهنياً عملياً بعد انتهاء سن التعليم الإلزامي في سن الرابعة عشرة."
+              ],
+              "fr": [
+                "Bien que l'école soit obligatoire, des millions d'enfants en Inde ne sont pas scolarisés. Les habitants des bidonvilles, en particulier, n'ont pas les moyens de financer l'uniforme scolaire, les cahiers et les manuels. L'organisation caritative Boscome souhaite apporter l'instruction au plus près des enfants et a commencé il y a quelques années à aménager des écoles dans de simples cabanes, encadrées chacune par deux enseignants. Les enfants y apprennent à lire, écrire et compter, et profitent des ateliers manuels pour vivre de vrais moments d'enfance.",
+                "Bien que ces écoles soient totalement gratuites, tous les enfants ne s'y rendent pas. Beaucoup de parents ont honte de leur grande pauvreté. L'organisation s'efforce donc de rendre la fréquentation scolaire aussi attractive que possible : les cours s'arrêtent dès 11 heures afin que les enfants puissent ensuite aider leurs parents au travail. De surcroît, les enfants reçoivent après la classe un repas chaud complet – une motivation décisive pour inciter les familles à les envoyer en classe.",
+                "Boscome a pour vocation d'armer les enfants pour intégrer le système scolaire public. Les résultats sont au rendez-vous : de nombreux jeunes poursuivent désormais leurs études dans le secondaire, tandis que d'autres entament une formation professionnelle pratique dès l'âge de 14 ans, terme de la scolarité obligatoire."
+              ]
+            }
+          }
+        ],
+        "example": {
+          "text": {
+            "ar": "جمعية بوسكوم ...",
+            "fr": "L'association Boscome ..."
+          },
+          "options": {
+            "ar": [
+              "تمنح الأطفال أموالاً لشراء الكتب المدرسية.",
+              "تهتم أيضاً بتوفير وجبة غداء للأطفال.",
+              "تسعى لتمديد سن التعليم الإلزامي في الهند."
+            ],
+            "fr": [
+              "donne de l'argent aux enfants pour les manuels scolaires.",
+              "fournit également un déjeuner chaud aux enfants.",
+              "milite pour allonger la scolarité obligatoire en Inde."
+            ]
+          }
+        },
+        "questions": {
+          "7": {
+            "ar": "يدور هذا النص حول ...",
+            "fr": "Dans ce texte, il s'agit ...",
+            "text": {
+              "ar": "يدور هذا النص حول ...",
+              "fr": "Dans ce texte, il s'agit ..."
+            },
+            "options": {
+              "ar": [
+                "تعليم الأطفال في الأحياء العشوائية والفقيرة.",
+                "نظام التعليم الحكومي في الهند.",
+                "التغذية وصحة الأطفال في العشوائيات."
+              ],
+              "fr": [
+                "de l'enseignement pour les enfants des bidonvilles.",
+                "du système scolaire public en Inde.",
+                "de la nutrition des enfants dans les bidonvilles."
+              ]
+            }
+          },
+          "8": {
+            "ar": "أثناء الحصص المدرسية ...",
+            "fr": "En classe, les enfants ...",
+            "text": {
+              "ar": "أثناء الحصص المدرسية ...",
+              "fr": "En classe, les enfants ..."
+            },
+            "options": {
+              "ar": [
+                "يتعلم الأطفال الحروف الأبجدية فقط.",
+                "يتناول الأطفال الطعام أثناء الدرس.",
+                "يقوم الأطفال أيضاً بأشغال وأعمال يدوية."
+              ],
+              "fr": [
+                "apprennent l'alphabet.",
+                "mangent pendant la classe.",
+                "font aussi des travaux manuels."
+              ]
+            }
+          },
+          "9": {
+            "ar": "المنظمة الإغاثية ...",
+            "fr": "L'organisation d'aide ...",
+            "text": {
+              "ar": "المنظمة الإغاثية ...",
+              "fr": "L'organisation d'aide ..."
+            },
+            "options": {
+              "ar": [
+                "تتكون فقط من معلمين اثنين.",
+                "تهدف إلى إعداد وتأهيل أطفال العشوائيات للالتحاق بالمدارس الحكومية.",
+                "تأسست على يد سكان العشوائيات أنفسهم."
+              ],
+              "fr": [
+                "se compose uniquement de deux professeurs.",
+                "a pour objectif de préparer les enfants des bidonvilles pour l'école publique.",
+                "a été fondée par les habitants des bidonvilles."
+              ]
+            }
+          }
+        },
+        "instructions2": {
+          "ar": "اقرأ النص الصحفي والمهام من 10 إلى 12. اختر لكل مهمة الحل الصحيح: أ، ب، أو ج.",
+          "fr": "Lisez le texte de presse et les questions 10 à 12. Choisissez la bonne solution a, b ou c pour chaque question."
+        },
+        "articles2": [
+          {
+            "heading": {
+              "ar": "حظر استخدام أجهزة التسمير الاصطناعي (السولاريوم) لليافعين",
+              "fr": "Interdiction des cabines de bronzage pour les mineurs"
+            },
+            "sub": {
+              "ar": "من صحيفة نمساوية",
+              "fr": "Extrait d'un journal autrichien"
+            },
+            "body": {
+              "ar": [
+                "يُحظر على اليافعين دون سن 18 عاماً ارتياد مراكز التسمير الاصطناعي (السولاريوم). هذا ما يفرضه قانون جديد في النمسا، حيث يشعر الأطباء بالسعادة بينما يستشيط أصحاب مراكز السولاريوم غضباً. ويسمح لليافعين بدءاً من سن 16 عاماً بشرب الكحول والتدخين، ولكن لا يُسمح لهم بدخول السولاريوم؟ هذا التناقض يثير دهشة الشباب المعنيين أنفسهم.",
+                "أطباء الجلدية هم الفئة الأكثر ترحيباً وتأييداً لهذا القانون، لمعرفتهم الدقيقة بأن الأضرار الجلدية الناجمة عن الأشعة فوق البنفسجية تكون أكثر فداحة وتأثيراً كلما حدثت في سن مبكرة من عمر الإنسان. ولا فرق في ذلك بين الأشعة القادمة من الشمس أو من السولاريوم. ويؤكد الخبراء أن حروق الشمس في مرحلتي الطفولة والشباب تشكل عامل الخطر الأكبر لتطور الأورام الميلانينية وسرطان الجلد الخبيث. وهم يرون في حماية اليافعين من هذا الخطر ضرورة ملحة، لأن الشباب نادراً ما يفكرون في العواقب الصحية البعيدة المدى لتصرفاتهم ولا يخطر ببالهم احتمال الإصابة بالسرطان لاحقاً.",
+                "ومع ذلك، لا يتعين على المراهقين التخلي التام عن البشرة البرونزية المكتسبة؛ إذ تتوفر إمكانية استخدام مستحضرات التسمير الذاتي (كريم التسمير). وهي عبارة عن كريم يوزع على البشرة ليمنحها لوناً برونزياً دون الحاجة للتعرض للشمس أو السولاريوم، مع عيب وحيد يتمثل في أن هذا اللون البرونزي يدوم لبضعة أيام فقط."
+              ],
+              "fr": [
+                "Les mineurs de moins de 18 ans n'ont plus le droit de fréquenter les solariums. C'est l'exigence d'une nouvelle loi en Autriche. Les médecins s'en félicitent tandis que les exploitants de centres de bronzage déchantent. Les jeunes ont le droit de consommer de l'alcool et de fumer dès 16 ans, mais se voient refuser l'accès au solarium ? Cette disparité étonne les intéressés eux-mêmes.",
+                "Seuls les dermatologues accueillent cette législation de manière très positive. Ils savent que les dommages cutanés occasionnés par les rayons ultraviolets sont d'autant plus graves qu'ils surviennent tôt dans la vie. Peu importe que ces rayonnements proviennent du soleil ou d'un banc solaire artificiel. Les coups de soleil sévères subis pendant l'enfance et l'adolescence constituent le principal facteur de risque dans l'apparition d'un mélanome, préviennent les spécialistes. Ils saluent la protection des jeunes face à ce danger, car les adolescents mesurent rarement les conséquences futures de leurs actes et n'envisagent pas de déclarer un cancer de la peau plus tard.",
+                "Les adolescents ne sont pas pour autant condamnés à renoncer à un teint hâlé : ils ont la possibilité de recourir aux autobronzants. Il s'agit d'une crème cosmétique appliquée sur la peau qui permet de bronzer sans s'exposer au soleil ni au solarium. Seul bémol : le bronzage en tube ne dure que quelques jours."
+              ]
+            }
+          }
+        ],
+        "questions2": {
+          "10": {
+            "ar": "يدور هذا النص حول ...",
+            "fr": "Dans ce texte, il s'agit ...",
+            "text": {
+              "ar": "يدور هذا النص حول ...",
+              "fr": "Dans ce texte, il s'agit ..."
+            },
+            "options": {
+              "ar": [
+                "ما يُسمح به لليافعين النمساويين وما يُحظر عليهم.",
+                "لماذا تعتبر أجهزة السولاريوم ضارة لليافعين.",
+                "كيفية الوقاية الفعالة من أشعة الشمس."
+              ],
+              "fr": [
+                "de ce que les jeunes Autrichiens ont le droit de faire.",
+                "des raisons pour lesquelles le solarium est nocif pour les adolescents.",
+                "de la façon de se protéger du soleil."
+              ]
+            }
+          },
+          "11": {
+            "ar": "الأطباء ...",
+            "fr": "Les médecins ...",
+            "text": {
+              "ar": "الأطباء ...",
+              "fr": "Les médecins ..."
+            },
+            "options": {
+              "ar": [
+                "ينصحون المراهقين باستخدام كريمات التسمير الذاتي.",
+                "يطالبون بإغلاق جميع مراكز السولاريوم نهائياً.",
+                "يرون أن اليافعين لا يكترثون بما قد يحدث لهم مستقبلاً من عواقب صحية."
+              ],
+              "fr": [
+                "recommandent aux adolescents une crème autobronzante.",
+                "veulent la fermeture de tous les centres de bronzage.",
+                "estiment que les adolescents ne réalisent pas les conséquences tardives."
+              ]
+            }
+          },
+          "12": {
+            "ar": "أشعة الشمس ...",
+            "fr": "Le soleil ...",
+            "text": {
+              "ar": "أشعة الشمس ...",
+              "fr": "Le soleil ..."
+            },
+            "options": {
+              "ar": [
+                "يمكن أن تضر بالبشرة بنفس القدر الذي يسببه السولاريوم.",
+                "مفيدة وصحية للبشرة دائماً.",
+                "تضر باليافعين بدرجة أقل مما تضر به البالغين."
+              ],
+              "fr": [
+                "peut endommager la peau tout autant que le solarium.",
+                "fait du bien à la peau.",
+                "nuit moins aux adolescents qu'aux adultes."
+              ]
+            }
+          }
+        }
+      },
+      "3": {
+        "instructions": {
+          "ar": "اقرأ المواقف من 13 إلى 19 والإعلانات من a إلى j من وسائل إعلام ناطقة بالألمانية. اختر: أي إعلان يناسب أي موقف؟ يمكنك استخدام كل إعلان مرة واحدة فقط. لا يمكنك استخدام إعلان المثال. إذا لم تجد إعلاناً مناسباً لأحد المواقف، فاكتب 0.",
+          "fr": "Lisez les situations 13 à 19 et les annonces a à j. Choisissez : quelle annonce correspond à quelle situation ? Chaque annonce ne peut être utilisée qu'une seule fois. Si aucune annonce ne convient, écrivez 0."
+        },
+        "situationsIntro": {
+          "ar": "لديك بعض المعارف من كبار السن الذين يحتاجون إلى مساعدة ويبحثون عن عروض مناسبة.",
+          "fr": "Vous avez plusieurs connaissances âgées qui ont besoin d'aide et recherchent des offres adaptées."
+        },
+        "ads": {
+          "a": {
+            "ar": "مطلوب موزعو صحف لمنشورات ميونخ الأسبوعية ومطبوعات الدعاية: مخصص فقط للطلاب والمتقاعدين. الأجر: حوالي 5-6 يورو للساعة، الوقت: 2-4 ساعات 1-2 مرة أسبوعياً في الأحياء السكنية.",
+            "fr": "Recherche distributeurs de journaux pour l'hebdomadaire de Munich et prospectus. Réservé aux étudiants et retraités. 5–6 €/h, 2–4h par semaine."
+          },
+          "A": {
+            "ar": "مطلوب موزعو صحف لمنشورات ميونخ الأسبوعية ومطبوعات الدعاية: مخصص فقط للطلاب والمتقاعدين. الأجر: حوالي 5-6 يورو للساعة، الوقت: 2-4 ساعات 1-2 مرة أسبوعياً في الأحياء السكنية.",
+            "fr": "Recherche distributeurs de journaux pour l'hebdomadaire de Munich et prospectus. Réservé aux étudiants et retraités. 5–6 €/h, 2–4h par semaine."
+          },
+          "b": {
+            "ar": "دورة لتعليم الحياكة: تعلم أصول وقواعد الحياكة والغزل وحياكة الكنزات والجوارب تحت إشراف خبير. مواعيد الدورة: كل سبت في نوفمبر من 14 إلى 18. شركة دومر للمنسوجات.",
+            "fr": "Cours de tricot : apprenez les techniques fondamentales du tricot, modèles, pulls et chaussettes avec Mme Mertel. En novembre de 14h à 18h."
+          },
+          "B": {
+            "ar": "دورة لتعليم الحياكة: تعلم أصول وقواعد الحياكة والغزل وحياكة الكنزات والجوارب تحت إشراف خبير. مواعيد الدورة: كل سبت في نوفمبر من 14 إلى 18. شركة دومر للمنسوجات.",
+            "fr": "Cours de tricot : apprenez les techniques fondamentales du tricot, modèles, pulls et chaussettes avec Mme Mertel. En novembre de 14h à 18h."
+          },
+          "c": {
+            "ar": "كل شيء من مصدر واحد: أعمال الكهرباء والدهان وتجديد المنازل والحمامات. مستعدون أيضاً للأعطال الصغيرة مثل تغيير المصابيح وإصلاح الصنبور. شركة MAW، هاتف: 089/331306.",
+            "fr": "Tous travaux par des professionnels : électricité, peinture, rénovation. Également disponibles pour les petits dépannages : changement d'ampoules, robinets qui fuient. Fa. MAW."
+          },
+          "C": {
+            "ar": "كل شيء من مصدر واحد: أعمال الكهرباء والدهان وتجديد المنازل والحمامات. مستعدون أيضاً للأعطال الصغيرة مثل تغيير المصابيح وإصلاح الصنبور. شركة MAW، هاتف: 089/331306.",
+            "fr": "Tous travaux par des professionnels : électricité, peinture, rénovation. Également disponibles pour les petits dépannages : changement d'ampoules, robinets qui fuient. Fa. MAW."
+          },
+          "d": {
+            "ar": "مطلوب معلمون وتربويون متقاعدون أو مهندسون لتقديم دروس تقوية في الرياضيات والفيزياء للمرحلتين المتوسطة والثانوية مع حرية تنظيم الوقت. هاتف: 07153/83633.",
+            "fr": "Recherche enseignants ou ingénieurs retraités pour donner des cours particuliers de maths et physique. Horaires flexibles à votre convenance. Tél : 07153 / 8 36 33."
+          },
+          "D": {
+            "ar": "مطلوب معلمون وتربويون متقاعدون أو مهندسون لتقديم دروس تقوية في الرياضيات والفيزياء للمرحلتين المتوسطة والثانوية مع حرية تنظيم الوقت. هاتف: 07153/83633.",
+            "fr": "Recherche enseignants ou ingénieurs retraités pour donner des cours particuliers de maths et physique. Horaires flexibles à votre convenance. Tél : 07153 / 8 36 33."
+          },
+          "e": {
+            "ar": "مطلوب مساعد للحديقة يمتلك خبرة مناسبة، فوراً وبساعات عمل مرنة. يشترط إتقان اللغة الألمانية. هاتف: 016090906947.",
+            "fr": "Recherche aide-jardinier avec expérience, disponible immédiatement, horaires flexibles. Tél : 0160 9090 6947."
+          },
+          "E": {
+            "ar": "مطلوب مساعد للحديقة يمتلك خبرة مناسبة، فوراً وبساعات عمل مرنة. يشترط إتقان اللغة الألمانية. هاتف: 016090906947.",
+            "fr": "Recherche aide-jardinier avec expérience, disponible immédiatement, horaires flexibles. Tél : 0160 9090 6947."
+          },
+          "f": {
+            "ar": "بستاني متمرس يتولى كافة أعمال الحديقة والصيانة باحترافية وأمانة. هاتف: 0176-78152396.",
+            "fr": "Jardinier qualifié prend en charge l'ensemble des travaux d'entretien de jardin. Tél : 0176-78152396."
+          },
+          "F": {
+            "ar": "بستاني متمرس يتولى كافة أعمال الحديقة والصيانة باحترافية وأمانة. هاتف: 0176-78152396.",
+            "fr": "Jardinier qualifié prend en charge l'ensemble des travaux d'entretien de jardin. Tél : 0176-78152396."
+          },
+          "g": {
+            "ar": "مطلوب مدبرة منزل لزوجين مسنين فوراً، إتقان الألمانية، 3 مرات أسبوعياً بواقع 4-5 ساعات للقيام بكافة الأعمال المنزلية مع الطبخ.",
+            "fr": "Recherche aide ménagère pour couple âgé, 3x par semaine (4–5h), ménage complet et cuisine."
+          },
+          "G": {
+            "ar": "مطلوب مدبرة منزل لزوجين مسنين فوراً، إتقان الألمانية، 3 مرات أسبوعياً بواقع 4-5 ساعات للقيام بكافة الأعمال المنزلية مع الطبخ.",
+            "fr": "Recherche aide ménagère pour couple âgé, 3x par semaine (4–5h), ménage complet et cuisine."
+          },
+          "h": {
+            "ar": "عالم الأشغال اليدوية: متجر متميز للأعمال اليدوية والخياطة، تشكيلة واسعة من الصوف وخيوط التطريز والأقمشة ودورات في فنون الحياكة. فرايبورغ، هاتف: 0761/2712153.",
+            "fr": "Le monde des travaux manuels : grand choix de laines, fils à broder et tissus. Cours de tricot et broderie. Fribourg, tél : 0761 / 2712153."
+          },
+          "H": {
+            "ar": "عالم الأشغال اليدوية: متجر متميز للأعمال اليدوية والخياطة، تشكيلة واسعة من الصوف وخيوط التطريز والأقمشة ودورات في فنون الحياكة. فرايبورغ، هاتف: 0761/2712153.",
+            "fr": "Le monde des travaux manuels : grand choix de laines, fils à broder et tissus. Cours de tricot et broderie. Fribourg, tél : 0761 / 2712153."
+          },
+          "i": {
+            "ar": "استوديو بيكرز لتصليح ماكينات الخياطة: تصليح سريع وبسعر مناسب وجودة عالية. خدمة استلام وتوصيل مجانية من المنزل! هاتف: 02202/43050.",
+            "fr": "Atelier Bäcker : réparations de machines à coudre rapides, économiques et soignées. Service d'enlèvement à domicile. Tél : 0 22 02 / 4 30 50."
+          },
+          "I": {
+            "ar": "استوديو بيكرز لتصليح ماكينات الخياطة: تصليح سريع وبسعر مناسب وجودة عالية. خدمة استلام وتوصيل مجانية من المنزل! هاتف: 02202/43050.",
+            "fr": "Atelier Bäcker : réparations de machines à coudre rapides, économiques et soignées. Service d'enlèvement à domicile. Tél : 0 22 02 / 4 30 50."
+          },
+          "j": {
+            "ar": "أبحث عن عمل لدى أسرة خاصة: رعاية كبار السن، قضاء المشتريات والتسوق، مرافقة في المشي ورعاية خفيفة. هاتف: 0176-36880948 أو 0761-42997472.",
+            "fr": "Recherche emploi auprès de particuliers : assistance aux personnes âgées, courses, promenades, aide légère. Tél : 0176-36880948."
+          },
+          "J": {
+            "ar": "أبحث عن عمل لدى أسرة خاصة: رعاية كبار السن، قضاء المشتريات والتسوق، مرافقة في المشي ورعاية خفيفة. هاتف: 0176-36880948 أو 0761-42997472.",
+            "fr": "Recherche emploi auprès de particuliers : assistance aux personnes âgées, courses, promenades, aide légère. Tél : 0176-36880948."
+          }
+        },
+        "13": {
+          "ar": "تعطل المصباح في غرفة معيشة السيد راتيناو، وللأسف لا يستطيع إصلاحه بمفرده.",
+          "fr": "La lampe du salon de M. Rathenau ne fonctionne plus. Seul, il ne parvient pas à réparer la panne.",
+          "text": {
+            "ar": "تعطل المصباح في غرفة معيشة السيد راتيناو، وللأسف لا يستطيع إصلاحه بمفرده.",
+            "fr": "La lampe du salon de M. Rathenau ne fonctionne plus. Seul, il ne parvient pas à réparer la panne."
+          }
+        },
+        "14": {
+          "ar": "كانت السيدة إيغرز معلمة رياضيات وهي متقاعدة الآن، وترغب في إعطاء دروس مجدداً من حين لآخر.",
+          "fr": "Mme Eggers était professeure de mathématiques et est à la retraite. Elle aimerait redonner des cours de temps en temps.",
+          "text": {
+            "ar": "كانت السيدة إيغرز معلمة رياضيات وهي متقاعدة الآن، وترغب في إعطاء دروس مجدداً من حين لآخر.",
+            "fr": "Mme Eggers était professeure de mathématiques et est à la retraite. Elle aimerait redonner des cours de temps en temps."
+          }
+        },
+        "15": {
+          "ar": "تعاني السيدة بويرله كثيراً من آلام الظهر، وتحتاج إلى شخص يتولى قضاء مشترياتها لعدم قدرتها على حمل الأشياء الثقيلة.",
+          "fr": "Mme Bäuerle a souvent mal au dos. Elle a besoin de quelqu'un pour faire ses courses car elle ne doit rien porter de lourd.",
+          "text": {
+            "ar": "تعاني السيدة بويرله كثيراً من آلام الظهر، وتحتاج إلى شخص يتولى قضاء مشترياتها لعدم قدرتها على حمل الأشياء الثقيلة.",
+            "fr": "Mme Bäuerle a souvent mal au dos. Elle a besoin de quelqu'un pour faire ses courses car elle ne doit rien porter de lourd."
+          }
+        },
+        "16": {
+          "ar": "يعشق الزوجان شوتيه حديقتهما كثيراً، لكنهما لم يعودا قادرين على الاعتناء بها بمفردهما.",
+          "fr": "Les époux Schütte adorent leur jardin par-dessus tout, mais ne peuvent plus l'entretenir seuls.",
+          "text": {
+            "ar": "يعشق الزوجان شوتيه حديقتهما كثيراً، لكنهما لم يعودا قادرين على الاعتناء بها بمفردهما.",
+            "fr": "Les époux Schütte adorent leur jardin par-dessus tout, mais ne peuvent plus l'entretenir seuls."
+          }
+        },
+        "17": {
+          "ar": "انتقلت مساعدة المنزل الخاصة بالسيد رويتر للعيش في مدينة أخرى، ولذلك فهو يبحث عن مساعدة منزلية جديدة.",
+          "fr": "L'aide ménagère de M. Reuter a déménagé dans une autre ville. Il en cherche donc une nouvelle.",
+          "text": {
+            "ar": "انتقلت مساعدة المنزل الخاصة بالسيد رويتر للعيش في مدينة أخرى، ولذلك فهو يبحث عن مساعدة منزلية جديدة.",
+            "fr": "L'aide ménagère de M. Reuter a déménagé dans une autre ville. Il en cherche donc une nouvelle."
+          }
+        },
+        "18": {
+          "ar": "كان السيد ماير ساعي بريد سابقاً، ويتقاضى معاشاً تقاعدياً جيداً، لكنه يشعر بالملل في المنزل ويبحث عن وظيفة بدوام جزئي.",
+          "fr": "M. Mayer était facteur. Il touche une bonne retraite mais s'ennuie chez lui et cherche un emploi à temps partiel.",
+          "text": {
+            "ar": "كان السيد ماير ساعي بريد سابقاً، ويتقاضى معاشاً تقاعدياً جيداً، لكنه يشعر بالملل في المنزل ويبحث عن وظيفة بدوام جزئي.",
+            "fr": "M. Mayer était facteur. Il touche une bonne retraite mais s'ennuie chez lui et cherche un emploi à temps partiel."
+          }
+        },
+        "19": {
+          "ar": "ترغب السيدة هيتزل في حياكة كنزات لأحفادها، وتحتاج إلى صوف موهير باللونين الأزرق والأبيض.",
+          "fr": "Mme Hetzel aimerait tricoter des pulls pour ses petits-enfants. Elle a besoin de laine mohair bleue et blanche.",
+          "text": {
+            "ar": "ترغب السيدة هيتزل في حياكة كنزات لأحفادها، وتحتاج إلى صوف موهير باللونين الأزرق والأبيض.",
+            "fr": "Mme Hetzel aimerait tricoter des pulls pour ses petits-enfants. Elle a besoin de laine mohair bleue et blanche."
+          }
+        },
+        "questions": {
+          "13": {
+            "ar": "تعطل المصباح في غرفة معيشة السيد راتيناو، وللأسف لا يستطيع إصلاحه بمفرده.",
+            "fr": "La lampe du salon de M. Rathenau ne fonctionne plus. Seul, il ne parvient pas à réparer la panne.",
+            "text": {
+              "ar": "تعطل المصباح في غرفة معيشة السيد راتيناو، وللأسف لا يستطيع إصلاحه بمفرده.",
+              "fr": "La lampe du salon de M. Rathenau ne fonctionne plus. Seul, il ne parvient pas à réparer la panne."
+            }
+          },
+          "14": {
+            "ar": "كانت السيدة إيغرز معلمة رياضيات وهي متقاعدة الآن، وترغب في إعطاء دروس مجدداً من حين لآخر.",
+            "fr": "Mme Eggers était professeure de mathématiques et est à la retraite. Elle aimerait redonner des cours de temps en temps.",
+            "text": {
+              "ar": "كانت السيدة إيغرز معلمة رياضيات وهي متقاعدة الآن، وترغب في إعطاء دروس مجدداً من حين لآخر.",
+              "fr": "Mme Eggers était professeure de mathématiques et est à la retraite. Elle aimerait redonner des cours de temps en temps."
+            }
+          },
+          "15": {
+            "ar": "تعاني السيدة بويرله كثيراً من آلام الظهر، وتحتاج إلى شخص يتولى قضاء مشترياتها لعدم قدرتها على حمل الأشياء الثقيلة.",
+            "fr": "Mme Bäuerle a souvent mal au dos. Elle a besoin de quelqu'un pour faire ses courses car elle ne doit rien porter de lourd.",
+            "text": {
+              "ar": "تعاني السيدة بويرله كثيراً من آلام الظهر، وتحتاج إلى شخص يتولى قضاء مشترياتها لعدم قدرتها على حمل الأشياء الثقيلة.",
+              "fr": "Mme Bäuerle a souvent mal au dos. Elle a besoin de quelqu'un pour faire ses courses car elle ne doit rien porter de lourd."
+            }
+          },
+          "16": {
+            "ar": "يعشق الزوجان شوتيه حديقتهما كثيراً، لكنهما لم يعودا قادرين على الاعتناء بها بمفردهما.",
+            "fr": "Les époux Schütte adorent leur jardin par-dessus tout, mais ne peuvent plus l'entretenir seuls.",
+            "text": {
+              "ar": "يعشق الزوجان شوتيه حديقتهما كثيراً، لكنهما لم يعودا قادرين على الاعتناء بها بمفردهما.",
+              "fr": "Les époux Schütte adorent leur jardin par-dessus tout, mais ne peuvent plus l'entretenir seuls."
+            }
+          },
+          "17": {
+            "ar": "انتقلت مساعدة المنزل الخاصة بالسيد رويتر للعيش في مدينة أخرى، ولذلك فهو يبحث عن مساعدة منزلية جديدة.",
+            "fr": "L'aide ménagère de M. Reuter a déménagé dans une autre ville. Il en cherche donc une nouvelle.",
+            "text": {
+              "ar": "انتقلت مساعدة المنزل الخاصة بالسيد رويتر للعيش في مدينة أخرى، ولذلك فهو يبحث عن مساعدة منزلية جديدة.",
+              "fr": "L'aide ménagère de M. Reuter a déménagé dans une autre ville. Il en cherche donc une nouvelle."
+            }
+          },
+          "18": {
+            "ar": "كان السيد ماير ساعي بريد سابقاً، ويتقاضى معاشاً تقاعدياً جيداً، لكنه يشعر بالملل في المنزل ويبحث عن وظيفة بدوام جزئي.",
+            "fr": "M. Mayer était facteur. Il touche une bonne retraite mais s'ennuie chez lui et cherche un emploi à temps partiel.",
+            "text": {
+              "ar": "كان السيد ماير ساعي بريد سابقاً، ويتقاضى معاشاً تقاعدياً جيداً، لكنه يشعر بالملل في المنزل ويبحث عن وظيفة بدوام جزئي.",
+              "fr": "M. Mayer était facteur. Il touche une bonne retraite mais s'ennuie chez lui et cherche un emploi à temps partiel."
+            }
+          },
+          "19": {
+            "ar": "ترغب السيدة هيتزل في حياكة كنزات لأحفادها، وتحتاج إلى صوف موهير باللونين الأزرق والأبيض.",
+            "fr": "Mme Hetzel aimerait tricoter des pulls pour ses petits-enfants. Elle a besoin de laine mohair bleue et blanche.",
+            "text": {
+              "ar": "ترغب السيدة هيتزل في حياكة كنزات لأحفادها، وتحتاج إلى صوف موهير باللونين الأزرق والأبيض.",
+              "fr": "Mme Hetzel aimerait tricoter des pulls pour ses petits-enfants. Elle a besoin de laine mohair bleue et blanche."
+            }
+          }
+        }
+      },
+      "4": {
+        "instructions": {
+          "ar": "اقرأ الآراء من 20 إلى 26. اختر: هل يؤيد هذا الشخص حظر الأكياس البلاستيكية؟ تقرأ في إحدى الصحف تعليقات القراء حول حماية البيئة والتلوث الناجم عن البلاستيك.",
+          "fr": "Lisez les avis 20 à 26. Choisissez : cette personne est-elle pour une interdiction des sacs plastiques ? Vous lisez des courriers de lecteurs sur la protection de l'environnement."
+        },
+        "topic": {
+          "ar": "هل ينبغي فرض حظر قانوني على الأكياس البلاستيكية؟",
+          "fr": "Faut-il interdire légalement les sacs en plastique ?"
+        },
+        "example": {
+          "who": "Franz (37, Berlin)",
+          "text": {
+            "ar": "الناس الذين يستخدمون الأكياس البلاستيكية أو يدخنون يشتركون في شيء واحد: إنهم بحاجة إلى من يلزمهم بما فيه مصلحتهم وسعادتهم. وحتى قبل 1 يناير 2008، كان الكثير من المدخنين يتطلعون إلى قانون حظر التدخين لأن القانون يدعمهم في مسعاهم للتقليل من التدخين. ولذلك أسأل نفسي بمنطقية: لماذا لا يتم أيضاً إلزام حاملي الأكياس البلاستيكية بما فيه صالحهم وصالح كوكبهم؟ يبدو ذلك منطقياً تماماً بالنسبة لي.",
+            "fr": "Ceux qui fument et ceux qui utilisent des sacs plastiques ont un point commun : ils ont besoin qu'on les force à faire ce qui est bon pour eux. Bien avant janvier 2008, de nombreux fumeurs se réjouissaient déjà de l'interdiction de fumer car la loi les épaulait dans leur volonté d'arrêter. Pourquoi n'en ferait-on pas autant pour contraindre les usagers de sacs en plastique ? Cela me paraît d'une logique implacable."
+          }
+        },
+        "letters": {
+          "20": {
+            "who": "Axel (26, Hameln)",
+            "text": {
+              "ar": "حظر الأكياس ليس الحل الأمثل. ومع ذلك، يمكن إلزام المتاجر بعدم تقديمها مجاناً، تماماً كما هو الحال في السوبرماركت. حينها سيفكر الكثيرون بدقة فيما إذا كانت كل كيس ضرورية في كل متجر أم يفضلون الاستغناء عنها. وبهذه الطريقة وحدها يمكننا تقليل الأكياس البلاستيكية.",
+              "fr": "L'interdiction pure et simple des sacs n'est pas la meilleure option. En revanche, on pourrait obliger les commerces à cesser de les distribuer gratuitement. Les gens réfléchiront alors à deux fois avant de demander un sac et préféreront s'en passer. Cela réduirait déjà considérablement leur nombre."
+            }
+          },
+          "21": {
+            "who": "Miriam (22, St. Moritz)",
+            "text": {
+              "ar": "أحمل دائماً معي حقيبة قماشية يمكن طيها لتصبح صغيرة الحجم، ويمكن فيها حمل كتب المكتبة وكذلك المشتريات وأي شيء آخر. في رأيي، تبدو الأكياس البلاستيكية قبيحة للغاية، بالإضافة إلى أن المرء يرميها في سلة المهملات عاجلاً أم آجلاً. هذه الأكياس ليست غير ضرورية فحسب، بل ضارة بالبيئة أيضاً.",
+              "fr": "J'ai toujours sur moi un sac en tissu pliable qui ne prend aucune place. Il me sert aussi bien pour rapporter des livres de la bibliothèque que pour mes courses. Les sacs plastiques sont affreux et finissent inévitablement à la poubelle. Ils sont parfaitement inutiles et polluants."
+            }
+          },
+          "22": {
+            "who": "Sarah (17, München)",
+            "text": {
+              "ar": "ولكن ماذا سنستخدم بديلاً عنها؟ أعتقد أن الأكياس الورقية ضارة بالبيئة أيضاً لأنها تتطلب قطع الأشجار. في رأيي، لم تعد الأكياس البلاستيكية مشكلة في ألمانيا؛ فالناس يتعاملون معها باقتصاد ويستخدمونها مراراً وتكراراً حتى تتمزق، ثم يتم تدويرها بعد ذلك. فما الضرر في ذلك؟",
+              "fr": "Mais que prendrions-nous à la place ? Les sacs en papier sont tout aussi néfastes pour l'environnement puisqu'il faut abattre des arbres. Selon moi, les sacs plastiques ne sont plus un problème en Allemagne : les gens les réutilisent jusqu'à usure avant de les recycler. Où est le mal ?"
+            }
+          },
+          "23": {
+            "who": "Tom (19, Salzburg)",
+            "text": {
+              "ar": "هل رأيتم من قبل صور الدلافين والسلاحف البحرية التي اختنقت بالأكياس البلاستيكية؟ في تلك اللحظة على أبعد تقدير ينبغي أن يدرك الجميع ضرورة تغيير عاداتنا واستخدام أشكال أخرى من التغليف. فالأكياس البلاستيكية لا تزيد من حجم القمامة فقط، بل تجلب الموت للكائنات الحية!",
+              "fr": "Avez-vous déjà vu des photos de dauphins ou de tortues de mer étouffés par des sacs en plastique ? Chacun devrait alors comprendre qu'il faut changer de modèle et bannir ces emballages. Les sacs plastiques ne créent pas seulement des tonnes de déchets, ils sèment la mort !"
+            }
+          },
+          "24": {
+            "who": "Madsen (50, Erlangen)",
+            "text": {
+              "ar": "في السابق كانت أكياس السوبرماركت البلاستيكية تُستخدم بالكامل تقريباً كأكياس للقمامة المنزلية. ومنذ أن أصبحت غير مجانية، أصبح الناس يشترون أكياس قمامة خاصة لأنها ضرورية في كل منزل. وبالمقارنة مع سائر النفايات البلاستيكية، لا تشكل الأكياس سوى نسبة ضئيلة نسبياً، ولذا لا داعي لإثارة كل هذه الضجة.",
+              "fr": "Autrefois, les sacs plastique étaient systématiquement réutilisés comme sacs-poubelle. Depuis qu'ils sont payants, on est contraints d'acheter des sacs-poubelle en plastique. Les sacs de caisse ne représentent qu'une infime fraction des déchets plastiques, inutile d'en faire tout un plat."
+            }
+          },
+          "25": {
+            "who": "Luisa (46, Konstanz)",
+            "text": {
+              "ar": "في ألمانيا تُجمع نفايات التغليف بدقة وعناية ألمانية فائقة، وتُعالج ويُعاد ضغطها لصنع أحواض للزهور أو مقاعد للحدائق أو أدوات أخرى. ولذلك لا نرى الشواطئ والمروج ممتلئة بالأكياس الملقاة، ولا تشكل الأكياس هنا مشكلة كبيرة. نحن لسنا بحاجة لقانون جديد ينظم ذلك.",
+              "fr": "En Allemagne, les emballages sont collectés avec une rigueur exemplaire, retraités et transformés en bacs à fleurs ou bancs publics. Nos plages et nos prés ne sont pas jonchés de sacs. Nous n'avons vraiment pas besoin d'une loi de plus."
+            }
+          },
+          "26": {
+            "who": "Frederike (27, Gera)",
+            "text": {
+              "ar": "قرأت قبل أيام أن هناك أشخاصاً استبعدوا البلاستيك تماماً من حياتهم، فلا يوجد في منازلهم غرض واحد مصنوع من البلاستيك. وأعتقد أن هذا هو هدفنا المنشود؛ فهكذا نحمي البيئة ونوفر موارد الأرض. وسيكون حظر الأكياس البلاستيكية خطوة أولى في الاتجاه الصحيح.",
+              "fr": "J'ai lu récemment que certaines personnes avaient totalement banni le plastique de leur quotidien et ne possèdent plus le moindre objet en plastique chez elles. C'est l'objectif que nous devrions viser. Une interdiction des sacs en plastique serait un premier pas décisif dans la bonne direction."
+            }
+          }
+        }
+      },
+      "5": {
+        "instructions": {
+          "ar": "اقرأ المهام من 27 إلى 30 والنص المرفق. اختر لكل مهمة الحل الصحيح: أ، ب، أو ج. ترغب في المشاركة مع كلبك في اختبارات رياضة الكلاب، والشرط الأساسي لذلك هو اجتياز اختبار كلب المرافقة، ولهذا تقرأ لوائح الاتحاد الألماني للكلاب (VDH).",
+          "fr": "Lisez les questions 27 à 30 et le texte. Choisissez la bonne réponse a, b ou c. Vous souhaitez participer à des concours canins et devez pour cela réussir le brevet de chien d'accompagnement (VDH)."
+        },
+        "articles": [
+          {
+            "heading": {
+              "ar": "شروط ولوائح اختبار كلب المرافقة (VDH)",
+              "fr": "Règlement du brevet de chien d'accompagnement (VDH)"
+            },
+            "body": {
+              "ar": [
+                "مواعيد الاختبارات: يمكن إقامة فعاليات الاختبار على مدار العام بأكمله إذا سمحت الأحوال الجوية بذلك ولم يكن هناك أي خطر يهدد سلامة وصحة الإنسان والحيوان. وفي غير ذلك، يجب العدول عن إقامة الفعالية وإلغاؤها، ويكون القرار في ذلك بيد مدير الاختبار المسؤول.",
+                "المشاركون في الاختبار: يتعين على المشارك الالتزام بالموعد النهائي لتقديم طلبات التسجيل. وبمجرد تقديم الطلب يلتزم المشارك بدفع رسوم الاشتراك. وإذا تعذر على المشارك الحضور لأي سبب، فيجب عليه إبلاغ مدير الاختبار فوراً بذلك. كما يجب الالتزام بجميع التعليمات البيطرية وقوانين حماية الحيوان المعمول بها في موقع الفعالية.",
+                "الكلاب المؤهلة للمشاركة: يُسمح بمشاركة الكلاب من جميع السلالات والأحجام بدءاً من سن خمسة عشر شهراً. ولإمكانية عقد الاختبار، يشترط مشاركة أربعة كلاب على الأقل، والحد الأقصى المسموح به للمشاركِين لكل مدير اختبار في اليوم الواحد هو 12 كلباً.",
+                "التقييم: الكلاب التي لا تحقق نسبة 70% من النقاط المطلوبة في الجزء A (الاختبار في ساحة التدريب) لا يُسمح لها بالانتقال للمشاركة في الجزء B (الاختبار العملي في حركة المرور العامة).",
+                "في نهاية الاختبار، لا تعلن النتائج بالنقاط بل بحكم عام «ناجح» أو «راسب» من قبل القاضي. ويعتبر الكلب ناجحاً إذا حقق 70% في الجزء A واعتبر مدير الاختبار أداءه في تمارين الجزء B كافياً ومُرضياً."
+              ],
+              "fr": [
+                "Dates des épreuves : les sessions peuvent se dérouler tout au long de l'année dès lors que la météo le permet sans mettre en danger la sécurité et la santé de l'homme et de l'animal. À défaut, la session doit être reportée ou annulée par le responsable d'épreuve.",
+                "Participants : le candidat doit respecter la date limite d'inscription. L'envoi du formulaire engage au paiement des frais d'inscription. En cas d'empêchement, il convient d'en aviser immédiatement le responsable. Les règles vétérinaires et de protection animale du site doivent être scrupuleusement observées.",
+                "Chiens admis : sont autorisés les chiens de toutes races et tailles âgés d'au moins quinze mois. Un minimum de quatre chiens est exigé pour valider une session, la limite étant fixée à 12 candidats par jour et par juge.",
+                "Évaluation : les chiens n'obtenant pas au moins 70 % des points lors de la partie A (sur terrain d'exercice) ne sont pas autorisés à se présenter à la partie B (en circulation urbaine).",
+                "À l'issue de l'épreuve, aucun barème chiffré n'est publié, seule la mention « Admis » ou « Ajourné » est prononcée. Le brevet est validé avec 70 % des points en partie A et une prestation jugée suffisante en partie B."
+              ]
+            }
+          }
+        ],
+        "questions": {
+          "27": {
+            "ar": "يجب على كل مشارك ...",
+            "fr": "Chaque participant doit ...",
+            "text": {
+              "ar": "يجب على كل مشارك ...",
+              "fr": "Chaque participant doit ..."
+            },
+            "options": {
+              "ar": [
+                "أن يكون عضواً في جمعية لحماية الحيوان.",
+                "دفع رسوم مالية للمشاركة في الاختبار.",
+                "عرض الكلب على طبيب بيطري لفحصه قبل بدء الاختبار."
+              ],
+              "fr": [
+                "être membre d'une association protectrice des animaux.",
+                "payer des frais d'inscription pour l'épreuve.",
+                "faire examiner son chien par un vétérinaire avant l'épreuve."
+              ]
+            }
+          },
+          "28": {
+            "ar": "للمشاركة في الجزء B من الاختبار ...",
+            "fr": "Pour pouvoir participer à la partie B de l'épreuve ...",
+            "text": {
+              "ar": "للمشاركة في الجزء B من الاختبار ...",
+              "fr": "Pour pouvoir participer à la partie B de l'épreuve ..."
+            },
+            "options": {
+              "ar": [
+                "يجب أن يكون الكلب قد اجتاز بنجاح الجزء A أولاً.",
+                "يمكن للكلب أن يحصل على ما يصل إلى 70 نقطة.",
+                "يمكن التدرب مع الكلب في ساحة التدريب قبل الاختبار."
+              ],
+              "fr": [
+                "le chien doit avoir réussi la partie A au préalable.",
+                "le chien peut obtenir jusqu'à 70 points.",
+                "on peut s'entraîner avec le chien sur le terrain avant l'épreuve."
+              ]
+            }
+          },
+          "29": {
+            "ar": "فعاليات الاختبار ...",
+            "fr": "Les sessions d'examen ...",
+            "text": {
+              "ar": "فعاليات الاختبار ...",
+              "fr": "Les sessions d'examen ..."
+            },
+            "options": {
+              "ar": [
+                "لا تُقام في حالة سوء الأحوال الجوية.",
+                "تُقام فقط في مواعيد محددة مسبقاً.",
+                "تُقام في أي وقت بإذن من مدير الاختبار."
+              ],
+              "fr": [
+                "n'ont pas lieu par mauvais temps.",
+                "n'ont lieu qu'à des dates prédéfinies.",
+                "ont lieu à tout moment avec l'autorisation du directeur d'épreuve."
+              ]
+            }
+          },
+          "30": {
+            "ar": "تنص شروط اختبار كلب المرافقة على ما يلي: ...",
+            "fr": "Pour le brevet de chien d'accompagnement : ...",
+            "text": {
+              "ar": "تنص شروط اختبار كلب المرافقة على ما يلي: ...",
+              "fr": "Pour le brevet de chien d'accompagnement : ..."
+            },
+            "options": {
+              "ar": [
+                "يُسمح بسلالات معينة فقط من الكلاب للمشاركة.",
+                "يوجد حد أدنى لسن الكلب للمشاركة في الاختبار.",
+                "لا يُقام الاختبار إذا قل عدد المشاركين عن اثني عشر كلباً."
+              ],
+              "fr": [
+                "seules certaines races de chiens sont autorisées.",
+                "il existe un âge minimum imposé pour les chiens.",
+                "l'épreuve n'a pas lieu s'il y a moins de douze candidats."
+              ]
+            }
+          }
+        }
+      },
+      "6": {
+        "instructions": {
+          "ar": "قسم الاستماع (Hören): يتكون من 4 أجزاء و30 مهمة. استمع إلى التسجيلات الصوتية وأجب عن الأسئلة المرفقة.",
+          "fr": "Module Compréhension orale : 4 parties, 30 questions. Écoutez les enregistrements audio et répondez aux questions correspondantes."
+        },
+        "teile": {
+          "1": {
+            "title": {
+              "ar": "الجزء 1: خمسة نصوص قصيرة",
+              "fr": "Partie 1 : Cinq textes courts"
+            },
+            "desc": {
+              "ar": "ستستمع الآن إلى خمسة نصوص قصيرة. ستستمع إلى كل نص مرتين. لكل نص مهمتان. اختر الحل الصحيح لكل مهمة.",
+              "fr": "Vous allez entendre cinq textes courts. Vous écouterez chaque texte deux fois. Pour chaque texte, résolvez deux questions."
+            },
+            "context": {
+              "ar": "إعلانات الراديو ومسابقات المدارس والرد الآلي للهاتف ونشرات الأخبار.",
+              "fr": "Annonces radiophoniques, concours scolaires, répondeurs téléphoniques et actualités."
+            }
+          },
+          "2": {
+            "title": {
+              "ar": "الجزء 2: جولة في حديقة حيوان هاغ",
+              "fr": "Partie 2 : Visite guidée au parc animalier de Haag"
+            },
+            "desc": {
+              "ar": "ستستمع الآن إلى نص واحد مرة واحدة فقط. أجب عن المهام الخمس باختيار: أ، ب، أو ج.",
+              "fr": "Vous allez entendre un exposé une seule fois. Résolvez les cinq questions en choisissant a, b ou c."
+            },
+            "context": {
+              "ar": "أنت في زيارة مدرسية لحديقة حيوان هاغ وتستمع لإرشادات ومعلومات المرشد.",
+              "fr": "Vous participez à une sortie scolaire au parc animalier de Haag et écoutez les consignes du responsable."
+            }
+          },
+          "3": {
+            "title": {
+              "ar": "الجزء 3: محادثة عائلية في المطعم حول شراء منزل",
+              "fr": "Partie 3 : Discussion familiale au restaurant sur l'achat d'un logement"
+            },
+            "desc": {
+              "ar": "ستستمع الآن إلى محادثة عفوية مرة واحدة فقط. أجب عن المهام السبع: هل العبارات صحيحة أم خاطئة؟",
+              "fr": "Vous allez entendre une conversation une seule fois. Résolvez les sept questions : les affirmations sont-elles vraies ou fausses ?"
+            },
+            "context": {
+              "ar": "تجلس في مطعم وتسمع والدين وابنهما يتناقشون حول شراء منزل مستقل أم شقة سكنية.",
+              "fr": "Vous êtes assis dans un restaurant et écoutez des parents et leur fils débattre de l'achat d'une maison ou d'un appartement."
+            }
+          },
+          "4": {
+            "title": {
+              "ar": "الجزء 4: نقاش إذاعي حول توفير وادخار المال",
+              "fr": "Partie 4 : Débat radiophonique sur l'épargne et la gestion de l'argent"
+            },
+            "desc": {
+              "ar": "ستستمع الآن إلى نقاش إذاعي مرتين. حدد المتحدث لكل عبارة: الصحفية، ألكسندر كلاين، أم كاتيا غريفه.",
+              "fr": "Vous allez écouter une discussion radiophonique deux fois. Attribuez chaque affirmation à la bonne personne."
+            },
+            "context": {
+              "ar": "تناقش صحفية خبير المصارف ألكسندر كلاين والطفلة كاتيا غريفه بمناسبة يوم الادخار العالمي حول ثقافة التوفير.",
+              "fr": "Une journaliste débat avec le banquier Alexander Klein et la jeune Katja Grewe de l'apprentissage de l'épargne."
+            }
+          }
+        },
+        "questions": {
+          "h1": {
+            "ar": "هناك مسابقة موجهة لطلاب المدارس.",
+            "fr": "Un concours est organisé pour les élèves.",
+            "text": {
+              "ar": "هناك مسابقة موجهة لطلاب المدارس.",
+              "fr": "Un concours est organisé pour les élèves."
+            }
+          },
+          "h2": {
+            "ar": "من يمكنه المشاركة في المسابقة؟",
+            "fr": "Qui peut participer au concours ?",
+            "text": {
+              "ar": "من يمكنه المشاركة في المسابقة؟",
+              "fr": "Qui peut participer au concours ?"
+            },
+            "options": {
+              "ar": [
+                "الأطفال الذين تتراوح أعمارهم بين 8 و10 سنوات.",
+                "أولياء أمور الطلاب في بافاريا.",
+                "طلاب المرحلة الإعدادية التقنية من الصفوف 8 و9 و10."
+              ],
+              "fr": [
+                "Les enfants âgés de 8 à 10 ans.",
+                "Les parents d'élèves bavarois.",
+                "Les élèves de Realschule des classes de 8, 9 et 10."
+              ]
+            }
+          },
+          "h3": {
+            "ar": "أنت تستمع إلى برنامج حفلات دار الأوركسترا الفيلهارمونية.",
+            "fr": "Vous écoutez le programme des concerts de la Philharmonie.",
+            "text": {
+              "ar": "أنت تستمع إلى برنامج حفلات دار الأوركسترا الفيلهارمونية.",
+              "fr": "Vous écoutez le programme des concerts de la Philharmonie."
+            }
+          },
+          "h4": {
+            "ar": "كيف يمكن الاستعلام والحصول على معلومات حول الاشتراكات الموسيقية؟",
+            "fr": "Comment peut-on se renseigner sur les abonnements ?",
+            "text": {
+              "ar": "كيف يمكن الاستعلام والحصول على معلومات حول الاشتراكات الموسيقية؟",
+              "fr": "Comment peut-on se renseigner sur les abonnements ?"
+            },
+            "options": {
+              "ar": [
+                "عبر الهاتف.",
+                "من خلال موقع الإنترنت.",
+                "بواسطة البريد الإلكتروني."
+              ],
+              "fr": [
+                "Par téléphone.",
+                "Sur Internet.",
+                "Par e-mail."
+              ]
+            }
+          },
+          "h5": {
+            "ar": "يجري بناء محطة قطار جديدة في زيورخ.",
+            "fr": "Une gare est en cours de construction à Zurich.",
+            "text": {
+              "ar": "يجري بناء محطة قطار جديدة في زيورخ.",
+              "fr": "Une gare est en cours de construction à Zurich."
+            }
+          },
+          "h6": {
+            "ar": "تستغرق أعمال التجديد والبناء ...",
+            "fr": "Les travaux d'aménagement durent ...",
+            "text": {
+              "ar": "تستغرق أعمال التجديد والبناء ...",
+              "fr": "Les travaux d'aménagement durent ..."
+            },
+            "options": {
+              "ar": [
+                "أقل من عام واحد.",
+                "أكثر من عام واحد.",
+                "أربعة أعوام."
+              ],
+              "fr": [
+                "moins d'un an.",
+                "plus d'un an.",
+                "quatre ans."
+              ]
+            }
+          },
+          "h7": {
+            "ar": "أنت تستمع إلى إعلان ترويجي لرحلة سياحية.",
+            "fr": "Vous entendez une publicité pour un voyage.",
+            "text": {
+              "ar": "أنت تستمع إلى إعلان ترويجي لرحلة سياحية.",
+              "fr": "Vous entendez une publicité pour un voyage."
+            }
+          },
+          "h8": {
+            "ar": "أين يقضي المسافرون هذه العطلة؟",
+            "fr": "Où passe-t-on ces vacances ?",
+            "text": {
+              "ar": "أين يقضي المسافرون هذه العطلة؟",
+              "fr": "Où passe-t-on ces vacances ?"
+            },
+            "options": {
+              "ar": [
+                "في مدينة كولبرغ نفسها.",
+                "على ساحل بحر البلطيق.",
+                "على ساحل بحر الشمال."
+              ],
+              "fr": [
+                "À Kolberg.",
+                "Au bord de la mer Baltique.",
+                "Au bord de la mer du Nord."
+              ]
+            }
+          },
+          "h9": {
+            "ar": "أنت تستمع إلى نشرة أخبار حول ألمانيا.",
+            "fr": "Vous entendez des informations consacrées à l'Allemagne.",
+            "text": {
+              "ar": "أنت تستمع إلى نشرة أخبار حول ألمانيا.",
+              "fr": "Vous entendez des informations consacrées à l'Allemagne."
+            }
+          },
+          "h10": {
+            "ar": "من الذي عثر على لوحة أرقام الدراجة النارية المفقودة؟",
+            "fr": "Qui a retrouvé la plaque d'immatriculation ?",
+            "text": {
+              "ar": "من الذي عثر على لوحة أرقام الدراجة النارية المفقودة؟",
+              "fr": "Qui a retrouvé la plaque d'immatriculation ?"
+            },
+            "options": {
+              "ar": [
+                "رجل من مدينة ميونخ.",
+                "سائق دراجة نارية آخر.",
+                "رجال الشرطة."
+              ],
+              "fr": [
+                "Un homme de Munich.",
+                "Un motocycliste.",
+                "La police."
+              ]
+            }
+          },
+          "h11": {
+            "ar": "حديقة الحيوان قائمة ومفتوحة منذ عام ...",
+            "fr": "Le parc animalier existe depuis ...",
+            "text": {
+              "ar": "حديقة الحيوان قائمة ومفتوحة منذ عام ...",
+              "fr": "Le parc animalier existe depuis ..."
+            },
+            "options": {
+              "ar": [
+                "1900.",
+                "1970.",
+                "1973."
+              ],
+              "fr": [
+                "1900.",
+                "1970.",
+                "1973."
+              ]
+            }
+          },
+          "h12": {
+            "ar": "ما الحيوانات التي يفضل الأطفال مشاهدتها أكثر في الحديقة؟",
+            "fr": "Quels animaux les enfants préfèrent-ils observer ?",
+            "text": {
+              "ar": "ما الحيوانات التي يفضل الأطفال مشاهدتها أكثر في الحديقة؟",
+              "fr": "Quels animaux les enfants préfèrent-ils observer ?"
+            },
+            "options": {
+              "ar": [
+                "النمور.",
+                "القرود.",
+                "الطيور."
+              ],
+              "fr": [
+                "Les tigres.",
+                "Les singes.",
+                "Les oiseaux."
+              ]
+            }
+          },
+          "h13": {
+            "ar": "يقوم المتحدث والمرشد بتوزيع ...",
+            "fr": "Le guide distribue ...",
+            "text": {
+              "ar": "يقوم المتحدث والمرشد بتوزيع ...",
+              "fr": "Le guide distribue ..."
+            },
+            "options": {
+              "ar": [
+                "دفاتر رسم بيضاء.",
+                "أقلام تلوين.",
+                "أوراق عمل وأسئلة."
+              ],
+              "fr": [
+                "des blocs à dessin.",
+                "des crayons de couleur.",
+                "des fiches de travail."
+              ]
+            }
+          },
+          "h14": {
+            "ar": "يتعين دفع رسوم مالية إضافية مقابل ...",
+            "fr": "Il faut payer un supplément pour ...",
+            "text": {
+              "ar": "يتعين دفع رسوم مالية إضافية مقابل ...",
+              "fr": "Il faut payer un supplément pour ..."
+            },
+            "options": {
+              "ar": [
+                "ألعاب التسلق والحبال.",
+                "ملعب الأطفال الترفيهي.",
+                "ركوب الخيل والمهر."
+              ],
+              "fr": [
+                "l'escalade.",
+                "l'aire de jeux pour enfants.",
+                "l'équitation / le poney."
+              ]
+            }
+          },
+          "h15": {
+            "ar": "ما الذي ينبغي على الزائر فعله في حديقة الحيوان؟",
+            "fr": "Que doit-on faire dans le parc animalier ?",
+            "text": {
+              "ar": "ما الذي ينبغي على الزائر فعله في حديقة الحيوان؟",
+              "fr": "Que doit-on faire dans le parc animalier ?"
+            },
+            "options": {
+              "ar": [
+                "تشغيل الموسيقى والآلات الموسيقية.",
+                "قراءة اللوحات واللافتات الإرشادية.",
+                "التزلج بألواح السكيت بورد."
+              ],
+              "fr": [
+                "Jouer de la musique.",
+                "Lire les panneaux d'information.",
+                "Faire du skateboard."
+              ]
+            }
+          },
+          "h16": {
+            "ar": "المنزل أغلى بكثير من الشقة السكنية.",
+            "fr": "La maison est beaucoup plus chère que l'appartement.",
+            "text": {
+              "ar": "المنزل أغلى بكثير من الشقة السكنية.",
+              "fr": "La maison est beaucoup plus chère que l'appartement."
+            }
+          },
+          "h17": {
+            "ar": "الشقة السكنية أحدث بناءً من المنزل.",
+            "fr": "L'appartement est plus récent que la maison.",
+            "text": {
+              "ar": "الشقة السكنية أحدث بناءً من المنزل.",
+              "fr": "L'appartement est plus récent que la maison."
+            }
+          },
+          "h18": {
+            "ar": "تمتلك الأسرة كلباً حالياً.",
+            "fr": "La famille possède actuellement un chien.",
+            "text": {
+              "ar": "تمتلك الأسرة كلباً حالياً.",
+              "fr": "La famille possède actuellement un chien."
+            }
+          },
+          "h19": {
+            "ar": "ترى الأم أن وجود جيران في نفس المبنى أمر إيجابي ومستحب.",
+            "fr": "La mère trouve positif d'avoir des voisins dans le même immeuble.",
+            "text": {
+              "ar": "ترى الأم أن وجود جيران في نفس المبنى أمر إيجابي ومستحب.",
+              "fr": "La mère trouve positif d'avoir des voisins dans le même immeuble."
+            }
+          },
+          "h20": {
+            "ar": "يعد لينارد بالمساعدة في أعمال الحديقة.",
+            "fr": "Lennard promet d'aider aux travaux de jardinage.",
+            "text": {
+              "ar": "يعد لينارد بالمساعدة في أعمال الحديقة.",
+              "fr": "Lennard promet d'aider aux travaux de jardinage."
+            }
+          },
+          "h21": {
+            "ar": "المنزل يحتوي على عدد غرف أكثر من الشقة.",
+            "fr": "La maison a plus de pièces que l'appartement.",
+            "text": {
+              "ar": "المنزل يحتوي على عدد غرف أكثر من الشقة.",
+              "fr": "La maison a plus de pièces que l'appartement."
+            }
+          },
+          "h22": {
+            "ar": "والد لينارد مهندس معماري.",
+            "fr": "Le père de Lennard est architecte.",
+            "text": {
+              "ar": "والد لينارد مهندس معماري.",
+              "fr": "Le père de Lennard est architecte."
+            }
+          },
+          "h23": {
+            "ar": "من يقوم بإيداع أمواله في حسابه يوم الادخار العالمي يحصل على هدية تذكارية صغيرة.",
+            "fr": "Ceux qui déposent leur argent sur un compte lors de la Journée de l'épargne reçoivent un petit cadeau.",
+            "text": {
+              "ar": "من يقوم بإيداع أمواله في حسابه يوم الادخار العالمي يحصل على هدية تذكارية صغيرة.",
+              "fr": "Ceux qui déposent leur argent sur un compte lors de la Journée de l'épargne reçoivent un petit cadeau."
+            },
+            "options": {
+              "ar": [
+                "الصحفية",
+                "ألكسندر كلاين",
+                "كاتيا غريفه"
+              ],
+              "fr": [
+                "La journaliste",
+                "Alexander Klein",
+                "Katja Grewe"
+              ]
+            }
+          },
+          "h24": {
+            "ar": "التجربة الأولى في مصرف التوفير لم تكن سارة ومبهجة.",
+            "fr": "La première expérience à la banque n'a pas été agréable.",
+            "text": {
+              "ar": "التجربة الأولى في مصرف التوفير لم تكن سارة ومبهجة.",
+              "fr": "La première expérience à la banque n'a pas été agréable."
+            },
+            "options": {
+              "ar": [
+                "الصحفية",
+                "ألكسندر كلاين",
+                "كاتيا غريفه"
+              ],
+              "fr": [
+                "La journaliste",
+                "Alexander Klein",
+                "Katja Grewe"
+              ]
+            }
+          },
+          "h25": {
+            "ar": "الأطفال يطرحون الكثير من التساؤلات والاستفسارات.",
+            "fr": "Les enfants posent beaucoup de questions.",
+            "text": {
+              "ar": "الأطفال يطرحون الكثير من التساؤلات والاستفسارات.",
+              "fr": "Les enfants posent beaucoup de questions."
+            },
+            "options": {
+              "ar": [
+                "الصحفية",
+                "ألكسندر كلاين",
+                "كاتيا غريفه"
+              ],
+              "fr": [
+                "La journaliste",
+                "Alexander Klein",
+                "Katja Grewe"
+              ]
+            }
+          },
+          "h26": {
+            "ar": "دفتر التوفير كان هدية مقدمة من الجد.",
+            "fr": "Le livret d'épargne était un cadeau du grand-père.",
+            "text": {
+              "ar": "دفتر التوفير كان هدية مقدمة من الجد.",
+              "fr": "Le livret d'épargne était un cadeau du grand-père."
+            },
+            "options": {
+              "ar": [
+                "الصحفية",
+                "ألكسندر كلاين",
+                "كاتيا غريفه"
+              ],
+              "fr": [
+                "La journaliste",
+                "Alexander Klein",
+                "Katja Grewe"
+              ]
+            }
+          },
+          "h27": {
+            "ar": "الكثير من البالغين يقومون بالشراء عبر الاقتراض وأخذ القروض.",
+            "fr": "Beaucoup d'adultes achètent à crédit.",
+            "text": {
+              "ar": "الكثير من البالغين يقومون بالشراء عبر الاقتراض وأخذ القروض.",
+              "fr": "Beaucoup d'adultes achètent à crédit."
+            },
+            "options": {
+              "ar": [
+                "الصحفية",
+                "ألكسندر كلاين",
+                "كاتيا غريفه"
+              ],
+              "fr": [
+                "La journaliste",
+                "Alexander Klein",
+                "Katja Grewe"
+              ]
+            }
+          },
+          "h28": {
+            "ar": "لا داعي للقلق والريبة بشأن الأموال المودعة في البنك.",
+            "fr": "Il ne faut pas s'inquiéter pour son argent déposé à la banque.",
+            "text": {
+              "ar": "لا داعي للقلق والريبة بشأن الأموال المودعة في البنك.",
+              "fr": "Il ne faut pas s'inquiéter pour son argent déposé à la banque."
+            },
+            "options": {
+              "ar": [
+                "الصحفية",
+                "ألكسندر كلاين",
+                "كاتيا غريفه"
+              ],
+              "fr": [
+                "La journaliste",
+                "Alexander Klein",
+                "Katja Grewe"
+              ]
+            }
+          },
+          "h29": {
+            "ar": "تقع بلدة أويسكيرشن بالقرب من مدينة بون.",
+            "fr": "Euskirchen se situe à proximité de Bonn.",
+            "text": {
+              "ar": "تقع بلدة أويسكيرشن بالقرب من مدينة بون.",
+              "fr": "Euskirchen se situe à proximité de Bonn."
+            },
+            "options": {
+              "ar": [
+                "الصحفية",
+                "ألكسندر كلاين",
+                "كاتيا غريفه"
+              ],
+              "fr": [
+                "La journaliste",
+                "Alexander Klein",
+                "Katja Grewe"
+              ]
+            }
+          },
+          "h30": {
+            "ar": "يحصل المرء على أموال وأرباح إضافية من البنك كلما ادخر أموالاً أكثر.",
+            "fr": "On reçoit plus d'argent de la banque lorsqu'on épargne beaucoup.",
+            "text": {
+              "ar": "يحصل المرء على أموال وأرباح إضافية من البنك كلما ادخر أموالاً أكثر.",
+              "fr": "On reçoit plus d'argent de la banque lorsqu'on épargne beaucoup."
+            },
+            "options": {
+              "ar": [
+                "الصحفية",
+                "ألكسندر كلاين",
+                "كاتيا غريفه"
+              ],
+              "fr": [
+                "La journaliste",
+                "Alexander Klein",
+                "Katja Grewe"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

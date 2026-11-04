@@ -120,6 +120,7 @@ testExam("modellsatz-18");
 testExam("modellsatz-19");
 testExam("modellsatz-20");
 testExam("modellsatz-21");
+testExam("modellsatz-22");
 console.log("\\n🎉 ALL 6 TEILE FULLY TESTED AND VERIFIED IN GERMAN, FRENCH AND ARABIC!");
 `;
 
