@@ -221,5 +221,16 @@
     "partsCount": 6,
     "questionsCount": 50,
     "fileName": "data/tests/modellsatz-20.json"
+  },
+  {
+    "id": "modellsatz-21",
+    "title": "Modelltest 15 — Hueber Zertifikat B1",
+    "badge": "Modelltest 15",
+    "examTitle": "Goethe / ÖSD B1 Prüfungssimulation — Modelltest 15",
+    "examSub": "Lesen (5 Teile) & Hören (4 Teile) · Modelltest 15 (Hueber)",
+    "timeTotal": 65,
+    "partsCount": 6,
+    "questionsCount": 50,
+    "fileName": "data/tests/modellsatz-21.json"
   }
 ]
