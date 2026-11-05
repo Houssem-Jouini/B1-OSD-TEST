@@ -88,6 +88,12 @@ manifest.forEach((item, idx) => {
     if (Array.isArray(part.questions)) {
       part.questions.forEach(q => checkQuestion(q, `Part ${part.id}`));
     }
+    if (Array.isArray(part.questions2)) {
+      part.questions2.forEach(q => checkQuestion(q, `Part ${part.id} (Batch 2)`));
+    }
+    if (!Array.isArray(part.questions) && Array.isArray(part.letters)) {
+      part.letters.forEach(l => checkQuestion(l, `Part ${part.id} (Letters)`));
+    }
     if (Array.isArray(part.teile)) {
       part.teile.forEach(t => {
         if (Array.isArray(t.questions)) {
@@ -102,6 +108,23 @@ manifest.forEach((item, idx) => {
   if (expCount === 0) {
     console.warn(`  ⚠️ Notice: No custom explanations attached`);
     totalWarnings++;
+  } else {
+    qIds.forEach(qid => {
+      const e = test.explanations[String(qid)];
+      if (!e) {
+        console.error(`  ❌ Error: Missing explanation for question '${qid}'`);
+        totalErrors++;
+      } else {
+        if (!e.whyCorrect || !e.whyCorrect.de || !e.whyCorrect.fr || !e.whyCorrect.ar) {
+          console.error(`  ❌ Error: Incomplete whyCorrect (de/fr/ar) for question '${qid}'`);
+          totalErrors++;
+        }
+        if (!e.whyIncorrect || !e.whyIncorrect.de || !e.whyIncorrect.fr || !e.whyIncorrect.ar) {
+          console.error(`  ❌ Error: Incomplete whyIncorrect (de/fr/ar) for question '${qid}'`);
+          totalErrors++;
+        }
+      }
+    });
   }
 
   console.log(`  ✓ Parts: ${test.parts.length} | Questions: ${questionCount} | Explanations: ${expCount}`);

@@ -1339,304 +1339,784 @@
   ],
   "explanations": {
     "1": {
-      "text": "💡 Lösung: Richtig.\nIm Text steht: Frau Mohlau wohnt „im Generationen-Wohnheim bei uns in der Nähe“. Sie wohnt also nicht weit von Alois entfernt.",
-      "fr": "💡 Solution : Vrai (Richtig).\nLe texte indique que Mme Mohlau habite « dans la résidence intergénérationnelle tout près de chez nous » (im Generationen-Wohnheim bei uns in der Nähe). Elle habite donc bien non loin d'Alois.",
-      "ar": "💡 الحل: صحيح (Richtig).\nورد في النص أن السيدة مولاو تسكن «في دار السكن بين الأجيال بالقرب منا» (im Generationen-Wohnheim bei uns in der Nähe)، أي أنها تسكن غير بعيد عن ألويس."
+      "quote": "im Generationen-Wohnheim bei uns in der Nähe",
+      "whyCorrect": {
+        "de": "Lösung: Richtig. Im Text steht: Frau Mohlau wohnt „im Generationen-Wohnheim bei uns in der Nähe“. Sie wohnt also nicht weit von Alois entfernt.",
+        "fr": "Solution : Vrai (Richtig). Le texte indique que Mme Mohlau habite « dans la résidence intergénérationnelle tout près de chez nous » (im Generationen-Wohnheim bei uns in der Nähe). Elle habite donc bien non loin d'Alois.",
+        "ar": "الحل: صحيح (Richtig). ورد في النص أن السيدة مولاو تسكن «في دار السكن بين الأجيال بالقرب منا» (im Generationen-Wohnheim bei uns in der Nähe)، أي أنها تسكن غير بعيد عن ألويس."
+      },
+      "whyIncorrect": {
+        "de": "„Falsch“ ist hier nicht zutreffend, da die Aussage („Frau Mohlau wohnt nicht weit von Alois entfernt.“) durch den Textbeleg eindeutig bestätigt wird.",
+        "fr": "Choisir « Faux » (Falsch) est incorrect, car l'affirmation (« Mme Mohlau habite non loin de chez Alois. ») est explicitement confirmée par le texte.",
+        "ar": "اختيار «خطأ» (Falsch) غير صحيح، لأن العبارة («تسكن السيدة مولاو على مسافة غير بعيدة من ألويس.») مؤكدة بوضوح في النص."
+      }
     },
     "2": {
-      "text": "💡 Lösung: Falsch.\nFrau Mohlau wohnt allein in ihrem Appartement. Die Mutter mit ihrem Kind und die zwei Lehrlinge leben nicht in ihrer Wohnung, sondern „in den Wohnungen nebenan“.",
-      "fr": "💡 Solution : Faux (Falsch).\nMme Mohlau vit seule dans son appartement. La mère célibataire avec son enfant et les deux apprentis vivent dans les appartements voisins (in den Wohnungen nebenan), et non chez elle.",
-      "ar": "💡 الحل: خطأ (Falsch).\nالسيدة مولاو تعيش بمفردها في شقتها؛ بينما تعيش الأم العازبة مع طفلها والمتدربان «في الشقق المجاورة» (in den Wohnungen nebenan) وليس داخل شقتها."
+      "quote": "in den Wohnungen nebenan",
+      "whyCorrect": {
+        "de": "Lösung: Falsch. Frau Mohlau wohnt allein in ihrem Appartement. Die Mutter mit ihrem Kind und die zwei Lehrlinge leben nicht in ihrer Wohnung, sondern „in den Wohnungen nebenan“.",
+        "fr": "Solution : Faux (Falsch). Mme Mohlau vit seule dans son appartement. La mère célibataire avec son enfant et les deux apprentis vivent dans les appartements voisins (in den Wohnungen nebenan), et non chez elle.",
+        "ar": "الحل: خطأ (Falsch). السيدة مولاو تعيش بمفردها في شقتها؛ بينما تعيش الأم العازبة مع طفلها والمتدربان «في الشقق المجاورة» (in den Wohnungen nebenan) وليس داخل شقتها."
+      },
+      "whyIncorrect": {
+        "de": "„Richtig“ wäre falsch, da die Aussage („In Frau Mohlaus Wohnung wohnt auch eine Mutter mit ihrem Kind.“) im direkten Widerspruch zur genannten Textstelle steht.",
+        "fr": "Choisir « Vrai » (Richtig) est incorrect, car l'affirmation (« Une mère et son enfant vivent également dans l'appartement de Mme Mohlau. ») contredit directement les informations du texte.",
+        "ar": "اختيار «صحيح» (Richtig) غير سليم، لأن العبارة («تسكن أيضاً أم مع طفلها داخل شقة السيدة مولاو.») تتعارض بشكل مباشر مع ما ورد في النص."
+      }
     },
     "3": {
-      "text": "💡 Lösung: Richtig.\nFrau Mohlau entschied sich für das Wohnheim, „weil sie hier betreut wird, wenn sie es braucht, ohne ihre Selbstständigkeit aufgeben zu müssen“. Selbstständigkeit ist ihr somit sehr wichtig.",
-      "fr": "💡 Solution : Vrai (Richtig).\nMme Mohlau a choisi de s'y installer parce qu'elle y reçoit de l'aide si besoin « sans devoir renoncer à son autonomie » (ohne ihre Selbstständigkeit aufgeben zu müssen).",
-      "ar": "💡 الحل: صحيح (Richtig).\nاختارت السيدة مولاو الانتقال إلى هناك لأنها تحظى بالرعاية عند الحاجة «دون أن تضطر للتخلي عن استقلاليتها» (ohne ihre Selbstständigkeit aufgeben zu müssen)."
+      "quote": "weil sie hier betreut wird, wenn sie es braucht, ohne ihre Selbstständigkeit aufgeben zu müssen",
+      "whyCorrect": {
+        "de": "Lösung: Richtig. Frau Mohlau entschied sich für das Wohnheim, „weil sie hier betreut wird, wenn sie es braucht, ohne ihre Selbstständigkeit aufgeben zu müssen“. Selbstständigkeit ist ihr somit sehr wichtig.",
+        "fr": "Solution : Vrai (Richtig). Mme Mohlau a choisi de s'y installer parce qu'elle y reçoit de l'aide si besoin « sans devoir renoncer à son autonomie » (ohne ihre Selbstständigkeit aufgeben zu müssen).",
+        "ar": "الحل: صحيح (Richtig). اختارت السيدة مولاو الانتقال إلى هناك لأنها تحظى بالرعاية عند الحاجة «دون أن تضطر للتخلي عن استقلاليتها» (ohne ihre Selbstständigkeit aufgeben zu müssen)."
+      },
+      "whyIncorrect": {
+        "de": "„Falsch“ ist hier nicht zutreffend, da die Aussage („Der alten Dame ist es wichtig, selbstständig zu leben.“) durch den Textbeleg eindeutig bestätigt wird.",
+        "fr": "Choisir « Faux » (Falsch) est incorrect, car l'affirmation (« Il est important pour la dame âgée de vivre de manière autonome. ») est explicitement confirmée par le texte.",
+        "ar": "اختيار «خطأ» (Falsch) غير صحيح، لأن العبارة («من المهم بالنسبة للسيدة المسنة أن تعيش باستقلالية.») مؤكدة بوضوح في النص."
+      }
     },
     "4": {
-      "text": "💡 Lösung: Richtig.\nIm Text heißt es ausdrücklich: „... passt sie zweimal die Woche auf das Kind ihrer Nachbarin auf.“ Das geschieht also regelmäßig.",
-      "fr": "💡 Solution : Vrai (Richtig).\nLe texte précise explicitement qu'elle garde l'enfant de sa voisine « deux fois par semaine » (zweimal die Woche), ce qui constitue une garde régulière.",
-      "ar": "💡 الحل: صحيح (Richtig).\nيذكر النص صراحة أنها تعتني بطفل جارتها «مرتين في الأسبوع» (zweimal die Woche)، مما يعني أنها تقوم بذلك بانتظام."
+      "quote": "... passt sie zweimal die Woche auf das Kind ihrer Nachbarin auf.",
+      "whyCorrect": {
+        "de": "Lösung: Richtig. Im Text heißt es ausdrücklich: „... passt sie zweimal die Woche auf das Kind ihrer Nachbarin auf.“ Das geschieht also regelmäßig.",
+        "fr": "Solution : Vrai (Richtig). Le texte précise explicitement qu'elle garde l'enfant de sa voisine « deux fois par semaine » (zweimal die Woche), ce qui constitue une garde régulière.",
+        "ar": "الحل: صحيح (Richtig). يذكر النص صراحة أنها تعتني بطفل جارتها «مرتين في الأسبوع» (zweimal die Woche)، مما يعني أنها تقوم بذلك بانتظام."
+      },
+      "whyIncorrect": {
+        "de": "„Falsch“ ist hier nicht zutreffend, da die Aussage („Frau Mohlau kümmert sich regelmäßig um das Kind ihrer Nachbarin.“) durch den Textbeleg eindeutig bestätigt wird.",
+        "fr": "Choisir « Faux » (Falsch) est incorrect, car l'affirmation (« Mme Mohlau s'occupe régulièrement de l'enfant de sa voisine. ») est explicitement confirmée par le texte.",
+        "ar": "اختيار «خطأ» (Falsch) غير صحيح، لأن العبارة («تعتني السيدة مولاو بطفل جارتها بانتظام.») مؤكدة بوضوح في النص."
+      }
     },
     "5": {
-      "text": "💡 Lösung: Falsch.\nAlois und seine Buben waren zu Besuch und nutzten den Garten und Spielplatz ebenfalls: „Es waren auch andere Kinder da, mit denen sie herumtollen konnten...“ Der Spielplatz wird also keineswegs nur von Bewohnern genutzt.",
-      "fr": "💡 Solution : Faux (Falsch).\nAlois et ses garçons étaient de simples visiteurs et profitaient du terrain de jeu avec d'autres enfants ; l'aire de jeux n'est donc pas réservée aux seuls résidents.",
-      "ar": "💡 الحل: خطأ (Falsch).\nألويس وأولاده كانوا زواراً واستمتعوا بالحديقة والملعب مع أطفال آخرين؛ والملعب ليس مقصوراً على نزلاء الدار فقط."
+      "quote": "Es waren auch andere Kinder da, mit denen sie herumtollen konnten...",
+      "whyCorrect": {
+        "de": "Lösung: Falsch. Alois und seine Buben waren zu Besuch und nutzten den Garten und Spielplatz ebenfalls: „Es waren auch andere Kinder da, mit denen sie herumtollen konnten...“ Der Spielplatz wird also keineswegs nur von Bewohnern genutzt.",
+        "fr": "Solution : Faux (Falsch). Alois et ses garçons étaient de simples visiteurs et profitaient du terrain de jeu avec d'autres enfants ; l'aire de jeux n'est donc pas réservée aux seuls résidents.",
+        "ar": "الحل: خطأ (Falsch). ألويس وأولاده كانوا زواراً واستمتعوا بالحديقة والملعب مع أطفال آخرين؛ والملعب ليس مقصوراً على نزلاء الدار فقط."
+      },
+      "whyIncorrect": {
+        "de": "„Richtig“ wäre falsch, da die Aussage („Den Spielplatz des Wohnheimes benutzen nur seine Bewohner.“) im direkten Widerspruch zur genannten Textstelle steht.",
+        "fr": "Choisir « Vrai » (Richtig) est incorrect, car l'affirmation (« L'aire de jeux de la résidence n'est utilisée que par ses habitants. ») contredit directement les informations du texte.",
+        "ar": "اختيار «صحيح» (Richtig) غير سليم، لأن العبارة («لا يستخدم ملعب السكن المشترك سوى سكانه فقط.») تتعارض بشكل مباشر مع ما ورد في النص."
+      }
     },
     "6": {
-      "text": "💡 Lösung: Falsch.\nIm Text steht: „Der letzte ging ins Burgenland. Sie selbst nimmt zurzeit an einer Kochgruppe teil...“ Es wird nicht gesagt, dass sie an dem Burgenland-Ausflug teilnahm; sie engagiert sich stattdessen in der Kochgruppe.",
-      "fr": "💡 Solution : Faux (Falsch).\nLe texte précise que la dernière excursion organisée allait dans le Burgenland, mais qu'elle-même participe actuellement à un groupe de cuisine (Sie selbst nimmt zurzeit an einer Kochgruppe teil). Rien n'indique qu'elle y a participé.",
-      "ar": "💡 الحل: خطأ (Falsch).\nيذكر النص أن آخر رحلة نظمتها الدار كانت إلى بورغنلاند، لكن السيدة مولاو نفسها تشارك حالياً في ورشة طبخ (Kochgruppe) ولم تشارك في تلك الرحلة."
+      "quote": "Der letzte ging ins Burgenland. Sie selbst nimmt zurzeit an einer Kochgruppe teil...",
+      "whyCorrect": {
+        "de": "Lösung: Falsch. Im Text steht: „Der letzte ging ins Burgenland. Sie selbst nimmt zurzeit an einer Kochgruppe teil...“ Es wird nicht gesagt, dass sie an dem Burgenland-Ausflug teilnahm; sie engagiert sich stattdessen in der Kochgruppe.",
+        "fr": "Solution : Faux (Falsch). Le texte précise que la dernière excursion organisée allait dans le Burgenland, mais qu'elle-même participe actuellement à un groupe de cuisine (Sie selbst nimmt zurzeit an einer Kochgruppe teil). Rien n'indique qu'elle y a participé.",
+        "ar": "الحل: خطأ (Falsch). يذكر النص أن آخر رحلة نظمتها الدار كانت إلى بورغنلاند، لكن السيدة مولاو نفسها تشارك حالياً في ورشة طبخ (Kochgruppe) ولم تشارك في تلك الرحلة."
+      },
+      "whyIncorrect": {
+        "de": "„Richtig“ wäre falsch, da die Aussage („Frau Mohlau nahm an einem Ausflug ins Burgenland teil.“) im direkten Widerspruch zur genannten Textstelle steht.",
+        "fr": "Choisir « Vrai » (Richtig) est incorrect, car l'affirmation (« Mme Mohlau a participé à une excursion dans le Burgenland. ») contredit directement les informations du texte.",
+        "ar": "اختيار «صحيح» (Richtig) غير سليم، لأن العبارة («شاركت السيدة مولاو في رحلة إلى بورغنلاند.») تتعارض بشكل مباشر مع ما ورد في النص."
+      }
     },
     "7": {
-      "text": "💡 Lösung: b (welche deutschen Sehenswürdigkeiten die Deutschen am meisten mögen).\nDer Text berichtet ausführlich über die Ergebnisse einer Online-Umfrage zu den beliebtesten Sehenswürdigkeiten Deutschlands.",
-      "fr": "💡 Solution : b (les sites touristiques allemands que les Allemands préfèrent).\nLe texte présente les résultats d'un sondage mesurant la popularité des monuments en Allemagne auprès du public allemand.",
-      "ar": "💡 الحل: b (أي المعالم السياحية الألمانية يفضلها الألمان أكثر من غيرها).\nيعرض النص نتائج استطلاع للرأي حول أكثر المعالم السياحية الألمانية شعبية ومحبة لدى الألمان."
+      "quote": "Der Kölner Dom bleibt nach wie vor die beliebteste Sehenswürdigkeit der Deutschen. Das ist das Ergebnis einer Online-Umfrage des Deutschen Tourismusverbandes und des Städteportals meinestadt.de.",
+      "whyCorrect": {
+        "de": "Lösung: b (welche deutschen Sehenswürdigkeiten die Deutschen am meisten mögen). Der Text berichtet ausführlich über die Ergebnisse einer Online-Umfrage zu den beliebtesten Sehenswürdigkeiten Deutschlands.",
+        "fr": "Solution : b (les sites touristiques allemands que les Allemands préfèrent). Le texte présente les résultats d'un sondage mesurant la popularité des monuments en Allemagne auprès du public allemand.",
+        "ar": "الحل: b (أي المعالم السياحية الألمانية يفضلها الألمان أكثر من غيرها). يعرض النص نتائج استطلاع للرأي حول أكثر المعالم السياحية الألمانية شعبية ومحبة لدى الألمان."
+      },
+      "whyIncorrect": {
+        "de": "Option a („welche Sehenswürdigkeiten es in Deutschland gibt.“) und Option c („welche Sehenswürdigkeiten Touristen in Deutschland unbedingt besichtigen sollten.“) stimmen nicht mit den Aussagen im Text überein.",
+        "fr": "L'option a (« les attractions touristiques qui existent en Allemagne. ») et l'option c (« les curiosités que les touristes devraient absolument visiter en Allemagne. ») ne correspondent pas aux informations données.",
+        "ar": "الخيار a («ما هي المعالم السياحية الموجودة في ألمانيا.») والخيار c («ما هي المعالم السياحية التي ينبغي للسياح زيارتها حتماً في ألمانيا.») لا يتطابقان مع المعلومات الواردة في النص."
+      }
     },
     "8": {
-      "text": "💡 Lösung: a (ist schon mehrere Jahre lang die beliebteste Sehenswürdigkeit Deutschlands).\nLaut Umfrage konnte der Kölner Dom „bereits zum vierten Mal diesen Platz klar halten“, liegt also schon mehrere Jahre auf Platz eins.",
-      "fr": "💡 Solution : a (est depuis plusieurs années le site touristique le plus populaire d'Allemagne).\nLa cathédrale de Cologne conserve sa première place pour la quatrième fois consécutive (bereits zum vierten Mal diesen Platz klar halten).",
-      "ar": "💡 الحل: a (هي المعلم الأكثر شعبية في ألمانيا منذ عدة سنوات).\nاحتفظت كاتدرائية كولونيا بالمركز الأول للمرة الرابعة على التوالي في استطلاعات الرأي (bereits zum vierten Mal)."
+      "quote": "bereits zum vierten Mal diesen Platz klar halten",
+      "whyCorrect": {
+        "de": "Lösung: a (ist schon mehrere Jahre lang die beliebteste Sehenswürdigkeit Deutschlands). Laut Umfrage konnte der Kölner Dom „bereits zum vierten Mal diesen Platz klar halten“, liegt also schon mehrere Jahre auf Platz eins.",
+        "fr": "Solution : a (est depuis plusieurs années le site touristique le plus populaire d'Allemagne). La cathédrale de Cologne conserve sa première place pour la quatrième fois consécutive (bereits zum vierten Mal diesen Platz klar halten).",
+        "ar": "الحل: a (هي المعلم الأكثر شعبية في ألمانيا منذ عدة سنوات). احتفظت كاتدرائية كولونيا بالمركز الأول للمرة الرابعة على التوالي في استطلاعات الرأي (bereits zum vierten Mal)."
+      },
+      "whyIncorrect": {
+        "de": "Option b („war bei 1600 Befragten auf Platz eins.“) und Option c („war 15% der Befragten bekannt.“) stimmen nicht mit den Aussagen im Text überein.",
+        "fr": "L'option b (« a été classée première par les 1600 personnes interrogées. ») et l'option c (« était connue de 15 % des personnes interrogées. ») ne correspondent pas aux informations données.",
+        "ar": "الخيار b («كانت في المركز الأول لدى 1600 شخص مستطلع.») والخيار c («كانت معروفة لدى 15% من المستطلعين.») لا يتطابقان مع المعلومات الواردة في النص."
+      }
     },
     "9": {
-      "text": "💡 Lösung: c (hat zwei Sehenswürdigkeiten unter den Top 15).\nBerlin ist mit dem Brandenburger Tor (Platz 3) und dem Berliner Reichstag (Platz 9) zweimal in den Top 15 vertreten.",
-      "fr": "💡 Solution : c (possède deux attractions parmi le Top 15).\nBerlin compte deux monuments dans les 15 premiers : la porte de Brandebourg (3e place) et le Reichstag (9e place).",
-      "ar": "💡 الحل: c (لديها معلمان ضمن أفضل 15 معلماً).\nتمتلك برلين معلمين ضمن قائمة أفضل 15 معلماً: بوابة براندنبورغ (المرتبة الثالثة) ومبنى الرايخستاغ (المرتبة التاسعة)."
+      "quote": "… das Brandenburger Tor in der Hauptstadt sank mit 6,6 Prozent um einen Rang auf Platz drei. … Nach vier Jahren landeten die Wuppertaler Schwebebahn (Platz sieben) und der Berliner Reichstag (Platz neun) erneut in den Top 15.",
+      "whyCorrect": {
+        "de": "Lösung: c (hat zwei Sehenswürdigkeiten unter den Top 15). Berlin ist mit dem Brandenburger Tor (Platz 3) und dem Berliner Reichstag (Platz 9) zweimal in den Top 15 vertreten.",
+        "fr": "Solution : c (possède deux attractions parmi le Top 15). Berlin compte deux monuments dans les 15 premiers : la porte de Brandebourg (3e place) et le Reichstag (9e place).",
+        "ar": "الحل: c (لديها معلمان ضمن أفضل 15 معلماً). تمتلك برلين معلمين ضمن قائمة أفضل 15 معلماً: بوابة براندنبورغ (المرتبة الثالثة) ومبنى الرايخستاغ (المرتبة التاسعة)."
+      },
+      "whyIncorrect": {
+        "de": "Option a („hat keine beliebten Sehenswürdigkeiten.“) und Option b („wurde zur beliebtesten kulturellen Stadt Deutschlands gewählt.“) stimmen nicht mit den Aussagen im Text überein.",
+        "fr": "L'option a (« n'a pas d'attractions très appréciées. ») et l'option b (« a été élue ville culturelle préférée d'Allemagne. ») ne correspondent pas aux informations données.",
+        "ar": "الخيار a («ليس لديها معالم سياحية محبوبة.») والخيار b («تم اختيارها كأكثر مدينة ثقافية محبوبة في ألمانيا.») لا يتطابقان مع المعلومات الواردة في النص."
+      }
     },
     "10": {
-      "text": "💡 Lösung: b (dass ein Hollywood-Star eine Schule besucht hat).\nDer Artikel beschreibt den überraschenden Besuch des Hollywood-Stars Johnny Depp in einer Londoner Grundschule.",
-      "fr": "💡 Solution : b (qu'une star d'Hollywood a rendu visite à une école).\nL'article relate la visite surprise de Johnny Depp déguisé en Jack Sparrow dans une école londonienne.",
-      "ar": "💡 الحل: b (أن نجماً هوليوودياً زار مدرسة).\nيتناول المقال زيارة النجم جوني ديب متقمصاً شخصية كابتن جاك سبارو لمدرسة ابتدائية في لندن تلبية لطلب تلميذة."
+      "quote": "Als Kapitän Jack Sparrow erschien der Hollywood-Star in der Londoner Grundschule und sang und tanzte mit vier Schauspielkollegen zu Piratenliedern.",
+      "whyCorrect": {
+        "de": "Lösung: b (dass ein Hollywood-Star eine Schule besucht hat). Der Artikel beschreibt den überraschenden Besuch des Hollywood-Stars Johnny Depp in einer Londoner Grundschule.",
+        "fr": "Solution : b (qu'une star d'Hollywood a rendu visite à une école). L'article relate la visite surprise de Johnny Depp déguisé en Jack Sparrow dans une école londonienne.",
+        "ar": "الحل: b (أن نجماً هوليوودياً زار مدرسة). يتناول المقال زيارة النجم جوني ديب متقمصاً شخصية كابتن جاك سبارو لمدرسة ابتدائية في لندن تلبية لطلب تلميذة."
+      },
+      "whyIncorrect": {
+        "de": "Option a („dass Johnny Depp in einem Piratenfilm mitgespielt hat.“) und Option c („dass Schüler einen Piratenfilm sehen wollten.“) stimmen nicht mit den Aussagen im Text überein.",
+        "fr": "L'option a (« du fait que Johnny Depp a joué dans un film de pirates. ») et l'option c (« du fait que des élèves voulaient regarder un film de pirates. ») ne correspondent pas aux informations données.",
+        "ar": "الخيار a («أن جوني ديب مثل في فيلم عن القراصنة.») والخيار c («أن التلاميذ أرادوا مشاهدة فيلم قراصنة.») لا يتطابقان مع المعلومات الواردة في النص."
+      }
     },
     "11": {
-      "text": "💡 Lösung: c (sang und tanzte für die Schüler).\nIm Text steht wörtlich: „Als Kapitän Jack Sparrow erschien der Hollywood-Star in der Londoner Grundschule und sang und tanzte mit vier Schauspielkollegen zu Piratenliedern.“",
-      "fr": "💡 Solution : c (a chanté et dansé pour les élèves).\nLe texte indique mot à mot que Johnny Depp est venu et a chanté et dansé avec quatre collègues acteurs sur des chansons de pirates.",
-      "ar": "💡 الحل: c (غنى ورقص للتلاميذ).\nورد في النص حرفياً أن جوني ديب حضر وغنى ورقص مع أربعة من زملائه الممثلين على ألحان أغاني القراصنة."
+      "quote": "Als Kapitän Jack Sparrow erschien der Hollywood-Star in der Londoner Grundschule und sang und tanzte mit vier Schauspielkollegen zu Piratenliedern.",
+      "whyCorrect": {
+        "de": "Lösung: c (sang und tanzte für die Schüler). Im Text steht wörtlich: „Als Kapitän Jack Sparrow erschien der Hollywood-Star in der Londoner Grundschule und sang und tanzte mit vier Schauspielkollegen zu Piratenliedern.“",
+        "fr": "Solution : c (a chanté et dansé pour les élèves). Le texte indique mot à mot que Johnny Depp est venu et a chanté et dansé avec quatre collègues acteurs sur des chansons de pirates.",
+        "ar": "الحل: c (غنى ورقص للتلاميذ). ورد في النص حرفياً أن جوني ديب حضر وغنى ورقص مع أربعة من زملائه الممثلين على ألحان أغاني القراصنة."
+      },
+      "whyIncorrect": {
+        "de": "Option a („antwortete auf den Brief der Schülerin.“) und Option b („schrieb auf der Webseite der Schule.“) stimmen nicht mit den Aussagen im Text überein.",
+        "fr": "L'option a (« a répondu à la lettre de l'écolière. ») et l'option b (« a écrit sur le site internet de l'école. ») ne correspondent pas aux informations données.",
+        "ar": "الخيار a («رد على رسالة التلميذة خطياً.») والخيار b («كتب على الموقع الإلكتروني للمدرسة.») لا يتطابقان مع المعلومات الواردة في النص."
+      }
     },
     "12": {
-      "text": "💡 Lösung: a (wollte keinen Unterricht machen).\nBeatrice plante eine Meuterei/einen Streik mit ihren Mitschülern, „damit möglichst viele Unterrichtsstunden nicht stattfinden würden“.",
-      "fr": "💡 Solution : a (ne voulait pas avoir cours).\nBéatrice et ses camarades projetaient une grève de pirates pour annuler un maximum d'heures de cours.",
-      "ar": "💡 الحل: a (أرادت عدم حضور الدروس).\nخططت بياتريس لتمرد قرصاني رفقة زملائها حتى يتم إلغاء أكبر قدر ممكن من الحصص الدراسية."
+      "quote": "damit möglichst viele Unterrichtsstunden nicht stattfinden würden",
+      "whyCorrect": {
+        "de": "Lösung: a (wollte keinen Unterricht machen). Beatrice plante eine Meuterei/einen Streik mit ihren Mitschülern, „damit möglichst viele Unterrichtsstunden nicht stattfinden würden“.",
+        "fr": "Solution : a (ne voulait pas avoir cours). Béatrice et ses camarades projetaient une grève de pirates pour annuler un maximum d'heures de cours.",
+        "ar": "الحل: a (أرادت عدم حضور الدروس). خططت بياتريس لتمرد قرصاني رفقة زملائها حتى يتم إلغاء أكبر قدر ممكن من الحصص الدراسية."
+      },
+      "whyIncorrect": {
+        "de": "Option b („wollte einen wirklichen Piraten sehen.“) und Option c („war erschrocken, als Johnny Depp kam.“) stimmen nicht mit den Aussagen im Text überein.",
+        "fr": "L'option b (« voulait voir un vrai pirate. ») et l'option c (« a été effrayée lors de l'arrivée de Johnny Depp. ») ne correspondent pas aux informations données.",
+        "ar": "الخيار b («أرادت رؤية قرصان حقيقي.») والخيار c («شعرت بالخوف والذعر عندما حضر جوني ديب.») لا يتطابقان مع المعلومات الواردة في النص."
+      }
     },
     "13": {
-      "text": "💡 Lösung: 0 (Keine passende Anzeige).\nMirjam und Sven suchen Leihräder an der Ostsee. Anzeige g bietet Leihräder an, jedoch auf der Nordsee-Insel Sylt (Nordsee statt Ostsee). Daher gibt es keine passende Anzeige (0).",
-      "fr": "💡 Solution : 0 (Aucune annonce correspondante).\nMirjam et Sven cherchent des vélos de location sur la mer Baltique (Ostsee). L'annonce g propose des vélos mais sur l'île de Sylt en mer du Nord (Nordsee). Aucune annonce ne convient donc (0).",
-      "ar": "💡 الحل: 0 (لا يوجد إعلان مناسب).\nيبحث ميريام وسفين عن استئجار دراجات على ساحل بحر البلطيق (Ostsee). بينما يعرض الإعلان g دراجات في جزيرة زيلت في بحر الشمال (Nordsee)، لذا لا يوجد إعلان مناسب (0)."
+      "quote": "Anzeige G bietet zwar Leihräder („Mit dem Leihrad die Insel erkunden“), gilt aber für die Nordsee-Insel Sylt und nicht für die Ostsee.",
+      "whyCorrect": {
+        "de": "Lösung: 0 (Keine passende Anzeige). Mirjam und Sven suchen Leihräder an der Ostsee. Anzeige g bietet Leihräder an, jedoch auf der Nordsee-Insel Sylt (Nordsee statt Ostsee). Daher gibt es keine passende Anzeige (0).",
+        "fr": "Solution : 0 (Aucune annonce correspondante). Mirjam et Sven cherchent des vélos de location sur la mer Baltique (Ostsee). L'annonce g propose des vélos mais sur l'île de Sylt en mer du Nord (Nordsee). Aucune annonce ne convient donc (0).",
+        "ar": "الحل: 0 (لا يوجد إعلان مناسب). يبحث ميريام وسفين عن استئجار دراجات على ساحل بحر البلطيق (Ostsee). بينما يعرض الإعلان g دراجات في جزيرة زيلت في بحر الشمال (Nordsee)، لذا لا يوجد إعلان مناسب (0)."
+      },
+      "whyIncorrect": {
+        "de": "Keine der Anzeigen A bis J erfüllt alle Bedingungen für diese Situation („Mirjam und Sven sind Radelfans, möchten aber für ihren Aufenthalt an der Ostsee ihre eigenen Räder nicht mitnehmen.“); ähnlich klingende Anzeigen weichen in Ort, Zielgruppe oder Angebot ab.",
+        "fr": "Aucune des annonces A à J ne remplit toutes les conditions de cette situation (« Mirjam et Sven sont passionnés de vélo, mais préfèrent ne pas emporter leurs propres vélos pour leur séjour sur la Baltique. ») ; les annonces proches diffèrent par le lieu, le public ou le type d'offre.",
+        "ar": "لا يوجد أي إعلان من الإعلانات (A–J) يستوفي جميع شروط هذه الحالة («ميريام وسفين من هواة ركوب الدراجات، لكنهما يفضلان عدم أخذ دراجاتهما الخاصة معهما أثناء إقامتهما في بحر البلطيق.»)، فالإعلانات المشابهة تختلف في المكان أو الفئة المستهدفة أو نوع العرض."
+      }
     },
     "14": {
-      "text": "💡 Lösung: j (Season Spezial – Kiten).\nRobert möchte Kitesurfen lernen und Leute kennenlernen. Anzeige j bietet Grundkurs Kiten mit Gruppenaktivitäten (BBQ, Movieabend, Ladies Night, Beachvolley) zum Kennenlernen.",
-      "fr": "💡 Solution : j (Season Spezial – Kiten).\nRobert souhaite apprendre le kitesurf et faire des rencontres. L'annonce j combine stage d'initiation et ambiance festive de groupe (barbecue, soirées, volley).",
-      "ar": "💡 الحل: j (عرض الموسم الخاص – التزلج الشراعي).\nيرغب روبرت في تعلم ركوب الأمواج الشراعي والتعرف على أصدقاء جدد. يقدم الإعلان j دورة تدريبية وأنشطة جماعية ترفيهية (شواء، سهرات سينمائية، كرة طائرة شاطئية)."
+      "quote": "Anzeige j (Season Spezial – Kiten): „2 Tage Grundkurs und 3 Tage selbstständiges Kiten unter Aufsicht nur 245 €. Inklusive Leihausrüstung und Trainingsmaterial. Inklusive Spaß und gute Laune in der Gruppe mit BBQ, Movieabend, Ladies Night, Beachvolley-Turnier und vielem mehr. de-de.facebook.com/surfundkiteclub, Telefon Hotline 036 323 11 869“",
+      "whyCorrect": {
+        "de": "Lösung: j (Season Spezial – Kiten). Robert möchte Kitesurfen lernen und Leute kennenlernen. Anzeige j bietet Grundkurs Kiten mit Gruppenaktivitäten (BBQ, Movieabend, Ladies Night, Beachvolley) zum Kennenlernen.",
+        "fr": "Solution : j (Season Spezial – Kiten). Robert souhaite apprendre le kitesurf et faire des rencontres. L'annonce j combine stage d'initiation et ambiance festive de groupe (barbecue, soirées, volley).",
+        "ar": "الحل: j (عرض الموسم الخاص – التزلج الشراعي). يرغب روبرت في تعلم ركوب الأمواج الشراعي والتعرف على أصدقاء جدد. يقدم الإعلان j دورة تدريبية وأنشطة جماعية ترفيهية (شواء، سهرات سينمائية، كرة طائرة شاطئية)."
+      },
+      "whyIncorrect": {
+        "de": "Alle anderen Anzeigen erfüllen nicht alle Kriterien der gesuchten Situation, und „0 (Keine Anzeige)“ entfällt, da Anzeige J („Season Spezial – Kiten“) genau passt.",
+        "fr": "Les autres annonces ne remplissent pas tous les critères recherchés, et « 0 (Aucune annonce) » est exclu puisque l'annonce J (« Season Spezial – Kiten ») correspond exactement.",
+        "ar": "الإعلانات الأخرى لا تستوفي كافة الشروط المطلوبة، كما يُستبعد الخيار «0 (لا يوجد إعلان)» لأن الإعلان J يطابق المطلوب تماماً."
+      }
     },
     "15": {
-      "text": "💡 Lösung: h (Helikopter-Rundflüge über Rügen).\nEhepaar Gerber will seinen Hochzeitstag auf Rügen besonders feiern. Anzeige h bietet exklusive Helikopter-Rundflüge über Rügen mit Begrüßungscocktail und Sekt.",
-      "fr": "💡 Solution : h (Vols en hélicoptère au-dessus de Rügen).\nLes Gerber veulent célébrer leur anniversaire de mariage à Rügen de façon exceptionnelle. L'annonce h propose des survols en hélicoptère avec coupe de champagne.",
-      "ar": "💡 الحل: h (جولات بالمروحية فوق روغن).\nيريد الزوجان غيربر الاحتفال بذكرى زواجهما في جزيرة روغن بطريقة فريدة. يقدم الإعلان h جولات هليكوبتر فوق الجزيرة مع مشروب ترحيبي."
+      "quote": "Anzeige h (Sie suchen ein Highlight für eine Feier? Chartern Sie uns.): „Helikopter-Rundflüge über Rügen. Wählen Sie eine unserer verschiedenen Routen über die traumhafte Landschaft der Ostsee-Insel Rügen. Bei Wunsch auch Begrüßungscocktail mit Sekt. Buchungen & Infos: Tel. 0172-1000 343.“",
+      "whyCorrect": {
+        "de": "Lösung: h (Helikopter-Rundflüge über Rügen). Ehepaar Gerber will seinen Hochzeitstag auf Rügen besonders feiern. Anzeige h bietet exklusive Helikopter-Rundflüge über Rügen mit Begrüßungscocktail und Sekt.",
+        "fr": "Solution : h (Vols en hélicoptère au-dessus de Rügen). Les Gerber veulent célébrer leur anniversaire de mariage à Rügen de façon exceptionnelle. L'annonce h propose des survols en hélicoptère avec coupe de champagne.",
+        "ar": "الحل: h (جولات بالمروحية فوق روغن). يريد الزوجان غيربر الاحتفال بذكرى زواجهما في جزيرة روغن بطريقة فريدة. يقدم الإعلان h جولات هليكوبتر فوق الجزيرة مع مشروب ترحيبي."
+      },
+      "whyIncorrect": {
+        "de": "Alle anderen Anzeigen erfüllen nicht alle Kriterien der gesuchten Situation, und „0 (Keine Anzeige)“ entfällt, da Anzeige H („Sie suchen ein Highlight für eine Feier? Chartern Sie uns.“) genau passt.",
+        "fr": "Les autres annonces ne remplissent pas tous les critères recherchés, et « 0 (Aucune annonce) » est exclu puisque l'annonce H (« Sie suchen ein Highlight für eine Feier? Chartern Sie uns. ») correspond exactement.",
+        "ar": "الإعلانات الأخرى لا تستوفي كافة الشروط المطلوبة، كما يُستبعد الخيار «0 (لا يوجد إعلان)» لأن الإعلان H يطابق المطلوب تماماً."
+      }
     },
     "16": {
-      "text": "💡 Lösung: e (Rügen im Herbst erleben ...).\nFrau Biber möchte den Ort zu Fuß kennenlernen. Anzeige e bietet geführte Wanderungen mit fachkundiger Begleitung auf der Insel Rügen.",
-      "fr": "💡 Solution : e (Découvrir Rügen en automne...).\nMme Biber et son amie veulent découvrir leur lieu de vacances à pied. L'annonce e propose des randonnées pédestres guidées à travers l'île.",
-      "ar": "💡 الحل: e (استكشاف روغن في الخريف...).\nترغب السيدة بيبر وصديقتها في استكشاف المكان سيراً على الأقدام. يقدم الإعلان e جولات مشي بصحبة مرشدين خبراء على جزيرة روغن."
+      "quote": "Anzeige e (Rügen im Herbst erleben ...): „Bei geführten Wanderungen in fachkundiger Begleitung erleben Sie Natur, Geschichte und Sagenwelt der Insel hautnah. Bis 31. Oktober. Informationen unter: www.ruegen.de. Ermäßigungen für Familien und Kleingruppen.“",
+      "whyCorrect": {
+        "de": "Lösung: e (Rügen im Herbst erleben ...). Frau Biber möchte den Ort zu Fuß kennenlernen. Anzeige e bietet geführte Wanderungen mit fachkundiger Begleitung auf der Insel Rügen.",
+        "fr": "Solution : e (Découvrir Rügen en automne...). Mme Biber et son amie veulent découvrir leur lieu de vacances à pied. L'annonce e propose des randonnées pédestres guidées à travers l'île.",
+        "ar": "الحل: e (استكشاف روغن في الخريف...). ترغب السيدة بيبر وصديقتها في استكشاف المكان سيراً على الأقدام. يقدم الإعلان e جولات مشي بصحبة مرشدين خبراء على جزيرة روغن."
+      },
+      "whyIncorrect": {
+        "de": "Alle anderen Anzeigen erfüllen nicht alle Kriterien der gesuchten Situation, und „0 (Keine Anzeige)“ entfällt, da Anzeige E („Rügen im Herbst erleben ...“) genau passt.",
+        "fr": "Les autres annonces ne remplissent pas tous les critères recherchés, et « 0 (Aucune annonce) » est exclu puisque l'annonce E (« Rügen im Herbst erleben ... ») correspond exactement.",
+        "ar": "الإعلانات الأخرى لا تستوفي كافة الشروط المطلوبة، كما يُستبعد الخيار «0 (لا يوجد إعلان)» لأن الإعلان E يطابق المطلوب تماماً."
+      }
     },
     "17": {
-      "text": "💡 Lösung: f (Verpassen Sie nicht unsere Hafenpartys!).\nHerr Müller kann nicht mit dem Schiff fahren, möchte aber den Kreuzfahrtschiffen nah sein. Anzeige f lädt zu Hafenpartys am Passagierkai ein, wo die Schiffsanläufe der großen Schiffe gefeiert werden.",
-      "fr": "💡 Solution : f (Ne manquez pas nos fêtes portuaires !).\nM. Müller ne peut pas faire de croisière mais veut admirer les paquebots de près. L'annonce f invite aux festivités à quai lors de l'arrivée des géants des mers.",
-      "ar": "💡 الحل: f (لا تفوتوا حفلات الميناء!).\nلا يستطيع السيد مولر ركوب السفن لأسباب صحية لكنه يريد الاقتراب من السفن العملاقة. يدعو الإعلان f إلى احتفالات رصيف الميناء عند رسو كبرى السفن."
+      "quote": "Anzeige f (Verpassen Sie nicht unsere Hafenpartys!): „Die Anläufe der größten Schiffe werden mit Live-Musik, Bühnenprogramm und einem spektakulären Höhenfeuerwerk gefeiert! Seien Sie dabei! Termine: 6. Mai, 4. Juni, 18. Juni, 8. Juli, 5. August, 3. September. Monitore informieren über alle Schiffsbewegungen in der Ostsee. Am Passagierkai 1 – 19129 Warnemünde.“",
+      "whyCorrect": {
+        "de": "Lösung: f (Verpassen Sie nicht unsere Hafenpartys!). Herr Müller kann nicht mit dem Schiff fahren, möchte aber den Kreuzfahrtschiffen nah sein. Anzeige f lädt zu Hafenpartys am Passagierkai ein, wo die Schiffsanläufe der großen Schiffe gefeiert werden.",
+        "fr": "Solution : f (Ne manquez pas nos fêtes portuaires !). M. Müller ne peut pas faire de croisière mais veut admirer les paquebots de près. L'annonce f invite aux festivités à quai lors de l'arrivée des géants des mers.",
+        "ar": "الحل: f (لا تفوتوا حفلات الميناء!). لا يستطيع السيد مولر ركوب السفن لأسباب صحية لكنه يريد الاقتراب من السفن العملاقة. يدعو الإعلان f إلى احتفالات رصيف الميناء عند رسو كبرى السفن."
+      },
+      "whyIncorrect": {
+        "de": "Alle anderen Anzeigen erfüllen nicht alle Kriterien der gesuchten Situation, und „0 (Keine Anzeige)“ entfällt, da Anzeige F („Verpassen Sie nicht unsere Hafenpartys!“) genau passt.",
+        "fr": "Les autres annonces ne remplissent pas tous les critères recherchés, et « 0 (Aucune annonce) » est exclu puisque l'annonce F (« Verpassen Sie nicht unsere Hafenpartys! ») correspond exactement.",
+        "ar": "الإعلانات الأخرى لا تستوفي كافة الشروط المطلوبة، كما يُستبعد الخيار «0 (لا يوجد إعلان)» لأن الإعلان F يطابق المطلوب تماماً."
+      }
     },
     "18": {
-      "text": "💡 Lösung: i (Hanse Sail Rostock).\nFamilie Denkler möchte ihren Urlaub mit einer Schiffsreise verbinden. Anzeige i bietet traditionelle Schifffahrt mit Tages-, Abend- und Kurzfahrten auf der Ostsee an.",
-      "fr": "💡 Solution : i (Hanse Sail Rostock).\nLa famille Denkler souhaite faire une petite croisière en mer. L'annonce i propose des sorties en mer traditionnelles (sorties à la journée, en soirée ou courtes traversées).",
-      "ar": "💡 الحل: i (هانزه زايل روستوك).\nتريد عائلة دينكلر القيام برحلة بحرية قصيرة أثناء إقامتها. يقدم الإعلان i رحلات بحرية تقليدية نهارية ومسائية وقصيرة على بحر البلطيق."
+      "quote": "Anzeige i (Hanse Sail · Traditionelle Schifffahrt): „Verein zur Förderung traditioneller Schifffahrt in der Ostsee e.V. Tages-, Abend-, Kurzfahrten und Mehrtagesfahrten. Hotels und Pensionen in und um Rostock. Limousinen-Service, Kurier-Service, Stadtrundfahrten, Bustouren. www.hansesail.com“",
+      "whyCorrect": {
+        "de": "Lösung: i (Hanse Sail Rostock). Familie Denkler möchte ihren Urlaub mit einer Schiffsreise verbinden. Anzeige i bietet traditionelle Schifffahrt mit Tages-, Abend- und Kurzfahrten auf der Ostsee an.",
+        "fr": "Solution : i (Hanse Sail Rostock). La famille Denkler souhaite faire une petite croisière en mer. L'annonce i propose des sorties en mer traditionnelles (sorties à la journée, en soirée ou courtes traversées).",
+        "ar": "الحل: i (هانزه زايل روستوك). تريد عائلة دينكلر القيام برحلة بحرية قصيرة أثناء إقامتها. يقدم الإعلان i رحلات بحرية تقليدية نهارية ومسائية وقصيرة على بحر البلطيق."
+      },
+      "whyIncorrect": {
+        "de": "Alle anderen Anzeigen erfüllen nicht alle Kriterien der gesuchten Situation, und „0 (Keine Anzeige)“ entfällt, da Anzeige I („Hanse Sail · Traditionelle Schifffahrt“) genau passt.",
+        "fr": "Les autres annonces ne remplissent pas tous les critères recherchés, et « 0 (Aucune annonce) » est exclu puisque l'annonce I (« Hanse Sail · Traditionelle Schifffahrt ») correspond exactement.",
+        "ar": "الإعلانات الأخرى لا تستوفي كافة الشروط المطلوبة، كما يُستبعد الخيار «0 (لا يوجد إعلان)» لأن الإعلان I يطابق المطلوب تماماً."
+      }
     },
     "19": {
-      "text": "💡 Lösung: a (Naturkundemuseum Barther Bodden).\nFrau Niederweg sucht ein Ziel für das Projekt „Tiere im Ostseeraum“. Anzeige a präsentiert das Naturkundemuseum mit dem Schwerpunkt „Meerestiere der Ostsee“ und Nationalparkbesuch.",
-      "fr": "💡 Solution : a (Musée d'histoire naturelle Barther Bodden).\nMme Niederweg cherche une sortie scolaire sur la faune de la Baltique. L'annonce a présente une exposition dédiée aux paysages et aux animaux marins de la Baltique.",
-      "ar": "💡 الحل: a (متحف التاريخ الطبيعي بارتر بودن).\nتبحث المعلمة نيدرفيغ عن وجهة لرحلة مدرسية حول حيوانات بحر البلطيق. يعرض الإعلان a متحفاً متخصصاً في حيوانات وكائنات بحر البلطيق مع زيارة المحمية الطبيعية."
+      "quote": "Tiere im Ostseeraum",
+      "whyCorrect": {
+        "de": "Lösung: a (Naturkundemuseum Barther Bodden). Frau Niederweg sucht ein Ziel für das Projekt „Tiere im Ostseeraum“. Anzeige a präsentiert das Naturkundemuseum mit dem Schwerpunkt „Meerestiere der Ostsee“ und Nationalparkbesuch.",
+        "fr": "Solution : a (Musée d'histoire naturelle Barther Bodden). Mme Niederweg cherche une sortie scolaire sur la faune de la Baltique. L'annonce a présente une exposition dédiée aux paysages et aux animaux marins de la Baltique.",
+        "ar": "الحل: a (متحف التاريخ الطبيعي بارتر بودن). تبحث المعلمة نيدرفيغ عن وجهة لرحلة مدرسية حول حيوانات بحر البلطيق. يعرض الإعلان a متحفاً متخصصاً في حيوانات وكائنات بحر البلطيق مع زيارة المحمية الطبيعية."
+      },
+      "whyIncorrect": {
+        "de": "Alle anderen Anzeigen erfüllen nicht alle Kriterien der gesuchten Situation, und „0 (Keine Anzeige)“ entfällt, da Anzeige A („Naturkundemuseum Barther Bodden“) genau passt.",
+        "fr": "Les autres annonces ne remplissent pas tous les critères recherchés, et « 0 (Aucune annonce) » est exclu puisque l'annonce A (« Naturkundemuseum Barther Bodden ») correspond exactement.",
+        "ar": "الإعلانات الأخرى لا تستوفي كافة الشروط المطلوبة، كما يُستبعد الخيار «0 (لا يوجد إعلان)» لأن الإعلان A يطابق المطلوب تماماً."
+      }
     },
     "20": {
-      "text": "💡 Lösung: Ja.\nLara schreibt, dass das Erlebnis ihre Einstellung total geändert hat: „Da es mich so begeistert, kann ich einfach nicht mehr dagegen sein.“ Sie ist also dafür.",
-      "fr": "💡 Solution : Oui (Ja).\nLara indique que cette expérience a totalement changé son avis et qu'elle souhaite absolument recommencer : elle y est donc clairement favorable.",
-      "ar": "💡 الحل: نعم (Ja).\nتوضح لارا أن تجربتها غيرت رأيها كلياً وأنها تريد التزلج ليلاً مجدداً، ولم تعد معارضة للفكرة بل أصبحت متحمسة لها."
+      "quote": "Da es mich so begeistert, kann ich einfach nicht mehr dagegen sein.",
+      "whyCorrect": {
+        "de": "Lösung: Ja. Lara schreibt, dass das Erlebnis ihre Einstellung total geändert hat: „Da es mich so begeistert, kann ich einfach nicht mehr dagegen sein.“ Sie ist also dafür.",
+        "fr": "Solution : Oui (Ja). Lara indique que cette expérience a totalement changé son avis et qu'elle souhaite absolument recommencer : elle y est donc clairement favorable.",
+        "ar": "الحل: نعم (Ja). توضح لارا أن تجربتها غيرت رأيها كلياً وأنها تريد التزلج ليلاً مجدداً، ولم تعد معارضة للفكرة بل أصبحت متحمسة لها."
+      },
+      "whyIncorrect": {
+        "de": "„Nein“ (Dagegen) wäre falsch, da sich Lara im Leserkommentar ausdrücklich befürwortend äußert.",
+        "fr": "Choisir « Non » (Nein — Contre) est incorrect, car Lara exprime clairement un avis favorable dans son commentaire.",
+        "ar": "اختيار «لا» (Nein — معارض) غير صحيح، لأن Lara يعبّر بوضوح عن تأييده وموقفه الإيجابي في تعليقه."
+      }
     },
     "21": {
-      "text": "💡 Lösung: Nein.\nKevin betont den Tierschutz und die Natur: „Weil ich nicht Ski fahre und die Natur schützen möchte, finde ich so ein Angebot unattraktiv. Das brauchen wir nicht.“",
-      "fr": "💡 Solution : Non (Nein).\nKevin souligne la protection de la nature et le dérangement des animaux causé par la lumière artificielle nocturne : il s'y oppose fermement.",
-      "ar": "💡 الحل: لا (Nein).\nيؤكد كيفن على ضرورة حماية البيئة وعدم إزعاج الحيوانات بالضوء الاصطناعي ليلاً، ويرى أن هذا العرض غير مرغوب فيه ولا حاجة له."
+      "quote": "Weil ich nicht Ski fahre und die Natur schützen möchte, finde ich so ein Angebot unattraktiv. Das brauchen wir nicht.",
+      "whyCorrect": {
+        "de": "Lösung: Nein. Kevin betont den Tierschutz und die Natur: „Weil ich nicht Ski fahre und die Natur schützen möchte, finde ich so ein Angebot unattraktiv. Das brauchen wir nicht.“",
+        "fr": "Solution : Non (Nein). Kevin souligne la protection de la nature et le dérangement des animaux causé par la lumière artificielle nocturne : il s'y oppose fermement.",
+        "ar": "الحل: لا (Nein). يؤكد كيفن على ضرورة حماية البيئة وعدم إزعاج الحيوانات بالضوء الاصطناعي ليلاً، ويرى أن هذا العرض غير مرغوب فيه ولا حاجة له."
+      },
+      "whyIncorrect": {
+        "de": "„Ja“ (Dafür) wäre falsch, da sich Kevin im Leserkommentar deutlich kritisch und ablehnend äußert.",
+        "fr": "Choisir « Oui » (Ja — Pour) est incorrect, car Kevin exprime clairement son opposition et ses réserves dans son commentaire.",
+        "ar": "اختيار «نعم» (Ja — مؤيد) غير صحيح، لأن Kevin يعبّر بوضوح عن رفضه وموقفه المعارض في تعليقه."
+      }
     },
     "22": {
-      "text": "💡 Lösung: Nein.\nKarl warnt vor Umweltzerstörung in den Bergen: „Ist doch klar, dass die Berge ab sofort möglichst in Ruhe gelassen werden sollen... statt noch mehr in die Natur einzugreifen.“",
-      "fr": "💡 Solution : Non (Nein).\nKarl dénonce l'impact écologique des infrastructures alpines et réclame qu'on laisse la montagne en paix plutôt que d'empiéter encore plus sur la nature.",
-      "ar": "💡 الحل: لا (Nein).\nيحذر كارل من المشاكل البيئية في الجبال ويدعو إلى ترك الطبيعة في سلام بدلاً من التدخل الإضافي فيها."
+      "quote": "Ist doch klar, dass die Berge ab sofort möglichst in Ruhe gelassen werden sollen... statt noch mehr in die Natur einzugreifen.",
+      "whyCorrect": {
+        "de": "Lösung: Nein. Karl warnt vor Umweltzerstörung in den Bergen: „Ist doch klar, dass die Berge ab sofort möglichst in Ruhe gelassen werden sollen... statt noch mehr in die Natur einzugreifen.“",
+        "fr": "Solution : Non (Nein). Karl dénonce l'impact écologique des infrastructures alpines et réclame qu'on laisse la montagne en paix plutôt que d'empiéter encore plus sur la nature.",
+        "ar": "الحل: لا (Nein). يحذر كارل من المشاكل البيئية في الجبال ويدعو إلى ترك الطبيعة في سلام بدلاً من التدخل الإضافي فيها."
+      },
+      "whyIncorrect": {
+        "de": "„Ja“ (Dafür) wäre falsch, da sich Karl im Leserkommentar deutlich kritisch und ablehnend äußert.",
+        "fr": "Choisir « Oui » (Ja — Pour) est incorrect, car Karl exprime clairement son opposition et ses réserves dans son commentaire.",
+        "ar": "اختيار «نعم» (Ja — مؤيد) غير صحيح، لأن Karl يعبّر بوضوح عن رفضه وموقفه المعارض في تعليقه."
+      }
     },
     "23": {
-      "text": "💡 Lösung: Ja.\nSusanne plädiert für das Nacht-Hobby: „Warum sollen die Menschen in den Bergen nicht auch die Möglichkeit haben, mal nachts ihr Hobby auszuüben?“ Sie befürwortet es.",
-      "fr": "💡 Solution : Oui (Ja).\nSusanne estime légitime que les montagnards puissent pratiquer leur passion nocturne, tout comme elle aime se promener la nuit au bord de la mer.",
-      "ar": "💡 الحل: نعم (Ja).\nترى سوزان أنه من حق سكان الجبال ممارسة هوايتهم ليلاً كما تفعل هي بالتنزه ليلاً على شاطئ البحر، وهي مؤيدة للفكرة."
+      "quote": "Warum sollen die Menschen in den Bergen nicht auch die Möglichkeit haben, mal nachts ihr Hobby auszuüben?",
+      "whyCorrect": {
+        "de": "Lösung: Ja. Susanne plädiert für das Nacht-Hobby: „Warum sollen die Menschen in den Bergen nicht auch die Möglichkeit haben, mal nachts ihr Hobby auszuüben?“ Sie befürwortet es.",
+        "fr": "Solution : Oui (Ja). Susanne estime légitime que les montagnards puissent pratiquer leur passion nocturne, tout comme elle aime se promener la nuit au bord de la mer.",
+        "ar": "الحل: نعم (Ja). ترى سوزان أنه من حق سكان الجبال ممارسة هوايتهم ليلاً كما تفعل هي بالتنزه ليلاً على شاطئ البحر، وهي مؤيدة للفكرة."
+      },
+      "whyIncorrect": {
+        "de": "„Nein“ (Dagegen) wäre falsch, da sich Susanne im Leserkommentar ausdrücklich befürwortend äußert.",
+        "fr": "Choisir « Non » (Nein — Contre) est incorrect, car Susanne exprime clairement un avis favorable dans son commentaire.",
+        "ar": "اختيار «لا» (Nein — معارض) غير صحيح، لأن Susanne يعبّر بوضوح عن تأييده وموقفه الإيجابي في تعليقه."
+      }
     },
     "24": {
-      "text": "💡 Lösung: Nein.\nMartin empört sich über die Pläne: „Das kann ja wohl nicht ihr Ernst sein... Das ist ja wohl das Letzte.“ Er lehnt es vollkommen ab.",
-      "fr": "💡 Solution : Non (Nein).\nMartin s'indigne de cette initiative des exploitants de remontées mécaniques, la qualifiant d'inacceptable (« le comble »).",
-      "ar": "💡 الحل: لا (Nein).\nيعبر مارتن عن استيائه الشديد من أصحاب مصاعد التزلج ورفضه التام لفتح مسارات التزلج ليلاً."
+      "quote": "Das kann ja wohl nicht ihr Ernst sein... Das ist ja wohl das Letzte.",
+      "whyCorrect": {
+        "de": "Lösung: Nein. Martin empört sich über die Pläne: „Das kann ja wohl nicht ihr Ernst sein... Das ist ja wohl das Letzte.“ Er lehnt es vollkommen ab.",
+        "fr": "Solution : Non (Nein). Martin s'indigne de cette initiative des exploitants de remontées mécaniques, la qualifiant d'inacceptable (« le comble »).",
+        "ar": "الحل: لا (Nein). يعبر مارتن عن استيائه الشديد من أصحاب مصاعد التزلج ورفضه التام لفتح مسارات التزلج ليلاً."
+      },
+      "whyIncorrect": {
+        "de": "„Ja“ (Dafür) wäre falsch, da sich Martin im Leserkommentar deutlich kritisch und ablehnend äußert.",
+        "fr": "Choisir « Oui » (Ja — Pour) est incorrect, car Martin exprime clairement son opposition et ses réserves dans son commentaire.",
+        "ar": "اختيار «نعم» (Ja — مؤيد) غير صحيح، لأن Martin يعبّر بوضوح عن رفضه وموقفه المعارض في تعليقه."
+      }
     },
     "25": {
-      "text": "💡 Lösung: Ja.\nMarc ist Wirt/Gastronom und freut sich über längere Öffnungszeiten und mehr Einnahmen durch die „Nacht-Pisten-Gaudi“. Er verteidigt das Angebot gegen Kritiker.",
-      "fr": "💡 Solution : Oui (Ja).\nMarc, gérant d'établissement en altitude, salue cette opportunité d'accueillir des clients plus tardivement et d'améliorer les revenus face à la baisse de fréquentation.",
-      "ar": "💡 الحل: نعم (Ja).\nمارك صاحب مطعم جبلي ويرحب بتمديد ساعات العمل لخدمة المتزلجين ليلاً وزيادة الدخل، ويرى اعتراضات حماة البيئة غير منصفة."
+      "quote": "Nacht-Pisten-Gaudi",
+      "whyCorrect": {
+        "de": "Lösung: Ja. Marc ist Wirt/Gastronom und freut sich über längere Öffnungszeiten und mehr Einnahmen durch die „Nacht-Pisten-Gaudi“. Er verteidigt das Angebot gegen Kritiker.",
+        "fr": "Solution : Oui (Ja). Marc, gérant d'établissement en altitude, salue cette opportunité d'accueillir des clients plus tardivement et d'améliorer les revenus face à la baisse de fréquentation.",
+        "ar": "الحل: نعم (Ja). مارك صاحب مطعم جبلي ويرحب بتمديد ساعات العمل لخدمة المتزلجين ليلاً وزيادة الدخل، ويرى اعتراضات حماة البيئة غير منصفة."
+      },
+      "whyIncorrect": {
+        "de": "„Nein“ (Dagegen) wäre falsch, da sich Marc im Leserkommentar ausdrücklich befürwortend äußert.",
+        "fr": "Choisir « Non » (Nein — Contre) est incorrect, car Marc exprime clairement un avis favorable dans son commentaire.",
+        "ar": "اختيار «لا» (Nein — معارض) غير صحيح، لأن Marc يعبّر بوضوح عن تأييده وموقفه الإيجابي في تعليقه."
+      }
     },
     "26": {
-      "text": "💡 Lösung: Nein.\nOtto kritisiert das künstliche Licht und den Lärm: „Das stört doch die schöne Stille, die nachts in den Bergen herrscht.“ Er ist dagegen.",
-      "fr": "💡 Solution : Non (Nein).\nOtto estime que l'éclairage artificiel et l'afflux de skieurs nocturnes détruisent le silence et la quiétude des montagnes la nuit.",
-      "ar": "💡 الحل: لا (Nein).\nينتقد أوتو الإضاءة الاصطناعية وحشود المتزلجين ليلاً لأن ذلك يدمر الهدوء والسكينة الطبيعية للجبال."
+      "quote": "Das stört doch die schöne Stille, die nachts in den Bergen herrscht.",
+      "whyCorrect": {
+        "de": "Lösung: Nein. Otto kritisiert das künstliche Licht und den Lärm: „Das stört doch die schöne Stille, die nachts in den Bergen herrscht.“ Er ist dagegen.",
+        "fr": "Solution : Non (Nein). Otto estime que l'éclairage artificiel et l'afflux de skieurs nocturnes détruisent le silence et la quiétude des montagnes la nuit.",
+        "ar": "الحل: لا (Nein). ينتقد أوتو الإضاءة الاصطناعية وحشود المتزلجين ليلاً لأن ذلك يدمر الهدوء والسكينة الطبيعية للجبال."
+      },
+      "whyIncorrect": {
+        "de": "„Ja“ (Dafür) wäre falsch, da sich Otto im Leserkommentar deutlich kritisch und ablehnend äußert.",
+        "fr": "Choisir « Oui » (Ja — Pour) est incorrect, car Otto exprime clairement son opposition et ses réserves dans son commentaire.",
+        "ar": "اختيار «نعم» (Ja — مؤيد) غير صحيح، لأن Otto يعبّر بوضوح عن رفضه وموقفه المعارض في تعليقه."
+      }
     },
     "27": {
-      "text": "💡 Lösung: b (sollte man nur, wenn es die anderen Gäste nicht stört).\nIm Text steht: „Auf jeden Fall sollten Raucher vor dem Anzünden einer Zigarette fragen, ob es die anderen Gäste stört.“",
-      "fr": "💡 Solution : b (ne devrait se faire que si cela ne dérange pas les autres clients).\nLe texte indique qu'un fumeur doit systématiquement s'assurer auprès des personnes présentes que la fumée ne les incommode pas avant d'allumer une cigarette.",
-      "ar": "💡 الحل: b (ينبغي فقط إذا كان لا يزعج الزبائن الآخرين).\nينص الدليل على أنه يجب على المدخنين في كل الأحوال سؤال الضيوف الآخرين عما إذا كان التدخين يزعجهم قبل إشعال السيجارة."
+      "quote": "Auf jeden Fall sollten Raucher vor dem Anzünden einer Zigarette fragen, ob es die anderen Gäste stört.",
+      "whyCorrect": {
+        "de": "Lösung: b (sollte man nur, wenn es die anderen Gäste nicht stört). Im Text steht: „Auf jeden Fall sollten Raucher vor dem Anzünden einer Zigarette fragen, ob es die anderen Gäste stört.“",
+        "fr": "Solution : b (ne devrait se faire que si cela ne dérange pas les autres clients). Le texte indique qu'un fumeur doit systématiquement s'assurer auprès des personnes présentes que la fumée ne les incommode pas avant d'allumer une cigarette.",
+        "ar": "الحل: b (ينبغي فقط إذا كان لا يزعج الزبائن الآخرين). ينص الدليل على أنه يجب على المدخنين في كل الأحوال سؤال الضيوف الآخرين عما إذا كان التدخين يزعجهم قبل إشعال السيجارة."
+      },
+      "whyIncorrect": {
+        "de": "Option a („im Restaurant ist nicht richtig.“) und Option c („dürfen die Gäste nur vor dem Eintritt ins Restaurant.“) stimmen nicht mit den Aussagen im Text überein.",
+        "fr": "L'option a (« au restaurant n'est pas correct. ») et l'option c (« n'est autorisé que devant l'entrée du restaurant. ») ne correspondent pas aux informations données.",
+        "ar": "الخيار a («في المطعم غير صحيح وغير مسموح.») والخيار c («يُسمح به للضيوف فقط قبل دخول المطعم.») لا يتطابقان مع المعلومات الواردة في النص."
+      }
     },
     "28": {
-      "text": "💡 Lösung: c (sollte man dem Kellner ein Zeichen mit der Hand machen).\nIm Text heißt es ausdrücklich: „Um den Kellner auf sich aufmerksam zu machen, reicht oft schon ein kleines Handzeichen.“",
-      "fr": "💡 Solution : c (on devrait faire un signe de la main au serveur).\nLe guide recommande d'attirer discrètement l'attention du serveur par un simple petit signe de la main (Handzeichen).",
-      "ar": "💡 الحل: c (ينبغي إعطاء إشارة باليد للنادل).\nيوضح النص أن إشارة صغيرة باليد تكفي لجذب انتباه النادل دون الحاجة للمناداة بصوت مرتفع."
+      "quote": "Um den Kellner auf sich aufmerksam zu machen, reicht oft schon ein kleines Handzeichen.",
+      "whyCorrect": {
+        "de": "Lösung: c (sollte man dem Kellner ein Zeichen mit der Hand machen). Im Text heißt es ausdrücklich: „Um den Kellner auf sich aufmerksam zu machen, reicht oft schon ein kleines Handzeichen.“",
+        "fr": "Solution : c (on devrait faire un signe de la main au serveur). Le guide recommande d'attirer discrètement l'attention du serveur par un simple petit signe de la main (Handzeichen).",
+        "ar": "الحل: c (ينبغي إعطاء إشارة باليد للنادل). يوضح النص أن إشارة صغيرة باليد تكفي لجذب انتباه النادل دون الحاجة للمناداة بصوت مرتفع."
+      },
+      "whyIncorrect": {
+        "de": "Option a („muss man den Kellner laut rufen.“) und Option b („muss man sich beim Kellner erkundigen, welcher Kollege an diesem Tisch die Gäste bedient.“) stimmen nicht mit den Aussagen im Text überein.",
+        "fr": "L'option a (« il faut appeler le serveur à haute voix. ») et l'option b (« il faut se renseigner auprès du serveur sur le collègue qui dessert la table. ») ne correspondent pas aux informations données.",
+        "ar": "الخيار a («يجب مناداة النادل بصوت مرتفع.») والخيار b («يجب الاستفسار من النادل عن الزميل المسؤول عن هذه الطاولة.») لا يتطابقان مع المعلومات الواردة في النص."
+      }
     },
     "29": {
-      "text": "💡 Lösung: b (ist es besser, mit einer Kreditkarte zu bezahlen).\nDer Text empfiehlt: „Empfehlenswerter, weil diskreter, ist die Benutzung einer Kreditkarte.“",
-      "fr": "💡 Solution : b (il est préférable de régler par carte de crédit).\nLe texte précise que le paiement par carte bancaire est plus recommandé car plus discret (empfehlenswerter, weil diskreter).",
-      "ar": "💡 الحل: b (من الأفضل الدفع ببطاقة الائتمان).\nينصح النص باستخدام بطاقة الائتمان لأنها الخيار الأكثر تفضيلاً ولباقة وتحفظاً عند دفع الحساب."
+      "quote": "Empfehlenswerter, weil diskreter, ist die Benutzung einer Kreditkarte.",
+      "whyCorrect": {
+        "de": "Lösung: b (ist es besser, mit einer Kreditkarte zu bezahlen). Der Text empfiehlt: „Empfehlenswerter, weil diskreter, ist die Benutzung einer Kreditkarte.“",
+        "fr": "Solution : b (il est préférable de régler par carte de crédit). Le texte précise que le paiement par carte bancaire est plus recommandé car plus discret (empfehlenswerter, weil diskreter).",
+        "ar": "الحل: b (من الأفضل الدفع ببطاقة الائتمان). ينصح النص باستخدام بطاقة الائتمان لأنها الخيار الأكثر تفضيلاً ولباقة وتحفظاً عند دفع الحساب."
+      },
+      "whyIncorrect": {
+        "de": "Option a („sollte man ein Trinkgeld geben, wenn die Bedienung zufrieden war.“) und Option c („zahlt jeder Gast ein Trinkgeld.“) stimmen nicht mit den Aussagen im Text überein.",
+        "fr": "L'option a (« il faudrait donner un pourboire si le serveur était satisfait. ») et l'option c (« chaque invité paie un pourboire. ») ne correspondent pas aux informations données.",
+        "ar": "الخيار a («ينبغي إعطاء إكرامية إذا كان النادل راضياً.») والخيار c («يدفع كل ضيف إكرامية بشكل منفصل.») لا يتطابقان مع المعلومات الواردة في النص."
+      }
     },
     "30": {
-      "text": "💡 Lösung: c (lange am Handy zu reden, während die Gäste warten).\nIm Text steht: „...da es unhöflich ist, die Gäste lange auf sich warten zu lassen.“",
-      "fr": "💡 Solution : c (de parler longuement au téléphone pendant que les invités attendent).\nLe texte qualifie d'impoli le fait de prolonger un appel et de faire attendre ses convives.",
-      "ar": "💡 الحل: c (التحدث طويلاً في الهاتف بينما ينتظر الضيوف).\nيذكر النص أنه من غير اللائق والوقح ترك الضيوف ينتظرون لفترة طويلة بسبب مكالمة هاتفية."
+      "quote": "...da es unhöflich ist, die Gäste lange auf sich warten zu lassen.",
+      "whyCorrect": {
+        "de": "Lösung: c (lange am Handy zu reden, während die Gäste warten). Im Text steht: „...da es unhöflich ist, die Gäste lange auf sich warten zu lassen.“",
+        "fr": "Solution : c (de parler longuement au téléphone pendant que les invités attendent). Le texte qualifie d'impoli le fait de prolonger un appel et de faire attendre ses convives.",
+        "ar": "الحل: c (التحدث طويلاً في الهاتف بينما ينتظر الضيوف). يذكر النص أنه من غير اللائق والوقح ترك الضيوف ينتظرون لفترة طويلة بسبب مكالمة هاتفية."
+      },
+      "whyIncorrect": {
+        "de": "Option a („das Handy ins Restaurant mitzunehmen.“) und Option b („in einer Ecke des Restaurants zu telefonieren.“) stimmen nicht mit den Aussagen im Text überein.",
+        "fr": "L'option a (« d'emporter son téléphone portable au restaurant. ») et l'option b (« de téléphoner dans un recoin du restaurant. ») ne correspondent pas aux informations données.",
+        "ar": "الخيار a («إحضار الهاتف المحمول إلى المطعم.») والخيار b («التحدث بالهاتف في إحدى زوايا المطعم.») لا يتطابقان مع المعلومات الواردة في النص."
+      }
     },
     "h1": {
-      "text": "💡 Lösung: Richtig.\nDie Durchsage am Bahnsteig kündigt die Abfahrt an: „...EN 490 Hans Halbers nach Hamburg Altona... fährt ab... Bitte einsteigen! Türen schließen automatisch.“",
-      "fr": "💡 Solution : Vrai (Richtig).\nL'annonce sur le quai signale le départ imminent du train : « ...EN 490 Hans Halbers... fährt ab... Bitte einsteigen! ».",
-      "ar": "💡 الحل: صحيح (Richtig).\nيعلن النداء الصوتي في المحطة عن مغادرة القطار: «قطار يورو نايت 490 يغادر الآن... يرجى الصعود!»."
+      "quote": "...EN 490 Hans Halbers nach Hamburg Altona... fährt ab... Bitte einsteigen! Türen schließen automatisch.",
+      "whyCorrect": {
+        "de": "Lösung: Richtig. Die Durchsage am Bahnsteig kündigt die Abfahrt an: „...EN 490 Hans Halbers nach Hamburg Altona... fährt ab... Bitte einsteigen! Türen schließen automatisch.“",
+        "fr": "Solution : Vrai (Richtig). L'annonce sur le quai signale le départ imminent du train : « ...EN 490 Hans Halbers... fährt ab... Bitte einsteigen! ».",
+        "ar": "الحل: صحيح (Richtig). يعلن النداء الصوتي في المحطة عن مغادرة القطار: «قطار يورو نايت 490 يغادر الآن... يرجى الصعود!»."
+      },
+      "whyIncorrect": {
+        "de": "„Falsch“ ist hier nicht zutreffend, da die Aussage („Ein Zug fährt ab.“) durch den Textbeleg eindeutig bestätigt wird.",
+        "fr": "Choisir « Faux » (Falsch) est incorrect, car l'affirmation (« Un train est sur le départ. ») est explicitement confirmée par le texte.",
+        "ar": "اختيار «خطأ» (Falsch) غير صحيح، لأن العبارة («قطار يغادر المحطة الآن.») مؤكدة بوضوح في النص."
+      }
     },
     "h2": {
-      "text": "💡 Lösung: b (transportiert sowohl Personen als auch Autos).\nIn der Durchsage heißt es: „...mit einem Zugteil 'Auto im Reisezug' fährt ab.“ Es werden also Autos und Personen befördert.",
-      "fr": "💡 Solution : b (transporte aussi bien des passagers que des voitures).\nL'annonce mentionne la présence d'une rame « Auto im Reisezug » permettant le transport simultané des véhicules et des passagers.",
-      "ar": "💡 الحل: b (ينقل الركاب والسيارات معاً).\nيذكر النداء أن القطار يشتمل على قسم خاص لنقل السيارات مع المسافرين (Auto im Reisezug)."
+      "quote": "...mit einem Zugteil 'Auto im Reisezug' fährt ab.",
+      "whyCorrect": {
+        "de": "Lösung: b (transportiert sowohl Personen als auch Autos). In der Durchsage heißt es: „...mit einem Zugteil 'Auto im Reisezug' fährt ab.“ Es werden also Autos und Personen befördert.",
+        "fr": "Solution : b (transporte aussi bien des passagers que des voitures). L'annonce mentionne la présence d'une rame « Auto im Reisezug » permettant le transport simultané des véhicules et des passagers.",
+        "ar": "الحل: b (ينقل الركاب والسيارات معاً). يذكر النداء أن القطار يشتمل على قسم خاص لنقل السيارات مع المسافرين (Auto im Reisezug)."
+      },
+      "whyIncorrect": {
+        "de": "Option a („kommt aus Wien.“) und Option c („hat einen Liegewagen, aber keinen Schlafwagen.“) stimmen nicht mit den Aussagen im Text überein.",
+        "fr": "L'option a (« arrive de Vienne. ») et l'option c (« dispose d'une voiture-couchettes, mais pas de wagon-lits. ») ne correspondent pas aux informations données.",
+        "ar": "الخيار a («قادم من فيينا.») والخيار c («يحتوي على مقطورات نوم خفيفة ولكن دون مقطورات نوم كاملة.») لا يتطابقان مع المعلومات الواردة في النص."
+      }
     },
     "h3": {
-      "text": "💡 Lösung: Richtig.\nDie automatische Ansage beginnt: „Sie sind mit der automatischen Programmdurchsage des österreichischen Akademietheaters in Wien verbunden. Unser Spielplan...“",
-      "fr": "💡 Solution : Vrai (Richtig).\nLe répondeur égrène la programmation des pièces et les horaires de l'Akademietheater de Vienne.",
-      "ar": "💡 الحل: صحيح (Richtig).\nيقدم الرد الآلي مواعيد وجدول عروض مسرح الأكاديمية النمساوي في فيينا."
+      "quote": "Sie sind mit der automatischen Programmdurchsage des österreichischen Akademietheaters in Wien verbunden. Unser Spielplan...",
+      "whyCorrect": {
+        "de": "Lösung: Richtig. Die automatische Ansage beginnt: „Sie sind mit der automatischen Programmdurchsage des österreichischen Akademietheaters in Wien verbunden. Unser Spielplan...“",
+        "fr": "Solution : Vrai (Richtig). Le répondeur égrène la programmation des pièces et les horaires de l'Akademietheater de Vienne.",
+        "ar": "الحل: صحيح (Richtig). يقدم الرد الآلي مواعيد وجدول عروض مسرح الأكاديمية النمساوي في فيينا."
+      },
+      "whyIncorrect": {
+        "de": "„Falsch“ ist hier nicht zutreffend, da die Aussage („Sie hören die Spielzeiten eines Theaters.“) durch den Textbeleg eindeutig bestätigt wird.",
+        "fr": "Choisir « Faux » (Falsch) est incorrect, car l'affirmation (« Vous entendez les horaires de représentations d'un théâtre. ») est explicitement confirmée par le texte.",
+        "ar": "اختيار «خطأ» (Falsch) غير صحيح، لأن العبارة («أنت تستمع إلى مواعيد عروض أحد المسارح.») مؤكدة بوضوح في النص."
+      }
     },
     "h4": {
-      "text": "💡 Lösung: b (Am Donnerstag und Freitag).\nDie Ansage nennt: „Donnerstag, 17.00 Uhr und Freitag, 18.00 Uhr: Adventlesung: die Weihnachtsgeschichte.“",
-      "fr": "💡 Solution : b (Le jeudi et le vendredi).\nLa lecture de l'Avent / conte de Noël a lieu le jeudi à 17h et le vendredi à 18h.",
-      "ar": "💡 الحل: b (يومي الخميس والجمعة).\nتقام قراءة قصة عيد الميلاد يوم الخميس الساعة 17:00 والجمعة الساعة 18:00."
+      "quote": "Donnerstag, 17.00 Uhr und Freitag, 18.00 Uhr: Adventlesung: die Weihnachtsgeschichte.",
+      "whyCorrect": {
+        "de": "Lösung: b (Am Donnerstag und Freitag). Die Ansage nennt: „Donnerstag, 17.00 Uhr und Freitag, 18.00 Uhr: Adventlesung: die Weihnachtsgeschichte.“",
+        "fr": "Solution : b (Le jeudi et le vendredi). La lecture de l'Avent / conte de Noël a lieu le jeudi à 17h et le vendredi à 18h.",
+        "ar": "الحل: b (يومي الخميس والجمعة). تقام قراءة قصة عيد الميلاد يوم الخميس الساعة 17:00 والجمعة الساعة 18:00."
+      },
+      "whyIncorrect": {
+        "de": "Option a („Am Samstag und Sonntag.“) und Option c („Nur am Donnerstag.“) stimmen nicht mit den Aussagen im Text überein.",
+        "fr": "L'option a (« Le samedi et le dimanche. ») et l'option c (« Seulement le jeudi. ») ne correspondent pas aux informations données.",
+        "ar": "الخيار a («يومي السبت والأحد.») والخيار c («يوم الخميس فقط.») لا يتطابقان مع المعلومات الواردة في النص."
+      }
     },
     "h5": {
-      "text": "💡 Lösung: Richtig.\nDer Sprecher leitet ein: „Und nun, meine Damen und Herren, hören Sie die Abendnachrichten.“",
-      "fr": "💡 Solution : Vrai (Richtig).\nLe présentateur annonce expressément l'édition du journal du soir (Abendnachrichten).",
-      "ar": "💡 الحل: صحيح (Richtig).\nيعلن المذيع بوضوح بدء نشرة الأخبار المسائية (Abendnachrichten)."
+      "quote": "Und nun, meine Damen und Herren, hören Sie die Abendnachrichten.",
+      "whyCorrect": {
+        "de": "Lösung: Richtig. Der Sprecher leitet ein: „Und nun, meine Damen und Herren, hören Sie die Abendnachrichten.“",
+        "fr": "Solution : Vrai (Richtig). Le présentateur annonce expressément l'édition du journal du soir (Abendnachrichten).",
+        "ar": "الحل: صحيح (Richtig). يعلن المذيع بوضوح بدء نشرة الأخبار المسائية (Abendnachrichten)."
+      },
+      "whyIncorrect": {
+        "de": "„Falsch“ ist hier nicht zutreffend, da die Aussage („Sie hören die abendliche Nachrichtensendung.“) durch den Textbeleg eindeutig bestätigt wird.",
+        "fr": "Choisir « Faux » (Falsch) est incorrect, car l'affirmation (« Vous entendez le journal d'information du soir. ») est explicitement confirmée par le texte.",
+        "ar": "اختيار «خطأ» (Falsch) غير صحيح، لأن العبارة («أنت تستمع إلى نشرة الأخبار المسائية في الراديو.») مؤكدة بوضوح في النص."
+      }
     },
     "h6": {
-      "text": "💡 Lösung: c (war mit dem Fahrrad unterwegs).\nDie Nachricht berichtet: „Das Kind wollte mit seinem Fahrrad die Gleise... überqueren.“",
-      "fr": "💡 Solution : c (circulait à vélo).\nLe bulletin indique que l'enfant tentait de traverser les voies avec son vélo (mit seinem Fahrrad).",
-      "ar": "💡 الحل: c (كان يقود دراجة هوائية).\nتفيد النشرة بأن الطفل كان يعبر السكة الحديدية بدراجته الهوائية (mit seinem Fahrrad)."
+      "quote": "Das Kind wollte mit seinem Fahrrad die Gleise... überqueren.",
+      "whyCorrect": {
+        "de": "Lösung: c (war mit dem Fahrrad unterwegs). Die Nachricht berichtet: „Das Kind wollte mit seinem Fahrrad die Gleise... überqueren.“",
+        "fr": "Solution : c (circulait à vélo). Le bulletin indique que l'enfant tentait de traverser les voies avec son vélo (mit seinem Fahrrad).",
+        "ar": "الحل: c (كان يقود دراجة هوائية). تفيد النشرة بأن الطفل كان يعبر السكة الحديدية بدراجته الهوائية (mit seinem Fahrrad)."
+      },
+      "whyIncorrect": {
+        "de": "Option a („fuhr mit der Straßenbahn.“) und Option b („ging zu Fuß.“) stimmen nicht mit den Aussagen im Text überein.",
+        "fr": "L'option a (« prenait le tramway. ») et l'option b (« se déplaçait à pied. ») ne correspondent pas aux informations données.",
+        "ar": "الخيار a («كان يستقل الترام.») والخيار b («كان يسير على الأقدام.») لا يتطابقان مع المعلومات الواردة في النص."
+      }
     },
     "h7": {
-      "text": "💡 Lösung: Falsch.\nMarie-Luise bittet Adele, die Karten abzuholen, weil sie länger im Büro bleiben muss, aber sie kommt nach: „Wir treffen uns wie verabredet am Eingang.“",
-      "fr": "💡 Solution : Faux (Falsch).\nMarie-Luise doit rester un peu plus tard au bureau et demande à Adèle de retirer les billets, mais elle sera bien présente au rendez-vous à l'entrée.",
-      "ar": "💡 الحل: خطأ (Falsch).\nماري لويز تأخرت قليلاً في المكتب وطلبت استلام التذاكر، لكنها ستلتحق بصديقتها عند مدخل المسرح كما هو متفق عليه."
+      "quote": "Wir treffen uns wie verabredet am Eingang.",
+      "whyCorrect": {
+        "de": "Lösung: Falsch. Marie-Luise bittet Adele, die Karten abzuholen, weil sie länger im Büro bleiben muss, aber sie kommt nach: „Wir treffen uns wie verabredet am Eingang.“",
+        "fr": "Solution : Faux (Falsch). Marie-Luise doit rester un peu plus tard au bureau et demande à Adèle de retirer les billets, mais elle sera bien présente au rendez-vous à l'entrée.",
+        "ar": "الحل: خطأ (Falsch). ماري لويز تأخرت قليلاً في المكتب وطلبت استلام التذاكر، لكنها ستلتحق بصديقتها عند مدخل المسرح كما هو متفق عليه."
+      },
+      "whyIncorrect": {
+        "de": "„Richtig“ wäre falsch, da die Aussage („Marie-Luise kann nicht mit ins Theater kommen.“) im direkten Widerspruch zur genannten Textstelle steht.",
+        "fr": "Choisir « Vrai » (Richtig) est incorrect, car l'affirmation (« Marie-Luise ne peut pas venir au théâtre. ») contredit directement les informations du texte.",
+        "ar": "اختيار «صحيح» (Richtig) غير سليم، لأن العبارة («ماري لويز لا تستطيع الحضور إلى المسرح إطلاقاً.») تتعارض بشكل مباشر مع ما ورد في النص."
+      }
     },
     "h8": {
-      "text": "💡 Lösung: a (Die Theaterkarten abholen).\nMarie-Luise bittet: „Ich habe die Eintrittskarten an der Theaterkasse zurücklegen lassen... Kannst du das bitte übernehmen?“",
-      "fr": "💡 Solution : a (Retirer les billets de théâtre).\nMarie-Luise demande à Adèle de récupérer les billets mis de côté à la billetterie.",
-      "ar": "💡 الحل: a (استلام تذاكر المسرح).\nتطلب ماري لويز من صديقتها استلام التذاكر المحجوزة في شباك التذاكر بالمسرح."
+      "quote": "Ich habe die Eintrittskarten an der Theaterkasse zurücklegen lassen... Kannst du das bitte übernehmen?",
+      "whyCorrect": {
+        "de": "Lösung: a (Die Theaterkarten abholen). Marie-Luise bittet: „Ich habe die Eintrittskarten an der Theaterkasse zurücklegen lassen... Kannst du das bitte übernehmen?“",
+        "fr": "Solution : a (Retirer les billets de théâtre). Marie-Luise demande à Adèle de récupérer les billets mis de côté à la billetterie.",
+        "ar": "الحل: a (استلام تذاكر المسرح). تطلب ماري لويز من صديقتها استلام التذاكر المحجوزة في شباك التذاكر بالمسرح."
+      },
+      "whyIncorrect": {
+        "de": "Option b („An der Theaterkasse warten.“) und Option c („Ihre Freundin vom Büro abholen.“) stimmen nicht mit den Aussagen im Text überein.",
+        "fr": "L'option b (« Attendre à la caisse du théâtre. ») et l'option c (« Aller chercher son amie au bureau. ») ne correspondent pas aux informations données.",
+        "ar": "الخيار b («الانتظار عند شباك التذاكر بالمسرح.») والخيار c («الذهاب لاصطحاب صديقتها من المكتب.») لا يتطابقان مع المعلومات الواردة في النص."
+      }
     },
     "h9": {
-      "text": "💡 Lösung: Richtig.\nDie Bandansage gibt die Entfernungen an: „Unser Hotel liegt 22 km vom Flughafen Hannover und 2,5 km vom Hauptbahnhof entfernt...“",
-      "fr": "💡 Solution : Vrai (Richtig).\nLe message fournit les indications précises de situation géographique et de distance par rapport aux gares et aéroports.",
-      "ar": "💡 الحل: صحيح (Richtig).\nيوضح الرد الآلي موقع الفندق والمسافات الفاصلة بينه وبين المحطة المركزية والمطار ومركز المعارض."
+      "quote": "Unser Hotel liegt 22 km vom Flughafen Hannover und 2,5 km vom Hauptbahnhof entfernt...",
+      "whyCorrect": {
+        "de": "Lösung: Richtig. Die Bandansage gibt die Entfernungen an: „Unser Hotel liegt 22 km vom Flughafen Hannover und 2,5 km vom Hauptbahnhof entfernt...“",
+        "fr": "Solution : Vrai (Richtig). Le message fournit les indications précises de situation géographique et de distance par rapport aux gares et aéroports.",
+        "ar": "الحل: صحيح (Richtig). يوضح الرد الآلي موقع الفندق والمسافات الفاصلة بينه وبين المحطة المركزية والمطار ومركز المعارض."
+      },
+      "whyIncorrect": {
+        "de": "„Falsch“ ist hier nicht zutreffend, da die Aussage („Sie erfahren, wo das Hotel liegt.“) durch den Textbeleg eindeutig bestätigt wird.",
+        "fr": "Choisir « Faux » (Falsch) est incorrect, car l'affirmation (« Vous apprenez où se situe l'hôtel. ») est explicitement confirmée par le texte.",
+        "ar": "اختيار «خطأ» (Falsch) غير صحيح، لأن العبارة («تتعرف من خلال الرسالة على موقع الفندق ومسافاته.») مؤكدة بوضوح في النص."
+      }
     },
     "h10": {
-      "text": "💡 Lösung: c (Der Bahnhof).\nDas Hotel liegt nur 2,5 km vom Hauptbahnhof entfernt, während die Ausstellung 9 km und der Flughafen 22 km entfernt sind.",
-      "fr": "💡 Solution : c (La gare).\nL'hôtel est à seulement 2,5 km de la gare centrale (Hauptbahnhof), contre 9 km pour le parc des expositions et 22 km pour l'aéroport.",
-      "ar": "💡 الحل: c (محطة القطار).\nيبعد الفندق 2.5 كم فقط عن محطة القطار المركزية، مقارنة بـ 9 كم لمركز المعارض و22 كم للمطار."
+      "quote": "Unser Hotel liegt nur 2,5 Kilometer vom Hauptbahnhof entfernt (Messegelände: 9 km, Flughafen: 22 km).",
+      "whyCorrect": {
+        "de": "Lösung: c (Der Bahnhof). Das Hotel liegt nur 2,5 km vom Hauptbahnhof entfernt, während die Ausstellung 9 km und der Flughafen 22 km entfernt sind.",
+        "fr": "Solution : c (La gare). L'hôtel est à seulement 2,5 km de la gare centrale (Hauptbahnhof), contre 9 km pour le parc des expositions et 22 km pour l'aéroport.",
+        "ar": "الحل: c (محطة القطار). يبعد الفندق 2.5 كم فقط عن محطة القطار المركزية، مقارنة بـ 9 كم لمركز المعارض و22 كم للمطار."
+      },
+      "whyIncorrect": {
+        "de": "Option a („Der Flughafen.“) und Option b („Die Ausstellung.“) stimmen nicht mit den Aussagen im Text überein.",
+        "fr": "L'option a (« L'aéroport. ») et l'option b (« Le parc des expositions. ») ne correspondent pas aux informations données.",
+        "ar": "الخيار a («المطار.») والخيار b («أرض المعارض.») لا يتطابقان مع المعلومات الواردة في النص."
+      }
     },
     "h11": {
-      "text": "💡 Lösung: c (1993).\nDie Museumsführerin sagt: „...das Käthe-Kruse-Puppen-Museum in Donauwörth in Schwaben zu besuchen, das bereits seit 1993 besteht.“",
-      "fr": "💡 Solution : c (1993).\nLe guide précise que le musée de la poupée Käthe Kruse existe depuis 1993 (bereits seit 1993 besteht).",
-      "ar": "💡 الحل: c (1993).\nتذكر المرشدة في المتحف أن متحف دمى كيتي كروزه قائم ومفتوح منذ عام 1993."
+      "quote": "...das Käthe-Kruse-Puppen-Museum in Donauwörth in Schwaben zu besuchen, das bereits seit 1993 besteht.",
+      "whyCorrect": {
+        "de": "Lösung: c (1993). Die Museumsführerin sagt: „...das Käthe-Kruse-Puppen-Museum in Donauwörth in Schwaben zu besuchen, das bereits seit 1993 besteht.“",
+        "fr": "Solution : c (1993). Le guide précise que le musée de la poupée Käthe Kruse existe depuis 1993 (bereits seit 1993 besteht).",
+        "ar": "الحل: c (1993). تذكر المرشدة في المتحف أن متحف دمى كيتي كروزه قائم ومفتوح منذ عام 1993."
+      },
+      "whyIncorrect": {
+        "de": "Option a („1883.“) und Option b („1968.“) stimmen nicht mit den Aussagen im Text überein.",
+        "fr": "L'option a (« 1883. ») et l'option b (« 1968. ») ne correspondent pas aux informations données.",
+        "ar": "الخيار a («1883.») والخيار b («1968.») لا يتطابقان مع المعلومات الواردة في النص."
+      }
     },
     "h12": {
-      "text": "💡 Lösung: c (warm und weich).\nIm Vortrag heißt es: „Und Käthe Kruse wusste, wie die Puppe sein sollte: warm, weich und nicht zu schwer...“",
-      "fr": "💡 Solution : c (chaude et douce).\nKäthe Kruse voulait créer pour sa fille une poupée « chaude, douce et pas trop lourde » (warm, weich und nicht zu schwer).",
-      "ar": "💡 الحل: c (دافئة ولينة).\nأرادت كيتي كروزه أن تكون أول دمية تصنعها «دافئة ولينة وليست ثقيلة جداً» (warm, weich)."
+      "quote": "Und Käthe Kruse wusste, wie die Puppe sein sollte: warm, weich und nicht zu schwer...",
+      "whyCorrect": {
+        "de": "Lösung: c (warm und weich). Im Vortrag heißt es: „Und Käthe Kruse wusste, wie die Puppe sein sollte: warm, weich und nicht zu schwer...“",
+        "fr": "Solution : c (chaude et douce). Käthe Kruse voulait créer pour sa fille une poupée « chaude, douce et pas trop lourde » (warm, weich und nicht zu schwer).",
+        "ar": "الحل: c (دافئة ولينة). أرادت كيتي كروزه أن تكون أول دمية تصنعها «دافئة ولينة وليست ثقيلة جداً» (warm, weich)."
+      },
+      "whyIncorrect": {
+        "de": "Option a („sehr schwer.“) und Option b („unpersönlich und kalt.“) stimmen nicht mit den Aussagen im Text überein.",
+        "fr": "L'option a (« très lourde. ») et l'option b (« impersonnelle et froide. ») ne correspondent pas aux informations données.",
+        "ar": "الخيار a («ثقيلة جداً.») والخيار b («باردة وجامدة بلا ملامح.») لا يتطابقان مع المعلومات الواردة في النص."
+      }
     },
     "h13": {
-      "text": "💡 Lösung: b (Weil ihre Puppen Kindern ähnlich waren).\nDie Führerin erklärt: „Käthe Kruse wurde über Nacht berühmt... weil sie nicht wie bisher wie kleine Erwachsene waren, sondern eben ganz natürlich wie Kinder aussahen.“",
-      "fr": "💡 Solution : b (Parce que ses poupées ressemblaient à des enfants).\nElle a acquis une renommée internationale car ses poupées avaient les traits naturels de véritables enfants plutôt que ceux de petits adultes figés.",
-      "ar": "💡 الحل: b (لأن دمىها كانت تشبه الأطفال الحقيقيين).\nنالت شهرة واسعة بين عشية وضحاها لأن دمىها كانت ذات ملامح طبيعية تشبه الأطفال بدلاً من أن تبدو كبالغين صغار."
+      "quote": "Käthe Kruse wurde über Nacht berühmt... weil sie nicht wie bisher wie kleine Erwachsene waren, sondern eben ganz natürlich wie Kinder aussahen.",
+      "whyCorrect": {
+        "de": "Lösung: b (Weil ihre Puppen Kindern ähnlich waren). Die Führerin erklärt: „Käthe Kruse wurde über Nacht berühmt... weil sie nicht wie bisher wie kleine Erwachsene waren, sondern eben ganz natürlich wie Kinder aussahen.“",
+        "fr": "Solution : b (Parce que ses poupées ressemblaient à des enfants). Elle a acquis une renommée internationale car ses poupées avaient les traits naturels de véritables enfants plutôt que ceux de petits adultes figés.",
+        "ar": "الحل: b (لأن دمىها كانت تشبه الأطفال الحقيقيين). نالت شهرة واسعة بين عشية وضحاها لأن دمىها كانت ذات ملامح طبيعية تشبه الأطفال بدلاً من أن تبدو كبالغين صغار."
+      },
+      "whyIncorrect": {
+        "de": "Option a („Weil es damals noch keine Puppen gab.“) und Option c („Weil ihre Puppen wie Erwachsene waren.“) stimmen nicht mit den Aussagen im Text überein.",
+        "fr": "L'option a (« Parce qu'il n'existait pas de poupées à cette époque. ») et l'option c (« Parce que ses poupées ressemblaient à des adultes. ») ne correspondent pas aux informations données.",
+        "ar": "الخيار a («لأنه لم تكن هناك دمى في ذلك الوقت.») والخيار c («لأن دمىها كانت تشبه البالغين.») لا يتطابقان مع المعلومات الواردة في النص."
+      }
     },
     "h14": {
-      "text": "💡 Lösung: a (Einen Workshop besuchen).\nDie Führerin erwähnt: „Danach könnt ihr endlich aktiv werden in unserem Begleitprogramm, wo ihr Spielzeug aus Wegwerfmaterialien selbst produzieren könnt. Dieser Workshop dauert circa 90 Minuten.“",
-      "fr": "💡 Solution : a (Participer à un atelier pratique).\nLe musée propose un atelier (Workshop) de 90 minutes où les enfants fabriquent eux-mêmes des jouets à partir de matériaux recyclés.",
-      "ar": "💡 الحل: a (حضور ورشة عمل).\nيتيح برنامج المتحف للأطفال المشاركة في ورشة عمل لمدة 90 دقيقة لصنع ألعاب من مواد قابلة للتدوير."
+      "quote": "Danach könnt ihr endlich aktiv werden in unserem Begleitprogramm, wo ihr Spielzeug aus Wegwerfmaterialien selbst produzieren könnt. Dieser Workshop dauert circa 90 Minuten.",
+      "whyCorrect": {
+        "de": "Lösung: a (Einen Workshop besuchen). Die Führerin erwähnt: „Danach könnt ihr endlich aktiv werden in unserem Begleitprogramm, wo ihr Spielzeug aus Wegwerfmaterialien selbst produzieren könnt. Dieser Workshop dauert circa 90 Minuten.“",
+        "fr": "Solution : a (Participer à un atelier pratique). Le musée propose un atelier (Workshop) de 90 minutes où les enfants fabriquent eux-mêmes des jouets à partir de matériaux recyclés.",
+        "ar": "الحل: a (حضور ورشة عمل). يتيح برنامج المتحف للأطفال المشاركة في ورشة عمل لمدة 90 دقيقة لصنع ألعاب من مواد قابلة للتدوير."
+      },
+      "whyIncorrect": {
+        "de": "Option b („Eine Puppe herstellen.“) und Option c („Käthe Kruse interviewen.“) stimmen nicht mit den Aussagen im Text überein.",
+        "fr": "L'option b (« Fabriquer une poupée. ») et l'option c (« Interviewer Käthe Kruse. ») ne correspondent pas aux informations données.",
+        "ar": "الخيار b («صنع دمية كيتي كروزه أصلية.») والخيار c («إجراء مقابلة مع كيتي كروزه.») لا يتطابقان مع المعلومات الواردة في النص."
+      }
     },
     "h15": {
-      "text": "💡 Lösung: c (bis zu zwölf Kinder einlädt).\nZur Geburtstagsfeier heißt es: „Allerdings müsst ihr zwischen sechs und zwölf Jahre alt sein und dürft nicht mehr als 12 Kinder einladen.“",
-      "fr": "💡 Solution : c (on n'invite pas plus de douze enfants).\nPour fêter son anniversaire au musée, il ne faut pas inviter plus de 12 enfants (nicht mehr als 12 Kinder einladen).",
-      "ar": "💡 الحل: c (دعوة ما لا يزيد عن اثني عشر طفلاً).\nيشترط لإقامة حفل عيد ميلاد في المتحف ألا يتجاوز عدد الأطفال المدعوين 12 طفلاً."
+      "quote": "Allerdings müsst ihr zwischen sechs und zwölf Jahre alt sein und dürft nicht mehr als 12 Kinder einladen.",
+      "whyCorrect": {
+        "de": "Lösung: c (bis zu zwölf Kinder einlädt). Zur Geburtstagsfeier heißt es: „Allerdings müsst ihr zwischen sechs und zwölf Jahre alt sein und dürft nicht mehr als 12 Kinder einladen.“",
+        "fr": "Solution : c (on n'invite pas plus de douze enfants). Pour fêter son anniversaire au musée, il ne faut pas inviter plus de 12 enfants (nicht mehr als 12 Kinder einladen).",
+        "ar": "الحل: c (دعوة ما لا يزيد عن اثني عشر طفلاً). يشترط لإقامة حفل عيد ميلاد في المتحف ألا يتجاوز عدد الأطفال المدعوين 12 طفلاً."
+      },
+      "whyIncorrect": {
+        "de": "Option a („Eltern, Oma oder Opa mitbringt.“) und Option b („unter sechs Jahre alt ist.“) stimmen nicht mit den Aussagen im Text überein.",
+        "fr": "L'option a (« l'on vient avec ses parents ou ses grands-parents. ») et l'option b (« l'on a moins de six ans. ») ne correspondent pas aux informations données.",
+        "ar": "الخيار a («اصطحب الطفل والديه أو جده أو جدته معه.») والخيار b («كان عمر الطفل أقل من ست سنوات.») لا يتطابقان مع المعلومات الواردة في النص."
+      }
     },
     "h16": {
-      "text": "💡 Lösung: Richtig.\nDie Mutter fragt: „Was macht dein Zahn?“, worauf Hanna antwortet: „Der tut echt weh. Die Schmerztabletten haben nicht wirklich geholfen.“",
-      "fr": "💡 Solution : Vrai (Richtig).\nÀ la question de sa mère sur sa dent, Hanna confirme qu'elle a très mal malgré les comprimés antidouleur.",
-      "ar": "💡 الحل: صحيح (Richtig).\nتسأل الأم عن السن، فتجيب هناء بأنه يؤلمها بشدة وأن المسكنات لم تجدِ نفعاً."
+      "quote": "Was macht dein Zahn?",
+      "whyCorrect": {
+        "de": "Lösung: Richtig. Die Mutter fragt: „Was macht dein Zahn?“, worauf Hanna antwortet: „Der tut echt weh. Die Schmerztabletten haben nicht wirklich geholfen.“",
+        "fr": "Solution : Vrai (Richtig). À la question de sa mère sur sa dent, Hanna confirme qu'elle a très mal malgré les comprimés antidouleur.",
+        "ar": "الحل: صحيح (Richtig). تسأل الأم عن السن، فتجيب هناء بأنه يؤلمها بشدة وأن المسكنات لم تجدِ نفعاً."
+      },
+      "whyIncorrect": {
+        "de": "„Falsch“ ist hier nicht zutreffend, da die Aussage („Hanna hat Zahnschmerzen.“) durch den Textbeleg eindeutig bestätigt wird.",
+        "fr": "Choisir « Faux » (Falsch) est incorrect, car l'affirmation (« Hanna a mal aux dents. ») est explicitement confirmée par le texte.",
+        "ar": "اختيار «خطأ» (Falsch) غير صحيح، لأن العبارة («هناء تعاني من ألم في الأسنان.») مؤكدة بوضوح في النص."
+      }
     },
     "h17": {
-      "text": "💡 Lösung: Falsch.\nHanna kaufte sich nur ein T-Shirt; den Rock hat ihre Freundin Vanessa gekauft: „Vanessa hat sich auch etwas gekauft, einen Rock.“",
-      "fr": "💡 Solution : Faux (Falsch).\nHanna n'a acheté qu'un t-shirt ; c'est son amie Vanessa qui a acheté une jupe (einen Rock).",
-      "ar": "💡 الحل: خطأ (Falsch).\nاشترت هناء قميص تي شيرت فقط؛ بينما اشترت صديقتها فانيسا التنورة (Vanessa hat sich... einen Rock gekauft)."
+      "quote": "Vanessa hat sich auch etwas gekauft, einen Rock.",
+      "whyCorrect": {
+        "de": "Lösung: Falsch. Hanna kaufte sich nur ein T-Shirt; den Rock hat ihre Freundin Vanessa gekauft: „Vanessa hat sich auch etwas gekauft, einen Rock.“",
+        "fr": "Solution : Faux (Falsch). Hanna n'a acheté qu'un t-shirt ; c'est son amie Vanessa qui a acheté une jupe (einen Rock).",
+        "ar": "الحل: خطأ (Falsch). اشترت هناء قميص تي شيرت فقط؛ بينما اشترت صديقتها فانيسا التنورة (Vanessa hat sich... einen Rock gekauft)."
+      },
+      "whyIncorrect": {
+        "de": "„Richtig“ wäre falsch, da die Aussage („Hanna hat sich ein T-Shirt und einen Rock gekauft.“) im direkten Widerspruch zur genannten Textstelle steht.",
+        "fr": "Choisir « Vrai » (Richtig) est incorrect, car l'affirmation (« Hanna s'est acheté un t-shirt et une jupe. ») contredit directement les informations du texte.",
+        "ar": "اختيار «صحيح» (Richtig) غير سليم، لأن العبارة («اشترت هناء لنفسها قميص تي شيرت وتنورة.») تتعارض بشكل مباشر مع ما ورد في النص."
+      }
     },
     "h18": {
-      "text": "💡 Lösung: Richtig.\nAuf die Frage nach dem Preis antwortet Hanna: „Nur 13 Euro.“",
-      "fr": "💡 Solution : Vrai (Richtig).\nHanna indique expressément avoir payé son t-shirt seulement 13 euros.",
-      "ar": "💡 الحل: صحيح (Richtig).\nتؤكد هناء أن سعر التي شيرت كان 13 يورو فقط."
+      "quote": "Nur 13 Euro.",
+      "whyCorrect": {
+        "de": "Lösung: Richtig. Auf die Frage nach dem Preis antwortet Hanna: „Nur 13 Euro.“",
+        "fr": "Solution : Vrai (Richtig). Hanna indique expressément avoir payé son t-shirt seulement 13 euros.",
+        "ar": "الحل: صحيح (Richtig). تؤكد هناء أن سعر التي شيرت كان 13 يورو فقط."
+      },
+      "whyIncorrect": {
+        "de": "„Falsch“ ist hier nicht zutreffend, da die Aussage („Das T-Shirt hat 13 Euro gekostet.“) durch den Textbeleg eindeutig bestätigt wird.",
+        "fr": "Choisir « Faux » (Falsch) est incorrect, car l'affirmation (« Le t-shirt a coûté 13 euros. ») est explicitement confirmée par le texte.",
+        "ar": "اختيار «خطأ» (Falsch) غير صحيح، لأن العبارة («كان سعر قميص التي شيرت 13 يورو.») مؤكدة بوضوح في النص."
+      }
     },
     "h19": {
-      "text": "💡 Lösung: Richtig.\nDie Mutter bemerkt: „Na ja, so richtig warm für eine Grillparty am Abend ist es ja eigentlich noch nicht. Du musst auf jeden Fall noch eine Jacke anziehen.“",
-      "fr": "💡 Solution : Vrai (Richtig).\nLa mère souligne qu'il ne fait pas encore assez chaud le soir pour un barbecue et qu'il faut prévoir une veste.",
-      "ar": "💡 الحل: صحيح (Richtig).\nتوضح الأم أن الجو لا يزال بارداً بعض الشيء في المساء ولا يناسب حفلة شواء دون ارتداء سترة."
+      "quote": "Na ja, so richtig warm für eine Grillparty am Abend ist es ja eigentlich noch nicht. Du musst auf jeden Fall noch eine Jacke anziehen.",
+      "whyCorrect": {
+        "de": "Lösung: Richtig. Die Mutter bemerkt: „Na ja, so richtig warm für eine Grillparty am Abend ist es ja eigentlich noch nicht. Du musst auf jeden Fall noch eine Jacke anziehen.“",
+        "fr": "Solution : Vrai (Richtig). La mère souligne qu'il ne fait pas encore assez chaud le soir pour un barbecue et qu'il faut prévoir une veste.",
+        "ar": "الحل: صحيح (Richtig). توضح الأم أن الجو لا يزال بارداً بعض الشيء في المساء ولا يناسب حفلة شواء دون ارتداء سترة."
+      },
+      "whyIncorrect": {
+        "de": "„Falsch“ ist hier nicht zutreffend, da die Aussage („Das Wetter ist noch ein bisschen kühl.“) durch den Textbeleg eindeutig bestätigt wird.",
+        "fr": "Choisir « Faux » (Falsch) est incorrect, car l'affirmation (« La météo est encore un peu fraîche. ») est explicitement confirmée par le texte.",
+        "ar": "اختيار «خطأ» (Falsch) غير صحيح، لأن العبارة («الطقس لا يزال بارداً بعض الشيء.») مؤكدة بوضوح في النص."
+      }
     },
     "h20": {
-      "text": "💡 Lösung: Falsch.\nDas T-Shirt ist hellblau („hellblau?“). Die Jeansjacke, die Hanna mitnehmen will, ist schwarz.",
-      "fr": "💡 Solution : Faux (Falsch).\nLe t-shirt acheté est bleu clair (hellblau). C'est la veste en jean qui est noire.",
-      "ar": "💡 الحل: خطأ (Falsch).\nالتي شيرت الذي اشترته هناء لونه أزرق فاتح (hellblau)؛ بينما السترة الجينز هي السوداء."
+      "quote": "hellblau?",
+      "whyCorrect": {
+        "de": "Lösung: Falsch. Das T-Shirt ist hellblau („hellblau?“). Die Jeansjacke, die Hanna mitnehmen will, ist schwarz.",
+        "fr": "Solution : Faux (Falsch). Le t-shirt acheté est bleu clair (hellblau). C'est la veste en jean qui est noire.",
+        "ar": "الحل: خطأ (Falsch). التي شيرت الذي اشترته هناء لونه أزرق فاتح (hellblau)؛ بينما السترة الجينز هي السوداء."
+      },
+      "whyIncorrect": {
+        "de": "„Richtig“ wäre falsch, da die Aussage („Das T-Shirt ist schwarz.“) im direkten Widerspruch zur genannten Textstelle steht.",
+        "fr": "Choisir « Vrai » (Richtig) est incorrect, car l'affirmation (« Le t-shirt est noir. ») contredit directement les informations du texte.",
+        "ar": "اختيار «صحيح» (Richtig) غير سليم، لأن العبارة («لون التي شيرت أسود.») تتعارض بشكل مباشر مع ما ورد في النص."
+      }
     },
     "h21": {
-      "text": "💡 Lösung: Falsch.\nHanna würde es umtauschen, aber sie kann es nicht, da es ein Sonderangebot war: „Das war doch ein Sonderangebot. Sonderangebote kann man doch nicht umtauschen.“ Es liegt also nicht an ihrem Willen.",
-      "fr": "💡 Solution : Faux (Falsch).\nHanna ne refuse pas par principe d'échanger le t-shirt, mais explique que c'est un article soldé non échangeable (Sonderangebote kann man doch nicht umtauschen).",
-      "ar": "💡 الحل: خطأ (Falsch).\nهناء لا ترفض التبديل عن قصد، بل تبين أن السلعة مخفضة ولا يمكن تبديل العروض المخفضة حسب قوانين المحل."
+      "quote": "Das war doch ein Sonderangebot. Sonderangebote kann man doch nicht umtauschen.",
+      "whyCorrect": {
+        "de": "Lösung: Falsch. Hanna würde es umtauschen, aber sie kann es nicht, da es ein Sonderangebot war: „Das war doch ein Sonderangebot. Sonderangebote kann man doch nicht umtauschen.“ Es liegt also nicht an ihrem Willen.",
+        "fr": "Solution : Faux (Falsch). Hanna ne refuse pas par principe d'échanger le t-shirt, mais explique que c'est un article soldé non échangeable (Sonderangebote kann man doch nicht umtauschen).",
+        "ar": "الحل: خطأ (Falsch). هناء لا ترفض التبديل عن قصد، بل تبين أن السلعة مخفضة ولا يمكن تبديل العروض المخفضة حسب قوانين المحل."
+      },
+      "whyIncorrect": {
+        "de": "„Richtig“ wäre falsch, da die Aussage („Hanna will das T-Shirt nicht umtauschen.“) im direkten Widerspruch zur genannten Textstelle steht.",
+        "fr": "Choisir « Vrai » (Richtig) est incorrect, car l'affirmation (« Hanna ne veut pas échanger le t-shirt. ») contredit directement les informations du texte.",
+        "ar": "اختيار «صحيح» (Richtig) غير سليم، لأن العبارة («هناء لا ترغب في استبدال التي شيرت.») تتعارض بشكل مباشر مع ما ورد في النص."
+      }
     },
     "h22": {
-      "text": "💡 Lösung: Falsch.\nDie Mutter schenkt es ihr nicht, sondern leiht es ihr für die Party: „Du leihst mir wirklich dein grünes T-Shirt...? – Aber am Montag brauche ich es.“",
-      "fr": "💡 Solution : Faux (Falsch).\nLa mère ne lui donne pas le t-shirt vert, elle le lui prête uniquement pour la soirée du samedi (elle en a besoin lundi).",
-      "ar": "💡 الحل: خطأ (Falsch).\nالأم لا تهدي التي شيرت الأخضر لهناء، بل تعيرها إياه لحفلة نهاية الأسبوع وتطلبه مجدداً ليوم الإثنين."
+      "quote": "Du leihst mir wirklich dein grünes T-Shirt...? – Aber am Montag brauche ich es.",
+      "whyCorrect": {
+        "de": "Lösung: Falsch. Die Mutter schenkt es ihr nicht, sondern leiht es ihr für die Party: „Du leihst mir wirklich dein grünes T-Shirt...? – Aber am Montag brauche ich es.“",
+        "fr": "Solution : Faux (Falsch). La mère ne lui donne pas le t-shirt vert, elle le lui prête uniquement pour la soirée du samedi (elle en a besoin lundi).",
+        "ar": "الحل: خطأ (Falsch). الأم لا تهدي التي شيرت الأخضر لهناء، بل تعيرها إياه لحفلة نهاية الأسبوع وتطلبه مجدداً ليوم الإثنين."
+      },
+      "whyIncorrect": {
+        "de": "„Richtig“ wäre falsch, da die Aussage („Die Mutter schenkt Hanna ein T-Shirt.“) im direkten Widerspruch zur genannten Textstelle steht.",
+        "fr": "Choisir « Vrai » (Richtig) est incorrect, car l'affirmation (« La mère offre un t-shirt à Hanna. ») contredit directement les informations du texte.",
+        "ar": "اختيار «صحيح» (Richtig) غير سليم، لأن العبارة («تهدي الأم هناء قميص تي شيرت جديداً.») تتعارض بشكل مباشر مع ما ورد في النص."
+      }
     },
     "h23": {
-      "text": "💡 Lösung: a (Moderatorin).\nDie Moderatorin sagt: „Meine Kinder zum Beispiel klagen über Langeweile. Die Zeit vergeht ihnen zu langsam. Wir Erwachsene dagegen haben das Gefühl, die Zeit vergeht zu schnell.“",
-      "fr": "💡 Solution : a (L'animatrice).\nL'animatrice constate d'après ses enfants que ceux-ci s'ennuient plus facilement et trouvent que le temps passe trop lentement par rapport aux adultes.",
-      "ar": "💡 الحل: a (المذيعة).\nتطرح المذيعة ملاحظتها الشخصية بأن أطفالها يشتكون من الملل ويمر الوقت عليهم ببطء على عكس البالغين."
+      "quote": "Meine Kinder zum Beispiel klagen über Langeweile. Die Zeit vergeht ihnen zu langsam. Wir Erwachsene dagegen haben das Gefühl, die Zeit vergeht zu schnell.",
+      "whyCorrect": {
+        "de": "Lösung: a (Moderatorin). Die Moderatorin sagt: „Meine Kinder zum Beispiel klagen über Langeweile. Die Zeit vergeht ihnen zu langsam. Wir Erwachsene dagegen haben das Gefühl, die Zeit vergeht zu schnell.“",
+        "fr": "Solution : a (L'animatrice). L'animatrice constate d'après ses enfants que ceux-ci s'ennuient plus facilement et trouvent que le temps passe trop lentement par rapport aux adultes.",
+        "ar": "الحل: a (المذيعة). تطرح المذيعة ملاحظتها الشخصية بأن أطفالها يشتكون من الملل ويمر الوقت عليهم ببطء على عكس البالغين."
+      },
+      "whyIncorrect": {
+        "de": "Weder Leo Hofl (Option b) noch Mario Kulmer (Option c) haben diese Aussage im Gespräch gemacht.",
+        "fr": "Ni Leo Hofl (option b) ni Mario Kulmer (option c) n'ont formulé cette affirmation au cours de la discussion.",
+        "ar": "لم تصدر هذه العبارة في الحوار لا عن ليو هوفل (الخيار b) ولا عن ماريو كولمر (الخيار c)."
+      }
     },
     "h24": {
-      "text": "💡 Lösung: c (Mario Kulmer).\nHerr Kulmer berichtet: „Ich war mein ganzes Leben lang sehr aktiv. Deshalb habe ich auch vieles, woran ich mich erinnern kann. Wenn ich zurückblicke, habe ich das Gefühl, dass ich damals sehr viel Zeit zur Verfügung hatte.“",
-      "fr": "💡 Solution : c (Mario Kulmer).\nM. Kulmer explique qu'ayant toujours mené une vie très active, il dispose de nombreux souvenirs qui lui donnent l'impression d'avoir eu beaucoup de temps.",
-      "ar": "💡 الحل: c (ماريو كولمر).\nيوضح السيد كولمر أنه كان نشطاً طوال حياته ويمتلك ذكريات كثيرة تجعله يشعر عند استرجاعها بأنه كان يمتلك الكثير من الوقت."
+      "quote": "Ich war mein ganzes Leben lang sehr aktiv. Deshalb habe ich auch vieles, woran ich mich erinnern kann. Wenn ich zurückblicke, habe ich das Gefühl, dass ich damals sehr viel Zeit zur Verfügung hatte.",
+      "whyCorrect": {
+        "de": "Lösung: c (Mario Kulmer). Herr Kulmer berichtet: „Ich war mein ganzes Leben lang sehr aktiv. Deshalb habe ich auch vieles, woran ich mich erinnern kann. Wenn ich zurückblicke, habe ich das Gefühl, dass ich damals sehr viel Zeit zur Verfügung hatte.“",
+        "fr": "Solution : c (Mario Kulmer). M. Kulmer explique qu'ayant toujours mené une vie très active, il dispose de nombreux souvenirs qui lui donnent l'impression d'avoir eu beaucoup de temps.",
+        "ar": "الحل: c (ماريو كولمر). يوضح السيد كولمر أنه كان نشطاً طوال حياته ويمتلك ذكريات كثيرة تجعله يشعر عند استرجاعها بأنه كان يمتلك الكثير من الوقت."
+      },
+      "whyIncorrect": {
+        "de": "Weder Moderatorin (Option a) noch Leo Hofl (Option b) haben diese Aussage im Gespräch gemacht.",
+        "fr": "Ni L'animatrice (option a) ni Leo Hofl (option b) n'ont formulé cette affirmation au cours de la discussion.",
+        "ar": "لم تصدر هذه العبارة في الحوار لا عن المذيعة (الخيار a) ولا عن ليو هوفل (الخيار b)."
+      }
     },
     "h25": {
-      "text": "💡 Lösung: a (Moderatorin).\nDie Moderatorin führt das Thema ein: „Ich möchte nun über einen Begriff mit Ihnen sprechen, der heutzutage – wie man so sagt – in aller Munde ist: der des Zeitmanagements.“",
-      "fr": "💡 Solution : a (L'animatrice).\nL'animatrice aborde la question de la gestion du temps en soulignant qu'il s'agit d'un thème très en vogue aujourd'hui (« in aller Munde »).",
-      "ar": "💡 الحل: a (المذيعة).\nتطرح المذيعة مفهوم إدارة الوقت مشيرة إلى أنه موضوع شائع جداً وحديث الساعة في عصرنا الحالي."
+      "quote": "Ich möchte nun über einen Begriff mit Ihnen sprechen, der heutzutage – wie man so sagt – in aller Munde ist: der des Zeitmanagements.",
+      "whyCorrect": {
+        "de": "Lösung: a (Moderatorin). Die Moderatorin führt das Thema ein: „Ich möchte nun über einen Begriff mit Ihnen sprechen, der heutzutage – wie man so sagt – in aller Munde ist: der des Zeitmanagements.“",
+        "fr": "Solution : a (L'animatrice). L'animatrice aborde la question de la gestion du temps en soulignant qu'il s'agit d'un thème très en vogue aujourd'hui (« in aller Munde »).",
+        "ar": "الحل: a (المذيعة). تطرح المذيعة مفهوم إدارة الوقت مشيرة إلى أنه موضوع شائع جداً وحديث الساعة في عصرنا الحالي."
+      },
+      "whyIncorrect": {
+        "de": "Weder Leo Hofl (Option b) noch Mario Kulmer (Option c) haben diese Aussage im Gespräch gemacht.",
+        "fr": "Ni Leo Hofl (option b) ni Mario Kulmer (option c) n'ont formulé cette affirmation au cours de la discussion.",
+        "ar": "لم تصدر هذه العبارة في الحوار لا عن ليو هوفل (الخيار b) ولا عن ماريو كولمر (الخيار c)."
+      }
     },
     "h26": {
-      "text": "💡 Lösung: b (Leo Hofl).\nPsychologe Leo Hofl erläutert: „Das führt oft zu Stress... Und diesen Stress kann man durch Zeitmanagement vermeiden.“",
-      "fr": "💡 Solution : b (Leo Hofl).\nLe psychologue Leo Hofl affirme qu'une bonne gestion du temps permet d'éviter et de réduire le stress provoqué par l'accumulation des tâches.",
-      "ar": "💡 الحل: b (ليو هوفل).\nيوضح الأخصائي النفسي ليو هوفل أن إدارة الوقت تساعد على تفادي الإجهاد والتوتر الناجم عن ضيق الوقت وتعدد المهام."
+      "quote": "Das führt oft zu Stress... Und diesen Stress kann man durch Zeitmanagement vermeiden.",
+      "whyCorrect": {
+        "de": "Lösung: b (Leo Hofl). Psychologe Leo Hofl erläutert: „Das führt oft zu Stress... Und diesen Stress kann man durch Zeitmanagement vermeiden.“",
+        "fr": "Solution : b (Leo Hofl). Le psychologue Leo Hofl affirme qu'une bonne gestion du temps permet d'éviter et de réduire le stress provoqué par l'accumulation des tâches.",
+        "ar": "الحل: b (ليو هوفل). يوضح الأخصائي النفسي ليو هوفل أن إدارة الوقت تساعد على تفادي الإجهاد والتوتر الناجم عن ضيق الوقت وتعدد المهام."
+      },
+      "whyIncorrect": {
+        "de": "Weder Moderatorin (Option a) noch Mario Kulmer (Option c) haben diese Aussage im Gespräch gemacht.",
+        "fr": "Ni L'animatrice (option a) ni Mario Kulmer (option c) n'ont formulé cette affirmation au cours de la discussion.",
+        "ar": "لم تصدر هذه العبارة في الحوار لا عن المذيعة (الخيار a) ولا عن ماريو كولمر (الخيار c)."
+      }
     },
     "h27": {
-      "text": "💡 Lösung: b (Leo Hofl).\nHerr Hofl betont: „Beim Zeitmanagement muss man die Zeit so einteilen, dass man nicht nur seine Arbeit, sondern auch Dinge macht, die Spaß machen. Die Freizeit gehört auch zum Zeitplan.“",
-      "fr": "💡 Solution : b (Leo Hofl).\nLeo Hofl insiste sur le fait qu'un emploi du temps doit impérativement réserver des plages dédiées aux loisirs et au repos à côté du travail.",
-      "ar": "💡 الحل: b (ليو هوفل).\nيؤكد ليو هوفل أن تنظيم الوقت يجب أن يوازن بين أداء الواجبات والتمتع بأوقات الفراغ والراحة."
+      "quote": "Beim Zeitmanagement muss man die Zeit so einteilen, dass man nicht nur seine Arbeit, sondern auch Dinge macht, die Spaß machen. Die Freizeit gehört auch zum Zeitplan.",
+      "whyCorrect": {
+        "de": "Lösung: b (Leo Hofl). Herr Hofl betont: „Beim Zeitmanagement muss man die Zeit so einteilen, dass man nicht nur seine Arbeit, sondern auch Dinge macht, die Spaß machen. Die Freizeit gehört auch zum Zeitplan.“",
+        "fr": "Solution : b (Leo Hofl). Leo Hofl insiste sur le fait qu'un emploi du temps doit impérativement réserver des plages dédiées aux loisirs et au repos à côté du travail.",
+        "ar": "الحل: b (ليو هوفل). يؤكد ليو هوفل أن تنظيم الوقت يجب أن يوازن بين أداء الواجبات والتمتع بأوقات الفراغ والراحة."
+      },
+      "whyIncorrect": {
+        "de": "Weder Moderatorin (Option a) noch Mario Kulmer (Option c) haben diese Aussage im Gespräch gemacht.",
+        "fr": "Ni L'animatrice (option a) ni Mario Kulmer (option c) n'ont formulé cette affirmation au cours de la discussion.",
+        "ar": "لم تصدر هذه العبارة في الحوار لا عن المذيعة (الخيار a) ولا عن ماريو كولمر (الخيار c)."
+      }
     },
     "h28": {
-      "text": "💡 Lösung: a (Moderatorin).\nDie Moderatorin vermutet: „Sicherlich haben Pensionäre genug Zeit, da sie nicht mehr arbeiten und darum nicht mehr viel tun müssen.“",
-      "fr": "💡 Solution : a (L'animatrice).\nL'animatrice émet l'idée reçue que les retraités disposent de tout leur temps puisqu'ils n'ont plus d'activité professionnelle obligatoire.",
-      "ar": "💡 الحل: a (المذيعة).\nتفترض المذيعة أن المتقاعدين لديهم وفرة من الوقت لكونهم لم يعودوا ملزمين بالعمل اليومي."
+      "quote": "Sicherlich haben Pensionäre genug Zeit, da sie nicht mehr arbeiten und darum nicht mehr viel tun müssen.",
+      "whyCorrect": {
+        "de": "Lösung: a (Moderatorin). Die Moderatorin vermutet: „Sicherlich haben Pensionäre genug Zeit, da sie nicht mehr arbeiten und darum nicht mehr viel tun müssen.“",
+        "fr": "Solution : a (L'animatrice). L'animatrice émet l'idée reçue que les retraités disposent de tout leur temps puisqu'ils n'ont plus d'activité professionnelle obligatoire.",
+        "ar": "الحل: a (المذيعة). تفترض المذيعة أن المتقاعدين لديهم وفرة من الوقت لكونهم لم يعودوا ملزمين بالعمل اليومي."
+      },
+      "whyIncorrect": {
+        "de": "Weder Leo Hofl (Option b) noch Mario Kulmer (Option c) haben diese Aussage im Gespräch gemacht.",
+        "fr": "Ni Leo Hofl (option b) ni Mario Kulmer (option c) n'ont formulé cette affirmation au cours de la discussion.",
+        "ar": "لم تصدر هذه العبارة في الحوار لا عن ليو هوفل (الخيار b) ولا عن ماريو كولمر (الخيار c)."
+      }
     },
     "h29": {
-      "text": "💡 Lösung: c (Mario Kulmer).\nHerr Kulmer rät den Zuhörern: „Man sollte nicht zu lange darüber nachdenken, was man als Nächstes tut. Denn auch zu langes Planen kostet Zeit.“",
-      "fr": "💡 Solution : c (Mario Kulmer).\nM. Kulmer conseille de ne pas passer trop de temps à planifier ses moindres faits et gestes, car planifier excessivement fait perdre du temps.",
-      "ar": "💡 الحل: c (ماريو كولمر).\nينصح السيد كولمر بعدم الإفراط في التفكير والتخطيط لكل خطوة قادمة لأن التخطيط المفرط يستهلك الوقت بحد ذاته."
+      "quote": "Man sollte nicht zu lange darüber nachdenken, was man als Nächstes tut. Denn auch zu langes Planen kostet Zeit.",
+      "whyCorrect": {
+        "de": "Lösung: c (Mario Kulmer). Herr Kulmer rät den Zuhörern: „Man sollte nicht zu lange darüber nachdenken, was man als Nächstes tut. Denn auch zu langes Planen kostet Zeit.“",
+        "fr": "Solution : c (Mario Kulmer). M. Kulmer conseille de ne pas passer trop de temps à planifier ses moindres faits et gestes, car planifier excessivement fait perdre du temps.",
+        "ar": "الحل: c (ماريو كولمر). ينصح السيد كولمر بعدم الإفراط في التفكير والتخطيط لكل خطوة قادمة لأن التخطيط المفرط يستهلك الوقت بحد ذاته."
+      },
+      "whyIncorrect": {
+        "de": "Weder Moderatorin (Option a) noch Leo Hofl (Option b) haben diese Aussage im Gespräch gemacht.",
+        "fr": "Ni L'animatrice (option a) ni Leo Hofl (option b) n'ont formulé cette affirmation au cours de la discussion.",
+        "ar": "لم تصدر هذه العبارة في الحوار لا عن المذيعة (الخيار a) ولا عن ليو هوفل (الخيار b)."
+      }
     },
     "h30": {
-      "text": "💡 Lösung: b (Leo Hofl).\nHerr Hofl schließt: „Für jeden von uns gibt es exakt dieselbe Zeit pro Tag, nämlich 24 Stunden. Im Grunde genommen gibt es kein Zuviel und kein Zuwenig.“",
-      "fr": "💡 Solution : b (Leo Hofl).\nLeo Hofl conclut en rappelant que le temps est fondamentalement démocratique : chaque individu dispose exactement de 24 heures par jour.",
-      "ar": "💡 الحل: b (ليو هوفل).\nيختتم ليو هوفل بالقول إن الوقت ديمقراطي وعادل للجميع، فكل إنسان يمتلك 24 ساعة بالضبط في اليوم الواحد."
+      "quote": "Für jeden von uns gibt es exakt dieselbe Zeit pro Tag, nämlich 24 Stunden. Im Grunde genommen gibt es kein Zuviel und kein Zuwenig.",
+      "whyCorrect": {
+        "de": "Lösung: b (Leo Hofl). Herr Hofl schließt: „Für jeden von uns gibt es exakt dieselbe Zeit pro Tag, nämlich 24 Stunden. Im Grunde genommen gibt es kein Zuviel und kein Zuwenig.“",
+        "fr": "Solution : b (Leo Hofl). Leo Hofl conclut en rappelant que le temps est fondamentalement démocratique : chaque individu dispose exactement de 24 heures par jour.",
+        "ar": "الحل: b (ليو هوفل). يختتم ليو هوفل بالقول إن الوقت ديمقراطي وعادل للجميع، فكل إنسان يمتلك 24 ساعة بالضبط في اليوم الواحد."
+      },
+      "whyIncorrect": {
+        "de": "Weder Moderatorin (Option a) noch Mario Kulmer (Option c) haben diese Aussage im Gespräch gemacht.",
+        "fr": "Ni L'animatrice (option a) ni Mario Kulmer (option c) n'ont formulé cette affirmation au cours de la discussion.",
+        "ar": "لم تصدر هذه العبارة في الحوار لا عن المذيعة (الخيار a) ولا عن ماريو كولمر (الخيار c)."
+      }
     }
   },
   "translations": {
@@ -1934,6 +2414,62 @@
         }
       },
       "3": {
+        "13": {
+          "ar": "ميريام وسفين من هواة ركوب الدراجات، لكنهما يفضلان عدم أخذ دراجاتهما الخاصة معهما أثناء إقامتهما في بحر البلطيق.",
+          "fr": "Mirjam et Sven sont passionnés de vélo, mais préfèrent ne pas emporter leurs propres vélos pour leur séjour sur la Baltique.",
+          "text": {
+            "ar": "ميريام وسفين من هواة ركوب الدراجات، لكنهما يفضلان عدم أخذ دراجاتهما الخاصة معهما أثناء إقامتهما في بحر البلطيق.",
+            "fr": "Mirjam et Sven sont passionnés de vélo, mais préfèrent ne pas emporter leurs propres vélos pour leur séjour sur la Baltique."
+          }
+        },
+        "14": {
+          "ar": "يرغب روبرت في تعلم التزلج الشراعي خلال عطلته والتعرف على أشخاص جدد.",
+          "fr": "Robert souhaite apprendre le kitesurf pendant ses vacances et faire de nouvelles connaissances.",
+          "text": {
+            "ar": "يرغب روبرت في تعلم التزلج الشراعي خلال عطلته والتعرف على أشخاص جدد.",
+            "fr": "Robert souhaite apprendre le kitesurf pendant ses vacances et faire de nouvelles connaissances."
+          }
+        },
+        "15": {
+          "ar": "يسافر الزوجان غيربر إلى روغن للاحتفال بذكرى زواجهما في 18 يوليو بشيء مميز واستثنائي للغاية.",
+          "fr": "Les époux Gerber se rendent à Rügen pour fêter leur anniversaire de mariage le 18 juillet par une expérience exceptionnelle.",
+          "text": {
+            "ar": "يسافر الزوجان غيربر إلى روغن للاحتفال بذكرى زواجهما في 18 يوليو بشيء مميز واستثنائي للغاية.",
+            "fr": "Les époux Gerber se rendent à Rügen pour fêter leur anniversaire de mariage le 18 juillet par une expérience exceptionnelle."
+          }
+        },
+        "16": {
+          "ar": "ترغب السيدة بيبر وصديقتها في استكشاف وجهة عطلتهما سيراً على الأقدام.",
+          "fr": "Mme Biber et son amie aimeraient découvrir leur lieu de villégiature de préférence à pied.",
+          "text": {
+            "ar": "ترغب السيدة بيبر وصديقتها في استكشاف وجهة عطلتهما سيراً على الأقدام.",
+            "fr": "Mme Biber et son amie aimeraient découvrir leur lieu de villégiature de préférence à pied."
+          }
+        },
+        "17": {
+          "ar": "لا يستطيع السيد مولر هذا العام القيام برحلة بحرية على متن سفينة لأسباب صحية، لكنه يريد أن يكون قريباً قدر الإمكان من سفن الرحلات السياحية الكبرى.",
+          "fr": "Cette année, M. Müller ne peut pas faire de croisière en mer pour raisons médicales, mais souhaite s'approcher au plus près des grands paquebots.",
+          "text": {
+            "ar": "لا يستطيع السيد مولر هذا العام القيام برحلة بحرية على متن سفينة لأسباب صحية، لكنه يريد أن يكون قريباً قدر الإمكان من سفن الرحلات السياحية الكبرى.",
+            "fr": "Cette année, M. Müller ne peut pas faire de croisière en mer pour raisons médicales, mais souhaite s'approcher au plus près des grands paquebots."
+          }
+        },
+        "18": {
+          "ar": "ترغب عائلة دينكلر في الجمع بين إقامتها على بحر البلطيق ورحلة بحرية قصيرة على متن سفينة.",
+          "fr": "La famille Denkler souhaite agrémenter son séjour sur la mer Baltique d'une petite excursion en bateau.",
+          "text": {
+            "ar": "ترغب عائلة دينكلر في الجمع بين إقامتها على بحر البلطيق ورحلة بحرية قصيرة على متن سفينة.",
+            "fr": "La famille Denkler souhaite agrémenter son séjour sur la mer Baltique d'une petite excursion en bateau."
+          }
+        },
+        "19": {
+          "ar": "أنجزت المعلمة نيدرفيغ مع فصلها المدرسي مشروعاً حول «الحيوانات في منطقة بحر البلطيق» وتبحث عن وجهة مناسبة لرحلة المشروع.",
+          "fr": "Mme Niederweg a mené avec sa classe un projet pédagogique sur « Les animaux de la région de la Baltique » et cherche une sortie adaptée.",
+          "text": {
+            "ar": "أنجزت المعلمة نيدرفيغ مع فصلها المدرسي مشروعاً حول «الحيوانات في منطقة بحر البلطيق» وتبحث عن وجهة مناسبة لرحلة المشروع.",
+            "fr": "Mme Niederweg a mené avec sa classe un projet pédagogique sur « Les animaux de la région de la Baltique » et cherche une sortie adaptée."
+          }
+        },
         "instructions": {
           "ar": "اقرأ المواقف من 13 إلى 19 والإعلانات من a إلى j من وسائل إعلام ناطقة بالألمانية. اختر: أي إعلان يناسب أي موقف؟ يمكنك استخدام كل إعلان مرة واحدة فقط. لا يمكنك استخدام إعلان المثال. إذا لم تجد إعلاناً مناسباً لأحد المواقف، فاكتب 0.",
           "fr": "Lisez les situations 13 à 19 et les annonces a à j. Choisissez : quelle annonce correspond à quelle situation ? Chaque annonce ne peut être utilisée qu'une seule fois. Si aucune annonce ne convient, écrivez 0."
@@ -2022,62 +2558,6 @@
           "J": {
             "ar": "عرض الموسم الخاص بالتزلج الشراعي: يومان دورة تدريبية و3 أيام تزلج مستقل تحت إشراف فقط بـ 245 يورو شاملاً المعدات والتدريب وأنشطة ترفيهية جماعية وشواء وسهرات سينمائية وبطولة كرة طائرة شاطئية.",
             "fr": "Spécial saison – Kitesurf : 2 jours de stage débutant et 3 jours de pratique encadrée pour 245 € seulement, matériel et encadrement inclus, avec soirées barbecue, cinéma et tournoi de beach-volley."
-          }
-        },
-        "13": {
-          "ar": "ميريام وسفين من هواة ركوب الدراجات، لكنهما يفضلان عدم أخذ دراجاتهما الخاصة معهما أثناء إقامتهما في بحر البلطيق.",
-          "fr": "Mirjam et Sven sont passionnés de vélo, mais préfèrent ne pas emporter leurs propres vélos pour leur séjour sur la Baltique.",
-          "text": {
-            "ar": "ميريام وسفين من هواة ركوب الدراجات، لكنهما يفضلان عدم أخذ دراجاتهما الخاصة معهما أثناء إقامتهما في بحر البلطيق.",
-            "fr": "Mirjam et Sven sont passionnés de vélo, mais préfèrent ne pas emporter leurs propres vélos pour leur séjour sur la Baltique."
-          }
-        },
-        "14": {
-          "ar": "يرغب روبرت في تعلم التزلج الشراعي خلال عطلته والتعرف على أشخاص جدد.",
-          "fr": "Robert souhaite apprendre le kitesurf pendant ses vacances et faire de nouvelles connaissances.",
-          "text": {
-            "ar": "يرغب روبرت في تعلم التزلج الشراعي خلال عطلته والتعرف على أشخاص جدد.",
-            "fr": "Robert souhaite apprendre le kitesurf pendant ses vacances et faire de nouvelles connaissances."
-          }
-        },
-        "15": {
-          "ar": "يسافر الزوجان غيربر إلى روغن للاحتفال بذكرى زواجهما في 18 يوليو بشيء مميز واستثنائي للغاية.",
-          "fr": "Les époux Gerber se rendent à Rügen pour fêter leur anniversaire de mariage le 18 juillet par une expérience exceptionnelle.",
-          "text": {
-            "ar": "يسافر الزوجان غيربر إلى روغن للاحتفال بذكرى زواجهما في 18 يوليو بشيء مميز واستثنائي للغاية.",
-            "fr": "Les époux Gerber se rendent à Rügen pour fêter leur anniversaire de mariage le 18 juillet par une expérience exceptionnelle."
-          }
-        },
-        "16": {
-          "ar": "ترغب السيدة بيبر وصديقتها في استكشاف وجهة عطلتهما سيراً على الأقدام.",
-          "fr": "Mme Biber et son amie aimeraient découvrir leur lieu de villégiature de préférence à pied.",
-          "text": {
-            "ar": "ترغب السيدة بيبر وصديقتها في استكشاف وجهة عطلتهما سيراً على الأقدام.",
-            "fr": "Mme Biber et son amie aimeraient découvrir leur lieu de villégiature de préférence à pied."
-          }
-        },
-        "17": {
-          "ar": "لا يستطيع السيد مولر هذا العام القيام برحلة بحرية على متن سفينة لأسباب صحية، لكنه يريد أن يكون قريباً قدر الإمكان من سفن الرحلات السياحية الكبرى.",
-          "fr": "Cette année, M. Müller ne peut pas faire de croisière en mer pour raisons médicales, mais souhaite s'approcher au plus près des grands paquebots.",
-          "text": {
-            "ar": "لا يستطيع السيد مولر هذا العام القيام برحلة بحرية على متن سفينة لأسباب صحية، لكنه يريد أن يكون قريباً قدر الإمكان من سفن الرحلات السياحية الكبرى.",
-            "fr": "Cette année, M. Müller ne peut pas faire de croisière en mer pour raisons médicales, mais souhaite s'approcher au plus près des grands paquebots."
-          }
-        },
-        "18": {
-          "ar": "ترغب عائلة دينكلر في الجمع بين إقامتها على بحر البلطيق ورحلة بحرية قصيرة على متن سفينة.",
-          "fr": "La famille Denkler souhaite agrémenter son séjour sur la mer Baltique d'une petite excursion en bateau.",
-          "text": {
-            "ar": "ترغب عائلة دينكلر في الجمع بين إقامتها على بحر البلطيق ورحلة بحرية قصيرة على متن سفينة.",
-            "fr": "La famille Denkler souhaite agrémenter son séjour sur la mer Baltique d'une petite excursion en bateau."
-          }
-        },
-        "19": {
-          "ar": "أنجزت المعلمة نيدرفيغ مع فصلها المدرسي مشروعاً حول «الحيوانات في منطقة بحر البلطيق» وتبحث عن وجهة مناسبة لرحلة المشروع.",
-          "fr": "Mme Niederweg a mené avec sa classe un projet pédagogique sur « Les animaux de la région de la Baltique » et cherche une sortie adaptée.",
-          "text": {
-            "ar": "أنجزت المعلمة نيدرفيغ مع فصلها المدرسي مشروعاً حول «الحيوانات في منطقة بحر البلطيق» وتبحث عن وجهة مناسبة لرحلة المشروع.",
-            "fr": "Mme Niederweg a mené avec sa classe un projet pédagogique sur « Les animaux de la région de la Baltique » et cherche une sortie adaptée."
           }
         },
         "questions": {

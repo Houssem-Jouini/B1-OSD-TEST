@@ -1555,8 +1555,10 @@ function getTeil3Assignments(t) {
   if (t.questions) {
     t.questions.forEach(q => {
       const val = userAnswers[q.id];
-      if (val && val !== 'X') {
+      if (val && val !== 'X' && val !== '0') {
         map[val] = q.id;
+        map[String(val).toUpperCase()] = q.id;
+        map[String(val).toLowerCase()] = q.id;
       }
     });
   }
@@ -1780,15 +1782,18 @@ window.highlightEvidence = function(qid) {
     const q = t.questions?.find(x => String(x.id) === String(qid));
     if (!q) return;
 
-    if (q.answer === 'X') {
-      const msg = isAr ? '📍 لهذه الحالة: لا يوجد إعلان مناسب بين الإعلانات (الحل: X).' : (isFr ? '📍 Pour cette situation : aucune annonce ne convient (Solution : X).' : '📍 Zu dieser Situation passt keine der Anzeigen A bis J (Lösung: X).');
+    const ansStr = String(q.answer).trim().toUpperCase();
+    if (ansStr === 'X' || ansStr === '0') {
+      const msg = isAr ? `📍 لهذه الحالة: لا يوجد إعلان مناسب بين الإعلانات (الحل: ${q.answer}).` : (isFr ? `📍 Pour cette situation : aucune annonce ne convient (Solution : ${q.answer}).` : `📍 Zu dieser Situation passt keine der Anzeigen A bis J (Lösung: ${q.answer}).`);
       showEvidenceToast(msg);
       const instr = document.querySelector('#passagePanel .instruction-box');
       if (instr) instr.scrollIntoView({ behavior: 'smooth', block: 'center' });
       return;
     }
 
-    const targetAd = document.getElementById('anzeige-card-' + q.answer);
+    const targetAd = document.getElementById('anzeige-card-' + q.answer)
+      || document.getElementById('anzeige-card-' + ansStr)
+      || document.getElementById('anzeige-card-' + ansStr.toLowerCase());
     if (targetAd) {
       targetAd.classList.add('evidence-card-pulse');
       targetAd.scrollIntoView({ behavior: 'smooth', block: 'center' });

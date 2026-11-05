@@ -93,10 +93,34 @@
     const qExp = testDict ? testDict[String(questionId)] : null;
 
     if (qExp) {
+      const fallbackCorrect = currentLang === 'ar'
+        ? (qExp.ar || qExp.text || qExp.de || 'الإجابة المحددة هي الإجابة الصحيحة وفقًا لمعطيات النص وقواعد امتحان B1.')
+        : (currentLang === 'fr'
+          ? (qExp.fr || qExp.text || qExp.de || 'Cette réponse est la solution exacte selon les critères de l\'examen B1.')
+          : (qExp.de || qExp.text || 'Diese Lösung stimmt mit den Aussagen und Fakten im Prüfungstext überein.'));
+      const fallbackIncorrect = currentLang === 'ar'
+        ? 'الخيارات الأخرى لا تتطابق مع المعلومات الدقيقة الواردة في النص أو تحتوي على معلومات مضللة.'
+        : (currentLang === 'fr'
+          ? 'Les autres propositions contiennent des éléments non vérifiés ou contredisent le texte.'
+          : 'Die alternativen Auswahlmöglichkeiten weichen vom Text ab oder enthalten typische Prüfungsfallen.');
+
+      const whyCorrectVal = typeof qExp.whyCorrect === 'string'
+        ? qExp.whyCorrect
+        : (qExp.whyCorrect?.[currentLang] || qExp.whyCorrect?.['de'] || fallbackCorrect);
+      const whyIncorrectVal = typeof qExp.whyIncorrect === 'string'
+        ? qExp.whyIncorrect
+        : (qExp.whyIncorrect?.[currentLang] || qExp.whyIncorrect?.['de'] || fallbackIncorrect);
+
+      let quoteVal = qExp.quote || '';
+      if (!quoteVal && (qExp.text || qExp.de)) {
+        const m = String(qExp.text || qExp.de).match(/„([^“]+)“/);
+        if (m && m[1]) quoteVal = m[1];
+      }
+
       return {
-        quote: qExp.quote || '',
-        whyCorrect: qExp.whyCorrect?.[currentLang] || qExp.whyCorrect?.['de'] || '',
-        whyIncorrect: qExp.whyIncorrect?.[currentLang] || qExp.whyIncorrect?.['de'] || ''
+        quote: quoteVal,
+        whyCorrect: whyCorrectVal,
+        whyIncorrect: whyIncorrectVal
       };
     }
 
