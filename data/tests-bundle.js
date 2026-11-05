@@ -313,6 +313,17 @@
     "partsCount": 6,
     "questionsCount": 50,
     "fileName": "data/tests/modellsatz-27.json"
+  },
+  {
+    "id": "modellsatz-28",
+    "title": "Modelltest 22 — Hueber Zertifikat B1",
+    "badge": "Modelltest 22",
+    "examTitle": "Goethe / ÖSD B1 Prüfungssimulation — Modelltest 22",
+    "examSub": "Lesen (5 Teile) & Hören (4 Teile) · Modelltest 22 (Hueber)",
+    "timeTotal": 65,
+    "partsCount": 6,
+    "questionsCount": 50,
+    "fileName": "data/tests/modellsatz-28.json"
   }
 ];
   root.__B1_ARCHIVED_MANIFEST__ = [
@@ -69482,6 +69493,3405 @@
                   "المذيع (المنسق)",
                   "يوليانه شولتس",
                   "لوكاس تيلمان"
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "modellsatz-28",
+    "title": "Modelltest 22 — Hueber Zertifikat B1",
+    "badge": "Modelltest 22",
+    "examTitle": "Goethe / ÖSD B1 Prüfungssimulation — Modelltest 22",
+    "examSub": "Lesen (5 Teile) & Hören (4 Teile) · Modelltest 22 (Hueber)",
+    "timeTotal": 65,
+    "partsCount": 6,
+    "questionsCount": 50,
+    "parts": [
+      {
+        "id": 1,
+        "title": "Teil 1",
+        "badge": "Teil 1",
+        "time": "10 Minuten",
+        "instructions": "Lesen Sie den Text und die Aufgaben 1 bis 6 dazu. Wählen Sie: Sind die Aussagen richtig oder falsch?",
+        "article": {
+          "title": "Meine Erlebnisse",
+          "date": "25. September",
+          "author": "Nicole",
+          "body": [
+            "Letzten August war ich zu Besuch bei meinem Onkel in Michelstadt. Michelstadt ist ein kleines, mittelalterliches Städtchen im Odenwald. Es ist sehr malerisch und … da ist meistens nicht viel los. Hinzu kam, dass der letzte Sommer ziemlich verregnet war. Die meiste Zeit verbrachte ich mit Stubenhocken. Nicht gerade anregend!!",
+            "Doch an einem Samstag schlug meine Tante vor, dass wir abends zum Michelstädter Altstadtfest gehen. Ich machte mir zwar keine große Hoffnung auf gute Unterhaltung, aber da ich nichts Besseres zu tun hatte und das Wetter ausnahmsweise gut war, stimmte ich zu.",
+            "Das Fest fand im Zentrum statt, das für den Verkehr gesperrt war. Wir konnten also nicht mit dem Auto in die Innenstadt fahren und mussten zu Fuß gehen. Unterwegs erlebte ich schon die erste Überraschung. Die Geschäfte waren alle auf, Straßen und Gassen waren mit Kerzen erleuchtet. Es war „lange Einkaufsnacht“. Wir bummelten durch die Straßen, sahen uns die Attraktionen an, die der Gewerbeverein organisiert hatte, und ließen uns ein-zwei Schnäppchen nicht entgehen.",
+            "Schließlich kamen wir auf den Hof der Michelstädter Burg-Kellerei, den Ort, wo das Herz des Altstadtfests schlug. Hier waren Tische und Bänke aufgestellt, an denen schon viele Leute saßen. Man grüßte sich, saß beisammen, amüsierte sich … eine tolle Stimmung. Für das leibliche Wohl war bestens gesorgt: Bratwurst, Currywurst, Pommes, Erbsensuppe mit Bockwurst – und natürlich Bier von der heimischen Brauerei. Und ab 21.00 Uhr spielte eine Rock-’n’-Roll-Band live. In Michelstadt war wirklich was los.",
+            "Doch das war nicht alles. Meine Tante drängte uns. Wir sollten weiter zum „Schwiegermutterbrunnen“, denn da gab eine Gruppe, die Art Artistica, eine Show. Eigentlich wollte ich nicht weg, weil die Musikband super spielte. Aber sie bestand so sehr darauf, dass wir nachgaben. Und sie hatte recht.",
+            "Die Artistengruppe bot eine Show mit Feuer-Acts. Es war sehr eindrucksvoll. In der sommerlichen Nacht sah man die Artisten ihre Kunststücke vorführen und man hörte nur das Knistern und Zischen des Feuers. Es war ein einmaliges Schauspiel.",
+            "Zu Fuß kehrten wir in der mondhellen Nacht langsam nach Hause zurück. Ich werde dieses Fest nie vergessen und kann nur jedem empfehlen: Auch Michelstadt im Odenwald ist eine Reise wert (besonders im August!!)\n\nEure Nicole"
+          ]
+        },
+        "example": {
+          "text": "In Michelstadt kann man oft etwas erleben.",
+          "answer": "Falsch"
+        },
+        "questions": [
+          {
+            "id": "1",
+            "type": "tf",
+            "text": "Auf dem Fest konnte man sich trotz des schlechten Wetters gut unterhalten.",
+            "answer": "Falsch"
+          },
+          {
+            "id": "2",
+            "type": "tf",
+            "text": "Im Stadtzentrum durften während des Fests keine Privatwagen fahren.",
+            "answer": "Richtig"
+          },
+          {
+            "id": "3",
+            "type": "tf",
+            "text": "In der „langen Einkaufsnacht“ waren nur wenige Läden geschlossen.",
+            "answer": "Falsch"
+          },
+          {
+            "id": "4",
+            "type": "tf",
+            "text": "Die Speisen bot die heimische Brauerei umsonst an.",
+            "answer": "Falsch"
+          },
+          {
+            "id": "5",
+            "type": "tf",
+            "text": "Die Artisten zeigten ihre Feuer-Show zu lauter Musik.",
+            "answer": "Falsch"
+          },
+          {
+            "id": "6",
+            "type": "tf",
+            "text": "Nicole meint, es lohnt sich, Michelstadt zu besuchen.",
+            "answer": "Richtig"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Teil 2",
+        "badge": "Teil 2",
+        "time": "20 Minuten",
+        "instructions": "Lesen Sie den Text aus der Presse und die Aufgaben 7 bis 9 dazu. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+        "instructions2": "Lesen Sie den Text aus der Presse und die Aufgaben 10 bis 12 dazu. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+        "articles": [
+          {
+            "heading": "Die Alten wollen kein Internet",
+            "title": "Die Alten wollen kein Internet",
+            "source": "aus einer Schweizer Zeitung",
+            "body": [
+              "Trotz des gern verbreiteten Bildes vom munter surfenden Senior sind es die Haushalte älterer Bürger, die zu einer stillstehenden Statistik der Online-Haushalte in der Schweiz führen: Laut Bundesamt für Statistik wollen diese 20 Prozent partout nicht online gehen. Damit liegt die Schweiz hinter den skandinavischen Ländern und den Niederlanden, wo insgesamt mehr private Haushalte Internet haben als bei uns.",
+              "Dafür gibt es verschiedene Gründe. Bei einer Befragung wurden mangelndes Interesse, wenig Fachkenntnis oder kein Selbstvertrauen von den älteren Menschen angegeben. Fachleute nehmen auch an, dass den Senioren der spielerische Kontakt zum Internet fehlt. Sie sind einfach nicht damit aufgewachsen und zögern, die neuen Medien jetzt noch kennenzulernen.",
+              "Aber in der Befragung zeigte sich auch, dass jüngere Internetbenutzer in der Schweiz sich über verschiedene Gefahren Sorgen machen. Im Vordergrund steht hier die Angst vor Viren, gefolgt von der Furcht davor, dass persönliche Informationen in falsche Hände kommen, die Angst, dass über das Internet ihre Kreditkarten von Kriminellen benutzt werden, oder vor Risiken im Zusammenhang mit Kindern. Allerdings greifen die Schweizer Online-Nutzer auch zu Schutzmassnahmen. 80 Prozent von ihnen haben eine Sicherheitssoftware, aber nur 30 Prozent der Haushalte mit Kindern nutzen ein Kinderschutzprogramm für ihren Computer."
+            ]
+          }
+        ],
+        "example": {
+          "text": "In der Schweiz ...",
+          "options": [
+            "haben 80 Prozent der Haushalte Internet.",
+            "haben nur wenige Internetnutzer Schutzprogramme gegen Viren.",
+            "surfen ältere Menschen gern im Internet."
+          ],
+          "answer": 0
+        },
+        "questions": [
+          {
+            "id": "7",
+            "type": "mcq",
+            "text": "In diesem Text geht es darum, ...",
+            "options": [
+              "dass die Schweizer im Internet vor allem spielen.",
+              "wie sich die Zahl der Online-Haushalte in der Schweiz entwickelt.",
+              "warum Kinder vor dem Internet geschützt werden müssen."
+            ],
+            "answer": 1
+          },
+          {
+            "id": "8",
+            "type": "mcq",
+            "text": "Senioren ...",
+            "options": [
+              "haben selten Computerkenntnisse.",
+              "benutzen Schutzprogramme für ihre Computer.",
+              "haben Angst vor Computerviren."
+            ],
+            "answer": 0
+          },
+          {
+            "id": "9",
+            "type": "mcq",
+            "text": "In den Niederlanden ...",
+            "options": [
+              "gibt es die gleichen Probleme mit dem Internet wie in der Schweiz.",
+              "haben mehr Haushalte Internet als in der Schweiz.",
+              "spielen ältere Leute viel im Internet."
+            ],
+            "answer": 1
+          }
+        ],
+        "articles2": [
+          {
+            "heading": "Essen als Medizin",
+            "title": "Essen als Medizin",
+            "source": "aus einer deutschen Zeitschrift",
+            "body": [
+              "Stark im Trend liegt zurzeit Functional-Food. Das ist Essen, das nicht nur satt macht, sondern auch für die Gesundheit sorgt. Dazu gehören beispielsweise cholesterinsenkende Drinks, mit Omega-3-Fettsäuren versetzte Margarine oder auch Fertiggerichte mit Vitaminzusätzen. Bei Functional-Food geht es um Wohlbefinden, Leistungsfähigkeit und um den Schutz vor Zivilisationskrankheiten.",
+              "Vor allem Menschen ab vierzig greifen gern zu Functional-Food. Es soll das Leben verlängern und jung halten. Und es entspricht einem allgemeinen Trend in der Bevölkerung: Gesundheit ist für viele Menschen zum höchsten Gut geworden. Ein Drittel der Deutschen nimmt täglich Nahrungsergänzungsmittel wie Vitamin- und Mineralstofftabletten ein.",
+              "Viele möchten mit Functional-Food Krankheiten vorbeugen oder reparieren, ohne auf Genuss zu verzichten. Auf diesen Wunsch setzt die Werbung, um den Verkauf solcher Produkte zu erhöhen. Sie betont in ihren Anzeigen und Werbespots, dass Functional-Food sowohl gut schmeckt, als auch der Gesundheit nützt. Ob Functional-Food aber wirklich hält, was es verspricht, ist wissenschaftlich umstritten. Viele Ernährungswissenschaftler meinen, dass eine ausgewogene Ernährung mit viel Obst und Gemüse völlig ausreicht und Functional-Food überflüssig ist."
+            ]
+          }
+        ],
+        "questions2": [
+          {
+            "id": "10",
+            "type": "mcq",
+            "text": "In diesem Text geht es darum, ...",
+            "options": [
+              "welche Krankheiten Functional-Food heilen kann.",
+              "warum immer mehr Menschen an Zivilisationskrankheiten leiden.",
+              "warum Functional-Food beliebt ist."
+            ],
+            "answer": 2
+          },
+          {
+            "id": "11",
+            "type": "mcq",
+            "text": "Die Gesundheit ...",
+            "options": [
+              "interessiert nur sehr wenige Menschen.",
+              "ist für immer mehr Menschen das Wichtigste.",
+              "zwingt manche Personen, Functional-Food zu essen."
+            ],
+            "answer": 1
+          },
+          {
+            "id": "12",
+            "type": "mcq",
+            "text": "Functional-Food ...",
+            "options": [
+              "ist in.",
+              "ist nicht wirklich gesund.",
+              "wird in Deutschland ohne jede Werbung verkauft."
+            ],
+            "answer": 0
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Teil 3",
+        "badge": "Teil 3",
+        "time": "10 Minuten",
+        "instructions": "Lesen Sie die Situationen 13 bis 19 und die Anzeigen a bis j aus verschiedenen deutschsprachigen Medien. Wählen Sie: Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Die Anzeige aus dem Beispiel können Sie nicht mehr verwenden. Für eine Situation gibt es keine passende Anzeige. In diesem Fall schreiben Sie 0.",
+        "intro": "Einige Personen aus Ihrem Bekanntenkreis interessieren sich besonders für die Probleme unserer Zeit und möchten aktiv Hilfe leisten. Sie suchen nach passenden Möglichkeiten.",
+        "adsFormatted": [
+          {
+            "code": "A",
+            "title": "Helfende Hände herzlich willkommen",
+            "text": "Sie können gut vorlesen oder spielen gerne mit Kindern? Sie wollen Ihre Erfahrung aus dem Beruf an einen Schüler weitergeben? Dann sind Sie unser Typ: Bringen Sie Ihre Talente ein in das Angebot der Caritas. Viele alte und junge, kranke und behinderte Menschen freuen sich auf die Zeit, die Sie ihnen schenken. Informieren Sie sich unter www.caritas.de"
+          },
+          {
+            "code": "B",
+            "title": "Ärzte ohne Grenzen e.V.",
+            "text": "Am Köllnischen Park 1, 10179 Berlin · www.aerzte-ohne-grenzen.de · Spendenkonto 97 0 97, Bank für Sozialwirtschaft, BLZ 370 205 00. Helfen Sie medizinischen Nothilfeteams weltweit bei Krisen und Katastrophen."
+          },
+          {
+            "code": "C",
+            "title": "Du bist gerne in der Natur und möchtest dich für ihren Schutz einsetzen?",
+            "text": "Dann bist du bei der NAJU genau richtig! Werde zusammen mit 75.000 anderen Kindern und Jugendlichen aktiv für die Natur! www.NAJU.de. Die Naturschutzjugend (NAJU) ist die Jugendorganisation des NABU und deutschlandweit der größte Kinder- und Jugendverband im Natur- und Umweltschutz. NAJU im NABU, Charitéstraße 3, 10117 Berlin."
+          },
+          {
+            "code": "D",
+            "title": "Deutsches Rotes Kreuz",
+            "text": "Bitte daran denken: Altkleidersammlung im Auftrag des DRK – alle vier Wochen zusammen mit der blauen Tonne. Geben Sie gut erhaltene Kleidung für Bedürftige ab."
+          },
+          {
+            "code": "E",
+            "title": "Kommen Sie doch einfach mal vorbei!",
+            "text": "Bürgerinitiative Ausländische Mitbürgerinnen e.V. Wir engagieren uns für Dialog, Integration und das friedliche Zusammenleben von Einheimischen und Migranten in unserem Stadtteil. Treffen jeden Dienstag um 18.00 Uhr."
+          },
+          {
+            "code": "F",
+            "title": "Verschenken Sie eine Mitgliedschaft im NABU!",
+            "text": "... und gleichzeitig damit etwas Gutes für den Erhalt und Schutz unserer Natur und Umwelt tun? Ihr Geschenk soll sinnstiftend und etwas „anders“ als andere Geschenke sein? Dann verschenken Sie doch eine Mitgliedschaft im NABU! Der Beschenkte wird sich freuen. Für weitere Informationen klicken Sie hier: www.nabu.de"
+          },
+          {
+            "code": "G",
+            "title": "Häusliche Pflege",
+            "text": "Brauchen Sie Hilfe bei Ihrer Körperpflege und ärztlich verordnete Behandlungen? An 7 Tagen in der Woche bieten unsere Pfleger und Sozialarbeiter unseren Kunden Hilfe in jeglicher Hinsicht. Petersstraße 50, 41717 Viersen, Telefon 0 2162/1 76 78."
+          },
+          {
+            "code": "H",
+            "title": "Ihr Baby ist uns nicht schnuppe!",
+            "text": "Deshalb gibt's für junge Familien unsere Schnuppermitgliedschaft. Ein Jahr kostenlos. Wenn Sie uns diese Anzeige schicken, erfahren Sie mehr und bekommen gratis Umwelttipps für Eltern. Bund für Umwelt und Naturschutz Deutschland (BUND), 53333 Bonn, Fax 02 28 / 300 79 40."
+          },
+          {
+            "code": "I",
+            "title": "KEKS e.V. — www.keks.org",
+            "text": "Sommerrainstr. 61, 70347 Stuttgart, Tel. 07 11 / 9 65 78 68. Wenn jeder Bissen im Hals stecken bleibt … Wir helfen und unterstützen bundesweit Kinder, die wegen einer kranken Speiseröhre nicht essen können. Spendenkonto: Baden-Württembergische Bank, BLZ 600 507 00, Kto.-Nr. 1230450."
+          },
+          {
+            "code": "J",
+            "title": "Nachbarschaftshilfe",
+            "text": "Schreiben Sie uns unter Kennwort: „Nachbarschaftshilfe“, Postfach 712007, 81475 München. Postkarte genügt. Absender nicht vergessen. Ehrenamtliche Hilfe im Alltag für Senioren und Familien."
+          }
+        ],
+        "example": {
+          "text": "Annita hat zwei Mäntel, die ihr nicht mehr passen. Sie sind in gutem Zustand, deshalb möchte sie sie nicht wegwerfen.",
+          "answer": "d"
+        },
+        "questions": [
+          {
+            "id": "13",
+            "type": "match",
+            "text": "Frau Wickert hat ein Herz für Kinder. Sie möchte eine Geldsumme für eine Organisation geben, die sich besonders um Kinder in Deutschland kümmert.",
+            "answer": "i"
+          },
+          {
+            "id": "14",
+            "type": "match",
+            "text": "Herr Geiger ist Biologielehrer. Er will das Interesse seiner Schüler für die Natur und ihren Schutz wecken.",
+            "answer": "c"
+          },
+          {
+            "id": "15",
+            "type": "match",
+            "text": "Tobias ist ein Tier- und Naturfreund. Weil er in zwei Wochen Geburtstag hat, sucht sein Freund Lukas nach einem Geschenk.",
+            "answer": "f"
+          },
+          {
+            "id": "16",
+            "type": "match",
+            "text": "Sara hat viele ausländische Freunde in der Nachbarschaft und möchte aktiv für das friedliche Zusammenleben von Menschen aus verschiedenen Ländern arbeiten.",
+            "answer": "e"
+          },
+          {
+            "id": "17",
+            "type": "match",
+            "text": "Frau Anders will etwas für junge Familien tun, die arm sind.",
+            "answer": "0"
+          },
+          {
+            "id": "18",
+            "type": "match",
+            "text": "Philipp ist Krankenpfleger. Er würde sein Wissen gern für die Hilfe behinderter Menschen einsetzen.",
+            "answer": "a"
+          },
+          {
+            "id": "19",
+            "type": "match",
+            "text": "Gabriel ist vor ein paar Monaten Vater geworden. Er und seine Frau interessieren sich für den Umweltschutz und möchten auch ihr Kind dazu erziehen.",
+            "answer": "h"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Teil 4",
+        "badge": "Teil 4",
+        "time": "15 Minuten",
+        "instructions": "Lesen Sie die Texte 20 bis 26. Wählen Sie: Ist die Person dafür, dass Schüler unter 18 Jahren schon studieren dürfen?",
+        "intro": "In einer Zeitschrift lesen Sie Kommentare zu einem Artikel über Frühstudenten, die schon vor dem Schulabschluss studieren, obwohl sie noch nicht erwachsen sind.",
+        "topic": "Sollen Schüler unter 18 Jahren schon an der Universität studieren dürfen?",
+        "example": {
+          "author": "Andrea, 22, Germersheim",
+          "text": "Die einen müssen Wartesemester in Kauf nehmen, um einen Studienplatz zu bekommen und werden älter und älter. Die anderen hingegen werden besser behandelt: Sie dürfen schon als Schüler studieren. Wie unfair. Das erscheint mir eine verkehrte Welt zu sein.",
+          "answer": "Nein"
+        },
+        "letters": [
+          {
+            "id": "20",
+            "author": "Petra, 27, Koblenz",
+            "text": "Da gibt es grundsätzlich ein Problem: Die Universitäten sind auf einmal verantwortlich für Minderjährige! Stellt die Uni dann „Aufpasser“ ein, die immer bei diesen Jugendlichen sind und auf sie aufpassen? Das ist doch verrückt! Ein Glück, dass ich eben jene Universität vor Kurzem verlassen habe. Und wie würde das denn vom Recht her geregelt werden? Kommt mir alles sehr utopisch vor."
+          },
+          {
+            "id": "21",
+            "author": "Willi, 17, Stuttgart",
+            "text": "Selbst den Bibliotheksausweis kann ich als Student unter 18 nicht einfach so beantragen. Ich brauche die Unterschrift meiner Mutter oder meines Vaters. Besonders umständlich ist auch, dass ich mich nicht über das Online-System der Uni für Prüfungen anmelden kann. Stattdessen muss ich persönlich bei der Professorin vorbeigehen. Trotzdem lohnt es sich."
+          },
+          {
+            "id": "22",
+            "author": "Torsten, 58, Innsbruck",
+            "text": "Die wichtigsten Erfahrungen macht man doch in der Praxis. Viel richtiger wäre, dass alle jungen Leute in ihrem Leben etwas Konkretes lernen, auch bevor sie studieren. Die Praxis wird sie im Leben weiterbringen, nicht die Theorie. Egal wie alt sie sind. Es bringt nichts, dass sie nur studieren. Dieses Programm ist diesem Gedanken ganz entgegengesetzt."
+          },
+          {
+            "id": "23",
+            "author": "Chiara, 30, Klosters",
+            "text": "Bei uns gibt es das noch nicht. Ich kann mir aber vorstellen, dass es besonders für begabte Schüler ein gutes Angebot ist. Diese jungen Leute werden in der Schule sowieso unterfordert und müssen sich kaum anstrengen. Dabei brauchen sie eine Herausforderung, um viel zu leisten. Unsere Gesellschaft braucht diese Menschen. Warum dann bis zur Matura mit dem Studium warten?"
+          },
+          {
+            "id": "24",
+            "author": "Reiner, 22, Kitzbühel",
+            "text": "Mit 16 oder 17 sind die Jugendlichen ja noch in der Pubertät. Die interessieren sich doch nur dafür, wie sie aussehen und ob sie cool sind. In dem Alter ist man doch noch gar nicht reif für ein Studium. Ich kann nicht glauben, dass so junge Menschen schon ernsthaft dabei sind. Nicht umsonst sollte man dafür erwachsen sein."
+          },
+          {
+            "id": "25",
+            "author": "Helen, 45, Braunschweig",
+            "text": "Bei mir ist das Studium schon länger her. Ich kann nur sagen, es war eine schöne Zeit, auch weil man intensiv mit anderen zusammenarbeitete, die ähnliche Interessen hatten. Das motiviert und erweitert den eigenen Horizont. Wenn diese Erfahrung nun schon zeitlich früher im Leben gemacht wird, umso besser."
+          },
+          {
+            "id": "26",
+            "author": "Ferdinand, 16, Andermatt",
+            "text": "Hier in der Nähe gibt es das nicht. Scheint mir aber wert zu sein, es mal zu testen. Ich weiss nur nicht, wie man dann nebenbei noch die Verpflichtungen des Gymnasiums zeitlich schafft. Oder bekommen diese Schüler schulfrei? Bei uns ist jedenfalls neben den Schulstunden nicht mehr viel Zeit für anderes."
+          }
+        ],
+        "questions": [
+          {
+            "id": "20",
+            "type": "opinion",
+            "author": "Petra",
+            "text": "Ist Petra dafür, dass Schüler unter 18 Jahren schon studieren dürfen?",
+            "answer": "Nein"
+          },
+          {
+            "id": "21",
+            "type": "opinion",
+            "author": "Willi",
+            "text": "Ist Willi dafür, dass Schüler unter 18 Jahren schon studieren dürfen?",
+            "answer": "Ja"
+          },
+          {
+            "id": "22",
+            "type": "opinion",
+            "author": "Torsten",
+            "text": "Ist Torsten dafür, dass Schüler unter 18 Jahren schon studieren dürfen?",
+            "answer": "Nein"
+          },
+          {
+            "id": "23",
+            "type": "opinion",
+            "author": "Chiara",
+            "text": "Ist Chiara dafür, dass Schüler unter 18 Jahren schon studieren dürfen?",
+            "answer": "Ja"
+          },
+          {
+            "id": "24",
+            "type": "opinion",
+            "author": "Reiner",
+            "text": "Ist Reiner dafür, dass Schüler unter 18 Jahren schon studieren dürfen?",
+            "answer": "Nein"
+          },
+          {
+            "id": "25",
+            "type": "opinion",
+            "author": "Helen",
+            "text": "Ist Helen dafür, dass Schüler unter 18 Jahren schon studieren dürfen?",
+            "answer": "Ja"
+          },
+          {
+            "id": "26",
+            "type": "opinion",
+            "author": "Ferdinand",
+            "text": "Ist Ferdinand dafür, dass Schüler unter 18 Jahren schon studieren dürfen?",
+            "answer": "Ja"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Teil 5",
+        "badge": "Teil 5",
+        "time": "10 Minuten",
+        "instructions": "Lesen Sie die Aufgaben 27 bis 30 und den Text dazu. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+        "intro": "Sie informieren sich über die Benutzungsordnung der Pestalozzi-Bibliothek Zürich, da Sie bald für einige Zeit in Zürich leben werden.",
+        "article": {
+          "title": "Pestalozzi-Bibliothek Zürich (PBZ) — Benutzungsordnung",
+          "sections": [
+            {
+              "heading": "Einschreibung",
+              "text": "Die Bibliotheken der Pestalozzi-Bibliothek Zürich (PBZ) stehen allen Interessierten zur Benutzung offen. Gegen Vorlage eines amtlichen Ausweises wird eine persönliche Bibliothekskarte ausgestellt, die bei jeder Ausleihe mitzubringen ist. Die Bibliothekskarte ist nicht übertragbar, auch nicht innerhalb der Familie oder des Haushalts. Bei Personen ohne dauerhaften Wohnsitz in der Schweiz kann die Ausleihe eingeschränkt werden. Adress- und Namensänderungen sowie der Verlust der Bibliothekskarte sind umgehend zu melden. Ein Ersatzausweis kann gegen eine Gebühr bezogen werden."
+            },
+            {
+              "heading": "Benutzung",
+              "text": "Es können maximal 25 Artikel (Bücher, Zeitschriften, CDs oder DVDs) gleichzeitig ausgeliehen werden. Die Ausleihdauer beträgt in der Regel 4 Wochen. Für bestimmte Artikel (wie beispielsweise DVDs) kann die Bibliothek abweichende Leihfristen festlegen. Eine zweimalige Verlängerung ist möglich. Ausgenommen sind reservierte Artikel. Die Verlängerung kann in der Bibliothek, telefonisch oder online via Internet erfolgen. Ausgeliehene Artikel können reserviert werden. Sobald die reservierten Artikel bereitstehen, wird dies telefonisch oder per SMS mitgeteilt. Die Artikel sind dann innerhalb einer Woche abzuholen. Für Reservationen wird eine Gebühr erhoben. Ebenso können gegen Gebühr Artikel, die nicht im lokalen Bestand vorhanden sind, bei einer anderen Bibliothek der PBZ zur Ausleihe besorgt werden, mit Ausnahme von DVDs."
+            },
+            {
+              "heading": "Haftung",
+              "text": "Kundinnen und Kunden sind für die ausgeliehenen Artikel verantwortlich und zu schonendem Umgang mit dem Bibliothekseigentum verpflichtet. Bei Beschädigung oder Verlust werden neben den Kosten für Reparatur oder Ersatz auch Bearbeitungsgebühren verrechnet. Schäden dürfen nicht selbst repariert werden. Wer die Bestimmungen der Bibliothek nicht beachtet oder sich ungebührlich verhält, kann vorübergehend oder gänzlich von der Benutzung ausgeschlossen werden."
+            }
+          ]
+        },
+        "questions": [
+          {
+            "id": "27",
+            "type": "mcq",
+            "text": "Wenn man etwas reservieren lässt, ...",
+            "options": [
+              "muss man die Artikel eine Woche nach Reservierung abholen.",
+              "muss man die Artikel bei einer anderen Bibliothek der PBZ abholen.",
+              "muss man dafür einen Geldbetrag zahlen."
+            ],
+            "answer": 2
+          },
+          {
+            "id": "28",
+            "type": "mcq",
+            "text": "Bei Nichtbeachtung der Bibliotheksbestimmungen ...",
+            "options": [
+              "muss man eine Strafgebühr zahlen.",
+              "kann es sein, dass man die PBZ nicht mehr benutzen darf.",
+              "muss man sofort alle ausgeliehenen Artikel zurückgeben."
+            ],
+            "answer": 1
+          },
+          {
+            "id": "29",
+            "type": "mcq",
+            "text": "Man kann ...",
+            "options": [
+              "auch DVDs reservieren lassen.",
+              "einmal im Monat bis zu 25 Artikeln ausleihen.",
+              "auch reservierte Artikel verlängern lassen."
+            ],
+            "answer": 0
+          },
+          {
+            "id": "30",
+            "type": "mcq",
+            "text": "Um die PBZ benutzen zu können, ...",
+            "options": [
+              "muss man in Zürich wohnen.",
+              "muss man jedes Mal die Bibliothekskarte bei sich haben.",
+              "braucht man eine Bibliothekskarte pro Familie oder Haushalt."
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "title": "Hören",
+        "badge": "Hören",
+        "isHoren": true,
+        "time": "40 Minuten",
+        "instructions": "Das Modul Hören besteht aus vier Teilen. Sie hören jeden Text ein- oder zweimal. Lösen Sie die Aufgaben und markieren Sie Ihre Lösungen auf dem Antwortbogen.",
+        "audioSrc": "audio/modellsatz-28-hoeren.mp3",
+        "audioFallbacks": [
+          "audio/modellsatz-28-hoeren.mp3"
+        ],
+        "audioChapters": [
+          {
+            "time": 0,
+            "start": 0,
+            "end": 36,
+            "label": "00:00 Teil 1 (Beispiel · 2x)",
+            "part": 1,
+            "title": "Teil 1 · Beispiel (2x hören)"
+          },
+          {
+            "time": 36,
+            "start": 36,
+            "end": 804,
+            "label": "00:36 Teil 1 (Texte 1–5 · 2x)",
+            "part": 1,
+            "title": "Teil 1 · Fünf kurze Texte (2x hören)"
+          },
+          {
+            "time": 804,
+            "start": 804,
+            "end": 1120,
+            "label": "13:24 Teil 2 (Mozart-City-Tour Salzburg · 1x)",
+            "part": 2,
+            "title": "Teil 2 · Mozart-City-Tour Salzburg (1x hören)"
+          },
+          {
+            "time": 1120,
+            "start": 1120,
+            "end": 1387,
+            "label": "18:40 Teil 3 (Gespräch in Straßenbahn: Ferien · 1x)",
+            "part": 3,
+            "title": "Teil 3 · Gespräch in der Straßenbahn über Ferien (1x hören)"
+          },
+          {
+            "time": 1387,
+            "start": 1387,
+            "end": 1865,
+            "label": "23:07 Teil 4 (Radiosendung: Lehrer geschlagen · 1. Durchgang)",
+            "part": 4,
+            "title": "Teil 4 · Radiosendung School for you (1. Durchgang)"
+          },
+          {
+            "time": 1865,
+            "start": 1865,
+            "end": 2296,
+            "label": "31:05 Teil 4 (Wiederholung · 2. Durchgang)",
+            "part": 4,
+            "title": "Teil 4 · Radiosendung School for you (Wiederholung 2. Durchgang)"
+          }
+        ],
+        "horenSections": [
+          {
+            "id": 1,
+            "partNumber": 1,
+            "title": "Teil 1: Fünf kurze Texte",
+            "badge": "Teil 1",
+            "desc": "Sie hören fünf kurze Texte. Sie hören jeden Text zweimal. Zu jedem Text lösen Sie zwei Aufgaben. Wählen Sie bei jeder Aufgabe die richtige Lösung.",
+            "intro": "Lesen Sie zuerst das Beispiel. Dazu haben Sie 10 Sekunden Zeit.",
+            "context": "Sie hören Meldungen, Ansagen und Durchsagen im Radio und am Telefon.",
+            "example": {
+              "text": "Sie rufen beim Autohersteller VW an.",
+              "answer": "Falsch",
+              "options": [
+                "Im Internet.",
+                "Am Telefon.",
+                "An der Kasse."
+              ],
+              "text2": "Wo bekommt man Informationen über die Workshops?",
+              "answer2": 0
+            },
+            "questions": [
+              {
+                "id": "h1",
+                "type": "tf",
+                "text": "Auf der A 1 ist ein Unfall passiert.",
+                "answer": "Falsch",
+                "audioStart": 36
+              },
+              {
+                "id": "h2",
+                "type": "mcq",
+                "text": "Warum gibt es Stau?",
+                "options": [
+                  "Weil das Wetter schlecht ist.",
+                  "Weil auf der Autobahn gebaut wird.",
+                  "Weil eine Ausfahrt geschlossen ist."
+                ],
+                "answer": 0,
+                "audioStart": 36
+              },
+              {
+                "id": "h3",
+                "type": "tf",
+                "text": "Sie hören eine Information eines Fotostudios.",
+                "answer": "Falsch",
+                "audioStart": 210
+              },
+              {
+                "id": "h4",
+                "type": "mcq",
+                "text": "An welchem Tag ist das Haus geschlossen?",
+                "options": [
+                  "Am Montag.",
+                  "Am Dienstag.",
+                  "Am Mittwoch."
+                ],
+                "answer": 1,
+                "audioStart": 210
+              },
+              {
+                "id": "h5",
+                "type": "tf",
+                "text": "Sie hören Tipps zu Freizeitaktivitäten für Jugendliche.",
+                "answer": "Richtig",
+                "audioStart": 408
+              },
+              {
+                "id": "h6",
+                "type": "mcq",
+                "text": "Für welche Veranstaltung muss man sich vorher anmelden?",
+                "options": [
+                  "Für die Ausstellung.",
+                  "Für die Fahrt mit dem Schneemobil.",
+                  "Zum Skifahren."
+                ],
+                "answer": 1,
+                "audioStart": 408
+              },
+              {
+                "id": "h7",
+                "type": "tf",
+                "text": "In Augsburg findet ein Weihnachtsmarkt statt.",
+                "answer": "Richtig",
+                "audioStart": 587
+              },
+              {
+                "id": "h8",
+                "type": "mcq",
+                "text": "Wie lange ist der Christkindlesmarkt in Betrieb?",
+                "options": [
+                  "Länger als einen Monat.",
+                  "Weniger als einen Monat.",
+                  "135 Tage."
+                ],
+                "answer": 0,
+                "audioStart": 587
+              },
+              {
+                "id": "h9",
+                "type": "tf",
+                "text": "Sie hören einen Polizeibericht.",
+                "answer": "Falsch",
+                "audioStart": 727
+              },
+              {
+                "id": "h10",
+                "type": "mcq",
+                "text": "Wer konnte die Besitzerin der Katze befreien?",
+                "options": [
+                  "Der Schlüsseldienst.",
+                  "Ein Nachbar.",
+                  "Die Polizei."
+                ],
+                "answer": 0,
+                "audioStart": 727
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "partNumber": 2,
+            "title": "Teil 2: Mozart-City-Tour Salzburg",
+            "badge": "Teil 2",
+            "desc": "Sie hören einen Text. Sie hören den Text einmal. Dazu lösen Sie fünf Aufgaben. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+            "intro": "Lesen Sie jetzt die Aufgaben 11 bis 15. Dazu haben Sie 60 Sekunden Zeit.",
+            "context": "Sie nehmen an der Mozart-City-Tour teil.",
+            "questions": [
+              {
+                "id": "h11",
+                "type": "mcq",
+                "text": "Wie lange dauert die Rundfahrt?",
+                "options": [
+                  "Zwanzig Minuten.",
+                  "Fünfzehn Minuten.",
+                  "Neunzig Minuten."
+                ],
+                "answer": 2,
+                "audioStart": 804
+              },
+              {
+                "id": "h12",
+                "type": "mcq",
+                "text": "Auf der Mozart-City-Tour besichtigt man …",
+                "options": [
+                  "das Wohnhaus Mozarts.",
+                  "das Geburtshaus Mozarts.",
+                  "das Schloss Leopoldskron."
+                ],
+                "answer": 1,
+                "audioStart": 804
+              },
+              {
+                "id": "h13",
+                "type": "mcq",
+                "text": "Von wem wurde das Mozarteum gegründet?",
+                "options": [
+                  "Von Mozart.",
+                  "Von Wissenschaftlern.",
+                  "Von Salzburgern."
+                ],
+                "answer": 2,
+                "audioStart": 804
+              },
+              {
+                "id": "h14",
+                "type": "mcq",
+                "text": "Wem gehörte das Geburtshaus Mozarts?",
+                "options": [
+                  "Der Familie Mozart.",
+                  "Einem Händler.",
+                  "Mozarts Nachbarin."
+                ],
+                "answer": 1,
+                "audioStart": 804
+              },
+              {
+                "id": "h15",
+                "type": "mcq",
+                "text": "Was sieht man in dem Museum?",
+                "options": [
+                  "Mozarts Kinder-Violine.",
+                  "Mozarts Klavier.",
+                  "Möbel der Familie Mozart."
+                ],
+                "answer": 0,
+                "audioStart": 804
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "partNumber": 3,
+            "title": "Teil 3: Gespräch über die Ferien",
+            "badge": "Teil 3",
+            "desc": "Sie hören ein Gespräch. Sie hören das Gespräch einmal. Dazu lösen Sie sieben Aufgaben. Wählen Sie: Sind die Aussagen richtig oder falsch?",
+            "intro": "Lesen Sie jetzt die Aufgaben 16 bis 22. Dazu haben Sie 60 Sekunden Zeit.",
+            "context": "Sie fahren mit der Straßenbahn und hören, wie sich zwei Jugendliche über die Ferien unterhalten.",
+            "questions": [
+              {
+                "id": "h16",
+                "type": "tf",
+                "text": "Isabella hat von ihren Eltern ein neues Handy bekommen.",
+                "answer": "Falsch",
+                "audioStart": 1120
+              },
+              {
+                "id": "h17",
+                "type": "tf",
+                "text": "Isabella zeigt Jonas Fotos auf ihrem Handy.",
+                "answer": "Richtig",
+                "audioStart": 1120
+              },
+              {
+                "id": "h18",
+                "type": "tf",
+                "text": "Isabella fährt gern auf die Chalkidiki.",
+                "answer": "Falsch",
+                "audioStart": 1120
+              },
+              {
+                "id": "h19",
+                "type": "tf",
+                "text": "Isabella mag Andreas.",
+                "answer": "Richtig",
+                "audioStart": 1120
+              },
+              {
+                "id": "h20",
+                "type": "tf",
+                "text": "Jonas ist dieses Jahr allein mit seiner Schwester verreist.",
+                "answer": "Falsch",
+                "audioStart": 1120
+              },
+              {
+                "id": "h21",
+                "type": "tf",
+                "text": "Isabellas Eltern sind nicht so sportlich wie die Eltern von Jonas.",
+                "answer": "Richtig",
+                "audioStart": 1120
+              },
+              {
+                "id": "h22",
+                "type": "tf",
+                "text": "Jonas findet Ferien am Strand langweilig.",
+                "answer": "Falsch",
+                "audioStart": 1120
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "partNumber": 4,
+            "title": "Teil 4: Radiosendung „School for you“: Darf ein Lehrer einen Schüler schlagen?",
+            "badge": "Teil 4",
+            "desc": "Sie hören eine Diskussion. Sie hören die Diskussion zweimal. Dazu lösen Sie acht Aufgaben. Ordnen Sie die Aussagen zu: Wer sagt was?",
+            "intro": "Lesen Sie jetzt die Aussagen 23 bis 30. Dazu haben Sie 60 Sekunden Zeit.",
+            "context": "Die Moderatorin der Radiosendung „School for you“ diskutiert mit den Schülern Lara und Simon zum Thema: „Darf ein Lehrer einen Schüler schlagen?“",
+            "speakers": [
+              "Moderatorin",
+              "Lara",
+              "Simon"
+            ],
+            "example": {
+              "text": "Das Gericht hat gegen die Entlassung des Lehrers entschieden.",
+              "answer": 0
+            },
+            "questions": [
+              {
+                "id": "h23",
+                "type": "speaker",
+                "text": "Fast alle Schüler finden Herrn X sympathisch.",
+                "options": [
+                  "Moderatorin",
+                  "Lara",
+                  "Simon"
+                ],
+                "answer": 1,
+                "audioStart": 1387
+              },
+              {
+                "id": "h24",
+                "type": "speaker",
+                "text": "Eine Minderheit der Schüler ist mit dem Gerichtsurteil nicht einverstanden.",
+                "options": [
+                  "Moderatorin",
+                  "Lara",
+                  "Simon"
+                ],
+                "answer": 2,
+                "audioStart": 1387
+              },
+              {
+                "id": "h25",
+                "type": "speaker",
+                "text": "Die verletzte Schulter des Lehrers spielte eine wichtige Rolle für das Gerichtsurteil.",
+                "options": [
+                  "Moderatorin",
+                  "Lara",
+                  "Simon"
+                ],
+                "answer": 0,
+                "audioStart": 1387
+              },
+              {
+                "id": "h26",
+                "type": "speaker",
+                "text": "Der Lehrer hatte nicht die Absicht, die Schülerin zu schlagen.",
+                "options": [
+                  "Moderatorin",
+                  "Lara",
+                  "Simon"
+                ],
+                "answer": 0,
+                "audioStart": 1387
+              },
+              {
+                "id": "h27",
+                "type": "speaker",
+                "text": "Das Mädchen wollte, dass der Lehrer seine Arbeit verliert.",
+                "options": [
+                  "Moderatorin",
+                  "Lara",
+                  "Simon"
+                ],
+                "answer": 2,
+                "audioStart": 1387
+              },
+              {
+                "id": "h28",
+                "type": "speaker",
+                "text": "Das Mädchen und seine Freunde sind nicht in die Klasse integriert.",
+                "options": [
+                  "Moderatorin",
+                  "Lara",
+                  "Simon"
+                ],
+                "answer": 2,
+                "audioStart": 1387
+              },
+              {
+                "id": "h29",
+                "type": "speaker",
+                "text": "Die Klasse macht heute außerhalb des Unterrichts nichts gemeinsam.",
+                "options": [
+                  "Moderatorin",
+                  "Lara",
+                  "Simon"
+                ],
+                "answer": 1,
+                "audioStart": 1387
+              },
+              {
+                "id": "h30",
+                "type": "speaker",
+                "text": "Die ersten Tage der Klassenfahrten waren immer ein bisschen schwierig.",
+                "options": [
+                  "Moderatorin",
+                  "Lara",
+                  "Simon"
+                ],
+                "answer": 1,
+                "audioStart": 1387
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "id": "h1",
+            "type": "tf",
+            "text": "Auf der A 1 ist ein Unfall passiert.",
+            "answer": "Falsch",
+            "audioStart": 36
+          },
+          {
+            "id": "h2",
+            "type": "mcq",
+            "text": "Warum gibt es Stau?",
+            "options": [
+              "Weil das Wetter schlecht ist.",
+              "Weil auf der Autobahn gebaut wird.",
+              "Weil eine Ausfahrt geschlossen ist."
+            ],
+            "answer": 0,
+            "audioStart": 36
+          },
+          {
+            "id": "h3",
+            "type": "tf",
+            "text": "Sie hören eine Information eines Fotostudios.",
+            "answer": "Falsch",
+            "audioStart": 210
+          },
+          {
+            "id": "h4",
+            "type": "mcq",
+            "text": "An welchem Tag ist das Haus geschlossen?",
+            "options": [
+              "Am Montag.",
+              "Am Dienstag.",
+              "Am Mittwoch."
+            ],
+            "answer": 1,
+            "audioStart": 210
+          },
+          {
+            "id": "h5",
+            "type": "tf",
+            "text": "Sie hören Tipps zu Freizeitaktivitäten für Jugendliche.",
+            "answer": "Richtig",
+            "audioStart": 408
+          },
+          {
+            "id": "h6",
+            "type": "mcq",
+            "text": "Für welche Veranstaltung muss man sich vorher anmelden?",
+            "options": [
+              "Für die Ausstellung.",
+              "Für die Fahrt mit dem Schneemobil.",
+              "Zum Skifahren."
+            ],
+            "answer": 1,
+            "audioStart": 408
+          },
+          {
+            "id": "h7",
+            "type": "tf",
+            "text": "In Augsburg findet ein Weihnachtsmarkt statt.",
+            "answer": "Richtig",
+            "audioStart": 587
+          },
+          {
+            "id": "h8",
+            "type": "mcq",
+            "text": "Wie lange ist der Christkindlesmarkt in Betrieb?",
+            "options": [
+              "Länger als einen Monat.",
+              "Weniger als einen Monat.",
+              "135 Tage."
+            ],
+            "answer": 0,
+            "audioStart": 587
+          },
+          {
+            "id": "h9",
+            "type": "tf",
+            "text": "Sie hören einen Polizeibericht.",
+            "answer": "Falsch",
+            "audioStart": 727
+          },
+          {
+            "id": "h10",
+            "type": "mcq",
+            "text": "Wer konnte die Besitzerin der Katze befreien?",
+            "options": [
+              "Der Schlüsseldienst.",
+              "Ein Nachbar.",
+              "Die Polizei."
+            ],
+            "answer": 0,
+            "audioStart": 727
+          },
+          {
+            "id": "h11",
+            "type": "mcq",
+            "text": "Wie lange dauert die Rundfahrt?",
+            "options": [
+              "Zwanzig Minuten.",
+              "Fünfzehn Minuten.",
+              "Neunzig Minuten."
+            ],
+            "answer": 2,
+            "audioStart": 804
+          },
+          {
+            "id": "h12",
+            "type": "mcq",
+            "text": "Auf der Mozart-City-Tour besichtigt man …",
+            "options": [
+              "das Wohnhaus Mozarts.",
+              "das Geburtshaus Mozarts.",
+              "das Schloss Leopoldskron."
+            ],
+            "answer": 1,
+            "audioStart": 804
+          },
+          {
+            "id": "h13",
+            "type": "mcq",
+            "text": "Von wem wurde das Mozarteum gegründet?",
+            "options": [
+              "Von Mozart.",
+              "Von Wissenschaftlern.",
+              "Von Salzburgern."
+            ],
+            "answer": 2,
+            "audioStart": 804
+          },
+          {
+            "id": "h14",
+            "type": "mcq",
+            "text": "Wem gehörte das Geburtshaus Mozarts?",
+            "options": [
+              "Der Familie Mozart.",
+              "Einem Händler.",
+              "Mozarts Nachbarin."
+            ],
+            "answer": 1,
+            "audioStart": 804
+          },
+          {
+            "id": "h15",
+            "type": "mcq",
+            "text": "Was sieht man in dem Museum?",
+            "options": [
+              "Mozarts Kinder-Violine.",
+              "Mozarts Klavier.",
+              "Möbel der Familie Mozart."
+            ],
+            "answer": 0,
+            "audioStart": 804
+          },
+          {
+            "id": "h16",
+            "type": "tf",
+            "text": "Isabella hat von ihren Eltern ein neues Handy bekommen.",
+            "answer": "Falsch",
+            "audioStart": 1120
+          },
+          {
+            "id": "h17",
+            "type": "tf",
+            "text": "Isabella zeigt Jonas Fotos auf ihrem Handy.",
+            "answer": "Richtig",
+            "audioStart": 1120
+          },
+          {
+            "id": "h18",
+            "type": "tf",
+            "text": "Isabella fährt gern auf die Chalkidiki.",
+            "answer": "Falsch",
+            "audioStart": 1120
+          },
+          {
+            "id": "h19",
+            "type": "tf",
+            "text": "Isabella mag Andreas.",
+            "answer": "Richtig",
+            "audioStart": 1120
+          },
+          {
+            "id": "h20",
+            "type": "tf",
+            "text": "Jonas ist dieses Jahr allein mit seiner Schwester verreist.",
+            "answer": "Falsch",
+            "audioStart": 1120
+          },
+          {
+            "id": "h21",
+            "type": "tf",
+            "text": "Isabellas Eltern sind nicht so sportlich wie die Eltern von Jonas.",
+            "answer": "Richtig",
+            "audioStart": 1120
+          },
+          {
+            "id": "h22",
+            "type": "tf",
+            "text": "Jonas findet Ferien am Strand langweilig.",
+            "answer": "Falsch",
+            "audioStart": 1120
+          },
+          {
+            "id": "h23",
+            "type": "speaker",
+            "text": "Fast alle Schüler finden Herrn X sympathisch.",
+            "options": [
+              "Moderatorin",
+              "Lara",
+              "Simon"
+            ],
+            "answer": 1,
+            "audioStart": 1387
+          },
+          {
+            "id": "h24",
+            "type": "speaker",
+            "text": "Eine Minderheit der Schüler ist mit dem Gerichtsurteil nicht einverstanden.",
+            "options": [
+              "Moderatorin",
+              "Lara",
+              "Simon"
+            ],
+            "answer": 2,
+            "audioStart": 1387
+          },
+          {
+            "id": "h25",
+            "type": "speaker",
+            "text": "Die verletzte Schulter des Lehrers spielte eine wichtige Rolle für das Gerichtsurteil.",
+            "options": [
+              "Moderatorin",
+              "Lara",
+              "Simon"
+            ],
+            "answer": 0,
+            "audioStart": 1387
+          },
+          {
+            "id": "h26",
+            "type": "speaker",
+            "text": "Der Lehrer hatte nicht die Absicht, die Schülerin zu schlagen.",
+            "options": [
+              "Moderatorin",
+              "Lara",
+              "Simon"
+            ],
+            "answer": 0,
+            "audioStart": 1387
+          },
+          {
+            "id": "h27",
+            "type": "speaker",
+            "text": "Das Mädchen wollte, dass der Lehrer seine Arbeit verliert.",
+            "options": [
+              "Moderatorin",
+              "Lara",
+              "Simon"
+            ],
+            "answer": 2,
+            "audioStart": 1387
+          },
+          {
+            "id": "h28",
+            "type": "speaker",
+            "text": "Das Mädchen und seine Freunde sind nicht in die Klasse integriert.",
+            "options": [
+              "Moderatorin",
+              "Lara",
+              "Simon"
+            ],
+            "answer": 2,
+            "audioStart": 1387
+          },
+          {
+            "id": "h29",
+            "type": "speaker",
+            "text": "Die Klasse macht heute außerhalb des Unterrichts nichts gemeinsam.",
+            "options": [
+              "Moderatorin",
+              "Lara",
+              "Simon"
+            ],
+            "answer": 1,
+            "audioStart": 1387
+          },
+          {
+            "id": "h30",
+            "type": "speaker",
+            "text": "Die ersten Tage der Klassenfahrten waren immer ein bisschen schwierig.",
+            "options": [
+              "Moderatorin",
+              "Lara",
+              "Simon"
+            ],
+            "answer": 1,
+            "audioStart": 1387
+          }
+        ]
+      }
+    ],
+    "explanations": {
+      "1": {
+        "quote": "Doch an einem Samstag schlug meine Tante vor, dass wir abends zum Michelstädter Altstadtfest gehen. Ich machte mir zwar keine große Hoffnung auf gute Unterhaltung, aber da ich nichts Besseres zu tun hatte und das Wetter ausnahmsweise gut war, stimmte ich zu.",
+        "whyCorrect": {
+          "de": "Falsch. Die Aussage behauptet, man habe sich trotz des schlechten Wetters gut unterhalten. Im Text steht jedoch ausdrücklich, dass das Wetter an diesem Abend ausnahmsweise gut war.",
+          "fr": "Faux. L'énoncé affirme qu'on s'est bien amusé malgré le mauvais temps, or le texte indique clairement que le temps était exceptionnellement clément ce soir-là.",
+          "ar": "خطأ. تدعي الجملة أن الناس استمتعوا بوقتهم رغم سوء الأحوال الجوية، بينما يوضح النص صراحة أن الطقس كان جيداً على غير العادة في ذلك المساء."
+        },
+        "whyIncorrect": {
+          "de": "„Richtig“ ist unzutreffend, da das Fest nicht bei schlechtem Wetter stattfand, sondern der Regen ausnahmsweise Pause machte.",
+          "fr": "« Vrai » est incorrect car la fête n'a pas eu lieu sous la pluie ou le mauvais temps, mais par beau temps exceptionnel.",
+          "ar": "«صحيح» غير صائبة لأن المهرجان لم يُقم في طقس سيئ، بل توقف المطر وكان الجو صحواً على غير العادة."
+        }
+      },
+      "2": {
+        "quote": "Das Fest fand im Zentrum statt, das für den Verkehr gesperrt war. Wir konnten also nicht mit dem Auto in die Innenstadt fahren und mussten zu Fuß gehen.",
+        "whyCorrect": {
+          "de": "Richtig. Das Zentrum war für jeglichen Verkehr gesperrt, sodass keine Privatwagen fahren durften und man zu Fuß gehen musste.",
+          "fr": "Vrai. Le centre-ville était entièrement fermé à la circulation automobile, interdisant le passage des voitures privées.",
+          "ar": "صحيح. كان مركز المدينة مغلقاً بالكامل أمام حركة السير، مما منع دخول السيارات الخاصة واقتضى المشي على الأقدام."
+        },
+        "whyIncorrect": {
+          "de": "„Falsch“ ist falsch, da der Text ausdrücklich bestätigt: „für den Verkehr gesperrt“ und „konnten nicht mit dem Auto fahren“.",
+          "fr": "« Faux » est erroné car le texte confirme explicitement la fermeture de la zone à la circulation automobile.",
+          "ar": "«خطأ» غير صحيحة لأن النص يؤكد بوضوح حظر حركة المرور ومنع قيادة السيارات داخل المركز."
+        }
+      },
+      "3": {
+        "quote": "Die Geschäfte waren alle auf, Straßen und Gassen waren mit Kerzen erleuchtet. Es war „lange Einkaufsnacht“.",
+        "whyCorrect": {
+          "de": "Falsch. Die Aussage behauptet, nur wenige Läden seien geschlossen gewesen. Im Text heißt es aber: „Die Geschäfte waren alle auf“ – es war also kein einziger Laden geschlossen.",
+          "fr": "Faux. L'affirmation prétend que seuls quelques magasins étaient fermés. En réalité, tous les magasins étaient ouverts sans exception (« alle auf »).",
+          "ar": "خطأ. تزعم العبارة أن محلات قليلة فقط كانت مغلقة، في حين يذكر النص: «كانت المتاجر كلها مفتوحة»، أي لم يُغلق أي متجر على الإطلاق."
+        },
+        "whyIncorrect": {
+          "de": "„Richtig“ ist falsch, weil die Formulierung „nur wenige Läden geschlossen“ fälschlicherweise voraussetzt, dass überhaupt Geschäfte zu waren.",
+          "fr": "« Vrai » est faux car affirmer que « peu de magasins étaient fermés » implique à tort que certains étaient fermés.",
+          "ar": "«صحيح» غير ملائمة لأن الادعاء بأن «محلات قليلة فقط كانت مغلقة» يفترض خطأً وجود متاجر مقفلة."
+        }
+      },
+      "4": {
+        "quote": "Für das leibliche Wohl war bestens gesorgt: Bratwurst, Currywurst, Pommes, Erbsensuppe mit Bockwurst – und natürlich Bier von der heimischen Brauerei.",
+        "whyCorrect": {
+          "de": "Falsch. Das Bier stammte von der heimischen Brauerei und es gab zahlreiche Essensstände, aber nirgendwo steht, dass die Speisen umsonst (kostenlos) verteilt wurden.",
+          "fr": "Faux. La brasserie locale fournissait de la bière et il y avait une offre variée de plats, mais rien n'était offert gratuitement (« umsonst »).",
+          "ar": "خطأ. وفرت مصنعة الجعة المحلية المشروبات وتعددت أكشاك الطعام، لكن النص لم يذكر قط أن الأطباق قُدمت بالمجان («umsonst»)."
+        },
+        "whyIncorrect": {
+          "de": "„Richtig“ ist unzutreffend, da „umsonst“ gratis bedeutet, wofür der Text keinerlei Anhaltspunkte liefert.",
+          "fr": "« Vrai » est incorrect car la gratuité des repas n'est absolument pas mentionnée dans le texte.",
+          "ar": "«صحيح» خاطئة تماماً لعدم وجود أي إشارة إلى مجانية الوجبات الغذائية في المهرجان."
+        }
+      },
+      "5": {
+        "quote": "In der sommerlichen Nacht sah man die Artisten ihre Kunststücke vorführen und man hörte nur das Knistern und Zischen des Feuers.",
+        "whyCorrect": {
+          "de": "Falsch. Die Artisten traten ohne laute Musik auf; die Zuschauer hörten ausschließlich das Knistern und Zischen der Flammen.",
+          "fr": "Faux. Le spectacle de feu s'est déroulé sans musique forte ; on n'entendait que le crépitement et le souffle des flammes.",
+          "ar": "خطأ. قدم الفنانون استعراض النار في هدوء وبدون موسيقى صاخبة، حيث كان الصوت الوحيد المسموع هو صوت طقطقة وهسيس النار."
+        },
+        "whyIncorrect": {
+          "de": "„Richtig“ ist falsch, da die Rockband zuvor an der Burg-Kellerei spielte, die Show am Brunnen jedoch nur vom Klang des Feuers begleitet wurde.",
+          "fr": "« Vrai » est faux car la musique rock était jouée ailleurs ; le numéro de feu au puits n'avait pas d'accompagnement musical sonore.",
+          "ar": "«صحيح» غير صحيحة لأن فرقة الروك كانت تعزف في موقع آخر، بينما عُرضت فقرة النار دون خلفية موسيقية."
+        }
+      },
+      "6": {
+        "quote": "Ich werde dieses Fest nie vergessen und kann nur jedem empfehlen: Auch Michelstadt im Odenwald ist eine Reise wert (besonders im August!!)",
+        "whyCorrect": {
+          "de": "Richtig. Nicole stellt fest, dass Michelstadt eine Reise wert ist, was bedeutet, dass sich ein Besuch auf jeden Fall lohnt.",
+          "fr": "Vrai. Nicole affirme que la ville vaut le déplacement (« ist eine Reise wert »), ce qui équivaut à dire que la visite en vaut la peine.",
+          "ar": "صحيح. تؤكد نيكول أن ميشيلشتات تستحق السفر إليها وقضاء عطلة فيها («ist eine Reise wert»)، أي أن زيارتها مجدية وممتعة."
+        },
+        "whyIncorrect": {
+          "de": "„Falsch“ ist unzutreffend, da Nicoles Schlussfolgerung eine uneingeschränkte Besuchsempfehlung darstellt.",
+          "fr": "« Faux » est incorrect car Nicole conclut son récit par une recommandation chaleureuse à visiter la ville.",
+          "ar": "«خطأ» غير صحيحة لأن خاتمة مقال نيكول تتضمن توصية صريحة ومتحمسة بزيارة المدينة."
+        }
+      },
+      "7": {
+        "quote": "... sind es die Haushalte älterer Bürger, die zu einer stillstehenden Statistik der Online-Haushalte in der Schweiz führen: Laut Bundesamt für Statistik wollen diese 20 Prozent partout nicht online gehen. Damit liegt die Schweiz hinter den skandinavischen Ländern...",
+        "whyCorrect": {
+          "de": "Richtig ist b: „wie sich die Zahl der Online-Haushalte in der Schweiz entwickelt.“ Der Artikel analysiert das Stagnieren der Online-Zahlen und vergleicht die Quote mit anderen Ländern.",
+          "fr": "La bonne réponse est b : « l'évolution du nombre de foyers connectés en Suisse ». L'article étudie la stagnation des chiffres et les compare à l'international.",
+          "ar": "الإجابة الصحيحة هي b: «كيف يتطور عدد الأسر المتصلة بالإنترنت في سويسرا». يحلل المقال أسباب ركود نسبة الأسر المتصلة ومقارنتها بدول أخرى."
+        },
+        "whyIncorrect": {
+          "de": "a ist falsch, da Online-Spiele nicht das Hauptthema sind; c ist falsch, weil Kinderschutzprogramme nur ein Nebenaspekt am Rande sind.",
+          "fr": "a est faux (les jeux en ligne ne sont pas le sujet) ; c est faux (la protection des mineurs n'est qu'un détail secondaire).",
+          "ar": "الخيار a خاطئ لأن الألعاب ليست الموضوع الأساسي؛ والخيار c خاطئ لأن حماية الأطفال مجرد نقطة ثانوية."
+        }
+      },
+      "8": {
+        "quote": "Bei einer Befragung wurden mangelndes Interesse, wenig Fachkenntnis oder kein Selbstvertrauen von den älteren Menschen angegeben.",
+        "whyCorrect": {
+          "de": "Richtig ist a: „haben selten Computerkenntnisse.“ Der Text nennt explizit „wenig Fachkenntnis“ als einen der Hauptgründe der Senioren.",
+          "fr": "La bonne réponse est a : « ont rarement des compétences informatiques ». Le texte cite expressément le manque de connaissances techniques (« wenig Fachkenntnis »).",
+          "ar": "الإجابة الصحيحة هي a: «نادراً ما يمتلكون مهارات بالكمبيوتر». يذكر النص بصراحة «wenig Fachkenntnis» (قلة المعرفة المتخصصة) كسبب رئيسي لدى المسنين."
+        },
+        "whyIncorrect": {
+          "de": "b und c treffen auf jüngere Internetnutzer zu, nicht auf die Senioren, die gar nicht erst online gehen wollen.",
+          "fr": "b et c concernent les internautes plus jeunes qui craignent les virus, non les seniors qui refusent d'aller en ligne.",
+          "ar": "الخياران b و c ينطبقان على فئة الشباب الذين يخشون الفيروسات، وليس على كبار السن الممتنعين عن استخدام الشبكة."
+        }
+      },
+      "9": {
+        "quote": "Damit liegt die Schweiz hinter den skandinavischen Ländern und den Niederlanden, wo insgesamt mehr private Haushalte Internet haben als bei uns.",
+        "whyCorrect": {
+          "de": "Richtig ist b: „haben mehr Haushalte Internet als in der Schweiz.“ Der Text sagt wörtlich, dass in den Niederlanden mehr Privathaushalte über Internet verfügen als in der Schweiz.",
+          "fr": "La bonne réponse est b : « ont plus de ménages connectés qu'en Suisse ». Le texte l'indique noir sur blanc pour les Pays-Bas et les pays scandinaves.",
+          "ar": "الإجابة الصحيحة هي b: «تمتلك أسرٌ أكثر إنترنت مقارنة بسويسرا». يشير النص حرفياً إلى تقدم هولندا في نسبة انتشار الإنترنت المنزلي مقارنة بسويسرا."
+        },
+        "whyIncorrect": {
+          "de": "a ist falsch, da über spezifische Probleme der Niederlande nichts berichtet wird; c ist eine freie Erfindung ohne Textbezug.",
+          "fr": "a est faux car rien n'indique des problèmes similaires aux Pays-Bas ; c est une invention sans fondement textuel.",
+          "ar": "الخيار a غير صحيح لعدم ذكر مشكلات مطابقة بهولندا؛ والخيار c ادعاء لا أصل له في المقال."
+        }
+      },
+      "10": {
+        "quote": "Stark im Trend liegt zurzeit Functional-Food. Das ist Essen, das nicht nur satt macht, sondern auch für die Gesundheit sorgt... Gesundheit ist für viele Menschen zum höchsten Gut geworden.",
+        "whyCorrect": {
+          "de": "Richtig ist c: „warum Functional-Food beliebt ist.“ Der Text erläutert das wachsende Gesundheitsbewusstsein und das Streben nach Wohlbefinden, das diesen Trend antreibt.",
+          "fr": "La bonne réponse est c : « pourquoi les aliments fonctionnels sont populaires ». L'article explique l'intérêt croissant pour la santé et le bien-être.",
+          "ar": "الإجابة الصحيحة هي c: «لماذا تحظى الأغذية الوظيفية بشعبية كبيرة». يوضح المقال دوافع الإقبال عليها وعلاقتها بالوعي الصحي المعاصر."
+        },
+        "whyIncorrect": {
+          "de": "a ist falsch, weil die medizinische Wirkung wissenschaftlich umstritten ist; b ist falsch, da Zivilisationskrankheiten nur als Sorge erwähnt werden.",
+          "fr": "a est faux car l'effet curatif est contesté scientifiquement ; b est faux car l'origine des maladies modernes n'est pas le propos.",
+          "ar": "الخيار a خاطئ لكون علاج الأمراض غير مثبت علمياً؛ والخيار b خاطئ لأن نشأة أمراض العصر ليست جوهر المقال."
+        }
+      },
+      "11": {
+        "quote": "Und es entspricht einem allgemeinen Trend in der Bevölkerung: Gesundheit ist für viele Menschen zum höchsten Gut geworden.",
+        "whyCorrect": {
+          "de": "Richtig ist b: „ist für immer mehr Menschen das Wichtigste.“ Der Ausdruck „zum höchsten Gut geworden“ bedeutet, dass Gesundheit an oberster Stelle steht.",
+          "fr": "La bonne réponse est b : « est la chose primordiale pour de plus en plus de gens ». L'expression « zum höchsten Gut geworden » signifie le bien le plus précieux.",
+          "ar": "الإجابة الصحيحة هي b: «أصبحت أهم شيء للمزيد من الناس». عبارة «zum höchsten Gut geworden» تعني أنها غدت أثمن ما يملكه الإنسان."
+        },
+        "whyIncorrect": {
+          "de": "a steht im krassen Widerspruch zum beschriebenen Trend; c ist falsch, da der Kauf von Functional-Food freiwillig erfolgt.",
+          "fr": "a contredit formellement la tendance générale ; c est inexact car la consommation résulte d'un choix volontaire et non d'une contrainte.",
+          "ar": "الخيار a يناقض تماماً واقع التوجه السائد؛ والخيار c غير سليم لأن تناول هذه الأطعمة خيار شخصي وليس إجبارياً."
+        }
+      },
+      "12": {
+        "quote": "Stark im Trend liegt zurzeit Functional-Food. Das ist Essen, das nicht nur satt macht, sondern auch für die Gesundheit sorgt.",
+        "whyCorrect": {
+          "de": "Richtig ist a: „ist in.“ Der deutsche Ausdruck „im Trend liegen“ ist bedeutungsgleich mit der Wendung „in sein“ (modisch und sehr gefragt sein).",
+          "fr": "La bonne réponse est a : « est très tendance / in ». L'expression « im Trend liegen » est synonyme de « in sein ».",
+          "ar": "الإجابة الصحيحة هي a: «شائع ومطلوب وعلى الموضة («in»)». التعبير الألماني «im Trend liegen» يطابق تماماً معنى كلمة «in sein»."
+        },
+        "whyIncorrect": {
+          "de": "b verallgemeinert zu stark (die Wirkung ist umstritten, aber nicht generell ungesund); c ist falsch, da Functional-Food mit massivem Werbeaufwand beworben wird.",
+          "fr": "b est inexact (les vertus sont débattues mais non néfastes) ; c est faux car la publicité est omniprésente dans ce secteur.",
+          "ar": "الخيار b فيه تعميم جائر، والخيار c خاطئ تماماً لأن الشركات ترصد حملات إعلانية ضخمة لتسويق هذا الغذاء."
+        }
+      },
+      "13": {
+        "quote": "KEKS e.V. Sommerrainstr. 61, 70347 Stuttgart. Wenn jeder Bissen im Hals stecken bleibt … Wir helfen und unterstützen bundesweit Kinder, die wegen einer kranken Speiseröhre nicht essen können. Spendenkonto: Baden-Württembergische Bank...",
+        "whyCorrect": {
+          "de": "Richtig ist i. Frau Wickert möchte Geld für kranke Kinder in Deutschland spenden. KEKS e.V. hilft bundesweit betroffenen Kindern und gibt ein Spendenkonto an.",
+          "fr": "L'annonce i correspond à la situation. Mme Wickert désire donner de l'argent pour des enfants malades en Allemagne ; l'association KEKS e.V. fournit son compte bancaire.",
+          "ar": "الإعلان i هو الأنسب. تريد السيدة فيكرت التبرع لجمعية تعنى بالأطفال المرضى بألمانيا، وجمعية KEKS تدعم الأطفال وتضع رقم حساب للتبرعات."
+        },
+        "whyIncorrect": {
+          "de": "Andere Anzeigen bieten ehrenamtliche Mitarbeit an oder richten sich an weltweite Hilfseinsätze (wie Ärzte ohne Grenzen), nicht speziell an Kinder in Deutschland.",
+          "fr": "D'autres annonces ciblent l'action internationale (Médecins Sans Frontières) ou le bénévolat sans lien direct avec les enfants en Allemagne.",
+          "ar": "الإعلانات الأخرى تطلب متطوعين بالجهد أو موجهة لإغاثة دولية عامة (كأطباء بلا حدود) وليست مخصصة للأطفال داخل ألمانيا."
+        }
+      },
+      "14": {
+        "quote": "Du bist gerne in der Natur und möchtest dich für ihren Schutz einsetzen? Dann bist du bei der NAJU genau richtig! Werde zusammen mit 75.000 anderen Kindern und Jugendlichen aktiv für die Natur! ... Die Naturschutzjugend (NAJU) ist die Jugendorganisation des NABU...",
+        "whyCorrect": {
+          "de": "Richtig ist c. Biologielehrer Geiger sucht nach Angeboten für seine Schüler. Die Naturschutzjugend (NAJU) ist speziell für Kinder und Jugendliche gedacht.",
+          "fr": "L'annonce c correspond au souhait de M. Geiger, enseignant de biologie voulant motiver ses élèves par le biais d'un club de jeunesse dédié à la nature.",
+          "ar": "الإعلان c يطابق غاية أستاذ الأحياء غايغر لتحفيز تلاميذه، حيث تشكل NAJU منظمة شبابية مخصصة للأطفال والناشئة في مجال البيئة."
+        },
+        "whyIncorrect": {
+          "de": "Anzeige f bietet lediglich Geschenkgutscheine für Einzelpersonen an; Anzeige h wendet sich ausschließlich an Eltern mit Säuglingen.",
+          "fr": "L'annonce f ne concerne qu'un cadeau d'adhésion individuel ; l'annonce h cible les jeunes parents avec bébés.",
+          "ar": "الإعلان f يقتصر على إهداء اشتراك لشخص واحد، والإعلان h موجه لأولياء أمور الأطفال الرضع فقط."
+        }
+      },
+      "15": {
+        "quote": "Verschenken Sie eine Mitgliedschaft im NABU! ... und gleichzeitig damit etwas Gutes für den Erhalt und Schutz unserer Natur und Umwelt tun? Ihr Geschenk soll sinnstiftend und etwas „anders“ als andere Geschenke sein?",
+        "whyCorrect": {
+          "de": "Richtig ist f. Lukas sucht ein Geburtstagsgeschenk für Tobias, der Naturfreund ist. Anzeige f schlägt vor, eine Mitgliedschaft im NABU als Geschenk zu erwerben.",
+          "fr": "L'annonce f correspond à la recherche de Lukas : offrir en cadeau d'anniversaire une adhésion solidaire à la ligue de protection de la nature (NABU).",
+          "ar": "الإعلان f هو الحل الأمثل لبحث لوكاس عن هدية لصديقه توبياس، حيث يدعو الإعلان إلى إهداء اشتراك عضوية في منظمة NABU."
+        },
+        "whyIncorrect": {
+          "de": "Anzeige c ist für Kinder/Jugendliche zum Selbstmitmachen, keine Geschenkidee; Anzeige d betrifft Kleiderspenden.",
+          "fr": "L'annonce c est destinée à l'engagement personnel des jeunes, non à un cadeau d'anniversaire.",
+          "ar": "الإعلان c يخص المشاركة الشخصية للشباب وليس شراء هدية، والإعلان d خاص بالملابس المستعملة."
+        }
+      },
+      "16": {
+        "quote": "Bürgerinitiative Ausländische Mitbürgerinnen e.V. Kommen Sie doch einfach mal vorbei! Wir setzen uns für Dialog und das friedliche Zusammenleben von Menschen aus verschiedenen Ländern ein.",
+        "whyCorrect": {
+          "de": "Richtig ist e. Sara will sich für das Zusammenleben mit ausländischen Nachbarn engagieren. Die Bürgerinitiative fördert genau dieses friedliche Miteinander.",
+          "fr": "L'annonce e répond parfaitement à l'objectif de Sara de s'investir activement dans le vivre-ensemble et l'amitié entre communautés culturelles.",
+          "ar": "الإعلان e يلبي تماماً رغبة سارة في العمل من أجل التعايش السلمي والتآخي بين المواطنين والمقيمين من مختلف الجنسيات."
+        },
+        "whyIncorrect": {
+          "de": "Anzeige j bietet allgemeine Nachbarschaftshilfe für Senioren ohne interkulturellen Fokus; Anzeige a sucht Helfer für Caritas-Dienste.",
+          "fr": "L'annonce j porte sur l'aide de voisinage générique (courses pour seniors) sans dimension interculturelle.",
+          "ar": "الإعلان j يركز على تقديم العون المنزلي العادي للمسنين وليس على الاندماج والتعايش بين الثقافات."
+        }
+      },
+      "17": {
+        "quote": "Für eine Situation gibt es keine passende Anzeige. In diesem Fall schreiben Sie 0.",
+        "whyCorrect": {
+          "de": "Richtig ist 0. Frau Anders möchte armen jungen Familien helfen. Keine der vorhandenen Anzeigen bietet konkrete finanzielle oder soziale Hilfen für bedürftige Familien an.",
+          "fr": "La bonne réponse est 0. Mme Anders cherche à soutenir des familles précaires ; aucune annonce ne propose une telle assistance sociale ciblée.",
+          "ar": "الإجابة الصحيحة هي 0. تبحث السيدة أندرس عن دعم الأسر الشابة المحتاجة، ولا يتضمن أي إعلان مساعدة اجتماعية موجهة للأسر الفقيرة."
+        },
+        "whyIncorrect": {
+          "de": "Anzeige h richtet sich zwar an junge Familien, bietet aber lediglich ökologische Ratgeber und kostenlose Mitgliedschaft im Naturschutzbund, keine Armutshilfe.",
+          "fr": "L'annonce h s'adresse aux jeunes familles mais propose des conseils verts et une adhésion écologique d'essai, et non une aide sociale.",
+          "ar": "الإعلان h موجه للأسر الجديدة لكنه يقدم نصائح بيئية وعضوية شرفية لحماية الطبيعة، وليس إعانة للفقراء."
+        }
+      },
+      "18": {
+        "quote": "Helfende Hände herzlich willkommen ... Sie wollen Ihre Erfahrung aus dem Beruf an einen Schüler weitergeben? Dann sind Sie unser Typ: Bringen Sie Ihre Talente ein in das Angebot der Caritas. Viele alte und junge, kranke und behinderte Menschen freuen sich...",
+        "whyCorrect": {
+          "de": "Richtig ist a. Philipp ist Krankenpfleger und will behinderten Menschen helfen. Anzeige a der Caritas sucht qualifizierte Helfer für kranke und behinderte Mitmenschen.",
+          "fr": "L'annonce a convient à Philipp : la Caritas recherche des volontaires qualifiés pour accompagner des personnes malades ou en situation de handicap.",
+          "ar": "الإعلان a يطابق رغبة فيليب الممرض في تسخير كفاءته التمريضية لمساعدة ذوي الإعاقة ضمن برامج منظمة كاريتاس."
+        },
+        "whyIncorrect": {
+          "de": "Anzeige g ist ein kommerzieller Pflegedienst für Kunden, kein Ehrenamt; Anzeige b betrifft humanitäre Auslandseinsätze.",
+          "fr": "L'annonce g est une entreprise payante de soins à domicile pour des clients et non du bénévolat social.",
+          "ar": "الإعلان g يمثل خدمة رعاية منزلية تجارية مدفوعة للزبائن وليس فرصة للتطوع الإنساني المجاني."
+        }
+      },
+      "19": {
+        "quote": "Ihr Baby ist uns nicht schnuppe! Deshalb gibt's für junge Familien unsere Schnuppermitgliedschaft. Ein Jahr kostenlos. Wenn Sie uns diese Anzeige schicken, erfahren Sie mehr und bekommen gratis Umwelttipps für Eltern. Bund für Umwelt und Naturschutz Deutschland...",
+        "whyCorrect": {
+          "de": "Richtig ist h. Gabriel ist junger Vater und will sein Kind umweltbewusst erziehen. Anzeige h des BUND bietet kostenlose Umwelttipps speziell für Eltern mit Kleinkindern.",
+          "fr": "L'annonce h du BUND répond exactement au profil de Gabriel : adhésion d'essai et conseils écologiques pratiques destinés aux parents de nouveau-nés.",
+          "ar": "الإعلان h مناسب تماماً لغابرييل، حيث تمنح جمعية BUND نصائح بيئية مجانية وعضوية تجريبية للآباء الجدد لتنشئة أطفالهم."
+        },
+        "whyIncorrect": {
+          "de": "Anzeige c ist für Jugendliche ab Schulalter; Anzeige f dient als Geschenk für Erwachsene.",
+          "fr": "L'annonce c concerne les adolescents d'âge scolaire, et non l'éveil écologique des bébés.",
+          "ar": "الإعلان c يستهدف الفتيان واليافعين في سن المدرسة، وليس الأطفال الرضع وحديثي الولادة."
+        }
+      },
+      "20": {
+        "quote": "Da gibt es grundsätzlich ein Problem: Die Universitäten sind auf einmal verantwortlich für Minderjährige! Stellt die Uni dann „Aufpasser“ ein, die immer bei diesen Jugendlichen sind und auf sie aufpassen? Das ist doch verrückt! ... Kommt mir alles sehr utopisch vor.",
+        "whyCorrect": {
+          "de": "Nein. Petra hält die universitäre Aufsichtspflicht über Minderjährige für völlig verrückt und utopisch und lehnt das Vorhaben entschieden ab.",
+          "fr": "Non. Petra juge insensée la prise en charge de mineurs par l'université et qualifie ce projet d'utopie dangereuse.",
+          "ar": "لا (Nein). تعارض بترا الفكرة بقوة وتعتبر تحمل الجامعات لمسؤولية ورعاية قاصرين أمراً جنونياً وغير قابل للتطبيق."
+        },
+        "whyIncorrect": {
+          "de": "„Ja“ ist falsch, da Petra keine Vorteile sieht, sondern organisatorische und rechtliche Bedenken äußert.",
+          "fr": "« Oui » est erroné, ses propos exprimant un rejet catégorique et sans nuance de la mesure.",
+          "ar": "«نعم» غير صحيحة لأن بترا تبدي اعتراضاً صريحاً وتصف المبادرة بالجنون والمستحيل."
+        }
+      },
+      "21": {
+        "quote": "Besonders umständlich ist auch, dass ich mich nicht über das Online-System der Uni für Prüfungen anmelden kann. Stattdessen muss ich persönlich bei der Professorin vorbeigehen. Trotzdem lohnt es sich.",
+        "whyCorrect": {
+          "de": "Ja. Willi studiert bereits als Minderjähriger und stellt trotz aller formalen Hürden klar fest: „Trotzdem lohnt es sich.“",
+          "fr": "Oui. Willi, lui-même étudiant mineur, surmonte les tracasseries administratives et affirme que cela en vaut pleinement la peine.",
+          "ar": "نعم (Ja). يؤيد فيلي الفكرة لكونه طالباً قاصراً في الجامعة، ويؤكد رغم المتاعب الإدارية أن الأمر يستحق العناء تماماً."
+        },
+        "whyIncorrect": {
+          "de": "„Nein“ ist falsch, weil sein Fazit eindeutig positiv ausfällt.",
+          "fr": "« Non » est incorrect car sa conclusion finale est résolument enthousiaste et favorable.",
+          "ar": "«لا» غير صائبة لأن خلاصة كلامه إيجابية ومؤيدة لمواصلة التجربة."
+        }
+      },
+      "22": {
+        "quote": "Die wichtigsten Erfahrungen macht man doch in der Praxis. Viel richtiger wäre, dass alle jungen Leute in ihrem Leben etwas Konkretes lernen, auch bevor sie studieren. Die Praxis wird sie im Leben weiterbringen, nicht die Theorie... Es bringt nichts, dass sie nur studieren. Dieses Programm ist diesem Gedanken ganz entgegengesetzt.",
+        "whyCorrect": {
+          "de": "Nein. Torsten plädiert für praktische Arbeitserfahrung vor der Theorie und sieht im Frühstudium den falschen Weg.",
+          "fr": "Non. Torsten privilégie l'apprentissage concret par la pratique avant les études et rejette le programme d'études précoces.",
+          "ar": "لا (Nein). يعارض تورستن ذلك مؤكداً أن الخبرة العملية أهم بكثير من الدراسة النظرية المبكرة."
+        },
+        "whyIncorrect": {
+          "de": "„Ja“ ist unzutreffend, da Torsten das Programm als dem eigentlichen Lebensbedarf entgegengesetzt bezeichnet.",
+          "fr": "« Oui » est faux, Torsten jugeant le dispositif inadapté aux véritables nécessités de la jeunesse.",
+          "ar": "«نعم» غير صحيحة لأن تورستن ينتقد البرنامج ويعتبره مضيعة للوقت بعيداً عن الواقع العملي."
+        }
+      },
+      "23": {
+        "quote": "Ich kann mir aber vorstellen, dass es besonders für begabte Schüler ein gutes Angebot ist. Diese jungen Leute werden in der Schule sowieso unterfordert und müssen sich kaum anstrengen... Warum dann bis zur Matura mit dem Studium warten?",
+        "whyCorrect": {
+          "de": "Ja. Chiara befürwortet das Frühstudium für begabte Schüler, um ihnen intellektuelle Herausforderungen zu bieten.",
+          "fr": "Oui. Chiara approuve sans réserve pour éviter l'ennui des élèves précoces et répondre à leurs besoins intellectuels.",
+          "ar": "نعم (Ja). تؤيد كيارا الخطوة بشدة لمنح المتفوقين تحديات علمية تتناسب مع قدراتهم العالية."
+        },
+        "whyIncorrect": {
+          "de": "„Nein“ widerspricht Chiaras Feststellung, dass unsere Gesellschaft solche geförderten Talente dringend brauche.",
+          "fr": "« Non » contredirait son plaidoyer clair en faveur du plein épanouissement des jeunes talents.",
+          "ar": "«لا» تناقض موقف كيارا الداعم بقوة لتشجيع العقول النابغة قبل إنهاء المدرسة."
+        }
+      },
+      "24": {
+        "quote": "Mit 16 oder 17 sind die Jugendlichen ja noch in der Pubertät... In dem Alter ist man doch noch gar nicht reif für ein Studium. Ich kann nicht glauben, dass so junge Menschen schon ernsthaft dabei sind. Nicht umsonst sollte man dafür erwachsen sein.",
+        "whyCorrect": {
+          "de": "Nein. Reiner hält Schüler unter 18 für unreif und unfähig zu einem ernsthaften Studium.",
+          "fr": "Non. Reiner estime les adolescents de cet âge immatures et inaptes à suivre sérieusement un cursus universitaire.",
+          "ar": "لا (Nein). يرفض راينر الفكرة لكون المراهقين في سن 16 أو 17 عاماً غير ناضجين لتحمل مسؤولية الجامعة."
+        },
+        "whyIncorrect": {
+          "de": "„Ja“ ist falsch, da Reiner ausdrücklich betont, dass man für die Universität zwingend erwachsen sein sollte.",
+          "fr": "« Oui » est erroné, Reiner insistant sur la nécessité d'avoir atteint l'âge adulte pour étudier.",
+          "ar": "«نعم» خاطئة لكون راينر يشدد على ضرورة بلوغ سن الرشد قبل الالتحاق بالجامعة."
+        }
+      },
+      "25": {
+        "quote": "Wenn diese Erfahrung nun schon zeitlich früher im Leben gemacht wird, umso besser.",
+        "whyCorrect": {
+          "de": "Ja. Helen schätzte ihre eigene Studienzeit sehr und begrüßt es ausdrücklich („umso besser“), wenn Jugendliche diese Chance schon früher erhalten.",
+          "fr": "Oui. Helen garde un souvenir marquant de ses études et se félicite qu'on puisse vivre cette émulation intellectuelle plus tôt.",
+          "ar": "نعم (Ja). ترحب هيلين بالفكرة وترى أن خوض هذه التجربة الثرية في وقت مبكر من العمر أمر ممتاز ومفيد."
+        },
+        "whyIncorrect": {
+          "de": "„Nein“ widerspricht Helens eindeutiger Befürwortung der frühen Horizonterweiterung.",
+          "fr": "« Non » est contredit par sa conviction que l'expérience universitaire précoce élargit utilement l'horizon.",
+          "ar": "«لا» تناقض تأكيد هيلين على أن التجربة المبكرة تحفز الطلاب وتوسع مداركهم."
+        }
+      },
+      "26": {
+        "quote": "Hier in der Nähe gibt es das nicht. Scheint mir aber wert zu sein, es mal zu testen. Ich weiss nur nicht, wie man dann nebenbei noch die Verpflichtungen des Gymnasiums zeitlich schafft.",
+        "whyCorrect": {
+          "de": "Ja. Ferdinand hält das Frühstudium für absolut testenswert, auch wenn er organisatorische Fragen zur Zeiteinteilung aufwirft.",
+          "fr": "Oui. Ferdinand juge que l'initiative mérite d'être tentée (« wert zu sein, es mal zu testen »), malgré ses interrogations d'emploi du temps.",
+          "ar": "نعم (Ja). يرى فرديناند أن الفكرة جديرة بالتجربة والاختبار الفعلي، مع تساؤله فقط عن كيفية تنظيم الوقت مع المدرسة."
+        },
+        "whyIncorrect": {
+          "de": "„Nein“ ist unzutreffend, da seine Zeitfragen kein prinzipielles Dagegensein bedeuten.",
+          "fr": "« Non » est erroné, ses doutes pratiques ne remettant pas en cause son approbation globale.",
+          "ar": "«لا» غير دقيقة لأن استفساراته عن المواعيد لا تعني رفضه للمبدأ بحد ذاته."
+        }
+      },
+      "27": {
+        "quote": "Ausgeliehene Artikel können reserviert werden. Sobald die reservierten Artikel bereitstehen, wird dies telefonisch oder per SMS mitgeteilt. Die Artikel sind dann innerhalb einer Woche abzuholen. Für Reservationen wird eine Gebühr erhoben.",
+        "whyCorrect": {
+          "de": "Richtig ist c: „muss man dafür einen Geldbetrag zahlen.“ Der Text hält unmissverständlich fest: „Für Reservationen wird eine Gebühr erhoben.“",
+          "fr": "La bonne réponse est c : « on doit payer une somme d'argent ». Le texte énonce : « Für Reservationen wird eine Gebühr erhoben ».",
+          "ar": "الإجابة الصحيحة هي c: «يجب دفع مبلغ مالي مقابل ذلك». ينص النظام صراحة على فرض رسوم مالية على عمليات الحجز."
+        },
+        "whyIncorrect": {
+          "de": "a ist falsch, weil die Wochenfrist erst ab Benachrichtigung über die Bereitstellung gilt, nicht ab Reservierung; b betrifft die Fernleihe, nicht die reguläre Reservierung.",
+          "fr": "a est inexact (le délai d'une semaine court à partir de la mise à disposition) ; b confond réservation et prêt inter-bibliothèques.",
+          "ar": "الخيار a غير صحيح لأن مهلة الأسبوع تبدأ بعد تجهيز المواد، والخيار b يخلط بين الحجز وطلب المواد من فروع أخرى."
+        }
+      },
+      "28": {
+        "quote": "Wer die Bestimmungen der Bibliothek nicht beachtet oder sich ungebührlich verhält, kann vorübergehend oder gänzlich von der Benutzung ausgeschlossen werden.",
+        "whyCorrect": {
+          "de": "Richtig ist b: „kann es sein, dass man die PBZ nicht mehr benutzen darf.“ Der Text sieht bei Verstößen den vorübergehenden oder dauerhaften Ausschluss vor.",
+          "fr": "La bonne réponse est b : « on risque de ne plus pouvoir utiliser la bibliothèque ». L'usager peut être suspendu ou exclu définitivement.",
+          "ar": "الإجابة الصحيحة هي b: «قد يُمنع الشخص من استخدام المكتبة». تنص اللائحة على إمكانية الحرمان المؤقت أو النهائي للمخالفين."
+        },
+        "whyIncorrect": {
+          "de": "a ist falsch, da Gebühren nur für Beschädigungen/Verluste verrechnet werden; c ist keine vorgesehene Regel für diesen Fall.",
+          "fr": "a est faux (des frais s'appliquent en cas de dégradation matérielle) ; c n'est pas stipulé sous cette forme.",
+          "ar": "الخيار a يخص تكاليف إتلاف أو فقدان المواد، والخيار c لم يرد كإجراء عقابي محدد."
+        }
+      },
+      "29": {
+        "quote": "Ausgeliehene Artikel können reserviert werden... Ebenso können gegen Gebühr Artikel, die nicht im lokalen Bestand vorhanden sind, bei einer anderen Bibliothek der PBZ zur Ausleihe besorgt werden, mit Ausnahme von DVDs.",
+        "whyCorrect": {
+          "de": "Richtig ist a: „auch DVDs reservieren lassen.“ Grundsätzlich können alle entliehenen Medien reserviert werden. Die Ausnahme bei DVDs betrifft nur die Bestellung aus anderen Zweigstellen.",
+          "fr": "La bonne réponse est a : « faire aussi réserver des DVD ». Tout média emprunté peut être réservé ; l'exclusion ne vise que l'acheminement inter-sites.",
+          "ar": "الإجابة الصحيحة هي a: «حجز أقراص DVD أيضاً». فالحجز متاح لجميع المواد المعارة، والاستثناء الوارد يخص النقل من مكتبات أخرى فقط."
+        },
+        "whyIncorrect": {
+          "de": "b ist falsch, da 25 Artikel gleichzeitig (nicht monatlich) ausgeliehen werden dürfen; c ist falsch, weil reservierte Artikel von der Verlängerung ausgenommen sind.",
+          "fr": "b est faux (25 articles en simultané, pas par mois) ; c est faux (les articles réservés ne peuvent être prolongés).",
+          "ar": "الخيار b خاطئ لأن الحد هو 25 مادة في وقت واحد، والخيار c خاطئ لأن المواد المحجوزة لا تقبل التمديد إطلاقاً."
+        }
+      },
+      "30": {
+        "quote": "Gegen Vorlage eines amtlichen Ausweises wird eine persönliche Bibliothekskarte ausgestellt, die bei jeder Ausleihe mitzubringen ist.",
+        "whyCorrect": {
+          "de": "Richtig ist b: „muss man jedes Mal die Bibliothekskarte bei sich haben.“ Die Karte ist bei jedem einzelnen Ausleihvorgang zwingend vorzuweisen.",
+          "fr": "La bonne réponse est b : « avoir sa carte sur soi à chaque fois ». L'usager doit impérativement présenter sa carte personnelle lors de chaque prêt.",
+          "ar": "الإجابة الصحيحة هي b: «إحضار بطاقة المكتبة في كل مرة استعارة». تشترط اللائحة إبراز البطاقة في كل عملية إعارة دون استثناء."
+        },
+        "whyIncorrect": {
+          "de": "a ist falsch, da die PBZ allen Interessierten offensteht; c ist falsch, da die Karte persönlich und nicht übertragbar ist.",
+          "fr": "a est faux (l'accès est ouvert à tous) ; c est faux (la carte est strictement nominative et non familiale).",
+          "ar": "الخيار a غير صحيح لأن المكتبة مفتوحة للجميع، والخيار c خاطئ لكون البطاقة شخصية ولا تُشارك مع أفراد العائلة."
+        }
+      },
+      "h1": {
+        "quote": "Auf der A1 Richtung Hamburg ein Kilometer Stau wegen dichten Nebels. Autofahrer werden gebeten, den Wetterverhältnissen entsprechend vorsichtig zu fahren. Die Ausfahrt Hamburg-Harburg ist wegen Bauarbeiten gesperrt.",
+        "whyCorrect": {
+          "de": "Falsch. Die Meldung berichtet von Stau wegen dichten Nebels und einer Sperrung wegen Bauarbeiten. Ein Unfall ist nicht passiert.",
+          "fr": "Faux. L'embouteillage est causé par un brouillard dense et des travaux de voirie, sans aucun accident de circulation.",
+          "ar": "خطأ. ينجم الازدحام عن الضباب الكثيف وأعمال الصيانة في المخرج، ولم يقع أي حادث سير على الطريق."
+        },
+        "whyIncorrect": {
+          "de": "„Richtig“ ist unzutreffend, da weder ein Unfall noch verletzte Personen gemeldet werden.",
+          "fr": "« Vrai » est erroné car l'annonce radio ne fait état d'aucun accident.",
+          "ar": "«صحيح» غير مطابقة لأن الإذاعة لم تذكر وقوع أي حادث إطلاقاً."
+        }
+      },
+      "h2": {
+        "quote": "Auf der A1 Richtung Hamburg ein Kilometer Stau wegen dichten Nebels.",
+        "whyCorrect": {
+          "de": "Richtig ist a: „Weil das Wetter schlecht ist.“ Die ausdrücklich genannte Ursache für den Stau ist dichter Nebel (schlechtes Wetter).",
+          "fr": "La bonne réponse est a : « Parce que la météo est mauvaise ». Le bouchon est expressément imputé au brouillard intense.",
+          "ar": "الإجابة الصحيحة هي a: «بسبب سوء الأحوال الجوية». السبب المعلن للازدحام هو الضباب الكثيف (سوء الطقس)."
+        },
+        "whyIncorrect": {
+          "de": "b und c betreffen die gesperrte Ausfahrt Hamburg-Harburg, sind aber nicht der Grund für den Stau auf der Fahrbahn.",
+          "fr": "b et c concernent la fermeture de la sortie Harburg mais n'expliquent pas le bouchon principal sur l'autoroute.",
+          "ar": "الخياران b و c يفسران إغلاق مخرج هاربورغ فقط، وليسا سبب الازدحام المباشر على الطريق."
+        }
+      },
+      "h3": {
+        "quote": "Die Berlinische Galerie ist das Landesmuseum für Moderne Kunst, Fotografie und Architektur. Wir präsentieren Ihnen zurzeit und bis zum Jahresende „Kunst in Berlin von 1880 bis 1980“.",
+        "whyCorrect": {
+          "de": "Falsch. Es handelt sich um ein Landesmuseum für Kunst und Architektur, nicht um ein kommerzielles Fotostudio.",
+          "fr": "Faux. Il s'agit d'un grand musée public d'art et d'architecture, et non d'un studio de photographe professionnel.",
+          "ar": "خطأ. الجهة المعنية هي متحف وطني للفنون والعمارة، وليست استوديو تجاري للتصوير."
+        },
+        "whyIncorrect": {
+          "de": "„Richtig“ ist falsch, da das Museum zwar Fotografien ausstellt, aber kein Fotostudio ist.",
+          "fr": "« Vrai » est faux car l'exposition de photos d'archives n'en fait nullement un studio photo.",
+          "ar": "«صحيح» خاطئة لأن عرض الصور التاريخية داخل المتحف لا يجعله استوديو تصوير."
+        }
+      },
+      "h4": {
+        "quote": "Geöffnet ist unser Haus am Montag, und Mittwoch bis Sonntag von 10 bis 18 Uhr.",
+        "whyCorrect": {
+          "de": "Richtig ist b: „Am Dienstag.“ Das Museum öffnet montags sowie mittwochs bis sonntags; der Dienstag fehlt und ist der Ruhetag.",
+          "fr": "La bonne réponse est b : « Le mardi ». Le musée est accessible lundi, puis du mercredi au dimanche ; il est donc fermé le mardi.",
+          "ar": "الإجابة الصحيحة هي b: «يوم الثلاثاء». يفتح المتحف الاثنين ومن الأربعاء إلى الأحد، مما يعني إغلاقه التام يوم الثلاثاء."
+        },
+        "whyIncorrect": {
+          "de": "a und c sind Öffnungstage, wie in der Bandansage klar aufgezählt wird.",
+          "fr": "a et c sont des jours d'ouverture expressément cités par le répondeur téléphonique.",
+          "ar": "الخياران a و c هما من أيام العمل والفتح الرسمية للمتحف."
+        }
+      },
+      "h5": {
+        "quote": "Salü, meine Lieben, hier ist wie jeden ersten Montag im Monat euer Anton mit interessanten Tipps für eure Freizeit... Jugendliche ab 13...",
+        "whyCorrect": {
+          "de": "Richtig. Anton stellt Freizeitangebote und Ausflüge vor, die sich ausdrücklich an Jugendliche richten.",
+          "fr": "Vrai. L'animateur Anton propose des suggestions de loisirs et sorties spécialement destinées aux adolescents.",
+          "ar": "صحيح. يقدم المذيع أنتون مقترحات وأنشطة ترفيهية موجهة خصيصاً لفئة الشباب والناشئة."
+        },
+        "whyIncorrect": {
+          "de": "„Falsch“ ist unzutreffend, da der gesamte Radiobeitrag Jugendliche als Zielgruppe anspricht.",
+          "fr": "« Faux » est incorrect car la cible annoncée est bel et bien la jeunesse.",
+          "ar": "«خطأ» غير صحيحة لأن النشرة تخاطب اليافعين بشكل صريح ومباشر."
+        }
+      },
+      "h6": {
+        "quote": "Anmeldung und Reservierung der Schneemobile bis 17.00 Uhr am Vortag bei der Schweizer Ski- und Snowboardschule Adelboden.",
+        "whyCorrect": {
+          "de": "Richtig ist b: „Für die Fahrt mit dem Schneemobil.“ Eine vorherige Anmeldung bis zum Vortag wird nur für Schneemobile gefordert.",
+          "fr": "La bonne réponse est b : « Pour le tour en motoneige ». L'inscription préalable avant 17h la veille est expressément requise pour cette activité.",
+          "ar": "الإجابة الصحيحة هي b: «لركوب زلاجة الجليد الآلية». التسجيل المسبق قبل الخامسة من مساء اليوم السابق مطلوب لمركبات الجليد فقط."
+        },
+        "whyIncorrect": {
+          "de": "a und c können ohne Voranmeldung besucht bzw. ausgeliehen werden.",
+          "fr": "a et c sont en accès libre sans obligation d'enregistrement préalable.",
+          "ar": "الخياران a و c لا يتطلبان تسجيلاً أو حجزاً مسبقاً قبل الموعد."
+        }
+      },
+      "h7": {
+        "quote": "Besuchen Sie auch in diesem Jahr den Augsburger Christkindlesmarkt vor dem Rathaus mit seiner über 500-jährigen Tradition.",
+        "whyCorrect": {
+          "de": "Richtig. Die Radiodurchsage bewirbt den traditionsreichen Augsburger Christkindlesmarkt.",
+          "fr": "Vrai. Le spot radio annonce l'ouverture du marché de Noël traditionnel sur la place de la mairie d'Augsbourg.",
+          "ar": "صحيح. يعلن المذيع عن إقامة سوق عيد الميلاد العريق في الساحة المقابلة لمبنى بلدية أوغسبورغ."
+        },
+        "whyIncorrect": {
+          "de": "„Falsch“ ist unzutreffend, da der Christkindlesmarkt ein Weihnachtsmarkt ist.",
+          "fr": "« Faux » est erroné car le Christkindlesmarkt est l'appellation traditionnelle du marché de Noël.",
+          "ar": "«خطأ» غير صائبة لأن «Christkindlesmarkt» هو الاسم التقليدي لسوق عيد الميلاد."
+        }
+      },
+      "h8": {
+        "quote": "Vom 21.11. bis zum 24.12. locken mehr als 135 Stände mit weihnachtlicher Handwerkskunst.",
+        "whyCorrect": {
+          "de": "Richtig ist a: „Länger als einen Monat.“ Vom 21. November bis 24. Dezember sind es 34 Tage, also mehr als ein Monat.",
+          "fr": "La bonne réponse est a : « Plus d'un mois ». La durée du 21 novembre au 24 décembre correspond à 34 jours.",
+          "ar": "الإجابة الصحيحة هي a: «أكثر من شهر واحد». تمتد الفترة من 21 نوفمبر إلى 24 ديسمبر لتبلغ 34 يوماً."
+        },
+        "whyIncorrect": {
+          "de": "b ist rechnerisch falsch (34 Tage sind mehr als ein Monat); c verwechselt die 135 Verkaufsstände mit der Anzahl der Tage.",
+          "fr": "b est erroné (34 jours dépassent un mois) ; c confond le nombre de stands (135) avec une durée.",
+          "ar": "الخيار b خاطئ حسابياً، والخيار c يخلط بين عدد الأكشاك البالغ 135 كشكاً وعدد الأيام."
+        }
+      },
+      "h9": {
+        "quote": "Sie hören die Nachrichten im Radio. Eine Katze hat in Freiburg ihre Besitzerin ausgesperrt.",
+        "whyCorrect": {
+          "de": "Falsch. Die Durchsage wird als allgemeine Radionachricht (Nachrichten im Radio) eingeleitet, nicht als amtlicher Polizeibericht.",
+          "fr": "Faux. Il s'agit d'une brève insolite diffusée dans le journal d'information de la radio, non d'un communiqué de police.",
+          "ar": "خطأ. قُدم المقطع كخبر طريف ضمن نشرة الأخبار الإذاعية العامة، وليس كتقرير رسمي صادر عن أجهزة الشرطة."
+        },
+        "whyIncorrect": {
+          "de": "„Richtig“ ist falsch, da das bloße Vorkommen der Polizei im Text den Beitrag nicht zu einem Polizeibericht macht.",
+          "fr": "« Vrai » est faux car la simple intervention policière ne transforme pas le bulletin d'info en rapport de police.",
+          "ar": "«صحيح» خاطئة لأن ذكر تدخل الشرطة لا يجعل الخبر تقريراً أمنياً رسمياً."
+        }
+      },
+      "h10": {
+        "quote": "Schließlich musste die Polizei alarmiert werden. Ein Schlüsseldienst baute das gesamte Türschloss aus und befreite die frierende Frau.",
+        "whyCorrect": {
+          "de": "Richtig ist a: „Der Schlüsseldienst.“ Erst der herbeigerufene Schlüsseldienst baute das Schloss aus und befreite die Frau vom Balkon.",
+          "fr": "La bonne réponse est a : « Le serrurier ». C'est le serrurier mandaté qui a démonté la serrure pour délivrer la dame.",
+          "ar": "الإجابة الصحيحة هي a: «خدمة فتح الأقفال (النجار)». قام فني فتح الأقفال بفك القفل بالكامل وتحرير المرأة المحتجزة في الشرفة."
+        },
+        "whyIncorrect": {
+          "de": "b (Nachbar) und c (Polizei) scheiterten daran, dass der Schlüssel von innen im Schloss steckte.",
+          "fr": "b (le voisin) et c (la police) ont échoué car la clé était engagée de l'intérieur.",
+          "ar": "الخياران b و c فشلا في فتح الباب بسبب وجود المفتاح في القفل من الداخل."
+        }
+      },
+      "h11": {
+        "quote": "... und ich begleite Sie auf der circa eineinhalbstündigen Rundfahrt in Salzburg, die Sie zu allen wichtigen Sehenswürdigkeiten der Stadt bringen wird.",
+        "whyCorrect": {
+          "de": "Richtig ist c: „Neunzig Minuten.“ Eineinhalb Stunden entsprechen genau 90 Minuten Rundfahrt.",
+          "fr": "La bonne réponse est c : « 90 minutes ». Une heure et demie équivaut précisément à 90 minutes de trajet touristique.",
+          "ar": "الإجابة الصحيحة هي c: «تسعون دقيقة». ساعة ونصف تساوي تماماً 90 دقيقة للجولة بأكملها."
+        },
+        "whyIncorrect": {
+          "de": "a (20 Minuten) ist nur die Fahrzeit zur Getreidegasse; b (15 Minuten) war die anfängliche Verspätung des Busses.",
+          "fr": "a (20 min) est le trajet vers la première étape ; b (15 min) était le retard de départ.",
+          "ar": "الخيار a (20 دقيقة) هو زمن الوصول للمحطة الأولى، والخيار b (15 دقيقة) هو مدة تأخر الحافلة عند الانطلاق."
+        }
+      },
+      "h12": {
+        "quote": "Nach einer kurzen Fahrzeit von etwa 20 Minuten werden wir zuerst Mozarts Geburtshaus in der Getreidegasse besichtigen. Verwechseln Sie das bitte nicht mit Mozarts Wohnhaus, das heute nicht auf unserem Programm steht.",
+        "whyCorrect": {
+          "de": "Richtig ist b: „das Geburtshaus Mozarts.“ Die Führerin betont ausdrücklich, dass das Geburtshaus besichtigt wird und nicht das Wohnhaus.",
+          "fr": "La bonne réponse est b : « la maison natale de Mozart ». La guide insiste pour ne pas la confondre avec la maison d'habitation non visitée.",
+          "ar": "الإجابة الصحيحة هي b: «البيت الذي ولد فيه موزارت». تشدد المرشدة على زيارة مسقط رأسه وليس المنزل الذي أقام فيه لاحقاً."
+        },
+        "whyIncorrect": {
+          "de": "a steht ausdrücklich nicht auf dem Programm; c (Schloss Leopoldskron) wird überhaupt nicht angefahren.",
+          "fr": "a est explicitement exclu du parcours ; c n'est pas au programme des visites.",
+          "ar": "الخيار a مستبعد صراحة من جدول الزيارة، والخيار c لم يرد ذكره إطلاقاً."
+        }
+      },
+      "h13": {
+        "quote": "Den Abschluss unserer Tour bildet ein Besuch der Stiftung Mozarteum in der Schwarzstraße 26. Diese wurde im Jahr 1842 von den Bürgern der Stadt Salzburg gegründet.",
+        "whyCorrect": {
+          "de": "Richtig ist c: „Von Salzburgern.“ Die Stiftung Mozarteum wurde 1842 von engagierten Bürgern der Stadt Salzburg ins Leben gerufen.",
+          "fr": "La bonne réponse est c : « Par des citoyens de Salzbourg ». La fondation a été créée en 1842 par les habitants de la ville.",
+          "ar": "الإجابة الصحيحة هي c: «من قِبل سكان سالزبورغ». أنشأ أهالي ومواطنو سالزبورغ مؤسسة الموزارتيوم عام 1842."
+        },
+        "whyIncorrect": {
+          "de": "a ist falsch, da Mozart damals längst verstorben war; b ist falsch, da Wissenschaftler nur einen Arbeitsbereich der Stiftung bilden.",
+          "fr": "a est chronologiquement impossible ; b confond l'activité de recherche avec les membres fondateurs.",
+          "ar": "الخيار a مستحيل لوفاة موزارت قبل ذلك بعقود، والخيار b يخلط بين العلماء ومؤسسي الهيئة."
+        }
+      },
+      "h14": {
+        "quote": "Das sogenannte „Hagenauer Haus“ war im Besitz eines Freundes der Mozarts, des Händlers Johann Lorenz Hagenauer.",
+        "whyCorrect": {
+          "de": "Richtig ist b: „Einem Händler.“ Das Geburtshaus gehörte dem Salzburger Händler Johann Lorenz Hagenauer, der mit der Familie befreundet war.",
+          "fr": "La bonne réponse est b : « À un commerçant ». L'immeuble appartenait à Johann Lorenz Hagenauer, négociant et ami de la famille.",
+          "ar": "الإجابة الصحيحة هي b: «لتاجر». كان المبنى ملكاً للتاجر يوهان لورنتس هاغيناور الذي ربطته صداقة بأسرة موزارت."
+        },
+        "whyIncorrect": {
+          "de": "a ist falsch, da die Mozarts dort nur zur Miete im dritten Stock wohnten; c (Babette von Moll) war Nachbarin und nicht Besitzerin.",
+          "fr": "a est faux car les Mozart n'étaient que locataires ; c désigne une voisine de palier.",
+          "ar": "الخيار a خاطئ لأن أسرة موزارت كانت تستأجر شقة فقط، والخيار c يخص الجارة المقيمة بالجوار."
+        }
+      },
+      "h15": {
+        "quote": "Zu den berühmtesten Ausstellungsstücken zählen Mozarts Kinder-Violine und Briefe der Familie Mozart.",
+        "whyCorrect": {
+          "de": "Richtig ist a: „Mozarts Kinder-Violine.“ Zu den Höhepunkten der Museumsausstellung gehört seine Kinder-Violine.",
+          "fr": "La bonne réponse est a : « Le violon d'enfance de Mozart ». C'est l'une des pièces maîtresses les plus célèbres du musée.",
+          "ar": "الإجابة الصحيحة هي a: «كمان موزارت أثناء طفولته». يعد كمانه الصغير ورسائل الأسرة من أبرز مقتنيات المتحف."
+        },
+        "whyIncorrect": {
+          "de": "b ist falsch, da im Museum lediglich ein Ölbild namens „Mozart am Klavier“ hängt; c (Möbel) befindet sich in der Nachbarwohnung, nicht im Hauptexponatbereich.",
+          "fr": "b est faux (il s'agit d'un tableau représentant Mozart au piano et non du piano) ; c concerne la reconstitution d'un appartement voisin.",
+          "ar": "الخيار b خاطئ لأن المعروض هو لوحة زيتية بعنوان «موزارت على البيانو»، والخيار c أثاث في الشقة الخلفية."
+        }
+      },
+      "h16": {
+        "quote": "... mein Handy ist schon alt, aber meine Eltern haben mir zum Geburtstag kein neues schenken wollen.",
+        "whyCorrect": {
+          "de": "Falsch. Isabellas Eltern weigerten sich, ihr ein neues Smartphone zum Geburtstag zu kaufen; ihr Gerät ist alt.",
+          "fr": "Faux. Les parents d'Isabella ont refusé de lui acheter un nouveau téléphone pour son anniversaire.",
+          "ar": "خطأ. رفض والدا إيزابيلا شراء هاتف جديد لها في عيد ميلادها وظلت تستخدم هاتفها القديم."
+        },
+        "whyIncorrect": {
+          "de": "„Richtig“ ist unzutreffend, da sie ausdrücklich bedauert, kein neues Handy bekommen zu haben.",
+          "fr": "« Vrai » est inexact car elle regrette formellement de ne pas en avoir reçu un nouveau.",
+          "ar": "«صحيح» منافية للواقع لأنها تعبر بوضوح عن حزنها لعدم حصولها على هاتف جديد."
+        }
+      },
+      "h17": {
+        "quote": "J: Verstehe. Aber zeig jetzt mal die Fotos. Das ist euer Ferienhaus? I: hmhm J: Und das ist der Strand? Echt klasse!",
+        "whyCorrect": {
+          "de": "Richtig. Isabella nimmt ihr Handy heraus und zeigt Jonas nacheinander ihre Urlaubsbilder.",
+          "fr": "Vrai. Isabella sort son téléphone pour faire défiler ses photos de vacances devant Jonas.",
+          "ar": "صحيح. تخرج إيزابيلا هاتفها وتعرض صور عطلتها الصيفية على يوناس تباعاً."
+        },
+        "whyIncorrect": {
+          "de": "„Falsch“ ist unzutreffend, da Jonas die Bilder auf dem Display direkt kommentiert.",
+          "fr": "« Faux » est incorrect car Jonas observe et commente les clichés à l'écran.",
+          "ar": "«خطأ» غير صحيحة لأن يوناس يشاهد الصور على الشاشة ويعلق عليها بالتفصيل."
+        }
+      },
+      "h18": {
+        "quote": "Na ja, eigentlich ist es ja ganz schön dort, aber jedes Jahr … Ich würde lieber einmal woanders hinfahren, etwas anderes sehen.",
+        "whyCorrect": {
+          "de": "Falsch. Isabella möchte nicht jedes Jahr auf die Chalkidiki fahren, sondern würde lieber andere Orte kennenlernen.",
+          "fr": "Faux. Isabella se lasse d'aller chaque été au même endroit et préférerait découvrir d'autres horizons.",
+          "ar": "خطأ. تسأم إيزابيلا من الذهاب إلى نفس المكان سنوياً وتتمنى السفر إلى وجهات جديدة ومختلفة."
+        },
+        "whyIncorrect": {
+          "de": "„Richtig“ ist falsch, da sie den Aufenthalt dort als eintönig empfindet und Abwechslung wünscht.",
+          "fr": "« Vrai » est erroné car elle exprime clairement son désir de changement.",
+          "ar": "«صحيح» غير ملائمة لكونها تطمح بوضوح إلى تغيير مكان قضاء العطلة."
+        }
+      },
+      "h19": {
+        "quote": "J: Und du findest ihn toll? Erzähl. I: Ja, ich finde ihn toll, aber er hat schon eine Freundin.",
+        "whyCorrect": {
+          "de": "Richtig. Auf Jonas' Nachfrage bestätigt Isabella offen, dass sie Andreas toll findet.",
+          "fr": "Vrai. Isabella admet sans détour auprès de Jonas qu'elle apprécie beaucoup Andreas.",
+          "ar": "صحيح. تقر إيزابيلا بصراحة أمام يوناس بإعجابها الشديد بأندرياس."
+        },
+        "whyIncorrect": {
+          "de": "„Falsch“ widerspricht Isabellas eigener klarer Aussage im Dialog.",
+          "fr": "« Faux » est en contradiction directe avec les aveux d'Isabella.",
+          "ar": "«خطأ» تعارض تماماً اعتراف إيزابيلا الواضح بمشاعر الإعجاب."
+        }
+      },
+      "h20": {
+        "quote": "I: Waaas? Und das alles mit deinen Eltern? J: Ja, mit meinen Eltern und meiner Schwester.",
+        "whyCorrect": {
+          "de": "Falsch. Jonas war nicht allein mit seiner Schwester unterwegs, sondern mit der ganzen Familie inklusive der Eltern.",
+          "fr": "Faux. Jonas n'est pas parti seul avec sa sœur, mais accompagné de leurs deux parents.",
+          "ar": "خطأ. لم يسافر يوناس مع أخته بمفردهما، بل رافقهما والداهما في الرحلة بأكملها."
+        },
+        "whyIncorrect": {
+          "de": "„Richtig“ ist falsch, da die Eltern die gesamte Reise aktiv mitgestaltet haben.",
+          "fr": "« Vrai » est faux car les parents ont pris part à toutes les excursions familiales.",
+          "ar": "«صحيح» خاطئة لأن الوالدين كانا حاضرين ومشاركين في كل أنشطة الرحلة."
+        }
+      },
+      "h21": {
+        "quote": "Meine Eltern liegen immer nur am Strand oder beschäftigen sich mit dem Garten oder sitzen auf der Terrasse und lesen. Wir machen nicht mal einen Ausflug.",
+        "whyCorrect": {
+          "de": "Richtig. Isabellas Eltern sind sehr passiv, während Jonas' Eltern sportliche Aktivitäten wie Rafting und Wandern lieben.",
+          "fr": "Vrai. Les parents d'Isabella ne font aucun sport et restent inactifs, à l'inverse de ceux de Jonas.",
+          "ar": "صحيح. والدا إيزابيلا خاملان يفضلان الاستلقاء، بينما والدا يوناس في غاية النشاط والحيوية الرياضية."
+        },
+        "whyIncorrect": {
+          "de": "„Falsch“ ist unzutreffend, da der Kontrast zwischen den sportlichen Eltern von Jonas und den trägen Eltern von Isabella ganz deutlich wird.",
+          "fr": "« Faux » est incorrect tant l'opposition entre les deux modes de vie est marquée dans le dialogue.",
+          "ar": "«خطأ» غير صحيحة لوجود تباين صارخ في النص بين نشاط عائلة يوناس وركود عائلة إيزابيلا."
+        }
+      },
+      "h22": {
+        "quote": "Na, also ich würde ganz gern einmal in den Ferien nur am Strand liegen und faulenzen.",
+        "whyCorrect": {
+          "de": "Falsch. Jonas findet Urlaub am Strand keineswegs langweilig; er würde sich im Gegenteil wünschen, einfach mal faulenzen zu dürfen.",
+          "fr": "Faux. Jonas ne trouve pas cela ennuyeux ; il aimerait au contraire pouvoir paresser au bord de la mer.",
+          "ar": "خطأ. لا يرى يوناس راحة الشاطئ أمراً مملاً، بل يتمنى قضاء إجازة مريحة للاسترخاء دون عناء."
+        },
+        "whyIncorrect": {
+          "de": "„Richtig“ verkehrt Jonas' persönliche Sehnsucht nach einem entspannten Strandurlaub ins Gegenteil.",
+          "fr": "« Vrai » contredit le souhait explicite de Jonas de pouvoir enfin se reposer à la plage.",
+          "ar": "«صحيح» تعكس رغبة يوناس في الحصول على إجازة شاطئية هادئة وتجعلها نقيضاً لما قاله."
+        }
+      },
+      "h23": {
+        "quote": "L: Also ich finde es gut, dass Herr … äh … Herr X jetzt doch nicht entlassen wird. Außer den Freunden von der Schülerin, die er geschlagen hat, mögen ihn alle.",
+        "whyCorrect": {
+          "de": "Lara (b / 1). Lara berichtet, dass bis auf den kleinen Freundeskreis des Mädchens die gesamte Schülerschaft Herrn X schätzt.",
+          "fr": "Lara (b / 1). Lara affirme que tous les élèves apprécient Monsieur X, hormis la bande d'amis de l'élève concernée.",
+          "ar": "لارا (Lara - b / 1). تصرح لارا بأن جميع الطلاب يحبون الأستاذ X باستثناء شلة تلك الطالبة فقط."
+        },
+        "whyIncorrect": {
+          "de": "Simon und die Moderatorin haben diese Feststellung über die Beliebtheit des Lehrers nicht getroffen.",
+          "fr": "Ni Simon ni l'animatrice n'ont formulé ce constat sur la sympathie générale envers l'enseignant.",
+          "ar": "لم يصدر هذا القول عن سيمون أو المذيعة، بل كان تأكيداً مباشراً من لارا."
+        }
+      },
+      "h24": {
+        "quote": "S: Das ist nicht so einfach zu sagen. Nur ganz wenige sind gegen die Wiedereinstellung. Natürlich sind die meisten dagegen, dass ein Lehrer einen Schüler schlägt, aber sie finden, dass dies eine ganz besondere Situation war.",
+        "whyCorrect": {
+          "de": "Simon (c / 2). Simon erklärt, dass lediglich eine kleine Minderheit („nur ganz wenige“) mit der Rückkehr des Lehrers unzufrieden ist.",
+          "fr": "Simon (c / 2). Simon précise que seule une infime minorité s'oppose à la réintégration du professeur.",
+          "ar": "سيمون (Simon - c / 2). يوضح سيمون أن قلة ضئيلة جداً فقط تعارض عودة المعلم لممارسة وظيفته."
+        },
+        "whyIncorrect": {
+          "de": "Lara und die Moderatorin sprachen über die juristischen Details und nicht über die quantitative Minderheit an der Schule.",
+          "fr": "Lara et la présentatrice n'ont pas quantifié la proportion d'élèves désapprouvant le jugement.",
+          "ar": "لم تحدد لارا ولا المذيعة النسبة العددية للطلاب المعارضين للقرار القضائي."
+        }
+      },
+      "h25": {
+        "quote": "M: Ja, ich habe gelesen, dass das Gericht sein Urteil mit der besonderen Situation begründet hat. Die Schülerin soll den Lehrer als Erste geschlagen haben. Und zwar auf seine verletzte Schulter. Wusste die Schülerin, dass sich der Lehrer an der Schulter verletzt hatte?",
+        "whyCorrect": {
+          "de": "Moderatorin (a / 0). Die Moderatorin verweist auf die Begründung des Gerichts bezüglich des Schlages auf die verletzte Schulter.",
+          "fr": "L'animatrice (a / 0). La présentatrice rappelle le rôle déterminant de la blessure préalable à l'épaule dans l'argumentaire du tribunal.",
+          "ar": "المذيعة (Moderatorin - a / 0). تشير المذيعة إلى حيثيات المحكمة التي ركزت على ضرب الطالبة لكتف المعلم المصابة."
+        },
+        "whyIncorrect": {
+          "de": "Die Schüler Lara und Simon antworten lediglich auf diese rechtliche Information der Moderatorin.",
+          "fr": "Les deux élèves ne font que réagir aux éléments du dossier judiciaire exposés par l'animatrice.",
+          "ar": "اقتصر دور لارا وسيمون على التعقيب على هذه المعلومة القانونية التي طرحتها المذيعة."
+        }
+      },
+      "h26": {
+        "quote": "M: In der Urteilsbegründung steht, dass das Gericht der Meinung ist, dass Herr X die Schülerin nicht schlagen wollte, sondern dass er automatisch reagiert hat, als Reflex sozusagen, als ihn die Schülerin auf die verletzte Schulter geschlagen hat.",
+        "whyCorrect": {
+          "de": "Moderatorin (a / 0). Die Moderatorin zitiert den Urteilstext, wonach der Schlag des Lehrers keine Absicht, sondern eine reflexartige Abwehrreaktion war.",
+          "fr": "L'animatrice (a / 0). La présentatrice rapporte la conclusion des juges écartant toute intentionnalité au profit d'un réflexe physique de douleur.",
+          "ar": "المذيعة (Moderatorin - a / 0). تنقل المذيعة نص قرار المحكمة بأن ردة فعل المعلم كانت حركة لا إرادية ومنعكساً دفاعياً دون نية مسبقة."
+        },
+        "whyIncorrect": {
+          "de": "Lara und Simon haben diese Urteilsformulierung nicht in das Gespräch eingebracht.",
+          "fr": "Lara et Simon n'étaient pas à l'origine de cette citation extraite du compte-rendu d'audience.",
+          "ar": "لم يكن سيمون أو لارا هما من استشهد بحيثيات الحكم القضائي في هذا الصدد."
+        }
+      },
+      "h27": {
+        "quote": "S: ... und ich weiß, dass das Mädchen sogar gewettet hatte, dass sie es als Erste schafft, dass Herr X seine Ruhe verliert und sie schlägt, damit er entlassen wird.",
+        "whyCorrect": {
+          "de": "Simon (c / 2). Simon deckt auf, dass die Schülerin eine Wette abgeschlossen hatte, um die Entlassung des Lehrers zu provozieren.",
+          "fr": "Simon (c / 2). Simon révèle le pari malveillant de l'élève visant délibérément le licenciement de l'enseignant.",
+          "ar": "سيمون (Simon - c / 2). يكشف سيمون رهان الطالبة الخبيث لدفع المعلم لضربها وفقدان وظيفته."
+        },
+        "whyIncorrect": {
+          "de": "Weder Lara noch die Moderatorin wussten von dieser Wette bzw. sprachen sie aus.",
+          "fr": "Ni Lara ni l'animatrice n'ont rapporté l'existence de ce pari prémédité.",
+          "ar": "لم تتحدث لارا ولا المذيعة عن تفاصيل هذا الرهان الاستفزازي."
+        }
+      },
+      "h28": {
+        "quote": "S: Diese Schüler haben keine anderen Freunde, nicht nur in der Klasse, auch sonst. Sie reden auch in der Pause praktisch mit keinem anderen … und wir reden auch nicht mit ihnen. Das kann vielleicht ihr Verhalten erklären.",
+        "whyCorrect": {
+          "de": "Simon (c / 2). Simon analysiert die mangelnde Integration der Gruppe und das Fehlen sozialer Kontakte zur restlichen Klasse.",
+          "fr": "Simon (c / 2). Simon met en lumière l'isolement social de la clique et leur absence d'intégration au sein de la classe.",
+          "ar": "سيمون (Simon - c / 2). يحلل سيمون العزلة الاجتماعية لمجموعة الطلاب وانعدام تواصلهم مع باقي الزملاء."
+        },
+        "whyIncorrect": {
+          "de": "Lara sprach über Schulleitergespräche, während Simon das psychologische Problem der Ausgrenzung schilderte.",
+          "fr": "Lara s'est focalisée sur les entrevues disciplinaires, tandis que Simon a décrit leur rejet social.",
+          "ar": "ركزت لارا على إجراءات الإدارة، في حين فسر سيمون دوافعهم بعدم الاندماج والنبذ الاجتماعي."
+        }
+      },
+      "h29": {
+        "quote": "M: Macht ihr denn sonst als Klasse irgendetwas gemeinsam? Ich meine, außerhalb des Unterrichts. ... L: Nö, jetzt eigentlich nichts mehr … früher schon … und eine Klassenfahrt haben wir das letzte Mal vor zwei Jahren gemacht, in der 9. Klasse.",
+        "whyCorrect": {
+          "de": "Lara (b / 1). Lara verneint gemeinsame Klassenaktivitäten außerhalb der Schule und weist darauf hin, dass man nichts mehr zusammen unternimmt.",
+          "fr": "Lara (b / 1). Lara confirme qu'il n'y a plus aucune activité extrascolaire commune au sein de la classe.",
+          "ar": "لارا (Lara - b / 1). تؤكد لارا غياب أي نشاط صفي مشترك حالياً خارج نطاق اليوم الدراسي."
+        },
+        "whyIncorrect": {
+          "de": "Die Moderatorin stellte die Frage, aber Lara formulierte die ablehnende Feststellung.",
+          "fr": "L'animatrice a posé la question, mais c'est Lara qui a fait le constat de l'absence totale d'activités.",
+          "ar": "طرحت المذيعة السؤال فقط، بينما كانت لارا هي صاحبة الإقرار بانعدام الأنشطة المشتركة."
+        }
+      },
+      "h30": {
+        "quote": "L: Auch früher bei den Klassenfahrten gab es an den ersten zwei Tagen immer einige Probleme mit dem Mädchen und ihren Freunden, aber danach war es eigentlich immer sehr schön...",
+        "whyCorrect": {
+          "de": "Lara (b / 1). Lara erinnert sich daran, dass frühere Klassenfahrten an den ersten beiden Tagen stets schwierig verliefen, bevor sich die Stimmung besserte.",
+          "fr": "Lara (b / 1). Lara se souvient que les premiers jours en voyage scolaire étaient systématiquement conflictuels avant que le groupe ne s'apaise.",
+          "ar": "لارا (Lara - b / 1). تتذكر لارا أن اليومين الأولين في الرحلات المدرسية السابقة كانا يتسمان دائماً بالصعوبة والتوتر قبل تحسن الأجواء."
+        },
+        "whyIncorrect": {
+          "de": "Simon plädierte für eine neue Klassenfahrt, aber die Schilderung der Startschwierigkeiten stammte von Lara.",
+          "fr": "Simon a défendu l'utilité d'un nouveau voyage, mais l'évocation des départs difficiles provient de Lara.",
+          "ar": "دافع سيمون عن فكرة تنظيم رحلة جديدة، بينما سردت لارا تجربة البدايات المتعثرة في الرحلات السابقة."
+        }
+      }
+    },
+    "translations": {
+      "examTitle": {
+        "de": "Goethe / ÖSD B1 Prüfungssimulation — Modelltest 22",
+        "fr": "Simulation d'examen Goethe / ÖSD B1 — Test modèle 22",
+        "ar": "محاكاة امتحان غوته / ÖSD B1 — الاختبار التجريبي 22"
+      },
+      "examSub": {
+        "de": "Lesen (5 Teile) & Hören (4 Teile) · Modelltest 22 (Hueber)",
+        "fr": "Compréhension écrite (5 parties) & Compréhension orale (4 parties) · Test modèle 22 (Hueber)",
+        "ar": "القراءة (5 أقسام) والاستماع (4 أقسام) · الاختبار التجريبي 22 (هوبر)"
+      },
+      "parts": {
+        "1": {
+          "title": {
+            "de": "Teil 1",
+            "fr": "Partie 1 (Lecture)",
+            "ar": "الجزء 1 (القراءة)"
+          },
+          "instructions": {
+            "de": "Lesen Sie den Text und die Aufgaben 1 bis 6 dazu. Wählen Sie: Sind die Aussagen richtig oder falsch?",
+            "fr": "Lisez le texte et répondez aux questions 1 à 6. Choisissez : les affirmations sont-elles vraies ou fausses ?",
+            "ar": "اقرأ النص والمهام من 1 إلى 6. اختر: هل العبارات صحيحة أم خاطئة؟"
+          },
+          "articles": [
+            {
+              "heading": {
+                "de": "Meine Erlebnisse",
+                "fr": "Mes expériences",
+                "ar": "تجاربي ويومياتي"
+              },
+              "title": {
+                "de": "Meine Erlebnisse",
+                "fr": "Mes expériences",
+                "ar": "تجاربي ويومياتي"
+              },
+              "author": {
+                "de": "Nicole",
+                "fr": "Nicole",
+                "ar": "نيكول"
+              },
+              "date": {
+                "de": "25. September",
+                "fr": "25 septembre",
+                "ar": "25 سبتمبر"
+              },
+              "body": {
+                "fr": [
+                  "En août dernier, je suis allée rendre visite à mon oncle à Michelstadt. Michelstadt est une petite ville médiévale dans l'Odenwald. C'est très pittoresque et... il ne s'y passe généralement pas grand-chose. De plus, l'été dernier a été particulièrement pluvieux. J'ai passé le plus clair de mon temps enfermée à la maison. Pas vraiment stimulant !!",
+                  "Pourtant, un samedi, ma tante nous a proposé d'aller le soir à la fête de la vieille ville de Michelstadt (Altstadtfest). Je n'espérais pas vraiment me divertir, mais n'ayant rien de mieux à faire et le temps étant exceptionnellement clément, j'ai accepté.",
+                  "La fête avait lieu au centre-ville, qui était fermé à la circulation. Nous ne pouvions donc pas nous y rendre en voiture et avons dû marcher. En chemin, j'ai déjà eu ma première surprise. Les magasins étaient tous ouverts, les rues et ruelles étaient illuminées à la bougie. C'était la « longue nuit du shopping ». Nous avons flâné dans les rues, admiré les animations organisées par l'association des commerçants et n'avons pas manqué de faire une ou deux bonnes affaires.",
+                  "Nous sommes finalement arrivés dans la cour du château de Michelstadt, le cœur battant de la fête. Des tables et des bancs y étaient installés, où de nombreuses personnes étaient déjà assises. Les gens se saluaient, restaient ensemble, s'amusaient... une ambiance formidable. Les réjouissances culinaires étaient parfaitement assurées : saucisses grillées, currywurst, frites, soupe de pois cassés avec saucisse – et bien sûr la bière de la brasserie locale. Et à partir de 21h, un groupe de rock 'n' roll jouait en direct. Il y avait vraiment de l'animation à Michelstadt.",
+                  "Mais ce n'était pas tout. Ma tante a insisté pour continuer vers la « fontaine de la belle-mère », car un groupe, Art Artistica, y donnait un spectacle. Je n'avais pas trop envie de partir car le groupe de musique était super, mais elle a tellement insisté que nous avons cédé. Et elle avait bien raison.",
+                  "Le groupe d'artistes présentait un spectacle avec des numéros de feu. C'était très impressionnant. Dans la nuit estivale, on voyait les artistes exécuter leurs acrobaties et l'on n'entendait que le crépitement et le sifflement des flammes. C'était un spectacle unique.",
+                  "Nous sommes rentrés lentement à pied chez nous sous le clair de lune. Je n'oublierai jamais cette fête et je ne peux que recommander à chacun : Michelstadt dans l'Odenwald vaut vraiment le détour (surtout en août !)\n\nBien à vous, Nicole"
+                ],
+                "ar": [
+                  "في أغسطس الماضي ذهبت لزيارة عمي في ميشيلشتات. ميشيلشتات هي بلدة صغيرة من العصور الوسطى في منطقة أودنفالد. إنها خلابة للغاية و... عادة لا يحدث فيها الكثير. بالإضافة إلى ذلك، كان الصيف الماضي ممطراً جداً، فقضيت معظم وقتي حبيسة المنزل. لم يكن ذلك ممتعاً على الإطلاق!!",
+                  "ولكن في أحد أيام السبت، اقترحت عمتي أن نذهب مساءً إلى مهرجان البلدة القديمة في ميشيلشتات. لم أكن أعلق آمالاً كبيرة على قضاء وقت ممتع، ولكن بما أنه لم يكن لدي ما هو أفضل لأفعله وكان الطقس جيداً على غير العادة، فقد وافقت.",
+                  "أقيم المهرجان في مركز المدينة الذي كان مغلقاً أمام حركة المرور. لذلك لم نتمكن من القيادة بالسيارة إلى وسط المدينة واضطررنا للمشي على الأقدام. وفي الطريق عشت أول مفاجأة: كانت المتاجر كلها مفتوحة، والشوارع والأزقة مضاءة بالشموع. لقد كانت «ليلة التسوق الطويلة». تجولنا في الشوارع، وشاهدنا الفعاليات التي نظمتها جمعية التجّار، ولم نفوّت فرصة اقتناص صفقة أو اثنتين.",
+                  "أخيراً وصلنا إلى باحة قلعة ميشيلشتات، المكان الذي ينبض فيه قلب المهرجان. هنا وُضعت الطاولات والمقاعد حيث جلس الكثير من الناس بالفعل. كان الجميع يتبادلون التحايا ويجلسون معاً ويمرحون... كانت الأجواء رائعة للغاية. تم الاعتناء بالطعام والشراب على أكمل وجه: نقانق مشوية، كاري فورست، بطاطس مقلية، حساء البازلاء – وبالتأكيد بيرة من مصنع الجعة المحلي. واعتباراً من الساعة 9 مساءً عزفت فرقة روك آند رول مباشرة. كانت ميشيلشتات تنبض بالحياة حقاً.",
+                  "لكن هذا لم يكن كل شيء؛ ألحت عمتي علينا للمتابعة نحو «ينبوع الحماة»، لأن فرقة تدعى Art Artistica كانت تقدم عرضاً هناك. في الحقيقة لم أكن أريد المغادرة لأن فرقة الموسيقى كانت تعزف بشكل رائع، لكنها أصرت بشدة حتى وافقنا. وكان معها كل الحق.",
+                  "قدمت فرقة السيرك والفنانين عرضاً مبهراً بالنار. كان أمراً مدهشاً للغاية؛ في ليلة الصيف رأينا الفنانين يؤدون ألعابهم المهارية ولم نكن نسمع سوى طقطقة النار وهسيسها. لقد كان مشهداً فريداً لا يتكرر.",
+                  "عدنا سيراً على الأقدام ببطء إلى المنزل تحت ضوء القمر. لن أنسى هذا المهرجان أبداً ولا يسعني إلا أن أوصي الجميع: ميشيلشتات في أودنفالد تستحق الزيارة فعلاً (خاصة في أغسطس!!)\n\nصديقتكم نيكول"
+                ]
+              }
+            }
+          ],
+          "example": {
+            "text": {
+              "de": "In Michelstadt kann man oft etwas erleben.",
+              "fr": "À Michelstadt, on peut souvent vivre des aventures / animations.",
+              "ar": "في ميشيلشتات يمكن للمرء في كثير من الأحيان أن يعيش تجارب وأنشطة مشوقة."
+            }
+          },
+          "questions": {
+            "1": {
+              "fr": "Lors de la fête, on a pu bien se divertir malgré le mauvais temps.",
+              "ar": "في المهرجان، استطاع المرء الاستمتاع بوقته على الرغم من سوء الأحوال الجوية.",
+              "text": {
+                "fr": "Lors de la fête, on a pu bien se divertir malgré le mauvais temps.",
+                "ar": "في المهرجان، استطاع المرء الاستمتاع بوقته على الرغم من سوء الأحوال الجوية."
+              }
+            },
+            "2": {
+              "fr": "Au centre-ville, aucune voiture privée n'avait le droit de circuler pendant la fête.",
+              "ar": "في وسط المدينة، لم يكن مسموحاً للسيارات الخاصة بالسير أثناء المهرجان.",
+              "text": {
+                "fr": "Au centre-ville, aucune voiture privée n'avait le droit de circuler pendant la fête.",
+                "ar": "في وسط المدينة، لم يكن مسموحاً للسيارات الخاصة بالسير أثناء المهرجان."
+              }
+            },
+            "3": {
+              "fr": "Pendant la « longue nuit du shopping », seuls quelques magasins étaient fermés.",
+              "ar": "خلال «ليلة التسوق الطويلة»، كانت قلة قليلة فقط من المتاجر مغلقة.",
+              "text": {
+                "fr": "Pendant la « longue nuit du shopping », seuls quelques magasins étaient fermés.",
+                "ar": "خلال «ليلة التسوق الطويلة»، كانت قلة قليلة فقط من المتاجر مغلقة."
+              }
+            },
+            "4": {
+              "fr": "La brasserie locale proposait les plats gratuitement.",
+              "ar": "قدمت مصنعة الجعة المحلية المأكولات والأطباق مجاناً.",
+              "text": {
+                "fr": "La brasserie locale proposait les plats gratuitement.",
+                "ar": "قدمت مصنعة الجعة المحلية المأكولات والأطباق مجاناً."
+              }
+            },
+            "5": {
+              "fr": "Les artistes ont présenté leur spectacle de feu sur une musique forte.",
+              "ar": "قدم الفنانون عرض النار الخاص بهم على أنغام موسيقى صاخبة.",
+              "text": {
+                "fr": "Les artistes ont présenté leur spectacle de feu sur une musique forte.",
+                "ar": "قدم الفنانون عرض النار الخاص بهم على أنغام موسيقى صاخبة."
+              }
+            },
+            "6": {
+              "fr": "Nicole pense que cela vaut la peine de visiter Michelstadt.",
+              "ar": "ترى نيكول أن زيارة ميشيلشتات تستحق العناء والقيام بها.",
+              "text": {
+                "fr": "Nicole pense que cela vaut la peine de visiter Michelstadt.",
+                "ar": "ترى نيكول أن زيارة ميشيلشتات تستحق العناء والقيام بها."
+              }
+            }
+          }
+        },
+        "2": {
+          "title": {
+            "de": "Teil 2",
+            "fr": "Partie 2 (Lecture)",
+            "ar": "الجزء 2 (القراءة)"
+          },
+          "instructions": {
+            "de": "Lesen Sie den Text aus der Presse und die Aufgaben 7 bis 9 dazu. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+            "fr": "Lisez le texte de presse et répondez aux questions 7 à 9. Choisissez pour chaque tâche la bonne solution a, b ou c.",
+            "ar": "اقرأ النص الصحفي والمهام من 7 إلى 9. اختر لكل مهمة الحل الصحيح a أو b أو c."
+          },
+          "instructions2": {
+            "de": "Lesen Sie den Text aus der Presse und die Aufgaben 10 bis 12 dazu. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+            "fr": "Lisez le texte de presse et répondez aux questions 10 à 12. Choisissez pour chaque tâche la bonne solution a, b ou c.",
+            "ar": "اقرأ النص الصحفي والمهام من 10 إلى 12. اختر لكل مهمة الحل الصحيح a أو b أو c."
+          },
+          "articles": [
+            {
+              "heading": {
+                "de": "Die Alten wollen kein Internet",
+                "fr": "Les personnes âgées ne veulent pas d'Internet",
+                "ar": "كبار السن لا يريدون الإنترنت"
+              },
+              "title": {
+                "de": "Die Alten wollen kein Internet",
+                "fr": "Les personnes âgées ne veulent pas d'Internet",
+                "ar": "كبار السن لا يريدون الإنترنت"
+              },
+              "source": {
+                "de": "aus einer Schweizer Zeitung",
+                "fr": "d'un journal suisse",
+                "ar": "من صحيفة سويسرية"
+              },
+              "body": {
+                "fr": [
+                  "Malgré l'image souvent répandue du senior surfant joyeusement sur le web, ce sont les ménages de citoyens plus âgés qui conduisent à une stagnation des statistiques de ménages connectés en Suisse : selon l'Office fédéral de la statistique, ces 20 % refusent obstinément de se connecter à Internet. Ainsi, la Suisse se situe derrière les pays scandinaves et les Pays-Bas, où globalement plus de ménages privés disposent d'un accès à Internet que chez nous.",
+                  "Il y a plusieurs raisons à cela. Lors d'un sondage, les personnes âgées ont invoqué un manque d'intérêt, peu de connaissances techniques ou un manque de confiance en soi. Les experts supposent également que le contact ludique avec Internet fait défaut aux seniors. Ils n'ont tout simplement pas grandi avec et hésitent à découvrir ces nouveaux médias maintenant.",
+                  "Mais l'enquête a également montré que les plus jeunes utilisateurs d'Internet en Suisse s'inquiètent de divers dangers. Au premier plan figure la peur des virus, suivie de la crainte que des informations personnelles tombent entre de mauvaises mains, la peur que leurs cartes de crédit soient utilisées par des cybercriminels, ou des risques concernant les enfants. Toutefois, les internautes suisses ont aussi recours à des mesures de protection : 80 % d'entre eux possèdent un logiciel de sécurité, mais seulement 30 % des foyers avec enfants utilisent un programme de contrôle parental pour leur ordinateur."
+                ],
+                "ar": [
+                  "على الرغم من الصورة الشائعة التي تُروّج لكبار السن وهم يتصفحون الإنترنت بنشاط، فإن أسر المواطنين المسنين هي التي تقف وراء ركود إحصاءات الأسر المتصلة بالإنترنت في سويسرا: فوفقاً للمكتب الفيدرالي للإحصاء، يرفض 20 بالمائة من هؤلاء الاتصال بالإنترنت تماماً. وبذلك تتخلف سويسرا عن الدول الإسكندنافية وهولندا، حيث تمتلك أسر خاصة هناك اتصالات بالإنترنت أكثر مما لدينا.",
+                  "توجد أسباب مختلفة وراء ذلك؛ ففي استطلاع للرأي، ذكر كبار السن قلة الاهتمام، وضعف المعرفة الفنية أو انعدام الثقة بالنفس. ويرى الخبراء أيضاً أن كبار السن يفتقرون إلى الاحتكاك التفاعلي التلقائي بالإنترنت، فهم ببساطة لم ينشأوا في ظله ويترددون في خوض غمار التعرف على الوسائط الحديثة الآن.",
+                  "لكن الاستطلاع أظهر أيضاً أن مستخدمي الإنترنت الأصغر سناً في سويسرا يشعرون بالقلق حيال مخاطر مختلفة؛ وتأتي في الصدارة الخشية من الفيروسات، تليها المخاوف من وقوع المعلومات الشخصية في أيدٍ غير أمينة، وخوف سرقة واستخدام بطاقات الائتمان من قبل المجرمين، أو المخاطر المرتبطة بالأطفال. ومع ذلك، يلجأ مستخدمو الإنترنت السويسريون إلى تدابير وقائية: 80% منهم يمتلكون برامج حماية أمنية، لكن 30% فقط من الأسر التي لديها أطفال تستخدم برامج الرقابة الأبوية على حواسيبها."
+                ]
+              }
+            }
+          ],
+          "example": {
+            "text": {
+              "de": "In der Schweiz ...",
+              "fr": "En Suisse...",
+              "ar": "في سويسرا..."
+            },
+            "options": {
+              "de": [
+                "haben 80 Prozent der Haushalte Internet.",
+                "haben nur wenige Internetnutzer Schutzprogramme gegen Viren.",
+                "surfen ältere Menschen gern im Internet."
+              ],
+              "fr": [
+                "80 % des ménages ont Internet.",
+                "seuls quelques internautes ont des programmes de protection antivirus.",
+                "les personnes âgées aiment surfer sur Internet."
+              ],
+              "ar": [
+                "80 بالمائة من الأسر لديها اتصال بالإنترنت.",
+                "قليل من مستخدمي الإنترنت فقط يمتلكون برامج حماية ضد الفيروسات.",
+                "يحب كبار السن تصفح الإنترنت."
+              ]
+            }
+          },
+          "questions": {
+            "7": {
+              "text": {
+                "de": "In diesem Text geht es darum, ...",
+                "fr": "Dans ce texte, il s'agit de...",
+                "ar": "يدور هذا النص حول..."
+              },
+              "options": {
+                "de": [
+                  "dass die Schweizer im Internet vor allem spielen.",
+                  "wie sich die Zahl der Online-Haushalte in der Schweiz entwickelt.",
+                  "warum Kinder vor dem Internet geschützt werden müssen."
+                ],
+                "fr": [
+                  "du fait que les Suisses jouent principalement sur Internet.",
+                  "la manière dont évolue le nombre de ménages connectés en Suisse.",
+                  "pourquoi les enfants doivent être protégés d'Internet."
+                ],
+                "ar": [
+                  "أن السويسريين يلعبون بشكل أساسي على الإنترنت.",
+                  "كيف يتطور عدد الأسر المتصلة بالإنترنت في سويسرا.",
+                  "لماذا يجب حماية الأطفال من الإنترنت."
+                ]
+              }
+            },
+            "8": {
+              "text": {
+                "de": "Senioren ...",
+                "fr": "Les seniors...",
+                "ar": "كبار السن..."
+              },
+              "options": {
+                "de": [
+                  "haben selten Computerkenntnisse.",
+                  "benutzen Schutzprogramme für ihre Computer.",
+                  "haben Angst vor Computerviren."
+                ],
+                "fr": [
+                  "ont rarement des compétences en informatique.",
+                  "utilisent des logiciels de protection pour leurs ordinateurs.",
+                  "ont peur des virus informatiques."
+                ],
+                "ar": [
+                  "نادراً ما يمتلكون مهارات ومعرفة بالكمبيوتر.",
+                  "يستخدمون برامج حماية لحواسيبهم.",
+                  "يخافون من فيروسات الكمبيوتر."
+                ]
+              }
+            },
+            "9": {
+              "text": {
+                "de": "In den Niederlanden ...",
+                "fr": "Aux Pays-Bas...",
+                "ar": "في هولندا..."
+              },
+              "options": {
+                "de": [
+                  "gibt es die gleichen Probleme mit dem Internet wie in der Schweiz.",
+                  "haben mehr Haushalte Internet als in der Schweiz.",
+                  "spielen ältere Leute viel im Internet."
+                ],
+                "fr": [
+                  "il y a les mêmes problèmes avec Internet qu'en Suisse.",
+                  "plus de ménages ont Internet qu'en Suisse.",
+                  "les personnes âgées jouent beaucoup sur Internet."
+                ],
+                "ar": [
+                  "توجد نفس مشاكل الإنترنت كما في سويسرا.",
+                  "تمتلك أسرٌ أكثر إنترنت مقارنة بسويسرا.",
+                  "يلعب كبار السن كثيراً على الإنترنت."
+                ]
+              }
+            }
+          },
+          "articles2": [
+            {
+              "heading": {
+                "de": "Essen als Medizin",
+                "fr": "L'alimentation comme médicament",
+                "ar": "الغذاء كدواء"
+              },
+              "title": {
+                "de": "Essen als Medizin",
+                "fr": "L'alimentation comme médicament",
+                "ar": "الغذاء كدواء"
+              },
+              "source": {
+                "de": "aus einer deutschen Zeitschrift",
+                "fr": "d'un magazine allemand",
+                "ar": "من مجلة ألمانية"
+              },
+              "body": {
+                "fr": [
+                  "La nourriture fonctionnelle (« Functional-Food ») est actuellement très en vogue. Il s'agit d'aliments qui ne se contentent pas de rassasier, mais prennent également soin de la santé. Cela comprend, par exemple, des boissons hypocholestérolémiantes, de la margarine enrichie en acides gras oméga-3 ou encore des plats préparés additionnés de vitamines. L'alimentation fonctionnelle vise le bien-être, l'efficacité et la protection contre les maladies de civilisation.",
+                  "Ce sont surtout les personnes de plus de quarante ans qui se tournent volontiers vers ces aliments fonctionnels. Ils sont censés prolonger la vie et maintenir jeune. Cela correspond à une tendance générale dans la population : la santé est devenue pour beaucoup de gens le bien suprême. Un tiers des Allemands prend quotidiennement des compléments alimentaires comme des comprimés de vitamines ou de minéraux.",
+                  "Beaucoup souhaitent ainsi prévenir ou corriger des problèmes de santé grâce au « Functional-Food », sans pour autant renoncer au plaisir gourmand. La publicité mise sur cette aspiration pour stimuler les ventes, en soulignant dans ses annonces et ses spots publicitaires que ces produits ont bon goût tout en étant bénéfiques pour la santé. Toutefois, la question de savoir si les aliments fonctionnels tiennent réellement leurs promesses reste scientifiquement controversée. De nombreux nutritionnistes estiment qu'une alimentation équilibrée riche en fruits et légumes suffit amplement et rend le Functional-Food superflu."
+                ],
+                "ar": [
+                  "تشهد الأغذية الوظيفية («Functional-Food») رواجاً كبيراً في الوقت الراهن. إنها أطعمة لا تشبع الجوع فحسب، بل تعتني بالصحة أيضاً. ويشمل ذلك على سبيل المثال مشروبات خافضة للكوليسترول، أو سمن نباتي (مارغرين) مدعم بأحماض أوميغا-3 الدهنية، أو وجبات جاهزة مضاف إليها فيتامينات. تدور الأغذية الوظيفية حول تعزيز الرفاهية، وزيادة القدرة على الإنجاز، والوقاية من أمراض العصر الحديث.",
+                  "يقبل خاصة الأشخاص فوق سن الأربعين على تناول الأغذية الوظيفية؛ إذ يُفترض أنها تطيل العمر وتبقي الجسم شاباً ونضراً. وهذا يعكس توجهاً عاماً لدى المجتمع: فالصحة أصبحت أثمن ما يملكه الكثير من الناس. ويتناول ثلث الألمان يومياً مكملات غذائية مثل حبوب الفيتامينات والمعادن.",
+                  "يرغب الكثيرون في الوقاية من الأمراض أو معالجتها عبر الأغذية الوظيفية، دون الاضطرار للتنازل عن متعة التذوق. وتراهن الإعلانات التجارية على هذه الرغبة لزيادة مبيعات هذه المنتجات، مؤكدة في إعلاناتها وحملاتها أن الغذاء الوظيفي يجمع بين المذاق اللذيذ والفائدة الصحية. لكن مدى وفاء الأغذية الوظيفية بوعودها يظل محل جدل علمي؛ حيث يرى العديد من خبراء التغذية أن النظام الغذائي المتوازن الغني بالخضار والفواكه يفي بالغرض تماماً ويجعل الأغذية الوظيفية زائدة عن الحاجة."
+                ]
+              }
+            }
+          ],
+          "questions2": {
+            "10": {
+              "text": {
+                "de": "In diesem Text geht es darum, ...",
+                "fr": "Dans ce texte, il s'agit de...",
+                "ar": "يدور هذا النص حول..."
+              },
+              "options": {
+                "de": [
+                  "welche Krankheiten Functional-Food heilen kann.",
+                  "warum immer mehr Menschen an Zivilisationskrankheiten leiden.",
+                  "warum Functional-Food beliebt ist."
+                ],
+                "fr": [
+                  "quelles maladies les aliments fonctionnels peuvent guérir.",
+                  "pourquoi de plus en plus de personnes souffrent de maladies de civilisation.",
+                  "pourquoi les aliments fonctionnels sont populaires."
+                ],
+                "ar": [
+                  "ما هي الأمراض التي يمكن للأغذية الوظيفية علاجها.",
+                  "لماذا يعاني المزيد من الناس من أمراض الحضارة المعاصرة.",
+                  "لماذا تحظى الأغذية الوظيفية بشعبية وإقبال كبيرين."
+                ]
+              }
+            },
+            "11": {
+              "text": {
+                "de": "Die Gesundheit ...",
+                "fr": "La santé...",
+                "ar": "الصحة..."
+              },
+              "options": {
+                "de": [
+                  "interessiert nur sehr wenige Menschen.",
+                  "ist für immer mehr Menschen das Wichtigste.",
+                  "zwingt manche Personen, Functional-Food zu essen."
+                ],
+                "fr": [
+                  "n'intéresse que très peu de personnes.",
+                  "est pour de plus en plus de gens la chose primordiale.",
+                  "oblige certaines personnes à consommer des aliments fonctionnels."
+                ],
+                "ar": [
+                  "لا تهم سوى قلة قليلة جداً من الناس.",
+                  "أصبحت بالنسبة للمزيد والمزيد من الناس الأمر الأهم على الإطلاق.",
+                  "تجبر بعض الأشخاص على تناول الأغذية الوظيفية."
+                ]
+              }
+            },
+            "12": {
+              "text": {
+                "de": "Functional-Food ...",
+                "fr": "Les aliments fonctionnels (« Functional-Food »)...",
+                "ar": "الأغذية الوظيفية..."
+              },
+              "options": {
+                "de": [
+                  "ist in.",
+                  "ist nicht wirklich gesund.",
+                  "wird in Deutschland ohne jede Werbung verkauft."
+                ],
+                "fr": [
+                  "sont très tendance (« in »).",
+                  "ne sont pas vraiment bons pour la santé.",
+                  "sont vendus en Allemagne sans aucune publicité."
+                ],
+                "ar": [
+                  "شائعة ومحبوبة وعلى الموضة («in»).",
+                  "ليست صحية حقاً.",
+                  "تُباع في ألمانيا دون أي دعاية أو إعلانات."
+                ]
+              }
+            }
+          }
+        },
+        "3": {
+          "title": {
+            "de": "Teil 3",
+            "fr": "Partie 3 (Lecture)",
+            "ar": "الجزء 3 (القراءة)"
+          },
+          "instructions": {
+            "de": "Lesen Sie die Situationen 13 bis 19 und die Anzeigen a bis j aus verschiedenen deutschsprachigen Medien. Wählen Sie: Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Die Anzeige aus dem Beispiel können Sie nicht mehr verwenden. Für eine Situation gibt es keine passende Anzeige. In diesem Fall schreiben Sie 0.",
+            "fr": "Lisez les situations 13 à 19 et les annonces a à j issues de différents médias germanophones. Choisissez : quelle annonce correspond à quelle situation ? Chaque annonce ne peut être utilisée qu'une seule fois. L'annonce de l'exemple ne peut plus être réutilisée. Pour une situation, il n'y a pas d'annonce correspondante ; inscrivez alors 0.",
+            "ar": "اقرأ المواقف من 13 إلى 19 والإعلانات من a إلى j من وسائل إعلام ناطقة بالألمانية. اختر: أي إعلان يناسب أي موقف؟ يمكنك استخدام كل إعلان مرة واحدة فقط. لا يمكنك استخدام إعلان المثال. هناك موقف ليس له إعلان مناسب؛ في هذه الحالة اكتب 0."
+          },
+          "intro": {
+            "de": "Einige Personen aus Ihrem Bekanntenkreis interessieren sich besonders für die Probleme unserer Zeit und möchten aktiv Hilfe leisten. Sie suchen nach passenden Möglichkeiten.",
+            "fr": "Plusieurs personnes de votre entourage s'intéressent aux défis de notre époque et souhaitent apporter une aide active. Elles recherchent des opportunités adaptées.",
+            "ar": "يهتم بعض الأشخاص من معارفك بقضايا ومشكلات عصرنا ويرغبون في تقديم المساعدة الفعالة. وهم يبحثون عن فرص ملائمة لتحقيق ذلك."
+          },
+          "example": {
+            "text": {
+              "de": "Annita hat zwei Mäntel, die ihr nicht mehr passen. Sie sind in gutem Zustand, deshalb möchte sie sie nicht wegwerfen.",
+              "fr": "Annita a deux manteaux qui ne lui vont plus. Ils sont en bon état, c'est pourquoi elle ne veut pas les jeter.",
+              "ar": "لدى أنيتا معطفان لم يعودا يناسبان مقاسها. إنهما بحالة جيدة، لذلك لا تريد التخلص منهما في القمامة."
+            }
+          },
+          "ads": {
+            "A": {
+              "fr": "Des mains secourables chaleureusement bienvenues ! Vous aimez lire des histoires ou jouer avec des enfants ? Vous souhaitez transmettre votre expérience professionnelle à un élève ? Vous êtes le profil idéal : apportez vos talents aux offres de Caritas. De nombreuses personnes âgées, jeunes, malades ou en situation de handicap se réjouissent du temps que vous leur consacrez. www.caritas.de",
+              "ar": "الأيادي المساعدة مرحب بها من القلب! هل تجيد القراءة بصوت عالٍ أو تحب اللعب مع الأطفال؟ هل تريد نقل خبرتك المهنية إلى طالب؟ إذاً أنت الشخص المناسب: شارك بمواهبك في برامج كاريتاس. يفرح الكثير من كبار السن والشباب والمرضى وذوي الاحتياجات الخاصة بالوقت الذي تمنحه لهم. www.caritas.de"
+            },
+            "B": {
+              "fr": "Médecins Sans Frontières e.V. Am Köllnischen Park 1, 10179 Berlin. Compte de dons 97 0 97. Soutenez nos équipes médicales d'urgence déployées à travers le monde lors de catastrophes humanitaires et crises sanitaires.",
+              "ar": "أطباء بلا حدود (Ärzte ohne Grenzen e.V.). برلين. حساب التبرعات 97 0 97. ساعد فرق الإغاثة الطبية في جميع أنحاء العالم أثناء الأزمات والكوارث الإنسانية."
+            },
+            "C": {
+              "fr": "Tu aimes être dans la nature et tu souhaites t'engager pour sa protection ? Alors tu es exactement au bon endroit avec la NAJU ! Deviens actif pour la nature aux côtés de 75 000 autres enfants et jeunes ! La Naturschutzjugend (NAJU) est la branche jeunesse de la NABU et la plus grande organisation de jeunesse pour la protection de l'environnement en Allemagne. www.NAJU.de",
+              "ar": "هل تحب التواجد في الطبيعة وتريد التطوع لحمايتها؟ إذاً منظمة NAJU هي المكان المثالي لك! انضم إلى 75 ألف طفل وشاب في الأنشطة الميدانية لحماية الطبيعة! إنها المنظمة الشبابية التابعة لـ NABU وأكبر اتحاد شبابي لحماية البيئة في ألمانيا. www.NAJU.de"
+            },
+            "D": {
+              "fr": "Croix-Rouge allemande (DRK) : Pensez-y : collecte de vieux vêtements pour le compte de la DRK, toutes les quatre semaines en même temps que le bac bleu. Donnez vos vêtements bien conservés pour les personnes dans le besoin.",
+              "ar": "الصليب الأحمر الألماني (DRK): يرجى التذكر: جمع الملابس القديمة لصالح الصليب الأحمر الألماني كل أربعة أسابيع بالتزامن مع الحاوية الزرقاء. تبرع بملابسك التي بحالة جيدة للمحتاجين."
+            },
+            "E": {
+              "fr": "Passez donc nous voir tout simplement ! Initiative citoyenne des résidentes et résidents étrangers (« Bürgerinitiative Ausländische Mitbürgerinnen e.V. »). Nous nous engageons pour le dialogue, l'intégration et la cohabitation harmonieuse dans notre quartier. Rencontre chaque mardi à 18h.",
+              "ar": "تفضلوا بزيارتنا بكل بساطة! مبادرة المواطنين للمقيمين الأجانب المسجلة. نحن نعمل من أجل الحوار والاندماج والتعايش السلمي بين السكان والمهاجرين في حيّنا. اللقاء كل ثلاثاء في الساعة السادسة مساءً."
+            },
+            "F": {
+              "fr": "Offrez une adhésion à la NABU ! ... et faites en même temps un geste utile pour la préservation et la protection de notre nature et environnement ? Votre cadeau doit avoir du sens et être différent ? Alors offrez une adhésion à la NABU ! La personne fêtée en sera ravie. Pour plus d'informations : www.nabu.de",
+              "ar": "أهدِ عضوية في منظمة حماية الطبيعة NABU! ... وافعل في الوقت نفسه شيئاً مفيداً للحفاظ على بيئتنا وطبيعتنا وحمايتها؟ هل ترغب في أن تكون هديتك ذات مغزى ومميزة؟ أهدِ إذاً اشتراك عضوية في NABU! سيسعد المهدى إليه كثيراً. لمزيد من المعلومات: www.nabu.de"
+            },
+            "G": {
+              "fr": "Soins à domicile. Avez-vous besoin d'aide pour vos soins corporels et traitements prescrits par un médecin ? 7 jours sur 7, nos soignants et assistants sociaux apportent leur aide à nos bénéficiaires à tous égards. Petersstraße 50, 41717 Viersen, tél. 0 2162 / 1 76 78.",
+              "ar": "الرعاية التمريضية المنزلية. هل تحتاج لمساعدة في النظافة الشخصية والعلاجات الطبية المقررة؟ طوال 7 أيام في الأسبوع، يقدم ممرضونا وأخصائيونا الاجتماعيون المساعدة لعملائنا في كافة الجوانب. فيرسن، هاتف: 02162/17678."
+            },
+            "H": {
+              "fr": "Votre bébé nous tient à cœur (« Ihr Baby ist uns nicht schnuppe! ») ! C'est pourquoi nous proposons aux jeunes familles notre adhésion d'essai gratuite pendant un an. En nous envoyant cette annonce, vous en saurez plus et recevrez gratuitement des conseils écologiques pour parents. Fédération allemande pour l'environnement et la protection de la nature (BUND), 53333 Bonn.",
+              "ar": "طفلك الرضيع يهمنا كثيراً («Ihr Baby ist uns nicht schnuppe!»)! لذلك نقدم للعائلات الشابة عضوية تجريبية مجانية لمدة عام كامل. عند إرسال هذا الإعلان إلينا ستتعرف على المزيد وتحصل مجاناً على نصائح بيئية لأولياء الأمور. الاتحاد الألماني للبيئة وحماية الطبيعة (BUND)، بون."
+            },
+            "I": {
+              "fr": "KEKS e.V. — www.keks.org. Sommerrainstr. 61, Stuttgart. Quand chaque bouchée reste coincée dans la gorge... Nous aidons et soutenons dans toute l'Allemagne les enfants qui ne peuvent pas s'alimenter à cause d'une maladie de l'œsophage. Compte de dons : Baden-Württembergische Bank, n° 1230450.",
+              "ar": "جمعية KEKS المسجلة — www.keks.org، شتوتغارت. عندما تقف كل لقمة في الحلق... نحن نساعد وندعم في جميع أنحاء ألمانيا الأطفال الذين لا يستطيعون الأكل بسبب مرض في المريء. حساب التبرعات: بنك بادن-فورتمبيرغ، رقم الحساب: 1230450."
+            },
+            "J": {
+              "fr": "Aide de voisinage. Écrivez-nous avec la mention « Nachbarschaftshilfe », BP 712007, 81475 Munich. Une carte postale suffit, n'oubliez pas votre adresse. Aide bénévole au quotidien pour les seniors et les familles.",
+              "ar": "مساعدة الجيران التطوعية. راسلونا تحت عنوان: «Nachbarschaftshilfe»، صندوق بريد 712007، ميونخ. تكفي بطاقة بريدية مع تدوين عنوان الراسل. مساعدة تطوعية في الحياة اليومية لكبار السن والعائلات."
+            }
+          },
+          "questions": {
+            "13": {
+              "fr": "Mme Wickert a un grand cœur pour les enfants. Elle aimerait faire un don d'argent à une organisation qui s'occupe particulièrement d'enfants en Allemagne.",
+              "ar": "السيدة فيكرت تولي الأطفال عناية خاصة. وتريد التبرع بمبلغ مالي لمنظمة تعتني على وجه الخصوص بالأطفال في ألمانيا.",
+              "text": {
+                "fr": "Mme Wickert a un grand cœur pour les enfants. Elle aimerait faire un don d'argent à une organisation qui s'occupe particulièrement d'enfants en Allemagne.",
+                "ar": "السيدة فيكرت تولي الأطفال عناية خاصة. وتريد التبرع بمبلغ مالي لمنظمة تعتني على وجه الخصوص بالأطفال في ألمانيا."
+              }
+            },
+            "14": {
+              "fr": "M. Geiger est professeur de biologie. Il souhaite éveiller l'intérêt de ses élèves pour la nature et sa protection.",
+              "ar": "السيد غايغر معلم لمادة علم الأحياء. ويريد إيقاظ اهتمام تلاميذه بالطبيعة وحمايتها.",
+              "text": {
+                "fr": "M. Geiger est professeur de biologie. Il souhaite éveiller l'intérêt de ses élèves pour la nature et sa protection.",
+                "ar": "السيد غايغر معلم لمادة علم الأحياء. ويريد إيقاظ اهتمام تلاميذه بالطبيعة وحمايتها."
+              }
+            },
+            "15": {
+              "fr": "Tobias est un passionné des animaux et de la nature. Comme c'est son anniversaire dans deux semaines, son ami Lukas cherche un cadeau.",
+              "ar": "توبياس صديق وفيّ للحيوانات والطبيعة. وبما أن عيد ميلاده بعد أسبوعين، يبحث صديقه لوكاس عن هدية مناسبة له.",
+              "text": {
+                "fr": "Tobias est un passionné des animaux et de la nature. Comme c'est son anniversaire dans deux semaines, son ami Lukas cherche un cadeau.",
+                "ar": "توبياس صديق وفيّ للحيوانات والطبيعة. وبما أن عيد ميلاده بعد أسبوعين، يبحث صديقه لوكاس عن هدية مناسبة له."
+              }
+            },
+            "16": {
+              "fr": "Sara a de nombreux amis étrangers dans son voisinage et souhaite œuvrer activement pour la cohabitation pacifique entre personnes de différents pays.",
+              "ar": "سارة لديها الكثير من الأصدقاء الأجانب في الحي، وترغب في العمل بنشاط من أجل التعايش السلمي بين الناس من مختلف البلدان.",
+              "text": {
+                "fr": "Sara a de nombreux amis étrangers dans son voisinage et souhaite œuvrer activement pour la cohabitation pacifique entre personnes de différents pays.",
+                "ar": "سارة لديها الكثير من الأصدقاء الأجانب في الحي، وترغب في العمل بنشاط من أجل التعايش السلمي بين الناس من مختلف البلدان."
+              }
+            },
+            "17": {
+              "fr": "Mme Anders veut faire quelque chose pour les jeunes familles démunies / pauvres.",
+              "ar": "السيدة أندرس تريد القيام بشيء لمساعدة العائلات الشابة الفقيرة.",
+              "text": {
+                "fr": "Mme Anders veut faire quelque chose pour les jeunes familles démunies / pauvres.",
+                "ar": "السيدة أندرس تريد القيام بشيء لمساعدة العائلات الشابة الفقيرة."
+              }
+            },
+            "18": {
+              "fr": "Philipp est infirmier. Il aimerait mettre ses connaissances professionnelles au service de l'aide aux personnes handicapées.",
+              "ar": "فيليب ممرض. ويود تسخير معرفته وخبرته لتقديم المساعدة للأشخاص ذوي الإعاقة.",
+              "text": {
+                "fr": "Philipp est infirmier. Il aimerait mettre ses connaissances professionnelles au service de l'aide aux personnes handicapées.",
+                "ar": "فيليب ممرض. ويود تسخير معرفته وخبرته لتقديم المساعدة للأشخاص ذوي الإعاقة."
+              }
+            },
+            "19": {
+              "fr": "Gabriel est devenu père il y a quelques mois. Lui et sa femme s'intéressent à l'écologie et souhaitent éduquer leur enfant dans le respect de l'environnement.",
+              "ar": "أصبح غابرييل والداً قبل بضعة أشهر. وهو وزوجته مهتمان بحماية البيئة ويرغبان في تنشئة طفلهما على هذا المبدأ.",
+              "text": {
+                "fr": "Gabriel est devenu père il y a quelques mois. Lui et sa femme s'intéressent à l'écologie et souhaitent éduquer leur enfant dans le respect de l'environnement.",
+                "ar": "أصبح غابرييل والداً قبل بضعة أشهر. وهو وزوجته مهتمان بحماية البيئة ويرغبان في تنشئة طفلهما على هذا المبدأ."
+              }
+            }
+          }
+        },
+        "4": {
+          "title": {
+            "de": "Teil 4",
+            "fr": "Partie 4 (Lecture)",
+            "ar": "الجزء 4 (القراءة)"
+          },
+          "instructions": {
+            "de": "Lesen Sie die Texte 20 bis 26. Wählen Sie: Ist die Person dafür, dass Schüler unter 18 Jahren schon studieren dürfen?",
+            "fr": "Lisez les textes 20 à 26. Choisissez : la personne est-elle favorable à ce que des élèves de moins de 18 ans puissent déjà étudier à l'université ?",
+            "ar": "اقرأ النصوص من 20 إلى 26. اختر: هل يؤيد الشخص السماح للتلاميذ دون سن 18 عاماً بالدراسة الجامعية بالفعل؟"
+          },
+          "intro": {
+            "de": "In einer Zeitschrift lesen Sie Kommentare zu einem Artikel über Frühstudenten, die schon vor dem Schulabschluss studieren, obwohl sie noch nicht erwachsen sind.",
+            "fr": "Dans un magazine, vous lisez des commentaires sur un article consacré aux élèves précoces qui étudient à l'université avant la fin du lycée, alors qu'ils sont encore mineurs.",
+            "ar": "تقرأ في إحدى المجلات تعليقات على مقال يتحدث عن الطلاب الجامعيين الصغار الذين يدرسون في الجامعة قبل إنهاء دراستهم المدرسية، رغم كونهم قاصرين."
+          },
+          "topic": {
+            "de": "Sollen Schüler unter 18 Jahren schon an der Universität studieren dürfen?",
+            "fr": "Les élèves de moins de 18 ans devraient-ils avoir le droit d'étudier à l'université ?",
+            "ar": "هل ينبغي السماح للتلاميذ دون سن 18 عاماً بالدراسة في الجامعة؟"
+          },
+          "example": {
+            "text": {
+              "de": "Die einen müssen Wartesemester in Kauf nehmen, um einen Studienplatz zu bekommen und werden älter und älter. Die anderen hingegen werden besser behandelt: Sie dürfen schon als Schüler studieren. Wie unfair. Das erscheint mir eine verkehrte Welt zu sein.",
+              "fr": "Les uns doivent subir des semestres d'attente pour obtenir une place d'études et vieillissent. Les autres, en revanche, sont privilégiés : ils ont le droit d'étudier dès le lycée. Quelle injustice ! Cela me semble être un monde à l'envers.",
+              "ar": "البعض يضطر لتحمل فصول دراسية طويلة من الانتظار للحصول على مقعد جامعي ويكبرون في السن. بينما يُعامل الآخرون بامتياز: يسمح لهم بالدراسة الجامعية وهم لا يزالون تلاميذ في المدرسة. كم هذا ظالم وغير منصف!"
+            }
+          },
+          "letters": {
+            "20": {
+              "who": "Petra, 27, Koblenz",
+              "text": {
+                "fr": "Il y a un problème fondamental : les universités deviennent soudainement responsables de mineurs ! L'université va-t-elle embaucher des surveillants pour escorter ces jeunes en permanence ? C'est insensé ! Heureusement que j'ai quitté cette université il y a peu. Et sur le plan juridique, comment cela sera-t-il encadré ? Tout cela me semble totalement utopique.",
+                "ar": "هناك مشكلة جوهرية في الأساس: تصبح الجامعات فجأة مسؤولة عن قاصرين! هل ستعين الجامعة «مراقبين» يرافقون هؤلاء الفتية باستمرار لحراستهم؟ هذا جنون تام! من حسن حظي أنني غادرت تلك الجامعة مؤخراً. وكيف سيتم تنظيم هذا قانونياً؟ يبدو لي كل هذا أمراً طوباوياً وغير واقعي."
+              }
+            },
+            "21": {
+              "who": "Willi, 17, Stuttgart",
+              "text": {
+                "fr": "En tant qu'étudiant de moins de 18 ans, je ne peux même pas demander une carte de bibliothèque sans formalités : j'ai besoin de la signature de ma mère ou de mon père. C'est particulièrement lourd aussi pour s'inscrire aux examens, car le système en ligne m'est inaccessible et je dois me présenter en personne chez la professeure. Malgré tout, cela en vaut la peine.",
+                "ar": "حتى بطاقة المكتبة لا يمكنني كطالب تحت سن 18 عاماً التقدم للحصول عليها ببساطة، بل أحتاج إلى توقيع والدتي أو والدي. ومما يزيد الأمر تعقيداً أيضاً أنني لا أستطيع التسجيل للامتحانات عبر نظام الجامعة الإلكتروني، بل يتعين علي الذهاب شخصياً للأستاذة. ورغم كل هذه الصعوبات، فالأمر يستحق العناء."
+              }
+            },
+            "22": {
+              "who": "Torsten, 58, Innsbruck",
+              "text": {
+                "fr": "Les expériences les plus enrichissantes s'acquièrent dans la pratique. Il serait bien plus juste que tous les jeunes apprennent quelque chose de concret dans leur vie, y compris avant d'étudier. C'est la pratique qui les fera progresser dans la vie, pas la théorie. Peu importe leur âge. Étudier uniquement n'apporte rien. Ce programme va à l'encontre de cette idée.",
+                "ar": "إن أهم التجارب يكتسبها المرء في الممارسة العملية. والأصح هو أن يتعلم جميع الشباب شيئاً ملموساً في حياتهم، حتى قبل أن يلتحقوا بالجامعة. فالممارسة والخبرة العملية هي التي ستقدمهم في الحياة وليست النظريات، بغض النظر عن أعمارهم. فالاقتصار على الدراسة وحدها لا يجدي نفعاً، وهذا البرنامج يناقض هذا المبدأ تماماً."
+              }
+            },
+            "23": {
+              "who": "Chiara, 30, Klosters",
+              "text": {
+                "fr": "Chez nous, cela n'existe pas encore. Mais je peux très bien concevoir que ce soit une excellente opportunité, surtout pour les élèves doués. Ces jeunes gens ne sont pas assez stimulés à l'école et n'ont guère besoin de faire d'efforts. Or, ils ont besoin de défis pour s'épanouir. Notre société a besoin de ces profils. Pourquoi donc attendre le bac pour étudier ?",
+                "ar": "هذا النظام غير متوفر لدينا بعد. لكنني أستطيع تخيل أنه يمثل عرضاً ممتازاً جداً خاصة للطلاب الموهوبين والنابغين؛ فهؤلاء الشباب يشعرون بالملل وضعف التحدي في المدرسة ولا يبذلون سوى القليل من الجهد. وهم بحاجة إلى تحدٍ حقيقي ليبدعوا. مجتمعنا بحاجة لهؤلاء الأشخاص، فلماذا الانتظار حتى نيل شهادة الثانوية العامة للبدء بالدراسة؟"
+              }
+            },
+            "24": {
+              "who": "Reiner, 22, Kitzbühel",
+              "text": {
+                "fr": "À 16 ou 17 ans, les jeunes sont encore en pleine puberté. Ils ne s'intéressent qu'à leur apparence et au fait d'avoir l'air cool. À cet âge-là, on n'a pas du tout la maturité pour faire des études supérieures. Je n'arrive pas à croire que d'aussi jeunes gens puissent être sérieux. Ce n'est pas pour rien qu'il faut être adulte.",
+                "ar": "في سن 16 أو 17 عاماً لا يزال المراهقون في مرحلة البلوغ، وكل ما يهمهم هو مظهرهم الخارجي وأن يبدوا رائعين بنظر الآخرين. في مثل هذا العمر لا يكون المرء ناضجاً بالمرة لخوض الدراسة الجامعية. لا أصدق أن فتياناً صغاراً هكذا يمكنهم التعامل بجدية. لم يأتِ اشتراط سن الرشد للدراسة من فراغ."
+              }
+            },
+            "25": {
+              "who": "Helen, 45, Braunschweig",
+              "text": {
+                "fr": "Mes études remontent à pas mal de temps déjà. Je peux seulement dire que c'était une période magnifique, notamment parce que l'on collaborait intensément avec d'autres qui partageaient les mêmes centres d'intérêt. Cela motive et élargit l'horizon. Si cette expérience peut être vécue plus tôt dans la vie, c'est d'autant mieux.",
+                "ar": "لقد مر وقت طويل منذ أن أنهيت دراستي الجامعية، ولا يسعني إلا أن أقول إنها كانت فترة رائعة، خاصة بسبب التعاون المكثف والعمل المشترك مع أشخاص يشاطرونك نفس الاهتمامات. هذا يحفز ويوسع مدارك الإنسان. وإذا تمكن المرء من خوض هذه التجربة في وقت أبكر من حياته، فهذا أمر ممتاز للغاية."
+              }
+            },
+            "26": {
+              "who": "Ferdinand, 16, Andermatt",
+              "text": {
+                "fr": "Près de chez nous, cela n'existe pas. Mais cela me semble valoir la peine d'être expérimenté. Je me demande simplement comment on arrive à concilier cela avec les obligations du lycée sur le plan du temps. Ces élèves sont-ils dispensés de certains cours ? Chez nous, en tout cas, en dehors des heures de cours, il ne reste plus beaucoup de temps.",
+                "ar": "هذا غير موجود بالقرب من منطقتنا، لكن يبدو لي أنه يستحق التجربة والاختبار. لا أعرف فقط كيف يمكن التوفيق زمنياً بين ذلك وبين التزامات المدرسة الثانوية؛ فهل يتم إعفاء هؤلاء الطلاب من بعض الحصص؟ لدينا على الأقل لا يتبقى الكثير من الوقت لأي شيء آخر بجانب الساعات المدرسية."
+              }
+            }
+          },
+          "questions": {
+            "20": {
+              "text": {
+                "de": "Ist Petra dafür, dass Schüler unter 18 Jahren schon studieren dürfen?",
+                "fr": "Petra est-elle favorable à ce que les élèves de moins de 18 ans puissent déjà étudier ?",
+                "ar": "هل تؤيد بترا السماح للتلاميذ دون سن 18 عاماً بالدراسة في الجامعة؟"
+              }
+            },
+            "21": {
+              "text": {
+                "de": "Ist Willi dafür, dass Schüler unter 18 Jahren schon studieren dürfen?",
+                "fr": "Willi est-il favorable à ce que les élèves de moins de 18 ans puissent déjà étudier ?",
+                "ar": "هل يؤيد فيلي السماح للتلاميذ دون سن 18 عاماً بالدراسة في الجامعة؟"
+              }
+            },
+            "22": {
+              "text": {
+                "de": "Ist Torsten dafür, dass Schüler unter 18 Jahren schon studieren dürfen?",
+                "fr": "Torsten est-il favorable à ce que les élèves de moins de 18 ans puissent déjà étudier ?",
+                "ar": "هل يؤيد تورستن السماح للتلاميذ دون سن 18 عاماً بالدراسة في الجامعة؟"
+              }
+            },
+            "23": {
+              "text": {
+                "de": "Ist Chiara dafür, dass Schüler unter 18 Jahren schon studieren dürfen?",
+                "fr": "Chiara est-elle favorable à ce que les élèves de moins de 18 ans puissent déjà étudier ?",
+                "ar": "هل تؤيد كيارا السماح للتلاميذ دون سن 18 عاماً بالدراسة في الجامعة؟"
+              }
+            },
+            "24": {
+              "text": {
+                "de": "Ist Reiner dafür, dass Schüler unter 18 Jahren schon studieren dürfen?",
+                "fr": "Reiner est-il favorable à ce que les élèves de moins de 18 ans puissent déjà étudier ?",
+                "ar": "هل يؤيد راينر السماح للتلاميذ دون سن 18 عاماً بالدراسة في الجامعة؟"
+              }
+            },
+            "25": {
+              "text": {
+                "de": "Ist Helen dafür, dass Schüler unter 18 Jahren schon studieren dürfen?",
+                "fr": "Helen est-elle favorable à ce que les élèves de moins de 18 ans puissent déjà étudier ?",
+                "ar": "هل تؤيد هيلين السماح للتلاميذ دون سن 18 عاماً بالدراسة في الجامعة؟"
+              }
+            },
+            "26": {
+              "text": {
+                "de": "Ist Ferdinand dafür, dass Schüler unter 18 Jahren schon studieren dürfen?",
+                "fr": "Ferdinand est-il favorable à ce que les élèves de moins de 18 ans puissent déjà étudier ?",
+                "ar": "هل يؤيد فرديناند السماح للتلاميذ دون سن 18 عاماً بالدراسة في الجامعة؟"
+              }
+            }
+          }
+        },
+        "5": {
+          "title": {
+            "de": "Teil 5",
+            "fr": "Partie 5 (Lecture)",
+            "ar": "الجزء 5 (القراءة)"
+          },
+          "instructions": {
+            "de": "Lesen Sie die Aufgaben 27 bis 30 und den Text dazu. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+            "fr": "Lisez les tâches 27 à 30 et le texte correspondant. Choisissez pour chaque tâche la bonne solution a, b ou c.",
+            "ar": "اقرأ المهام من 27 إلى 30 والنص المرافق لها. اختر لكل مهمة الحل الصحيح a أو b أو c."
+          },
+          "intro": {
+            "de": "Sie informieren sich über die Benutzungsordnung der Pestalozzi-Bibliothek Zürich, da Sie bald für einige Zeit in Zürich leben werden.",
+            "fr": "Vous vous informez sur le règlement d'utilisation de la bibliothèque Pestalozzi de Zurich (PBZ), car vous allez bientôt vivre à Zurich pendant un certain temps.",
+            "ar": "تطلع على لائحة استخدام مكتبة بيستالوزي في زيورخ (PBZ)، حيث ستعيش في زيورخ لبعض الوقت قريباً."
+          },
+          "article": {
+            "title": {
+              "de": "Pestalozzi-Bibliothek Zürich (PBZ) — Benutzungsordnung",
+              "fr": "Bibliothèque Pestalozzi de Zurich (PBZ) — Règlement d'usage",
+              "ar": "مكتبة بيستالوزي في زيورخ (PBZ) — لائحة ونظام الاستخدام"
+            },
+            "sections": [
+              {
+                "heading": {
+                  "de": "Einschreibung",
+                  "fr": "Inscription",
+                  "ar": "التسجيل"
+                },
+                "text": {
+                  "fr": "Les bibliothèques de la Pestalozzi-Bibliothek Zürich (PBZ) sont ouvertes à toute personne intéressée. Sur présentation d'une pièce d'identité officielle, une carte de bibliothèque personnelle est délivrée ; elle doit être apportée à chaque emprunt. La carte est strictement personnelle et non transmissible, même au sein de la famille ou du foyer. Pour les personnes n'ayant pas de domicile permanent en Suisse, le prêt peut être restreint. Tout changement d'adresse ou de nom, ainsi que la perte de la carte, doivent être signalés immédiatement. Une carte de remplacement peut être obtenue contre paiement de frais.",
+                  "ar": "تفتح مكتبات بيستالوزي في زيورخ (PBZ) أبوابها لجميع المهتمين للاستخدام. ويتم إصدار بطاقة مكتبة شخصية عند إبراز بطاقة هوية رسمية، ويجب إحضار هذه البطاقة عند كل عملية استعارة. بطاقة المكتبة غير قابلة للتحويل أو التنازل، حتى داخل الأسرة أو السكن المشترك. بالنسبة للأشخاص الذين ليس لديهم محل إقامة دائم في سويسرا، قد يتم تقييد الاستعارة. يجب الإبلاغ الفوري عن أي تغيير في العنوان أو الاسم وكذلك عند فقدان بطاقة المكتبة. يمكن استخراج بطاقة بديلة مقابل دفع رسوم."
+                }
+              },
+              {
+                "heading": {
+                  "de": "Benutzung",
+                  "fr": "Utilisation et emprunts",
+                  "ar": "الاستخدام والاستعارة"
+                },
+                "text": {
+                  "fr": "Il est possible d'emprunter simultanément 25 articles au maximum (livres, revues, CD ou DVD). La durée du prêt est généralement de 4 semaines. Pour certains articles (comme les DVD), la bibliothèque peut fixer des durées de prêt différentes. Deux prolongations sont autorisées, sauf pour les articles réservés par un tiers. La prolongation peut être effectuée sur place, par téléphone ou en ligne via Internet. Les articles déjà empruntés peuvent être réservés. Dès que l'article réservé est disponible, l'usager en est informé par téléphone ou SMS. Les articles doivent alors être retirés dans un délai d'une semaine. Les réservations font l'objet d'une taxe. De même, les articles absents du fonds local peuvent être acheminés depuis une autre succursale de la PBZ contre paiement de frais, à l'exception des DVD.",
+                  "ar": "يمكن استعارة 25 مادة كحد أقصى (كتب، مجلات، أقراص مدمجة CD أو DVD) في وقت واحد. وتبلغ مدة الإعارة عادة 4 أسابيع. ويمكن للمكتبة تحديد فترات إعارة مختلفة لبعض المواد (مثل أقراص DVD). يُسمح بتمديد فترة الإعارة مرتين، ويُستثنى من ذلك المواد المحجوزة لمستفيد آخر. يمكن إجراء التمديد في المكتبة أو هاتفياً أو عبر الإنترنت. يمكن حجز المواد المعارة لشخص آخر، وبمجرد تجهيز المادة المحجوزة يتم إخطار المستفيد هاتفياً أو عبر رسالة نصية قصيرة SMS، ويتعين استلامها خلال أسبوع واحد. يتم فرض رسوم على الحجوزات. وبالمثل، يمكن جلب المواد غير المتوفرة في المخزون المحلي من مكتبة أخرى تابعة لـ PBZ مقابل رسوم، باستثناء أقراص DVD."
+                }
+              },
+              {
+                "heading": {
+                  "de": "Haftung",
+                  "fr": "Responsabilité",
+                  "ar": "المسؤولية والالتزامات"
+                },
+                "text": {
+                  "fr": "Les usagères et usagers sont responsables des documents empruntés et tenus de traiter les biens de la bibliothèque avec soin. En cas de dommage ou de perte, des frais de traitement sont facturés en plus des coûts de réparation ou de remplacement. Il est interdit de réparer soi-même les documents endommagés. Toute personne qui ne respecte pas le règlement de la bibliothèque ou adopte un comportement inconvenant peut être exclue temporairement ou définitivement de son utilisation.",
+                  "ar": "المستفيدون مسؤولون مسؤولية كاملة عن المواد المستعارة وملتزمون بالتعامل مع ممتلكات المكتبة بعناية وحرص. في حال حدوث تلف أو فقدان، يتم احتساب رسوم معالجة بالإضافة إلى تكاليف الإصلاح أو الاستبدال، ولا يجوز للمستفيد إصلاح الأضرار بنفسه. وكل من لا يلتزم بأحكام ونظام المكتبة أو يسلك سلوكاً غير لائق، يمكن حرمانه واستبعاده من استخدام المكتبة مؤقتاً أو بصورة نهائية."
+                }
+              }
+            ]
+          },
+          "questions": {
+            "27": {
+              "text": {
+                "de": "Wenn man etwas reservieren lässt, ...",
+                "fr": "Lorsque l'on fait réserver un article,...",
+                "ar": "عندما يقوم المرء بحجز مادة معينة،..."
+              },
+              "options": {
+                "de": [
+                  "muss man die Artikel eine Woche nach Reservierung abholen.",
+                  "muss man die Artikel bei einer anderen Bibliothek der PBZ abholen.",
+                  "muss man dafür einen Geldbetrag zahlen."
+                ],
+                "fr": [
+                  "on doit récupérer les articles une semaine après la réservation.",
+                  "on doit récupérer les articles dans une autre bibliothèque de la PBZ.",
+                  "on doit payer une somme d'argent pour cela."
+                ],
+                "ar": [
+                  "يجب استلام المواد بعد أسبوع من الحجز.",
+                  "يجب استلام المواد من مكتبة أخرى تابعة لـ PBZ.",
+                  "يجب دفع مبلغ مالي مقابل ذلك."
+                ]
+              }
+            },
+            "28": {
+              "text": {
+                "de": "Bei Nichtbeachtung der Bibliotheksbestimmungen ...",
+                "fr": "En cas de non-respect du règlement de la bibliothèque,...",
+                "ar": "في حال عدم الالتزام بأحكام ولوائح المكتبة..."
+              },
+              "options": {
+                "de": [
+                  "muss man eine Strafgebühr zahlen.",
+                  "kann es sein, dass man die PBZ nicht mehr benutzen darf.",
+                  "muss man sofort alle ausgeliehenen Artikel zurückgeben."
+                ],
+                "fr": [
+                  "on doit payer une amende forfaitaire.",
+                  "il se peut que l'on n'ait plus le droit d'utiliser la PBZ.",
+                  "on doit immédiatement restituer tous les articles empruntés."
+                ],
+                "ar": [
+                  "يجب دفع غرامة مالية عقابية.",
+                  "قد يُحرم الشخص من حق استخدام مكتبة PBZ.",
+                  "يجب إعادة جميع المواد المستعارة فوراً."
+                ]
+              }
+            },
+            "29": {
+              "text": {
+                "de": "Man kann ...",
+                "fr": "On peut...",
+                "ar": "يمكن للمرء..."
+              },
+              "options": {
+                "de": [
+                  "auch DVDs reservieren lassen.",
+                  "einmal im Monat bis zu 25 Artikeln ausleihen.",
+                  "auch reservierte Artikel verlängern lassen."
+                ],
+                "fr": [
+                  "faire aussi réserver des DVD.",
+                  "emprunter jusqu'à 25 articles une fois par mois.",
+                  "faire prolonger également des articles réservés par d'autres."
+                ],
+                "ar": [
+                  "حجز أقراص DVD أيضاً.",
+                  "استعارة ما يصل إلى 25 مادة مرة واحدة في الشهر.",
+                  "تمديد فترة استعارة المواد المحجوزة أيضاً."
+                ]
+              }
+            },
+            "30": {
+              "text": {
+                "de": "Um die PBZ benutzen zu können, ...",
+                "fr": "Pour pouvoir utiliser la PBZ,...",
+                "ar": "لكي يتمكن المرء من استخدام مكتبة PBZ..."
+              },
+              "options": {
+                "de": [
+                  "muss man in Zürich wohnen.",
+                  "muss man jedes Mal die Bibliothekskarte bei sich haben.",
+                  "braucht man eine Bibliothekskarte pro Familie oder Haushalt."
+                ],
+                "fr": [
+                  "on doit résider à Zurich.",
+                  "on doit avoir sa carte de bibliothèque sur soi à chaque fois.",
+                  "on a besoin d'une carte de bibliothèque par famille ou foyer."
+                ],
+                "ar": [
+                  "يجب أن يكون مقيماً في زيورخ.",
+                  "يجب أن يحمل معه بطاقة المكتبة في كل مرة.",
+                  "يحتاج إلى بطاقة مكتبة واحدة لكل عائلة أو سكن مشترك."
+                ]
+              }
+            }
+          }
+        },
+        "6": {
+          "title": {
+            "de": "Hören",
+            "fr": "Module Écoute (Hören)",
+            "ar": "وحدة الاستماع (Hören)"
+          },
+          "instructions": {
+            "de": "Das Modul Hören besteht aus vier Teilen. Sie hören jeden Text ein- oder zweimal. Lösen Sie die Aufgaben und markieren Sie Ihre Lösungen auf dem Antwortbogen.",
+            "fr": "Le module de compréhension orale comprend quatre parties. Vous entendrez chaque document une ou deux fois. Répondez aux questions et reportez vos réponses.",
+            "ar": "يتكون موديول الاستماع من أربعة أقسام. تستمع إلى كل نص مرة أو مرتين. أجب عن الأسئلة وسجل إجاباتك."
+          },
+          "teile": {
+            "1": {
+              "title": {
+                "de": "Teil 1: Fünf kurze Texte",
+                "fr": "Partie 1 : Cinq textes courts",
+                "ar": "الجزء 1: خمسة نصوص قصيرة"
+              },
+              "desc": {
+                "de": "Sie hören fünf kurze Texte. Sie hören jeden Text zweimal. Zu jedem Text lösen Sie zwei Aufgaben. Wählen Sie bei jeder Aufgabe die richtige Lösung.",
+                "fr": "Vous allez entendre cinq textes courts, deux fois chacun. Pour chaque texte, répondez à deux questions en choisissant la bonne solution.",
+                "ar": "ستستمع إلى خمسة نصوص قصيرة مرتين. لكل نص ستجيب عن مهمتين باختيار الحل الصحيح."
+              },
+              "context": {
+                "de": "Sie hören Meldungen, Ansagen und Durchsagen im Radio und am Telefon.",
+                "fr": "Vous entendez des messages, des annonces à la radio et au téléphone.",
+                "ar": "تستمع إلى بلاغات وإعلانات ورسائل مسجلة في الراديو وعبر الهاتف."
+              }
+            },
+            "2": {
+              "title": {
+                "de": "Teil 2: Mozart-City-Tour Salzburg",
+                "fr": "Partie 2 : Circuit touristique Mozart à Salzbourg",
+                "ar": "الجزء 2: جولة موزارت السياحية في سالزبورغ"
+              },
+              "desc": {
+                "de": "Sie hören einen Text. Sie hören den Text einmal. Dazu lösen Sie fünf Aufgaben. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+                "fr": "Vous allez entendre un texte une seule fois. Répondez aux cinq questions en choisissant la solution correcte a, b ou c.",
+                "ar": "ستستمع إلى نص لمرة واحدة. أجب عن المهام الخمس باختيار الحل الصحيح a أو b أو c."
+              },
+              "context": {
+                "de": "Sie nehmen an der Mozart-City-Tour teil.",
+                "fr": "Vous participez à la visite guidée « Mozart-City-Tour ».",
+                "ar": "أنت تشارك في جولة «Mozart-City-Tour» السياحية في سالزبورغ."
+              }
+            },
+            "3": {
+              "title": {
+                "de": "Teil 3: Gespräch über die Ferien",
+                "fr": "Partie 3 : Discussion sur les vacances",
+                "ar": "الجزء 3: محادثة حول العطلة الصيفية"
+              },
+              "desc": {
+                "de": "Sie hören ein Gespräch. Sie hören das Gespräch einmal. Dazu lösen Sie sieben Aufgaben. Wählen Sie: Sind die Aussagen richtig oder falsch?",
+                "fr": "Vous allez entendre une conversation une seule fois. Répondez aux sept questions : les affirmations sont-elles vraies ou fausses ?",
+                "ar": "ستستمع إلى محادثة لمرة واحدة. أجب عن المهام السبع: هل العبارات صحيحة أم خاطئة؟"
+              },
+              "context": {
+                "de": "Sie fahren mit der Straßenbahn und hören, wie sich zwei Jugendliche über die Ferien unterhalten.",
+                "fr": "Vous êtes dans le tramway et entendez deux jeunes discuter de leurs vacances.",
+                "ar": "أنت في الترام وتستمع إلى شابين يتحدثان عن عطلتهما الصيفية."
+              }
+            },
+            "4": {
+              "title": {
+                "de": "Teil 4: Radiosendung „School for you“: Darf ein Lehrer einen Schüler schlagen?",
+                "fr": "Partie 4 : Émission de radio « School for you » : Un professeur a-t-il le droit de frapper un élève ?",
+                "ar": "الجزء 4: برنامج إذاعي «School for you»: هل يحق للمعلم ضرب طالب؟"
+              },
+              "desc": {
+                "de": "Sie hören eine Diskussion. Sie hören die Diskussion zweimal. Dazu lösen Sie acht Aufgaben. Ordnen Sie die Aussagen zu: Wer sagt was?",
+                "fr": "Vous allez entendre un débat deux fois. Répondez aux huit questions en associant chaque affirmation à la bonne personne.",
+                "ar": "ستستمع إلى مناقشة مرتين. أجب عن المهام الثماني بمطابقة كل عبارة مع المتحدث الذي قالها."
+              },
+              "context": {
+                "de": "Die Moderatorin der Radiosendung „School for you“ diskutiert mit den Schülern Lara und Simon zum Thema: „Darf ein Lehrer einen Schüler schlagen?“",
+                "fr": "L'animatrice de l'émission radio « School for you » débat avec les élèves Lara et Simon sur le thème : « Un professeur peut-il frapper un élève ? »",
+                "ar": "تناقش مذيعة البرنامج الإذاعي «School for you» مع الطالبين لارا وسيمون موضوع: «هل يحق للمعلم أن يضرب تلميذاً؟»"
+              }
+            }
+          },
+          "questions": {
+            "h1": {
+              "fr": "Un accident s'est produit sur l'autoroute A 1.",
+              "ar": "وقع حادث سير على الطريق السريع A 1.",
+              "text": {
+                "fr": "Un accident s'est produit sur l'autoroute A 1.",
+                "ar": "وقع حادث سير على الطريق السريع A 1."
+              }
+            },
+            "h2": {
+              "fr": "Pourquoi y a-t-il un embouteillage ?",
+              "ar": "لماذا يوجد ازدحام وتوقف لحركة المرور؟",
+              "text": {
+                "fr": "Pourquoi y a-t-il un embouteillage ?",
+                "ar": "لماذا يوجد ازدحام وتوقف لحركة المرور؟"
+              },
+              "options": {
+                "de": [
+                  "Weil das Wetter schlecht ist.",
+                  "Weil auf der Autobahn gebaut wird.",
+                  "Weil eine Ausfahrt geschlossen ist."
+                ],
+                "fr": [
+                  "Parce que le temps est mauvais.",
+                  "Parce qu'il y a des travaux sur l'autoroute.",
+                  "Parce qu'une sortie est fermée."
+                ],
+                "ar": [
+                  "بسبب سوء الأحوال الجوية.",
+                  "بسبب وجود أعمال صيانة وبناء على الطريق السريع.",
+                  "بسبب إغلاق أحد المخارج."
+                ]
+              }
+            },
+            "h3": {
+              "fr": "Vous entendez les informations d'un studio de photographie.",
+              "ar": "تستمع إلى معلومات صادرة عن استوديو تصوير فوتوغرافي.",
+              "text": {
+                "fr": "Vous entendez les informations d'un studio de photographie.",
+                "ar": "تستمع إلى معلومات صادرة عن استوديو تصوير فوتوغرافي."
+              }
+            },
+            "h4": {
+              "fr": "Quel jour l'établissement est-il fermé ?",
+              "ar": "في أي يوم يكون المتحف مغلقاً؟",
+              "text": {
+                "fr": "Quel jour l'établissement est-il fermé ?",
+                "ar": "في أي يوم يكون المتحف مغلقاً؟"
+              },
+              "options": {
+                "de": [
+                  "Am Montag.",
+                  "Am Dienstag.",
+                  "Am Mittwoch."
+                ],
+                "fr": [
+                  "Le lundi.",
+                  "Le mardi.",
+                  "Le mercredi."
+                ],
+                "ar": [
+                  "يوم الاثنين.",
+                  "يوم الثلاثاء.",
+                  "يوم الأربعاء."
+                ]
+              }
+            },
+            "h5": {
+              "fr": "Vous entendez des idées d'activités de loisirs pour les adolescents.",
+              "ar": "تستمع إلى نصائح وأفكار حول أنشطة ترفيهية للشباب واليافعين.",
+              "text": {
+                "fr": "Vous entendez des idées d'activités de loisirs pour les adolescents.",
+                "ar": "تستمع إلى نصائح وأفكار حول أنشطة ترفيهية للشباب واليافعين."
+              }
+            },
+            "h6": {
+              "fr": "Pour quelle activité faut-il s'inscrire au préalable ?",
+              "ar": "ما هي الفعالية التي تتطلب تسجيلاً مسبقاً؟",
+              "text": {
+                "fr": "Pour quelle activité faut-il s'inscrire au préalable ?",
+                "ar": "ما هي الفعالية التي تتطلب تسجيلاً مسبقاً؟"
+              },
+              "options": {
+                "de": [
+                  "Für die Ausstellung.",
+                  "Für die Fahrt mit dem Schneemobil.",
+                  "Zum Skifahren."
+                ],
+                "fr": [
+                  "Pour l'exposition.",
+                  "Pour la sortie en motoneige.",
+                  "Pour faire du ski."
+                ],
+                "ar": [
+                  "للمعرض الفني.",
+                  "لجولة زلاجة الجليد الآلية (Schneemobil).",
+                  "لممارسة التزلج على الجليد."
+                ]
+              }
+            },
+            "h7": {
+              "fr": "Un marché de Noël a lieu à Augsbourg.",
+              "ar": "يقام سوق عيد ميلاد في أوغسبورغ.",
+              "text": {
+                "fr": "Un marché de Noël a lieu à Augsbourg.",
+                "ar": "يقام سوق عيد ميلاد في أوغسبورغ."
+              }
+            },
+            "h8": {
+              "fr": "Pendant combien de temps le marché de Noël est-il ouvert ?",
+              "ar": "كم من الوقت يستمر عمل سوق عيد الميلاد (Christkindlesmarkt)؟",
+              "text": {
+                "fr": "Pendant combien de temps le marché de Noël est-il ouvert ?",
+                "ar": "كم من الوقت يستمر عمل سوق عيد الميلاد (Christkindlesmarkt)؟"
+              },
+              "options": {
+                "de": [
+                  "Länger als einen Monat.",
+                  "Weniger als einen Monat.",
+                  "135 Tage."
+                ],
+                "fr": [
+                  "Plus d'un mois.",
+                  "Moins d'un mois.",
+                  "135 jours."
+                ],
+                "ar": [
+                  "أكثر من شهر واحد.",
+                  "أقل من شهر واحد.",
+                  "135 يوماً."
+                ]
+              }
+            },
+            "h9": {
+              "fr": "Vous entendez un rapport officiel de police.",
+              "ar": "تستمع إلى تقرير رسمي صادر عن الشرطة.",
+              "text": {
+                "fr": "Vous entendez un rapport officiel de police.",
+                "ar": "تستمع إلى تقرير رسمي صادر عن الشرطة."
+              }
+            },
+            "h10": {
+              "fr": "Qui a réussi à délivrer la propriétaire du chat ?",
+              "ar": "من استطاع تحرير صاحبة القطة وإخراجها؟",
+              "text": {
+                "fr": "Qui a réussi à délivrer la propriétaire du chat ?",
+                "ar": "من استطاع تحرير صاحبة القطة وإخراجها؟"
+              },
+              "options": {
+                "de": [
+                  "Der Schlüsseldienst.",
+                  "Ein Nachbar.",
+                  "Die Polizei."
+                ],
+                "fr": [
+                  "Le serrurier.",
+                  "Un voisin.",
+                  "La police."
+                ],
+                "ar": [
+                  "خدمة فتح الأقفال (النجار/Schlüsseldienst).",
+                  "أحد الجيران.",
+                  "رجال الشرطة."
+                ]
+              }
+            },
+            "h11": {
+              "fr": "Combien de temps dure le circuit guidé ?",
+              "ar": "كم من الوقت تستغرق الجولة السياحية بالحافلة؟",
+              "text": {
+                "fr": "Combien de temps dure le circuit guidé ?",
+                "ar": "كم من الوقت تستغرق الجولة السياحية بالحافلة؟"
+              },
+              "options": {
+                "de": [
+                  "Zwanzig Minuten.",
+                  "Fünfzehn Minuten.",
+                  "Neunzig Minuten."
+                ],
+                "fr": [
+                  "Vingt minutes.",
+                  "Quinze minutes.",
+                  "Quatre-vingt-dix minutes."
+                ],
+                "ar": [
+                  "عشرون دقيقة.",
+                  "خمس عشرة دقيقة.",
+                  "تسعون دقيقة."
+                ]
+              }
+            },
+            "h12": {
+              "fr": "Pendant le circuit Mozart, on visite...",
+              "ar": "خلال جولة موزارت السياحية يزور المرء...",
+              "text": {
+                "fr": "Pendant le circuit Mozart, on visite...",
+                "ar": "خلال جولة موزارت السياحية يزور المرء..."
+              },
+              "options": {
+                "de": [
+                  "das Wohnhaus Mozarts.",
+                  "das Geburtshaus Mozarts.",
+                  "das Schloss Leopoldskron."
+                ],
+                "fr": [
+                  "la maison d'habitation de Mozart.",
+                  "la maison natale de Mozart.",
+                  "le château de Leopoldskron."
+                ],
+                "ar": [
+                  "المنزل الذي سكن فيه موزارت.",
+                  "المنزل الذي ولد فيه موزارت (Geburtshaus).",
+                  "قصر ليوبولدسكرون."
+                ]
+              }
+            },
+            "h13": {
+              "fr": "Par qui le Mozarteum a-t-il été fondé ?",
+              "ar": "من قام بتأسيس مؤسسة الموزارتيوم (Mozarteum)؟",
+              "text": {
+                "fr": "Par qui le Mozarteum a-t-il été fondé ?",
+                "ar": "من قام بتأسيس مؤسسة الموزارتيوم (Mozarteum)؟"
+              },
+              "options": {
+                "de": [
+                  "Von Mozart.",
+                  "Von Wissenschaftlern.",
+                  "Von Salzburgern."
+                ],
+                "fr": [
+                  "Par Mozart lui-même.",
+                  "Par des scientifiques.",
+                  "Par des habitants de Salzbourg."
+                ],
+                "ar": [
+                  "بواسطة موزارت نفسه.",
+                  "بواسطة علماء وباحثين.",
+                  "بواسطة مواطني وسكان سالزبورغ."
+                ]
+              }
+            },
+            "h14": {
+              "fr": "À qui appartenait la maison natale de Mozart ?",
+              "ar": "لمن كان يعود البيت الذي ولد فيه موزارت؟",
+              "text": {
+                "fr": "À qui appartenait la maison natale de Mozart ?",
+                "ar": "لمن كان يعود البيت الذي ولد فيه موزارت؟"
+              },
+              "options": {
+                "de": [
+                  "Der Familie Mozart.",
+                  "Einem Händler.",
+                  "Mozarts Nachbarin."
+                ],
+                "fr": [
+                  "À la famille Mozart.",
+                  "À un commerçant.",
+                  "À la voisine de Mozart."
+                ],
+                "ar": [
+                  "لعائلة موزارت.",
+                  "لتاجر.",
+                  "لجارة موزارت."
+                ]
+              }
+            },
+            "h15": {
+              "fr": "Que peut-on voir dans le musée ?",
+              "ar": "ما الذي يمكن رؤيته في المتحف؟",
+              "text": {
+                "fr": "Que peut-on voir dans le musée ?",
+                "ar": "ما الذي يمكن رؤيته في المتحف؟"
+              },
+              "options": {
+                "de": [
+                  "Mozarts Kinder-Violine.",
+                  "Mozarts Klavier.",
+                  "Möbel der Familie Mozart."
+                ],
+                "fr": [
+                  "Le violon d'enfance de Mozart.",
+                  "Le piano de Mozart.",
+                  "Des meubles de la famille Mozart."
+                ],
+                "ar": [
+                  "كمان موزارت الصغير في طفولته.",
+                  "بيانو موزارت.",
+                  "أثاث عائلة موزارت."
+                ]
+              }
+            },
+            "h16": {
+              "fr": "Isabella a reçu un nouveau téléphone de ses parents.",
+              "ar": "حصلت إيزابيلا على هاتف محمول جديد من والديها.",
+              "text": {
+                "fr": "Isabella a reçu un nouveau téléphone de ses parents.",
+                "ar": "حصلت إيزابيلا على هاتف محمول جديد من والديها."
+              }
+            },
+            "h17": {
+              "fr": "Isabella montre des photos à Jonas sur son téléphone portable.",
+              "ar": "تعرض إيزابيلا صوراً على يوناس عبر هاتفها المحمول.",
+              "text": {
+                "fr": "Isabella montre des photos à Jonas sur son téléphone portable.",
+                "ar": "تعرض إيزابيلا صوراً على يوناس عبر هاتفها المحمول."
+              }
+            },
+            "h18": {
+              "fr": "Isabella aime aller en Chalcidique chaque année.",
+              "ar": "تحب إيزابيلا الذهاب إلى شبه جزيرة هالكيديكي.",
+              "text": {
+                "fr": "Isabella aime aller en Chalcidique chaque année.",
+                "ar": "تحب إيزابيلا الذهاب إلى شبه جزيرة هالكيديكي."
+              }
+            },
+            "h19": {
+              "fr": "Isabella trouve Andreas séduisant / l'apprécie beaucoup.",
+              "ar": "إيزابيلا معجبة بأندرياس وتحبه.",
+              "text": {
+                "fr": "Isabella trouve Andreas séduisant / l'apprécie beaucoup.",
+                "ar": "إيزابيلا معجبة بأندرياس وتحبه."
+              }
+            },
+            "h20": {
+              "fr": "Jonas est parti en voyage cette année uniquement avec sa sœur.",
+              "ar": "سافر يوناس هذا العام بمفرده مع أخته فقط.",
+              "text": {
+                "fr": "Jonas est parti en voyage cette année uniquement avec sa sœur.",
+                "ar": "سافر يوناس هذا العام بمفرده مع أخته فقط."
+              }
+            },
+            "h21": {
+              "fr": "Les parents d'Isabella ne sont pas aussi sportifs que ceux de Jonas.",
+              "ar": "والدا إيزابيلا ليسا رياضيين ونشيطين مثل والدي يوناس.",
+              "text": {
+                "fr": "Les parents d'Isabella ne sont pas aussi sportifs que ceux de Jonas.",
+                "ar": "والدا إيزابيلا ليسا رياضيين ونشيطين مثل والدي يوناس."
+              }
+            },
+            "h22": {
+              "fr": "Jonas trouve les vacances à la plage ennuyeuses.",
+              "ar": "يجد يوناس أن قضاء العطلة على شاطئ البحر أمر ممل.",
+              "text": {
+                "fr": "Jonas trouve les vacances à la plage ennuyeuses.",
+                "ar": "يجد يوناس أن قضاء العطلة على شاطئ البحر أمر ممل."
+              }
+            },
+            "h23": {
+              "fr": "Presque tous les élèves trouvent Monsieur X sympathique.",
+              "ar": "جميع التلاميذ تقريباً يجدون الأستاذ X ودوداً ومحبوباً.",
+              "text": {
+                "fr": "Presque tous les élèves trouvent Monsieur X sympathique.",
+                "ar": "جميع التلاميذ تقريباً يجدون الأستاذ X ودوداً ومحبوباً."
+              },
+              "options": {
+                "de": [
+                  "Moderatorin",
+                  "Lara",
+                  "Simon"
+                ],
+                "fr": [
+                  "L'animatrice",
+                  "Lara",
+                  "Simon"
+                ],
+                "ar": [
+                  "المذيعة",
+                  "لارا",
+                  "سيمون"
+                ]
+              }
+            },
+            "h24": {
+              "fr": "Une minorité d'élèves n'est pas d'accord avec le jugement du tribunal.",
+              "ar": "أقلية من التلاميذ فقط غير راضية عن حكم المحكمة.",
+              "text": {
+                "fr": "Une minorité d'élèves n'est pas d'accord avec le jugement du tribunal.",
+                "ar": "أقلية من التلاميذ فقط غير راضية عن حكم المحكمة."
+              },
+              "options": {
+                "de": [
+                  "Moderatorin",
+                  "Lara",
+                  "Simon"
+                ],
+                "fr": [
+                  "L'animatrice",
+                  "Lara",
+                  "Simon"
+                ],
+                "ar": [
+                  "المذيعة",
+                  "لارا",
+                  "سيمون"
+                ]
+              }
+            },
+            "h25": {
+              "fr": "L'épaule blessée de l'enseignant a joué un rôle déterminant dans le verdict.",
+              "ar": "لعب كتف المعلم المصاب دوراً مهماً في قرار وحكم المحكمة.",
+              "text": {
+                "fr": "L'épaule blessée de l'enseignant a joué un rôle déterminant dans le verdict.",
+                "ar": "لعب كتف المعلم المصاب دوراً مهماً في قرار وحكم المحكمة."
+              },
+              "options": {
+                "de": [
+                  "Moderatorin",
+                  "Lara",
+                  "Simon"
+                ],
+                "fr": [
+                  "L'animatrice",
+                  "Lara",
+                  "Simon"
+                ],
+                "ar": [
+                  "المذيعة",
+                  "لارا",
+                  "سيمون"
+                ]
+              }
+            },
+            "h26": {
+              "fr": "L'enseignant n'avait pas l'intention de frapper l'élève.",
+              "ar": "لم يكن لدى المعلم نية مسبقة لضرب التلميذة.",
+              "text": {
+                "fr": "L'enseignant n'avait pas l'intention de frapper l'élève.",
+                "ar": "لم يكن لدى المعلم نية مسبقة لضرب التلميذة."
+              },
+              "options": {
+                "de": [
+                  "Moderatorin",
+                  "Lara",
+                  "Simon"
+                ],
+                "fr": [
+                  "L'animatrice",
+                  "Lara",
+                  "Simon"
+                ],
+                "ar": [
+                  "المذيعة",
+                  "لارا",
+                  "سيمون"
+                ]
+              }
+            },
+            "h27": {
+              "fr": "La jeune fille voulait que le professeur perde son emploi.",
+              "ar": "كانت الفتاة تريد أن يفقد المعلم وظيفته ويُطرد من العمل.",
+              "text": {
+                "fr": "La jeune fille voulait que le professeur perde son emploi.",
+                "ar": "كانت الفتاة تريد أن يفقد المعلم وظيفته ويُطرد من العمل."
+              },
+              "options": {
+                "de": [
+                  "Moderatorin",
+                  "Lara",
+                  "Simon"
+                ],
+                "fr": [
+                  "L'animatrice",
+                  "Lara",
+                  "Simon"
+                ],
+                "ar": [
+                  "المذيعة",
+                  "لارا",
+                  "سيمون"
+                ]
+              }
+            },
+            "h28": {
+              "fr": "La jeune fille et ses amis ne sont pas intégrés dans la classe.",
+              "ar": "الفتاة ومجموعة أصدقائها غير مندمجين في الصف الدراسي.",
+              "text": {
+                "fr": "La jeune fille et ses amis ne sont pas intégrés dans la classe.",
+                "ar": "الفتاة ومجموعة أصدقائها غير مندمجين في الصف الدراسي."
+              },
+              "options": {
+                "de": [
+                  "Moderatorin",
+                  "Lara",
+                  "Simon"
+                ],
+                "fr": [
+                  "L'animatrice",
+                  "Lara",
+                  "Simon"
+                ],
+                "ar": [
+                  "المذيعة",
+                  "لارا",
+                  "سيمون"
+                ]
+              }
+            },
+            "h29": {
+              "fr": "La classe ne fait actuellement plus rien ensemble en dehors des cours.",
+              "ar": "لا يقوم الفصل حالياً بأي نشاط مشترك خارج أوقات الحصص الدراسية.",
+              "text": {
+                "fr": "La classe ne fait actuellement plus rien ensemble en dehors des cours.",
+                "ar": "لا يقوم الفصل حالياً بأي نشاط مشترك خارج أوقات الحصص الدراسية."
+              },
+              "options": {
+                "de": [
+                  "Moderatorin",
+                  "Lara",
+                  "Simon"
+                ],
+                "fr": [
+                  "L'animatrice",
+                  "Lara",
+                  "Simon"
+                ],
+                "ar": [
+                  "المذيعة",
+                  "لارا",
+                  "سيمون"
+                ]
+              }
+            },
+            "h30": {
+              "fr": "Les premiers jours des voyages scolaires étaient toujours un peu difficiles.",
+              "ar": "كانت الأيام الأولى من الرحلات المدرسية صعبة ومليئة بالمشاكل دائماً.",
+              "text": {
+                "fr": "Les premiers jours des voyages scolaires étaient toujours un peu difficiles.",
+                "ar": "كانت الأيام الأولى من الرحلات المدرسية صعبة ومليئة بالمشاكل دائماً."
+              },
+              "options": {
+                "de": [
+                  "Moderatorin",
+                  "Lara",
+                  "Simon"
+                ],
+                "fr": [
+                  "L'animatrice",
+                  "Lara",
+                  "Simon"
+                ],
+                "ar": [
+                  "المذيعة",
+                  "لارا",
+                  "سيمون"
                 ]
               }
             }

@@ -1364,10 +1364,19 @@ function renderTabs() {
     const answeredCount = qs.filter(q => userAnswers[q.id] !== undefined && userAnswers[q.id] !== '').length;
     const isCompleted = answeredCount === qs.length;
 
+    let tabLabel = t.title || `Teil ${t.id}`;
+    if (t.isHoren || t.id === 6) {
+      tabLabel = 'Hören';
+    } else if (tabLabel.includes(':')) {
+      tabLabel = tabLabel.split(':')[0].trim();
+    } else if (tabLabel.includes('—')) {
+      tabLabel = tabLabel.split('—')[0].trim();
+    }
+
     const btn = document.createElement('button');
     btn.className = `tab-btn ${t.id === activeTeil ? 'active' : ''} ${isCompleted ? 'completed' : ''}`;
     btn.innerHTML = `
-      <span>${t.title}</span>
+      <span>${tabLabel}</span>
       <span class="tab-badge">${answeredCount}/${qs.length}</span>
     `;
     btn.onclick = () => {
