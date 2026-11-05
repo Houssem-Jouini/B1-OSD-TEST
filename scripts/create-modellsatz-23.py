@@ -195,6 +195,10 @@ test_data = {
       "time": 10,
       "instructions": "Lesen Sie die Situationen 13 bis 19 und die Anzeigen a bis j aus verschiedenen deutschsprachigen Medien. Wählen Sie: Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es keine passende Anzeige; wählen Sie in diesem Fall 0.",
       "situationContext": "Bekannte von Ihnen möchten ihre Fremdsprachenkenntnisse erweitern und suchen dafür passende Möglichkeiten.",
+      "example": {
+        "text": "Sandra und Nicole planen dieses Jahr eine Reise nach Griechenland und möchten dabei auch ein wenig Griechisch lernen.",
+        "answer": "h"
+      },
       "adsFormatted": [
         {
           "code": "a",
@@ -1164,6 +1168,20 @@ test_data = {
         "situationContext": {
           "fr": "Des connaissances à vous souhaitent développer leurs compétences en langues étrangères et cherchent des opportunités adaptées.",
           "ar": "معارف لكم يرغبون في تطوير مهاراتهم في اللغات الأجنبية ويبحثون عن عروض مناسبة."
+        },
+        "example": {
+          "text": {
+            "fr": "Sandra et Nicole prévoient un voyage en Grèce cette année et souhaitent à cette occasion apprendre aussi un peu de grec.",
+            "ar": "تخطط ساندرا ونيكول للقيام برحلة إلى اليونان هذا العام وترغبان في تعلم القليل من اللغة اليونانية خلال الرحلة."
+          },
+          "fr": {
+            "text": "Sandra et Nicole prévoient un voyage en Grèce cette année et souhaitent à cette occasion apprendre aussi un peu de grec.",
+            "answer": "h"
+          },
+          "ar": {
+            "text": "تخطط ساندرا ونيكول للقيام برحلة إلى اليونان هذا العام وترغبان في تعلم القليل من اللغة اليونانية خلال الرحلة.",
+            "answer": "h"
+          }
         },
         "situations": {
           "13": {

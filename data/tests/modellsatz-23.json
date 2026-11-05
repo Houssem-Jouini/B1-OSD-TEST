@@ -312,7 +312,11 @@
           "text": "Ben und Ali haben in der Schule als Wahlfach Spanisch. Sie haben sich entschlossen, im Sommer gemeinsam eine Sprachreise nach Spanien zu unternehmen.",
           "answer": "j"
         }
-      ]
+      ],
+      "example": {
+        "text": "Sandra und Nicole planen dieses Jahr eine Reise nach Griechenland und möchten dabei auch ein wenig Griechisch lernen.",
+        "answer": "h"
+      }
     },
     {
       "id": 4,
@@ -975,7 +979,26 @@
               ],
               "answer": 2
             }
-          ]
+          ],
+          "example": {
+            "ex01": {
+              "num": "01",
+              "text": "Sie hören einen Veranstaltungstipp für Kinder.",
+              "type": "tf",
+              "answer": "richtig"
+            },
+            "ex02": {
+              "num": "02",
+              "text": "Wer beim Kinder-Medien-Festival mitmachen möchte, …",
+              "type": "mcq",
+              "options": [
+                "muss eine Web-Seite für Kinder machen.",
+                "kann Mitte Mai nicht zur Schule gehen.",
+                "muss die Reise nach Deutschland bezahlen."
+              ],
+              "answer": 1
+            }
+          }
         },
         {
           "id": 2,
@@ -1204,7 +1227,28 @@
               ],
               "answer": 0
             }
-          ]
+          ],
+          "speakers": [
+            {
+              "code": "a",
+              "name": "Moderatorin"
+            },
+            {
+              "code": "b",
+              "name": "Lena"
+            },
+            {
+              "code": "c",
+              "name": "Simon"
+            }
+          ],
+          "example": {
+            "num": "0",
+            "text": "Es wird Rücksicht auf die Interessen der Zuhörer genommen.",
+            "answer": 0,
+            "answerCode": "a",
+            "answerSpeaker": "Moderatorin"
+          }
         }
       ]
     }
@@ -2378,6 +2422,20 @@
           "J": {
             "fr": "Séjours linguistiques Welner : Espagne, France, Pologne, etc.",
             "ar": "رحلات لغوية للشباب إلى إسبانيا وفرنسا."
+          }
+        },
+        "example": {
+          "text": {
+            "fr": "Sandra et Nicole prévoient un voyage en Grèce cette année et souhaitent à cette occasion apprendre aussi un peu de grec.",
+            "ar": "تخطط ساندرا ونيكول للقيام برحلة إلى اليونان هذا العام وترغبان في تعلم القليل من اللغة اليونانية خلال الرحلة."
+          },
+          "fr": {
+            "text": "Sandra et Nicole prévoient un voyage en Grèce cette année et souhaitent à cette occasion apprendre aussi un peu de grec.",
+            "answer": "h"
+          },
+          "ar": {
+            "text": "تخطط ساندرا ونيكول للقيام برحلة إلى اليونان هذا العام وترغبان في تعلم القليل من اللغة اليونانية خلال الرحلة.",
+            "answer": "h"
           }
         }
       },

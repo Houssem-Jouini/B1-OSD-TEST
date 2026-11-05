@@ -832,7 +832,9 @@ function loadModelTest(index) {
   const hPart = testData?.find(x => x.isHoren || x.id === 6);
   if (hPart && Array.isArray(hPart.questions)) {
     hPart.questions.forEach((q, idx) => {
-      const num = q.num !== undefined ? Number(q.num) : (idx + 1);
+      const num = (q.num !== undefined && !isNaN(Number(q.num)))
+        ? Number(q.num)
+        : (parseInt(String(q.num || q.id).replace(/\D/g, ''), 10) || (idx + 1));
       if (!q.teilPart) {
         if (num <= 10) q.teilPart = 1;
         else if (num <= 15) q.teilPart = 2;
@@ -2731,6 +2733,9 @@ function isMatchOrTfCorrect(userVal, correctVal) {
   const c = String(correctVal).trim().toLowerCase();
   if (u === c) return true;
   if ((u === '0' || u === 'x') && (c === '0' || c === 'x')) return true;
+  const letterMap = { a: '0', b: '1', c: '2', d: '3' };
+  if (letterMap[c] !== undefined && letterMap[c] === u) return true;
+  if (letterMap[u] !== undefined && letterMap[u] === c) return true;
   return false;
 }
 
@@ -3163,8 +3168,9 @@ function renderHorenQuestionCard(q) {
     `;
   } else if (q.type === 'mcq') {
     const letters = ['a', 'b', 'c'];
-    const idxVal = typeof val === 'number' ? val : (val !== undefined && val !== '' ? parseInt(val, 10) : null);
-    const correctIdx = typeof q.answer === 'number' ? q.answer : parseInt(q.answer, 10);
+    const ansMap = { a: 0, b: 1, c: 2 };
+    const idxVal = typeof val === 'number' ? val : (val !== undefined && val !== '' ? (ansMap[String(val).toLowerCase()] ?? parseInt(val, 10)) : null);
+    const correctIdx = typeof q.answer === 'number' ? q.answer : (ansMap[String(q.answer).toLowerCase()] ?? parseInt(q.answer, 10));
 
     optionsHtml = `
       <div class="mcq-options-group">
@@ -3317,22 +3323,34 @@ function buildHorenTeilsHtml(t) {
     answer: 2
   };
 
-  const speakers = sec4.speakers || [
+  const rawSpeakers = sec4.speakers || [
     { code: "a", name: isAr ? 'منسق الحوار' : (questionsLang === 'fr' ? 'Le modérateur' : 'Moderator') },
     { code: "b", name: isAr ? 'دانا شنايدر' : (questionsLang === 'fr' ? 'Dana Schneider' : 'Dana Schneider') },
     { code: "c", name: isAr ? 'فلوريان بادر' : (questionsLang === 'fr' ? 'Florian Bader' : 'Florian Bader') }
   ];
+  const speakers = rawSpeakers.map((spk, idx) => {
+    if (typeof spk === 'string') {
+      return { code: String.fromCharCode(97 + idx), name: spk };
+    }
+    return spk;
+  });
 
   const ex0 = sec4.example || {
     num: "0",
-    text: isAr ? 'بالنسبة للأطفال الصغار، فإن السنوات الثلاث الأولى مهمة جداً.' : (questionsLang === 'fr' ? 'Pour les jeunes enfants, les trois premières années sont très importantes.' : 'Für kleine Kinder sind die ersten drei Jahre sehr wichtig.'),
+    text: isAr ? 'بالنسبة للأطفال الصغار، فإن السنوات الثلاث الأولى مهمة جداً.' : (questionsLang === 'fr' ? 'Pour les jeunes enfants, les trois premières années sind sehr wichtig.' : 'Für kleine Kinder sind die ersten drei Jahre sehr wichtig.'),
     answerCode: "b",
     answerSpeaker: "Dana Schneider"
   };
+  const ex0Num = (ex0 && ex0.num !== undefined) ? ex0.num : "0";
 
   if (t && Array.isArray(t.questions)) {
     t.questions.forEach((q, idx) => {
-      const num = q.num !== undefined ? Number(q.num) : (idx + 1);
+      const num = (q.num !== undefined && !isNaN(Number(q.num)))
+        ? Number(q.num)
+        : (parseInt(String(q.num || q.id).replace(/\D/g, ''), 10) || (idx + 1));
+      if (q.num === undefined || isNaN(Number(q.num))) {
+        q.num = num;
+      }
       if (!q.teilPart) {
         if (num <= 10) q.teilPart = 1;
         else if (num <= 15) q.teilPart = 2;
@@ -3550,12 +3568,12 @@ function buildHorenTeilsHtml(t) {
         </div>
 
         <div class="example-box horen-example" style="margin-top:14px;">
-          <div class="example-badge">${exampleBadge} (${ex0.num})</div>
+          <div class="example-badge">${exampleBadge} (${ex0Num})</div>
           <div class="horen-ex-item">
-            <div class="horen-ex-q"><strong>${ex0.num}</strong> ${ex0.text}</div>
+            <div class="horen-ex-q"><strong>${ex0Num}</strong> ${ex0.text}</div>
             <div class="horen-ex-options">
               ${speakers.map((spk, i) => {
-                const isSelected = ex0.answerCode === spk.code || ex0.answer === i || ex0.answerSpeaker === spk.name;
+                const isSelected = ex0.answerCode === spk.code || ex0.answer === i || ex0.answer === spk.code || ex0.answerSpeaker === spk.name;
                 return `
                   <span class="ex-option-pill ${isSelected ? 'selected' : ''}">${spk.code}) ${spk.name}${isSelected ? ' ✓' : ''}</span>
                 `;
