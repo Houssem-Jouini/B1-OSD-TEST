@@ -138,7 +138,8 @@
             "Das Prince Charles Cinema am Leicester Square in London hat jetzt eine eigenwillige Maßnahme gegen diese Kino-Ruhestörer eingeführt, die nicht nur filmreif klingt, sondern ein wahrer Segen für leidgeplagte Filmfans sein dürfte: Freiwillige verkleiden sich als „Kino-Ninjas“ in hautengen, pechschwarzen Ganzkörperanzügen und beobachten die Zuschauer während der Vorführungen.",
             "Im Dunkel des Kinosaals sind sie praktisch unsichtbar – doch fallen ihnen Störenfriede auf, schleichen sich die Ninjas blitzschnell durch die Sitzreihen und weisen die Missetäter zurecht – allerdings sprechen sie nur. Von Wurfsternen oder Handkantenschlägen echter Ninjas machen die Kinowächter nicht Gebrauch.",
             "Die Idee für diese ungewöhnliche Taskforce – bei der ehrenamtliche Kinobesucher im Austausch für freien Eintritt aktiv werden – hatte Gregor Lawson, Mitbegründer von „Morphsuits“, dem Hersteller der hautengen Ninja-„Arbeitskleidung“. Er ärgerte sich immer wieder über telefonierende Gäste und SMS-Junkies im Kino. Als er selbst aber einmal einen Anruf im Kino annahm, warnten ihn zwei Kinogäste aus der Schweiz leise, doch endlich ruhig zu sein. Er bekam erst Angst, gab den Leuten dann aber recht. Und so erfand er die Kino-Ninjas."
-          ]
+          ],
+          "heading": "Kino-Ninjas"
         }
       ],
       "questions2": [
@@ -178,7 +179,8 @@
           ],
           "answer": 2
         }
-      ]
+      ],
+      "instructions2": "Lesen Sie den Text aus der Presse und die Aufgaben 10 bis 12 dazu. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c."
     },
     {
       "id": 3,
@@ -2297,6 +2299,10 @@
                 "في ظلام قاعة السينما يكون هؤلاء غير مرئيين تماماً، ولكن ما إن يظهر أحد المشاغبين حتى يتسلل النينجا بسرعة خاطفة بين صفوف المقاعد لتوبيخه وتنبيهه – شفهياً بالكلام فقط، دون استخدام نجوم الرماية أو ضربات اليد القتالية كأبطال النينجا الحقيقيين.",
                 "صاحب فكرة هذه الفرقة غير المألوفة – التي يشارك فيها رواد سينما متطوعون مقابل تذاكر مجانية – هو غريغور لوسون، الشريك المؤسس لشركة «Morphsuits» المنتجة لتلك البدلات الضيقة. وكان يتذمر دائماً من متحدثي الهواتف ومدمّني الرسائل في السينما، وحين رد هو بنفسه ذات مرة على اتصال في السينما نهره زائران سويسريان بهدوء ليلتزم الصمت. شعر بالحرج واعترف بصوابهما، ومن هنا ولدت فكرة نينجا السينما."
               ]
+            },
+            "heading": {
+              "fr": "Les Ninjas des salles de cinéma",
+              "ar": "نينجا صالات السينما"
             }
           }
         ],
@@ -2349,6 +2355,10 @@
               ]
             }
           }
+        },
+        "instructions2": {
+          "fr": "Lisez le texte de presse et répondez aux questions 10 à 12. Choisissez la bonne réponse a, b ou c.",
+          "ar": "اقرأ النص الصحفي وأجب عن المهام من 10 إلى 12. اختر الإجابة الصحيحة أ، ب أو ج."
         }
       },
       "3": {

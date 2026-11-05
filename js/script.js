@@ -1519,8 +1519,8 @@ function renderPassage(t) {
     }
     t.articles2.forEach((a, aIdx) => {
       const trArt2 = trPart?.articles2?.[aIdx];
-      const heading = trArt2?.heading?.[passageLang] || a.heading;
-      const sub = trArt2?.sub?.[passageLang] || a.sub;
+      const heading = trArt2?.heading?.[passageLang] || trArt2?.title?.[passageLang] || a.heading || a.title;
+      const sub = trArt2?.sub?.[passageLang] || trArt2?.subtitle?.[passageLang] || a.sub || a.subtitle;
       const bodyParas = resolveTrBody(trArt2, passageLang, a.body);
       const source = trArt2?.source?.[passageLang] || a.source;
 
@@ -4965,8 +4965,8 @@ function renderFocusReaderContent() {
     html += `<hr class="article-divider">`;
     t.articles2.forEach((a, aIdx) => {
       const trArt2 = trPart?.articles2?.[aIdx];
-      const heading = trArt2?.heading?.[focusReaderLang] || a.heading;
-      const sub = trArt2?.sub?.[focusReaderLang] || a.sub;
+      const heading = trArt2?.heading?.[focusReaderLang] || trArt2?.title?.[focusReaderLang] || a.heading || a.title;
+      const sub = trArt2?.sub?.[focusReaderLang] || trArt2?.subtitle?.[focusReaderLang] || a.sub || a.subtitle;
       const bodyParas = resolveTrBody(trArt2, focusReaderLang, a.body);
       const source = trArt2?.source?.[focusReaderLang] || a.source;
 

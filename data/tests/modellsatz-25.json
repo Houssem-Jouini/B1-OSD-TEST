@@ -151,7 +151,8 @@
             "Teilweise kommt der Druck zur „freiwilligen“ Arbeit von der Firmenleitung. Von fast jedem vierten Angestellten erwartet der Arbeitgeber, dass er auch im Urlaub erreichbar ist. Außerdem geben über die Hälfte der Berufstätigen hierzulande an, dass sie in ihrer Freizeit von Kollegen oder von ihrem Chef kontaktiert werden.",
             "Zwischen Männern und Frauen gibt es kaum Unterschiede bezüglich der Anzahl der Urlaubsarbeiter. Beim Alter hingegen gilt: je jünger, desto mehr. Der Anteil derer, die in der freien Zeit arbeiten, nimmt mit höherem Alter also ab.",
             "Warum arbeiten so viele Menschen im Urlaub, in dem man sich eigentlich erholen sollte? Die meisten geben als Grund das Verantwortungsgefühl an oder „weil sonst die Arbeit nicht fertig wird“. Nur 28 % begründen ihr Verhalten damit, dass ihnen ihre Arbeit Spaß mache."
-          ]
+          ],
+          "heading": "Arbeiten im Urlaub?"
         }
       ],
       "questions2": [
@@ -191,7 +192,8 @@
           ],
           "answer": 2
         }
-      ]
+      ],
+      "instructions2": "Lesen Sie den Text aus der Presse und die Aufgaben 10 bis 12 dazu. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c."
     },
     {
       "id": 3,
@@ -2012,6 +2014,10 @@
                 "ولا تكاد توجد فروق تُذكر بين الرجال والنساء فيما يتعلق بأعداد من يعملون أثناء العطلة. أما بالنسبة للعمر، فالقاعدة واضحة: كلما كان الموظف أصغر سناً، زادت ساعات عمله في الإجازة. وبالتالي تنخفض نسبة من يعملون في أوقات فراغهم مع التقدم في السن.",
                 "فلماذا يعمل هذا العدد الكبير من الناس أثناء العطلة التي يُفترض أن تكون مخصصة للاسترخاء واستعادة النشاط؟ يذكر معظمهم الإحساس بالمسؤولية كسبب رئيسي أو «لأن العمل لن ينجز بغير ذلك». بينما يعلل 28% فقط هذا السلوك بأن عملهم يمنحهم المتعة والسعادة."
               ]
+            },
+            "heading": {
+              "fr": "Travailler pendant ses vacances ?",
+              "ar": "العمل أثناء الإجازة والعطلة؟"
             }
           }
         ],
@@ -2076,6 +2082,10 @@
               ]
             }
           }
+        },
+        "instructions2": {
+          "fr": "Lisez le texte de presse et répondez aux questions 10 à 12. Choisissez la bonne réponse a, b ou c.",
+          "ar": "اقرأ النص الصحفي وأجب عن المهام من 10 إلى 12. اختر الإجابة الصحيحة أ، ب أو ج."
         }
       },
       "3": {

@@ -132,7 +132,8 @@
           "body": [
             "Nao, ein neuer Roboter aus Frankreich, kann weder die Stirn runzeln noch lächeln oder Grimassen schneiden, denn er hat ein Gesicht aus Plastik. Aber Nao kann Menschen wiedererkennen, mit denen er schon mal zu tun hatte. Außerdem merkt er, wie ihre Stimmung ist, und reagiert darauf. Wenn er zum Beispiel angelächelt wird, hebt er den Kopf und breitet die Arme aus: ein Zeichen für Freude. Der Roboter kann sich recht gut bewegen. Es fällt ihm auch nicht schwer, etwas vom Boden aufzuheben und wegzuschmeißen, so gelenkig ist er.",
             "Wissenschaftler haben den Roboter weiterentwickelt, um ihn in Spitälern (Spital = österreichisch für „Krankenhaus“) einzusetzen – als Robo-Doktor. Die Forscher glauben, dass Nao kranke Kinder aufmuntern kann, weil viele Kinder einen Roboter als Spielzeug sehen, etwas Schönes zur Unterhaltung, vor dem sie keine Angst haben. Nao soll außerdem den Kindern die Behandlung ihrer Krankheit erklären, denn sprechen kann er sogar gut und geduldig ist er auch. Eine andere seiner Aufgaben ist, den kranken Kleinen die Angst vor Operationen zu nehmen. Der neue Robo-Doktor ist nur 58 cm groß und wiegt gerade mal 5,2 kg. Seine Maße sind für die kleinen Patienten angenehm, sie erinnern sie an ein übergroßes Stofftier."
-          ]
+          ],
+          "heading": "Gesund mit dem Roboter"
         }
       ],
       "questions2": [
@@ -172,7 +173,8 @@
           ],
           "answer": 1
         }
-      ]
+      ],
+      "instructions2": "Lesen Sie den Text aus der Presse und die Aufgaben 10 bis 12 dazu. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c."
     },
     {
       "id": 3,
@@ -2208,6 +2210,10 @@
                 "لا يستطيع الروبوت نايو (Nao)، القادم من فرنسا، أن يقطب جبينه أو يبتسم، لأن وجهه مصنوع من البلاستيك. لكنه قادر على التعرف على الأشخاص الذين تعامل معهم مسبقاً. كما أنه يشعر بمزاجهم ويتفاعل معه؛ فعندما يبتسم له شخص، يرفع رأسه ويبسط ذراعيه تعبيراً عن الفرح. ويتحرك الروبوت بمرونة ملحوظة، ولا يجد صعوبة في التقاط الأشياء عن الأرض أو رميها.",
                 "طوّر العلماء هذا الروبوت لاستخدامه في المستشفيات كروبوت-طبيب. ويعتقد الباحثون أن نايو قادر على الترويح عن الأطفال المرضى، لأن العديد من الأطفال ينظرون إليه كلعبة مسلية لا يشعرون بالخوف منها. كما كُلف نايو بمهمة شرح العلاج للأطفال نظراً لصبره وفصاحته في الحديث، ومن مهامه أيضاً تبديد خوف الصغار من العمليات الجراحية. يبلغ طول الروبوت 58 سم ووزنه 5.2 كغ فقط، مما يجعله محبباً للمرضى الصغار ويذكرهم بدمية قماشية كبيرة."
               ]
+            },
+            "heading": {
+              "fr": "La santé grâce au robot",
+              "ar": "الصحة بفضل الروبوت"
             }
           }
         ],
@@ -2269,7 +2275,11 @@
               ]
             }
           }
-        ]
+        ],
+        "instructions2": {
+          "fr": "Lisez le texte de presse et répondez aux questions 10 à 12. Choisissez la bonne réponse a, b ou c.",
+          "ar": "اقرأ النص الصحفي وأجب عن المهام من 10 إلى 12. اختر الإجابة الصحيحة أ، ب أو ج."
+        }
       },
       "3": {
         "title": {
