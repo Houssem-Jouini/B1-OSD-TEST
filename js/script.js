@@ -1450,11 +1450,17 @@ function renderPassage(t) {
       if (Array.isArray(a.sections)) {
         a.sections.forEach((sec, sIdx) => {
           const trSec = trArt?.sections?.[sIdx];
-          const secTitle = trSec?.title?.[passageLang] || sec.title;
+          const secTitle = trSec?.title?.[passageLang] || trSec?.heading?.[passageLang] || sec.title || sec.heading;
           const secItems = trSec?.items?.[passageLang] || sec.items;
+          const secText = trSec?.text?.[passageLang] || sec.text;
+          const secParas = trSec?.paragraphs?.[passageLang] || trSec?.body?.[passageLang] || sec.paragraphs || sec.body;
 
           html += `<div style="margin-top:16px; margin-bottom:12px; padding:12px 16px; background:var(--bg-card-subtle); border:1px solid var(--border); border-radius:var(--radius-md);">`;
           if (secTitle) html += `<h4 style="font-family:var(--font-sans); font-size:15px; font-weight:800; color:var(--text-main); margin-bottom:8px;">${secTitle}</h4>`;
+          if (secText) html += `<p style="line-height:1.65; font-size:14.5px; color:var(--text-main); margin-bottom:6px;">${secText}</p>`;
+          if (Array.isArray(secParas)) {
+            secParas.forEach(p => html += `<p style="line-height:1.65; font-size:14.5px; color:var(--text-main); margin-bottom:6px;">${p}</p>`);
+          }
           if (secItems) {
             html += `<ul style="line-height:1.65; font-size:14.5px; color:var(--text-main); padding-left:18px;">`;
             secItems.forEach(it => html += `<li style="margin-bottom:5px;">${it}</li>`);
@@ -4952,10 +4958,17 @@ function renderFocusReaderContent() {
       if (Array.isArray(a.sections)) {
         a.sections.forEach((sec, sIdx) => {
           const trSec = trArt?.sections?.[sIdx];
-          const secTitle = trSec?.title?.[focusReaderLang] || sec.title;
+          const secTitle = trSec?.title?.[focusReaderLang] || trSec?.heading?.[focusReaderLang] || sec.title || sec.heading;
           const secItems = trSec?.items?.[focusReaderLang] || sec.items;
+          const secText = trSec?.text?.[focusReaderLang] || sec.text;
+          const secParas = trSec?.paragraphs?.[focusReaderLang] || trSec?.body?.[focusReaderLang] || sec.paragraphs || sec.body;
+
           html += `<div style="margin: 22px 0 16px;">`;
           if (secTitle) html += `<h3 style="font-size: 1.15em; font-weight:800; margin-bottom:8px; color:var(--text-main);">${secTitle}</h3>`;
+          if (secText) html += `<p style="line-height:1.75; font-size:0.95em; margin-bottom:8px;">${secText}</p>`;
+          if (Array.isArray(secParas)) {
+            secParas.forEach(p => html += `<p style="line-height:1.75; font-size:0.95em; margin-bottom:8px;">${p}</p>`);
+          }
           if (secItems) {
             html += `<ul style="line-height:1.75; font-size:0.95em; padding-left: 20px;">`;
             secItems.forEach(it => html += `<li style="margin-bottom:6px;">${it}</li>`);

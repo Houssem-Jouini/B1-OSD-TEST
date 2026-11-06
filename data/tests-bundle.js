@@ -69902,23 +69902,17 @@
         "time": "10 Minuten",
         "instructions": "Lesen Sie die Aufgaben 27 bis 30 und den Text dazu. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
         "intro": "Sie informieren sich über die Benutzungsordnung der Pestalozzi-Bibliothek Zürich, da Sie bald für einige Zeit in Zürich leben werden.",
-        "article": {
-          "title": "Pestalozzi-Bibliothek Zürich (PBZ) — Benutzungsordnung",
-          "sections": [
-            {
-              "heading": "Einschreibung",
-              "text": "Die Bibliotheken der Pestalozzi-Bibliothek Zürich (PBZ) stehen allen Interessierten zur Benutzung offen. Gegen Vorlage eines amtlichen Ausweises wird eine persönliche Bibliothekskarte ausgestellt, die bei jeder Ausleihe mitzubringen ist. Die Bibliothekskarte ist nicht übertragbar, auch nicht innerhalb der Familie oder des Haushalts. Bei Personen ohne dauerhaften Wohnsitz in der Schweiz kann die Ausleihe eingeschränkt werden. Adress- und Namensänderungen sowie der Verlust der Bibliothekskarte sind umgehend zu melden. Ein Ersatzausweis kann gegen eine Gebühr bezogen werden."
-            },
-            {
-              "heading": "Benutzung",
-              "text": "Es können maximal 25 Artikel (Bücher, Zeitschriften, CDs oder DVDs) gleichzeitig ausgeliehen werden. Die Ausleihdauer beträgt in der Regel 4 Wochen. Für bestimmte Artikel (wie beispielsweise DVDs) kann die Bibliothek abweichende Leihfristen festlegen. Eine zweimalige Verlängerung ist möglich. Ausgenommen sind reservierte Artikel. Die Verlängerung kann in der Bibliothek, telefonisch oder online via Internet erfolgen. Ausgeliehene Artikel können reserviert werden. Sobald die reservierten Artikel bereitstehen, wird dies telefonisch oder per SMS mitgeteilt. Die Artikel sind dann innerhalb einer Woche abzuholen. Für Reservationen wird eine Gebühr erhoben. Ebenso können gegen Gebühr Artikel, die nicht im lokalen Bestand vorhanden sind, bei einer anderen Bibliothek der PBZ zur Ausleihe besorgt werden, mit Ausnahme von DVDs."
-            },
-            {
-              "heading": "Haftung",
-              "text": "Kundinnen und Kunden sind für die ausgeliehenen Artikel verantwortlich und zu schonendem Umgang mit dem Bibliothekseigentum verpflichtet. Bei Beschädigung oder Verlust werden neben den Kosten für Reparatur oder Ersatz auch Bearbeitungsgebühren verrechnet. Schäden dürfen nicht selbst repariert werden. Wer die Bestimmungen der Bibliothek nicht beachtet oder sich ungebührlich verhält, kann vorübergehend oder gänzlich von der Benutzung ausgeschlossen werden."
-            }
-          ]
-        },
+        "articles": [
+          {
+            "heading": "Pestalozzi-Bibliothek Zürich (PBZ) — Benutzungsordnung",
+            "sub": "Sie informieren sich über die Benutzungsordnung der Pestalozzi-Bibliothek Zürich, da Sie bald für einige Zeit in Zürich leben werden.",
+            "body": [
+              "<strong>Einschreibung</strong><br>Die Bibliotheken der Pestalozzi-Bibliothek Zürich (PBZ) stehen allen Interessierten zur Benutzung offen. Gegen Vorlage eines amtlichen Ausweises wird eine persönliche Bibliothekskarte ausgestellt, die bei jeder Ausleihe mitzubringen ist. Die Bibliothekskarte ist nicht übertragbar, auch nicht innerhalb der Familie oder des Haushalts. Bei Personen ohne dauerhaften Wohnsitz in der Schweiz kann die Ausleihe eingeschränkt werden. Adress- und Namensänderungen sowie der Verlust der Bibliothekskarte sind umgehend zu melden. Ein Ersatzausweis kann gegen eine Gebühr bezogen werden.",
+              "<strong>Benutzung</strong><br>Es können maximal 25 Artikel (Bücher, Zeitschriften, CDs oder DVDs) gleichzeitig ausgeliehen werden. Die Ausleihdauer beträgt in der Regel 4 Wochen. Für bestimmte Artikel (wie beispielsweise DVDs) kann die Bibliothek abweichende Leihfristen festlegen. Eine zweimalige Verlängerung ist möglich. Ausgenommen sind reservierte Artikel. Die Verlängerung kann in der Bibliothek, telefonisch oder online via Internet erfolgen. Ausgeliehene Artikel können reserviert werden. Sobald die reservierten Artikel bereitstehen, wird dies telefonisch oder per SMS mitgeteilt. Die Artikel sind dann innerhalb einer Woche abzuholen. Für Reservationen wird eine Gebühr erhoben. Ebenso können gegen Gebühr Artikel, die nicht im lokalen Bestand vorhanden sind, bei einer anderen Bibliothek der PBZ zur Ausleihe besorgt werden, mit Ausnahme von DVDs.",
+              "<strong>Haftung</strong><br>Kundinnen und Kunden sind für die ausgeliehenen Artikel verantwortlich und zu schonendem Umgang mit dem Bibliothekseigentum verpflichtet. Bei Beschädigung oder Verlust werden neben den Kosten für Reparatur oder Ersatz auch Bearbeitungsgebühren verrechnet. Schäden dürfen nicht selbst repariert werden. Wer die Bestimmungen der Bibliothek nicht beachtet oder sich ungebührlich verhält, kann vorübergehend oder gänzlich von der Benutzung ausgeschlossen werden."
+            ]
+          }
+        ],
         "questions": [
           {
             "id": "27",
@@ -72126,48 +72120,32 @@
             "fr": "Vous vous informez sur le règlement d'utilisation de la bibliothèque Pestalozzi de Zurich (PBZ), car vous allez bientôt vivre à Zurich pendant un certain temps.",
             "ar": "تطلع على لائحة استخدام مكتبة بيستالوزي في زيورخ (PBZ)، حيث ستعيش في زيورخ لبعض الوقت قريباً."
           },
-          "article": {
-            "title": {
-              "de": "Pestalozzi-Bibliothek Zürich (PBZ) — Benutzungsordnung",
-              "fr": "Bibliothèque Pestalozzi de Zurich (PBZ) — Règlement d'usage",
-              "ar": "مكتبة بيستالوزي في زيورخ (PBZ) — لائحة ونظام الاستخدام"
-            },
-            "sections": [
-              {
-                "heading": {
-                  "de": "Einschreibung",
-                  "fr": "Inscription",
-                  "ar": "التسجيل"
-                },
-                "text": {
-                  "fr": "Les bibliothèques de la Pestalozzi-Bibliothek Zürich (PBZ) sont ouvertes à toute personne intéressée. Sur présentation d'une pièce d'identité officielle, une carte de bibliothèque personnelle est délivrée ; elle doit être apportée à chaque emprunt. La carte est strictement personnelle et non transmissible, même au sein de la famille ou du foyer. Pour les personnes n'ayant pas de domicile permanent en Suisse, le prêt peut être restreint. Tout changement d'adresse ou de nom, ainsi que la perte de la carte, doivent être signalés immédiatement. Une carte de remplacement peut être obtenue contre paiement de frais.",
-                  "ar": "تفتح مكتبات بيستالوزي في زيورخ (PBZ) أبوابها لجميع المهتمين للاستخدام. ويتم إصدار بطاقة مكتبة شخصية عند إبراز بطاقة هوية رسمية، ويجب إحضار هذه البطاقة عند كل عملية استعارة. بطاقة المكتبة غير قابلة للتحويل أو التنازل، حتى داخل الأسرة أو السكن المشترك. بالنسبة للأشخاص الذين ليس لديهم محل إقامة دائم في سويسرا، قد يتم تقييد الاستعارة. يجب الإبلاغ الفوري عن أي تغيير في العنوان أو الاسم وكذلك عند فقدان بطاقة المكتبة. يمكن استخراج بطاقة بديلة مقابل دفع رسوم."
-                }
+          "articles": [
+            {
+              "heading": {
+                "de": "Pestalozzi-Bibliothek Zürich (PBZ) — Benutzungsordnung",
+                "fr": "Bibliothèque Pestalozzi de Zurich (PBZ) — Règlement d'usage",
+                "ar": "مكتبة بيستالوزي في زيورخ (PBZ) — لائحة ونظام الاستخدام"
               },
-              {
-                "heading": {
-                  "de": "Benutzung",
-                  "fr": "Utilisation et emprunts",
-                  "ar": "الاستخدام والاستعارة"
-                },
-                "text": {
-                  "fr": "Il est possible d'emprunter simultanément 25 articles au maximum (livres, revues, CD ou DVD). La durée du prêt est généralement de 4 semaines. Pour certains articles (comme les DVD), la bibliothèque peut fixer des durées de prêt différentes. Deux prolongations sont autorisées, sauf pour les articles réservés par un tiers. La prolongation peut être effectuée sur place, par téléphone ou en ligne via Internet. Les articles déjà empruntés peuvent être réservés. Dès que l'article réservé est disponible, l'usager en est informé par téléphone ou SMS. Les articles doivent alors être retirés dans un délai d'une semaine. Les réservations font l'objet d'une taxe. De même, les articles absents du fonds local peuvent être acheminés depuis une autre succursale de la PBZ contre paiement de frais, à l'exception des DVD.",
-                  "ar": "يمكن استعارة 25 مادة كحد أقصى (كتب، مجلات، أقراص مدمجة CD أو DVD) في وقت واحد. وتبلغ مدة الإعارة عادة 4 أسابيع. ويمكن للمكتبة تحديد فترات إعارة مختلفة لبعض المواد (مثل أقراص DVD). يُسمح بتمديد فترة الإعارة مرتين، ويُستثنى من ذلك المواد المحجوزة لمستفيد آخر. يمكن إجراء التمديد في المكتبة أو هاتفياً أو عبر الإنترنت. يمكن حجز المواد المعارة لشخص آخر، وبمجرد تجهيز المادة المحجوزة يتم إخطار المستفيد هاتفياً أو عبر رسالة نصية قصيرة SMS، ويتعين استلامها خلال أسبوع واحد. يتم فرض رسوم على الحجوزات. وبالمثل، يمكن جلب المواد غير المتوفرة في المخزون المحلي من مكتبة أخرى تابعة لـ PBZ مقابل رسوم، باستثناء أقراص DVD."
-                }
+              "sub": {
+                "de": "Sie informieren sich über die Benutzungsordnung der Pestalozzi-Bibliothek Zürich, da Sie bald für einige Zeit in Zürich leben werden.",
+                "fr": "Vous vous informez sur le règlement d'utilisation de la bibliothèque Pestalozzi de Zurich (PBZ), car vous allez bientôt vivre à Zurich pendant un certain temps.",
+                "ar": "تطلع على لائحة استخدام مكتبة بيستالوزي في زيورخ (PBZ)، حيث ستعيش في زيورخ لبعض الوقت قريباً."
               },
-              {
-                "heading": {
-                  "de": "Haftung",
-                  "fr": "Responsabilité",
-                  "ar": "المسؤولية والالتزامات"
-                },
-                "text": {
-                  "fr": "Les usagères et usagers sont responsables des documents empruntés et tenus de traiter les biens de la bibliothèque avec soin. En cas de dommage ou de perte, des frais de traitement sont facturés en plus des coûts de réparation ou de remplacement. Il est interdit de réparer soi-même les documents endommagés. Toute personne qui ne respecte pas le règlement de la bibliothèque ou adopte un comportement inconvenant peut être exclue temporairement ou définitivement de son utilisation.",
-                  "ar": "المستفيدون مسؤولون مسؤولية كاملة عن المواد المستعارة وملتزمون بالتعامل مع ممتلكات المكتبة بعناية وحرص. في حال حدوث تلف أو فقدان، يتم احتساب رسوم معالجة بالإضافة إلى تكاليف الإصلاح أو الاستبدال، ولا يجوز للمستفيد إصلاح الأضرار بنفسه. وكل من لا يلتزم بأحكام ونظام المكتبة أو يسلك سلوكاً غير لائق، يمكن حرمانه واستبعاده من استخدام المكتبة مؤقتاً أو بصورة نهائية."
-                }
+              "body": {
+                "fr": [
+                  "<strong>Inscription</strong><br>Les bibliothèques de la Pestalozzi-Bibliothek Zürich (PBZ) sont ouvertes à toute personne intéressée. Sur présentation d'une pièce d'identité officielle, une carte de bibliothèque personnelle est délivrée ; elle doit être apportée à chaque emprunt. La carte est strictement personnelle et non transmissible, même au sein de la famille ou du foyer. Pour les personnes n'ayant pas de domicile permanent en Suisse, le prêt peut être restreint. Tout changement d'adresse ou de nom, ainsi que la perte de la carte, doivent être signalés immédiatement. Une carte de remplacement peut être obtenue contre paiement de frais.",
+                  "<strong>Utilisation et emprunts</strong><br>Il est possible d'emprunter simultanément 25 articles au maximum (livres, revues, CD ou DVD). La durée du prêt est généralement de 4 semaines. Pour certains articles (comme les DVD), la bibliothèque peut fixer des durées de prêt différentes. Deux prolongations sont autorisées, sauf pour les articles réservés par un tiers. La prolongation peut être effectuée sur place, par téléphone ou en ligne via Internet. Les articles déjà empruntés peuvent être réservés. Dès que l'article réservé est disponible, l'usager en est informé par téléphone ou SMS. Les articles doivent alors être retirés dans un délai d'une semaine. Les réservations font l'objet d'une taxe. De même, les articles absents du fonds local peuvent être acheminés depuis une autre succursale de la PBZ contre paiement de frais, à l'exception des DVD.",
+                  "<strong>Responsabilité</strong><br>Les usagères et usagers sont responsables des documents empruntés et tenus de traiter les biens de la bibliothèque avec soin. En cas de dommage ou de perte, des frais de traitement sont facturés en plus des coûts de réparation ou de remplacement. Il est interdit de réparer soi-même les documents endommagés. Toute personne qui ne respecte pas le règlement de la bibliothèque ou adopte un comportement inconvenant peut être exclue temporairement ou définitivement de son utilisation."
+                ],
+                "ar": [
+                  "<strong>التسجيل</strong><br>تفتح مكتبات بيستالوزي في زيورخ (PBZ) أبوابها لجميع المهتمين للاستخدام. ويتم إصدار بطاقة مكتبة شخصية عند إبراز بطاقة هوية رسمية، ويجب إحضار هذه البطاقة عند كل عملية استعارة. بطاقة المكتبة غير قابلة للتحويل أو التنازل، حتى داخل الأسرة أو السكن المشترك. بالنسبة للأشخاص الذين ليس لديهم محل إقامة دائم في سويسرا، قد يتم تقييد الاستعارة. يجب الإبلاغ الفوري عن أي تغيير في العنوان أو الاسم وكذلك عند فقدان بطاقة المكتبة. يمكن استخراج بطاقة بديلة مقابل دفع رسوم.",
+                  "<strong>الاستخدام والاستعارة</strong><br>يمكن استعارة 25 مادة كحد أقصى (كتب، مجلات، أقراص مدمجة CD أو DVD) في وقت واحد. وتبلغ مدة الإعارة عادة 4 أسابيع. ويمكن للمكتبة تحديد فترات إعارة مختلفة لبعض المواد (مثل أقراص DVD). يُسمح بتمديد فترة الإعارة مرتين، ويُستثنى من ذلك المواد المحجوزة لمستفيد آخر. يمكن إجراء التمديد في المكتبة أو هاتفياً أو عبر الإنترنت. يمكن حجز المواد المعارة لشخص آخر، وبمجرد تجهيز المادة المحجوزة يتم إخطار المستفيد هاتفياً أو عبر رسالة نصية قصيرة SMS، ويتعين استلامها خلال أسبوع واحد. يتم فرض رسوم على الحجوزات. وبالمثل، يمكن جلب المواد غير المتوفرة في المخزون المحلي من مكتبة أخرى تابعة لـ PBZ مقابل رسوم، باستثناء أقراص DVD.",
+                  "<strong>المسؤولية والالتزامات</strong><br>المستفيدون مسؤولون مسؤولية كاملة عن المواد المستعارة وملتزمون بالتعامل مع ممتلكات المكتبة بعناية وحرص. في حال حدوث تلف أو فقدان، يتم احتساب رسوم معالجة بالإضافة إلى تكاليف الإصلاح أو الاستبدال، ولا يجوز للمستفيد إصلاح الأضرار بنفسه. وكل من لا يلتزم بأحكام ونظام المكتبة أو يسلك سلوكاً غير لائق، يمكن حرمانه واستبعاده من استخدام المكتبة مؤقتاً أو بصورة نهائية."
+                ]
               }
-            ]
-          },
+            }
+          ],
           "questions": {
             "27": {
               "text": {
