@@ -1,0 +1,6 @@
+Beispiel = 00:00
+teil 1 = 02:00
+teil 2 = 12:03
+teil 3 = 18:11
+teil 4 = 22:56
+teil 4 (wiederholung) = 30:43

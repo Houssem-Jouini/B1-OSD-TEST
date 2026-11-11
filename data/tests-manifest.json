@@ -273,5 +273,27 @@
     "partsCount": 6,
     "questionsCount": 50,
     "fileName": "data/tests/modellsatz-12.json"
+  },
+  {
+    "id": "modellsatz-27",
+    "title": "Modelltest 26 — Zertifikat B1",
+    "badge": "Modelltest 26",
+    "examTitle": "Goethe / ÖSD B1 Prüfungssimulation — Modelltest 26",
+    "examSub": "Lesen (5 Teile) & Hören (4 Teile) · Modelltest 26",
+    "timeTotal": 65,
+    "partsCount": 6,
+    "questionsCount": 50,
+    "fileName": "data/tests/modellsatz-27.json"
+  },
+  {
+    "id": "modellsatz-28",
+    "title": "Modelltest 27 — Zertifikat B1",
+    "badge": "Modelltest 27",
+    "examTitle": "Goethe / ÖSD B1 Prüfungssimulation — Modelltest 27",
+    "examSub": "Lesen (5 Teile) & Hören (4 Teile) · Modelltest 27",
+    "timeTotal": 65,
+    "partsCount": 6,
+    "questionsCount": 50,
+    "fileName": "data/tests/modellsatz-28.json"
   }
 ]
