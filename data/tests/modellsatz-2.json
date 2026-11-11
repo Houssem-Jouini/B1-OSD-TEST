@@ -1,10 +1,9 @@
 {
   "id": "modellsatz-2",
-  "archived": true,
-  "title": "Modellsatz 2 — B1 Prüfungstraining (Set A)",
-  "badge": "Modellsatz 2",
-  "examTitle": "B1 Prüfungstraining — Set A (Training zur Prüfung Lesen & Hören)",
-  "examSub": "Lesen (5 Teile) & Hören (4 Teile) · Modellsatz 2 (PDF)",
+  "title": "Modelltest 11 — Zertifikat B1",
+  "badge": "Modelltest 11",
+  "examTitle": "Goethe / ÖSD B1 Prüfungssimulation — Modelltest 11",
+  "examSub": "Lesen (5 Teile) & Hören (4 Teile) · Modelltest 11",
   "timeTotal": 105,
   "parts": [
     {

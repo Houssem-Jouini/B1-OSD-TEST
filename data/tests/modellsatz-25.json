@@ -1,9 +1,9 @@
 {
   "id": "modellsatz-25",
-  "title": "Modelltest 19 — Hueber Zertifikat B1",
-  "badge": "Modelltest 19",
-  "examTitle": "Goethe / ÖSD B1 Prüfungssimulation — Modelltest 19",
-  "examSub": "Lesen (5 Teile) & Hören (4 Teile) · Modelltest 19 (Hueber)",
+  "title": "Modelltest 17 — Zertifikat B1",
+  "badge": "Modelltest 17",
+  "examTitle": "Goethe / ÖSD B1 Prüfungssimulation — Modelltest 17",
+  "examSub": "Lesen (5 Teile) & Hören (4 Teile) · Modelltest 17",
   "durationMinutes": 65,
   "parts": [
     {
@@ -1806,12 +1806,12 @@
   },
   "translations": {
     "examTitle": {
-      "fr": "Goethe / ÖSD Simulation d'examen B1 — Test modèle 19",
-      "ar": "محاكاة امتحان غوته / أوس دي B1 — النموذج التدريبي 19"
+      "fr": "Goethe / ÖSD Simulation d'examen B1 — Test modèle 17",
+      "ar": "محاكاة امتحان غوته / أوس دي B1 — النموذج التدريبي 17"
     },
     "examSub": {
-      "fr": "Lecture (5 parties) & Écoute (4 parties) · Test modèle 19 (Hueber)",
-      "ar": "القراءة (5 أجزاء) والاستماع (4 أجزاء) · النموذج التدريبي 19 (هوبر)"
+      "fr": "Lecture (5 parties) & Écoute (4 parties) · Test modèle 17",
+      "ar": "القراءة (5 أجزاء) والاستماع (4 أجزاء) · النموذج التدريبي 17"
     },
     "parts": {
       "1": {

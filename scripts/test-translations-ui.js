@@ -116,20 +116,9 @@ function testExam(examId) {
   }
 }
 
-testExam("modellsatz-15");
-testExam("modellsatz-16");
-testExam("modellsatz-17");
-testExam("modellsatz-18");
-testExam("modellsatz-19");
-testExam("modellsatz-20");
-testExam("modellsatz-21");
-testExam("modellsatz-22");
-testExam("modellsatz-23");
-testExam("modellsatz-24");
-testExam("modellsatz-25");
-testExam("modellsatz-26");
-testExam("modellsatz-27");
-testExam("modellsatz-28");
+for (const m of modelTests) {
+  testExam(m.id);
+}
 console.log("\\n🎉 ALL 6 TEILE FULLY TESTED AND VERIFIED IN GERMAN, FRENCH AND ARABIC!");
 `;
 

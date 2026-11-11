@@ -76,9 +76,9 @@ global.window = {
 // Load test data
 const mod1 = JSON.parse(fs.readFileSync(path.join(__dirname, '../data/tests/modellsatz-1.json'), 'utf8'));
 const mod2 = JSON.parse(fs.readFileSync(path.join(__dirname, '../data/tests/modellsatz-2.json'), 'utf8'));
-const mod3 = JSON.parse(fs.readFileSync(path.join(__dirname, '../data/tests/modellsatz-3.json'), 'utf8'));
+const mod4 = JSON.parse(fs.readFileSync(path.join(__dirname, '../data/tests/modellsatz-4.json'), 'utf8'));
 
-global.modelTests = [mod1, mod2, mod3];
+global.modelTests = [mod1, mod2, mod4];
 global.currentTestIndex = 0;
 global.currentTest = mod1;
 global.testData = mod1.parts;
