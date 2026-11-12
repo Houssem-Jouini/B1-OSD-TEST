@@ -1685,6 +1685,10 @@ function isHorenTeilComplete(partNum) {
 window.toggleReviewExplanation = function(qid) {
   const el = document.getElementById(`review-exp-${qid}`);
   if (!el) return;
+  if (el.tagName && el.tagName.toLowerCase() === 'details') {
+    el.open = !el.open;
+    return;
+  }
   const isHidden = el.style.display === 'none';
   el.style.display = isHidden ? 'block' : 'none';
   const btn = el.previousElementSibling;
@@ -1755,6 +1759,15 @@ function renderExplanationBoxHtml(q, userVal, isCorrect) {
 
 /* ---------------- INTERACTIVE TEXT EVIDENCE PINNING ---------------- */
 window.highlightEvidence = function(qid) {
+  const resultsEl = document.getElementById('resultsScreen');
+  if (resultsEl && resultsEl.style.display !== 'none' && typeof exitResultsToExam === 'function') {
+    const ownerPart = testData.find(part => allQuestionsOf(part).some(q => String(q.id) === String(qid)));
+    if (ownerPart) {
+      exitResultsToExam(ownerPart.id, qid, true);
+      return;
+    }
+  }
+
   clearEvidenceHighlights();
 
   const t = testData.find(x => x.id === activeTeil);
@@ -5404,140 +5417,603 @@ function jumpToQuestion(teilId, qid) {
 window.jumpToQuestion = jumpToQuestion;
 
 /* ---------------- RESULTS & EVALUATION SCREEN ---------------- */
-function formatAnswerDisplay(q, val) {
-  if (val === undefined || val === null || val === '') return 'Keine Antwort';
-  if (q.type === 'mcq' && Array.isArray(q.options)) {
-    const idx = parseInt(val, 10);
-    const letter = ['a', 'b', 'c'][idx] || val;
-    const text = q.options[idx] || '';
-    return text ? `${letter}) ${text}` : String(val);
+let lastEvaluatedModule = 'lesen';
+let reviewTeilFilter = null;
+
+function escapeResultHtml(str) {
+  return String(str === undefined || str === null ? '' : str)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
+
+function getUiLangCode() {
+  if (typeof window !== 'undefined' && window.uiLoc && typeof window.uiLoc.getLang === 'function') {
+    return window.uiLoc.getLang() || 'de';
   }
-  if (q.type === 'speaker' && Array.isArray(q.options)) {
-    const idx = parseInt(val, 10);
-    const letter = ['a', 'b', 'c'][idx] || val;
-    const text = q.options[idx] || '';
+  return 'de';
+}
+
+function uiResText(key, fallback) {
+  if (typeof window !== 'undefined' && window.uiLoc && typeof window.uiLoc.t === 'function') {
+    const translated = window.uiLoc.t(key);
+    if (translated && translated !== key) return translated;
+  }
+  return fallback;
+}
+
+function exitResultsToExam(targetTeilId = activeTeil, scrollToQid = null, runHighlight = false) {
+  const resultsEl = document.getElementById('resultsScreen');
+  const tabsEl = document.getElementById('tabsWrapper');
+  const areaEl = document.getElementById('testAreaContainer');
+  const footerEl = document.getElementById('footerBar');
+  const bannerEl = document.getElementById('candidateBanner');
+
+  if (resultsEl) resultsEl.style.display = 'none';
+  if (tabsEl) tabsEl.style.display = 'block';
+  if (areaEl) areaEl.style.display = 'block';
+  if (footerEl) footerEl.style.display = 'block';
+  if (bannerEl) bannerEl.style.display = 'flex';
+
+  const hasTarget = testData.some(p => p.id === targetTeilId);
+  if (hasTarget && typeof switchTeil === 'function' && activeTeil !== targetTeilId) {
+    switchTeil(targetTeilId);
+  } else {
+    if (hasTarget) activeTeil = targetTeilId;
+    renderCurrentTeil();
+  }
+
+  if (scrollToQid) {
+    setTimeout(() => {
+      if (runHighlight && typeof window.highlightEvidence === 'function') {
+        window.highlightEvidence(scrollToQid);
+      } else {
+        const card = document.getElementById(`question-card-${scrollToQid}`);
+        if (card) {
+          card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          card.classList.remove('highlight-jump');
+          void card.offsetWidth;
+          card.classList.add('highlight-jump');
+        }
+      }
+    }, 90);
+  } else if (typeof window !== 'undefined' && typeof window.scrollTo === 'function') {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+}
+window.exitResultsToExam = exitResultsToExam;
+
+function getSpeakerOptionsForReview(ownerPart, q, qTr, lang) {
+  const sec4Speakers = ownerPart?.horenSections?.[3]?.speakers?.map(s => (typeof s === 'string' ? s : s.name));
+  let speakerNames = resolveTrOptions(qTr, lang, q.options) || sec4Speakers || null;
+  if (currentTest && currentTest.id === 'modellsatz-1') {
+    if (lang === 'ar') {
+      speakerNames = ['منسق الحوار (Moderator)', 'دانا شنايدر (Dana Schneider)', 'فلوريان بادر (Florian Bader)'];
+    } else if (lang === 'fr') {
+      speakerNames = ['Le modérateur', 'Dana Schneider', 'Florian Bader'];
+    }
+  } else if (currentTest && currentTest.id === 'modellsatz-2') {
+    if (lang === 'ar') {
+      speakerNames = ['المذيعة (Moderatorin)', 'البروفيسور فريدنتال (Friedenthal)', 'السيدة نيلسن (Nielsen)'];
+    } else if (lang === 'fr') {
+      speakerNames = ['La présentatrice (Moderatorin)', 'Prof. Friedenthal', 'Mme Nielsen'];
+    }
+  }
+  return speakerNames;
+}
+
+function getLocalizedReviewQuestion(ownerPart, q, lang = 'de') {
+  const trPart = currentTest ? getTrPart(currentTest.id, ownerPart.id, lang) : null;
+  const qTr = trPart?.questions?.[String(q.id)];
+
+  if (q.type === 'letter') {
+    const origLetter = ownerPart?.letters?.find(l => String(l.id) === String(q.id));
+    const trLetter = trPart?.letters?.[String(q.id)];
+    const who = trLetter?.who || origLetter?.who || '';
+    const snippet = trLetter?.text?.[lang] || origLetter?.text || '';
+    const promptPrefix = lang === 'ar' ? 'تعليق' : (lang === 'fr' ? 'Commentaire de' : 'Kommentar von');
+    return {
+      text: who ? `${promptPrefix} ${who}` : (q.text || ''),
+      snippet,
+      options: null
+    };
+  }
+
+  const promptText = qTr?.[lang] || qTr?.text?.[lang] || q.text || '';
+  const options = q.type === 'speaker'
+    ? getSpeakerOptionsForReview(ownerPart, q, qTr, lang)
+    : resolveTrOptions(qTr, lang, q.options);
+
+  return {
+    text: promptText,
+    snippet: '',
+    options
+  };
+}
+
+function formatAnswerDisplay(q, val, lang = 'de', ownerPart = null, localizedOptions = null) {
+  if (val === undefined || val === null || val === '') {
+    return lang === 'ar' ? 'لم تتم الإجابة' : (lang === 'fr' ? 'Aucune réponse' : 'Keine Antwort');
+  }
+  const opts = localizedOptions || q.options;
+  const letterMap = { a: 0, b: 1, c: 2 };
+
+  if (q.type === 'mcq' || q.type === 'speaker') {
+    const lowerVal = String(val).trim().toLowerCase();
+    const idx = Object.prototype.hasOwnProperty.call(letterMap, lowerVal)
+      ? letterMap[lowerVal]
+      : parseInt(val, 10);
+    const letter = ['a', 'b', 'c'][idx] || lowerVal;
+    const text = Array.isArray(opts) ? (opts[idx] || '') : '';
     return text ? `${letter}) ${text}` : String(val);
   }
   if (q.type === 'tf') {
-    return String(val).toLowerCase() === 'richtig' ? 'Richtig' : 'Falsch';
+    const isRichtig = String(val).toLowerCase() === 'richtig';
+    if (lang === 'ar') return isRichtig ? 'صحيح' : 'خطأ';
+    if (lang === 'fr') return isRichtig ? 'Vrai' : 'Faux';
+    return isRichtig ? 'Richtig' : 'Falsch';
   }
   if (q.type === 'letter') {
-    return String(val).toLowerCase() === 'ja' ? 'Ja' : 'Nein';
+    const isJa = String(val).toLowerCase() === 'ja';
+    if (lang === 'ar') return isJa ? 'نعم' : 'لا';
+    if (lang === 'fr') return isJa ? 'Oui' : 'Non';
+    return isJa ? 'Ja' : 'Nein';
   }
-  return String(val).toUpperCase();
+
+  const code = String(val).trim().toUpperCase();
+  if (ownerPart && ownerPart.id === 3 && ownerPart.adsFormatted) {
+    if (code === 'X' || code === '0') {
+      return lang === 'ar'
+        ? 'X (لا يوجد إعلان)'
+        : (lang === 'fr' ? 'X (Aucune annonce)' : 'X (Keine Anzeige)');
+    }
+    const adObj = ownerPart.adsFormatted.find((a, i) => (a.code || a.id || String.fromCharCode(65 + i)).toUpperCase() === code);
+    if (adObj && adObj.title) {
+      return `${code} · ${adObj.title}`;
+    }
+  }
+  return code;
 }
 
-let lastEvaluatedModule = 'lesen';
-
-function showResults(moduleType) {
-  if (!moduleType) {
-    moduleType = isCurrentTeilHoren(activeTeil) ? 'horen' : 'lesen';
-  }
-  lastEvaluatedModule = moduleType;
-
-  timerRunning = false;
-  syncAllMistakes();
-  sendModuleResultsEmail(moduleType);
-
-  document.getElementById('tabsWrapper').style.display = 'none';
-  document.getElementById('testAreaContainer').style.display = 'none';
-  document.getElementById('footerBar').style.display = 'none';
-  const resScreen = document.getElementById('resultsScreen');
-  if (resScreen) resScreen.style.display = 'block';
-
+function getModuleEvaluationData(moduleType) {
   const isHoren = moduleType === 'horen';
-  const moduleParts = testData.filter(t => isHoren ? (t.isHoren || t.id === 6) : (!t.isHoren && t.id !== 6));
-
+  const moduleParts = testData.filter(t => (isHoren ? (t.isHoren || t.id === 6) : (!t.isHoren && t.id !== 6)));
+  const sections = [];
   let totalCorrect = 0;
+  let totalIncorrect = 0;
+  let totalUnanswered = 0;
   let totalQuestions = 0;
 
-  const teilBreakdownHtml = moduleParts.map(t => {
-    const qs = allQuestionsOf(t);
-    let partCorrect = 0;
-    qs.forEach(q => {
-      if (isMatchOrTfCorrect(userAnswers[q.id], q.answer)) {
-        partCorrect++;
-      }
-    });
-    totalCorrect += partCorrect;
-    totalQuestions += qs.length;
+  if (isHoren && moduleParts.length > 0) {
+    const horenPart = moduleParts[0];
+    const allHorenQs = allQuestionsOf(horenPart);
+    const partBuckets = { 1: [], 2: [], 3: [], 4: [] };
 
-    const partPct = qs.length > 0 ? Math.round((partCorrect / qs.length) * 100) : 0;
-    return `
-      <div class="teil-score-card">
-        <div class="title">${t.title}</div>
-        <div class="val">${partCorrect} / ${qs.length}</div>
-        <div style="font-size:12px; color:var(--text-muted); margin-top:4px; font-weight:600;">${partPct}%</div>
-      </div>
-    `;
-  }).join('');
+    allHorenQs.forEach((q, idx) => {
+      const num = (q.num !== undefined && !isNaN(Number(q.num)))
+        ? Number(q.num)
+        : (parseInt(String(q.num || q.id).replace(/\D/g, ''), 10) || (idx + 1));
+      const pNum = q.teilPart || (num <= 10 ? 1 : (num <= 15 ? 2 : (num <= 22 ? 3 : 4)));
+      if (partBuckets[pNum]) partBuckets[pNum].push(q);
+    });
+
+    const uiLang = getUiLangCode();
+    const horenSubMeta = {
+      1: {
+        title: uiLang === 'fr' ? 'Compréhension orale · Partie 1' : (uiLang === 'en' ? 'Listening · Part 1' : 'Hören Teil 1'),
+        subtitle: uiLang === 'fr' ? 'Textes courts (Q 1–10)' : (uiLang === 'en' ? 'Short texts (Q 1–10)' : 'Kurze Texte (1–10)')
+      },
+      2: {
+        title: uiLang === 'fr' ? 'Compréhension orale · Partie 2' : (uiLang === 'en' ? 'Listening · Part 2' : 'Hören Teil 2'),
+        subtitle: uiLang === 'fr' ? 'Exposé / Annonce (Q 11–15)' : (uiLang === 'en' ? 'Talk / Tour (Q 11–15)' : 'Monolog (11–15)')
+      },
+      3: {
+        title: uiLang === 'fr' ? 'Compréhension orale · Partie 3' : (uiLang === 'en' ? 'Listening · Part 3' : 'Hören Teil 3'),
+        subtitle: uiLang === 'fr' ? 'Dialogue (Q 16–22)' : (uiLang === 'en' ? 'Conversation (Q 16–22)' : 'Gespräch (16–22)')
+      },
+      4: {
+        title: uiLang === 'fr' ? 'Compréhension orale · Partie 4' : (uiLang === 'en' ? 'Listening · Part 4' : 'Hören Teil 4'),
+        subtitle: uiLang === 'fr' ? 'Débat radio (Q 23–30)' : (uiLang === 'en' ? 'Discussion (Q 23–30)' : 'Diskussion (23–30)')
+      }
+    };
+
+    [1, 2, 3, 4].forEach(pNum => {
+      const qs = partBuckets[pNum];
+      if (!qs || qs.length === 0) return;
+      let c = 0, w = 0, u = 0;
+      qs.forEach(q => {
+        const val = userAnswers[q.id];
+        if (val === undefined || val === '') u++;
+        else if (isMatchOrTfCorrect(val, q.answer)) c++;
+        else w++;
+      });
+      totalCorrect += c;
+      totalIncorrect += w;
+      totalUnanswered += u;
+      totalQuestions += qs.length;
+      sections.push({
+        filterKey: `horen-${pNum}`,
+        partId: horenPart.id,
+        teilPart: pNum,
+        ownerPart: horenPart,
+        title: horenSubMeta[pNum].title,
+        subtitle: horenSubMeta[pNum].subtitle,
+        questions: qs,
+        correct: c,
+        incorrect: w,
+        unanswered: u,
+        pct: Math.round((c / qs.length) * 100)
+      });
+    });
+  } else {
+    const uiLang = getUiLangCode();
+    const lesenSubtitles = {
+      1: uiLang === 'fr' ? 'Blog / Récit (Q 1–6)' : (uiLang === 'en' ? 'Blog / Article (Q 1–6)' : 'Blog / Text (1–6)'),
+      2: uiLang === 'fr' ? 'Presse (Q 7–12)' : (uiLang === 'en' ? 'News articles (Q 7–12)' : 'Zeitungstexte (7–12)'),
+      3: uiLang === 'fr' ? 'Petites annonces (Q 13–19)' : (uiLang === 'en' ? 'Classifieds (Q 13–19)' : 'Anzeigen (13–19)'),
+      4: uiLang === 'fr' ? 'Opinions / Forum (Q 20–26)' : (uiLang === 'en' ? 'Opinions (Q 20–26)' : 'Leserbriefe (20–26)'),
+      5: uiLang === 'fr' ? 'Règlement (Q 27–30)' : (uiLang === 'en' ? 'Rules / Info (Q 27–30)' : 'Hinweise (27–30)')
+    };
+
+    moduleParts.forEach(t => {
+      const qs = allQuestionsOf(t);
+      let c = 0, w = 0, u = 0;
+      qs.forEach(q => {
+        const val = userAnswers[q.id];
+        if (val === undefined || val === '') u++;
+        else if (isMatchOrTfCorrect(val, q.answer)) c++;
+        else w++;
+      });
+      totalCorrect += c;
+      totalIncorrect += w;
+      totalUnanswered += u;
+      totalQuestions += qs.length;
+      const shortTitle = (t.title || `Teil ${t.id}`).split(':')[0].trim();
+      sections.push({
+        filterKey: String(t.id),
+        partId: t.id,
+        teilPart: null,
+        ownerPart: t,
+        title: shortTitle,
+        subtitle: lesenSubtitles[t.id] || '',
+        questions: qs,
+        correct: c,
+        incorrect: w,
+        unanswered: u,
+        pct: qs.length > 0 ? Math.round((c / qs.length) * 100) : 0
+      });
+    });
+  }
 
   // Official Goethe / ÖSD Standard: Lesen and Hören are each scored out of 100 Points independently
   const points = totalQuestions > 0 ? Math.round((totalCorrect / totalQuestions) * 100) : 0;
   const pct = points;
   const passed = points >= 60;
+  const margin = points - 60;
 
-  // Record in persistent storage
-  recordExamPassed(currentTest.id, moduleType, {
-    passed,
-    score: totalCorrect,
+  return {
+    moduleType,
+    isHoren,
+    moduleParts,
+    sections,
+    totalCorrect,
+    totalIncorrect,
+    totalUnanswered,
+    answeredCount: totalQuestions - totalUnanswered,
     totalQuestions,
     points,
-    pct
+    pct,
+    passed,
+    margin
+  };
+}
+
+function getDualModuleLiveSummary(moduleType) {
+  const isHoren = moduleType === 'horen';
+  const parts = testData.filter(t => (isHoren ? (t.isHoren || t.id === 6) : (!t.isHoren && t.id !== 6)));
+  if (parts.length === 0) return null;
+
+  let correct = 0;
+  let answered = 0;
+  let total = 0;
+  parts.forEach(t => {
+    const qs = allQuestionsOf(t);
+    qs.forEach(q => {
+      total++;
+      const val = userAnswers[q.id];
+      if (val !== undefined && val !== '') {
+        answered++;
+        if (isMatchOrTfCorrect(val, q.answer)) correct++;
+      }
+    });
   });
 
+  const stored = currentTest ? getPassedExamsStore()[currentTest.id]?.[moduleType] : null;
+  if (answered === 0 && stored) {
+    return {
+      exists: true,
+      hasData: true,
+      points: stored.points,
+      passed: !!stored.passed,
+      answered: stored.totalQuestions || total,
+      total: stored.totalQuestions || total,
+      firstPartId: parts[0].id
+    };
+  }
+
+  const points = total > 0 ? Math.round((correct / total) * 100) : 0;
+  return {
+    exists: true,
+    hasData: answered > 0,
+    points,
+    passed: answered > 0 ? points >= 60 : false,
+    answered,
+    total,
+    firstPartId: parts[0].id
+  };
+}
+
+function renderDualModuleStrip(activeModuleType) {
+  const stripEl = document.getElementById('dualModuleStrip');
+  if (!stripEl) return;
+
+  const hasHoren = testData.some(t => t.isHoren || t.id === 6);
+  const lesenSum = getDualModuleLiveSummary('lesen');
+  const horenSum = hasHoren ? getDualModuleLiveSummary('horen') : null;
+  const uiLang = getUiLangCode();
+
+  const modules = [
+    { type: 'lesen', icon: '📖', label: 'Modul Lesen', sum: lesenSum },
+    ...(horenSum ? [{ type: 'horen', icon: '🎧', label: 'Modul Hören', sum: horenSum }] : [])
+  ];
+
+  stripEl.innerHTML = modules.map(m => {
+    const isActive = m.type === activeModuleType;
+    const sum = m.sum;
+    let statusBadge = '';
+    let actionHtml = '';
+
+    if (sum && sum.hasData) {
+      const passLabel = sum.passed
+        ? (uiLang === 'fr' ? 'Réussi' : (uiLang === 'en' ? 'Passed' : 'Bestanden'))
+        : (uiLang === 'fr' ? 'À revoir' : (uiLang === 'en' ? 'Needs review' : 'Unter 60 P.'));
+      statusBadge = `
+        <span class="dual-mod-score ${sum.passed ? 'pass' : 'fail'}">
+          <strong>${sum.points}/100 P.</strong> · ${passLabel}
+        </span>
+      `;
+      if (!isActive) {
+        const inspectLabel = uiLang === 'fr' ? 'Voir les résultats' : (uiLang === 'en' ? 'View results' : 'Auswertung');
+        actionHtml = `<button type="button" class="dual-mod-btn" data-res-view="${m.type}">${inspectLabel} →</button>`;
+      } else {
+        const curLabel = uiLang === 'fr' ? 'Affiché' : (uiLang === 'en' ? 'Active' : 'Aktiv');
+        actionHtml = `<span class="dual-mod-active-tag">${curLabel}</span>`;
+      }
+    } else {
+      const pendingLabel = uiLang === 'fr' ? 'Non commencé' : (uiLang === 'en' ? 'Not attempted' : 'Noch offen');
+      const startLabel = uiLang === 'fr' ? 'Commencer' : (uiLang === 'en' ? 'Start' : 'Starten');
+      statusBadge = `<span class="dual-mod-score pending">${pendingLabel}</span>`;
+      actionHtml = sum
+        ? `<button type="button" class="dual-mod-btn" data-res-open-part="${sum.firstPartId}">${startLabel} →</button>`
+        : '';
+    }
+
+    return `
+      <div class="dual-mod-card ${isActive ? 'is-active' : ''}">
+        <div class="dual-mod-info">
+          <span class="dual-mod-title">${m.icon} ${m.label}</span>
+          ${statusBadge}
+        </div>
+        ${actionHtml}
+      </div>
+    `;
+  }).join('');
+}
+
+function renderResultsView(moduleType, options = {}) {
+  const { scrollTop = false } = options;
+  if (!moduleType) {
+    moduleType = isCurrentTeilHoren(activeTeil) ? 'horen' : 'lesen';
+  }
+  lastEvaluatedModule = moduleType;
+
+  const tabsEl = document.getElementById('tabsWrapper');
+  const areaEl = document.getElementById('testAreaContainer');
+  const footerEl = document.getElementById('footerBar');
+  const bannerEl = document.getElementById('candidateBanner');
+  const resScreen = document.getElementById('resultsScreen');
+
+  if (tabsEl) tabsEl.style.display = 'none';
+  if (areaEl) areaEl.style.display = 'none';
+  if (footerEl) footerEl.style.display = 'none';
+  if (bannerEl) bannerEl.style.display = 'none';
+  if (resScreen) resScreen.style.display = 'block';
+
+  const evalData = getModuleEvaluationData(moduleType);
+  const {
+    isHoren,
+    sections,
+    totalCorrect,
+    totalIncorrect,
+    totalUnanswered,
+    totalQuestions,
+    points,
+    pct,
+    passed,
+    margin
+  } = evalData;
+
+  if (reviewTeilFilter && !sections.some(s => s.filterKey === reviewTeilFilter)) {
+    reviewTeilFilter = null;
+  }
+
+  const uiLang = getUiLangCode();
+  const hasHoren = testData.some(t => t.isHoren || t.id === 6);
+
   const scoreCircle = document.getElementById('scoreCircle');
+  const scoreRing = document.getElementById('scoreProgressRing');
+  const thresholdFill = document.getElementById('thresholdFill');
   const resTotalPts = document.getElementById('resTotalPts');
   const resTotalPct = document.getElementById('resTotalPct');
   const statusTag = document.getElementById('statusTag');
+  const marginPill = document.getElementById('resultsMarginPill');
   const congratsEl = document.getElementById('candidateCongrats');
   const teilGrid = document.getElementById('teilScoresGrid');
   const moduleBadge = document.getElementById('resModuleBadge');
+  const examTitleBadge = document.getElementById('resExamTitleBadge');
+  const dateBadge = document.getElementById('resDateBadge');
+  const heroTitle = document.getElementById('resultsHeroTitle');
 
   if (moduleBadge) {
-    moduleBadge.textContent = isHoren ? '🎧 MODUL HÖREN (ÉCOUTE) · 100 PUNKTE' : '📖 MODUL LESEN (LECTURE) · 100 PUNKTE';
-    moduleBadge.style.display = 'inline-block';
+    moduleBadge.textContent = isHoren
+      ? (uiLang === 'fr' ? '🎧 MODULE COMPRÉHENSION ORALE · 100 PTS' : (uiLang === 'en' ? '🎧 LISTENING MODULE · 100 PTS' : '🎧 MODUL HÖREN · 100 PUNKTE'))
+      : (uiLang === 'fr' ? '📖 MODULE LECTURE · 100 PTS' : (uiLang === 'en' ? '📖 READING MODULE · 100 PTS' : '📖 MODUL LESEN · 100 PUNKTE'));
+    moduleBadge.style.display = 'inline-flex';
   }
+  if (examTitleBadge && currentTest) {
+    examTitleBadge.textContent = currentTest.title || 'Zertifikat B1';
+  }
+  if (dateBadge) {
+    const locale = uiLang === 'fr' ? 'fr-FR' : (uiLang === 'en' ? 'en-GB' : 'de-DE');
+    dateBadge.textContent = new Date().toLocaleDateString(locale, { day: '2-digit', month: 'short', year: 'numeric' });
+  }
+  if (heroTitle) {
+    heroTitle.textContent = uiResText('results.heroTitle', 'Prüfungsauswertung');
+  }
+
+  document.querySelectorAll('#resModuleSwitchPills .res-mod-pill').forEach(btn => {
+    const mod = btn.dataset.resModule;
+    if (mod === 'horen') {
+      btn.style.display = hasHoren ? 'inline-flex' : 'none';
+    }
+    btn.classList.toggle('active', mod === moduleType);
+    btn.setAttribute('aria-pressed', mod === moduleType ? 'true' : 'false');
+  });
 
   if (scoreCircle) {
     scoreCircle.style.setProperty('--score-color', passed ? 'var(--success)' : 'var(--danger)');
-    scoreCircle.style.setProperty('--score-pct', pct);
+    scoreCircle.style.setProperty('--score-pct', String(pct));
+    scoreCircle.classList.toggle('is-pass', passed);
+    scoreCircle.classList.toggle('is-fail', !passed);
   }
+  if (scoreRing) {
+    scoreRing.value = points;
+    scoreRing.max = 100;
+    scoreRing.setAttribute('aria-label', `${isHoren ? 'Modul Hören' : 'Modul Lesen'}`);
+    scoreRing.setAttribute('aria-valuetext', `${points} / 100 (${pct}%)`);
+  }
+  if (thresholdFill) {
+    thresholdFill.style.width = `${pct}%`;
+    thresholdFill.className = `threshold-fill ${passed ? 'pass' : 'fail'}`;
+  }
+
   if (resTotalPts) resTotalPts.textContent = `${points} / 100 P.`;
-  if (resTotalPct) resTotalPct.textContent = `${totalCorrect}/${totalQuestions} gelöst (${pct}%)`;
+  if (resTotalPct) {
+    const solvedWord = uiLang === 'fr' ? 'correctes' : (uiLang === 'en' ? 'correct' : 'richtig');
+    resTotalPct.textContent = `${totalCorrect}/${totalQuestions} ${solvedWord} (${pct}%)`;
+  }
 
   if (statusTag) {
     statusTag.className = `status-tag ${passed ? 'pass' : 'fail'}`;
-    statusTag.textContent = passed ? 'BESTANDEN (≥ 60/100 P.)' : 'NICHT BESTANDEN (< 60/100 P.)';
+    statusTag.textContent = passed ? '✓ BESTANDEN (≥ 60 P.)' : '✗ NICHT BESTANDEN (< 60 P.)';
+  }
+  if (marginPill) {
+    if (passed) {
+      marginPill.className = 'results-margin-pill pass';
+      marginPill.textContent = margin === 0
+        ? (uiLang === 'fr' ? 'Seuil exact (60 P.)' : (uiLang === 'en' ? 'Exact pass mark (60)' : 'Punktlandung (60 P.)'))
+        : (uiLang === 'fr' ? `+${margin} pts au-dessus du seuil` : (uiLang === 'en' ? `+${margin} pts above threshold` : `+${margin} P. über Grenze`));
+    } else {
+      const needed = Math.abs(margin);
+      marginPill.className = 'results-margin-pill fail';
+      marginPill.textContent = uiLang === 'fr'
+        ? `${needed} pts manquants pour réussir`
+        : (uiLang === 'en' ? `${needed} pts short of 60` : `Noch ${needed} P. bis 60 P.`);
+    }
   }
 
   const candidateName = document.getElementById('friendName')?.value?.trim() || 'Sirin';
   const modTitle = isHoren ? 'Modul Hören' : 'Modul Lesen';
   if (congratsEl) {
-    congratsEl.textContent = passed
-      ? `Herzlichen Glückwunsch, ${candidateName}! Du hast das ${modTitle} (${currentTest.title}) mit ${points}/100 Punkten erfolgreich bestanden!`
-      : `Kopf hoch, ${candidateName}! Im ${modTitle} hast du ${points}/100 Punkte erreicht (mindestens 60 erforderlich). Schau dir die Lösungen in der Überprüfung an.`;
+    if (uiLang === 'fr') {
+      congratsEl.textContent = passed
+        ? `Félicitations, ${candidateName} ! Vous avez réussi le ${modTitle} (${currentTest.title}) avec ${points}/100 points.`
+        : `Courage, ${candidateName} ! Vous avez obtenu ${points}/100 points au ${modTitle} (minimum requis : 60). Consultez les explications ci-dessous.`;
+    } else if (uiLang === 'en') {
+      congratsEl.textContent = passed
+        ? `Congratulations, ${candidateName}! You passed ${modTitle} (${currentTest.title}) with ${points}/100 points.`
+        : `Keep going, ${candidateName}! You scored ${points}/100 points in ${modTitle} (60 required to pass). Review the explanations below.`;
+    } else {
+      congratsEl.textContent = passed
+        ? `Herzlichen Glückwunsch, ${candidateName}! Du hast das ${modTitle} (${currentTest.title}) mit ${points}/100 Punkten erfolgreich bestanden!`
+        : `Kopf hoch, ${candidateName}! Im ${modTitle} hast du ${points}/100 Punkte erreicht (mindestens 60 erforderlich). Schau dir die Lösungen in der Überprüfung an.`;
+    }
   }
 
+  const kpiCorrect = document.getElementById('kpiCorrectVal');
+  const kpiIncorrect = document.getElementById('kpiIncorrectVal');
+  const kpiUnanswered = document.getElementById('kpiUnansweredVal');
+  const kpiTime = document.getElementById('kpiTimeVal');
+  if (kpiCorrect) kpiCorrect.textContent = String(totalCorrect);
+  if (kpiIncorrect) kpiIncorrect.textContent = String(totalIncorrect);
+  if (kpiUnanswered) kpiUnanswered.textContent = String(totalUnanswered);
+  if (kpiTime) {
+    if (isHoren) {
+      kpiTime.textContent = `${totalQuestions - totalUnanswered}/${totalQuestions}`;
+    } else {
+      kpiTime.textContent = typeof formatTime === 'function' ? formatTime(timeLeft) : '—';
+    }
+  }
+
+  renderDualModuleStrip(moduleType);
+
   if (teilGrid) {
+    const canUseJsSiblingDelay = typeof CSS === 'undefined' || typeof CSS.supports !== 'function'
+      || !CSS.supports('animation-delay: calc(sibling-index() * 0.1s)');
+
+    const teilBreakdownHtml = sections.map((sec, idx) => {
+      const qCount = sec.questions.length;
+      const isSelected = reviewTeilFilter === sec.filterKey;
+      const toneClass = sec.pct >= 60 ? 'is-strong' : 'is-weak';
+      const inlineStyle = canUseJsSiblingDelay ? ` style="--sibling-index:${idx};"` : '';
+
+      return `
+        <article class="teil-score-card ${toneClass} ${isSelected ? 'is-active-filter' : ''}"${inlineStyle}>
+          <button type="button" class="teil-score-btn" data-teil-filter="${sec.filterKey}" aria-pressed="${isSelected ? 'true' : 'false'}">
+            <div class="teil-card-top">
+              <span class="title">${escapeResultHtml(sec.title)}</span>
+              <span class="teil-pct-badge ${toneClass}">${sec.pct}%</span>
+            </div>
+            <div class="val">${sec.correct} <span class="val-total">/ ${qCount}</span></div>
+            <progress class="teil-progress ${toneClass}" value="${sec.correct}" max="${Math.max(1, qCount)}" aria-label="${escapeResultHtml(sec.title)}: ${sec.correct} / ${qCount}"></progress>
+            <div class="teil-card-meta">
+              <span class="meta-ok">✓ ${sec.correct}</span>
+              <span class="meta-err">✗ ${sec.incorrect}</span>
+              ${sec.unanswered > 0 ? `<span class="meta-open">○ ${sec.unanswered}</span>` : `<span class="meta-sub">${escapeResultHtml(sec.subtitle)}</span>`}
+            </div>
+          </button>
+        </article>
+      `;
+    }).join('');
     teilGrid.innerHTML = teilBreakdownHtml;
   }
 
   // Update dynamic action buttons
   const backBtn = document.getElementById('btnBackToExam');
   if (backBtn) {
-    backBtn.textContent = '← Zurück zur Prüfung';
+    backBtn.textContent = uiResText('results.backToExam', '← Zurück zur Prüfung');
   }
 
   const switchBtn = document.getElementById('btnSwitchModule');
-  const hasHoren = testData.some(t => t.isHoren || t.id === 6);
   if (switchBtn) {
     if (!isHoren && hasHoren) {
       switchBtn.style.display = 'inline-flex';
-      switchBtn.textContent = 'Weiter zum Modul Hören (Écoute) →';
+      switchBtn.textContent = uiResText('results.switchToHoren', 'Weiter zum Modul Hören →');
     } else if (isHoren) {
       switchBtn.style.display = 'inline-flex';
-      switchBtn.textContent = '← Zurück zum Modul Lesen (Lecture)';
+      switchBtn.textContent = uiResText('results.switchToLesen', '← Zurück zum Modul Lesen');
     } else {
       switchBtn.style.display = 'none';
     }
@@ -5545,108 +6021,402 @@ function showResults(moduleType) {
 
   const restartBtn = document.getElementById('restartBtn');
   if (restartBtn) {
-    restartBtn.textContent = isHoren ? 'Modul Hören neu starten' : 'Modul Lesen neu starten';
+    restartBtn.textContent = isHoren
+      ? uiResText('results.restartHoren', 'Modul Hören neu starten')
+      : uiResText('results.restartLesen', 'Modul Lesen neu starten');
   }
 
-  renderReviewList(moduleType);
-  window.scrollTo({ top: 0, behavior: 'smooth' });
+  renderReviewList(moduleType, evalData);
+
+  if (scrollTop && typeof window !== 'undefined' && typeof window.scrollTo === 'function') {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
 }
 
-function renderReviewList(moduleType = lastEvaluatedModule) {
+function showResults(moduleType) {
+  if (!moduleType) {
+    moduleType = isCurrentTeilHoren(activeTeil) ? 'horen' : 'lesen';
+  }
+  reviewTeilFilter = null;
+  timerRunning = false;
+  syncAllMistakes();
+  sendModuleResultsEmail(moduleType);
+
+  const evalData = getModuleEvaluationData(moduleType);
+
+  // Record in persistent storage
+  recordExamPassed(currentTest.id, moduleType, {
+    passed: evalData.passed,
+    score: evalData.totalCorrect,
+    totalQuestions: evalData.totalQuestions,
+    points: evalData.points,
+    pct: evalData.pct
+  });
+
+  renderResultsView(moduleType, { scrollTop: true });
+}
+
+function syncExpandAllButtonState() {
+  const toggleBtn = document.getElementById('toggleAllExpBtn');
+  const labelEl = document.getElementById('toggleAllExpLabel');
+  const listEl = document.getElementById('reviewItemsList');
+  if (!toggleBtn || !labelEl || !listEl) return;
+
+  const detailsEls = listEl.querySelectorAll('details.review-exp-details');
+  if (detailsEls.length === 0) {
+    toggleBtn.style.display = 'none';
+    return;
+  }
+  toggleBtn.style.display = 'inline-flex';
+  const allOpen = Array.from(detailsEls).every(d => d.open);
+  toggleBtn.setAttribute('aria-expanded', allOpen ? 'true' : 'false');
+  labelEl.textContent = allOpen
+    ? uiResText('results.collapseAll', 'Alle Erklärungen schließen')
+    : uiResText('results.expandAll', 'Alle Erklärungen öffnen');
+}
+
+function renderReviewList(moduleType = lastEvaluatedModule, precomputedEval = null) {
   const listEl = document.getElementById('reviewItemsList');
   if (!listEl) return;
 
-  const isHoren = moduleType === 'horen';
-  const moduleParts = testData.filter(t => isHoren ? (t.isHoren || t.id === 6) : (!t.isHoren && t.id !== 6));
+  const evalData = precomputedEval || getModuleEvaluationData(moduleType);
+  const { sections } = evalData;
+  const activeSection = reviewTeilFilter
+    ? sections.find(s => s.filterKey === reviewTeilFilter)
+    : null;
 
-  let itemsHtml = '';
-  moduleParts.forEach(t => {
-    const qs = allQuestionsOf(t);
-    qs.forEach(q => {
+  const scopedItems = [];
+  sections.forEach(sec => {
+    if (activeSection && sec.filterKey !== activeSection.filterKey) return;
+    sec.questions.forEach(q => {
       const userVal = userAnswers[q.id];
-      const isCorrect = isMatchOrTfCorrect(userVal, q.answer);
-
-      if (reviewFilter === 'correct' && !isCorrect) return;
-      if (reviewFilter === 'incorrect' && isCorrect) return;
-
-      const userStr = formatAnswerDisplay(q, userVal);
-      const corrStr = formatAnswerDisplay(q, q.answer);
-      const expHtml = renderExplanationBoxHtml(q, userVal, isCorrect);
-      const displayNum = q.num || q.id;
-
-      itemsHtml += `
-        <div class="review-item ${isCorrect ? 'correct' : 'incorrect'}">
-          <div class="review-badge">${isCorrect ? '✓' : '✗'}</div>
-          <div class="review-content">
-            <div class="review-qtitle">${t.title} · Aufgabe ${displayNum}: ${q.text || ''}</div>
-            <div class="review-answers">
-              Deine Antwort: <span class="${isCorrect ? 'ans-correct' : 'ans-wrong'}">${userStr}</span>
-              ${!isCorrect ? ` · Richtige Lösung: <span class="ans-correct">${corrStr}</span>` : ''}
-            </div>
-            ${expHtml ? `
-              <button type="button" class="btn-toggle-explanation" onclick="toggleReviewExplanation('${q.id}')">
-                <span>💡 Erklärung anzeigen</span>
-              </button>
-              <div id="review-exp-${q.id}" style="display:none;">
-                ${expHtml}
-              </div>
-            ` : ''}
-          </div>
-        </div>
-      `;
+      const isUnanswered = userVal === undefined || userVal === '';
+      const isCorrect = !isUnanswered && isMatchOrTfCorrect(userVal, q.answer);
+      const status = isUnanswered ? 'unanswered' : (isCorrect ? 'correct' : 'incorrect');
+      scopedItems.push({ sec, q, userVal, isUnanswered, isCorrect, status });
     });
   });
 
-  listEl.innerHTML = itemsHtml || `<div style="text-align:center; padding:24px; color:var(--text-muted);">Keine Aufgaben in diesem Filter.</div>`;
+  const counts = {
+    all: scopedItems.length,
+    incorrect: scopedItems.filter(i => i.status === 'incorrect').length,
+    correct: scopedItems.filter(i => i.status === 'correct').length,
+    unanswered: scopedItems.filter(i => i.status === 'unanswered').length
+  };
+
+  [
+    { filter: 'all', key: 'results.filterAll', fallback: 'Alle' },
+    { filter: 'incorrect', key: 'results.filterIncorrect', fallback: 'Falsch' },
+    { filter: 'correct', key: 'results.filterCorrect', fallback: 'Richtig' },
+    { filter: 'unanswered', key: 'results.filterUnanswered', fallback: 'Offen' }
+  ].forEach(({ filter, key, fallback }) => {
+    const btn = document.querySelector(`#resultsScreen .filter-btn[data-filter="${filter}"]`);
+    if (btn) {
+      btn.textContent = `${uiResText(key, fallback)} (${counts[filter]})`;
+      btn.classList.toggle('active', reviewFilter === filter);
+    }
+  });
+
+  const chipEl = document.getElementById('activeTeilFilterChip');
+  if (chipEl) {
+    if (activeSection) {
+      chipEl.style.display = 'inline-flex';
+      chipEl.textContent = `${activeSection.title} ✕`;
+      chipEl.setAttribute('aria-label', `${activeSection.title} Filter entfernen`);
+    } else {
+      chipEl.style.display = 'none';
+    }
+  }
+
+  document.querySelectorAll('#resultsLangSwitch .lang-btn').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.lang === questionsLang);
+  });
+
+  const isAr = questionsLang === 'ar';
+  if (isAr) {
+    listEl.classList.add('lang-ar');
+    listEl.setAttribute('dir', 'rtl');
+    listEl.setAttribute('lang', 'ar');
+  } else {
+    listEl.classList.remove('lang-ar');
+    listEl.setAttribute('dir', 'ltr');
+    listEl.setAttribute('lang', questionsLang);
+  }
+
+  const visibleItems = scopedItems.filter(item => {
+    if (reviewFilter === 'correct') return item.status === 'correct';
+    if (reviewFilter === 'incorrect') return item.status === 'incorrect';
+    if (reviewFilter === 'unanswered') return item.status === 'unanswered';
+    return true;
+  });
+
+  const uiLang = getUiLangCode();
+  const metaEl = document.getElementById('reviewShowingMeta');
+  if (metaEl) {
+    const scopeTitle = activeSection ? activeSection.title : (evalData.isHoren ? 'Modul Hören' : 'Modul Lesen');
+    metaEl.textContent = uiLang === 'fr'
+      ? `${visibleItems.length} sur ${scopedItems.length} · ${scopeTitle}`
+      : (uiLang === 'en'
+        ? `${visibleItems.length} of ${scopedItems.length} · ${scopeTitle}`
+        : `${visibleItems.length} von ${scopedItems.length} · ${scopeTitle}`);
+  }
+
+  const labels = {
+    aufgabe: isAr ? 'سؤال' : (questionsLang === 'fr' ? 'Question' : 'Aufgabe'),
+    yours: isAr ? 'إجابتك:' : (questionsLang === 'fr' ? 'Votre réponse :' : 'Deine Antwort:'),
+    correct: isAr ? 'الحل الصحيح:' : (questionsLang === 'fr' ? 'Bonne réponse :' : 'Richtige Lösung:'),
+    statusCorrect: isAr ? 'صحيح' : (questionsLang === 'fr' ? 'Correct' : 'Richtig'),
+    statusIncorrect: isAr ? 'خطأ' : (questionsLang === 'fr' ? 'Faux' : 'Falsch'),
+    statusUnanswered: isAr ? 'غير مجاب' : (questionsLang === 'fr' ? 'Sans réponse' : 'Offen'),
+    showExp: isAr ? 'عرض الشرح والدليل' : (questionsLang === 'fr' ? 'Afficher l\'explication' : 'Erklärung & Textbeleg anzeigen'),
+    jumpLabel: evalData.isHoren
+      ? (isAr ? 'الانتقال إلى السؤال' : (questionsLang === 'fr' ? 'Aller à l\'audio' : 'Zur Höraufgabe'))
+      : (isAr ? 'الانتقال للنص' : (questionsLang === 'fr' ? 'Voir dans l\'examen' : 'Zum Text'))
+  };
+
+  const canUseJsSiblingDelay = typeof CSS === 'undefined' || typeof CSS.supports !== 'function'
+    || !CSS.supports('animation-delay: calc(sibling-index() * 0.1s)');
+
+  const itemsHtml = visibleItems.map((item, idx) => {
+    const { sec, q, userVal, isUnanswered, isCorrect, status } = item;
+    const localized = getLocalizedReviewQuestion(sec.ownerPart, q, questionsLang);
+    const userStr = formatAnswerDisplay(q, userVal, questionsLang, sec.ownerPart, localized.options);
+    const corrStr = formatAnswerDisplay(q, q.answer, questionsLang, sec.ownerPart, localized.options);
+    const expHtml = renderExplanationBoxHtml(q, userVal, isCorrect);
+    const displayNum = q.num || q.id;
+    const badgeGlyph = isCorrect ? '✓' : (isUnanswered ? '○' : '✗');
+    const statusLabel = isCorrect ? labels.statusCorrect : (isUnanswered ? labels.statusUnanswered : labels.statusIncorrect);
+    const inlineStyle = canUseJsSiblingDelay ? ` style="--sibling-index:${idx};"` : '';
+
+    return `
+      <article class="review-item is-${status}"${inlineStyle}>
+        <div class="review-badge" aria-hidden="true">${badgeGlyph}</div>
+        <div class="review-content">
+          <div class="review-top-row">
+            <span class="review-teil-tag">${escapeResultHtml(sec.title)} · ${labels.aufgabe} ${escapeResultHtml(displayNum)}</span>
+            <span class="review-status-pill is-${status}">${badgeGlyph} ${statusLabel}</span>
+            <button type="button" class="review-jump-btn" onclick="exitResultsToExam(${sec.partId}, '${escapeResultHtml(q.id)}', false)">
+              ↗ ${labels.jumpLabel}
+            </button>
+          </div>
+          <div class="review-qtitle">${escapeResultHtml(localized.text)}</div>
+          ${localized.snippet ? `<div class="review-letter-snippet">„${escapeResultHtml(localized.snippet)}“</div>` : ''}
+          <div class="review-answers">
+            <span class="review-ans-chip ${isCorrect ? 'is-ok' : (isUnanswered ? 'is-open' : 'is-err')}">
+              <span class="ans-chip-k">${labels.yours}</span>
+              <strong>${escapeResultHtml(userStr)}</strong>
+            </span>
+            ${!isCorrect ? `
+              <span class="review-ans-chip is-solution">
+                <span class="ans-chip-k">${labels.correct}</span>
+                <strong>${escapeResultHtml(corrStr)}</strong>
+              </span>
+            ` : ''}
+          </div>
+          ${expHtml ? `
+            <details class="review-exp-details" id="review-exp-${escapeResultHtml(q.id)}">
+              <summary class="review-exp-summary">
+                <span class="review-exp-summary-icon" aria-hidden="true">💡</span>
+                <span class="review-exp-summary-label">${labels.showExp}</span>
+              </summary>
+              <div class="review-exp-body">
+                ${expHtml}
+              </div>
+            </details>
+          ` : ''}
+        </div>
+      </article>
+    `;
+  }).join('');
+
+  const emptyMsg = uiLang === 'fr'
+    ? 'Aucune question dans ce filtre.'
+    : (uiLang === 'en' ? 'No questions match this filter.' : 'Keine Aufgaben in diesem Filter.');
+  listEl.innerHTML = itemsHtml || `<div class="review-empty-state">${emptyMsg}</div>`;
+  syncExpandAllButtonState();
+}
+
+function copyTextWithFallback(text) {
+  if (typeof navigator !== 'undefined' && navigator.clipboard && typeof navigator.clipboard.writeText === 'function') {
+    return navigator.clipboard.writeText(text).then(() => true).catch(() => legacyCopy(text));
+  }
+  return Promise.resolve(legacyCopy(text));
+}
+
+function legacyCopy(text) {
+  if (typeof document === 'undefined' || !document.body) return false;
+  const textarea = document.createElement('textarea');
+  textarea.value = text;
+  textarea.setAttribute('readonly', '');
+  textarea.style.position = 'fixed';
+  textarea.style.opacity = '0';
+  document.body.appendChild(textarea);
+  textarea.select();
+  let ok = false;
+  try {
+    ok = document.execCommand('copy');
+  } catch (e) {
+    ok = false;
+  }
+  document.body.removeChild(textarea);
+  return ok;
 }
 
 function initResultsActions() {
-  document.querySelectorAll('.review-header .filter-btn').forEach(btn => {
+  document.querySelectorAll('#resultsScreen .filter-btn').forEach(btn => {
     btn.addEventListener('click', () => {
-      document.querySelectorAll('.review-header .filter-btn').forEach(b => b.classList.remove('active'));
+      document.querySelectorAll('#resultsScreen .filter-btn').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
       reviewFilter = btn.dataset.filter || 'all';
       renderReviewList(lastEvaluatedModule);
     });
   });
 
+  const teilGrid = document.getElementById('teilScoresGrid');
+  if (teilGrid) {
+    teilGrid.addEventListener('click', (e) => {
+      const btn = e.target.closest('[data-teil-filter]');
+      if (!btn) return;
+      const selected = btn.dataset.teilFilter;
+      reviewTeilFilter = (reviewTeilFilter === selected) ? null : selected;
+      renderResultsView(lastEvaluatedModule, { scrollTop: false });
+    });
+  }
+
+  const chipEl = document.getElementById('activeTeilFilterChip');
+  if (chipEl) {
+    chipEl.addEventListener('click', () => {
+      reviewTeilFilter = null;
+      renderResultsView(lastEvaluatedModule, { scrollTop: false });
+    });
+  }
+
+  const modPills = document.getElementById('resModuleSwitchPills');
+  if (modPills) {
+    modPills.addEventListener('click', (e) => {
+      const btn = e.target.closest('[data-res-module]');
+      if (!btn || btn.dataset.resModule === lastEvaluatedModule) return;
+      reviewTeilFilter = null;
+      renderResultsView(btn.dataset.resModule, { scrollTop: false });
+    });
+  }
+
+  const dualStrip = document.getElementById('dualModuleStrip');
+  if (dualStrip) {
+    dualStrip.addEventListener('click', (e) => {
+      const viewBtn = e.target.closest('[data-res-view]');
+      if (viewBtn) {
+        reviewTeilFilter = null;
+        renderResultsView(viewBtn.dataset.resView, { scrollTop: false });
+        return;
+      }
+      const openBtn = e.target.closest('[data-res-open-part]');
+      if (openBtn) {
+        exitResultsToExam(Number(openBtn.dataset.resOpenPart));
+      }
+    });
+  }
+
+  const resLangSwitch = document.getElementById('resultsLangSwitch');
+  if (resLangSwitch) {
+    resLangSwitch.addEventListener('click', (e) => {
+      const btn = e.target.closest('.lang-btn[data-lang]');
+      if (!btn) return;
+      const newLang = btn.dataset.lang;
+      if (newLang && newLang !== questionsLang) {
+        questionsLang = newLang;
+        try {
+          localStorage.setItem('b1_questions_lang', questionsLang);
+        } catch (err) {}
+        renderReviewList(lastEvaluatedModule);
+      }
+    });
+  }
+
+  const toggleAllBtn = document.getElementById('toggleAllExpBtn');
+  if (toggleAllBtn) {
+    toggleAllBtn.addEventListener('click', () => {
+      const listEl = document.getElementById('reviewItemsList');
+      if (!listEl) return;
+      const detailsEls = listEl.querySelectorAll('details.review-exp-details');
+      if (detailsEls.length === 0) return;
+      const shouldOpen = !Array.from(detailsEls).every(d => d.open);
+      detailsEls.forEach(d => {
+        d.open = shouldOpen;
+      });
+      syncExpandAllButtonState();
+    });
+  }
+
+  const reviewListEl = document.getElementById('reviewItemsList');
+  if (reviewListEl) {
+    reviewListEl.addEventListener('toggle', () => {
+      syncExpandAllButtonState();
+    }, true);
+  }
+
   const copyBtn = document.getElementById('copyBtn');
   if (copyBtn) {
+    let copyTimer = null;
+    let copyClicks = 0;
     copyBtn.addEventListener('click', () => {
-      const pts = document.getElementById('resTotalPts')?.textContent || '';
-      const pct = document.getElementById('resTotalPct')?.textContent || '';
+      const evalData = getModuleEvaluationData(lastEvaluatedModule);
       const name = document.getElementById('friendName')?.value?.trim() || 'Sirin';
       const modName = lastEvaluatedModule === 'horen' ? 'Modul Hören' : 'Modul Lesen';
-      const summary = `B1 Prüfungssimulation (${currentTest.title} · ${modName}) — Kandidat(in): ${name} — Ergebnis: ${pts} (${pct})`;
-      navigator.clipboard?.writeText(summary).then(() => {
-        showEmailSentToast('Ergebnis in die Zwischenablage kopiert!');
-      }).catch(() => {});
+      const verdict = evalData.passed ? 'BESTANDEN' : 'NICHT BESTANDEN';
+      const partsSummary = evalData.sections
+        .map(s => `${s.title}: ${s.correct}/${s.questions.length} (${s.pct}%)`)
+        .join(' | ');
+      const summary = `B1 Prüfungssimulation (${currentTest.title} · ${modName}) — ${name} — ${evalData.points}/100 P. (${evalData.totalCorrect}/${evalData.totalQuestions}) [${verdict}] — ${partsSummary}`;
+
+      copyTextWithFallback(summary).then((ok) => {
+        clearTimeout(copyTimer);
+        copyClicks++;
+        const suffix = copyClicks % 2 === 0 ? '\u00A0' : '';
+        const statusEl = document.getElementById('copyStatusMsg');
+        const uiLang = getUiLangCode();
+        if (ok) {
+          delete copyBtn.dataset.failed;
+          copyBtn.dataset.copied = 'true';
+          const okMsg = (uiLang === 'fr' ? 'Copié !' : (uiLang === 'en' ? 'Copied!' : 'Kopiert!')) + suffix;
+          if (statusEl) {
+            statusEl.textContent = okMsg;
+            statusEl.className = 'copy-status-pill is-visible is-ok';
+          }
+          showEmailSentToast('Ergebnis in die Zwischenablage kopiert!');
+        } else {
+          delete copyBtn.dataset.copied;
+          copyBtn.dataset.failed = 'true';
+          const failMsg = (uiLang === 'fr' ? 'Échec' : (uiLang === 'en' ? 'Copy failed' : 'Fehlgeschlagen')) + suffix;
+          if (statusEl) {
+            statusEl.textContent = failMsg;
+            statusEl.className = 'copy-status-pill is-visible is-fail';
+          }
+        }
+        copyTimer = setTimeout(() => {
+          delete copyBtn.dataset.copied;
+          delete copyBtn.dataset.failed;
+          if (statusEl) {
+            statusEl.textContent = '';
+            statusEl.className = 'copy-status-pill';
+          }
+        }, 2500);
+      });
     });
   }
 
   const backBtn = document.getElementById('btnBackToExam');
   if (backBtn) {
     backBtn.addEventListener('click', () => {
-      document.getElementById('resultsScreen').style.display = 'none';
-      document.getElementById('tabsWrapper').style.display = 'block';
-      document.getElementById('testAreaContainer').style.display = 'block';
-      document.getElementById('footerBar').style.display = 'block';
-      document.getElementById('candidateBanner').style.display = 'flex';
-      renderCurrentTeil();
-      window.scrollTo({ top: 0, behavior: 'smooth' });
+      exitResultsToExam(activeTeil);
     });
   }
 
   const switchBtn = document.getElementById('btnSwitchModule');
   if (switchBtn) {
     switchBtn.addEventListener('click', () => {
-      document.getElementById('resultsScreen').style.display = 'none';
-      document.getElementById('tabsWrapper').style.display = 'block';
-      document.getElementById('testAreaContainer').style.display = 'block';
-      document.getElementById('footerBar').style.display = 'block';
-      document.getElementById('candidateBanner').style.display = 'flex';
       const targetTeil = (lastEvaluatedModule === 'lesen') ? 6 : 1;
-      switchTeil(targetTeil);
+      exitResultsToExam(targetTeil);
     });
   }
 
@@ -5655,7 +6425,7 @@ function initResultsActions() {
     restartBtn.addEventListener('click', () => {
       const isHoren = lastEvaluatedModule === 'horen';
       const modParts = testData.filter(t => isHoren ? (t.isHoren || t.id === 6) : (!t.isHoren && t.id !== 6));
-      const msg = isHoren 
+      const msg = isHoren
         ? 'Möchten Sie Ihre Antworten für das Modul Hören wirklich zurücksetzen und neu beginnen?'
         : 'Möchten Sie Ihre Antworten für das Modul Lesen wirklich zurücksetzen und neu beginnen?';
       if (!confirm(msg)) return;
@@ -5673,13 +6443,16 @@ function initResultsActions() {
       });
 
       saveSession();
-      document.getElementById('resultsScreen').style.display = 'none';
-      document.getElementById('tabsWrapper').style.display = 'block';
-      document.getElementById('testAreaContainer').style.display = 'block';
-      document.getElementById('footerBar').style.display = 'block';
-      document.getElementById('candidateBanner').style.display = 'flex';
-      activeTeil = isHoren ? 6 : 1;
-      renderCurrentTeil();
+      exitResultsToExam(isHoren ? 6 : 1);
+    });
+  }
+
+  if (typeof window !== 'undefined' && typeof window.addEventListener === 'function') {
+    window.addEventListener('b1:ui-lang-changed', () => {
+      const resScreen = document.getElementById('resultsScreen');
+      if (resScreen && resScreen.style.display !== 'none') {
+        renderResultsView(lastEvaluatedModule, { scrollTop: false });
+      }
     });
   }
 }
@@ -5893,9 +6666,7 @@ function initUiDesignUpgrades() {
       '.letter-card',
       '.anzeige-wrapper',
       '.horen-teil-section',
-      '.horen-q-card',
-      '.teil-score-card',
-      '.review-item'
+      '.horen-q-card'
     ].join(', ');
 
     const cards = container.querySelectorAll(selector);
@@ -5908,7 +6679,7 @@ function initUiDesignUpgrades() {
     });
   }
 
-  const panelIds = ['passagePanel', 'questionsPanel', 'teilScoresGrid', 'reviewItemsList'];
+  const panelIds = ['passagePanel', 'questionsPanel'];
   panelIds.forEach((id) => {
     const el = document.getElementById(id);
     if (!el) return;

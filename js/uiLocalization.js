@@ -139,12 +139,30 @@
       'readerModal.doneBtn': 'Zurück zu den Aufgaben',
 
       'results.copyBtn': 'Ergebnis kopieren',
+      'results.copied': 'Kopiert',
+      'results.copyFailed': 'Kopieren fehlgeschlagen',
       'results.printBtn': 'Drucken / PDF',
       'results.restartBtn': 'Test neu starten',
+      'results.restartLesen': 'Modul Lesen neu starten',
+      'results.restartHoren': 'Modul Hören neu starten',
+      'results.backToExam': '← Zurück zur Prüfung',
+      'results.switchToHoren': 'Weiter zum Modul Hören →',
+      'results.switchToLesen': '← Zurück zum Modul Lesen',
+      'results.heroTitle': 'Prüfungsauswertung',
+      'results.breakdownTitle': 'Ergebnisse nach Prüfungsteilen',
+      'results.breakdownHint': 'Teil anklicken zum Filtern',
       'results.reviewTitle': 'Detaillierte Aufgabenübersicht',
       'results.filterAll': 'Alle',
       'results.filterIncorrect': 'Falsch',
-      'results.filterCorrect': 'Richtig'
+      'results.filterCorrect': 'Richtig',
+      'results.filterUnanswered': 'Offen',
+      'results.expandAll': 'Alle Erklärungen öffnen',
+      'results.collapseAll': 'Alle Erklärungen schließen',
+      'results.kpiCorrect': 'Richtig',
+      'results.kpiIncorrect': 'Falsch',
+      'results.kpiUnanswered': 'Offen',
+      'results.kpiTime': 'Verbleibende Zeit',
+      'results.thresholdLabel': '60 P. Min.'
     },
 
     en: {
@@ -273,12 +291,30 @@
       'readerModal.doneBtn': 'Back to Tasks',
 
       'results.copyBtn': 'Copy Result',
+      'results.copied': 'Copied',
+      'results.copyFailed': 'Copy failed',
       'results.printBtn': 'Print / PDF',
       'results.restartBtn': 'Restart Test',
+      'results.restartLesen': 'Restart Reading Module',
+      'results.restartHoren': 'Restart Listening Module',
+      'results.backToExam': '← Back to Exam',
+      'results.switchToHoren': 'Continue to Listening Module →',
+      'results.switchToLesen': '← Switch to Reading Module',
+      'results.heroTitle': 'Exam Evaluation',
+      'results.breakdownTitle': 'Breakdown by Exam Part',
+      'results.breakdownHint': 'Click a part to filter review',
       'results.reviewTitle': 'Detailed Task Overview',
       'results.filterAll': 'All',
       'results.filterIncorrect': 'Incorrect',
-      'results.filterCorrect': 'Correct'
+      'results.filterCorrect': 'Correct',
+      'results.filterUnanswered': 'Unanswered',
+      'results.expandAll': 'Expand all explanations',
+      'results.collapseAll': 'Collapse all explanations',
+      'results.kpiCorrect': 'Correct',
+      'results.kpiIncorrect': 'Incorrect',
+      'results.kpiUnanswered': 'Unanswered',
+      'results.kpiTime': 'Time Remaining',
+      'results.thresholdLabel': '60 pts min.'
     },
 
     fr: {
@@ -407,12 +443,30 @@
       'readerModal.doneBtn': 'Retour aux tâches',
 
       'results.copyBtn': 'Copier le résultat',
+      'results.copied': 'Copié',
+      'results.copyFailed': 'Échec de copie',
       'results.printBtn': 'Imprimer / PDF',
       'results.restartBtn': 'Recommencer le test',
+      'results.restartLesen': 'Recommencer la Lecture',
+      'results.restartHoren': 'Recommencer l\'Écoute',
+      'results.backToExam': '← Retour à l\'examen',
+      'results.switchToHoren': 'Passer au module Écoute →',
+      'results.switchToLesen': '← Revenir au module Lecture',
+      'results.heroTitle': 'Évaluation de l\'examen',
+      'results.breakdownTitle': 'Résultats par partie',
+      'results.breakdownHint': 'Cliquez sur une partie pour filtrer',
       'results.reviewTitle': 'Aperçu détaillé des tâches',
       'results.filterAll': 'Tous',
       'results.filterIncorrect': 'Faux',
-      'results.filterCorrect': 'Correct'
+      'results.filterCorrect': 'Correct',
+      'results.filterUnanswered': 'Sans rép.',
+      'results.expandAll': 'Tout développer',
+      'results.collapseAll': 'Tout réduire',
+      'results.kpiCorrect': 'Correctes',
+      'results.kpiIncorrect': 'Fausses',
+      'results.kpiUnanswered': 'Sans rép.',
+      'results.kpiTime': 'Temps restant',
+      'results.thresholdLabel': '60 pts min.'
     }
   };
 
@@ -810,34 +864,73 @@
     if (focusReaderDoneBtn) focusReaderDoneBtn.textContent = t('readerModal.doneBtn');
 
     // 11. Results Screen
-    const copyBtn = document.getElementById('copyBtn');
-    if (copyBtn) {
-      copyBtn.innerHTML = `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></svg> ${t('results.copyBtn')}`;
+    const copyBtnLabel = document.getElementById('copyBtnLabel');
+    if (copyBtnLabel) {
+      copyBtnLabel.textContent = t('results.copyBtn');
+    } else {
+      const copyBtn = document.getElementById('copyBtn');
+      if (copyBtn) {
+        copyBtn.innerHTML = `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></svg> ${t('results.copyBtn')}`;
+      }
     }
 
-    const printBtn = document.querySelector('#resultsScreen button[onclick="window.print()"]');
-    if (printBtn) {
-      printBtn.innerHTML = `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect width="12" height="8" x="6" y="14"/></svg> ${t('results.printBtn')}`;
+    const printBtnLabel = document.getElementById('printResultsBtnLabel');
+    if (printBtnLabel) {
+      printBtnLabel.textContent = t('results.printBtn');
+    } else {
+      const printBtn = document.querySelector('#resultsScreen button[onclick="window.print()"]');
+      if (printBtn) {
+        printBtn.innerHTML = `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect width="12" height="8" x="6" y="14"/></svg> ${t('results.printBtn')}`;
+      }
     }
+
+    const breakdownHeading = document.getElementById('breakdownHeading');
+    if (breakdownHeading) breakdownHeading.textContent = t('results.breakdownTitle');
+
+    const breakdownHint = document.getElementById('breakdownHint');
+    if (breakdownHint) breakdownHint.textContent = t('results.breakdownHint');
+
+    const thresholdTargetLabel = document.getElementById('thresholdTargetLabel');
+    if (thresholdTargetLabel) thresholdTargetLabel.textContent = t('results.thresholdLabel');
+
+    const kpiCorrectLabel = document.getElementById('kpiCorrectLabel');
+    if (kpiCorrectLabel) kpiCorrectLabel.textContent = t('results.kpiCorrect');
+
+    const kpiIncorrectLabel = document.getElementById('kpiIncorrectLabel');
+    if (kpiIncorrectLabel) kpiIncorrectLabel.textContent = t('results.kpiIncorrect');
+
+    const kpiUnansweredLabel = document.getElementById('kpiUnansweredLabel');
+    if (kpiUnansweredLabel) kpiUnansweredLabel.textContent = t('results.kpiUnanswered');
+
+    const kpiTimeLabel = document.getElementById('kpiTimeLabel');
+    if (kpiTimeLabel) kpiTimeLabel.textContent = t('results.kpiTime');
 
     const restartBtn = document.getElementById('restartBtn');
     if (restartBtn) restartBtn.textContent = t('results.restartBtn');
 
-    const reviewHeaderH3 = document.querySelector('.review-header h3');
-    if (reviewHeaderH3) reviewHeaderH3.textContent = t('results.reviewTitle');
+    const reviewHeaderHeading = document.getElementById('reviewTitleHeading') || document.querySelector('.review-header h2, .review-header h3');
+    if (reviewHeaderHeading) reviewHeaderHeading.textContent = t('results.reviewTitle');
 
-    const filterAll = document.querySelector('#resultsScreen .filter-btn[data-filter="all"]');
-    if (filterAll) {
-      const match = filterAll.textContent.match(/\(\d+\)/);
-      const count = match ? ` ${match[0]}` : '';
-      filterAll.textContent = `${t('results.filterAll')}${count}`;
+    const toggleAllExpBtn = document.getElementById('toggleAllExpBtn');
+    const toggleAllExpLabel = document.getElementById('toggleAllExpLabel');
+    if (toggleAllExpBtn && toggleAllExpLabel) {
+      const isExp = toggleAllExpBtn.getAttribute('aria-expanded') === 'true';
+      toggleAllExpLabel.textContent = isExp ? t('results.collapseAll') : t('results.expandAll');
     }
 
-    const filterInc = document.querySelector('#resultsScreen .filter-btn[data-filter="incorrect"]');
-    if (filterInc) filterInc.textContent = t('results.filterIncorrect');
-
-    const filterCor = document.querySelector('#resultsScreen .filter-btn[data-filter="correct"]');
-    if (filterCor) filterCor.textContent = t('results.filterCorrect');
+    [
+      { filter: 'all', key: 'results.filterAll' },
+      { filter: 'incorrect', key: 'results.filterIncorrect' },
+      { filter: 'correct', key: 'results.filterCorrect' },
+      { filter: 'unanswered', key: 'results.filterUnanswered' }
+    ].forEach(({ filter, key }) => {
+      const btn = document.querySelector(`#resultsScreen .filter-btn[data-filter="${filter}"]`);
+      if (btn) {
+        const match = btn.textContent.match(/\(\d+\)/);
+        const count = match ? ` ${match[0]}` : '';
+        btn.textContent = `${t(key)}${count}`;
+      }
+    });
   }
 
   function setLegendText(container, text) {

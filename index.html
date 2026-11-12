@@ -176,60 +176,144 @@
     <nav class="tabs" id="tabs"></nav>
   </div>
 
-  <!-- Main Split Layout Area -->
-  <main class="main-container" id="testAreaContainer">
-    <div class="content-grid" id="testGrid">
-      <!-- Left: Reading Passage (Sticky) -->
-      <section class="panel sticky-panel" id="passagePanel"></section>
-      <!-- Right: Questions & Options -->
-      <section class="panel sticky-panel" id="questionsPanel"></section>
-    </div>
-  </main>
+  <!-- Single Main Landmark -->
+  <main id="appMain">
+    <!-- Main Split Layout Area -->
+    <section class="main-container" id="testAreaContainer" aria-label="Prüfungsbereich">
+      <div class="content-grid" id="testGrid">
+        <!-- Left: Reading Passage (Sticky) -->
+        <section class="panel sticky-panel" id="passagePanel"></section>
+        <!-- Right: Questions & Options -->
+        <section class="panel sticky-panel" id="questionsPanel"></section>
+      </div>
+    </section>
 
-  <!-- Results Screen -->
-  <main class="main-container" id="resultsScreen">
-    <div class="results-hero">
-      <div id="resModuleBadge" class="badge badge-primary" style="font-size:13px; padding:5px 14px; border-radius:20px; margin-bottom:14px; display:inline-block; font-weight:700; letter-spacing:0.4px;">📖 MODUL LESEN · 100 PUNKTE</div>
-      <div class="score-circle" id="scoreCircle">
-        <div class="score-circle-inner">
-          <div class="score-big" id="resTotalPts">0 / 100 P.</div>
-          <div class="score-pct" id="resTotalPct">0/30 (0%)</div>
+    <!-- Results Screen -->
+    <section class="main-container results-shell" id="resultsScreen" aria-labelledby="resultsHeroTitle">
+      <div class="results-hero" id="resultsHero">
+        <div class="results-hero-topbar">
+          <div class="results-hero-badges">
+            <span id="resModuleBadge" class="badge badge-primary res-module-badge">📖 MODUL LESEN · 100 PUNKTE</span>
+            <span id="resExamTitleBadge" class="res-meta-chip">Zertifikat B1</span>
+            <span id="resDateBadge" class="res-meta-chip"></span>
+          </div>
+          <div class="res-module-switch" id="resModuleSwitchPills" role="group" aria-label="Module results switch">
+            <button type="button" class="res-mod-pill active" data-res-module="lesen">📖 Lesen</button>
+            <button type="button" class="res-mod-pill" data-res-module="horen">🎧 Hören</button>
+          </div>
+        </div>
+
+        <div class="results-hero-grid">
+          <div class="results-ring-col">
+            <div class="score-circle" id="scoreCircle">
+              <progress id="scoreProgressRing" class="score-ring-progress" value="0" max="100" aria-label="Modulpunktzahl"></progress>
+              <div class="score-circle-inner" aria-hidden="true">
+                <div class="score-big" id="resTotalPts">0 / 100 P.</div>
+                <div class="score-pct" id="resTotalPct">0/30 (0%)</div>
+              </div>
+            </div>
+            <div class="b1-threshold-meter" id="b1ThresholdMeter">
+              <div class="threshold-scale-labels">
+                <span>0</span>
+                <span class="threshold-target-label" id="thresholdTargetLabel">60 P. Min.</span>
+                <span>100</span>
+              </div>
+              <div class="threshold-track" aria-hidden="true">
+                <div class="threshold-fill" id="thresholdFill"></div>
+                <div class="threshold-marker" title="60 / 100"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="results-summary-col">
+            <h1 class="results-hero-title" id="resultsHeroTitle">Prüfungsauswertung</h1>
+            <div class="results-status-row">
+              <div id="statusTag" class="status-tag pass">BESTANDEN</div>
+              <span class="results-margin-pill" id="resultsMarginPill"></span>
+            </div>
+            <p class="results-congrats" id="candidateCongrats"></p>
+
+            <div class="results-kpi-strip" id="resultsKpiStrip">
+              <div class="kpi-tile kpi-correct">
+                <span class="kpi-label" id="kpiCorrectLabel">Richtig</span>
+                <strong class="kpi-val" id="kpiCorrectVal">0</strong>
+              </div>
+              <div class="kpi-tile kpi-incorrect">
+                <span class="kpi-label" id="kpiIncorrectLabel">Falsch</span>
+                <strong class="kpi-val" id="kpiIncorrectVal">0</strong>
+              </div>
+              <div class="kpi-tile kpi-unanswered">
+                <span class="kpi-label" id="kpiUnansweredLabel">Offen</span>
+                <strong class="kpi-val" id="kpiUnansweredVal">0</strong>
+              </div>
+              <div class="kpi-tile kpi-time">
+                <span class="kpi-label" id="kpiTimeLabel">Dauer / Stand</span>
+                <strong class="kpi-val" id="kpiTimeVal">—</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="results-actions-bar" id="resultsActionsBar">
+          <button type="button" class="btn btn-primary" id="btnSwitchModule" style="display:none;">
+            Weiter zum Modul Hören →
+          </button>
+          <button type="button" class="btn btn-outline" id="btnBackToExam">
+            ← Zurück zur Prüfung
+          </button>
+          <span class="copy-action-wrap">
+            <button type="button" class="btn btn-outline copy-button" id="copyBtn">
+              <svg class="icon-copy" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></svg>
+              <svg class="icon-check" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <span class="copy-btn-label" id="copyBtnLabel">Ergebnis kopieren</span>
+            </button>
+            <span class="copy-status-pill" id="copyStatusMsg" role="status" aria-live="polite"></span>
+          </span>
+          <button type="button" class="btn btn-outline" id="printResultsBtn" onclick="window.print()">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect width="12" height="8" x="6" y="14"/></svg>
+            <span id="printResultsBtnLabel">Drucken / PDF</span>
+          </button>
+          <button type="button" class="btn btn-outline btn-restart-subtle" id="restartBtn">Modul neu starten</button>
         </div>
       </div>
-      <div id="statusTag" class="status-tag pass">BESTANDEN</div>
-      <p id="candidateCongrats" style="color:var(--text-muted); font-size:15px; margin-bottom:18px;"></p>
-      <div style="display:flex; justify-content:center; gap:10px; flex-wrap:wrap;" id="resultsActionsBar">
-        <button class="btn btn-outline" id="btnBackToExam">
-          ← Zurück zur Prüfung
-        </button>
-        <button class="btn btn-primary" id="btnSwitchModule" style="display:none;">
-          Weiter zum Modul Hören →
-        </button>
-        <button class="btn btn-outline" id="copyBtn">
-          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></svg>
-          Ergebnis kopieren
-        </button>
-        <button class="btn btn-outline" onclick="window.print()">
-          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect width="12" height="8" x="6" y="14"/></svg>
-          Drucken / PDF
-        </button>
-        <button class="btn btn-outline" id="restartBtn">Modul neu starten</button>
-      </div>
-    </div>
 
-    <div class="teil-scores-grid" id="teilScoresGrid"></div>
+      <div class="dual-module-strip" id="dualModuleStrip" aria-label="Modulübersicht"></div>
 
-    <div class="review-panel">
-      <div class="review-header">
-        <h3 style="font-size:17px; font-weight:700;">Detaillierte Aufgabenübersicht</h3>
-        <div class="filter-pills">
-          <button class="filter-btn active" data-filter="all">Alle (30)</button>
-          <button class="filter-btn" data-filter="incorrect">Falsch</button>
-          <button class="filter-btn" data-filter="correct">Richtig</button>
+      <section class="results-breakdown-section" aria-labelledby="breakdownHeading">
+        <div class="results-section-header">
+          <h2 class="results-section-title" id="breakdownHeading">Ergebnisse nach Prüfungsteilen</h2>
+          <span class="results-section-hint" id="breakdownHint">Teil anklicken zum Filtern</span>
         </div>
-      </div>
-      <div id="reviewItemsList"></div>
-    </div>
+        <div class="teil-scores-grid" id="teilScoresGrid"></div>
+      </section>
+
+      <section class="review-panel" aria-labelledby="reviewTitleHeading">
+        <div class="review-header">
+          <div class="review-title-block">
+            <h2 class="review-panel-title" id="reviewTitleHeading">Detaillierte Aufgabenübersicht</h2>
+            <span class="review-showing-meta" id="reviewShowingMeta"></span>
+          </div>
+          <div class="review-controls">
+            <div class="filter-pills" role="group" aria-label="Filter Aufgaben">
+              <button type="button" class="filter-btn active" data-filter="all">Alle (30)</button>
+              <button type="button" class="filter-btn" data-filter="incorrect">Falsch</button>
+              <button type="button" class="filter-btn" data-filter="correct">Richtig</button>
+              <button type="button" class="filter-btn" data-filter="unanswered">Offen</button>
+            </div>
+            <button type="button" class="teil-filter-chip" id="activeTeilFilterChip" style="display:none;"></button>
+            <div class="lang-switch-group results-lang-switch" id="resultsLangSwitch" data-target="results-questions">
+              <button type="button" class="lang-btn" data-lang="de" title="Deutsch (LTR)">🇩🇪 DE</button>
+              <button type="button" class="lang-btn" data-lang="fr" title="Français (LTR)">🇫🇷 FR</button>
+              <button type="button" class="lang-btn" data-lang="ar" title="العربية (RTL)">🇸🇦 AR</button>
+            </div>
+            <button type="button" class="btn btn-sm btn-outline review-expand-all-btn" id="toggleAllExpBtn" aria-expanded="false">
+              <span id="toggleAllExpLabel">Alle Erklärungen öffnen</span>
+            </button>
+          </div>
+        </div>
+        <div class="review-items-list" id="reviewItemsList"></div>
+      </section>
+    </section>
   </main>
 
   <!-- Bottom Navigation -->
